@@ -1,7 +1,6 @@
 name: Run Python Script
 
 on:
-  push:       # Run on every push (optional)
   workflow_dispatch:  # Allow manual run from GitHub UI
   schedule:           # Optional: run on a schedule (UTC time)
     - cron: '10 0-23 * * *'  # Every day at 12:00 UTC
@@ -25,4 +24,8 @@ jobs:
           if [ -f requirements.actions.txt ]; then pip install -r requirements.actions.txt; fi
 
       - name: Run Python script
+        env: 
+          TOKEN: ${{secrets.TOKEN}}
+          REPO: merchantscroll
+          USER: chumpblocckami
         run: python src/crawler.py
