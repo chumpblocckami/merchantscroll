@@ -136,4 +136,4 @@ if __name__ == "__main__":
 
             time.sleep(1)
     except Exception as e:
-        print("Exception: {e}. Rerunning later.")
+        print(f"Exception: {e}. Rerunning later.")
