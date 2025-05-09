@@ -27,11 +27,11 @@ jobs:
           if [ -f requirements.actions.txt ]; then pip install -r requirements.actions.txt; fi
       - name: Set git
         run: | 
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "chumpblocckami"
+          git config --global user.email "mazzolauni@gmail.com"
       - name: Run Python script
         env: 
           TOKEN: ${{secrets.TOKEN}}
           REPO: merchantscroll
-          USER: github-actions[bot]
+          USER: chumpblocckami
         run: python src/crawler.py
