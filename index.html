@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Infinite Image Scroll from URL</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        h1,
+        p {
+            text-align: center;
+        }
+
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .card-image {
+            max-width: 90%;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .loader {
+            text-align: center;
+            padding: 20px;
+            font-size: 1.2em;
+            color: #666;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Merchant Scroll</h1>
+    <p>Loading infinite decklists</p>
+
+    <div id="content" class="image-container"></div>
+    <div class="loader" id="loader">Loading...</div>
+
+    <script>
+        const fileUrl = "https://raw.githubusercontent.com/chumpblocckami/merchantscroll/main/assets/decklists.txt";
+
+        const content = document.getElementById("content");
+        const loader = document.getElementById("loader");
+
+        let imageUrls = [];
+        let index = 0;
+        const batchSize = 5;
+
+        function loadImages() {
+            if (index >= imageUrls.length) {
+                loader.textContent = "No more images to load.";
+                return;
+            }
+
+            for (let i = 0; i < batchSize && index < imageUrls.length; i++, index++) {
+                const img = document.createElement("img");
+                img.onerror = () => console.warn("Failed to load:", img.src);
+                img.src = imageUrls[index];
+                img.className = "card-image";
+                content.appendChild(img);
+            }
+        }
+
+        window.addEventListener("scroll", () => {
+            if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 300) {
+                loadImages();
+            }
+        });
+
+        // Fetch image list from text file
+        fetch(fileUrl)
+            .then(res => {
+                if (!res.ok) throw new Error("Failed to load file");
+                return res.text();
+            })
+            .then(text => {
+                imageUrls = text
+                    .split(/\s+/)
+                    .map(url => url.trim())
+                    .filter(url => url.length > 0);
+                loadImages(); // Load first batch
+            })
+            .catch(err => {
+                loader.textContent = "Error loading file: " + err.message;
+            });
+    </script>
+</body>
+
+</html>
