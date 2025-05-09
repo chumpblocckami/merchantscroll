@@ -122,14 +122,18 @@ saver = Saver(os.path.dirname(os.path.realpath(__file__)))
 if __name__ == "__main__":
     with open("./assets/tournaments.txt", "r") as f:
         crawled_tournaments = f.readlines()
-    tournaments = crawl_tournaments()
-    # TODO: Filter tournaments for Pauper (extend to other formats later)
-    tournaments = [x for x in tournaments if "pauper" in x.lower()]
-    for tournament in tqdm(tournaments, desc="Crawling tournaments"):
-        if tournament in crawled_tournaments:
-            print("Already crawled tournament:", tournament)
-            continue
-        deck = crawl_decks(tournament)
-        saver.submit_changes(glob.glob("./assets/*/*.png"))
 
-        time.sleep(1)
+    try:
+        tournaments = crawl_tournaments()
+        # TODO: Filter tournaments for Pauper (extend to other formats later)
+        tournaments = [x for x in tournaments if "pauper" in x.lower()]
+        for tournament in tqdm(tournaments, desc="Crawling tournaments"):
+            if tournament in crawled_tournaments:
+                print("Already crawled tournament:", tournament)
+                continue
+            deck = crawl_decks(tournament)
+            saver.submit_changes(glob.glob("./assets/*/*.png"))
+
+            time.sleep(1)
+    except Exception as e:
+        print("Exception: {e}. Rerunning later.")

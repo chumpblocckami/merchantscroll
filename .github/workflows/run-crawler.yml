@@ -3,7 +3,7 @@ name: Run Python Script
 on:
   workflow_dispatch:  # Allow manual run from GitHub UI
   schedule:           # Optional: run on a schedule (UTC time)
-    - cron: '10 0-23 * * *'  # Every day at 12:00 UTC
+    - cron: '0 * * * *'  # Start every hour
 
 jobs:
   run-script:
