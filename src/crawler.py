@@ -84,8 +84,6 @@ def crawl_decks(tournament_url: str) -> None:
                 f.write(
                     f"https://raw.githubusercontent.com/chumpblocckami/merchantscroll/main/assets/{deck_format}/{deck_name}.png\n"  # noqa
                 )
-            # REMOVE THIS
-            return
 
     else:
         return
