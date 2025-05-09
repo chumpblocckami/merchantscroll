@@ -1,9 +1,12 @@
 name: Run Python Script
 
 on:
-  workflow_dispatch:  # Allow manual run from GitHub UI
-  schedule:           # Optional: run on a schedule (UTC time)
-    - cron: '0 * * * *'  # Start every hour
+  workflow_dispatch:
+  schedule:        
+    - cron: '0 * * * *'
+    
+permissions:
+  contents: write
 
 jobs:
   run-script:
@@ -22,7 +25,10 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           if [ -f requirements.actions.txt ]; then pip install -r requirements.actions.txt; fi
-
+      - name: Set git
+        run: | 
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
       - name: Run Python script
         env: 
           TOKEN: ${{secrets.TOKEN}}
