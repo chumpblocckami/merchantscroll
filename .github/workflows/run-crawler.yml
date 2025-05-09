@@ -1,4 +1,4 @@
-name: Run Python Script
+name: Update decks in merchantscroll
 
 on:
   workflow_dispatch:
@@ -33,5 +33,5 @@ jobs:
         env: 
           TOKEN: ${{secrets.TOKEN}}
           REPO: merchantscroll
-          USER: chumpblocckami
+          USER: github-actions[bot]
         run: python src/crawler.py
