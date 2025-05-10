@@ -26,9 +26,12 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.actions.txt ]; then pip install -r requirements.actions.txt; fi
       - name: Set git
+        env: 
+          USER: ${{secrets.USER}}
+          MAIL: ${{secrets.MAIL}}
         run: | 
-          git config --global user.name "chumpblocckami"
-          git config --global user.email "mazzolauni@gmail.com"
+          git config --global user.name "${USER}"
+          git config --global user.email "${MAIL}"
       - name: Run Python script
         env: 
           TOKEN: ${{secrets.TOKEN}}
