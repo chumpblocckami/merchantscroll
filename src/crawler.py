@@ -86,7 +86,7 @@ def crawl_decks(tournament_url: str) -> None:
             fig = display_deck(deck=deck)
             deck_name = f"{deck_format}_{tournament_id}_{decklist['player'].replace(' ', '_').lower()}"
             fig.savefig(
-                Path(f"./assets/{deck_format}/{deck_name}.png").resolve(),
+                Path(f"./assets/{reference_date}/{deck_name}.png").resolve(),
                 dpi=100,
                 bbox_inches="tight",
             )
@@ -96,7 +96,7 @@ def crawl_decks(tournament_url: str) -> None:
                 f.write(
                     f"https://raw.githubusercontent.com/chumpblocckami/merchantscroll/{deck_format}/assets/{reference_date}/{deck_name}.png\n"  # noqa
                 )
-            commit_and_push(Path(f"./assets/{deck_format}/{deck_name}.png").resolve(), 
+            commit_and_push(Path(f"./assets/{reference_date}/{deck_name}.png").resolve(), 
                             target_branch=deck_format,
                             commit_message=f"Added {deck_name} to {deck_format}")
             commit_and_push(Path("./assets/decklists.txt").resolve(), 
@@ -107,7 +107,9 @@ def crawl_decks(tournament_url: str) -> None:
         return
     with open("./assets/tournaments.txt", "a") as f:
         f.write(tournament_url + "\n")
-    commit_and_push(Path("./assets/tournaments.txt").resolve(), commit_message=f"Updated crawled tournaments with {tournament_url}")
+    commit_and_push(Path("./assets/tournaments.txt").resolve(), 
+                    target_branch="main", 
+                    commit_message=f"Updated crawled tournaments with {tournament_url}")
 
 def crawl_tournaments() -> pd.DataFrame:
     base_url = "https://www.mtgo.com/decklists"
