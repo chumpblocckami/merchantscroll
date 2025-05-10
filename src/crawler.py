@@ -1,4 +1,3 @@
-import json
 import re
 import time
 from functools import reduce
@@ -9,11 +8,12 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
-import glob 
 from drawer import display_deck
-from saver import Saver
 import os 
+import json 
+from saver import commit_and_push
 
+    
 def crawl_decks(tournament_url: str) -> None:
     # Headers to mimic a browser visit
     headers = {"User-Agent": "Mozilla/5.0"}
@@ -30,9 +30,27 @@ def crawl_decks(tournament_url: str) -> None:
     pattern = r"window\.MTGO\.decklists\.data\s*=\s*({.*?});"
     match = re.search(pattern, str(soup), re.DOTALL)
     if match:
-        data = match.group(1)
-        data = eval(data.replace("false", "False").replace("true", "True"))
-        for decklist in tqdm(data["decklists"], desc="Generating decklists"):
+        tournament_data = eval(match.group(1).replace("false", "False").replace("true", "True"))
+
+        # Save raw tournament data to file
+        deck_format = tournament_data["site_name"].split("-")[0]
+        tournament_name = tournament_data["site_name"]
+        reference_date = (
+                    tournament_data["publish_date"]
+                    if "publish_date" in tournament_data
+                    else tournament_data["starttime"].split(" ")[0]
+                )
+        tournament_id = tournament_data["event_id"] if "event_id" in tournament_data else tournament_data["playeventid"]
+        Path(f"./assets/{reference_date}").mkdir(parents=True, exist_ok=True)
+        with open(f"./assets/{reference_date}/{tournament_name}.json", "w") as f:
+            json.dump(tournament_data,f, indent=2)
+        commit_and_push(Path(f"./assets/{reference_date}/{tournament_name}.json").resolve(), 
+                            target_branch=deck_format,
+                            commit_message=f"Added {reference_date} raw tournament data")
+        
+        # Save decklist images
+        pbar = tqdm(tournament_data["decklists"], desc="Reading decklists")
+        for decklist in pbar:
             deck = {
                 "player": decklist["player"],
                 "main": reduce(
@@ -61,20 +79,14 @@ def crawl_decks(tournament_url: str) -> None:
                     decklist["sideboard_deck"],
                     {},
                 ),
-                "date": (
-                    data["publish_date"]
-                    if "publish_date" in data
-                    else data["starttime"].split(" ")[0]
-                ),
-                "tournament": data["name"] if "name" in data else data["description"],
+                "date": reference_date,
+                "tournament": tournament_name,
             }
+            pbar.set_description(desc=f"Reading {deck['tournament']}-{deck['player']}")
             fig = display_deck(deck=deck)
-            deck_format = data["site_name"].split("-")[0]
-            Path(f"./assets/{deck_format}").mkdir(parents=True, exist_ok=True)
-            event_id = data["eventid"] if "eventid" in data else data["playeventid"]
-            deck_name = f"{event_id}_{decklist['player'].replace(' ', '_').lower()}"
+            deck_name = f"{deck_format}_{tournament_id}_{decklist['player'].replace(' ', '_').lower()}"
             fig.savefig(
-                f"./assets/{deck_format}/{deck_name}.png",  # noqa
+                Path(f"./assets/{deck_format}/{deck_name}.png").resolve(),
                 dpi=100,
                 bbox_inches="tight",
             )
@@ -82,14 +94,20 @@ def crawl_decks(tournament_url: str) -> None:
 
             with open("./assets/decklists.txt", "a") as f:
                 f.write(
-                    f"https://raw.githubusercontent.com/chumpblocckami/merchantscroll/main/assets/{deck_format}/{deck_name}.png\n"  # noqa
+                    f"https://raw.githubusercontent.com/chumpblocckami/merchantscroll/{deck_format}/assets/{reference_date}/{deck_name}.png\n"  # noqa
                 )
-
+            commit_and_push(Path(f"./assets/{deck_format}/{deck_name}.png").resolve(), 
+                            target_branch=deck_format,
+                            commit_message=f"Added {deck_name} to {deck_format}")
+            commit_and_push(Path("./assets/decklists.txt").resolve(), 
+                            target_branch=deck_format,
+                            commit_message=f"Updated available decklists with {deck_name}")
+            #os.remove(Path(f"./assets/{deck_format}/{deck_name}.png"))
     else:
         return
     with open("./assets/tournaments.txt", "a") as f:
         f.write(tournament_url + "\n")
-
+    commit_and_push(Path("./assets/tournaments.txt").resolve(), commit_message=f"Updated crawled tournaments with {tournament_url}")
 
 def crawl_tournaments() -> pd.DataFrame:
     base_url = "https://www.mtgo.com/decklists"
@@ -117,8 +135,6 @@ def crawl_tournaments() -> pd.DataFrame:
 
     return tournament_links
 
-saver = Saver(os.path.dirname(os.path.realpath(__file__)))
-
 if __name__ == "__main__":
     with open("./assets/tournaments.txt", "r") as f:
         crawled_tournaments = f.readlines()
@@ -127,12 +143,13 @@ if __name__ == "__main__":
         tournaments = crawl_tournaments()
         # TODO: Filter tournaments for Pauper (extend to other formats later)
         tournaments = [x for x in tournaments if "pauper" in x.lower()]
-        for tournament in tqdm(tournaments, desc="Crawling tournaments"):
+        pbar= tqdm(tournaments, desc="Crawling tournaments")
+        for tournament in pbar:
+            pbar.set_description(desc=f"Crawling {tournament}")
             if tournament in crawled_tournaments:
                 print("Already crawled tournament:", tournament)
                 continue
             deck = crawl_decks(tournament)
-            saver.submit_changes(glob.glob("./assets/*/*.png"))
 
             time.sleep(1)
     except Exception as e:

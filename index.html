@@ -38,6 +38,15 @@
             font-size: 1.2em;
             color: #666;
         }
+
+        .format-selector {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .format-selector label {
+            margin-right: 15px;
+        }
     </style>
 </head>
 
@@ -45,18 +54,36 @@
     <h1>Merchant Scroll</h1>
     <p>Loading infinite decklists</p>
 
+    <!-- Radio Buttons -->
+    <div class="format-selector">
+        <strong>Format:</strong>
+        <label><input type="radio" name="format" value="pauper" checked /> Pauper</label>
+        <label><input type="radio" name="format" value="modern" /> Modern</label>
+        <label><input type="radio" name="format" value="legacy" /> Legacy</label>
+    </div>
+
     <div id="content" class="image-container"></div>
     <div class="loader" id="loader">Loading...</div>
 
     <script>
-        const fileUrl = "https://raw.githubusercontent.com/chumpblocckami/merchantscroll/main/assets/decklists.txt";
-
         const content = document.getElementById("content");
         const loader = document.getElementById("loader");
+
+        const fileBase = "https://raw.githubusercontent.com/chumpblocckami/merchantscroll/";
+        const formats = {
+            pauper: "pauper/assets/decklists.txt",
+            modern: "modern/assets/decklists.txt",
+            legacy: "legacy/assets/decklists.txt"
+        };
 
         let imageUrls = [];
         let index = 0;
         const batchSize = 5;
+
+        function clearImages() {
+            content.innerHTML = "";
+            loader.textContent = "Loading...";
+        }
 
         function loadImages() {
             if (index >= imageUrls.length) {
@@ -73,28 +100,45 @@
             }
         }
 
+        function fetchDecklist(format) {
+            const fileUrl = `${fileBase}/${formats[format]}`;
+            clearImages();
+            index = 0;
+            imageUrls = [];
+
+            fetch(fileUrl)
+                .then(res => {
+                    if (!res.ok) throw new Error("Failed to load file");
+                    return res.text();
+                })
+                .then(text => {
+                    imageUrls = text
+                        .split(/\s+/)
+                        .map(url => url.trim())
+                        .filter(url => url.length > 0);
+                    loadImages(); // Load first batch
+                })
+                .catch(err => {
+                    loader.textContent = "Error loading file: " + err.message;
+                });
+        }
+
+        // Scroll handler
         window.addEventListener("scroll", () => {
             if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 300) {
                 loadImages();
             }
         });
 
-        // Fetch image list from text file
-        fetch(fileUrl)
-            .then(res => {
-                if (!res.ok) throw new Error("Failed to load file");
-                return res.text();
-            })
-            .then(text => {
-                imageUrls = text
-                    .split(/\s+/)
-                    .map(url => url.trim())
-                    .filter(url => url.length > 0);
-                loadImages(); // Load first batch
-            })
-            .catch(err => {
-                loader.textContent = "Error loading file: " + err.message;
+        // Radio button change handler
+        document.querySelectorAll('input[name="format"]').forEach(radio => {
+            radio.addEventListener("change", (e) => {
+                fetchDecklist(e.target.value);
             });
+        });
+
+        // Initial load
+        fetchDecklist("pauper");
     </script>
 </body>
 
