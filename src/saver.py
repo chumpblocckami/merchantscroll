@@ -3,8 +3,9 @@ import os
 
 def commit_and_push(file_path: str, target_branch:str, commit_message: str = ""):
     repo = Repo(os.getcwd())
+    repo.git.config("pull.rebase", "true")
     repo.remotes.origin.pull(target_branch)
-    
+
     if target_branch in repo.heads:
         repo.git.checkout(target_branch)
     else:
