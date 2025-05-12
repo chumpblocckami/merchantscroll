@@ -74,28 +74,28 @@ def display_deck(deck: dict) -> plt.Figure:
             spacing_row_in + (rows - 1 - row) * (img_height_in + spacing_row_in) + extra_row_height
         )
 
-        if i == 0:
-            # Draw red rectangle for deck info
-            rect = patches.Rectangle(
-                (x, base_y - (card_shift_in * 3)),
-                img_width_in,
-                img_height_in + (card_shift_in * 3),
-                linewidth=2,
-                edgecolor="red",
-                facecolor="none",
-            )
-            ax.add_patch(rect)
-            ax.text(
-                x + img_width_in / 2,
-                base_y + img_height_in / 2,
-                f"{deck['player']}\n{deck['tournament']}\n{deck['date']}",
-                color="black",
-                ha="center",
-                va="center",
-                fontsize=8,
-                weight="bold",
-            )
-            continue
+        #if i == 0:
+        #    # Draw red rectangle for deck info
+        #    rect = patches.Rectangle(
+        #        (x, base_y - (card_shift_in * 3)),
+        #        img_width_in,
+        #        img_height_in + (card_shift_in * 3),
+        #        linewidth=2,
+        #        edgecolor="red",
+        #        facecolor="none",
+        #    )
+        #    ax.add_patch(rect)
+        #    ax.text(
+        #        x + img_width_in / 2,
+        #        base_y + img_height_in / 2,
+        #        f"{deck['player']}\n{deck['tournament']}\n{deck['date']}",
+        #        color="black",
+        #        ha="center",
+        #        va="center",
+        #        fontsize=8,
+        #        weight="bold",
+        #    )
+        #    continue
 
         for j, img in enumerate(group):
             y = base_y - j * card_shift_in

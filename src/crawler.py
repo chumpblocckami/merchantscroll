@@ -105,8 +105,13 @@ def crawl_decks(tournament_url: str) -> None:
             #os.remove(Path(f"./assets/{deck_format}/{deck_name}.png"))
     else:
         return
-    with open(Path("./assets/tournaments.txt").resolve(), "a") as f:
-        f.write(tournament_url + "\n")
+    with open(Path("./assets/tournaments.txt").resolve(), "r") as f:
+        crawled_tournaments = f.read_lines()
+    crawled_tournaments = [x.strip() for x in crawled_tournaments]
+    crawled_tournaments.append(tournament_url)
+    sorted(crawled_tournaments)
+    with open(Path("./assets/tournaments.txt").resolve(), "w") as f:
+        f.write("\n".join(crawled_tournaments))
     commit_and_push(Path("./assets/tournaments.txt").resolve(), 
                     target_branch="main", 
                     commit_message=f"Updated crawled tournaments with {tournament_url}")
@@ -151,7 +156,7 @@ if __name__ == "__main__":
             if tournament in crawled_tournaments:
                 print("Already crawled tournament:", tournament)
                 continue
-            deck = crawl_decks(tournament)
+            crawl_decks(tournament)
 
             time.sleep(1)
     except Exception as e:
