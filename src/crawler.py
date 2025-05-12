@@ -42,7 +42,7 @@ def crawl_decks(tournament_url: str) -> None:
                 )
         tournament_id = tournament_data["event_id"] if "event_id" in tournament_data else tournament_data["playeventid"]
         Path(f"./assets/{reference_date}").mkdir(parents=True, exist_ok=True)
-        with open(f"./assets/{reference_date}/{tournament_name}.json", "w") as f:
+        with open(Path(f"./assets/{reference_date}/{tournament_name}.json").resolve(), "w") as f:
             json.dump(tournament_data,f, indent=2)
         commit_and_push(Path(f"./assets/{reference_date}/{tournament_name}.json").resolve(), 
                             target_branch=deck_format,
@@ -92,7 +92,7 @@ def crawl_decks(tournament_url: str) -> None:
             )
             plt.close()
 
-            with open("./assets/decklists.txt", "a") as f:
+            with open(Path("./assets/decklists.txt").resolve(), "a") as f:
                 f.write(
                     f"https://raw.githubusercontent.com/chumpblocckami/merchantscroll/{deck_format}/assets/{reference_date}/{deck_name}.png\n"  # noqa
                 )
@@ -105,7 +105,7 @@ def crawl_decks(tournament_url: str) -> None:
             #os.remove(Path(f"./assets/{deck_format}/{deck_name}.png"))
     else:
         return
-    with open("./assets/tournaments.txt", "a") as f:
+    with open(Path("./assets/tournaments.txt").resolve(), "a") as f:
         f.write(tournament_url + "\n")
     commit_and_push(Path("./assets/tournaments.txt").resolve(), 
                     target_branch="main", 
@@ -138,7 +138,7 @@ def crawl_tournaments() -> pd.DataFrame:
     return tournament_links
 
 if __name__ == "__main__":
-    with open("./assets/tournaments.txt", "r") as f:
+    with open(Path("./assets/tournaments.txt").resolve(), "r") as f:
         crawled_tournaments = f.readlines()
 
     try:
