@@ -5,7 +5,7 @@ from typing import Union
 from git import GitCommandError, InvalidGitRepositoryError, Repo
 
 
-def git_commit_push(
+def commit_and_push(
     file_path: Union[str, Path, list[Union[str, Path]]],
     branch: str,
     commit_message: str = "Update via script",
