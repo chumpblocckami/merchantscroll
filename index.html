@@ -151,6 +151,40 @@
 
         // Initial load
         fetchDecklist("pauper");
+
+
+        let touchStartY = 0;
+        let touchEndY = 0;
+
+        window.addEventListener("touchstart", (e) => {
+            touchStartY = e.changedTouches[0].screenY;
+        });
+
+        window.addEventListener("touchend", (e) => {
+            touchEndY = e.changedTouches[0].screenY;
+            handleSwipe();
+        });
+
+        function handleSwipe() {
+            const threshold = 50; // Minimum distance for a swipe
+            const deltaY = touchStartY - touchEndY;
+
+            if (Math.abs(deltaY) > threshold) {
+                if (deltaY > 0) {
+                    // Swipe up => next image
+                    if (index < imageUrls.length - 1) {
+                        index++;
+                        showImageAtIndex(index);
+                    }
+                } else {
+                    // Swipe down => previous image
+                    if (index > 0) {
+                        index--;
+                        showImageAtIndex(index);
+                    }
+                }
+            }
+        }
     </script>
 </body>
 
