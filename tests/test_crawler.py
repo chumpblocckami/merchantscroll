@@ -1,7 +1,5 @@
-import os
-
 from entrypoint import start_crawler
 
 if __name__ == "__main__":
-    os.environ["MERCHANT_SCROLL_DEBUG"] = "1"
+    # Add here some magic logic for debugging purposes
     start_crawler()
