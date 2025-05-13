@@ -50,7 +50,9 @@ def crawl_decks(tournament_url: str) -> None:
             else tournament_data["playeventid"]
         )
         Path(f"./assets/{reference_date}").mkdir(parents=True, exist_ok=True)
-        with open(Path(f"./assets/{reference_date}/{tournament_name}.json").resolve(), "w") as f:
+        with open(
+            str(Path(f"./assets/{reference_date}/{tournament_name}.json").resolve()), "w"
+        ) as f:
             json.dump(tournament_data, f, indent=2)
         commit_and_push(
             Path(f"./assets/{reference_date}/{tournament_name}.json").resolve(),
@@ -114,6 +116,7 @@ def crawl_decks(tournament_url: str) -> None:
 
         # os.remove(Path(f"./assets/{deck_format}/{deck_name}.png"))
     else:
+        print("No tournament data found.")
         return
 
     # Push decklist images to the repository
