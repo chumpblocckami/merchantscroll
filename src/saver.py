@@ -4,10 +4,11 @@ from git import GitCommandError, Repo
 
 
 def commit_and_push(
-    file_path: str | list[str], target_branch: str, commit_message: str = "Update data", *kwargs
+    file_path: str | list[str],
+    target_branch: str,
+    commit_message: str = "Update data",
 ):
-    if kwargs.get("debug"):
-        return
+
     repo = Repo(os.getcwd())
     origin = repo.remotes.origin
 
