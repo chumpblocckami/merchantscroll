@@ -111,7 +111,7 @@ def crawl_decks(tournament_url: str) -> None:
                 0,
                 f"https://raw.githubusercontent.com/chumpblocckami/merchantscroll/{deck_format}/assets/{reference_date}/{deck_name}.png",  # noqa
             )
-            with open(TOURNAMENT_FILE_PATH, "w") as f:
+            with open(DECKLISTS_FILE_PATH, "w") as f:
                 f.write("\n".join(crawled_decklists) + "\n")
 
         # os.remove(Path(f"./assets/{deck_format}/{deck_name}.png"))
