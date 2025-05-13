@@ -1,9 +1,12 @@
 from io import BytesIO
 
+import matplotlib
 import matplotlib.pyplot as plt
 import requests
 import scrython
 from PIL import Image
+
+matplotlib.use("Agg")
 
 # --- Configuration ---
 cols, rows = 5, 3
@@ -22,7 +25,7 @@ spacing_col_in = spacing_between_columns_px / dpi
 spacing_row_in = spacing_between_rows_px / dpi
 card_shift_in = card_shift_px / dpi
 
-# 🔺 Add 1 extra row for the 15-card row
+# Add 1 extra row for the sideboard
 extra_row_height = img_height_in + spacing_row_in
 fig_height_in = rows * img_height_in + (rows + 1) * spacing_row_in + extra_row_height
 fig_width_in = cols * img_width_in + (cols + 1) * spacing_col_in
@@ -73,29 +76,6 @@ def display_deck(deck: dict) -> plt.Figure:
             spacing_row_in + (rows - 1 - row) * (img_height_in + spacing_row_in) + extra_row_height
         )
 
-        # if i == 0:
-        #    # Draw red rectangle for deck info
-        #    rect = patches.Rectangle(
-        #        (x, base_y - (card_shift_in * 3)),
-        #        img_width_in,
-        #        img_height_in + (card_shift_in * 3),
-        #        linewidth=2,
-        #        edgecolor="red",
-        #        facecolor="none",
-        #    )
-        #    ax.add_patch(rect)
-        #    ax.text(
-        #        x + img_width_in / 2,
-        #        base_y + img_height_in / 2,
-        #        f"{deck['player']}\n{deck['tournament']}\n{deck['date']}",
-        #        color="black",
-        #        ha="center",
-        #        va="center",
-        #        fontsize=8,
-        #        weight="bold",
-        #    )
-        #    continue
-
         for j, img in enumerate(group):
             y = base_y - j * card_shift_in
             extent = [x, x + img_width_in, y, y + img_height_in]
@@ -103,27 +83,49 @@ def display_deck(deck: dict) -> plt.Figure:
 
     bottom_y = spacing_row_in / 2  # bottom padding
 
-    usable_width = fig_width_in - (cols + 1) * spacing_col_in
-    total_card_width = 15 * img_width_in
-    h_spacing = (usable_width - total_card_width) / 14
+    usable_width = fig_width_in - spacing_col_in
+    total_card_width = len(side_cards) * img_width_in
+    h_spacing = (usable_width - total_card_width) / (len(side_cards) - 1)
 
     for i, card_image in enumerate(side_cards):
         x = spacing_col_in + i * (img_width_in + h_spacing)
         extent = [x, x + img_width_in, bottom_y, bottom_y + img_height_in]
-        try:
-            ax.imshow(card_image, extent=extent)
-        except IndexError:
-            break  # in case there are fewer than 15 cards
 
+        ax.imshow(card_image, extent=extent)
+
+    # Add player name, tournament and date
     plt.text(
         0.5,
-        0.95,
-        f"{deck['player']}\n{deck['tournament']}\n{deck['date']}",
+        1,
+        f"{deck['player']}",
         ha="center",
         va="top",
-        fontsize=10,
+        fontsize=15,
         weight="bold",
         color="black",
         transform=ax.transAxes,
     )
+    plt.text(
+        0.5,
+        0.98,
+        f"{deck['tournament']}",
+        ha="center",
+        va="top",
+        fontsize=12,
+        weight="bold",
+        color="black",
+        transform=ax.transAxes,
+    )
+    plt.text(
+        0.5,
+        0.96,
+        f"{deck['date']}",
+        ha="center",
+        va="top",
+        fontsize=12,
+        weight="bold",
+        color="black",
+        transform=ax.transAxes,
+    )
+
     return plt.gcf()

@@ -3,7 +3,12 @@ import os
 from git import GitCommandError, Repo
 
 
-def commit_and_push(file_path: str, target_branch: str, commit_message: str = "Update data"):
+def commit_and_push(
+    file_path: str | list[str], target_branch: str, commit_message: str = "Update data"
+):
+    if os.environ["MERCHANT_SCROLL_DEBUG"]:
+        return
+
     repo = Repo(os.getcwd())
     origin = repo.remotes.origin
 
@@ -35,7 +40,15 @@ def commit_and_push(file_path: str, target_branch: str, commit_message: str = "U
         return
 
     # Stage and commit changes
-    repo.git.add(file_path)
+    if isinstance(file_path, str):
+        repo.git.add(file_path)
+    elif isinstance(file_path, list):
+        for path in file_path:
+            repo.git.add(path)
+    else:
+        raise ValueError(
+            f"file_path must be a string or a list of strings, found {type(file_path)}"
+        )
     if repo.is_dirty(untracked_files=True):
         repo.index.commit(commit_message)
         try:

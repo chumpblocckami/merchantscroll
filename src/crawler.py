@@ -1,26 +1,25 @@
 import json
 import re
-import time
-from ast.literal_eval import literal_eval
+from ast import literal_eval
+from datetime import datetime
 from functools import reduce
+from glob import glob
 from pathlib import Path
 
 import matplotlib.pyplot as plt
-import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
-from drawer import display_deck
-from saver import commit_and_push
+from .constants import DECKLISTS_FILE_PATH, HEADERS, PATTERN, TOURNAMENT_FILE_PATH
+from .drawer import display_deck
+from .saver import commit_and_push
+from .utils import normalize_date
 
 
 def crawl_decks(tournament_url: str) -> None:
-    # Headers to mimic a browser visit
-    headers = {"User-Agent": "Mozilla/5.0"}
-
     # Fetch the deck page
-    response = requests.get(tournament_url, headers=headers, timeout=20)
+    response = requests.get(tournament_url, headers=HEADERS, timeout=20)
     if response.status_code != 200:
         print(f"Failed to retrieve the deck page. Status code: {response.status_code}")
         exit()
@@ -28,8 +27,7 @@ def crawl_decks(tournament_url: str) -> None:
     # Parse the deck page
     soup = BeautifulSoup(response.text, "html.parser")
 
-    pattern = r"window\.MTGO\.decklists\.data\s*=\s*({.*?});"
-    match = re.search(pattern, str(soup), re.DOTALL)
+    match = re.search(PATTERN, str(soup), re.DOTALL)
     if match:
         tournament_data = literal_eval(
             match.group(1).replace("false", "False").replace("true", "True")
@@ -37,12 +35,15 @@ def crawl_decks(tournament_url: str) -> None:
 
         # Save raw tournament data to file
         deck_format = tournament_data["site_name"].split("-")[0]
-        tournament_name = tournament_data["site_name"]
+        tournament_name = " ".join(
+            [x.capitalize() for x in tournament_data["site_name"].split("-")[:2]]
+        )
         reference_date = (
             tournament_data["publish_date"]
             if "publish_date" in tournament_data
             else tournament_data["starttime"].split(" ")[0]
         )
+        reference_date = normalize_date(reference_date)
         tournament_id = (
             tournament_data["event_id"]
             if "event_id" in tournament_data
@@ -91,11 +92,9 @@ def crawl_decks(tournament_url: str) -> None:
                 "date": reference_date,
                 "tournament": tournament_name,
             }
-            pbar.set_description(desc=f"Reading {deck['tournament']}-{deck['player']}")
+            pbar.set_description(desc=f"Reading {tournament_id}-{deck['player']}")
             fig = display_deck(deck=deck)
-            deck_name = (
-                f"{deck_format}_{tournament_id}_{decklist['player'].replace(' ', '_').lower()}"
-            )
+            deck_name = f"{tournament_name.replace(' ','_').lower()}_{tournament_id}_{decklist['player'].replace(' ', '_').lower()}"  # noqa
             fig.savefig(
                 Path(f"./assets/{reference_date}/{deck_name}.png").resolve(),
                 dpi=100,
@@ -103,38 +102,52 @@ def crawl_decks(tournament_url: str) -> None:
             )
             plt.close()
 
-            with open(Path("./assets/decklists.txt").resolve(), "a") as f:
-                f.write(
-                    f"https://raw.githubusercontent.com/chumpblocckami/merchantscroll/{deck_format}/assets/{reference_date}/{deck_name}.png\n"  # noqa
-                )
-            commit_and_push(
-                Path(f"./assets/{reference_date}/{deck_name}.png").resolve(),
-                target_branch=deck_format,
-                commit_message=f"Added {deck_name} to {deck_format}",
+            # Save decklist URLs
+            with open(DECKLISTS_FILE_PATH, "r") as f:
+                crawled_decklists = list(set([line.strip() for line in f.readlines()]))
+            crawled_decklists.insert(
+                0,
+                f"https://raw.githubusercontent.com/chumpblocckami/merchantscroll/{deck_format}/assets/{reference_date}/{deck_name}.png",  # noqa
             )
-            commit_and_push(
-                Path("./assets/decklists.txt").resolve(),
-                target_branch=deck_format,
-                commit_message=f"Updated available decklists with {deck_name}",
-            )
-            # os.remove(Path(f"./assets/{deck_format}/{deck_name}.png"))
+            with open(TOURNAMENT_FILE_PATH, "w") as f:
+                f.write("\n".join(crawled_decklists) + "\n")
+
+        # os.remove(Path(f"./assets/{deck_format}/{deck_name}.png"))
     else:
         return
-    with open(Path("./assets/tournaments.txt").resolve(), "r") as f:
-        crawled_tournaments = f.readlines()
-    crawled_tournaments = [x.strip() for x in crawled_tournaments]
-    crawled_tournaments.append(tournament_url)
-    sorted(crawled_tournaments)
-    with open(Path("./assets/tournaments.txt").resolve(), "w") as f:
-        f.write("\n".join(crawled_tournaments))
+
+    # Push decklist images to the repository
     commit_and_push(
-        Path("./assets/tournaments.txt").resolve(),
-        target_branch="main",
-        commit_message=f"Updated crawled tournaments with {tournament_url}",
+        [Path(file_path).resolve() for file_path in glob(f"./assets/{reference_date}/*.png")],
+        target_branch=deck_format,
+        commit_message=f"Added {reference_date} to {deck_format}",
+    )
+    # Update the decklists file with the new URLs
+    commit_and_push(
+        DECKLISTS_FILE_PATH,
+        target_branch=deck_format,
+        commit_message=f"Updated available decklists for {reference_date}",
     )
 
+    # If the tournament is still in progress, we need to wait for it to finish
+    if datetime.now().date().isoformat() not in tournament_url:
+        with open(TOURNAMENT_FILE_PATH, "r") as f:
+            crawled_tournaments = list(set([line.strip() for line in f.readlines()]))
+        crawled_tournaments.insert(0, tournament_url)
+        with open(TOURNAMENT_FILE_PATH, "w") as f:
+            f.write("\n".join(crawled_tournaments) + "\n")
+        commit_and_push(
+            TOURNAMENT_FILE_PATH,
+            target_branch="main",
+            commit_message=f"Updated crawled tournaments with {tournament_url}",
+        )
+        return
+    else:
+        print("The tournament is still in progress, we need to wait for it to finish.")
+        return
 
-def crawl_tournaments() -> pd.DataFrame:
+
+def crawl_tournaments() -> list[str]:
     base_url = "https://www.mtgo.com/decklists"
     headers = {"User-Agent": "Mozilla/5.0"}
 
@@ -159,24 +172,3 @@ def crawl_tournaments() -> pd.DataFrame:
     tournament_links = list(set(tournament_links))
 
     return tournament_links
-
-
-if __name__ == "__main__":
-    with open(Path("./assets/tournaments.txt").resolve(), "r") as f:
-        crawled_tournaments = f.readlines()
-
-    try:
-        tournaments = crawl_tournaments()
-        # TODO: Filter tournaments for Pauper (extend to other formats later)
-        tournaments = [x for x in tournaments if "pauper" in x.lower()]
-        pbar = tqdm(tournaments, desc="Crawling tournaments")
-        for tournament in pbar:
-            pbar.set_description(desc=f"Crawling {tournament}")
-            if tournament in crawled_tournaments:
-                print("Already crawled tournament:", tournament)
-                continue
-            crawl_decks(tournament)
-
-            time.sleep(1)
-    except Exception as e:
-        print(f"Exception: {e}. Rerunning later.")

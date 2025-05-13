@@ -10,8 +10,6 @@
             margin: 0;
             padding: 0;
             font-family: sans-serif;
-            background-color: #f9f9f9;
-            color: #333;
         }
 
         h1,
@@ -58,8 +56,8 @@
     <div class="format-selector">
         <strong>Format:</strong>
         <label><input type="radio" name="format" value="pauper" checked /> Pauper</label>
-        <label><input type="radio" name="format" value="modern" /> Modern</label>
-        <label><input type="radio" name="format" value="legacy" /> Legacy</label>
+        <label><input type="radio" name="format" value="modern" disabled="True" /> Modern</label>
+        <label><input type="radio" name="format" value="legacy" disabled="True" /> Legacy</label>
     </div>
 
     <div id="content" class="image-container"></div>
@@ -78,26 +76,26 @@
 
         let imageUrls = [];
         let index = 0;
-        const batchSize = 5;
+        let canScroll = true;
 
         function clearImages() {
             content.innerHTML = "";
             loader.textContent = "Loading...";
         }
 
-        function loadImages() {
-            if (index >= imageUrls.length) {
-                loader.textContent = "No more images to load.";
+        function showImageAtIndex(i) {
+            if (i < 0 || i >= imageUrls.length) {
+                loader.textContent = "If more of us valued food and cheer and song above hoarded gold, it would be a merrier world. But, sad or merry, I must leave it now. Farewell.";
                 return;
             }
 
-            for (let i = 0; i < batchSize && index < imageUrls.length; i++, index++) {
-                const img = document.createElement("img");
-                img.onerror = () => console.warn("Failed to load:", img.src);
-                img.src = imageUrls[index];
-                img.className = "card-image";
-                content.appendChild(img);
-            }
+            content.innerHTML = "";
+            const img = document.createElement("img");
+            img.onerror = () => console.warn("Failed to load:", img.src);
+            img.src = imageUrls[i];
+            img.className = "card-image";
+            content.appendChild(img);
+            loader.textContent = "";
         }
 
         function fetchDecklist(format) {
@@ -105,7 +103,7 @@
             clearImages();
             index = 0;
             imageUrls = [];
-
+            const currentYear = new Date().getFullYear().toString();
             fetch(fileUrl)
                 .then(res => {
                     if (!res.ok) throw new Error("Failed to load file");
@@ -115,18 +113,32 @@
                     imageUrls = text
                         .split(/\s+/)
                         .map(url => url.trim())
-                        .filter(url => url.length > 0);
-                    loadImages(); // Load first batch
+                        .filter(url => url.length > 0 && url.includes(currentYear));
+                    showImageAtIndex(index);
                 })
                 .catch(err => {
                     loader.textContent = "Error loading file: " + err.message;
                 });
         }
 
-        // Scroll handler
-        window.addEventListener("scroll", () => {
-            if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 300) {
-                loadImages();
+        // Wheel scroll handler
+        window.addEventListener("wheel", (event) => {
+            if (!canScroll) return;
+            canScroll = false;
+            setTimeout(() => canScroll = true, 500); // debounce scroll
+
+            if (event.deltaY > 0) {
+                // Scrolling down
+                if (index < imageUrls.length - 1) {
+                    index++;
+                    showImageAtIndex(index);
+                }
+            } else {
+                // Scrolling up
+                if (index > 0) {
+                    index--;
+                    showImageAtIndex(index);
+                }
             }
         });
 
