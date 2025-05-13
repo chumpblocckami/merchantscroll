@@ -1,4 +1,5 @@
 import os
+from pathlib import PosixPath
 
 from git import GitCommandError, Repo
 
@@ -40,7 +41,9 @@ def commit_and_push(
         return
 
     # Stage and commit changes
-    if isinstance(file_path, str):
+    if isinstance(file_path, PosixPath):
+        repo.git.add(file_path)
+    elif isinstance(file_path, str):
         repo.git.add(file_path)
     elif isinstance(file_path, list):
         for path in file_path:
