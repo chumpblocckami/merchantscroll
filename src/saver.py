@@ -1,69 +1,76 @@
 import os
-from pathlib import PosixPath
+from pathlib import Path
+from typing import Union
 
-from git import GitCommandError, Repo
+from git import GitCommandError, InvalidGitRepositoryError, Repo
 
 
-def commit_and_push(
-    file_path: str | list[str],
-    target_branch: str,
-    commit_message: str = "Update data",
+def git_commit_push(
+    file_path: Union[str, Path, list[Union[str, Path]]],
+    branch: str,
+    commit_message: str = "Update via script",
 ):
-
-    repo = Repo(os.getcwd())
-    origin = repo.remotes.origin
-
-    # Ensure pull.rebase is true
-    repo.git.config("pull.rebase", "true")
-
-    # Checkout or create the target branch
-    if target_branch in repo.heads:
-        repo.git.checkout(target_branch)
-    else:
-        repo.git.checkout("-b", target_branch)
-
-    # Stash changes before pulling
     try:
-        if repo.is_dirty(untracked_files=True):
-            repo.git.stash("save")
-
-        # Try to pull the remote branch
-        try:
-            origin.pull(target_branch)
-        except GitCommandError:
-            print(f"Remote branch '{target_branch}' does not exist yet. Skipping pull.")
-
-        # Pop stash (if any)
-        if repo.git.stash("list"):
-            repo.git.stash("pop")
-    except GitCommandError as e:
-        print(f"Git error during pull: {e}")
+        # Initialize repo from current directory
+        repo = Repo(os.getcwd())
+    except InvalidGitRepositoryError:
+        print("❌ Not a git repository.")
         return
 
-    # Stage and commit changes
-    if isinstance(file_path, PosixPath):
-        repo.git.add(file_path)
-    elif isinstance(file_path, str):
-        repo.git.add(file_path)
+    # origin = repo.remotes.origin
+
+    # Ensure file_path is a list of Path objects
+    if isinstance(file_path, (str, Path)):
+        file_paths = [Path(file_path)]
     elif isinstance(file_path, list):
-        for path in file_path:
-            repo.git.add(path)
+        file_paths = [Path(p) for p in file_path]
     else:
-        raise ValueError(
-            f"file_path must be a string or a list of strings, found {type(file_path)}"
-        )
-    if repo.is_dirty(untracked_files=True):
-        repo.index.commit(commit_message)
-        try:
-            head = repo.head.reference
-            if head.tracking_branch() is None:
-                # First push: set upstream
-                repo.git.push("--set-upstream", "origin", target_branch)
+        raise ValueError("file_path must be a string, Path, or list of them")
+
+    # Fetch and checkout/create the branch
+    try:
+        repo.git.fetch()
+        if branch in repo.heads:
+            repo.git.checkout(branch)
+        else:
+            repo.git.checkout("-b", branch)
+    except GitCommandError as e:
+        print(f"❌ Could not checkout/create branch '{branch}': {e}")
+        return
+
+    # Pull latest changes from remote (if it exists)
+    try:
+        if f"origin/{branch}" in repo.git.branch("-r"):
+            repo.git.pull("origin", branch)
+        else:
+            print(f"ℹ️ Remote branch '{branch}' doesn't exist yet, skipping pull.")
+    except GitCommandError as e:
+        print(f"❌ Git pull failed: {e}")
+        return
+
+    # Add files to staging
+    try:
+        for path in file_paths:
+            repo.git.add(str(path))
+    except GitCommandError as e:
+        print(f"❌ Error adding files: {e}")
+        return
+
+    # Commit and push
+    try:
+        if repo.is_dirty(index=True, working_tree=False):
+            repo.index.commit(commit_message)
+
+            # Push (set upstream if first push)
+            tracking = repo.head.reference.tracking_branch()
+            if tracking is None:
+                repo.git.push("--set-upstream", "origin", branch)
             else:
-                # Normal push
-                repo.git.push("origin", target_branch)
-            print(f"Pushed changes to origin/{target_branch}.")
-        except GitCommandError as e:
-            print(f"Git push failed: {e}")
-    else:
-        print("No changes to commit.")
+                repo.git.push("origin", branch)
+
+            print(f"✅ Changes committed and pushed to origin/{branch}.")
+        else:
+            print("ℹ️ No changes to commit.")
+    except GitCommandError as e:
+        print(f"❌ Commit or push failed: {e}")
+        return
