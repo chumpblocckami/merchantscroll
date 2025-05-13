@@ -6,6 +6,8 @@ import requests
 import scrython
 from PIL import Image
 
+from src.constants import TIMEOUT
+
 matplotlib.use("Agg")
 
 # --- Configuration ---
@@ -39,7 +41,7 @@ def display_deck(deck: dict) -> plt.Figure:
     for card_name, quantity in sorted_deck.items():
         scrython_card = scrython.cards.Named(fuzzy=card_name)
         card_url = scrython_card.image_uris()["small"]
-        card_img = Image.open(BytesIO(requests.get(card_url, timeout=10).content))
+        card_img = Image.open(BytesIO(requests.get(card_url, timeout=TIMEOUT).content))
         if "Land" in scrython_card.type_line():
             last_cards.extend([card_img] * quantity)
         else:
@@ -53,7 +55,7 @@ def display_deck(deck: dict) -> plt.Figure:
     for card_name, quantity in sorted_side.items():
         scrython_card = scrython.cards.Named(fuzzy=card_name)
         card_url = scrython_card.image_uris()["small"]
-        card_img = Image.open(BytesIO(requests.get(card_url, timeout=10).content))
+        card_img = Image.open(BytesIO(requests.get(card_url, timeout=TIMEOUT).content))
         side_cards.extend([card_img] * quantity)
 
     # Create figure

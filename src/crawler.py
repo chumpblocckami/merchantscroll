@@ -11,7 +11,13 @@ import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
-from .constants import DECKLISTS_FILE_PATH, HEADERS, PATTERN, TOURNAMENT_FILE_PATH
+from .constants import (
+    DECKLISTS_FILE_PATH,
+    HEADERS,
+    PATTERN,
+    TIMEOUT,
+    TOURNAMENT_FILE_PATH,
+)
 from .drawer import display_deck
 from .saver import commit_and_push
 from .utils import normalize_date
@@ -19,7 +25,7 @@ from .utils import normalize_date
 
 def crawl_decks(tournament_url: str) -> None:
     # Fetch the deck page
-    response = requests.get(tournament_url, headers=HEADERS, timeout=20)
+    response = requests.get(tournament_url, headers=HEADERS, timeout=TIMEOUT)
     if response.status_code != 200:
         print(f"Failed to retrieve the deck page. Status code: {response.status_code}")
         exit()
@@ -155,7 +161,7 @@ def crawl_tournaments() -> list[str]:
     headers = {"User-Agent": "Mozilla/5.0"}
 
     # Fetch the page
-    response = requests.get(base_url, headers=headers, timeout=20)
+    response = requests.get(base_url, headers=headers, timeout=TIMEOUT)
     if response.status_code != 200:
         print(f"Error fetching page: {response.status_code}")
         exit()
