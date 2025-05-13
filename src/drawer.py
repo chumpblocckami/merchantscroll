@@ -1,6 +1,5 @@
 from io import BytesIO
 
-import matplotlib.patches as patches
 import matplotlib.pyplot as plt
 import requests
 import scrython
@@ -74,7 +73,7 @@ def display_deck(deck: dict) -> plt.Figure:
             spacing_row_in + (rows - 1 - row) * (img_height_in + spacing_row_in) + extra_row_height
         )
 
-        #if i == 0:
+        # if i == 0:
         #    # Draw red rectangle for deck info
         #    rect = patches.Rectangle(
         #        (x, base_y - (card_shift_in * 3)),
@@ -116,4 +115,15 @@ def display_deck(deck: dict) -> plt.Figure:
         except IndexError:
             break  # in case there are fewer than 15 cards
 
+    plt.text(
+        0.5,
+        0.95,
+        f"{deck['player']}\n{deck['tournament']}\n{deck['date']}",
+        ha="center",
+        va="top",
+        fontsize=10,
+        weight="bold",
+        color="black",
+        transform=ax.transAxes,
+    )
     return plt.gcf()

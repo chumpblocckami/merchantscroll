@@ -1,8 +1,7 @@
-import os 
-import sys
-sys.path.append('./')
-from src.saver import Saver 
+import os
 from pathlib import Path
+
+from src.saver import Saver
 
 if __name__ == "__main__":
     repo = Path(os.path.dirname(os.path.realpath(__file__))).parent

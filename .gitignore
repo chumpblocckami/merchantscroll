@@ -1,4 +1,6 @@
 .env
 #./assets/pauper/*
-./.venv/*
-./src/__pycache__/*
+.venv/*
+src/__pycache__/*
+assets/*
+!assets/*.txt

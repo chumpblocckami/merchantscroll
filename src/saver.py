@@ -1,5 +1,7 @@
 import os
-from git import Repo, GitCommandError
+
+from git import GitCommandError, Repo
+
 
 def commit_and_push(file_path: str, target_branch: str, commit_message: str = "Update data"):
     repo = Repo(os.getcwd())
@@ -12,12 +14,12 @@ def commit_and_push(file_path: str, target_branch: str, commit_message: str = "U
     if target_branch in repo.heads:
         repo.git.checkout(target_branch)
     else:
-        repo.git.checkout('-b', target_branch)
+        repo.git.checkout("-b", target_branch)
 
     # Stash changes before pulling
     try:
         if repo.is_dirty(untracked_files=True):
-            repo.git.stash('save')
+            repo.git.stash("save")
 
         # Try to pull the remote branch
         try:
@@ -26,8 +28,8 @@ def commit_and_push(file_path: str, target_branch: str, commit_message: str = "U
             print(f"Remote branch '{target_branch}' does not exist yet. Skipping pull.")
 
         # Pop stash (if any)
-        if repo.git.stash('list'):
-            repo.git.stash('pop')
+        if repo.git.stash("list"):
+            repo.git.stash("pop")
     except GitCommandError as e:
         print(f"Git error during pull: {e}")
         return
@@ -40,10 +42,10 @@ def commit_and_push(file_path: str, target_branch: str, commit_message: str = "U
             head = repo.head.reference
             if head.tracking_branch() is None:
                 # First push: set upstream
-                repo.git.push('--set-upstream', 'origin', target_branch)
+                repo.git.push("--set-upstream", "origin", target_branch)
             else:
                 # Normal push
-                repo.git.push('origin', target_branch)
+                repo.git.push("origin", target_branch)
             print(f"Pushed changes to origin/{target_branch}.")
         except GitCommandError as e:
             print(f"Git push failed: {e}")

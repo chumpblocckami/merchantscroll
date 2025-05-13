@@ -2,9 +2,9 @@ name: Update decks in merchantscroll
 
 on:
   workflow_dispatch:
-  schedule:        
+  schedule:
     - cron: '0 * * * *'
-    
+
 permissions:
   contents: write
 
@@ -26,14 +26,14 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.actions.txt ]; then pip install -r requirements.actions.txt; fi
       - name: Set git
-        env: 
+        env:
           USER: ${{secrets.USER}}
           MAIL: ${{secrets.MAIL}}
-        run: | 
+        run: |
           git config --global user.name "${USER}"
           git config --global user.email "${MAIL}"
       - name: Run Python script
-        env: 
+        env:
           TOKEN: ${{secrets.TOKEN}}
           REPO: merchantscroll
           USER: chumpblocckami
