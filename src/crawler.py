@@ -113,7 +113,6 @@ def crawl_decks(tournament_url: str) -> None:
             )
             with open(DECKLISTS_FILE_PATH, "w") as f:
                 f.write("\n".join(crawled_decklists) + "\n")
-        print(f"Decklist saved: {tournament_name} - {deck['player']}")
     else:
         print("No tournament data found.")
         return

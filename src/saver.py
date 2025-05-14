@@ -2,7 +2,7 @@ import glob
 import os
 import shutil
 import tempfile
-from pathlib import PosixPath
+from pathlib import Path, PosixPath
 
 from git import Repo
 
@@ -55,9 +55,9 @@ def push_to_same_remote(
     branch: str = "main",
     commit_message: str = "Updated files",
 ) -> None:
-    repo = Repo(os.getcwd())
+    repo = Repo(Path.cwd())
     git = repo.git
-    repo.remotes.origin.pull("origin", branch)
+    repo.remotes.origin.pull(branch)
 
     repo.git.add(file_path)
     if repo.is_dirty(untracked_files=True):
