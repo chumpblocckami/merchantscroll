@@ -118,7 +118,7 @@ def crawl_decks(tournament_url: str) -> None:
         return
 
     # Update the decklists file with the new URLs
-    branch_name = f"{reference_date}-{tournament_name.replace(' ','_').lower()}"  # noqa
+    branch_name = f"{tournament_name.replace(' ','_').lower()}-{reference_date}"  # noqa
     push_to_different_remote(
         output_path.resolve(),
         branch=branch_name,
