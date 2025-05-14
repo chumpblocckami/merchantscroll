@@ -10,16 +10,10 @@ import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
-from .constants import (
-    DECKLISTS_FILE_PATH,
-    HEADERS,
-    PATTERN,
-    TIMEOUT,
-    TOURNAMENT_FILE_PATH,
-)
+from .constants import HEADERS, PATTERN, TIMEOUT
 from .drawer import display_deck
 from .saver import push_to_different_remote, push_to_same_remote
-from .utils import normalize_date
+from .utils import extract_date, normalize_date
 
 
 def crawl_decks(tournament_url: str) -> None:
@@ -59,6 +53,11 @@ def crawl_decks(tournament_url: str) -> None:
         output_path.mkdir(parents=True, exist_ok=True)
         with open(str(Path(f"./assets/{tournament_data['site_name']}.json").resolve()), "w") as f:
             json.dump(tournament_data, f, indent=2)
+        push_to_same_remote(
+            str(Path(f"./assets/{deck_format}/{tournament_data['site_name']}.json").resolve()),
+            branch="main",
+            commit_message=f"Updated crawled raw data from {tournament_url}",
+        )
 
         # Save decklist images
         pbar = tqdm(tournament_data["decklists"], desc="Reading decklists")
@@ -105,13 +104,17 @@ def crawl_decks(tournament_url: str) -> None:
             plt.close()
 
             # Save decklist URLs
-            with open(DECKLISTS_FILE_PATH, "r") as f:
+            with open(str(Path(f"./assets/{deck_format}/decklists.txt").resolve()), "r") as f:
                 crawled_decklists = list(set([line.strip() for line in f.readlines()]))
             crawled_decklists.insert(
                 0,
                 f"https://raw.githubusercontent.com/chumpblocckami/mtg-decklists/main/{deck_format}/{reference_date}/{deck_name}.png",  # noqa
             )
-            with open(DECKLISTS_FILE_PATH, "w") as f:
+            crawled_decklists = sorted(
+                crawled_decklists, key=lambda url: url.split("/")[7], reverse=True
+            )
+
+            with open(str(Path(f"./assets/{deck_format}/decklists.txt").resolve()), "w") as f:
                 f.write("\n".join(crawled_decklists) + "\n")
     else:
         print("No tournament data found.")
@@ -126,19 +129,20 @@ def crawl_decks(tournament_url: str) -> None:
     )
 
     push_to_same_remote(
-        DECKLISTS_FILE_PATH,
+        str(Path(f"./assets/{deck_format}/decklists.txt").resolve()),
         branch="main",
         commit_message=f"Updated crawled decklists with {tournament_url}",
     )
     # If the tournament is still in progress, we need to wait for it to finish
     if datetime.now().date().isoformat() not in tournament_url:
-        with open(TOURNAMENT_FILE_PATH, "r") as f:
+        with open(str(Path(f"./assets/{deck_format}/tournaments.txt").resolve()), "r") as f:
             crawled_tournaments = list(set([line.strip() for line in f.readlines()]))
         crawled_tournaments.insert(0, tournament_url)
-        with open(TOURNAMENT_FILE_PATH, "w") as f:
+        crawled_tournaments = sorted(crawled_tournaments, key=extract_date, reverse=True)
+        with open(str(Path(f"./assets/{deck_format}/tournaments.txt").resolve()), "w") as f:
             f.write("\n".join(crawled_tournaments) + "\n")
         push_to_same_remote(
-            TOURNAMENT_FILE_PATH,
+            str(Path(f"./assets/{deck_format}/tournaments.txt").resolve()),
             branch="main",
             commit_message=f"Updated crawled tournaments with {tournament_url}",
         )
