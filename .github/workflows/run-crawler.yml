@@ -35,6 +35,7 @@ jobs:
       - name: Run Python script
         env:
           TOKEN: ${{secrets.TOKEN}}
+          TOKEN_DECKS: ${{secrets.TOKEN_DECKS}}
           REPO: merchantscroll
           USER: chumpblocckami
         run: python entrypoint.py

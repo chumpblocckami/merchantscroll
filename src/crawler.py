@@ -61,8 +61,7 @@ def crawl_decks(tournament_url: str) -> None:
             json.dump(tournament_data, f, indent=2)
 
         # Save decklist images
-        # TODO: REMOVE THIS
-        pbar = tqdm(tournament_data["decklists"][:1], desc="Reading decklists")
+        pbar = tqdm(tournament_data["decklists"], desc="Reading decklists")
         for decklist in pbar:
             deck = {
                 "player": decklist["player"],
