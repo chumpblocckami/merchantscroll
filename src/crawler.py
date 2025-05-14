@@ -62,7 +62,7 @@ def crawl_decks(tournament_url: str) -> None:
             json.dump(tournament_data, f, indent=2)
         commit_and_push(
             Path(f"./assets/{reference_date}/{tournament_name}.json").resolve(),
-            target_branch=deck_format,
+            branch=deck_format,
             commit_message=f"Added {reference_date} raw tournament data",
         )
 
@@ -128,13 +128,13 @@ def crawl_decks(tournament_url: str) -> None:
     # Push decklist images to the repository
     commit_and_push(
         [Path(file_path).resolve() for file_path in glob(f"./assets/{reference_date}/*.png")],
-        target_branch=deck_format,
+        branch=deck_format,
         commit_message=f"Added {reference_date} to {deck_format}",
     )
     # Update the decklists file with the new URLs
     commit_and_push(
         DECKLISTS_FILE_PATH,
-        target_branch=deck_format,
+        branch=deck_format,
         commit_message=f"Updated available decklists for {reference_date}",
     )
 
@@ -147,7 +147,7 @@ def crawl_decks(tournament_url: str) -> None:
             f.write("\n".join(crawled_tournaments) + "\n")
         commit_and_push(
             TOURNAMENT_FILE_PATH,
-            target_branch="main",
+            branch="main",
             commit_message=f"Updated crawled tournaments with {tournament_url}",
         )
         return
