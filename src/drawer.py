@@ -1,3 +1,4 @@
+import time
 from io import BytesIO
 
 import matplotlib
@@ -39,6 +40,7 @@ def display_deck(deck: dict) -> plt.Figure:
     last_cards = []
     sorted_deck = dict(sorted(deck["main"].items(), key=lambda item: item[1], reverse=True))
     for card_name, quantity in sorted_deck.items():
+        time.sleep(0.1)
         scrython_card = scrython.cards.Named(fuzzy=card_name)
         card_url = scrython_card.image_uris()["small"]
         card_img = Image.open(BytesIO(requests.get(card_url, timeout=TIMEOUT).content))
@@ -53,6 +55,7 @@ def display_deck(deck: dict) -> plt.Figure:
     side_cards = []
     sorted_side = dict(sorted(deck["side"].items(), key=lambda item: item[1], reverse=True))
     for card_name, quantity in sorted_side.items():
+        time.sleep(0.1)
         scrython_card = scrython.cards.Named(fuzzy=card_name)
         card_url = scrython_card.image_uris()["small"]
         card_img = Image.open(BytesIO(requests.get(card_url, timeout=TIMEOUT).content))

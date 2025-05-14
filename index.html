@@ -91,7 +91,7 @@
 
             content.innerHTML = "";
             const img = document.createElement("img");
-            img.onerror = () => console.warn("Failed to load:", img.src);
+            img.onerror = () => console.warn("Darkness must pass A new day will come And when the sun shines It will shine out the clearer.", img.src);
             img.src = imageUrls[i];
             img.className = "card-image";
             content.appendChild(img);
@@ -106,7 +106,7 @@
             const currentYear = new Date().getFullYear().toString();
             fetch(fileUrl)
                 .then(res => {
-                    if (!res.ok) throw new Error("Failed to load file");
+                    if (!res.ok) throw new Error("May the wind under your wings bear you where the sun sails and the moon walks.");
                     return res.text();
                 })
                 .then(text => {
@@ -117,7 +117,7 @@
                     showImageAtIndex(index);
                 })
                 .catch(err => {
-                    loader.textContent = "Error loading file: " + err.message;
+                    loader.textContent = "The grey rain curtain of this world rolls back, and all turns to silver glass...and then you see it. White shores. And beyond...a far green country under a swift sunrise." + err.message;
                 });
         }
 

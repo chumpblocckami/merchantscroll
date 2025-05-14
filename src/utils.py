@@ -10,3 +10,9 @@ def normalize_date(date_str):
         except ValueError:
             dt = datetime.strptime(date_str, "%Y-%m-%d")
     return dt.date().isoformat()
+
+
+def update_info():
+    # Last updated
+    # Total number of decks
+    return

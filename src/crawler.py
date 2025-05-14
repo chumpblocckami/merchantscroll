@@ -3,7 +3,6 @@ import re
 from ast import literal_eval
 from datetime import datetime
 from functools import reduce
-from glob import glob
 from pathlib import Path
 
 import matplotlib.pyplot as plt
@@ -19,7 +18,7 @@ from .constants import (
     TOURNAMENT_FILE_PATH,
 )
 from .drawer import display_deck
-from .saver import commit_and_push
+from .saver import push_to_different_remote, push_to_same_remote
 from .utils import normalize_date
 
 
@@ -55,19 +54,15 @@ def crawl_decks(tournament_url: str) -> None:
             if "event_id" in tournament_data
             else tournament_data["playeventid"]
         )
-        Path(f"./assets/{reference_date}").mkdir(parents=True, exist_ok=True)
-        with open(
-            str(Path(f"./assets/{reference_date}/{tournament_name}.json").resolve()), "w"
-        ) as f:
+
+        output_path = Path(f"./{deck_format}/{reference_date}")
+        output_path.mkdir(parents=True, exist_ok=True)
+        with open(str(Path(f"./assets/{tournament_data['site_name']}.json").resolve()), "w") as f:
             json.dump(tournament_data, f, indent=2)
-        commit_and_push(
-            Path(f"./assets/{reference_date}/{tournament_name}.json").resolve(),
-            branch=deck_format,
-            commit_message=f"Added {reference_date} raw tournament data",
-        )
 
         # Save decklist images
-        pbar = tqdm(tournament_data["decklists"], desc="Reading decklists")
+        # TODO: REMOVE THIS
+        pbar = tqdm(tournament_data["decklists"][:1], desc="Reading decklists")
         for decklist in pbar:
             deck = {
                 "player": decklist["player"],
@@ -104,7 +99,7 @@ def crawl_decks(tournament_url: str) -> None:
             fig = display_deck(deck=deck)
             deck_name = f"{tournament_name.replace(' ','_').lower()}_{tournament_id}_{decklist['player'].replace(' ', '_').lower()}"  # noqa
             fig.savefig(
-                Path(f"./assets/{reference_date}/{deck_name}.png").resolve(),
+                Path(f"./{deck_format}/{reference_date}/{deck_name}.png").resolve(),
                 dpi=100,
                 bbox_inches="tight",
             )
@@ -115,29 +110,28 @@ def crawl_decks(tournament_url: str) -> None:
                 crawled_decklists = list(set([line.strip() for line in f.readlines()]))
             crawled_decklists.insert(
                 0,
-                f"https://raw.githubusercontent.com/chumpblocckami/merchantscroll/{deck_format}/assets/{reference_date}/{deck_name}.png",  # noqa
+                f"https://raw.githubusercontent.com/chumpblocckami/mtg-decklists/main/{deck_format}/{reference_date}/{deck_name}.png",  # noqa
             )
             with open(DECKLISTS_FILE_PATH, "w") as f:
                 f.write("\n".join(crawled_decklists) + "\n")
-
-        # os.remove(Path(f"./assets/{deck_format}/{deck_name}.png"))
+        print(f"Decklist saved: {tournament_name} - {deck['player']}")
     else:
         print("No tournament data found.")
         return
 
-    # Push decklist images to the repository
-    commit_and_push(
-        [Path(file_path).resolve() for file_path in glob(f"./assets/{reference_date}/*.png")],
-        branch=deck_format,
-        commit_message=f"Added {reference_date} to {deck_format}",
-    )
     # Update the decklists file with the new URLs
-    commit_and_push(
-        DECKLISTS_FILE_PATH,
-        branch=deck_format,
-        commit_message=f"Updated available decklists for {reference_date}",
+    branch_name = f"{reference_date}-{tournament_name.replace(' ','_').lower()}"  # noqa
+    push_to_different_remote(
+        output_path.resolve(),
+        branch=branch_name,
+        commit_message=f"Got data for {branch_name}",
     )
 
+    push_to_same_remote(
+        DECKLISTS_FILE_PATH,
+        branch="main",
+        commit_message=f"Updated crawled decklists with {tournament_url}",
+    )
     # If the tournament is still in progress, we need to wait for it to finish
     if datetime.now().date().isoformat() not in tournament_url:
         with open(TOURNAMENT_FILE_PATH, "r") as f:
@@ -145,7 +139,7 @@ def crawl_decks(tournament_url: str) -> None:
         crawled_tournaments.insert(0, tournament_url)
         with open(TOURNAMENT_FILE_PATH, "w") as f:
             f.write("\n".join(crawled_tournaments) + "\n")
-        commit_and_push(
+        push_to_same_remote(
             TOURNAMENT_FILE_PATH,
             branch="main",
             commit_message=f"Updated crawled tournaments with {tournament_url}",
