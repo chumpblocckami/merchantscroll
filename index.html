@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Infinite Image Scroll from URL</title>
+    <title>Scroll infinite decks</title>
     <style>
         body {
             margin: 0;
@@ -50,7 +50,8 @@
 
 <body>
     <h1>Merchant Scroll</h1>
-    <p>Loading infinite decklists</p>
+    <p>Scroll infinite decks</p>
+    <div id="info">Last update: </div>
 
     <!-- Radio Buttons -->
     <div class="format-selector">
@@ -185,6 +186,28 @@
                 }
             }
         }
+
+
+        // Load timestamp from JSON
+        const updateDiv = document.getElementById("info");
+        const jsonLink = "https://raw.githubusercontent.com/chumpblocckami/merchantscroll/refs/heads/main/info.json";
+
+        fetch(jsonLink)
+            .then(res => {
+                if (!res.ok) throw new Error("Could not fetch last update.");
+                return res.json();
+            })
+            .then(data => {
+                if (data.last_update) {
+                    updateDiv.textContent = `Last update: ${data.last_update}`;
+                } else {
+                    updateDiv.textContent = "Last update info not available.";
+                }
+            })
+            .catch(err => {
+                updateDiv.textContent = "Error loading update info.";
+                console.error(err);
+            });
     </script>
 </body>
 

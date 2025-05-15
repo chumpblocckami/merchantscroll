@@ -32,6 +32,7 @@ jobs:
         run: |
           git config --global user.name "${USER}"
           git config --global user.email "${MAIL}"
+
       - name: Run Python script
         env:
           TOKEN: ${{secrets.TOKEN}}
@@ -39,3 +40,14 @@ jobs:
           REPO: merchantscroll
           USER: chumpblocckami
         run: python entrypoint.py
+
+      - name: Set last update timestamp
+        run: 'echo "{\"last_update\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" > info.json'
+
+      - name: Commit and push finished jobs
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add info.json
+          git commit -m "Update info.json"
+          git push
