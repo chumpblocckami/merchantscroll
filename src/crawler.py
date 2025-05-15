@@ -51,7 +51,9 @@ def crawl_decks(tournament_url: str) -> None:
 
         output_path = Path(f"./{deck_format}/{reference_date}")
         output_path.mkdir(parents=True, exist_ok=True)
-        with open(str(Path(f"./assets/{tournament_data['site_name']}.json").resolve()), "w") as f:
+        with open(
+            str(Path(f"./assets/{deck_format}/{tournament_data['site_name']}.json").resolve()), "w"
+        ) as f:
             json.dump(tournament_data, f, indent=2)
         push_to_same_remote(
             str(Path(f"./assets/{deck_format}/{tournament_data['site_name']}.json").resolve()),
