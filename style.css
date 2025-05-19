@@ -14,6 +14,7 @@ body {
 }
 
 .header-container {
+    height: 25vh;
     text-align: center;
     padding: 10px;
     width: 100vw;
@@ -23,17 +24,15 @@ body {
     align-items: center;
 }
 
-/* Image container fills the rest of the space */
 .image-container {
     width: 100vw;
-    height: 100%;
+    height: 65vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Image fills the container completely */
 .card-image {
     width: 100%;
     height: 100%;
@@ -43,9 +42,9 @@ body {
 }
 
 footer {
-    height: 4vh;
-    padding: 0;
-    margin: 0;
+    height: 9vh;
+    padding-bottom: 1vh;
+    box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,7 +86,7 @@ footer {
 }
 
 .format-selector select {
-    padding: 0.4rem 0.75rem;
+
     font-size: 1rem;
     border: 1px solid #ccc;
     border-radius: 0.1rem;
