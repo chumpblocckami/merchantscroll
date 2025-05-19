@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 
 TIMEOUT = 60
 
@@ -10,3 +11,4 @@ FORMATS = ["pauper", "modern", "legacy"]
 REMOTE_REPO_URL = (
     f"https://x-access-token:{os.getenv('TOKEN_DECKS')}@github.com/chumpblocckami/mtg-decklists.git"
 )
+TOURNAMENT_FILE_PATH = str(Path("./assets/pauper/tournaments.txt").resolve())
