@@ -40,13 +40,15 @@
     <div class="header-container">
         <h1>Merchant Scroll</h1>
         <strong>Scroll infinite Magic: The Gathering decks</strong>
-        <div class="info" id="info">Last update: </div>
         <div class="format-selector">
-            <strong>Format:</strong>
-            <label><input type="radio" name="format" value="pauper" checked /> Pauper</label>
-            <label><input type="radio" name="format" value="modern" disabled="True" /> Modern</label>
-            <label><input type="radio" name="format" value="legacy" disabled="True" /> Legacy</label>
+            <label for="format-select"><strong>Format:</strong></label>
+            <select id="format-select" name="format">
+                <option value="pauper" selected>Pauper</option>
+                <option value="modern" disabled>Modern</option>
+                <option value="legacy" disabled>Legacy</option>
+            </select>
         </div>
+        <div class="info" id="info">Last update: </div>
     </div>
 
     <div id="content" class="image-container"></div>
@@ -114,10 +116,8 @@
         }
 
         // Handle format change
-        document.querySelectorAll('input[name="format"]').forEach(radio => {
-            radio.addEventListener("change", (e) => {
-                fetchDecklist(e.target.value);
-            });
+        document.querySelector('select[name="format"]').addEventListener("change", (e) => {
+            fetchDecklist(e.target.value);
         });
 
         // Scroll control

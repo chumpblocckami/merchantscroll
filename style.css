@@ -16,6 +16,11 @@ body {
 .header-container {
     text-align: center;
     padding: 10px;
+    width: 100vw;
+    overflow: hidden;
+
+    justify-content: center;
+    align-items: center;
 }
 
 /* Image container fills the rest of the space */
@@ -66,4 +71,33 @@ footer {
 .info {
     color: #666;
     font-size: 0.9em;
+}
+
+.format-selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+
+.format-selector label {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.format-selector select {
+    padding: 0.4rem 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.1rem;
+    background-color: #f9f9f9;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+
+.format-selector select:focus {
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.3);
+    outline: none;
 }
