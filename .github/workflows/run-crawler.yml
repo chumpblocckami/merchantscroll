@@ -3,7 +3,7 @@ name: Hedron Crawler
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 * * * *'
+    - cron: '*/30 * * * *' # Every 30 minutes
 
 permissions:
   contents: write
@@ -42,12 +42,13 @@ jobs:
         run: python entrypoint.py
 
       - name: Set last update timestamp
-        run: 'echo "{\"last_update\": \"$(date -u +%Y-%m-%dT%H:%M:%SZ)\"}" > info.json'
-
+        run: |
+          echo "{\"last_update\": \"$(date -u '+%A, %B %d, %Y at %H:%M UTC')\"}" > info.json
+      
       - name: Commit and push finished jobs
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
           git add info.json
           git commit -m "Update info.json"
           git push
