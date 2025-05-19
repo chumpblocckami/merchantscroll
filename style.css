@@ -1,0 +1,69 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
+
+.header-container {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Image container fills the rest of the space */
+.image-container {
+    width: 100vw;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Image fills the container completely */
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* or 'cover' if you want it cropped */
+    display: block;
+}
+
+footer {
+    height: 4vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo {
+    height: 100%;
+    width: auto;
+    display: block;
+}
+
+.loader {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+    color: #666;
+}
+
+.format-selector label {
+    margin-right: 15px;
+}
+
+.info {
+    color: #666;
+    font-size: 0.9em;
+}

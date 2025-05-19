@@ -4,96 +4,65 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Scroll infinite decks</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: sans-serif;
-        }
+    <!-- Favicon -->
+    <link rel="icon" href="https://raw.githubusercontent.com/chumpblocckami/merchantscroll/main/assets/favicon.ico"
+        type="image/x-icon" />
 
-        h1,
-        p {
-            text-align: center;
-        }
+    <!-- Primary Meta Tags -->
+    <title>Merchant Scroll – Scroll Infinite Magic: The Gathering Decks</title>
+    <meta name="title" content="Merchant Scroll – Scroll Infinite Magic: The Gathering Decks" />
+    <meta name="description"
+        content="Explore endless Magic: The Gathering decks across Pauper, Modern, Legacy, and more. Updated hourly for the latest meta insights." />
 
-        .image-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://merchant-scroll.com" />
+    <meta property="og:title" content="Merchant Scroll – Scroll Infinite Magic: The Gathering Decks" />
+    <meta property="og:description"
+        content="Explore endless Magic: The Gathering decks across Pauper, Modern, Legacy, and more. Updated hourly for the latest meta insights." />
+    <meta property="og:image"
+        content="https://raw.githubusercontent.com/chumpblocckami/merchantscroll/main/assets/preview.jpg" />
 
-        .card-image {
-            max-width: 90%;
-            margin: 20px 0;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-        }
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Merchant Scroll – Scroll Infinite Magic: The Gathering Decks" />
+    <meta name="twitter:description"
+        content="Explore endless Magic: The Gathering decks across Pauper, Modern, Legacy, and more. Updated hourly for the latest meta insights." />
+    <meta name="twitter:image"
+        content="https://raw.githubusercontent.com/chumpblocckami/merchantscroll/main/assets/preview.jpg" />
 
-        .loader {
-            text-align: center;
-            padding: 20px;
-            font-size: 1.2em;
-            color: #666;
-        }
 
-        .format-selector {
-            text-align: center;
-            margin: 20px 0;
-        }
-
-        .format-selector label {
-            margin-right: 15px;
-        }
-
-        .info {
-            display: block;
-            text-align: center;
-            color: #666;
-            font-size: 0.9em;
-            margin-top: -10px;
-            margin-bottom: 20px;
-        }
-
-        .sponsor {
-            text-align: center;
-            margin-top: 10px;
-            margin-bottom: 20px;
-        }
-
-        .sponsor p {
-            margin: 0;
-            font-size: 0.9em;
-            color: #555;
-        }
-
-        .sponsor-logo {
-            max-width: 150px;
-            height: auto;
-            margin-top: 5px;
-        }
-    </style>
+    <title>Merchant Scroll – Scroll Infinite Magic: The Gathering Decks</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Merchant Scroll</h1>
-    <p>Scroll infinite decks</p>
-    <div class="info" id="info">Last update: </div>
-
-    <!-- Radio Buttons -->
-    <div class="format-selector">
-        <strong>Format:</strong>
-        <label><input type="radio" name="format" value="pauper" checked /> Pauper</label>
-        <label><input type="radio" name="format" value="modern" disabled="True" /> Modern</label>
-        <label><input type="radio" name="format" value="legacy" disabled="True" /> Legacy</label>
+    <div class="header-container">
+        <h1>Merchant Scroll</h1>
+        <strong>Scroll infinite Magic: The Gathering decks</strong>
+        <div class="info" id="info">Last update: </div>
+        <div class="format-selector">
+            <strong>Format:</strong>
+            <label><input type="radio" name="format" value="pauper" checked /> Pauper</label>
+            <label><input type="radio" name="format" value="modern" disabled="True" /> Modern</label>
+            <label><input type="radio" name="format" value="legacy" disabled="True" /> Legacy</label>
+        </div>
     </div>
 
     <div id="content" class="image-container"></div>
-    <div class="loader" id="loader">Loading...</div>
+
+    <footer>
+        <span>Powered by</span>
+        <img src="https://raw.githubusercontent.com/chumpblocckami/merchantscroll/main/assets/logo.png"
+            alt="Wizards Cottage" class="footer-logo">
+    </footer>
 
     <script>
         const content = document.getElementById("content");
-        const loader = document.getElementById("loader");
+        const loader = document.createElement("div");
+        loader.className = "loader";
+        loader.textContent = "Loading...";
+        content.appendChild(loader);
 
         const fileBase = "https://raw.githubusercontent.com/chumpblocckami/merchantscroll/";
         const formats = {
@@ -104,26 +73,24 @@
 
         let imageUrls = [];
         let index = 0;
-        let canScroll = true;
 
         function clearImages() {
             content.innerHTML = "";
-            loader.textContent = "Loading...";
+            content.appendChild(loader);
         }
 
         function showImageAtIndex(i) {
             if (i < 0 || i >= imageUrls.length) {
-                loader.textContent = "If more of us valued food and cheer and song above hoarded gold, it would be a merrier world. But, sad or merry, I must leave it now. Farewell.";
+                loader.textContent = "No more images.";
                 return;
             }
-
             content.innerHTML = "";
             const img = document.createElement("img");
-            img.onerror = () => console.warn("Darkness must pass A new day will come And when the sun shines It will shine out the clearer.", img.src);
+            img.onerror = () => console.warn("Image load error", img.src);
+            img.onload = () => loader.textContent = "";
             img.src = imageUrls[i];
             img.className = "card-image";
             content.appendChild(img);
-            loader.textContent = "";
         }
 
         function fetchDecklist(format) {
@@ -134,113 +101,43 @@
             const currentYear = new Date().getFullYear().toString();
             fetch(fileUrl)
                 .then(res => {
-                    if (!res.ok) throw new Error("May the wind under your wings bear you where the sun sails and the moon walks.");
+                    if (!res.ok) throw new Error("Error fetching decklist.");
                     return res.text();
                 })
                 .then(text => {
-                    imageUrls = text
-                        .split(/\s+/)
-                        .map(url => url.trim())
-                        .filter(url => url.length > 0 && url.includes(currentYear));
+                    imageUrls = text.split(/\s+/).map(url => url.trim()).filter(url => url.length > 0 && url.includes(currentYear));
                     showImageAtIndex(index);
                 })
                 .catch(err => {
-                    loader.textContent = "The grey rain curtain of this world rolls back, and all turns to silver glass...and then you see it. White shores. And beyond...a far green country under a swift sunrise." + err.message;
+                    loader.textContent = "Error loading decklist: " + err.message;
                 });
         }
 
-        // Wheel scroll handler
-        window.addEventListener("wheel", (event) => {
-            if (!canScroll) return;
-            canScroll = false;
-            setTimeout(() => canScroll = true, 500); // debounce scroll
-
-            if (event.deltaY > 0) {
-                // Scrolling down
-                if (index < imageUrls.length - 1) {
-                    index++;
-                    showImageAtIndex(index);
-                }
-            } else {
-                // Scrolling up
-                if (index > 0) {
-                    index--;
-                    showImageAtIndex(index);
-                }
-            }
-        });
-
-        // Radio button change handler
         document.querySelectorAll('input[name="format"]').forEach(radio => {
             radio.addEventListener("change", (e) => {
                 fetchDecklist(e.target.value);
             });
         });
 
-        // Initial load
+        document.getElementById("content").addEventListener("wheel", (event) => {
+            event.preventDefault();
+            if (event.deltaY > 0 && index < imageUrls.length - 1) {
+                index++;
+                showImageAtIndex(index);
+            } else if (event.deltaY < 0 && index > 0) {
+                index--;
+                showImageAtIndex(index);
+            }
+        }, { passive: false });
+
         fetchDecklist("pauper");
 
-
-        let touchStartY = 0;
-        let touchEndY = 0;
-
-        window.addEventListener("touchstart", (e) => {
-            touchStartY = e.changedTouches[0].screenY;
-        });
-
-        window.addEventListener("touchend", (e) => {
-            touchEndY = e.changedTouches[0].screenY;
-            handleSwipe();
-        });
-
-        function handleSwipe() {
-            const threshold = 50; // Minimum distance for a swipe
-            const deltaY = touchStartY - touchEndY;
-
-            if (Math.abs(deltaY) > threshold) {
-                if (deltaY > 0) {
-                    // Swipe up => next image
-                    if (index < imageUrls.length - 1) {
-                        index++;
-                        showImageAtIndex(index);
-                    }
-                } else {
-                    // Swipe down => previous image
-                    if (index > 0) {
-                        index--;
-                        showImageAtIndex(index);
-                    }
-                }
-            }
-        }
-
-
-        // Load timestamp from JSON
         const updateDiv = document.getElementById("info");
-        const jsonLink = "https://raw.githubusercontent.com/chumpblocckami/merchantscroll/refs/heads/main/info.json";
-
-        fetch(jsonLink)
-            .then(res => {
-                if (!res.ok) throw new Error("Could not fetch last update.");
-                return res.json();
-            })
-            .then(data => {
-                if (data.last_update) {
-                    updateDiv.textContent = `Last update: ${data.last_update}`;
-                } else {
-                    updateDiv.textContent = "Last update info not available.";
-                }
-            })
-            .catch(err => {
-                updateDiv.textContent = "Error loading update info.";
-                console.error(err);
-            });
+        fetch("https://raw.githubusercontent.com/chumpblocckami/merchantscroll/refs/heads/main/info.json")
+            .then(res => res.ok ? res.json() : Promise.reject("Could not fetch last update."))
+            .then(data => updateDiv.textContent = data.last_update ? `Last update: ${data.last_update}` : "No update info.")
+            .catch(err => updateDiv.textContent = "Error loading update info.");
     </script>
-    <div class="sponsor">
-        <p>Sponsored by</p>
-        <img src="https://raw.githubusercontent.com/chumpblocckami/merchantscroll/main/assets/logo.png"
-            alt="Wizards Cottage" class="sponsor-logo">
-    </div>
 </body>
 
 </html>
