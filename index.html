@@ -113,31 +113,71 @@
                 });
         }
 
+        // Handle format change
         document.querySelectorAll('input[name="format"]').forEach(radio => {
             radio.addEventListener("change", (e) => {
                 fetchDecklist(e.target.value);
             });
         });
 
-        document.getElementById("content").addEventListener("wheel", (event) => {
-            event.preventDefault();
-            if (event.deltaY > 0 && index < imageUrls.length - 1) {
+        // Scroll control
+        let throttle = false;
+        function handleScroll(direction) {
+            if (throttle) return;
+            throttle = true;
+            setTimeout(() => throttle = false, 500); // debounce delay
+
+            if (direction === "next" && index < imageUrls.length - 1) {
                 index++;
                 showImageAtIndex(index);
-            } else if (event.deltaY < 0 && index > 0) {
+            } else if (direction === "prev" && index > 0) {
                 index--;
                 showImageAtIndex(index);
             }
+        }
+
+        // Desktop scroll (wheel)
+        content.addEventListener("wheel", (event) => {
+            event.preventDefault();
+            if (event.deltaY > 0) {
+                handleScroll("next");
+            } else {
+                handleScroll("prev");
+            }
         }, { passive: false });
 
+        // Mobile swipe (touch)
+        let touchStartY = 0;
+        let touchEndY = 0;
+
+        content.addEventListener("touchstart", (e) => {
+            touchStartY = e.changedTouches[0].screenY;
+        });
+
+        content.addEventListener("touchend", (e) => {
+            touchEndY = e.changedTouches[0].screenY;
+            const deltaY = touchStartY - touchEndY;
+
+            if (Math.abs(deltaY) > 50) {
+                if (deltaY > 0) {
+                    handleScroll("next");
+                } else {
+                    handleScroll("prev");
+                }
+            }
+        });
+
+        // Initial load
         fetchDecklist("pauper");
 
+        // Last update info
         const updateDiv = document.getElementById("info");
         fetch("https://raw.githubusercontent.com/chumpblocckami/merchantscroll/refs/heads/main/info.json")
             .then(res => res.ok ? res.json() : Promise.reject("Could not fetch last update."))
             .then(data => updateDiv.textContent = data.last_update ? `Last update: ${data.last_update}` : "No update info.")
             .catch(err => updateDiv.textContent = "Error loading update info.");
     </script>
+
 </body>
 
 </html>
