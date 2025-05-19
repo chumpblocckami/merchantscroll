@@ -18,7 +18,11 @@ def extract_date(url):
     return match.group(1) if match else "0000-00-00"
 
 
-def update_info():
-    # Last updated
-    # Total number of decks
-    return
+def get_challenge_record(winloss_data, player_id):
+    for data in winloss_data:
+        if data["loginid"] == player_id:
+            return f"({data['wins']}-{data['losses']})"
+
+
+def get_league_record(wins_data):
+    return f"({wins_data['wins']}-{wins_data['losses']})"

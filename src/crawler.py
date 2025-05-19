@@ -13,7 +13,7 @@ from tqdm import tqdm
 from .constants import HEADERS, PATTERN, TIMEOUT
 from .drawer import display_deck
 from .saver import push_to_different_remote, push_to_same_remote
-from .utils import extract_date, normalize_date
+from .utils import extract_date, get_challenge_record, get_league_record, normalize_date
 
 
 def crawl_decks(tournament_url: str) -> None:
@@ -48,7 +48,6 @@ def crawl_decks(tournament_url: str) -> None:
             if "event_id" in tournament_data
             else tournament_data["playeventid"]
         )
-
         output_path = Path(f"./{deck_format}/{reference_date}")
         output_path.mkdir(parents=True, exist_ok=True)
         with open(
@@ -61,9 +60,30 @@ def crawl_decks(tournament_url: str) -> None:
             commit_message=f"Updated crawled raw data from {tournament_url}",
         )
 
+        # Sort by rank (for challenges)
+        if "final_rank" in tournament_data:
+            rank_map = {
+                entry["loginid"]: int(entry["rank"]) for entry in tournament_data["final_rank"]
+            }
+            decklists = sorted(
+                tournament_data["decklists"], key=lambda p: rank_map.get(p["loginid"], 9999)
+            )
+        else:
+            decklists = tournament_data["decklists"]
+
         # Save decklist images
-        pbar = tqdm(tournament_data["decklists"], desc="Reading decklists")
+        pbar = tqdm(decklists, desc="Reading decklists")
         for decklist in pbar:
+            player_id = decklist.get("loginid", "playerid_not_found")
+            record = (
+                get_challenge_record(tournament_data["winloss"], player_id)
+                if "winloss" in tournament_data
+                else (
+                    get_league_record(decklist["wins"], player_id)
+                    if "wins" in tournament_data
+                    else "(record not available)"
+                )
+            )
             deck = {
                 "player": decklist["player"],
                 "main": reduce(
@@ -93,11 +113,13 @@ def crawl_decks(tournament_url: str) -> None:
                     {},
                 ),
                 "date": reference_date,
-                "tournament": tournament_name,
+                "tournament": tournament_name + " " + record,
             }
             pbar.set_description(desc=f"Reading {tournament_id}-{deck['player']}")
             fig = display_deck(deck=deck)
-            deck_name = f"{tournament_name.replace(' ','_').lower()}_{tournament_id}_{decklist['player'].replace(' ', '_').lower()}"  # noqa
+            deck_name = (
+                f"{tournament_name.replace(' ','_').lower()}_{tournament_id}_{player_id}"  # noqa
+            )
             fig.savefig(
                 Path(f"./{deck_format}/{reference_date}/{deck_name}.png").resolve(),
                 dpi=100,
@@ -106,8 +128,14 @@ def crawl_decks(tournament_url: str) -> None:
             plt.close()
 
             # Save decklist URLs
-            with open(str(Path(f"./assets/{deck_format}/decklists.txt").resolve()), "r") as f:
-                crawled_decklists = list(set([line.strip() for line in f.readlines()]))
+            decklist_path = Path(f"./assets/{deck_format}/decklists.txt")
+            if Path(decklist_path).exists():
+                with open(decklist_path.resolve(), "r") as f:
+                    crawled_decklists = list(set([line.strip() for line in f.readlines()]))
+            else:
+                decklist_path.touch()
+                crawled_decklists = []
+
             crawled_decklists.insert(
                 0,
                 f"https://raw.githubusercontent.com/chumpblocckami/mtg-decklists/main/{deck_format}/{reference_date}/{deck_name}.png",  # noqa

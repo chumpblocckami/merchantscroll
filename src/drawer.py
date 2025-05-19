@@ -37,26 +37,37 @@ fig_width_in = cols * img_width_in + (cols + 1) * spacing_col_in
 def display_deck(deck: dict) -> plt.Figure:
     # Load mainboard card images
     cards = []
-    last_cards = []
-    sorted_deck = dict(sorted(deck["main"].items(), key=lambda item: item[1], reverse=True))
+    lands = []
+    creatures = []
+    non_creatures = []
+    sorted_deck = dict(
+        sorted(deck["main"].items(), key=lambda item: (-item[1], item[0]), reverse=False)
+    )
     for card_name, quantity in sorted_deck.items():
         time.sleep(0.1)
-        scrython_card = scrython.cards.Named(fuzzy=card_name)
+        scrython_card = scrython.cards.Named(exact=card_name)  # set="card_set")
         card_url = scrython_card.image_uris()["small"]
         card_img = Image.open(BytesIO(requests.get(card_url, timeout=TIMEOUT).content))
         if "Land" in scrython_card.type_line():
-            last_cards.extend([card_img] * quantity)
+            lands.extend([card_img] * quantity)
+        elif "Creature" in scrython_card.type_line():
+            creatures.extend([card_img] * quantity)
         else:
-            cards.extend([card_img] * quantity)
-    cards.extend(last_cards)
+            non_creatures.extend([card_img] * quantity)
+    cards.extend(creatures)
+    cards.extend(non_creatures)
+    cards.extend(lands)
+
     grouped_cards = [cards[i : i + 4] for i in range(0, len(cards), 4)]  # noqa
 
     # Load sideboard card images
     side_cards = []
-    sorted_side = dict(sorted(deck["side"].items(), key=lambda item: item[1], reverse=True))
+    sorted_side = dict(
+        sorted(deck["side"].items(), key=lambda item: (-item[1], item[0]), reverse=False)
+    )
     for card_name, quantity in sorted_side.items():
         time.sleep(0.1)
-        scrython_card = scrython.cards.Named(fuzzy=card_name)
+        scrython_card = scrython.cards.Named(exact=card_name)
         card_url = scrython_card.image_uris()["small"]
         card_img = Image.open(BytesIO(requests.get(card_url, timeout=TIMEOUT).content))
         side_cards.extend([card_img] * quantity)
