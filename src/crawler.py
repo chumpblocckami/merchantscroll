@@ -79,7 +79,7 @@ def crawl_decks(tournament_url: str) -> None:
                 get_challenge_record(tournament_data["winloss"], player_id)
                 if "winloss" in tournament_data
                 else (
-                    get_league_record(decklist["wins"], player_id)
+                    get_league_record(decklist["wins"])
                     if "wins" in decklist
                     else "(record not available)"
                 )
