@@ -1,8 +1,8 @@
 import time
 from pathlib import Path
 
+import requests
 from tqdm import tqdm
-from urllib3 import HTTPSConnectionPool
 
 from src.constants import FORMATS
 from src.crawler import crawl_decks, crawl_tournaments
@@ -37,7 +37,7 @@ def start_crawler():
             pbar.set_description(desc=f"Crawling {tournament}")
             crawl_decks(tournament)
             time.sleep(1)
-    except HTTPSConnectionPool as e:
+    except requests.exceptions.RequestException as e:
         print(f"Exception: {e}. Skipping this time and rerunning later.")
     print(f"Finish crawling {len(tournaments)} tournaments")
 
