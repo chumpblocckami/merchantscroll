@@ -38,8 +38,6 @@ def display_deck(deck: dict) -> plt.Figure:
     # Load mainboard card images
     cards = []
     lands = []
-    creatures = []
-    non_creatures = []
     sorted_deck = dict(
         sorted(deck["main"].items(), key=lambda item: (-item[1], item[0]), reverse=False)
     )
@@ -50,12 +48,8 @@ def display_deck(deck: dict) -> plt.Figure:
         card_img = Image.open(BytesIO(requests.get(card_url, timeout=TIMEOUT).content))
         if "Land" in scrython_card.type_line():
             lands.extend([card_img] * quantity)
-        elif "Creature" in scrython_card.type_line():
-            creatures.extend([card_img] * quantity)
         else:
-            non_creatures.extend([card_img] * quantity)
-    cards.extend(creatures)
-    cards.extend(non_creatures)
+            cards.extend([card_img] * quantity)
     cards.extend(lands)
 
     grouped_cards = [cards[i : i + 4] for i in range(0, len(cards), 4)]  # noqa
