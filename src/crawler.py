@@ -69,7 +69,11 @@ def crawl_decks(tournament_url: str) -> None:
                 tournament_data["decklists"], key=lambda p: rank_map.get(p["loginid"], 9999)
             )
         else:
-            decklists = tournament_data["decklists"]
+            if "decklists" in tournament_data:
+                decklists = tournament_data["decklists"]
+            else:
+                print("No decklists found in tournament data.")
+                return
 
         # Save decklist images
         pbar = tqdm(decklists, desc="Reading decklists")

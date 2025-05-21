@@ -39,7 +39,7 @@ def start_crawler():
             time.sleep(1)
     except requests.exceptions.RequestException as e:
         print(f"Exception: {e}. Skipping this time and rerunning later.")
-    print(f"Finish crawling {len(tournaments)} tournaments")
+    print("Finish crawling tournaments")
 
 
 if __name__ == "__main__":
