@@ -120,7 +120,12 @@ def crawl_decks(tournament_url: str) -> None:
                 "tournament": tournament_name + " " + record,
             }
             pbar.set_description(desc=f"Reading {tournament_id}-{deck['player']}")
-            fig = display_deck(deck=deck)
+            try:
+                fig = display_deck(deck=deck)
+            except Exception as e:
+                print(f"Error displaying deck for {deck['player']}: {e}")
+                continue
+            # Save decklist image
             deck_name = (
                 f"{tournament_name.replace(' ','_').lower()}_{tournament_id}_{player_id}"  # noqa
             )
