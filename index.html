@@ -75,6 +75,7 @@
             </select>
         </div>
         <div class="info" id="info">Last update: </div>
+        <div class="info" id="available-decks">Available decks: </div>
     </div>
 
     <div id="content" class="image-container"></div>
@@ -134,6 +135,8 @@
                 })
                 .then(text => {
                     imageUrls = text.split(/\s+/).map(url => url.trim()).filter(url => url.length > 0 && url.includes(currentYear));
+                    const nDecks = document.getElementById("available-decks");
+                    nDecks.textContent = "Available " + format + " decks: " + imageUrls.length;
                     showImageAtIndex(index);
                 })
                 .catch(err => {
