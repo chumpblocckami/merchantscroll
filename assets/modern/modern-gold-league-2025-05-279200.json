@@ -45,10 +45,10 @@
             "cardset": "ONE",
             "card_type": "ISCREA",
             "colors": [
-              "COLOR_WHITE",
-              "COLOR_BLUE",
               "COLOR_BLACK",
-              "COLOR_GREEN"
+              "COLOR_BLUE",
+              "COLOR_GREEN",
+              "COLOR_WHITE"
             ]
           }
         },
@@ -143,8 +143,8 @@
             "cardset": "MH1",
             "card_type": "INSTNT",
             "colors": [
-              "COLOR_WHITE",
-              "COLOR_GREEN"
+              "COLOR_GREEN",
+              "COLOR_WHITE"
             ]
           }
         },
@@ -183,8 +183,8 @@
             "card_type": "ISCREA",
             "colors": [
               "COLOR_BLUE",
-              "COLOR_RED",
-              "COLOR_GREEN"
+              "COLOR_GREEN",
+              "COLOR_RED"
             ]
           }
         },
@@ -279,8 +279,8 @@
             "cardset": "MH3",
             "card_type": "INSTNT",
             "colors": [
-              "COLOR_GREEN",
-              "COLOR_BLUE"
+              "COLOR_BLUE",
+              "COLOR_GREEN"
             ]
           }
         },
@@ -376,8 +376,8 @@
             "cardset": "MH3",
             "card_type": "INSTNT",
             "colors": [
-              "COLOR_GREEN",
-              "COLOR_BLUE"
+              "COLOR_BLUE",
+              "COLOR_GREEN"
             ]
           }
         },
@@ -510,8 +510,8 @@
             "cardset": "BNG",
             "card_type": "ISCREA",
             "colors": [
-              "COLOR_RED",
-              "COLOR_GREEN"
+              "COLOR_GREEN",
+              "COLOR_RED"
             ]
           }
         }
@@ -1181,6 +1181,591 @@
       }
     },
     {
+      "loginplayeventcourseid": "32499341",
+      "loginid": "1636994",
+      "instance_id": "9200_2025-05-27",
+      "player": "gazmon48",
+      "main_deck": [
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "59323",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "59323",
+            "card_name": "Wastes",
+            "cost": "0",
+            "rarity": "COMMON",
+            "color": "COLORLESS",
+            "cardset": "OGW",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "97500",
+          "qty": "2",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "97500",
+            "card_name": "Secluded Courtyard",
+            "cost": "0",
+            "rarity": "UNCOMMON",
+            "color": "COLORLESS",
+            "cardset": "NEO",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "91399",
+          "qty": "2",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "91399",
+            "card_name": "Prismatic Vista",
+            "cost": "0",
+            "rarity": "PROMO",
+            "color": "COLORLESS",
+            "cardset": "PRM",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "126021",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "126021",
+            "card_name": "Devourer of Destiny",
+            "cost": "7",
+            "rarity": "RARE",
+            "color": "COLORLESS",
+            "cardset": "MH3",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "126251",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "126251",
+            "card_name": "Eldrazi Linebreaker",
+            "cost": "3",
+            "rarity": "RARE",
+            "color": "COLORLESS",
+            "cardset": "MH3",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "79690",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "79690",
+            "card_name": "Mountain",
+            "cost": "0",
+            "rarity": "BASIC_LAND",
+            "color": "COLORLESS",
+            "cardset": "THB",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "42294",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "42294",
+            "card_name": "Ghost Quarter",
+            "cost": "0",
+            "rarity": "UNCOMMON",
+            "color": "COLORLESS",
+            "cardset": "ISD",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "25889",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "25889",
+            "card_name": "Gemstone Caverns",
+            "cost": "0",
+            "rarity": "RARE",
+            "color": "COLORLESS",
+            "cardset": "TSP",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "79694",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "79694",
+            "card_name": "Forest",
+            "cost": "0",
+            "rarity": "BASIC_LAND",
+            "color": "COLORLESS",
+            "cardset": "THB",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "126031",
+          "qty": "3",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "126031",
+            "card_name": "Glaring Fleshraker",
+            "cost": "3",
+            "rarity": "UNCOMMON",
+            "color": "COLORLESS",
+            "cardset": "MH3",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "126035",
+          "qty": "3",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "126035",
+            "card_name": "It That Heralds the End",
+            "cost": "2",
+            "rarity": "UNCOMMON",
+            "color": "COLORLESS",
+            "cardset": "MH3",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "126039",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "126039",
+            "card_name": "Kozilek's Command",
+            "cost": "2",
+            "rarity": "RARE",
+            "color": "COLORLESS",
+            "cardset": "MH3",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "36780",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "36780",
+            "card_name": "Eldrazi Temple",
+            "cost": "0",
+            "rarity": "RARE",
+            "color": "COLORLESS",
+            "cardset": "ROE",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "126043",
+          "qty": "2",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "126043",
+            "card_name": "Nulldrifter",
+            "cost": "7",
+            "rarity": "RARE",
+            "color": "COLORLESS",
+            "cardset": "MH3",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "48920",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "48920",
+            "card_name": "Chalice of the Void",
+            "cost": "0",
+            "rarity": "RARE",
+            "color": "COLORLESS",
+            "cardset": "MMA",
+            "card_type": "ARTFCT",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "63513",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "63513",
+            "card_name": "Cavern of Souls",
+            "cost": "0",
+            "rarity": "MYTHIC",
+            "color": "COLORLESS",
+            "cardset": "MM3",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "133570",
+          "qty": "3",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "133570",
+            "card_name": "Sire of Seven Deaths",
+            "cost": "7",
+            "rarity": "MYTHIC",
+            "color": "COLORLESS",
+            "cardset": "FDN",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "126357",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "126357",
+            "card_name": "Sowing Mycospawn",
+            "cost": "4",
+            "rarity": "RARE",
+            "color": "COLORLESS",
+            "cardset": "MH3",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "59463",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "59463",
+            "card_name": "Thought-Knot Seer",
+            "cost": "4",
+            "rarity": "RARE",
+            "color": "COLORLESS",
+            "cardset": "OGW",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "126485",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "126485",
+            "card_name": "Ugin's Labyrinth",
+            "cost": "0",
+            "rarity": "MYTHIC",
+            "color": "COLORLESS",
+            "cardset": "MH3",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "65546",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "65546",
+            "card_name": "Unclaimed Territory",
+            "cost": "0",
+            "rarity": "UNCOMMON",
+            "color": "COLORLESS",
+            "cardset": "XLN",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "113941",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "113941",
+            "card_name": "All Is Dust",
+            "cost": "7",
+            "rarity": "MYTHIC",
+            "color": "COLORLESS",
+            "cardset": "CMM",
+            "card_type": "SORCRY",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "126051",
+          "qty": "2",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "126051",
+            "card_name": "Wastescape Battlemage",
+            "cost": "2",
+            "rarity": "UNCOMMON",
+            "color": "COLORLESS",
+            "cardset": "MH3",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        }
+      ],
+      "sideboard_deck": [
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "20491",
+          "qty": "3",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "20491",
+            "card_name": "Trinisphere",
+            "cost": "3",
+            "rarity": "RARE",
+            "color": "COLORLESS",
+            "cardset": "DST",
+            "card_type": "ARTFCT",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "57330",
+          "qty": "3",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "57330",
+            "card_name": "Dismember",
+            "cost": "3",
+            "rarity": "UNCOMMON",
+            "color": "BLACK",
+            "cardset": "MM2",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_BLACK"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "126437",
+          "qty": "3",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "126437",
+            "card_name": "Disruptor Flute",
+            "cost": "2",
+            "rarity": "RARE",
+            "color": "COLORLESS",
+            "cardset": "MH3",
+            "card_type": "ARTFCT",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "39998",
+          "qty": "1",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "39998",
+            "card_name": "Torpor Orb",
+            "cost": "2",
+            "rarity": "RARE",
+            "color": "COLORLESS",
+            "cardset": "NPH",
+            "card_type": "ARTFCT",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "48792",
+          "qty": "2",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "48792",
+            "card_name": "Relic of Progenitus",
+            "cost": "1",
+            "rarity": "UNCOMMON",
+            "color": "COLORLESS",
+            "cardset": "MMA",
+            "card_type": "ARTFCT",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "113941",
+          "qty": "1",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "113941",
+            "card_name": "All Is Dust",
+            "cost": "7",
+            "rarity": "MYTHIC",
+            "color": "COLORLESS",
+            "cardset": "CMM",
+            "card_type": "SORCRY",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34134224",
+          "loginplayeventcourseid": "32499341",
+          "docid": "126051",
+          "qty": "2",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "126051",
+            "card_name": "Wastescape Battlemage",
+            "cost": "2",
+            "rarity": "UNCOMMON",
+            "color": "COLORLESS",
+            "cardset": "MH3",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        }
+      ],
+      "wins": {
+        "loginplayeventcourseid": "32499341",
+        "wins": "5",
+        "losses": "0"
+      }
+    },
+    {
       "loginplayeventcourseid": "32499714",
       "loginid": "828185",
       "instance_id": "9200_2025-05-27",
@@ -1259,8 +1844,8 @@
             "cardset": "NEO",
             "card_type": "ISCREA",
             "colors": [
-              "COLOR_GREEN",
-              "COLOR_BLUE"
+              "COLOR_BLUE",
+              "COLOR_GREEN"
             ]
           }
         },
@@ -1564,8 +2149,8 @@
             "cardset": "MH2",
             "card_type": "ISCREA",
             "colors": [
-              "COLOR_GREEN",
-              "COLOR_BLUE"
+              "COLOR_BLUE",
+              "COLOR_GREEN"
             ]
           }
         },
