@@ -26,10 +26,10 @@
             "cardset": "ONE",
             "card_type": "ISCREA",
             "colors": [
+              "COLOR_GREEN",
               "COLOR_BLACK",
               "COLOR_BLUE",
-              "COLOR_WHITE",
-              "COLOR_GREEN"
+              "COLOR_WHITE"
             ]
           }
         },
@@ -622,8 +622,8 @@
             "cardset": "WAR",
             "card_type": "PLNWKR",
             "colors": [
-              "COLOR_WHITE",
-              "COLOR_BLUE"
+              "COLOR_BLUE",
+              "COLOR_WHITE"
             ]
           }
         },
@@ -649,6 +649,637 @@
       ],
       "wins": {
         "loginplayeventcourseid": "32578981",
+        "wins": "5",
+        "losses": "0"
+      }
+    },
+    {
+      "loginplayeventcourseid": "32581753",
+      "loginid": "2694489",
+      "instance_id": "9200_2025-06-10",
+      "player": "eggybenny",
+      "main_deck": [
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "97482",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "97482",
+            "card_name": "Boseiju, Who Endures",
+            "cost": "0",
+            "rarity": "RARE",
+            "color": "COLORLESS",
+            "cardset": "NEO",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "21669",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "21669",
+            "card_name": "Nourishing Shoal",
+            "cost": "2",
+            "rarity": "RARE",
+            "color": "GREEN",
+            "cardset": "BOK",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "51745",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "51745",
+            "card_name": "Xenagos, God of Revels",
+            "cost": "5",
+            "rarity": "MYTHIC",
+            "color": "MULTICOLORED",
+            "cardset": "BNG",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_RED",
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "122016",
+          "qty": "3",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "122016",
+            "card_name": "Hedge Maze",
+            "cost": "0",
+            "rarity": "RARE",
+            "color": "COLORLESS",
+            "cardset": "MKM",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "44125",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "44125",
+            "card_name": "Griselbrand",
+            "cost": "8",
+            "rarity": "MYTHIC",
+            "color": "BLACK",
+            "cardset": "AVR",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_BLACK"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "139815",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "139815",
+            "card_name": "Ureni, the Song Unending",
+            "cost": "8",
+            "rarity": "PROMO",
+            "color": "MULTICOLORED",
+            "cardset": "TDM",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_GREEN",
+              "COLOR_RED",
+              "COLOR_BLUE"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "26758",
+          "qty": "3",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "26758",
+            "card_name": "Pact of Negation",
+            "cost": "0",
+            "rarity": "RARE",
+            "color": "BLUE",
+            "cardset": "FUT",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_BLUE"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "26764",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "26764",
+            "card_name": "Summoner's Pact",
+            "cost": "0",
+            "rarity": "RARE",
+            "color": "GREEN",
+            "cardset": "FUT",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "126545",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "126545",
+            "card_name": "Disciple of Freyalise",
+            "cost": "6",
+            "rarity": "UNCOMMON",
+            "color": "GREEN",
+            "cardset": "MH3",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "24587",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "24587",
+            "card_name": "Allosaurus Rider",
+            "cost": "7",
+            "rarity": "RARE",
+            "color": "GREEN",
+            "cardset": "CSP",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "63205",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "63205",
+            "card_name": "Verdant Catacombs",
+            "cost": "0",
+            "rarity": "RARE",
+            "color": "COLORLESS",
+            "cardset": "MM3",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "63197",
+          "qty": "3",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "63197",
+            "card_name": "Scalding Tarn",
+            "cost": "0",
+            "rarity": "RARE",
+            "color": "COLORLESS",
+            "cardset": "MM3",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "126125",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "126125",
+            "card_name": "Consign to Memory",
+            "cost": "1",
+            "rarity": "UNCOMMON",
+            "color": "BLUE",
+            "cardset": "MH3",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_BLUE"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "54040",
+          "qty": "3",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "54040",
+            "card_name": "Hooting Mandrills",
+            "cost": "6",
+            "rarity": "COMMON",
+            "color": "GREEN",
+            "cardset": "KTK",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "112248",
+          "qty": "3",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "112248",
+            "card_name": "Generous Ent",
+            "cost": "6",
+            "rarity": "COMMON",
+            "color": "GREEN",
+            "cardset": "LTR",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "106607",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "106607",
+            "card_name": "Atraxa, Grand Unifier",
+            "cost": "7",
+            "rarity": "MYTHIC",
+            "color": "MULTICOLORED",
+            "cardset": "ONE",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_WHITE",
+              "COLOR_BLUE",
+              "COLOR_BLACK",
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "63199",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "63199",
+            "card_name": "Misty Rainforest",
+            "cost": "0",
+            "rarity": "RARE",
+            "color": "COLORLESS",
+            "cardset": "MM3",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "138929",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "138929",
+            "card_name": "Island",
+            "cost": "0",
+            "rarity": "BASIC_LAND",
+            "color": "COLORLESS",
+            "cardset": "TDM",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "136121",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "136121",
+            "card_name": "Forest",
+            "cost": "0",
+            "rarity": "BASIC_LAND",
+            "color": "COLORLESS",
+            "cardset": "DFT",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "24029",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "24029",
+            "card_name": "Breeding Pool",
+            "cost": "0",
+            "rarity": "RARE",
+            "color": "COLORLESS",
+            "cardset": "DIS",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "126415",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "126415",
+            "card_name": "Planar Genesis",
+            "cost": "2",
+            "rarity": "UNCOMMON",
+            "color": "MULTICOLORED",
+            "cardset": "MH3",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_GREEN",
+              "COLOR_BLUE"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "72018",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "72018",
+            "card_name": "Neoform",
+            "cost": "2",
+            "rarity": "UNCOMMON",
+            "color": "MULTICOLORED",
+            "cardset": "WAR",
+            "card_type": "SORCRY",
+            "colors": [
+              "COLOR_BLUE",
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "61460",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "61460",
+            "card_name": "Eldritch Evolution",
+            "cost": "3",
+            "rarity": "RARE",
+            "color": "GREEN",
+            "cardset": "EMN",
+            "card_type": "SORCRY",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "118194",
+          "qty": "3",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "118194",
+            "card_name": "Ghalta, Stampede Tyrant",
+            "cost": "8",
+            "rarity": "MYTHIC",
+            "color": "GREEN",
+            "cardset": "LCI",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        }
+      ],
+      "sideboard_deck": [
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "73295",
+          "qty": "4",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "73295",
+            "card_name": "Veil of Summer",
+            "cost": "1",
+            "rarity": "UNCOMMON",
+            "color": "GREEN",
+            "cardset": "M20",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "78226",
+          "qty": "4",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "78226",
+            "card_name": "Mystical Dispute",
+            "cost": "3",
+            "rarity": "UNCOMMON",
+            "color": "BLUE",
+            "cardset": "ELD",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_BLUE"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "35629",
+          "qty": "1",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "35629",
+            "card_name": "Terastodon",
+            "cost": "8",
+            "rarity": "RARE",
+            "color": "GREEN",
+            "cardset": "WWK",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "72700",
+          "qty": "1",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "72700",
+            "card_name": "Force of Vigor",
+            "cost": "4",
+            "rarity": "RARE",
+            "color": "GREEN",
+            "cardset": "MH1",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "54040",
+          "qty": "1",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "54040",
+            "card_name": "Hooting Mandrills",
+            "cost": "6",
+            "rarity": "COMMON",
+            "color": "GREEN",
+            "cardset": "KTK",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "90473",
+          "qty": "1",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "90473",
+            "card_name": "Murktide Regent",
+            "cost": "7",
+            "rarity": "MYTHIC",
+            "color": "BLUE",
+            "cardset": "MH2",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_BLUE"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "60843",
+          "qty": "2",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "60843",
+            "card_name": "Nature's Claim",
+            "cost": "1",
+            "rarity": "COMMON",
+            "color": "GREEN",
+            "cardset": "EMA",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34217709",
+          "loginplayeventcourseid": "32581753",
+          "docid": "21277",
+          "qty": "1",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "21277",
+            "card_name": "Dosan the Falling Leaf",
+            "cost": "3",
+            "rarity": "RARE",
+            "color": "GREEN",
+            "cardset": "CHK",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        }
+      ],
+      "wins": {
+        "loginplayeventcourseid": "32581753",
         "wins": "5",
         "losses": "0"
       }
