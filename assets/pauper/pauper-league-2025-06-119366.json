@@ -2104,25 +2104,6 @@
         {
           "leaguedeckid": "34231705",
           "loginplayeventcourseid": "32595632",
-          "docid": "126435",
-          "qty": "4",
-          "sideboard": "False",
-          "card_attributes": {
-            "digitalobjectcatalogid": "126435",
-            "card_name": "Writhing Chrysalis",
-            "cost": "4",
-            "rarity": "COMMON",
-            "color": "COLORLESS",
-            "cardset": "MH3",
-            "card_type": "ISCREA",
-            "colors": [
-              "COLOR_COLORLESS"
-            ]
-          }
-        },
-        {
-          "leaguedeckid": "34231705",
-          "loginplayeventcourseid": "32595632",
           "docid": "15952",
           "qty": "3",
           "sideboard": "False",
@@ -2381,6 +2362,25 @@
             "color": "COLORLESS",
             "cardset": "DMU",
             "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34231705",
+          "loginplayeventcourseid": "32595632",
+          "docid": "126435",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "126435",
+            "card_name": "Writhing Chrysalis",
+            "cost": "4",
+            "rarity": "COMMON",
+            "color": "COLORLESS",
+            "cardset": "MH3",
+            "card_type": "ISCREA",
             "colors": [
               "COLOR_COLORLESS"
             ]
@@ -2932,82 +2932,6 @@
         {
           "leaguedeckid": "34233663",
           "loginplayeventcourseid": "32597567",
-          "docid": "40000",
-          "qty": "4",
-          "sideboard": "False",
-          "card_attributes": {
-            "digitalobjectcatalogid": "40000",
-            "card_name": "Mutagenic Growth",
-            "cost": "1",
-            "rarity": "COMMON",
-            "color": "GREEN",
-            "cardset": "NPH",
-            "card_type": "INSTNT",
-            "colors": [
-              "COLOR_GREEN"
-            ]
-          }
-        },
-        {
-          "leaguedeckid": "34233663",
-          "loginplayeventcourseid": "32597567",
-          "docid": "122014",
-          "qty": "4",
-          "sideboard": "False",
-          "card_attributes": {
-            "digitalobjectcatalogid": "122014",
-            "card_name": "Escape Tunnel",
-            "cost": "0",
-            "rarity": "COMMON",
-            "color": "COLORLESS",
-            "cardset": "MKM",
-            "card_type": "LAND  ",
-            "colors": [
-              "COLOR_COLORLESS"
-            ]
-          }
-        },
-        {
-          "leaguedeckid": "34233663",
-          "loginplayeventcourseid": "32597567",
-          "docid": "38049",
-          "qty": "4",
-          "sideboard": "False",
-          "card_attributes": {
-            "digitalobjectcatalogid": "38049",
-            "card_name": "Ichorclaw Myr",
-            "cost": "2",
-            "rarity": "COMMON",
-            "color": "COLORLESS",
-            "cardset": "SOM",
-            "card_type": "ISCREA",
-            "colors": [
-              "COLOR_COLORLESS"
-            ]
-          }
-        },
-        {
-          "leaguedeckid": "34233663",
-          "loginplayeventcourseid": "32597567",
-          "docid": "39968",
-          "qty": "4",
-          "sideboard": "False",
-          "card_attributes": {
-            "digitalobjectcatalogid": "39968",
-            "card_name": "Glistener Elf",
-            "cost": "1",
-            "rarity": "COMMON",
-            "color": "GREEN",
-            "cardset": "NPH",
-            "card_type": "ISCREA",
-            "colors": [
-              "COLOR_GREEN"
-            ]
-          }
-        },
-        {
-          "leaguedeckid": "34233663",
-          "loginplayeventcourseid": "32597567",
           "docid": "57150",
           "qty": "2",
           "sideboard": "False",
@@ -3230,6 +3154,82 @@
             "card_type": "LAND  ",
             "colors": [
               "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34233663",
+          "loginplayeventcourseid": "32597567",
+          "docid": "40000",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "40000",
+            "card_name": "Mutagenic Growth",
+            "cost": "1",
+            "rarity": "COMMON",
+            "color": "GREEN",
+            "cardset": "NPH",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34233663",
+          "loginplayeventcourseid": "32597567",
+          "docid": "122014",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "122014",
+            "card_name": "Escape Tunnel",
+            "cost": "0",
+            "rarity": "COMMON",
+            "color": "COLORLESS",
+            "cardset": "MKM",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34233663",
+          "loginplayeventcourseid": "32597567",
+          "docid": "38049",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "38049",
+            "card_name": "Ichorclaw Myr",
+            "cost": "2",
+            "rarity": "COMMON",
+            "color": "COLORLESS",
+            "cardset": "SOM",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34233663",
+          "loginplayeventcourseid": "32597567",
+          "docid": "39968",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "39968",
+            "card_name": "Glistener Elf",
+            "cost": "1",
+            "rarity": "COMMON",
+            "color": "GREEN",
+            "cardset": "NPH",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_GREEN"
             ]
           }
         }
