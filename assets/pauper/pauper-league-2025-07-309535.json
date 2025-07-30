@@ -5273,63 +5273,6 @@
         {
           "leaguedeckid": "34610184",
           "loginplayeventcourseid": "32971877",
-          "docid": "100458",
-          "qty": "2",
-          "sideboard": "False",
-          "card_attributes": {
-            "digitalobjectcatalogid": "100458",
-            "card_name": "Avenging Hunter",
-            "cost": "5",
-            "rarity": "COMMON",
-            "color": "GREEN",
-            "cardset": "CLB",
-            "card_type": "ISCREA",
-            "colors": [
-              "COLOR_GREEN"
-            ]
-          }
-        },
-        {
-          "leaguedeckid": "34610184",
-          "loginplayeventcourseid": "32971877",
-          "docid": "78580",
-          "qty": "1",
-          "sideboard": "False",
-          "card_attributes": {
-            "digitalobjectcatalogid": "78580",
-            "card_name": "Crashing Drawbridge",
-            "cost": "2",
-            "rarity": "COMMON",
-            "color": "COLORLESS",
-            "cardset": "ELD",
-            "card_type": "ISCREA",
-            "colors": [
-              "COLOR_COLORLESS"
-            ]
-          }
-        },
-        {
-          "leaguedeckid": "34610184",
-          "loginplayeventcourseid": "32971877",
-          "docid": "53460",
-          "qty": "3",
-          "sideboard": "False",
-          "card_attributes": {
-            "digitalobjectcatalogid": "53460",
-            "card_name": "Elvish Mystic",
-            "cost": "1",
-            "rarity": "COMMON",
-            "color": "GREEN",
-            "cardset": "M15",
-            "card_type": "ISCREA",
-            "colors": [
-              "COLOR_GREEN"
-            ]
-          }
-        },
-        {
-          "leaguedeckid": "34610184",
-          "loginplayeventcourseid": "32971877",
           "docid": "18119",
           "qty": "2",
           "sideboard": "False",
@@ -5550,6 +5493,63 @@
             "color": "GREEN",
             "cardset": "MH1",
             "card_type": "SORCRY",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34610184",
+          "loginplayeventcourseid": "32971877",
+          "docid": "100458",
+          "qty": "2",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "100458",
+            "card_name": "Avenging Hunter",
+            "cost": "5",
+            "rarity": "COMMON",
+            "color": "GREEN",
+            "cardset": "CLB",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34610184",
+          "loginplayeventcourseid": "32971877",
+          "docid": "78580",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "78580",
+            "card_name": "Crashing Drawbridge",
+            "cost": "2",
+            "rarity": "COMMON",
+            "color": "COLORLESS",
+            "cardset": "ELD",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34610184",
+          "loginplayeventcourseid": "32971877",
+          "docid": "53460",
+          "qty": "3",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "53460",
+            "card_name": "Elvish Mystic",
+            "cost": "1",
+            "rarity": "COMMON",
+            "color": "GREEN",
+            "cardset": "M15",
+            "card_type": "ISCREA",
             "colors": [
               "COLOR_GREEN"
             ]
@@ -10142,6 +10142,667 @@
       ],
       "wins": {
         "loginplayeventcourseid": "32974428",
+        "wins": "5",
+        "losses": "0"
+      }
+    },
+    {
+      "loginplayeventcourseid": "32974661",
+      "loginid": "2235037",
+      "instance_id": "9535_2025-07-30",
+      "player": "LuffyDoChapeuDePalha",
+      "main_deck": [
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "85165",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "85165",
+            "card_name": "Makeshift Munitions",
+            "cost": "2",
+            "rarity": "COMMON",
+            "color": "RED",
+            "cardset": "CMR",
+            "card_type": "ENCHMT",
+            "colors": [
+              "COLOR_RED"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "126227",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "126227",
+            "card_name": "Refurbished Familiar",
+            "cost": "4",
+            "rarity": "COMMON",
+            "color": "BLACK",
+            "cardset": "MH3",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_BLACK"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "104334",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "104334",
+            "card_name": "Ichor Wellspring",
+            "cost": "2",
+            "rarity": "UNCOMMON",
+            "color": "COLORLESS",
+            "cardset": "BRR",
+            "card_type": "ARTFCT",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "105426",
+          "qty": "3",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "105426",
+            "card_name": "Nihil Spellbomb",
+            "cost": "1",
+            "rarity": "COMMON",
+            "color": "COLORLESS",
+            "cardset": "BRC",
+            "card_type": "ARTFCT",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "118014",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "118014",
+            "card_name": "Fanatical Offering",
+            "cost": "2",
+            "rarity": "COMMON",
+            "color": "BLACK",
+            "cardset": "LCI",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_BLACK"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "105488",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "105488",
+            "card_name": "Drossforge Bridge",
+            "cost": "0",
+            "rarity": "COMMON",
+            "color": "COLORLESS",
+            "cardset": "BRC",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "105522",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "105522",
+            "card_name": "Silverbluff Bridge",
+            "cost": "0",
+            "rarity": "COMMON",
+            "color": "COLORLESS",
+            "cardset": "BRC",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "105500",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "105500",
+            "card_name": "Mistvault Bridge",
+            "cost": "0",
+            "rarity": "COMMON",
+            "color": "COLORLESS",
+            "cardset": "BRC",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "82285",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "82285",
+            "card_name": "Galvanic Blast",
+            "cost": "1",
+            "rarity": "UNCOMMON",
+            "color": "RED",
+            "cardset": "2XM",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_RED"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "105544",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "105544",
+            "card_name": "Vault of Whispers",
+            "cost": "0",
+            "rarity": "COMMON",
+            "color": "COLORLESS",
+            "cardset": "BRC",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "68070",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "68070",
+            "card_name": "Swamp",
+            "cost": "0",
+            "rarity": "BASIC_LAND",
+            "color": "COLORLESS",
+            "cardset": "UST",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "95789",
+          "qty": "3",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "95789",
+            "card_name": "Blood Fountain",
+            "cost": "1",
+            "rarity": "COMMON",
+            "color": "BLACK",
+            "cardset": "DBL",
+            "card_type": "ARTFCT",
+            "colors": [
+              "COLOR_BLACK"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "19748",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "19748",
+            "card_name": "Myr Enforcer",
+            "cost": "7",
+            "rarity": "COMMON",
+            "color": "COLORLESS",
+            "cardset": "MRD",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "105496",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "105496",
+            "card_name": "Great Furnace",
+            "cost": "0",
+            "rarity": "COMMON",
+            "color": "COLORLESS",
+            "cardset": "BRC",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "97167",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "97167",
+            "card_name": "Reckoner's Bargain",
+            "cost": "2",
+            "rarity": "COMMON",
+            "color": "BLACK",
+            "cardset": "NEO",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_BLACK"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "105320",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "105320",
+            "card_name": "Thoughtcast",
+            "cost": "5",
+            "rarity": "COMMON",
+            "color": "BLUE",
+            "cardset": "BRC",
+            "card_type": "SORCRY",
+            "colors": [
+              "COLOR_BLUE"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "19718",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "19718",
+            "card_name": "Krark-Clan Shaman",
+            "cost": "1",
+            "rarity": "COMMON",
+            "color": "RED",
+            "cardset": "MRD",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_RED"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "118350",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "118350",
+            "card_name": "Hunter's Blowgun",
+            "cost": "1",
+            "rarity": "COMMON",
+            "color": "COLORLESS",
+            "cardset": "LCI",
+            "card_type": "ARTFCT",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "105518",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "105518",
+            "card_name": "Seat of the Synod",
+            "cost": "0",
+            "rarity": "COMMON",
+            "color": "COLORLESS",
+            "cardset": "BRC",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "121692",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "121692",
+            "card_name": "Toxin Analysis",
+            "cost": "1",
+            "rarity": "COMMON",
+            "color": "BLACK",
+            "cardset": "MKM",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_BLACK"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "141109",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "141109",
+            "card_name": "Black Mage's Rod",
+            "cost": "2",
+            "rarity": "COMMON",
+            "color": "BLACK",
+            "cardset": "FIN",
+            "card_type": "ARTFCT",
+            "colors": [
+              "COLOR_BLACK"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "126203",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "126203",
+            "card_name": "Eviscerator's Insight",
+            "cost": "2",
+            "rarity": "COMMON",
+            "color": "BLACK",
+            "cardset": "MH3",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_BLACK"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "100160",
+          "qty": "2",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "100160",
+            "card_name": "Kenku Artificer",
+            "cost": "3",
+            "rarity": "COMMON",
+            "color": "BLUE",
+            "cardset": "CLB",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_BLUE"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "105427",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "105427",
+            "card_name": "Nihil Spellbomb",
+            "cost": "1",
+            "rarity": "COMMON",
+            "color": "COLORLESS",
+            "cardset": "BRC",
+            "card_type": "ARTFCT",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "68072",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "68072",
+            "card_name": "Mountain",
+            "cost": "0",
+            "rarity": "BASIC_LAND",
+            "color": "COLORLESS",
+            "cardset": "UST",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "142717",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "142717",
+            "card_name": "Cryogen Relic",
+            "cost": "2",
+            "rarity": "COMMON",
+            "color": "BLUE",
+            "cardset": "EOE",
+            "card_type": "ARTFCT",
+            "colors": [
+              "COLOR_BLUE"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "143099",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "143099",
+            "card_name": "Nutrient Block",
+            "cost": "1",
+            "rarity": "COMMON",
+            "color": "COLORLESS",
+            "cardset": "EOE",
+            "card_type": "ARTFCT",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        }
+      ],
+      "sideboard_deck": [
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "38574",
+          "qty": "2",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "38574",
+            "card_name": "Red Elemental Blast",
+            "cost": "1",
+            "rarity": "UNCOMMON",
+            "color": "RED",
+            "cardset": "ME4",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_RED"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "60943",
+          "qty": "4",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "60943",
+            "card_name": "Pyroblast",
+            "cost": "1",
+            "rarity": "UNCOMMON",
+            "color": "RED",
+            "cardset": "EMA",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_RED"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "80214",
+          "qty": "2",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "80214",
+            "card_name": "Unexpected Fangs",
+            "cost": "2",
+            "rarity": "COMMON",
+            "color": "BLACK",
+            "cardset": "IKO",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_BLACK"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "100352",
+          "qty": "1",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "100352",
+            "card_name": "Breath Weapon",
+            "cost": "3",
+            "rarity": "COMMON",
+            "color": "RED",
+            "cardset": "CLB",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_RED"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "35925",
+          "qty": "1",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "35925",
+            "card_name": "Blue Elemental Blast",
+            "cost": "1",
+            "rarity": "UNCOMMON",
+            "color": "BLUE",
+            "cardset": "PRM",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_BLUE"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "28041",
+          "qty": "4",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "28041",
+            "card_name": "Hydroblast",
+            "cost": "1",
+            "rarity": "COMMON",
+            "color": "BLUE",
+            "cardset": "MED",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_BLUE"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "34613025",
+          "loginplayeventcourseid": "32974661",
+          "docid": "112146",
+          "qty": "1",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "112146",
+            "card_name": "Cast into the Fire",
+            "cost": "2",
+            "rarity": "COMMON",
+            "color": "RED",
+            "cardset": "LTR",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_RED"
+            ]
+          }
+        }
+      ],
+      "wins": {
+        "loginplayeventcourseid": "32974661",
         "wins": "5",
         "losses": "0"
       }
