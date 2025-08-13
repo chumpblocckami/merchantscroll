@@ -162,7 +162,7 @@ def crawl_decks(tournament_url: str) -> None:
     )
 
     push_to_same_remote(
-        str(Path(REMOTE_DECKLISTS_PATH.format(tournament.deck_format)).resolve()),
+        str(Path(REMOTE_DECKLISTS_PATH.format(deck_format=tournament.deck_format)).resolve()),
         branch="main",
         commit_message=f"Updated crawled decklists with {tournament_url}",
     )
@@ -174,7 +174,7 @@ def crawl_decks(tournament_url: str) -> None:
             tournament_url=tournament_url,
         )
         push_to_same_remote(
-            str(Path(f"./assets/{tournament.deck_format}/tournaments.txt").resolve()),
+            str(Path(REMOTE_TOURNAMENTS_PATH.format(deck_format=tournament.deck_format)).resolve()),
             branch="main",
             commit_message=f"Updated crawled tournaments with {tournament_url}",
         )
