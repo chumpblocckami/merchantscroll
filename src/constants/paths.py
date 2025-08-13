@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from constants.misc import SAVE_FILE_AS
+from .misc import SAVE_FILE_AS
 
 TOURNAMENT_FILE_PATH = str(Path("./assets/pauper/tournaments.txt").resolve())
 RAW_TOURNAMENT_PATH = "./assets/{deck_format}/{tournament_id}.json"
