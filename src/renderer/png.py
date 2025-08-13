@@ -1,5 +1,6 @@
 import time
 from io import BytesIO
+from pathlib import Path
 
 import matplotlib
 import matplotlib.pyplot as plt
@@ -7,7 +8,7 @@ import requests
 import scrython
 from PIL import Image
 
-from src.constants import TIMEOUT
+from src.constants.crawler import TIMEOUT
 
 matplotlib.use("Agg")
 
@@ -139,3 +140,14 @@ def display_deck(deck: dict) -> plt.Figure:
     )
 
     return plt.gcf()
+
+
+def write_png(deck: dict, path: str | Path = "figure.png"):
+    fig = display_deck(deck)
+    path = Path(path)
+    fig.savefig(
+        path.resolve(),
+        dpi=100,
+        bbox_inches="tight",
+    )
+    plt.close()

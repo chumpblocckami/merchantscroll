@@ -2,210 +2,267 @@
 <html lang="en">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FWXMHTS3R3"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+  <!-- Google tag gtag.js -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-FWXMHTS3R3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-FWXMHTS3R3');
+  </script>
 
-        gtag('config', 'G-FWXMHTS3R3');
-    </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Favicon -->
-    <link rel="icon" href="https://raw.githubusercontent.com/chumpblocckami/merchantscroll/main/assets/favicon.ico"
-        type="image/x-icon" />
+  <!-- Favicon -->
+  <link rel="icon" href="https://raw.githubusercontent.com/chumpblocckami/merchantscroll/main/assets/favicon.ico"
+    type="image/x-icon" />
 
-    <!-- Primary Meta Tags -->
-    <title>Merchant Scroll – Scroll Infinite Magic: The Gathering Decks</title>
-    <meta name="title" content="Merchant Scroll – Scroll Infinite Magic: The Gathering Decks" />
-    <meta name="description"
-        content="Explore endless Magic: The Gathering decks across Pauper, Modern, Legacy, and more. Updated hourly for the latest meta insights." />
+  <!-- Primary Meta Tags -->
+  <title>Merchant Scroll – Scroll Infinite Magic: The Gathering Decks</title>
+  <meta name="title" content="Merchant Scroll – Scroll Infinite Magic: The Gathering Decks" />
+  <meta name="description"
+    content="Explore endless Magic: The Gathering decks across Pauper, Modern, Legacy, and more. Updated hourly for the latest meta insights." />
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://merchant-scroll.com" />
-    <meta property="og:title" content="Merchant Scroll – Scroll Infinite Magic: The Gathering Decks" />
-    <meta property="og:description"
-        content="Explore endless Magic: The Gathering decks across Pauper, Modern, Legacy, and more. Updated hourly for the latest meta insights." />
-    <meta property="og:image"
-        content="https://raw.githubusercontent.com/chumpblocckami/merchantscroll/main/assets/preview.jpg" />
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://merchant-scroll.com" />
+  <meta property="og:title" content="Merchant Scroll – Scroll Infinite Magic: The Gathering Decks" />
+  <meta property="og:description"
+    content="Explore endless Magic: The Gathering decks across Pauper, Modern, Legacy, and more. Updated hourly for the latest meta insights." />
+  <meta property="og:image"
+    content="https://raw.githubusercontent.com/chumpblocckami/merchantscroll/main/assets/preview.jpg" />
 
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Merchant Scroll – Scroll Infinite Magic: The Gathering Decks" />
-    <meta name="twitter:description"
-        content="Explore endless Magic: The Gathering decks across Pauper, Modern, Legacy, and more. Updated hourly for the latest meta insights." />
-    <meta name="twitter:image"
-        content="https://raw.githubusercontent.com/chumpblocckami/merchantscroll/main/assets/preview.jpg" />
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Merchant Scroll – Scroll Infinite Magic: The Gathering Decks" />
+  <meta name="twitter:description"
+    content="Explore endless Magic: The Gathering decks across Pauper, Modern, Legacy, and more. Updated hourly for the latest meta insights." />
+  <meta name="twitter:image"
+    content="https://raw.githubusercontent.com/chumpblocckami/merchantscroll/main/assets/preview.jpg" />
 
-    <!-- Google-->
-    <script type="application/ld+json">
-        {
-        "@context": "https://schema.org",
-        "@type": "WebSite",
-        "name": "Merchant Scroll",
-        "url": "https://merchant-scroll.com",
-        "logo": "https://raw.githubusercontent.com/chumpblocckami/merchantscroll/main/assets/preview.jpg",
-        "potentialAction": {
-          "@type": "SearchAction",
-          "target": "https://merchant-scroll.com",
-          "query-input": "required name=search_term_string"
-        }
-      }
-    </script>
+  <!-- Google -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "name":"Merchant Scroll",
+    "url":"https://merchant-scroll.com",
+    "logo":"https://raw.githubusercontent.com/chumpblocckami/merchantscroll/main/assets/preview.jpg",
+    "potentialAction":{
+      "@type":"SearchAction",
+      "target":"https://merchant-scroll.com",
+      "query-input":"required name=search_term_string"
+    }
+  }
+  </script>
 
-    <title>Merchant Scroll – Scroll Infinite Magic: The Gathering Decks</title>
-    <link rel="canonical" href="https://merchant-scroll.com/" />
-    <link rel="stylesheet" href="style.css">
+  <link rel="canonical" href="https://merchant-scroll.com/" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .loader {
+      padding: 10px;
+      text-align: center;
+      font-style: italic;
+    }
+
+    .iframe-wrapper {
+      width: 100%;
+      height: min(88vh, 1200px);
+      border: 0;
+    }
+
+    .deck-frame {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      background: #fff;
+    }
+  </style>
 </head>
 
 <body>
-    <div class="header-container">
-        <h1>Merchant Scroll</h1>
-        <strong>Scroll infinite Magic: The Gathering decks</strong>
-        <div class="format-selector">
-            <label for="format-select"><strong>Format:</strong></label>
-            <select id="format-select" name="format">
-                <option value="pauper" selected>Pauper</option>
-                <option value="modern" disabled>Modern</option>
-                <option value="legacy" disabled>Legacy</option>
-            </select>
-        </div>
-        <div class="info" id="info">Last update: </div>
-        <div class="info" id="available-decks">Available decks: </div>
+  <div class="header-container">
+    <h1>Merchant Scroll</h1>
+    <strong>Scroll infinite Magic: The Gathering decks</strong>
+    <div class="format-selector">
+      <label for="format-select"><strong>Format:</strong></label>
+      <select id="format-select" name="format">
+        <option value="pauper" selected>Pauper</option>
+      </select>
     </div>
+    <div class="info" id="info">Last update: </div>
+    <div class="info" id="available-decks">Available decks: </div>
+  </div>
 
-    <div id="content" class="image-container"></div>
+  <div id="content" class="image-container">
+    <div class="loader" id="loader">Loading...</div>
+  </div>
 
-    <footer>
-        <span>Powered by</span>
-        <img src="https://raw.githubusercontent.com/chumpblocckami/merchantscroll/main/assets/logo.png"
-            alt="Wizards Cottage" class="footer-logo">
-    </footer>
+  <footer>
+    <span>Powered by</span>
+    <img src="https://raw.githubusercontent.com/chumpblocckami/merchantscroll/main/assets/logo.png"
+      alt="Wizards Cottage" class="footer-logo">
+  </footer>
 
-    <script>
-        const content = document.getElementById("content");
-        const loader = document.createElement("div");
-        loader.className = "loader";
-        loader.textContent = "Loading...";
-        content.appendChild(loader);
+  <script>
+    const content = document.getElementById("content");
+    const loader = document.getElementById("loader");
 
-        const fileBase = "https://raw.githubusercontent.com/chumpblocckami/merchantscroll/";
-        const formats = {
-            pauper: "main/assets/pauper/decklists.txt",
-            modern: "main/assets/modern/decklists.txt",
-            legacy: "main/assets/legacy/decklists.txt"
+    const fileBase = "https://raw.githubusercontent.com/chumpblocckami/merchantscroll/";
+    const formats = {
+      pauper: "main/assets/pauper/decklists.txt",
+    };
+
+    let entries = [];
+    let index = 0;
+
+    function isImageUrl(url) {
+      return /\.(png|jpg|jpeg|webp|gif)(\?.*)?$/i.test(url);
+    }
+
+    function clearView() {
+      content.innerHTML = "";
+      content.appendChild(loader);
+      loader.style.display = "block";
+      loader.textContent = "Loading...";
+    }
+
+    function showItemAtIndex(i) {
+      if (i < 0 || i >= entries.length) {
+        loader.textContent = "No more entries.";
+        return;
+      }
+
+      clearView();
+
+      const url = entries[i];
+
+      if (isImageUrl(url)) {
+        const img = document.createElement("img");
+        img.onerror = () => {
+          console.warn("Image load error:", url);
+          // Try the next one
+          if (i < entries.length - 1) {
+            showItemAtIndex(i + 1);
+          } else {
+            loader.textContent = "No more entries.";
+          }
         };
+        img.onload = () => loader.style.display = "none";
+        img.src = url;
+        img.className = "card-image";
+        content.appendChild(img);
+      } else {
+        // Treat as HTML, load into iframe via srcdoc with a base tag
+        const frame = document.createElement("iframe");
+        frame.className = "deck-frame iframe-wrapper";
+        frame.setAttribute("sandbox", "allow-scripts allow-forms allow-popups");
+        content.appendChild(frame);
 
-        let imageUrls = [];
-        let index = 0;
+        fetch(url, { cache: "no-store" })
+          .then(res => {
+            if (!res.ok) throw new Error("Fetch failed");
+            return res.text();
+          })
+          .then(html => {
+            const baseHref = url.slice(0, url.lastIndexOf("/") + 1);
+            const withBase = html.replace(/<head(\s*)>/i, `<head$1><base href="${baseHref}">`);
+            frame.srcdoc = withBase;
+            loader.style.display = "none";
+          })
+          .catch(() => {
+            // Fallback to direct src if fetch fails
+            frame.removeAttribute("srcdoc");
+            frame.src = url;
+            frame.addEventListener("load", () => loader.style.display = "none", { once: true });
+            frame.addEventListener("error", () => loader.textContent = "Page load error.");
+          });
+      }
+    }
 
-        function clearImages() {
-            content.innerHTML = "";
-            content.appendChild(loader);
-        }
+    function fetchDecklist(format) {
+      const fileUrl = `${fileBase}/${formats[format]}`;
+      clearView();
+      index = 0;
+      entries = [];
 
-        function showImageAtIndex(i) {
-            if (i < 0 || i >= imageUrls.length) {
-                loader.textContent = "No more images.";
-                return;
-            }
-            content.innerHTML = "";
-            const img = document.createElement("img");
-            img.onerror = () => console.warn("Image load error", img.src);
-            img.onload = () => loader.textContent = "";
-            img.src = imageUrls[i];
-            img.className = "card-image";
-            content.appendChild(img);
-        }
+      const currentYear = new Date().getFullYear().toString();
 
-        function fetchDecklist(format) {
-            const fileUrl = `${fileBase}/${formats[format]}`;
-            clearImages();
-            index = 0;
-            imageUrls = [];
-            const currentYear = new Date().getFullYear().toString();
-            fetch(fileUrl)
-                .then(res => {
-                    if (!res.ok) throw new Error("Error fetching decklist.");
-                    return res.text();
-                })
-                .then(text => {
-                    imageUrls = text.split(/\s+/).map(url => url.trim()).filter(url => url.length > 0 && url.includes(currentYear));
-                    const nDecks = document.getElementById("available-decks");
-                    nDecks.textContent = "Available " + format + " decks: " + imageUrls.length;
-                    showImageAtIndex(index);
-                })
-                .catch(err => {
-                    loader.textContent = "Know one part of the name, obsession begins. Know two parts, paranoia sets in. Know three parts, madness descends. Know all, and only the kami know what will become of you";
-                });
-        }
+      fetch(fileUrl)
+        .then(res => {
+          if (!res.ok) throw new Error("Error fetching decklist.");
+          return res.text();
+        })
+        .then(text => {
+          entries = text
+            .split(/\s+/)
+            .map(u => u.trim())
+            .filter(u => u.length > 0 && u.includes(currentYear)); // keep existing filter rule
 
-        // Handle format change
-        document.querySelector('select[name="format"]').addEventListener("change", (e) => {
-            fetchDecklist(e.target.value);
+          document.getElementById("available-decks").textContent =
+            "Available " + format + " decks: " + entries.length;
+
+          showItemAtIndex(index);
+        })
+        .catch(() => {
+          loader.textContent = "Error loading list.";
         });
+    }
 
-        // Scroll control
-        let throttle = false;
-        function handleScroll(direction) {
-            if (throttle) return;
-            throttle = true;
-            setTimeout(() => throttle = false, 500); // debounce delay
+    // Handle format change
+    document.querySelector('select[name="format"]').addEventListener("change", (e) => {
+      fetchDecklist(e.target.value);
+    });
 
-            if (direction === "next" && index < imageUrls.length - 1) {
-                index++;
-                showImageAtIndex(index);
-            } else if (direction === "prev" && index > 0) {
-                index--;
-                showImageAtIndex(index);
-            }
-        }
+    // Scroll control
+    let throttle = false;
+    function handleScroll(direction) {
+      if (throttle) return;
+      throttle = true;
+      setTimeout(() => throttle = false, 500);
 
-        // Desktop scroll (wheel)
-        content.addEventListener("wheel", (event) => {
-            event.preventDefault();
-            if (event.deltaY > 0) {
-                handleScroll("next");
-            } else {
-                handleScroll("prev");
-            }
-        }, { passive: false });
+      if (direction === "next" && index < entries.length - 1) {
+        index++;
+        showItemAtIndex(index);
+      } else if (direction === "prev" && index > 0) {
+        index--;
+        showItemAtIndex(index);
+      }
+    }
 
-        // Mobile swipe (touch)
-        let touchStartY = 0;
-        let touchEndY = 0;
+    // Desktop scroll
+    content.addEventListener("wheel", (event) => {
+      event.preventDefault();
+      if (event.deltaY > 0) handleScroll("next");
+      else handleScroll("prev");
+    }, { passive: false });
 
-        content.addEventListener("touchstart", (e) => {
-            touchStartY = e.changedTouches[0].screenY;
-        });
+    // Mobile swipe
+    let touchStartY = 0;
+    let touchEndY = 0;
+    content.addEventListener("touchstart", (e) => {
+      touchStartY = e.changedTouches[0].screenY;
+    });
+    content.addEventListener("touchend", (e) => {
+      touchEndY = e.changedTouches[0].screenY;
+      const deltaY = touchStartY - touchEndY;
+      if (Math.abs(deltaY) > 50) {
+        if (deltaY > 0) handleScroll("next");
+        else handleScroll("prev");
+      }
+    });
 
-        content.addEventListener("touchend", (e) => {
-            touchEndY = e.changedTouches[0].screenY;
-            const deltaY = touchStartY - touchEndY;
+    // Initial load
+    fetchDecklist("pauper");
 
-            if (Math.abs(deltaY) > 50) {
-                if (deltaY > 0) {
-                    handleScroll("next");
-                } else {
-                    handleScroll("prev");
-                }
-            }
-        });
-
-        // Initial load
-        fetchDecklist("pauper");
-
-        // Last update info
-        const updateDiv = document.getElementById("info");
-        fetch("https://raw.githubusercontent.com/chumpblocckami/merchantscroll/refs/heads/main/info.json")
-            .then(res => res.ok ? res.json() : Promise.reject("Could not fetch last update."))
-            .then(data => updateDiv.textContent = data.last_update ? `Last update: ${data.last_update}` : "No update info.")
-            .catch(err => updateDiv.textContent = "Error loading update info.");
-    </script>
+    // Last update info
+    const updateDiv = document.getElementById("info");
+    fetch("https://raw.githubusercontent.com/chumpblocckami/merchantscroll/refs/heads/main/info.json")
+      .then(res => res.ok ? res.json() : Promise.reject("Could not fetch last update."))
+      .then(data => updateDiv.textContent = data.last_update ? `Last update: ${data.last_update}` : "No update info.")
+      .catch(() => updateDiv.textContent = "Error loading update info.");
+  </script>
 
 </body>
 

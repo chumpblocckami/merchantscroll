@@ -1,4 +1,5 @@
 import glob
+import json
 import os
 import shutil
 import tempfile
@@ -6,9 +7,55 @@ from pathlib import Path, PosixPath
 
 from git import Repo
 
-from .constants import REMOTE_REPO_URL
+from .constants.repo import REMOTE_REPO_URL
+from .domain import Tournament
+from .utils import extract_date
 
 
+# ----- os -----
+def assess_tournament_folder(tournament: Tournament):
+    output_path = Path(f"./{tournament.deck_format}/{tournament.reference_date}")
+    output_path.mkdir(parents=True, exist_ok=True)
+
+
+# ----- json -----
+def save_json_locally(file_path: Path | str, data: dict):
+    with open(file_path, "w") as f:
+        json.dump(data, f, indent=2)
+
+
+# ----- txt -----
+def update_crawled_tournaments(tournaments_path: str | Path, tournament_url: str):
+    with open(str(Path(tournaments_path).resolve()), "r") as f:
+        crawled_tournaments = list(set([line.strip() for line in f.readlines()]))
+    crawled_tournaments.insert(0, tournament_url)
+    crawled_tournaments = sorted(crawled_tournaments, key=extract_date, reverse=True)
+
+    with open(str(Path(tournaments_path).resolve()), "w") as f:
+        f.write("\n".join(crawled_tournaments) + "\n")
+
+
+def update_crawled_contents(decklist_path: str | Path, remote_path: str):
+    decklist_path = Path(decklist_path)
+    if decklist_path.exists():
+        with open(decklist_path.resolve(), "r") as f:
+            crawled_decklists = list(set([line.strip() for line in f.readlines()]))
+    else:
+        decklist_path.touch()
+        crawled_decklists = []
+
+    crawled_decklists.insert(0, remote_path)
+    crawled_decklists = sorted(
+        crawled_decklists,
+        key=lambda url: (url.split("/")[7], url.split("/")[-1].split("_")[-2]),
+        reverse=True,
+    )
+
+    with open(str(decklist_path), "w") as f:
+        f.write("\n".join(crawled_decklists) + "\n")
+
+
+# ----- git -----
 def push_to_different_remote(
     source_folder: list[str, PosixPath] | str | PosixPath,
     branch: str,

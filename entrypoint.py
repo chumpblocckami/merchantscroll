@@ -4,7 +4,7 @@ from pathlib import Path
 import requests
 from tqdm import tqdm
 
-from src.constants import FORMATS
+from src.constants.misc import FORMATS
 from src.crawler import crawl_decks, crawl_tournaments
 
 

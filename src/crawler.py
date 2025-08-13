@@ -1,19 +1,35 @@
-import json
 import re
 from ast import literal_eval
 from datetime import datetime
-from functools import reduce
 from pathlib import Path
 
-import matplotlib.pyplot as plt
 import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
-from .constants import HEADERS, PATTERN, TIMEOUT
-from .drawer import display_deck
-from .saver import push_to_different_remote, push_to_same_remote
-from .utils import extract_date, get_challenge_record, get_league_record, normalize_date
+from src.constants.crawler import HEADERS, TIMEOUT
+from src.constants.misc import PATTERN, SAVE_FILE_AS
+from src.renderer.html import write_html
+from src.renderer.png import write_png
+
+from .constants.paths import (
+    OUTPUT_CONTENT_PATH,
+    OUTPUT_PATH,
+    RAW_TOURNAMENT_PATH,
+    REMOTE_DECKLISTS_PATH,
+    REMOTE_PATH,
+    REMOTE_TOURNAMENTS_PATH,
+)
+from .domain import Tournament
+from .saver import (
+    assess_tournament_folder,
+    push_to_different_remote,
+    push_to_same_remote,
+    save_json_locally,
+    update_crawled_contents,
+    update_crawled_tournaments,
+)
+from .utils import get_challenge_record, get_league_record, parse_decklist
 
 
 def crawl_decks(tournament_url: str) -> None:
@@ -28,56 +44,57 @@ def crawl_decks(tournament_url: str) -> None:
 
     match = re.search(PATTERN, str(soup), re.DOTALL)
     if match:
+        # Get raw tournament data and generate dataclass
         tournament_data = literal_eval(
             match.group(1).replace("false", "False").replace("true", "True")
         )
+        tournament = Tournament(
+            site_name=tournament_data.get("site_name"),
+            reference_date=tournament_data.get(
+                "publish_date",
+                tournament_data.get("starttime"),
+            ),
+            event_id=tournament_data.get("event_id", tournament_data.get("playeventid")),
+            is_ranked=True if "final_rank" in tournament_data else False,
+        )
 
-        # Save raw tournament data to file
-        deck_format = tournament_data["site_name"].split("-")[0]
-        tournament_name = " ".join(
-            [x.capitalize() for x in tournament_data["site_name"].split("-")[:2]]
+        # Save raw tournament data
+        raw_tournament_path = str(
+            Path(
+                RAW_TOURNAMENT_PATH.format(
+                    deck_format=tournament.deck_format, tournament_id=tournament.site_name
+                )
+            ).resolve()
         )
-        reference_date = (
-            tournament_data["publish_date"]
-            if "publish_date" in tournament_data
-            else tournament_data["starttime"].split(" ")[0]
-        )
-        reference_date = normalize_date(reference_date)
-        tournament_id = (
-            tournament_data["event_id"]
-            if "event_id" in tournament_data
-            else tournament_data["playeventid"]
-        )
-        output_path = Path(f"./{deck_format}/{reference_date}")
-        output_path.mkdir(parents=True, exist_ok=True)
-        with open(
-            str(Path(f"./assets/{deck_format}/{tournament_data['site_name']}.json").resolve()), "w"
-        ) as f:
-            json.dump(tournament_data, f, indent=2)
+        save_json_locally(raw_tournament_path, tournament_data)
+
         push_to_same_remote(
-            str(Path(f"./assets/{deck_format}/{tournament_data['site_name']}.json").resolve()),
+            raw_tournament_path,
             branch="main",
             commit_message=f"Updated crawled raw data from {tournament_url}",
         )
 
+        # ---- IMPORTANT: understand if this is useful or not ---
         # Sort by rank (for challenges)
-        if "final_rank" in tournament_data:
+        if tournament.is_ranked:
             rank_map = {
                 entry["loginid"]: int(entry["rank"]) for entry in tournament_data["final_rank"]
             }
             decklists = sorted(
-                tournament_data["decklists"], key=lambda p: rank_map.get(p["loginid"], 9999)
+                tournament_data.get("decklists", []), key=lambda p: rank_map.get(p["loginid"], 9999)
             )
         else:
-            if "decklists" in tournament_data:
-                decklists = tournament_data["decklists"]
-            else:
-                print("No decklists found in tournament data.")
-                return
+            decklists = tournament_data.get("decklists", [])
 
-        # Save decklist images
+        # ---- END -----
+
+        # Save tournament content
+        assess_tournament_folder(tournament=tournament)
         pbar = tqdm(decklists, desc="Reading decklists")
         for decklist in pbar:
+            pbar.set_description(desc=f"Reading {tournament.site_name}-{decklist['player']}")
+
+            # Parse decklist and save content
             player_id = decklist.get("loginid", "playerid_not_found")
             record = (
                 get_challenge_record(tournament_data["winloss"], player_id)
@@ -88,100 +105,76 @@ def crawl_decks(tournament_url: str) -> None:
                     else "(record not available)"
                 )
             )
-            deck = {
-                "player": decklist["player"],
-                "main": reduce(
-                    lambda acc, x: acc.update(
-                        {
-                            x["card_attributes"]["card_name"]: acc.get(
-                                x["card_attributes"]["card_name"], 0
-                            )
-                            + int(x["qty"])
-                        }
-                    )
-                    or acc,
-                    decklist["main_deck"],
-                    {},
-                ),
-                "side": reduce(
-                    lambda acc, x: acc.update(
-                        {
-                            x["card_attributes"]["card_name"]: acc.get(
-                                x["card_attributes"]["card_name"], 0
-                            )
-                            + int(x["qty"])
-                        }
-                    )
-                    or acc,
-                    decklist["sideboard_deck"],
-                    {},
-                ),
-                "date": reference_date,
-                "tournament": tournament_name + " " + record,
-            }
-            pbar.set_description(desc=f"Reading {tournament_id}-{deck['player']}")
+            deck = parse_decklist(decklist, tournament=tournament, record=record)
+            deck_name = f"{tournament.name.replace(' ','_').lower()}_{tournament.event_id}_{player_id}"  # noqa
+
+            # Save deck content
             try:
-                fig = display_deck(deck=deck)
+                if SAVE_FILE_AS == "png":
+                    write_png(
+                        deck,
+                        OUTPUT_CONTENT_PATH.format(
+                            deck_format=tournament.deck_format,
+                            reference_date=tournament.reference_date,
+                            deck_name=deck_name,
+                        )
+                        + ".png",
+                    )
+                else:
+                    write_html(
+                        deck,
+                        OUTPUT_CONTENT_PATH.format(
+                            deck_format=tournament.deck_format,
+                            reference_date=tournament.reference_date,
+                            deck_name=deck_name,
+                        )
+                        + ".html",
+                    )
+
             except Exception as e:
-                print(f"Error displaying deck for {deck['player']}: {e}")
+                print(f"Error saving deck for {deck['player']}: {e}")
                 continue
-            # Save decklist image
-            deck_name = (
-                f"{tournament_name.replace(' ','_').lower()}_{tournament_id}_{player_id}"  # noqa
-            )
-            fig.savefig(
-                Path(f"./{deck_format}/{reference_date}/{deck_name}.png").resolve(),
-                dpi=100,
-                bbox_inches="tight",
-            )
-            plt.close()
 
-            # Save decklist URLs
-            decklist_path = Path(f"./assets/{deck_format}/decklists.txt")
-            if Path(decklist_path).exists():
-                with open(decklist_path.resolve(), "r") as f:
-                    crawled_decklists = list(set([line.strip() for line in f.readlines()]))
-            else:
-                decklist_path.touch()
-                crawled_decklists = []
-
-            crawled_decklists.insert(
-                0,
-                f"https://raw.githubusercontent.com/chumpblocckami/mtg-decklists/main/{deck_format}/{reference_date}/{deck_name}.png",  # noqa
-            )
-            crawled_decklists = sorted(
-                crawled_decklists, key=lambda url: url.split("/")[7], reverse=True
+            # Updated crawled decklistslists
+            update_crawled_contents(
+                decklist_path=f"./assets/{tournament.deck_format}/decklists.txt",
+                remote_path=REMOTE_PATH.format(
+                    deck_format=tournament.deck_format,
+                    reference_date=tournament.reference_date,
+                    deck_name=deck_name,
+                ),
             )
 
-            with open(str(Path(f"./assets/{deck_format}/decklists.txt").resolve()), "w") as f:
-                f.write("\n".join(crawled_decklists) + "\n")
     else:
         print("No tournament data found.")
         return
 
     # Update the decklists file with the new URLs
-    branch_name = f"{tournament_name.replace(' ','_').lower()}-{reference_date}"  # noqa
     push_to_different_remote(
-        output_path.resolve(),
-        branch=branch_name,
-        commit_message=f"Got data for {branch_name}",
+        Path(
+            OUTPUT_PATH.format(
+                deck_format=tournament.deck_format,
+                reference_date=tournament.reference_date,
+            )
+        ).resolve(),
+        branch=tournament.branch_name,
+        commit_message=f"Got data for {tournament.branch_name}",
     )
 
     push_to_same_remote(
-        str(Path(f"./assets/{deck_format}/decklists.txt").resolve()),
+        str(Path(REMOTE_DECKLISTS_PATH.format(tournament.deck_format)).resolve()),
         branch="main",
         commit_message=f"Updated crawled decklists with {tournament_url}",
     )
+
     # If the tournament is still in progress, we need to wait for it to finish
     if datetime.now().date().isoformat() not in tournament_url:
-        with open(str(Path(f"./assets/{deck_format}/tournaments.txt").resolve()), "r") as f:
-            crawled_tournaments = list(set([line.strip() for line in f.readlines()]))
-        crawled_tournaments.insert(0, tournament_url)
-        crawled_tournaments = sorted(crawled_tournaments, key=extract_date, reverse=True)
-        with open(str(Path(f"./assets/{deck_format}/tournaments.txt").resolve()), "w") as f:
-            f.write("\n".join(crawled_tournaments) + "\n")
+        update_crawled_tournaments(
+            tournaments_path=REMOTE_TOURNAMENTS_PATH.format(deck_format=tournament.deck_format),
+            tournament_url=tournament_url,
+        )
         push_to_same_remote(
-            str(Path(f"./assets/{deck_format}/tournaments.txt").resolve()),
+            str(Path(f"./assets/{tournament.deck_format}/tournaments.txt").resolve()),
             branch="main",
             commit_message=f"Updated crawled tournaments with {tournament_url}",
         )
