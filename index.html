@@ -70,6 +70,9 @@
       width: 100%;
       height: min(88vh, 1200px);
       border: 0;
+      overflow: auto;
+      /* Restored to auto so content isn't cut off */
+      position: relative;
     }
 
     .deck-frame {
@@ -77,6 +80,24 @@
       height: 100%;
       border: 0;
       background: #fff;
+      overflow: auto;
+      /* Keep internal scrolling for iframe content */
+    }
+
+    /* Add overlay for scroll capture */
+    .scroll-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      pointer-events: none;
+      /* Allow clicks through but capture scroll */
+    }
+
+    .scroll-overlay.capture-scroll {
+      pointer-events: auto;
     }
   </style>
 </head>
@@ -116,6 +137,8 @@
 
     let entries = [];
     let index = 0;
+    let currentScrollOverlay = null;
+    let isIframeContent = false;
 
     function isImageUrl(url) {
       return /\.(png|jpg|jpeg|webp|gif)(\?.*)?$/i.test(url);
@@ -126,6 +149,63 @@
       content.appendChild(loader);
       loader.style.display = "block";
       loader.textContent = "Loading...";
+      isIframeContent = false;
+      if (currentScrollOverlay) {
+        currentScrollOverlay.remove();
+        currentScrollOverlay = null;
+      }
+    }
+
+    function createScrollOverlay(iframeWrapper) {
+      const overlay = document.createElement("div");
+      overlay.className = "scroll-overlay";
+      iframeWrapper.appendChild(overlay);
+      return overlay;
+    }
+
+    function checkIframeScrollability(iframe, overlay) {
+      try {
+        const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+        const hasVerticalScroll = iframeDoc.documentElement.scrollHeight > iframeDoc.documentElement.clientHeight;
+
+        if (hasVerticalScroll) {
+          // Content is scrollable, allow normal iframe scrolling
+          overlay.classList.remove("capture-scroll");
+          return false;
+        } else {
+          // Content fits, capture scroll for navigation
+          overlay.classList.add("capture-scroll");
+          return true;
+        }
+      } catch (e) {
+        // Cross-origin or other access issues, assume scrollable
+        overlay.classList.remove("capture-scroll");
+        return false;
+      }
+    }
+
+    function handleIframeScroll(iframe, overlay, event) {
+      try {
+        const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+        const element = iframeDoc.documentElement;
+        const atTop = element.scrollTop <= 0;
+        const atBottom = element.scrollTop + element.clientHeight >= element.scrollHeight - 1;
+
+        if (event.deltaY > 0 && atBottom) {
+          // Scrolling down at bottom
+          event.preventDefault();
+          handleScroll("next");
+        } else if (event.deltaY < 0 && atTop) {
+          // Scrolling up at top
+          event.preventDefault();
+          handleScroll("prev");
+        }
+      } catch (e) {
+        // Cross-origin, fall back to overlay capture
+        event.preventDefault();
+        if (event.deltaY > 0) handleScroll("next");
+        else handleScroll("prev");
+      }
     }
 
     function showItemAtIndex(i) {
@@ -134,49 +214,129 @@
         return;
       }
 
+      const next = () => {
+        console.warn("Moving to next entry:", url);
+        if (i < entries.length - 1) {
+          showItemAtIndex(i + 1);
+        } else {
+          loader.textContent = "No more entries.";
+        }
+      };
+
       clearView();
 
       let url = entries[i];
-      console.log(url)
+      console.log(url);
+
       if (isImageUrl(url)) {
+        isIframeContent = false;
         const img = document.createElement("img");
         img.onerror = () => {
           console.warn("Image load error:", url);
-          // Try the next one
-          if (i < entries.length - 1) {
-            showItemAtIndex(i + 1);
-          } else {
-            loader.textContent = "No more entries.";
-          }
+          next();
         };
         img.onload = () => loader.style.display = "none";
         img.src = url;
         img.className = "card-image";
         content.appendChild(img);
       } else {
-        // Treat as HTML, load into iframe via srcdoc with a base tag
-        const frame = document.createElement("iframe");
-        frame.className = "deck-frame iframe-wrapper";
-        frame.setAttribute("sandbox", "allow-scripts allow-forms allow-popups");
-        content.appendChild(frame);
+        isIframeContent = true;
 
+        // Create iframe wrapper
+        const wrapper = document.createElement("div");
+        wrapper.className = "iframe-wrapper";
+
+        const frame = document.createElement("iframe");
+        frame.className = "deck-frame";
+        frame.setAttribute("sandbox", "allow-scripts allow-forms allow-popups allow-same-origin");
+
+        wrapper.appendChild(frame);
+        content.appendChild(wrapper);
+
+        // Create scroll overlay
+        currentScrollOverlay = createScrollOverlay(wrapper);
+
+        const onFrameLoad = () => {
+          // Check if iframe loaded successfully and has content
+          setTimeout(() => {
+            try {
+              const iframeDoc = frame.contentDocument || frame.contentWindow.document;
+              const bodyContent = iframeDoc.body ? iframeDoc.body.innerText.trim() : '';
+              const hasTitle = iframeDoc.title && iframeDoc.title.trim().length > 0;
+              const hasContent = bodyContent.length > 10; // Minimum content threshold
+
+              if (!hasContent && !hasTitle) {
+                console.warn("Empty or invalid content:", url);
+                next();
+                return;
+              }
+
+              loader.style.display = "none";
+
+              const captureScroll = checkIframeScrollability(frame, currentScrollOverlay);
+
+              if (!captureScroll) {
+                // Set up scroll monitoring for iframe content
+                iframeDoc.addEventListener("wheel", (event) => {
+                  handleIframeScroll(frame, currentScrollOverlay, event);
+                }, { passive: false });
+              }
+            } catch (e) {
+              // Cross-origin or access error, assume it's valid content but use overlay
+              console.warn("Cross-origin iframe or access error, assuming valid content:", url);
+              loader.style.display = "none";
+              currentScrollOverlay.classList.add("capture-scroll");
+            }
+          }, 200);
+        };
+
+        const onFrameError = () => {
+          console.warn("Iframe load error:", url);
+          next();
+        };
+
+        // Set up scroll handling for overlay
+        currentScrollOverlay.addEventListener("wheel", (event) => {
+          if (currentScrollOverlay.classList.contains("capture-scroll")) {
+            event.preventDefault();
+            if (event.deltaY > 0) handleScroll("next");
+            else handleScroll("prev");
+          }
+        }, { passive: false });
+
+        // Try fetching and injecting with a base tag
         fetch(url, { cache: "no-store" })
           .then(res => {
             if (!res.ok) throw new Error("Fetch failed");
             return res.text();
           })
           .then(html => {
+            // Check if HTML content is meaningful (not just empty or error pages)
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = html;
+            const textContent = tempDiv.textContent || tempDiv.innerText || '';
+
+            if (textContent.trim().length < 10) {
+              console.warn("HTML content appears empty or too short:", url);
+              next();
+              return;
+            }
+
             const baseHref = url.slice(0, url.lastIndexOf("/") + 1);
             const withBase = html.replace(/<head(\s*)>/i, `<head$1><base href="${baseHref}">`);
+
+            frame.addEventListener("load", onFrameLoad, { once: true });
+            frame.addEventListener("error", onFrameError, { once: true });
+
             frame.srcdoc = withBase;
-            loader.style.display = "none";
           })
-          .catch(() => {
+          .catch((error) => {
+            console.warn("Fetch failed for:", url, error);
             // Fallback to direct src if fetch fails
             frame.removeAttribute("srcdoc");
             frame.src = url;
-            frame.addEventListener("load", () => loader.style.display = "none", { once: true });
-            frame.addEventListener("error", () => loader.textContent = "Page load error.");
+            frame.addEventListener("load", onFrameLoad, { once: true });
+            frame.addEventListener("error", onFrameError, { once: true });
           });
       }
     }
@@ -198,7 +358,7 @@
           entries = text
             .split(/\s+/)
             .map(u => u.trim())
-            .filter(u => u.length > 0 && u.includes(currentYear)); // keep existing filter rule
+            .filter(u => u.length > 0 && u.includes(currentYear));
 
           document.getElementById("available-decks").textContent =
             "Available " + format + " decks: " + entries.length;
@@ -206,7 +366,7 @@
           showItemAtIndex(index);
         })
         .catch((err) => {
-          console.log(err)
+          console.log(err);
           loader.textContent = "Error loading list.";
         });
     }
@@ -232,11 +392,14 @@
       }
     }
 
-    // Desktop scroll
+    // Desktop scroll for non-iframe content
     content.addEventListener("wheel", (event) => {
-      event.preventDefault();
-      if (event.deltaY > 0) handleScroll("next");
-      else handleScroll("prev");
+      // Only handle scroll here for images, not iframe content
+      if (!isIframeContent) {
+        event.preventDefault();
+        if (event.deltaY > 0) handleScroll("next");
+        else handleScroll("prev");
+      }
     }, { passive: false });
 
     // Mobile swipe
