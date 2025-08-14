@@ -47,7 +47,7 @@ def update_crawled_contents(decklist_path: str | Path, remote_path: str):
     crawled_decklists.insert(0, remote_path)
     crawled_decklists = sorted(
         crawled_decklists,
-        key=lambda url: (url.split("/")[7], url.split("/")[-1].split("_")[-2]),
+        key=lambda url: (url.split("/")[7]),
         reverse=True,
     )
 
