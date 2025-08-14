@@ -136,8 +136,8 @@
 
       clearView();
 
-      const url = entries[i];
-
+      let url = entries[i];
+      console.log(url)
       if (isImageUrl(url)) {
         const img = document.createElement("img");
         img.onerror = () => {
@@ -205,7 +205,8 @@
 
           showItemAtIndex(index);
         })
-        .catch(() => {
+        .catch((err) => {
+          console.log(err)
           loader.textContent = "Error loading list.";
         });
     }
