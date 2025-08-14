@@ -131,19 +131,19 @@ def crawl_decks(tournament_url: str) -> None:
                         + ".html",
                     )
 
+                # If writing went ok, update crawled decklistslists
+                update_crawled_contents(
+                    decklist_path=f"./assets/{tournament.deck_format}/decklists.txt",
+                    remote_path=REMOTE_PATH.format(
+                        deck_format=tournament.deck_format,
+                        reference_date=tournament.reference_date,
+                        deck_name=deck_name,
+                    ),
+                )
+
             except Exception as e:
                 print(f"Error saving deck for {deck['player']}: {e}")
                 continue
-
-            # Updated crawled decklistslists
-            update_crawled_contents(
-                decklist_path=f"./assets/{tournament.deck_format}/decklists.txt",
-                remote_path=REMOTE_PATH.format(
-                    deck_format=tournament.deck_format,
-                    reference_date=tournament.reference_date,
-                    deck_name=deck_name,
-                ),
-            )
 
     else:
         print("No tournament data found.")
@@ -209,3 +209,10 @@ def crawl_tournaments() -> list[str]:
     tournament_links = list(set(tournament_links))
 
     return tournament_links
+
+
+def crawl_cards():
+    """
+    Load bulk from Scryfall api
+    """
+    requests.get("https://api.scryfall.com/bulk-data", timeout=TIMEOUT).json()
