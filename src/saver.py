@@ -77,7 +77,13 @@ def push_to_different_remote(
     repo = Repo.init(temp_dir)
 
     # Stage and commit all files
-    for file_path in glob.glob(os.path.join(dest_path, "*.{png,html}"), recursive=True):
+    files_to_commit = [
+        f
+        for ext in ("png", "html")
+        for f in glob.glob(os.path.join(dest_path, f"*.{ext}"), recursive=True)
+    ]
+    print("Files to commit:", len(files_to_commit), "from", os.path.join(dest_path))
+    for file_path in files_to_commit:
         if os.path.isfile(file_path):
             repo.git.add(file_path)
     repo.index.commit(commit_message)
