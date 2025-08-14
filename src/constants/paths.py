@@ -3,7 +3,7 @@ from pathlib import Path
 from .misc import SAVE_FILE_AS
 
 TOURNAMENT_FILE_PATH = str(Path("./assets/pauper/tournaments.txt").resolve())
-RAW_TOURNAMENT_PATH = "./assets/{deck_format}/{tournament_id}.json"
+RAW_TOURNAMENT_PATH = "./assets/{deck_format}/raw/{tournament_id}.json"
 OUTPUT_PATH = "./{deck_format}/{reference_date}"
 OUTPUT_CONTENT_PATH = "./{deck_format}/{reference_date}/{deck_name}"
 if SAVE_FILE_AS == "png":
