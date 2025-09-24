@@ -3410,6 +3410,25 @@
         {
           "leaguedeckid": "35064638",
           "loginplayeventcourseid": "33419958",
+          "docid": "116874",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "116874",
+            "card_name": "Candy Trail",
+            "cost": "1",
+            "rarity": "COMMON",
+            "color": "COLORLESS",
+            "cardset": "WOE",
+            "card_type": "ARTFCT",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35064638",
+          "loginplayeventcourseid": "33419958",
           "docid": "94506",
           "qty": "3",
           "sideboard": "False",
@@ -3824,25 +3843,6 @@
               "COLOR_BLACK"
             ]
           }
-        },
-        {
-          "leaguedeckid": "35064638",
-          "loginplayeventcourseid": "33419958",
-          "docid": "116874",
-          "qty": "1",
-          "sideboard": "False",
-          "card_attributes": {
-            "digitalobjectcatalogid": "116874",
-            "card_name": "Candy Trail",
-            "cost": "1",
-            "rarity": "COMMON",
-            "color": "COLORLESS",
-            "cardset": "WOE",
-            "card_type": "ARTFCT",
-            "colors": [
-              "COLOR_COLORLESS"
-            ]
-          }
         }
       ],
       "sideboard_deck": [
@@ -4011,44 +4011,6 @@
       "instance_id": "9750_2025-09-24",
       "player": "md91",
       "main_deck": [
-        {
-          "leaguedeckid": "35064833",
-          "loginplayeventcourseid": "33420153",
-          "docid": "30558",
-          "qty": "2",
-          "sideboard": "False",
-          "card_attributes": {
-            "digitalobjectcatalogid": "30558",
-            "card_name": "Snow-Covered Mountain",
-            "cost": "0",
-            "rarity": "BASIC_LAND",
-            "color": "COLORLESS",
-            "cardset": "ME2",
-            "card_type": "LAND  ",
-            "colors": [
-              "COLOR_COLORLESS"
-            ]
-          }
-        },
-        {
-          "leaguedeckid": "35064833",
-          "loginplayeventcourseid": "33420153",
-          "docid": "116078",
-          "qty": "2",
-          "sideboard": "False",
-          "card_attributes": {
-            "digitalobjectcatalogid": "116078",
-            "card_name": "Torch the Tower",
-            "cost": "1",
-            "rarity": "PROMO",
-            "color": "RED",
-            "cardset": "WOE",
-            "card_type": "INSTNT",
-            "colors": [
-              "COLOR_RED"
-            ]
-          }
-        },
         {
           "leaguedeckid": "35064833",
           "loginplayeventcourseid": "33420153",
@@ -4407,6 +4369,44 @@
             "card_type": "LAND  ",
             "colors": [
               "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35064833",
+          "loginplayeventcourseid": "33420153",
+          "docid": "30558",
+          "qty": "2",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "30558",
+            "card_name": "Snow-Covered Mountain",
+            "cost": "0",
+            "rarity": "BASIC_LAND",
+            "color": "COLORLESS",
+            "cardset": "ME2",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35064833",
+          "loginplayeventcourseid": "33420153",
+          "docid": "116078",
+          "qty": "2",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "116078",
+            "card_name": "Torch the Tower",
+            "cost": "1",
+            "rarity": "PROMO",
+            "color": "RED",
+            "cardset": "WOE",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_RED"
             ]
           }
         }
