@@ -2995,63 +2995,6 @@
         {
           "leaguedeckid": "35064610",
           "loginplayeventcourseid": "33419934",
-          "docid": "81079",
-          "qty": "1",
-          "sideboard": "False",
-          "card_attributes": {
-            "digitalobjectcatalogid": "81079",
-            "card_name": "Lightning Bolt",
-            "cost": "1",
-            "rarity": "RARE",
-            "color": "RED",
-            "cardset": "SL2",
-            "card_type": "INSTNT",
-            "colors": [
-              "COLOR_RED"
-            ]
-          }
-        },
-        {
-          "leaguedeckid": "35064610",
-          "loginplayeventcourseid": "33419934",
-          "docid": "144116",
-          "qty": "4",
-          "sideboard": "False",
-          "card_attributes": {
-            "digitalobjectcatalogid": "144116",
-            "card_name": "Skittering Kitten",
-            "cost": "1",
-            "rarity": "COMMON",
-            "color": "RED",
-            "cardset": "OM1",
-            "card_type": "ISCREA",
-            "colors": [
-              "COLOR_RED"
-            ]
-          }
-        },
-        {
-          "leaguedeckid": "35064610",
-          "loginplayeventcourseid": "33419934",
-          "docid": "17520",
-          "qty": "3",
-          "sideboard": "False",
-          "card_attributes": {
-            "digitalobjectcatalogid": "17520",
-            "card_name": "Lava Dart",
-            "cost": "1",
-            "rarity": "COMMON",
-            "color": "RED",
-            "cardset": "JUD",
-            "card_type": "INSTNT",
-            "colors": [
-              "COLOR_RED"
-            ]
-          }
-        },
-        {
-          "leaguedeckid": "35064610",
-          "loginplayeventcourseid": "33419934",
           "docid": "102396",
           "qty": "18",
           "sideboard": "False",
@@ -3291,6 +3234,63 @@
             "rarity": "RARE",
             "color": "RED",
             "cardset": "SL2",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_RED"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35064610",
+          "loginplayeventcourseid": "33419934",
+          "docid": "81079",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "81079",
+            "card_name": "Lightning Bolt",
+            "cost": "1",
+            "rarity": "RARE",
+            "color": "RED",
+            "cardset": "SL2",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_RED"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35064610",
+          "loginplayeventcourseid": "33419934",
+          "docid": "144116",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "144116",
+            "card_name": "Skittering Kitten",
+            "cost": "1",
+            "rarity": "COMMON",
+            "color": "RED",
+            "cardset": "OM1",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_RED"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35064610",
+          "loginplayeventcourseid": "33419934",
+          "docid": "17520",
+          "qty": "3",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "17520",
+            "card_name": "Lava Dart",
+            "cost": "1",
+            "rarity": "COMMON",
+            "color": "RED",
+            "cardset": "JUD",
             "card_type": "INSTNT",
             "colors": [
               "COLOR_RED"
@@ -7897,44 +7897,6 @@
         {
           "leaguedeckid": "35066850",
           "loginplayeventcourseid": "33422145",
-          "docid": "18235",
-          "qty": "1",
-          "sideboard": "False",
-          "card_attributes": {
-            "digitalobjectcatalogid": "18235",
-            "card_name": "Secluded Steppe",
-            "cost": "0",
-            "rarity": "COMMON",
-            "color": "COLORLESS",
-            "cardset": "ONS",
-            "card_type": "LAND  ",
-            "colors": [
-              "COLOR_COLORLESS"
-            ]
-          }
-        },
-        {
-          "leaguedeckid": "35066850",
-          "loginplayeventcourseid": "33422145",
-          "docid": "15862",
-          "qty": "2",
-          "sideboard": "False",
-          "card_attributes": {
-            "digitalobjectcatalogid": "15862",
-            "card_name": "Spirit Link",
-            "cost": "1",
-            "rarity": "UNCOMMON",
-            "color": "WHITE",
-            "cardset": "7E",
-            "card_type": "ENCHMT",
-            "colors": [
-              "COLOR_WHITE"
-            ]
-          }
-        },
-        {
-          "leaguedeckid": "35066850",
-          "loginplayeventcourseid": "33422145",
           "docid": "79624",
           "qty": "15",
           "sideboard": "False",
@@ -8158,6 +8120,44 @@
             "card_type": "ENCHMT",
             "colors": [
               "COLOR_BLUE",
+              "COLOR_WHITE"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35066850",
+          "loginplayeventcourseid": "33422145",
+          "docid": "18235",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "18235",
+            "card_name": "Secluded Steppe",
+            "cost": "0",
+            "rarity": "COMMON",
+            "color": "COLORLESS",
+            "cardset": "ONS",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35066850",
+          "loginplayeventcourseid": "33422145",
+          "docid": "15862",
+          "qty": "2",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "15862",
+            "card_name": "Spirit Link",
+            "cost": "1",
+            "rarity": "UNCOMMON",
+            "color": "WHITE",
+            "cardset": "7E",
+            "card_type": "ENCHMT",
+            "colors": [
               "COLOR_WHITE"
             ]
           }
@@ -8676,6 +8676,439 @@
       ],
       "wins": {
         "loginplayeventcourseid": "33423471",
+        "wins": "5",
+        "losses": "0"
+      }
+    },
+    {
+      "loginplayeventcourseid": "33423954",
+      "loginid": "1199973",
+      "instance_id": "9750_2025-09-24",
+      "player": "bnpbnp",
+      "main_deck": [
+        {
+          "leaguedeckid": "35068685",
+          "loginplayeventcourseid": "33423954",
+          "docid": "88719",
+          "qty": "3",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "88719",
+            "card_name": "Bayou Groff",
+            "cost": "2",
+            "rarity": "COMMON",
+            "color": "GREEN",
+            "cardset": "STX",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35068685",
+          "loginplayeventcourseid": "33423954",
+          "docid": "116666",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "116666",
+            "card_name": "Brave the Wilds",
+            "cost": "1",
+            "rarity": "COMMON",
+            "color": "GREEN",
+            "cardset": "WOE",
+            "card_type": "SORCRY",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35068685",
+          "loginplayeventcourseid": "33423954",
+          "docid": "53774",
+          "qty": "3",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "53774",
+            "card_name": "Darksteel Citadel",
+            "cost": "0",
+            "rarity": "UNCOMMON",
+            "color": "COLORLESS",
+            "cardset": "M15",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35068685",
+          "loginplayeventcourseid": "33423954",
+          "docid": "101776",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "101776",
+            "card_name": "Experiment One",
+            "cost": "1",
+            "rarity": "COMMON",
+            "color": "GREEN",
+            "cardset": "2X2",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35068685",
+          "loginplayeventcourseid": "33423954",
+          "docid": "35513",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "35513",
+            "card_name": "Khalni Garden",
+            "cost": "0",
+            "rarity": "COMMON",
+            "color": "COLORLESS",
+            "cardset": "WWK",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35068685",
+          "loginplayeventcourseid": "33423954",
+          "docid": "43213",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "43213",
+            "card_name": "Hunger of the Howlpack",
+            "cost": "1",
+            "rarity": "COMMON",
+            "color": "GREEN",
+            "cardset": "DKA",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35068685",
+          "loginplayeventcourseid": "33423954",
+          "docid": "126317",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "126317",
+            "card_name": "Eldrazi Repurposer",
+            "cost": "3",
+            "rarity": "COMMON",
+            "color": "COLORLESS",
+            "cardset": "MH3",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35068685",
+          "loginplayeventcourseid": "33423954",
+          "docid": "36354",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "36354",
+            "card_name": "Nest Invader",
+            "cost": "2",
+            "rarity": "COMMON",
+            "color": "GREEN",
+            "cardset": "ROE",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35068685",
+          "loginplayeventcourseid": "33423954",
+          "docid": "49273",
+          "qty": "6",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "49273",
+            "card_name": "Forest",
+            "cost": "0",
+            "rarity": "BASIC_LAND",
+            "color": "COLORLESS",
+            "cardset": "M14",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35068685",
+          "loginplayeventcourseid": "33423954",
+          "docid": "45252",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "45252",
+            "card_name": "Rancor",
+            "cost": "1",
+            "rarity": "UNCOMMON",
+            "color": "GREEN",
+            "cardset": "M13",
+            "card_type": "ENCHMT",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35068685",
+          "loginplayeventcourseid": "33423954",
+          "docid": "20249",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "20249",
+            "card_name": "Tree of Tales",
+            "cost": "0",
+            "rarity": "COMMON",
+            "color": "COLORLESS",
+            "cardset": "MRD",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35068685",
+          "loginplayeventcourseid": "33423954",
+          "docid": "124285",
+          "qty": "3",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "124285",
+            "card_name": "Tumbleweed Rising",
+            "cost": "2",
+            "rarity": "COMMON",
+            "color": "GREEN",
+            "cardset": "OTJ",
+            "card_type": "SORCRY",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35068685",
+          "loginplayeventcourseid": "33423954",
+          "docid": "100472",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "100472",
+            "card_name": "Cloakwood Swarmkeeper",
+            "cost": "1",
+            "rarity": "COMMON",
+            "color": "GREEN",
+            "cardset": "CLB",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35068685",
+          "loginplayeventcourseid": "33423954",
+          "docid": "126331",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "126331",
+            "card_name": "Horrific Assault",
+            "cost": "1",
+            "rarity": "COMMON",
+            "color": "GREEN",
+            "cardset": "MH3",
+            "card_type": "SORCRY",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35068685",
+          "loginplayeventcourseid": "33423954",
+          "docid": "116730",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "116730",
+            "card_name": "Troublemaker Ouphe",
+            "cost": "2",
+            "rarity": "COMMON",
+            "color": "GREEN",
+            "cardset": "WOE",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35068685",
+          "loginplayeventcourseid": "33423954",
+          "docid": "98521",
+          "qty": "2",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "98521",
+            "card_name": "Jewel Thief",
+            "cost": "3",
+            "rarity": "COMMON",
+            "color": "GREEN",
+            "cardset": "SNC",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35068685",
+          "loginplayeventcourseid": "33423954",
+          "docid": "10573",
+          "qty": "2",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "10573",
+            "card_name": "Bequeathal",
+            "cost": "1",
+            "rarity": "COMMON",
+            "color": "GREEN",
+            "cardset": "EX",
+            "card_type": "ENCHMT",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        }
+      ],
+      "sideboard_deck": [
+        {
+          "leaguedeckid": "35068685",
+          "loginplayeventcourseid": "33423954",
+          "docid": "37895",
+          "qty": "4",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "37895",
+            "card_name": "Relic of Progenitus",
+            "cost": "1",
+            "rarity": "COMMON",
+            "color": "COLORLESS",
+            "cardset": "TD0",
+            "card_type": "ARTFCT",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35068685",
+          "loginplayeventcourseid": "33423954",
+          "docid": "116730",
+          "qty": "3",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "116730",
+            "card_name": "Troublemaker Ouphe",
+            "cost": "2",
+            "rarity": "COMMON",
+            "color": "GREEN",
+            "cardset": "WOE",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35068685",
+          "loginplayeventcourseid": "33423954",
+          "docid": "80349",
+          "qty": "3",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "80349",
+            "card_name": "Ram Through",
+            "cost": "2",
+            "rarity": "COMMON",
+            "color": "GREEN",
+            "cardset": "IKO",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35068685",
+          "loginplayeventcourseid": "33423954",
+          "docid": "39932",
+          "qty": "3",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "39932",
+            "card_name": "Gut Shot",
+            "cost": "1",
+            "rarity": "UNCOMMON",
+            "color": "RED",
+            "cardset": "NPH",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_RED"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35068685",
+          "loginplayeventcourseid": "33423954",
+          "docid": "73251",
+          "qty": "2",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "73251",
+            "card_name": "Healer of the Glade",
+            "cost": "1",
+            "rarity": "COMMON",
+            "color": "GREEN",
+            "cardset": "M20",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_GREEN"
+            ]
+          }
+        }
+      ],
+      "wins": {
+        "loginplayeventcourseid": "33423954",
         "wins": "5",
         "losses": "0"
       }
@@ -9242,6 +9675,556 @@
       ],
       "wins": {
         "loginplayeventcourseid": "33424132",
+        "wins": "5",
+        "losses": "0"
+      }
+    },
+    {
+      "loginplayeventcourseid": "33424399",
+      "loginid": "2762112",
+      "instance_id": "9750_2025-09-24",
+      "player": "barff",
+      "main_deck": [
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "35515",
+          "qty": "2",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "35515",
+            "card_name": "Bojuka Bog",
+            "cost": "0",
+            "rarity": "COMMON",
+            "color": "COLORLESS",
+            "cardset": "WWK",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "67627",
+          "qty": "3",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "67627",
+            "card_name": "Cast Down",
+            "cost": "2",
+            "rarity": "UNCOMMON",
+            "color": "BLACK",
+            "cardset": "DAR",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_BLACK"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "102966",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "102966",
+            "card_name": "Contaminated Aquifer",
+            "cost": "0",
+            "rarity": "BASIC_LAND",
+            "color": "COLORLESS",
+            "cardset": "DMU",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "18289",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "18289",
+            "card_name": "Swamp",
+            "cost": "0",
+            "rarity": "BASIC_LAND",
+            "color": "COLORLESS",
+            "cardset": "ONS",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "38498",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "38498",
+            "card_name": "Counterspell",
+            "cost": "2",
+            "rarity": "COMMON",
+            "color": "BLUE",
+            "cardset": "ME4",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_BLUE"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "17135",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "17135",
+            "card_name": "Deep Analysis",
+            "cost": "4",
+            "rarity": "COMMON",
+            "color": "BLUE",
+            "cardset": "TOR",
+            "card_type": "SORCRY",
+            "colors": [
+              "COLOR_BLUE"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "126469",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "126469",
+            "card_name": "Seething Landscape",
+            "cost": "0",
+            "rarity": "COMMON",
+            "color": "COLORLESS",
+            "cardset": "MH3",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "34952",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "34952",
+            "card_name": "Snuff Out",
+            "cost": "4",
+            "rarity": "COMMON",
+            "color": "BLACK",
+            "cardset": "DDD",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_BLACK"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "107195",
+          "qty": "9",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "107195",
+            "card_name": "Island",
+            "cost": "0",
+            "rarity": "BASIC_LAND",
+            "color": "COLORLESS",
+            "cardset": "DMR",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "30394",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "30394",
+            "card_name": "Brainstorm",
+            "cost": "1",
+            "rarity": "COMMON",
+            "color": "BLUE",
+            "cardset": "ME2",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_BLUE"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "126429",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "126429",
+            "card_name": "Sneaky Snacker",
+            "cost": "2",
+            "rarity": "COMMON",
+            "color": "MULTICOLORED",
+            "cardset": "MH3",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_BLACK",
+              "COLOR_BLUE"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "35543",
+          "qty": "2",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "35543",
+            "card_name": "Dispel",
+            "cost": "1",
+            "rarity": "COMMON",
+            "color": "BLUE",
+            "cardset": "WWK",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_BLUE"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "90763",
+          "qty": "2",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "90763",
+            "card_name": "Dihada's Ploy",
+            "cost": "3",
+            "rarity": "COMMON",
+            "color": "MULTICOLORED",
+            "cardset": "MH2",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_BLACK",
+              "COLOR_BLUE"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "85090",
+          "qty": "2",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "85090",
+            "card_name": "Thorn of the Black Rose",
+            "cost": "4",
+            "rarity": "COMMON",
+            "color": "BLACK",
+            "cardset": "CMR",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_BLACK"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "144220",
+          "qty": "3",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "144220",
+            "card_name": "Mob Lookout",
+            "cost": "2",
+            "rarity": "COMMON",
+            "color": "MULTICOLORED",
+            "cardset": "OM1",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_BLACK",
+              "COLOR_BLUE"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "69463",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "69463",
+            "card_name": "Murmuring Mystic",
+            "cost": "4",
+            "rarity": "UNCOMMON",
+            "color": "BLUE",
+            "cardset": "GRN",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_BLUE"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "39622",
+          "qty": "3",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "39622",
+            "card_name": "Spellstutter Sprite",
+            "cost": "2",
+            "rarity": "COMMON",
+            "color": "BLUE",
+            "cardset": "PRM",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_BLUE"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "112030",
+          "qty": "4",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "112030",
+            "card_name": "L\u00f3rien Revealed",
+            "cost": "5",
+            "rarity": "COMMON",
+            "color": "BLUE",
+            "cardset": "LTR",
+            "card_type": "SORCRY",
+            "colors": [
+              "COLOR_BLUE"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "97050",
+          "qty": "3",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "97050",
+            "card_name": "The Modern Age",
+            "cost": "2",
+            "rarity": "COMMON",
+            "color": "BLUE",
+            "cardset": "NEO",
+            "card_type": "ENCHMT",
+            "colors": [
+              "COLOR_BLUE"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "55472",
+          "qty": "2",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "55472",
+            "card_name": "Gurmag Angler",
+            "cost": "7",
+            "rarity": "COMMON",
+            "color": "BLACK",
+            "cardset": "FRF",
+            "card_type": "ISCREA",
+            "colors": [
+              "COLOR_BLACK"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "105486",
+          "qty": "1",
+          "sideboard": "False",
+          "card_attributes": {
+            "digitalobjectcatalogid": "105486",
+            "card_name": "Dimir Aqueduct",
+            "cost": "0",
+            "rarity": "UNCOMMON",
+            "color": "COLORLESS",
+            "cardset": "BRC",
+            "card_type": "LAND  ",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        }
+      ],
+      "sideboard_deck": [
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "43606",
+          "qty": "4",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "43606",
+            "card_name": "Blue Elemental Blast",
+            "cost": "1",
+            "rarity": "UNCOMMON",
+            "color": "BLUE",
+            "cardset": "PRM",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_BLUE"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "38315",
+          "qty": "2",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "38315",
+            "card_name": "Nihil Spellbomb",
+            "cost": "1",
+            "rarity": "COMMON",
+            "color": "COLORLESS",
+            "cardset": "SOM",
+            "card_type": "ARTFCT",
+            "colors": [
+              "COLOR_COLORLESS"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "80213",
+          "qty": "2",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "80213",
+            "card_name": "Unexpected Fangs",
+            "cost": "2",
+            "rarity": "COMMON",
+            "color": "BLACK",
+            "cardset": "IKO",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_BLACK"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "121646",
+          "qty": "2",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "121646",
+            "card_name": "Extract a Confession",
+            "cost": "2",
+            "rarity": "COMMON",
+            "color": "BLACK",
+            "cardset": "MKM",
+            "card_type": "SORCRY",
+            "colors": [
+              "COLOR_BLACK"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "100238",
+          "qty": "2",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "100238",
+            "card_name": "Arms of Hadar",
+            "cost": "4",
+            "rarity": "COMMON",
+            "color": "BLACK",
+            "cardset": "CLB",
+            "card_type": "SORCRY",
+            "colors": [
+              "COLOR_BLACK"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "48404",
+          "qty": "1",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "48404",
+            "card_name": "Crypt Incursion",
+            "cost": "3",
+            "rarity": "COMMON",
+            "color": "BLACK",
+            "cardset": "DGM",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_BLACK"
+            ]
+          }
+        },
+        {
+          "leaguedeckid": "35069127",
+          "loginplayeventcourseid": "33424399",
+          "docid": "69979",
+          "qty": "2",
+          "sideboard": "True",
+          "card_attributes": {
+            "digitalobjectcatalogid": "69979",
+            "card_name": "Hydroblast",
+            "cost": "1",
+            "rarity": "PROMO",
+            "color": "BLUE",
+            "cardset": "PRM",
+            "card_type": "INSTNT",
+            "colors": [
+              "COLOR_BLUE"
+            ]
+          }
+        }
+      ],
+      "wins": {
+        "loginplayeventcourseid": "33424399",
         "wins": "5",
         "losses": "0"
       }
