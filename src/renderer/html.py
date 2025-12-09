@@ -24,7 +24,7 @@ def _fetch_card_urls(deck_section: dict, put_lands_last: bool = False) -> list[s
     for card_name, quantity in sorted_part.items():
         time.sleep(0.5)
         sc = scrython.cards.Named(exact=card_name)
-        url = sc.image_uris()["small"]
+        url = sc.image_uris["small"]
         if put_lands_last and "Land" in sc.type_line():
             lands.extend([url] * quantity)
         else:

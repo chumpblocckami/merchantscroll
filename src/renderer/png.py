@@ -45,7 +45,7 @@ def display_deck(deck: dict) -> plt.Figure:
     for card_name, quantity in sorted_deck.items():
         time.sleep(0.1)
         scrython_card = scrython.cards.Named(exact=card_name)  # set="card_set")
-        card_url = scrython_card.image_uris()["small"]
+        card_url = scrython_card.image_uris["small"]
         card_img = Image.open(BytesIO(requests.get(card_url, timeout=TIMEOUT).content))
         if "Land" in scrython_card.type_line():
             lands.extend([card_img] * quantity)
@@ -63,7 +63,7 @@ def display_deck(deck: dict) -> plt.Figure:
     for card_name, quantity in sorted_side.items():
         time.sleep(0.1)
         scrython_card = scrython.cards.Named(exact=card_name)
-        card_url = scrython_card.image_uris()["small"]
+        card_url = scrython_card.image_uris["small"]
         card_img = Image.open(BytesIO(requests.get(card_url, timeout=TIMEOUT).content))
         side_cards.extend([card_img] * quantity)
 
@@ -143,7 +143,7 @@ def display_deck(deck: dict) -> plt.Figure:
 
 
 def write_png(deck: dict, path: str | Path = "figure.png"):
-    fig = display_deck(deck)
+    fig: plt.Figure = display_deck(deck)
     path = Path(path)
     fig.savefig(
         path.resolve(),
