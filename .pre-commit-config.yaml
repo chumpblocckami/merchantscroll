@@ -32,14 +32,14 @@ repos:
         language: python
         language_version: python3
 
-  # # mypy: Static type checking
-  # - repo: https://github.com/pre-commit/mirrors-mypy
-  #   rev: v1.13.0
-  #   hooks:
-  #     - id: mypy
-  #       language: python
-  #       language_version: python3
-  #       args: ["--ignore-missing-imports"]
+  # mypy: Static type checking
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.13.0
+    hooks:
+      - id: mypy
+        language: python
+        language_version: python3
+        args: ["--ignore-missing-imports"]
 
   # isort: Import sorting
   - repo: https://github.com/pre-commit/mirrors-isort
