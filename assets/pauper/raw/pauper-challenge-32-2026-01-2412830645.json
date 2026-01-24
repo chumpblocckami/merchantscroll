@@ -5,5 +5,162 @@
   "format": "CPAUPER",
   "type": "TOURNAMENT",
   "inplayoffs": "1",
-  "site_name": "pauper-challenge-32-2026-01-2412830645"
+  "site_name": "pauper-challenge-32-2026-01-2412830645",
+  "brackets": [
+    {
+      "matches": [
+        {
+          "players": [
+            {
+              "loginid": 3416878,
+              "player": "Denisevich",
+              "seeding": 6,
+              "wins": 0,
+              "losses": 2,
+              "winner": false
+            },
+            {
+              "loginid": 2644331,
+              "player": "NMT_Sco94",
+              "seeding": 3,
+              "wins": 2,
+              "losses": 0,
+              "winner": true
+            }
+          ]
+        },
+        {
+          "players": [
+            {
+              "loginid": 3052206,
+              "player": "PinoIo_Cosmico",
+              "seeding": 4,
+              "wins": 2,
+              "losses": 1,
+              "winner": true
+            },
+            {
+              "loginid": 1111702,
+              "player": "oskiyaa",
+              "seeding": 5,
+              "wins": 1,
+              "losses": 2,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "players": [
+            {
+              "loginid": 2762112,
+              "player": "barff",
+              "seeding": 1,
+              "wins": 2,
+              "losses": 0,
+              "winner": true
+            },
+            {
+              "loginid": 1069825,
+              "player": "Niederschatten",
+              "seeding": 8,
+              "wins": 0,
+              "losses": 2,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "players": [
+            {
+              "loginid": 392666,
+              "player": "Kirblinxy",
+              "seeding": 7,
+              "wins": 1,
+              "losses": 2,
+              "winner": false
+            },
+            {
+              "loginid": 946307,
+              "player": "discoverN",
+              "seeding": 2,
+              "wins": 2,
+              "losses": 1,
+              "winner": true
+            }
+          ]
+        }
+      ],
+      "index": 2
+    },
+    {
+      "matches": [
+        {
+          "players": [
+            {
+              "loginid": 2762112,
+              "player": "barff",
+              "seeding": 1,
+              "wins": 2,
+              "losses": 1,
+              "winner": true
+            },
+            {
+              "loginid": 2644331,
+              "player": "NMT_Sco94",
+              "seeding": 3,
+              "wins": 1,
+              "losses": 2,
+              "winner": false
+            }
+          ]
+        },
+        {
+          "players": [
+            {
+              "loginid": 946307,
+              "player": "discoverN",
+              "seeding": 2,
+              "wins": 2,
+              "losses": 1,
+              "winner": true
+            },
+            {
+              "loginid": 3052206,
+              "player": "PinoIo_Cosmico",
+              "seeding": 4,
+              "wins": 1,
+              "losses": 2,
+              "winner": false
+            }
+          ]
+        }
+      ],
+      "index": 1
+    },
+    {
+      "matches": [
+        {
+          "players": [
+            {
+              "loginid": 2762112,
+              "player": "barff",
+              "seeding": 1,
+              "wins": 2,
+              "losses": 0,
+              "winner": true
+            },
+            {
+              "loginid": 946307,
+              "player": "discoverN",
+              "seeding": 2,
+              "wins": 0,
+              "losses": 2,
+              "winner": false
+            }
+          ]
+        }
+      ],
+      "index": 0
+    }
+  ]
 }
