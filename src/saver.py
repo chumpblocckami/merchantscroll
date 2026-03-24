@@ -57,7 +57,7 @@ def update_crawled_contents(decklist_path: str | Path, remote_path: str):
 
 # ----- git -----
 def push_to_different_remote(
-    source_folder: list[str, PosixPath] | str | PosixPath,
+    source_folder: str | PosixPath,
     branch: str,
     remote_repo_url=REMOTE_REPO_URL,
     commit_message="Updated files",
@@ -76,6 +76,9 @@ def push_to_different_remote(
     # Init a new Git repo in the copied folder
     repo = Repo.init(temp_dir)
 
+    # Create and checkout branch before committing
+    repo.git.checkout(b=branch)
+
     # Stage and commit all files
     files_to_commit = [
         f
@@ -87,10 +90,6 @@ def push_to_different_remote(
         if os.path.isfile(file_path):
             repo.git.add(file_path)
     repo.index.commit(commit_message)
-
-    # Create and checkout branch
-    if branch not in repo.heads:
-        repo.git.checkout(b=branch)
 
     # Add remote
     if "origin" not in [remote.name for remote in repo.remotes]:

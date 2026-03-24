@@ -29,7 +29,12 @@ from .saver import (
     update_crawled_contents,
     update_crawled_tournaments,
 )
-from .utils import get_challenge_record, get_league_record, parse_decklist
+from .utils import (
+    get_challenge_record,
+    get_league_record,
+    minify_tournament_data,
+    parse_decklist,
+)
 
 
 def crawl_decks(tournament_url: str) -> None:
@@ -37,7 +42,7 @@ def crawl_decks(tournament_url: str) -> None:
     response = requests.get(tournament_url, headers=HEADERS, timeout=TIMEOUT)
     if response.status_code != 200:
         print(f"Failed to retrieve the deck page. Status code: {response.status_code}")
-        exit()
+        return
 
     # Parse the deck page
     soup = BeautifulSoup(response.text, "html.parser")
@@ -66,7 +71,7 @@ def crawl_decks(tournament_url: str) -> None:
                 )
             ).resolve()
         )
-        save_json_locally(raw_tournament_path, tournament_data)
+        save_json_locally(raw_tournament_path, minify_tournament_data(tournament_data))
 
         push_to_same_remote(
             raw_tournament_path,
@@ -193,8 +198,9 @@ def crawl_tournaments() -> list[str]:
     # Fetch the page
     response = requests.get(base_url, headers=headers, timeout=TIMEOUT)
     if response.status_code != 200:
-        print(f"Error fetching page: {response.status_code}")
-        exit()
+        raise requests.exceptions.HTTPError(
+            f"Error fetching page: {response.status_code}", response=response
+        )
 
     # Parse the HTML content
     soup = BeautifulSoup(response.text, "html.parser")
@@ -213,8 +219,6 @@ def crawl_tournaments() -> list[str]:
     return tournament_links
 
 
-def crawl_cards():
-    """
-    Load bulk from Scryfall api
-    """
-    requests.get("https://api.scryfall.com/bulk-data", timeout=TIMEOUT).json()
+def crawl_cards() -> dict:
+    """Load bulk data catalog from Scryfall API."""
+    return requests.get("https://api.scryfall.com/bulk-data", timeout=TIMEOUT).json()

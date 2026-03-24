@@ -1,3 +1,4 @@
+import re
 import time
 from pathlib import Path
 
@@ -30,7 +31,11 @@ def start_crawler():
             for tournament in tournaments
             if any(tournament_format in tournament for tournament_format in FORMATS)
         ]
-        tournaments = sorted(tournaments, key=lambda x: int(x.split("-")[-1][:2]), reverse=True)
+        def _sort_key(url: str) -> str:
+            match = re.search(r"(\d{4}-\d{2}-\d{2})", url)
+            return match.group(1) if match else "0000-00-00"
+
+        tournaments = sorted(tournaments, key=_sort_key, reverse=True)
         tournaments = [x for x in tournaments if x not in crawled_tournaments]
         pbar = tqdm(tournaments, desc="Crawling tournaments")
         for tournament in pbar:

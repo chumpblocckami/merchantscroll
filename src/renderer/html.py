@@ -188,3 +188,4 @@ def write_html(deck: dict, path: str | Path = "index.html") -> Path:
     html = generate_deck_html(deck)
     path = Path(path)
     path.write_text(html, encoding="utf-8")
+    return path

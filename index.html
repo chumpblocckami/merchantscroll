@@ -45,7 +45,7 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Merchant Scroll – Scroll Infinite Magic: The Gathering Decks" />
   <meta name="twitter:description"
-    content="Explore endless Magic: The Gathering decks across Pauper, Modern, Legacy, and more. Updated hourly for the latest meta insights." />
+    content="Explore endless Magic: The Gathering Pauper decks. Updated hourly for the latest meta insights." />
   <meta name="twitter:image"
     content="https://raw.githubusercontent.com/chumpblocckami/merchantscroll/main/assets/preview.jpg" />
 
@@ -72,40 +72,119 @@
       padding: 10px;
       text-align: center;
       font-style: italic;
+      color: #888;
     }
 
-    .iframe-wrapper {
-      width: 100%;
-      height: min(88vh, 1200px);
-      border: 0;
-      overflow: auto;
-      /* Restored to auto so content isn't cut off */
-      position: relative;
-    }
-
-    .deck-frame {
-      width: 100%;
+    .deck-container {
+      padding: 10px 24px;
+      max-width: 960px;
+      margin: 0 auto;
       height: 100%;
-      border: 0;
-      background: #fff;
-      overflow: auto;
-      /* Keep internal scrolling for iframe content */
+      display: flex;
+      flex-direction: column;
     }
 
-    /* Add overlay for scroll capture */
-    .scroll-overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: 10;
-      pointer-events: none;
-      /* Allow clicks through but capture scroll */
+    .deck-header {
+      margin-bottom: 10px;
+      flex-shrink: 0;
+      text-align: center;
     }
 
-    .scroll-overlay.capture-scroll {
-      pointer-events: auto;
+    .deck-header .player-name {
+      margin: 0;
+      font-size: 1.15em;
+      font-weight: 700;
+      color: #1a1a1a;
+      letter-spacing: 0.3px;
+    }
+
+    .deck-header .deck-meta {
+      margin: 2px 0 0 0;
+      color: #888;
+      font-size: 0.78em;
+    }
+
+    .decklist-columns {
+      flex: 1;
+      display: flex;
+      gap: 32px;
+      min-height: 0;
+    }
+
+    .deck-col {
+      flex: 1;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .deck-col.sideboard-col {
+      flex: 0 0 28%;
+    }
+
+    .card-category {
+      display: flex;
+      flex-direction: column;
+      gap: 1px;
+    }
+
+    .category-label {
+      font-size: 0.7em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: #aaa;
+      padding-bottom: 3px;
+      margin-bottom: 2px;
+      border-bottom: 1px solid #e8e8e8;
+    }
+
+    .card-row {
+      display: flex;
+      align-items: baseline;
+      padding: 1px 0;
+      font-size: 0.82em;
+      line-height: 1.45;
+    }
+
+    .card-row:hover {
+      background: #f5f5f5;
+      border-radius: 3px;
+    }
+
+    .card-qty {
+      width: 22px;
+      text-align: right;
+      margin-right: 6px;
+      color: #999;
+      font-size: 0.9em;
+      flex-shrink: 0;
+    }
+
+    .card-name {
+      color: #333;
+      cursor: pointer;
+    }
+
+    .card-name:hover {
+      color: #1a6dd4;
+    }
+
+    .col-title {
+      font-size: 0.75em;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: #666;
+      padding-bottom: 4px;
+      margin: 0;
+      border-bottom: 2px solid #ddd;
+    }
+
+    .col-title.sideboard-title {
+      border-bottom-color: #666;
+      color: #666;
     }
   </style>
 </head>
@@ -128,6 +207,8 @@
     <div class="loader" id="loader">Loading...</div>
   </div>
 
+  <div id="card-preview"><img id="card-preview-img" alt=""></div>
+
   <footer>
     <span>Powered by</span>
     <img src="https://raw.githubusercontent.com/chumpblocckami/merchantscroll/main/assets/logo.png"
@@ -137,241 +218,293 @@
   <script>
     const content = document.getElementById("content");
     const loader = document.getElementById("loader");
+    const cardPreview = document.getElementById("card-preview");
+    const cardPreviewImg = document.getElementById("card-preview-img");
+    const isTouchDevice = "ontouchstart" in window || navigator.maxTouchPoints > 0;
+
+    function scryfallImageUrl(cardName) {
+      return `https://api.scryfall.com/cards/named?exact=${encodeURIComponent(cardName)}&format=image&version=normal`;
+    }
+
+    function showPreview(cardName, x, y) {
+      cardPreviewImg.src = scryfallImageUrl(cardName);
+      cardPreview.style.display = "block";
+      positionPreview(x, y);
+    }
+
+    function positionPreview(x, y) {
+      const pw = 260;
+      const ph = 370;
+      let left = x + 16;
+      let top = y + 16;
+      if (left + pw > window.innerWidth) left = x - pw - 8;
+      if (top + ph > window.innerHeight) top = window.innerHeight - ph - 8;
+      if (top < 0) top = 8;
+      cardPreview.style.left = left + "px";
+      cardPreview.style.top = top + "px";
+    }
+
+    function hidePreview() {
+      cardPreview.style.display = "none";
+      cardPreviewImg.src = "";
+    }
+
+    document.addEventListener("click", (e) => {
+      if (isTouchDevice && !e.target.closest(".card-name")) {
+        hidePreview();
+      }
+    });
 
     const fileBase = "https://raw.githubusercontent.com/chumpblocckami/merchantscroll/";
     const formats = {
-      pauper: "main/assets/pauper/decklists.txt",
+      pauper: "main/assets/pauper/tournaments.txt",
     };
 
-    let entries = [];
-    let index = 0;
-    let currentScrollOverlay = null;
-    let isIframeContent = false;
-
-    function isImageUrl(url) {
-      return /\.(png|jpg|jpeg|webp|gif)(\?.*)?$/i.test(url);
-    }
+    let tournamentUrls = [];
+    let nextTournamentIdx = 0;
+    let allDecks = [];
+    let deckIndex = 0;
+    let loadingTournament = false;
 
     function clearView() {
       content.innerHTML = "";
       content.appendChild(loader);
       loader.style.display = "block";
-      loader.textContent = "";
-      isIframeContent = false;
-      if (currentScrollOverlay) {
-        currentScrollOverlay.remove();
-        currentScrollOverlay = null;
+      loader.textContent = "Loading...";
+    }
+
+    function categorizeCards(cards) {
+      const cats = {
+        creatures: { label: "Creatures", entries: {}, total: 0 },
+        spells: { label: "Spells", entries: {}, total: 0 },
+        lands: { label: "Lands", entries: {}, total: 0 },
+      };
+      cards.forEach(card => {
+        const name = card.card_attributes.card_name;
+        const type = (card.card_attributes.card_type || "").trim();
+        const qty = parseInt(card.qty) || 1;
+        let cat;
+        if (type === "ISCREA") cat = "creatures";
+        else if (type === "LAND") cat = "lands";
+        else cat = "spells";
+        if (cats[cat].entries[name]) cats[cat].entries[name] += qty;
+        else cats[cat].entries[name] = qty;
+        cats[cat].total += qty;
+      });
+      return cats;
+    }
+
+    function flatGroupCards(cards) {
+      const grouped = {};
+      cards.forEach(card => {
+        const name = card.card_attributes.card_name;
+        const qty = parseInt(card.qty) || 1;
+        grouped[name] = (grouped[name] || 0) + qty;
+      });
+      return Object.entries(grouped).sort((a, b) =>
+        b[1] !== a[1] ? b[1] - a[1] : a[0].localeCompare(b[0])
+      );
+    }
+
+    function attachCardPreview(nameSpan, cardName) {
+      if (isTouchDevice) {
+        nameSpan.addEventListener("click", (e) => {
+          e.stopPropagation();
+          const rect = nameSpan.getBoundingClientRect();
+          showPreview(cardName, rect.left, rect.bottom);
+        });
+      } else {
+        nameSpan.addEventListener("mouseenter", (e) => showPreview(cardName, e.clientX, e.clientY));
+        nameSpan.addEventListener("mousemove", (e) => positionPreview(e.clientX, e.clientY));
+        nameSpan.addEventListener("mouseleave", hidePreview);
       }
     }
 
-    function createScrollOverlay(iframeWrapper) {
-      const overlay = document.createElement("div");
-      overlay.className = "scroll-overlay";
-      iframeWrapper.appendChild(overlay);
-      return overlay;
+    function buildCardRow(cardName, qty) {
+      const row = document.createElement("div");
+      row.className = "card-row";
+      const qtySpan = document.createElement("span");
+      qtySpan.className = "card-qty";
+      qtySpan.textContent = qty;
+      const nameSpan = document.createElement("span");
+      nameSpan.className = "card-name";
+      nameSpan.textContent = cardName;
+      attachCardPreview(nameSpan, cardName);
+      row.appendChild(qtySpan);
+      row.appendChild(nameSpan);
+      return row;
     }
 
-    function checkIframeScrollability(iframe, overlay) {
-      try {
-        const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
-        const hasVerticalScroll = iframeDoc.documentElement.scrollHeight > iframeDoc.documentElement.clientHeight;
-
-        if (hasVerticalScroll) {
-          // Content is scrollable, allow normal iframe scrolling
-          overlay.classList.remove("capture-scroll");
-          return false;
-        } else {
-          // Content fits, capture scroll for navigation
-          overlay.classList.add("capture-scroll");
-          return true;
-        }
-      } catch (e) {
-        // Cross-origin or other access issues, assume scrollable
-        overlay.classList.remove("capture-scroll");
-        return false;
+    function renderCategorized(cards) {
+      const cats = categorizeCards(cards);
+      const frag = document.createDocumentFragment();
+      for (const key of ["creatures", "spells", "lands"]) {
+        const cat = cats[key];
+        if (cat.total === 0) continue;
+        const section = document.createElement("div");
+        section.className = "card-category";
+        const label = document.createElement("div");
+        label.className = "category-label";
+        label.textContent = `${cat.label} (${cat.total})`;
+        section.appendChild(label);
+        const sorted = Object.entries(cat.entries).sort((a, b) =>
+          b[1] !== a[1] ? b[1] - a[1] : a[0].localeCompare(b[0])
+        );
+        sorted.forEach(([name, qty]) => section.appendChild(buildCardRow(name, qty)));
+        frag.appendChild(section);
       }
+      return frag;
     }
 
-    function handleIframeScroll(iframe, overlay, event) {
-      try {
-        const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
-        const element = iframeDoc.documentElement;
-        const atTop = element.scrollTop <= 0;
-        const atBottom = element.scrollTop + element.clientHeight >= element.scrollHeight - 1;
+    function renderFlatList(cards) {
+      const frag = document.createDocumentFragment();
+      flatGroupCards(cards).forEach(([name, qty]) =>
+        frag.appendChild(buildCardRow(name, qty))
+      );
+      return frag;
+    }
 
-        if (event.deltaY > 0 && atBottom) {
-          // Scrolling down at bottom
-          event.preventDefault();
-          handleScroll("next");
-        } else if (event.deltaY < 0 && atTop) {
-          // Scrolling up at top
-          event.preventDefault();
-          handleScroll("prev");
-        }
-      } catch (e) {
-        // Cross-origin, fall back to overlay capture
-        event.preventDefault();
-        if (event.deltaY > 0) handleScroll("next");
-        else handleScroll("prev");
+    function renderSingleDeck(entry) {
+      const container = document.createElement("div");
+      container.className = "deck-container";
+
+      const header = document.createElement("div");
+      header.className = "deck-header";
+
+      const playerName = document.createElement("div");
+      playerName.className = "player-name";
+      playerName.textContent = entry.player || "Unknown Player";
+      header.appendChild(playerName);
+
+      const meta = document.createElement("div");
+      meta.className = "deck-meta";
+      meta.textContent = `${entry.tournamentName}  ·  ${entry.tournamentDate}  ·  Deck ${deckIndex + 1} of ${allDecks.length}${nextTournamentIdx < tournamentUrls.length ? "+" : ""}`;
+      header.appendChild(meta);
+
+      container.appendChild(header);
+
+      const columns = document.createElement("div");
+      columns.className = "decklist-columns";
+
+      if (entry.decklist.main_deck && entry.decklist.main_deck.length > 0) {
+        const mainCol = document.createElement("div");
+        mainCol.className = "deck-col";
+        const mainTitle = document.createElement("h4");
+        mainTitle.className = "col-title";
+        mainTitle.textContent = "Main Deck";
+        mainCol.appendChild(mainTitle);
+        mainCol.appendChild(renderCategorized(entry.decklist.main_deck));
+        columns.appendChild(mainCol);
       }
+
+      if (entry.decklist.sideboard_deck && entry.decklist.sideboard_deck.length > 0) {
+        const sideCol = document.createElement("div");
+        sideCol.className = "deck-col sideboard-col";
+        const sideTitle = document.createElement("h4");
+        sideTitle.className = "col-title sideboard-title";
+        sideTitle.textContent = "Sideboard";
+        sideCol.appendChild(sideTitle);
+        sideCol.appendChild(renderFlatList(entry.decklist.sideboard_deck));
+        columns.appendChild(sideCol);
+      }
+
+      container.appendChild(columns);
+      return container;
     }
 
-    function showItemAtIndex(i) {
-      if (i < 0 || i >= entries.length) {
-        loader.textContent = "No more entries.";
+    function buildUrl(path) {
+      if (path.startsWith("http")) return path;
+      if (path.startsWith("refs/heads/")) return fileBase + path;
+      if (path.startsWith("/")) return fileBase + path.slice(1);
+      return fileBase + "refs/heads/main/" + path;
+    }
+
+    function loadNextTournament() {
+      if (loadingTournament || nextTournamentIdx >= tournamentUrls.length) return Promise.resolve();
+      loadingTournament = true;
+
+      const url = buildUrl(tournamentUrls[nextTournamentIdx]);
+      nextTournamentIdx++;
+
+      return fetch(url, { cache: "no-store" })
+        .then(res => {
+          if (!res.ok) throw new Error("Fetch failed: " + url);
+          return res.json();
+        })
+        .then(jsonData => {
+          const tournamentName = jsonData.description || jsonData.name || "";
+          const tournamentDate = jsonData.starttime || jsonData.publish_date || "";
+          const decklists = jsonData.decklists || [];
+          decklists.forEach(decklist => {
+            allDecks.push({ tournamentName, tournamentDate, player: decklist.player, decklist });
+          });
+          loadingTournament = false;
+        })
+        .catch(err => {
+          console.warn("Skipping tournament:", err);
+          loadingTournament = false;
+          return loadNextTournament();
+        });
+    }
+
+    function showDeck() {
+      if (deckIndex < 0) deckIndex = 0;
+      if (deckIndex >= allDecks.length) {
+        loader.textContent = "No more decks.";
+        loader.style.display = "block";
         return;
       }
+      content.innerHTML = "";
+      const rendered = renderSingleDeck(allDecks[deckIndex]);
+      content.appendChild(rendered);
+    }
 
-      const next = () => {
-        console.warn("Moving to next entry:", url);
-        if (i < entries.length - 1) {
-          showItemAtIndex(i + 1);
-        } else {
-          loader.textContent = "No more entries.";
-        }
-      };
-
-      clearView();
-
-      let url = entries[i];
-      console.log(url);
-
-      if (isImageUrl(url)) {
-        isIframeContent = false;
-        const img = document.createElement("img");
-        img.onerror = () => {
-          console.warn("Image load error:", url);
-          next();
-        };
-        img.onload = () => loader.style.display = "none";
-        img.src = url;
-        img.className = "card-image";
-        content.appendChild(img);
-      } else {
-        isIframeContent = true;
-
-        // Create iframe wrapper
-        const wrapper = document.createElement("div");
-        wrapper.className = "iframe-wrapper";
-
-        const frame = document.createElement("iframe");
-        frame.className = "deck-frame";
-        frame.setAttribute("sandbox", "allow-scripts allow-forms allow-popups allow-same-origin");
-
-        wrapper.appendChild(frame);
-        content.appendChild(wrapper);
-
-        // Create scroll overlay
-        currentScrollOverlay = createScrollOverlay(wrapper);
-
-        const onFrameLoad = () => {
-          // Check if iframe loaded successfully and has content
-          setTimeout(() => {
-            try {
-              const iframeDoc = frame.contentDocument || frame.contentWindow.document;
-              const bodyContent = iframeDoc.body ? iframeDoc.body.innerText.trim() : '';
-              const hasTitle = iframeDoc.title && iframeDoc.title.trim().length > 0;
-              const hasContent = bodyContent.length > 10; // Minimum content threshold
-
-              if (!hasContent && !hasTitle) {
-                console.warn("Empty or invalid content:", url);
-                next();
-                return;
-              }
-
-              loader.style.display = "none";
-
-              const captureScroll = checkIframeScrollability(frame, currentScrollOverlay);
-
-              if (!captureScroll) {
-                // Set up scroll monitoring for iframe content
-                iframeDoc.addEventListener("wheel", (event) => {
-                  handleIframeScroll(frame, currentScrollOverlay, event);
-                }, { passive: false });
-              }
-            } catch (e) {
-              // Cross-origin or access error, assume it's valid content but use overlay
-              console.warn("Cross-origin iframe or access error, assuming valid content:", url);
-              loader.style.display = "none";
-              currentScrollOverlay.classList.add("capture-scroll");
-            }
-          }, 200);
-        };
-
-        const onFrameError = () => {
-          console.warn("Iframe load error:", url);
-          next();
-        };
-
-        // Set up scroll handling for overlay
-        currentScrollOverlay.addEventListener("wheel", (event) => {
-          if (currentScrollOverlay.classList.contains("capture-scroll")) {
-            event.preventDefault();
-            if (event.deltaY > 0) handleScroll("next");
-            else handleScroll("prev");
-          }
-        }, { passive: false });
-
-        // Try fetching and injecting with a base tag
-        fetch(url, { cache: "no-store" })
-          .then(res => {
-            if (!res.ok) throw new Error("Fetch failed");
-            return res.text();
-          })
-          .then(html => {
-            // Check if HTML content is meaningful (not just empty or error pages)
-            const tempDiv = document.createElement('div');
-            tempDiv.innerHTML = html;
-            const textContent = tempDiv.textContent || tempDiv.innerText || '';
-
-            if (textContent.trim().length < 10) {
-              console.warn("HTML content appears empty or too short:", url);
-              next();
-              return;
-            }
-
-            const baseHref = url.slice(0, url.lastIndexOf("/") + 1);
-            const withBase = html.replace(/<head(\s*)>/i, `<head$1><base href="${baseHref}">`);
-
-            frame.addEventListener("load", onFrameLoad, { once: true });
-            frame.addEventListener("error", onFrameError, { once: true });
-
-            frame.srcdoc = withBase;
-          })
-          .catch((error) => {
-            console.warn("Fetch failed for:", url, error);
-            // Fallback to direct src if fetch fails
-            frame.removeAttribute("srcdoc");
-            frame.src = url;
-            frame.addEventListener("load", onFrameLoad, { once: true });
-            frame.addEventListener("error", onFrameError, { once: true });
-          });
+    async function advanceDeck() {
+      deckIndex++;
+      while (deckIndex >= allDecks.length && nextTournamentIdx < tournamentUrls.length) {
+        loader.textContent = "Loading more decks...";
+        loader.style.display = "block";
+        content.innerHTML = "";
+        content.appendChild(loader);
+        await loadNextTournament();
       }
+      showDeck();
     }
 
     function fetchDecklist(format) {
-      const fileUrl = `${fileBase}/${formats[format]}`;
+      const fileUrl = `${fileBase}${formats[format]}`;
       clearView();
-      index = 0;
-      entries = [];
+      tournamentUrls = [];
+      allDecks = [];
+      deckIndex = 0;
+      nextTournamentIdx = 0;
 
       const currentYear = new Date().getFullYear().toString();
 
       fetch(fileUrl)
         .then(res => {
-          if (!res.ok) throw new Error("Error fetching decklist.");
+          if (!res.ok) throw new Error("Error fetching tournament list.");
           return res.text();
         })
-        .then(text => {
-          entries = text
+        .then(async text => {
+          tournamentUrls = text
             .split(/\s+/)
             .map(u => u.trim())
-            .filter(u => u.length > 0 && u.includes(currentYear));
+            .filter(u => u.length > 0 && u.includes(currentYear))
+            .map(u => {
+              const slug = u.split("/").pop();
+              return `refs/heads/main/assets/${format}/raw/${slug}.json`;
+            });
 
           document.getElementById("available-decks").textContent =
-            "Available " + format + " decks: " + entries.length;
+            "Available " + format + " tournaments: " + tournamentUrls.length;
 
-          showItemAtIndex(index);
+          if (tournamentUrls.length > 0) {
+            await loadNextTournament();
+            showDeck();
+          } else {
+            loader.textContent = "No tournaments found for " + currentYear;
+          }
         })
         .catch((err) => {
           console.log(err);
@@ -384,30 +517,25 @@
       fetchDecklist(e.target.value);
     });
 
-    // Scroll control
     let throttle = false;
     function handleScroll(direction) {
       if (throttle) return;
       throttle = true;
       setTimeout(() => throttle = false, 500);
 
-      if (direction === "next" && index < entries.length - 1) {
-        index++;
-        showItemAtIndex(index);
-      } else if (direction === "prev" && index > 0) {
-        index--;
-        showItemAtIndex(index);
+      if (direction === "next") {
+        advanceDeck();
+      } else if (direction === "prev" && deckIndex > 0) {
+        deckIndex--;
+        showDeck();
       }
     }
 
-    // Desktop scroll for non-iframe content
+    // Desktop scroll
     content.addEventListener("wheel", (event) => {
-      // Only handle scroll here for images, not iframe content
-      if (!isIframeContent) {
-        event.preventDefault();
-        if (event.deltaY > 0) handleScroll("next");
-        else handleScroll("prev");
-      }
+      event.preventDefault();
+      if (event.deltaY > 0) handleScroll("next");
+      else handleScroll("prev");
     }, { passive: false });
 
     // Mobile swipe
