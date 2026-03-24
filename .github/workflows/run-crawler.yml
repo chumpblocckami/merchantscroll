@@ -3,7 +3,7 @@ name: Hedron Crawler
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/90 * * * *' # Every 90 minutes
+    - cron: '0 */2 * * *' # Every 2 hours
 
 permissions:
   contents: write

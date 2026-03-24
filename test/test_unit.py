@@ -55,8 +55,8 @@ class TestRenderer(unittest.TestCase):
         except FileNotFoundError:
             pass
 
-        deck = prepare_deck(DECK_DATA, path="test/assets/figure.png")
-        write_png(deck)
+        deck = prepare_deck(DECK_DATA)
+        write_png(deck, path="test/assets/figure.png")
         self.assertTrue("figure.png" in os.listdir("test/assets"))
 
     def test_html_deck(self):
@@ -72,7 +72,8 @@ class TestRenderer(unittest.TestCase):
 
 class TestCrawler(unittest.TestCase):
     def test_crawl_cards(self):
-        crawl_cards()
+        result = crawl_cards()
+        self.assertIn("data", result)
 
 
 if __name__ == "__main__":
