@@ -31,6 +31,7 @@ def start_crawler():
             for tournament in tournaments
             if any(tournament_format in tournament for tournament_format in FORMATS)
         ]
+
         def _sort_key(url: str) -> str:
             match = re.search(r"(\d{4}-\d{2}-\d{2})", url)
             return match.group(1) if match else "0000-00-00"

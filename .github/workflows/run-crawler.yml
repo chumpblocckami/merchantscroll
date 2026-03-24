@@ -44,7 +44,7 @@ jobs:
       - name: Set last update timestamp
         run: |
           echo "{\"last_update\": \"$(date -u '+%A, %B %d, %Y at %H:%M UTC')\"}" > info.json
-      
+
       - name: Commit and push finished jobs
         run: |
           git config user.name "GitHub Actions"
