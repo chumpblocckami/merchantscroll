@@ -73,6 +73,7 @@ Competitive and casual Pauper players who want to quickly browse recent tourname
 | `style.css`                       | Frontend styles                                        |
 | `assets/pauper/raw/{site_name}.json` | Per-tournament data files                           |
 | `assets/pauper/index.json`        | Tournament index (metadata + deck counts)              |
+| `assets/pauper/players.json`      | Player-to-tournament lookup for full-database search   |
 | `info.json`                       | Last update timestamp                                  |
 
 ## 6. Frontend
@@ -161,7 +162,16 @@ The preview tooltip follows the cursor and repositions to stay within the viewpo
 
 ### 6.7 Player Search
 
-A search input in the header filters the loaded decks by player name (case-insensitive substring match). Search is debounced at 200ms. Filtering operates on already-loaded data; it does not trigger additional fetches.
+A search input in the header filters decks by player name (case-insensitive substring match). Search is debounced at 300ms.
+
+The search operates against a **preloaded player index** (`players.json`, ~580 KB) that maps every player name to the tournament `site_name`(s) they appear in. This allows the search to cover the **entire database**, not just already-loaded tournaments:
+
+1. On page load, `players.json` is fetched in parallel with `index.json`
+2. When the user types a query, the frontend looks up all matching player names in the index to find which tournaments contain matches
+3. Any matching tournaments not yet loaded are fetched on demand
+4. The filter is then applied to the full loaded dataset
+
+This ensures that searching for a player always returns all their appearances across every tournament in the database.
 
 ## 7. Data Pipeline
 
@@ -186,7 +196,8 @@ The pipeline is orchestrated by `src/pipeline.py` and invoked via `crawl.py`. A 
    e. Enrich: compute deck color identity from Scryfall data, excluding lands
    f. Save to `assets/pauper/raw/{site_name}.json`
 7. **Index rebuild**: Regenerate `assets/pauper/index.json` from all raw files (sorted by `starttime` descending)
-8. **Timestamp**: Write `info.json` with the current UTC datetime
+8. **Player index rebuild**: Regenerate `assets/pauper/players.json` mapping player names to their tournament `site_name`s
+9. **Timestamp**: Write `info.json` with the current UTC datetime
 
 If no new tournaments are found, steps 7-8 are skipped and no files are modified.
 
@@ -203,6 +214,7 @@ Deck color identity is derived using Scryfall's bulk data:
 
 - **Per-tournament file**: `assets/pauper/raw/{site_name}.json` — contains full tournament metadata and all minified decklists with color data
 - **Index file**: `assets/pauper/index.json` — array of tournament summaries (`site_name`, `starttime`, `deck_count`) sorted by date descending, used by the frontend to discover and lazily load tournaments
+- **Player index**: `assets/pauper/players.json` — maps lowercase player names to arrays of `site_name` strings they appear in. Compact JSON (~580 KB), loaded at startup by the frontend to enable full-database player search without loading all tournament data
 - **Info file**: `info.json` — contains `last_update` timestamp displayed in the frontend header
 
 ### 7.5 Scheduling

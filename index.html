@@ -105,6 +105,7 @@
     let deckIdx = 0;
     let loading = false;
     let searchQuery = "";
+    let playerIndex = {};
     const currentYear = new Date().getFullYear().toString();
     const loadedTournaments = new Set();
 
@@ -597,16 +598,56 @@
       $("deck-count").textContent = `${filteredDecks.length}${!searchQuery && nextTournamentIdx < tournamentIndex.length ? "+" : ""} decks`;
     }
 
+    function findMatchingTournaments(query) {
+      const q = query.toLowerCase();
+      const siteNames = new Set();
+      for (const [player, tournaments] of Object.entries(playerIndex)) {
+        if (player.includes(q)) {
+          for (const sn of tournaments) siteNames.add(sn);
+        }
+      }
+      return siteNames;
+    }
+
     let searchTimeout;
+    let searchInProgress = false;
+
     searchInput.addEventListener("input", () => {
       clearTimeout(searchTimeout);
-      searchTimeout = setTimeout(() => {
-        searchQuery = searchInput.value.trim();
+      searchTimeout = setTimeout(() => doSearch(), 300);
+    });
+
+    async function doSearch() {
+      searchQuery = searchInput.value.trim();
+      if (!searchQuery) {
         applyFilter();
         deckIdx = 0;
         showDeck();
-      }, 200);
-    });
+        return;
+      }
+
+      if (searchInProgress) return;
+      searchInProgress = true;
+
+      const matching = findMatchingTournaments(searchQuery);
+      const toLoad = [...matching].filter(sn => !loadedTournaments.has(sn));
+
+      if (toLoad.length > 0) {
+        content.innerHTML = "";
+        loader.textContent = `Loading ${toLoad.length} tournament(s)...`;
+        loader.style.display = "block";
+        content.appendChild(loader);
+
+        for (const sn of toLoad) {
+          await ensureTournamentLoaded(sn);
+        }
+      }
+
+      applyFilter();
+      deckIdx = 0;
+      showDeck();
+      searchInProgress = false;
+    }
 
     /* ── Navigation ── */
     function showDeck() {
@@ -669,6 +710,15 @@
     });
 
     /* ── Init ── */
+    async function loadPlayerIndex() {
+      try {
+        const res = await fetch("assets/pauper/players.json", { cache: "no-store" });
+        if (res.ok) playerIndex = await res.json();
+      } catch (e) {
+        console.warn("Player index not available:", e);
+      }
+    }
+
     async function init() {
       allDecks = [];
       filteredDecks = [];
@@ -682,7 +732,7 @@
       content.appendChild(loader);
 
       try {
-        const fullIndex = await loadIndex();
+        const [fullIndex] = await Promise.all([loadIndex(), loadPlayerIndex()]);
         tournamentIndex = fullIndex.filter(t => t.starttime.includes(currentYear));
         $("deck-count").textContent = `${tournamentIndex.reduce((s, t) => s + t.deck_count, 0)} decks across ${tournamentIndex.length} events`;
 

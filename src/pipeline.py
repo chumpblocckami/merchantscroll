@@ -16,6 +16,7 @@ from .utils import extract_date
 
 RAW_DIR = Path("assets/pauper/raw")
 INDEX_PATH = Path("assets/pauper/index.json")
+PLAYERS_PATH = Path("assets/pauper/players.json")
 INFO_PATH = Path("info.json")
 
 
@@ -98,6 +99,34 @@ def rebuild_index():
     print(f"Index updated: {len(index)} tournaments.")
 
 
+def rebuild_players_index():
+    """Regenerate players.json mapping player names to their tournament site_names.
+
+    Output format: {"playername": ["site_name_1", "site_name_2", ...], ...}
+    Player names are stored lowercase for case-insensitive frontend matching.
+    """
+    if not RAW_DIR.exists():
+        print("No raw directory found, skipping players index.")
+        return
+
+    players: dict[str, list[str]] = {}
+    for path in RAW_DIR.glob("*.json"):
+        try:
+            data = json.loads(path.read_text())
+        except (json.JSONDecodeError, OSError):
+            continue
+        site_name = path.stem
+        for deck in data.get("decklists", []):
+            name = deck.get("player", "").lower()
+            if name:
+                players.setdefault(name, []).append(site_name)
+
+    PLAYERS_PATH.parent.mkdir(parents=True, exist_ok=True)
+    PLAYERS_PATH.write_text(json.dumps(players, separators=(",", ":")))
+    total = sum(len(v) for v in players.values())
+    print(f"Players index updated: {len(players)} players, {total} entries.")
+
+
 def write_info():
     """Write info.json with the current UTC timestamp."""
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
@@ -120,6 +149,7 @@ def run(refresh_scryfall: bool = False):
 
     if crawled:
         rebuild_index()
+        rebuild_players_index()
         write_info()
     else:
         print("Nothing new — index unchanged.")
