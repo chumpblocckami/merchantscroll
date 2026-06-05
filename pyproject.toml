@@ -1,0 +1,21 @@
+[project]
+name = "merchantscroll"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "gitpython>=3.1.50",
+    "pandas>=2.3.3",
+    "pillow>=12.2.0",
+    "python-dotenv>=1.2.2",
+    "requests>=2.34.2",
+    "scrython>=2.1.0",
+    "tqdm>=4.67.3",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+]

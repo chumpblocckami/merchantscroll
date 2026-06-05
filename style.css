@@ -1,119 +1,413 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 html,
 body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow-x: hidden;
-    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
-    background: #fafafa;
-    color: #1a1a1a;
+  height: 100%;
+  overflow: hidden;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  background: #fafafa;
+  color: #1a1a1a;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100dvh;
 }
 
+/* ── Header ── */
+
 .header-container {
-    text-align: center;
-    padding: 12px 16px 6px;
-    width: 100vw;
-    overflow: hidden;
+  text-align: center;
+  padding: 14px 16px 8px;
+  border-bottom: 1px solid #eee;
 }
 
 .header-container h1 {
-    margin: 0 0 2px 0;
-    font-size: 1.5em;
-    font-weight: 800;
-    letter-spacing: -0.5px;
+  font-size: 1.4em;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  margin-bottom: 1px;
 }
 
-.header-container strong {
-    font-weight: 400;
-    color: #666;
-    font-size: 0.9em;
+.header-container .subtitle {
+  font-weight: 400;
+  color: #888;
+  font-size: 0.82em;
 }
 
-.image-container {
-    width: 100vw;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
+.header-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 8px;
+  flex-wrap: wrap;
 }
 
-footer {
-    height: 6vh;
-    padding-bottom: 1vh;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0.6;
+.search-box {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 4px 10px;
+  gap: 6px;
+  transition: border-color 0.2s;
+  max-width: 260px;
+  width: 100%;
 }
 
-.footer-logo {
-    height: 100%;
-    width: auto;
-    display: block;
+.search-box:focus-within {
+  border-color: #999;
 }
 
-.loader {
-    text-align: center;
-    padding: 20px;
-    font-size: 0.95em;
-    color: #999;
+.search-box svg {
+  flex-shrink: 0;
+  color: #aaa;
 }
 
-.info {
-    color: #999;
-    font-size: 0.78em;
+.search-box input {
+  border: none;
+  outline: none;
+  font-size: 0.82rem;
+  width: 100%;
+  background: transparent;
+  color: #333;
+}
+
+.search-box input::placeholder {
+  color: #bbb;
 }
 
 .format-selector {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-    padding: 4px 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .format-selector label {
-    font-weight: 600;
-    font-size: 0.85rem;
-    color: #555;
+  font-weight: 600;
+  font-size: 0.82rem;
+  color: #555;
 }
 
 .format-selector select {
-    font-size: 0.85rem;
-    padding: 2px 8px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    background-color: #fff;
-    cursor: pointer;
-    transition: border-color 0.2s;
+  font-size: 0.82rem;
+  padding: 4px 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+  transition: border-color 0.2s;
 }
 
 .format-selector select:focus {
-    border-color: #999;
-    outline: none;
+  border-color: #999;
+  outline: none;
 }
 
+.header-meta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 6px;
+  flex-wrap: wrap;
+}
+
+.info {
+  color: #aaa;
+  font-size: 0.72em;
+}
+
+/* ── Main content ── */
+
+.image-container {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+}
+
+/* ── Deck view ── */
+
+.deck-container {
+  padding: 14px 24px 10px;
+  max-width: 880px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  animation: fadeIn 0.18s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.deck-header {
+  margin-bottom: 10px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.player-name {
+  font-size: 1.15em;
+  font-weight: 700;
+  color: #1a1a1a;
+  letter-spacing: 0.3px;
+}
+
+.player-record {
+  font-weight: 400;
+  color: #888;
+  font-size: 0.9em;
+  margin-left: 4px;
+}
+
+.deck-meta {
+  color: #999;
+  font-size: 0.75em;
+  margin-top: 2px;
+}
+
+.deck-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 6px;
+}
+
+.nav-btn {
+  background: none;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 3px 12px;
+  cursor: pointer;
+  font-size: 0.78em;
+  color: #666;
+  transition: all 0.15s;
+  line-height: 1.4;
+}
+
+.nav-btn:hover {
+  background: #f0f0f0;
+  border-color: #bbb;
+  color: #333;
+}
+
+.nav-btn:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.nav-counter {
+  font-size: 0.72em;
+  color: #aaa;
+  min-width: 100px;
+  text-align: center;
+}
+
+/* ── Deck columns ── */
+
+.decklist-columns {
+  flex: 1;
+  display: flex;
+  gap: 28px;
+  min-height: 0;
+  overflow-y: auto;
+  padding-bottom: 10px;
+}
+
+.deck-col {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.deck-col.sideboard-col {
+  flex: 0 0 28%;
+}
+
+.col-title {
+  font-size: 0.72em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #666;
+  padding-bottom: 4px;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.col-title.sideboard-title {
+  border-bottom-color: #bbb;
+}
+
+/* ── Card categories ── */
+
+.card-category {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.category-label {
+  font-size: 0.68em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #bbb;
+  padding-bottom: 2px;
+  margin-bottom: 1px;
+  border-bottom: 1px solid #eee;
+}
+
+.card-row {
+  display: flex;
+  align-items: baseline;
+  padding: 1.5px 4px;
+  font-size: 0.82em;
+  line-height: 1.5;
+  border-radius: 3px;
+  transition: background 0.1s;
+}
+
+.card-row:hover {
+  background: #f0f0f0;
+}
+
+.card-qty {
+  width: 20px;
+  text-align: right;
+  margin-right: 8px;
+  color: #aaa;
+  font-size: 0.9em;
+  flex-shrink: 0;
+  font-variant-numeric: tabular-nums;
+}
+
+.card-name {
+  color: #333;
+  cursor: pointer;
+  transition: color 0.1s;
+}
+
+.card-name:hover {
+  color: #1a6dd4;
+}
+
+/* ── Card preview popup ── */
+
 #card-preview {
-    position: fixed;
-    z-index: 9999;
-    pointer-events: none;
-    display: none;
-    border-radius: 12px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
-    overflow: hidden;
-    background: #1a1a1a;
+  position: fixed;
+  z-index: 9999;
+  pointer-events: none;
+  display: none;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  background: #111;
 }
 
 #card-preview-img {
-    display: block;
-    width: 244px;
-    height: auto;
-    border-radius: 12px;
+  display: block;
+  width: 244px;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* ── Loader ── */
+
+.loader {
+  text-align: center;
+  padding: 40px 20px;
+  font-size: 0.9em;
+  color: #aaa;
+}
+
+/* ── Footer ── */
+
+footer {
+  height: 5vh;
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  opacity: 0.5;
+  font-size: 0.7em;
+  color: #999;
+  border-top: 1px solid #eee;
+}
+
+.footer-logo {
+  height: 80%;
+  width: auto;
+}
+
+/* ── Keyboard hint ── */
+
+.kbd-hint {
+  font-size: 0.68em;
+  color: #ccc;
+  text-align: center;
+  margin-top: 2px;
+}
+
+kbd {
+  display: inline-block;
+  padding: 1px 5px;
+  font-size: 0.85em;
+  font-family: inherit;
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 #ccc;
+}
+
+/* ── Responsive ── */
+
+@media (max-width: 640px) {
+  .deck-container {
+    padding: 10px 14px 8px;
+  }
+
+  .decklist-columns {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .deck-col.sideboard-col {
+    flex: none;
+  }
+
+  .header-controls {
+    gap: 8px;
+  }
+
+  .search-box {
+    max-width: 200px;
+  }
+
+  .nav-btn {
+    padding: 3px 8px;
+  }
+
+  .kbd-hint {
+    display: none;
+  }
 }

@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-  <!-- Clarity tag-->
   <script type="text/javascript">
     (function (c, l, a, r, i, t, y) {
       c[a] = c[a] || function () { (c[a].q = c[a].q || []).push(arguments) };
@@ -10,7 +9,6 @@
       y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
     })(window, document, "clarity", "script", "tisvy2narb");
   </script>
-  <!-- Google tag gtag.js -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FWXMHTS3R3"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -22,221 +20,111 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Favicon -->
-  <link rel="icon" href="https://raw.githubusercontent.com/chumpblocckami/merchantscroll/main/assets/favicon.ico"
-    type="image/x-icon" />
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
 
-  <!-- Primary Meta Tags -->
   <title>Merchant Scroll – Scroll Infinite Magic: The Gathering Decks</title>
   <meta name="title" content="Merchant Scroll – Scroll Infinite Magic: The Gathering Decks" />
   <meta name="description"
-    content="Explore endless Magic: The Gathering decks across Pauper, Modern, Legacy, and more. Updated hourly for the latest meta insights." />
+    content="Explore endless Magic: The Gathering Pauper decks. Browse tournament results updated every 2 hours with card previews and full decklists." />
 
-  <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://merchant-scroll.com" />
   <meta property="og:title" content="Merchant Scroll – Scroll Infinite Magic: The Gathering Decks" />
   <meta property="og:description"
-    content="Explore endless Magic: The Gathering decks across Pauper, Modern, Legacy, and more. Updated hourly for the latest meta insights." />
-  <meta property="og:image"
-    content="https://raw.githubusercontent.com/chumpblocckami/merchantscroll/main/assets/preview.jpg" />
+    content="Explore endless Magic: The Gathering Pauper decks. Browse tournament results updated every 2 hours." />
+  <meta property="og:image" content="https://merchant-scroll.com/assets/preview.jpg" />
 
-  <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Merchant Scroll – Scroll Infinite Magic: The Gathering Decks" />
   <meta name="twitter:description"
-    content="Explore endless Magic: The Gathering Pauper decks. Updated hourly for the latest meta insights." />
-  <meta name="twitter:image"
-    content="https://raw.githubusercontent.com/chumpblocckami/merchantscroll/main/assets/preview.jpg" />
+    content="Explore endless Magic: The Gathering Pauper decks. Updated every 2 hours." />
+  <meta name="twitter:image" content="https://merchant-scroll.com/assets/preview.jpg" />
 
-  <!-- Google -->
   <script type="application/ld+json">
   {
-    "@context":"https://schema.org",
-    "@type":"WebSite",
-    "name":"Merchant Scroll",
-    "url":"https://merchant-scroll.com",
-    "logo":"https://raw.githubusercontent.com/chumpblocckami/merchantscroll/main/assets/preview.jpg",
-    "potentialAction":{
-      "@type":"SearchAction",
-      "target":"https://merchant-scroll.com",
-      "query-input":"required name=search_term_string"
-    }
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Merchant Scroll",
+    "url": "https://merchant-scroll.com",
+    "description": "Browse infinite Magic: The Gathering Pauper decklists from MTGO tournaments.",
+    "logo": "https://merchant-scroll.com/assets/preview.jpg"
   }
   </script>
 
   <link rel="canonical" href="https://merchant-scroll.com/" />
-  <link rel="stylesheet" href="style.css">
-  <style>
-    .loader {
-      padding: 10px;
-      text-align: center;
-      font-style: italic;
-      color: #888;
-    }
-
-    .deck-container {
-      padding: 10px 24px;
-      max-width: 960px;
-      margin: 0 auto;
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-    }
-
-    .deck-header {
-      margin-bottom: 10px;
-      flex-shrink: 0;
-      text-align: center;
-    }
-
-    .deck-header .player-name {
-      margin: 0;
-      font-size: 1.15em;
-      font-weight: 700;
-      color: #1a1a1a;
-      letter-spacing: 0.3px;
-    }
-
-    .deck-header .deck-meta {
-      margin: 2px 0 0 0;
-      color: #888;
-      font-size: 0.78em;
-    }
-
-    .decklist-columns {
-      flex: 1;
-      display: flex;
-      gap: 32px;
-      min-height: 0;
-    }
-
-    .deck-col {
-      flex: 1;
-      min-width: 0;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-
-    .deck-col.sideboard-col {
-      flex: 0 0 28%;
-    }
-
-    .card-category {
-      display: flex;
-      flex-direction: column;
-      gap: 1px;
-    }
-
-    .category-label {
-      font-size: 0.7em;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 1.5px;
-      color: #aaa;
-      padding-bottom: 3px;
-      margin-bottom: 2px;
-      border-bottom: 1px solid #e8e8e8;
-    }
-
-    .card-row {
-      display: flex;
-      align-items: baseline;
-      padding: 1px 0;
-      font-size: 0.82em;
-      line-height: 1.45;
-    }
-
-    .card-row:hover {
-      background: #f5f5f5;
-      border-radius: 3px;
-    }
-
-    .card-qty {
-      width: 22px;
-      text-align: right;
-      margin-right: 6px;
-      color: #999;
-      font-size: 0.9em;
-      flex-shrink: 0;
-    }
-
-    .card-name {
-      color: #333;
-      cursor: pointer;
-    }
-
-    .card-name:hover {
-      color: #1a6dd4;
-    }
-
-    .col-title {
-      font-size: 0.75em;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 1.5px;
-      color: #666;
-      padding-bottom: 4px;
-      margin: 0;
-      border-bottom: 2px solid #ddd;
-    }
-
-    .col-title.sideboard-title {
-      border-bottom-color: #666;
-      color: #666;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <div class="header-container">
     <h1>Merchant Scroll</h1>
-    <strong>Scroll infinite Magic: The Gathering decks</strong>
-    <div class="format-selector">
-      <label for="format-select"><strong>Format:</strong></label>
-      <select id="format-select" name="format">
-        <option value="pauper" selected>Pauper</option>
-      </select>
+    <div class="subtitle">Scroll infinite Magic: The Gathering decks</div>
+    <div class="header-controls">
+      <div class="search-box">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+          stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8" />
+          <line x1="21" y1="21" x2="16.65" y2="16.65" />
+        </svg>
+        <input type="text" id="search-input" placeholder="Search player..." autocomplete="off" />
+      </div>
+      <div class="format-selector">
+        <label for="format-select">Format:</label>
+        <select id="format-select" name="format">
+          <option value="pauper" selected>Pauper</option>
+        </select>
+      </div>
     </div>
-    <div class="info" id="info">Last update: </div>
-    <div class="info" id="available-decks">Available decks: </div>
+    <div class="header-meta">
+      <span class="info" id="info">Loading...</span>
+      <span class="info" id="deck-count"></span>
+    </div>
   </div>
 
   <div id="content" class="image-container">
-    <div class="loader" id="loader">Loading...</div>
+    <div class="loader" id="loader">Loading decks...</div>
   </div>
 
-  <div id="card-preview"><img id="card-preview-img" alt=""></div>
+  <div id="card-preview"><img id="card-preview-img" alt="" /></div>
 
   <footer>
     <span>Powered by</span>
-    <img src="https://raw.githubusercontent.com/chumpblocckami/merchantscroll/main/assets/logo.png"
-      alt="Wizards Cottage" class="footer-logo">
+    <img src="assets/logo.png" alt="Merchant Scroll" class="footer-logo" />
   </footer>
 
   <script>
-    const content = document.getElementById("content");
-    const loader = document.getElementById("loader");
-    const cardPreview = document.getElementById("card-preview");
-    const cardPreviewImg = document.getElementById("card-preview-img");
-    const isTouchDevice = "ontouchstart" in window || navigator.maxTouchPoints > 0;
+    const $ = (s) => document.getElementById(s);
+    const content = $("content");
+    const loader = $("loader");
+    const searchInput = $("search-input");
+    const cardPreview = $("card-preview");
+    const cardPreviewImg = $("card-preview-img");
+    const isTouch = "ontouchstart" in window || navigator.maxTouchPoints > 0;
 
-    function scryfallImageUrl(cardName) {
-      return `https://api.scryfall.com/cards/named?exact=${encodeURIComponent(cardName)}&format=image&version=normal`;
+    /* ── State ── */
+    let tournamentIndex = [];
+    let nextTournamentIdx = 0;
+    let allDecks = [];
+    let filteredDecks = [];
+    let deckIdx = 0;
+    let loading = false;
+    let searchQuery = "";
+    const currentYear = new Date().getFullYear().toString();
+
+    /* ── Card preview ── */
+    function scryfallImg(name) {
+      return `https://api.scryfall.com/cards/named?exact=${encodeURIComponent(name)}&format=image&version=normal`;
     }
 
-    function showPreview(cardName, x, y) {
-      cardPreviewImg.src = scryfallImageUrl(cardName);
+    function showPreview(name, x, y) {
+      cardPreviewImg.src = scryfallImg(name);
       cardPreview.style.display = "block";
       positionPreview(x, y);
     }
 
     function positionPreview(x, y) {
-      const pw = 260;
-      const ph = 370;
-      let left = x + 16;
-      let top = y + 16;
+      const pw = 260, ph = 370;
+      let left = x + 16, top = y + 16;
       if (left + pw > window.innerWidth) left = x - pw - 8;
       if (top + ph > window.innerHeight) top = window.innerHeight - ph - 8;
       if (top < 0) top = 8;
@@ -250,320 +138,307 @@
     }
 
     document.addEventListener("click", (e) => {
-      if (isTouchDevice && !e.target.closest(".card-name")) {
-        hidePreview();
-      }
+      if (isTouch && !e.target.closest(".card-name")) hidePreview();
     });
 
-    const fileBase = "https://raw.githubusercontent.com/chumpblocckami/merchantscroll/";
-    const formats = {
-      pauper: "main/assets/pauper/tournaments.txt",
-    };
-
-    let tournamentUrls = [];
-    let nextTournamentIdx = 0;
-    let allDecks = [];
-    let deckIndex = 0;
-    let loadingTournament = false;
-
-    function clearView() {
-      content.innerHTML = "";
-      content.appendChild(loader);
-      loader.style.display = "block";
-      loader.textContent = "Loading...";
-    }
-
+    /* ── Card categorization ── */
     function categorizeCards(cards) {
       const cats = {
         creatures: { label: "Creatures", entries: {}, total: 0 },
         spells: { label: "Spells", entries: {}, total: 0 },
         lands: { label: "Lands", entries: {}, total: 0 },
       };
-      cards.forEach(card => {
+      for (const card of cards) {
         const name = card.card_attributes.card_name;
         const type = (card.card_attributes.card_type || "").trim();
         const qty = parseInt(card.qty) || 1;
-        let cat;
-        if (type === "ISCREA") cat = "creatures";
-        else if (type === "LAND") cat = "lands";
-        else cat = "spells";
-        if (cats[cat].entries[name]) cats[cat].entries[name] += qty;
-        else cats[cat].entries[name] = qty;
+        const cat = type.includes("CREA") ? "creatures"
+          : type === "LAND" ? "lands"
+          : "spells";
+        cats[cat].entries[name] = (cats[cat].entries[name] || 0) + qty;
         cats[cat].total += qty;
-      });
+      }
       return cats;
     }
 
-    function flatGroupCards(cards) {
-      const grouped = {};
-      cards.forEach(card => {
-        const name = card.card_attributes.card_name;
-        const qty = parseInt(card.qty) || 1;
-        grouped[name] = (grouped[name] || 0) + qty;
-      });
-      return Object.entries(grouped).sort((a, b) =>
-        b[1] !== a[1] ? b[1] - a[1] : a[0].localeCompare(b[0])
-      );
+    function flatGroup(cards) {
+      const g = {};
+      for (const c of cards) {
+        const name = c.card_attributes.card_name;
+        g[name] = (g[name] || 0) + (parseInt(c.qty) || 1);
+      }
+      return Object.entries(g).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
     }
 
-    function attachCardPreview(nameSpan, cardName) {
-      if (isTouchDevice) {
-        nameSpan.addEventListener("click", (e) => {
+    /* ── DOM builders ── */
+    function el(tag, cls, text) {
+      const e = document.createElement(tag);
+      if (cls) e.className = cls;
+      if (text != null) e.textContent = text;
+      return e;
+    }
+
+    function attachPreview(span, name) {
+      if (isTouch) {
+        span.addEventListener("click", (e) => {
           e.stopPropagation();
-          const rect = nameSpan.getBoundingClientRect();
-          showPreview(cardName, rect.left, rect.bottom);
+          const r = span.getBoundingClientRect();
+          showPreview(name, r.left, r.bottom);
         });
       } else {
-        nameSpan.addEventListener("mouseenter", (e) => showPreview(cardName, e.clientX, e.clientY));
-        nameSpan.addEventListener("mousemove", (e) => positionPreview(e.clientX, e.clientY));
-        nameSpan.addEventListener("mouseleave", hidePreview);
+        span.addEventListener("mouseenter", (e) => showPreview(name, e.clientX, e.clientY));
+        span.addEventListener("mousemove", (e) => positionPreview(e.clientX, e.clientY));
+        span.addEventListener("mouseleave", hidePreview);
       }
     }
 
-    function buildCardRow(cardName, qty) {
-      const row = document.createElement("div");
-      row.className = "card-row";
-      const qtySpan = document.createElement("span");
-      qtySpan.className = "card-qty";
-      qtySpan.textContent = qty;
-      const nameSpan = document.createElement("span");
-      nameSpan.className = "card-name";
-      nameSpan.textContent = cardName;
-      attachCardPreview(nameSpan, cardName);
-      row.appendChild(qtySpan);
+    function cardRow(name, qty) {
+      const row = el("div", "card-row");
+      row.appendChild(el("span", "card-qty", qty));
+      const nameSpan = el("span", "card-name", name);
+      attachPreview(nameSpan, name);
       row.appendChild(nameSpan);
       return row;
     }
 
-    function renderCategorized(cards) {
+    function renderCategories(cards) {
       const cats = categorizeCards(cards);
       const frag = document.createDocumentFragment();
       for (const key of ["creatures", "spells", "lands"]) {
         const cat = cats[key];
         if (cat.total === 0) continue;
-        const section = document.createElement("div");
-        section.className = "card-category";
-        const label = document.createElement("div");
-        label.className = "category-label";
-        label.textContent = `${cat.label} (${cat.total})`;
-        section.appendChild(label);
-        const sorted = Object.entries(cat.entries).sort((a, b) =>
-          b[1] !== a[1] ? b[1] - a[1] : a[0].localeCompare(b[0])
-        );
-        sorted.forEach(([name, qty]) => section.appendChild(buildCardRow(name, qty)));
+        const section = el("div", "card-category");
+        section.appendChild(el("div", "category-label", `${cat.label} (${cat.total})`));
+        const sorted = Object.entries(cat.entries).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+        for (const [name, qty] of sorted) section.appendChild(cardRow(name, qty));
         frag.appendChild(section);
       }
       return frag;
     }
 
-    function renderFlatList(cards) {
+    function renderFlat(cards) {
       const frag = document.createDocumentFragment();
-      flatGroupCards(cards).forEach(([name, qty]) =>
-        frag.appendChild(buildCardRow(name, qty))
-      );
+      for (const [name, qty] of flatGroup(cards)) frag.appendChild(cardRow(name, qty));
       return frag;
     }
 
-    function renderSingleDeck(entry) {
-      const container = document.createElement("div");
-      container.className = "deck-container";
+    function formatRecord(deck) {
+      if (deck.wins) return `(${deck.wins.wins}-${deck.wins.losses})`;
+      return "";
+    }
 
-      const header = document.createElement("div");
-      header.className = "deck-header";
+    function renderDeck(entry) {
+      const deck = entry.decklist;
+      const container = el("div", "deck-container");
 
-      const playerName = document.createElement("div");
-      playerName.className = "player-name";
-      playerName.textContent = entry.player || "Unknown Player";
-      header.appendChild(playerName);
+      const header = el("div", "deck-header");
+      const nameRow = el("div");
+      const playerSpan = el("span", "player-name", entry.player || "Unknown");
+      nameRow.appendChild(playerSpan);
+      const record = formatRecord(deck);
+      if (record) nameRow.appendChild(el("span", "player-record", record));
+      header.appendChild(nameRow);
 
-      const meta = document.createElement("div");
-      meta.className = "deck-meta";
-      meta.textContent = `${entry.tournamentName}  ·  ${entry.tournamentDate}  ·  Deck ${deckIndex + 1} of ${allDecks.length}${nextTournamentIdx < tournamentUrls.length ? "+" : ""}`;
-      header.appendChild(meta);
+      header.appendChild(el("div", "deck-meta",
+        `${entry.tournamentName}  ·  ${entry.tournamentDate.split(" ")[0]}`));
+
+      const nav = el("div", "deck-nav");
+      const prevBtn = el("button", "nav-btn", "\u2190 Prev");
+      prevBtn.disabled = deckIdx <= 0;
+      prevBtn.addEventListener("click", () => go(-1));
+      const nextBtn = el("button", "nav-btn", "Next \u2192");
+      nextBtn.addEventListener("click", () => go(1));
+      const total = filteredDecks.length;
+      const suffix = !searchQuery && nextTournamentIdx < tournamentIndex.length ? "+" : "";
+      const counter = el("span", "nav-counter", `${deckIdx + 1} of ${total}${suffix}`);
+      nav.appendChild(prevBtn);
+      nav.appendChild(counter);
+      nav.appendChild(nextBtn);
+      header.appendChild(nav);
+
+      if (!isTouch) {
+        header.appendChild(el("div", "kbd-hint", ""));
+        const hint = header.lastChild;
+        const k1 = document.createElement("kbd"); k1.textContent = "\u2190";
+        const k2 = document.createElement("kbd"); k2.textContent = "\u2192";
+        hint.appendChild(k1);
+        hint.appendChild(document.createTextNode(" "));
+        hint.appendChild(k2);
+        hint.appendChild(document.createTextNode(" to navigate"));
+      }
 
       container.appendChild(header);
 
-      const columns = document.createElement("div");
-      columns.className = "decklist-columns";
+      const columns = el("div", "decklist-columns");
 
-      if (entry.decklist.main_deck && entry.decklist.main_deck.length > 0) {
-        const mainCol = document.createElement("div");
-        mainCol.className = "deck-col";
-        const mainTitle = document.createElement("h4");
-        mainTitle.className = "col-title";
-        mainTitle.textContent = "Main Deck";
-        mainCol.appendChild(mainTitle);
-        mainCol.appendChild(renderCategorized(entry.decklist.main_deck));
-        columns.appendChild(mainCol);
+      if (deck.main_deck?.length) {
+        const col = el("div", "deck-col");
+        col.appendChild(el("h4", "col-title", "Main Deck"));
+        col.appendChild(renderCategories(deck.main_deck));
+        columns.appendChild(col);
       }
 
-      if (entry.decklist.sideboard_deck && entry.decklist.sideboard_deck.length > 0) {
-        const sideCol = document.createElement("div");
-        sideCol.className = "deck-col sideboard-col";
-        const sideTitle = document.createElement("h4");
-        sideTitle.className = "col-title sideboard-title";
-        sideTitle.textContent = "Sideboard";
-        sideCol.appendChild(sideTitle);
-        sideCol.appendChild(renderFlatList(entry.decklist.sideboard_deck));
-        columns.appendChild(sideCol);
+      if (deck.sideboard_deck?.length) {
+        const col = el("div", "deck-col sideboard-col");
+        col.appendChild(el("h4", "col-title sideboard-title", "Sideboard"));
+        col.appendChild(renderFlat(deck.sideboard_deck));
+        columns.appendChild(col);
       }
 
       container.appendChild(columns);
       return container;
     }
 
-    function buildUrl(path) {
-      if (path.startsWith("http")) return path;
-      if (path.startsWith("refs/heads/")) return fileBase + path;
-      if (path.startsWith("/")) return fileBase + path.slice(1);
-      return fileBase + "refs/heads/main/" + path;
+    /* ── Data loading ── */
+    async function loadIndex(fmt) {
+      const res = await fetch(`assets/${fmt}/index.json`, { cache: "no-store" });
+      if (!res.ok) throw new Error("Failed to load index");
+      return res.json();
     }
 
-    function loadNextTournament() {
-      if (loadingTournament || nextTournamentIdx >= tournamentUrls.length) return Promise.resolve();
-      loadingTournament = true;
+    async function loadTournament() {
+      if (loading || nextTournamentIdx >= tournamentIndex.length) return;
+      loading = true;
 
-      const url = buildUrl(tournamentUrls[nextTournamentIdx]);
+      const entry = tournamentIndex[nextTournamentIdx];
       nextTournamentIdx++;
 
-      return fetch(url, { cache: "no-store" })
-        .then(res => {
-          if (!res.ok) throw new Error("Fetch failed: " + url);
-          return res.json();
-        })
-        .then(jsonData => {
-          const tournamentName = jsonData.description || jsonData.name || "";
-          const tournamentDate = jsonData.starttime || jsonData.publish_date || "";
-          const decklists = jsonData.decklists || [];
-          decklists.forEach(decklist => {
-            allDecks.push({ tournamentName, tournamentDate, player: decklist.player, decklist });
-          });
-          loadingTournament = false;
-        })
-        .catch(err => {
-          console.warn("Skipping tournament:", err);
-          loadingTournament = false;
-          return loadNextTournament();
-        });
+      try {
+        const res = await fetch(`assets/${currentFormat}/raw/${entry.site_name}.json`, { cache: "no-store" });
+        if (!res.ok) throw new Error("fetch failed");
+        const data = await res.json();
+
+        const name = data.description || data.name || "";
+        const date = data.starttime || data.publish_date || "";
+        for (const dl of (data.decklists || [])) {
+          allDecks.push({ tournamentName: name, tournamentDate: date, player: dl.player, decklist: dl });
+        }
+        applyFilter();
+      } catch (e) {
+        console.warn("Skipping tournament:", entry.site_name, e);
+      }
+      loading = false;
     }
 
+    /* ── Search / filter ── */
+    function applyFilter() {
+      if (!searchQuery) {
+        filteredDecks = allDecks;
+      } else {
+        const q = searchQuery.toLowerCase();
+        filteredDecks = allDecks.filter(d => d.player.toLowerCase().includes(q));
+      }
+      $("deck-count").textContent = `${filteredDecks.length}${!searchQuery && nextTournamentIdx < tournamentIndex.length ? "+" : ""} decks`;
+    }
+
+    let searchTimeout;
+    searchInput.addEventListener("input", () => {
+      clearTimeout(searchTimeout);
+      searchTimeout = setTimeout(() => {
+        searchQuery = searchInput.value.trim();
+        applyFilter();
+        deckIdx = 0;
+        showDeck();
+      }, 200);
+    });
+
+    /* ── Navigation ── */
     function showDeck() {
-      if (deckIndex < 0) deckIndex = 0;
-      if (deckIndex >= allDecks.length) {
-        loader.textContent = "No more decks.";
+      if (filteredDecks.length === 0) {
+        content.innerHTML = "";
+        loader.textContent = searchQuery ? "No matching decks." : "No decks loaded.";
+        content.appendChild(loader);
         loader.style.display = "block";
         return;
       }
+      if (deckIdx < 0) deckIdx = 0;
+      if (deckIdx >= filteredDecks.length) {
+        deckIdx = filteredDecks.length - 1;
+      }
       content.innerHTML = "";
-      const rendered = renderSingleDeck(allDecks[deckIndex]);
-      content.appendChild(rendered);
+      content.appendChild(renderDeck(filteredDecks[deckIdx]));
     }
 
-    async function advanceDeck() {
-      deckIndex++;
-      while (deckIndex >= allDecks.length && nextTournamentIdx < tournamentUrls.length) {
+    async function go(dir) {
+      deckIdx += dir;
+      while (deckIdx >= filteredDecks.length && nextTournamentIdx < tournamentIndex.length) {
+        content.innerHTML = "";
         loader.textContent = "Loading more decks...";
         loader.style.display = "block";
-        content.innerHTML = "";
         content.appendChild(loader);
-        await loadNextTournament();
+        await loadTournament();
       }
       showDeck();
     }
 
-    function fetchDecklist(format) {
-      const fileUrl = `${fileBase}${formats[format]}`;
-      clearView();
-      tournamentUrls = [];
-      allDecks = [];
-      deckIndex = 0;
-      nextTournamentIdx = 0;
-
-      const currentYear = new Date().getFullYear().toString();
-
-      fetch(fileUrl)
-        .then(res => {
-          if (!res.ok) throw new Error("Error fetching tournament list.");
-          return res.text();
-        })
-        .then(async text => {
-          tournamentUrls = text
-            .split(/\s+/)
-            .map(u => u.trim())
-            .filter(u => u.length > 0 && u.includes(currentYear))
-            .map(u => {
-              const slug = u.split("/").pop();
-              return `refs/heads/main/assets/${format}/raw/${slug}.json`;
-            });
-
-          document.getElementById("available-decks").textContent =
-            "Available " + format + " tournaments: " + tournamentUrls.length;
-
-          if (tournamentUrls.length > 0) {
-            await loadNextTournament();
-            showDeck();
-          } else {
-            loader.textContent = "No tournaments found for " + currentYear;
-          }
-        })
-        .catch((err) => {
-          console.log(err);
-          loader.textContent = "Error loading list.";
-        });
-    }
-
-    // Handle format change
-    document.querySelector('select[name="format"]').addEventListener("change", (e) => {
-      fetchDecklist(e.target.value);
-    });
-
+    /* ── Input handling ── */
     let throttle = false;
-    function handleScroll(direction) {
+    function throttledGo(dir) {
       if (throttle) return;
       throttle = true;
-      setTimeout(() => throttle = false, 500);
+      setTimeout(() => (throttle = false), 300);
+      go(dir);
+    }
 
-      if (direction === "next") {
-        advanceDeck();
-      } else if (direction === "prev" && deckIndex > 0) {
-        deckIndex--;
-        showDeck();
+    document.addEventListener("keydown", (e) => {
+      if (document.activeElement === searchInput) return;
+      if (e.key === "ArrowRight" || e.key === "ArrowDown") { e.preventDefault(); throttledGo(1); }
+      if (e.key === "ArrowLeft" || e.key === "ArrowUp") { e.preventDefault(); throttledGo(-1); }
+    });
+
+    content.addEventListener("wheel", (e) => {
+      e.preventDefault();
+      throttledGo(e.deltaY > 0 ? 1 : -1);
+    }, { passive: false });
+
+    let touchStartY = 0;
+    content.addEventListener("touchstart", (e) => { touchStartY = e.changedTouches[0].screenY; });
+    content.addEventListener("touchend", (e) => {
+      const delta = touchStartY - e.changedTouches[0].screenY;
+      if (Math.abs(delta) > 50) throttledGo(delta > 0 ? 1 : -1);
+    });
+
+    /* ── Init ── */
+    let currentFormat = "pauper";
+
+    async function init(fmt) {
+      currentFormat = fmt;
+      allDecks = [];
+      filteredDecks = [];
+      deckIdx = 0;
+      nextTournamentIdx = 0;
+      searchQuery = "";
+      searchInput.value = "";
+      content.innerHTML = "";
+      loader.textContent = "Loading decks...";
+      loader.style.display = "block";
+      content.appendChild(loader);
+
+      try {
+        const fullIndex = await loadIndex(fmt);
+        tournamentIndex = fullIndex.filter(t => t.starttime.includes(currentYear));
+        $("deck-count").textContent = `${tournamentIndex.reduce((s, t) => s + t.deck_count, 0)} decks across ${tournamentIndex.length} events`;
+
+        if (tournamentIndex.length > 0) {
+          await loadTournament();
+          showDeck();
+        } else {
+          loader.textContent = `No ${fmt} tournaments found for ${currentYear}.`;
+        }
+      } catch (e) {
+        console.error(e);
+        loader.textContent = "Error loading data.";
       }
     }
 
-    // Desktop scroll
-    content.addEventListener("wheel", (event) => {
-      event.preventDefault();
-      if (event.deltaY > 0) handleScroll("next");
-      else handleScroll("prev");
-    }, { passive: false });
+    $("format-select").addEventListener("change", (e) => init(e.target.value));
+    init("pauper");
 
-    // Mobile swipe
-    let touchStartY = 0;
-    let touchEndY = 0;
-    content.addEventListener("touchstart", (e) => {
-      touchStartY = e.changedTouches[0].screenY;
-    });
-    content.addEventListener("touchend", (e) => {
-      touchEndY = e.changedTouches[0].screenY;
-      const deltaY = touchStartY - touchEndY;
-      if (Math.abs(deltaY) > 50) {
-        if (deltaY > 0) handleScroll("next");
-        else handleScroll("prev");
-      }
-    });
-
-    // Initial load
-    fetchDecklist("pauper");
-
-    // Last update info
-    const updateDiv = document.getElementById("info");
-    fetch("https://raw.githubusercontent.com/chumpblocckami/merchantscroll/refs/heads/main/info.json")
-      .then(res => res.ok ? res.json() : Promise.reject("Could not fetch last update."))
-      .then(data => updateDiv.textContent = data.last_update ? `Last update: ${data.last_update}` : "No update info.")
-      .catch(() => updateDiv.textContent = "Error loading update info.");
+    fetch("info.json")
+      .then(r => r.ok ? r.json() : Promise.reject())
+      .then(d => $("info").textContent = d.last_update ? `Last update: ${d.last_update}` : "")
+      .catch(() => $("info").textContent = "");
   </script>
-
 </body>
 
 </html>

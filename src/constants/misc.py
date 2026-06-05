@@ -1,4 +1,2 @@
-FORMATS = ["pauper"]  # ["pauper", "modern", "legacy", "standard","vintage"]
-SAVE_FILE_AS = "png"  # "html"  # "png"
+FORMATS = ["pauper"]
 PATTERN = r"window\.MTGO\.decklists\.data\s*=\s*({.*?});"
-SAVE_TOURNAMENT_CONTENT = False

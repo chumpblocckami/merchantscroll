@@ -3,7 +3,7 @@ name: Hedron Crawler
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 */2 * * *' # Every 2 hours
+    - cron: '0 */2 * * *'
 
 permissions:
   contents: write
@@ -24,7 +24,8 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          pip install requests beautifulsoup4 tqdm gitpython python-dotenv
+
       - name: Set git
         env:
           USER: ${{secrets.USER}}
@@ -33,7 +34,7 @@ jobs:
           git config --global user.name "${USER}"
           git config --global user.email "${MAIL}"
 
-      - name: Run Python script
+      - name: Run crawler
         env:
           TOKEN: ${{secrets.TOKEN}}
           TOKEN_DECKS: ${{secrets.TOKEN_DECKS}}
@@ -41,14 +42,19 @@ jobs:
           USER: chumpblocckami
         run: python entrypoint.py
 
+      - name: Pull latest after crawler commits
+        run: git pull --rebase origin main
+
+      - name: Build index
+        run: python scripts/build_index.py
+
       - name: Set last update timestamp
         run: |
           echo "{\"last_update\": \"$(date -u '+%A, %B %d, %Y at %H:%M UTC')\"}" > info.json
 
-      - name: Commit and push finished jobs
+      - name: Commit and push build artifacts
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add info.json
-          git commit -m "Update info.json"
-          git push
+          git add info.json assets/*/index.json
+          git diff --cached --quiet || (git commit -m "Update index and timestamp" && git push)

@@ -1,51 +1,101 @@
 import re
 import time
+from datetime import datetime
 from pathlib import Path
 
 import requests
+from git import Repo
 from tqdm import tqdm
 
 from src.constants.misc import FORMATS
+from src.constants.paths import RAW_TOURNAMENT_PATH
 from src.crawler import crawl_decks, crawl_tournaments
+from src.saver import save_json_locally
+from src.utils import extract_date
+
+
+def slug_from_url(url: str) -> str:
+    """Extract the tournament slug from an MTGO URL (last path segment)."""
+    return url.rstrip("/").split("/")[-1]
+
+
+def discover_new_tournaments(fmt: str) -> list[str]:
+    """Return MTGO URLs for tournaments that haven't been crawled yet.
+
+    Uses the filesystem (existing JSON files in assets/{fmt}/raw/) as the
+    source of truth instead of a separate tournaments.txt manifest.
+    Same-day tournaments are always re-crawled since their data may update.
+    """
+    raw_dir = Path(f"./assets/{fmt}/raw")
+    raw_dir.mkdir(parents=True, exist_ok=True)
+    existing = {f.stem for f in raw_dir.glob("*.json")}
+    today = datetime.now().date().isoformat()
+
+    all_urls = crawl_tournaments()
+    urls = [u for u in all_urls if fmt in u]
+    urls = sorted(urls, key=extract_date, reverse=True)
+
+    new_urls = [
+        u for u in urls
+        if slug_from_url(u) not in existing or today in slug_from_url(u)
+    ]
+    return new_urls
+
+
+def git_push_all(message: str) -> None:
+    """Stage everything in assets/ and push in a single commit."""
+    repo = Repo(Path.cwd())
+    repo.remotes.origin.pull("main")
+    repo.git.add("assets/")
+    if repo.is_dirty(untracked_files=True):
+        repo.index.commit(message)
+        repo.git.push("origin", "main")
+        print(f"Pushed: {message}")
+    else:
+        print("No changes to push.")
 
 
 def start_crawler():
+    crawled = 0
+    skipped = 0
 
-    # Get a list of crawled tournaments for the available formats
-    crawled_tournaments = []
-    for available_format in FORMATS:
-        tournaments_path = str(Path(f"./assets/{available_format}/tournaments.txt").resolve())
-        Path(tournaments_path).parent.mkdir(parents=True, exist_ok=True)
-        if Path(tournaments_path).exists():
-            with open(tournaments_path, "r+") as f:
-                format_crawled_tournaments = list(set([x.strip() for x in f.readlines()]))
-        else:
-            Path(tournaments_path).touch()
-            format_crawled_tournaments = []
-        crawled_tournaments.extend(format_crawled_tournaments)
+    for fmt in FORMATS:
+        try:
+            to_crawl = discover_new_tournaments(fmt)
+        except requests.exceptions.RequestException as e:
+            print(f"Failed to discover {fmt} tournaments: {e}")
+            continue
 
-    try:
-        tournaments = crawl_tournaments()
-        tournaments = [
-            tournament
-            for tournament in tournaments
-            if any(tournament_format in tournament for tournament_format in FORMATS)
-        ]
+        if not to_crawl:
+            print(f"No new {fmt} tournaments.")
+            continue
 
-        def _sort_key(url: str) -> str:
-            match = re.search(r"(\d{4}-\d{2}-\d{2})", url)
-            return match.group(1) if match else "0000-00-00"
+        print(f"Found {len(to_crawl)} new {fmt} tournament(s).")
 
-        tournaments = sorted(tournaments, key=_sort_key, reverse=True)
-        tournaments = [x for x in tournaments if x not in crawled_tournaments]
-        pbar = tqdm(tournaments, desc="Crawling tournaments")
-        for tournament in pbar:
-            pbar.set_description(desc=f"Crawling {tournament}")
-            crawl_decks(tournament)
+        pbar = tqdm(to_crawl, desc=f"Crawling {fmt}")
+        for url in pbar:
+            pbar.set_description(slug_from_url(url))
+            try:
+                data = crawl_decks(url)
+            except requests.exceptions.RequestException as e:
+                print(f"Network error crawling {url}: {e}")
+                skipped += 1
+                continue
+
+            if data is None:
+                skipped += 1
+                continue
+
+            site_name = data.get("site_name", slug_from_url(url))
+            path = RAW_TOURNAMENT_PATH.format(deck_format=fmt, tournament_id=site_name)
+            save_json_locally(path, data)
+            crawled += 1
             time.sleep(1)
-    except requests.exceptions.RequestException as e:
-        print(f"Exception: {e}. Skipping this time and rerunning later.")
-    print("Finish crawling tournaments")
+
+    print(f"Done. Crawled: {crawled}, Skipped: {skipped}")
+
+    if crawled > 0:
+        git_push_all(f"Crawled {crawled} tournament(s)")
 
 
 if __name__ == "__main__":
