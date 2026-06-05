@@ -8,6 +8,7 @@ Reads a stored tournament JSON and prints a specific player's decklist
 in MTGO-compatible text format (pasteable into MTGO or Moxfield).
 
 Usage:
+    uv run examples/export_decklist.py TOURNAMENT_FILE
     uv run examples/export_decklist.py TOURNAMENT_FILE PLAYER
     uv run examples/export_decklist.py assets/pauper/raw/pauper-league-2026-06-0510636.json __forge__
 """
@@ -16,6 +17,13 @@ import argparse
 import json
 import sys
 from pathlib import Path
+
+
+def format_colors(deck: dict) -> str:
+    colors = deck.get("colors", [])
+    if not colors:
+        return ""
+    return "[" + "".join(colors) + "]"
 
 
 def export_deck(deck: dict) -> str:
@@ -52,7 +60,8 @@ def main():
             record = ""
             if "wins" in d:
                 record = f"  ({d['wins'].get('wins', '?')}-{d['wins'].get('losses', '?')})"
-            print(f"  {d['player']}{record}")
+            colors = format_colors(d)
+            print(f"  {colors:>6}  {d['player']}{record}")
         return
 
     match = [d for d in decklists if d["player"].lower() == args.player.lower()]
@@ -63,7 +72,8 @@ def main():
         sys.exit(1)
 
     deck = match[0]
-    print(f"// {deck['player']} — {data.get('description', '?')} — {data.get('starttime', '?')}")
+    colors = format_colors(deck)
+    print(f"// {deck['player']} {colors} — {data.get('description', '?')} — {data.get('starttime', '?')}")
     if "wins" in deck:
         print(f"// Record: {deck['wins'].get('wins', '?')}-{deck['wins'].get('losses', '?')}")
     print()

@@ -6,13 +6,16 @@ from bs4 import BeautifulSoup
 
 from .constants.crawler import HEADERS, TIMEOUT
 from .constants.misc import PATTERN
-from .utils import minify_tournament_data
+from .utils import enrich_deck_colors, minify_tournament_data
 
 
-def crawl_decks(tournament_url: str) -> dict | None:
+def crawl_decks(
+    tournament_url: str, color_lookup: dict[str, list[str]] | None = None
+) -> dict | None:
     """Fetch and parse a single tournament page from MTGO.
 
-    Returns minified tournament data ready for storage, or None on failure.
+    Returns minified (and optionally color-enriched) tournament data,
+    or None on failure.
     """
     response = requests.get(tournament_url, headers=HEADERS, timeout=TIMEOUT)
     if response.status_code != 200:
@@ -28,7 +31,10 @@ def crawl_decks(tournament_url: str) -> dict | None:
     tournament_data = literal_eval(
         match.group(1).replace("false", "False").replace("true", "True")
     )
-    return minify_tournament_data(tournament_data)
+    minified = minify_tournament_data(tournament_data)
+    if color_lookup:
+        enrich_deck_colors(minified, color_lookup)
+    return minified
 
 
 def crawl_tournaments() -> list[str]:

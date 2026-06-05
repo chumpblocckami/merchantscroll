@@ -58,7 +58,7 @@
 <body>
   <div class="header-container">
     <h1>Merchant Scroll</h1>
-    <div class="subtitle">Scroll infinite Magic: The Gathering decks</div>
+    <div class="subtitle">Scroll infinite Magic: The Gathering Pauper decks</div>
     <div class="header-controls">
       <div class="search-box">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
@@ -68,13 +68,8 @@
         </svg>
         <input type="text" id="search-input" placeholder="Search player..." autocomplete="off" />
       </div>
-      <div class="format-selector">
-        <label for="format-select">Format:</label>
-        <select id="format-select" name="format">
-          <option value="pauper" selected>Pauper</option>
-        </select>
-      </div>
     </div>
+    <div class="breadcrumb" id="breadcrumb"></div>
     <div class="header-meta">
       <span class="info" id="info">Loading...</span>
       <span class="info" id="deck-count"></span>
@@ -99,6 +94,7 @@
     const searchInput = $("search-input");
     const cardPreview = $("card-preview");
     const cardPreviewImg = $("card-preview-img");
+    const breadcrumbEl = $("breadcrumb");
     const isTouch = "ontouchstart" in window || navigator.maxTouchPoints > 0;
 
     /* ── State ── */
@@ -110,6 +106,17 @@
     let loading = false;
     let searchQuery = "";
     const currentYear = new Date().getFullYear().toString();
+    const loadedTournaments = new Set();
+
+    /* ── Color map ── */
+    const COLOR_MAP = {
+      W: { label: "White", hex: "#f0d060" },
+      U: { label: "Blue", hex: "#0e68ab" },
+      B: { label: "Black", hex: "#2b2b2b" },
+      R: { label: "Red", hex: "#d32029" },
+      G: { label: "Green", hex: "#00733e" },
+      C: { label: "Colorless", hex: "#9e9e9e" },
+    };
 
     /* ── Card preview ── */
     function scryfallImg(name) {
@@ -136,10 +143,6 @@
       cardPreview.style.display = "none";
       cardPreviewImg.src = "";
     }
-
-    document.addEventListener("click", (e) => {
-      if (isTouch && !e.target.closest(".card-name")) hidePreview();
-    });
 
     /* ── Card categorization ── */
     function categorizeCards(cards) {
@@ -227,44 +230,298 @@
       return "";
     }
 
+    /* ── Color pips ── */
+    function renderColorPips(colors) {
+      const container = el("span", "color-pips");
+      const list = colors || ["C"];
+      for (const c of list) {
+        const pip = el("span", "color-pip");
+        const info = COLOR_MAP[c] || COLOR_MAP.C;
+        pip.style.backgroundColor = info.hex;
+        pip.title = info.label;
+        if (c === "B") pip.style.border = "1px solid #666";
+        container.appendChild(pip);
+      }
+      return container;
+    }
+
+    /* ── Tournament badge ── */
+    function deriveTournamentType(name) {
+      const lower = (name || "").toLowerCase();
+      const segments = lower.split(/[\s\-]+/);
+      for (const seg of segments) {
+        if (["league", "challenge", "showcase", "preliminary", "premier", "classic"].includes(seg)) {
+          return seg.charAt(0).toUpperCase() + seg.slice(1);
+        }
+      }
+      return "";
+    }
+
+    function badgeColor(type) {
+      const map = {
+        League: "#2e7d32",
+        Challenge: "#1565c0",
+        Showcase: "#7b1fa2",
+        Preliminary: "#e65100",
+        Premier: "#c62828",
+        Classic: "#4e342e",
+      };
+      return map[type] || "#757575";
+    }
+
+    function renderBadge(tournamentName) {
+      const type = deriveTournamentType(tournamentName);
+      if (!type) return null;
+      const badge = el("span", "tournament-badge", type);
+      badge.style.backgroundColor = badgeColor(type);
+      return badge;
+    }
+
+    /* ── Breadcrumb helpers ── */
+    function formatDateBreadcrumb(dateStr) {
+      if (!dateStr) return "";
+      const d = new Date(dateStr.split(" ")[0]);
+      if (isNaN(d)) return dateStr.split(" ")[0];
+      return d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+    }
+
+    function dateKey(dateStr) {
+      return (dateStr || "").split(" ")[0];
+    }
+
+    function getAvailableDates() {
+      const seen = new Set();
+      const dates = [];
+      for (const t of tournamentIndex) {
+        const dk = dateKey(t.starttime);
+        if (dk && !seen.has(dk)) { seen.add(dk); dates.push(dk); }
+      }
+      return dates;
+    }
+
+    function getTournamentsForDate(dk) {
+      return tournamentIndex.filter(t => dateKey(t.starttime) === dk);
+    }
+
+    function tournamentLabel(siteName) {
+      const parts = siteName.split("-");
+      const format = parts[0] || "";
+      const typeWords = [];
+      for (let i = 1; i < parts.length; i++) {
+        if (/^\d{4}$/.test(parts[i])) break;
+        typeWords.push(parts[i]);
+      }
+      return [format, ...typeWords].map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+    }
+
+    function findDeckPositionInTournament(entry) {
+      let pos = 0, total = 0;
+      for (let i = 0; i < filteredDecks.length; i++) {
+        const d = filteredDecks[i];
+        if (d.siteName === entry.siteName) {
+          total++;
+          if (i <= deckIdx) pos++;
+        }
+      }
+      return { pos, total };
+    }
+
+    function getPlayersInTournament(siteName) {
+      const players = [];
+      for (let i = 0; i < filteredDecks.length; i++) {
+        if (filteredDecks[i].siteName === siteName) {
+          players.push({ idx: i, player: filteredDecks[i].player, colors: filteredDecks[i].decklist.colors });
+        }
+      }
+      return players;
+    }
+
+    /* ── Dropdown system ── */
+    let openDropdown = null;
+
+    function closeDropdown() {
+      if (openDropdown) { openDropdown.remove(); openDropdown = null; }
+    }
+
+    document.addEventListener("click", (e) => {
+      if (openDropdown && !e.target.closest(".bc-dropdown") && !e.target.closest(".bc-trigger")) {
+        closeDropdown();
+      }
+      if (isTouch && !e.target.closest(".card-name")) hidePreview();
+    });
+
+    function showDropdown(trigger, items, onSelect) {
+      closeDropdown();
+      const dd = el("div", "bc-dropdown");
+      const list = el("div", "bc-dropdown-list");
+
+      for (const item of items) {
+        const row = el("div", "bc-dropdown-item" + (item.active ? " active" : ""));
+        if (item.pips) {
+          row.appendChild(renderColorPips(item.pips));
+        }
+        row.appendChild(document.createTextNode(item.label));
+        if (item.sub) {
+          row.appendChild(el("span", "bc-dropdown-sub", item.sub));
+        }
+        row.addEventListener("click", (e) => {
+          e.stopPropagation();
+          closeDropdown();
+          onSelect(item.value);
+        });
+        list.appendChild(row);
+      }
+
+      dd.appendChild(list);
+      const rect = trigger.getBoundingClientRect();
+      dd.style.top = (rect.bottom + 4) + "px";
+      dd.style.left = Math.max(8, rect.left + rect.width / 2 - 120) + "px";
+      document.body.appendChild(dd);
+      openDropdown = dd;
+
+      const activeEl = dd.querySelector(".active");
+      if (activeEl) activeEl.scrollIntoView({ block: "center" });
+    }
+
+    /* ── Breadcrumb navigation ── */
+    async function navigateToDate(dk) {
+      const tournaments = getTournamentsForDate(dk);
+      if (!tournaments.length) return;
+      await ensureTournamentLoaded(tournaments[0].site_name);
+      const idx = filteredDecks.findIndex(d => dateKey(d.tournamentDate) === dk);
+      if (idx >= 0) { deckIdx = idx; showDeck(); }
+    }
+
+    async function navigateToTournament(siteName) {
+      await ensureTournamentLoaded(siteName);
+      const idx = filteredDecks.findIndex(d => d.siteName === siteName);
+      if (idx >= 0) { deckIdx = idx; showDeck(); }
+    }
+
+    function navigateToDeck(idx) {
+      deckIdx = idx;
+      showDeck();
+    }
+
+    async function ensureTournamentLoaded(siteName) {
+      if (loadedTournaments.has(siteName)) return;
+      const idxPos = tournamentIndex.findIndex(t => t.site_name === siteName);
+      if (idxPos < 0) return;
+
+      loading = true;
+      try {
+        const res = await fetch(`assets/pauper/raw/${siteName}.json`, { cache: "no-store" });
+        if (!res.ok) throw new Error("fetch failed");
+        const data = await res.json();
+
+        const name = data.description || data.name || "";
+        const date = data.starttime || data.publish_date || "";
+        for (const dl of (data.decklists || [])) {
+          allDecks.push({
+            tournamentName: name,
+            tournamentDate: date,
+            siteName: siteName,
+            player: dl.player,
+            decklist: dl,
+          });
+        }
+        loadedTournaments.add(siteName);
+
+        allDecks.sort((a, b) => {
+          const da = dateKey(a.tournamentDate), db = dateKey(b.tournamentDate);
+          if (da !== db) return db.localeCompare(da);
+          return 0;
+        });
+
+        applyFilter();
+      } catch (e) {
+        console.warn("Failed to load tournament:", siteName, e);
+      }
+      loading = false;
+    }
+
+    /* ── Breadcrumb renderer ── */
+    function updateBreadcrumb(entry) {
+      if (!entry) { breadcrumbEl.textContent = ""; return; }
+
+      const currentDate = dateKey(entry.tournamentDate);
+      const dateLabel = formatDateBreadcrumb(entry.tournamentDate);
+      const tournamentName = entry.tournamentName || "Unknown";
+      const { pos, total } = findDeckPositionInTournament(entry);
+
+      breadcrumbEl.innerHTML = "";
+
+      const dateTrigger = el("span", "bc-trigger", dateLabel + " \u25BE");
+      dateTrigger.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const dates = getAvailableDates();
+        const items = dates.map(dk => ({
+          label: formatDateBreadcrumb(dk),
+          value: dk,
+          sub: getTournamentsForDate(dk).length + " event" + (getTournamentsForDate(dk).length !== 1 ? "s" : ""),
+          active: dk === currentDate,
+        }));
+        showDropdown(dateTrigger, items, navigateToDate);
+      });
+      breadcrumbEl.appendChild(dateTrigger);
+      breadcrumbEl.appendChild(el("span", "bc-sep", "\u203A"));
+
+      const tournTrigger = el("span", "bc-trigger", tournamentName + " \u25BE");
+      tournTrigger.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const tournaments = getTournamentsForDate(currentDate);
+        const items = tournaments.map(t => ({
+          label: tournamentLabel(t.site_name),
+          value: t.site_name,
+          sub: t.deck_count + " decks",
+          active: t.site_name === entry.siteName,
+        }));
+        showDropdown(tournTrigger, items, navigateToTournament);
+      });
+      breadcrumbEl.appendChild(tournTrigger);
+      breadcrumbEl.appendChild(el("span", "bc-sep", "\u203A"));
+
+      const deckTrigger = el("span", "bc-trigger bc-position", `Deck ${pos} of ${total} \u25BE`);
+      deckTrigger.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const players = getPlayersInTournament(entry.siteName);
+        const items = players.map((p, i) => ({
+          label: p.player,
+          value: p.idx,
+          pips: p.colors,
+          active: p.idx === deckIdx,
+        }));
+        showDropdown(deckTrigger, items, navigateToDeck);
+      });
+      breadcrumbEl.appendChild(deckTrigger);
+    }
+
+    /* ── Deck renderer ── */
     function renderDeck(entry) {
       const deck = entry.decklist;
       const container = el("div", "deck-container");
 
       const header = el("div", "deck-header");
-      const nameRow = el("div");
+
+      const nameRow = el("div", "deck-title-row");
+      nameRow.appendChild(renderColorPips(deck.colors));
       const playerSpan = el("span", "player-name", entry.player || "Unknown");
       nameRow.appendChild(playerSpan);
       const record = formatRecord(deck);
       if (record) nameRow.appendChild(el("span", "player-record", record));
+      const badge = renderBadge(entry.tournamentName);
+      if (badge) nameRow.appendChild(badge);
       header.appendChild(nameRow);
-
-      header.appendChild(el("div", "deck-meta",
-        `${entry.tournamentName}  ·  ${entry.tournamentDate.split(" ")[0]}`));
-
-      const nav = el("div", "deck-nav");
-      const prevBtn = el("button", "nav-btn", "\u2190 Prev");
-      prevBtn.disabled = deckIdx <= 0;
-      prevBtn.addEventListener("click", () => go(-1));
-      const nextBtn = el("button", "nav-btn", "Next \u2192");
-      nextBtn.addEventListener("click", () => go(1));
-      const total = filteredDecks.length;
-      const suffix = !searchQuery && nextTournamentIdx < tournamentIndex.length ? "+" : "";
-      const counter = el("span", "nav-counter", `${deckIdx + 1} of ${total}${suffix}`);
-      nav.appendChild(prevBtn);
-      nav.appendChild(counter);
-      nav.appendChild(nextBtn);
-      header.appendChild(nav);
 
       if (!isTouch) {
         header.appendChild(el("div", "kbd-hint", ""));
         const hint = header.lastChild;
-        const k1 = document.createElement("kbd"); k1.textContent = "\u2190";
-        const k2 = document.createElement("kbd"); k2.textContent = "\u2192";
+        const k1 = document.createElement("kbd"); k1.textContent = "\u2191";
+        const k2 = document.createElement("kbd"); k2.textContent = "\u2193";
         hint.appendChild(k1);
         hint.appendChild(document.createTextNode(" "));
         hint.appendChild(k2);
-        hint.appendChild(document.createTextNode(" to navigate"));
+        hint.appendChild(document.createTextNode(" to scroll"));
       }
 
       container.appendChild(header);
@@ -290,8 +547,8 @@
     }
 
     /* ── Data loading ── */
-    async function loadIndex(fmt) {
-      const res = await fetch(`assets/${fmt}/index.json`, { cache: "no-store" });
+    async function loadIndex() {
+      const res = await fetch("assets/pauper/index.json", { cache: "no-store" });
       if (!res.ok) throw new Error("Failed to load index");
       return res.json();
     }
@@ -303,16 +560,25 @@
       const entry = tournamentIndex[nextTournamentIdx];
       nextTournamentIdx++;
 
+      if (loadedTournaments.has(entry.site_name)) { loading = false; return; }
+
       try {
-        const res = await fetch(`assets/${currentFormat}/raw/${entry.site_name}.json`, { cache: "no-store" });
+        const res = await fetch(`assets/pauper/raw/${entry.site_name}.json`, { cache: "no-store" });
         if (!res.ok) throw new Error("fetch failed");
         const data = await res.json();
 
         const name = data.description || data.name || "";
         const date = data.starttime || data.publish_date || "";
         for (const dl of (data.decklists || [])) {
-          allDecks.push({ tournamentName: name, tournamentDate: date, player: dl.player, decklist: dl });
+          allDecks.push({
+            tournamentName: name,
+            tournamentDate: date,
+            siteName: entry.site_name,
+            player: dl.player,
+            decklist: dl,
+          });
         }
+        loadedTournaments.add(entry.site_name);
         applyFilter();
       } catch (e) {
         console.warn("Skipping tournament:", entry.site_name, e);
@@ -349,6 +615,7 @@
         loader.textContent = searchQuery ? "No matching decks." : "No decks loaded.";
         content.appendChild(loader);
         loader.style.display = "block";
+        updateBreadcrumb(null);
         return;
       }
       if (deckIdx < 0) deckIdx = 0;
@@ -356,7 +623,9 @@
         deckIdx = filteredDecks.length - 1;
       }
       content.innerHTML = "";
-      content.appendChild(renderDeck(filteredDecks[deckIdx]));
+      const entry = filteredDecks[deckIdx];
+      content.appendChild(renderDeck(entry));
+      updateBreadcrumb(entry);
     }
 
     async function go(dir) {
@@ -376,6 +645,7 @@
     function throttledGo(dir) {
       if (throttle) return;
       throttle = true;
+      closeDropdown();
       setTimeout(() => (throttle = false), 300);
       go(dir);
     }
@@ -399,10 +669,7 @@
     });
 
     /* ── Init ── */
-    let currentFormat = "pauper";
-
-    async function init(fmt) {
-      currentFormat = fmt;
+    async function init() {
       allDecks = [];
       filteredDecks = [];
       deckIdx = 0;
@@ -415,7 +682,7 @@
       content.appendChild(loader);
 
       try {
-        const fullIndex = await loadIndex(fmt);
+        const fullIndex = await loadIndex();
         tournamentIndex = fullIndex.filter(t => t.starttime.includes(currentYear));
         $("deck-count").textContent = `${tournamentIndex.reduce((s, t) => s + t.deck_count, 0)} decks across ${tournamentIndex.length} events`;
 
@@ -423,7 +690,7 @@
           await loadTournament();
           showDeck();
         } else {
-          loader.textContent = `No ${fmt} tournaments found for ${currentYear}.`;
+          loader.textContent = `No pauper tournaments found for ${currentYear}.`;
         }
       } catch (e) {
         console.error(e);
@@ -431,8 +698,7 @@
       }
     }
 
-    $("format-select").addEventListener("change", (e) => init(e.target.value));
-    init("pauper");
+    init();
 
     fetch("info.json")
       .then(r => r.ok ? r.json() : Promise.reject())

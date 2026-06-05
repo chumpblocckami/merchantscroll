@@ -10,127 +10,148 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Alms of the Vein"
+            "card_name": "Alms of the Vein",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Mountain"
+            "card_name": "Mountain",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Fiery Temper"
+            "card_name": "Fiery Temper",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Grab the Prize"
+            "card_name": "Grab the Prize",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Highway Robbery"
+            "card_name": "Highway Robbery",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Jagged Barrens"
+            "card_name": "Jagged Barrens",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Kitchen Imp"
+            "card_name": "Kitchen Imp",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Mountain"
+            "card_name": "Mountain",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Sneaky Snacker"
+            "card_name": "Sneaky Snacker",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Faithless Looting"
+            "card_name": "Faithless Looting",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Vampire's Kiss"
+            "card_name": "Vampire's Kiss",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Voldaren Epicure"
+            "card_name": "Voldaren Epicure",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Mountain"
+            "card_name": "Mountain",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Mountain"
+            "card_name": "Mountain",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Mountain"
+            "card_name": "Mountain",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Mountain"
+            "card_name": "Mountain",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Swamp"
+            "card_name": "Swamp",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Swamp"
+            "card_name": "Swamp",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Swamp"
+            "card_name": "Swamp",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Lightning Bolt"
+            "card_name": "Lightning Bolt",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Lightning Bolt"
+            "card_name": "Lightning Bolt",
+            "card_type": "INSTNT"
           }
         }
       ],
@@ -138,31 +159,36 @@
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Duress"
+            "card_name": "Duress",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Electrickery"
+            "card_name": "Electrickery",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Extract a Confession"
+            "card_name": "Extract a Confession",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Duress"
+            "card_name": "Duress",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Nihil Spellbomb"
+            "card_name": "Nihil Spellbomb",
+            "card_type": "ARTFCT"
           }
         }
       ],
@@ -170,7 +196,12 @@
         "loginplayeventcourseid": "35195056",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ]
     },
     {
       "player": "hyuma",
@@ -178,73 +209,85 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Lightning Bolt"
+            "card_name": "Lightning Bolt",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Sneaky Snacker"
+            "card_name": "Sneaky Snacker",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Lava Dart"
+            "card_name": "Lava Dart",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Fireblast"
+            "card_name": "Fireblast",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Grab the Prize"
+            "card_name": "Grab the Prize",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Fiery Temper"
+            "card_name": "Fiery Temper",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Highway Robbery"
+            "card_name": "Highway Robbery",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Guttersnipe"
+            "card_name": "Guttersnipe",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "18",
           "card_attributes": {
-            "card_name": "Mountain"
+            "card_name": "Mountain",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Kessig Flamebreather"
+            "card_name": "Kessig Flamebreather",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Voldaren Epicure"
+            "card_name": "Voldaren Epicure",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Faithless Looting"
+            "card_name": "Faithless Looting",
+            "card_type": "SORCRY"
           }
         }
       ],
@@ -252,31 +295,36 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Pyroblast"
+            "card_name": "Pyroblast",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Scrapwork Mutt"
+            "card_name": "Scrapwork Mutt",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Searing Blaze"
+            "card_name": "Searing Blaze",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Cast into the Fire"
+            "card_name": "Cast into the Fire",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Crimson Fleet Commodore"
+            "card_name": "Crimson Fleet Commodore",
+            "card_type": "ISCREA"
           }
         }
       ],
@@ -284,7 +332,12 @@
         "loginplayeventcourseid": "35200328",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ]
     },
     {
       "player": "Stiepan90",
@@ -292,73 +345,85 @@
         {
           "qty": "18",
           "card_attributes": {
-            "card_name": "Mountain"
+            "card_name": "Mountain",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Faithless Looting"
+            "card_name": "Faithless Looting",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Kessig Flamebreather"
+            "card_name": "Kessig Flamebreather",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Sneaky Snacker"
+            "card_name": "Sneaky Snacker",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Lava Dart"
+            "card_name": "Lava Dart",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Lightning Bolt"
+            "card_name": "Lightning Bolt",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Fireblast"
+            "card_name": "Fireblast",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Voldaren Epicure"
+            "card_name": "Voldaren Epicure",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Highway Robbery"
+            "card_name": "Highway Robbery",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Fiery Temper"
+            "card_name": "Fiery Temper",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Grab the Prize"
+            "card_name": "Grab the Prize",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Guttersnipe"
+            "card_name": "Guttersnipe",
+            "card_type": "ISCREA"
           }
         }
       ],
@@ -366,43 +431,50 @@
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "End the Festivities"
+            "card_name": "End the Festivities",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Cast into the Fire"
+            "card_name": "Cast into the Fire",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Relic of Progenitus"
+            "card_name": "Relic of Progenitus",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Red Elemental Blast"
+            "card_name": "Red Elemental Blast",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Searing Blaze"
+            "card_name": "Searing Blaze",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Relic of Progenitus"
+            "card_name": "Relic of Progenitus",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Smash to Smithereens"
+            "card_name": "Smash to Smithereens",
+            "card_type": "INSTNT"
           }
         }
       ],
@@ -410,7 +482,12 @@
         "loginplayeventcourseid": "35202045",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ]
     },
     {
       "player": "Thn",
@@ -418,127 +495,148 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Fanatical Offering"
+            "card_name": "Fanatical Offering",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Twisted Landscape"
+            "card_name": "Twisted Landscape",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Writhing Chrysalis"
+            "card_name": "Writhing Chrysalis",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Refurbished Familiar"
+            "card_name": "Refurbished Familiar",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Gixian Infiltrator"
+            "card_name": "Gixian Infiltrator",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Drossforge Bridge"
+            "card_name": "Drossforge Bridge",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Slagwoods Bridge"
+            "card_name": "Slagwoods Bridge",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Forest"
+            "card_name": "Forest",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Mountain"
+            "card_name": "Mountain",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Swamp"
+            "card_name": "Swamp",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Vault of Whispers"
+            "card_name": "Vault of Whispers",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Makeshift Munitions"
+            "card_name": "Makeshift Munitions",
+            "card_type": "ENCHMT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Cleansing Wildfire"
+            "card_name": "Cleansing Wildfire",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Galvanic Blast"
+            "card_name": "Galvanic Blast",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Lembas"
+            "card_name": "Lembas",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Nihil Spellbomb"
+            "card_name": "Nihil Spellbomb",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Ichor Wellspring"
+            "card_name": "Ichor Wellspring",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Krark-Clan Shaman"
+            "card_name": "Krark-Clan Shaman",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Eviscerator's Insight"
+            "card_name": "Eviscerator's Insight",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Toxin Analysis"
+            "card_name": "Toxin Analysis",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Cast Down"
+            "card_name": "Cast Down",
+            "card_type": "INSTNT"
           }
         }
       ],
@@ -546,43 +644,50 @@
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Breath Weapon"
+            "card_name": "Breath Weapon",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Terminate"
+            "card_name": "Terminate",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Weather the Storm"
+            "card_name": "Weather the Storm",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Troublemaker Ouphe"
+            "card_name": "Troublemaker Ouphe",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Duress"
+            "card_name": "Duress",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Pyroblast"
+            "card_name": "Pyroblast",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Toxin Analysis"
+            "card_name": "Toxin Analysis",
+            "card_type": "INSTNT"
           }
         }
       ],
@@ -590,7 +695,12 @@
         "loginplayeventcourseid": "35202535",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ]
     },
     {
       "player": "LEANDROFLORESTA",
@@ -598,169 +708,197 @@
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Nihil Spellbomb"
+            "card_name": "Nihil Spellbomb",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Troll of Khazad-d\u00fbm"
+            "card_name": "Troll of Khazad-d\u00fbm",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Accursed Marauder"
+            "card_name": "Accursed Marauder",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Avenging Hunter"
+            "card_name": "Avenging Hunter",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Khalni Garden"
+            "card_name": "Khalni Garden",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Campfire"
+            "card_name": "Campfire",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Lembas"
+            "card_name": "Lembas",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Tithing Blade"
+            "card_name": "Tithing Blade",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Cast Down"
+            "card_name": "Cast Down",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Defile"
+            "card_name": "Defile",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Fanatical Offering"
+            "card_name": "Fanatical Offering",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Eviscerator's Insight"
+            "card_name": "Eviscerator's Insight",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Fungal Infection"
+            "card_name": "Fungal Infection",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Reckoner's Bargain"
+            "card_name": "Reckoner's Bargain",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Swamp"
+            "card_name": "Swamp",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Spinning Darkness"
+            "card_name": "Spinning Darkness",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Suffocating Fumes"
+            "card_name": "Suffocating Fumes",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Swamp"
+            "card_name": "Swamp",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Ichor Wellspring"
+            "card_name": "Ichor Wellspring",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Snuff Out"
+            "card_name": "Snuff Out",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Witch's Cottage"
+            "card_name": "Witch's Cottage",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Haunted Mire"
+            "card_name": "Haunted Mire",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Swamp"
+            "card_name": "Swamp",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Swamp"
+            "card_name": "Swamp",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Swamp"
+            "card_name": "Swamp",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Swamp"
+            "card_name": "Swamp",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Bojuka Bog"
+            "card_name": "Bojuka Bog",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Crypt Rats"
+            "card_name": "Crypt Rats",
+            "card_type": "ISCREA"
           }
         }
       ],
@@ -768,43 +906,50 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Weather the Storm"
+            "card_name": "Weather the Storm",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Duress"
+            "card_name": "Duress",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Faerie Macabre"
+            "card_name": "Faerie Macabre",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Troublemaker Ouphe"
+            "card_name": "Troublemaker Ouphe",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Avenging Hunter"
+            "card_name": "Avenging Hunter",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Drown in Sorrow"
+            "card_name": "Drown in Sorrow",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Duress"
+            "card_name": "Duress",
+            "card_type": "SORCRY"
           }
         }
       ],
@@ -812,7 +957,11 @@
         "loginplayeventcourseid": "35203274",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "B",
+        "G"
+      ]
     },
     {
       "player": "GrazerBoy",
@@ -820,79 +969,92 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Sneaky Snacker"
+            "card_name": "Sneaky Snacker",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Lightning Bolt"
+            "card_name": "Lightning Bolt",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Highway Robbery"
+            "card_name": "Highway Robbery",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Guttersnipe"
+            "card_name": "Guttersnipe",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Grab the Prize"
+            "card_name": "Grab the Prize",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Fireblast"
+            "card_name": "Fireblast",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Lava Dart"
+            "card_name": "Lava Dart",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Fiery Temper"
+            "card_name": "Fiery Temper",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Faithless Looting"
+            "card_name": "Faithless Looting",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Faithless Looting"
+            "card_name": "Faithless Looting",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Voldaren Epicure"
+            "card_name": "Voldaren Epicure",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "18",
           "card_attributes": {
-            "card_name": "Mountain"
+            "card_name": "Mountain",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Kessig Flamebreather"
+            "card_name": "Kessig Flamebreather",
+            "card_type": "ISCREA"
           }
         }
       ],
@@ -900,31 +1062,36 @@
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Tectonic Hazard"
+            "card_name": "Tectonic Hazard",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Cast into the Fire"
+            "card_name": "Cast into the Fire",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Red Elemental Blast"
+            "card_name": "Red Elemental Blast",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Searing Blaze"
+            "card_name": "Searing Blaze",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Relic of Progenitus"
+            "card_name": "Relic of Progenitus",
+            "card_type": "ARTFCT"
           }
         }
       ],
@@ -932,7 +1099,12 @@
         "loginplayeventcourseid": "35204083",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ]
     },
     {
       "player": "Huskyman20035",
@@ -940,91 +1112,106 @@
         {
           "qty": "10",
           "card_attributes": {
-            "card_name": "Forest"
+            "card_name": "Forest",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Generous Ent"
+            "card_name": "Generous Ent",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Lead the Stampede"
+            "card_name": "Lead the Stampede",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Masked Vandal"
+            "card_name": "Masked Vandal",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Nyxborn Hydra"
+            "card_name": "Nyxborn Hydra",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Priest of Titania"
+            "card_name": "Priest of Titania",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Quirion Ranger"
+            "card_name": "Quirion Ranger",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Gingerbread Cabin"
+            "card_name": "Gingerbread Cabin",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Mwonvuli Acid-Moss"
+            "card_name": "Mwonvuli Acid-Moss",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Winding Way"
+            "card_name": "Winding Way",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Elvish Mystic"
+            "card_name": "Elvish Mystic",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Land Grant"
+            "card_name": "Land Grant",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Timberwatch Elf"
+            "card_name": "Timberwatch Elf",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Fyndhorn Elves"
+            "card_name": "Fyndhorn Elves",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Avenging Hunter"
+            "card_name": "Avenging Hunter",
+            "card_type": "ISCREA"
           }
         }
       ],
@@ -1032,25 +1219,29 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Thermokarst"
+            "card_name": "Thermokarst",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Faerie Macabre"
+            "card_name": "Faerie Macabre",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Spinewoods Paladin"
+            "card_name": "Spinewoods Paladin",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Monstrous Emergence"
+            "card_name": "Monstrous Emergence",
+            "card_type": "SORCRY"
           }
         }
       ],
@@ -1058,7 +1249,11 @@
         "loginplayeventcourseid": "35204194",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "B",
+        "G"
+      ]
     },
     {
       "player": "trussell48",
@@ -1066,97 +1261,113 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Thermokarst"
+            "card_name": "Thermokarst",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Arbor Elf"
+            "card_name": "Arbor Elf",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Avenging Hunter"
+            "card_name": "Avenging Hunter",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Boarding Party"
+            "card_name": "Boarding Party",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Colossal Dreadmask"
+            "card_name": "Colossal Dreadmask",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Generous Ent"
+            "card_name": "Generous Ent",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Highland Forest"
+            "card_name": "Highland Forest",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Malevolent Rumble"
+            "card_name": "Malevolent Rumble",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Mwonvuli Acid-Moss"
+            "card_name": "Mwonvuli Acid-Moss",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "15",
           "card_attributes": {
-            "card_name": "Snow-Covered Forest"
+            "card_name": "Snow-Covered Forest",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Snow-Covered Mountain"
+            "card_name": "Snow-Covered Mountain",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Wild Growth"
+            "card_name": "Wild Growth",
+            "card_type": "ENCHMT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Eldrazi Repurposer"
+            "card_name": "Eldrazi Repurposer",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Writhing Chrysalis"
+            "card_name": "Writhing Chrysalis",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Annoyed Altisaur"
+            "card_name": "Annoyed Altisaur",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Utopia Sprawl"
+            "card_name": "Utopia Sprawl",
+            "card_type": "ENCHMT"
           }
         }
       ],
@@ -1164,37 +1375,43 @@
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Breath Weapon"
+            "card_name": "Breath Weapon",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Deglamer"
+            "card_name": "Deglamer",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Relic of Progenitus"
+            "card_name": "Relic of Progenitus",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Skred"
+            "card_name": "Skred",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Weather the Storm"
+            "card_name": "Weather the Storm",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Penumbra Spider"
+            "card_name": "Penumbra Spider",
+            "card_type": "ISCREA"
           }
         }
       ],
@@ -1202,7 +1419,11 @@
         "loginplayeventcourseid": "35204450",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "G",
+        "R"
+      ]
     },
     {
       "player": "boom_bust",
@@ -1210,127 +1431,148 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Burning-Tree Emissary"
+            "card_name": "Burning-Tree Emissary",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Clockwork Percussionist"
+            "card_name": "Clockwork Percussionist",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Chain Lightning"
+            "card_name": "Chain Lightning",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Experimental Synthesizer"
+            "card_name": "Experimental Synthesizer",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Lightning Bolt"
+            "card_name": "Lightning Bolt",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Goblin Bushwhacker"
+            "card_name": "Goblin Bushwhacker",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Galvanic Blast"
+            "card_name": "Galvanic Blast",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Goblin Tomb Raider"
+            "card_name": "Goblin Tomb Raider",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Mountain"
+            "card_name": "Mountain",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Rally at the Hornburg"
+            "card_name": "Rally at the Hornburg",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Reckless Impulse"
+            "card_name": "Reckless Impulse",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Voldaren Epicure"
+            "card_name": "Voldaren Epicure",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Mountain"
+            "card_name": "Mountain",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Mountain"
+            "card_name": "Mountain",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Mountain"
+            "card_name": "Mountain",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Mountain"
+            "card_name": "Mountain",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Mountain"
+            "card_name": "Mountain",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Mountain"
+            "card_name": "Mountain",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Mountain"
+            "card_name": "Mountain",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Great Furnace"
+            "card_name": "Great Furnace",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "End the Festivities"
+            "card_name": "End the Festivities",
+            "card_type": "SORCRY"
           }
         }
       ],
@@ -1338,37 +1580,43 @@
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Cast into the Fire"
+            "card_name": "Cast into the Fire",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "End the Festivities"
+            "card_name": "End the Festivities",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Searing Blaze"
+            "card_name": "Searing Blaze",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Relic of Progenitus"
+            "card_name": "Relic of Progenitus",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Red Elemental Blast"
+            "card_name": "Red Elemental Blast",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Suplex"
+            "card_name": "Suplex",
+            "card_type": "SORCRY"
           }
         }
       ],
@@ -1376,7 +1624,11 @@
         "loginplayeventcourseid": "35204665",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "G",
+        "R"
+      ]
     },
     {
       "player": "newbarola",
@@ -1384,91 +1636,106 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Snakeskin Veil"
+            "card_name": "Snakeskin Veil",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Seal of Strength"
+            "card_name": "Seal of Strength",
+            "card_type": "ENCHMT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Hickory Woodlot"
+            "card_name": "Hickory Woodlot",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Glistener Elf"
+            "card_name": "Glistener Elf",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Go Forth"
+            "card_name": "Go Forth",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Llanowar Augur"
+            "card_name": "Llanowar Augur",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "9",
           "card_attributes": {
-            "card_name": "Forest"
+            "card_name": "Forest",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Blight Mamba"
+            "card_name": "Blight Mamba",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Escape Tunnel"
+            "card_name": "Escape Tunnel",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Ichorclaw Myr"
+            "card_name": "Ichorclaw Myr",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Mutagenic Growth"
+            "card_name": "Mutagenic Growth",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Might of Old Krosa"
+            "card_name": "Might of Old Krosa",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Embiggen"
+            "card_name": "Embiggen",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Vines of Vastwood"
+            "card_name": "Vines of Vastwood",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Rancor"
+            "card_name": "Rancor",
+            "card_type": "ENCHMT"
           }
         }
       ],
@@ -1476,43 +1743,50 @@
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Crop Rotation"
+            "card_name": "Crop Rotation",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Nature's Claim"
+            "card_name": "Nature's Claim",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Gut Shot"
+            "card_name": "Gut Shot",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Scattershot Archer"
+            "card_name": "Scattershot Archer",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Seal of Strength"
+            "card_name": "Seal of Strength",
+            "card_type": "ENCHMT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Bojuka Bog"
+            "card_name": "Bojuka Bog",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Vines of Vastwood"
+            "card_name": "Vines of Vastwood",
+            "card_type": "INSTNT"
           }
         }
       ],
@@ -1520,7 +1794,11 @@
         "loginplayeventcourseid": "35204767",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "G",
+        "R"
+      ]
     },
     {
       "player": "FranPi",
@@ -1528,79 +1806,92 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Brinebarrow Intruder"
+            "card_name": "Brinebarrow Intruder",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Faerie Seer"
+            "card_name": "Faerie Seer",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Moon-Circuit Hacker"
+            "card_name": "Moon-Circuit Hacker",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Of One Mind"
+            "card_name": "Of One Mind",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "18",
           "card_attributes": {
-            "card_name": "Island"
+            "card_name": "Island",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Faerie Miscreant"
+            "card_name": "Faerie Miscreant",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Counterspell"
+            "card_name": "Counterspell",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Dispel"
+            "card_name": "Dispel",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Ninja of the Deep Hours"
+            "card_name": "Ninja of the Deep Hours",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Snap"
+            "card_name": "Snap",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Spell Pierce"
+            "card_name": "Spell Pierce",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Spellstutter Sprite"
+            "card_name": "Spellstutter Sprite",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Harrier Strix"
+            "card_name": "Harrier Strix",
+            "card_type": "ISCREA"
           }
         }
       ],
@@ -1608,31 +1899,36 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Hydroblast"
+            "card_name": "Hydroblast",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Annul"
+            "card_name": "Annul",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Blue Elemental Blast"
+            "card_name": "Blue Elemental Blast",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Steel Sabotage"
+            "card_name": "Steel Sabotage",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Bind the Monster"
+            "card_name": "Bind the Monster",
+            "card_type": "ENCHMT"
           }
         }
       ],
@@ -1640,7 +1936,10 @@
         "loginplayeventcourseid": "35204944",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "U"
+      ]
     },
     {
       "player": "gasimpar",
@@ -1648,151 +1947,176 @@
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Nutrient Block"
+            "card_name": "Nutrient Block",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Tithing Blade"
+            "card_name": "Tithing Blade",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Swamp"
+            "card_name": "Swamp",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Glint Hawk"
+            "card_name": "Glint Hawk",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Oroku Saki, Shredder Rising"
+            "card_name": "Oroku Saki, Shredder Rising",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Orzhov Basilica"
+            "card_name": "Orzhov Basilica",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Kor Skyfisher"
+            "card_name": "Kor Skyfisher",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Refurbished Familiar"
+            "card_name": "Refurbished Familiar",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Instant Ramen"
+            "card_name": "Instant Ramen",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Ancient Den"
+            "card_name": "Ancient Den",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Thraben Charm"
+            "card_name": "Thraben Charm",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Goldmire Bridge"
+            "card_name": "Goldmire Bridge",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Radiant Fountain"
+            "card_name": "Radiant Fountain",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Blood Fountain"
+            "card_name": "Blood Fountain",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Plains"
+            "card_name": "Plains",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Plains"
+            "card_name": "Plains",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Swamp"
+            "card_name": "Swamp",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Ancient Den"
+            "card_name": "Ancient Den",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Vault of Whispers"
+            "card_name": "Vault of Whispers",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Bojuka Bog"
+            "card_name": "Bojuka Bog",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Cast Down"
+            "card_name": "Cast Down",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Pactdoll Terror"
+            "card_name": "Pactdoll Terror",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Grim Bauble"
+            "card_name": "Grim Bauble",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Lembas"
+            "card_name": "Lembas",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Cauldron Familiar"
+            "card_name": "Cauldron Familiar",
+            "card_type": "ISCREA"
           }
         }
       ],
@@ -1800,49 +2124,57 @@
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Destroy Evil"
+            "card_name": "Destroy Evil",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Dust to Dust"
+            "card_name": "Dust to Dust",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Navigator's Compass"
+            "card_name": "Navigator's Compass",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Relic of Progenitus"
+            "card_name": "Relic of Progenitus",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Shrivel"
+            "card_name": "Shrivel",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Suffocating Fumes"
+            "card_name": "Suffocating Fumes",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Dust to Dust"
+            "card_name": "Dust to Dust",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Duress"
+            "card_name": "Duress",
+            "card_type": "SORCRY"
           }
         }
       ],
@@ -1850,7 +2182,11 @@
         "loginplayeventcourseid": "35205284",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "B",
+        "W"
+      ]
     },
     {
       "player": "boshfred",
@@ -1858,145 +2194,169 @@
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Leonardo, Big Brother"
+            "card_name": "Leonardo, Big Brother",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Darval, Whose Web Protects"
+            "card_name": "Darval, Whose Web Protects",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Lunarch Veteran"
+            "card_name": "Lunarch Veteran",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Novice Inspector"
+            "card_name": "Novice Inspector",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Thraben Inspector"
+            "card_name": "Thraben Inspector",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Battle Screech"
+            "card_name": "Battle Screech",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Raffine's Informant"
+            "card_name": "Raffine's Informant",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Eagles of the North"
+            "card_name": "Eagles of the North",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Elite Interceptor"
+            "card_name": "Elite Interceptor",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Thraben Charm"
+            "card_name": "Thraben Charm",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Guardians' Pledge"
+            "card_name": "Guardians' Pledge",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Plains"
+            "card_name": "Plains",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Ramosian Rally"
+            "card_name": "Ramosian Rally",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Journey to Nowhere"
+            "card_name": "Journey to Nowhere",
+            "card_type": "ENCHMT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Idyllic Grange"
+            "card_name": "Idyllic Grange",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Prismatic Strands"
+            "card_name": "Prismatic Strands",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Plains"
+            "card_name": "Plains",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Plains"
+            "card_name": "Plains",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Plains"
+            "card_name": "Plains",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Plains"
+            "card_name": "Plains",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Plains"
+            "card_name": "Plains",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Plains"
+            "card_name": "Plains",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "8",
           "card_attributes": {
-            "card_name": "Plains"
+            "card_name": "Plains",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Kor Skyfisher"
+            "card_name": "Kor Skyfisher",
+            "card_type": "ISCREA"
           }
         }
       ],
@@ -2004,61 +2364,71 @@
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Journey to Nowhere"
+            "card_name": "Journey to Nowhere",
+            "card_type": "ENCHMT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Hallow"
+            "card_name": "Hallow",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Prismatic Strands"
+            "card_name": "Prismatic Strands",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Dawnbringer Cleric"
+            "card_name": "Dawnbringer Cleric",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Standard Bearer"
+            "card_name": "Standard Bearer",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Dust to Dust"
+            "card_name": "Dust to Dust",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Arashin Cleric"
+            "card_name": "Arashin Cleric",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Lone Missionary"
+            "card_name": "Lone Missionary",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Revoke Existence"
+            "card_name": "Revoke Existence",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Destroy Evil"
+            "card_name": "Destroy Evil",
+            "card_type": "INSTNT"
           }
         }
       ],
@@ -2066,7 +2436,10 @@
         "loginplayeventcourseid": "35206362",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "W"
+      ]
     },
     {
       "player": "Brom_Q",
@@ -2074,127 +2447,148 @@
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Wall of Roots"
+            "card_name": "Wall of Roots",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Forest"
+            "card_name": "Forest",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Overgrown Battlement"
+            "card_name": "Overgrown Battlement",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Elves of Deep Shadow"
+            "card_name": "Elves of Deep Shadow",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Mesmeric Fiend"
+            "card_name": "Mesmeric Fiend",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Gatecreeper Vine"
+            "card_name": "Gatecreeper Vine",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Generous Ent"
+            "card_name": "Generous Ent",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Lead the Stampede"
+            "card_name": "Lead the Stampede",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Land Grant"
+            "card_name": "Land Grant",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Lotleth Giant"
+            "card_name": "Lotleth Giant",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Lotus Petal"
+            "card_name": "Lotus Petal",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Masked Vandal"
+            "card_name": "Masked Vandal",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Swamp"
+            "card_name": "Swamp",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Dread Return"
+            "card_name": "Dread Return",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Quirion Ranger"
+            "card_name": "Quirion Ranger",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Sagu Wildling"
+            "card_name": "Sagu Wildling",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Saruli Caretaker"
+            "card_name": "Saruli Caretaker",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Balustrade Spy"
+            "card_name": "Balustrade Spy",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Troll of Khazad-d\u00fbm"
+            "card_name": "Troll of Khazad-d\u00fbm",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Nyxborn Hydra"
+            "card_name": "Nyxborn Hydra",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Winding Way"
+            "card_name": "Winding Way",
+            "card_type": "SORCRY"
           }
         }
       ],
@@ -2202,61 +2596,71 @@
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Swamp"
+            "card_name": "Swamp",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Mesmeric Fiend"
+            "card_name": "Mesmeric Fiend",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Flaring Pain"
+            "card_name": "Flaring Pain",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Jack-o'-Lantern"
+            "card_name": "Jack-o'-Lantern",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Undergrowth Leopard"
+            "card_name": "Undergrowth Leopard",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Faerie Macabre"
+            "card_name": "Faerie Macabre",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Cast Down"
+            "card_name": "Cast Down",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Grapple with Death"
+            "card_name": "Grapple with Death",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Vitu-Ghazi Inspector"
+            "card_name": "Vitu-Ghazi Inspector",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Nyxborn Hydra"
+            "card_name": "Nyxborn Hydra",
+            "card_type": "ISCREA"
           }
         }
       ],
@@ -2264,7 +2668,12 @@
         "loginplayeventcourseid": "35206577",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ]
     },
     {
       "player": "airplay",
@@ -2272,103 +2681,120 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Carrion Feeder"
+            "card_name": "Carrion Feeder",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Fungal Infection"
+            "card_name": "Fungal Infection",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Bloodthrone Vampire"
+            "card_name": "Bloodthrone Vampire",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Village Rites"
+            "card_name": "Village Rites",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Infestation Sage"
+            "card_name": "Infestation Sage",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Nested Shambler"
+            "card_name": "Nested Shambler",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Sadistic Glee"
+            "card_name": "Sadistic Glee",
+            "card_type": "ENCHMT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Mortician Beetle"
+            "card_name": "Mortician Beetle",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Unearth"
+            "card_name": "Unearth",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Plagued Rusalka"
+            "card_name": "Plagued Rusalka",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Supernatural Stamina"
+            "card_name": "Supernatural Stamina",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "17",
           "card_attributes": {
-            "card_name": "Swamp"
+            "card_name": "Swamp",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Rite of Consumption"
+            "card_name": "Rite of Consumption",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Mesmeric Fiend"
+            "card_name": "Mesmeric Fiend",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Troll of Khazad-d\u00fbm"
+            "card_name": "Troll of Khazad-d\u00fbm",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Rotten Reunion"
+            "card_name": "Rotten Reunion",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Accursed Marauder"
+            "card_name": "Accursed Marauder",
+            "card_type": "ISCREA"
           }
         }
       ],
@@ -2376,37 +2802,43 @@
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Rotten Reunion"
+            "card_name": "Rotten Reunion",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Mesmeric Fiend"
+            "card_name": "Mesmeric Fiend",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Accursed Marauder"
+            "card_name": "Accursed Marauder",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Spinning Darkness"
+            "card_name": "Spinning Darkness",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Vampiric Link"
+            "card_name": "Vampiric Link",
+            "card_type": "ENCHMT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Sam's Desperate Rescue"
+            "card_name": "Sam's Desperate Rescue",
+            "card_type": "SORCRY"
           }
         }
       ],
@@ -2414,7 +2846,10 @@
         "loginplayeventcourseid": "35206841",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "B"
+      ]
     },
     {
       "player": "ivanguille",
@@ -2422,127 +2857,148 @@
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Bojuka Bog"
+            "card_name": "Bojuka Bog",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Cast Down"
+            "card_name": "Cast Down",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Extract a Confession"
+            "card_name": "Extract a Confession",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Counterspell"
+            "card_name": "Counterspell",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Dimir Aqueduct"
+            "card_name": "Dimir Aqueduct",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Dispel"
+            "card_name": "Dispel",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Contaminated Aquifer"
+            "card_name": "Contaminated Aquifer",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Faerie Seer"
+            "card_name": "Faerie Seer",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Brainstorm"
+            "card_name": "Brainstorm",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "L\u00f3rien Revealed"
+            "card_name": "L\u00f3rien Revealed",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Murmuring Mystic"
+            "card_name": "Murmuring Mystic",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Snuff Out"
+            "card_name": "Snuff Out",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Seething Landscape"
+            "card_name": "Seething Landscape",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Spellstutter Sprite"
+            "card_name": "Spellstutter Sprite",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Thorn of the Black Rose"
+            "card_name": "Thorn of the Black Rose",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Suffocating Fumes"
+            "card_name": "Suffocating Fumes",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Augur of Bolas"
+            "card_name": "Augur of Bolas",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Ninja of the Deep Hours"
+            "card_name": "Ninja of the Deep Hours",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Island"
+            "card_name": "Island",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "9",
           "card_attributes": {
-            "card_name": "Island"
+            "card_name": "Island",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Swamp"
+            "card_name": "Swamp",
+            "card_type": "LAND  "
           }
         }
       ],
@@ -2550,43 +3006,50 @@
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Arms of Hadar"
+            "card_name": "Arms of Hadar",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Hydroblast"
+            "card_name": "Hydroblast",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Extract a Confession"
+            "card_name": "Extract a Confession",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Relic of Progenitus"
+            "card_name": "Relic of Progenitus",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Mukotai Ambusher"
+            "card_name": "Mukotai Ambusher",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Steel Sabotage"
+            "card_name": "Steel Sabotage",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Blue Elemental Blast"
+            "card_name": "Blue Elemental Blast",
+            "card_type": "INSTNT"
           }
         }
       ],
@@ -2594,7 +3057,11 @@
         "loginplayeventcourseid": "35207265",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "B",
+        "U"
+      ]
     },
     {
       "player": "Elios33_",
@@ -2602,103 +3069,120 @@
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Abandon Attachments"
+            "card_name": "Abandon Attachments",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Sneaky Snacker"
+            "card_name": "Sneaky Snacker",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Deem Inferior"
+            "card_name": "Deem Inferior",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "L\u00f3rien Revealed"
+            "card_name": "L\u00f3rien Revealed",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Contaminated Aquifer"
+            "card_name": "Contaminated Aquifer",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Tolarian Terror"
+            "card_name": "Tolarian Terror",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Sleep of the Dead"
+            "card_name": "Sleep of the Dead",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Murmuring Mystic"
+            "card_name": "Murmuring Mystic",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Thought Scour"
+            "card_name": "Thought Scour",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Cryptic Serpent"
+            "card_name": "Cryptic Serpent",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Deep Analysis"
+            "card_name": "Deep Analysis",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Counterspell"
+            "card_name": "Counterspell",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Brainstorm"
+            "card_name": "Brainstorm",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "15",
           "card_attributes": {
-            "card_name": "Island"
+            "card_name": "Island",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Mental Note"
+            "card_name": "Mental Note",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Force Spike"
+            "card_name": "Force Spike",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Ponder"
+            "card_name": "Ponder",
+            "card_type": "SORCRY"
           }
         }
       ],
@@ -2706,31 +3190,36 @@
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Envelop"
+            "card_name": "Envelop",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Blue Elemental Blast"
+            "card_name": "Blue Elemental Blast",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Gut Shot"
+            "card_name": "Gut Shot",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Annul"
+            "card_name": "Annul",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Hydroblast"
+            "card_name": "Hydroblast",
+            "card_type": "INSTNT"
           }
         }
       ],
@@ -2738,7 +3227,12 @@
         "loginplayeventcourseid": "35207766",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ]
     },
     {
       "player": "JorGG",
@@ -2746,103 +3240,120 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Elvish Mystic"
+            "card_name": "Elvish Mystic",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Fyndhorn Elves"
+            "card_name": "Fyndhorn Elves",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Timberwatch Elf"
+            "card_name": "Timberwatch Elf",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Generous Ent"
+            "card_name": "Generous Ent",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Lead the Stampede"
+            "card_name": "Lead the Stampede",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Quirion Ranger"
+            "card_name": "Quirion Ranger",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Masked Vandal"
+            "card_name": "Masked Vandal",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Nyxborn Hydra"
+            "card_name": "Nyxborn Hydra",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Priest of Titania"
+            "card_name": "Priest of Titania",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Quirion Ranger"
+            "card_name": "Quirion Ranger",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "9",
           "card_attributes": {
-            "card_name": "Forest"
+            "card_name": "Forest",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Winding Way"
+            "card_name": "Winding Way",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Avenging Hunter"
+            "card_name": "Avenging Hunter",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Llanowar Elves"
+            "card_name": "Llanowar Elves",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Elvish Vanguard"
+            "card_name": "Elvish Vanguard",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Land Grant"
+            "card_name": "Land Grant",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Gingerbread Cabin"
+            "card_name": "Gingerbread Cabin",
+            "card_type": "LAND  "
           }
         }
       ],
@@ -2850,31 +3361,36 @@
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Masked Vandal"
+            "card_name": "Masked Vandal",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Monstrous Emergence"
+            "card_name": "Monstrous Emergence",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Spinewoods Paladin"
+            "card_name": "Spinewoods Paladin",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Vitu-Ghazi Inspector"
+            "card_name": "Vitu-Ghazi Inspector",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Faerie Macabre"
+            "card_name": "Faerie Macabre",
+            "card_type": "ISCREA"
           }
         }
       ],
@@ -2882,7 +3398,11 @@
         "loginplayeventcourseid": "35208038",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "B",
+        "G"
+      ]
     },
     {
       "player": "Huskyman20035",
@@ -2890,97 +3410,113 @@
         {
           "qty": "10",
           "card_attributes": {
-            "card_name": "Forest"
+            "card_name": "Forest",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Generous Ent"
+            "card_name": "Generous Ent",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Lead the Stampede"
+            "card_name": "Lead the Stampede",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Masked Vandal"
+            "card_name": "Masked Vandal",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Nyxborn Hydra"
+            "card_name": "Nyxborn Hydra",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Priest of Titania"
+            "card_name": "Priest of Titania",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Quirion Ranger"
+            "card_name": "Quirion Ranger",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Gingerbread Cabin"
+            "card_name": "Gingerbread Cabin",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Mwonvuli Acid-Moss"
+            "card_name": "Mwonvuli Acid-Moss",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Winding Way"
+            "card_name": "Winding Way",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Elvish Mystic"
+            "card_name": "Elvish Mystic",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Land Grant"
+            "card_name": "Land Grant",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Timberwatch Elf"
+            "card_name": "Timberwatch Elf",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Fyndhorn Elves"
+            "card_name": "Fyndhorn Elves",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Avenging Hunter"
+            "card_name": "Avenging Hunter",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Thermokarst"
+            "card_name": "Thermokarst",
+            "card_type": "SORCRY"
           }
         }
       ],
@@ -2988,31 +3524,36 @@
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Thermokarst"
+            "card_name": "Thermokarst",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Faerie Macabre"
+            "card_name": "Faerie Macabre",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Spinewoods Paladin"
+            "card_name": "Spinewoods Paladin",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Monstrous Emergence"
+            "card_name": "Monstrous Emergence",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Viridian Longbow"
+            "card_name": "Viridian Longbow",
+            "card_type": "ARTFCT"
           }
         }
       ],
@@ -3020,7 +3561,11 @@
         "loginplayeventcourseid": "35208504",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "B",
+        "G"
+      ]
     },
     {
       "player": "JuaKi",
@@ -3028,139 +3573,162 @@
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Island"
+            "card_name": "Island",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Island"
+            "card_name": "Island",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Mental Note"
+            "card_name": "Mental Note",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Island"
+            "card_name": "Island",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Deprive"
+            "card_name": "Deprive",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Island"
+            "card_name": "Island",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Island"
+            "card_name": "Island",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Island"
+            "card_name": "Island",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Island"
+            "card_name": "Island",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Island"
+            "card_name": "Island",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Cryptic Serpent"
+            "card_name": "Cryptic Serpent",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Sleep of the Dead"
+            "card_name": "Sleep of the Dead",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Counterspell"
+            "card_name": "Counterspell",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "L\u00f3rien Revealed"
+            "card_name": "L\u00f3rien Revealed",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Deem Inferior"
+            "card_name": "Deem Inferior",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Island"
+            "card_name": "Island",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Ponder"
+            "card_name": "Ponder",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Preordain"
+            "card_name": "Preordain",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Vapor Snag"
+            "card_name": "Vapor Snag",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Thought Scour"
+            "card_name": "Thought Scour",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Dispel"
+            "card_name": "Dispel",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Brainstorm"
+            "card_name": "Brainstorm",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Tolarian Terror"
+            "card_name": "Tolarian Terror",
+            "card_type": "ISCREA"
           }
         }
       ],
@@ -3168,25 +3736,29 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Hydroblast"
+            "card_name": "Hydroblast",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Annul"
+            "card_name": "Annul",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Gut Shot"
+            "card_name": "Gut Shot",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Blue Elemental Blast"
+            "card_name": "Blue Elemental Blast",
+            "card_type": "INSTNT"
           }
         }
       ],
@@ -3194,7 +3766,11 @@
         "loginplayeventcourseid": "35208881",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "R",
+        "U"
+      ]
     },
     {
       "player": "KOKOLOKO3435",
@@ -3202,103 +3778,120 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Avenging Hunter"
+            "card_name": "Avenging Hunter",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Forest"
+            "card_name": "Forest",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Priest of Titania"
+            "card_name": "Priest of Titania",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Fyndhorn Elves"
+            "card_name": "Fyndhorn Elves",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Generous Ent"
+            "card_name": "Generous Ent",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Gingerbread Cabin"
+            "card_name": "Gingerbread Cabin",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Lead the Stampede"
+            "card_name": "Lead the Stampede",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Llanowar Elves"
+            "card_name": "Llanowar Elves",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Masked Vandal"
+            "card_name": "Masked Vandal",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Nyxborn Hydra"
+            "card_name": "Nyxborn Hydra",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Llanowar Elves"
+            "card_name": "Llanowar Elves",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Quirion Ranger"
+            "card_name": "Quirion Ranger",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Winding Way"
+            "card_name": "Winding Way",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Timberwatch Elf"
+            "card_name": "Timberwatch Elf",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Forest"
+            "card_name": "Forest",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "9",
           "card_attributes": {
-            "card_name": "Forest"
+            "card_name": "Forest",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Elvish Mystic"
+            "card_name": "Elvish Mystic",
+            "card_type": "ISCREA"
           }
         }
       ],
@@ -3306,25 +3899,29 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Deglamer"
+            "card_name": "Deglamer",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Monstrous Emergence"
+            "card_name": "Monstrous Emergence",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Faerie Macabre"
+            "card_name": "Faerie Macabre",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Vitu-Ghazi Inspector"
+            "card_name": "Vitu-Ghazi Inspector",
+            "card_type": "ISCREA"
           }
         }
       ],
@@ -3332,7 +3929,11 @@
         "loginplayeventcourseid": "35208911",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "B",
+        "G"
+      ]
     },
     {
       "player": "hjc",
@@ -3340,145 +3941,169 @@
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Bonder's Ornament"
+            "card_name": "Bonder's Ornament",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "10",
           "card_attributes": {
-            "card_name": "Island"
+            "card_name": "Island",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Contaminated Aquifer"
+            "card_name": "Contaminated Aquifer",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Foreboding Landscape"
+            "card_name": "Foreboding Landscape",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Dispel"
+            "card_name": "Dispel",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Extract a Confession"
+            "card_name": "Extract a Confession",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Faerie Seer"
+            "card_name": "Faerie Seer",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Dimir Aqueduct"
+            "card_name": "Dimir Aqueduct",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Counterspell"
+            "card_name": "Counterspell",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "L\u00f3rien Revealed"
+            "card_name": "L\u00f3rien Revealed",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Moon-Circuit Hacker"
+            "card_name": "Moon-Circuit Hacker",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Mukotai Ambusher"
+            "card_name": "Mukotai Ambusher",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Cast Down"
+            "card_name": "Cast Down",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Sewer-veillance Cam"
+            "card_name": "Sewer-veillance Cam",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Brainstorm"
+            "card_name": "Brainstorm",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Bojuka Bog"
+            "card_name": "Bojuka Bog",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Augur of Bolas"
+            "card_name": "Augur of Bolas",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Agony Warp"
+            "card_name": "Agony Warp",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Thorn of the Black Rose"
+            "card_name": "Thorn of the Black Rose",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Ninja of the Deep Hours"
+            "card_name": "Ninja of the Deep Hours",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Snuff Out"
+            "card_name": "Snuff Out",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Spellstutter Sprite"
+            "card_name": "Spellstutter Sprite",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Suffocating Fumes"
+            "card_name": "Suffocating Fumes",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Swamp"
+            "card_name": "Swamp",
+            "card_type": "LAND  "
           }
         }
       ],
@@ -3486,49 +4111,57 @@
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Arms of Hadar"
+            "card_name": "Arms of Hadar",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Hydroblast"
+            "card_name": "Hydroblast",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Extract a Confession"
+            "card_name": "Extract a Confession",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Campfire"
+            "card_name": "Campfire",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Mukotai Ambusher"
+            "card_name": "Mukotai Ambusher",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Annul"
+            "card_name": "Annul",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Relic of Progenitus"
+            "card_name": "Relic of Progenitus",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Blue Elemental Blast"
+            "card_name": "Blue Elemental Blast",
+            "card_type": "INSTNT"
           }
         }
       ],
@@ -3536,7 +4169,11 @@
         "loginplayeventcourseid": "35209069",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "B",
+        "U"
+      ]
     },
     {
       "player": "Otifex",
@@ -3544,121 +4181,141 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Saruli Caretaker"
+            "card_name": "Saruli Caretaker",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "12",
           "card_attributes": {
-            "card_name": "Forest"
+            "card_name": "Forest",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Quirion Ranger"
+            "card_name": "Quirion Ranger",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Freed from the Real"
+            "card_name": "Freed from the Real",
+            "card_type": "ENCHMT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Galvanic Alchemist"
+            "card_name": "Galvanic Alchemist",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Beastrider Vanguard"
+            "card_name": "Beastrider Vanguard",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Overgrown Battlement"
+            "card_name": "Overgrown Battlement",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Secret Door"
+            "card_name": "Secret Door",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Reaping the Graves"
+            "card_name": "Reaping the Graves",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Tuktuk Rubblefort"
+            "card_name": "Tuktuk Rubblefort",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Valakut Invoker"
+            "card_name": "Valakut Invoker",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Drift of Phantasms"
+            "card_name": "Drift of Phantasms",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Orochi Leafcaller"
+            "card_name": "Orochi Leafcaller",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Shield-Wall Sentinel"
+            "card_name": "Shield-Wall Sentinel",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Lead the Stampede"
+            "card_name": "Lead the Stampede",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Wall of Roots"
+            "card_name": "Wall of Roots",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Winding Way"
+            "card_name": "Winding Way",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Generous Ent"
+            "card_name": "Generous Ent",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Axebane Guardian"
+            "card_name": "Axebane Guardian",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Tinder Wall"
+            "card_name": "Tinder Wall",
+            "card_type": "ISCREA"
           }
         }
       ],
@@ -3666,43 +4323,50 @@
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Masked Vandal"
+            "card_name": "Masked Vandal",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Faerie Macabre"
+            "card_name": "Faerie Macabre",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Hydroblast"
+            "card_name": "Hydroblast",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Nylea's Disciple"
+            "card_name": "Nylea's Disciple",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Tamiyo's Safekeeping"
+            "card_name": "Tamiyo's Safekeeping",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Reaping the Graves"
+            "card_name": "Reaping the Graves",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Moment's Peace"
+            "card_name": "Moment's Peace",
+            "card_type": "INSTNT"
           }
         }
       ],
@@ -3710,7 +4374,13 @@
         "loginplayeventcourseid": "35209103",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ]
     },
     {
       "player": "newbarola",
@@ -3718,91 +4388,106 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Snakeskin Veil"
+            "card_name": "Snakeskin Veil",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Seal of Strength"
+            "card_name": "Seal of Strength",
+            "card_type": "ENCHMT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Hickory Woodlot"
+            "card_name": "Hickory Woodlot",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Glistener Elf"
+            "card_name": "Glistener Elf",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Go Forth"
+            "card_name": "Go Forth",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Llanowar Augur"
+            "card_name": "Llanowar Augur",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "9",
           "card_attributes": {
-            "card_name": "Forest"
+            "card_name": "Forest",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Blight Mamba"
+            "card_name": "Blight Mamba",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Escape Tunnel"
+            "card_name": "Escape Tunnel",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Ichorclaw Myr"
+            "card_name": "Ichorclaw Myr",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Mutagenic Growth"
+            "card_name": "Mutagenic Growth",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Might of Old Krosa"
+            "card_name": "Might of Old Krosa",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Embiggen"
+            "card_name": "Embiggen",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Vines of Vastwood"
+            "card_name": "Vines of Vastwood",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Rancor"
+            "card_name": "Rancor",
+            "card_type": "ENCHMT"
           }
         }
       ],
@@ -3810,43 +4495,50 @@
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Crop Rotation"
+            "card_name": "Crop Rotation",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Nature's Claim"
+            "card_name": "Nature's Claim",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Gut Shot"
+            "card_name": "Gut Shot",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Scattershot Archer"
+            "card_name": "Scattershot Archer",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Seal of Strength"
+            "card_name": "Seal of Strength",
+            "card_type": "ENCHMT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Bojuka Bog"
+            "card_name": "Bojuka Bog",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Vines of Vastwood"
+            "card_name": "Vines of Vastwood",
+            "card_type": "INSTNT"
           }
         }
       ],
@@ -3854,7 +4546,11 @@
         "loginplayeventcourseid": "35209146",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "G",
+        "R"
+      ]
     },
     {
       "player": "DavGem",
@@ -3862,73 +4558,85 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Faithless Looting"
+            "card_name": "Faithless Looting",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Fiery Temper"
+            "card_name": "Fiery Temper",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Fireblast"
+            "card_name": "Fireblast",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Grab the Prize"
+            "card_name": "Grab the Prize",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Guttersnipe"
+            "card_name": "Guttersnipe",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Highway Robbery"
+            "card_name": "Highway Robbery",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Kessig Flamebreather"
+            "card_name": "Kessig Flamebreather",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Lava Dart"
+            "card_name": "Lava Dart",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Lightning Bolt"
+            "card_name": "Lightning Bolt",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "18",
           "card_attributes": {
-            "card_name": "Mountain"
+            "card_name": "Mountain",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Sneaky Snacker"
+            "card_name": "Sneaky Snacker",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Voldaren Epicure"
+            "card_name": "Voldaren Epicure",
+            "card_type": "ISCREA"
           }
         }
       ],
@@ -3936,37 +4644,43 @@
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "End the Festivities"
+            "card_name": "End the Festivities",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Pyroblast"
+            "card_name": "Pyroblast",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Relic of Progenitus"
+            "card_name": "Relic of Progenitus",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Smash to Smithereens"
+            "card_name": "Smash to Smithereens",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Suplex"
+            "card_name": "Suplex",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Searing Blaze"
+            "card_name": "Searing Blaze",
+            "card_type": "INSTNT"
           }
         }
       ],
@@ -3974,7 +4688,12 @@
         "loginplayeventcourseid": "35209353",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ]
     },
     {
       "player": "Maccaciock",
@@ -3982,115 +4701,134 @@
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Forest"
+            "card_name": "Forest",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Basilisk Gate"
+            "card_name": "Basilisk Gate",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Citadel Gate"
+            "card_name": "Citadel Gate",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Gatecreeper Vine"
+            "card_name": "Gatecreeper Vine",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Guardian of the Guildpact"
+            "card_name": "Guardian of the Guildpact",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Heap Gate"
+            "card_name": "Heap Gate",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Journey to Nowhere"
+            "card_name": "Journey to Nowhere",
+            "card_type": "ENCHMT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Malevolent Rumble"
+            "card_name": "Malevolent Rumble",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Manor Gate"
+            "card_name": "Manor Gate",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Outlaw Medic"
+            "card_name": "Outlaw Medic",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Plains"
+            "card_name": "Plains",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Inspiring Overseer"
+            "card_name": "Inspiring Overseer",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Sacred Cat"
+            "card_name": "Sacred Cat",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Armadillo Cloak"
+            "card_name": "Armadillo Cloak",
+            "card_type": "ENCHMT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Thraben Charm"
+            "card_name": "Thraben Charm",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Prismatic Strands"
+            "card_name": "Prismatic Strands",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Selesnya Guildgate"
+            "card_name": "Selesnya Guildgate",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Silhana Ledgewalker"
+            "card_name": "Silhana Ledgewalker",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Militia Bugler"
+            "card_name": "Militia Bugler",
+            "card_type": "ISCREA"
           }
         }
       ],
@@ -4098,37 +4836,43 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Arms of Hadar"
+            "card_name": "Arms of Hadar",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Sunlance"
+            "card_name": "Sunlance",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Saruli Gatekeepers"
+            "card_name": "Saruli Gatekeepers",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Faerie Macabre"
+            "card_name": "Faerie Macabre",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Unmake"
+            "card_name": "Unmake",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Avenging Hunter"
+            "card_name": "Avenging Hunter",
+            "card_type": "ISCREA"
           }
         }
       ],
@@ -4136,7 +4880,12 @@
         "loginplayeventcourseid": "35209822",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "B",
+        "G",
+        "W"
+      ]
     },
     {
       "player": "KOKOLOKO3435",
@@ -4144,103 +4893,120 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Avenging Hunter"
+            "card_name": "Avenging Hunter",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Forest"
+            "card_name": "Forest",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Priest of Titania"
+            "card_name": "Priest of Titania",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Fyndhorn Elves"
+            "card_name": "Fyndhorn Elves",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Generous Ent"
+            "card_name": "Generous Ent",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Gingerbread Cabin"
+            "card_name": "Gingerbread Cabin",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Lead the Stampede"
+            "card_name": "Lead the Stampede",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Llanowar Elves"
+            "card_name": "Llanowar Elves",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Masked Vandal"
+            "card_name": "Masked Vandal",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Nyxborn Hydra"
+            "card_name": "Nyxborn Hydra",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Llanowar Elves"
+            "card_name": "Llanowar Elves",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Quirion Ranger"
+            "card_name": "Quirion Ranger",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Winding Way"
+            "card_name": "Winding Way",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Timberwatch Elf"
+            "card_name": "Timberwatch Elf",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Forest"
+            "card_name": "Forest",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "9",
           "card_attributes": {
-            "card_name": "Forest"
+            "card_name": "Forest",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Elvish Mystic"
+            "card_name": "Elvish Mystic",
+            "card_type": "ISCREA"
           }
         }
       ],
@@ -4248,25 +5014,29 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Deglamer"
+            "card_name": "Deglamer",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Monstrous Emergence"
+            "card_name": "Monstrous Emergence",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Faerie Macabre"
+            "card_name": "Faerie Macabre",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Vitu-Ghazi Inspector"
+            "card_name": "Vitu-Ghazi Inspector",
+            "card_type": "ISCREA"
           }
         }
       ],
@@ -4274,7 +5044,11 @@
         "loginplayeventcourseid": "35209887",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "B",
+        "G"
+      ]
     },
     {
       "player": "Adrowo",
@@ -4282,163 +5056,190 @@
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Prophetic Prism"
+            "card_name": "Prophetic Prism",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Behold the Multiverse"
+            "card_name": "Behold the Multiverse",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Negate"
+            "card_name": "Negate",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Conduit Pylons"
+            "card_name": "Conduit Pylons",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Energy Refractor"
+            "card_name": "Energy Refractor",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Mystical Teachings"
+            "card_name": "Mystical Teachings",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Moment's Peace"
+            "card_name": "Moment's Peace",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Heritage Reclamation"
+            "card_name": "Heritage Reclamation",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Island"
+            "card_name": "Island",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "L\u00f3rien Revealed"
+            "card_name": "L\u00f3rien Revealed",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Forest"
+            "card_name": "Forest",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Prohibit"
+            "card_name": "Prohibit",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Remote Isle"
+            "card_name": "Remote Isle",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Stream of Thought"
+            "card_name": "Stream of Thought",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Tangle"
+            "card_name": "Tangle",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Tangled Islet"
+            "card_name": "Tangled Islet",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Expedition Map"
+            "card_name": "Expedition Map",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Bonder's Ornament"
+            "card_name": "Bonder's Ornament",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Arcane Denial"
+            "card_name": "Arcane Denial",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Weather the Storm"
+            "card_name": "Weather the Storm",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Prophetic Prism"
+            "card_name": "Prophetic Prism",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Prophetic Prism"
+            "card_name": "Prophetic Prism",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Urza's Mine"
+            "card_name": "Urza's Mine",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Urza's Power Plant"
+            "card_name": "Urza's Power Plant",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Urza's Tower"
+            "card_name": "Urza's Tower",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Respite"
+            "card_name": "Respite",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Bojuka Bog"
+            "card_name": "Bojuka Bog",
+            "card_type": "LAND  "
           }
         }
       ],
@@ -4446,61 +5247,71 @@
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Hydroblast"
+            "card_name": "Hydroblast",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Blue Elemental Blast"
+            "card_name": "Blue Elemental Blast",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Breath Weapon"
+            "card_name": "Breath Weapon",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Heritage Reclamation"
+            "card_name": "Heritage Reclamation",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Blue Elemental Blast"
+            "card_name": "Blue Elemental Blast",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Murmuring Mystic"
+            "card_name": "Murmuring Mystic",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Ancient Grudge"
+            "card_name": "Ancient Grudge",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Weather the Storm"
+            "card_name": "Weather the Storm",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Zuko's Exile"
+            "card_name": "Zuko's Exile",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Negate"
+            "card_name": "Negate",
+            "card_type": "INSTNT"
           }
         }
       ],
@@ -4508,7 +5319,13 @@
         "loginplayeventcourseid": "35210250",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ]
     },
     {
       "player": "lindoso01",
@@ -4516,127 +5333,148 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Glint Hawk"
+            "card_name": "Glint Hawk",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Ancient Den"
+            "card_name": "Ancient Den",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Bojuka Bog"
+            "card_name": "Bojuka Bog",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Boros Garrison"
+            "card_name": "Boros Garrison",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Great Furnace"
+            "card_name": "Great Furnace",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Plains"
+            "card_name": "Plains",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Radiant Fountain"
+            "card_name": "Radiant Fountain",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Rustvale Bridge"
+            "card_name": "Rustvale Bridge",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Wind-Scarred Crag"
+            "card_name": "Wind-Scarred Crag",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Prismatic Strands"
+            "card_name": "Prismatic Strands",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Thraben Inspector"
+            "card_name": "Thraben Inspector",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Novice Inspector"
+            "card_name": "Novice Inspector",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Experimental Synthesizer"
+            "card_name": "Experimental Synthesizer",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Lightning Bolt"
+            "card_name": "Lightning Bolt",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Lembas"
+            "card_name": "Lembas",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Kor Skyfisher"
+            "card_name": "Kor Skyfisher",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Thraben Charm"
+            "card_name": "Thraben Charm",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Galvanic Blast"
+            "card_name": "Galvanic Blast",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Journey to Nowhere"
+            "card_name": "Journey to Nowhere",
+            "card_type": "ENCHMT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Mountain"
+            "card_name": "Mountain",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Seeker of the Way"
+            "card_name": "Seeker of the Way",
+            "card_type": "ISCREA"
           }
         }
       ],
@@ -4644,31 +5482,36 @@
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Dust to Dust"
+            "card_name": "Dust to Dust",
+            "card_type": "SORCRY"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Relic of Progenitus"
+            "card_name": "Relic of Progenitus",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Red Elemental Blast"
+            "card_name": "Red Elemental Blast",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Navigator's Compass"
+            "card_name": "Navigator's Compass",
+            "card_type": "ARTFCT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Cast into the Fire"
+            "card_name": "Cast into the Fire",
+            "card_type": "INSTNT"
           }
         }
       ],
@@ -4676,7 +5519,11 @@
         "loginplayeventcourseid": "35210787",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "R",
+        "W"
+      ]
     },
     {
       "player": "newbarola",
@@ -4684,91 +5531,106 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Snakeskin Veil"
+            "card_name": "Snakeskin Veil",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Seal of Strength"
+            "card_name": "Seal of Strength",
+            "card_type": "ENCHMT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Hickory Woodlot"
+            "card_name": "Hickory Woodlot",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Glistener Elf"
+            "card_name": "Glistener Elf",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Go Forth"
+            "card_name": "Go Forth",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Llanowar Augur"
+            "card_name": "Llanowar Augur",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "9",
           "card_attributes": {
-            "card_name": "Forest"
+            "card_name": "Forest",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Blight Mamba"
+            "card_name": "Blight Mamba",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Escape Tunnel"
+            "card_name": "Escape Tunnel",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Ichorclaw Myr"
+            "card_name": "Ichorclaw Myr",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Mutagenic Growth"
+            "card_name": "Mutagenic Growth",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Might of Old Krosa"
+            "card_name": "Might of Old Krosa",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Embiggen"
+            "card_name": "Embiggen",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Vines of Vastwood"
+            "card_name": "Vines of Vastwood",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Rancor"
+            "card_name": "Rancor",
+            "card_type": "ENCHMT"
           }
         }
       ],
@@ -4776,43 +5638,50 @@
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Crop Rotation"
+            "card_name": "Crop Rotation",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Nature's Claim"
+            "card_name": "Nature's Claim",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "3",
           "card_attributes": {
-            "card_name": "Gut Shot"
+            "card_name": "Gut Shot",
+            "card_type": "INSTNT"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Scattershot Archer"
+            "card_name": "Scattershot Archer",
+            "card_type": "ISCREA"
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Seal of Strength"
+            "card_name": "Seal of Strength",
+            "card_type": "ENCHMT"
           }
         },
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Bojuka Bog"
+            "card_name": "Bojuka Bog",
+            "card_type": "LAND  "
           }
         },
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Vines of Vastwood"
+            "card_name": "Vines of Vastwood",
+            "card_type": "INSTNT"
           }
         }
       ],
@@ -4820,7 +5689,11 @@
         "loginplayeventcourseid": "35211397",
         "wins": "5",
         "losses": "0"
-      }
+      },
+      "colors": [
+        "G",
+        "R"
+      ]
     }
   ]
 }

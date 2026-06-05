@@ -62,3 +62,27 @@ def minify_tournament_data(data: dict) -> dict:
 
     minified["decklists"] = decklists
     return minified
+
+
+def enrich_deck_colors(
+    tournament_data: dict, color_lookup: dict[str, list[str]]
+) -> dict:
+    """Add a ``colors`` array to each decklist in a tournament.
+
+    Color identity is the union of all non-land card color identities.
+    Lands are excluded. A deck with no colored non-land cards gets ``["C"]``.
+    Mutates and returns *tournament_data*.
+    """
+    for deck in tournament_data.get("decklists", []):
+        colors: set[str] = set()
+        for card in deck.get("main_deck", []) + deck.get("sideboard_deck", []):
+            card_type = (card.get("card_attributes", {}).get("card_type", "")).strip()
+            if card_type == "LAND":
+                continue
+            card_name = card.get("card_attributes", {}).get("card_name", "")
+            identity = color_lookup.get(card_name, [])
+            colors.update(identity)
+
+        deck["colors"] = sorted(colors) if colors else ["C"]
+
+    return tournament_data

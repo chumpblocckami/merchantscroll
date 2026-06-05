@@ -8,11 +8,13 @@
 """Crawl a single MTGO tournament and print its decklists.
 
 Fetches one tournament page, parses the embedded data, and prints
-a summary of every decklist. Optionally saves the result to a JSON file.
+a summary of every decklist. Use --enrich to add deck color identity
+via Scryfall bulk data. Optionally saves the result to a JSON file.
 
 Usage:
     uv run examples/crawl_single_tournament.py URL
-    uv run examples/crawl_single_tournament.py URL --save output.json
+    uv run examples/crawl_single_tournament.py URL --enrich
+    uv run examples/crawl_single_tournament.py URL --enrich --save output.json
 """
 
 import argparse
@@ -29,10 +31,22 @@ def main():
     parser = argparse.ArgumentParser(description="Crawl a single MTGO tournament")
     parser.add_argument("url", help="Full MTGO tournament URL")
     parser.add_argument("--save", "-s", help="Save result to a JSON file")
+    parser.add_argument(
+        "--enrich", "-e", action="store_true",
+        help="Enrich decklists with color identity via Scryfall bulk data",
+    )
     args = parser.parse_args()
 
+    color_lookup = None
+    if args.enrich:
+        from src.scryfall import build_color_lookup, download_oracle_cards
+
+        download_oracle_cards()
+        print("Building color lookup...")
+        color_lookup = build_color_lookup()
+
     print(f"Crawling {args.url}...")
-    data = crawl_decks(args.url)
+    data = crawl_decks(args.url, color_lookup=color_lookup)
 
     if data is None:
         print("Failed to crawl tournament.")
@@ -48,7 +62,8 @@ def main():
         record = ""
         if "wins" in deck:
             record = f" ({deck['wins'].get('wins', '?')}-{deck['wins'].get('losses', '?')})"
-        print(f"  {i:>2}. {deck['player']}{record}  —  {main_count} main, {side_count} side")
+        colors = "".join(deck.get("colors", []))
+        print(f"  {i:>2}. [{colors:>5}] {deck['player']}{record}  —  {main_count} main, {side_count} side")
 
     if args.save:
         with open(args.save, "w") as f:
