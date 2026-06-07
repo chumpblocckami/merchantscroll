@@ -175,8 +175,11 @@
       if (isTouch) {
         span.addEventListener("click", (e) => {
           e.stopPropagation();
-          const r = span.getBoundingClientRect();
-          showPreview(name, r.left, r.bottom);
+          cardPreviewImg.src = scryfallImg(name);
+          cardPreview.style.display = "block";
+          const pw = 220, ph = 310;
+          cardPreview.style.left = ((window.innerWidth - pw) / 2) + "px";
+          cardPreview.style.top = ((window.innerHeight - ph) / 2) + "px";
         });
       } else {
         span.addEventListener("mouseenter", (e) => showPreview(name, e.clientX, e.clientY));
