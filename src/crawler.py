@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 from .constants.crawler import HEADERS, TIMEOUT
 from .constants.misc import PATTERN
-from .utils import enrich_deck_colors, minify_tournament_data
+from .utils import enrich_challenge_results, enrich_deck_colors, minify_tournament_data
 
 
 def crawl_decks(
@@ -31,6 +31,7 @@ def crawl_decks(
     tournament_data = literal_eval(
         match.group(1).replace("false", "False").replace("true", "True")
     )
+    enrich_challenge_results(tournament_data)
     minified = minify_tournament_data(tournament_data)
     if color_lookup:
         enrich_deck_colors(minified, color_lookup)

@@ -24,7 +24,7 @@ from pathlib import Path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), ".."))
 
 from src.scryfall import build_color_lookup, download_oracle_cards, DEFAULT_CACHE_PATH
-from src.utils import enrich_deck_colors
+from src.utils import enrich_challenge_results, enrich_deck_colors
 
 
 def main():
@@ -63,6 +63,7 @@ def main():
     enriched = 0
     for path in json_files:
         data = json.loads(path.read_text())
+        enrich_challenge_results(data)
         enrich_deck_colors(data, lookup)
         path.write_text(json.dumps(data, indent=2))
         enriched += 1

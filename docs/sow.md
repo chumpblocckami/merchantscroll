@@ -21,7 +21,7 @@ Competitive and casual Pauper players who want to quickly browse recent tourname
 - Pauper format only
 - MTGO tournament decklists (Leagues, Challenges, Showcases, Preliminaries, and any other published event type)
 - Automated data pipeline (crawl, enrich, deploy)
-- Static frontend with card preview, search, color indicators, tournament badges, and interactive navigation
+- Static frontend with card preview, color indicators, tournament badges, and interactive navigation
 
 ### Out of scope
 
@@ -66,7 +66,7 @@ Competitive and casual Pauper players who want to quickly browse recent tourname
 | `src/pipeline.py`                 | Orchestration: discover, filter, crawl, enrich, index  |
 | `src/crawler.py`                  | MTGO page scraping and tournament data extraction      |
 | `src/scryfall.py`                 | Scryfall bulk data download and card color lookup      |
-| `src/utils.py`                    | Minification, date normalization, color enrichment     |
+| `src/utils.py`                    | Minification, date normalization, color & results enrichment |
 | `src/saver.py`                    | JSON file writing utility                              |
 | `src/constants/`                  | Crawler headers, timeouts, regex patterns, format list |
 | `index.html`                      | Frontend (single-file, inline JS)                      |
@@ -85,7 +85,7 @@ The interface follows a **vertical carousel** pattern (TikTok-style):
 - One decklist fills the available viewport at a time
 - Scrolling (mouse wheel, touch swipe) or pressing arrow keys advances to the next or previous deck
 - Scroll snaps to each deck — no partial views
-- Decks are ordered chronologically: most recent tournament first, within each tournament ordered by player position/record
+- Decks are ordered chronologically: most recent tournament first. Within each tournament, challenge decklists are sorted by final placement (best results first); leagues retain their published order
 - Decks load lazily: tournament data is fetched on demand as the user scrolls forward
 
 ### 6.2 Interactive Navigation
@@ -112,7 +112,7 @@ There are no visual section dividers or headers between tournaments in the scrol
 
 Each deck view shows:
 
-- **Player name** and win/loss record (if available)
+- **Player name** and win/loss record (displayed for both leagues and challenges when available, e.g., "5-0", "6-2")
 - **Main deck** organized by category: Creatures, Spells, Lands — each with a subtotal count
 - **Sideboard** as a flat list
 - **Deck color indicator** (see 6.4)
@@ -192,16 +192,31 @@ The pipeline is orchestrated by `src/pipeline.py` and invoked via `crawl.py`. A 
    a. Fetch the tournament page
    b. Extract the embedded JSON data via regex (`window.MTGO.decklists.data`)
    c. Parse the Python-literal string (replacing JS booleans)
-   d. Minify: keep only player, card names, quantities, card types, and win/loss records
-   e. Enrich: compute deck color identity from Scryfall data, excluding lands
-   f. Save to `assets/pauper/raw/{site_name}.json`
+   d. Enrich challenge results: map `winloss` and `final_rank` arrays to each decklist by `loginid`, sort decklists by final placement
+   e. Minify: keep only player, card names, quantities, card types, win/loss records, and final rank
+   f. Enrich: compute deck color identity from Scryfall data, excluding lands
+   g. Save to `assets/pauper/raw/{site_name}.json`
 7. **Index rebuild**: Regenerate `assets/pauper/index.json` from all raw files (sorted by `starttime` descending)
 8. **Player index rebuild**: Regenerate `assets/pauper/players.json` mapping player names to their tournament `site_name`s
 9. **Timestamp**: Write `info.json` with the current UTC datetime
 
 If no new tournaments are found, steps 7-8 are skipped and no files are modified.
 
-### 7.3 Color Enrichment
+### 7.3 Challenge Results Enrichment
+
+Challenge tournaments include additional metadata not present in league data:
+
+- **`winloss`** array: Each entry contains `loginid`, `wins`, and `losses` for a player
+- **`final_rank`** array: Each entry contains `loginid` and `rank` (final placement)
+
+During enrichment, these top-level arrays are mapped to individual decklists by matching `loginid`. Each deck receives:
+
+- `wins`: `{ "wins": "6", "losses": "2" }` — the player's match record
+- `final_rank`: integer — the player's final placement in the tournament
+
+Decklists within a challenge are then sorted by `final_rank` ascending, so the best-performing players appear first in the carousel.
+
+### 7.4 Color Enrichment
 
 Deck color identity is derived using Scryfall's bulk data:
 
@@ -210,14 +225,14 @@ Deck color identity is derived using Scryfall's bulk data:
 3. For each deck, compute the union of all card color identities across main deck and sideboard, **excluding cards with card type LAND**
 4. Store the result as a `colors` array (e.g., `["U", "B"]`) on each decklist object
 
-### 7.4 Storage Format
+### 7.5 Storage Format
 
 - **Per-tournament file**: `assets/pauper/raw/{site_name}.json` — contains full tournament metadata and all minified decklists with color data
 - **Index file**: `assets/pauper/index.json` — array of tournament summaries (`site_name`, `starttime`, `deck_count`) sorted by date descending, used by the frontend to discover and lazily load tournaments
 - **Player index**: `assets/pauper/players.json` — maps lowercase player names to arrays of `site_name` strings they appear in. Compact JSON (~580 KB), loaded at startup by the frontend to enable full-database player search without loading all tournament data
 - **Info file**: `info.json` — contains `last_update` timestamp displayed in the frontend header
 
-### 7.5 Scheduling
+### 7.6 Scheduling
 
 The crawler runs as a GitHub Actions workflow on a cron schedule (every 2 hours). The workflow:
 

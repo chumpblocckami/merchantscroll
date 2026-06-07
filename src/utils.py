@@ -18,6 +18,45 @@ def extract_date(url):
     return match.group(1) if match else "0000-00-00"
 
 
+def enrich_challenge_results(tournament_data: dict) -> dict:
+    """Attach win/loss record and final rank to each challenge decklist.
+
+    Uses the top-level ``winloss`` and ``final_rank`` arrays (keyed by
+    ``loginid``) to populate per-deck ``wins`` and ``final_rank`` fields.
+    Decklists are then sorted by final rank ascending (best placement first).
+    Mutates and returns *tournament_data*.
+    """
+    winloss = tournament_data.get("winloss")
+    final_rank = tournament_data.get("final_rank")
+
+    if not winloss and not final_rank:
+        return tournament_data
+
+    wl_map: dict[str, dict] = {}
+    for entry in (winloss or []):
+        wl_map[str(entry["loginid"])] = {
+            "wins": str(entry["wins"]),
+            "losses": str(entry["losses"]),
+        }
+
+    rank_map: dict[str, int] = {}
+    for entry in (final_rank or []):
+        rank_map[str(entry["loginid"])] = int(entry["rank"])
+
+    for deck in tournament_data.get("decklists", []):
+        lid = str(deck.get("loginid", ""))
+        if lid in wl_map:
+            deck["wins"] = wl_map[lid]
+        if lid in rank_map:
+            deck["final_rank"] = rank_map[lid]
+
+    tournament_data["decklists"].sort(
+        key=lambda d: d.get("final_rank", 9999)
+    )
+
+    return tournament_data
+
+
 def minify_tournament_data(data: dict) -> dict:
     """Strip tournament data to only the fields the frontend needs.
 
@@ -58,6 +97,8 @@ def minify_tournament_data(data: dict) -> dict:
         }
         if "wins" in deck:
             minified_deck["wins"] = deck["wins"]
+        if "final_rank" in deck:
+            minified_deck["final_rank"] = deck["final_rank"]
         decklists.append(minified_deck)
 
     minified["decklists"] = decklists
