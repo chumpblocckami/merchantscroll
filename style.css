@@ -481,7 +481,8 @@ kbd {
   }
 
   .decklist-columns {
-    gap: 6px;
+    flex-direction: column;
+    gap: 10px;
     padding-bottom: 4px;
   }
 
@@ -490,10 +491,12 @@ kbd {
     columns: 2;
     column-gap: 12px;
     display: block;
+    flex: none;
   }
 
   .deck-col.sideboard-col {
-    columns: 1;
+    columns: 2;
+    column-gap: 12px;
     flex: none;
   }
 

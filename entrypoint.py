@@ -11,6 +11,7 @@ from src.constants.misc import FORMATS
 from src.constants.paths import RAW_TOURNAMENT_PATH
 from src.crawler import crawl_decks, crawl_tournaments
 from src.saver import save_json_locally
+from src.scryfall import build_color_lookup, download_oracle_cards
 from src.utils import extract_date
 
 
@@ -56,6 +57,10 @@ def git_push_all(message: str) -> None:
 
 
 def start_crawler():
+    download_oracle_cards()
+    color_lookup = build_color_lookup()
+    print(f"Loaded {len(color_lookup)} Scryfall card entries for color enrichment.")
+
     crawled = 0
     skipped = 0
 
@@ -76,7 +81,7 @@ def start_crawler():
         for url in pbar:
             pbar.set_description(slug_from_url(url))
             try:
-                data = crawl_decks(url)
+                data = crawl_decks(url, color_lookup=color_lookup)
             except requests.exceptions.RequestException as e:
                 print(f"Network error crawling {url}: {e}")
                 skipped += 1

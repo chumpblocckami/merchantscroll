@@ -50,9 +50,10 @@ def enrich_challenge_results(tournament_data: dict) -> dict:
         if lid in rank_map:
             deck["final_rank"] = rank_map[lid]
 
-    tournament_data["decklists"].sort(
-        key=lambda d: d.get("final_rank", 9999)
-    )
+    if "decklists" in tournament_data:
+        tournament_data["decklists"].sort(
+            key=lambda d: d.get("final_rank", 9999)
+        )
 
     return tournament_data
 
