@@ -71,6 +71,7 @@
   </div>
 
   <div id="card-preview"><img id="card-preview-img" alt="" /></div>
+  <div id="new-data-banner" class="new-data-banner" hidden>New decklists available — <span id="new-data-tap">tap to refresh</span></div>
 
   <footer>
     <span>Powered by</span>
@@ -678,12 +679,44 @@
       }
     }
 
+    /* ── Freshness: reload from bfcache, banner on new data ── */
+    let knownDeckCount = 0;
+    const _baseInit = init;
+    init = async function () {
+      await _baseInit();
+      knownDeckCount = tournamentIndex.reduce((s, t) => s + t.deck_count, 0);
+    };
+
     init();
 
     fetch("info.json")
       .then(r => r.ok ? r.json() : Promise.reject())
       .then(d => $("info").textContent = d.last_update ? `Last update: ${d.last_update}` : "")
       .catch(() => $("info").textContent = "");
+
+    window.addEventListener("pageshow", (e) => {
+      if (e.persisted) init();
+    });
+
+    const banner = $("new-data-banner");
+    banner.addEventListener("click", () => {
+      banner.classList.remove("visible");
+      banner.hidden = true;
+      init();
+    });
+
+    document.addEventListener("visibilitychange", async () => {
+      if (document.visibilityState !== "visible") return;
+      try {
+        const fresh = await loadIndex();
+        const freshYear = fresh.filter(t => t.starttime.includes(currentYear));
+        const freshCount = freshYear.reduce((s, t) => s + t.deck_count, 0);
+        if (knownDeckCount > 0 && freshCount > knownDeckCount) {
+          banner.hidden = false;
+          requestAnimationFrame(() => banner.classList.add("visible"));
+        }
+      } catch (_) {}
+    });
   </script>
   <script data-goatcounter="https://vedalken.goatcounter.com/count"
           async src="//gc.zgo.at/count.js"></script>
