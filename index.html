@@ -19,6 +19,7 @@
 
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0f0f0f" />
 
   <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
 
@@ -57,29 +58,44 @@
 
 <body>
   <div class="header-container">
-    <h1>Merchant Scroll</h1>
-    <div class="subtitle">Scroll infinite Magic: The Gathering Pauper decks</div>
-    <div class="breadcrumb" id="breadcrumb"></div>
-    <div class="header-meta">
-      <span class="info" id="info">Loading...</span>
-      <span class="info" id="deck-count"></span>
+    <div class="header-row">
+      <h1>Merchant Scroll</h1>
+      <span class="header-meta">
+        <span class="info" id="info">Loading...</span>
+        <span class="info" id="deck-count"></span>
+      </span>
+      <button class="theme-toggle" id="theme-toggle" title="Toggle light/dark mode" aria-label="Toggle light/dark mode">&#9790;</button>
     </div>
+    <div class="breadcrumb" id="breadcrumb"></div>
   </div>
 
   <div id="content" class="image-container">
     <div class="loader" id="loader">Loading decks...</div>
+    <div class="progress-track"><div class="progress-thumb" id="progress-thumb"></div></div>
   </div>
 
   <div id="card-preview"><img id="card-preview-img" alt="" /></div>
   <div id="new-data-banner" class="new-data-banner" hidden>New decklists available — <span id="new-data-tap">tap to refresh</span></div>
 
-  <footer>
-    <span>Powered by</span>
-    <img src="assets/logo.png" alt="Merchant Scroll" class="footer-logo" />
-  </footer>
-
   <script>
     const $ = (s) => document.getElementById(s);
+
+    /* ── Theme toggle ── */
+    const themeBtn = $("theme-toggle");
+    const themeMeta = document.querySelector('meta[name="theme-color"]');
+    function applyTheme(mode) {
+      document.documentElement.classList.toggle("light", mode === "light");
+      themeBtn.textContent = mode === "light" ? "\u2600" : "\u263E";
+      if (themeMeta) themeMeta.content = mode === "light" ? "#fafafa" : "#0f0f0f";
+    }
+    const savedTheme = localStorage.getItem("ms-theme") || "dark";
+    applyTheme(savedTheme);
+    themeBtn.addEventListener("click", () => {
+      const next = document.documentElement.classList.contains("light") ? "dark" : "light";
+      localStorage.setItem("ms-theme", next);
+      applyTheme(next);
+    });
+
     const content = $("content");
     const loader = $("loader");
     const cardPreview = $("card-preview");
@@ -94,6 +110,7 @@
     let filteredDecks = [];
     let deckIdx = 0;
     let loading = false;
+    let slideDir = 1;
     const currentYear = new Date().getFullYear().toString();
     const loadedTournaments = new Set();
     let totalDeckCount = "";
@@ -233,7 +250,6 @@
         const info = COLOR_MAP[c] || COLOR_MAP.C;
         pip.style.backgroundColor = info.hex;
         pip.title = info.label;
-        if (c === "B") pip.style.border = "1px solid #666";
         container.appendChild(pip);
       }
       return container;
@@ -606,11 +622,31 @@
       }
       content.innerHTML = "";
       const entry = filteredDecks[deckIdx];
-      content.appendChild(renderDeck(entry));
+      const deckEl = renderDeck(entry);
+      deckEl.classList.add(slideDir > 0 ? "slide-up" : "slide-down");
+      content.appendChild(deckEl);
       updateBreadcrumb(entry);
+      updateProgress();
+    }
+
+    function updateProgress() {
+      const thumb = $("progress-thumb");
+      if (!thumb || filteredDecks.length === 0) return;
+      const entry = filteredDecks[deckIdx];
+      if (!entry) return;
+      const tourney = filteredDecks.filter(d => d.siteName === entry.siteName);
+      const posInTourney = tourney.findIndex((d, i) => filteredDecks.indexOf(d) === deckIdx);
+      const total = tourney.length;
+      if (total <= 1) { thumb.style.opacity = "0"; return; }
+      const pct = posInTourney / (total - 1);
+      const thumbH = Math.max(8, 100 / total);
+      thumb.style.height = thumbH + "%";
+      thumb.style.top = (pct * (100 - thumbH)) + "%";
+      thumb.style.opacity = "0.5";
     }
 
     async function go(dir) {
+      slideDir = dir;
       deckIdx += dir;
       while (deckIdx >= filteredDecks.length && nextTournamentIdx < tournamentIndex.length) {
         content.innerHTML = "";

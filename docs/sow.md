@@ -79,17 +79,29 @@ Competitive and casual Pauper players who want to quickly browse recent tourname
 
 ## 6. Frontend
 
-### 6.1 UX Model
+### 6.1 Visual Design
+
+The frontend uses a **dark theme** optimized for night and tournament-side browsing:
+
+- Near-black background (`#0f0f0f`), dark surfaces (`#1a1a1a`)
+- Light text hierarchy (`#f0f0f0` primary, `#bbb` secondary, `#555` tertiary)
+- Blue accent (`#4a9eff`) for links, active breadcrumb, and progress indicator
+- No footer — all vertical space is dedicated to deck content
+- Compact 2-line header: title + meta on line 1, breadcrumb on line 2
+
+### 6.2 UX Model
 
 The interface follows a **vertical carousel** pattern (TikTok-style):
 
 - One decklist fills the available viewport at a time
 - Scrolling (mouse wheel, touch swipe) or pressing arrow keys advances to the next or previous deck
+- **Directional slide transitions**: swiping forward slides the new deck up from below; swiping back slides it down from above, creating a kinetic TikTok-like feel
 - Scroll snaps to each deck — no partial views
+- A thin **vertical progress indicator** on the right edge shows the user's position within the current tournament
 - Decks are ordered chronologically: most recent tournament first. Within each tournament, challenge decklists are sorted by final placement (best results first); leagues retain their published order
 - Decks load lazily: tournament data is fetched on demand as the user scrolls forward
 
-### 6.2 Interactive Navigation
+### 6.3 Interactive Navigation
 
 A **persistent interactive breadcrumb** is always visible in the header, showing the user's current position:
 
@@ -109,7 +121,7 @@ When the user selects a tournament that hasn't been loaded yet, the pipeline laz
 
 There are no visual section dividers or headers between tournaments in the scroll flow — the breadcrumb is the sole orientation mechanism.
 
-### 6.3 Deck Display
+### 6.4 Deck Display
 
 Each deck view shows:
 
@@ -119,9 +131,9 @@ Each deck view shows:
 - **Deck color indicator** (see 6.4)
 - **Tournament type badge** (see 6.5)
 
-### 6.4 Deck Color Indicators
+### 6.5 Deck Color Indicators
 
-Each decklist displays a set of colored pips representing the deck's color identity, derived from the union of all card color identities across main deck and sideboard, **excluding lands**:
+Each decklist displays a set of large colored pips (20px desktop, 24px mobile) representing the deck's color identity as the primary visual element, derived from the union of all card color identities across main deck and sideboard, **excluding lands**:
 
 | Symbol | Color     | Display color |
 |--------|-----------|---------------|
@@ -138,7 +150,7 @@ Lands are excluded from color computation entirely. Cards that produce mana of v
 
 Color data is computed during the crawl/enrichment step and stored in each decklist's JSON.
 
-### 6.5 Tournament Type Badges
+### 6.6 Tournament Type Badges
 
 Each deck displays a small colored badge indicating the tournament type (e.g., "League", "Challenge", "Showcase", "Preliminary"). The badge label is derived from the tournament's `site_name` field by extracting the type keyword from the hyphenated name (e.g., `pauper-league-...` → "League"). Badge colors are mapped per type:
 
@@ -151,7 +163,7 @@ Each deck displays a small colored badge indicating the tournament type (e.g., "
 | Premier     | Red    |
 | Classic     | Brown  |
 
-### 6.6 Card Preview
+### 6.7 Card Preview
 
 Hovering over a card name (desktop) or tapping it (mobile) displays a floating preview of the card image, fetched from the Scryfall API:
 
@@ -161,7 +173,7 @@ https://api.scryfall.com/cards/named?exact={card_name}&format=image&version=norm
 
 The preview tooltip follows the cursor and repositions to stay within the viewport.
 
-### 6.7 Deck Count
+### 6.8 Deck Count
 
 The header displays a persistent total deck count (e.g., "4,832 decks across 312 events") computed from the tournament index at page load. This number represents the total decks available in the database for the current year, not just the currently loaded ones.
 
@@ -268,11 +280,14 @@ The crawler runs as a GitHub Actions workflow on a cron schedule (every 2 hours)
 
 ### 9.4 Mobile / Responsive
 
+- Dark theme with `theme-color` meta tag for native browser chrome integration
 - Responsive layout via CSS media queries (breakpoint at 640px)
-- Touch-friendly: swipe to navigate, tap for card preview
+- Touch-friendly: swipe to navigate, tap for card preview (centered overlay on mobile)
 - Main deck rendered in a compact 2-column layout on mobile; sideboard stacks below
 - Deck content is vertically centered in the viewport on mobile to avoid dead space below short decklists
+- 24px mana pips on mobile for easy scanning
 - Breadcrumb dropdowns resize for narrow viewports
+- No footer — all vertical space dedicated to deck content
 
 ### 9.5 Accessibility
 
