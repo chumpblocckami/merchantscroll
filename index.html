@@ -77,6 +77,13 @@
     <div class="progress-track"><div class="progress-thumb" id="progress-thumb"></div></div>
   </div>
 
+  <div id="player-modal" class="player-modal" hidden aria-hidden="true">
+    <div class="player-modal-panel" role="dialog" aria-modal="true" aria-labelledby="player-modal-title">
+      <button type="button" class="player-modal-close" id="player-modal-close" aria-label="Close profile">&#10005;</button>
+      <div id="player-modal-body" class="player-modal-body"></div>
+    </div>
+  </div>
+
   <div id="card-preview"><img id="card-preview-img" alt="" /></div>
   <div id="new-data-banner" class="new-data-banner" hidden>New decklists available — <span id="new-data-tap">tap to refresh</span></div>
 
@@ -104,7 +111,19 @@
     const cardPreview = $("card-preview");
     const cardPreviewImg = $("card-preview-img");
     const breadcrumbEl = $("breadcrumb");
+    const headerEl = document.querySelector(".header-container");
     const isTouch = "ontouchstart" in window || navigator.maxTouchPoints > 0;
+
+    function syncHeaderHeight() {
+      if (!headerEl) return;
+      document.documentElement.style.setProperty("--header-height", `${headerEl.offsetHeight}px`);
+    }
+    syncHeaderHeight();
+    if (typeof ResizeObserver !== "undefined" && headerEl) {
+      new ResizeObserver(syncHeaderHeight).observe(headerEl);
+    } else {
+      window.addEventListener("resize", syncHeaderHeight);
+    }
 
     /* ── State ── */
     let tournamentIndex = [];
@@ -260,20 +279,201 @@
       return "";
     }
 
-    function playerProfileUrl(player, entry) {
-      const q = new URLSearchParams({ p: (player || "").toLowerCase() });
-      if (entry?.siteName && entry?.player) {
-        q.set("site", entry.siteName);
-        q.set("player", entry.player);
-      }
-      return `player.html?${q.toString()}`;
+    function playerLink(name, entry) {
+      const btn = el("button", "player-link", name || "Unknown");
+      btn.type = "button";
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        openPlayerProfile(name);
+      });
+      return btn;
     }
 
-    function playerLink(name, entry) {
-      const a = el("a", "player-link", name || "Unknown");
-      a.href = playerProfileUrl(name, entry);
-      return a;
+    /* ── Player modal ── */
+    const playerModal = $("player-modal");
+    const playerModalBody = $("player-modal-body");
+    let playerModalOpen = false;
+
+    function isPlayerModalOpen() {
+      return playerModalOpen;
     }
+
+    function statStack() {
+      return el("div", "player-modal-stat-value player-modal-stat-stack");
+    }
+
+    function appendStatLine(parent, num, text, sub = false) {
+      const line = el("div", "player-modal-stat-line" + (sub ? " player-modal-stat-line--sub" : ""));
+      line.appendChild(el("span", "player-modal-stat-num", num));
+      line.appendChild(el("span", "player-modal-stat-text", text));
+      parent.appendChild(line);
+    }
+
+    function appendRankBlock(parent, label, value) {
+      const block = el("div", "player-modal-stat-rank");
+      block.appendChild(el("span", "player-modal-stat-rank-label", label));
+      block.appendChild(el("span", "player-modal-stat-rank-value", value));
+      parent.appendChild(block);
+    }
+
+    function buildLeagueStatEl(stats) {
+      const wrap = statStack();
+      const trophies = stats.league_trophies || 0;
+
+      appendStatLine(wrap, String(trophies), trophies === 1 ? "trophy" : "trophies");
+
+      const yearly = stats.league_trophies_yearly || 0;
+      if (yearly > 0) {
+        appendStatLine(wrap, String(yearly), `in ${currentYear}`, true);
+      }
+
+      const yrRank = stats.league_trophy_rank_yearly;
+      const yrPool = stats.league_trophy_players_yearly;
+      if (yrRank && yrPool) {
+        appendRankBlock(
+          wrap,
+          `Most trophies · ${currentYear}`,
+          `#${yrRank} of ${yrPool} players`
+        );
+      }
+
+      const atRank = stats.league_trophy_rank_alltime;
+      const atPool = stats.league_trophy_players_alltime;
+      if (atRank && atPool) {
+        appendRankBlock(
+          wrap,
+          "Most trophies · all-time",
+          `#${atRank} of ${atPool} players`
+        );
+      }
+
+      return wrap;
+    }
+
+    function buildChallengeStatEl(stats) {
+      const wrap = statStack();
+      const cw = stats.challenge_wins || 0;
+      const cl = stats.challenge_losses || 0;
+      const total = cw + cl;
+      if (!total) {
+        const empty = el("span", "player-modal-stat-text", "—");
+        wrap.appendChild(empty);
+        return wrap;
+      }
+
+      appendStatLine(wrap, `${cw}-${cl}`, "match record");
+
+      if (stats.challenge_win_pct != null) {
+        appendRankBlock(wrap, "Win rate", `${stats.challenge_win_pct}%`);
+      }
+
+      return wrap;
+    }
+
+    function renderPlayerModal(data) {
+      playerModalBody.innerHTML = "";
+      const wrap = el("div", "player-modal-content");
+
+      const head = el("header", "player-modal-header");
+      head.appendChild(el("h2", "player-modal-title", data.display_name || data.username));
+      if (data.irl_name) {
+        head.appendChild(el("p", "player-modal-identity", `IRL: ${data.irl_name}`));
+      }
+      wrap.appendChild(head);
+
+      const stats = data.stats || {};
+      const grid = el("div", "player-modal-stats");
+      const statItems = [
+        ["Entries", String(stats.total_entries || 0)],
+        ["Leagues", buildLeagueStatEl(stats)],
+        ["Challenges", buildChallengeStatEl(stats)],
+      ];
+      if (stats.irl_top8) {
+        statItems.push(["IRL", `${stats.irl_top8} top-8`]);
+      }
+      for (const [label, value] of statItems) {
+        const cell = el("div", "player-modal-stat");
+        cell.appendChild(el("span", "player-modal-stat-label", label));
+        if (typeof value === "string") {
+          cell.appendChild(el("span", "player-modal-stat-value", value));
+        } else {
+          cell.appendChild(value);
+        }
+        grid.appendChild(cell);
+      }
+      wrap.appendChild(grid);
+
+      const decks = (data.favorite_decks || []).slice(0, 5);
+      if (decks.length) {
+        const section = el("section", "player-modal-decks");
+        section.appendChild(el("h3", "player-modal-heading", "Favorite decks"));
+        const list = el("ol", "player-modal-deck-list");
+        decks.forEach((item, i) => {
+          const row = el("li", "player-modal-deck-item");
+          row.appendChild(el("span", "player-modal-deck-rank", String(i + 1)));
+          row.appendChild(el("span", "player-modal-deck-name", item.archetype));
+          row.appendChild(el("span", "player-modal-deck-count", String(item.count)));
+          list.appendChild(row);
+        });
+        section.appendChild(list);
+        wrap.appendChild(section);
+      }
+
+      if (!isTouch) {
+        const hint = el("p", "player-modal-hint", "");
+        const k = document.createElement("kbd");
+        k.textContent = "\u2190";
+        hint.appendChild(k);
+        hint.appendChild(document.createTextNode(" close"));
+        wrap.appendChild(hint);
+      }
+
+      playerModalBody.appendChild(wrap);
+    }
+
+    async function openPlayerProfile(playerName) {
+      if (throttle) return;
+      const entry = filteredDecks[deckIdx];
+      const player = playerName || entry?.player;
+      if (!player) return;
+
+      throttle = true;
+      closeDropdown();
+      hidePreview();
+      playerModalBody.innerHTML = '<div class="loader">Loading profile...</div>';
+      syncHeaderHeight();
+      playerModal.hidden = false;
+      playerModal.setAttribute("aria-hidden", "false");
+      requestAnimationFrame(() => {
+        playerModal.classList.add("open");
+        playerModalOpen = true;
+      });
+
+      try {
+        const res = await fetch(
+          `assets/pauper/players/${encodeURIComponent(player.toLowerCase())}.json`,
+          { cache: "no-store" }
+        );
+        if (!res.ok) throw new Error("not found");
+        renderPlayerModal(await res.json());
+      } catch (_) {
+        playerModalBody.innerHTML = `<p class="player-modal-error">No profile for "${player}".</p>`;
+      }
+      setTimeout(() => (throttle = false), 300);
+    }
+
+    function closePlayerModal() {
+      if (!playerModalOpen) return;
+      playerModal.classList.remove("open");
+      playerModal.setAttribute("aria-hidden", "true");
+      playerModalOpen = false;
+      setTimeout(() => {
+        playerModal.hidden = true;
+        playerModalBody.innerHTML = "";
+      }, 220);
+    }
+
+    $("player-modal-close").addEventListener("click", closePlayerModal);
 
     /* ── Deck export ── */
     function formatDeckColors(colors) {
@@ -786,34 +986,30 @@
       go(dir);
     }
 
-    function openPlayerProfile() {
-      if (throttle) return;
-      const entry = filteredDecks[deckIdx];
-      if (!entry?.player) return;
-      throttle = true;
-      closeDropdown();
-      const url = playerProfileUrl(entry.player, entry);
-      const deckEl = content.querySelector(".deck-container");
-      if (deckEl) {
-        deckEl.classList.add("slide-out-right");
-        deckEl.addEventListener("animationend", () => { window.location.href = url; }, { once: true });
-      } else {
-        window.location.href = url;
-      }
+    function openPlayerProfileFromDeck() {
+      openPlayerProfile();
     }
 
     document.addEventListener("keydown", (e) => {
       if (document.activeElement?.tagName === "INPUT") return;
+      if (isPlayerModalOpen()) {
+        if (e.key === "Escape" || e.key === "ArrowLeft") {
+          e.preventDefault();
+          closePlayerModal();
+        }
+        return;
+      }
       if (e.key === "ArrowDown") { e.preventDefault(); throttledGo(1); }
       if (e.key === "ArrowUp") { e.preventDefault(); throttledGo(-1); }
-      if (e.key === "ArrowRight") { e.preventDefault(); openPlayerProfile(); }
+      if (e.key === "ArrowRight") { e.preventDefault(); openPlayerProfileFromDeck(); }
       if (e.key === "ArrowLeft") { e.preventDefault(); throttledGo(-1); }
     });
 
     content.addEventListener("wheel", (e) => {
+      if (isPlayerModalOpen()) return;
       e.preventDefault();
       if (Math.abs(e.deltaX) > Math.abs(e.deltaY) && Math.abs(e.deltaX) > 30) {
-        if (e.deltaX > 0) openPlayerProfile();
+        if (e.deltaX > 0) openPlayerProfileFromDeck();
         return;
       }
       throttledGo(e.deltaY > 0 ? 1 : -1);
@@ -826,13 +1022,23 @@
       touchStartY = e.changedTouches[0].screenY;
     }, { passive: true });
     content.addEventListener("touchend", (e) => {
+      if (isPlayerModalOpen()) {
+        const deltaX = touchStartX - e.changedTouches[0].screenX;
+        const deltaY = touchStartY - e.changedTouches[0].screenY;
+        if (Math.abs(deltaX) > Math.abs(deltaY) && deltaX < -50) closePlayerModal();
+        return;
+      }
       const deltaX = touchStartX - e.changedTouches[0].screenX;
       const deltaY = touchStartY - e.changedTouches[0].screenY;
       if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 50) {
-        if (deltaX > 0) openPlayerProfile();
+        if (deltaX > 0) openPlayerProfileFromDeck();
         return;
       }
       if (Math.abs(deltaY) > 50) throttledGo(deltaY > 0 ? 1 : -1);
+    });
+
+    playerModal.addEventListener("click", (e) => {
+      if (e.target === playerModal) closePlayerModal();
     });
 
     /* ── Init ── */
@@ -848,6 +1054,7 @@
     }
 
     async function init() {
+      closePlayerModal();
       allDecks = [];
       filteredDecks = [];
       deckIdx = 0;
