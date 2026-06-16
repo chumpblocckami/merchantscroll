@@ -59,7 +59,7 @@
 <body>
   <div class="header-container">
     <div class="header-row">
-      <h1>Merchant Scroll</h1>
+      <h1 id="site-title" class="site-title" title="Back to latest decks" tabindex="0" role="button">Merchant Scroll</h1>
       <span class="header-meta">
         <span class="info" id="info">Loading...</span>
         <span class="info" id="deck-count"></span>
@@ -114,6 +114,7 @@
     const currentYear = new Date().getFullYear().toString();
     const loadedTournaments = new Set();
     let totalDeckCount = "";
+    let archetypeMap = {};
 
 
     /* ── Color map ── */
@@ -125,6 +126,21 @@
       G: { label: "Green", hex: "#00733e" },
       C: { label: "Colorless", hex: "#9e9e9e" },
     };
+
+    /* ── Deck classification ── */
+    function classifyDeck(deck) {
+      if (deck.archetype) return deck.archetype;
+      if (!Object.keys(archetypeMap).length) return "";
+      const cardNames = new Set();
+      for (const c of (deck.main_deck || [])) cardNames.add(c.card_attributes.card_name);
+      let bestName = "", bestScore = 0;
+      for (const [archetype, signatures] of Object.entries(archetypeMap)) {
+        const matched = signatures.filter(s => cardNames.has(s)).length;
+        const score = matched / signatures.length;
+        if (score > bestScore) { bestScore = score; bestName = archetype; }
+      }
+      return bestScore >= 0.5 ? bestName : "";
+    }
 
     /* ── Card preview ── */
     function scryfallImg(name) {
@@ -241,6 +257,75 @@
       return "";
     }
 
+    function playerProfileUrl(player, entry) {
+      const q = new URLSearchParams({ p: (player || "").toLowerCase() });
+      if (entry?.siteName && entry?.player) {
+        q.set("site", entry.siteName);
+        q.set("player", entry.player);
+      }
+      return `player.html?${q.toString()}`;
+    }
+
+    function playerLink(name, entry) {
+      const a = el("a", "player-link", name || "Unknown");
+      a.href = playerProfileUrl(name, entry);
+      return a;
+    }
+
+    /* ── Deck export ── */
+    function formatDeckColors(colors) {
+      if (!colors?.length) return "";
+      return "[" + colors.join("") + "]";
+    }
+
+    function exportDeckText(entry) {
+      const deck = entry.decklist;
+      const lines = [];
+      const colors = formatDeckColors(deck.colors);
+      const archetype = classifyDeck(deck);
+      const headerParts = [entry.player || "Unknown", colors, archetype].filter(Boolean);
+      lines.push(`// ${headerParts.join(" ")} — ${entry.tournamentName || "?"} — ${entry.tournamentDate || "?"}`);
+      const record = formatRecord(deck);
+      if (record) lines.push(`// Record: ${record}`);
+      lines.push("");
+
+      const mainCards = (deck.main_deck || []).slice().sort(
+        (a, b) => a.card_attributes.card_name.localeCompare(b.card_attributes.card_name)
+      );
+      for (const card of mainCards) {
+        lines.push(`${card.qty} ${card.card_attributes.card_name}`);
+      }
+
+      lines.push("");
+      lines.push("Sideboard");
+      const sbCards = (deck.sideboard_deck || []).slice().sort(
+        (a, b) => a.card_attributes.card_name.localeCompare(b.card_attributes.card_name)
+      );
+      for (const card of sbCards) {
+        lines.push(`${card.qty} ${card.card_attributes.card_name}`);
+      }
+
+      return lines.join("\n");
+    }
+
+    function safeFilename(name) {
+      return (name || "deck").replace(/[^\w\-]+/g, "_").replace(/^_|_$/g, "").slice(0, 60) || "deck";
+    }
+
+    function downloadDecklist(entry) {
+      const text = exportDeckText(entry);
+      const blob = new Blob([text], { type: "text/plain" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      const player = safeFilename(entry.player);
+      const type = deriveTournamentType(entry.tournamentName, entry.siteName).toLowerCase() || "event";
+      const date = dateKey(entry.tournamentDate) || "unknown";
+      a.download = `${player}_${type}_${date}.txt`;
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
     /* ── Color pips ── */
     function renderColorPips(colors) {
       const container = el("span", "color-pips");
@@ -256,7 +341,8 @@
     }
 
     /* ── Tournament badge ── */
-    function deriveTournamentType(name) {
+    function deriveTournamentType(name, siteName) {
+      if ((siteName || "").startsWith("pauperwave-")) return "IRL";
       const lower = (name || "").toLowerCase();
       const segments = lower.split(/[\s\-]+/);
       for (const seg of segments) {
@@ -275,12 +361,13 @@
         Preliminary: "#e65100",
         Premier: "#c62828",
         Classic: "#4e342e",
+        IRL: "#d4a017",
       };
       return map[type] || "#757575";
     }
 
-    function renderBadge(tournamentName) {
-      const type = deriveTournamentType(tournamentName);
+    function renderBadge(tournamentName, siteName) {
+      const type = deriveTournamentType(tournamentName, siteName);
       if (!type) return null;
       const badge = el("span", "tournament-badge", type);
       badge.style.backgroundColor = badgeColor(type);
@@ -341,11 +428,13 @@
       for (let i = 0; i < filteredDecks.length; i++) {
         if (filteredDecks[i].siteName === siteName) {
           const dl = filteredDecks[i].decklist;
+          const arch = classifyDeck(dl);
           players.push({
             idx: i,
             player: filteredDecks[i].player,
             colors: dl.colors,
             record: formatRecord(dl),
+            archetype: arch,
           });
         }
       }
@@ -505,12 +594,27 @@
           label: p.player,
           value: p.idx,
           pips: p.colors,
-          sub: p.record || null,
+          sub: [p.archetype, p.record].filter(Boolean).join(" · ") || null,
           active: p.idx === deckIdx,
         }));
         showDropdown(deckTrigger, items, navigateToDeck);
       });
       breadcrumbEl.appendChild(deckTrigger);
+    }
+
+    function renderContactBlock() {
+      const wrap = el("div", "deck-contact");
+      const toggle = el("button", "contact-toggle", "Contact");
+      toggle.type = "button";
+      toggle.setAttribute("aria-expanded", "false");
+      const panel = el("div", "contact-panel");
+      panel.hidden = true;
+      const link = el("a", "", "contact.matteomazzola@gmail.com");
+      link.href = "mailto:contact.matteomazzola@gmail.com";
+      panel.appendChild(link);
+      wrap.appendChild(toggle);
+      wrap.appendChild(panel);
+      return wrap;
     }
 
     /* ── Deck renderer ── */
@@ -520,28 +624,42 @@
 
       const header = el("div", "deck-header");
 
+      const archetype = classifyDeck(deck);
+
       const nameRow = el("div", "deck-title-row");
       nameRow.appendChild(renderColorPips(deck.colors));
-      const playerSpan = el("span", "player-name", entry.player || "Unknown");
-      nameRow.appendChild(playerSpan);
+      const titleSpan = el("span", "player-name", archetype || entry.player || "Unknown");
+      nameRow.appendChild(titleSpan);
       const record = formatRecord(deck);
       if (record) {
         const recEl = el("span", "player-record", record);
         nameRow.appendChild(recEl);
       }
-      const badge = renderBadge(entry.tournamentName);
+      const badge = renderBadge(entry.tournamentName, entry.siteName);
       if (badge) nameRow.appendChild(badge);
       header.appendChild(nameRow);
+
+      if (archetype) {
+        header.appendChild(playerLink(entry.player || "Unknown", entry));
+        header.lastChild.classList.add("deck-archetype");
+      } else {
+        const link = playerLink(entry.player || "Unknown", entry);
+        link.classList.add("player-name");
+        titleSpan.replaceWith(link);
+      }
 
       if (!isTouch) {
         header.appendChild(el("div", "kbd-hint", ""));
         const hint = header.lastChild;
-        const k1 = document.createElement("kbd"); k1.textContent = "\u2191";
-        const k2 = document.createElement("kbd"); k2.textContent = "\u2193";
-        hint.appendChild(k1);
+        const kUp = document.createElement("kbd"); kUp.textContent = "\u2191";
+        const kDown = document.createElement("kbd"); kDown.textContent = "\u2193";
+        const kRight = document.createElement("kbd"); kRight.textContent = "\u2192";
+        hint.appendChild(kUp);
         hint.appendChild(document.createTextNode(" "));
-        hint.appendChild(k2);
-        hint.appendChild(document.createTextNode(" to scroll"));
+        hint.appendChild(kDown);
+        hint.appendChild(document.createTextNode(" decks \u00B7 "));
+        hint.appendChild(kRight);
+        hint.appendChild(document.createTextNode(" profile"));
       }
 
       container.appendChild(header);
@@ -563,6 +681,19 @@
       }
 
       container.appendChild(columns);
+
+      const actions = el("div", "deck-actions");
+      const downloadBtn = el("button", "download-btn", "\u2913  Export MTGO");
+      downloadBtn.type = "button";
+      downloadBtn.setAttribute("aria-label", "Download decklist as text file");
+      downloadBtn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        downloadDecklist(entry);
+      });
+      actions.appendChild(downloadBtn);
+      actions.appendChild(renderContactBlock());
+      container.appendChild(actions);
+
       return container;
     }
 
@@ -668,42 +799,108 @@
       go(dir);
     }
 
+    function openPlayerProfile() {
+      if (throttle) return;
+      const entry = filteredDecks[deckIdx];
+      if (!entry?.player) return;
+      throttle = true;
+      closeDropdown();
+      const url = playerProfileUrl(entry.player, entry);
+      const deckEl = content.querySelector(".deck-container");
+      if (deckEl) {
+        deckEl.classList.add("slide-out-right");
+        deckEl.addEventListener("animationend", () => { window.location.href = url; }, { once: true });
+      } else {
+        window.location.href = url;
+      }
+    }
+
     document.addEventListener("keydown", (e) => {
       if (document.activeElement?.tagName === "INPUT") return;
-      if (e.key === "ArrowRight" || e.key === "ArrowDown") { e.preventDefault(); throttledGo(1); }
-      if (e.key === "ArrowLeft" || e.key === "ArrowUp") { e.preventDefault(); throttledGo(-1); }
+      if (e.key === "ArrowDown") { e.preventDefault(); throttledGo(1); }
+      if (e.key === "ArrowUp") { e.preventDefault(); throttledGo(-1); }
+      if (e.key === "ArrowRight") { e.preventDefault(); openPlayerProfile(); }
+      if (e.key === "ArrowLeft") { e.preventDefault(); throttledGo(-1); }
     });
 
     content.addEventListener("wheel", (e) => {
       e.preventDefault();
+      if (Math.abs(e.deltaX) > Math.abs(e.deltaY) && Math.abs(e.deltaX) > 30) {
+        if (e.deltaX > 0) openPlayerProfile();
+        return;
+      }
       throttledGo(e.deltaY > 0 ? 1 : -1);
     }, { passive: false });
 
+    let touchStartX = 0;
     let touchStartY = 0;
-    content.addEventListener("touchstart", (e) => { touchStartY = e.changedTouches[0].screenY; });
+    content.addEventListener("touchstart", (e) => {
+      touchStartX = e.changedTouches[0].screenX;
+      touchStartY = e.changedTouches[0].screenY;
+    }, { passive: true });
     content.addEventListener("touchend", (e) => {
-      const delta = touchStartY - e.changedTouches[0].screenY;
-      if (Math.abs(delta) > 50) throttledGo(delta > 0 ? 1 : -1);
+      const deltaX = touchStartX - e.changedTouches[0].screenX;
+      const deltaY = touchStartY - e.changedTouches[0].screenY;
+      if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 50) {
+        if (deltaX > 0) openPlayerProfile();
+        return;
+      }
+      if (Math.abs(deltaY) > 50) throttledGo(deltaY > 0 ? 1 : -1);
     });
 
     /* ── Init ── */
+    async function refreshToLatestDecks() {
+      closeDropdown();
+      hidePreview();
+      if (window.location.search) {
+        history.replaceState(null, "", window.location.pathname);
+      }
+      banner.classList.remove("visible");
+      banner.hidden = true;
+      await init();
+    }
+
     async function init() {
       allDecks = [];
       filteredDecks = [];
       deckIdx = 0;
       nextTournamentIdx = 0;
+      loadedTournaments.clear();
       content.innerHTML = "";
       loader.textContent = "Loading decks...";
       loader.style.display = "block";
       content.appendChild(loader);
 
       try {
+        fetch("archetypes/pauperwave.json")
+          .then(r => r.ok ? r.json() : {})
+          .then(d => { archetypeMap = d; })
+          .catch(() => {});
+
         const fullIndex = await loadIndex();
         tournamentIndex = fullIndex.filter(t => t.starttime.includes(currentYear));
         totalDeckCount = `${tournamentIndex.reduce((s, t) => s + t.deck_count, 0)} decks across ${tournamentIndex.length} events`;
         $("deck-count").textContent = totalDeckCount;
 
         if (tournamentIndex.length > 0) {
+          const params = new URLSearchParams(window.location.search);
+          const jumpSite = params.get("site");
+          const jumpPlayer = params.get("player");
+
+          if (jumpSite && jumpPlayer) {
+            await ensureTournamentLoaded(jumpSite);
+            filteredDecks = allDecks;
+            const idx = filteredDecks.findIndex(
+              (d) => d.siteName === jumpSite
+                && d.player.toLowerCase() === jumpPlayer.toLowerCase()
+            );
+            if (idx >= 0) {
+              deckIdx = idx;
+              showDeck();
+              return;
+            }
+          }
+
           await loadTournament();
           showDeck();
         } else {
@@ -735,10 +932,15 @@
     });
 
     const banner = $("new-data-banner");
-    banner.addEventListener("click", () => {
-      banner.classList.remove("visible");
-      banner.hidden = true;
-      init();
+    banner.addEventListener("click", refreshToLatestDecks);
+
+    const siteTitle = $("site-title");
+    siteTitle.addEventListener("click", refreshToLatestDecks);
+    siteTitle.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        refreshToLatestDecks();
+      }
     });
 
     document.addEventListener("visibilitychange", async () => {
@@ -752,6 +954,27 @@
           requestAnimationFrame(() => banner.classList.add("visible"));
         }
       } catch (_) {}
+    });
+
+    content.addEventListener("click", (e) => {
+      const toggle = e.target.closest(".contact-toggle");
+      if (toggle) {
+        e.stopPropagation();
+        const panel = toggle.parentElement?.querySelector(".contact-panel");
+        if (!panel) return;
+        const open = panel.hidden;
+        content.querySelectorAll(".contact-panel").forEach((p) => { p.hidden = true; });
+        content.querySelectorAll(".contact-toggle").forEach((t) => t.setAttribute("aria-expanded", "false"));
+        panel.hidden = !open;
+        toggle.setAttribute("aria-expanded", open ? "true" : "false");
+        return;
+      }
+      if (e.target.closest(".contact-panel")) e.stopPropagation();
+    });
+
+    document.addEventListener("click", () => {
+      content.querySelectorAll(".contact-panel").forEach((p) => { p.hidden = true; });
+      content.querySelectorAll(".contact-toggle").forEach((t) => t.setAttribute("aria-expanded", "false"));
     });
   </script>
   <script data-goatcounter="https://vedalken.goatcounter.com/count"

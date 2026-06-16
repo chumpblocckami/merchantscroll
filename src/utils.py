@@ -100,6 +100,8 @@ def minify_tournament_data(data: dict) -> dict:
             minified_deck["wins"] = deck["wins"]
         if "final_rank" in deck:
             minified_deck["final_rank"] = deck["final_rank"]
+        if deck.get("archetype"):
+            minified_deck["archetype"] = deck["archetype"]
         decklists.append(minified_deck)
 
     minified["decklists"] = decklists

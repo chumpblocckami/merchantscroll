@@ -114,6 +114,18 @@ body {
   white-space: nowrap;
 }
 
+.site-title {
+  cursor: pointer;
+  user-select: none;
+  transition: opacity 0.15s ease;
+}
+
+.site-title:hover,
+.site-title:focus-visible {
+  opacity: 0.75;
+  outline: none;
+}
+
 .header-meta {
   font-size: 0.68em;
   color: var(--text-faint);
@@ -295,6 +307,10 @@ body {
   animation: slideDown 0.2s ease-out;
 }
 
+.deck-container.slide-out-right {
+  animation: slideOutRight 0.22s ease-in forwards;
+}
+
 @keyframes slideUp {
   from { opacity: 0; transform: translateY(30px); }
   to { opacity: 1; transform: translateY(0); }
@@ -303,6 +319,29 @@ body {
 @keyframes slideDown {
   from { opacity: 0; transform: translateY(-30px); }
   to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideOutRight {
+  from { opacity: 1; transform: translateX(0); }
+  to { opacity: 0; transform: translateX(-48px); }
+}
+
+.profile-wrap.slide-in-right {
+  animation: slideInRight 0.22s ease-out;
+}
+
+.profile-wrap.slide-out-left {
+  animation: slideOutLeft 0.22s ease-in forwards;
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(48px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideOutLeft {
+  from { opacity: 1; transform: translateX(0); }
+  to { opacity: 0; transform: translateX(48px); }
 }
 
 .deck-header {
@@ -335,6 +374,46 @@ body {
   border-radius: 4px;
   font-variant-numeric: tabular-nums;
   letter-spacing: 0.5px;
+}
+
+/* ── Deck archetype ── */
+
+.deck-archetype {
+  font-size: 0.85em;
+  font-weight: 600;
+  color: var(--text-dim);
+  letter-spacing: 0.3px;
+  margin-top: 2px;
+}
+
+a.deck-archetype {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+a.deck-archetype:hover {
+  color: var(--accent);
+}
+
+.player-link {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.player-link:hover {
+  color: var(--accent);
+}
+
+a.player-name {
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+a.player-name:hover {
+  color: var(--accent);
 }
 
 /* ── Color pips ── */
@@ -377,7 +456,59 @@ body {
   gap: 28px;
   min-height: 0;
   overflow-y: auto;
-  padding-bottom: 10px;
+  padding-bottom: 6px;
+}
+
+.deck-actions {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  padding: 16px 0 8px;
+}
+
+.deck-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.download-btn {
+  display: block;
+  min-width: 160px;
+  padding: 8px 18px;
+  font-family: inherit;
+  font-size: 0.72em;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  color: var(--accent);
+  background: var(--surface);
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.18s ease, color 0.18s ease, transform 0.18s ease;
+}
+
+.download-btn:hover {
+  background: var(--accent);
+  color: var(--bg);
+  transform: translateY(-1px);
+}
+
+.download-btn:active {
+  transform: translateY(0);
+}
+
+.download-btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
 }
 
 .decklist-columns::-webkit-scrollbar {
@@ -523,6 +654,50 @@ body {
   text-underline-offset: 2px;
 }
 
+/* ── Footer contact ── */
+
+.contact-toggle {
+  font-family: inherit;
+  font-size: 0.6em;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-ghost);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 3px 7px;
+  cursor: pointer;
+  opacity: 0.55;
+  transition: opacity 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.contact-toggle:hover,
+.contact-toggle:focus-visible {
+  opacity: 1;
+  color: var(--text-dim);
+  border-color: var(--border-2);
+  outline: none;
+}
+
+.contact-panel {
+  padding: 4px 8px;
+  background: var(--surface);
+  border: 1px solid var(--border-2);
+  border-radius: 4px;
+  font-size: 0.62em;
+}
+
+.contact-panel a {
+  color: var(--text-faint);
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.contact-panel a:hover {
+  color: var(--accent);
+}
+
 /* ── Loader ── */
 
 .loader {
@@ -550,6 +725,166 @@ kbd {
   border: 1px solid var(--kbd-border);
   border-radius: 3px;
   color: var(--kbd-color);
+}
+
+/* ── Player profile page ── */
+
+.profile-page {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100dvh;
+}
+
+.site-link {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.site-link:hover {
+  color: var(--accent-hover);
+}
+
+.profile-container {
+  overflow-y: auto;
+  padding: 20px 16px 32px;
+}
+
+.profile-wrap {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.profile-section {
+  background: var(--surface);
+  border: 1px solid var(--border-2);
+  border-radius: 10px;
+  padding: 18px 20px;
+}
+
+.profile-title {
+  font-size: 0.78em;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--text-faint);
+  margin-bottom: 8px;
+}
+
+.profile-heading {
+  font-size: 0.95em;
+  font-weight: 700;
+  color: var(--text-1);
+  margin-bottom: 12px;
+}
+
+.profile-identity {
+  font-size: 1.05em;
+  color: var(--text-muted);
+}
+
+.profile-stat {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.88em;
+}
+
+.profile-stat:last-child {
+  border-bottom: none;
+}
+
+.profile-stat-label {
+  color: var(--text-dim);
+}
+
+.profile-stat-value {
+  color: var(--text-1);
+  font-weight: 600;
+  text-align: right;
+}
+
+.profile-deck-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.profile-deck-item {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  font-size: 0.9em;
+}
+
+.profile-deck-rank {
+  color: var(--text-ghost);
+  width: 1.5em;
+}
+
+.profile-deck-name {
+  color: var(--text-1);
+  font-weight: 600;
+  flex: 1;
+}
+
+.profile-deck-count {
+  color: var(--text-faint);
+  font-size: 0.9em;
+}
+
+.profile-history {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.profile-history-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: var(--surface-3);
+  text-decoration: none;
+  transition: background 0.15s;
+}
+
+.profile-history-row:hover {
+  background: var(--hover-bg);
+}
+
+.profile-history-meta {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.profile-history-date {
+  font-size: 0.78em;
+  color: var(--text-faint);
+}
+
+.profile-history-type {
+  font-size: 0.65em;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  color: var(--accent);
+}
+
+.profile-history-tournament {
+  font-size: 0.88em;
+  color: var(--text-1);
+  font-weight: 600;
+}
+
+.profile-history-detail {
+  font-size: 0.82em;
+  color: var(--text-dim);
 }
 
 /* ── Responsive ── */
@@ -607,11 +942,25 @@ kbd {
     overflow-y: visible;
     flex-direction: column;
     gap: 10px;
-    padding-bottom: 4px;
+    padding-bottom: 2px;
+  }
+
+  .deck-actions {
+    padding: 12px 0 6px;
+  }
+
+  .download-btn {
+    min-width: 140px;
+    padding: 7px 16px;
+    font-size: 0.68em;
   }
 
   .deck-header {
     margin-bottom: 4px;
+  }
+
+  .deck-archetype {
+    font-size: 0.78em;
   }
 
   .player-name {

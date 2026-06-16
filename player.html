@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0f0f0f" />
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+  <title>Player Profile – Merchant Scroll</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="profile-page">
+  <div class="header-container">
+    <div class="header-row">
+      <h1><a class="site-link" href="index.html">Merchant Scroll</a></h1>
+      <span class="header-meta">
+        <a class="info header-contact" href="mailto:contact.matteomazzola@gmail.com">Contact</a>
+      </span>
+      <button class="theme-toggle" id="theme-toggle" title="Toggle light/dark mode" aria-label="Toggle light/dark mode">&#9790;</button>
+    </div>
+  </div>
+
+  <main id="profile-content" class="profile-container">
+    <div class="loader" id="loader">Loading profile...</div>
+  </main>
+
+  <script>
+    const $ = (s) => document.getElementById(s);
+    const isTouch = "ontouchstart" in window || navigator.maxTouchPoints > 0;
+
+    const themeBtn = $("theme-toggle");
+    const themeMeta = document.querySelector('meta[name="theme-color"]');
+    function applyTheme(mode) {
+      document.documentElement.classList.toggle("light", mode === "light");
+      themeBtn.textContent = mode === "light" ? "\u2600" : "\u263E";
+      if (themeMeta) themeMeta.content = mode === "light" ? "#fafafa" : "#0f0f0f";
+    }
+    applyTheme(localStorage.getItem("ms-theme") || "dark");
+    themeBtn.addEventListener("click", () => {
+      const next = document.documentElement.classList.contains("light") ? "dark" : "light";
+      localStorage.setItem("ms-theme", next);
+      applyTheme(next);
+    });
+
+    const params = new URLSearchParams(window.location.search);
+    const username = (params.get("p") || "").toLowerCase();
+    const returnSite = params.get("site");
+    const returnPlayer = params.get("player");
+    const container = $("profile-content");
+    const loader = $("loader");
+
+    function el(tag, cls, text) {
+      const e = document.createElement(tag);
+      if (cls) e.className = cls;
+      if (text != null) e.textContent = text;
+      return e;
+    }
+
+    function deckUrl(entry) {
+      const q = new URLSearchParams({
+        site: entry.site_name,
+        player: entry.player,
+      });
+      return `index.html?${q.toString()}`;
+    }
+
+    function returnToDeckUrl() {
+      if (!returnSite || !returnPlayer) return null;
+      const q = new URLSearchParams({ site: returnSite, player: returnPlayer });
+      return `index.html?${q.toString()}`;
+    }
+
+    let navThrottle = false;
+    function returnToDeck() {
+      const url = returnToDeckUrl();
+      if (!url || navThrottle) return;
+      navThrottle = true;
+      const wrap = container.querySelector(".profile-wrap");
+      if (wrap) {
+        wrap.classList.add("slide-out-left");
+        wrap.addEventListener("animationend", () => { window.location.href = url; }, { once: true });
+      } else {
+        window.location.href = url;
+      }
+    }
+
+    function statLine(label, value) {
+      const row = el("div", "profile-stat");
+      row.appendChild(el("span", "profile-stat-label", label));
+      row.appendChild(el("span", "profile-stat-value", value));
+      return row;
+    }
+
+    function renderProfile(data) {
+      container.innerHTML = "";
+      const wrap = el("div", "profile-wrap");
+      if (returnToDeckUrl()) wrap.classList.add("slide-in-right");
+
+      const header = el("section", "profile-section");
+      header.appendChild(el("h2", "profile-title", "Player"));
+      const identity = el("p", "profile-identity");
+      identity.appendChild(document.createTextNode("Online: "));
+      identity.appendChild(el("strong", "", data.display_name || data.username));
+      if (data.irl_name) {
+        identity.appendChild(document.createTextNode(" | IRL: "));
+        identity.appendChild(el("strong", "", data.irl_name));
+      }
+      header.appendChild(identity);
+
+      if (returnToDeckUrl() && !isTouch) {
+        const hint = el("div", "kbd-hint", "");
+        const kLeft = document.createElement("kbd");
+        kLeft.textContent = "\u2190";
+        hint.appendChild(kLeft);
+        hint.appendChild(document.createTextNode(" back to deck"));
+        header.appendChild(hint);
+      }
+
+      wrap.appendChild(header);
+
+      const stats = data.stats || {};
+      const score = el("section", "profile-section");
+      score.appendChild(el("h3", "profile-heading", "Overall Score"));
+      score.appendChild(statLine("Total entries", String(stats.total_entries || 0)));
+
+      let trophyText = String(stats.league_trophies || 0) + " trophies";
+      if (stats.league_trophy_rank_yearly && stats.league_trophy_players_yearly) {
+        trophyText += ` (ranked ${stats.league_trophy_rank_yearly}/${stats.league_trophy_players_yearly} yearly`;
+        if (stats.league_trophy_rank_alltime && stats.league_trophy_players_alltime) {
+          trophyText += ` — ${stats.league_trophy_rank_alltime}/${stats.league_trophy_players_alltime} all-time`;
+        }
+        trophyText += ")";
+      }
+      score.appendChild(statLine("Leagues", trophyText));
+
+      if (stats.challenge_wins || stats.challenge_losses) {
+        const total = (stats.challenge_wins || 0) + (stats.challenge_losses || 0);
+        const pct = stats.challenge_win_pct != null ? ` (win% ${stats.challenge_win_pct})` : "";
+        score.appendChild(statLine("Challenges", `${stats.challenge_wins || 0}/${total}${pct}`));
+      }
+
+      if (stats.irl_top8) {
+        score.appendChild(statLine("IRL tournaments", `${stats.irl_top8} top-8`));
+      }
+
+      wrap.appendChild(score);
+
+      const decks = data.favorite_decks || [];
+      if (decks.length) {
+        const fav = el("section", "profile-section");
+        fav.appendChild(el("h3", "profile-heading", "Favorite Decks"));
+        const list = el("ol", "profile-deck-list");
+        decks.forEach((item, i) => {
+          const li = el("li", "profile-deck-item");
+          li.appendChild(el("span", "profile-deck-rank", `${i + 1}.`));
+          li.appendChild(el("span", "profile-deck-name", item.archetype));
+          li.appendChild(el("span", "profile-deck-count", `${item.count} entries`));
+          list.appendChild(li);
+        });
+        fav.appendChild(list);
+        wrap.appendChild(fav);
+      }
+
+      const entries = data.recent_entries || [];
+      if (entries.length) {
+        const hist = el("section", "profile-section");
+        hist.appendChild(el("h3", "profile-heading", "Recent Results"));
+        const list = el("div", "profile-history");
+        for (const entry of entries) {
+          const row = el("a", "profile-history-row");
+          row.href = deckUrl(entry);
+          const meta = el("div", "profile-history-meta");
+          meta.appendChild(el("span", "profile-history-date", entry.date || "—"));
+          meta.appendChild(el("span", "profile-history-type", (entry.type || "event").toUpperCase()));
+          row.appendChild(meta);
+          row.appendChild(el("span", "profile-history-tournament", entry.tournament || entry.site_name));
+          const detail = [entry.archetype, entry.record].filter(Boolean).join(" · ");
+          if (detail) row.appendChild(el("span", "profile-history-detail", detail));
+          list.appendChild(row);
+        }
+        hist.appendChild(list);
+        wrap.appendChild(hist);
+      }
+
+      container.appendChild(wrap);
+    }
+
+    async function init() {
+      if (!username) {
+        loader.textContent = "No player specified.";
+        return;
+      }
+
+      try {
+        const res = await fetch(`assets/pauper/players/${encodeURIComponent(username)}.json`, { cache: "no-store" });
+        if (!res.ok) throw new Error("not found");
+        renderProfile(await res.json());
+      } catch (_) {
+        loader.textContent = `No profile found for "${username}".`;
+      }
+    }
+
+    init();
+
+    if (returnToDeckUrl()) {
+      document.addEventListener("keydown", (e) => {
+        if (e.key === "ArrowLeft") { e.preventDefault(); returnToDeck(); }
+      });
+
+      let touchStartX = 0;
+      let touchStartY = 0;
+      container.addEventListener("touchstart", (e) => {
+        touchStartX = e.changedTouches[0].screenX;
+        touchStartY = e.changedTouches[0].screenY;
+      }, { passive: true });
+      container.addEventListener("touchend", (e) => {
+        const deltaX = touchStartX - e.changedTouches[0].screenX;
+        const deltaY = touchStartY - e.changedTouches[0].screenY;
+        if (Math.abs(deltaX) > Math.abs(deltaY) && deltaX < -50) returnToDeck();
+      });
+    }
+  </script>
+</body>
+
+</html>

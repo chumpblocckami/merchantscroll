@@ -1,4 +1,4 @@
-import re
+import os
 import time
 from datetime import datetime
 from pathlib import Path
@@ -10,6 +10,14 @@ from tqdm import tqdm
 from src.constants.misc import FORMATS
 from src.constants.paths import RAW_TOURNAMENT_PATH
 from src.crawler import crawl_decks, crawl_tournaments
+from src.pipeline import crawl_pauperwave_tournaments
+from src.classifier import (
+    classify_unlabeled_mtgo_decks,
+    enrich_archetypes,
+    load_archetype_dictionary,
+    rebuild_archetype_dictionary,
+)
+from src.player_stats import rebuild_player_profiles
 from src.saver import save_json_locally
 from src.scryfall import build_color_lookup, download_oracle_cards
 from src.utils import extract_date
@@ -48,6 +56,7 @@ def git_push_all(message: str) -> None:
     repo = Repo(Path.cwd())
     repo.remotes.origin.pull("main")
     repo.git.add("assets/")
+    repo.git.add("archetypes/")
     if repo.is_dirty(untracked_files=True):
         repo.index.commit(message)
         repo.git.push("origin", "main")
@@ -60,6 +69,8 @@ def start_crawler():
     download_oracle_cards()
     color_lookup = build_color_lookup()
     print(f"Loaded {len(color_lookup)} Scryfall card entries for color enrichment.")
+
+    rebuild_archetype_dictionary()
 
     crawled = 0
     skipped = 0
@@ -91,16 +102,36 @@ def start_crawler():
                 skipped += 1
                 continue
 
+            archetype_map = load_archetype_dictionary()
+            if archetype_map:
+                enrich_archetypes(data, archetype_map)
+
             site_name = data.get("site_name", slug_from_url(url))
             path = RAW_TOURNAMENT_PATH.format(deck_format=fmt, tournament_id=site_name)
             save_json_locally(path, data)
             crawled += 1
             time.sleep(1)
 
+    token = os.environ.get("TOKEN") or os.environ.get("GITHUB_TOKEN")
+    pw_crawled = crawl_pauperwave_tournaments(color_lookup, token=token)
+    crawled += len(pw_crawled)
+
+    if pw_crawled:
+        rebuild_archetype_dictionary()
+
+    archetype_map = load_archetype_dictionary()
+    classified = classify_unlabeled_mtgo_decks(archetype_map)
+    if classified:
+        print(f"Classified {classified} MTGO decklist(s).")
+        crawled += classified
+
+    rebuild_player_profiles()
+
     print(f"Done. Crawled: {crawled}, Skipped: {skipped}")
 
-    if crawled > 0:
-        git_push_all(f"Crawled {crawled} tournament(s)")
+    git_push_all(
+        f"Crawled {crawled} tournament(s)" if crawled else "Update player profiles"
+    )
 
 
 if __name__ == "__main__":

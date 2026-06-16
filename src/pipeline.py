@@ -6,10 +6,23 @@ the info.json timestamp.
 """
 
 import json
+import os
 from datetime import datetime, timezone
 from pathlib import Path
 
+from .classifier import (
+    classify_unlabeled_mtgo_decks,
+    enrich_archetypes,
+    load_archetype_dictionary,
+    rebuild_archetype_dictionary,
+)
 from .crawler import crawl_decks, crawl_tournaments
+from .player_stats import rebuild_player_profiles
+from .pauperwave_crawler import (
+    discover_pauperwave_files,
+    fetch_markdown,
+    parse_tournament_file,
+)
 from .scryfall import build_color_lookup, download_oracle_cards
 from .utils import extract_date
 
@@ -65,6 +78,10 @@ def crawl_new_tournaments(color_lookup: dict[str, list[str]]) -> list[str]:
             print(f"  Skipped (crawl failed).")
             continue
 
+        archetype_map = load_archetype_dictionary()
+        if archetype_map:
+            enrich_archetypes(data, archetype_map)
+
         deck_count = len(data.get("decklists", []))
         out_path = RAW_DIR / f"{site_name}.json"
         out_path.write_text(json.dumps(data, indent=2))
@@ -72,6 +89,64 @@ def crawl_new_tournaments(color_lookup: dict[str, list[str]]) -> list[str]:
         crawled.append(site_name)
 
     print(f"\nCrawled {len(crawled)} new tournament(s).")
+    return crawled
+
+
+def crawl_pauperwave_tournaments(
+    color_lookup: dict[str, list[str]],
+    token: str | None = None,
+) -> list[str]:
+    """Crawl new Pauperwave IRL tournaments.
+
+    Returns a list of site_names that were newly crawled.
+    """
+    print("Discovering tournaments from Pauperwave...")
+    try:
+        files = discover_pauperwave_files(token=token)
+    except Exception as e:
+        print(f"  Failed to list Pauperwave files: {e}")
+        return []
+
+    print(f"Found {len(files)} Pauperwave tournament file(s).")
+
+    existing = existing_site_names()
+    new_files = []
+    for f in files:
+        slug = f["name"].replace(".md", "")
+        site_name = f"pauperwave-{slug}"
+        if site_name not in existing:
+            new_files.append((f, site_name))
+
+    if not new_files:
+        print("No new Pauperwave tournaments to import.")
+        return []
+
+    print(f"{len(new_files)} new Pauperwave tournament(s) to import.\n")
+    RAW_DIR.mkdir(parents=True, exist_ok=True)
+
+    crawled = []
+    for file_info, site_name in new_files:
+        print(f"  Importing {file_info['name']}...")
+        try:
+            md = fetch_markdown(file_info["download_url"])
+            data = parse_tournament_file(
+                md, file_info["name"], color_lookup=color_lookup
+            )
+        except Exception as e:
+            print(f"  Skipped (error: {e}).")
+            continue
+
+        if data is None:
+            print("  Skipped (no decklists or unpublished).")
+            continue
+
+        deck_count = len(data.get("decklists", []))
+        out_path = RAW_DIR / f"{site_name}.json"
+        out_path.write_text(json.dumps(data, indent=2))
+        print(f"  Saved ({deck_count} decks).")
+        crawled.append(site_name)
+
+    print(f"\nImported {len(crawled)} Pauperwave tournament(s).")
     return crawled
 
 
@@ -145,13 +220,28 @@ def run(refresh_scryfall: bool = False):
     color_lookup = build_color_lookup()
     print(f"Loaded {len(color_lookup)} card entries.\n")
 
-    crawled = crawl_new_tournaments(color_lookup)
+    rebuild_archetype_dictionary()
 
-    if crawled:
+    token = os.environ.get("TOKEN") or os.environ.get("GITHUB_TOKEN")
+    crawled = crawl_new_tournaments(color_lookup)
+    pw_crawled = crawl_pauperwave_tournaments(color_lookup, token=token)
+
+    if pw_crawled:
+        rebuild_archetype_dictionary()
+
+    archetype_map = load_archetype_dictionary()
+    classified = classify_unlabeled_mtgo_decks(archetype_map)
+    if classified:
+        print(f"Classified {classified} MTGO decklist(s).")
+
+    all_crawled = crawled + pw_crawled
+
+    if all_crawled or classified:
         rebuild_index()
         rebuild_players_index()
+        rebuild_player_profiles()
         write_info()
     else:
         print("Nothing new — index unchanged.")
 
-    return crawled
+    return all_crawled
