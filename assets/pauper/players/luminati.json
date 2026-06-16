@@ -3,22 +3,22 @@
   "display_name": "Luminati",
   "irl_name": null,
   "stats": {
-    "total_entries": 242,
-    "league_trophies": 75,
-    "league_trophies_yearly": 14,
+    "total_entries": 243,
+    "league_trophies": 76,
+    "league_trophies_yearly": 15,
     "challenge_wins": 716,
     "challenge_losses": 404,
     "irl_top8": 0,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 13,
+    "league_trophy_rank_yearly": 9,
     "league_trophy_rank_alltime": 7,
-    "league_trophy_players_yearly": 792,
-    "league_trophy_players_alltime": 1889
+    "league_trophy_players_yearly": 793,
+    "league_trophy_players_alltime": 1890
   },
   "favorite_decks": [
     {
       "archetype": "U Terror",
-      "count": 240
+      "count": 241
     },
     {
       "archetype": "Dredge",
@@ -26,6 +26,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-1610636",
+      "tournament": "Pauper League",
+      "date": "2026-06-16",
+      "player": "Luminati",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-1510636",
       "tournament": "Pauper League",
@@ -385,21 +400,6 @@
       "final_rank": 16,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-05-0710636",
-      "tournament": "Pauper League",
-      "date": "2026-05-07",
-      "player": "Luminati",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }
