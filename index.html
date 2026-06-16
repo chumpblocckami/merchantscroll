@@ -59,12 +59,15 @@
 <body>
   <div class="header-container">
     <div class="header-row">
-      <h1 id="site-title" class="site-title" title="Back to latest decks" tabindex="0" role="button">Merchant Scroll</h1>
-      <span class="header-meta">
-        <span class="info" id="info">Loading...</span>
-        <span class="info" id="deck-count"></span>
-      </span>
-      <button class="theme-toggle" id="theme-toggle" title="Toggle light/dark mode" aria-label="Toggle light/dark mode">&#9790;</button>
+      <div class="header-brand">
+        <h1 id="site-title" class="site-title" title="Back to latest decks" tabindex="0" role="button">Merchant Scroll</h1>
+        <span class="header-last-update info" id="info">Loading...</span>
+        <span class="header-deck-count info" id="deck-count"></span>
+      </div>
+      <div class="header-actions">
+        <a class="header-icon-btn contact-mail" href="mailto:contact.matteomazzola@gmail.com" aria-label="Contact" title="Contact">&#9993;</a>
+        <button class="header-icon-btn theme-toggle" id="theme-toggle" title="Toggle light/dark mode" aria-label="Toggle light/dark mode">&#9790;</button>
+      </div>
     </div>
     <div class="breadcrumb" id="breadcrumb"></div>
   </div>
@@ -602,21 +605,6 @@
       breadcrumbEl.appendChild(deckTrigger);
     }
 
-    function renderContactBlock() {
-      const wrap = el("div", "deck-contact");
-      const toggle = el("button", "contact-toggle", "Contact");
-      toggle.type = "button";
-      toggle.setAttribute("aria-expanded", "false");
-      const panel = el("div", "contact-panel");
-      panel.hidden = true;
-      const link = el("a", "", "contact.matteomazzola@gmail.com");
-      link.href = "mailto:contact.matteomazzola@gmail.com";
-      panel.appendChild(link);
-      wrap.appendChild(toggle);
-      wrap.appendChild(panel);
-      return wrap;
-    }
-
     /* ── Deck renderer ── */
     function renderDeck(entry) {
       const deck = entry.decklist;
@@ -691,7 +679,6 @@
         downloadDecklist(entry);
       });
       actions.appendChild(downloadBtn);
-      actions.appendChild(renderContactBlock());
       container.appendChild(actions);
 
       return container;
@@ -954,27 +941,6 @@
           requestAnimationFrame(() => banner.classList.add("visible"));
         }
       } catch (_) {}
-    });
-
-    content.addEventListener("click", (e) => {
-      const toggle = e.target.closest(".contact-toggle");
-      if (toggle) {
-        e.stopPropagation();
-        const panel = toggle.parentElement?.querySelector(".contact-panel");
-        if (!panel) return;
-        const open = panel.hidden;
-        content.querySelectorAll(".contact-panel").forEach((p) => { p.hidden = true; });
-        content.querySelectorAll(".contact-toggle").forEach((t) => t.setAttribute("aria-expanded", "false"));
-        panel.hidden = !open;
-        toggle.setAttribute("aria-expanded", open ? "true" : "false");
-        return;
-      }
-      if (e.target.closest(".contact-panel")) e.stopPropagation();
-    });
-
-    document.addEventListener("click", () => {
-      content.querySelectorAll(".contact-panel").forEach((p) => { p.hidden = true; });
-      content.querySelectorAll(".contact-toggle").forEach((t) => t.setAttribute("aria-expanded", "false"));
     });
   </script>
   <script data-goatcounter="https://vedalken.goatcounter.com/count"
