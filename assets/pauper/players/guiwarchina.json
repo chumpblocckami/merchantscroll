@@ -25,6 +25,10 @@
       "count": 2
     },
     {
+      "archetype": "Monsters",
+      "count": 1
+    },
+    {
       "archetype": "Gardens",
       "count": 1
     },
@@ -33,15 +37,11 @@
       "count": 1
     },
     {
-      "archetype": "R Madness",
-      "count": 1
-    },
-    {
-      "archetype": "Monsters",
-      "count": 1
-    },
-    {
       "archetype": "Rally",
+      "count": 1
+    },
+    {
+      "archetype": "R Madness",
       "count": 1
     }
   ],
@@ -92,6 +92,21 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2025-12-309987",
+      "tournament": "pauper-league-2025-12-309987",
+      "date": "",
+      "player": "guiwarchina",
+      "archetype": "Monsters",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2025-06-249366",
       "tournament": "pauper-league-2025-06-249366",
       "date": "",
@@ -123,29 +138,12 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-12-159987",
-      "tournament": "pauper-league-2025-12-159987",
+      "site_name": "pauper-league-2025-05-159081",
+      "tournament": "pauper-league-2025-05-159081",
       "date": "",
       "player": "guiwarchina",
-      "archetype": "R Madness",
+      "archetype": "Pingers",
       "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-12-309987",
-      "tournament": "pauper-league-2025-12-309987",
-      "date": "",
-      "player": "guiwarchina",
-      "archetype": "Monsters",
-      "colors": [
-        "G",
         "R"
       ],
       "record": "5-0",
@@ -168,13 +166,15 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-05-159081",
-      "tournament": "pauper-league-2025-05-159081",
+      "site_name": "pauper-league-2025-12-159987",
+      "tournament": "pauper-league-2025-12-159987",
       "date": "",
       "player": "guiwarchina",
-      "archetype": "Pingers",
+      "archetype": "R Madness",
       "colors": [
-        "R"
+        "B",
+        "R",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,

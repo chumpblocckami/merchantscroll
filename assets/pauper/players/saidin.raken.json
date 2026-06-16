@@ -3,9 +3,9 @@
   "display_name": "saidin.raken",
   "irl_name": null,
   "stats": {
-    "total_entries": 125,
-    "league_trophies": 121,
-    "league_trophies_yearly": 22,
+    "total_entries": 126,
+    "league_trophies": 122,
+    "league_trophies_yearly": 23,
     "challenge_wins": 4,
     "challenge_losses": 2,
     "irl_top8": 0,
@@ -22,7 +22,7 @@
     },
     {
       "archetype": "RG Storm",
-      "count": 28
+      "count": 29
     },
     {
       "archetype": "Familiars",
@@ -34,18 +34,14 @@
     },
     {
       "archetype": "Altar",
-      "count": 5
-    },
-    {
-      "archetype": "BGRUW",
-      "count": 5
-    },
-    {
-      "archetype": "Altar Tron",
-      "count": 3
+      "count": 10
     },
     {
       "archetype": "Cycle Storm",
+      "count": 3
+    },
+    {
+      "archetype": "Altar Tron",
       "count": 3
     },
     {
@@ -55,6 +51,10 @@
     {
       "archetype": "Spy",
       "count": 2
+    },
+    {
+      "archetype": "BG Glee",
+      "count": 1
     }
   ],
   "recent_entries": [
@@ -67,6 +67,22 @@
       "colors": [
         "U",
         "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1610636",
+      "tournament": "Pauper League",
+      "date": "2026-06-16",
+      "player": "saidin.raken",
+      "archetype": "RG Storm",
+      "colors": [
+        "G",
+        "R",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -448,20 +464,6 @@
         "U"
       ],
       "record": "1-1",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2025-08-1112807503",
-      "tournament": "Pauper Last Chance",
-      "date": "2025-08-11",
-      "player": "saidin.raken",
-      "archetype": "",
-      "colors": [
-        "U"
-      ],
-      "record": "4-1",
       "final_rank": null,
       "source": "mtgo",
       "type": "other"

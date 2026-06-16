@@ -33,19 +33,19 @@
       "count": 15
     },
     {
-      "archetype": "U Faeries",
-      "count": 2
-    },
-    {
       "archetype": "Rally",
       "count": 2
     },
     {
-      "archetype": "White Weenie",
-      "count": 1
+      "archetype": "U Faeries",
+      "count": 2
     },
     {
       "archetype": "Pingers",
+      "count": 1
+    },
+    {
+      "archetype": "White Weenie",
       "count": 1
     }
   ],
@@ -273,21 +273,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-04-2610636",
-      "tournament": "Pauper League",
-      "date": "2026-04-26",
-      "player": "carvs",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-04-2612840571",
       "tournament": "Pauper Challenge 32",
       "date": "2026-04-26",
@@ -301,6 +286,21 @@
       "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-04-2610636",
+      "tournament": "Pauper League",
+      "date": "2026-04-26",
+      "player": "carvs",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-04-2510636",
@@ -429,20 +429,20 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-04-0912838859",
-      "tournament": "Pauper Challenge 32",
+      "site_name": "pauper-league-2026-04-0910405",
+      "tournament": "Pauper League",
       "date": "2026-04-09",
       "player": "carvs",
-      "archetype": "Jund",
+      "archetype": "R Madness",
       "colors": [
         "B",
-        "G",
-        "R"
+        "R",
+        "U"
       ],
-      "record": "5-2",
-      "final_rank": 6,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     }
   ]
 }

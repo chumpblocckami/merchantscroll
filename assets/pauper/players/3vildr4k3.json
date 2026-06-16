@@ -25,12 +25,16 @@
       "count": 5
     },
     {
+      "archetype": "Gardens",
+      "count": 2
+    },
+    {
       "archetype": "Altar",
       "count": 2
     },
     {
-      "archetype": "Gardens",
-      "count": 2
+      "archetype": "UB Terror",
+      "count": 1
     },
     {
       "archetype": "Boros Glitter",
@@ -38,10 +42,6 @@
     },
     {
       "archetype": "U Terror",
-      "count": 1
-    },
-    {
-      "archetype": "UB Terror",
       "count": 1
     }
   ],
@@ -258,41 +258,8 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2025-06-129366",
-      "tournament": "pauper-league-2025-06-129366",
-      "date": "",
-      "player": "3vildr4k3",
-      "archetype": "Altar",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-10-299750",
-      "tournament": "pauper-league-2025-10-299750",
-      "date": "",
-      "player": "3vildr4k3",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-11-089750",
-      "tournament": "pauper-league-2025-11-089750",
+      "site_name": "pauper-league-2025-11-049750",
+      "tournament": "pauper-league-2025-11-049750",
       "date": "",
       "player": "3vildr4k3",
       "archetype": "Spy",
@@ -300,39 +267,6 @@
         "B",
         "G",
         "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-08-209535",
-      "tournament": "pauper-league-2025-08-209535",
-      "date": "",
-      "player": "3vildr4k3",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-05-229081",
-      "tournament": "pauper-league-2025-05-229081",
-      "date": "",
-      "player": "3vildr4k3",
-      "archetype": "Altar Tron",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -372,12 +306,30 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-08-099535",
-      "tournament": "pauper-league-2025-08-099535",
+      "site_name": "pauper-league-2025-09-229535",
+      "tournament": "pauper-league-2025-09-229535",
       "date": "",
       "player": "3vildr4k3",
-      "archetype": "U Terror",
+      "archetype": "Spy",
       "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-05-229081",
+      "tournament": "pauper-league-2025-05-229081",
+      "date": "",
+      "player": "3vildr4k3",
+      "archetype": "Altar Tron",
+      "colors": [
+        "B",
+        "G",
         "R",
         "U"
       ],
@@ -387,8 +339,8 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-09-309750",
-      "tournament": "pauper-league-2025-09-309750",
+      "site_name": "pauper-league-2025-11-089750",
+      "tournament": "pauper-league-2025-11-089750",
       "date": "",
       "player": "3vildr4k3",
       "archetype": "Spy",
@@ -396,6 +348,73 @@
         "B",
         "G",
         "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-299750",
+      "tournament": "pauper-league-2025-10-299750",
+      "date": "",
+      "player": "3vildr4k3",
+      "archetype": "Gardens",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-05-319081",
+      "tournament": "pauper-league-2025-05-319081",
+      "date": "",
+      "player": "3vildr4k3",
+      "archetype": "Altar",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-08-209535",
+      "tournament": "pauper-league-2025-08-209535",
+      "date": "",
+      "player": "3vildr4k3",
+      "archetype": "Spy",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-06-129366",
+      "tournament": "pauper-league-2025-06-129366",
+      "date": "",
+      "player": "3vildr4k3",
+      "archetype": "Altar",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -420,31 +439,14 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-09-229535",
-      "tournament": "pauper-league-2025-09-229535",
+      "site_name": "pauper-league-2025-08-099535",
+      "tournament": "pauper-league-2025-08-099535",
       "date": "",
       "player": "3vildr4k3",
-      "archetype": "Spy",
+      "archetype": "U Terror",
       "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-11-049750",
-      "tournament": "pauper-league-2025-11-049750",
-      "date": "",
-      "player": "3vildr4k3",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G",
-        "R"
+        "R",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,

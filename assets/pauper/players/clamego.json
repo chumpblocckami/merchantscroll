@@ -25,11 +25,11 @@
       "count": 2
     },
     {
-      "archetype": "UB Faeries",
+      "archetype": "Gardens",
       "count": 2
     },
     {
-      "archetype": "Gardens",
+      "archetype": "UB Faeries",
       "count": 2
     },
     {
@@ -41,19 +41,19 @@
       "count": 1
     },
     {
-      "archetype": "BW Refurbished",
-      "count": 1
-    },
-    {
       "archetype": "Dredge",
       "count": 1
     },
     {
-      "archetype": "UB Terror",
+      "archetype": "White Weenie",
       "count": 1
     },
     {
-      "archetype": "UR Control",
+      "archetype": "GRU",
+      "count": 1
+    },
+    {
+      "archetype": "UB Terror",
       "count": 1
     }
   ],
@@ -221,21 +221,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2025-12-319987",
-      "tournament": "pauper-league-2025-12-319987",
-      "date": "",
-      "player": "clamego",
-      "archetype": "BW Refurbished",
-      "colors": [
-        "B",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2025-11-269987",
       "tournament": "pauper-league-2025-11-269987",
       "date": "",
@@ -254,13 +239,15 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-12-179987",
-      "tournament": "pauper-league-2025-12-179987",
+      "site_name": "pauper-league-2025-09-019535",
+      "tournament": "pauper-league-2025-09-019535",
       "date": "",
       "player": "clamego",
-      "archetype": "UB Faeries",
+      "archetype": "Walls",
       "colors": [
         "B",
+        "G",
+        "R",
         "U"
       ],
       "record": "5-0",
@@ -278,6 +265,21 @@
         "B",
         "G",
         "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-12-179987",
+      "tournament": "pauper-league-2025-12-179987",
+      "date": "",
+      "player": "clamego",
+      "archetype": "UB Faeries",
+      "colors": [
+        "B",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -315,16 +317,14 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-09-019535",
-      "tournament": "pauper-league-2025-09-019535",
+      "site_name": "pauper-league-2025-12-319987",
+      "tournament": "pauper-league-2025-12-319987",
       "date": "",
       "player": "clamego",
-      "archetype": "Walls",
+      "archetype": "BW Refurbished",
       "colors": [
         "B",
-        "G",
-        "R",
-        "U"
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,

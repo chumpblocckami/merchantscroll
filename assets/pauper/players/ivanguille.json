@@ -17,11 +17,11 @@
   },
   "favorite_decks": [
     {
-      "archetype": "UB Terror",
+      "archetype": "UB Control",
       "count": 4
     },
     {
-      "archetype": "UB Control",
+      "archetype": "UB Terror",
       "count": 4
     },
     {
@@ -29,15 +29,15 @@
       "count": 3
     },
     {
-      "archetype": "Jund",
-      "count": 2
-    },
-    {
       "archetype": "Gardens",
       "count": 2
     },
     {
       "archetype": "U Terror",
+      "count": 2
+    },
+    {
+      "archetype": "Jund",
       "count": 2
     },
     {
@@ -208,87 +208,11 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-02-0410196",
-      "tournament": "pauper-league-2026-02-0410196",
-      "date": "",
-      "player": "ivanguille",
-      "archetype": "Elves",
-      "colors": [
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-10-199750",
-      "tournament": "pauper-league-2025-10-199750",
-      "date": "",
-      "player": "ivanguille",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-05-199081",
-      "tournament": "pauper-league-2025-05-199081",
-      "date": "",
-      "player": "ivanguille",
-      "archetype": "UB Terror",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-05-199081",
-      "tournament": "pauper-league-2025-05-199081",
-      "date": "",
-      "player": "ivanguille",
-      "archetype": "UB Terror",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2025-10-159750",
       "tournament": "pauper-league-2025-10-159750",
       "date": "",
       "player": "ivanguille",
       "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-07-149366",
-      "tournament": "pauper-league-2025-07-149366",
-      "date": "",
-      "player": "ivanguille",
-      "archetype": "Jund",
       "colors": [
         "B",
         "G",
@@ -316,6 +240,51 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2025-09-299750",
+      "tournament": "pauper-league-2025-09-299750",
+      "date": "",
+      "player": "ivanguille",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-07-149366",
+      "tournament": "pauper-league-2025-07-149366",
+      "date": "",
+      "player": "ivanguille",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-0410196",
+      "tournament": "pauper-league-2026-02-0410196",
+      "date": "",
+      "player": "ivanguille",
+      "archetype": "Elves",
+      "colors": [
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2025-09-289750",
       "tournament": "pauper-league-2025-09-289750",
       "date": "",
@@ -332,14 +301,45 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-09-299750",
-      "tournament": "pauper-league-2025-09-299750",
+      "site_name": "pauper-league-2025-05-199081",
+      "tournament": "pauper-league-2025-05-199081",
       "date": "",
       "player": "ivanguille",
-      "archetype": "U Terror",
+      "archetype": "UB Terror",
       "colors": [
-        "R",
+        "B",
         "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-05-199081",
+      "tournament": "pauper-league-2025-05-199081",
+      "date": "",
+      "player": "ivanguille",
+      "archetype": "UB Terror",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-199750",
+      "tournament": "pauper-league-2025-10-199750",
+      "date": "",
+      "player": "ivanguille",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,

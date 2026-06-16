@@ -37,19 +37,19 @@
       "count": 2
     },
     {
+      "archetype": "Jund",
+      "count": 1
+    },
+    {
       "archetype": "Naya Gates",
       "count": 1
     },
     {
-      "archetype": "Spy",
+      "archetype": "BR Madness",
       "count": 1
     },
     {
       "archetype": "Food Pestilence",
-      "count": 1
-    },
-    {
-      "archetype": "BR Madness",
       "count": 1
     },
     {
@@ -59,7 +59,7 @@
   ],
   "recent_entries": [
     {
-      "site_name": "pauper-league-2024-06-0310636",
+      "site_name": "pauper-league-2026-05-1510636",
       "tournament": "Pauper League",
       "date": "2026-05-15",
       "player": "giggimille",
@@ -77,7 +77,7 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-05-1510636",
+      "site_name": "pauper-league-2024-06-0310636",
       "tournament": "Pauper League",
       "date": "2026-05-15",
       "player": "giggimille",
@@ -320,15 +320,16 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-11-159750",
-      "tournament": "pauper-league-2025-11-159750",
+      "site_name": "pauper-league-2025-09-0710196",
+      "tournament": "pauper-league-2025-09-0710196",
       "date": "",
       "player": "giggimille",
-      "archetype": "Gardens",
+      "archetype": "Monsters Tron",
       "colors": [
-        "B",
         "G",
-        "R"
+        "R",
+        "U",
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -336,14 +337,30 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-07-069366",
-      "tournament": "pauper-league-2025-07-069366",
+      "site_name": "pauper-league-2026-03-1610405",
+      "tournament": "pauper-league-2026-03-1610405",
       "date": "",
       "player": "giggimille",
-      "archetype": "Spy",
+      "archetype": "Affinity",
       "colors": [
         "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-2310196",
+      "tournament": "pauper-league-2026-02-2310196",
+      "date": "",
+      "player": "giggimille",
+      "archetype": "Monsters Tron",
+      "colors": [
         "G",
+        "R",
         "U"
       ],
       "record": "5-0",
@@ -369,32 +386,15 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-02-2310196",
-      "tournament": "pauper-league-2026-02-2310196",
+      "site_name": "pauper-league-2025-11-159750",
+      "tournament": "pauper-league-2025-11-159750",
       "date": "",
       "player": "giggimille",
-      "archetype": "Monsters Tron",
+      "archetype": "Gardens",
       "colors": [
+        "B",
         "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-09-0710196",
-      "tournament": "pauper-league-2025-09-0710196",
-      "date": "",
-      "player": "giggimille",
-      "archetype": "Monsters Tron",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -418,14 +418,14 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-03-1610405",
-      "tournament": "pauper-league-2026-03-1610405",
+      "site_name": "pauper-league-2025-07-069366",
+      "tournament": "pauper-league-2025-07-069366",
       "date": "",
       "player": "giggimille",
-      "archetype": "Affinity",
+      "archetype": "Spy",
       "colors": [
         "B",
-        "R",
+        "G",
         "U"
       ],
       "record": "5-0",

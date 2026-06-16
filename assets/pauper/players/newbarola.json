@@ -29,11 +29,11 @@
       "count": 11
     },
     {
-      "archetype": "GR",
+      "archetype": "U Terror",
       "count": 9
     },
     {
-      "archetype": "U Terror",
+      "archetype": "GR",
       "count": 9
     },
     {
@@ -45,15 +45,15 @@
       "count": 2
     },
     {
-      "archetype": "Monsters",
-      "count": 2
-    },
-    {
       "archetype": "White Weennie",
       "count": 2
     },
     {
       "archetype": "Cawgate",
+      "count": 2
+    },
+    {
+      "archetype": "Monsters",
       "count": 2
     }
   ],
@@ -89,20 +89,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1112844295",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-11",
-      "player": "newbarola",
-      "archetype": "Rally",
-      "colors": [
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 26,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-06-1110636",
       "tournament": "Pauper League",
       "date": "2026-06-11",
@@ -115,6 +101,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1112844295",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-11",
+      "player": "newbarola",
+      "archetype": "Rally",
+      "colors": [
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-league-2026-06-1010636",
@@ -398,6 +398,38 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-05-1710636",
+      "tournament": "Pauper League",
+      "date": "2026-05-17",
+      "player": "newbarola",
+      "archetype": "GW Gates",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-05-1710636",
+      "tournament": "Pauper League",
+      "date": "2026-05-17",
+      "player": "newbarola",
+      "archetype": "GW Gates",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-rc-qualifier-2026-05-1712842450",
       "tournament": "Pauper RC Qualifier",
       "date": "2026-05-17",
@@ -412,38 +444,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-league-2026-05-1710636",
-      "tournament": "Pauper League",
-      "date": "2026-05-17",
-      "player": "newbarola",
-      "archetype": "GW Gates",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-1710636",
-      "tournament": "Pauper League",
-      "date": "2026-05-17",
-      "player": "newbarola",
-      "archetype": "GW Gates",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

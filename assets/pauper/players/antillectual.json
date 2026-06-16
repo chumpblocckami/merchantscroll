@@ -17,11 +17,11 @@
   },
   "favorite_decks": [
     {
-      "archetype": "UB Terror",
+      "archetype": "Flicker Tron",
       "count": 5
     },
     {
-      "archetype": "Flicker Tron",
+      "archetype": "UB Terror",
       "count": 5
     },
     {
@@ -29,11 +29,11 @@
       "count": 4
     },
     {
-      "archetype": "Rally",
+      "archetype": "Jeskai",
       "count": 2
     },
     {
-      "archetype": "Jeskai",
+      "archetype": "Rally",
       "count": 2
     },
     {
@@ -45,7 +45,7 @@
       "count": 2
     },
     {
-      "archetype": "UB Control",
+      "archetype": "U Terror",
       "count": 1
     },
     {
@@ -53,7 +53,7 @@
       "count": 1
     },
     {
-      "archetype": "BW Refurbished",
+      "archetype": "UB Control",
       "count": 1
     }
   ],
@@ -208,13 +208,31 @@
       "type": "other"
     },
     {
-      "site_name": "pauper-league-2025-06-209366",
-      "tournament": "pauper-league-2025-06-209366",
+      "site_name": "pauper-league-2025-07-019366",
+      "tournament": "pauper-league-2025-07-019366",
       "date": "",
       "player": "Antillectual",
-      "archetype": "UB Terror",
+      "archetype": "Flicker Tron",
       "colors": [
         "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-1610196",
+      "tournament": "pauper-league-2026-02-1610196",
+      "date": "",
+      "player": "Antillectual",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
         "U"
       ],
       "record": "5-0",
@@ -223,11 +241,11 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-05-289081",
-      "tournament": "pauper-league-2025-05-289081",
+      "site_name": "pauper-league-2025-05-089081",
+      "tournament": "pauper-league-2025-05-089081",
       "date": "",
       "player": "Antillectual",
-      "archetype": "UB Terror",
+      "archetype": "UB Faeries",
       "colors": [
         "B",
         "U"
@@ -253,39 +271,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-05-109081",
-      "tournament": "pauper-league-2025-05-109081",
-      "date": "",
-      "player": "Antillectual",
-      "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-06-289366",
-      "tournament": "pauper-league-2025-06-289366",
-      "date": "",
-      "player": "Antillectual",
-      "archetype": "Flicker Tron",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-02-2810196",
       "tournament": "pauper-league-2026-02-2810196",
       "date": "",
@@ -302,55 +287,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-01-209987",
-      "tournament": "pauper-league-2026-01-209987",
-      "date": "",
-      "player": "Antillectual",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-07-169366",
-      "tournament": "pauper-league-2025-07-169366",
-      "date": "",
-      "player": "Antillectual",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-07-289366",
-      "tournament": "pauper-league-2025-07-289366",
-      "date": "",
-      "player": "Antillectual",
-      "archetype": "UB Terror",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-02-0110196",
       "tournament": "pauper-league-2026-02-0110196",
       "date": "",
@@ -359,6 +295,21 @@
       "colors": [
         "G",
         "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-05-109081",
+      "tournament": "pauper-league-2025-05-109081",
+      "date": "",
+      "player": "Antillectual",
+      "archetype": "UB Faeries",
+      "colors": [
+        "B",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -396,11 +347,26 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-07-019366",
-      "tournament": "pauper-league-2025-07-019366",
+      "site_name": "pauper-league-2025-07-289366",
+      "tournament": "pauper-league-2025-07-289366",
       "date": "",
       "player": "Antillectual",
-      "archetype": "Flicker Tron",
+      "archetype": "UB Terror",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-07-169366",
+      "tournament": "pauper-league-2025-07-169366",
+      "date": "",
+      "player": "Antillectual",
+      "archetype": "Gardens",
       "colors": [
         "B",
         "G",
@@ -414,11 +380,11 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-05-089081",
-      "tournament": "pauper-league-2025-05-089081",
+      "site_name": "pauper-league-2025-06-209366",
+      "tournament": "pauper-league-2025-06-209366",
       "date": "",
       "player": "Antillectual",
-      "archetype": "UB Faeries",
+      "archetype": "UB Terror",
       "colors": [
         "B",
         "U"
@@ -444,13 +410,49 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-06-259366",
-      "tournament": "pauper-league-2025-06-259366",
+      "site_name": "pauper-league-2025-06-289366",
+      "tournament": "pauper-league-2025-06-289366",
       "date": "",
       "player": "Antillectual",
-      "archetype": "UR Control",
+      "archetype": "Flicker Tron",
       "colors": [
+        "B",
+        "G",
         "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-07-229366",
+      "tournament": "pauper-league-2025-07-229366",
+      "date": "",
+      "player": "Antillectual",
+      "archetype": "Gardens",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-05-289081",
+      "tournament": "pauper-league-2025-05-289081",
+      "date": "",
+      "player": "Antillectual",
+      "archetype": "UB Terror",
+      "colors": [
+        "B",
         "U"
       ],
       "record": "5-0",

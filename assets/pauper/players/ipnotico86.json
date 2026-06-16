@@ -17,19 +17,15 @@
   },
   "favorite_decks": [
     {
-      "archetype": "Jund",
-      "count": 2
-    },
-    {
       "archetype": "Rally",
       "count": 2
     },
     {
-      "archetype": "UB Terror",
-      "count": 1
+      "archetype": "Jund",
+      "count": 2
     },
     {
-      "archetype": "Monsters",
+      "archetype": "U Terror",
       "count": 1
     },
     {
@@ -37,7 +33,11 @@
       "count": 1
     },
     {
-      "archetype": "U Terror",
+      "archetype": "UB Terror",
+      "count": 1
+    },
+    {
+      "archetype": "Monsters",
       "count": 1
     }
   ],
@@ -74,28 +74,12 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2025-06-129366",
-      "tournament": "pauper-league-2025-06-129366",
+      "site_name": "pauper-league-2025-07-139366",
+      "tournament": "pauper-league-2025-07-139366",
       "date": "",
       "player": "Ipnotico86",
-      "archetype": "UB Terror",
+      "archetype": "Rally",
       "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-12-319987",
-      "tournament": "pauper-league-2025-12-319987",
-      "date": "",
-      "player": "Ipnotico86",
-      "archetype": "Jund",
-      "colors": [
-        "B",
         "G",
         "R"
       ],
@@ -151,12 +135,28 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-07-139366",
-      "tournament": "pauper-league-2025-07-139366",
+      "site_name": "pauper-league-2025-06-129366",
+      "tournament": "pauper-league-2025-06-129366",
       "date": "",
       "player": "Ipnotico86",
-      "archetype": "Rally",
+      "archetype": "UB Terror",
       "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-12-319987",
+      "tournament": "pauper-league-2025-12-319987",
+      "date": "",
+      "player": "Ipnotico86",
+      "archetype": "Jund",
+      "colors": [
+        "B",
         "G",
         "R"
       ],

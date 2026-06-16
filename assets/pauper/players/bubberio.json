@@ -17,7 +17,11 @@
   },
   "favorite_decks": [
     {
-      "archetype": "Elves",
+      "archetype": "Jund",
+      "count": 1
+    },
+    {
+      "archetype": "Bogle",
       "count": 1
     },
     {
@@ -25,11 +29,7 @@
       "count": 1
     },
     {
-      "archetype": "Jund",
-      "count": 1
-    },
-    {
-      "archetype": "Bogle",
+      "archetype": "Elves",
       "count": 1
     }
   ],
@@ -49,21 +49,6 @@
       "final_rank": 3,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-10-199750",
-      "tournament": "pauper-league-2025-10-199750",
-      "date": "",
-      "player": "Bubberio",
-      "archetype": "Elves",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2025-06-019081",
@@ -92,6 +77,21 @@
         "R",
         "U",
         "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-199750",
+      "tournament": "pauper-league-2025-10-199750",
+      "date": "",
+      "player": "Bubberio",
+      "archetype": "Elves",
+      "colors": [
+        "B",
+        "G"
       ],
       "record": "5-0",
       "final_rank": null,

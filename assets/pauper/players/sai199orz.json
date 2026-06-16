@@ -37,7 +37,7 @@
       "count": 2
     },
     {
-      "archetype": "BW Refurbished",
+      "archetype": "BR Madness",
       "count": 1
     },
     {
@@ -45,11 +45,11 @@
       "count": 1
     },
     {
-      "archetype": "BR Madness",
+      "archetype": "GU",
       "count": 1
     },
     {
-      "archetype": "GU",
+      "archetype": "BW Refurbished",
       "count": 1
     }
   ],
@@ -339,23 +339,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-showcase-challenge-2025-06-0712792651",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2025-06-07",
-      "player": "sai199orz",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "7-2",
-      "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-challenge-32-2025-06-0712792692",
       "tournament": "Pauper Challenge 32",
       "date": "2025-06-07",
@@ -369,6 +352,23 @@
       ],
       "record": "4-2",
       "final_rank": 15,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-showcase-challenge-2025-06-0712792651",
+      "tournament": "Pauper Showcase Challenge",
+      "date": "2025-06-07",
+      "player": "sai199orz",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "7-2",
+      "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -419,46 +419,45 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2025-11-149750",
-      "tournament": "pauper-league-2025-11-149750",
+      "site_name": "pauper-league-2025-05-169081",
+      "tournament": "pauper-league-2025-05-169081",
       "date": "",
       "player": "sai199orz",
-      "archetype": "Elves",
+      "archetype": "BR Madness",
       "colors": [
         "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-06-239366",
-      "tournament": "pauper-league-2025-06-239366",
-      "date": "",
-      "player": "sai199orz",
-      "archetype": "Ponza",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-08-069535",
-      "tournament": "pauper-league-2025-08-069535",
-      "date": "",
-      "player": "sai199orz",
-      "archetype": "Elves",
-      "colors": [
-        "B",
-        "G",
         "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-07-129366",
+      "tournament": "pauper-league-2025-07-129366",
+      "date": "",
+      "player": "sai199orz",
+      "archetype": "Monsters",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-05-049081",
+      "tournament": "pauper-league-2025-05-049081",
+      "date": "",
+      "player": "sai199orz",
+      "archetype": "Elves",
+      "colors": [
+        "B",
+        "G",
         "U",
         "W"
       ],

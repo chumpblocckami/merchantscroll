@@ -17,15 +17,15 @@
   },
   "favorite_decks": [
     {
-      "archetype": "U Terror",
-      "count": 2
-    },
-    {
       "archetype": "Rally",
       "count": 2
     },
     {
-      "archetype": "U Faeries",
+      "archetype": "U Terror",
+      "count": 2
+    },
+    {
+      "archetype": "RG Ponza",
       "count": 1
     },
     {
@@ -33,7 +33,7 @@
       "count": 1
     },
     {
-      "archetype": "RG Ponza",
+      "archetype": "U Faeries",
       "count": 1
     }
   ],
@@ -69,14 +69,14 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2025-08-289535",
-      "tournament": "pauper-league-2025-08-289535",
+      "site_name": "pauper-league-2025-08-249535",
+      "tournament": "pauper-league-2025-08-249535",
       "date": "",
       "player": "bolddd",
-      "archetype": "U Terror",
+      "archetype": "RG Ponza",
       "colors": [
-        "R",
-        "U"
+        "G",
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -84,12 +84,28 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-10-119750",
-      "tournament": "pauper-league-2025-10-119750",
+      "site_name": "pauper-league-2025-11-139750",
+      "tournament": "pauper-league-2025-11-139750",
       "date": "",
       "player": "bolddd",
-      "archetype": "U Faeries",
+      "archetype": "Rally",
       "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-08-289535",
+      "tournament": "pauper-league-2025-08-289535",
+      "date": "",
+      "player": "bolddd",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
         "U"
       ],
       "record": "5-0",
@@ -113,29 +129,13 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-11-139750",
-      "tournament": "pauper-league-2025-11-139750",
+      "site_name": "pauper-league-2025-10-119750",
+      "tournament": "pauper-league-2025-10-119750",
       "date": "",
       "player": "bolddd",
-      "archetype": "Rally",
+      "archetype": "U Faeries",
       "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-08-249535",
-      "tournament": "pauper-league-2025-08-249535",
-      "date": "",
-      "player": "bolddd",
-      "archetype": "RG Ponza",
-      "colors": [
-        "G",
-        "R"
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,

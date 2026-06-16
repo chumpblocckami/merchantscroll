@@ -17,15 +17,15 @@
   },
   "favorite_decks": [
     {
-      "archetype": "R Madness",
-      "count": 4
-    },
-    {
       "archetype": "BR Madness",
       "count": 4
     },
     {
-      "archetype": "Monsters",
+      "archetype": "R Madness",
+      "count": 4
+    },
+    {
+      "archetype": "U Terror",
       "count": 2
     },
     {
@@ -37,15 +37,15 @@
       "count": 2
     },
     {
-      "archetype": "U Terror",
+      "archetype": "Monsters",
       "count": 2
     },
     {
-      "archetype": "Affinity",
+      "archetype": "UB Control",
       "count": 1
     },
     {
-      "archetype": "UB Control",
+      "archetype": "Affinity",
       "count": 1
     }
   ],
@@ -98,14 +98,46 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2025-09-279750",
-      "tournament": "pauper-league-2025-09-279750",
+      "site_name": "pauper-league-2026-01-2510196",
+      "tournament": "pauper-league-2026-01-2510196",
       "date": "",
       "player": "Irenicus_Mfs",
-      "archetype": "Monsters",
+      "archetype": "BR Madness",
       "colors": [
-        "G",
-        "R"
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-1110196",
+      "tournament": "pauper-league-2026-02-1110196",
+      "date": "",
+      "player": "Irenicus_Mfs",
+      "archetype": "BR Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-11-169750",
+      "tournament": "pauper-league-2025-11-169750",
+      "date": "",
+      "player": "Irenicus_Mfs",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -129,14 +161,13 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-10-299750",
-      "tournament": "pauper-league-2025-10-299750",
+      "site_name": "pauper-league-2025-12-309987",
+      "tournament": "pauper-league-2025-12-309987",
       "date": "",
       "player": "Irenicus_Mfs",
-      "archetype": "Affinity",
+      "archetype": "UB Control",
       "colors": [
         "B",
-        "R",
         "U"
       ],
       "record": "5-0",
@@ -175,11 +206,71 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2025-07-029366",
+      "tournament": "pauper-league-2025-07-029366",
+      "date": "",
+      "player": "Irenicus_Mfs",
+      "archetype": "Jeskai",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2025-12-179987",
       "tournament": "pauper-league-2025-12-179987",
       "date": "",
       "player": "Irenicus_Mfs",
       "archetype": "Pingers",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-299750",
+      "tournament": "pauper-league-2025-10-299750",
+      "date": "",
+      "player": "Irenicus_Mfs",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-05-309081",
+      "tournament": "pauper-league-2025-05-309081",
+      "date": "",
+      "player": "Irenicus_Mfs",
+      "archetype": "R Madness",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-05-309081",
+      "tournament": "pauper-league-2025-05-309081",
+      "date": "",
+      "player": "Irenicus_Mfs",
+      "archetype": "R Madness",
       "colors": [
         "R"
       ],
@@ -205,31 +296,14 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-01-2510196",
-      "tournament": "pauper-league-2026-01-2510196",
+      "site_name": "pauper-league-2025-09-279750",
+      "tournament": "pauper-league-2025-09-279750",
       "date": "",
       "player": "Irenicus_Mfs",
-      "archetype": "BR Madness",
+      "archetype": "Monsters",
       "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-1110196",
-      "tournament": "pauper-league-2026-02-1110196",
-      "date": "",
-      "player": "Irenicus_Mfs",
-      "archetype": "BR Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
+        "G",
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -244,80 +318,6 @@
       "archetype": "Monsters",
       "colors": [
         "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-07-029366",
-      "tournament": "pauper-league-2025-07-029366",
-      "date": "",
-      "player": "Irenicus_Mfs",
-      "archetype": "Jeskai",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-12-309987",
-      "tournament": "pauper-league-2025-12-309987",
-      "date": "",
-      "player": "Irenicus_Mfs",
-      "archetype": "UB Control",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-11-169750",
-      "tournament": "pauper-league-2025-11-169750",
-      "date": "",
-      "player": "Irenicus_Mfs",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-05-309081",
-      "tournament": "pauper-league-2025-05-309081",
-      "date": "",
-      "player": "Irenicus_Mfs",
-      "archetype": "R Madness",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-05-309081",
-      "tournament": "pauper-league-2025-05-309081",
-      "date": "",
-      "player": "Irenicus_Mfs",
-      "archetype": "R Madness",
-      "colors": [
         "R"
       ],
       "record": "5-0",

@@ -21,11 +21,7 @@
       "count": 2
     },
     {
-      "archetype": "Monsters",
-      "count": 1
-    },
-    {
-      "archetype": "RG Storm",
+      "archetype": "Gardens",
       "count": 1
     },
     {
@@ -33,7 +29,11 @@
       "count": 1
     },
     {
-      "archetype": "Gardens",
+      "archetype": "Monsters",
+      "count": 1
+    },
+    {
+      "archetype": "RG Storm",
       "count": 1
     }
   ],
@@ -46,6 +46,51 @@
       "archetype": "Pizza Combo",
       "colors": [
         "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-06-079081",
+      "tournament": "pauper-league-2025-06-079081",
+      "date": "",
+      "player": "Cesta",
+      "archetype": "Gardens",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-06-269366",
+      "tournament": "pauper-league-2025-06-269366",
+      "date": "",
+      "player": "Cesta",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-06-239366",
+      "tournament": "pauper-league-2025-06-239366",
+      "date": "",
+      "player": "Cesta",
+      "archetype": "U Terror",
+      "colors": [
         "R",
         "U"
       ],
@@ -72,36 +117,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-06-239366",
-      "tournament": "pauper-league-2025-06-239366",
-      "date": "",
-      "player": "Cesta",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-06-269366",
-      "tournament": "pauper-league-2025-06-269366",
-      "date": "",
-      "player": "Cesta",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2025-12-119987",
       "tournament": "pauper-league-2025-12-119987",
       "date": "",
@@ -112,21 +127,6 @@
         "R",
         "U",
         "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-06-079081",
-      "tournament": "pauper-league-2025-06-079081",
-      "date": "",
-      "player": "Cesta",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G"
       ],
       "record": "5-0",
       "final_rank": null,

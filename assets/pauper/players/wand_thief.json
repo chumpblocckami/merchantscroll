@@ -33,10 +33,6 @@
       "count": 1
     },
     {
-      "archetype": "Bogle",
-      "count": 1
-    },
-    {
       "archetype": "GW Gates",
       "count": 1
     },
@@ -46,6 +42,10 @@
     },
     {
       "archetype": "BR Madness",
+      "count": 1
+    },
+    {
+      "archetype": "Bogle",
       "count": 1
     },
     {
@@ -167,7 +167,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-special-2025-11-1212824394",
+      "site_name": "pauper-challenge-32-special-2025-11-1312824394",
       "tournament": "Pauper Challenge 32 Special",
       "date": "2025-11-13",
       "player": "wand_thief",
@@ -183,7 +183,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-special-2025-11-1312824394",
+      "site_name": "pauper-challenge-32-special-2025-11-1212824394",
       "tournament": "Pauper Challenge 32 Special",
       "date": "2025-11-13",
       "player": "wand_thief",
@@ -248,14 +248,14 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2025-12-319987",
-      "tournament": "pauper-league-2025-12-319987",
+      "site_name": "pauper-league-2025-10-259750",
+      "tournament": "pauper-league-2025-10-259750",
       "date": "",
       "player": "wand_thief",
-      "archetype": "Bogle",
+      "archetype": "Cawgate",
       "colors": [
-        "G",
         "R",
+        "U",
         "W"
       ],
       "record": "5-0",
@@ -273,54 +273,6 @@
         "B",
         "G",
         "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-10-149750",
-      "tournament": "pauper-league-2025-10-149750",
-      "date": "",
-      "player": "wand_thief",
-      "archetype": "Cawgate",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-05-199081",
-      "tournament": "pauper-league-2025-05-199081",
-      "date": "",
-      "player": "wand_thief",
-      "archetype": "BR Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-10-259750",
-      "tournament": "pauper-league-2025-10-259750",
-      "date": "",
-      "player": "wand_thief",
-      "archetype": "Cawgate",
-      "colors": [
-        "R",
-        "U",
-        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -353,6 +305,54 @@
         "B",
         "G",
         "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-05-199081",
+      "tournament": "pauper-league-2025-05-199081",
+      "date": "",
+      "player": "wand_thief",
+      "archetype": "BR Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-149750",
+      "tournament": "pauper-league-2025-10-149750",
+      "date": "",
+      "player": "wand_thief",
+      "archetype": "Cawgate",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-12-319987",
+      "tournament": "pauper-league-2025-12-319987",
+      "date": "",
+      "player": "wand_thief",
+      "archetype": "Bogle",
+      "colors": [
+        "G",
+        "R",
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
