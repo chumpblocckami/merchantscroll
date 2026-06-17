@@ -556,6 +556,25 @@
       return btn;
     }
 
+    function archetypeSlug(name) {
+      const slug = (name || "")
+        .toLowerCase()
+        .replace(/[^\w\s-]/g, "")
+        .replace(/[\s_]+/g, "-")
+        .replace(/^-+|-+$/g, "");
+      return slug || "unknown";
+    }
+
+    function deckLink(name) {
+      const btn = el("button", "deck-link player-name", name || "Unknown");
+      btn.type = "button";
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        openDeckProfile(name);
+      });
+      return btn;
+    }
+
     /* ── Player modal ── */
     const playerModal = $("player-modal");
     const playerModalBody = $("player-modal-body");
@@ -583,11 +602,15 @@
       parent.appendChild(block);
     }
 
-    function buildLeagueStatEl(stats) {
+    function buildLeagueStatEl(stats, rankUnit = "players") {
       const wrap = statStack();
-      const trophies = stats.league_trophies || 0;
+      const entries = stats.league_entries;
+      if (entries != null) {
+        appendStatLine(wrap, String(entries), entries === 1 ? "league entry" : "league entries");
+      }
 
-      appendStatLine(wrap, String(trophies), trophies === 1 ? "trophy" : "trophies");
+      const trophies = stats.league_trophies || 0;
+      appendStatLine(wrap, String(trophies), trophies === 1 ? "trophy" : "trophies", entries != null);
 
       const yearly = stats.league_trophies_yearly || 0;
       if (yearly > 0) {
@@ -595,40 +618,51 @@
       }
 
       const yrRank = stats.league_trophy_rank_yearly;
-      const yrPool = stats.league_trophy_players_yearly;
+      const yrPool = stats.league_trophy_decks_yearly ?? stats.league_trophy_players_yearly;
       if (yrRank && yrPool) {
         appendRankBlock(
           wrap,
           `Most trophies · ${currentYear}`,
-          `#${yrRank} of ${yrPool} players`
+          `#${yrRank} of ${yrPool} ${rankUnit}`
         );
       }
 
       const atRank = stats.league_trophy_rank_alltime;
-      const atPool = stats.league_trophy_players_alltime;
+      const atPool = stats.league_trophy_decks_alltime ?? stats.league_trophy_players_alltime;
       if (atRank && atPool) {
         appendRankBlock(
           wrap,
           "Most trophies · all-time",
-          `#${atRank} of ${atPool} players`
+          `#${atRank} of ${atPool} ${rankUnit}`
         );
       }
 
       return wrap;
     }
 
-    function buildChallengeStatEl(stats) {
+    function buildChallengeStatEl(stats, includeAppearances = false) {
       const wrap = statStack();
+      const appearances = stats.challenge_appearances || 0;
+      if (includeAppearances && appearances) {
+        appendStatLine(
+          wrap,
+          String(appearances),
+          appearances === 1 ? "appearance" : "appearances"
+        );
+      }
+
       const cw = stats.challenge_wins || 0;
       const cl = stats.challenge_losses || 0;
       const total = cw + cl;
-      if (!total) {
+      if (!total && !appearances) {
         const empty = el("span", "player-modal-stat-text", "—");
         wrap.appendChild(empty);
         return wrap;
       }
 
-      appendStatLine(wrap, `${cw}-${cl}`, "match record");
+      if (total) {
+        appendStatLine(wrap, `${cw}-${cl}`, "match record", includeAppearances && appearances > 0);
+      }
 
       if (stats.challenge_win_pct != null) {
         appendRankBlock(wrap, "Win rate", `${stats.challenge_win_pct}%`);
@@ -678,7 +712,10 @@
         decks.forEach((item, i) => {
           const row = el("li", "player-modal-deck-item");
           row.appendChild(el("span", "player-modal-deck-rank", String(i + 1)));
-          row.appendChild(el("span", "player-modal-deck-name", item.archetype));
+          const nameEl = deckLink(item.archetype);
+          nameEl.classList.remove("player-name");
+          nameEl.classList.add("player-modal-deck-name");
+          row.appendChild(nameEl);
           row.appendChild(el("span", "player-modal-deck-count", String(item.count)));
           list.appendChild(row);
         });
@@ -688,9 +725,13 @@
 
       if (!isTouch) {
         const hint = el("p", "player-modal-hint", "");
-        const k = document.createElement("kbd");
-        k.textContent = "\u2190";
-        hint.appendChild(k);
+        const kLeft = document.createElement("kbd");
+        kLeft.textContent = "\u2190";
+        const kRight = document.createElement("kbd");
+        kRight.textContent = "\u2192";
+        hint.appendChild(kLeft);
+        hint.appendChild(document.createTextNode(" "));
+        hint.appendChild(kRight);
         hint.appendChild(document.createTextNode(" close"));
         wrap.appendChild(hint);
       }
@@ -725,6 +766,118 @@
         renderPlayerModal(await res.json());
       } catch (_) {
         playerModalBody.innerHTML = `<p class="player-modal-error">No profile for "${player}".</p>`;
+      }
+      setTimeout(() => (throttle = false), 300);
+    }
+
+    function renderDeckProfileModal(data) {
+      playerModalBody.innerHTML = "";
+      const wrap = el("div", "player-modal-content");
+
+      const head = el("header", "player-modal-header");
+      head.appendChild(el("h2", "player-modal-title", data.archetype || data.slug));
+      wrap.appendChild(head);
+
+      const stats = data.stats || {};
+      const grid = el("div", "player-modal-stats");
+      const statItems = [
+        ["Entries", String(stats.total_entries || 0)],
+        ["Leagues", buildLeagueStatEl(stats, "decks")],
+        ["Challenges", buildChallengeStatEl(stats, true)],
+      ];
+      if (stats.irl_top8) {
+        statItems.push(["IRL", `${stats.irl_top8} top-8`]);
+      }
+
+      const topPilot = (data.top_pilots || [])[0];
+      if (topPilot?.player) {
+        const pilotWrap = el("div", "player-modal-stat-value player-modal-stat-stack");
+        const pilotLine = el("div", "player-modal-stat-line");
+        pilotLine.appendChild(playerLink(topPilot.player));
+        pilotLine.lastChild.classList.add("player-modal-deck-name");
+        pilotWrap.appendChild(pilotLine);
+        appendStatLine(
+          pilotWrap,
+          String(topPilot.count),
+          topPilot.count === 1 ? "entry" : "entries",
+          true
+        );
+        statItems.push(["Top pilot", pilotWrap]);
+      }
+
+      for (const [label, value] of statItems) {
+        const cell = el("div", "player-modal-stat");
+        cell.appendChild(el("span", "player-modal-stat-label", label));
+        if (typeof value === "string") {
+          cell.appendChild(el("span", "player-modal-stat-value", value));
+        } else {
+          cell.appendChild(value);
+        }
+        grid.appendChild(cell);
+      }
+      wrap.appendChild(grid);
+
+      const pilots = (data.top_pilots || []).slice(0, 5);
+      if (pilots.length) {
+        const section = el("section", "player-modal-decks");
+        section.appendChild(el("h3", "player-modal-heading", "Top pilots"));
+        const list = el("ol", "player-modal-deck-list");
+        pilots.forEach((item, i) => {
+          const row = el("li", "player-modal-deck-item");
+          row.appendChild(el("span", "player-modal-deck-rank", String(i + 1)));
+          const nameEl = playerLink(item.player);
+          nameEl.classList.add("player-modal-deck-name");
+          row.appendChild(nameEl);
+          row.appendChild(el("span", "player-modal-deck-count", String(item.count)));
+          list.appendChild(row);
+        });
+        section.appendChild(list);
+        wrap.appendChild(section);
+      }
+
+      if (!isTouch) {
+        const hint = el("p", "player-modal-hint", "");
+        const kLeft = document.createElement("kbd");
+        kLeft.textContent = "\u2190";
+        const kRight = document.createElement("kbd");
+        kRight.textContent = "\u2192";
+        hint.appendChild(kLeft);
+        hint.appendChild(document.createTextNode(" "));
+        hint.appendChild(kRight);
+        hint.appendChild(document.createTextNode(" close"));
+        wrap.appendChild(hint);
+      }
+
+      playerModalBody.appendChild(wrap);
+    }
+
+    async function openDeckProfile(archetypeName) {
+      if (throttle) return;
+      const entry = filteredDecks[deckIdx];
+      const archetype = archetypeName || (entry?.decklist && classifyDeck(entry.decklist));
+      if (!archetype) return;
+
+      const slug = archetypeSlug(archetype);
+      throttle = true;
+      closeDropdown();
+      hidePreview();
+      playerModalBody.innerHTML = '<div class="loader">Loading deck profile...</div>';
+      syncHeaderHeight();
+      playerModal.hidden = false;
+      playerModal.setAttribute("aria-hidden", "false");
+      requestAnimationFrame(() => {
+        playerModal.classList.add("open");
+        playerModalOpen = true;
+      });
+
+      try {
+        const res = await fetch(`assets/pauper/decks/${encodeURIComponent(slug)}.json`, {
+          cache: "no-store",
+        });
+        if (!res.ok) throw new Error("not found");
+        renderDeckProfileModal(await res.json());
+      } catch (_) {
+        playerModalBody.innerHTML = `<p class="player-modal-error">No profile for "${archetype}".</p>`;
       }
       setTimeout(() => (throttle = false), 300);
     }
@@ -1182,8 +1335,14 @@
 
       const nameRow = el("div", "deck-title-row");
       nameRow.appendChild(renderColorPips(deck.colors));
-      const titleSpan = el("span", "player-name", archetype || entry.player || "Unknown");
-      nameRow.appendChild(titleSpan);
+      let titleEl;
+      if (archetype) {
+        titleEl = deckLink(archetype);
+        nameRow.appendChild(titleEl);
+      } else {
+        titleEl = el("span", "player-name", entry.player || "Unknown");
+        nameRow.appendChild(titleEl);
+      }
       const record = formatRecord(deck);
       if (record) {
         const recEl = el("span", "player-record", record);
@@ -1194,26 +1353,36 @@
       header.appendChild(nameRow);
 
       if (archetype) {
-        header.appendChild(playerLink(entry.player || "Unknown", entry));
-        header.lastChild.classList.add("deck-archetype");
+        const pilot = playerLink(entry.player || "Unknown", entry);
+        pilot.classList.add("deck-archetype");
+        header.appendChild(pilot);
       } else {
         const link = playerLink(entry.player || "Unknown", entry);
         link.classList.add("player-name");
-        titleSpan.replaceWith(link);
+        titleEl.replaceWith(link);
       }
 
       if (!isTouch) {
-        header.appendChild(el("div", "kbd-hint", ""));
-        const hint = header.lastChild;
+        const hint = el("div", "kbd-hint");
+        const hintLeft = el("span", "kbd-hint-part kbd-hint-left");
+        const hintCenter = el("span", "kbd-hint-part kbd-hint-center");
+        const hintRight = el("span", "kbd-hint-part kbd-hint-right");
         const kUp = document.createElement("kbd"); kUp.textContent = "\u2191";
         const kDown = document.createElement("kbd"); kDown.textContent = "\u2193";
+        const kLeft = document.createElement("kbd"); kLeft.textContent = "\u2190";
         const kRight = document.createElement("kbd"); kRight.textContent = "\u2192";
-        hint.appendChild(kUp);
-        hint.appendChild(document.createTextNode(" "));
-        hint.appendChild(kDown);
-        hint.appendChild(document.createTextNode(" decks \u00B7 "));
-        hint.appendChild(kRight);
-        hint.appendChild(document.createTextNode(" profile"));
+        hintLeft.appendChild(kLeft);
+        hintLeft.appendChild(document.createTextNode(" metagame"));
+        hintCenter.appendChild(kUp);
+        hintCenter.appendChild(document.createTextNode(" "));
+        hintCenter.appendChild(kDown);
+        hintCenter.appendChild(document.createTextNode(" decks"));
+        hintRight.appendChild(kRight);
+        hintRight.appendChild(document.createTextNode(" player"));
+        hint.appendChild(hintLeft);
+        hint.appendChild(hintCenter);
+        hint.appendChild(hintRight);
+        header.appendChild(hint);
       }
 
       container.appendChild(header);
@@ -1385,10 +1554,14 @@
       openPlayerProfile();
     }
 
+    function openDeckProfileFromDeck() {
+      openDeckProfile();
+    }
+
     document.addEventListener("keydown", (e) => {
       if (document.activeElement?.tagName === "INPUT") return;
       if (isPlayerModalOpen()) {
-        if (e.key === "Escape" || e.key === "ArrowLeft") {
+        if (e.key === "Escape" || e.key === "ArrowLeft" || e.key === "ArrowRight") {
           e.preventDefault();
           closePlayerModal();
         }
@@ -1397,7 +1570,7 @@
       if (e.key === "ArrowDown") { e.preventDefault(); throttledGo(1); }
       if (e.key === "ArrowUp") { e.preventDefault(); throttledGo(-1); }
       if (e.key === "ArrowRight") { e.preventDefault(); openPlayerProfileFromDeck(); }
-      if (e.key === "ArrowLeft") { e.preventDefault(); throttledGo(-1); }
+      if (e.key === "ArrowLeft") { e.preventDefault(); openDeckProfileFromDeck(); }
     });
 
     window.addEventListener("resize", () => {
@@ -1411,6 +1584,7 @@
       e.preventDefault();
       if (Math.abs(e.deltaX) > Math.abs(e.deltaY) && Math.abs(e.deltaX) > 30) {
         if (e.deltaX > 0) openPlayerProfileFromDeck();
+        else openDeckProfileFromDeck();
         return;
       }
       throttledGo(e.deltaY > 0 ? 1 : -1);
@@ -1423,7 +1597,7 @@
     function shouldBlockDeckSwipe(target) {
       if (!target?.closest) return false;
       if (target.closest(
-        ".card-tile, .card-name, .deck-actions, .player-link, .deck-action-btn, .bc-trigger, .bc-dropdown"
+        ".card-tile, .card-name, .deck-actions, .player-link, .deck-link, .deck-action-btn, .bc-trigger, .bc-dropdown"
       )) {
         return true;
       }
@@ -1446,15 +1620,16 @@
         return;
       }
       if (isPlayerModalOpen()) {
-        const deltaX = touchStartX - e.changedTouches[0].screenX;
+        const deltaX90X = touchStartX - e.changedTouches[0].screenX;
         const deltaY = touchStartY - e.changedTouches[0].screenY;
-        if (Math.abs(deltaX) > Math.abs(deltaY) && deltaX < -50) closePlayerModal();
+        if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 50) closePlayerModal();
         return;
       }
       const deltaX = touchStartX - e.changedTouches[0].screenX;
       const deltaY = touchStartY - e.changedTouches[0].screenY;
       if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 50) {
         if (deltaX > 0) openPlayerProfileFromDeck();
+        else openDeckProfileFromDeck();
         return;
       }
       if (Math.abs(deltaY) > 50) throttledGo(deltaY > 0 ? 1 : -1);

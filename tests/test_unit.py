@@ -119,5 +119,73 @@ class TestNormalizeDate(unittest.TestCase):
         self.assertEqual(normalize_date("2026-06-05 19:00:00.000"), "2026-06-05")
 
 
+
+class TestDeckStats(unittest.TestCase):
+    def test_archetype_slug(self):
+        from src.deck_stats import archetype_slug
+
+        self.assertEqual(archetype_slug("U Terror"), "u-terror")
+        self.assertEqual(archetype_slug("  Altar Tron  "), "altar-tron")
+
+    def test_rebuild_deck_profiles(self):
+        import tempfile
+        from pathlib import Path
+
+        from src.deck_stats import rebuild_deck_profiles
+
+        with tempfile.TemporaryDirectory() as tmp:
+            raw = Path(tmp) / "raw"
+            out = Path(tmp) / "decks"
+            raw.mkdir()
+
+            league = {
+                "description": "Pauper League",
+                "starttime": "2026-06-05",
+                "site_name": "pauper-league-2026-06-0510636",
+                "decklists": [
+                    {
+                        "player": "alice",
+                        "archetype": "U Terror",
+                        "colors": ["U", "R"],
+                        "wins": {"wins": "5", "losses": "0"},
+                    },
+                    {
+                        "player": "bob",
+                        "archetype": "U Terror",
+                        "colors": ["U", "R"],
+                        "wins": {"wins": "5", "losses": "0"},
+                    },
+                ],
+            }
+            challenge = {
+                "description": "Pauper Challenge",
+                "starttime": "2026-06-14 17:00:00.0",
+                "site_name": "pauper-challenge-32-2026-06-1412844338",
+                "decklists": [
+                    {
+                        "player": "alice",
+                        "archetype": "U Terror",
+                        "colors": ["U", "R"],
+                        "wins": {"wins": 3, "losses": 2},
+                    }
+                ],
+            }
+            (raw / "league.json").write_text(__import__("json").dumps(league))
+            (raw / "challenge.json").write_text(__import__("json").dumps(challenge))
+
+            count = rebuild_deck_profiles(raw_dir=raw, profiles_dir=out)
+            self.assertEqual(count, 1)
+
+            profile = __import__("json").loads((out / "u-terror.json").read_text())
+            stats = profile["stats"]
+            self.assertEqual(stats["total_entries"], 3)
+            self.assertEqual(stats["league_entries"], 2)
+            self.assertEqual(stats["league_trophies"], 2)
+            self.assertEqual(stats["challenge_appearances"], 1)
+            self.assertEqual(stats["challenge_wins"], 3)
+            self.assertEqual(stats["challenge_losses"], 2)
+            self.assertEqual(profile["top_pilots"][0]["player"], "alice")
+            self.assertEqual(profile["top_pilots"][0]["count"], 2)
+
 if __name__ == "__main__":
     unittest.main()

@@ -1,0 +1,431 @@
+{
+  "archetype": "Esper Affinity",
+  "slug": "esper-affinity",
+  "stats": {
+    "total_entries": 72,
+    "league_entries": 53,
+    "league_trophies": 53,
+    "league_trophies_yearly": 10,
+    "challenge_appearances": 15,
+    "challenge_wins": 51,
+    "challenge_losses": 36,
+    "irl_top8": 3,
+    "challenge_win_pct": 59,
+    "league_trophy_rank_yearly": 46,
+    "league_trophy_rank_alltime": 38,
+    "league_trophy_decks_yearly": 59,
+    "league_trophy_decks_alltime": 69
+  },
+  "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-1710636",
+      "tournament": "Pauper League",
+      "date": "2026-06-17",
+      "player": "PermanentDM",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1310636",
+      "tournament": "Pauper League",
+      "date": "2026-06-13",
+      "player": "-Nicolo-",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-05-2810636",
+      "tournament": "Pauper League",
+      "date": "2026-05-28",
+      "player": "Luiz0211",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-05-2212842901",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-05-22",
+      "player": "lethargicarcher",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 15,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-04-1510405",
+      "tournament": "Pauper League",
+      "date": "2026-04-15",
+      "player": "Ciri80",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-04-1010405",
+      "tournament": "Pauper League",
+      "date": "2026-04-10",
+      "player": "GilbertoAntunes",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-04-0412838126",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-04-04",
+      "player": "Bunbuneru",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-03-2710405",
+      "tournament": "Pauper League",
+      "date": "2026-03-27",
+      "player": "Luiz0211",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-03-1910405",
+      "tournament": "pauper-league-2026-03-1910405",
+      "date": "2026-03-19",
+      "player": "unsur3",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-03-1412835312",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-03-14",
+      "player": "Kirblinxy",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-03-0512834483",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-03-05",
+      "player": "DobleP",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 27,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauperwave-2026-03-01-brescia-winter-2025",
+      "tournament": "LP Brescia Winter 2025 — Brescia",
+      "date": "2026-03-03",
+      "player": "Dario Peli",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
+      "site_name": "pauperwave-2026-03-01-brescia-winter-2025",
+      "tournament": "LP Brescia Winter 2025 — Brescia",
+      "date": "2026-03-03",
+      "player": "Fadi Mohiddin",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
+      "site_name": "pauper-league-2026-03-0210196",
+      "tournament": "pauper-league-2026-03-0210196",
+      "date": "2026-03-02",
+      "player": "someoldguy",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-2410196",
+      "tournament": "pauper-league-2026-02-2410196",
+      "date": "2026-02-24",
+      "player": "unsur3",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauperwave-2026-02-15-lucca-winter-2025",
+      "tournament": "LP Lucca Winter 2025 — Lucca",
+      "date": "2026-02-15",
+      "player": "Michele Barsotti",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
+      "site_name": "pauperwave-2026-02-01-damnation-trio-2026",
+      "tournament": "Damnation Team Trio 2026 — Lucca",
+      "date": "2026-02-01",
+      "player": "Giorgio Omietti",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "",
+      "final_rank": null,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
+      "site_name": "pauper-league-2026-01-079987",
+      "tournament": "pauper-league-2026-01-079987",
+      "date": "2026-01-07",
+      "player": "Eisehorn",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-12-229987",
+      "tournament": "pauper-league-2025-12-229987",
+      "date": "2025-12-22",
+      "player": "gigiomag",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-12-149987",
+      "tournament": "pauper-league-2025-12-149987",
+      "date": "2025-12-14",
+      "player": "Kirblinxy",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-12-109987",
+      "tournament": "pauper-league-2025-12-109987",
+      "date": "2025-12-10",
+      "player": "alt-f4",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-12-089987",
+      "tournament": "pauper-league-2025-12-089987",
+      "date": "2025-12-08",
+      "player": "GFILLIPPI77",
+      "colors": [
+        "B"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-12-069987",
+      "tournament": "pauper-league-2025-12-069987",
+      "date": "2025-12-06",
+      "player": "Shoneildray",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-12-059987",
+      "tournament": "pauper-league-2025-12-059987",
+      "date": "2025-12-05",
+      "player": "Alley666",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-11-3012825489",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-11-30",
+      "player": "MarshFlats",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    }
+  ],
+  "top_pilots": [
+    {
+      "player": "GilbertoAntunes",
+      "count": 7
+    },
+    {
+      "player": "unsur3",
+      "count": 5
+    },
+    {
+      "player": "MarshFlats",
+      "count": 5
+    },
+    {
+      "player": "VanillaJames",
+      "count": 4
+    },
+    {
+      "player": "Pafru",
+      "count": 4
+    },
+    {
+      "player": "Kirblinxy",
+      "count": 3
+    },
+    {
+      "player": "DobleP",
+      "count": 2
+    },
+    {
+      "player": "Luiz0211",
+      "count": 2
+    },
+    {
+      "player": "Goffman",
+      "count": 2
+    },
+    {
+      "player": "PermanentDM",
+      "count": 2
+    }
+  ]
+}

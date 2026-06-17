@@ -1,0 +1,436 @@
+{
+  "archetype": "Spy",
+  "slug": "spy",
+  "stats": {
+    "total_entries": 657,
+    "league_entries": 419,
+    "league_trophies": 419,
+    "league_trophies_yearly": 141,
+    "challenge_appearances": 195,
+    "challenge_wins": 787,
+    "challenge_losses": 487,
+    "irl_top8": 22,
+    "challenge_win_pct": 62,
+    "league_trophy_rank_yearly": 8,
+    "league_trophy_rank_alltime": 6,
+    "league_trophy_decks_yearly": 59,
+    "league_trophy_decks_alltime": 69
+  },
+  "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-1510636",
+      "tournament": "Pauper League",
+      "date": "2026-06-15",
+      "player": "Lupin88",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1310636",
+      "tournament": "Pauper League",
+      "date": "2026-06-13",
+      "player": "karden33",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1310636",
+      "tournament": "Pauper League",
+      "date": "2026-06-13",
+      "player": "Hrdd",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauperwave-2026-06-13-lp-brescia-summer",
+      "tournament": "LP Brescia Summer 2026 — Brescia",
+      "date": "2026-06-13",
+      "player": "Michele Montanari",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1312844320",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-13",
+      "player": "hetare_ane",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1210636",
+      "tournament": "Pauper League",
+      "date": "2026-06-12",
+      "player": "GoodVibesOnly",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1210636",
+      "tournament": "Pauper League",
+      "date": "2026-06-12",
+      "player": "_Griselbrand_",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1112844295",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-11",
+      "player": "wand_thief",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-2",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-0810636",
+      "tournament": "Pauper League",
+      "date": "2026-06-08",
+      "player": "Mate_wosk",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-0810636",
+      "tournament": "Pauper League",
+      "date": "2026-06-08",
+      "player": "Shizran",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-0810636",
+      "tournament": "Pauper League",
+      "date": "2026-06-08",
+      "player": "TierOneTired",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0712843817",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-07",
+      "player": "JsyvX",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "8-2",
+      "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-0610636",
+      "tournament": "Pauper League",
+      "date": "2026-06-06",
+      "player": "JsyvX",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0612843798",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-06",
+      "player": "CHRIS-Mtg-02",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 18,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0612843798",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-06",
+      "player": "JsyvX",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0512843783",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-05",
+      "player": "CHRIS-Mtg-02",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-2",
+      "final_rank": 16,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-0310636",
+      "tournament": "Pauper League",
+      "date": "2026-06-03",
+      "player": "lumely",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-0210636",
+      "tournament": "Pauper League",
+      "date": "2026-06-02",
+      "player": "Brom_Q",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-05-3110636",
+      "tournament": "Pauper League",
+      "date": "2026-05-31",
+      "player": "nietoalcora",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauperwave-2026-05-31-ferrara-trio",
+      "tournament": "Pauperiadi Trio — Ferrara",
+      "date": "2026-05-31",
+      "player": "Federico Lazzari",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "",
+      "final_rank": 3,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
+      "site_name": "pauperwave-2026-05-30-rivoli-summer-2026",
+      "tournament": "LP Rivoli Summer 2026 — Rivoli",
+      "date": "2026-05-30",
+      "player": "Manuele Capatano",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-05-3012843407",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-05-30",
+      "player": "benitoo",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-05-3010636",
+      "tournament": "Pauper League",
+      "date": "2026-05-30",
+      "player": "Tesa2k",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-05-3010636",
+      "tournament": "Pauper League",
+      "date": "2026-05-30",
+      "player": "Nasello",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-05-3010636",
+      "tournament": "Pauper League",
+      "date": "2026-05-30",
+      "player": "simins",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    }
+  ],
+  "top_pilots": [
+    {
+      "player": "Pilopanga",
+      "count": 28
+    },
+    {
+      "player": "asWerty",
+      "count": 24
+    },
+    {
+      "player": "Mikito9171",
+      "count": 15
+    },
+    {
+      "player": "3vildr4k3",
+      "count": 15
+    },
+    {
+      "player": "AlessandroPiraccini",
+      "count": 14
+    },
+    {
+      "player": "Luddrox",
+      "count": 13
+    },
+    {
+      "player": "Pauperformance",
+      "count": 11
+    },
+    {
+      "player": "simins",
+      "count": 10
+    },
+    {
+      "player": "Regis_Hangar49",
+      "count": 10
+    },
+    {
+      "player": "Superedolaos99",
+      "count": 9
+    }
+  ]
+}

@@ -18,6 +18,7 @@ from .classifier import (
     rebuild_archetype_dictionary,
 )
 from .crawler import crawl_decks, crawl_tournaments
+from .deck_stats import rebuild_deck_profiles
 from .player_stats import rebuild_player_profiles
 from .pauperwave_crawler import (
     discover_pauperwave_files,
@@ -280,6 +281,7 @@ def run(refresh_scryfall: bool = False):
         rebuild_index()
         rebuild_players_index()
         rebuild_player_profiles()
+        rebuild_deck_profiles()
         write_info()
     else:
         print("Nothing new — index unchanged.")

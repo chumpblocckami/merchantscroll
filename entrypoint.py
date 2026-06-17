@@ -17,6 +17,7 @@ from src.classifier import (
     load_archetype_dictionary,
     rebuild_archetype_dictionary,
 )
+from src.deck_stats import rebuild_deck_profiles
 from src.player_stats import rebuild_player_profiles
 from src.saver import save_json_locally
 from src.scryfall import build_color_lookup, download_oracle_cards
@@ -126,6 +127,7 @@ def start_crawler():
         crawled += classified
 
     rebuild_player_profiles()
+    rebuild_deck_profiles()
 
     print(f"Done. Crawled: {crawled}, Skipped: {skipped}")
 
