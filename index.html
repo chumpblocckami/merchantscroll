@@ -341,6 +341,7 @@
 
     function attachCardPreview(node, name) {
       node.addEventListener("click", (e) => {
+        if (suppressDeckCardClick) return;
         e.stopPropagation();
         openCardPreview(name);
       });
@@ -1550,6 +1551,7 @@
 
     /* ── Input handling ── */
     let throttle = false;
+    let suppressDeckCardClick = false;
     function throttledGo(dir) {
       if (throttle) return;
       throttle = true;
@@ -1588,7 +1590,6 @@
 
     content.addEventListener("wheel", (e) => {
       if (isPlayerModalOpen()) return;
-      if (deckViewMode === "visual" && e.target.closest(".decklist-columns")) return;
       e.preventDefault();
       if (Math.abs(e.deltaX) > Math.abs(e.deltaY) && Math.abs(e.deltaX) > 30) {
         if (e.deltaX > 0) openPlayerProfileFromDeck();
@@ -1605,14 +1606,21 @@
     function shouldBlockDeckSwipe(target) {
       if (!target?.closest) return false;
       if (target.closest(
-        ".card-tile, .card-name, .deck-actions, .player-link, .deck-link, .deck-action-btn, .bc-trigger, .bc-dropdown"
+        ".deck-actions, .player-link, .deck-link, .deck-action-btn, .bc-trigger, .bc-dropdown"
       )) {
         return true;
       }
-      if (deckViewMode === "visual" && target.closest(".decklist-columns")) {
+      if (deckViewMode !== "visual" && target.closest(".decklist-columns, .card-name")) {
         return true;
       }
       return false;
+    }
+
+    function markDeckSwipeHandled() {
+      suppressDeckCardClick = true;
+      setTimeout(() => {
+        suppressDeckCardClick = false;
+      }, 350);
     }
 
     content.addEventListener("touchstart", (e) => {
@@ -1628,19 +1636,27 @@
         return;
       }
       if (isPlayerModalOpen()) {
-        const deltaX90X = touchStartX - e.changedTouches[0].screenX;
+        const deltaX = touchStartX - e.changedTouches[0].screenX;
         const deltaY = touchStartY - e.changedTouches[0].screenY;
         if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 50) closePlayerModal();
+        touchStartTarget = null;
         return;
       }
       const deltaX = touchStartX - e.changedTouches[0].screenX;
       const deltaY = touchStartY - e.changedTouches[0].screenY;
       if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 50) {
+        markDeckSwipeHandled();
         if (deltaX > 0) openPlayerProfileFromDeck();
         else openDeckProfileFromDeck();
+        touchStartTarget = null;
         return;
       }
-      if (Math.abs(deltaY) > 50) throttledGo(deltaY > 0 ? 1 : -1);
+      if (Math.abs(deltaY) > Math.abs(deltaX) && Math.abs(deltaY) > 50) {
+        markDeckSwipeHandled();
+        throttledGo(deltaY > 0 ? 1 : -1);
+        touchStartTarget = null;
+        return;
+      }
       touchStartTarget = null;
     });
 
