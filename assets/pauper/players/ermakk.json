@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 11,
     "league_trophies": 4,
-    "league_trophies_yearly": 2,
+    "league_trophies_yearly": 3,
     "challenge_wins": 23,
     "challenge_losses": 16,
     "irl_top8": 0,
     "challenge_win_pct": 59,
-    "league_trophy_rank_yearly": 271,
-    "league_trophy_rank_alltime": 539,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 303,
+    "league_trophy_rank_alltime": 540,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -25,15 +25,15 @@
       "count": 2
     },
     {
-      "archetype": "R Madness",
-      "count": 1
-    },
-    {
       "archetype": "Pingers",
       "count": 1
     },
     {
       "archetype": "GRW",
+      "count": 1
+    },
+    {
+      "archetype": "R Madness",
       "count": 1
     }
   ],
@@ -81,6 +81,21 @@
       "final_rank": 20,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-03-0110196",
+      "tournament": "pauper-league-2026-03-0110196",
+      "date": "2026-03-01",
+      "player": "ermakk",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-02-2712834057",
@@ -157,6 +172,20 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-07-289366",
+      "tournament": "pauper-league-2025-07-289366",
+      "date": "2025-07-28",
+      "player": "ermakk",
+      "archetype": "White Weennie",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-05-0412774521",
       "tournament": "Pauper Challenge 32",
       "date": "2025-05-04",
@@ -170,35 +199,6 @@
       "final_rank": 6,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-07-289366",
-      "tournament": "pauper-league-2025-07-289366",
-      "date": "",
-      "player": "ermakk",
-      "archetype": "White Weennie",
-      "colors": [
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-0110196",
-      "tournament": "pauper-league-2026-03-0110196",
-      "date": "",
-      "player": "ermakk",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

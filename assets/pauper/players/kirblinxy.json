@@ -10,9 +10,9 @@
     "challenge_losses": 84,
     "irl_top8": 0,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 204,
+    "league_trophy_rank_yearly": 329,
     "league_trophy_rank_alltime": 279,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -37,19 +37,19 @@
       "count": 3
     },
     {
+      "archetype": "Food Pestilence",
+      "count": 3
+    },
+    {
+      "archetype": "Cawgate",
+      "count": 2
+    },
+    {
       "archetype": "Rally",
       "count": 2
     },
     {
       "archetype": "UG Fog",
-      "count": 2
-    },
-    {
-      "archetype": "Food Pestilence",
-      "count": 2
-    },
-    {
-      "archetype": "Cawgate",
       "count": 2
     },
     {
@@ -288,7 +288,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-24",
       "player": "Kirblinxy",
-      "archetype": "",
+      "archetype": "Food Pestilence",
       "colors": [
         "B",
         "G",
@@ -371,6 +371,22 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-12-149987",
+      "tournament": "pauper-league-2025-12-149987",
+      "date": "2025-12-14",
+      "player": "Kirblinxy",
+      "archetype": "Esper Affinity",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-12-1312826875",
       "tournament": "Pauper Challenge 32",
       "date": "2025-12-13",
@@ -448,23 +464,6 @@
       ],
       "record": "3-3",
       "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-09-1312814274",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-09-13",
-      "player": "Kirblinxy",
-      "archetype": "BG Fog",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
     }

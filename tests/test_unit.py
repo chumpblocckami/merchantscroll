@@ -5,7 +5,12 @@ import unittest
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from src.utils import extract_date, minify_tournament_data, normalize_date
+from src.utils import (
+    canonical_starttime,
+    extract_date,
+    minify_tournament_data,
+    normalize_date,
+)
 
 SAMPLE_DECK = json.load(open("tests/assets/sample_deck.json"))
 
@@ -73,6 +78,34 @@ class TestExtractDate(unittest.TestCase):
 
     def test_returns_fallback_for_no_date(self):
         self.assertEqual(extract_date("no-date-here"), "0000-00-00")
+
+
+class TestCanonicalStarttime(unittest.TestCase):
+    def test_league_uses_site_name_date(self):
+        self.assertEqual(
+            canonical_starttime(
+                "pauper-league-2025-11-2310636", "2026-06-17"
+            ),
+            "2025-11-23",
+        )
+
+    def test_challenge_keeps_starttime(self):
+        self.assertEqual(
+            canonical_starttime(
+                "pauper-challenge-32-2026-06-1412844338",
+                "2026-06-14 17:00:00.0",
+            ),
+            "2026-06-14 17:00:00.0",
+        )
+
+    def test_minify_applies_canonical_league_date(self):
+        data = {
+            **SAMPLE_TOURNAMENT,
+            "site_name": "pauper-league-2025-11-2310636",
+            "starttime": "2026-06-17",
+        }
+        result = minify_tournament_data(data)
+        self.assertEqual(result["starttime"], "2025-11-23")
 
 
 class TestNormalizeDate(unittest.TestCase):

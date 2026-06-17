@@ -11,8 +11,8 @@
     "irl_top8": 0,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 1205,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_alltime": 1206,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,15 +21,15 @@
       "count": 4
     },
     {
-      "archetype": "U",
+      "archetype": "UG Fog",
       "count": 2
     },
     {
-      "archetype": "Cawgate",
+      "archetype": "Familiars",
       "count": 1
     },
     {
-      "archetype": "Familiars",
+      "archetype": "Cawgate",
       "count": 1
     }
   ],
@@ -115,7 +115,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-08-03",
       "player": "barczek",
-      "archetype": "",
+      "archetype": "UG Fog",
       "colors": [
         "U"
       ],
@@ -123,6 +123,20 @@
       "final_rank": 19,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-07-289366",
+      "tournament": "pauper-league-2025-07-289366",
+      "date": "2025-07-28",
+      "player": "barczek",
+      "archetype": "UG Fog",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-07-2612804888",
@@ -139,20 +153,6 @@
       "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-07-289366",
-      "tournament": "pauper-league-2025-07-289366",
-      "date": "",
-      "player": "barczek",
-      "archetype": "",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

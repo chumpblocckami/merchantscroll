@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 4,
     "league_trophies": 4,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 2,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 612,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 578,
+    "league_trophy_rank_alltime": 613,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,11 +21,11 @@
       "count": 2
     },
     {
-      "archetype": "R Madness",
+      "archetype": "Rally",
       "count": 1
     },
     {
-      "archetype": "Rally",
+      "archetype": "R Madness",
       "count": 1
     }
   ],
@@ -33,7 +33,23 @@
     {
       "site_name": "pauper-league-2026-01-3010196",
       "tournament": "pauper-league-2026-01-3010196",
-      "date": "",
+      "date": "2026-01-30",
+      "player": "ThiagoCagao",
+      "archetype": "RG Ponza",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-2810196",
+      "tournament": "pauper-league-2026-01-2810196",
+      "date": "2026-01-28",
       "player": "ThiagoCagao",
       "archetype": "RG Ponza",
       "colors": [
@@ -49,7 +65,7 @@
     {
       "site_name": "pauper-league-2025-09-269750",
       "tournament": "pauper-league-2025-09-269750",
-      "date": "",
+      "date": "2025-09-26",
       "player": "ThiagoCagao",
       "archetype": "R Madness",
       "colors": [
@@ -65,26 +81,10 @@
     {
       "site_name": "pauper-league-2025-09-209535",
       "tournament": "pauper-league-2025-09-209535",
-      "date": "",
+      "date": "2025-09-20",
       "player": "ThiagoCagao",
       "archetype": "Rally",
       "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-2810196",
-      "tournament": "pauper-league-2026-01-2810196",
-      "date": "",
-      "player": "ThiagoCagao",
-      "archetype": "RG Ponza",
-      "colors": [
-        "B",
         "G",
         "R"
       ],

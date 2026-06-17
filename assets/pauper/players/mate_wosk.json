@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 19,
     "league_trophies": 10,
-    "league_trophies_yearly": 5,
+    "league_trophies_yearly": 8,
     "challenge_wins": 31,
     "challenge_losses": 25,
     "irl_top8": 0,
     "challenge_win_pct": 55,
-    "league_trophy_rank_yearly": 101,
-    "league_trophy_rank_alltime": 216,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 100,
+    "league_trophy_rank_alltime": 217,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,11 +21,11 @@
       "count": 17
     },
     {
-      "archetype": "Spy",
+      "archetype": "Ponza",
       "count": 1
     },
     {
-      "archetype": "Ponza",
+      "archetype": "Spy",
       "count": 1
     }
   ],
@@ -142,6 +142,22 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-03-0310196",
+      "tournament": "pauper-league-2026-03-0310196",
+      "date": "2026-03-03",
+      "player": "Mate_wosk",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-02-2812834072",
       "tournament": "Pauper Challenge 32",
       "date": "2026-02-28",
@@ -238,6 +254,22 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-02-0810196",
+      "tournament": "pauper-league-2026-02-0810196",
+      "date": "2026-02-08",
+      "player": "Mate_wosk",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-01-2412830645",
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-24",
@@ -254,9 +286,9 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-02-0810196",
-      "tournament": "pauper-league-2026-02-0810196",
-      "date": "",
+      "site_name": "pauper-league-2026-01-199987",
+      "tournament": "pauper-league-2026-01-199987",
+      "date": "2026-01-19",
       "player": "Mate_wosk",
       "archetype": "R Madness",
       "colors": [
@@ -272,7 +304,7 @@
     {
       "site_name": "pauper-league-2025-09-0710196",
       "tournament": "pauper-league-2025-09-0710196",
-      "date": "",
+      "date": "2025-09-07",
       "player": "Mate_wosk",
       "archetype": "R Madness",
       "colors": [
@@ -288,39 +320,7 @@
     {
       "site_name": "pauper-league-2025-01-2310196",
       "tournament": "pauper-league-2025-01-2310196",
-      "date": "",
-      "player": "Mate_wosk",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-0310196",
-      "tournament": "pauper-league-2026-03-0310196",
-      "date": "",
-      "player": "Mate_wosk",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-199987",
-      "tournament": "pauper-league-2026-01-199987",
-      "date": "",
+      "date": "2025-01-23",
       "player": "Mate_wosk",
       "archetype": "R Madness",
       "colors": [

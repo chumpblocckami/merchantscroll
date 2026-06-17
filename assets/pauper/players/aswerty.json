@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 25,
     "league_trophies": 18,
-    "league_trophies_yearly": 7,
+    "league_trophies_yearly": 17,
     "challenge_wins": 21,
     "challenge_losses": 12,
     "irl_top8": 0,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 46,
+    "league_trophy_rank_yearly": 29,
     "league_trophy_rank_alltime": 96,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -171,6 +171,39 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-03-0710405",
+      "tournament": "pauper-league-2026-03-0710405",
+      "date": "2026-03-07",
+      "player": "asWerty",
+      "archetype": "Walls",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-03-0210196",
+      "tournament": "pauper-league-2026-03-0210196",
+      "date": "2026-03-02",
+      "player": "asWerty",
+      "archetype": "Spy",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-02-2812834072",
       "tournament": "Pauper Challenge 32",
       "date": "2026-02-28",
@@ -235,6 +268,22 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-02-0610196",
+      "tournament": "pauper-league-2026-02-0610196",
+      "date": "2026-02-06",
+      "player": "asWerty",
+      "archetype": "Spy",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-01-1512830022",
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-15",
@@ -251,46 +300,15 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-01-119987",
-      "tournament": "pauper-league-2026-01-119987",
-      "date": "",
+      "site_name": "pauper-league-2026-01-139987",
+      "tournament": "pauper-league-2026-01-139987",
+      "date": "2026-01-13",
       "player": "asWerty",
       "archetype": "Spy",
       "colors": [
         "B",
         "G",
         "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-12-189987",
-      "tournament": "pauper-league-2025-12-189987",
-      "date": "",
-      "player": "asWerty",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-109987",
-      "tournament": "pauper-league-2026-01-109987",
-      "date": "",
-      "player": "asWerty",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -300,7 +318,7 @@
     {
       "site_name": "pauper-league-2026-01-129987",
       "tournament": "pauper-league-2026-01-129987",
-      "date": "",
+      "date": "2026-01-12",
       "player": "asWerty",
       "archetype": "Spy",
       "colors": [
@@ -314,16 +332,60 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-03-0710405",
-      "tournament": "pauper-league-2026-03-0710405",
-      "date": "",
+      "site_name": "pauper-league-2026-01-119987",
+      "tournament": "pauper-league-2026-01-119987",
+      "date": "2026-01-11",
       "player": "asWerty",
-      "archetype": "Walls",
+      "archetype": "Spy",
       "colors": [
         "B",
         "G",
-        "R",
         "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-109987",
+      "tournament": "pauper-league-2026-01-109987",
+      "date": "2026-01-10",
+      "player": "asWerty",
+      "archetype": "Spy",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-069987",
+      "tournament": "pauper-league-2026-01-069987",
+      "date": "2026-01-06",
+      "player": "asWerty",
+      "archetype": "Spy",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-069987",
+      "tournament": "pauper-league-2026-01-069987",
+      "date": "2026-01-06",
+      "player": "asWerty",
+      "archetype": "Spy",
+      "colors": [
+        "B",
+        "G"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -333,7 +395,7 @@
     {
       "site_name": "pauper-league-2026-01-049987",
       "tournament": "pauper-league-2026-01-049987",
-      "date": "",
+      "date": "2026-01-04",
       "player": "asWerty",
       "archetype": "Spy",
       "colors": [
@@ -346,71 +408,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-01-139987",
-      "tournament": "pauper-league-2026-01-139987",
-      "date": "",
-      "player": "asWerty",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-069987",
-      "tournament": "pauper-league-2026-01-069987",
-      "date": "",
-      "player": "asWerty",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-069987",
-      "tournament": "pauper-league-2026-01-069987",
-      "date": "",
-      "player": "asWerty",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-0210196",
-      "tournament": "pauper-league-2026-03-0210196",
-      "date": "",
-      "player": "asWerty",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-0610196",
-      "tournament": "pauper-league-2026-02-0610196",
-      "date": "",
+      "site_name": "pauper-league-2025-12-189987",
+      "tournament": "pauper-league-2025-12-189987",
+      "date": "2025-12-18",
       "player": "asWerty",
       "archetype": "Spy",
       "colors": [

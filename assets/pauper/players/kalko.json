@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 9,
     "league_trophies": 9,
-    "league_trophies_yearly": 2,
+    "league_trophies_yearly": 8,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 302,
+    "league_trophy_rank_yearly": 98,
     "league_trophy_rank_alltime": 249,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -25,11 +25,11 @@
       "count": 3
     },
     {
-      "archetype": "Rally",
+      "archetype": "Cawgate",
       "count": 1
     },
     {
-      "archetype": "Cawgate",
+      "archetype": "Rally",
       "count": 1
     }
   ],
@@ -66,9 +66,25 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-02-3110196",
+      "tournament": "pauper-league-2026-02-3110196",
+      "date": "2026-02-31",
+      "player": "kalko",
+      "archetype": "Boros Glitter",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2026-02-1610196",
       "tournament": "pauper-league-2026-02-1610196",
-      "date": "",
+      "date": "2026-02-16",
       "player": "kalko",
       "archetype": "Rally",
       "colors": [
@@ -81,27 +97,11 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-06-189366",
-      "tournament": "pauper-league-2025-06-189366",
-      "date": "",
+      "site_name": "pauper-league-2026-02-1010196",
+      "tournament": "pauper-league-2026-02-1010196",
+      "date": "2026-02-10",
       "player": "kalko",
-      "archetype": "Cawgate",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-049987",
-      "tournament": "pauper-league-2026-01-049987",
-      "date": "",
-      "player": "kalko",
-      "archetype": "W Heroic",
+      "archetype": "Boros Glitter",
       "colors": [
         "B",
         "R",
@@ -115,7 +115,7 @@
     {
       "site_name": "pauper-league-2026-01-2710196",
       "tournament": "pauper-league-2026-01-2710196",
-      "date": "",
+      "date": "2026-01-27",
       "player": "kalko",
       "archetype": "Boros Glitter",
       "colors": [
@@ -129,9 +129,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-01-039987",
-      "tournament": "pauper-league-2026-01-039987",
-      "date": "",
+      "site_name": "pauper-league-2026-01-049987",
+      "tournament": "pauper-league-2026-01-049987",
+      "date": "2026-01-04",
       "player": "kalko",
       "archetype": "W Heroic",
       "colors": [
@@ -145,11 +145,11 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-02-3110196",
-      "tournament": "pauper-league-2026-02-3110196",
-      "date": "",
+      "site_name": "pauper-league-2026-01-039987",
+      "tournament": "pauper-league-2026-01-039987",
+      "date": "2026-01-03",
       "player": "kalko",
-      "archetype": "Boros Glitter",
+      "archetype": "W Heroic",
       "colors": [
         "B",
         "R",
@@ -161,14 +161,14 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-02-1010196",
-      "tournament": "pauper-league-2026-02-1010196",
-      "date": "",
+      "site_name": "pauper-league-2025-06-189366",
+      "tournament": "pauper-league-2025-06-189366",
+      "date": "2025-06-18",
       "player": "kalko",
-      "archetype": "Boros Glitter",
+      "archetype": "Cawgate",
       "colors": [
-        "B",
         "R",
+        "U",
         "W"
       ],
       "record": "5-0",

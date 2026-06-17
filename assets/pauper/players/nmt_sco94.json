@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 132,
     "league_trophies": 47,
-    "league_trophies_yearly": 2,
+    "league_trophies_yearly": 5,
     "challenge_wins": 350,
     "challenge_losses": 198,
     "irl_top8": 0,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 330,
+    "league_trophy_rank_yearly": 190,
     "league_trophy_rank_alltime": 20,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -49,11 +49,11 @@
       "count": 4
     },
     {
-      "archetype": "Affinity",
+      "archetype": "Elves",
       "count": 3
     },
     {
-      "archetype": "Elves",
+      "archetype": "Affinity",
       "count": 3
     }
   ],
@@ -235,6 +235,36 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-02-1610196",
+      "tournament": "pauper-league-2026-02-1610196",
+      "date": "2026-02-16",
+      "player": "NMT_Sco94",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-1610196",
+      "tournament": "pauper-league-2026-02-1610196",
+      "date": "2026-02-16",
+      "player": "NMT_Sco94",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-02-1412833033",
       "tournament": "Pauper Challenge 32",
       "date": "2026-02-14",
@@ -372,6 +402,22 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-01-199987",
+      "tournament": "pauper-league-2026-01-199987",
+      "date": "2026-01-19",
+      "player": "NMT_Sco94",
+      "archetype": "BR Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-01-1612830033",
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-16",
@@ -402,53 +448,6 @@
       "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-01-1012829365",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-10",
-      "player": "NMT_Sco94",
-      "archetype": "Elves",
-      "colors": [
-        "G"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-01-0412829042",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-04",
-      "player": "NMT_Sco94",
-      "archetype": "BR Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "6-3",
-      "final_rank": 4,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-rc-super-qualifier-2025-12-2812828040",
-      "tournament": "Pauper RC Super Qualifier",
-      "date": "2025-12-28",
-      "player": "NMT_Sco94",
-      "archetype": "Bogle",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "7-3",
-      "final_rank": 8,
-      "source": "mtgo",
-      "type": "other"
     }
   ]
 }

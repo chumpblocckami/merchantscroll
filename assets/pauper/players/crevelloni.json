@@ -5,23 +5,23 @@
   "stats": {
     "total_entries": 14,
     "league_trophies": 4,
-    "league_trophies_yearly": 1,
+    "league_trophies_yearly": 4,
     "challenge_wins": 38,
     "challenge_losses": 27,
     "irl_top8": 0,
     "challenge_win_pct": 58,
-    "league_trophy_rank_yearly": 464,
-    "league_trophy_rank_alltime": 527,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 217,
+    "league_trophy_rank_alltime": 528,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
     {
-      "archetype": "Gardens",
+      "archetype": "Monsters Tron",
       "count": 3
     },
     {
-      "archetype": "Monsters Tron",
+      "archetype": "Gardens",
       "count": 3
     },
     {
@@ -33,11 +33,11 @@
       "count": 2
     },
     {
-      "archetype": "Affinity",
+      "archetype": "Ponza",
       "count": 1
     },
     {
-      "archetype": "R Madness",
+      "archetype": "Affinity",
       "count": 1
     },
     {
@@ -45,7 +45,7 @@
       "count": 1
     },
     {
-      "archetype": "Ponza",
+      "archetype": "R Madness",
       "count": 1
     }
   ],
@@ -56,6 +56,22 @@
       "date": "2026-04-10",
       "player": "Crevelloni",
       "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-03-1110405",
+      "tournament": "pauper-league-2026-03-1110405",
+      "date": "2026-03-11",
+      "player": "Crevelloni",
+      "archetype": "Affinity",
       "colors": [
         "B",
         "R",
@@ -146,6 +162,36 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-02-1610196",
+      "tournament": "pauper-league-2026-02-1610196",
+      "date": "2026-02-16",
+      "player": "Crevelloni",
+      "archetype": "RG Ponza",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-1510196",
+      "tournament": "pauper-league-2026-02-1510196",
+      "date": "2026-02-15",
+      "player": "Crevelloni",
+      "archetype": "RG Ponza",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-06-2012798157",
       "tournament": "Pauper Challenge 32",
       "date": "2025-06-20",
@@ -217,52 +263,6 @@
       "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-02-1610196",
-      "tournament": "pauper-league-2026-02-1610196",
-      "date": "",
-      "player": "Crevelloni",
-      "archetype": "RG Ponza",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-1110405",
-      "tournament": "pauper-league-2026-03-1110405",
-      "date": "",
-      "player": "Crevelloni",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-1510196",
-      "tournament": "pauper-league-2026-02-1510196",
-      "date": "",
-      "player": "Crevelloni",
-      "archetype": "RG Ponza",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

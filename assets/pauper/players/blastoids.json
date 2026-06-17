@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 8,
     "league_trophies": 1,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 1,
     "challenge_wins": 28,
     "challenge_losses": 18,
     "irl_top8": 0,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 1219,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 657,
+    "league_trophy_rank_alltime": 1220,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -123,6 +123,20 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-01-079987",
+      "tournament": "pauper-league-2026-01-079987",
+      "date": "2026-01-07",
+      "player": "blastoids",
+      "archetype": "B Sacrifice",
+      "colors": [
+        "B"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-12-1812827476",
       "tournament": "Pauper Challenge 32",
       "date": "2025-12-18",
@@ -137,20 +151,6 @@
       "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-01-079987",
-      "tournament": "pauper-league-2026-01-079987",
-      "date": "",
-      "player": "blastoids",
-      "archetype": "B Sacrifice",
-      "colors": [
-        "B"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

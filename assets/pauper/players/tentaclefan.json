@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 6,
     "league_trophies": 3,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 3,
     "challenge_wins": 11,
     "challenge_losses": 7,
     "irl_top8": 0,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 802,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 377,
+    "league_trophy_rank_alltime": 803,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,15 +21,15 @@
       "count": 3
     },
     {
-      "archetype": "UB Control",
-      "count": 1
-    },
-    {
       "archetype": "Jeskai",
       "count": 1
     },
     {
       "archetype": "U Terror",
+      "count": 1
+    },
+    {
+      "archetype": "UB Control",
       "count": 1
     }
   ],
@@ -83,9 +83,24 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-02-1810196",
+      "tournament": "pauper-league-2026-02-1810196",
+      "date": "2026-02-18",
+      "player": "TentacleFan",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2026-01-3010196",
       "tournament": "pauper-league-2026-01-3010196",
-      "date": "",
+      "date": "2026-01-30",
       "player": "TentacleFan",
       "archetype": "UB Terror",
       "colors": [
@@ -101,26 +116,11 @@
     {
       "site_name": "pauper-league-2026-01-2810196",
       "tournament": "pauper-league-2026-01-2810196",
-      "date": "",
+      "date": "2026-01-28",
       "player": "TentacleFan",
       "archetype": "UB Terror",
       "colors": [
         "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-1810196",
-      "tournament": "pauper-league-2026-02-1810196",
-      "date": "",
-      "player": "TentacleFan",
-      "archetype": "U Terror",
-      "colors": [
         "R",
         "U"
       ],

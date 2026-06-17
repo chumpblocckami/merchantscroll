@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 75,
     "league_trophies": 62,
-    "league_trophies_yearly": 8,
+    "league_trophies_yearly": 23,
     "challenge_wins": 54,
     "challenge_losses": 32,
     "irl_top8": 0,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 42,
+    "league_trophy_rank_yearly": 17,
     "league_trophy_rank_alltime": 11,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -25,15 +25,15 @@
       "count": 10
     },
     {
+      "archetype": "Gardens",
+      "count": 7
+    },
+    {
       "archetype": "R Madness",
       "count": 7
     },
     {
       "archetype": "Rally",
-      "count": 7
-    },
-    {
-      "archetype": "Gardens",
       "count": 7
     },
     {
@@ -45,7 +45,7 @@
       "count": 5
     },
     {
-      "archetype": "Food Pestilence",
+      "archetype": "Spy",
       "count": 2
     },
     {
@@ -53,7 +53,7 @@
       "count": 2
     },
     {
-      "archetype": "Spy",
+      "archetype": "Food Pestilence",
       "count": 2
     }
   ],
@@ -215,6 +215,21 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-03-2210405",
+      "tournament": "pauper-league-2026-03-2210405",
+      "date": "2026-03-22",
+      "player": "Paul16",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-03-1512835331",
       "tournament": "Pauper Challenge 32",
       "date": "2026-03-15",
@@ -246,6 +261,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-03-1110405",
+      "tournament": "pauper-league-2026-03-1110405",
+      "date": "2026-03-11",
+      "player": "Paul16",
+      "archetype": "UB Terror",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-03-0812834527",
       "tournament": "Pauper Challenge 32",
       "date": "2026-03-08",
@@ -262,73 +292,87 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2025-12-0612825806",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-12-06",
+      "site_name": "pauper-league-2026-03-0410405",
+      "tournament": "pauper-league-2026-03-0410405",
+      "date": "2026-03-04",
       "player": "Paul16",
-      "archetype": "R Madness",
+      "archetype": "Jund",
       "colors": [
         "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-03-0110196",
+      "tournament": "pauper-league-2026-03-0110196",
+      "date": "2026-03-01",
+      "player": "Paul16",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-2310196",
+      "tournament": "pauper-league-2026-02-2310196",
+      "date": "2026-02-23",
+      "player": "Paul16",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-2310196",
+      "tournament": "pauper-league-2026-02-2310196",
+      "date": "2026-02-23",
+      "player": "Paul16",
+      "archetype": "U Terror",
+      "colors": [
         "R",
         "U"
       ],
-      "record": "3-3",
-      "final_rank": 24,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2025-11-1612824440",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-11-16",
+      "site_name": "pauper-league-2026-02-1510196",
+      "tournament": "pauper-league-2026-02-1510196",
+      "date": "2026-02-15",
       "player": "Paul16",
-      "archetype": "Gardens",
+      "archetype": "U Terror",
       "colors": [
-        "B",
-        "G",
-        "R"
+        "R",
+        "U"
       ],
-      "record": "3-3",
-      "final_rank": 32,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-special-2025-11-1412824408",
-      "tournament": "Pauper Challenge 32 Special",
-      "date": "2025-11-14",
-      "player": "Paul16",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-2",
-      "final_rank": 14,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-special-2025-11-1212824383",
-      "tournament": "Pauper Challenge 32 Special",
-      "date": "2025-11-12",
-      "player": "Paul16",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "7-1",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-09-2612816520",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-09-26",
+      "site_name": "pauper-league-2026-02-1110196",
+      "tournament": "pauper-league-2026-02-1110196",
+      "date": "2026-02-11",
       "player": "Paul16",
       "archetype": "Jund",
       "colors": [
@@ -336,62 +380,15 @@
         "G",
         "R"
       ],
-      "record": "3-3",
-      "final_rank": 22,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-09-1312814274",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-09-13",
-      "player": "Paul16",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "1-2",
-      "final_rank": 31,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-09-0612813561",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-09-06",
-      "player": "Paul16",
-      "archetype": "Food Pestilence",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-06-2812799998",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-06-28",
-      "player": "Paul16",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 22,
-      "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-02-0510196",
       "tournament": "pauper-league-2026-02-0510196",
-      "date": "",
+      "date": "2026-02-05",
       "player": "Paul16",
       "archetype": "R Madness",
       "colors": [
@@ -405,28 +402,13 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-08-279535",
-      "tournament": "pauper-league-2025-08-279535",
-      "date": "",
+      "site_name": "pauper-league-2026-02-0410196",
+      "tournament": "pauper-league-2026-02-0410196",
+      "date": "2026-02-04",
       "player": "Paul16",
-      "archetype": "Food Pestilence",
+      "archetype": "U Terror",
       "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-10-229750",
-      "tournament": "pauper-league-2025-10-229750",
-      "date": "",
-      "player": "Paul16",
-      "archetype": "",
-      "colors": [
+        "R",
         "U"
       ],
       "record": "5-0",
@@ -435,12 +417,28 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-11-129750",
-      "tournament": "pauper-league-2025-11-129750",
-      "date": "",
+      "site_name": "pauper-league-2026-02-0210196",
+      "tournament": "pauper-league-2026-02-0210196",
+      "date": "2026-02-02",
       "player": "Paul16",
-      "archetype": "Rally",
+      "archetype": "U Terror",
       "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-2210196",
+      "tournament": "pauper-league-2026-01-2210196",
+      "date": "2026-01-22",
+      "player": "Paul16",
+      "archetype": "Jund",
+      "colors": [
+        "B",
         "G",
         "R"
       ],

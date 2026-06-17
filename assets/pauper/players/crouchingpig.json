@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 15,
     "league_trophies": 2,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 1,
     "challenge_wins": 47,
     "challenge_losses": 35,
     "irl_top8": 0,
     "challenge_win_pct": 57,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 880,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 711,
+    "league_trophy_rank_alltime": 881,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -57,6 +57,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-03-1710405",
+      "tournament": "pauper-league-2026-03-1710405",
+      "date": "2026-03-17",
+      "player": "CrouchingPig",
+      "archetype": "Elves",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-12-2512828058",
       "tournament": "Pauper Challenge 32",
       "date": "2025-12-25",
@@ -70,6 +85,21 @@
       "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-12-219987",
+      "tournament": "pauper-league-2025-12-219987",
+      "date": "2025-12-21",
+      "player": "CrouchingPig",
+      "archetype": "Elves",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-12-1912827488",
@@ -220,36 +250,6 @@
       "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-03-1710405",
-      "tournament": "pauper-league-2026-03-1710405",
-      "date": "",
-      "player": "CrouchingPig",
-      "archetype": "Elves",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-12-219987",
-      "tournament": "pauper-league-2025-12-219987",
-      "date": "",
-      "player": "CrouchingPig",
-      "archetype": "Elves",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

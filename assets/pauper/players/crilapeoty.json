@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 9,
     "league_trophies": 4,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 1,
     "challenge_wins": 25,
     "challenge_losses": 12,
     "irl_top8": 0,
     "challenge_win_pct": 68,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 528,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 710,
+    "league_trophy_rank_alltime": 529,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -25,7 +25,7 @@
       "count": 2
     },
     {
-      "archetype": "UB Control",
+      "archetype": "BW Refurbished",
       "count": 1
     },
     {
@@ -33,7 +33,7 @@
       "count": 1
     },
     {
-      "archetype": "BW Refurbished",
+      "archetype": "UB Control",
       "count": 1
     }
   ],
@@ -53,6 +53,22 @@
       "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-01-199987",
+      "tournament": "pauper-league-2026-01-199987",
+      "date": "2026-01-19",
+      "player": "CrilaPeoty",
+      "archetype": "BW Refurbished",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-01-0112828151",
@@ -83,6 +99,49 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-12-189987",
+      "tournament": "pauper-league-2025-12-189987",
+      "date": "2025-12-18",
+      "player": "CrilaPeoty",
+      "archetype": "U Terror",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-12-099987",
+      "tournament": "pauper-league-2025-12-099987",
+      "date": "2025-12-09",
+      "player": "CrilaPeoty",
+      "archetype": "U Terror",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-08-239535",
+      "tournament": "pauper-league-2025-08-239535",
+      "date": "2025-08-23",
+      "player": "CrilaPeoty",
+      "archetype": "UB Control",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-07-1912803691",
       "tournament": "Pauper Challenge 32",
       "date": "2025-07-19",
@@ -109,65 +168,6 @@
       "final_rank": 20,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-12-189987",
-      "tournament": "pauper-league-2025-12-189987",
-      "date": "",
-      "player": "CrilaPeoty",
-      "archetype": "U Terror",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-12-099987",
-      "tournament": "pauper-league-2025-12-099987",
-      "date": "",
-      "player": "CrilaPeoty",
-      "archetype": "U Terror",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-08-239535",
-      "tournament": "pauper-league-2025-08-239535",
-      "date": "",
-      "player": "CrilaPeoty",
-      "archetype": "UB Control",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-199987",
-      "tournament": "pauper-league-2026-01-199987",
-      "date": "",
-      "player": "CrilaPeoty",
-      "archetype": "BW Refurbished",
-      "colors": [
-        "B",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

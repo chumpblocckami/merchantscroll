@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 4,
     "league_trophies": 3,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 1,
     "challenge_wins": 5,
     "challenge_losses": 2,
     "irl_top8": 0,
     "challenge_win_pct": 71,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 638,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 629,
+    "league_trophy_rank_alltime": 639,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,15 +21,61 @@
       "count": 2
     },
     {
-      "archetype": "Jund Gardens",
+      "archetype": "White Weennie",
       "count": 1
     },
     {
-      "archetype": "White Weennie",
+      "archetype": "Jund Gardens",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-03-0210196",
+      "tournament": "pauper-league-2026-03-0210196",
+      "date": "2026-03-02",
+      "player": "apa19",
+      "archetype": "Jund Gardens",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-12-019987",
+      "tournament": "pauper-league-2025-12-019987",
+      "date": "2025-12-01",
+      "player": "apa19",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-11-149750",
+      "tournament": "pauper-league-2025-11-149750",
+      "date": "2025-11-14",
+      "player": "apa19",
+      "archetype": "White Weennie",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2025-08-1012807492",
       "tournament": "Pauper Challenge 32",
@@ -45,52 +91,6 @@
       "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-12-019987",
-      "tournament": "pauper-league-2025-12-019987",
-      "date": "",
-      "player": "apa19",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-0210196",
-      "tournament": "pauper-league-2026-03-0210196",
-      "date": "",
-      "player": "apa19",
-      "archetype": "Jund Gardens",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-11-149750",
-      "tournament": "pauper-league-2025-11-149750",
-      "date": "",
-      "player": "apa19",
-      "archetype": "White Weennie",
-      "colors": [
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

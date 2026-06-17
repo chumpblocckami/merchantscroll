@@ -11,8 +11,8 @@
     "irl_top8": 0,
     "challenge_win_pct": 70,
     "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 641,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_alltime": 642,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -22,6 +22,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2025-09-199535",
+      "tournament": "pauper-league-2025-09-199535",
+      "date": "2025-09-19",
+      "player": "Azurenia_",
+      "archetype": "Dredge",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2025-08-3112812801",
       "tournament": "Pauper Challenge 32",
@@ -55,42 +71,9 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2025-06-0112782673",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-06-01",
-      "player": "Azurenia_",
-      "archetype": "Dredge",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-09-199535",
-      "tournament": "pauper-league-2025-09-199535",
-      "date": "",
-      "player": "Azurenia_",
-      "archetype": "Dredge",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2025-07-029366",
       "tournament": "pauper-league-2025-07-029366",
-      "date": "",
+      "date": "2025-07-02",
       "player": "Azurenia_",
       "archetype": "Dredge",
       "colors": [
@@ -106,7 +89,7 @@
     {
       "site_name": "pauper-league-2025-06-239366",
       "tournament": "pauper-league-2025-06-239366",
-      "date": "",
+      "date": "2025-06-23",
       "player": "Azurenia_",
       "archetype": "Dredge",
       "colors": [
@@ -118,6 +101,23 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-06-0112782673",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-06-01",
+      "player": "Azurenia_",
+      "archetype": "Dredge",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ]
 }

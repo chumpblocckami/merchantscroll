@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 41,
     "league_trophies": 9,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 2,
     "challenge_wins": 113,
     "challenge_losses": 81,
     "irl_top8": 0,
     "challenge_win_pct": 58,
-    "league_trophy_rank_yearly": null,
+    "league_trophy_rank_yearly": 519,
     "league_trophy_rank_alltime": 255,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -227,6 +227,20 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-02-1810196",
+      "tournament": "pauper-league-2026-02-1810196",
+      "date": "2026-02-18",
+      "player": "Mokemi",
+      "archetype": "Elves",
+      "colors": [
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-02-1412833033",
       "tournament": "Pauper Challenge 32",
       "date": "2026-02-14",
@@ -255,6 +269,20 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-02-1010196",
+      "tournament": "pauper-league-2026-02-1010196",
+      "date": "2026-02-10",
+      "player": "Mokemi",
+      "archetype": "Elves",
+      "colors": [
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-02-0612832511",
       "tournament": "Pauper Challenge 32",
       "date": "2026-02-06",
@@ -281,6 +309,21 @@
       "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-12-209987",
+      "tournament": "pauper-league-2025-12-209987",
+      "date": "2025-12-20",
+      "player": "Mokemi",
+      "archetype": "Monsters",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-12-0612825806",
@@ -354,51 +397,6 @@
       ],
       "record": "2-3",
       "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-09-2612816520",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-09-26",
-      "player": "Mokemi",
-      "archetype": "Monsters",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-3",
-      "final_rank": 4,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-09-1912815119",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-09-19",
-      "player": "Mokemi",
-      "archetype": "Monsters",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 28,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-09-0612813561",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-09-06",
-      "player": "Mokemi",
-      "archetype": "Monsters",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-2",
-      "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
     }

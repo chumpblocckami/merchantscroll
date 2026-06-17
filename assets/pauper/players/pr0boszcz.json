@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 29,
     "league_trophies": 6,
-    "league_trophies_yearly": 1,
+    "league_trophies_yearly": 3,
     "challenge_wins": 93,
     "challenge_losses": 52,
     "irl_top8": 0,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 686,
+    "league_trophy_rank_yearly": 360,
     "league_trophy_rank_alltime": 413,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,20 +21,16 @@
       "count": 16
     },
     {
-      "archetype": "Affinity",
+      "archetype": "Spy",
       "count": 3
     },
     {
-      "archetype": "Spy",
+      "archetype": "Affinity",
       "count": 3
     },
     {
       "archetype": "Jund",
       "count": 2
-    },
-    {
-      "archetype": "UB Faeries",
-      "count": 1
     },
     {
       "archetype": "White Weenie",
@@ -50,6 +46,10 @@
     },
     {
       "archetype": "Esper Affinity",
+      "count": 1
+    },
+    {
+      "archetype": "UB Faeries",
       "count": 1
     }
   ],
@@ -403,31 +403,29 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2025-05-1612780132",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-05-16",
+      "site_name": "pauper-league-2026-03-0710405",
+      "tournament": "pauper-league-2026-03-0710405",
+      "date": "2026-03-07",
       "player": "PR0boszcz",
-      "archetype": "Spy",
+      "archetype": "Food Pestilence",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
       ],
-      "record": "3-3",
-      "final_rank": 19,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-05-069081",
-      "tournament": "pauper-league-2025-05-069081",
-      "date": "",
+      "site_name": "pauper-league-2026-03-0410405",
+      "tournament": "pauper-league-2026-03-0410405",
+      "date": "2026-03-04",
       "player": "PR0boszcz",
-      "archetype": "Spy",
+      "archetype": "Food Pestilence",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
       ],
       "record": "5-0",
       "final_rank": null,

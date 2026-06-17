@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 55,
     "league_trophies": 16,
-    "league_trophies_yearly": 5,
+    "league_trophies_yearly": 7,
     "challenge_wins": 150,
     "challenge_losses": 91,
     "irl_top8": 0,
     "challenge_win_pct": 62,
-    "league_trophy_rank_yearly": 82,
+    "league_trophy_rank_yearly": 114,
     "league_trophy_rank_alltime": 115,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -335,6 +335,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-01-2710196",
+      "tournament": "pauper-league-2026-01-2710196",
+      "date": "2026-01-27",
+      "player": "Brvnx",
+      "archetype": "UR Control",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-01-2412830645",
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-24",
@@ -380,6 +395,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-01-179987",
+      "tournament": "pauper-league-2026-01-179987",
+      "date": "2026-01-17",
+      "player": "Brvnx",
+      "archetype": "UR Control",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-01-0212828162",
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-02",
@@ -390,34 +420,6 @@
       ],
       "record": "3-3",
       "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-rc-super-qualifier-2025-12-2812828040",
-      "tournament": "Pauper RC Super Qualifier",
-      "date": "2025-12-28",
-      "player": "Brvnx",
-      "archetype": "U Faeries",
-      "colors": [
-        "U"
-      ],
-      "record": "8-2",
-      "final_rank": 7,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-12-2712828084",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-12-27",
-      "player": "Brvnx",
-      "archetype": "U Faeries",
-      "colors": [
-        "U"
-      ],
-      "record": "2-4",
-      "final_rank": null,
       "source": "mtgo",
       "type": "challenge"
     }

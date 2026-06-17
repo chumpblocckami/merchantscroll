@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 16,
     "league_trophies": 4,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 1,
     "challenge_wins": 40,
     "challenge_losses": 34,
     "irl_top8": 0,
     "challenge_win_pct": 54,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 568,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 918,
+    "league_trophy_rank_alltime": 569,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,19 +21,85 @@
       "count": 13
     },
     {
-      "archetype": "Monsters",
-      "count": 1
-    },
-    {
       "archetype": "Bogle",
       "count": 1
     },
     {
       "archetype": "Rally",
       "count": 1
+    },
+    {
+      "archetype": "Monsters",
+      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-01-059987",
+      "tournament": "pauper-league-2026-01-059987",
+      "date": "2026-01-05",
+      "player": "Martani",
+      "archetype": "Bogle",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-12-209987",
+      "tournament": "pauper-league-2025-12-209987",
+      "date": "2025-12-20",
+      "player": "Martani",
+      "archetype": "BR Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-12-069987",
+      "tournament": "pauper-league-2025-12-069987",
+      "date": "2025-12-06",
+      "player": "Martani",
+      "archetype": "Monsters",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-11-139750",
+      "tournament": "pauper-league-2025-11-139750",
+      "date": "2025-11-13",
+      "player": "Martani",
+      "archetype": "BR Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-special-2025-11-1212824383",
       "tournament": "Pauper Challenge 32 Special",
@@ -224,72 +290,6 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-12-209987",
-      "tournament": "pauper-league-2025-12-209987",
-      "date": "",
-      "player": "Martani",
-      "archetype": "BR Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-12-069987",
-      "tournament": "pauper-league-2025-12-069987",
-      "date": "",
-      "player": "Martani",
-      "archetype": "Monsters",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-11-139750",
-      "tournament": "pauper-league-2025-11-139750",
-      "date": "",
-      "player": "Martani",
-      "archetype": "BR Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-059987",
-      "tournament": "pauper-league-2026-01-059987",
-      "date": "",
-      "player": "Martani",
-      "archetype": "Bogle",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

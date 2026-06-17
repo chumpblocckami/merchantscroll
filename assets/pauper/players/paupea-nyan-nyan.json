@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 14,
     "league_trophies": 13,
-    "league_trophies_yearly": 4,
+    "league_trophies_yearly": 9,
     "challenge_wins": 4,
     "challenge_losses": 3,
     "irl_top8": 0,
     "challenge_win_pct": 57,
-    "league_trophy_rank_yearly": 148,
+    "league_trophy_rank_yearly": 92,
     "league_trophy_rank_alltime": 154,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -33,11 +33,11 @@
       "count": 1
     },
     {
-      "archetype": "Food Pestilence",
+      "archetype": "White Weennie",
       "count": 1
     },
     {
-      "archetype": "White Weennie",
+      "archetype": "Food Pestilence",
       "count": 1
     }
   ],
@@ -127,42 +127,11 @@
     {
       "site_name": "pauper-league-2026-03-1110405",
       "tournament": "pauper-league-2026-03-1110405",
-      "date": "",
+      "date": "2026-03-11",
       "player": "paupea-nyan-nyan",
       "archetype": "Rally",
       "colors": [
         "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-2510196",
-      "tournament": "pauper-league-2026-02-2510196",
-      "date": "",
-      "player": "paupea-nyan-nyan",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-06-069081",
-      "tournament": "pauper-league-2025-06-069081",
-      "date": "",
-      "player": "paupea-nyan-nyan",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -172,7 +141,7 @@
     {
       "site_name": "pauper-league-2026-03-0410405",
       "tournament": "pauper-league-2026-03-0410405",
-      "date": "",
+      "date": "2026-03-04",
       "player": "paupea-nyan-nyan",
       "archetype": "Monsters Tron",
       "colors": [
@@ -186,9 +155,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-02-2210196",
-      "tournament": "pauper-league-2026-02-2210196",
-      "date": "",
+      "site_name": "pauper-league-2026-02-2510196",
+      "tournament": "pauper-league-2026-02-2510196",
+      "date": "2026-02-25",
       "player": "paupea-nyan-nyan",
       "archetype": "Rally",
       "colors": [
@@ -201,9 +170,54 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-02-2210196",
+      "tournament": "pauper-league-2026-02-2210196",
+      "date": "2026-02-22",
+      "player": "paupea-nyan-nyan",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-1810196",
+      "tournament": "pauper-league-2026-02-1810196",
+      "date": "2026-02-18",
+      "player": "paupea-nyan-nyan",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-039750",
+      "tournament": "pauper-league-2025-10-039750",
+      "date": "2025-10-03",
+      "player": "paupea-nyan-nyan",
+      "archetype": "White Weennie",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2025-08-229535",
       "tournament": "pauper-league-2025-08-229535",
-      "date": "",
+      "date": "2025-08-22",
       "player": "paupea-nyan-nyan",
       "archetype": "Monsters",
       "colors": [
@@ -221,7 +235,7 @@
     {
       "site_name": "pauper-league-2025-07-229366",
       "tournament": "pauper-league-2025-07-229366",
-      "date": "",
+      "date": "2025-07-22",
       "player": "paupea-nyan-nyan",
       "archetype": "Food Pestilence",
       "colors": [
@@ -234,23 +248,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-10-039750",
-      "tournament": "pauper-league-2025-10-039750",
-      "date": "",
-      "player": "paupea-nyan-nyan",
-      "archetype": "White Weennie",
-      "colors": [
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-1810196",
-      "tournament": "pauper-league-2026-02-1810196",
-      "date": "",
+      "site_name": "pauper-league-2025-06-069081",
+      "tournament": "pauper-league-2025-06-069081",
+      "date": "2025-06-06",
       "player": "paupea-nyan-nyan",
       "archetype": "R Madness",
       "colors": [

@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 13,
     "league_trophies": 3,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 1,
     "challenge_wins": 43,
     "challenge_losses": 25,
     "irl_top8": 0,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": null,
+    "league_trophy_rank_yearly": 988,
     "league_trophy_rank_alltime": 764,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -25,23 +25,7 @@
       "count": 2
     },
     {
-      "archetype": "Elves",
-      "count": 1
-    },
-    {
-      "archetype": "U",
-      "count": 1
-    },
-    {
-      "archetype": "Affinity",
-      "count": 1
-    },
-    {
-      "archetype": "Familiars",
-      "count": 1
-    },
-    {
-      "archetype": "UB Terror",
+      "archetype": "UR Control",
       "count": 1
     },
     {
@@ -49,15 +33,46 @@
       "count": 1
     },
     {
-      "archetype": "UR Control",
+      "archetype": "UG Fog",
+      "count": 1
+    },
+    {
+      "archetype": "UB Terror",
+      "count": 1
+    },
+    {
+      "archetype": "Familiars",
+      "count": 1
+    },
+    {
+      "archetype": "Affinity",
       "count": 1
     },
     {
       "archetype": "Walls",
       "count": 1
+    },
+    {
+      "archetype": "Elves",
+      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-01-069987",
+      "tournament": "pauper-league-2026-01-069987",
+      "date": "2026-01-06",
+      "player": "PieGonti",
+      "archetype": "UR Control",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-01-0412829042",
       "tournament": "Pauper Challenge 32",
@@ -153,6 +168,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-09-199535",
+      "tournament": "pauper-league-2025-09-199535",
+      "date": "2025-09-19",
+      "player": "PieGonti",
+      "archetype": "Elves",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-08-1012807492",
       "tournament": "Pauper Challenge 32",
       "date": "2025-08-10",
@@ -217,42 +247,12 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2025-09-199535",
-      "tournament": "pauper-league-2025-09-199535",
-      "date": "",
-      "player": "PieGonti",
-      "archetype": "Elves",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2025-05-189081",
       "tournament": "pauper-league-2025-05-189081",
-      "date": "",
+      "date": "2025-05-18",
       "player": "PieGonti",
-      "archetype": "",
+      "archetype": "UG Fog",
       "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-069987",
-      "tournament": "pauper-league-2026-01-069987",
-      "date": "",
-      "player": "PieGonti",
-      "archetype": "UR Control",
-      "colors": [
-        "R",
         "U"
       ],
       "record": "5-0",

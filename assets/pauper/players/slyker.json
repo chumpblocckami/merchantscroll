@@ -5,23 +5,23 @@
   "stats": {
     "total_entries": 5,
     "league_trophies": 5,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 1,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 483,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 1041,
+    "league_trophy_rank_alltime": 484,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
     {
-      "archetype": "Jund",
+      "archetype": "R Madness",
       "count": 2
     },
     {
-      "archetype": "R Madness",
+      "archetype": "Jund",
       "count": 2
     },
     {
@@ -31,25 +31,9 @@
   ],
   "recent_entries": [
     {
-      "site_name": "pauper-league-2025-05-069081",
-      "tournament": "pauper-league-2025-05-069081",
-      "date": "",
-      "player": "Slyker",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-01-2210196",
       "tournament": "pauper-league-2026-01-2210196",
-      "date": "",
+      "date": "2026-01-22",
       "player": "Slyker",
       "archetype": "Jund",
       "colors": [
@@ -65,7 +49,7 @@
     {
       "site_name": "pauper-league-2025-11-309987",
       "tournament": "pauper-league-2025-11-309987",
-      "date": "",
+      "date": "2025-11-30",
       "player": "Slyker",
       "archetype": "BR Madness",
       "colors": [
@@ -79,9 +63,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-06-289366",
-      "tournament": "pauper-league-2025-06-289366",
-      "date": "",
+      "site_name": "pauper-league-2025-06-309366",
+      "tournament": "pauper-league-2025-06-309366",
+      "date": "2025-06-30",
       "player": "Slyker",
       "archetype": "R Madness",
       "colors": [
@@ -95,15 +79,31 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-06-309366",
-      "tournament": "pauper-league-2025-06-309366",
-      "date": "",
+      "site_name": "pauper-league-2025-06-289366",
+      "tournament": "pauper-league-2025-06-289366",
+      "date": "2025-06-28",
       "player": "Slyker",
       "archetype": "R Madness",
       "colors": [
         "B",
         "R",
         "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-05-069081",
+      "tournament": "pauper-league-2025-05-069081",
+      "date": "2025-05-06",
+      "player": "Slyker",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,

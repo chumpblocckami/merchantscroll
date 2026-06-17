@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 10,
     "league_trophies": 9,
-    "league_trophies_yearly": 1,
+    "league_trophies_yearly": 3,
     "challenge_wins": 3,
     "challenge_losses": 3,
     "irl_top8": 0,
     "challenge_win_pct": 50,
-    "league_trophy_rank_yearly": 723,
+    "league_trophy_rank_yearly": 373,
     "league_trophy_rank_alltime": 258,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -25,10 +25,6 @@
       "count": 3
     },
     {
-      "archetype": "UR Control",
-      "count": 1
-    },
-    {
       "archetype": "Elves",
       "count": 1
     },
@@ -38,6 +34,10 @@
     },
     {
       "archetype": "Cawgate",
+      "count": 1
+    },
+    {
+      "archetype": "UR Control",
       "count": 1
     }
   ],
@@ -75,9 +75,24 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-05-179081",
-      "tournament": "pauper-league-2025-05-179081",
-      "date": "",
+      "site_name": "pauper-league-2026-02-2510196",
+      "tournament": "pauper-league-2026-02-2510196",
+      "date": "2026-02-25",
+      "player": "squalobalera",
+      "archetype": "UB Faeries",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-2210196",
+      "tournament": "pauper-league-2026-02-2210196",
+      "date": "2026-02-22",
       "player": "squalobalera",
       "archetype": "UB Faeries",
       "colors": [
@@ -92,7 +107,7 @@
     {
       "site_name": "pauper-league-2025-09-249750",
       "tournament": "pauper-league-2025-09-249750",
-      "date": "",
+      "date": "2025-09-24",
       "player": "squalobalera",
       "archetype": "Spy",
       "colors": [
@@ -106,39 +121,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-06-279366",
-      "tournament": "pauper-league-2025-06-279366",
-      "date": "",
-      "player": "squalobalera",
-      "archetype": "UR Control",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-2510196",
-      "tournament": "pauper-league-2026-02-2510196",
-      "date": "",
-      "player": "squalobalera",
-      "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2025-09-239750",
       "tournament": "pauper-league-2025-09-239750",
-      "date": "",
+      "date": "2025-09-23",
       "player": "squalobalera",
       "archetype": "Elves",
       "colors": [
@@ -153,13 +138,29 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-02-2210196",
-      "tournament": "pauper-league-2026-02-2210196",
-      "date": "",
+      "site_name": "pauper-league-2025-08-189535",
+      "tournament": "pauper-league-2025-08-189535",
+      "date": "2025-08-18",
       "player": "squalobalera",
-      "archetype": "UB Faeries",
+      "archetype": "Cawgate",
       "colors": [
-        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-06-279366",
+      "tournament": "pauper-league-2025-06-279366",
+      "date": "2025-06-27",
+      "player": "squalobalera",
+      "archetype": "UR Control",
+      "colors": [
+        "R",
         "U"
       ],
       "record": "5-0",
@@ -170,7 +171,7 @@
     {
       "site_name": "pauper-league-2025-06-169366",
       "tournament": "pauper-league-2025-06-169366",
-      "date": "",
+      "date": "2025-06-16",
       "player": "squalobalera",
       "archetype": "UB Terror",
       "colors": [
@@ -183,15 +184,14 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-08-189535",
-      "tournament": "pauper-league-2025-08-189535",
-      "date": "",
+      "site_name": "pauper-league-2025-05-179081",
+      "tournament": "pauper-league-2025-05-179081",
+      "date": "2025-05-17",
       "player": "squalobalera",
-      "archetype": "Cawgate",
+      "archetype": "UB Faeries",
       "colors": [
-        "R",
-        "U",
-        "W"
+        "B",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,

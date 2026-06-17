@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 8,
     "league_trophies": 8,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 1,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": null,
+    "league_trophy_rank_yearly": 971,
     "league_trophy_rank_alltime": 294,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,27 +21,89 @@
       "count": 2
     },
     {
-      "archetype": "Esper Affinity",
-      "count": 2
-    },
-    {
       "archetype": "Jund",
       "count": 2
     },
     {
-      "archetype": "Boros Glitter",
-      "count": 1
+      "archetype": "Esper Affinity",
+      "count": 2
     },
     {
       "archetype": "Rally",
+      "count": 1
+    },
+    {
+      "archetype": "Boros Glitter",
       "count": 1
     }
   ],
   "recent_entries": [
     {
-      "site_name": "pauper-league-2024-08-219535",
-      "tournament": "pauper-league-2024-08-219535",
-      "date": "",
+      "site_name": "pauper-league-2026-02-0810196",
+      "tournament": "pauper-league-2026-02-0810196",
+      "date": "2026-02-08",
+      "player": "oliverjuqs",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-12-269987",
+      "tournament": "pauper-league-2025-12-269987",
+      "date": "2025-12-26",
+      "player": "oliverjuqs",
+      "archetype": "Rally",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-08-269535",
+      "tournament": "pauper-league-2025-08-269535",
+      "date": "2025-08-26",
+      "player": "oliverjuqs",
+      "archetype": "Esper Affinity",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-08-259535",
+      "tournament": "pauper-league-2025-08-259535",
+      "date": "2025-08-25",
+      "player": "oliverjuqs",
+      "archetype": "Esper Affinity",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-08-139535",
+      "tournament": "pauper-league-2025-08-139535",
+      "date": "2025-08-13",
       "player": "oliverjuqs",
       "archetype": "Affinity",
       "colors": [
@@ -55,41 +117,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-08-269535",
-      "tournament": "pauper-league-2025-08-269535",
-      "date": "",
-      "player": "oliverjuqs",
-      "archetype": "Esper Affinity",
-      "colors": [
-        "B",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-0810196",
-      "tournament": "pauper-league-2026-02-0810196",
-      "date": "",
-      "player": "oliverjuqs",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2025-08-059535",
       "tournament": "pauper-league-2025-08-059535",
-      "date": "",
+      "date": "2025-08-05",
       "player": "oliverjuqs",
       "archetype": "Boros Glitter",
       "colors": [
@@ -103,39 +133,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-12-269987",
-      "tournament": "pauper-league-2025-12-269987",
-      "date": "",
-      "player": "oliverjuqs",
-      "archetype": "Rally",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-08-259535",
-      "tournament": "pauper-league-2025-08-259535",
-      "date": "",
-      "player": "oliverjuqs",
-      "archetype": "Esper Affinity",
-      "colors": [
-        "B",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2025-01-2310196",
       "tournament": "pauper-league-2025-01-2310196",
-      "date": "",
+      "date": "2025-01-23",
       "player": "oliverjuqs",
       "archetype": "Jund",
       "colors": [
@@ -149,9 +149,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-08-139535",
-      "tournament": "pauper-league-2025-08-139535",
-      "date": "",
+      "site_name": "pauper-league-2024-08-219535",
+      "tournament": "pauper-league-2024-08-219535",
+      "date": "2024-08-21",
       "player": "oliverjuqs",
       "archetype": "Affinity",
       "colors": [

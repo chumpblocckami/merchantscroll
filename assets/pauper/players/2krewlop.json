@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 14,
     "league_trophies": 10,
-    "league_trophies_yearly": 3,
+    "league_trophies_yearly": 10,
     "challenge_wins": 11,
     "challenge_losses": 12,
     "irl_top8": 0,
     "challenge_win_pct": 48,
-    "league_trophy_rank_yearly": 171,
-    "league_trophy_rank_alltime": 197,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 72,
+    "league_trophy_rank_alltime": 198,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -29,11 +29,11 @@
       "count": 2
     },
     {
-      "archetype": "Monsters",
+      "archetype": "Pingers",
       "count": 1
     },
     {
-      "archetype": "Pingers",
+      "archetype": "Monsters",
       "count": 1
     }
   ],
@@ -116,6 +116,37 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-03-1810405",
+      "tournament": "pauper-league-2026-03-1810405",
+      "date": "2026-03-18",
+      "player": "2krewlop",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-03-0910405",
+      "tournament": "pauper-league-2026-03-0910405",
+      "date": "2026-03-09",
+      "player": "2krewlop",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-02-2712834057",
       "tournament": "Pauper Challenge 32",
       "date": "2026-02-27",
@@ -129,6 +160,21 @@
       "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-02-2310196",
+      "tournament": "pauper-league-2026-02-2310196",
+      "date": "2026-02-23",
+      "player": "2krewlop",
+      "archetype": "RG Ponza",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-02-2012833528",
@@ -147,41 +193,9 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-01-3010196",
-      "tournament": "pauper-league-2026-01-3010196",
-      "date": "",
-      "player": "2krewlop",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-1810405",
-      "tournament": "pauper-league-2026-03-1810405",
-      "date": "",
-      "player": "2krewlop",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-02-1710196",
       "tournament": "pauper-league-2026-02-1710196",
-      "date": "",
+      "date": "2026-02-17",
       "player": "2krewlop",
       "archetype": "Affinity",
       "colors": [
@@ -195,28 +209,15 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-02-2310196",
-      "tournament": "pauper-league-2026-02-2310196",
-      "date": "",
+      "site_name": "pauper-league-2026-01-3010196",
+      "tournament": "pauper-league-2026-01-3010196",
+      "date": "2026-01-30",
       "player": "2krewlop",
-      "archetype": "RG Ponza",
+      "archetype": "Affinity",
       "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-2110196",
-      "tournament": "pauper-league-2026-01-2110196",
-      "date": "",
-      "player": "2krewlop",
-      "archetype": "Pingers",
-      "colors": [
-        "R"
+        "B",
+        "R",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -226,7 +227,7 @@
     {
       "site_name": "pauper-league-2026-01-2610196",
       "tournament": "pauper-league-2026-01-2610196",
-      "date": "",
+      "date": "2026-01-26",
       "player": "2krewlop",
       "archetype": "Affinity",
       "colors": [
@@ -240,13 +241,12 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-03-0910405",
-      "tournament": "pauper-league-2026-03-0910405",
-      "date": "",
+      "site_name": "pauper-league-2026-01-2110196",
+      "tournament": "pauper-league-2026-01-2110196",
+      "date": "2026-01-21",
       "player": "2krewlop",
-      "archetype": "Rally",
+      "archetype": "Pingers",
       "colors": [
-        "G",
         "R"
       ],
       "record": "5-0",

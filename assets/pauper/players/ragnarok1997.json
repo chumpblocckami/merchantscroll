@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 9,
     "league_trophies": 9,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 1,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": null,
+    "league_trophy_rank_yearly": 1000,
     "league_trophy_rank_alltime": 257,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -25,7 +25,7 @@
       "count": 2
     },
     {
-      "archetype": "Altar Tron",
+      "archetype": "Jund Gardens",
       "count": 1
     },
     {
@@ -33,7 +33,7 @@
       "count": 1
     },
     {
-      "archetype": "Jund Gardens",
+      "archetype": "Altar Tron",
       "count": 1
     },
     {
@@ -47,70 +47,9 @@
   ],
   "recent_entries": [
     {
-      "site_name": "pauper-league-2025-07-019366",
-      "tournament": "pauper-league-2025-07-019366",
-      "date": "",
-      "player": "ragnarok1997",
-      "archetype": "Familiars",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-05-059081",
-      "tournament": "pauper-league-2025-05-059081",
-      "date": "",
-      "player": "ragnarok1997",
-      "archetype": "Altar Tron",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-06-239366",
-      "tournament": "pauper-league-2025-06-239366",
-      "date": "",
-      "player": "ragnarok1997",
-      "archetype": "Familiars",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-11-229987",
-      "tournament": "pauper-league-2025-11-229987",
-      "date": "",
-      "player": "ragnarok1997",
-      "archetype": "UR Control",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-03-0710405",
       "tournament": "pauper-league-2026-03-0710405",
-      "date": "",
+      "date": "2026-03-07",
       "player": "ragnarok1997",
       "archetype": "Jund Gardens",
       "colors": [
@@ -124,27 +63,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-05-119081",
-      "tournament": "pauper-league-2025-05-119081",
-      "date": "",
-      "player": "ragnarok1997",
-      "archetype": "Dredge",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2025-12-239987",
       "tournament": "pauper-league-2025-12-239987",
-      "date": "",
+      "date": "2025-12-23",
       "player": "ragnarok1997",
       "archetype": "U Faeries",
       "colors": [
@@ -157,9 +78,70 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2025-11-229987",
+      "tournament": "pauper-league-2025-11-229987",
+      "date": "2025-11-22",
+      "player": "ragnarok1997",
+      "archetype": "UR Control",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-11-119750",
+      "tournament": "pauper-league-2025-11-119750",
+      "date": "2025-11-11",
+      "player": "ragnarok1997",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-07-019366",
+      "tournament": "pauper-league-2025-07-019366",
+      "date": "2025-07-01",
+      "player": "ragnarok1997",
+      "archetype": "Familiars",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-06-239366",
+      "tournament": "pauper-league-2025-06-239366",
+      "date": "2025-06-23",
+      "player": "ragnarok1997",
+      "archetype": "Familiars",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2025-06-139366",
       "tournament": "pauper-league-2025-06-139366",
-      "date": "",
+      "date": "2025-06-13",
       "player": "ragnarok1997",
       "archetype": "Dredge",
       "colors": [
@@ -175,15 +157,33 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-11-119750",
-      "tournament": "pauper-league-2025-11-119750",
-      "date": "",
+      "site_name": "pauper-league-2025-05-119081",
+      "tournament": "pauper-league-2025-05-119081",
+      "date": "2025-05-11",
       "player": "ragnarok1997",
-      "archetype": "Affinity",
+      "archetype": "Dredge",
       "colors": [
         "B",
+        "G",
         "R",
-        "U"
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-05-059081",
+      "tournament": "pauper-league-2025-05-059081",
+      "date": "2025-05-05",
+      "player": "ragnarok1997",
+      "archetype": "Altar Tron",
+      "colors": [
+        "B",
+        "G",
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,

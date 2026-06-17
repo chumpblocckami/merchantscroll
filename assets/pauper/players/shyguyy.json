@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 5,
     "league_trophies": 4,
-    "league_trophies_yearly": 2,
+    "league_trophies_yearly": 4,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 356,
-    "league_trophy_rank_alltime": 598,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 264,
+    "league_trophy_rank_alltime": 599,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -57,6 +57,36 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-03-1610405",
+      "tournament": "pauper-league-2026-03-1610405",
+      "date": "2026-03-16",
+      "player": "shyguyy",
+      "archetype": "Elves",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-03-1210405",
+      "tournament": "pauper-league-2026-03-1210405",
+      "date": "2026-03-12",
+      "player": "shyguyy",
+      "archetype": "Elves",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-last-chance-2025-08-1012807483",
       "tournament": "Pauper Last Chance",
       "date": "2025-08-10",
@@ -69,36 +99,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-league-2026-03-1210405",
-      "tournament": "pauper-league-2026-03-1210405",
-      "date": "",
-      "player": "shyguyy",
-      "archetype": "Elves",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-1610405",
-      "tournament": "pauper-league-2026-03-1610405",
-      "date": "",
-      "player": "shyguyy",
-      "archetype": "Elves",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 74,
     "league_trophies": 53,
-    "league_trophies_yearly": 6,
+    "league_trophies_yearly": 27,
     "challenge_wins": 86,
     "challenge_losses": 47,
     "irl_top8": 0,
     "challenge_win_pct": 65,
-    "league_trophy_rank_yearly": 71,
+    "league_trophy_rank_yearly": 10,
     "league_trophy_rank_alltime": 15,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -29,7 +29,7 @@
       "count": 2
     },
     {
-      "archetype": "UB Control",
+      "archetype": "B Sacrifice",
       "count": 1
     },
     {
@@ -41,7 +41,7 @@
       "count": 1
     },
     {
-      "archetype": "B Sacrifice",
+      "archetype": "UB Control",
       "count": 1
     }
   ],
@@ -244,6 +244,141 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-03-1910405",
+      "tournament": "pauper-league-2026-03-1910405",
+      "date": "2026-03-19",
+      "player": "True-Name-Nemesis",
+      "archetype": "Food Pestilence",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-03-1210405",
+      "tournament": "pauper-league-2026-03-1210405",
+      "date": "2026-03-12",
+      "player": "True-Name-Nemesis",
+      "archetype": "Food Pestilence",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-03-0510405",
+      "tournament": "pauper-league-2026-03-0510405",
+      "date": "2026-03-05",
+      "player": "True-Name-Nemesis",
+      "archetype": "Food Pestilence",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-03-0310196",
+      "tournament": "pauper-league-2026-03-0310196",
+      "date": "2026-03-03",
+      "player": "True-Name-Nemesis",
+      "archetype": "Food Pestilence",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-03-0110196",
+      "tournament": "pauper-league-2026-03-0110196",
+      "date": "2026-03-01",
+      "player": "True-Name-Nemesis",
+      "archetype": "Food Pestilence",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-2310196",
+      "tournament": "pauper-league-2026-02-2310196",
+      "date": "2026-02-23",
+      "player": "True-Name-Nemesis",
+      "archetype": "Food Pestilence",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-2010196",
+      "tournament": "pauper-league-2026-02-2010196",
+      "date": "2026-02-20",
+      "player": "True-Name-Nemesis",
+      "archetype": "W Heroic",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-1910196",
+      "tournament": "pauper-league-2026-02-1910196",
+      "date": "2026-02-19",
+      "player": "True-Name-Nemesis",
+      "archetype": "Food Pestilence",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-1110196",
+      "tournament": "pauper-league-2026-02-1110196",
+      "date": "2026-02-11",
+      "player": "True-Name-Nemesis",
+      "archetype": "Food Pestilence",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-02-0712832526",
       "tournament": "Pauper Challenge 32",
       "date": "2026-02-07",
@@ -259,169 +394,34 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-01-2512830664",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-25",
+      "site_name": "pauper-league-2026-02-0710196",
+      "tournament": "pauper-league-2026-02-0710196",
+      "date": "2026-02-07",
       "player": "True-Name-Nemesis",
-      "archetype": "Food Pestilence",
+      "archetype": "Gardens",
       "colors": [
         "B",
         "G"
       ],
-      "record": "5-2",
-      "final_rank": 15,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-01-1612830033",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-16",
+      "site_name": "pauper-league-2026-02-0510196",
+      "tournament": "pauper-league-2026-02-0510196",
+      "date": "2026-02-05",
       "player": "True-Name-Nemesis",
       "archetype": "Food Pestilence",
       "colors": [
         "B",
         "G"
       ],
-      "record": "6-2",
-      "final_rank": 3,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-01-1112829384",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-11",
-      "player": "True-Name-Nemesis",
-      "archetype": "Food Pestilence",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "8-1",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-01-1012829365",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-10",
-      "player": "True-Name-Nemesis",
-      "archetype": "Food Pestilence",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-2",
-      "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-01-0312828177",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-03",
-      "player": "True-Name-Nemesis",
-      "archetype": "Food Pestilence",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-3",
-      "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-12-1312826875",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-12-13",
-      "player": "True-Name-Nemesis",
-      "archetype": "Food Pestilence",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-3",
-      "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-12-1212826861",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-12-12",
-      "player": "True-Name-Nemesis",
-      "archetype": "Food Pestilence",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-2",
-      "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-12-0712825824",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-12-07",
-      "player": "True-Name-Nemesis",
-      "archetype": "Food Pestilence",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-3",
-      "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-11-2112824780",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-11-21",
-      "player": "True-Name-Nemesis",
-      "archetype": "Food Pestilence",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-2",
-      "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-special-2025-11-1112824212",
-      "tournament": "Pauper Challenge 32 Special",
-      "date": "2025-11-11",
-      "player": "True-Name-Nemesis",
-      "archetype": "Food Pestilence",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-2",
-      "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-10-1012819509",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-10-10",
-      "player": "True-Name-Nemesis",
-      "archetype": "Food Pestilence",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-2",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     }
   ]
 }

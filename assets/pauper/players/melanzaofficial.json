@@ -5,27 +5,70 @@
   "stats": {
     "total_entries": 4,
     "league_trophies": 3,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 1,
     "challenge_wins": 6,
     "challenge_losses": 3,
     "irl_top8": 0,
     "challenge_win_pct": 67,
-    "league_trophy_rank_yearly": null,
+    "league_trophy_rank_yearly": 925,
     "league_trophy_rank_alltime": 743,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
     {
-      "archetype": "B Sacrifice",
+      "archetype": "U Terror",
       "count": 2
     },
     {
-      "archetype": "U Terror",
+      "archetype": "B Sacrifice",
       "count": 2
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-01-199987",
+      "tournament": "pauper-league-2026-01-199987",
+      "date": "2026-01-19",
+      "player": "MelanzaOfficial",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-019750",
+      "tournament": "pauper-league-2025-10-019750",
+      "date": "2025-10-01",
+      "player": "MelanzaOfficial",
+      "archetype": "B Sacrifice",
+      "colors": [
+        "B"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-09-289750",
+      "tournament": "pauper-league-2025-09-289750",
+      "date": "2025-09-28",
+      "player": "MelanzaOfficial",
+      "archetype": "B Sacrifice",
+      "colors": [
+        "B"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-showcase-challenge-2025-06-0712792651",
       "tournament": "Pauper Showcase Challenge",
@@ -39,49 +82,6 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-09-289750",
-      "tournament": "pauper-league-2025-09-289750",
-      "date": "",
-      "player": "MelanzaOfficial",
-      "archetype": "B Sacrifice",
-      "colors": [
-        "B"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-10-019750",
-      "tournament": "pauper-league-2025-10-019750",
-      "date": "",
-      "player": "MelanzaOfficial",
-      "archetype": "B Sacrifice",
-      "colors": [
-        "B"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-199987",
-      "tournament": "pauper-league-2026-01-199987",
-      "date": "",
-      "player": "MelanzaOfficial",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

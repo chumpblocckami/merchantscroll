@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 17,
     "league_trophies": 13,
-    "league_trophies_yearly": 5,
+    "league_trophies_yearly": 7,
     "challenge_wins": 14,
     "challenge_losses": 11,
     "irl_top8": 0,
     "challenge_win_pct": 56,
-    "league_trophy_rank_yearly": 96,
+    "league_trophy_rank_yearly": 120,
     "league_trophy_rank_alltime": 150,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -33,19 +33,19 @@
       "count": 1
     },
     {
+      "archetype": "U Faeries",
+      "count": 1
+    },
+    {
+      "archetype": "UG Fog",
+      "count": 1
+    },
+    {
       "archetype": "Affinity",
       "count": 1
     },
     {
-      "archetype": "U",
-      "count": 1
-    },
-    {
       "archetype": "RG Ponza",
-      "count": 1
-    },
-    {
-      "archetype": "U Faeries",
       "count": 1
     }
   ],
@@ -190,7 +190,7 @@
     {
       "site_name": "pauper-league-2026-02-1110196",
       "tournament": "pauper-league-2026-02-1110196",
-      "date": "",
+      "date": "2026-02-11",
       "player": "KOKOLOKO3435",
       "archetype": "Cawgate",
       "colors": [
@@ -204,83 +204,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-08-049535",
-      "tournament": "pauper-league-2025-08-049535",
-      "date": "",
-      "player": "KOKOLOKO3435",
-      "archetype": "",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-08-129535",
-      "tournament": "pauper-league-2025-08-129535",
-      "date": "",
-      "player": "KOKOLOKO3435",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-07-269366",
-      "tournament": "pauper-league-2025-07-269366",
-      "date": "",
-      "player": "KOKOLOKO3435",
-      "archetype": "",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-08-059535",
-      "tournament": "pauper-league-2025-08-059535",
-      "date": "",
-      "player": "KOKOLOKO3435",
-      "archetype": "Elves",
-      "colors": [
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-08-059535",
-      "tournament": "pauper-league-2025-08-059535",
-      "date": "",
-      "player": "KOKOLOKO3435",
-      "archetype": "RG Ponza",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-01-109987",
       "tournament": "pauper-league-2026-01-109987",
-      "date": "",
+      "date": "2026-01-10",
       "player": "KOKOLOKO3435",
       "archetype": "Cawgate",
       "colors": [
@@ -296,11 +222,85 @@
     {
       "site_name": "pauper-league-2025-08-229535",
       "tournament": "pauper-league-2025-08-229535",
-      "date": "",
+      "date": "2025-08-22",
       "player": "KOKOLOKO3435",
       "archetype": "U Faeries",
       "colors": [
         "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-08-129535",
+      "tournament": "pauper-league-2025-08-129535",
+      "date": "2025-08-12",
+      "player": "KOKOLOKO3435",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-08-059535",
+      "tournament": "pauper-league-2025-08-059535",
+      "date": "2025-08-05",
+      "player": "KOKOLOKO3435",
+      "archetype": "Elves",
+      "colors": [
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-08-059535",
+      "tournament": "pauper-league-2025-08-059535",
+      "date": "2025-08-05",
+      "player": "KOKOLOKO3435",
+      "archetype": "RG Ponza",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-08-049535",
+      "tournament": "pauper-league-2025-08-049535",
+      "date": "2025-08-04",
+      "player": "KOKOLOKO3435",
+      "archetype": "",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-07-269366",
+      "tournament": "pauper-league-2025-07-269366",
+      "date": "2025-07-26",
+      "player": "KOKOLOKO3435",
+      "archetype": "UG Fog",
+      "colors": [
         "U"
       ],
       "record": "5-0",

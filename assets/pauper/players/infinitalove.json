@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 8,
     "league_trophies": 3,
-    "league_trophies_yearly": 1,
+    "league_trophies_yearly": 2,
     "challenge_wins": 16,
     "challenge_losses": 10,
     "irl_top8": 0,
     "challenge_win_pct": 62,
-    "league_trophy_rank_yearly": 569,
+    "league_trophy_rank_yearly": 476,
     "league_trophy_rank_alltime": 694,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -55,6 +55,36 @@
       "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-02-2010196",
+      "tournament": "pauper-league-2026-02-2010196",
+      "date": "2026-02-20",
+      "player": "Infinitalove",
+      "archetype": "UB Faeries",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-11-279987",
+      "tournament": "pauper-league-2025-11-279987",
+      "date": "2025-11-27",
+      "player": "Infinitalove",
+      "archetype": "UB Faeries",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-11-2712825445",
@@ -115,36 +145,6 @@
       "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-02-2010196",
-      "tournament": "pauper-league-2026-02-2010196",
-      "date": "",
-      "player": "Infinitalove",
-      "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-11-279987",
-      "tournament": "pauper-league-2025-11-279987",
-      "date": "",
-      "player": "Infinitalove",
-      "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

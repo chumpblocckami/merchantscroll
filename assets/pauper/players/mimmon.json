@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 9,
     "league_trophies": 8,
-    "league_trophies_yearly": 2,
+    "league_trophies_yearly": 3,
     "challenge_wins": 4,
     "challenge_losses": 2,
     "irl_top8": 0,
     "challenge_win_pct": 67,
-    "league_trophy_rank_yearly": 318,
+    "league_trophy_rank_yearly": 345,
     "league_trophy_rank_alltime": 288,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -25,15 +25,15 @@
       "count": 2
     },
     {
+      "archetype": "Affinity",
+      "count": 1
+    },
+    {
       "archetype": "U Terror",
       "count": 1
     },
     {
       "archetype": "R Madness",
-      "count": 1
-    },
-    {
-      "archetype": "Affinity",
       "count": 1
     }
   ],
@@ -55,15 +55,29 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2024-06-0310636",
-      "tournament": "Pauper League",
-      "date": "2026-05-15",
+      "site_name": "pauper-league-2026-03-1910405",
+      "tournament": "pauper-league-2026-03-1910405",
+      "date": "2026-03-19",
       "player": "mimmON",
-      "archetype": "Altar",
+      "archetype": "UB Terror",
       "colors": [
         "B",
-        "G",
-        "R"
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-03-1510405",
+      "tournament": "pauper-league-2026-03-1510405",
+      "date": "2026-03-15",
+      "player": "mimmON",
+      "archetype": "UB Terror",
+      "colors": [
+        "B",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -86,13 +100,30 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-03-1910405",
-      "tournament": "pauper-league-2026-03-1910405",
-      "date": "",
+      "site_name": "pauper-league-2025-10-169750",
+      "tournament": "pauper-league-2025-10-169750",
+      "date": "2025-10-16",
       "player": "mimmON",
-      "archetype": "UB Terror",
+      "archetype": "R Madness",
       "colors": [
         "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-09-309750",
+      "tournament": "pauper-league-2025-09-309750",
+      "date": "2025-09-30",
+      "player": "mimmON",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "R",
         "U"
       ],
       "record": "5-0",
@@ -103,7 +134,7 @@
     {
       "site_name": "pauper-league-2025-08-249535",
       "tournament": "pauper-league-2025-08-249535",
-      "date": "",
+      "date": "2025-08-24",
       "player": "mimmON",
       "archetype": "UB Terror",
       "colors": [
@@ -118,7 +149,7 @@
     {
       "site_name": "pauper-league-2025-08-239535",
       "tournament": "pauper-league-2025-08-239535",
-      "date": "",
+      "date": "2025-08-23",
       "player": "mimmON",
       "archetype": "UB Terror",
       "colors": [
@@ -131,46 +162,15 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-10-169750",
-      "tournament": "pauper-league-2025-10-169750",
-      "date": "",
+      "site_name": "pauper-league-2024-06-0310636",
+      "tournament": "Pauper League",
+      "date": "2024-06-03",
       "player": "mimmON",
-      "archetype": "R Madness",
+      "archetype": "Altar",
       "colors": [
         "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-1510405",
-      "tournament": "pauper-league-2026-03-1510405",
-      "date": "",
-      "player": "mimmON",
-      "archetype": "UB Terror",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-09-309750",
-      "tournament": "pauper-league-2025-09-309750",
-      "date": "",
-      "player": "mimmON",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
+        "G",
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,

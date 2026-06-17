@@ -10,9 +10,9 @@
     "challenge_losses": 5,
     "irl_top8": 0,
     "challenge_win_pct": 62,
-    "league_trophy_rank_yearly": 200,
+    "league_trophy_rank_yearly": 325,
     "league_trophy_rank_alltime": 394,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,15 +21,7 @@
       "count": 2
     },
     {
-      "archetype": "Walls",
-      "count": 1
-    },
-    {
-      "archetype": "U Faeries",
-      "count": 1
-    },
-    {
-      "archetype": "White Weenie",
+      "archetype": "BW Refurbished",
       "count": 1
     },
     {
@@ -37,11 +29,19 @@
       "count": 1
     },
     {
+      "archetype": "White Weenie",
+      "count": 1
+    },
+    {
       "archetype": "W Heroic",
       "count": 1
     },
     {
-      "archetype": "BW Refurbished",
+      "archetype": "U Faeries",
+      "count": 1
+    },
+    {
+      "archetype": "Walls",
       "count": 1
     }
   ],
@@ -90,6 +90,51 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2025-12-159987",
+      "tournament": "pauper-league-2025-12-159987",
+      "date": "2025-12-15",
+      "player": "jubileubr",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-12-149987",
+      "tournament": "pauper-league-2025-12-149987",
+      "date": "2025-12-14",
+      "player": "jubileubr",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-12-079987",
+      "tournament": "pauper-league-2025-12-079987",
+      "date": "2025-12-07",
+      "player": "jubileubr",
+      "archetype": "BW Refurbished",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-05-1812780167",
       "tournament": "Pauper Challenge 32",
       "date": "2025-05-18",
@@ -123,51 +168,6 @@
       "final_rank": 19,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-12-149987",
-      "tournament": "pauper-league-2025-12-149987",
-      "date": "",
-      "player": "jubileubr",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-12-079987",
-      "tournament": "pauper-league-2025-12-079987",
-      "date": "",
-      "player": "jubileubr",
-      "archetype": "BW Refurbished",
-      "colors": [
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-12-159987",
-      "tournament": "pauper-league-2025-12-159987",
-      "date": "",
-      "player": "jubileubr",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

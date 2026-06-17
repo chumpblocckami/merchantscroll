@@ -12,7 +12,7 @@
     "challenge_win_pct": 68,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": 706,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -33,19 +33,19 @@
       "count": 2
     },
     {
-      "archetype": "Elves",
-      "count": 1
-    },
-    {
       "archetype": "Jund Glee",
       "count": 1
     },
     {
-      "archetype": "U Terror",
+      "archetype": "Elves",
       "count": 1
     },
     {
       "archetype": "UG Fog",
+      "count": 1
+    },
+    {
+      "archetype": "U Terror",
       "count": 1
     }
   ],
@@ -219,6 +219,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-11-039750",
+      "tournament": "pauper-league-2025-11-039750",
+      "date": "2025-11-03",
+      "player": "Kampo",
+      "archetype": "Jund Glee",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-11-0212822705",
       "tournament": "Pauper Challenge 32",
       "date": "2025-11-02",
@@ -377,6 +392,42 @@
       "type": "other"
     },
     {
+      "site_name": "pauper-league-2025-08-069535",
+      "tournament": "pauper-league-2025-08-069535",
+      "date": "2025-08-06",
+      "player": "Kampo",
+      "archetype": "Flicker Tron",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-08-059535",
+      "tournament": "pauper-league-2025-08-059535",
+      "date": "2025-08-05",
+      "player": "Kampo",
+      "archetype": "Flicker Tron",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-07-2512804874",
       "tournament": "Pauper Challenge 32",
       "date": "2025-07-25",
@@ -388,52 +439,6 @@
       ],
       "record": "4-2",
       "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-07-0612801674",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-07-06",
-      "player": "Kampo",
-      "archetype": "White Weennie",
-      "colors": [
-        "W"
-      ],
-      "record": "4-3",
-      "final_rank": 19,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-06-2812799998",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-06-28",
-      "player": "Kampo",
-      "archetype": "White Weennie",
-      "colors": [
-        "W"
-      ],
-      "record": "8-1",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-05-1812780167",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-05-18",
-      "player": "Kampo",
-      "archetype": "Flicker Tron",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-3",
-      "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
     }

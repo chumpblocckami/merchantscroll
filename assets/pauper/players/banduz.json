@@ -10,9 +10,9 @@
     "challenge_losses": 8,
     "irl_top8": 0,
     "challenge_win_pct": 58,
-    "league_trophy_rank_yearly": 251,
-    "league_trophy_rank_alltime": 514,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 414,
+    "league_trophy_rank_alltime": 515,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,15 +21,15 @@
       "count": 4
     },
     {
-      "archetype": "BW Refurbished",
-      "count": 1
-    },
-    {
       "archetype": "Spy",
       "count": 1
     },
     {
       "archetype": "UB Terror",
+      "count": 1
+    },
+    {
+      "archetype": "BW Refurbished",
       "count": 1
     }
   ],
@@ -66,6 +66,22 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2025-10-239750",
+      "tournament": "pauper-league-2025-10-239750",
+      "date": "2025-10-23",
+      "player": "Banduz",
+      "archetype": "Spy",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-09-2012815135",
       "tournament": "Pauper Challenge 32",
       "date": "2025-09-20",
@@ -78,6 +94,20 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-09-209535",
+      "tournament": "pauper-league-2025-09-209535",
+      "date": "2025-09-20",
+      "player": "Banduz",
+      "archetype": "U Faeries",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-08-1612810059",
@@ -106,36 +136,6 @@
       "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-10-239750",
-      "tournament": "pauper-league-2025-10-239750",
-      "date": "",
-      "player": "Banduz",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-09-209535",
-      "tournament": "pauper-league-2025-09-209535",
-      "date": "",
-      "player": "Banduz",
-      "archetype": "U Faeries",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

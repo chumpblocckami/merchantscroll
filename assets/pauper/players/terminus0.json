@@ -11,8 +11,8 @@
     "irl_top8": 0,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 194,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_alltime": 195,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -29,12 +29,16 @@
       "count": 3
     },
     {
+      "archetype": "U Terror",
+      "count": 2
+    },
+    {
       "archetype": "Ponza",
       "count": 2
     },
     {
-      "archetype": "U Terror",
-      "count": 2
+      "archetype": "RG Storm",
+      "count": 1
     },
     {
       "archetype": "Bogle",
@@ -45,15 +49,11 @@
       "count": 1
     },
     {
-      "archetype": "RG Storm",
+      "archetype": "R Madness",
       "count": 1
     },
     {
       "archetype": "Jund",
-      "count": 1
-    },
-    {
-      "archetype": "Familiars",
       "count": 1
     }
   ],
@@ -229,6 +229,22 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-12-089987",
+      "tournament": "pauper-league-2025-12-089987",
+      "date": "2025-12-08",
+      "player": "Terminus0",
+      "archetype": "Altar",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-11-2912825471",
       "tournament": "Pauper Challenge 32",
       "date": "2025-11-29",
@@ -261,6 +277,24 @@
       "type": "other"
     },
     {
+      "site_name": "pauper-league-2025-11-029750",
+      "tournament": "pauper-league-2025-11-029750",
+      "date": "2025-11-02",
+      "player": "Terminus0",
+      "archetype": "Walls",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-10-3112822673",
       "tournament": "Pauper Challenge 32",
       "date": "2025-10-31",
@@ -275,6 +309,101 @@
       "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-10-289750",
+      "tournament": "pauper-league-2025-10-289750",
+      "date": "2025-10-28",
+      "player": "Terminus0",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-029750",
+      "tournament": "pauper-league-2025-10-029750",
+      "date": "2025-10-02",
+      "player": "Terminus0",
+      "archetype": "Altar",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-09-309750",
+      "tournament": "pauper-league-2025-09-309750",
+      "date": "2025-09-30",
+      "player": "Terminus0",
+      "archetype": "Altar",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-09-309750",
+      "tournament": "pauper-league-2025-09-309750",
+      "date": "2025-09-30",
+      "player": "Terminus0",
+      "archetype": "Altar",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-09-299750",
+      "tournament": "pauper-league-2025-09-299750",
+      "date": "2025-09-29",
+      "player": "Terminus0",
+      "archetype": "Altar",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-09-259750",
+      "tournament": "pauper-league-2025-09-259750",
+      "date": "2025-09-25",
+      "player": "Terminus0",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-08-1612810059",
@@ -324,147 +453,6 @@
       "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-05-3112782655",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-05-31",
-      "player": "Terminus0",
-      "archetype": "Walls",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 6,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-05-2412782313",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-05-24",
-      "player": "Terminus0",
-      "archetype": "Walls",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "7-1",
-      "final_rank": 3,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-05-1712780149",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-05-17",
-      "player": "Terminus0",
-      "archetype": "Walls",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-05-1012777346",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-05-10",
-      "player": "Terminus0",
-      "archetype": "Walls",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-3",
-      "final_rank": 4,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-05-0412774521",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-05-04",
-      "player": "Terminus0",
-      "archetype": "Bogle",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-3",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-05-0312774499",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-05-03",
-      "player": "Terminus0",
-      "archetype": "Walls",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-05-169081",
-      "tournament": "pauper-league-2025-05-169081",
-      "date": "",
-      "player": "Terminus0",
-      "archetype": "Walls",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-09-299750",
-      "tournament": "pauper-league-2025-09-299750",
-      "date": "",
-      "player": "Terminus0",
-      "archetype": "Altar",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

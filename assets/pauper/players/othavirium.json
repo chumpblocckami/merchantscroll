@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 11,
     "league_trophies": 11,
-    "league_trophies_yearly": 5,
+    "league_trophies_yearly": 7,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 106,
+    "league_trophy_rank_yearly": 125,
     "league_trophy_rank_alltime": 189,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -25,7 +25,7 @@
       "count": 2
     },
     {
-      "archetype": "Elves",
+      "archetype": "Cawgate",
       "count": 1
     },
     {
@@ -33,11 +33,11 @@
       "count": 1
     },
     {
-      "archetype": "Cawgate",
+      "archetype": "UB Control",
       "count": 1
     },
     {
-      "archetype": "UB Control",
+      "archetype": "Elves",
       "count": 1
     }
   ],
@@ -123,42 +123,10 @@
     {
       "site_name": "pauper-league-2026-01-099987",
       "tournament": "pauper-league-2026-01-099987",
-      "date": "",
+      "date": "2026-01-09",
       "player": "othavirium",
       "archetype": "Familiars",
       "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-11-269987",
-      "tournament": "pauper-league-2025-11-269987",
-      "date": "",
-      "player": "othavirium",
-      "archetype": "Familiars",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-08-059535",
-      "tournament": "pauper-league-2025-08-059535",
-      "date": "",
-      "player": "othavirium",
-      "archetype": "Esper Affinity",
-      "colors": [
-        "B",
-        "R",
         "U",
         "W"
       ],
@@ -170,7 +138,7 @@
     {
       "site_name": "pauper-league-2026-01-089987",
       "tournament": "pauper-league-2026-01-089987",
-      "date": "",
+      "date": "2026-01-08",
       "player": "othavirium",
       "archetype": "Cawgate",
       "colors": [
@@ -186,7 +154,7 @@
     {
       "site_name": "pauper-league-2025-12-159987",
       "tournament": "pauper-league-2025-12-159987",
-      "date": "",
+      "date": "2025-12-15",
       "player": "othavirium",
       "archetype": "Familiars",
       "colors": [
@@ -199,9 +167,41 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2025-11-269987",
+      "tournament": "pauper-league-2025-11-269987",
+      "date": "2025-11-26",
+      "player": "othavirium",
+      "archetype": "Familiars",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-08-059535",
+      "tournament": "pauper-league-2025-08-059535",
+      "date": "2025-08-05",
+      "player": "othavirium",
+      "archetype": "Esper Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2025-08-019535",
       "tournament": "pauper-league-2025-08-019535",
-      "date": "",
+      "date": "2025-08-01",
       "player": "othavirium",
       "archetype": "Familiars",
       "colors": [

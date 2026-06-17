@@ -1,7 +1,8 @@
 """End-to-end crawl pipeline for Merchant Scroll.
 
-Discovers new Pauper tournaments on MTGO, crawls only those not already
-stored locally, enriches with color data, updates the index, and writes
+Discovers new Pauper tournaments on MTGO, crawls those not already
+stored locally (and re-crawls same-day events whose decklists may still
+be updating), enriches with color data, updates the index, and writes
 the info.json timestamp.
 """
 
@@ -24,7 +25,7 @@ from .pauperwave_crawler import (
     parse_tournament_file,
 )
 from .scryfall import build_color_lookup, download_oracle_cards
-from .utils import extract_date
+from .utils import canonical_starttime, extract_date
 
 
 RAW_DIR = Path("assets/pauper/raw")
@@ -52,26 +53,36 @@ def site_name_from_url(url: str) -> str:
 
 
 def crawl_new_tournaments(color_lookup: dict[str, list[str]]) -> list[str]:
-    """Crawl all new Pauper tournaments.
+    """Crawl new Pauper tournaments and refresh same-day leagues.
 
-    Returns a list of site_names that were newly crawled.
+    Returns a list of site_names that were crawled or refreshed.
     """
     print("Discovering tournaments from mtgo.com...")
     urls = discover_pauper_urls()
     print(f"Found {len(urls)} Pauper tournament(s) on MTGO.")
 
     existing = existing_site_names()
-    new_urls = [(u, site_name_from_url(u)) for u in urls if site_name_from_url(u) not in existing]
+    today = datetime.now().date().isoformat()
+    to_crawl = [
+        (u, site_name_from_url(u))
+        for u in urls
+        if site_name_from_url(u) not in existing or today in site_name_from_url(u)
+    ]
 
-    if not new_urls:
+    if not to_crawl:
         print("No new tournaments to crawl.")
         return []
 
-    print(f"{len(new_urls)} new tournament(s) to crawl.\n")
+    new_count = sum(1 for _, sn in to_crawl if sn not in existing)
+    refresh_count = len(to_crawl) - new_count
+    print(
+        f"{len(to_crawl)} tournament(s) to crawl"
+        f" ({new_count} new, {refresh_count} same-day refresh).\n"
+    )
     RAW_DIR.mkdir(parents=True, exist_ok=True)
 
     crawled = []
-    for url, site_name in new_urls:
+    for url, site_name in to_crawl:
         print(f"  Crawling {site_name}...")
         data = crawl_decks(url, color_lookup=color_lookup)
         if data is None:
@@ -84,11 +95,11 @@ def crawl_new_tournaments(color_lookup: dict[str, list[str]]) -> list[str]:
 
         deck_count = len(data.get("decklists", []))
         out_path = RAW_DIR / f"{site_name}.json"
-        out_path.write_text(json.dumps(data, indent=2))
+        out_path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
         print(f"  Saved ({deck_count} decks).")
         crawled.append(site_name)
 
-    print(f"\nCrawled {len(crawled)} new tournament(s).")
+    print(f"\nCrawled {len(crawled)} tournament(s).")
     return crawled
 
 
@@ -150,11 +161,39 @@ def crawl_pauperwave_tournaments(
     return crawled
 
 
+def fix_league_starttimes() -> int:
+    """Correct drifted league starttimes in stored raw files.
+
+    MTGO updates a league page's *starttime* when new decks are published,
+    but the league week is fixed in the URL slug.  Returns files updated.
+    """
+    if not RAW_DIR.exists():
+        return 0
+
+    fixed = 0
+    for path in RAW_DIR.glob("pauper-league-*.json"):
+        try:
+            data = json.loads(path.read_text())
+        except (json.JSONDecodeError, OSError):
+            continue
+        site_name = data.get("site_name", path.stem)
+        canonical = canonical_starttime(site_name, data.get("starttime", ""))
+        if canonical != data.get("starttime"):
+            data["starttime"] = canonical
+            path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
+            fixed += 1
+    if fixed:
+        print(f"Fixed starttime on {fixed} league file(s).")
+    return fixed
+
+
 def rebuild_index():
     """Regenerate index.json from all raw tournament files, sorted by date desc."""
     if not RAW_DIR.exists():
         print("No raw directory found, skipping index generation.")
         return
+
+    fix_league_starttimes()
 
     index = []
     for path in RAW_DIR.glob("*.json"):
@@ -162,9 +201,10 @@ def rebuild_index():
             data = json.loads(path.read_text())
         except (json.JSONDecodeError, OSError):
             continue
+        site_name = data.get("site_name", path.stem)
         index.append({
             "site_name": path.stem,
-            "starttime": data.get("starttime", ""),
+            "starttime": canonical_starttime(site_name, data.get("starttime", "")),
             "deck_count": len(data.get("decklists", [])),
         })
 

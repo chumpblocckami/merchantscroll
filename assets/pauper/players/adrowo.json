@@ -10,19 +10,15 @@
     "challenge_losses": 8,
     "irl_top8": 0,
     "challenge_win_pct": 71,
-    "league_trophy_rank_yearly": 174,
-    "league_trophy_rank_alltime": 173,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 280,
+    "league_trophy_rank_alltime": 174,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
     {
-      "archetype": "U",
-      "count": 10
-    },
-    {
       "archetype": "UG Fog",
-      "count": 2
+      "count": 12
     },
     {
       "archetype": "Rally",
@@ -122,79 +118,9 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2025-11-0212822705",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-11-02",
-      "player": "Adrowo",
-      "archetype": "",
-      "colors": [
-        "U"
-      ],
-      "record": "9-1",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-09-2812816552",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-09-28",
-      "player": "Adrowo",
-      "archetype": "",
-      "colors": [
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 16,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-09-1312814274",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-09-13",
-      "player": "Adrowo",
-      "archetype": "",
-      "colors": [
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-09-109535",
-      "tournament": "pauper-league-2025-09-109535",
-      "date": "",
-      "player": "Adrowo",
-      "archetype": "",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-09-299750",
-      "tournament": "pauper-league-2025-09-299750",
-      "date": "",
-      "player": "Adrowo",
-      "archetype": "",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2025-11-079750",
       "tournament": "pauper-league-2025-11-079750",
-      "date": "",
+      "date": "2025-11-07",
       "player": "Adrowo",
       "archetype": "Rally",
       "colors": [
@@ -207,11 +133,25 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-09-229535",
-      "tournament": "pauper-league-2025-09-229535",
-      "date": "",
+      "site_name": "pauper-challenge-32-2025-11-0212822705",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-11-02",
       "player": "Adrowo",
-      "archetype": "",
+      "archetype": "UG Fog",
+      "colors": [
+        "U"
+      ],
+      "record": "9-1",
+      "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-10-149750",
+      "tournament": "pauper-league-2025-10-149750",
+      "date": "2025-10-14",
+      "player": "Adrowo",
+      "archetype": "UG Fog",
       "colors": [
         "U"
       ],
@@ -221,11 +161,67 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-08-319535",
-      "tournament": "pauper-league-2025-08-319535",
-      "date": "",
+      "site_name": "pauper-league-2025-09-299750",
+      "tournament": "pauper-league-2025-09-299750",
+      "date": "2025-09-29",
       "player": "Adrowo",
-      "archetype": "",
+      "archetype": "UG Fog",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-09-2812816552",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-09-28",
+      "player": "Adrowo",
+      "archetype": "UG Fog",
+      "colors": [
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 16,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-09-229535",
+      "tournament": "pauper-league-2025-09-229535",
+      "date": "2025-09-22",
+      "player": "Adrowo",
+      "archetype": "UG Fog",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-09-1312814274",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-09-13",
+      "player": "Adrowo",
+      "archetype": "UG Fog",
+      "colors": [
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-09-109535",
+      "tournament": "pauper-league-2025-09-109535",
+      "date": "2025-09-10",
+      "player": "Adrowo",
+      "archetype": "UG Fog",
       "colors": [
         "U"
       ],
@@ -237,9 +233,9 @@
     {
       "site_name": "pauper-league-2025-09-099535",
       "tournament": "pauper-league-2025-09-099535",
-      "date": "",
+      "date": "2025-09-09",
       "player": "Adrowo",
-      "archetype": "",
+      "archetype": "UG Fog",
       "colors": [
         "U"
       ],
@@ -251,9 +247,9 @@
     {
       "site_name": "pauper-league-2025-09-029535",
       "tournament": "pauper-league-2025-09-029535",
-      "date": "",
+      "date": "2025-09-02",
       "player": "Adrowo",
-      "archetype": "",
+      "archetype": "UG Fog",
       "colors": [
         "U"
       ],
@@ -263,11 +259,11 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-10-149750",
-      "tournament": "pauper-league-2025-10-149750",
-      "date": "",
+      "site_name": "pauper-league-2025-08-319535",
+      "tournament": "pauper-league-2025-08-319535",
+      "date": "2025-08-31",
       "player": "Adrowo",
-      "archetype": "",
+      "archetype": "UG Fog",
       "colors": [
         "U"
       ],

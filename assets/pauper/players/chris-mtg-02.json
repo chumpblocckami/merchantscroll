@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 23,
     "league_trophies": 14,
-    "league_trophies_yearly": 1,
+    "league_trophies_yearly": 6,
     "challenge_wins": 41,
     "challenge_losses": 20,
     "irl_top8": 0,
     "challenge_win_pct": 67,
-    "league_trophy_rank_yearly": 455,
+    "league_trophy_rank_yearly": 133,
     "league_trophy_rank_alltime": 137,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -33,11 +33,7 @@
       "count": 2
     },
     {
-      "archetype": "BGRU",
-      "count": 1
-    },
-    {
-      "archetype": "U Terror",
+      "archetype": "Food Pestilence",
       "count": 1
     },
     {
@@ -54,6 +50,10 @@
     },
     {
       "archetype": "Familiars",
+      "count": 1
+    },
+    {
+      "archetype": "U Terror",
       "count": 1
     }
   ],
@@ -124,6 +124,56 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-03-2310405",
+      "tournament": "pauper-league-2026-03-2310405",
+      "date": "2026-03-23",
+      "player": "CHRIS-Mtg-02",
+      "archetype": "Naya Gates",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-03-2310405",
+      "tournament": "pauper-league-2026-03-2310405",
+      "date": "2026-03-23",
+      "player": "CHRIS-Mtg-02",
+      "archetype": "Naya Gates",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-03-1910405",
+      "tournament": "pauper-league-2026-03-1910405",
+      "date": "2026-03-19",
+      "player": "CHRIS-Mtg-02",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-03-1512835331",
       "tournament": "Pauper Challenge 32",
       "date": "2026-03-15",
@@ -154,6 +204,22 @@
       "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-03-0810405",
+      "tournament": "pauper-league-2026-03-0810405",
+      "date": "2026-03-08",
+      "player": "CHRIS-Mtg-02",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-03-0812834527",
@@ -188,6 +254,85 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-02-2610196",
+      "tournament": "pauper-league-2026-02-2610196",
+      "date": "2026-02-26",
+      "player": "CHRIS-Mtg-02",
+      "archetype": "Food Pestilence",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-09-219535",
+      "tournament": "pauper-league-2025-09-219535",
+      "date": "2025-09-21",
+      "player": "CHRIS-Mtg-02",
+      "archetype": "Familiars",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-08-319535",
+      "tournament": "pauper-league-2025-08-319535",
+      "date": "2025-08-31",
+      "player": "CHRIS-Mtg-02",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-08-229535",
+      "tournament": "pauper-league-2025-08-229535",
+      "date": "2025-08-22",
+      "player": "CHRIS-Mtg-02",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-07-099366",
+      "tournament": "pauper-league-2025-07-099366",
+      "date": "2025-07-09",
+      "player": "CHRIS-Mtg-02",
+      "archetype": "Altar Tron",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-06-2212798189",
       "tournament": "Pauper Challenge 32",
       "date": "2025-06-22",
@@ -202,6 +347,34 @@
       "final_rank": 3,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-06-189366",
+      "tournament": "pauper-league-2025-06-189366",
+      "date": "2025-06-18",
+      "player": "CHRIS-Mtg-02",
+      "archetype": "U Terror",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-06-039081",
+      "tournament": "pauper-league-2025-06-039081",
+      "date": "2025-06-03",
+      "player": "CHRIS-Mtg-02",
+      "archetype": "W Heroic",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-06-0112782673",
@@ -222,80 +395,13 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-03-1910405",
-      "tournament": "pauper-league-2026-03-1910405",
-      "date": "",
+      "site_name": "pauper-league-2025-05-249081",
+      "tournament": "pauper-league-2025-05-249081",
+      "date": "2025-05-24",
       "player": "CHRIS-Mtg-02",
-      "archetype": "Jund",
+      "archetype": "Pingers",
       "colors": [
-        "B",
-        "G",
         "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-2610196",
-      "tournament": "pauper-league-2026-02-2610196",
-      "date": "",
-      "player": "CHRIS-Mtg-02",
-      "archetype": "",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-2310405",
-      "tournament": "pauper-league-2026-03-2310405",
-      "date": "",
-      "player": "CHRIS-Mtg-02",
-      "archetype": "Naya Gates",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-2310405",
-      "tournament": "pauper-league-2026-03-2310405",
-      "date": "",
-      "player": "CHRIS-Mtg-02",
-      "archetype": "Naya Gates",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-06-189366",
-      "tournament": "pauper-league-2025-06-189366",
-      "date": "",
-      "player": "CHRIS-Mtg-02",
-      "archetype": "U Terror",
-      "colors": [
-        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -305,116 +411,10 @@
     {
       "site_name": "pauper-league-2025-05-229081",
       "tournament": "pauper-league-2025-05-229081",
-      "date": "",
+      "date": "2025-05-22",
       "player": "CHRIS-Mtg-02",
       "archetype": "Pingers",
       "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-06-039081",
-      "tournament": "pauper-league-2025-06-039081",
-      "date": "",
-      "player": "CHRIS-Mtg-02",
-      "archetype": "W Heroic",
-      "colors": [
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-08-319535",
-      "tournament": "pauper-league-2025-08-319535",
-      "date": "",
-      "player": "CHRIS-Mtg-02",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-08-229535",
-      "tournament": "pauper-league-2025-08-229535",
-      "date": "",
-      "player": "CHRIS-Mtg-02",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-05-249081",
-      "tournament": "pauper-league-2025-05-249081",
-      "date": "",
-      "player": "CHRIS-Mtg-02",
-      "archetype": "Pingers",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-09-219535",
-      "tournament": "pauper-league-2025-09-219535",
-      "date": "",
-      "player": "CHRIS-Mtg-02",
-      "archetype": "Familiars",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-07-099366",
-      "tournament": "pauper-league-2025-07-099366",
-      "date": "",
-      "player": "CHRIS-Mtg-02",
-      "archetype": "Altar Tron",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-0810405",
-      "tournament": "pauper-league-2026-03-0810405",
-      "date": "",
-      "player": "CHRIS-Mtg-02",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
         "R"
       ],
       "record": "5-0",

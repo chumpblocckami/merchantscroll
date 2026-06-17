@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 20,
     "league_trophies": 15,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 2,
     "challenge_wins": 19,
     "challenge_losses": 14,
     "irl_top8": 0,
     "challenge_win_pct": 58,
-    "league_trophy_rank_yearly": null,
+    "league_trophy_rank_yearly": 426,
     "league_trophy_rank_alltime": 125,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -37,11 +37,11 @@
       "count": 3
     },
     {
-      "archetype": "UB Faeries",
+      "archetype": "Food Pestilence",
       "count": 1
     },
     {
-      "archetype": "Food Pestilence",
+      "archetype": "UB Faeries",
       "count": 1
     }
   ],
@@ -80,6 +80,36 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-02-0510196",
+      "tournament": "pauper-league-2026-02-0510196",
+      "date": "2026-02-05",
+      "player": "celobee",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-2510196",
+      "tournament": "pauper-league-2026-01-2510196",
+      "date": "2026-01-25",
+      "player": "celobee",
+      "archetype": "UB Faeries",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-01-0912829350",
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-09",
@@ -93,6 +123,21 @@
       "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-12-239987",
+      "tournament": "pauper-league-2025-12-239987",
+      "date": "2025-12-23",
+      "player": "celobee",
+      "archetype": "UB Control",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-11-2812825457",
@@ -110,6 +155,53 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-11-229987",
+      "tournament": "pauper-league-2025-11-229987",
+      "date": "2025-11-22",
+      "player": "celobee",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-11-219987",
+      "tournament": "pauper-league-2025-11-219987",
+      "date": "2025-11-21",
+      "player": "celobee",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-11-179750",
+      "tournament": "pauper-league-2025-11-179750",
+      "date": "2025-11-17",
+      "player": "celobee",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-10-3112822673",
       "tournament": "Pauper Challenge 32",
       "date": "2025-10-31",
@@ -125,39 +217,9 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-02-0510196",
-      "tournament": "pauper-league-2026-02-0510196",
-      "date": "",
-      "player": "celobee",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-2510196",
-      "tournament": "pauper-league-2026-01-2510196",
-      "date": "",
-      "player": "celobee",
-      "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2025-09-109535",
       "tournament": "pauper-league-2025-09-109535",
-      "date": "",
+      "date": "2025-09-10",
       "player": "celobee",
       "archetype": "BW Refurbished",
       "colors": [
@@ -170,45 +232,14 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-11-179750",
-      "tournament": "pauper-league-2025-11-179750",
-      "date": "",
+      "site_name": "pauper-league-2025-09-029535",
+      "tournament": "pauper-league-2025-09-029535",
+      "date": "2025-09-02",
       "player": "celobee",
-      "archetype": "U Terror",
+      "archetype": "BW Refurbished",
       "colors": [
         "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-05-049081",
-      "tournament": "pauper-league-2025-05-049081",
-      "date": "",
-      "player": "celobee",
-      "archetype": "Food Pestilence",
-      "colors": [
-        "B",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-11-219987",
-      "tournament": "pauper-league-2025-11-219987",
-      "date": "",
-      "player": "celobee",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -218,7 +249,7 @@
     {
       "site_name": "pauper-league-2025-08-309535",
       "tournament": "pauper-league-2025-08-309535",
-      "date": "",
+      "date": "2025-08-30",
       "player": "celobee",
       "archetype": "BW Refurbished",
       "colors": [
@@ -233,7 +264,7 @@
     {
       "site_name": "pauper-league-2025-08-039535",
       "tournament": "pauper-league-2025-08-039535",
-      "date": "",
+      "date": "2025-08-03",
       "player": "celobee",
       "archetype": "Boros Glitter",
       "colors": [
@@ -246,9 +277,40 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-11-229987",
-      "tournament": "pauper-league-2025-11-229987",
-      "date": "",
+      "site_name": "pauper-league-2025-07-259366",
+      "tournament": "pauper-league-2025-07-259366",
+      "date": "2025-07-25",
+      "player": "celobee",
+      "archetype": "Boros Glitter",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-07-229366",
+      "tournament": "pauper-league-2025-07-229366",
+      "date": "2025-07-22",
+      "player": "celobee",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-07-209366",
+      "tournament": "pauper-league-2025-07-209366",
+      "date": "2025-07-20",
       "player": "celobee",
       "archetype": "Affinity",
       "colors": [
@@ -264,7 +326,7 @@
     {
       "site_name": "pauper-league-2025-07-199366",
       "tournament": "pauper-league-2025-07-199366",
-      "date": "",
+      "date": "2025-07-19",
       "player": "celobee",
       "archetype": "Affinity",
       "colors": [
@@ -278,76 +340,14 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-07-259366",
-      "tournament": "pauper-league-2025-07-259366",
-      "date": "",
+      "site_name": "pauper-league-2025-05-049081",
+      "tournament": "pauper-league-2025-05-049081",
+      "date": "2025-05-04",
       "player": "celobee",
-      "archetype": "Boros Glitter",
-      "colors": [
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-07-229366",
-      "tournament": "pauper-league-2025-07-229366",
-      "date": "",
-      "player": "celobee",
-      "archetype": "Affinity",
+      "archetype": "Food Pestilence",
       "colors": [
         "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-09-029535",
-      "tournament": "pauper-league-2025-09-029535",
-      "date": "",
-      "player": "celobee",
-      "archetype": "BW Refurbished",
-      "colors": [
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-07-209366",
-      "tournament": "pauper-league-2025-07-209366",
-      "date": "",
-      "player": "celobee",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-12-239987",
-      "tournament": "pauper-league-2025-12-239987",
-      "date": "",
-      "player": "celobee",
-      "archetype": "UB Control",
-      "colors": [
-        "B",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,

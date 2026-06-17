@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 10,
     "league_trophies": 7,
-    "league_trophies_yearly": 1,
+    "league_trophies_yearly": 7,
     "challenge_wins": 11,
     "challenge_losses": 6,
     "irl_top8": 0,
     "challenge_win_pct": 65,
-    "league_trophy_rank_yearly": 453,
+    "league_trophy_rank_yearly": 115,
     "league_trophy_rank_alltime": 323,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -79,6 +79,22 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-03-1510405",
+      "tournament": "pauper-league-2026-03-1510405",
+      "date": "2026-03-15",
+      "player": "Chines201",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-03-1412835312",
       "tournament": "Pauper Challenge 32",
       "date": "2026-03-14",
@@ -94,54 +110,9 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-02-2510196",
-      "tournament": "pauper-league-2026-02-2510196",
-      "date": "",
-      "player": "Chines201",
-      "archetype": "Elves",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-1710196",
-      "tournament": "pauper-league-2026-02-1710196",
-      "date": "",
-      "player": "Chines201",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-0710405",
-      "tournament": "pauper-league-2026-03-0710405",
-      "date": "",
-      "player": "Chines201",
-      "archetype": "Elves",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-03-1310405",
       "tournament": "pauper-league-2026-03-1310405",
-      "date": "",
+      "date": "2026-03-13",
       "player": "Chines201",
       "archetype": "Elves",
       "colors": [
@@ -156,7 +127,7 @@
     {
       "site_name": "pauper-league-2026-03-0910405",
       "tournament": "pauper-league-2026-03-0910405",
-      "date": "",
+      "date": "2026-03-09",
       "player": "Chines201",
       "archetype": "Elves",
       "colors": [
@@ -169,15 +140,44 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-03-1510405",
-      "tournament": "pauper-league-2026-03-1510405",
-      "date": "",
+      "site_name": "pauper-league-2026-03-0710405",
+      "tournament": "pauper-league-2026-03-0710405",
+      "date": "2026-03-07",
       "player": "Chines201",
-      "archetype": "R Madness",
+      "archetype": "Elves",
       "colors": [
         "B",
-        "R",
-        "U"
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-2510196",
+      "tournament": "pauper-league-2026-02-2510196",
+      "date": "2026-02-25",
+      "player": "Chines201",
+      "archetype": "Elves",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-1710196",
+      "tournament": "pauper-league-2026-02-1710196",
+      "date": "2026-02-17",
+      "player": "Chines201",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,

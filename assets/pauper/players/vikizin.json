@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 119,
     "league_trophies": 104,
-    "league_trophies_yearly": 16,
+    "league_trophies_yearly": 40,
     "challenge_wins": 54,
     "challenge_losses": 37,
     "irl_top8": 0,
     "challenge_win_pct": 59,
-    "league_trophy_rank_yearly": 8,
+    "league_trophy_rank_yearly": 5,
     "league_trophy_rank_alltime": 4,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -25,11 +25,11 @@
       "count": 16
     },
     {
-      "archetype": "Rally",
+      "archetype": "BR Madness",
       "count": 13
     },
     {
-      "archetype": "BR Madness",
+      "archetype": "Rally",
       "count": 13
     },
     {
@@ -219,22 +219,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-02-2710636",
-      "tournament": "Pauper League",
-      "date": "2026-04-26",
-      "player": "vikizin",
-      "archetype": "UB Control",
-      "colors": [
-        "B",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-04-2010405",
       "tournament": "Pauper League",
       "date": "2026-04-20",
@@ -363,38 +347,71 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-01-0312828177",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-03",
+      "site_name": "pauper-league-2026-03-2010405",
+      "tournament": "pauper-league-2026-03-2010405",
+      "date": "2026-03-20",
       "player": "vikizin",
-      "archetype": "UB Faeries",
+      "archetype": "Jeskai",
       "colors": [
-        "B",
-        "U"
+        "R",
+        "U",
+        "W"
       ],
-      "record": "4-2",
-      "final_rank": 17,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2025-12-2112827520",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-12-21",
+      "site_name": "pauper-league-2026-03-1910405",
+      "tournament": "pauper-league-2026-03-1910405",
+      "date": "2026-03-19",
       "player": "vikizin",
-      "archetype": "U Terror",
+      "archetype": "UR Control",
       "colors": [
+        "R",
         "U"
       ],
-      "record": "4-2",
-      "final_rank": 12,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2025-11-2712825445",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-11-27",
+      "site_name": "pauper-league-2026-03-1910405",
+      "tournament": "pauper-league-2026-03-1910405",
+      "date": "2026-03-19",
+      "player": "vikizin",
+      "archetype": "Jeskai",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-03-1610405",
+      "tournament": "pauper-league-2026-03-1610405",
+      "date": "2026-03-16",
+      "player": "vikizin",
+      "archetype": "UR Control",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-03-1410405",
+      "tournament": "pauper-league-2026-03-1410405",
+      "date": "2026-03-14",
       "player": "vikizin",
       "archetype": "R Madness",
       "colors": [
@@ -402,15 +419,15 @@
         "R",
         "U"
       ],
-      "record": "1-4",
-      "final_rank": 31,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2025-11-2212824978",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-11-22",
+      "site_name": "pauper-league-2026-03-1210405",
+      "tournament": "pauper-league-2026-03-1210405",
+      "date": "2026-03-12",
       "player": "vikizin",
       "archetype": "R Madness",
       "colors": [
@@ -418,40 +435,25 @@
         "R",
         "U"
       ],
-      "record": "3-3",
-      "final_rank": 23,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-special-2025-11-1412824408",
-      "tournament": "Pauper Challenge 32 Special",
-      "date": "2025-11-14",
+      "site_name": "pauper-league-2026-03-1110405",
+      "tournament": "pauper-league-2026-03-1110405",
+      "date": "2026-03-11",
       "player": "vikizin",
-      "archetype": "UB Faeries",
+      "archetype": "UR Control",
       "colors": [
-        "B",
+        "R",
         "U"
       ],
-      "record": "3-4",
-      "final_rank": 29,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-09-2812816552",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-09-28",
-      "player": "vikizin",
-      "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 19,
-      "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     }
   ]
 }

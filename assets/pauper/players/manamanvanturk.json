@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 5,
     "league_trophies": 5,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 1,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 468,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 911,
+    "league_trophy_rank_alltime": 469,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,19 +21,36 @@
       "count": 3
     },
     {
-      "archetype": "Ponza",
+      "archetype": "BW Refurbished",
       "count": 1
     },
     {
-      "archetype": "BW Refurbished",
+      "archetype": "Ponza",
       "count": 1
     }
   ],
   "recent_entries": [
     {
-      "site_name": "pauper-league-2025-09-019535",
-      "tournament": "pauper-league-2025-09-019535",
-      "date": "",
+      "site_name": "pauper-league-2026-03-0810405",
+      "tournament": "pauper-league-2026-03-0810405",
+      "date": "2026-03-08",
+      "player": "ManamanVanTurk",
+      "archetype": "BW Refurbished",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-269750",
+      "tournament": "pauper-league-2025-10-269750",
+      "date": "2025-10-26",
       "player": "ManamanVanTurk",
       "archetype": "U Terror",
       "colors": [
@@ -48,7 +65,22 @@
     {
       "site_name": "pauper-league-2025-09-149535",
       "tournament": "pauper-league-2025-09-149535",
-      "date": "",
+      "date": "2025-09-14",
+      "player": "ManamanVanTurk",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-09-019535",
+      "tournament": "pauper-league-2025-09-019535",
+      "date": "2025-09-01",
       "player": "ManamanVanTurk",
       "archetype": "U Terror",
       "colors": [
@@ -63,44 +95,12 @@
     {
       "site_name": "pauper-league-2025-08-239535",
       "tournament": "pauper-league-2025-08-239535",
-      "date": "",
+      "date": "2025-08-23",
       "player": "ManamanVanTurk",
       "archetype": "Ponza",
       "colors": [
         "G",
         "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-10-269750",
-      "tournament": "pauper-league-2025-10-269750",
-      "date": "",
-      "player": "ManamanVanTurk",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-0810405",
-      "tournament": "pauper-league-2026-03-0810405",
-      "date": "",
-      "player": "ManamanVanTurk",
-      "archetype": "BW Refurbished",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
       ],
       "record": "5-0",
       "final_rank": null,

@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 12,
     "league_trophies": 12,
-    "league_trophies_yearly": 5,
+    "league_trophies_yearly": 8,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 89,
+    "league_trophy_rank_yearly": 97,
     "league_trophy_rank_alltime": 163,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -91,9 +91,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-02-2710636",
-      "tournament": "Pauper League",
-      "date": "2026-04-26",
+      "site_name": "pauper-league-2026-03-2210405",
+      "tournament": "pauper-league-2026-03-2210405",
+      "date": "2026-03-22",
       "player": "gasimpar",
       "archetype": "BW Refurbished",
       "colors": [
@@ -106,11 +106,86 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-11-259987",
-      "tournament": "pauper-league-2025-11-259987",
-      "date": "",
+      "site_name": "pauper-league-2026-02-2710636",
+      "tournament": "Pauper League",
+      "date": "2026-02-27",
+      "player": "gasimpar",
+      "archetype": "BW Refurbished",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-1510196",
+      "tournament": "pauper-league-2026-02-1510196",
+      "date": "2026-02-15",
+      "player": "gasimpar",
+      "archetype": "BW Refurbished",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-059987",
+      "tournament": "pauper-league-2026-01-059987",
+      "date": "2026-01-05",
       "player": "gasimpar",
       "archetype": "White Weennie",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-12-079987",
+      "tournament": "pauper-league-2025-12-079987",
+      "date": "2025-12-07",
+      "player": "gasimpar",
+      "archetype": "White Weennie",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-11-259987",
+      "tournament": "pauper-league-2025-11-259987",
+      "date": "2025-11-25",
+      "player": "gasimpar",
+      "archetype": "White Weennie",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-039750",
+      "tournament": "pauper-league-2025-10-039750",
+      "date": "2025-10-03",
+      "player": "gasimpar",
+      "archetype": "BW Refurbished",
       "colors": [
         "R",
         "W"
@@ -123,87 +198,12 @@
     {
       "site_name": "pauper-league-2025-02-159535",
       "tournament": "pauper-league-2025-02-159535",
-      "date": "",
+      "date": "2025-02-15",
       "player": "gasimpar",
       "archetype": "Esper Affinity",
       "colors": [
         "B",
         "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-059987",
-      "tournament": "pauper-league-2026-01-059987",
-      "date": "",
-      "player": "gasimpar",
-      "archetype": "White Weennie",
-      "colors": [
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-1510196",
-      "tournament": "pauper-league-2026-02-1510196",
-      "date": "",
-      "player": "gasimpar",
-      "archetype": "BW Refurbished",
-      "colors": [
-        "B",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-12-079987",
-      "tournament": "pauper-league-2025-12-079987",
-      "date": "",
-      "player": "gasimpar",
-      "archetype": "White Weennie",
-      "colors": [
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-2210405",
-      "tournament": "pauper-league-2026-03-2210405",
-      "date": "",
-      "player": "gasimpar",
-      "archetype": "BW Refurbished",
-      "colors": [
-        "B",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-10-039750",
-      "tournament": "pauper-league-2025-10-039750",
-      "date": "",
-      "player": "gasimpar",
-      "archetype": "BW Refurbished",
-      "colors": [
-        "R",
         "W"
       ],
       "record": "5-0",

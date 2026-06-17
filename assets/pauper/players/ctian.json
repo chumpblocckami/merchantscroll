@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 10,
     "league_trophies": 9,
-    "league_trophies_yearly": 2,
+    "league_trophies_yearly": 4,
     "challenge_wins": 6,
     "challenge_losses": 3,
     "irl_top8": 0,
     "challenge_win_pct": 67,
-    "league_trophy_rank_yearly": 264,
+    "league_trophy_rank_yearly": 218,
     "league_trophy_rank_alltime": 235,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -29,15 +29,15 @@
       "count": 1
     },
     {
-      "archetype": "Dredge",
-      "count": 1
-    },
-    {
       "archetype": "Altar Tron",
       "count": 1
     },
     {
       "archetype": "Jeskai",
+      "count": 1
+    },
+    {
+      "archetype": "Dredge",
       "count": 1
     },
     {
@@ -78,6 +78,54 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-02-2310196",
+      "tournament": "pauper-league-2026-02-2310196",
+      "date": "2026-02-23",
+      "player": "Ctian",
+      "archetype": "Jeskai",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-049987",
+      "tournament": "pauper-league-2026-01-049987",
+      "date": "2026-01-04",
+      "player": "Ctian",
+      "archetype": "Spy",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-239750",
+      "tournament": "pauper-league-2025-10-239750",
+      "date": "2025-10-23",
+      "player": "Ctian",
+      "archetype": "Spy",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-10-0512818146",
       "tournament": "Pauper Challenge 32",
       "date": "2025-10-05",
@@ -96,7 +144,7 @@
     {
       "site_name": "pauper-league-2025-09-299750",
       "tournament": "pauper-league-2025-09-299750",
-      "date": "",
+      "date": "2025-09-29",
       "player": "Ctian",
       "archetype": "Dredge",
       "colors": [
@@ -110,32 +158,15 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-10-239750",
-      "tournament": "pauper-league-2025-10-239750",
-      "date": "",
+      "site_name": "pauper-league-2025-09-219535",
+      "tournament": "pauper-league-2025-09-219535",
+      "date": "2025-09-21",
       "player": "Ctian",
-      "archetype": "Spy",
+      "archetype": "Boros Glitter",
       "colors": [
         "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-05-229081",
-      "tournament": "pauper-league-2025-05-229081",
-      "date": "",
-      "player": "Ctian",
-      "archetype": "Altar Tron",
-      "colors": [
-        "B",
-        "G",
         "R",
-        "U"
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -145,7 +176,7 @@
     {
       "site_name": "pauper-league-2025-07-159366",
       "tournament": "pauper-league-2025-07-159366",
-      "date": "",
+      "date": "2025-07-15",
       "player": "Ctian",
       "archetype": "Familiars",
       "colors": [
@@ -158,47 +189,16 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-01-049987",
-      "tournament": "pauper-league-2026-01-049987",
-      "date": "",
+      "site_name": "pauper-league-2025-05-229081",
+      "tournament": "pauper-league-2025-05-229081",
+      "date": "2025-05-22",
       "player": "Ctian",
-      "archetype": "Spy",
+      "archetype": "Altar Tron",
       "colors": [
         "B",
         "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-2310196",
-      "tournament": "pauper-league-2026-02-2310196",
-      "date": "",
-      "player": "Ctian",
-      "archetype": "Jeskai",
-      "colors": [
         "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-09-219535",
-      "tournament": "pauper-league-2025-09-219535",
-      "date": "",
-      "player": "Ctian",
-      "archetype": "Boros Glitter",
-      "colors": [
-        "B",
-        "R",
-        "W"
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,

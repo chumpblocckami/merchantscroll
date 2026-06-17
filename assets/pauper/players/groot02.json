@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 4,
     "league_trophies": 1,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 1,
     "challenge_wins": 3,
     "challenge_losses": 3,
     "irl_top8": 0,
     "challenge_win_pct": 50,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 1436,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 817,
+    "league_trophy_rank_alltime": 1437,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -30,6 +30,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-02-0310196",
+      "tournament": "pauper-league-2026-02-0310196",
+      "date": "2026-02-03",
+      "player": "groot02",
+      "archetype": "BW Refurbished",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2025-09-1912815119",
       "tournament": "Pauper Challenge 32",
@@ -75,22 +91,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-league-2026-02-0310196",
-      "tournament": "pauper-league-2026-02-0310196",
-      "date": "",
-      "player": "groot02",
-      "archetype": "BW Refurbished",
-      "colors": [
-        "B",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

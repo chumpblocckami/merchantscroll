@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 17,
     "league_trophies": 11,
-    "league_trophies_yearly": 5,
+    "league_trophies_yearly": 9,
     "challenge_wins": 15,
     "challenge_losses": 10,
     "irl_top8": 0,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 76,
-    "league_trophy_rank_alltime": 174,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 82,
+    "league_trophy_rank_alltime": 175,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -25,16 +25,12 @@
       "count": 3
     },
     {
-      "archetype": "Elves",
-      "count": 2
-    },
-    {
       "archetype": "U Terror",
       "count": 2
     },
     {
-      "archetype": "U Faeries",
-      "count": 1
+      "archetype": "Elves",
+      "count": 2
     },
     {
       "archetype": "Jund",
@@ -42,6 +38,10 @@
     },
     {
       "archetype": "UB Terror",
+      "count": 1
+    },
+    {
+      "archetype": "U Faeries",
       "count": 1
     }
   ],
@@ -125,22 +125,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-05-0912842086",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-09",
-      "player": "Albreto",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-05-0910636",
       "tournament": "Pauper League",
       "date": "2026-05-09",
@@ -155,6 +139,22 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-05-0912842086",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-05-09",
+      "player": "Albreto",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-league-2026-04-2810636",
@@ -219,9 +219,39 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-03-0510405",
+      "tournament": "pauper-league-2026-03-0510405",
+      "date": "2026-03-05",
+      "player": "Albreto",
+      "archetype": "Elves",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-0610196",
+      "tournament": "pauper-league-2026-02-0610196",
+      "date": "2026-02-06",
+      "player": "Albreto",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2026-02-0210196",
       "tournament": "pauper-league-2026-02-0210196",
-      "date": "",
+      "date": "2026-02-02",
       "player": "Albreto",
       "archetype": "U Faeries",
       "colors": [
@@ -233,9 +263,24 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-01-069987",
+      "tournament": "pauper-league-2026-01-069987",
+      "date": "2026-01-06",
+      "player": "Albreto",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2025-12-109987",
       "tournament": "pauper-league-2025-12-109987",
-      "date": "",
+      "date": "2025-12-10",
       "player": "Albreto",
       "archetype": "Jund",
       "colors": [
@@ -249,59 +294,14 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-03-0510405",
-      "tournament": "pauper-league-2026-03-0510405",
-      "date": "",
-      "player": "Albreto",
-      "archetype": "Elves",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2025-12-039987",
       "tournament": "pauper-league-2025-12-039987",
-      "date": "",
+      "date": "2025-12-03",
       "player": "Albreto",
       "archetype": "Rally",
       "colors": [
         "B",
         "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-069987",
-      "tournament": "pauper-league-2026-01-069987",
-      "date": "",
-      "player": "Albreto",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-0610196",
-      "tournament": "pauper-league-2026-02-0610196",
-      "date": "",
-      "player": "Albreto",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
       ],
       "record": "5-0",
       "final_rank": null,

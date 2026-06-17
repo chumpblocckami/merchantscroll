@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 33,
     "league_trophies": 10,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 5,
     "challenge_wins": 78,
     "challenge_losses": 63,
     "irl_top8": 0,
     "challenge_win_pct": 55,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 219,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 189,
+    "league_trophy_rank_alltime": 220,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -33,19 +33,19 @@
       "count": 3
     },
     {
-      "archetype": "Affinity",
-      "count": 2
-    },
-    {
-      "archetype": "BR Madness",
-      "count": 2
-    },
-    {
       "archetype": "White Weenie",
       "count": 2
     },
     {
+      "archetype": "Affinity",
+      "count": 2
+    },
+    {
       "archetype": "Food Pestilence",
+      "count": 2
+    },
+    {
+      "archetype": "BR Madness",
       "count": 2
     }
   ],
@@ -131,6 +131,20 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-03-0810405",
+      "tournament": "pauper-league-2026-03-0810405",
+      "date": "2026-03-08",
+      "player": "Natalino_91",
+      "archetype": "White Weenie",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-03-0712834508",
       "tournament": "Pauper Challenge 32",
       "date": "2026-03-07",
@@ -165,6 +179,55 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-02-0610196",
+      "tournament": "pauper-league-2026-02-0610196",
+      "date": "2026-02-06",
+      "player": "Natalino_91",
+      "archetype": "Food Pestilence",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-2710196",
+      "tournament": "pauper-league-2026-01-2710196",
+      "date": "2026-01-27",
+      "player": "Natalino_91",
+      "archetype": "Dredge",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-189987",
+      "tournament": "pauper-league-2026-01-189987",
+      "date": "2026-01-18",
+      "player": "Natalino_91",
+      "archetype": "Dredge",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-01-0912829350",
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-09",
@@ -180,6 +243,41 @@
       "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-01-079987",
+      "tournament": "pauper-league-2026-01-079987",
+      "date": "2026-01-07",
+      "player": "Natalino_91",
+      "archetype": "Dredge",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-12-309987",
+      "tournament": "pauper-league-2025-12-309987",
+      "date": "2025-12-30",
+      "player": "Natalino_91",
+      "archetype": "Dredge",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-12-0612825806",
@@ -291,7 +389,7 @@
       "type": "other"
     },
     {
-      "site_name": "pauper-challenge-32-special-2025-11-1312824394",
+      "site_name": "pauper-challenge-32-special-2025-11-1212824394",
       "tournament": "Pauper Challenge 32 Special",
       "date": "2025-11-13",
       "player": "Natalino_91",
@@ -307,7 +405,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-special-2025-11-1212824394",
+      "site_name": "pauper-challenge-32-special-2025-11-1312824394",
       "tournament": "Pauper Challenge 32 Special",
       "date": "2025-11-13",
       "player": "Natalino_91",
@@ -337,116 +435,13 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2025-08-3112812801",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-08-31",
+      "site_name": "pauper-league-2025-09-159535",
+      "tournament": "pauper-league-2025-09-159535",
+      "date": "2025-09-15",
       "player": "Natalino_91",
       "archetype": "B Sacrifice",
       "colors": [
         "B"
-      ],
-      "record": "9-1",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-06-2812799998",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-06-28",
-      "player": "Natalino_91",
-      "archetype": "Dredge",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-2",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-06-1412794595",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-06-14",
-      "player": "Natalino_91",
-      "archetype": "Dredge",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "2-4",
-      "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-05-3012782641",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-05-30",
-      "player": "Natalino_91",
-      "archetype": "Dredge",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-05-0412774521",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-05-04",
-      "player": "Natalino_91",
-      "archetype": "Dredge",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 26,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-12-309987",
-      "tournament": "pauper-league-2025-12-309987",
-      "date": "",
-      "player": "Natalino_91",
-      "archetype": "Dredge",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-06-109366",
-      "tournament": "pauper-league-2025-06-109366",
-      "date": "",
-      "player": "Natalino_91",
-      "archetype": "Dredge",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
       ],
       "record": "5-0",
       "final_rank": null,

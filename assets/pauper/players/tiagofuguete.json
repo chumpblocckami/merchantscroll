@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 18,
     "league_trophies": 2,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 1,
     "challenge_wins": 69,
     "challenge_losses": 37,
     "irl_top8": 0,
     "challenge_win_pct": 65,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 1108,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 1082,
+    "league_trophy_rank_alltime": 1109,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,15 +21,11 @@
       "count": 3
     },
     {
-      "archetype": "Affinity",
-      "count": 2
-    },
-    {
       "archetype": "Jund",
       "count": 2
     },
     {
-      "archetype": "BR Madness",
+      "archetype": "Affinity",
       "count": 2
     },
     {
@@ -37,11 +33,15 @@
       "count": 2
     },
     {
-      "archetype": "Elves",
+      "archetype": "BR Madness",
+      "count": 2
+    },
+    {
+      "archetype": "Rally",
       "count": 1
     },
     {
-      "archetype": "Pingers",
+      "archetype": "Food Pestilence",
       "count": 1
     },
     {
@@ -49,11 +49,11 @@
       "count": 1
     },
     {
-      "archetype": "Gardens",
+      "archetype": "Pingers",
       "count": 1
     },
     {
-      "archetype": "Rally",
+      "archetype": "UB Terror",
       "count": 1
     }
   ],
@@ -135,6 +135,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-01-209987",
+      "tournament": "pauper-league-2026-01-209987",
+      "date": "2026-01-20",
+      "player": "TiagoFuguete",
+      "archetype": "Food Pestilence",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-01-0912829350",
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-09",
@@ -211,6 +226,22 @@
       "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-07-149366",
+      "tournament": "pauper-league-2025-07-149366",
+      "date": "2025-07-14",
+      "player": "TiagoFuguete",
+      "archetype": "Cawgate",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-07-1112802796",
@@ -303,37 +334,6 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-07-149366",
-      "tournament": "pauper-league-2025-07-149366",
-      "date": "",
-      "player": "TiagoFuguete",
-      "archetype": "Cawgate",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-209987",
-      "tournament": "pauper-league-2026-01-209987",
-      "date": "",
-      "player": "TiagoFuguete",
-      "archetype": "Food Pestilence",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

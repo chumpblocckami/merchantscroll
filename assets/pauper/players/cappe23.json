@@ -5,19 +5,19 @@
   "stats": {
     "total_entries": 3,
     "league_trophies": 3,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 1,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 653,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 684,
+    "league_trophy_rank_alltime": 654,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
     {
-      "archetype": "UB Terror",
+      "archetype": "UB Control",
       "count": 1
     },
     {
@@ -25,15 +25,30 @@
       "count": 1
     },
     {
-      "archetype": "UB Control",
+      "archetype": "UB Terror",
       "count": 1
     }
   ],
   "recent_entries": [
     {
+      "site_name": "pauper-league-2026-03-1310405",
+      "tournament": "pauper-league-2026-03-1310405",
+      "date": "2026-03-13",
+      "player": "cappe23",
+      "archetype": "UB Control",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2025-12-309987",
       "tournament": "pauper-league-2025-12-309987",
-      "date": "",
+      "date": "2025-12-30",
       "player": "cappe23",
       "archetype": "UB Terror",
       "colors": [
@@ -49,24 +64,9 @@
     {
       "site_name": "pauper-league-2025-10-249750",
       "tournament": "pauper-league-2025-10-249750",
-      "date": "",
+      "date": "2025-10-24",
       "player": "cappe23",
       "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-1310405",
-      "tournament": "pauper-league-2026-03-1310405",
-      "date": "",
-      "player": "cappe23",
-      "archetype": "UB Control",
       "colors": [
         "B",
         "U"

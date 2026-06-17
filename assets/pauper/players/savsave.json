@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 7,
     "league_trophies": 7,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 1,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": null,
+    "league_trophy_rank_yearly": 1025,
     "league_trophy_rank_alltime": 347,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,7 +21,7 @@
       "count": 4
     },
     {
-      "archetype": "Rally",
+      "archetype": "Pingers",
       "count": 1
     },
     {
@@ -29,19 +29,19 @@
       "count": 1
     },
     {
-      "archetype": "Pingers",
+      "archetype": "Rally",
       "count": 1
     }
   ],
   "recent_entries": [
     {
-      "site_name": "pauper-league-2024-04-189535",
-      "tournament": "pauper-league-2024-04-189535",
-      "date": "",
+      "site_name": "pauper-league-2026-01-069987",
+      "tournament": "pauper-league-2026-01-069987",
+      "date": "2026-01-06",
       "player": "SavSave",
-      "archetype": "B Sacrifice",
+      "archetype": "Pingers",
       "colors": [
-        "B"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -51,7 +51,7 @@
     {
       "site_name": "pauper-league-2025-12-259987",
       "tournament": "pauper-league-2025-12-259987",
-      "date": "",
+      "date": "2025-12-25",
       "player": "SavSave",
       "archetype": "Rally",
       "colors": [
@@ -64,25 +64,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-05-179081",
-      "tournament": "pauper-league-2025-05-179081",
-      "date": "",
-      "player": "SavSave",
-      "archetype": "BR Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2025-09-239535",
       "tournament": "pauper-league-2025-09-239535",
-      "date": "",
+      "date": "2025-09-23",
       "player": "SavSave",
       "archetype": "B Sacrifice",
       "colors": [
@@ -96,7 +80,7 @@
     {
       "site_name": "pauper-league-2025-08-239535",
       "tournament": "pauper-league-2025-08-239535",
-      "date": "",
+      "date": "2025-08-23",
       "player": "SavSave",
       "archetype": "B Sacrifice",
       "colors": [
@@ -108,13 +92,13 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-01-069987",
-      "tournament": "pauper-league-2026-01-069987",
-      "date": "",
+      "site_name": "pauper-league-2025-08-019535",
+      "tournament": "pauper-league-2025-08-019535",
+      "date": "2025-08-01",
       "player": "SavSave",
-      "archetype": "Pingers",
+      "archetype": "B Sacrifice",
       "colors": [
-        "R"
+        "B"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -122,9 +106,25 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-08-019535",
-      "tournament": "pauper-league-2025-08-019535",
-      "date": "",
+      "site_name": "pauper-league-2025-05-179081",
+      "tournament": "pauper-league-2025-05-179081",
+      "date": "2025-05-17",
+      "player": "SavSave",
+      "archetype": "BR Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2024-04-189535",
+      "tournament": "pauper-league-2024-04-189535",
+      "date": "2024-04-18",
       "player": "SavSave",
       "archetype": "B Sacrifice",
       "colors": [

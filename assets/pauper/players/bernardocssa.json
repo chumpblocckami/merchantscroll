@@ -11,8 +11,8 @@
     "irl_top8": 0,
     "challenge_win_pct": 73,
     "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 855,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_alltime": 856,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -25,15 +25,15 @@
       "count": 2
     },
     {
+      "archetype": "Altar Tron",
+      "count": 1
+    },
+    {
       "archetype": "R Madness",
       "count": 1
     },
     {
       "archetype": "GU",
-      "count": 1
-    },
-    {
-      "archetype": "Altar Tron",
       "count": 1
     }
   ],
@@ -83,6 +83,22 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-08-029535",
+      "tournament": "pauper-league-2025-08-029535",
+      "date": "2025-08-02",
+      "player": "bernardocssa",
+      "archetype": "Altar Tron",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-06-0612792678",
       "tournament": "Pauper Challenge 32",
       "date": "2025-06-06",
@@ -97,6 +113,22 @@
       "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-06-059081",
+      "tournament": "pauper-league-2025-06-059081",
+      "date": "2025-06-05",
+      "player": "bernardocssa",
+      "archetype": "BR Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-05-3012782641",
@@ -128,38 +160,6 @@
       "final_rank": 17,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-league-2025-06-059081",
-      "tournament": "pauper-league-2025-06-059081",
-      "date": "",
-      "player": "bernardocssa",
-      "archetype": "BR Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-08-029535",
-      "tournament": "pauper-league-2025-08-029535",
-      "date": "",
-      "player": "bernardocssa",
-      "archetype": "Altar Tron",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 5,
     "league_trophies": 4,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 1,
     "challenge_wins": 3,
     "challenge_losses": 3,
     "irl_top8": 0,
     "challenge_win_pct": 50,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 575,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 935,
+    "league_trophy_rank_alltime": 576,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -45,37 +45,9 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2023-09-1610196",
-      "tournament": "pauper-league-2023-09-1610196",
-      "date": "",
-      "player": "MrApple65",
-      "archetype": "U Faeries",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-02-1610196",
       "tournament": "pauper-league-2026-02-1610196",
-      "date": "",
-      "player": "MrApple65",
-      "archetype": "U Faeries",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2024-06-1110196",
-      "tournament": "pauper-league-2024-06-1110196",
-      "date": "",
+      "date": "2026-02-16",
       "player": "MrApple65",
       "archetype": "U Faeries",
       "colors": [
@@ -89,12 +61,40 @@
     {
       "site_name": "pauper-league-2025-12-129987",
       "tournament": "pauper-league-2025-12-129987",
-      "date": "",
+      "date": "2025-12-12",
       "player": "MrApple65",
       "archetype": "Gardens",
       "colors": [
         "B",
         "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2024-06-1110196",
+      "tournament": "pauper-league-2024-06-1110196",
+      "date": "2024-06-11",
+      "player": "MrApple65",
+      "archetype": "U Faeries",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2023-09-1610196",
+      "tournament": "pauper-league-2023-09-1610196",
+      "date": "2023-09-16",
+      "player": "MrApple65",
+      "archetype": "U Faeries",
+      "colors": [
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,

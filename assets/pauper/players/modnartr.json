@@ -10,9 +10,9 @@
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 320,
+    "league_trophy_rank_yearly": 518,
     "league_trophy_rank_alltime": 254,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -25,19 +25,19 @@
       "count": 2
     },
     {
-      "archetype": "Ponza",
-      "count": 1
-    },
-    {
       "archetype": "BW Refurbished",
       "count": 1
     },
     {
-      "archetype": "Walls",
+      "archetype": "Ponza",
       "count": 1
     },
     {
       "archetype": "GR",
+      "count": 1
+    },
+    {
+      "archetype": "Walls",
       "count": 1
     }
   ],
@@ -73,25 +73,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-07-119366",
-      "tournament": "pauper-league-2025-07-119366",
-      "date": "",
-      "player": "ModnarTR",
-      "archetype": "BR Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2025-12-199987",
       "tournament": "pauper-league-2025-12-199987",
-      "date": "",
+      "date": "2025-12-19",
       "player": "ModnarTR",
       "archetype": "BR Madness",
       "colors": [
@@ -105,9 +89,25 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-08-309535",
-      "tournament": "pauper-league-2025-08-309535",
-      "date": "",
+      "site_name": "pauper-league-2025-11-059750",
+      "tournament": "pauper-league-2025-11-059750",
+      "date": "2025-11-05",
+      "player": "ModnarTR",
+      "archetype": "Spy",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-239750",
+      "tournament": "pauper-league-2025-10-239750",
+      "date": "2025-10-23",
       "player": "ModnarTR",
       "archetype": "Spy",
       "colors": [
@@ -123,7 +123,7 @@
     {
       "site_name": "pauper-league-2025-09-049535",
       "tournament": "pauper-league-2025-09-049535",
-      "date": "",
+      "date": "2025-09-04",
       "player": "ModnarTR",
       "archetype": "BW Refurbished",
       "colors": [
@@ -137,9 +137,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-10-239750",
-      "tournament": "pauper-league-2025-10-239750",
-      "date": "",
+      "site_name": "pauper-league-2025-08-309535",
+      "tournament": "pauper-league-2025-08-309535",
+      "date": "2025-08-30",
       "player": "ModnarTR",
       "archetype": "Spy",
       "colors": [
@@ -155,7 +155,7 @@
     {
       "site_name": "pauper-league-2025-07-159366",
       "tournament": "pauper-league-2025-07-159366",
-      "date": "",
+      "date": "2025-07-15",
       "player": "ModnarTR",
       "archetype": "Walls",
       "colors": [
@@ -171,15 +171,15 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-11-059750",
-      "tournament": "pauper-league-2025-11-059750",
-      "date": "",
+      "site_name": "pauper-league-2025-07-119366",
+      "tournament": "pauper-league-2025-07-119366",
+      "date": "2025-07-11",
       "player": "ModnarTR",
-      "archetype": "Spy",
+      "archetype": "BR Madness",
       "colors": [
         "B",
-        "G",
-        "R"
+        "R",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,

@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 5,
     "league_trophies": 5,
-    "league_trophies_yearly": 1,
+    "league_trophies_yearly": 3,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 525,
+    "league_trophy_rank_yearly": 304,
     "league_trophy_rank_alltime": 451,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,15 +21,15 @@
       "count": 2
     },
     {
+      "archetype": "UB Faeries",
+      "count": 1
+    },
+    {
       "archetype": "BW Refurbished",
       "count": 1
     },
     {
       "archetype": "Walls",
-      "count": 1
-    },
-    {
-      "archetype": "UB Faeries",
       "count": 1
     }
   ],
@@ -51,13 +51,29 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-11-099750",
-      "tournament": "pauper-league-2025-11-099750",
-      "date": "",
+      "site_name": "pauper-league-2026-03-0810405",
+      "tournament": "pauper-league-2026-03-0810405",
+      "date": "2026-03-08",
       "player": "fedef937",
-      "archetype": "BW Refurbished",
+      "archetype": "UB Faeries",
       "colors": [
         "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-2310196",
+      "tournament": "pauper-league-2026-02-2310196",
+      "date": "2026-02-23",
+      "player": "fedef937",
+      "archetype": "Jeskai",
+      "colors": [
+        "R",
+        "U",
         "W"
       ],
       "record": "5-0",
@@ -68,7 +84,7 @@
     {
       "site_name": "pauper-league-2025-12-099987",
       "tournament": "pauper-league-2025-12-099987",
-      "date": "",
+      "date": "2025-12-09",
       "player": "fedef937",
       "archetype": "Walls",
       "colors": [
@@ -84,30 +100,14 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-02-2310196",
-      "tournament": "pauper-league-2026-02-2310196",
-      "date": "",
+      "site_name": "pauper-league-2025-11-099750",
+      "tournament": "pauper-league-2025-11-099750",
+      "date": "2025-11-09",
       "player": "fedef937",
-      "archetype": "Jeskai",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-0810405",
-      "tournament": "pauper-league-2026-03-0810405",
-      "date": "",
-      "player": "fedef937",
-      "archetype": "UB Faeries",
+      "archetype": "BW Refurbished",
       "colors": [
         "B",
-        "U"
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,

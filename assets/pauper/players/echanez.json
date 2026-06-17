@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 30,
     "league_trophies": 22,
-    "league_trophies_yearly": 8,
+    "league_trophies_yearly": 10,
     "challenge_wins": 30,
     "challenge_losses": 21,
     "irl_top8": 0,
     "challenge_win_pct": 59,
-    "league_trophy_rank_yearly": 38,
+    "league_trophy_rank_yearly": 78,
     "league_trophy_rank_alltime": 71,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -29,14 +29,6 @@
       "count": 3
     },
     {
-      "archetype": "Monsters",
-      "count": 2
-    },
-    {
-      "archetype": "Pingers",
-      "count": 2
-    },
-    {
       "archetype": "Food Pestilence",
       "count": 2
     },
@@ -45,15 +37,23 @@
       "count": 2
     },
     {
+      "archetype": "Pingers",
+      "count": 2
+    },
+    {
+      "archetype": "Monsters",
+      "count": 2
+    },
+    {
+      "archetype": "U Terror",
+      "count": 1
+    },
+    {
       "archetype": "Walls",
       "count": 1
     },
     {
-      "archetype": "White Weennie",
-      "count": 1
-    },
-    {
-      "archetype": "Boros Glitter",
+      "archetype": "Jund",
       "count": 1
     }
   ],
@@ -274,77 +274,14 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2025-09-1312814274",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-09-13",
-      "player": "Echanez",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "R"
-      ],
-      "record": "2-4",
-      "final_rank": 30,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-showcase-challenge-2025-08-0212806252",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2025-08-02",
-      "player": "Echanez",
-      "archetype": "White Weennie",
-      "colors": [
-        "W"
-      ],
-      "record": "6-3",
-      "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-05-0312774499",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-05-03",
-      "player": "Echanez",
-      "archetype": "Food Pestilence",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 21,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-03-1710405",
       "tournament": "pauper-league-2026-03-1710405",
-      "date": "",
+      "date": "2026-03-17",
       "player": "Echanez",
       "archetype": "Monsters",
       "colors": [
         "G",
         "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-08-079535",
-      "tournament": "pauper-league-2025-08-079535",
-      "date": "",
-      "player": "Echanez",
-      "archetype": "Monsters",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -354,7 +291,7 @@
     {
       "site_name": "pauper-league-2026-02-1110196",
       "tournament": "pauper-league-2026-02-1110196",
-      "date": "",
+      "date": "2026-02-11",
       "player": "Echanez",
       "archetype": "Gardens",
       "colors": [
@@ -370,7 +307,7 @@
     {
       "site_name": "pauper-league-2025-11-219987",
       "tournament": "pauper-league-2025-11-219987",
-      "date": "",
+      "date": "2025-11-21",
       "player": "Echanez",
       "archetype": "Pingers",
       "colors": [
@@ -382,11 +319,86 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-07-189366",
-      "tournament": "pauper-league-2025-07-189366",
-      "date": "",
+      "site_name": "pauper-league-2025-11-209987",
+      "tournament": "pauper-league-2025-11-209987",
+      "date": "2025-11-20",
       "player": "Echanez",
-      "archetype": "Boros Glitter",
+      "archetype": "Pingers",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-319750",
+      "tournament": "pauper-league-2025-10-319750",
+      "date": "2025-10-31",
+      "player": "Echanez",
+      "archetype": "Rally",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-319750",
+      "tournament": "pauper-league-2025-10-319750",
+      "date": "2025-10-31",
+      "player": "Echanez",
+      "archetype": "Rally",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-309750",
+      "tournament": "pauper-league-2025-10-309750",
+      "date": "2025-10-30",
+      "player": "Echanez",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-089750",
+      "tournament": "pauper-league-2025-10-089750",
+      "date": "2025-10-08",
+      "player": "Echanez",
+      "archetype": "Mono Red Kuldotha",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-09-229535",
+      "tournament": "pauper-league-2025-09-229535",
+      "date": "2025-09-22",
+      "player": "Echanez",
+      "archetype": "BW Refurbished",
       "colors": [
         "R",
         "W"
@@ -397,9 +409,24 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-challenge-32-2025-09-1312814274",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-09-13",
+      "player": "Echanez",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "record": "2-4",
+      "final_rank": 30,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-league-2025-09-039535",
       "tournament": "pauper-league-2025-09-039535",
-      "date": "",
+      "date": "2025-09-03",
       "player": "Echanez",
       "archetype": "Gardens",
       "colors": [
@@ -413,46 +440,15 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-10-319750",
-      "tournament": "pauper-league-2025-10-319750",
-      "date": "",
+      "site_name": "pauper-league-2025-08-319535",
+      "tournament": "pauper-league-2025-08-319535",
+      "date": "2025-08-31",
       "player": "Echanez",
-      "archetype": "Rally",
+      "archetype": "Gardens",
       "colors": [
         "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-10-319750",
-      "tournament": "pauper-league-2025-10-319750",
-      "date": "",
-      "player": "Echanez",
-      "archetype": "Rally",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-09-229535",
-      "tournament": "pauper-league-2025-09-229535",
-      "date": "",
-      "player": "Echanez",
-      "archetype": "BW Refurbished",
-      "colors": [
-        "R",
-        "W"
+        "G",
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,

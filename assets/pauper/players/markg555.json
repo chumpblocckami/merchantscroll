@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 5,
     "league_trophies": 4,
-    "league_trophies_yearly": 1,
+    "league_trophies_yearly": 2,
     "challenge_wins": 3,
     "challenge_losses": 3,
     "irl_top8": 0,
     "challenge_win_pct": 50,
-    "league_trophy_rank_yearly": 628,
-    "league_trophy_rank_alltime": 567,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 510,
+    "league_trophy_rank_alltime": 568,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,15 +21,15 @@
       "count": 2
     },
     {
+      "archetype": "Food Pestilence",
+      "count": 1
+    },
+    {
       "archetype": "Dredge",
       "count": 1
     },
     {
       "archetype": "GW Gates",
-      "count": 1
-    },
-    {
-      "archetype": "Food Pestilence",
       "count": 1
     }
   ],
@@ -52,25 +52,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2025-07-2612804888",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-07-26",
-      "player": "MarkG555",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 19,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-01-179987",
       "tournament": "pauper-league-2026-01-179987",
-      "date": "",
+      "date": "2026-01-17",
       "player": "MarkG555",
       "archetype": "Dredge",
       "colors": [
@@ -86,9 +70,24 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2025-09-159535",
+      "tournament": "pauper-league-2025-09-159535",
+      "date": "2025-09-15",
+      "player": "MarkG555",
+      "archetype": "Food Pestilence",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2025-07-269366",
       "tournament": "pauper-league-2025-07-269366",
-      "date": "",
+      "date": "2025-07-26",
       "player": "MarkG555",
       "archetype": "Jund",
       "colors": [
@@ -102,19 +101,20 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-09-159535",
-      "tournament": "pauper-league-2025-09-159535",
-      "date": "",
+      "site_name": "pauper-challenge-32-2025-07-2612804888",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-07-26",
       "player": "MarkG555",
-      "archetype": "Food Pestilence",
+      "archetype": "Jund",
       "colors": [
         "B",
-        "G"
+        "G",
+        "R"
       ],
-      "record": "5-0",
-      "final_rank": null,
+      "record": "3-3",
+      "final_rank": 19,
       "source": "mtgo",
-      "type": "league"
+      "type": "challenge"
     }
   ]
 }

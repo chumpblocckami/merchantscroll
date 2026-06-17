@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 4,
     "league_trophies": 4,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 2,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 608,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 575,
+    "league_trophy_rank_alltime": 609,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,34 +21,19 @@
       "count": 2
     },
     {
-      "archetype": "Jeskai",
+      "archetype": "R Madness",
       "count": 1
     },
     {
-      "archetype": "R Madness",
+      "archetype": "Jeskai",
       "count": 1
     }
   ],
   "recent_entries": [
     {
-      "site_name": "pauper-league-2026-01-119987",
-      "tournament": "pauper-league-2026-01-119987",
-      "date": "",
-      "player": "Telomere",
-      "archetype": "Familiars",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-02-0710196",
       "tournament": "pauper-league-2026-02-0710196",
-      "date": "",
+      "date": "2026-02-07",
       "player": "Telomere",
       "archetype": "Familiars",
       "colors": [
@@ -61,13 +46,12 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-06-189366",
-      "tournament": "pauper-league-2025-06-189366",
-      "date": "",
+      "site_name": "pauper-league-2026-01-119987",
+      "tournament": "pauper-league-2026-01-119987",
+      "date": "2026-01-11",
       "player": "Telomere",
-      "archetype": "Jeskai",
+      "archetype": "Familiars",
       "colors": [
-        "R",
         "U",
         "W"
       ],
@@ -79,13 +63,29 @@
     {
       "site_name": "pauper-league-2025-08-119535",
       "tournament": "pauper-league-2025-08-119535",
-      "date": "",
+      "date": "2025-08-11",
       "player": "Telomere",
       "archetype": "R Madness",
       "colors": [
         "B",
         "R",
         "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-06-189366",
+      "tournament": "pauper-league-2025-06-189366",
+      "date": "2025-06-18",
+      "player": "Telomere",
+      "archetype": "Jeskai",
+      "colors": [
+        "R",
+        "U",
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,

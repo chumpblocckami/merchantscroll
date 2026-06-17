@@ -10,9 +10,9 @@
     "challenge_losses": 4,
     "irl_top8": 0,
     "challenge_win_pct": 75,
-    "league_trophy_rank_yearly": 752,
-    "league_trophy_rank_alltime": 495,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 1086,
+    "league_trophy_rank_alltime": 496,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -25,11 +25,11 @@
       "count": 2
     },
     {
-      "archetype": "UR Control",
+      "archetype": "Altar",
       "count": 1
     },
     {
-      "archetype": "Altar",
+      "archetype": "UR Control",
       "count": 1
     }
   ],
@@ -83,6 +83,69 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-11-119750",
+      "tournament": "pauper-league-2025-11-119750",
+      "date": "2025-11-11",
+      "player": "Todeshorst",
+      "archetype": "Spy",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-289750",
+      "tournament": "pauper-league-2025-10-289750",
+      "date": "2025-10-28",
+      "player": "Todeshorst",
+      "archetype": "Spy",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-08-159535",
+      "tournament": "pauper-league-2025-08-159535",
+      "date": "2025-08-15",
+      "player": "Todeshorst",
+      "archetype": "Altar Tron",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-07-219366",
+      "tournament": "pauper-league-2025-07-219366",
+      "date": "2025-07-21",
+      "player": "Todeshorst",
+      "archetype": "UR Control",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-07-1312802837",
       "tournament": "Pauper Challenge 32",
       "date": "2025-07-13",
@@ -97,69 +160,6 @@
       "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-07-219366",
-      "tournament": "pauper-league-2025-07-219366",
-      "date": "",
-      "player": "Todeshorst",
-      "archetype": "UR Control",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-08-159535",
-      "tournament": "pauper-league-2025-08-159535",
-      "date": "",
-      "player": "Todeshorst",
-      "archetype": "Altar Tron",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-10-289750",
-      "tournament": "pauper-league-2025-10-289750",
-      "date": "",
-      "player": "Todeshorst",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-11-119750",
-      "tournament": "pauper-league-2025-11-119750",
-      "date": "",
-      "player": "Todeshorst",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

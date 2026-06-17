@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 6,
     "league_trophies": 6,
-    "league_trophies_yearly": 1,
+    "league_trophies_yearly": 2,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 543,
+    "league_trophy_rank_yearly": 463,
     "league_trophy_rank_alltime": 382,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,7 +21,7 @@
       "count": 2
     },
     {
-      "archetype": "Jund",
+      "archetype": "Gardens",
       "count": 1
     },
     {
@@ -29,11 +29,11 @@
       "count": 1
     },
     {
-      "archetype": "Spy",
+      "archetype": "Jund",
       "count": 1
     },
     {
-      "archetype": "Gardens",
+      "archetype": "Spy",
       "count": 1
     }
   ],
@@ -55,7 +55,7 @@
     {
       "site_name": "pauper-league-2026-03-1210405",
       "tournament": "pauper-league-2026-03-1210405",
-      "date": "",
+      "date": "2026-03-12",
       "player": "Gideon_BB",
       "archetype": "Jund",
       "colors": [
@@ -69,39 +69,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-05-049081",
-      "tournament": "pauper-league-2025-05-049081",
-      "date": "",
-      "player": "Gideon_BB",
-      "archetype": "Food Pestilence",
-      "colors": [
-        "B"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-11-249987",
-      "tournament": "pauper-league-2025-11-249987",
-      "date": "",
-      "player": "Gideon_BB",
-      "archetype": "Elves",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2025-12-089987",
       "tournament": "pauper-league-2025-12-089987",
-      "date": "",
+      "date": "2025-12-08",
       "player": "Gideon_BB",
       "archetype": "Spy",
       "colors": [
@@ -115,11 +85,41 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2025-11-249987",
+      "tournament": "pauper-league-2025-11-249987",
+      "date": "2025-11-24",
+      "player": "Gideon_BB",
+      "archetype": "Elves",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2025-05-119081",
       "tournament": "pauper-league-2025-05-119081",
-      "date": "",
+      "date": "2025-05-11",
       "player": "Gideon_BB",
       "archetype": "Gardens",
+      "colors": [
+        "B"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-05-049081",
+      "tournament": "pauper-league-2025-05-049081",
+      "date": "2025-05-04",
+      "player": "Gideon_BB",
+      "archetype": "Food Pestilence",
       "colors": [
         "B"
       ],

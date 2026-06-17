@@ -10,9 +10,9 @@
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 311,
+    "league_trophy_rank_yearly": 507,
     "league_trophy_rank_alltime": 400,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,19 +21,19 @@
       "count": 2
     },
     {
-      "archetype": "GW Gates",
-      "count": 1
-    },
-    {
-      "archetype": "BW Refurbished",
-      "count": 1
-    },
-    {
       "archetype": "White Weennie",
       "count": 1
     },
     {
+      "archetype": "GW Gates",
+      "count": 1
+    },
+    {
       "archetype": "Naya Gates",
+      "count": 1
+    },
+    {
+      "archetype": "BW Refurbished",
       "count": 1
     }
   ],
@@ -71,7 +71,7 @@
     {
       "site_name": "pauper-league-2025-11-289987",
       "tournament": "pauper-league-2025-11-289987",
-      "date": "",
+      "date": "2025-11-28",
       "player": "Mankeke",
       "archetype": "GW Gates",
       "colors": [
@@ -85,24 +85,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-11-139750",
-      "tournament": "pauper-league-2025-11-139750",
-      "date": "",
-      "player": "Mankeke",
-      "archetype": "BW Refurbished",
-      "colors": [
-        "B",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2025-11-279987",
       "tournament": "pauper-league-2025-11-279987",
-      "date": "",
+      "date": "2025-11-27",
       "player": "Mankeke",
       "archetype": "White Weennie",
       "colors": [
@@ -116,12 +101,27 @@
     {
       "site_name": "pauper-league-2025-11-229987",
       "tournament": "pauper-league-2025-11-229987",
-      "date": "",
+      "date": "2025-11-22",
       "player": "Mankeke",
       "archetype": "Naya Gates",
       "colors": [
         "G",
         "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-11-139750",
+      "tournament": "pauper-league-2025-11-139750",
+      "date": "2025-11-13",
+      "player": "Mankeke",
+      "archetype": "BW Refurbished",
+      "colors": [
+        "B",
         "W"
       ],
       "record": "5-0",

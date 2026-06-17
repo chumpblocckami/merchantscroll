@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 20,
     "league_trophies": 15,
-    "league_trophies_yearly": 5,
+    "league_trophies_yearly": 6,
     "challenge_wins": 20,
     "challenge_losses": 9,
     "irl_top8": 0,
     "challenge_win_pct": 69,
-    "league_trophy_rank_yearly": 105,
+    "league_trophy_rank_yearly": 150,
     "league_trophy_rank_alltime": 128,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -39,22 +39,6 @@
   ],
   "recent_entries": [
     {
-      "site_name": "pauper-showcase-challenge-2026-06-1412844285",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2026-06-14",
-      "player": "OniReject",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "6-2",
-      "final_rank": 14,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-06-1410636",
       "tournament": "Pauper League",
       "date": "2026-06-14",
@@ -69,6 +53,22 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-showcase-challenge-2026-06-1412844285",
+      "tournament": "Pauper Showcase Challenge",
+      "date": "2026-06-14",
+      "player": "OniReject",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "6-2",
+      "final_rank": 14,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-league-2026-05-3110636",
@@ -150,6 +150,21 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-02-2810196",
+      "tournament": "pauper-league-2026-02-2810196",
+      "date": "2026-02-28",
+      "player": "OniReject",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-rc-qualifier-2026-02-2212833504",
       "tournament": "Pauper RC Qualifier",
       "date": "2026-02-22",
@@ -182,6 +197,22 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-12-169987",
+      "tournament": "pauper-league-2025-12-169987",
+      "date": "2025-12-16",
+      "player": "OniReject",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-11-0912823590",
       "tournament": "Pauper Challenge 32",
       "date": "2025-11-09",
@@ -198,28 +229,13 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2025-07-219366",
-      "tournament": "pauper-league-2025-07-219366",
-      "date": "",
+      "site_name": "pauper-league-2025-11-069750",
+      "tournament": "pauper-league-2025-11-069750",
+      "date": "2025-11-06",
       "player": "OniReject",
       "archetype": "R Madness",
       "colors": [
         "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-2810196",
-      "tournament": "pauper-league-2026-02-2810196",
-      "date": "",
-      "player": "OniReject",
-      "archetype": "U Terror",
-      "colors": [
         "R",
         "U"
       ],
@@ -231,75 +247,13 @@
     {
       "site_name": "pauper-league-2025-10-179750",
       "tournament": "pauper-league-2025-10-179750",
-      "date": "",
+      "date": "2025-10-17",
       "player": "OniReject",
       "archetype": "R Madness",
       "colors": [
         "B",
         "R",
         "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-05-029081",
-      "tournament": "pauper-league-2025-05-029081",
-      "date": "",
-      "player": "OniReject",
-      "archetype": "Pingers",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-11-069750",
-      "tournament": "pauper-league-2025-11-069750",
-      "date": "",
-      "player": "OniReject",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-12-169987",
-      "tournament": "pauper-league-2025-12-169987",
-      "date": "",
-      "player": "OniReject",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-07-199366",
-      "tournament": "pauper-league-2025-07-199366",
-      "date": "",
-      "player": "OniReject",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -309,7 +263,7 @@
     {
       "site_name": "pauper-league-2025-10-169750",
       "tournament": "pauper-league-2025-10-169750",
-      "date": "",
+      "date": "2025-10-16",
       "player": "OniReject",
       "archetype": "R Madness",
       "colors": [
@@ -325,7 +279,7 @@
     {
       "site_name": "pauper-league-2025-10-039750",
       "tournament": "pauper-league-2025-10-039750",
-      "date": "",
+      "date": "2025-10-03",
       "player": "OniReject",
       "archetype": "Rally",
       "colors": [
@@ -340,11 +294,57 @@
     {
       "site_name": "pauper-league-2025-10-019750",
       "tournament": "pauper-league-2025-10-019750",
-      "date": "",
+      "date": "2025-10-01",
       "player": "OniReject",
       "archetype": "Rally",
       "colors": [
         "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-07-219366",
+      "tournament": "pauper-league-2025-07-219366",
+      "date": "2025-07-21",
+      "player": "OniReject",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-07-199366",
+      "tournament": "pauper-league-2025-07-199366",
+      "date": "2025-07-19",
+      "player": "OniReject",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-05-029081",
+      "tournament": "pauper-league-2025-05-029081",
+      "date": "2025-05-02",
+      "player": "OniReject",
+      "archetype": "Pingers",
+      "colors": [
         "R"
       ],
       "record": "5-0",

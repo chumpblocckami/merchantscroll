@@ -10,9 +10,9 @@
     "challenge_losses": 4,
     "irl_top8": 0,
     "challenge_win_pct": 71,
-    "league_trophy_rank_yearly": 239,
+    "league_trophy_rank_yearly": 389,
     "league_trophy_rank_alltime": 261,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -29,15 +29,15 @@
       "count": 2
     },
     {
+      "archetype": "R Madness",
+      "count": 1
+    },
+    {
       "archetype": "UB Faeries",
       "count": 1
     },
     {
       "archetype": "U Faeries",
-      "count": 1
-    },
-    {
-      "archetype": "R Madness",
       "count": 1
     }
   ],
@@ -123,24 +123,9 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2025-07-189366",
-      "tournament": "pauper-league-2025-07-189366",
-      "date": "",
-      "player": "Vbon92",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2025-10-249750",
       "tournament": "pauper-league-2025-10-249750",
-      "date": "",
+      "date": "2025-10-24",
       "player": "Vbon92",
       "archetype": "Affinity",
       "colors": [
@@ -154,24 +139,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-09-039535",
-      "tournament": "pauper-league-2025-09-039535",
-      "date": "",
-      "player": "Vbon92",
-      "archetype": "UB Terror",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2025-10-179750",
       "tournament": "pauper-league-2025-10-179750",
-      "date": "",
+      "date": "2025-10-17",
       "player": "Vbon92",
       "archetype": "UB Faeries",
       "colors": [
@@ -184,12 +154,28 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-05-149081",
-      "tournament": "pauper-league-2025-05-149081",
-      "date": "",
+      "site_name": "pauper-league-2025-09-039535",
+      "tournament": "pauper-league-2025-09-039535",
+      "date": "2025-09-03",
       "player": "Vbon92",
-      "archetype": "U Faeries",
+      "archetype": "UB Terror",
       "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-07-189366",
+      "tournament": "pauper-league-2025-07-189366",
+      "date": "2025-07-18",
+      "player": "Vbon92",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
         "U"
       ],
       "record": "5-0",
@@ -200,9 +186,23 @@
     {
       "site_name": "pauper-league-2025-05-199081",
       "tournament": "pauper-league-2025-05-199081",
-      "date": "",
+      "date": "2025-05-19",
       "player": "Vbon92",
       "archetype": "U Terror",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-05-149081",
+      "tournament": "pauper-league-2025-05-149081",
+      "date": "2025-05-14",
+      "player": "Vbon92",
+      "archetype": "U Faeries",
       "colors": [
         "U"
       ],

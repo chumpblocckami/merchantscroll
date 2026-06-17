@@ -10,14 +10,14 @@
     "challenge_losses": 16,
     "irl_top8": 0,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 140,
+    "league_trophy_rank_yearly": 248,
     "league_trophy_rank_alltime": 397,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
     {
-      "archetype": "Esper Affinity",
+      "archetype": "UW Glitter",
       "count": 2
     },
     {
@@ -25,11 +25,11 @@
       "count": 2
     },
     {
-      "archetype": "UW Glitter",
+      "archetype": "Esper Affinity",
       "count": 2
     },
     {
-      "archetype": "R Madness",
+      "archetype": "Pingers",
       "count": 1
     },
     {
@@ -45,11 +45,11 @@
       "count": 1
     },
     {
-      "archetype": "U Terror",
+      "archetype": "R Madness",
       "count": 1
     },
     {
-      "archetype": "Pingers",
+      "archetype": "U Terror",
       "count": 1
     }
   ],
@@ -150,6 +150,22 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2025-06-239366",
+      "tournament": "pauper-league-2025-06-239366",
+      "date": "2025-06-23",
+      "player": "Luiz0211",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-06-2112798171",
       "tournament": "Pauper Challenge 32",
       "date": "2025-06-21",
@@ -180,6 +196,20 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-05-319081",
+      "tournament": "pauper-league-2025-05-319081",
+      "date": "2025-05-31",
+      "player": "Luiz0211",
+      "archetype": "U Terror",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-05-1712780149",
       "tournament": "Pauper Challenge 32",
       "date": "2025-05-17",
@@ -206,36 +236,6 @@
       "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-06-239366",
-      "tournament": "pauper-league-2025-06-239366",
-      "date": "",
-      "player": "Luiz0211",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-05-319081",
-      "tournament": "pauper-league-2025-05-319081",
-      "date": "",
-      "player": "Luiz0211",
-      "archetype": "U Terror",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

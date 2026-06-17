@@ -5,31 +5,31 @@
   "stats": {
     "total_entries": 8,
     "league_trophies": 8,
-    "league_trophies_yearly": 2,
+    "league_trophies_yearly": 3,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 298,
+    "league_trophy_rank_yearly": 323,
     "league_trophy_rank_alltime": 277,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
-    {
-      "archetype": "Rally",
-      "count": 3
-    },
     {
       "archetype": "U Terror",
       "count": 3
     },
     {
-      "archetype": "UB Terror",
-      "count": 1
+      "archetype": "Rally",
+      "count": 3
     },
     {
       "archetype": "Monsters Tron",
+      "count": 1
+    },
+    {
+      "archetype": "UB Terror",
       "count": 1
     }
   ],
@@ -69,9 +69,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2023-09-1610196",
-      "tournament": "pauper-league-2023-09-1610196",
-      "date": "",
+      "site_name": "pauper-league-2026-02-1610196",
+      "tournament": "pauper-league-2026-02-1610196",
+      "date": "2026-02-16",
       "player": "johnrap",
       "archetype": "Rally",
       "colors": [
@@ -84,14 +84,15 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-02-1610196",
-      "tournament": "pauper-league-2026-02-1610196",
-      "date": "",
+      "site_name": "pauper-league-2025-12-289987",
+      "tournament": "pauper-league-2025-12-289987",
+      "date": "2025-12-28",
       "player": "johnrap",
-      "archetype": "Rally",
+      "archetype": "U Terror",
       "colors": [
-        "G",
-        "R"
+        "B",
+        "R",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -101,11 +102,26 @@
     {
       "site_name": "pauper-league-2025-12-279987",
       "tournament": "pauper-league-2025-12-279987",
-      "date": "",
+      "date": "2025-12-27",
       "player": "johnrap",
       "archetype": "U Terror",
       "colors": [
         "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-12-169987",
+      "tournament": "pauper-league-2025-12-169987",
+      "date": "2025-12-16",
+      "player": "johnrap",
+      "archetype": "U Terror",
+      "colors": [
         "R",
         "U"
       ],
@@ -117,7 +133,7 @@
     {
       "site_name": "pauper-league-2024-06-1110196",
       "tournament": "pauper-league-2024-06-1110196",
-      "date": "",
+      "date": "2024-06-11",
       "player": "johnrap",
       "archetype": "Rally",
       "colors": [
@@ -130,30 +146,14 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-12-169987",
-      "tournament": "pauper-league-2025-12-169987",
-      "date": "",
+      "site_name": "pauper-league-2023-09-1610196",
+      "tournament": "pauper-league-2023-09-1610196",
+      "date": "2023-09-16",
       "player": "johnrap",
-      "archetype": "U Terror",
+      "archetype": "Rally",
       "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-12-289987",
-      "tournament": "pauper-league-2025-12-289987",
-      "date": "",
-      "player": "johnrap",
-      "archetype": "U Terror",
-      "colors": [
-        "B",
-        "R",
-        "U"
+        "G",
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,

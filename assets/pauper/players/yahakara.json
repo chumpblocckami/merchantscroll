@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 31,
     "league_trophies": 23,
-    "league_trophies_yearly": 9,
+    "league_trophies_yearly": 18,
     "challenge_wins": 27,
     "challenge_losses": 22,
     "irl_top8": 0,
     "challenge_win_pct": 55,
-    "league_trophy_rank_yearly": 29,
+    "league_trophy_rank_yearly": 28,
     "league_trophy_rank_alltime": 67,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -215,6 +215,22 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-04-0412838126",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-04-04",
+      "player": "yahakara",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-league-2026-04-0410405",
       "tournament": "Pauper League",
       "date": "2026-04-04",
@@ -231,20 +247,21 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-04-0412838126",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-04",
+      "site_name": "pauper-league-2026-03-2010405",
+      "tournament": "pauper-league-2026-03-2010405",
+      "date": "2026-03-20",
       "player": "yahakara",
       "archetype": "R Madness",
       "colors": [
         "B",
         "R",
-        "U"
+        "U",
+        "W"
       ],
-      "record": "4-2",
-      "final_rank": 9,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-03-1912835968",
@@ -263,6 +280,38 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-03-0510405",
+      "tournament": "pauper-league-2026-03-0510405",
+      "date": "2026-03-05",
+      "player": "yahakara",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-2710196",
+      "tournament": "pauper-league-2026-02-2710196",
+      "date": "2026-02-27",
+      "player": "yahakara",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-02-2212833562",
       "tournament": "Pauper Challenge 32",
       "date": "2026-02-22",
@@ -277,6 +326,102 @@
       "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-02-1810196",
+      "tournament": "pauper-league-2026-02-1810196",
+      "date": "2026-02-18",
+      "player": "yahakara",
+      "archetype": "Cawgate",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-1810196",
+      "tournament": "pauper-league-2026-02-1810196",
+      "date": "2026-02-18",
+      "player": "yahakara",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-2710196",
+      "tournament": "pauper-league-2026-01-2710196",
+      "date": "2026-01-27",
+      "player": "yahakara",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-2410196",
+      "tournament": "pauper-league-2026-01-2410196",
+      "date": "2026-01-24",
+      "player": "yahakara",
+      "archetype": "Cawgate",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-119987",
+      "tournament": "pauper-league-2026-01-119987",
+      "date": "2026-01-11",
+      "player": "yahakara",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-099987",
+      "tournament": "pauper-league-2026-01-099987",
+      "date": "2026-01-09",
+      "player": "yahakara",
+      "archetype": "Cawgate",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-11-2912825471",
@@ -294,151 +439,6 @@
       "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-10-2412821674",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-10-24",
-      "player": "yahakara",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 25,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-11-039750",
-      "tournament": "pauper-league-2025-11-039750",
-      "date": "",
-      "player": "yahakara",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-2710196",
-      "tournament": "pauper-league-2026-02-2710196",
-      "date": "",
-      "player": "yahakara",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-10-159750",
-      "tournament": "pauper-league-2025-10-159750",
-      "date": "",
-      "player": "yahakara",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-099987",
-      "tournament": "pauper-league-2026-01-099987",
-      "date": "",
-      "player": "yahakara",
-      "archetype": "Cawgate",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-119987",
-      "tournament": "pauper-league-2026-01-119987",
-      "date": "",
-      "player": "yahakara",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-06-239366",
-      "tournament": "pauper-league-2025-06-239366",
-      "date": "",
-      "player": "yahakara",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-0510405",
-      "tournament": "pauper-league-2026-03-0510405",
-      "date": "",
-      "player": "yahakara",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-2010405",
-      "tournament": "pauper-league-2026-03-2010405",
-      "date": "",
-      "player": "yahakara",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

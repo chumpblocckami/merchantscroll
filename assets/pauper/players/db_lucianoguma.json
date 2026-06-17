@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 12,
     "league_trophies": 10,
-    "league_trophies_yearly": 4,
+    "league_trophies_yearly": 6,
     "challenge_wins": 9,
     "challenge_losses": 5,
     "irl_top8": 0,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 122,
-    "league_trophy_rank_alltime": 203,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 135,
+    "league_trophy_rank_alltime": 204,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -29,11 +29,11 @@
       "count": 2
     },
     {
-      "archetype": "Pizza Combo",
+      "archetype": "Jund",
       "count": 1
     },
     {
-      "archetype": "BR Madness",
+      "archetype": "Pizza Combo",
       "count": 1
     },
     {
@@ -41,7 +41,7 @@
       "count": 1
     },
     {
-      "archetype": "Jund",
+      "archetype": "BR Madness",
       "count": 1
     },
     {
@@ -132,6 +132,22 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-01-2210196",
+      "tournament": "pauper-league-2026-01-2210196",
+      "date": "2026-01-22",
+      "player": "DB_LucianoGuma",
+      "archetype": "Monsters Tron",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-01-1112829384",
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-11",
@@ -148,9 +164,53 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-01-069987",
+      "tournament": "pauper-league-2026-01-069987",
+      "date": "2026-01-06",
+      "player": "DB_LucianoGuma",
+      "archetype": "Food Pestilence",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-08-149535",
+      "tournament": "pauper-league-2025-08-149535",
+      "date": "2025-08-14",
+      "player": "DB_LucianoGuma",
+      "archetype": "B Sacrifice",
+      "colors": [
+        "B"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-08-129535",
+      "tournament": "pauper-league-2025-08-129535",
+      "date": "2025-08-12",
+      "player": "DB_LucianoGuma",
+      "archetype": "Food Pestilence",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2025-05-059081",
       "tournament": "pauper-league-2025-05-059081",
-      "date": "",
+      "date": "2025-05-05",
       "player": "DB_LucianoGuma",
       "archetype": "BR Madness",
       "colors": [
@@ -166,71 +226,11 @@
     {
       "site_name": "pauper-league-2025-03-269535",
       "tournament": "pauper-league-2025-03-269535",
-      "date": "",
+      "date": "2025-03-26",
       "player": "DB_LucianoGuma",
       "archetype": "B Sacrifice",
       "colors": [
         "B"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-08-129535",
-      "tournament": "pauper-league-2025-08-129535",
-      "date": "",
-      "player": "DB_LucianoGuma",
-      "archetype": "Food Pestilence",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-2210196",
-      "tournament": "pauper-league-2026-01-2210196",
-      "date": "",
-      "player": "DB_LucianoGuma",
-      "archetype": "Monsters Tron",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-08-149535",
-      "tournament": "pauper-league-2025-08-149535",
-      "date": "",
-      "player": "DB_LucianoGuma",
-      "archetype": "B Sacrifice",
-      "colors": [
-        "B"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-069987",
-      "tournament": "pauper-league-2026-01-069987",
-      "date": "",
-      "player": "DB_LucianoGuma",
-      "archetype": "Food Pestilence",
-      "colors": [
-        "B",
-        "G"
       ],
       "record": "5-0",
       "final_rank": null,

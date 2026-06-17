@@ -10,9 +10,9 @@
     "challenge_losses": 6,
     "irl_top8": 0,
     "challenge_win_pct": 68,
-    "league_trophy_rank_yearly": 649,
-    "league_trophy_rank_alltime": 471,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 941,
+    "league_trophy_rank_alltime": 472,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,23 +21,11 @@
       "count": 2
     },
     {
+      "archetype": "White Weennie",
+      "count": 1
+    },
+    {
       "archetype": "Elves",
-      "count": 1
-    },
-    {
-      "archetype": "Naya Gates",
-      "count": 1
-    },
-    {
-      "archetype": "BR Madness",
-      "count": 1
-    },
-    {
-      "archetype": "Boros Glitter",
-      "count": 1
-    },
-    {
-      "archetype": "U Terror",
       "count": 1
     },
     {
@@ -45,7 +33,19 @@
       "count": 1
     },
     {
-      "archetype": "White Weennie",
+      "archetype": "BR Madness",
+      "count": 1
+    },
+    {
+      "archetype": "Naya Gates",
+      "count": 1
+    },
+    {
+      "archetype": "U Terror",
+      "count": 1
+    },
+    {
+      "archetype": "Boros Glitter",
       "count": 1
     }
   ],
@@ -111,6 +111,22 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-12-079987",
+      "tournament": "pauper-league-2025-12-079987",
+      "date": "2025-12-07",
+      "player": "Muril0Ambra",
+      "archetype": "Spy",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-championship-week-finals-2025-11-1512824377",
       "tournament": "Pauper Championship Week Finals",
       "date": "2025-11-15",
@@ -128,13 +144,12 @@
       "type": "other"
     },
     {
-      "site_name": "pauper-league-2025-05-109081",
-      "tournament": "pauper-league-2025-05-109081",
-      "date": "",
+      "site_name": "pauper-league-2025-09-289750",
+      "tournament": "pauper-league-2025-09-289750",
+      "date": "2025-09-28",
       "player": "Muril0Ambra",
-      "archetype": "BR Madness",
+      "archetype": "U Terror",
       "colors": [
-        "B",
         "R",
         "U"
       ],
@@ -146,7 +161,7 @@
     {
       "site_name": "pauper-league-2025-06-229366",
       "tournament": "pauper-league-2025-06-229366",
-      "date": "",
+      "date": "2025-06-22",
       "player": "Muril0Ambra",
       "archetype": "Boros Glitter",
       "colors": [
@@ -160,30 +175,15 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-09-289750",
-      "tournament": "pauper-league-2025-09-289750",
-      "date": "",
+      "site_name": "pauper-league-2025-05-109081",
+      "tournament": "pauper-league-2025-05-109081",
+      "date": "2025-05-10",
       "player": "Muril0Ambra",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-12-079987",
-      "tournament": "pauper-league-2025-12-079987",
-      "date": "",
-      "player": "Muril0Ambra",
-      "archetype": "Spy",
+      "archetype": "BR Madness",
       "colors": [
         "B",
-        "G",
-        "R"
+        "R",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,

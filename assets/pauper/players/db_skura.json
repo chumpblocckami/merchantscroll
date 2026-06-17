@@ -10,22 +10,22 @@
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 482,
-    "league_trophy_rank_alltime": 664,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 731,
+    "league_trophy_rank_alltime": 665,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
-    {
-      "archetype": "U Faeries",
-      "count": 1
-    },
     {
       "archetype": "UB Faeries",
       "count": 1
     },
     {
       "archetype": "Familiars",
+      "count": 1
+    },
+    {
+      "archetype": "U Faeries",
       "count": 1
     }
   ],
@@ -47,13 +47,15 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-06-099081",
-      "tournament": "pauper-league-2025-06-099081",
-      "date": "",
+      "site_name": "pauper-league-2025-12-059987",
+      "tournament": "pauper-league-2025-12-059987",
+      "date": "2025-12-05",
       "player": "DB_Skura",
-      "archetype": "U Faeries",
+      "archetype": "Familiars",
       "colors": [
-        "U"
+        "R",
+        "U",
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -61,15 +63,13 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-12-059987",
-      "tournament": "pauper-league-2025-12-059987",
-      "date": "",
+      "site_name": "pauper-league-2025-06-099081",
+      "tournament": "pauper-league-2025-06-099081",
+      "date": "2025-06-09",
       "player": "DB_Skura",
-      "archetype": "Familiars",
+      "archetype": "U Faeries",
       "colors": [
-        "R",
-        "U",
-        "W"
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,

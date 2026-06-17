@@ -11,8 +11,8 @@
     "irl_top8": 0,
     "challenge_win_pct": 50,
     "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 619,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_alltime": 620,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,11 +21,11 @@
       "count": 2
     },
     {
-      "archetype": "Rally",
+      "archetype": "R Madness",
       "count": 1
     },
     {
-      "archetype": "GW Gates",
+      "archetype": "Rally",
       "count": 1
     },
     {
@@ -33,7 +33,7 @@
       "count": 1
     },
     {
-      "archetype": "R Madness",
+      "archetype": "GW Gates",
       "count": 1
     },
     {
@@ -55,6 +55,67 @@
       "final_rank": 22,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-08-269535",
+      "tournament": "pauper-league-2025-08-269535",
+      "date": "2025-08-26",
+      "player": "Tzauro",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-07-199366",
+      "tournament": "pauper-league-2025-07-199366",
+      "date": "2025-07-19",
+      "player": "Tzauro",
+      "archetype": "Elves",
+      "colors": [
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-07-169366",
+      "tournament": "pauper-league-2025-07-169366",
+      "date": "2025-07-16",
+      "player": "Tzauro",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-06-099081",
+      "tournament": "pauper-league-2025-06-099081",
+      "date": "2025-06-09",
+      "player": "Tzauro",
+      "archetype": "GW Gates",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-05-0312774499",
@@ -91,67 +152,6 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-08-269535",
-      "tournament": "pauper-league-2025-08-269535",
-      "date": "",
-      "player": "Tzauro",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-06-099081",
-      "tournament": "pauper-league-2025-06-099081",
-      "date": "",
-      "player": "Tzauro",
-      "archetype": "GW Gates",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-07-169366",
-      "tournament": "pauper-league-2025-07-169366",
-      "date": "",
-      "player": "Tzauro",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-07-199366",
-      "tournament": "pauper-league-2025-07-199366",
-      "date": "",
-      "player": "Tzauro",
-      "archetype": "Elves",
-      "colors": [
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

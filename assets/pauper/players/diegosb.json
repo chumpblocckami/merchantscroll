@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 4,
     "league_trophies": 1,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 1,
     "challenge_wins": 9,
     "challenge_losses": 8,
     "irl_top8": 0,
     "challenge_win_pct": 53,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 1319,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 738,
+    "league_trophy_rank_alltime": 1320,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,11 +21,11 @@
       "count": 1
     },
     {
-      "archetype": "U Terror",
+      "archetype": "Food Pestilence",
       "count": 1
     },
     {
-      "archetype": "Food Pestilence",
+      "archetype": "U Terror",
       "count": 1
     },
     {
@@ -48,6 +48,20 @@
       "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-02-0510196",
+      "tournament": "pauper-league-2026-02-0510196",
+      "date": "2026-02-05",
+      "player": "Diegosb",
+      "archetype": "U Faeries",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-10-1912820734",
@@ -79,20 +93,6 @@
       "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-02-0510196",
-      "tournament": "pauper-league-2026-02-0510196",
-      "date": "",
-      "player": "Diegosb",
-      "archetype": "U Faeries",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

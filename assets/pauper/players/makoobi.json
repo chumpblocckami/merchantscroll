@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 5,
     "league_trophies": 3,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 2,
     "challenge_wins": 8,
     "challenge_losses": 4,
     "irl_top8": 0,
     "challenge_win_pct": 67,
-    "league_trophy_rank_yearly": null,
+    "league_trophy_rank_yearly": 505,
     "league_trophy_rank_alltime": 736,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,7 +21,7 @@
       "count": 2
     },
     {
-      "archetype": "Familiars",
+      "archetype": "Monsters Tron",
       "count": 1
     },
     {
@@ -29,11 +29,25 @@
       "count": 1
     },
     {
-      "archetype": "Monsters Tron",
+      "archetype": "Familiars",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-03-0710405",
+      "tournament": "pauper-league-2026-03-0710405",
+      "date": "2026-03-07",
+      "player": "Makoobi",
+      "archetype": "Monsters Tron",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-01-1612830033",
       "tournament": "Pauper Challenge 32",
@@ -48,6 +62,21 @@
       "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-01-129987",
+      "tournament": "pauper-league-2026-01-129987",
+      "date": "2026-01-12",
+      "player": "Makoobi",
+      "archetype": "UR Control",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-01-0212828162",
@@ -67,41 +96,12 @@
     {
       "site_name": "pauper-league-2025-06-099081",
       "tournament": "pauper-league-2025-06-099081",
-      "date": "",
+      "date": "2025-06-09",
       "player": "Makoobi",
       "archetype": "Familiars",
       "colors": [
         "U",
         "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-129987",
-      "tournament": "pauper-league-2026-01-129987",
-      "date": "",
-      "player": "Makoobi",
-      "archetype": "UR Control",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-0710405",
-      "tournament": "pauper-league-2026-03-0710405",
-      "date": "",
-      "player": "Makoobi",
-      "archetype": "Monsters Tron",
-      "colors": [
-        "R"
       ],
       "record": "5-0",
       "final_rank": null,

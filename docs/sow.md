@@ -8,7 +8,7 @@ Consulting Pauper decklists from MTGO tournaments is unnecessarily friction-heav
 
 **Merchant Scroll** is a single-purpose, static website that presents MTGO Pauper decklists in a TikTok-style vertical carousel. One deck fills the viewport at a time; the user scrolls (wheel, swipe, or arrow keys) to advance to the next deck. Decklists are ordered chronologically from most recent to oldest. Hovering (or tapping on mobile) a card name shows a preview image of the card.
 
-The site is entirely static, hosted on GitHub Pages, and updated automatically every 2 hours via a GitHub Actions crawler that scrapes tournament data from MTGO.
+The site is entirely static, hosted on GitHub Pages, and updated automatically every hour via a GitHub Actions crawler that scrapes tournament data from MTGO.
 
 ## 3. Target Audience
 
@@ -46,7 +46,7 @@ Competitive and casual Pauper players who want to quickly browse recent tourname
 
 ### Data flow
 
-1. **GitHub Actions** triggers every 2 hours
+1. **GitHub Actions** triggers every hour
 2. **Pipeline** (`crawl.py`) orchestrates the full cycle:
    a. Downloads/caches Scryfall oracle data (refreshed once per day)
    b. Builds card color lookup table
@@ -238,7 +238,7 @@ Deck color identity is derived using Scryfall's bulk data:
 
 ### 7.6 Scheduling
 
-The crawler runs as a GitHub Actions workflow on a cron schedule (every 2 hours). The workflow:
+The crawler runs as a GitHub Actions workflow on a cron schedule (every hour). The workflow:
 
 1. Checks out the repository
 2. Installs uv and Python dependencies
@@ -300,7 +300,7 @@ The crawler runs as a GitHub Actions workflow on a cron schedule (every 2 hours)
 | Risk                                        | Impact | Mitigation                                                    |
 |---------------------------------------------|--------|---------------------------------------------------------------|
 | MTGO changes page structure                 | High   | Monitor crawler failures; add alerts to GitHub Actions        |
-| MTGO rotates tournaments off the page       | Medium | 2-hour cron schedule minimizes the window; no backfill exists |
+| MTGO rotates tournaments off the page       | Medium | Hourly cron schedule minimizes the window; no backfill exists |
 | Scryfall API downtime                       | Medium | Card previews degrade gracefully (broken image, no crash)     |
 | GitHub Pages bandwidth limit hit            | Low    | Minified JSON keeps data small; images served by Scryfall     |
 | Scryfall bulk data format changes           | Low    | Pin to known fields; add validation in enrichment step        |

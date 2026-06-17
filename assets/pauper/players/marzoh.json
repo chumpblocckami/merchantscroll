@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 11,
     "league_trophies": 11,
-    "league_trophies_yearly": 5,
+    "league_trophies_yearly": 6,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 100,
+    "league_trophy_rank_yearly": 145,
     "league_trophy_rank_alltime": 188,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,19 +21,19 @@
       "count": 5
     },
     {
-      "archetype": "UB Terror",
-      "count": 2
-    },
-    {
       "archetype": "Affinity",
       "count": 2
     },
     {
-      "archetype": "Boros Glitter",
-      "count": 1
+      "archetype": "UB Terror",
+      "count": 2
     },
     {
       "archetype": "Elves",
+      "count": 1
+    },
+    {
+      "archetype": "Boros Glitter",
       "count": 1
     }
   ],
@@ -114,55 +114,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-12-229987",
-      "tournament": "pauper-league-2025-12-229987",
-      "date": "",
-      "player": "Marzoh",
-      "archetype": "Boros Glitter",
-      "colors": [
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-03-269535",
-      "tournament": "pauper-league-2025-03-269535",
-      "date": "",
-      "player": "Marzoh",
-      "archetype": "UB Terror",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-09-099535",
-      "tournament": "pauper-league-2025-09-099535",
-      "date": "",
-      "player": "Marzoh",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-01-2710196",
       "tournament": "pauper-league-2026-01-2710196",
-      "date": "",
+      "date": "2026-01-27",
       "player": "Marzoh",
       "archetype": "Elves",
       "colors": [
@@ -175,9 +129,56 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2025-12-229987",
+      "tournament": "pauper-league-2025-12-229987",
+      "date": "2025-12-22",
+      "player": "Marzoh",
+      "archetype": "Boros Glitter",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-09-099535",
+      "tournament": "pauper-league-2025-09-099535",
+      "date": "2025-09-09",
+      "player": "Marzoh",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-09-089535",
+      "tournament": "pauper-league-2025-09-089535",
+      "date": "2025-09-08",
+      "player": "Marzoh",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2025-08-149535",
       "tournament": "pauper-league-2025-08-149535",
-      "date": "",
+      "date": "2025-08-14",
       "player": "Marzoh",
       "archetype": "UB Terror",
       "colors": [
@@ -190,14 +191,13 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-09-089535",
-      "tournament": "pauper-league-2025-09-089535",
-      "date": "",
+      "site_name": "pauper-league-2025-03-269535",
+      "tournament": "pauper-league-2025-03-269535",
+      "date": "2025-03-26",
       "player": "Marzoh",
-      "archetype": "Affinity",
+      "archetype": "UB Terror",
       "colors": [
         "B",
-        "R",
         "U"
       ],
       "record": "5-0",

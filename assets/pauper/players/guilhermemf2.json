@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 4,
     "league_trophies": 4,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 2,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 554,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 468,
+    "league_trophy_rank_alltime": 555,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,35 +21,19 @@
       "count": 2
     },
     {
-      "archetype": "R Madness",
+      "archetype": "UG Fog",
       "count": 1
     },
     {
-      "archetype": "U",
+      "archetype": "R Madness",
       "count": 1
     }
   ],
   "recent_entries": [
     {
-      "site_name": "pauper-league-2025-07-179366",
-      "tournament": "pauper-league-2025-07-179366",
-      "date": "",
-      "player": "guilhermemf2",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-01-3110196",
       "tournament": "pauper-league-2026-01-3110196",
-      "date": "",
+      "date": "2026-01-31",
       "player": "guilhermemf2",
       "archetype": "Spy",
       "colors": [
@@ -65,7 +49,7 @@
     {
       "site_name": "pauper-league-2026-01-2710196",
       "tournament": "pauper-league-2026-01-2710196",
-      "date": "",
+      "date": "2026-01-27",
       "player": "guilhermemf2",
       "archetype": "Spy",
       "colors": [
@@ -81,10 +65,26 @@
     {
       "site_name": "pauper-league-2025-08-019535",
       "tournament": "pauper-league-2025-08-019535",
-      "date": "",
+      "date": "2025-08-01",
       "player": "guilhermemf2",
-      "archetype": "",
+      "archetype": "UG Fog",
       "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-07-179366",
+      "tournament": "pauper-league-2025-07-179366",
+      "date": "2025-07-17",
+      "player": "guilhermemf2",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
         "U"
       ],
       "record": "5-0",

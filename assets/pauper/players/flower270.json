@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 60,
     "league_trophies": 51,
-    "league_trophies_yearly": 21,
+    "league_trophies_yearly": 29,
     "challenge_wins": 37,
     "challenge_losses": 10,
     "irl_top8": 0,
     "challenge_win_pct": 79,
-    "league_trophy_rank_yearly": 5,
+    "league_trophy_rank_yearly": 9,
     "league_trophy_rank_alltime": 17,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,11 +21,11 @@
       "count": 30
     },
     {
-      "archetype": "Jund",
+      "archetype": "UB Terror",
       "count": 7
     },
     {
-      "archetype": "UB Terror",
+      "archetype": "Jund",
       "count": 7
     },
     {
@@ -41,6 +41,10 @@
       "count": 2
     },
     {
+      "archetype": "Dredge",
+      "count": 1
+    },
+    {
       "archetype": "BR Madness",
       "count": 1
     },
@@ -49,30 +53,11 @@
       "count": 1
     },
     {
-      "archetype": "UB Faeries",
-      "count": 1
-    },
-    {
-      "archetype": "Dredge",
+      "archetype": "Flicker Tron",
       "count": 1
     }
   ],
   "recent_entries": [
-    {
-      "site_name": "pauper-showcase-challenge-2026-06-1412844285",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2026-06-14",
-      "player": "flower270",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "7-2",
-      "final_rank": 19,
-      "source": "mtgo",
-      "type": "challenge"
-    },
     {
       "site_name": "pauper-league-2026-06-1410636",
       "tournament": "Pauper League",
@@ -87,6 +72,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-showcase-challenge-2026-06-1412844285",
+      "tournament": "Pauper Showcase Challenge",
+      "date": "2026-06-14",
+      "player": "flower270",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "7-2",
+      "final_rank": 19,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-league-2026-06-1110636",

@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 18,
     "league_trophies": 9,
-    "league_trophies_yearly": 2,
+    "league_trophies_yearly": 3,
     "challenge_wins": 28,
     "challenge_losses": 22,
     "irl_top8": 0,
     "challenge_win_pct": 56,
-    "league_trophy_rank_yearly": 260,
+    "league_trophy_rank_yearly": 291,
     "league_trophy_rank_alltime": 232,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -25,11 +25,11 @@
       "count": 2
     },
     {
-      "archetype": "Gardens",
+      "archetype": "UB Faeries",
       "count": 2
     },
     {
-      "archetype": "UB Faeries",
+      "archetype": "Gardens",
       "count": 2
     },
     {
@@ -41,19 +41,19 @@
       "count": 1
     },
     {
+      "archetype": "BW Refurbished",
+      "count": 1
+    },
+    {
       "archetype": "Dredge",
       "count": 1
     },
     {
-      "archetype": "White Weenie",
-      "count": 1
-    },
-    {
-      "archetype": "GRU",
-      "count": 1
-    },
-    {
       "archetype": "UB Terror",
+      "count": 1
+    },
+    {
+      "archetype": "UR Control",
       "count": 1
     }
   ],
@@ -103,6 +103,36 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-01-2610196",
+      "tournament": "pauper-league-2026-01-2610196",
+      "date": "2026-01-26",
+      "player": "clamego",
+      "archetype": "UR Control",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-12-319987",
+      "tournament": "pauper-league-2025-12-319987",
+      "date": "2025-12-31",
+      "player": "clamego",
+      "archetype": "BW Refurbished",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-12-2612828069",
       "tournament": "Pauper Challenge 32",
       "date": "2025-12-26",
@@ -132,6 +162,56 @@
       "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-12-179987",
+      "tournament": "pauper-league-2025-12-179987",
+      "date": "2025-12-17",
+      "player": "clamego",
+      "archetype": "UB Faeries",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-11-269987",
+      "tournament": "pauper-league-2025-11-269987",
+      "date": "2025-11-26",
+      "player": "clamego",
+      "archetype": "Walls",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-09-019535",
+      "tournament": "pauper-league-2025-09-019535",
+      "date": "2025-09-01",
+      "player": "clamego",
+      "archetype": "Walls",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-07-1112802796",
@@ -179,6 +259,37 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-06-249366",
+      "tournament": "pauper-league-2025-06-249366",
+      "date": "2025-06-24",
+      "player": "clamego",
+      "archetype": "Dredge",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-06-169366",
+      "tournament": "pauper-league-2025-06-169366",
+      "date": "2025-06-16",
+      "player": "clamego",
+      "archetype": "UB Terror",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-05-2312782299",
       "tournament": "Pauper Challenge 32",
       "date": "2025-05-23",
@@ -219,117 +330,6 @@
       "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-11-269987",
-      "tournament": "pauper-league-2025-11-269987",
-      "date": "",
-      "player": "clamego",
-      "archetype": "Walls",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-09-019535",
-      "tournament": "pauper-league-2025-09-019535",
-      "date": "",
-      "player": "clamego",
-      "archetype": "Walls",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-06-249366",
-      "tournament": "pauper-league-2025-06-249366",
-      "date": "",
-      "player": "clamego",
-      "archetype": "Dredge",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-12-179987",
-      "tournament": "pauper-league-2025-12-179987",
-      "date": "",
-      "player": "clamego",
-      "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-06-169366",
-      "tournament": "pauper-league-2025-06-169366",
-      "date": "",
-      "player": "clamego",
-      "archetype": "UB Terror",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-2610196",
-      "tournament": "pauper-league-2026-01-2610196",
-      "date": "",
-      "player": "clamego",
-      "archetype": "UR Control",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-12-319987",
-      "tournament": "pauper-league-2025-12-319987",
-      "date": "",
-      "player": "clamego",
-      "archetype": "BW Refurbished",
-      "colors": [
-        "B",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

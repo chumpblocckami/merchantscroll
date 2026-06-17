@@ -5,19 +5,19 @@
   "stats": {
     "total_entries": 45,
     "league_trophies": 23,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 6,
     "challenge_wins": 82,
     "challenge_losses": 48,
     "irl_top8": 0,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": null,
+    "league_trophy_rank_yearly": 142,
     "league_trophy_rank_alltime": 62,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
     {
-      "archetype": "U",
+      "archetype": "UG Fog",
       "count": 17
     },
     {
@@ -41,23 +41,38 @@
       "count": 2
     },
     {
-      "archetype": "Elves",
-      "count": 1
-    },
-    {
-      "archetype": "Gardens",
-      "count": 1
-    },
-    {
       "archetype": "Bogle",
       "count": 1
     },
     {
       "archetype": "BG Fog",
       "count": 1
+    },
+    {
+      "archetype": "UB Faeries",
+      "count": 1
+    },
+    {
+      "archetype": "Gardens",
+      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-02-2210196",
+      "tournament": "pauper-league-2026-02-2210196",
+      "date": "2026-02-22",
+      "player": "LikeAFerro",
+      "archetype": "Spy",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-02-1312833018",
       "tournament": "Pauper Challenge 32",
@@ -89,6 +104,22 @@
       "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-02-0710196",
+      "tournament": "pauper-league-2026-02-0710196",
+      "date": "2026-02-07",
+      "player": "LikeAFerro",
+      "archetype": "Spy",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-02-0612832511",
@@ -123,6 +154,22 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-02-0110196",
+      "tournament": "pauper-league-2026-02-0110196",
+      "date": "2026-02-01",
+      "player": "LikeAFerro",
+      "archetype": "Spy",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-02-0112831750",
       "tournament": "Pauper Challenge 32",
       "date": "2026-02-01",
@@ -139,6 +186,35 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-01-2610196",
+      "tournament": "pauper-league-2026-01-2610196",
+      "date": "2026-01-26",
+      "player": "LikeAFerro",
+      "archetype": "UB Faeries",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-149987",
+      "tournament": "pauper-league-2026-01-149987",
+      "date": "2026-01-14",
+      "player": "LikeAFerro",
+      "archetype": "U Terror",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-01-1112829384",
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-11",
@@ -153,11 +229,41 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-01-109987",
+      "tournament": "pauper-league-2026-01-109987",
+      "date": "2026-01-10",
+      "player": "LikeAFerro",
+      "archetype": "U Terror",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-11-229987",
+      "tournament": "pauper-league-2025-11-229987",
+      "date": "2025-11-22",
+      "player": "LikeAFerro",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-08-1612810059",
       "tournament": "Pauper Challenge 32",
       "date": "2025-08-16",
       "player": "LikeAFerro",
-      "archetype": "",
+      "archetype": "UG Fog",
       "colors": [
         "U"
       ],
@@ -171,7 +277,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-08-15",
       "player": "LikeAFerro",
-      "archetype": "",
+      "archetype": "UG Fog",
       "colors": [
         "U"
       ],
@@ -185,7 +291,7 @@
       "tournament": "Pauper Last Chance",
       "date": "2025-08-12",
       "player": "LikeAFerro",
-      "archetype": "",
+      "archetype": "UG Fog",
       "colors": [
         "U"
       ],
@@ -199,7 +305,7 @@
       "tournament": "Pauper Last Chance",
       "date": "2025-08-11",
       "player": "LikeAFerro",
-      "archetype": "",
+      "archetype": "UG Fog",
       "colors": [
         "U"
       ],
@@ -213,7 +319,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-08-10",
       "player": "LikeAFerro",
-      "archetype": "",
+      "archetype": "UG Fog",
       "colors": [
         "U"
       ],
@@ -227,7 +333,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-08-09",
       "player": "LikeAFerro",
-      "archetype": "",
+      "archetype": "UG Fog",
       "colors": [
         "U"
       ],
@@ -241,7 +347,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-08-08",
       "player": "LikeAFerro",
-      "archetype": "",
+      "archetype": "UG Fog",
       "colors": [
         "U"
       ],
@@ -251,11 +357,25 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-08-039535",
+      "tournament": "pauper-league-2025-08-039535",
+      "date": "2025-08-03",
+      "player": "LikeAFerro",
+      "archetype": "UG Fog",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-showcase-challenge-2025-08-0212806252",
       "tournament": "Pauper Showcase Challenge",
       "date": "2025-08-02",
       "player": "LikeAFerro",
-      "archetype": "",
+      "archetype": "UG Fog",
       "colors": [
         "U"
       ],
@@ -265,140 +385,11 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2025-07-2012803709",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-07-20",
+      "site_name": "pauper-league-2025-08-019535",
+      "tournament": "pauper-league-2025-08-019535",
+      "date": "2025-08-01",
       "player": "LikeAFerro",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "4-3",
-      "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-07-1812803677",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-07-18",
-      "player": "LikeAFerro",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-2",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-06-2712799984",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-06-27",
-      "player": "LikeAFerro",
-      "archetype": "BR Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-06-1412794595",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-06-14",
-      "player": "LikeAFerro",
-      "archetype": "BG Fog",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-06-0712792692",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-06-07",
-      "player": "LikeAFerro",
-      "archetype": "Bogle",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 25,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-06-0112782673",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-06-01",
-      "player": "LikeAFerro",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "4-3",
-      "final_rank": 25,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-05-1812780167",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-05-18",
-      "player": "LikeAFerro",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-2",
-      "final_rank": 16,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-05-1612780132",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-05-16",
-      "player": "LikeAFerro",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-3",
-      "final_rank": 4,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-01-149987",
-      "tournament": "pauper-league-2026-01-149987",
-      "date": "",
-      "player": "LikeAFerro",
-      "archetype": "U Terror",
+      "archetype": "UG Fog",
       "colors": [
         "U"
       ],
@@ -410,9 +401,9 @@
     {
       "site_name": "pauper-league-2025-07-319535",
       "tournament": "pauper-league-2025-07-319535",
-      "date": "",
+      "date": "2025-07-31",
       "player": "LikeAFerro",
-      "archetype": "",
+      "archetype": "UG Fog",
       "colors": [
         "U"
       ],
@@ -422,15 +413,13 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-05-189081",
-      "tournament": "pauper-league-2025-05-189081",
-      "date": "",
+      "site_name": "pauper-league-2025-07-309535",
+      "tournament": "pauper-league-2025-07-309535",
+      "date": "2025-07-30",
       "player": "LikeAFerro",
-      "archetype": "Jund",
+      "archetype": "UG Fog",
       "colors": [
-        "B",
-        "G",
-        "R"
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,

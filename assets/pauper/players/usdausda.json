@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 5,
     "league_trophies": 5,
-    "league_trophies_yearly": 1,
+    "league_trophies_yearly": 3,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 768,
-    "league_trophy_rank_alltime": 498,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 386,
+    "league_trophy_rank_alltime": 499,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,15 +21,15 @@
       "count": 2
     },
     {
+      "archetype": "Affinity",
+      "count": 1
+    },
+    {
       "archetype": "Jund",
       "count": 1
     },
     {
       "archetype": "White Weenie",
-      "count": 1
-    },
-    {
-      "archetype": "Affinity",
       "count": 1
     }
   ],
@@ -51,15 +51,13 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-12-279987",
-      "tournament": "pauper-league-2025-12-279987",
-      "date": "",
+      "site_name": "pauper-league-2026-03-1610405",
+      "tournament": "pauper-league-2026-03-1610405",
+      "date": "2026-03-16",
       "player": "usdausda",
-      "archetype": "Spy",
+      "archetype": "White Weenie",
       "colors": [
-        "B",
-        "G",
-        "R"
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -69,7 +67,7 @@
     {
       "site_name": "pauper-league-2026-01-159987",
       "tournament": "pauper-league-2026-01-159987",
-      "date": "",
+      "date": "2026-01-15",
       "player": "usdausda",
       "archetype": "Jund",
       "colors": [
@@ -83,13 +81,15 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-03-1610405",
-      "tournament": "pauper-league-2026-03-1610405",
-      "date": "",
+      "site_name": "pauper-league-2025-12-279987",
+      "tournament": "pauper-league-2025-12-279987",
+      "date": "2025-12-27",
       "player": "usdausda",
-      "archetype": "White Weenie",
+      "archetype": "Spy",
       "colors": [
-        "W"
+        "B",
+        "G",
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -99,7 +99,7 @@
     {
       "site_name": "pauper-league-2025-10-149750",
       "tournament": "pauper-league-2025-10-149750",
-      "date": "",
+      "date": "2025-10-14",
       "player": "usdausda",
       "archetype": "Affinity",
       "colors": [

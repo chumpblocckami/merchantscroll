@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 13,
     "league_trophies": 8,
-    "league_trophies_yearly": 1,
+    "league_trophies_yearly": 3,
     "challenge_wins": 15,
     "challenge_losses": 14,
     "irl_top8": 0,
     "challenge_win_pct": 52,
-    "league_trophy_rank_yearly": 555,
+    "league_trophy_rank_yearly": 315,
     "league_trophy_rank_alltime": 276,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -29,19 +29,19 @@
       "count": 2
     },
     {
-      "archetype": "Elves",
-      "count": 1
-    },
-    {
-      "archetype": "U",
-      "count": 1
-    },
-    {
       "archetype": "R Madness",
       "count": 1
     },
     {
       "archetype": "BW Refurbished",
+      "count": 1
+    },
+    {
+      "archetype": "Elves",
+      "count": 1
+    },
+    {
+      "archetype": "UG Fog",
       "count": 1
     }
   ],
@@ -78,6 +78,37 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-02-1510196",
+      "tournament": "pauper-league-2026-02-1510196",
+      "date": "2026-02-15",
+      "player": "Heterodox",
+      "archetype": "UB Faeries",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-0610196",
+      "tournament": "pauper-league-2026-02-0610196",
+      "date": "2026-02-06",
+      "player": "Heterodox",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-01-1712830048",
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-17",
@@ -90,6 +121,83 @@
       "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-11-239987",
+      "tournament": "pauper-league-2025-11-239987",
+      "date": "2025-11-23",
+      "player": "Heterodox",
+      "archetype": "BW Refurbished",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-269750",
+      "tournament": "pauper-league-2025-10-269750",
+      "date": "2025-10-26",
+      "player": "Heterodox",
+      "archetype": "UG Fog",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-199750",
+      "tournament": "pauper-league-2025-10-199750",
+      "date": "2025-10-19",
+      "player": "Heterodox",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-189750",
+      "tournament": "pauper-league-2025-10-189750",
+      "date": "2025-10-18",
+      "player": "Heterodox",
+      "archetype": "UB Faeries",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-08-159535",
+      "tournament": "pauper-league-2025-08-159535",
+      "date": "2025-08-15",
+      "player": "Heterodox",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-08-0212806307",
@@ -138,114 +246,6 @@
       "final_rank": 13,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-08-159535",
-      "tournament": "pauper-league-2025-08-159535",
-      "date": "",
-      "player": "Heterodox",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-1510196",
-      "tournament": "pauper-league-2026-02-1510196",
-      "date": "",
-      "player": "Heterodox",
-      "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-10-189750",
-      "tournament": "pauper-league-2025-10-189750",
-      "date": "",
-      "player": "Heterodox",
-      "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-10-269750",
-      "tournament": "pauper-league-2025-10-269750",
-      "date": "",
-      "player": "Heterodox",
-      "archetype": "",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-0610196",
-      "tournament": "pauper-league-2026-02-0610196",
-      "date": "",
-      "player": "Heterodox",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-10-199750",
-      "tournament": "pauper-league-2025-10-199750",
-      "date": "",
-      "player": "Heterodox",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-11-239987",
-      "tournament": "pauper-league-2025-11-239987",
-      "date": "",
-      "player": "Heterodox",
-      "archetype": "BW Refurbished",
-      "colors": [
-        "B",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

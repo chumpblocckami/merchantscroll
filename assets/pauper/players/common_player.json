@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 4,
     "league_trophies": 4,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 1,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 526,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 705,
+    "league_trophy_rank_alltime": 527,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,35 +21,19 @@
       "count": 2
     },
     {
-      "archetype": "Jund",
+      "archetype": "U Terror",
       "count": 1
     },
     {
-      "archetype": "U Terror",
+      "archetype": "Jund",
       "count": 1
     }
   ],
   "recent_entries": [
     {
-      "site_name": "pauper-league-2025-05-179081",
-      "tournament": "pauper-league-2025-05-179081",
-      "date": "",
-      "player": "Common_Player",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-02-0110196",
       "tournament": "pauper-league-2026-02-0110196",
-      "date": "",
+      "date": "2026-02-01",
       "player": "Common_Player",
       "archetype": "U Terror",
       "colors": [
@@ -62,9 +46,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-08-209535",
-      "tournament": "pauper-league-2025-08-209535",
-      "date": "",
+      "site_name": "pauper-league-2025-10-169750",
+      "tournament": "pauper-league-2025-10-169750",
+      "date": "2025-10-16",
       "player": "Common_Player",
       "archetype": "Gardens",
       "colors": [
@@ -77,14 +61,30 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-10-169750",
-      "tournament": "pauper-league-2025-10-169750",
-      "date": "",
+      "site_name": "pauper-league-2025-08-209535",
+      "tournament": "pauper-league-2025-08-209535",
+      "date": "2025-08-20",
       "player": "Common_Player",
       "archetype": "Gardens",
       "colors": [
         "B",
         "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-05-179081",
+      "tournament": "pauper-league-2025-05-179081",
+      "date": "2025-05-17",
+      "player": "Common_Player",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,

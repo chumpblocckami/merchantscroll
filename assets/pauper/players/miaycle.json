@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 27,
     "league_trophies": 8,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 4,
     "challenge_wins": 61,
     "challenge_losses": 55,
     "irl_top8": 0,
     "challenge_win_pct": 53,
-    "league_trophy_rank_yearly": null,
+    "league_trophy_rank_yearly": 251,
     "league_trophy_rank_alltime": 287,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -25,10 +25,6 @@
       "count": 4
     },
     {
-      "archetype": "Elves",
-      "count": 3
-    },
-    {
       "archetype": "Monsters",
       "count": 3
     },
@@ -37,8 +33,16 @@
       "count": 3
     },
     {
+      "archetype": "Elves",
+      "count": 3
+    },
+    {
       "archetype": "R Madness",
       "count": 2
+    },
+    {
+      "archetype": "Bogle",
+      "count": 1
     },
     {
       "archetype": "Rally",
@@ -46,10 +50,6 @@
     },
     {
       "archetype": "B Sacrifice",
-      "count": 1
-    },
-    {
-      "archetype": "Bogle",
       "count": 1
     }
   ],
@@ -152,6 +152,22 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-03-0810405",
+      "tournament": "pauper-league-2026-03-0810405",
+      "date": "2026-03-08",
+      "player": "Miaycle",
+      "archetype": "BR Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-03-0712834508",
       "tournament": "Pauper Challenge 32",
       "date": "2026-03-07",
@@ -166,6 +182,22 @@
       "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-03-0610405",
+      "tournament": "pauper-league-2026-03-0610405",
+      "date": "2026-03-06",
+      "player": "Miaycle",
+      "archetype": "BR Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-03-0112834091",
@@ -335,23 +367,9 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2025-10-2512821688",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-10-25",
-      "player": "Miaycle",
-      "archetype": "Pingers",
-      "colors": [
-        "R"
-      ],
-      "record": "2-4",
-      "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-01-179987",
       "tournament": "pauper-league-2026-01-179987",
-      "date": "",
+      "date": "2026-01-17",
       "player": "Miaycle",
       "archetype": "Monsters",
       "colors": [
@@ -364,37 +382,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-10-259750",
-      "tournament": "pauper-league-2025-10-259750",
-      "date": "",
-      "player": "Miaycle",
-      "archetype": "Pingers",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-09-019535",
-      "tournament": "pauper-league-2025-09-019535",
-      "date": "",
-      "player": "Miaycle",
-      "archetype": "B Sacrifice",
-      "colors": [
-        "B"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-01-109987",
       "tournament": "pauper-league-2026-01-109987",
-      "date": "",
+      "date": "2026-01-10",
       "player": "Miaycle",
       "archetype": "R Madness",
       "colors": [
@@ -408,9 +398,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-05-079750",
-      "tournament": "pauper-league-2025-05-079750",
-      "date": "",
+      "site_name": "pauper-league-2025-10-269750",
+      "tournament": "pauper-league-2025-10-269750",
+      "date": "2025-10-26",
       "player": "Miaycle",
       "archetype": "Pingers",
       "colors": [
@@ -422,20 +412,32 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-03-0610405",
-      "tournament": "pauper-league-2026-03-0610405",
-      "date": "",
+      "site_name": "pauper-league-2025-10-259750",
+      "tournament": "pauper-league-2025-10-259750",
+      "date": "2025-10-25",
       "player": "Miaycle",
-      "archetype": "BR Madness",
+      "archetype": "Pingers",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-10-2512821688",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-10-25",
+      "player": "Miaycle",
+      "archetype": "Pingers",
+      "colors": [
+        "R"
+      ],
+      "record": "2-4",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ]
 }

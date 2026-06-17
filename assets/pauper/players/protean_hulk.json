@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 10,
     "league_trophies": 7,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 2,
     "challenge_wins": 8,
     "challenge_losses": 10,
     "irl_top8": 0,
     "challenge_win_pct": 44,
-    "league_trophy_rank_yearly": null,
+    "league_trophy_rank_yearly": 546,
     "league_trophy_rank_alltime": 344,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -25,7 +25,7 @@
       "count": 2
     },
     {
-      "archetype": "BR Madness",
+      "archetype": "BW Refurbished",
       "count": 1
     },
     {
@@ -33,15 +33,60 @@
       "count": 1
     },
     {
-      "archetype": "BW Refurbished",
+      "archetype": "Spy",
       "count": 1
     },
     {
-      "archetype": "Spy",
+      "archetype": "BR Madness",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-03-2210405",
+      "tournament": "pauper-league-2026-03-2210405",
+      "date": "2026-03-22",
+      "player": "Protean_Hulk",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-03-0410405",
+      "tournament": "pauper-league-2026-03-0410405",
+      "date": "2026-03-04",
+      "player": "Protean_Hulk",
+      "archetype": "BW Refurbished",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-12-019987",
+      "tournament": "pauper-league-2025-12-019987",
+      "date": "2025-12-01",
+      "player": "Protean_Hulk",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-special-2025-11-1112824212",
       "tournament": "Pauper Challenge 32 Special",
@@ -76,6 +121,38 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-07-069366",
+      "tournament": "pauper-league-2025-07-069366",
+      "date": "2025-07-06",
+      "player": "Protean_Hulk",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-06-309366",
+      "tournament": "pauper-league-2025-06-309366",
+      "date": "2025-06-30",
+      "player": "Protean_Hulk",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-06-2912800016",
       "tournament": "Pauper Challenge 32",
       "date": "2025-06-29",
@@ -92,104 +169,27 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2025-06-099081",
-      "tournament": "pauper-league-2025-06-099081",
-      "date": "",
-      "player": "Protean_Hulk",
-      "archetype": "BR Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-12-019987",
-      "tournament": "pauper-league-2025-12-019987",
-      "date": "",
-      "player": "Protean_Hulk",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-0410405",
-      "tournament": "pauper-league-2026-03-0410405",
-      "date": "",
-      "player": "Protean_Hulk",
-      "archetype": "BW Refurbished",
-      "colors": [
-        "B",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-06-309366",
-      "tournament": "pauper-league-2025-06-309366",
-      "date": "",
-      "player": "Protean_Hulk",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-2210405",
-      "tournament": "pauper-league-2026-03-2210405",
-      "date": "",
-      "player": "Protean_Hulk",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-07-069366",
-      "tournament": "pauper-league-2025-07-069366",
-      "date": "",
-      "player": "Protean_Hulk",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2025-06-299366",
       "tournament": "pauper-league-2025-06-299366",
-      "date": "",
+      "date": "2025-06-29",
       "player": "Protean_Hulk",
       "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-06-099081",
+      "tournament": "pauper-league-2025-06-099081",
+      "date": "2025-06-09",
+      "player": "Protean_Hulk",
+      "archetype": "BR Madness",
       "colors": [
         "B",
         "R",

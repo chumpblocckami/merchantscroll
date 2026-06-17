@@ -10,9 +10,9 @@
     "challenge_losses": 3,
     "irl_top8": 0,
     "challenge_win_pct": 57,
-    "league_trophy_rank_yearly": 23,
+    "league_trophy_rank_yearly": 64,
     "league_trophy_rank_alltime": 70,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -29,11 +29,11 @@
       "count": 2
     },
     {
-      "archetype": "Pingers",
+      "archetype": "GRW",
       "count": 1
     },
     {
-      "archetype": "GRW",
+      "archetype": "Pingers",
       "count": 1
     }
   ],
@@ -226,6 +226,23 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2025-12-099987",
+      "tournament": "pauper-league-2025-12-099987",
+      "date": "2025-12-09",
+      "player": "CosmicCharles",
+      "archetype": "RG Storm",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-11-1612824440",
       "tournament": "Pauper Challenge 32",
       "date": "2025-11-16",
@@ -244,9 +261,9 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2025-07-189366",
-      "tournament": "pauper-league-2025-07-189366",
-      "date": "",
+      "site_name": "pauper-league-2025-11-159750",
+      "tournament": "pauper-league-2025-11-159750",
+      "date": "2025-11-15",
       "player": "CosmicCharles",
       "archetype": "RG Storm",
       "colors": [
@@ -262,13 +279,15 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-05-239081",
-      "tournament": "pauper-league-2025-05-239081",
-      "date": "",
+      "site_name": "pauper-league-2025-10-269750",
+      "tournament": "pauper-league-2025-10-269750",
+      "date": "2025-10-26",
       "player": "CosmicCharles",
-      "archetype": "Rally",
+      "archetype": "",
       "colors": [
-        "R"
+        "G",
+        "R",
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -276,61 +295,17 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-12-099987",
-      "tournament": "pauper-league-2025-12-099987",
-      "date": "",
+      "site_name": "pauper-league-2025-07-189366",
+      "tournament": "pauper-league-2025-07-189366",
+      "date": "2025-07-18",
       "player": "CosmicCharles",
       "archetype": "RG Storm",
       "colors": [
         "B",
         "G",
         "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-05-309081",
-      "tournament": "pauper-league-2025-05-309081",
-      "date": "",
-      "player": "CosmicCharles",
-      "archetype": "Rally",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-05-159081",
-      "tournament": "pauper-league-2025-05-159081",
-      "date": "",
-      "player": "CosmicCharles",
-      "archetype": "",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-05-299081",
-      "tournament": "pauper-league-2025-05-299081",
-      "date": "",
-      "player": "CosmicCharles",
-      "archetype": "Pingers",
-      "colors": [
-        "R"
+        "U",
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -340,7 +315,7 @@
     {
       "site_name": "pauper-league-2025-07-039366",
       "tournament": "pauper-league-2025-07-039366",
-      "date": "",
+      "date": "2025-07-03",
       "player": "CosmicCharles",
       "archetype": "",
       "colors": [
@@ -357,7 +332,7 @@
     {
       "site_name": "pauper-league-2025-06-169366",
       "tournament": "pauper-league-2025-06-169366",
-      "date": "",
+      "date": "2025-06-16",
       "player": "CosmicCharles",
       "archetype": "RG Storm",
       "colors": [
@@ -373,17 +348,41 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-11-159750",
-      "tournament": "pauper-league-2025-11-159750",
-      "date": "",
+      "site_name": "pauper-league-2025-05-309081",
+      "tournament": "pauper-league-2025-05-309081",
+      "date": "2025-05-30",
       "player": "CosmicCharles",
-      "archetype": "RG Storm",
+      "archetype": "Rally",
       "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-05-299081",
+      "tournament": "pauper-league-2025-05-299081",
+      "date": "2025-05-29",
+      "player": "CosmicCharles",
+      "archetype": "Pingers",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-05-239081",
+      "tournament": "pauper-league-2025-05-239081",
+      "date": "2025-05-23",
+      "player": "CosmicCharles",
+      "archetype": "Rally",
+      "colors": [
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -393,7 +392,7 @@
     {
       "site_name": "pauper-league-2025-05-199081",
       "tournament": "pauper-league-2025-05-199081",
-      "date": "",
+      "date": "2025-05-19",
       "player": "CosmicCharles",
       "archetype": "",
       "colors": [
@@ -408,15 +407,16 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-10-269750",
-      "tournament": "pauper-league-2025-10-269750",
-      "date": "",
+      "site_name": "pauper-league-2025-05-159081",
+      "tournament": "pauper-league-2025-05-159081",
+      "date": "2025-05-15",
       "player": "CosmicCharles",
       "archetype": "",
       "colors": [
+        "B",
         "G",
         "R",
-        "W"
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,

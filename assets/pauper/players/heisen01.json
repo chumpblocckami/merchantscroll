@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 25,
     "league_trophies": 10,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 3,
     "challenge_wins": 65,
     "challenge_losses": 38,
     "irl_top8": 0,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 209,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 314,
+    "league_trophy_rank_alltime": 210,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,11 +21,11 @@
       "count": 11
     },
     {
-      "archetype": "Cawgate",
+      "archetype": "Gardens",
       "count": 3
     },
     {
-      "archetype": "Gardens",
+      "archetype": "Cawgate",
       "count": 3
     },
     {
@@ -33,7 +33,15 @@
       "count": 3
     },
     {
+      "archetype": "UG Fog",
+      "count": 1
+    },
+    {
       "archetype": "Jeskai",
+      "count": 1
+    },
+    {
+      "archetype": "Boros Glitter",
       "count": 1
     },
     {
@@ -41,15 +49,7 @@
       "count": 1
     },
     {
-      "archetype": "UG Fog",
-      "count": 1
-    },
-    {
       "archetype": "BG Fog",
-      "count": 1
-    },
-    {
-      "archetype": "Boros Glitter",
       "count": 1
     }
   ],
@@ -87,6 +87,21 @@
       "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-02-0610196",
+      "tournament": "pauper-league-2026-02-0610196",
+      "date": "2026-02-06",
+      "player": "Heisen01",
+      "archetype": "Gardens",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-01-2512830664",
@@ -137,6 +152,38 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-01-129987",
+      "tournament": "pauper-league-2026-01-129987",
+      "date": "2026-01-12",
+      "player": "Heisen01",
+      "archetype": "Cawgate",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-099987",
+      "tournament": "pauper-league-2026-01-099987",
+      "date": "2026-01-09",
+      "player": "Heisen01",
+      "archetype": "Cawgate",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-01-0812829339",
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-08",
@@ -183,6 +230,22 @@
       "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-12-219987",
+      "tournament": "pauper-league-2025-12-219987",
+      "date": "2025-12-21",
+      "player": "Heisen01",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-12-1412826893",
@@ -284,30 +347,14 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2025-05-0412774521",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-05-04",
+      "site_name": "pauper-league-2025-07-169366",
+      "tournament": "pauper-league-2025-07-169366",
+      "date": "2025-07-16",
       "player": "Heisen01",
-      "archetype": "Jund",
+      "archetype": "Boros Glitter",
       "colors": [
         "B",
-        "G",
-        "R"
-      ],
-      "record": "4-3",
-      "final_rank": 16,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-01-099987",
-      "tournament": "pauper-league-2026-01-099987",
-      "date": "",
-      "player": "Heisen01",
-      "archetype": "Cawgate",
-      "colors": [
-        "B",
-        "U",
+        "R",
         "W"
       ],
       "record": "5-0",
@@ -318,7 +365,7 @@
     {
       "site_name": "pauper-league-2025-07-149366",
       "tournament": "pauper-league-2025-07-149366",
-      "date": "",
+      "date": "2025-07-14",
       "player": "Heisen01",
       "archetype": "Jund",
       "colors": [
@@ -332,9 +379,27 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2025-06-249366",
+      "tournament": "pauper-league-2025-06-249366",
+      "date": "2025-06-24",
+      "player": "Heisen01",
+      "archetype": "Flicker Tron",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2025-06-239366",
       "tournament": "pauper-league-2025-06-239366",
-      "date": "",
+      "date": "2025-06-23",
       "player": "Heisen01",
       "archetype": "Gardens",
       "colors": [
@@ -349,7 +414,7 @@
     {
       "site_name": "pauper-league-2025-06-239366",
       "tournament": "pauper-league-2025-06-239366",
-      "date": "",
+      "date": "2025-06-23",
       "player": "Heisen01",
       "archetype": "Flicker Tron",
       "colors": [
@@ -367,7 +432,7 @@
     {
       "site_name": "pauper-league-2025-06-109366",
       "tournament": "pauper-league-2025-06-109366",
-      "date": "",
+      "date": "2025-06-10",
       "player": "Heisen01",
       "archetype": "Gardens",
       "colors": [
@@ -380,27 +445,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-06-249366",
-      "tournament": "pauper-league-2025-06-249366",
-      "date": "",
-      "player": "Heisen01",
-      "archetype": "Flicker Tron",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-12-219987",
-      "tournament": "pauper-league-2025-12-219987",
-      "date": "",
+      "site_name": "pauper-challenge-32-2025-05-0412774521",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-05-04",
       "player": "Heisen01",
       "archetype": "Jund",
       "colors": [
@@ -408,57 +455,10 @@
         "G",
         "R"
       ],
-      "record": "5-0",
-      "final_rank": null,
+      "record": "4-3",
+      "final_rank": 16,
       "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-129987",
-      "tournament": "pauper-league-2026-01-129987",
-      "date": "",
-      "player": "Heisen01",
-      "archetype": "Cawgate",
-      "colors": [
-        "B",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-07-169366",
-      "tournament": "pauper-league-2025-07-169366",
-      "date": "",
-      "player": "Heisen01",
-      "archetype": "Boros Glitter",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-0610196",
-      "tournament": "pauper-league-2026-02-0610196",
-      "date": "",
-      "player": "Heisen01",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
+      "type": "challenge"
     }
   ]
 }

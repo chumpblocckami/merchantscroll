@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 8,
     "league_trophies": 7,
-    "league_trophies_yearly": 5,
+    "league_trophies_yearly": 4,
     "challenge_wins": 4,
     "challenge_losses": 3,
     "irl_top8": 0,
     "challenge_win_pct": 57,
-    "league_trophy_rank_yearly": 95,
+    "league_trophy_rank_yearly": 241,
     "league_trophy_rank_alltime": 334,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -51,21 +51,6 @@
     },
     {
       "site_name": "pauper-league-2026-05-1510636",
-      "tournament": "Pauper League",
-      "date": "2026-05-15",
-      "player": "Kefwyn",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2024-06-0310636",
       "tournament": "Pauper League",
       "date": "2026-05-15",
       "player": "Kefwyn",
@@ -125,9 +110,25 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-07-239366",
+      "tournament": "pauper-league-2025-07-239366",
+      "date": "2025-07-23",
+      "player": "Kefwyn",
+      "archetype": "Boros Glitter",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2025-07-119366",
       "tournament": "pauper-league-2025-07-119366",
-      "date": "",
+      "date": "2025-07-11",
       "player": "Kefwyn",
       "archetype": "U Faeries",
       "colors": [
@@ -139,15 +140,14 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-07-239366",
-      "tournament": "pauper-league-2025-07-239366",
-      "date": "",
+      "site_name": "pauper-league-2024-06-0310636",
+      "tournament": "Pauper League",
+      "date": "2024-06-03",
       "player": "Kefwyn",
-      "archetype": "Boros Glitter",
+      "archetype": "U Terror",
       "colors": [
-        "B",
         "R",
-        "W"
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,

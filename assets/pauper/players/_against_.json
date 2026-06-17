@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 73,
     "league_trophies": 18,
-    "league_trophies_yearly": 2,
+    "league_trophies_yearly": 4,
     "challenge_wins": 239,
     "challenge_losses": 133,
     "irl_top8": 0,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 241,
+    "league_trophy_rank_yearly": 210,
     "league_trophy_rank_alltime": 94,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -279,6 +279,22 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-03-1110405",
+      "tournament": "pauper-league-2026-03-1110405",
+      "date": "2026-03-11",
+      "player": "_against_",
+      "archetype": "White Weenie",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-03-0612834493",
       "tournament": "Pauper Challenge 32",
       "date": "2026-03-06",
@@ -399,6 +415,22 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-02-0410196",
+      "tournament": "pauper-league-2026-02-0410196",
+      "date": "2026-02-04",
+      "player": "_against_",
+      "archetype": "UB Terror",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-01-3012831716",
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-30",
@@ -410,37 +442,6 @@
       ],
       "record": "7-2",
       "final_rank": 2,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-01-2912831706",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-29",
-      "player": "_against_",
-      "archetype": "Monsters",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "2-3",
-      "final_rank": 21,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-01-1812830067",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-18",
-      "player": "_against_",
-      "archetype": "UB Terror",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-2",
-      "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
     }

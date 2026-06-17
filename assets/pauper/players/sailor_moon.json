@@ -11,8 +11,8 @@
     "irl_top8": 0,
     "challenge_win_pct": 58,
     "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 1068,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_alltime": 1070,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -25,11 +25,11 @@
       "count": 3
     },
     {
-      "archetype": "Jund",
+      "archetype": "Dredge",
       "count": 1
     },
     {
-      "archetype": "Dredge",
+      "archetype": "Jund",
       "count": 1
     }
   ],
@@ -65,6 +65,22 @@
       "final_rank": 22,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-07-169366",
+      "tournament": "pauper-league-2025-07-169366",
+      "date": "2025-07-16",
+      "player": "Sailor_Moon",
+      "archetype": "BR Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-07-1212802814",
@@ -147,6 +163,22 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-06-309366",
+      "tournament": "pauper-league-2025-06-309366",
+      "date": "2025-06-30",
+      "player": "Sailor_Moon",
+      "archetype": "Bogle",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-06-0112782673",
       "tournament": "Pauper Challenge 32",
       "date": "2025-06-01",
@@ -210,38 +242,6 @@
       "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-07-169366",
-      "tournament": "pauper-league-2025-07-169366",
-      "date": "",
-      "player": "Sailor_Moon",
-      "archetype": "BR Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-06-309366",
-      "tournament": "pauper-league-2025-06-309366",
-      "date": "",
-      "player": "Sailor_Moon",
-      "archetype": "Bogle",
-      "colors": [
-        "G",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

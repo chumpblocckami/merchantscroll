@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 115,
     "league_trophies": 80,
-    "league_trophies_yearly": 15,
+    "league_trophies_yearly": 27,
     "challenge_wins": 143,
     "challenge_losses": 80,
     "irl_top8": 0,
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 11,
     "league_trophy_rank_alltime": 6,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,7 +21,7 @@
       "count": 27
     },
     {
-      "archetype": "U",
+      "archetype": "UG Fog",
       "count": 15
     },
     {
@@ -37,23 +37,23 @@
       "count": 9
     },
     {
-      "archetype": "U Terror",
-      "count": 7
-    },
-    {
       "archetype": "Rally",
       "count": 7
     },
     {
-      "archetype": "Spy",
-      "count": 4
+      "archetype": "U Terror",
+      "count": 7
     },
     {
       "archetype": "R Madness",
       "count": 4
     },
     {
-      "archetype": "Monsters Tron",
+      "archetype": "Spy",
+      "count": 4
+    },
+    {
+      "archetype": "White Weennie",
       "count": 3
     }
   ],
@@ -92,38 +92,6 @@
     },
     {
       "site_name": "pauper-league-2026-05-1510636",
-      "tournament": "Pauper League",
-      "date": "2026-05-15",
-      "player": "wolf777",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2024-06-0310636",
-      "tournament": "Pauper League",
-      "date": "2026-05-15",
-      "player": "wolf777",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2024-06-0310636",
       "tournament": "Pauper League",
       "date": "2026-05-15",
       "player": "wolf777",
@@ -316,6 +284,36 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-03-2310405",
+      "tournament": "pauper-league-2026-03-2310405",
+      "date": "2026-03-23",
+      "player": "wolf777",
+      "archetype": "BW Refurbished",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-03-2310405",
+      "tournament": "pauper-league-2026-03-2310405",
+      "date": "2026-03-23",
+      "player": "wolf777",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-03-1912835968",
       "tournament": "Pauper Challenge 32",
       "date": "2026-03-19",
@@ -329,6 +327,38 @@
       "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-03-1710405",
+      "tournament": "pauper-league-2026-03-1710405",
+      "date": "2026-03-17",
+      "player": "wolf777",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-03-1510405",
+      "tournament": "pauper-league-2026-03-1510405",
+      "date": "2026-03-15",
+      "player": "wolf777",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-03-1512835331",
@@ -346,6 +376,23 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-03-1210405",
+      "tournament": "pauper-league-2026-03-1210405",
+      "date": "2026-03-12",
+      "player": "wolf777",
+      "archetype": "Monsters Tron",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-03-0812834527",
       "tournament": "Pauper Challenge 32",
       "date": "2026-03-08",
@@ -361,97 +408,52 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-02-2612834047",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-02-26",
+      "site_name": "pauper-league-2026-03-0710405",
+      "tournament": "pauper-league-2026-03-0710405",
+      "date": "2026-03-07",
       "player": "wolf777",
-      "archetype": "Jund",
+      "archetype": "Rally",
       "colors": [
-        "B",
         "G",
         "R"
       ],
-      "record": "3-3",
-      "final_rank": 22,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-02-0512832501",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-02-05",
+      "site_name": "pauper-league-2026-02-2810196",
+      "tournament": "pauper-league-2026-02-2810196",
+      "date": "2026-02-28",
       "player": "wolf777",
-      "archetype": "Cawgate",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-02-0112831750",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-02-01",
-      "player": "wolf777",
-      "archetype": "Cawgate",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "8-1",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-01-2412830645",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-24",
-      "player": "wolf777",
-      "archetype": "Cawgate",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-01-2212830620",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-22",
-      "player": "wolf777",
-      "archetype": "White Weennie",
-      "colors": [
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 22,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-01-1112829384",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-11",
-      "player": "wolf777",
-      "archetype": "White Weennie",
+      "archetype": "Dredge",
       "colors": [
         "B",
+        "G",
+        "R",
+        "U",
         "W"
       ],
-      "record": "5-2",
-      "final_rank": 5,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-2710196",
+      "tournament": "pauper-league-2026-02-2710196",
+      "date": "2026-02-27",
+      "player": "wolf777",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ]
 }

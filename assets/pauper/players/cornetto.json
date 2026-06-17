@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 5,
     "league_trophies": 5,
-    "league_trophies_yearly": 2,
+    "league_trophies_yearly": 3,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 261,
+    "league_trophy_rank_yearly": 293,
     "league_trophy_rank_alltime": 441,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,7 +21,7 @@
       "count": 2
     },
     {
-      "archetype": "Elves",
+      "archetype": "UB Control",
       "count": 1
     },
     {
@@ -29,7 +29,7 @@
       "count": 1
     },
     {
-      "archetype": "UB Control",
+      "archetype": "Elves",
       "count": 1
     }
   ],
@@ -67,26 +67,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-05-159081",
-      "tournament": "pauper-league-2025-05-159081",
-      "date": "",
-      "player": "Cornetto",
-      "archetype": "Elves",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-03-1610405",
       "tournament": "pauper-league-2026-03-1610405",
-      "date": "",
+      "date": "2026-03-16",
       "player": "Cornetto",
       "archetype": "Pizza Combo",
       "colors": [
@@ -103,11 +86,28 @@
     {
       "site_name": "pauper-league-2025-07-299535",
       "tournament": "pauper-league-2025-07-299535",
-      "date": "",
+      "date": "2025-07-29",
       "player": "Cornetto",
       "archetype": "UB Control",
       "colors": [
         "B"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-05-159081",
+      "tournament": "pauper-league-2025-05-159081",
+      "date": "2025-05-15",
+      "player": "Cornetto",
+      "archetype": "Elves",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,

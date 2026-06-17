@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 10,
     "league_trophies": 8,
-    "league_trophies_yearly": 1,
+    "league_trophies_yearly": 3,
     "challenge_wins": 3,
     "challenge_losses": 3,
     "irl_top8": 0,
     "challenge_win_pct": 50,
-    "league_trophy_rank_yearly": 610,
+    "league_trophy_rank_yearly": 335,
     "league_trophy_rank_alltime": 283,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -29,11 +29,11 @@
       "count": 2
     },
     {
-      "archetype": "Dredge",
+      "archetype": "Monsters Tron",
       "count": 1
     },
     {
-      "archetype": "Monsters Tron",
+      "archetype": "Dredge",
       "count": 1
     },
     {
@@ -97,56 +97,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-10-109750",
-      "tournament": "pauper-league-2025-10-109750",
-      "date": "",
-      "player": "Loerien",
-      "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-10-249750",
-      "tournament": "pauper-league-2025-10-249750",
-      "date": "",
-      "player": "Loerien",
-      "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "G",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-09-269750",
-      "tournament": "pauper-league-2025-09-269750",
-      "date": "",
-      "player": "Loerien",
-      "archetype": "Dredge",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-03-0410405",
       "tournament": "pauper-league-2026-03-0410405",
-      "date": "",
+      "date": "2026-03-04",
       "player": "Loerien",
       "archetype": "Monsters Tron",
       "colors": [
@@ -160,25 +113,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-09-289750",
-      "tournament": "pauper-league-2025-09-289750",
-      "date": "",
-      "player": "Loerien",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-02-2310196",
       "tournament": "pauper-league-2026-02-2310196",
-      "date": "",
+      "date": "2026-02-23",
       "player": "Loerien",
       "archetype": "Altar",
       "colors": [
@@ -194,14 +131,77 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-10-069750",
-      "tournament": "pauper-league-2025-10-069750",
-      "date": "",
+      "site_name": "pauper-league-2025-10-249750",
+      "tournament": "pauper-league-2025-10-249750",
+      "date": "2025-10-24",
+      "player": "Loerien",
+      "archetype": "UB Faeries",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-109750",
+      "tournament": "pauper-league-2025-10-109750",
+      "date": "2025-10-10",
       "player": "Loerien",
       "archetype": "UB Faeries",
       "colors": [
         "B",
         "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-069750",
+      "tournament": "pauper-league-2025-10-069750",
+      "date": "2025-10-06",
+      "player": "Loerien",
+      "archetype": "UB Faeries",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-09-289750",
+      "tournament": "pauper-league-2025-09-289750",
+      "date": "2025-09-28",
+      "player": "Loerien",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-09-269750",
+      "tournament": "pauper-league-2025-09-269750",
+      "date": "2025-09-26",
+      "player": "Loerien",
+      "archetype": "Dredge",
+      "colors": [
+        "B",
+        "G",
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,

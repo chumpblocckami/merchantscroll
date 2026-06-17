@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 31,
     "league_trophies": 28,
-    "league_trophies_yearly": 14,
+    "league_trophies_yearly": 15,
     "challenge_wins": 17,
     "challenge_losses": 7,
     "irl_top8": 0,
     "challenge_win_pct": 71,
-    "league_trophy_rank_yearly": 13,
+    "league_trophy_rank_yearly": 38,
     "league_trophy_rank_alltime": 49,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -37,15 +37,15 @@
       "count": 2
     },
     {
+      "archetype": "Gardens",
+      "count": 1
+    },
+    {
       "archetype": "Naya Gates",
       "count": 1
     },
     {
-      "archetype": "UB Faeries",
-      "count": 1
-    },
-    {
-      "archetype": "BRU",
+      "archetype": "Esper Affinity",
       "count": 1
     },
     {
@@ -53,7 +53,7 @@
       "count": 1
     },
     {
-      "archetype": "Esper Affinity",
+      "archetype": "BRU",
       "count": 1
     }
   ],
@@ -332,9 +332,87 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-02-2610196",
+      "tournament": "pauper-league-2026-02-2610196",
+      "date": "2026-02-26",
+      "player": "lostonkato",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-12-169987",
+      "tournament": "pauper-league-2025-12-169987",
+      "date": "2025-12-16",
+      "player": "lostonkato",
+      "archetype": "",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-11-209987",
+      "tournament": "pauper-league-2025-11-209987",
+      "date": "2025-11-20",
+      "player": "lostonkato",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-11-149750",
+      "tournament": "pauper-league-2025-11-149750",
+      "date": "2025-11-14",
+      "player": "lostonkato",
+      "archetype": "Gardens",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-319750",
+      "tournament": "pauper-league-2025-10-319750",
+      "date": "2025-10-31",
+      "player": "lostonkato",
+      "archetype": "UB Faeries",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2025-10-229750",
       "tournament": "pauper-league-2025-10-229750",
-      "date": "",
+      "date": "2025-10-22",
       "player": "lostonkato",
       "archetype": "BW Refurbished",
       "colors": [
@@ -350,7 +428,7 @@
     {
       "site_name": "pauper-league-2025-10-109750",
       "tournament": "pauper-league-2025-10-109750",
-      "date": "",
+      "date": "2025-10-10",
       "player": "lostonkato",
       "archetype": "BW Refurbished",
       "colors": [
@@ -364,93 +442,15 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-02-2610196",
-      "tournament": "pauper-league-2026-02-2610196",
-      "date": "",
+      "site_name": "pauper-league-2025-09-309750",
+      "tournament": "pauper-league-2025-09-309750",
+      "date": "2025-09-30",
       "player": "lostonkato",
       "archetype": "R Madness",
       "colors": [
         "B",
         "R",
         "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-06-189366",
-      "tournament": "pauper-league-2025-06-189366",
-      "date": "",
-      "player": "lostonkato",
-      "archetype": "Boros Glitter",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-10-319750",
-      "tournament": "pauper-league-2025-10-319750",
-      "date": "",
-      "player": "lostonkato",
-      "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-12-169987",
-      "tournament": "pauper-league-2025-12-169987",
-      "date": "",
-      "player": "lostonkato",
-      "archetype": "",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-05-269081",
-      "tournament": "pauper-league-2025-05-269081",
-      "date": "",
-      "player": "lostonkato",
-      "archetype": "Pingers",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-07-309535",
-      "tournament": "pauper-league-2025-07-309535",
-      "date": "",
-      "player": "lostonkato",
-      "archetype": "Esper Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
       ],
       "record": "5-0",
       "final_rank": null,

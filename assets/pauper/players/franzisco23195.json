@@ -10,9 +10,9 @@
     "challenge_losses": 15,
     "irl_top8": 0,
     "challenge_win_pct": 66,
-    "league_trophy_rank_yearly": 281,
+    "league_trophy_rank_yearly": 456,
     "league_trophy_rank_alltime": 273,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -29,19 +29,19 @@
       "count": 2
     },
     {
-      "archetype": "Pingers",
-      "count": 1
-    },
-    {
-      "archetype": "UB Terror",
-      "count": 1
-    },
-    {
       "archetype": "Esper Affinity",
       "count": 1
     },
     {
       "archetype": "Rally",
+      "count": 1
+    },
+    {
+      "archetype": "Pingers",
+      "count": 1
+    },
+    {
+      "archetype": "UB Terror",
       "count": 1
     }
   ],
@@ -141,6 +141,22 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-12-039987",
+      "tournament": "pauper-league-2025-12-039987",
+      "date": "2025-12-03",
+      "player": "Franzisco23195",
+      "archetype": "U Terror",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-11-2912825471",
       "tournament": "Pauper Challenge 32",
       "date": "2025-11-29",
@@ -171,38 +187,9 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2025-05-1112777364",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-05-11",
-      "player": "Franzisco23195",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 26,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-05-189081",
-      "tournament": "pauper-league-2025-05-189081",
-      "date": "",
-      "player": "Franzisco23195",
-      "archetype": "Pingers",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-08-129535",
-      "tournament": "pauper-league-2025-08-129535",
-      "date": "",
+      "site_name": "pauper-league-2025-10-149750",
+      "tournament": "pauper-league-2025-10-149750",
+      "date": "2025-10-14",
       "player": "Franzisco23195",
       "archetype": "R Madness",
       "colors": [
@@ -218,7 +205,7 @@
     {
       "site_name": "pauper-league-2025-10-059750",
       "tournament": "pauper-league-2025-10-059750",
-      "date": "",
+      "date": "2025-10-05",
       "player": "Franzisco23195",
       "archetype": "U Terror",
       "colors": [
@@ -233,7 +220,7 @@
     {
       "site_name": "pauper-league-2025-09-159535",
       "tournament": "pauper-league-2025-09-159535",
-      "date": "",
+      "date": "2025-09-15",
       "player": "Franzisco23195",
       "archetype": "Esper Affinity",
       "colors": [
@@ -247,25 +234,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-12-039987",
-      "tournament": "pauper-league-2025-12-039987",
-      "date": "",
-      "player": "Franzisco23195",
-      "archetype": "U Terror",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-10-149750",
-      "tournament": "pauper-league-2025-10-149750",
-      "date": "",
+      "site_name": "pauper-league-2025-08-129535",
+      "tournament": "pauper-league-2025-08-129535",
+      "date": "2025-08-12",
       "player": "Franzisco23195",
       "archetype": "R Madness",
       "colors": [
@@ -277,6 +248,35 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-05-189081",
+      "tournament": "pauper-league-2025-05-189081",
+      "date": "2025-05-18",
+      "player": "Franzisco23195",
+      "archetype": "Pingers",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-05-1112777364",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-05-11",
+      "player": "Franzisco23195",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ]
 }

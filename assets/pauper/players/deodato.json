@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 23,
     "league_trophies": 7,
-    "league_trophies_yearly": 2,
+    "league_trophies_yearly": 3,
     "challenge_wins": 55,
     "challenge_losses": 35,
     "irl_top8": 0,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 268,
+    "league_trophy_rank_yearly": 298,
     "league_trophy_rank_alltime": 326,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -25,11 +25,11 @@
       "count": 8
     },
     {
-      "archetype": "B Sacrifice",
+      "archetype": "R Madness",
       "count": 1
     },
     {
-      "archetype": "R Madness",
+      "archetype": "B Sacrifice",
       "count": 1
     }
   ],
@@ -213,6 +213,20 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-03-2110405",
+      "tournament": "pauper-league-2026-03-2110405",
+      "date": "2026-03-21",
+      "player": "Deodato",
+      "archetype": "White Weenie",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-03-0712834508",
       "tournament": "Pauper Challenge 32",
       "date": "2026-03-07",
@@ -283,6 +297,34 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-10-239750",
+      "tournament": "pauper-league-2025-10-239750",
+      "date": "2025-10-23",
+      "player": "Deodato",
+      "archetype": "White Weennie",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-09-269750",
+      "tournament": "pauper-league-2025-09-269750",
+      "date": "2025-09-26",
+      "player": "Deodato",
+      "archetype": "B Sacrifice",
+      "colors": [
+        "B"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-07-1112802796",
       "tournament": "Pauper Challenge 32",
       "date": "2025-07-11",
@@ -300,51 +342,9 @@
     {
       "site_name": "pauper-league-2025-05-209081",
       "tournament": "pauper-league-2025-05-209081",
-      "date": "",
+      "date": "2025-05-20",
       "player": "Deodato",
       "archetype": "White Weennie",
-      "colors": [
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-10-239750",
-      "tournament": "pauper-league-2025-10-239750",
-      "date": "",
-      "player": "Deodato",
-      "archetype": "White Weennie",
-      "colors": [
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-09-269750",
-      "tournament": "pauper-league-2025-09-269750",
-      "date": "",
-      "player": "Deodato",
-      "archetype": "B Sacrifice",
-      "colors": [
-        "B"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-2110405",
-      "tournament": "pauper-league-2026-03-2110405",
-      "date": "",
-      "player": "Deodato",
-      "archetype": "White Weenie",
       "colors": [
         "W"
       ],
@@ -356,7 +356,7 @@
     {
       "site_name": "pauper-league-2025-05-139081",
       "tournament": "pauper-league-2025-05-139081",
-      "date": "",
+      "date": "2025-05-13",
       "player": "Deodato",
       "archetype": "White Weennie",
       "colors": [

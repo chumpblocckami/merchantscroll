@@ -5,23 +5,23 @@
   "stats": {
     "total_entries": 28,
     "league_trophies": 19,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 5,
     "challenge_wins": 31,
     "challenge_losses": 23,
     "irl_top8": 0,
     "challenge_win_pct": 57,
-    "league_trophy_rank_yearly": null,
+    "league_trophy_rank_yearly": 176,
     "league_trophy_rank_alltime": 88,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
     {
-      "archetype": "BR Madness",
+      "archetype": "White Weennie",
       "count": 5
     },
     {
-      "archetype": "White Weennie",
+      "archetype": "BR Madness",
       "count": 5
     },
     {
@@ -29,11 +29,11 @@
       "count": 4
     },
     {
-      "archetype": "Jund",
+      "archetype": "Elves",
       "count": 3
     },
     {
-      "archetype": "Elves",
+      "archetype": "Jund",
       "count": 3
     },
     {
@@ -45,19 +45,67 @@
       "count": 2
     },
     {
-      "archetype": "Spy",
-      "count": 1
-    },
-    {
-      "archetype": "Whale Combo",
-      "count": 1
-    },
-    {
       "archetype": "BG Fog",
+      "count": 1
+    },
+    {
+      "archetype": "U Faeries",
+      "count": 1
+    },
+    {
+      "archetype": "Spy",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-02-2510196",
+      "tournament": "pauper-league-2026-02-2510196",
+      "date": "2026-02-25",
+      "player": "edgo",
+      "archetype": "BR Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-209987",
+      "tournament": "pauper-league-2026-01-209987",
+      "date": "2026-01-20",
+      "player": "edgo",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-199987",
+      "tournament": "pauper-league-2026-01-199987",
+      "date": "2026-01-19",
+      "player": "edgo",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-01-1712830048",
       "tournament": "Pauper Challenge 32",
@@ -74,6 +122,37 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-01-179987",
+      "tournament": "pauper-league-2026-01-179987",
+      "date": "2026-01-17",
+      "player": "edgo",
+      "archetype": "Food Pestilence",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-179987",
+      "tournament": "pauper-league-2026-01-179987",
+      "date": "2026-01-17",
+      "player": "edgo",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-12-2812828104",
       "tournament": "Pauper Challenge 32",
       "date": "2025-12-28",
@@ -88,6 +167,22 @@
       "final_rank": 6,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-12-209987",
+      "tournament": "pauper-league-2025-12-209987",
+      "date": "2025-12-20",
+      "player": "edgo",
+      "archetype": "BR Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-12-1912827488",
@@ -151,6 +246,160 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-11-069750",
+      "tournament": "pauper-league-2025-11-069750",
+      "date": "2025-11-06",
+      "player": "edgo",
+      "archetype": "UB Faeries",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-289750",
+      "tournament": "pauper-league-2025-10-289750",
+      "date": "2025-10-28",
+      "player": "edgo",
+      "archetype": "White Weennie",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-259750",
+      "tournament": "pauper-league-2025-10-259750",
+      "date": "2025-10-25",
+      "player": "edgo",
+      "archetype": "White Weennie",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-239750",
+      "tournament": "pauper-league-2025-10-239750",
+      "date": "2025-10-23",
+      "player": "edgo",
+      "archetype": "White Weennie",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-029750",
+      "tournament": "pauper-league-2025-10-029750",
+      "date": "2025-10-02",
+      "player": "edgo",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-019750",
+      "tournament": "pauper-league-2025-10-019750",
+      "date": "2025-10-01",
+      "player": "edgo",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-08-159535",
+      "tournament": "pauper-league-2025-08-159535",
+      "date": "2025-08-15",
+      "player": "edgo",
+      "archetype": "Whale Combo",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-08-129535",
+      "tournament": "pauper-league-2025-08-129535",
+      "date": "2025-08-12",
+      "player": "edgo",
+      "archetype": "Spy",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-05-239081",
+      "tournament": "pauper-league-2025-05-239081",
+      "date": "2025-05-23",
+      "player": "edgo",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-05-229081",
+      "tournament": "pauper-league-2025-05-229081",
+      "date": "2025-05-22",
+      "player": "edgo",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-05-1712780149",
       "tournament": "Pauper Challenge 32",
       "date": "2025-05-17",
@@ -163,6 +412,20 @@
       "final_rank": 3,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-05-119081",
+      "tournament": "pauper-league-2025-05-119081",
+      "date": "2025-05-11",
+      "player": "edgo",
+      "archetype": "U Faeries",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-05-0912777329",
@@ -181,269 +444,6 @@
       "final_rank": 19,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-05-0212774478",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-05-02",
-      "player": "edgo",
-      "archetype": "BG Fog",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-12-209987",
-      "tournament": "pauper-league-2025-12-209987",
-      "date": "",
-      "player": "edgo",
-      "archetype": "BR Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-179987",
-      "tournament": "pauper-league-2026-01-179987",
-      "date": "",
-      "player": "edgo",
-      "archetype": "Food Pestilence",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-179987",
-      "tournament": "pauper-league-2026-01-179987",
-      "date": "",
-      "player": "edgo",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-10-259750",
-      "tournament": "pauper-league-2025-10-259750",
-      "date": "",
-      "player": "edgo",
-      "archetype": "White Weennie",
-      "colors": [
-        "B",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-08-129535",
-      "tournament": "pauper-league-2025-08-129535",
-      "date": "",
-      "player": "edgo",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-05-239081",
-      "tournament": "pauper-league-2025-05-239081",
-      "date": "",
-      "player": "edgo",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-08-159535",
-      "tournament": "pauper-league-2025-08-159535",
-      "date": "",
-      "player": "edgo",
-      "archetype": "Whale Combo",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-2510196",
-      "tournament": "pauper-league-2026-02-2510196",
-      "date": "",
-      "player": "edgo",
-      "archetype": "BR Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-10-029750",
-      "tournament": "pauper-league-2025-10-029750",
-      "date": "",
-      "player": "edgo",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-10-239750",
-      "tournament": "pauper-league-2025-10-239750",
-      "date": "",
-      "player": "edgo",
-      "archetype": "White Weennie",
-      "colors": [
-        "B",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-05-229081",
-      "tournament": "pauper-league-2025-05-229081",
-      "date": "",
-      "player": "edgo",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-11-069750",
-      "tournament": "pauper-league-2025-11-069750",
-      "date": "",
-      "player": "edgo",
-      "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-05-079750",
-      "tournament": "pauper-league-2025-05-079750",
-      "date": "",
-      "player": "edgo",
-      "archetype": "White Weennie",
-      "colors": [
-        "B",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-209987",
-      "tournament": "pauper-league-2026-01-209987",
-      "date": "",
-      "player": "edgo",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-10-289750",
-      "tournament": "pauper-league-2025-10-289750",
-      "date": "",
-      "player": "edgo",
-      "archetype": "White Weennie",
-      "colors": [
-        "B",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-05-119081",
-      "tournament": "pauper-league-2025-05-119081",
-      "date": "",
-      "player": "edgo",
-      "archetype": "U Faeries",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

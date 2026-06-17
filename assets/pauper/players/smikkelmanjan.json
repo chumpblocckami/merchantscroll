@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 12,
     "league_trophies": 10,
-    "league_trophies_yearly": 4,
+    "league_trophies_yearly": 5,
     "challenge_wins": 6,
     "challenge_losses": 6,
     "irl_top8": 0,
     "challenge_win_pct": 50,
-    "league_trophy_rank_yearly": 161,
-    "league_trophy_rank_alltime": 223,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 201,
+    "league_trophy_rank_alltime": 224,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,15 +21,15 @@
       "count": 5
     },
     {
+      "archetype": "Ponza",
+      "count": 2
+    },
+    {
       "archetype": "Rally",
       "count": 2
     },
     {
       "archetype": "Jund",
-      "count": 2
-    },
-    {
-      "archetype": "Ponza",
       "count": 2
     },
     {
@@ -117,6 +117,36 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-02-2710196",
+      "tournament": "pauper-league-2026-02-2710196",
+      "date": "2026-02-27",
+      "player": "smikkelmanjan",
+      "archetype": "Gardens",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-11-309987",
+      "tournament": "pauper-league-2025-11-309987",
+      "date": "2025-11-30",
+      "player": "smikkelmanjan",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-11-3012825489",
       "tournament": "Pauper Challenge 32",
       "date": "2025-11-30",
@@ -134,70 +164,7 @@
     {
       "site_name": "pauper-league-2025-11-289987",
       "tournament": "pauper-league-2025-11-289987",
-      "date": "",
-      "player": "smikkelmanjan",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-2710196",
-      "tournament": "pauper-league-2026-02-2710196",
-      "date": "",
-      "player": "smikkelmanjan",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-06-099081",
-      "tournament": "pauper-league-2025-06-099081",
-      "date": "",
-      "player": "smikkelmanjan",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-09-229535",
-      "tournament": "pauper-league-2025-09-229535",
-      "date": "",
-      "player": "smikkelmanjan",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-11-309987",
-      "tournament": "pauper-league-2025-11-309987",
-      "date": "",
+      "date": "2025-11-28",
       "player": "smikkelmanjan",
       "archetype": "Rally",
       "colors": [
@@ -212,12 +179,45 @@
     {
       "site_name": "pauper-league-2025-11-189750",
       "tournament": "pauper-league-2025-11-189750",
-      "date": "",
+      "date": "2025-11-18",
       "player": "smikkelmanjan",
       "archetype": "Gardens",
       "colors": [
         "B",
         "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-09-229535",
+      "tournament": "pauper-league-2025-09-229535",
+      "date": "2025-09-22",
+      "player": "smikkelmanjan",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-06-099081",
+      "tournament": "pauper-league-2025-06-099081",
+      "date": "2025-06-09",
+      "player": "smikkelmanjan",
+      "archetype": "Gardens",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,

@@ -5,24 +5,20 @@
   "stats": {
     "total_entries": 6,
     "league_trophies": 6,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 4,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": null,
+    "league_trophy_rank_yearly": 271,
     "league_trophy_rank_alltime": 424,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
     {
       "archetype": "U Faeries",
       "count": 2
-    },
-    {
-      "archetype": "GU",
-      "count": 1
     },
     {
       "archetype": "R Madness",
@@ -35,17 +31,20 @@
     {
       "archetype": "U Terror",
       "count": 1
+    },
+    {
+      "archetype": "GU",
+      "count": 1
     }
   ],
   "recent_entries": [
     {
-      "site_name": "pauper-league-2025-06-119366",
-      "tournament": "pauper-league-2025-06-119366",
-      "date": "",
+      "site_name": "pauper-league-2026-03-0310196",
+      "tournament": "pauper-league-2026-03-0310196",
+      "date": "2026-03-03",
       "player": "ulbabrabal",
-      "archetype": "",
+      "archetype": "U Faeries",
       "colors": [
-        "G",
         "U"
       ],
       "record": "5-0",
@@ -56,9 +55,25 @@
     {
       "site_name": "pauper-league-2026-02-1910196",
       "tournament": "pauper-league-2026-02-1910196",
-      "date": "",
+      "date": "2026-02-19",
       "player": "ulbabrabal",
       "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-0710196",
+      "tournament": "pauper-league-2026-02-0710196",
+      "date": "2026-02-07",
+      "player": "ulbabrabal",
+      "archetype": "U Terror",
       "colors": [
         "B",
         "R",
@@ -72,7 +87,7 @@
     {
       "site_name": "pauper-league-2026-02-0210196",
       "tournament": "pauper-league-2026-02-0210196",
-      "date": "",
+      "date": "2026-02-02",
       "player": "ulbabrabal",
       "archetype": "",
       "colors": [
@@ -85,25 +100,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-02-0710196",
-      "tournament": "pauper-league-2026-02-0710196",
-      "date": "",
-      "player": "ulbabrabal",
-      "archetype": "U Terror",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2025-09-0710196",
       "tournament": "pauper-league-2025-09-0710196",
-      "date": "",
+      "date": "2025-09-07",
       "player": "ulbabrabal",
       "archetype": "U Faeries",
       "colors": [
@@ -115,12 +114,13 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-03-0310196",
-      "tournament": "pauper-league-2026-03-0310196",
-      "date": "",
+      "site_name": "pauper-league-2025-06-119366",
+      "tournament": "pauper-league-2025-06-119366",
+      "date": "2025-06-11",
       "player": "ulbabrabal",
-      "archetype": "U Faeries",
+      "archetype": "",
       "colors": [
+        "G",
         "U"
       ],
       "record": "5-0",

@@ -5,17 +5,21 @@
   "stats": {
     "total_entries": 4,
     "league_trophies": 4,
-    "league_trophies_yearly": 1,
+    "league_trophies_yearly": 2,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 694,
-    "league_trophy_rank_alltime": 590,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 552,
+    "league_trophy_rank_alltime": 591,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
+    {
+      "archetype": "Jund",
+      "count": 1
+    },
     {
       "archetype": "Gardens",
       "count": 1
@@ -26,10 +30,6 @@
     },
     {
       "archetype": "Cawgate",
-      "count": 1
-    },
-    {
-      "archetype": "Jund",
       "count": 1
     }
   ],
@@ -50,9 +50,25 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-03-0810405",
+      "tournament": "pauper-league-2026-03-0810405",
+      "date": "2026-03-08",
+      "player": "raulramos",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2025-07-269366",
       "tournament": "pauper-league-2025-07-269366",
-      "date": "",
+      "date": "2025-07-26",
       "player": "raulramos",
       "archetype": "UB Terror",
       "colors": [
@@ -67,7 +83,7 @@
     {
       "site_name": "pauper-league-2025-05-139081",
       "tournament": "pauper-league-2025-05-139081",
-      "date": "",
+      "date": "2025-05-13",
       "player": "raulramos",
       "archetype": "Cawgate",
       "colors": [
@@ -75,22 +91,6 @@
         "R",
         "U",
         "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-0810405",
-      "tournament": "pauper-league-2026-03-0810405",
-      "date": "",
-      "player": "raulramos",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
       ],
       "record": "5-0",
       "final_rank": null,

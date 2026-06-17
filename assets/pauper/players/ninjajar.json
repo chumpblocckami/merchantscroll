@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 13,
     "league_trophies": 12,
-    "league_trophies_yearly": 3,
+    "league_trophies_yearly": 7,
     "challenge_wins": 3,
     "challenge_losses": 3,
     "irl_top8": 0,
     "challenge_win_pct": 50,
-    "league_trophy_rank_yearly": 219,
-    "league_trophy_rank_alltime": 168,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 123,
+    "league_trophy_rank_alltime": 169,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -33,15 +33,15 @@
       "count": 2
     },
     {
-      "archetype": "Familiars",
-      "count": 1
-    },
-    {
       "archetype": "Food Pestilence",
       "count": 1
     },
     {
       "archetype": "Ponza",
+      "count": 1
+    },
+    {
+      "archetype": "Familiars",
       "count": 1
     }
   ],
@@ -110,72 +110,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-09-189535",
-      "tournament": "pauper-league-2025-09-189535",
-      "date": "",
-      "player": "ninjajar",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-059987",
-      "tournament": "pauper-league-2026-01-059987",
-      "date": "",
-      "player": "ninjajar",
-      "archetype": "Cawgate",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-129987",
-      "tournament": "pauper-league-2026-01-129987",
-      "date": "",
-      "player": "ninjajar",
-      "archetype": "Cawgate",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-08-209535",
-      "tournament": "pauper-league-2025-08-209535",
-      "date": "",
-      "player": "ninjajar",
-      "archetype": "Ponza",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-03-2010405",
       "tournament": "pauper-league-2026-03-2010405",
-      "date": "",
+      "date": "2026-03-20",
       "player": "ninjajar",
       "archetype": "BG Fog",
       "colors": [
@@ -190,15 +127,15 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-07-229366",
-      "tournament": "pauper-league-2025-07-229366",
-      "date": "",
+      "site_name": "pauper-league-2026-01-129987",
+      "tournament": "pauper-league-2026-01-129987",
+      "date": "2026-01-12",
       "player": "ninjajar",
-      "archetype": "Spy",
+      "archetype": "Cawgate",
       "colors": [
-        "B",
-        "G",
-        "R"
+        "R",
+        "U",
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -208,7 +145,23 @@
     {
       "site_name": "pauper-league-2026-01-069987",
       "tournament": "pauper-league-2026-01-069987",
-      "date": "",
+      "date": "2026-01-06",
+      "player": "ninjajar",
+      "archetype": "Cawgate",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-059987",
+      "tournament": "pauper-league-2026-01-059987",
+      "date": "2026-01-05",
       "player": "ninjajar",
       "archetype": "Cawgate",
       "colors": [
@@ -224,7 +177,7 @@
     {
       "site_name": "pauper-league-2025-09-259750",
       "tournament": "pauper-league-2025-09-259750",
-      "date": "",
+      "date": "2025-09-25",
       "player": "ninjajar",
       "archetype": "Gardens",
       "colors": [
@@ -239,7 +192,54 @@
     {
       "site_name": "pauper-league-2025-09-259750",
       "tournament": "pauper-league-2025-09-259750",
-      "date": "",
+      "date": "2025-09-25",
+      "player": "ninjajar",
+      "archetype": "Spy",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-09-189535",
+      "tournament": "pauper-league-2025-09-189535",
+      "date": "2025-09-18",
+      "player": "ninjajar",
+      "archetype": "Gardens",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-08-209535",
+      "tournament": "pauper-league-2025-08-209535",
+      "date": "2025-08-20",
+      "player": "ninjajar",
+      "archetype": "Ponza",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-07-229366",
+      "tournament": "pauper-league-2025-07-229366",
+      "date": "2025-07-22",
       "player": "ninjajar",
       "archetype": "Spy",
       "colors": [

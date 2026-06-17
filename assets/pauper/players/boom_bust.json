@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 104,
     "league_trophies": 34,
-    "league_trophies_yearly": 3,
+    "league_trophies_yearly": 9,
     "challenge_wins": 275,
     "challenge_losses": 169,
     "irl_top8": 0,
     "challenge_win_pct": 62,
-    "league_trophy_rank_yearly": 180,
+    "league_trophy_rank_yearly": 84,
     "league_trophy_rank_alltime": 32,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -365,6 +365,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-02-0410196",
+      "tournament": "pauper-league-2026-02-0410196",
+      "date": "2026-02-04",
+      "player": "boom_bust",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-02-0112831750",
       "tournament": "Pauper Challenge 32",
       "date": "2026-02-01",
@@ -380,34 +395,19 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-01-2512830664",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-25",
+      "site_name": "pauper-league-2026-01-3010196",
+      "tournament": "pauper-league-2026-01-3010196",
+      "date": "2026-01-30",
       "player": "boom_bust",
       "archetype": "Rally",
       "colors": [
         "G",
         "R"
       ],
-      "record": "5-2",
-      "final_rank": 13,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-01-2312830630",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-23",
-      "player": "boom_bust",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-2",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     }
   ]
 }

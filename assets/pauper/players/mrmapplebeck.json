@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 8,
     "league_trophies": 8,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 2,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": null,
+    "league_trophy_rank_yearly": 524,
     "league_trophy_rank_alltime": 291,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -25,59 +25,28 @@
       "count": 2
     },
     {
-      "archetype": "Cawgate",
-      "count": 1
-    },
-    {
       "archetype": "Gardens",
       "count": 1
     },
     {
       "archetype": "Rally",
       "count": 1
+    },
+    {
+      "archetype": "Cawgate",
+      "count": 1
     }
   ],
   "recent_entries": [
     {
-      "site_name": "pauper-league-2025-07-019366",
-      "tournament": "pauper-league-2025-07-019366",
-      "date": "",
+      "site_name": "pauper-league-2026-01-169987",
+      "tournament": "pauper-league-2026-01-169987",
+      "date": "2026-01-16",
       "player": "mrmapplebeck",
-      "archetype": "UR Control",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-06-149366",
-      "tournament": "pauper-league-2025-06-149366",
-      "date": "",
-      "player": "mrmapplebeck",
-      "archetype": "UR Control",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-12-059987",
-      "tournament": "pauper-league-2025-12-059987",
-      "date": "",
-      "player": "mrmapplebeck",
-      "archetype": "BR Madness",
+      "archetype": "Gardens",
       "colors": [
         "B",
-        "R",
-        "U"
+        "G"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -87,7 +56,7 @@
     {
       "site_name": "pauper-league-2026-01-109987",
       "tournament": "pauper-league-2026-01-109987",
-      "date": "",
+      "date": "2026-01-10",
       "player": "mrmapplebeck",
       "archetype": "Cawgate",
       "colors": [
@@ -102,9 +71,24 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-11-299987",
-      "tournament": "pauper-league-2025-11-299987",
-      "date": "",
+      "site_name": "pauper-league-2025-12-159987",
+      "tournament": "pauper-league-2025-12-159987",
+      "date": "2025-12-15",
+      "player": "mrmapplebeck",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-12-059987",
+      "tournament": "pauper-league-2025-12-059987",
+      "date": "2025-12-05",
       "player": "mrmapplebeck",
       "archetype": "BR Madness",
       "colors": [
@@ -118,14 +102,15 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-01-169987",
-      "tournament": "pauper-league-2026-01-169987",
-      "date": "",
+      "site_name": "pauper-league-2025-11-299987",
+      "tournament": "pauper-league-2025-11-299987",
+      "date": "2025-11-29",
       "player": "mrmapplebeck",
-      "archetype": "Gardens",
+      "archetype": "BR Madness",
       "colors": [
         "B",
-        "G"
+        "R",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -133,9 +118,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-06-289366",
-      "tournament": "pauper-league-2025-06-289366",
-      "date": "",
+      "site_name": "pauper-league-2025-07-019366",
+      "tournament": "pauper-league-2025-07-019366",
+      "date": "2025-07-01",
       "player": "mrmapplebeck",
       "archetype": "UR Control",
       "colors": [
@@ -148,14 +133,29 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-12-159987",
-      "tournament": "pauper-league-2025-12-159987",
-      "date": "",
+      "site_name": "pauper-league-2025-06-289366",
+      "tournament": "pauper-league-2025-06-289366",
+      "date": "2025-06-28",
       "player": "mrmapplebeck",
-      "archetype": "Rally",
+      "archetype": "UR Control",
       "colors": [
-        "G",
-        "R"
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-06-149366",
+      "tournament": "pauper-league-2025-06-149366",
+      "date": "2025-06-14",
+      "player": "mrmapplebeck",
+      "archetype": "UR Control",
+      "colors": [
+        "R",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,

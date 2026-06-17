@@ -5,23 +5,23 @@
   "stats": {
     "total_entries": 4,
     "league_trophies": 3,
-    "league_trophies_yearly": 1,
+    "league_trophies_yearly": 3,
     "challenge_wins": 4,
     "challenge_losses": 3,
     "irl_top8": 0,
     "challenge_win_pct": 57,
-    "league_trophy_rank_yearly": 758,
-    "league_trophy_rank_alltime": 811,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 382,
+    "league_trophy_rank_alltime": 812,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
     {
-      "archetype": "Jund",
+      "archetype": "B Sacrifice",
       "count": 2
     },
     {
-      "archetype": "B Sacrifice",
+      "archetype": "Jund",
       "count": 2
     }
   ],
@@ -41,23 +41,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2025-12-0712825824",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-12-07",
-      "player": "toxicdraft",
-      "archetype": "B Sacrifice",
-      "colors": [
-        "B"
-      ],
-      "record": "4-3",
-      "final_rank": 31,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-02-0210196",
       "tournament": "pauper-league-2026-02-0210196",
-      "date": "",
+      "date": "2026-02-02",
       "player": "toxicdraft",
       "archetype": "Jund",
       "colors": [
@@ -73,7 +59,7 @@
     {
       "site_name": "pauper-league-2026-01-2210196",
       "tournament": "pauper-league-2026-01-2210196",
-      "date": "",
+      "date": "2026-01-22",
       "player": "toxicdraft",
       "archetype": "Jund",
       "colors": [
@@ -85,6 +71,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-12-0712825824",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-12-07",
+      "player": "toxicdraft",
+      "archetype": "B Sacrifice",
+      "colors": [
+        "B"
+      ],
+      "record": "4-3",
+      "final_rank": 31,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ]
 }

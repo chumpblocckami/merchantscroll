@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 10,
     "league_trophies": 10,
-    "league_trophies_yearly": 2,
+    "league_trophies_yearly": 7,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 290,
-    "league_trophy_rank_alltime": 211,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 118,
+    "league_trophy_rank_alltime": 212,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -25,15 +25,15 @@
       "count": 2
     },
     {
+      "archetype": "UB Terror",
+      "count": 1
+    },
+    {
       "archetype": "Pingers",
       "count": 1
     },
     {
       "archetype": "UB Faeries",
-      "count": 1
-    },
-    {
-      "archetype": "UB Terror",
       "count": 1
     }
   ],
@@ -71,90 +71,14 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-01-2510196",
-      "tournament": "pauper-league-2026-01-2510196",
-      "date": "",
-      "player": "in55lackey",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-02-2710196",
       "tournament": "pauper-league-2026-02-2710196",
-      "date": "",
+      "date": "2026-02-27",
       "player": "in55lackey",
       "archetype": "Rally",
       "colors": [
         "G",
         "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-099987",
-      "tournament": "pauper-league-2026-01-099987",
-      "date": "",
-      "player": "in55lackey",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-07-149366",
-      "tournament": "pauper-league-2025-07-149366",
-      "date": "",
-      "player": "in55lackey",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-12-099987",
-      "tournament": "pauper-league-2025-12-099987",
-      "date": "",
-      "player": "in55lackey",
-      "archetype": "Pingers",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-10-309750",
-      "tournament": "pauper-league-2025-10-309750",
-      "date": "",
-      "player": "in55lackey",
-      "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -164,7 +88,39 @@
     {
       "site_name": "pauper-league-2026-02-2010196",
       "tournament": "pauper-league-2026-02-2010196",
-      "date": "",
+      "date": "2026-02-20",
+      "player": "in55lackey",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-2510196",
+      "tournament": "pauper-league-2026-01-2510196",
+      "date": "2026-01-25",
+      "player": "in55lackey",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-099987",
+      "tournament": "pauper-league-2026-01-099987",
+      "date": "2026-01-09",
       "player": "in55lackey",
       "archetype": "Affinity",
       "colors": [
@@ -180,13 +136,57 @@
     {
       "site_name": "pauper-league-2026-01-029987",
       "tournament": "pauper-league-2026-01-029987",
-      "date": "",
+      "date": "2026-01-02",
       "player": "in55lackey",
       "archetype": "Affinity",
       "colors": [
         "B",
         "R",
         "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-12-099987",
+      "tournament": "pauper-league-2025-12-099987",
+      "date": "2025-12-09",
+      "player": "in55lackey",
+      "archetype": "Pingers",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-309750",
+      "tournament": "pauper-league-2025-10-309750",
+      "date": "2025-10-30",
+      "player": "in55lackey",
+      "archetype": "UB Faeries",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-07-149366",
+      "tournament": "pauper-league-2025-07-149366",
+      "date": "2025-07-14",
+      "player": "in55lackey",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,

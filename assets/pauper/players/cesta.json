@@ -10,9 +10,9 @@
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 451,
+    "league_trophy_rank_yearly": 691,
     "league_trophy_rank_alltime": 371,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,7 +21,11 @@
       "count": 2
     },
     {
-      "archetype": "Gardens",
+      "archetype": "Monsters",
+      "count": 1
+    },
+    {
+      "archetype": "RG Storm",
       "count": 1
     },
     {
@@ -29,11 +33,7 @@
       "count": 1
     },
     {
-      "archetype": "Monsters",
-      "count": 1
-    },
-    {
-      "archetype": "RG Storm",
+      "archetype": "Gardens",
       "count": 1
     }
   ],
@@ -55,14 +55,16 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-06-079081",
-      "tournament": "pauper-league-2025-06-079081",
-      "date": "",
+      "site_name": "pauper-league-2025-12-119987",
+      "tournament": "pauper-league-2025-12-119987",
+      "date": "2025-12-11",
       "player": "Cesta",
-      "archetype": "Gardens",
+      "archetype": "RG Storm",
       "colors": [
-        "B",
-        "G"
+        "G",
+        "R",
+        "U",
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -72,7 +74,7 @@
     {
       "site_name": "pauper-league-2025-06-269366",
       "tournament": "pauper-league-2025-06-269366",
-      "date": "",
+      "date": "2025-06-26",
       "player": "Cesta",
       "archetype": "U Terror",
       "colors": [
@@ -87,7 +89,7 @@
     {
       "site_name": "pauper-league-2025-06-239366",
       "tournament": "pauper-league-2025-06-239366",
-      "date": "",
+      "date": "2025-06-23",
       "player": "Cesta",
       "archetype": "U Terror",
       "colors": [
@@ -102,7 +104,7 @@
     {
       "site_name": "pauper-league-2025-06-209366",
       "tournament": "pauper-league-2025-06-209366",
-      "date": "",
+      "date": "2025-06-20",
       "player": "Cesta",
       "archetype": "Monsters",
       "colors": [
@@ -117,16 +119,14 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-12-119987",
-      "tournament": "pauper-league-2025-12-119987",
-      "date": "",
+      "site_name": "pauper-league-2025-06-079081",
+      "tournament": "pauper-league-2025-06-079081",
+      "date": "2025-06-07",
       "player": "Cesta",
-      "archetype": "RG Storm",
+      "archetype": "Gardens",
       "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
+        "B",
+        "G"
       ],
       "record": "5-0",
       "final_rank": null,

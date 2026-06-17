@@ -5,27 +5,27 @@
   "stats": {
     "total_entries": 7,
     "league_trophies": 7,
-    "league_trophies_yearly": 1,
+    "league_trophies_yearly": 6,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 389,
+    "league_trophy_rank_yearly": 129,
     "league_trophy_rank_alltime": 314,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
-    {
-      "archetype": "Elves",
-      "count": 2
-    },
     {
       "archetype": "Cawgate",
       "count": 2
     },
     {
       "archetype": "UB Terror",
+      "count": 2
+    },
+    {
+      "archetype": "Elves",
       "count": 2
     },
     {
@@ -51,61 +51,15 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-01-2510196",
-      "tournament": "pauper-league-2026-01-2510196",
-      "date": "",
-      "player": "_epinephrine",
-      "archetype": "Elves",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-01-3010196",
       "tournament": "pauper-league-2026-01-3010196",
-      "date": "",
+      "date": "2026-01-30",
       "player": "_epinephrine",
       "archetype": "Cawgate",
       "colors": [
         "R",
         "U",
         "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-12-269987",
-      "tournament": "pauper-league-2025-12-269987",
-      "date": "",
-      "player": "_epinephrine",
-      "archetype": "UB Terror",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-059987",
-      "tournament": "pauper-league-2026-01-059987",
-      "date": "",
-      "player": "_epinephrine",
-      "archetype": "UB Terror",
-      "colors": [
-        "B",
-        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -115,7 +69,7 @@
     {
       "site_name": "pauper-league-2026-01-2810196",
       "tournament": "pauper-league-2026-01-2810196",
-      "date": "",
+      "date": "2026-01-28",
       "player": "_epinephrine",
       "archetype": "Cawgate",
       "colors": [
@@ -129,14 +83,60 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-01-209987",
-      "tournament": "pauper-league-2026-01-209987",
-      "date": "",
+      "site_name": "pauper-league-2026-01-2510196",
+      "tournament": "pauper-league-2026-01-2510196",
+      "date": "2026-01-25",
       "player": "_epinephrine",
       "archetype": "Elves",
       "colors": [
         "B",
         "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-209987",
+      "tournament": "pauper-league-2026-01-209987",
+      "date": "2026-01-20",
+      "player": "_epinephrine",
+      "archetype": "Elves",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-059987",
+      "tournament": "pauper-league-2026-01-059987",
+      "date": "2026-01-05",
+      "player": "_epinephrine",
+      "archetype": "UB Terror",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-12-269987",
+      "tournament": "pauper-league-2025-12-269987",
+      "date": "2025-12-26",
+      "player": "_epinephrine",
+      "archetype": "UB Terror",
+      "colors": [
+        "B",
+        "R",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,

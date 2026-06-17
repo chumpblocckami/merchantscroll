@@ -6,6 +6,8 @@ import json
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from .utils import canonical_starttime
+
 RAW_DIR = Path("assets/pauper/raw")
 PLAYERS_INDEX_PATH = Path("assets/pauper/players.json")
 PROFILES_DIR = Path("assets/pauper/players")
@@ -91,7 +93,9 @@ def rebuild_player_profiles(
         site_name = data.get("site_name", path.stem)
         tournament_type = _tournament_type(site_name)
         tournament_name = data.get("description", site_name)
-        date = (data.get("starttime") or "")[:10]
+        date = canonical_starttime(
+            site_name, data.get("starttime", "")
+        )[:10]
         year = date[:4] if len(date) >= 4 else ""
         source = data.get("source", "pauperwave" if site_name.startswith("pauperwave-") else "mtgo")
 

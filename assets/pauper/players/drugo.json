@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 31,
     "league_trophies": 10,
-    "league_trophies_yearly": 6,
+    "league_trophies_yearly": 8,
     "challenge_wins": 82,
     "challenge_losses": 46,
     "irl_top8": 0,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 63,
-    "league_trophy_rank_alltime": 204,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 96,
+    "league_trophy_rank_alltime": 205,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -33,11 +33,19 @@
       "count": 1
     },
     {
-      "archetype": "Walls",
+      "archetype": "Dredge",
       "count": 1
     },
     {
-      "archetype": "Ponza",
+      "archetype": "U Terror",
+      "count": 1
+    },
+    {
+      "archetype": "Elves",
+      "count": 1
+    },
+    {
+      "archetype": "BW Refurbished",
       "count": 1
     },
     {
@@ -45,15 +53,7 @@
       "count": 1
     },
     {
-      "archetype": "Affinity",
-      "count": 1
-    },
-    {
       "archetype": "Rally",
-      "count": 1
-    },
-    {
-      "archetype": "Monsters",
       "count": 1
     }
   ],
@@ -279,6 +279,22 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-03-0910405",
+      "tournament": "pauper-league-2026-03-0910405",
+      "date": "2026-03-09",
+      "player": "Drugo",
+      "archetype": "UB Terror",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-01-1012829365",
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-10",
@@ -313,6 +329,23 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-01-079987",
+      "tournament": "pauper-league-2026-01-079987",
+      "date": "2026-01-07",
+      "player": "Drugo",
+      "archetype": "Spy",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-rc-super-qualifier-2025-12-2812828040",
       "tournament": "Pauper RC Super Qualifier",
       "date": "2025-12-28",
@@ -342,6 +375,22 @@
       "final_rank": 3,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-12-079987",
+      "tournament": "pauper-league-2025-12-079987",
+      "date": "2025-12-07",
+      "player": "Drugo",
+      "archetype": "UB Terror",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-12-0612825806",
@@ -376,6 +425,22 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-12-039987",
+      "tournament": "pauper-league-2025-12-039987",
+      "date": "2025-12-03",
+      "player": "Drugo",
+      "archetype": "UB Terror",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-11-3012825489",
       "tournament": "Pauper Challenge 32",
       "date": "2025-11-30",
@@ -388,69 +453,6 @@
       ],
       "record": "9-0",
       "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-10-2512821688",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-10-25",
-      "player": "Drugo",
-      "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-07-1312802837",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-07-13",
-      "player": "Drugo",
-      "archetype": "Dredge",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 25,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-06-2712799984",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-06-27",
-      "player": "Drugo",
-      "archetype": "U Faeries",
-      "colors": [
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-05-2512782331",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-05-25",
-      "player": "Drugo",
-      "archetype": "Walls",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-3",
-      "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
     }

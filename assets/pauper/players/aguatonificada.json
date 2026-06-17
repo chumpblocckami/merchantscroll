@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 14,
     "league_trophies": 5,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 1,
     "challenge_wins": 39,
     "challenge_losses": 23,
     "irl_top8": 0,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": null,
+    "league_trophy_rank_yearly": 614,
     "league_trophy_rank_alltime": 430,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,19 +21,34 @@
       "count": 11
     },
     {
-      "archetype": "GR",
-      "count": 1
-    },
-    {
       "archetype": "Flicker Tron",
       "count": 1
     },
     {
       "archetype": "Whale Combo",
       "count": 1
+    },
+    {
+      "archetype": "GR",
+      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-02-0610196",
+      "tournament": "pauper-league-2026-02-0610196",
+      "date": "2026-02-06",
+      "player": "AguaTonificada",
+      "archetype": "Whale Combo",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-01-1612830033",
       "tournament": "Pauper Challenge 32",
@@ -51,6 +66,23 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-10-289750",
+      "tournament": "pauper-league-2025-10-289750",
+      "date": "2025-10-28",
+      "player": "AguaTonificada",
+      "archetype": "Dredge",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-08-2212812149",
@@ -153,6 +185,22 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-06-239366",
+      "tournament": "pauper-league-2025-06-239366",
+      "date": "2025-06-23",
+      "player": "AguaTonificada",
+      "archetype": "Dredge",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-06-2012798157",
       "tournament": "Pauper Challenge 32",
       "date": "2025-06-20",
@@ -187,40 +235,9 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2025-02-159535",
-      "tournament": "pauper-league-2025-02-159535",
-      "date": "",
-      "player": "AguaTonificada",
-      "archetype": "",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-06-239366",
-      "tournament": "pauper-league-2025-06-239366",
-      "date": "",
-      "player": "AguaTonificada",
-      "archetype": "Dredge",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2025-05-239081",
       "tournament": "pauper-league-2025-05-239081",
-      "date": "",
+      "date": "2025-05-23",
       "player": "AguaTonificada",
       "archetype": "Dredge",
       "colors": [
@@ -236,31 +253,14 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-10-289750",
-      "tournament": "pauper-league-2025-10-289750",
-      "date": "",
+      "site_name": "pauper-league-2025-02-159535",
+      "tournament": "pauper-league-2025-02-159535",
+      "date": "2025-02-15",
       "player": "AguaTonificada",
-      "archetype": "Dredge",
+      "archetype": "",
       "colors": [
-        "B",
         "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-0610196",
-      "tournament": "pauper-league-2026-02-0610196",
-      "date": "",
-      "player": "AguaTonificada",
-      "archetype": "Whale Combo",
-      "colors": [
-        "B",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,

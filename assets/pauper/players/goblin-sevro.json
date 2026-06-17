@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 4,
     "league_trophies": 2,
-    "league_trophies_yearly": 1,
+    "league_trophies_yearly": 2,
     "challenge_wins": 9,
     "challenge_losses": 5,
     "irl_top8": 0,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 546,
-    "league_trophy_rank_alltime": 932,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 465,
+    "league_trophy_rank_alltime": 933,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,11 +21,11 @@
       "count": 2
     },
     {
-      "archetype": "Cawgate",
+      "archetype": "R Madness",
       "count": 1
     },
     {
-      "archetype": "R Madness",
+      "archetype": "Cawgate",
       "count": 1
     }
   ],
@@ -63,6 +63,22 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-02-0310196",
+      "tournament": "pauper-league-2026-02-0310196",
+      "date": "2026-02-03",
+      "player": "goblin-sevro",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-01-1112829384",
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-11",
@@ -77,22 +93,6 @@
       "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-02-0310196",
-      "tournament": "pauper-league-2026-02-0310196",
-      "date": "",
-      "player": "goblin-sevro",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

@@ -12,7 +12,7 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": 1825,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -29,11 +29,11 @@
       "count": 1
     },
     {
-      "archetype": "Food Pestilence",
+      "archetype": "R Madness",
       "count": 1
     },
     {
-      "archetype": "R Madness",
+      "archetype": "Food Pestilence",
       "count": 1
     }
   ],
@@ -68,6 +68,23 @@
       "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-08-169535",
+      "tournament": "pauper-league-2025-08-169535",
+      "date": "2025-08-16",
+      "player": "totemsilence",
+      "archetype": "Spy",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-showcase-qualifier-2025-08-1612810184",
@@ -229,23 +246,6 @@
       "final_rank": 4,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-08-169535",
-      "tournament": "pauper-league-2025-08-169535",
-      "date": "",
-      "player": "totemsilence",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 9,
     "league_trophies": 2,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 1,
     "challenge_wins": 36,
     "challenge_losses": 12,
     "irl_top8": 0,
     "challenge_win_pct": 75,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 1054,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 1006,
+    "league_trophy_rank_alltime": 1056,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,7 +21,7 @@
       "count": 5
     },
     {
-      "archetype": "U",
+      "archetype": "UG Fog",
       "count": 3
     },
     {
@@ -76,6 +76,20 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-01-029987",
+      "tournament": "pauper-league-2026-01-029987",
+      "date": "2026-01-02",
+      "player": "renaar",
+      "archetype": "W Heroic",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-10-1712820702",
       "tournament": "Pauper Challenge 32",
       "date": "2025-10-17",
@@ -108,7 +122,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-07-12",
       "player": "renaar",
-      "archetype": "",
+      "archetype": "UG Fog",
       "colors": [
         "U"
       ],
@@ -118,11 +132,25 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-07-129366",
+      "tournament": "pauper-league-2025-07-129366",
+      "date": "2025-07-12",
+      "player": "renaar",
+      "archetype": "UG Fog",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-07-1112802796",
       "tournament": "Pauper Challenge 32",
       "date": "2025-07-11",
       "player": "renaar",
-      "archetype": "",
+      "archetype": "UG Fog",
       "colors": [
         "U"
       ],
@@ -130,34 +158,6 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-07-129366",
-      "tournament": "pauper-league-2025-07-129366",
-      "date": "",
-      "player": "renaar",
-      "archetype": "",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-029987",
-      "tournament": "pauper-league-2026-01-029987",
-      "date": "",
-      "player": "renaar",
-      "archetype": "W Heroic",
-      "colors": [
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

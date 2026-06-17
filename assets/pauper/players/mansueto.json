@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 10,
     "league_trophies": 6,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 5,
     "challenge_wins": 11,
     "challenge_losses": 8,
     "irl_top8": 0,
     "challenge_win_pct": 58,
-    "league_trophy_rank_yearly": null,
+    "league_trophy_rank_yearly": 188,
     "league_trophy_rank_alltime": 401,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -29,11 +29,11 @@
       "count": 2
     },
     {
-      "archetype": "White Weenie",
+      "archetype": "UB Control",
       "count": 1
     },
     {
-      "archetype": "UB Control",
+      "archetype": "White Weenie",
       "count": 1
     }
   ],
@@ -55,6 +55,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-03-1110405",
+      "tournament": "pauper-league-2026-03-1110405",
+      "date": "2026-03-11",
+      "player": "Mansueto",
+      "archetype": "UB Control",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-rc-qualifier-2026-02-2212833504",
       "tournament": "Pauper RC Qualifier",
       "date": "2026-02-22",
@@ -73,6 +88,72 @@
       "type": "other"
     },
     {
+      "site_name": "pauper-league-2026-02-2010196",
+      "tournament": "pauper-league-2026-02-2010196",
+      "date": "2026-02-20",
+      "player": "Mansueto",
+      "archetype": "Elves",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-1910196",
+      "tournament": "pauper-league-2026-02-1910196",
+      "date": "2026-02-19",
+      "player": "Mansueto",
+      "archetype": "Elves",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-2510196",
+      "tournament": "pauper-league-2026-01-2510196",
+      "date": "2026-01-25",
+      "player": "Mansueto",
+      "archetype": "Dredge",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-059987",
+      "tournament": "pauper-league-2026-01-059987",
+      "date": "2026-01-05",
+      "player": "Mansueto",
+      "archetype": "Dredge",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-09-2812816552",
       "tournament": "Pauper Challenge 32",
       "date": "2025-09-28",
@@ -89,6 +170,22 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-06-099081",
+      "tournament": "pauper-league-2025-06-099081",
+      "date": "2025-06-09",
+      "player": "Mansueto",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-05-0412774521",
       "tournament": "Pauper Challenge 32",
       "date": "2025-05-04",
@@ -103,103 +200,6 @@
       "final_rank": 22,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-01-2510196",
-      "tournament": "pauper-league-2026-01-2510196",
-      "date": "",
-      "player": "Mansueto",
-      "archetype": "Dredge",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-06-099081",
-      "tournament": "pauper-league-2025-06-099081",
-      "date": "",
-      "player": "Mansueto",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-1110405",
-      "tournament": "pauper-league-2026-03-1110405",
-      "date": "",
-      "player": "Mansueto",
-      "archetype": "UB Control",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-1910196",
-      "tournament": "pauper-league-2026-02-1910196",
-      "date": "",
-      "player": "Mansueto",
-      "archetype": "Elves",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-2010196",
-      "tournament": "pauper-league-2026-02-2010196",
-      "date": "",
-      "player": "Mansueto",
-      "archetype": "Elves",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-059987",
-      "tournament": "pauper-league-2026-01-059987",
-      "date": "",
-      "player": "Mansueto",
-      "archetype": "Dredge",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

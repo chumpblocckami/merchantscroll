@@ -12,7 +12,7 @@
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": 760,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -29,15 +29,15 @@
       "count": 4
     },
     {
-      "archetype": "White Weenie",
-      "count": 3
-    },
-    {
       "archetype": "White Weennie",
       "count": 3
     },
     {
-      "archetype": "UB Terror",
+      "archetype": "White Weenie",
+      "count": 3
+    },
+    {
+      "archetype": "B Sacrifice",
       "count": 2
     },
     {
@@ -45,11 +45,11 @@
       "count": 2
     },
     {
-      "archetype": "B Sacrifice",
+      "archetype": "UB Terror",
       "count": 2
     },
     {
-      "archetype": "BW Refurbished",
+      "archetype": "U Faeries",
       "count": 1
     },
     {
@@ -393,6 +393,20 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-08-019535",
+      "tournament": "pauper-league-2025-08-019535",
+      "date": "2025-08-01",
+      "player": "oskiyaa",
+      "archetype": "U Faeries",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-07-0512801657",
       "tournament": "Pauper Challenge 32",
       "date": "2025-07-05",
@@ -404,21 +418,6 @@
       ],
       "record": "4-2",
       "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-07-0412801643",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-07-04",
-      "player": "oskiyaa",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "3-2",
-      "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
     }

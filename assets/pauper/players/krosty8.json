@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 5,
     "league_trophies": 5,
-    "league_trophies_yearly": 3,
+    "league_trophies_yearly": 4,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 207,
+    "league_trophy_rank_yearly": 242,
     "league_trophy_rank_alltime": 462,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,15 +21,15 @@
       "count": 2
     },
     {
-      "archetype": "UB Faeries",
-      "count": 1
-    },
-    {
       "archetype": "Monsters",
       "count": 1
     },
     {
       "archetype": "U Terror",
+      "count": 1
+    },
+    {
+      "archetype": "UB Faeries",
       "count": 1
     }
   ],
@@ -82,14 +82,15 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-12-189987",
-      "tournament": "pauper-league-2025-12-189987",
-      "date": "",
+      "site_name": "pauper-league-2026-03-0210196",
+      "tournament": "pauper-league-2026-03-0210196",
+      "date": "2026-03-02",
       "player": "krosty8",
-      "archetype": "Monsters",
+      "archetype": "UB Terror",
       "colors": [
-        "G",
-        "R"
+        "B",
+        "R",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -97,15 +98,14 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-03-0210196",
-      "tournament": "pauper-league-2026-03-0210196",
-      "date": "",
+      "site_name": "pauper-league-2025-12-189987",
+      "tournament": "pauper-league-2025-12-189987",
+      "date": "2025-12-18",
       "player": "krosty8",
-      "archetype": "UB Terror",
+      "archetype": "Monsters",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "G",
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,

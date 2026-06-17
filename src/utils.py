@@ -18,6 +18,21 @@ def extract_date(url):
     return match.group(1) if match else "0000-00-00"
 
 
+def canonical_starttime(site_name: str, starttime: str) -> str:
+    """Return the canonical calendar date for a tournament.
+
+    MTGO league pages report *starttime* as the last publish date, which
+    drifts as new decks are submitted.  The league week is encoded in
+    *site_name* (e.g. ``pauper-league-2026-06-1710636``), so we prefer
+    that date for leagues.
+    """
+    if "-league-" in site_name:
+        url_date = extract_date(site_name)
+        if url_date != "0000-00-00":
+            return url_date
+    return starttime or ""
+
+
 def enrich_challenge_results(tournament_data: dict) -> dict:
     """Attach win/loss record and final rank to each challenge decklist.
 
@@ -105,6 +120,10 @@ def minify_tournament_data(data: dict) -> dict:
         decklists.append(minified_deck)
 
     minified["decklists"] = decklists
+    if minified["site_name"]:
+        minified["starttime"] = canonical_starttime(
+            minified["site_name"], minified["starttime"]
+        )
     return minified
 
 

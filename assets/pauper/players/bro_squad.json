@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 6,
     "league_trophies": 4,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 2,
     "challenge_wins": 6,
     "challenge_losses": 6,
     "irl_top8": 0,
     "challenge_win_pct": 50,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 521,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 420,
+    "league_trophy_rank_alltime": 522,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -31,6 +31,36 @@
   ],
   "recent_entries": [
     {
+      "site_name": "pauper-league-2026-02-1810196",
+      "tournament": "pauper-league-2026-02-1810196",
+      "date": "2026-02-18",
+      "player": "bro_squad",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-0510196",
+      "tournament": "pauper-league-2026-02-0510196",
+      "date": "2026-02-05",
+      "player": "bro_squad",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-02-0112831750",
       "tournament": "Pauper Challenge 32",
       "date": "2026-02-01",
@@ -47,6 +77,36 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-07-279366",
+      "tournament": "pauper-league-2025-07-279366",
+      "date": "2025-07-27",
+      "player": "bro_squad",
+      "archetype": "UB Terror",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-07-119366",
+      "tournament": "pauper-league-2025-07-119366",
+      "date": "2025-07-11",
+      "player": "bro_squad",
+      "archetype": "UB Terror",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-06-0112782673",
       "tournament": "Pauper Challenge 32",
       "date": "2025-06-01",
@@ -60,66 +120,6 @@
       "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-02-0510196",
-      "tournament": "pauper-league-2026-02-0510196",
-      "date": "",
-      "player": "bro_squad",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-07-119366",
-      "tournament": "pauper-league-2025-07-119366",
-      "date": "",
-      "player": "bro_squad",
-      "archetype": "UB Terror",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-07-279366",
-      "tournament": "pauper-league-2025-07-279366",
-      "date": "",
-      "player": "bro_squad",
-      "archetype": "UB Terror",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-1810196",
-      "tournament": "pauper-league-2026-02-1810196",
-      "date": "",
-      "player": "bro_squad",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

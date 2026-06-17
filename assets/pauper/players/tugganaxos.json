@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 18,
     "league_trophies": 14,
-    "league_trophies_yearly": 6,
+    "league_trophies_yearly": 10,
     "challenge_wins": 16,
     "challenge_losses": 10,
     "irl_top8": 0,
     "challenge_win_pct": 62,
-    "league_trophy_rank_yearly": 72,
+    "league_trophy_rank_yearly": 81,
     "league_trophy_rank_alltime": 144,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -29,23 +29,11 @@
       "count": 2
     },
     {
+      "archetype": "UB Faeries",
+      "count": 1
+    },
+    {
       "archetype": "Affinity",
-      "count": 1
-    },
-    {
-      "archetype": "Monsters",
-      "count": 1
-    },
-    {
-      "archetype": "Food Pestilence",
-      "count": 1
-    },
-    {
-      "archetype": "Gardens",
-      "count": 1
-    },
-    {
-      "archetype": "Elves",
       "count": 1
     },
     {
@@ -53,7 +41,19 @@
       "count": 1
     },
     {
-      "archetype": "UB Faeries",
+      "archetype": "Elves",
+      "count": 1
+    },
+    {
+      "archetype": "Food Pestilence",
+      "count": 1
+    },
+    {
+      "archetype": "Monsters",
+      "count": 1
+    },
+    {
+      "archetype": "Gardens",
       "count": 1
     }
   ],
@@ -186,6 +186,66 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-02-2610196",
+      "tournament": "pauper-league-2026-02-2610196",
+      "date": "2026-02-26",
+      "player": "TuggaNaxos",
+      "archetype": "Jund Gardens",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-159987",
+      "tournament": "pauper-league-2026-01-159987",
+      "date": "2026-01-15",
+      "player": "TuggaNaxos",
+      "archetype": "Food Pestilence",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-069987",
+      "tournament": "pauper-league-2026-01-069987",
+      "date": "2026-01-06",
+      "player": "TuggaNaxos",
+      "archetype": "UR Control",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-049987",
+      "tournament": "pauper-league-2026-01-049987",
+      "date": "2026-01-04",
+      "player": "TuggaNaxos",
+      "archetype": "Elves",
+      "colors": [
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-07-2512804874",
       "tournament": "Pauper Challenge 32",
       "date": "2025-07-25",
@@ -218,15 +278,28 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-02-2610196",
-      "tournament": "pauper-league-2026-02-2610196",
-      "date": "",
+      "site_name": "pauper-league-2025-06-139366",
+      "tournament": "pauper-league-2025-06-139366",
+      "date": "2025-06-13",
       "player": "TuggaNaxos",
-      "archetype": "Jund Gardens",
+      "archetype": "BW Refurbished",
       "colors": [
         "B",
-        "G",
-        "R"
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-06-069081",
+      "tournament": "pauper-league-2025-06-069081",
+      "date": "2025-06-06",
+      "player": "TuggaNaxos",
+      "archetype": "Gardens",
+      "colors": [
+        "B"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -236,7 +309,7 @@
     {
       "site_name": "pauper-league-2025-05-179081",
       "tournament": "pauper-league-2025-05-179081",
-      "date": "",
+      "date": "2025-05-17",
       "player": "TuggaNaxos",
       "archetype": "Monsters",
       "colors": [
@@ -249,87 +322,14 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-01-159987",
-      "tournament": "pauper-league-2026-01-159987",
-      "date": "",
-      "player": "TuggaNaxos",
-      "archetype": "Food Pestilence",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-06-069081",
-      "tournament": "pauper-league-2025-06-069081",
-      "date": "",
-      "player": "TuggaNaxos",
-      "archetype": "Gardens",
-      "colors": [
-        "B"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-049987",
-      "tournament": "pauper-league-2026-01-049987",
-      "date": "",
-      "player": "TuggaNaxos",
-      "archetype": "Elves",
-      "colors": [
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-069987",
-      "tournament": "pauper-league-2026-01-069987",
-      "date": "",
-      "player": "TuggaNaxos",
-      "archetype": "UR Control",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2025-05-119081",
       "tournament": "pauper-league-2025-05-119081",
-      "date": "",
+      "date": "2025-05-11",
       "player": "TuggaNaxos",
       "archetype": "UB Faeries",
       "colors": [
         "B",
         "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-06-139366",
-      "tournament": "pauper-league-2025-06-139366",
-      "date": "",
-      "player": "TuggaNaxos",
-      "archetype": "BW Refurbished",
-      "colors": [
-        "B",
-        "W"
       ],
       "record": "5-0",
       "final_rank": null,

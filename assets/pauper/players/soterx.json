@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 5,
     "league_trophies": 4,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 1,
     "challenge_wins": 4,
     "challenge_losses": 3,
     "irl_top8": 0,
     "challenge_win_pct": 57,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 602,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 1045,
+    "league_trophy_rank_alltime": 603,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -21,7 +21,7 @@
       "count": 2
     },
     {
-      "archetype": "Jund",
+      "archetype": "UB Terror",
       "count": 1
     },
     {
@@ -29,11 +29,59 @@
       "count": 1
     },
     {
-      "archetype": "UB Terror",
+      "archetype": "Jund",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-01-2210196",
+      "tournament": "pauper-league-2026-01-2210196",
+      "date": "2026-01-22",
+      "player": "SoterX",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-11-189750",
+      "tournament": "pauper-league-2025-11-189750",
+      "date": "2025-11-18",
+      "player": "SoterX",
+      "archetype": "Naya Gates",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-11-179750",
+      "tournament": "pauper-league-2025-11-179750",
+      "date": "2025-11-17",
+      "player": "SoterX",
+      "archetype": "Naya Gates",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-special-2025-11-1412824408",
       "tournament": "Pauper Challenge 32 Special",
@@ -50,57 +98,9 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2025-11-179750",
-      "tournament": "pauper-league-2025-11-179750",
-      "date": "",
-      "player": "SoterX",
-      "archetype": "Naya Gates",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-2210196",
-      "tournament": "pauper-league-2026-01-2210196",
-      "date": "",
-      "player": "SoterX",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-11-189750",
-      "tournament": "pauper-league-2025-11-189750",
-      "date": "",
-      "player": "SoterX",
-      "archetype": "Naya Gates",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2025-05-139081",
       "tournament": "pauper-league-2025-05-139081",
-      "date": "",
+      "date": "2025-05-13",
       "player": "SoterX",
       "archetype": "UB Faeries",
       "colors": [

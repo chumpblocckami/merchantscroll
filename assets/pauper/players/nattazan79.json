@@ -5,23 +5,23 @@
   "stats": {
     "total_entries": 10,
     "league_trophies": 7,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 1,
     "challenge_wins": 9,
     "challenge_losses": 10,
     "irl_top8": 0,
     "challenge_win_pct": 47,
-    "league_trophy_rank_yearly": null,
+    "league_trophy_rank_yearly": 951,
     "league_trophy_rank_alltime": 338,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
     {
-      "archetype": "Rally",
+      "archetype": "Gardens",
       "count": 2
     },
     {
-      "archetype": "Gardens",
+      "archetype": "Rally",
       "count": 2
     },
     {
@@ -29,11 +29,7 @@
       "count": 1
     },
     {
-      "archetype": "Spy",
-      "count": 1
-    },
-    {
-      "archetype": "UB Terror",
+      "archetype": "Jund",
       "count": 1
     },
     {
@@ -45,11 +41,29 @@
       "count": 1
     },
     {
-      "archetype": "Jund",
+      "archetype": "Spy",
+      "count": 1
+    },
+    {
+      "archetype": "UB Terror",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-02-0810196",
+      "tournament": "pauper-league-2026-02-0810196",
+      "date": "2026-02-08",
+      "player": "NattaZan79",
+      "archetype": "U Faeries",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2025-10-2512821688",
       "tournament": "Pauper Challenge 32",
@@ -66,6 +80,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-10-189750",
+      "tournament": "pauper-league-2025-10-189750",
+      "date": "2025-10-18",
+      "player": "NattaZan79",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-10-1812820716",
       "tournament": "Pauper Challenge 32",
       "date": "2025-10-18",
@@ -80,6 +109,22 @@
       "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-09-219535",
+      "tournament": "pauper-league-2025-09-219535",
+      "date": "2025-09-21",
+      "player": "NattaZan79",
+      "archetype": "Esper Affinity",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-08-2412812181",
@@ -99,7 +144,7 @@
     {
       "site_name": "pauper-league-2025-06-199366",
       "tournament": "pauper-league-2025-06-199366",
-      "date": "",
+      "date": "2025-06-19",
       "player": "NattaZan79",
       "archetype": "UB Terror",
       "colors": [
@@ -112,38 +157,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-02-0810196",
-      "tournament": "pauper-league-2026-02-0810196",
-      "date": "",
-      "player": "NattaZan79",
-      "archetype": "U Faeries",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-05-059081",
-      "tournament": "pauper-league-2025-05-059081",
-      "date": "",
-      "player": "NattaZan79",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2025-06-089081",
       "tournament": "pauper-league-2025-06-089081",
-      "date": "",
+      "date": "2025-06-08",
       "player": "NattaZan79",
       "archetype": "Gardens",
       "colors": [
@@ -155,25 +171,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-09-219535",
-      "tournament": "pauper-league-2025-09-219535",
-      "date": "",
-      "player": "NattaZan79",
-      "archetype": "Esper Affinity",
-      "colors": [
-        "B",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2025-05-139081",
       "tournament": "pauper-league-2025-05-139081",
-      "date": "",
+      "date": "2025-05-13",
       "player": "NattaZan79",
       "archetype": "Jund",
       "colors": [
@@ -187,9 +187,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-10-189750",
-      "tournament": "pauper-league-2025-10-189750",
-      "date": "",
+      "site_name": "pauper-league-2025-05-059081",
+      "tournament": "pauper-league-2025-05-059081",
+      "date": "2025-05-05",
       "player": "NattaZan79",
       "archetype": "Rally",
       "colors": [

@@ -5,23 +5,23 @@
   "stats": {
     "total_entries": 5,
     "league_trophies": 4,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 1,
     "challenge_wins": 3,
     "challenge_losses": 3,
     "irl_top8": 0,
     "challenge_win_pct": 50,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 549,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 809,
+    "league_trophy_rank_alltime": 550,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
     {
-      "archetype": "White Weenie",
+      "archetype": "Familiars",
       "count": 2
     },
     {
-      "archetype": "Familiars",
+      "archetype": "White Weenie",
       "count": 2
     },
     {
@@ -45,29 +45,12 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2025-05-089081",
-      "tournament": "pauper-league-2025-05-089081",
-      "date": "",
+      "site_name": "pauper-league-2026-03-1810405",
+      "tournament": "pauper-league-2026-03-1810405",
+      "date": "2026-03-18",
       "player": "giovanimurakami",
-      "archetype": "BR Madness",
+      "archetype": "White Weenie",
       "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-10-029750",
-      "tournament": "pauper-league-2025-10-029750",
-      "date": "",
-      "player": "giovanimurakami",
-      "archetype": "Familiars",
-      "colors": [
-        "U",
         "W"
       ],
       "record": "5-0",
@@ -78,7 +61,7 @@
     {
       "site_name": "pauper-league-2025-10-059750",
       "tournament": "pauper-league-2025-10-059750",
-      "date": "",
+      "date": "2025-10-05",
       "player": "giovanimurakami",
       "archetype": "Familiars",
       "colors": [
@@ -91,13 +74,30 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-03-1810405",
-      "tournament": "pauper-league-2026-03-1810405",
-      "date": "",
+      "site_name": "pauper-league-2025-10-029750",
+      "tournament": "pauper-league-2025-10-029750",
+      "date": "2025-10-02",
       "player": "giovanimurakami",
-      "archetype": "White Weenie",
+      "archetype": "Familiars",
       "colors": [
+        "U",
         "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-05-089081",
+      "tournament": "pauper-league-2025-05-089081",
+      "date": "2025-05-08",
+      "player": "giovanimurakami",
+      "archetype": "BR Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,

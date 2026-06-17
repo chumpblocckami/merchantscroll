@@ -10,22 +10,22 @@
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 403,
-    "league_trophy_rank_alltime": 634,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_rank_yearly": 621,
+    "league_trophy_rank_alltime": 635,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
-    {
-      "archetype": "Spy",
-      "count": 1
-    },
     {
       "archetype": "Affinity",
       "count": 1
     },
     {
       "archetype": "Esper Affinity",
+      "count": 1
+    },
+    {
+      "archetype": "Spy",
       "count": 1
     }
   ],
@@ -47,14 +47,15 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-10-249750",
-      "tournament": "pauper-league-2025-10-249750",
-      "date": "",
+      "site_name": "pauper-league-2025-12-059987",
+      "tournament": "pauper-league-2025-12-059987",
+      "date": "2025-12-05",
       "player": "Alley666",
-      "archetype": "Spy",
+      "archetype": "Esper Affinity",
       "colors": [
         "B",
-        "G"
+        "U",
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -62,15 +63,14 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-12-059987",
-      "tournament": "pauper-league-2025-12-059987",
-      "date": "",
+      "site_name": "pauper-league-2025-10-249750",
+      "tournament": "pauper-league-2025-10-249750",
+      "date": "2025-10-24",
       "player": "Alley666",
-      "archetype": "Esper Affinity",
+      "archetype": "Spy",
       "colors": [
         "B",
-        "U",
-        "W"
+        "G"
       ],
       "record": "5-0",
       "final_rank": null,

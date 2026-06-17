@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 19,
     "league_trophies": 16,
-    "league_trophies_yearly": 7,
+    "league_trophies_yearly": 9,
     "challenge_wins": 14,
     "challenge_losses": 7,
     "irl_top8": 0,
     "challenge_win_pct": 67,
-    "league_trophy_rank_yearly": 50,
+    "league_trophy_rank_yearly": 88,
     "league_trophy_rank_alltime": 117,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -29,10 +29,6 @@
       "count": 2
     },
     {
-      "archetype": "BR",
-      "count": 1
-    },
-    {
       "archetype": "GW Gates",
       "count": 1
     },
@@ -41,15 +37,19 @@
       "count": 1
     },
     {
-      "archetype": "Elves",
+      "archetype": "BR",
       "count": 1
     },
     {
-      "archetype": "White Weennie",
+      "archetype": "UW Glitter",
       "count": 1
     },
     {
       "archetype": "Cawgate",
+      "count": 1
+    },
+    {
+      "archetype": "Elves",
       "count": 1
     },
     {
@@ -175,6 +175,38 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-01-099987",
+      "tournament": "pauper-league-2026-01-099987",
+      "date": "2026-01-09",
+      "player": "Fragoel2",
+      "archetype": "RG Storm",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-01-049987",
+      "tournament": "pauper-league-2026-01-049987",
+      "date": "2026-01-04",
+      "player": "Fragoel2",
+      "archetype": "RG Storm",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-12-2612828069",
       "tournament": "Pauper Challenge 32",
       "date": "2025-12-26",
@@ -189,6 +221,52 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-09-149535",
+      "tournament": "pauper-league-2025-09-149535",
+      "date": "2025-09-14",
+      "player": "Fragoel2",
+      "archetype": "Elves",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-09-119535",
+      "tournament": "pauper-league-2025-09-119535",
+      "date": "2025-09-11",
+      "player": "Fragoel2",
+      "archetype": "Spy",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-08-279535",
+      "tournament": "pauper-league-2025-08-279535",
+      "date": "2025-08-27",
+      "player": "Fragoel2",
+      "archetype": "",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-08-1512810045",
@@ -223,29 +301,14 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2025-08-279535",
-      "tournament": "pauper-league-2025-08-279535",
-      "date": "",
+      "site_name": "pauper-league-2025-07-209366",
+      "tournament": "pauper-league-2025-07-209366",
+      "date": "2025-07-20",
       "player": "Fragoel2",
-      "archetype": "",
+      "archetype": "Spy",
       "colors": [
         "B",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-099987",
-      "tournament": "pauper-league-2026-01-099987",
-      "date": "",
-      "player": "Fragoel2",
-      "archetype": "RG Storm",
-      "colors": [
         "G",
-        "R",
         "U"
       ],
       "record": "5-0",
@@ -256,43 +319,12 @@
     {
       "site_name": "pauper-league-2025-07-149366",
       "tournament": "pauper-league-2025-07-149366",
-      "date": "",
+      "date": "2025-07-14",
       "player": "Fragoel2",
       "archetype": "Spy",
       "colors": [
         "B",
         "G",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-09-149535",
-      "tournament": "pauper-league-2025-09-149535",
-      "date": "",
-      "player": "Fragoel2",
-      "archetype": "Elves",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-049987",
-      "tournament": "pauper-league-2026-01-049987",
-      "date": "",
-      "player": "Fragoel2",
-      "archetype": "RG Storm",
-      "colors": [
-        "G",
-        "R",
         "U"
       ],
       "record": "5-0",
@@ -303,7 +335,7 @@
     {
       "site_name": "pauper-league-2025-06-209366",
       "tournament": "pauper-league-2025-06-209366",
-      "date": "",
+      "date": "2025-06-20",
       "player": "Fragoel2",
       "archetype": "Spy",
       "colors": [
@@ -318,41 +350,9 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-09-119535",
-      "tournament": "pauper-league-2025-09-119535",
-      "date": "",
-      "player": "Fragoel2",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-07-209366",
-      "tournament": "pauper-league-2025-07-209366",
-      "date": "",
-      "player": "Fragoel2",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2025-06-139366",
       "tournament": "pauper-league-2025-06-139366",
-      "date": "",
+      "date": "2025-06-13",
       "player": "Fragoel2",
       "archetype": "Jeskai",
       "colors": [

@@ -5,14 +5,14 @@
   "stats": {
     "total_entries": 14,
     "league_trophies": 8,
-    "league_trophies_yearly": 1,
+    "league_trophies_yearly": 7,
     "challenge_wins": 18,
     "challenge_losses": 13,
     "irl_top8": 0,
     "challenge_win_pct": 58,
-    "league_trophy_rank_yearly": 387,
+    "league_trophy_rank_yearly": 109,
     "league_trophy_rank_alltime": 263,
-    "league_trophy_players_yearly": 794,
+    "league_trophy_players_yearly": 1128,
     "league_trophy_players_alltime": 1891
   },
   "favorite_decks": [
@@ -111,6 +111,22 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-02-2810196",
+      "tournament": "pauper-league-2026-02-2810196",
+      "date": "2026-02-28",
+      "player": "3draw_TANO",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-02-2712834057",
       "tournament": "Pauper Challenge 32",
       "date": "2026-02-27",
@@ -143,58 +159,9 @@
       "type": "other"
     },
     {
-      "site_name": "pauper-league-2026-01-2510196",
-      "tournament": "pauper-league-2026-01-2510196",
-      "date": "",
-      "player": "3draw_TANO",
-      "archetype": "Cawgate",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-179987",
-      "tournament": "pauper-league-2026-01-179987",
-      "date": "",
-      "player": "3draw_TANO",
-      "archetype": "Cawgate",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-2810196",
-      "tournament": "pauper-league-2026-02-2810196",
-      "date": "",
-      "player": "3draw_TANO",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-02-0110196",
       "tournament": "pauper-league-2026-02-0110196",
-      "date": "",
+      "date": "2026-02-01",
       "player": "3draw_TANO",
       "archetype": "Cawgate",
       "colors": [
@@ -208,15 +175,15 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-11-229987",
-      "tournament": "pauper-league-2025-11-229987",
-      "date": "",
+      "site_name": "pauper-league-2026-01-2510196",
+      "tournament": "pauper-league-2026-01-2510196",
+      "date": "2026-01-25",
       "player": "3draw_TANO",
-      "archetype": "Jund",
+      "archetype": "Cawgate",
       "colors": [
-        "B",
-        "G",
-        "R"
+        "R",
+        "U",
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -226,7 +193,7 @@
     {
       "site_name": "pauper-league-2026-01-2410196",
       "tournament": "pauper-league-2026-01-2410196",
-      "date": "",
+      "date": "2026-01-24",
       "player": "3draw_TANO",
       "archetype": "Affinity",
       "colors": [
@@ -240,15 +207,48 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-01-179987",
+      "tournament": "pauper-league-2026-01-179987",
+      "date": "2026-01-17",
+      "player": "3draw_TANO",
+      "archetype": "Cawgate",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2026-01-029987",
       "tournament": "pauper-league-2026-01-029987",
-      "date": "",
+      "date": "2026-01-02",
       "player": "3draw_TANO",
       "archetype": "Affinity",
       "colors": [
         "B",
         "R",
         "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-11-229987",
+      "tournament": "pauper-league-2025-11-229987",
+      "date": "2025-11-22",
+      "player": "3draw_TANO",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
