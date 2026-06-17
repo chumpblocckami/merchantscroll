@@ -2,10 +2,10 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 604,
-    "league_entries": 331,
-    "league_trophies": 331,
-    "league_trophies_yearly": 137,
+    "total_entries": 605,
+    "league_entries": 332,
+    "league_trophies": 332,
+    "league_trophies_yearly": 138,
     "challenge_appearances": 242,
     "challenge_wins": 1006,
     "challenge_losses": 584,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 68
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-1710636",
+      "tournament": "Pauper League",
+      "date": "2026-06-17",
+      "player": "yuxiaoyu",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-1510636",
       "tournament": "Pauper League",
@@ -352,20 +366,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0110636",
-      "tournament": "Pauper League",
-      "date": "2026-06-01",
-      "player": "yuxiaoyu",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -379,7 +379,7 @@
     },
     {
       "player": "yuxiaoyu",
-      "count": 31
+      "count": 32
     },
     {
       "player": "Aster17",
@@ -402,11 +402,11 @@
       "count": 12
     },
     {
-      "player": "Otacon_",
+      "player": "KingZiggy",
       "count": 9
     },
     {
-      "player": "KingZiggy",
+      "player": "Otacon_",
       "count": 9
     }
   ]

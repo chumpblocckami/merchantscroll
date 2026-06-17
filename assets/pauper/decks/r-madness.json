@@ -2,10 +2,10 @@
   "archetype": "R Madness",
   "slug": "r-madness",
   "stats": {
-    "total_entries": 1705,
-    "league_entries": 1026,
-    "league_trophies": 1026,
-    "league_trophies_yearly": 454,
+    "total_entries": 1706,
+    "league_entries": 1027,
+    "league_trophies": 1027,
+    "league_trophies_yearly": 455,
     "challenge_appearances": 587,
     "challenge_wins": 2306,
     "challenge_losses": 1485,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 68
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-1710636",
+      "tournament": "Pauper League",
+      "date": "2026-06-17",
+      "player": "Altart",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-1710636",
       "tournament": "Pauper League",
@@ -228,51 +243,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-06-1410636",
-      "tournament": "Pauper League",
-      "date": "2026-06-14",
-      "player": "maribves",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1410636",
-      "tournament": "Pauper League",
-      "date": "2026-06-14",
-      "player": "OniReject",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1410636",
-      "tournament": "Pauper League",
-      "date": "2026-06-14",
-      "player": "Heterodox",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-06-1412844338",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-14",
@@ -348,30 +318,49 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauperwave-2026-06-13-lp-brescia-summer",
-      "tournament": "LP Brescia Summer 2026 — Brescia",
-      "date": "2026-06-13",
-      "player": "Daniel Nappi",
+      "site_name": "pauper-league-2026-06-1410636",
+      "tournament": "Pauper League",
+      "date": "2026-06-14",
+      "player": "maribves",
       "colors": [
-        "R"
+        "B",
+        "R",
+        "U"
       ],
-      "record": "",
-      "final_rank": 2,
-      "source": "pauperwave",
-      "type": "irl"
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
-      "site_name": "pauperwave-2026-06-13-lp-brescia-summer",
-      "tournament": "LP Brescia Summer 2026 — Brescia",
-      "date": "2026-06-13",
-      "player": "Andrea Mutti",
+      "site_name": "pauper-league-2026-06-1410636",
+      "tournament": "Pauper League",
+      "date": "2026-06-14",
+      "player": "OniReject",
       "colors": [
-        "R"
+        "B",
+        "R",
+        "U"
       ],
-      "record": "",
-      "final_rank": 3,
-      "source": "pauperwave",
-      "type": "irl"
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1410636",
+      "tournament": "Pauper League",
+      "date": "2026-06-14",
+      "player": "Heterodox",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1312844320",
@@ -385,6 +374,21 @@
       ],
       "record": "4-2",
       "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1312844320",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-13",
+      "player": "MisterTwin",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-2",
+      "final_rank": 16,
       "source": "mtgo",
       "type": "challenge"
     }

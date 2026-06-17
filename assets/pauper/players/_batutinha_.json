@@ -12,8 +12,8 @@
     "challenge_win_pct": 57,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": null,
-    "league_trophy_players_yearly": 1128,
-    "league_trophy_players_alltime": 1891
+    "league_trophy_players_yearly": 1130,
+    "league_trophy_players_alltime": 1893
   },
   "favorite_decks": [
     {
@@ -29,19 +29,7 @@
       "count": 2
     },
     {
-      "archetype": "Elves",
-      "count": 1
-    },
-    {
-      "archetype": "White Weennie",
-      "count": 1
-    },
-    {
-      "archetype": "U Terror",
-      "count": 1
-    },
-    {
-      "archetype": "U Faeries",
+      "archetype": "GW Gates",
       "count": 1
     },
     {
@@ -49,7 +37,19 @@
       "count": 1
     },
     {
-      "archetype": "GW Gates",
+      "archetype": "Elves",
+      "count": 1
+    },
+    {
+      "archetype": "White Weenie",
+      "count": 1
+    },
+    {
+      "archetype": "U Faeries",
+      "count": 1
+    },
+    {
+      "archetype": "U Terror",
       "count": 1
     }
   ],
@@ -138,7 +138,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-12-19",
       "player": "_Batutinha_",
-      "archetype": "White Weennie",
+      "archetype": "White Weenie",
       "colors": [
         "W"
       ],
@@ -225,23 +225,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2025-05-1612780132",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-05-16",
-      "player": "_Batutinha_",
-      "archetype": "Bogle",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "2-4",
-      "final_rank": 30,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-qualifier-2025-05-1612780097",
       "tournament": "Pauper Qualifier",
       "date": "2025-05-16",
@@ -257,6 +240,23 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "other"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-05-1612780132",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-05-16",
+      "player": "_Batutinha_",
+      "archetype": "Bogle",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "2-4",
+      "final_rank": 30,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2025-05-0912777329",

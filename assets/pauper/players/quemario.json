@@ -3,17 +3,17 @@
   "display_name": "QueMario",
   "irl_name": null,
   "stats": {
-    "total_entries": 35,
-    "league_trophies": 5,
-    "league_trophies_yearly": 2,
+    "total_entries": 36,
+    "league_trophies": 6,
+    "league_trophies_yearly": 3,
     "challenge_wins": 116,
     "challenge_losses": 82,
     "irl_top8": 0,
     "challenge_win_pct": 59,
-    "league_trophy_rank_yearly": 550,
-    "league_trophy_rank_alltime": 480,
-    "league_trophy_players_yearly": 1128,
-    "league_trophy_players_alltime": 1891
+    "league_trophy_rank_yearly": 361,
+    "league_trophy_rank_alltime": 416,
+    "league_trophy_players_yearly": 1130,
+    "league_trophy_players_alltime": 1893
   },
   "favorite_decks": [
     {
@@ -26,19 +26,11 @@
     },
     {
       "archetype": "Bogle",
-      "count": 2
+      "count": 3
     },
     {
       "archetype": "Monsters",
       "count": 2
-    },
-    {
-      "archetype": "Spy",
-      "count": 1
-    },
-    {
-      "archetype": "Walls",
-      "count": 1
     },
     {
       "archetype": "Ponza",
@@ -47,9 +39,34 @@
     {
       "archetype": "GR",
       "count": 1
+    },
+    {
+      "archetype": "Spy",
+      "count": 1
+    },
+    {
+      "archetype": "Walls",
+      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-1710636",
+      "tournament": "Pauper League",
+      "date": "2026-06-17",
+      "player": "QueMario",
+      "archetype": "Bogle",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-1312844320",
       "tournament": "Pauper Challenge 32",
@@ -400,20 +417,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-06-2712799984",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-06-27",
-      "player": "QueMario",
-      "archetype": "Elves",
-      "colors": [
-        "G"
-      ],
-      "record": "4-2",
-      "final_rank": 9,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

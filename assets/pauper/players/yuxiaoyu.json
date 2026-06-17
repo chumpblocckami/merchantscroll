@@ -3,22 +3,22 @@
   "display_name": "yuxiaoyu",
   "irl_name": null,
   "stats": {
-    "total_entries": 73,
-    "league_trophies": 58,
-    "league_trophies_yearly": 22,
+    "total_entries": 74,
+    "league_trophies": 59,
+    "league_trophies_yearly": 23,
     "challenge_wins": 51,
     "challenge_losses": 39,
     "irl_top8": 0,
     "challenge_win_pct": 57,
-    "league_trophy_rank_yearly": 20,
+    "league_trophy_rank_yearly": 19,
     "league_trophy_rank_alltime": 13,
-    "league_trophy_players_yearly": 1128,
-    "league_trophy_players_alltime": 1891
+    "league_trophy_players_yearly": 1130,
+    "league_trophy_players_alltime": 1893
   },
   "favorite_decks": [
     {
       "archetype": "Gardens",
-      "count": 31
+      "count": 32
     },
     {
       "archetype": "Jund",
@@ -33,12 +33,20 @@
       "count": 5
     },
     {
+      "archetype": "UB Faeries",
+      "count": 4
+    },
+    {
       "archetype": "U Faeries",
       "count": 4
     },
     {
-      "archetype": "UB Faeries",
-      "count": 4
+      "archetype": "Rally",
+      "count": 1
+    },
+    {
+      "archetype": "Pingers",
+      "count": 1
     },
     {
       "archetype": "Dredge",
@@ -47,17 +55,24 @@
     {
       "archetype": "BR Madness",
       "count": 1
-    },
-    {
-      "archetype": "Pingers",
-      "count": 1
-    },
-    {
-      "archetype": "Rally",
-      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-1710636",
+      "tournament": "Pauper League",
+      "date": "2026-06-17",
+      "player": "yuxiaoyu",
+      "archetype": "Gardens",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-1310636",
       "tournament": "Pauper League",
@@ -418,21 +433,6 @@
       "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-03-1310405",
-      "tournament": "pauper-league-2026-03-1310405",
-      "date": "2026-03-13",
-      "player": "yuxiaoyu",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

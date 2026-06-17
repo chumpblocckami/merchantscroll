@@ -2,21 +2,37 @@
   "archetype": "Bogle",
   "slug": "bogle",
   "stats": {
-    "total_entries": 211,
-    "league_entries": 85,
-    "league_trophies": 85,
-    "league_trophies_yearly": 14,
+    "total_entries": 212,
+    "league_entries": 86,
+    "league_trophies": 86,
+    "league_trophies_yearly": 15,
     "challenge_appearances": 120,
     "challenge_wins": 481,
     "challenge_losses": 311,
     "irl_top8": 2,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 41,
-    "league_trophy_rank_alltime": 32,
+    "league_trophy_rank_alltime": 31,
     "league_trophy_decks_yearly": 58,
     "league_trophy_decks_alltime": 68
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-1710636",
+      "tournament": "Pauper League",
+      "date": "2026-06-17",
+      "player": "QueMario",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-1412844338",
       "tournament": "Pauper Challenge 32",
@@ -277,22 +293,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-03-1412835312",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-14",
-      "player": "NMT_Sco94",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "6-2",
-      "final_rank": 4,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-03-1410405",
       "tournament": "pauper-league-2026-03-1410405",
       "date": "2026-03-14",
@@ -307,6 +307,22 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-03-1412835312",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-03-14",
+      "player": "NMT_Sco94",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "6-2",
+      "final_rank": 4,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-03-1212835286",
@@ -404,22 +420,6 @@
       "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-0112834091",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-01",
-      "player": "AoFTW",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "9-0",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -436,10 +436,6 @@
       "count": 6
     },
     {
-      "player": "Mah_Alves",
-      "count": 6
-    },
-    {
       "player": "MisterTwin",
       "count": 6
     },
@@ -448,7 +444,15 @@
       "count": 6
     },
     {
+      "player": "Mah_Alves",
+      "count": 6
+    },
+    {
       "player": "NMT_Sco94",
+      "count": 5
+    },
+    {
+      "player": "Wizard_2002",
       "count": 5
     },
     {
@@ -456,11 +460,7 @@
       "count": 5
     },
     {
-      "player": "AoFTW",
-      "count": 5
-    },
-    {
-      "player": "Wizard_2002",
+      "player": "JuaKi",
       "count": 5
     }
   ]

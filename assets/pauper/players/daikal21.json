@@ -12,8 +12,8 @@
     "challenge_win_pct": 66,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": 236,
-    "league_trophy_players_yearly": 1128,
-    "league_trophy_players_alltime": 1891
+    "league_trophy_players_yearly": 1130,
+    "league_trophy_players_alltime": 1893
   },
   "favorite_decks": [
     {
@@ -21,11 +21,11 @@
       "count": 3
     },
     {
-      "archetype": "Jund",
+      "archetype": "Food Pestilence",
       "count": 2
     },
     {
-      "archetype": "Food Pestilence",
+      "archetype": "Jund",
       "count": 2
     },
     {
@@ -33,15 +33,7 @@
       "count": 2
     },
     {
-      "archetype": "Cawgate",
-      "count": 1
-    },
-    {
-      "archetype": "Affinity",
-      "count": 1
-    },
-    {
-      "archetype": "Elves",
+      "archetype": "U Faeries",
       "count": 1
     },
     {
@@ -49,11 +41,19 @@
       "count": 1
     },
     {
-      "archetype": "U Faeries",
+      "archetype": "Altar",
       "count": 1
     },
     {
-      "archetype": "Altar",
+      "archetype": "Cawgate",
+      "count": 1
+    },
+    {
+      "archetype": "Elves",
+      "count": 1
+    },
+    {
+      "archetype": "Affinity",
       "count": 1
     }
   ],
@@ -92,22 +92,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2025-12-2512828058",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-12-25",
-      "player": "Daikal21",
-      "archetype": "Altar Tron",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-2",
-      "final_rank": 6,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2025-12-259987",
       "tournament": "pauper-league-2025-12-259987",
       "date": "2025-12-25",
@@ -122,6 +106,22 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-12-2512828058",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-12-25",
+      "player": "Daikal21",
+      "archetype": "Altar Tron",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-2",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-rc-super-qualifier-2025-11-0912823531",

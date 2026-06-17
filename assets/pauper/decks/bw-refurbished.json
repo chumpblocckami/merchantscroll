@@ -2,21 +2,35 @@
   "archetype": "BW Refurbished",
   "slug": "bw-refurbished",
   "stats": {
-    "total_entries": 323,
-    "league_entries": 188,
-    "league_trophies": 188,
-    "league_trophies_yearly": 75,
+    "total_entries": 324,
+    "league_entries": 189,
+    "league_trophies": 189,
+    "league_trophies_yearly": 76,
     "challenge_appearances": 129,
     "challenge_wins": 490,
     "challenge_losses": 332,
     "irl_top8": 4,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 18,
+    "league_trophy_rank_yearly": 17,
     "league_trophy_rank_alltime": 18,
     "league_trophy_decks_yearly": 58,
     "league_trophy_decks_alltime": 68
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-1710636",
+      "tournament": "Pauper League",
+      "date": "2026-06-17",
+      "player": "Borbs",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-1510636",
       "tournament": "Pauper League",
@@ -76,20 +90,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1112844295",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-11",
-      "player": "Mordeka1ser",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-06-1110636",
       "tournament": "Pauper League",
       "date": "2026-06-11",
@@ -116,6 +116,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1112844295",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-11",
+      "player": "Mordeka1ser",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 15,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-league-2026-06-0910636",
@@ -275,20 +289,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-05-3110636",
-      "tournament": "Pauper League",
-      "date": "2026-05-31",
-      "player": "deatheaten",
-      "colors": [
-        "B",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauperwave-2026-05-31-rolling-pauper-2026",
       "tournament": "Rolling Pauper 2026 — Caserta",
       "date": "2026-05-31",
@@ -301,6 +301,20 @@
       "final_rank": 3,
       "source": "pauperwave",
       "type": "irl"
+    },
+    {
+      "site_name": "pauper-league-2026-05-3110636",
+      "tournament": "Pauper League",
+      "date": "2026-05-31",
+      "player": "deatheaten",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-05-3012843407",
@@ -331,6 +345,21 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-05-2810636",
+      "tournament": "Pauper League",
+      "date": "2026-05-28",
+      "player": "elvis10",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-05-2812843381",
       "tournament": "Pauper Challenge 32",
       "date": "2026-05-28",
@@ -343,36 +372,6 @@
       ],
       "record": "3-2",
       "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2812843381",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-28",
-      "player": "viashinoperuano",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "2-4",
-      "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2812843381",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-28",
-      "player": "ThiagoGuerra",
-      "colors": [
-        "B",
-        "W"
-      ],
-      "record": "2-4",
-      "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
     }
@@ -395,15 +394,15 @@
       "count": 13
     },
     {
-      "player": "ThieresTMS",
-      "count": 10
-    },
-    {
       "player": "lostonkato",
       "count": 10
     },
     {
-      "player": "gasimpar",
+      "player": "ThieresTMS",
+      "count": 10
+    },
+    {
+      "player": "Hoarse_Duck",
       "count": 8
     },
     {
@@ -411,11 +410,11 @@
       "count": 8
     },
     {
-      "player": "Hoarse_Duck",
+      "player": "gasimpar",
       "count": 8
     },
     {
-      "player": "MisterTwin",
+      "player": "ThiagoGuerra",
       "count": 7
     }
   ]

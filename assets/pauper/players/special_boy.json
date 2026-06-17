@@ -10,19 +10,15 @@
     "challenge_losses": 15,
     "irl_top8": 0,
     "challenge_win_pct": 50,
-    "league_trophy_rank_yearly": 371,
+    "league_trophy_rank_yearly": 372,
     "league_trophy_rank_alltime": 605,
-    "league_trophy_players_yearly": 1128,
-    "league_trophy_players_alltime": 1891
+    "league_trophy_players_yearly": 1130,
+    "league_trophy_players_alltime": 1893
   },
   "favorite_decks": [
     {
-      "archetype": "White Weennie",
-      "count": 3
-    },
-    {
       "archetype": "White Weenie",
-      "count": 2
+      "count": 5
     },
     {
       "archetype": "U Terror",
@@ -33,11 +29,11 @@
       "count": 1
     },
     {
-      "archetype": "UR Control",
+      "archetype": "Rally",
       "count": 1
     },
     {
-      "archetype": "Rally",
+      "archetype": "UR Control",
       "count": 1
     }
   ],
@@ -77,7 +73,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-03-27",
       "player": "Special_Boy",
-      "archetype": "White Weennie",
+      "archetype": "White Weenie",
       "colors": [
         "B",
         "R",
@@ -93,7 +89,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-03-19",
       "player": "Special_Boy",
-      "archetype": "White Weennie",
+      "archetype": "White Weenie",
       "colors": [
         "B",
         "R",
@@ -109,24 +105,10 @@
       "tournament": "pauper-league-2026-03-1710405",
       "date": "2026-03-17",
       "player": "Special_Boy",
-      "archetype": "White Weennie",
+      "archetype": "White Weenie",
       "colors": [
         "B",
         "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-1510405",
-      "tournament": "pauper-league-2026-03-1510405",
-      "date": "2026-03-15",
-      "player": "Special_Boy",
-      "archetype": "White Weenie",
-      "colors": [
         "W"
       ],
       "record": "5-0",
@@ -147,6 +129,20 @@
       "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-03-1510405",
+      "tournament": "pauper-league-2026-03-1510405",
+      "date": "2026-03-15",
+      "player": "Special_Boy",
+      "archetype": "White Weenie",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-10-2412821674",

@@ -10,10 +10,10 @@
     "challenge_losses": 93,
     "irl_top8": 0,
     "challenge_win_pct": 65,
-    "league_trophy_rank_yearly": 16,
+    "league_trophy_rank_yearly": 18,
     "league_trophy_rank_alltime": 21,
-    "league_trophy_players_yearly": 1128,
-    "league_trophy_players_alltime": 1891
+    "league_trophy_players_yearly": 1130,
+    "league_trophy_players_alltime": 1893
   },
   "favorite_decks": [
     {
@@ -21,31 +21,27 @@
       "count": 25
     },
     {
-      "archetype": "BR Madness",
-      "count": 14
+      "archetype": "White Weenie",
+      "count": 17
     },
     {
-      "archetype": "White Weennie",
-      "count": 12
+      "archetype": "BR Madness",
+      "count": 14
     },
     {
       "archetype": "Pingers",
       "count": 7
     },
     {
-      "archetype": "Ponza",
-      "count": 6
-    },
-    {
       "archetype": "UB Faeries",
       "count": 6
     },
     {
-      "archetype": "U Faeries",
-      "count": 5
+      "archetype": "Ponza",
+      "count": 6
     },
     {
-      "archetype": "White Weenie",
+      "archetype": "U Faeries",
       "count": 5
     },
     {
@@ -54,6 +50,10 @@
     },
     {
       "archetype": "Jeskai",
+      "count": 1
+    },
+    {
+      "archetype": "RG Ponza",
       "count": 1
     }
   ],
@@ -177,22 +177,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-05-1612842489",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-16",
-      "player": "Niederschatten",
-      "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-05-1610636",
       "tournament": "Pauper League",
       "date": "2026-05-16",
@@ -207,6 +191,22 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-05-1612842489",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-05-16",
+      "player": "Niederschatten",
+      "archetype": "UB Faeries",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 12,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-05-1512842474",
