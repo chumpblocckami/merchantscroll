@@ -2,10 +2,10 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 926,
-    "league_entries": 546,
-    "league_trophies": 546,
-    "league_trophies_yearly": 206,
+    "total_entries": 927,
+    "league_entries": 547,
+    "league_trophies": 547,
+    "league_trophies_yearly": 207,
     "challenge_appearances": 350,
     "challenge_wins": 1336,
     "challenge_losses": 902,
@@ -23,6 +23,20 @@
       "date": "2026-06-17",
       "player": "Albreto",
       "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1710636",
+      "tournament": "Pauper League",
+      "date": "2026-06-17",
+      "player": "kmasuyama",
+      "colors": [
+        "G",
         "R"
       ],
       "record": "5-0",
@@ -340,19 +354,6 @@
       "final_rank": 5,
       "source": "pauperwave",
       "type": "irl"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1212844305",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-12",
-      "player": "pavesito",
-      "colors": [
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
