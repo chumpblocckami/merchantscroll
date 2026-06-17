@@ -20,8 +20,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#0f0f0f" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Merchant Scroll" />
 
   <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png" />
 
   <title>Merchant Scroll – Scroll Infinite Magic: The Gathering Decks</title>
   <meta name="title" content="Merchant Scroll – Scroll Infinite Magic: The Gathering Decks" />
@@ -65,6 +70,8 @@
         <span class="header-deck-count info" id="deck-count"></span>
       </div>
       <div class="header-actions">
+        <button class="header-icon-btn install-app-btn" id="install-app-btn" type="button"
+          title="Install app" aria-label="Install app" hidden>&#8681;</button>
         <a class="header-icon-btn contact-mail" href="mailto:contact.matteomazzola@gmail.com" aria-label="Contact" title="Contact">&#9993;</a>
         <button class="header-icon-btn theme-toggle" id="theme-toggle" title="Toggle light/dark mode" aria-label="Toggle light/dark mode">&#9790;</button>
       </div>
@@ -85,6 +92,16 @@
   </div>
 
   <div id="card-preview"><img id="card-preview-img" alt="" /></div>
+  <div id="install-ios-hint" class="install-ios-hint" hidden role="status">
+    Tap <strong>Share</strong>, then <strong>Add to Home Screen</strong> to install.
+  </div>
+  <div id="install-banner" class="install-banner" hidden>
+    <span class="install-banner-text">Install Merchant Scroll for quick access from your home screen.</span>
+    <div class="install-banner-actions">
+      <button type="button" class="install-banner-btn" id="install-banner-action">Install</button>
+      <button type="button" class="install-banner-dismiss" id="install-banner-dismiss" aria-label="Dismiss install prompt">&#10005;</button>
+    </div>
+  </div>
   <div id="new-data-banner" class="new-data-banner" hidden>New decklists available — <span id="new-data-tap">tap to refresh</span></div>
 
   <script>
@@ -1053,6 +1070,10 @@
       await init();
     }
 
+    function offlineMessage() {
+      return "You're offline — deck data unavailable. Check your connection and try again.";
+    }
+
     async function init() {
       closePlayerModal();
       allDecks = [];
@@ -1064,6 +1085,11 @@
       loader.textContent = "Loading decks...";
       loader.style.display = "block";
       content.appendChild(loader);
+
+      if (!navigator.onLine) {
+        loader.textContent = offlineMessage();
+        return;
+      }
 
       try {
         fetch("archetypes/pauperwave.json")
@@ -1102,7 +1128,7 @@
         }
       } catch (e) {
         console.error(e);
-        loader.textContent = "Error loading data.";
+        loader.textContent = navigator.onLine ? "Error loading data." : offlineMessage();
       }
     }
 
@@ -1149,6 +1175,103 @@
         }
       } catch (_) {}
     });
+
+    window.addEventListener("online", () => {
+      if (filteredDecks.length === 0 && loader.style.display !== "none") init();
+    });
+
+    /* ── PWA install prompt ── */
+    const installBtn = $("install-app-btn");
+    const installBanner = $("install-banner");
+    const installBannerAction = $("install-banner-action");
+    const installBannerDismiss = $("install-banner-dismiss");
+    const installIosHint = $("install-ios-hint");
+    let deferredInstallPrompt = null;
+
+    const isStandaloneApp =
+      window.matchMedia("(display-mode: standalone)").matches ||
+      window.navigator.standalone === true;
+
+    function isIosInstallable() {
+      return /iPad|iPhone|iPod/.test(navigator.userAgent) && !isStandaloneApp;
+    }
+
+    function canOfferInstall() {
+      return !isStandaloneApp && (deferredInstallPrompt || isIosInstallable());
+    }
+
+    function hideInstallUi() {
+      installBtn.hidden = true;
+      installBanner.hidden = true;
+      installBanner.classList.remove("visible");
+      installIosHint.hidden = true;
+    }
+
+    function showInstallBanner() {
+      if (localStorage.getItem("ms-install-banner-dismissed") === "1") return;
+      installBanner.hidden = false;
+      requestAnimationFrame(() => installBanner.classList.add("visible"));
+    }
+
+    function updateInstallUi() {
+      if (!canOfferInstall()) {
+        hideInstallUi();
+        return;
+      }
+      installBtn.hidden = false;
+      showInstallBanner();
+    }
+
+    async function triggerInstall() {
+      installIosHint.hidden = true;
+      if (deferredInstallPrompt) {
+        deferredInstallPrompt.prompt();
+        const { outcome } = await deferredInstallPrompt.userChoice;
+        if (outcome === "accepted") {
+          deferredInstallPrompt = null;
+          localStorage.setItem("ms-install-banner-dismissed", "1");
+        }
+        updateInstallUi();
+        return;
+      }
+      if (isIosInstallable()) {
+        installIosHint.hidden = !installIosHint.hidden;
+      }
+    }
+
+    installBtn.addEventListener("click", triggerInstall);
+    installBannerAction.addEventListener("click", triggerInstall);
+    installBannerDismiss.addEventListener("click", () => {
+      localStorage.setItem("ms-install-banner-dismissed", "1");
+      installBanner.classList.remove("visible");
+      installBanner.hidden = true;
+    });
+
+    document.addEventListener("click", (e) => {
+      if (installIosHint.hidden) return;
+      if (e.target === installBtn || installIosHint.contains(e.target)) return;
+      installIosHint.hidden = true;
+    });
+
+    window.addEventListener("beforeinstallprompt", (e) => {
+      e.preventDefault();
+      deferredInstallPrompt = e;
+      updateInstallUi();
+    });
+
+    window.addEventListener("appinstalled", () => {
+      deferredInstallPrompt = null;
+      localStorage.setItem("ms-install-banner-dismissed", "1");
+      hideInstallUi();
+    });
+
+    if (isIosInstallable()) updateInstallUi();
+
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("/sw.js").catch(console.warn);
+      });
+    }
   </script>
   <script data-goatcounter="https://vedalken.goatcounter.com/count"
           async src="//gc.zgo.at/count.js"></script>

@@ -1,6 +1,6 @@
 # Feature 7: Installable Web App (PWA)
 
-**Status:** Proposed
+**Status:** Done
 
 ## Summary
 
