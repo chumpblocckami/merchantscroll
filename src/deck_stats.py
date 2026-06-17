@@ -7,6 +7,7 @@ import re
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from .classifier import canonical_archetype
 from .player_stats import CURRENT_YEAR, _color_label, _is_league_trophy, _tournament_type
 from .utils import canonical_starttime
 
@@ -22,7 +23,9 @@ def archetype_slug(name: str) -> str:
 
 
 def _deck_name(deck: dict) -> str:
-    return deck.get("archetype") or _color_label(deck.get("colors"))
+    if deck.get("archetype"):
+        return canonical_archetype(deck["archetype"])
+    return _color_label(deck.get("colors"))
 
 
 def rebuild_deck_profiles(
@@ -31,7 +34,6 @@ def rebuild_deck_profiles(
 ) -> int:
     """Build profile JSON files for all deck archetypes. Returns profiles written."""
     profiles: dict[str, dict] = {}
-    slug_by_name: dict[str, str] = {}
     pilot_counts: dict[str, Counter[str]] = defaultdict(Counter)
     trophy_counts_yearly: Counter[str] = Counter()
     trophy_counts_alltime: Counter[str] = Counter()
@@ -57,7 +59,7 @@ def rebuild_deck_profiles(
             if not archetype:
                 continue
 
-            slug = slug_by_name.setdefault(archetype, archetype_slug(archetype))
+            slug = archetype_slug(archetype)
             if slug not in profiles:
                 profiles[slug] = {
                     "archetype": archetype,

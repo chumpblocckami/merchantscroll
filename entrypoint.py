@@ -13,6 +13,7 @@ from src.crawler import crawl_decks, crawl_tournaments
 from src.pipeline import crawl_pauperwave_tournaments
 from src.classifier import (
     classify_unlabeled_mtgo_decks,
+    normalize_archetype_labels,
     enrich_archetypes,
     load_archetype_dictionary,
     rebuild_archetype_dictionary,
@@ -122,11 +123,14 @@ def start_crawler():
 
     archetype_map = load_archetype_dictionary()
     classified = classify_unlabeled_mtgo_decks(archetype_map)
+    normalized = normalize_archetype_labels()
     if classified:
         print(f"Classified {classified} MTGO decklist(s).")
         crawled += classified
 
     rebuild_player_profiles()
+    if normalized:
+        print(f"Archetype labels normalized: {normalized} decklists.")
     rebuild_deck_profiles()
 
     print(f"Done. Crawled: {crawled}, Skipped: {skipped}")

@@ -187,5 +187,30 @@ class TestDeckStats(unittest.TestCase):
             self.assertEqual(profile["top_pilots"][0]["player"], "alice")
             self.assertEqual(profile["top_pilots"][0]["count"], 2)
 
+    def test_archetype_alias_merge(self):
+        import tempfile
+        from pathlib import Path
+
+        from src.deck_stats import rebuild_deck_profiles
+
+        with tempfile.TemporaryDirectory() as tmp:
+            raw = Path(tmp) / "raw"
+            out = Path(tmp) / "decks"
+            raw.mkdir()
+            data = {
+                "site_name": "pauper-league-2026-06-0510636",
+                "description": "Pauper League",
+                "starttime": "2026-06-05",
+                "decklists": [
+                    {"player": "a", "archetype": "White Weenie", "colors": ["W"], "wins": {"wins": "5", "losses": "0"}},
+                    {"player": "b", "archetype": "White Weennie", "colors": ["W"], "wins": {"wins": "5", "losses": "0"}},
+                ],
+            }
+            (raw / "league.json").write_text(__import__("json").dumps(data))
+            self.assertEqual(rebuild_deck_profiles(raw_dir=raw, profiles_dir=out), 1)
+            profile = __import__("json").loads((out / "white-weenie.json").read_text())
+            self.assertEqual(profile["stats"]["total_entries"], 2)
+            self.assertFalse((out / "white-weennie.json").exists())
+
 if __name__ == "__main__":
     unittest.main()

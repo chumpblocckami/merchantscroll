@@ -13,6 +13,22 @@ from pathlib import Path
 RAW_DIR = Path("assets/pauper/raw")
 ARCHETYPE_PATH = Path("archetypes/pauperwave.json")
 
+ARCHETYPE_ALIASES: dict[str, str] = {
+    "White Weennie": "White Weenie",
+    "Rakdos Madness": "BR Madness",
+    "Red Madness": "R Madness",
+}
+
+
+def canonical_archetype(name: str) -> str:
+    """Return the canonical Pauperwave archetype name for aliases and typos."""
+    cleaned = name.strip()
+    if not cleaned:
+        return cleaned
+    return ARCHETYPE_ALIASES.get(cleaned, cleaned)
+
+
+
 MATCH_THRESHOLD = 0.5
 MIN_DECKS_PER_ARCHETYPE = 2
 MIN_CARD_PRESENCE_RATE = 0.5
@@ -49,7 +65,7 @@ def build_archetype_dictionary(
         except (json.JSONDecodeError, OSError):
             continue
         for deck in data.get("decklists", []):
-            archetype = deck.get("archetype", "").strip()
+            archetype = canonical_archetype(deck.get("archetype", "").strip())
             if not archetype:
                 continue
             cards = _main_deck_card_names(deck)
@@ -98,7 +114,7 @@ def classify_deck(
 ) -> str | None:
     """Return the best-matching Pauperwave archetype name, or None."""
     if deck.get("archetype"):
-        return deck["archetype"]
+        return canonical_archetype(deck["archetype"])
 
     card_names = _main_deck_card_names(deck)
     if not card_names or not archetype_map:
@@ -116,7 +132,7 @@ def classify_deck(
             best_name = archetype
 
     if best_score >= threshold:
-        return best_name
+        return canonical_archetype(best_name)
     return None
 
 
@@ -166,6 +182,31 @@ def classify_unlabeled_mtgo_decks(
             label = classify_deck(deck, archetype_map)
             if label:
                 deck["archetype"] = label
+                updated += 1
+                changed = True
+
+        if changed:
+            path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
+
+    return updated
+
+def normalize_archetype_labels(raw_dir: Path = RAW_DIR) -> int:
+    """Rewrite known archetype aliases in raw tournament data. Returns decks updated."""
+    updated = 0
+    for path in raw_dir.glob("*.json"):
+        try:
+            data = json.loads(path.read_text())
+        except (json.JSONDecodeError, OSError):
+            continue
+
+        changed = False
+        for deck in data.get("decklists", []):
+            archetype = deck.get("archetype")
+            if not archetype:
+                continue
+            canonical = canonical_archetype(archetype)
+            if canonical != archetype:
+                deck["archetype"] = canonical
                 updated += 1
                 changed = True
 

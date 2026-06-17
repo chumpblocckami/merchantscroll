@@ -13,6 +13,7 @@ from pathlib import Path
 
 from .classifier import (
     classify_unlabeled_mtgo_decks,
+    normalize_archetype_labels,
     enrich_archetypes,
     load_archetype_dictionary,
     rebuild_archetype_dictionary,
@@ -272,6 +273,7 @@ def run(refresh_scryfall: bool = False):
 
     archetype_map = load_archetype_dictionary()
     classified = classify_unlabeled_mtgo_decks(archetype_map)
+    normalized = normalize_archetype_labels()
     if classified:
         print(f"Classified {classified} MTGO decklist(s).")
 
@@ -281,6 +283,8 @@ def run(refresh_scryfall: bool = False):
         rebuild_index()
         rebuild_players_index()
         rebuild_player_profiles()
+        if normalized:
+            print(f"Archetype labels normalized: {normalized} decklists.")
         rebuild_deck_profiles()
         write_info()
     else:

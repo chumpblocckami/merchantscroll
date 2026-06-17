@@ -6,6 +6,7 @@ import json
 from collections import Counter, defaultdict
 from pathlib import Path
 
+from .classifier import canonical_archetype
 from .utils import canonical_starttime
 
 RAW_DIR = Path("assets/pauper/raw")
@@ -151,7 +152,8 @@ def rebuild_player_profiles(
                 if isinstance(rank, int) and rank <= 8:
                     stats["irl_top8"] += 1
 
-            archetype = deck.get("archetype") or _color_label(deck.get("colors"))
+            raw_archetype = deck.get("archetype")
+            archetype = canonical_archetype(raw_archetype) if raw_archetype else _color_label(deck.get("colors"))
             profile["favorite_decks"][archetype] += 1
 
             record = ""

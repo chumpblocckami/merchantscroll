@@ -2,19 +2,19 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 158,
-    "league_entries": 87,
-    "league_trophies": 87,
-    "league_trophies_yearly": 84,
-    "challenge_appearances": 67,
-    "challenge_wins": 254,
-    "challenge_losses": 163,
-    "irl_top8": 2,
-    "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 16,
-    "league_trophy_rank_alltime": 31,
-    "league_trophy_decks_yearly": 59,
-    "league_trophy_decks_alltime": 69
+    "total_entries": 555,
+    "league_entries": 330,
+    "league_trophies": 330,
+    "league_trophies_yearly": 140,
+    "challenge_appearances": 199,
+    "challenge_wins": 764,
+    "challenge_losses": 500,
+    "irl_top8": 15,
+    "challenge_win_pct": 60,
+    "league_trophy_rank_yearly": 9,
+    "league_trophy_rank_alltime": 9,
+    "league_trophy_decks_yearly": 58,
+    "league_trophy_decks_alltime": 68
   },
   "recent_entries": [
     {
@@ -192,6 +192,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-06-0512843783",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-05",
+      "player": "dragtar",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 12,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-06-0412843773",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-04",
@@ -203,6 +218,36 @@
       "final_rank": 16,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-0310636",
+      "tournament": "Pauper League",
+      "date": "2026-06-03",
+      "player": "Guidonick",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-0310636",
+      "tournament": "Pauper League",
+      "date": "2026-06-03",
+      "player": "bnpbnp",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-0210636",
@@ -218,136 +263,88 @@
       "type": "league"
     },
     {
+      "site_name": "pauperwave-2026-05-31-roma-summer-2026",
+      "tournament": "LP Roma Summer 2026 — Roma",
+      "date": "2026-05-31",
+      "player": "Giacomo Musa",
+      "colors": [
+        "W"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
+      "site_name": "pauperwave-2026-05-31-roma-summer-2026",
+      "tournament": "LP Roma Summer 2026 — Roma",
+      "date": "2026-05-31",
+      "player": "Alessio Di Lorenzo",
+      "colors": [
+        "W"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
+      "site_name": "pauperwave-2026-05-31-roma-summer-2026",
+      "tournament": "LP Roma Summer 2026 — Roma",
+      "date": "2026-05-31",
+      "player": "Pasquale Scognamiglio",
+      "colors": [
+        "W"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
+      "site_name": "pauperwave-2026-05-31-rolling-pauper-2026",
+      "tournament": "Rolling Pauper 2026 — Caserta",
+      "date": "2026-05-31",
+      "player": "Antonio Amoriello",
+      "colors": [
+        "W"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
+      "site_name": "pauperwave-2026-05-31-ferrara-trio",
+      "tournament": "Pauperiadi Trio — Ferrara",
+      "date": "2026-05-31",
+      "player": "Lorenzo Aldegheri",
+      "colors": [
+        "W"
+      ],
+      "record": "",
+      "final_rank": 1,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
+      "site_name": "pauperwave-2026-05-30-rivoli-summer-2026",
+      "tournament": "LP Rivoli Summer 2026 — Rivoli",
+      "date": "2026-05-30",
+      "player": "Matteo Vidotto",
+      "colors": [
+        "W"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
       "site_name": "pauper-league-2026-05-2910636",
       "tournament": "Pauper League",
       "date": "2026-05-29",
       "player": "_joacof_",
-      "colors": [
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2912843392",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-29",
-      "player": "KidRenan",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 21,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2812843381",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-28",
-      "player": "Bahsis",
-      "colors": [
-        "W"
-      ],
-      "record": "6-2",
-      "final_rank": 3,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2812843381",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-28",
-      "player": "MAFS",
-      "colors": [
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2510636",
-      "tournament": "Pauper League",
-      "date": "2026-05-25",
-      "player": "TryHardMol",
-      "colors": [
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2412842933",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-24",
-      "player": "KidRenan",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "7-1",
-      "final_rank": 3,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2312842916",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-23",
-      "player": "cabrabr12",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 9,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2312842916",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-23",
-      "player": "Deodato",
-      "colors": [
-        "R",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2212842901",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-22",
-      "player": "cabrabr12",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2110636",
-      "tournament": "Pauper League",
-      "date": "2026-05-21",
-      "player": "OweyD",
       "colors": [
         "W"
       ],
@@ -360,43 +357,43 @@
   "top_pilots": [
     {
       "player": "KidRenan",
-      "count": 15
-    },
-    {
-      "player": "Deodato",
-      "count": 13
-    },
-    {
-      "player": "CAM_13",
-      "count": 6
-    },
-    {
-      "player": "Niederschatten",
-      "count": 5
+      "count": 60
     },
     {
       "player": "jwaves",
-      "count": 4
+      "count": 34
     },
     {
-      "player": "cabrabr12",
-      "count": 4
+      "player": "Deodato",
+      "count": 21
     },
     {
-      "player": "LEANDROFLORESTA",
-      "count": 4
+      "player": "Denisevich",
+      "count": 19
     },
     {
-      "player": "MAFS",
-      "count": 4
+      "player": "Niederschatten",
+      "count": 17
     },
     {
-      "player": "Triso",
-      "count": 3
+      "player": "qbturtle15",
+      "count": 15
+    },
+    {
+      "player": "CAM_13",
+      "count": 14
     },
     {
       "player": "RUCetFort",
-      "count": 3
+      "count": 14
+    },
+    {
+      "player": "Huskyman20035",
+      "count": 11
+    },
+    {
+      "player": "dragtar",
+      "count": 10
     }
   ]
 }
