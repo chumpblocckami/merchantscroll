@@ -2,10 +2,10 @@
   "archetype": "UG Fog",
   "slug": "ug-fog",
   "stats": {
-    "total_entries": 420,
-    "league_entries": 211,
-    "league_trophies": 211,
-    "league_trophies_yearly": 13,
+    "total_entries": 421,
+    "league_entries": 212,
+    "league_trophies": 212,
+    "league_trophies_yearly": 14,
     "challenge_appearances": 181,
     "challenge_wins": 770,
     "challenge_losses": 429,
@@ -328,6 +328,22 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-05-2810636",
+      "tournament": "Pauper League",
+      "date": "2026-05-28",
+      "player": "manohito",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauperwave-2026-05-24-pauper-focaccia-trio",
       "tournament": "Pauper Focaccia Trio — Genova",
       "date": "2026-05-24",
@@ -385,20 +401,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-05-23-pauper-cats",
-      "tournament": "Pauper Cats — Vicenza",
-      "date": "2026-05-23",
-      "player": "Alessandro Moretti",
-      "colors": [
-        "G",
-        "U"
-      ],
-      "record": "",
-      "final_rank": 3,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [

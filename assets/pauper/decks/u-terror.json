@@ -2,10 +2,10 @@
   "archetype": "U Terror",
   "slug": "u-terror",
   "stats": {
-    "total_entries": 1536,
-    "league_entries": 746,
-    "league_trophies": 746,
-    "league_trophies_yearly": 271,
+    "total_entries": 1537,
+    "league_entries": 747,
+    "league_trophies": 747,
+    "league_trophies_yearly": 272,
     "challenge_appearances": 692,
     "challenge_wins": 2844,
     "challenge_losses": 1704,
@@ -22,6 +22,20 @@
       "tournament": "Pauper League",
       "date": "2026-06-17",
       "player": "Ska_Bonk",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1710636",
+      "tournament": "Pauper League",
+      "date": "2026-06-17",
+      "player": "BigPopp",
       "colors": [
         "R",
         "U"
@@ -349,20 +363,6 @@
       ],
       "record": "5-2",
       "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1212844305",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-12",
-      "player": "discoverN",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
     }
