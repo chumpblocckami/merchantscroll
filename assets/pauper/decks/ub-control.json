@@ -2,21 +2,36 @@
   "archetype": "UB Control",
   "slug": "ub-control",
   "stats": {
-    "total_entries": 150,
-    "league_entries": 102,
-    "league_trophies": 102,
-    "league_trophies_yearly": 55,
+    "total_entries": 151,
+    "league_entries": 103,
+    "league_trophies": 103,
+    "league_trophies_yearly": 56,
     "challenge_appearances": 44,
     "challenge_wins": 148,
     "challenge_losses": 124,
     "irl_top8": 3,
     "challenge_win_pct": 54,
     "league_trophy_rank_yearly": 24,
-    "league_trophy_rank_alltime": 28,
+    "league_trophy_rank_alltime": 26,
     "league_trophy_decks_yearly": 58,
     "league_trophy_decks_alltime": 68
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-1710636",
+      "tournament": "Pauper League",
+      "date": "2026-06-17",
+      "player": "Thn",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-1412844338",
       "tournament": "Pauper Challenge 32",
@@ -366,21 +381,6 @@
       "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-04-2410636",
-      "tournament": "Pauper League",
-      "date": "2026-04-24",
-      "player": "ivanguille",
-      "colors": [
-        "B",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
