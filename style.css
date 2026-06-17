@@ -287,8 +287,10 @@ body {
   overflow: hidden;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: stretch;
   position: relative;
+  min-height: 0;
+  height: 100%;
 }
 
 /* ── Player profile modal ── */
@@ -762,13 +764,21 @@ a.player-name:hover {
   flex-shrink: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
   width: 100%;
   padding: 16px 0 8px;
+  position: relative;
+  z-index: 920;
 }
 
-.download-btn {
-  display: block;
-  min-width: 160px;
+.deck-action-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 140px;
+  min-height: 44px;
   padding: 8px 18px;
   font-family: inherit;
   font-size: 0.72em;
@@ -783,22 +793,174 @@ a.player-name:hover {
   border: 1px solid var(--accent);
   border-radius: 6px;
   cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
   transition: background 0.18s ease, color 0.18s ease, transform 0.18s ease;
 }
 
-.download-btn:hover {
+.deck-action-btn:hover {
   background: var(--accent);
   color: var(--bg);
   transform: translateY(-1px);
 }
 
-.download-btn:active {
+.deck-action-btn:active {
   transform: translateY(0);
 }
 
-.download-btn:focus-visible {
+.deck-action-btn:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 3px;
+}
+
+.deck-container.visual-deck {
+  max-width: 100%;
+  padding-top: 8px;
+  padding-bottom: 6px;
+}
+
+.deck-container.visual-deck .deck-header {
+  margin-bottom: 6px;
+}
+
+.deck-container.visual-deck .deck-header .kbd-hint {
+  display: none;
+}
+
+.decklist-columns.visual-mode {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 10px;
+  padding-bottom: 0;
+}
+
+.decklist-columns.visual-mode .deck-col {
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.decklist-columns.visual-mode .deck-col.sideboard-col {
+  flex: 0 0 clamp(72px, 24vw, 108px);
+}
+
+.decklist-columns.visual-mode .col-title {
+  flex-shrink: 0;
+  font-size: 0.62em;
+  letter-spacing: 1px;
+  padding-bottom: 2px;
+  margin-bottom: 0;
+  border-bottom-width: 1px;
+}
+
+.deck-visual-grid {
+  display: grid;
+  align-content: start;
+  justify-content: center;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.card-tile {
+  position: relative;
+  padding: 0;
+  border: none;
+  background: var(--surface-2);
+  border-radius: 4px;
+  cursor: pointer;
+  overflow: hidden;
+  touch-action: manipulation;
+  flex-shrink: 0;
+}
+
+.card-tile-loading {
+  background: linear-gradient(
+    90deg,
+    var(--surface-2) 0%,
+    var(--surface-3) 50%,
+    var(--surface-2) 100%
+  );
+  background-size: 200% 100%;
+  animation: card-tile-shimmer 1.1s linear infinite;
+}
+
+@keyframes card-tile-shimmer {
+  from { background-position: 200% 0; }
+  to { background-position: -200% 0; }
+}
+
+.card-tile:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media (hover: none) {
+  .card-tile:hover {
+    transform: none;
+    box-shadow: none;
+  }
+}
+
+.card-tile:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.card-tile img,
+.card-tile-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 6px;
+}
+
+.card-tile-loading .card-tile-img {
+  opacity: 0;
+}
+
+.card-tile-qty {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  min-width: 16px;
+  padding: 0 4px;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, 0.82);
+  color: #fff;
+  font-size: 0.62em;
+  font-weight: 700;
+  line-height: 1.35;
+  text-align: center;
+  pointer-events: none;
+}
+
+.card-tile-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+}
+
+.card-tile-fallback-name {
+  font-size: 0.62em;
+  line-height: 1.25;
+  color: var(--text-muted);
+  text-align: center;
+  word-break: break-word;
+}
+
+.deck-action-btn.download-btn {
+  min-width: 160px;
 }
 
 .decklist-columns::-webkit-scrollbar {
@@ -942,6 +1104,32 @@ a.player-name:hover {
 .new-data-banner #new-data-tap {
   text-decoration: underline;
   text-underline-offset: 2px;
+}
+
+.action-toast {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%) translateY(20px);
+  background: var(--surface-2);
+  color: var(--text-1);
+  border: 1px solid var(--border-3);
+  font-size: 0.82em;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 10px 14px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+  z-index: 910;
+  opacity: 0;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  max-width: min(92vw, 360px);
+  text-align: center;
+  pointer-events: none;
+}
+
+.action-toast.visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
 }
 
 .install-banner {
@@ -1302,29 +1490,57 @@ kbd {
 
   .deck-container {
     padding: 6px 10px 4px;
-    height: auto;
+    height: 100%;
     max-height: 100%;
-    margin-top: auto;
-    margin-bottom: auto;
-    overflow-y: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .deck-container.visual-deck {
+    padding: 4px 8px 4px;
   }
 
   .decklist-columns {
-    flex: 0 1 auto;
-    overflow-y: visible;
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
     flex-direction: column;
     gap: 10px;
     padding-bottom: 2px;
   }
 
-  .deck-actions {
-    padding: 12px 0 6px;
+  .decklist-columns.visual-mode {
+    flex-direction: row;
+    gap: 6px;
+    overflow: hidden;
   }
 
-  .download-btn {
-    min-width: 140px;
-    padding: 7px 16px;
+  .deck-actions {
+    position: sticky;
+    bottom: 0;
+    flex-shrink: 0;
+    padding: 10px 0 max(10px, env(safe-area-inset-bottom));
+    background: var(--bg);
+    border-top: 1px solid var(--border);
+    box-shadow: 0 -8px 24px color-mix(in srgb, var(--bg) 85%, transparent);
+  }
+
+  .deck-action-btn {
+    min-width: 0;
+    flex: 1;
+    max-width: 180px;
+    min-height: 44px;
+    padding: 10px 12px;
     font-size: 0.68em;
+  }
+
+  .install-banner,
+  .new-data-banner,
+  .action-toast {
+    bottom: calc(76px + env(safe-area-inset-bottom, 0px));
   }
 
   .deck-header {

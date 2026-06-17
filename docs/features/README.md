@@ -11,7 +11,7 @@ Status tracker for Merchant Scroll features.
 | 5 | Highlight relevant cards | Cancelled | [highlight-relevant-cards.md](highlight-relevant-cards.md) |
 | 6 | Deck classification | Done | [deck-classification.md](deck-classification.md) |
 | 7 | Installable web app (PWA) | Done | [installable-webapp.md](installable-webapp.md) |
-| 8 | Visual decklist view | Proposed | [visual-decklist.md](visual-decklist.md) |
+| 8 | Visual decklist view | Done | [visual-decklist.md](visual-decklist.md) |
 
 ### Statuses
 

@@ -1,6 +1,6 @@
 # Feature 8: Visual Decklist View
 
-**Status:** Proposed
+**Status:** Done
 
 ## Summary
 

@@ -20,6 +20,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#0f0f0f" />
+  <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <meta name="apple-mobile-web-app-title" content="Merchant Scroll" />
@@ -103,6 +104,7 @@
     </div>
   </div>
   <div id="new-data-banner" class="new-data-banner" hidden>New decklists available — <span id="new-data-tap">tap to refresh</span></div>
+  <div id="action-toast" class="action-toast" hidden role="status"></div>
 
   <script>
     const $ = (s) => document.getElementById(s);
@@ -154,6 +156,9 @@
     const loadedTournaments = new Set();
     let totalDeckCount = "";
     let archetypeMap = {};
+    let deckViewMode = localStorage.getItem("ms-deck-view") === "visual" ? "visual" : "text";
+    let visualImageLoadId = 0;
+    const scryfallImageCache = new Map();
 
 
     /* ── Color map ── */
@@ -183,13 +188,99 @@
 
     /* ── Card preview ── */
     function scryfallImg(name) {
-      return `https://api.scryfall.com/cards/named?exact=${encodeURIComponent(name)}&format=image&version=normal`;
+      return scryfallImageCache.get(name)?.normal
+        || `https://api.scryfall.com/cards/named?exact=${encodeURIComponent(name)}&format=image&version=normal`;
+    }
+
+    function scryfallImgSmall(name) {
+      return scryfallImageCache.get(name)?.small
+        || `https://api.scryfall.com/cards/named?exact=${encodeURIComponent(name)}&format=image&version=small`;
+    }
+
+    function storeScryfallImages(name, uris) {
+      if (!uris?.small && !uris?.normal) return;
+      scryfallImageCache.set(name, {
+        small: uris.small || uris.normal,
+        normal: uris.normal || uris.small,
+      });
+    }
+
+    function cardImageUris(card) {
+      return card.image_uris || card.card_faces?.[0]?.image_uris || null;
+    }
+
+    async function fetchSingleCardImage(name) {
+      try {
+        const res = await fetch(
+          `https://api.scryfall.com/cards/named?exact=${encodeURIComponent(name)}`
+        );
+        if (!res.ok) return null;
+        const card = await res.json();
+        const uris = cardImageUris(card);
+        if (!uris) return null;
+        storeScryfallImages(name, uris);
+        return uris.small || uris.normal;
+      } catch {
+        return null;
+      }
+    }
+
+    async function fetchScryfallImages(names) {
+      const result = new Map();
+      const missing = [];
+      for (const name of names) {
+        const cached = scryfallImageCache.get(name);
+        if (cached?.small) result.set(name, cached.small);
+        else missing.push(name);
+      }
+      if (missing.length === 0) return result;
+
+      try {
+        const res = await fetch("https://api.scryfall.com/cards/collection", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ identifiers: missing.map((name) => ({ name })) }),
+        });
+        if (!res.ok) throw new Error("Scryfall collection request failed");
+        const data = await res.json();
+
+        for (const card of data.data || []) {
+          storeScryfallImages(card.name, cardImageUris(card));
+        }
+
+        for (const name of missing) {
+          const cached = scryfallImageCache.get(name);
+          if (cached?.small) {
+            result.set(name, cached.small);
+            continue;
+          }
+          const url = await fetchSingleCardImage(name);
+          if (url) result.set(name, url);
+        }
+      } catch (err) {
+        console.warn("Scryfall batch image fetch failed:", err);
+        for (const name of missing) {
+          if (!result.has(name)) result.set(name, scryfallImgSmall(name));
+        }
+      }
+
+      return result;
+    }
+
+    function openCardPreview(name, x, y) {
+      cardPreviewImg.src = scryfallImg(name);
+      cardPreview.style.display = "block";
+      if (x != null && y != null) {
+        positionPreview(x, y);
+        return;
+      }
+      const pw = 220, ph = 310;
+      cardPreview.style.left = ((window.innerWidth - pw) / 2) + "px";
+      cardPreview.style.top = ((window.innerHeight - ph) / 2) + "px";
     }
 
     function showPreview(name, x, y) {
-      cardPreviewImg.src = scryfallImg(name);
-      cardPreview.style.display = "block";
-      positionPreview(x, y);
+      openCardPreview(name, x, y);
     }
 
     function positionPreview(x, y) {
@@ -245,20 +336,179 @@
     }
 
     function attachPreview(span, name) {
-      if (isTouch) {
-        span.addEventListener("click", (e) => {
-          e.stopPropagation();
-          cardPreviewImg.src = scryfallImg(name);
-          cardPreview.style.display = "block";
-          const pw = 220, ph = 310;
-          cardPreview.style.left = ((window.innerWidth - pw) / 2) + "px";
-          cardPreview.style.top = ((window.innerHeight - ph) / 2) + "px";
-        });
-      } else {
-        span.addEventListener("mouseenter", (e) => showPreview(name, e.clientX, e.clientY));
-        span.addEventListener("mousemove", (e) => positionPreview(e.clientX, e.clientY));
-        span.addEventListener("mouseleave", hidePreview);
+      attachCardPreview(span, name);
+    }
+
+    function attachCardPreview(node, name) {
+      node.addEventListener("click", (e) => {
+        e.stopPropagation();
+        openCardPreview(name);
+      });
+      if (!isTouch) {
+        node.addEventListener("mouseenter", (e) => showPreview(name, e.clientX, e.clientY));
+        node.addEventListener("mousemove", (e) => positionPreview(e.clientX, e.clientY));
+        node.addEventListener("mouseleave", hidePreview);
       }
+    }
+
+    function deckCardTotal(cards) {
+      return cards.reduce((sum, card) => sum + (parseInt(card.qty, 10) || 1), 0);
+    }
+
+    function showTileFallback(tile, name) {
+      tile.classList.remove("card-tile-loading");
+      tile.classList.add("card-tile-fallback");
+      const img = tile.querySelector(".card-tile-img");
+      if (img) img.remove();
+      if (!tile.querySelector(".card-tile-fallback-name")) {
+        tile.appendChild(el("span", "card-tile-fallback-name", name));
+      }
+    }
+
+    function cardTile(name, qty) {
+      const tile = el("button", "card-tile card-tile-loading");
+      tile.type = "button";
+      tile.dataset.cardName = name;
+      tile.setAttribute("aria-label", qty > 1 ? `${qty} ${name}` : name);
+
+      const img = document.createElement("img");
+      img.className = "card-tile-img";
+      img.alt = name;
+      img.decoding = "async";
+      img.addEventListener("load", () => tile.classList.remove("card-tile-loading"));
+      img.addEventListener("error", () => showTileFallback(tile, name));
+
+      tile.appendChild(img);
+      if (qty > 1) tile.appendChild(el("span", "card-tile-qty", qty));
+      attachCardPreview(tile, name);
+
+      return tile;
+    }
+
+    function hydrateVisualGrid(grid, cards) {
+      const loadId = visualImageLoadId;
+      const names = flatGroup(cards).map(([name]) => name);
+      fetchScryfallImages(names).then((uriMap) => {
+        if (loadId !== visualImageLoadId) return;
+        for (const tile of grid.querySelectorAll(".card-tile")) {
+          const name = tile.dataset.cardName;
+          const url = uriMap.get(name);
+          const img = tile.querySelector(".card-tile-img");
+          if (!img) continue;
+          if (url) {
+            img.src = url;
+          } else {
+            showTileFallback(tile, name);
+          }
+        }
+        const deck = grid.closest(".deck-container.visual-deck");
+        if (deck) scheduleVisualFit(deck);
+      });
+    }
+
+    function renderVisualGrid(cards) {
+      const grid = el("div", "deck-visual-grid");
+      for (const [name, qty] of flatGroup(cards)) {
+        grid.appendChild(cardTile(name, qty));
+      }
+      hydrateVisualGrid(grid, cards);
+      return grid;
+    }
+
+    const CARD_TILE_ASPECT = 680 / 488;
+    let visualFitObserver = null;
+
+    function fitVisualGrid(grid, width, height) {
+      const count = grid?.children.length || 0;
+      if (!count || width <= 0 || height <= 0) return;
+
+      const gap = window.innerWidth < 768 ? 3 : 4;
+      let bestFit = null;
+      let bestOverflow = null;
+
+      for (let cols = 1; cols <= count; cols++) {
+        const rows = Math.ceil(count / cols);
+        const tileW = (width - gap * (cols - 1)) / cols;
+        if (tileW < 22) break;
+        const tileH = tileW * CARD_TILE_ASPECT;
+        const totalH = rows * tileH + gap * Math.max(rows - 1, 0);
+        const overflow = totalH - height;
+
+        if (overflow <= 0) {
+          if (!bestFit || tileW > bestFit.tileW) {
+            bestFit = { cols, tileW, tileH, gap };
+          }
+          continue;
+        }
+
+        if (!bestOverflow || overflow < bestOverflow.overflow) {
+          bestOverflow = { cols, tileW, tileH, gap, overflow };
+        }
+      }
+
+      const chosen = bestFit || bestOverflow;
+      if (!chosen) return;
+
+      grid.style.gridTemplateColumns = `repeat(${chosen.cols}, ${chosen.tileW}px)`;
+      grid.style.gap = `${chosen.gap}px`;
+      grid.style.justifyContent = "center";
+      for (const tile of grid.children) {
+        tile.style.width = `${chosen.tileW}px`;
+        tile.style.height = `${chosen.tileH}px`;
+      }
+    }
+
+    function fitVisualDeckLayout(container) {
+      if (deckViewMode !== "visual" || !container) return;
+      const columns = container.querySelector(".decklist-columns.visual-mode");
+      if (!columns) return;
+
+      const availH = columns.clientHeight;
+      const availW = columns.clientWidth;
+      if (availH <= 0 || availW <= 0) return;
+
+      const mainCol = columns.querySelector(".deck-col:not(.sideboard-col)");
+      const sbCol = columns.querySelector(".sideboard-col");
+      const columnGap = window.innerWidth < 768 ? 6 : 12;
+
+      if (mainCol && sbCol) {
+        const sbWidth = Math.min(108, Math.max(72, availW * 0.24));
+        const mainWidth = availW - sbWidth - columnGap;
+        const titleH = 22;
+        const mainGrid = mainCol.querySelector(".deck-visual-grid");
+        const sbGrid = sbCol.querySelector(".deck-visual-grid");
+        fitVisualGrid(mainGrid, mainWidth, availH - titleH);
+        fitVisualGrid(sbGrid, sbWidth, availH - titleH);
+        return;
+      }
+
+      const col = mainCol || sbCol;
+      const grid = col?.querySelector(".deck-visual-grid");
+      if (grid) fitVisualGrid(grid, availW, availH - 22);
+    }
+
+    function scheduleVisualFit(container) {
+      if (deckViewMode !== "visual" || !container) return;
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => fitVisualDeckLayout(container));
+      });
+    }
+
+    function observeVisualDeckLayout(container) {
+      if (!container || deckViewMode !== "visual") return;
+      scheduleVisualFit(container);
+      if (typeof ResizeObserver === "undefined") return;
+      if (!visualFitObserver) {
+        visualFitObserver = new ResizeObserver((entries) => {
+          for (const entry of entries) {
+            const deck = entry.target.closest(".deck-container.visual-deck");
+            if (deck) scheduleVisualFit(deck);
+          }
+        });
+      }
+      visualFitObserver.disconnect();
+      const columns = container.querySelector(".decklist-columns");
+      if (columns) visualFitObserver.observe(columns);
     }
 
     function cardRow(name, qty) {
@@ -532,21 +782,119 @@
       return (name || "deck").replace(/[^\w\-]+/g, "_").replace(/^_|_$/g, "").slice(0, 60) || "deck";
     }
 
-    function downloadDecklist(entry) {
-      const text = exportDeckText(entry);
-      const blob = new Blob([text], { type: "text/plain" });
-      const url = URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      a.href = url;
+    function exportFilename(entry) {
       const player = safeFilename(entry.player);
       const type = deriveTournamentType(entry.tournamentName, entry.siteName).toLowerCase() || "event";
       const date = dateKey(entry.tournamentDate) || "unknown";
-      a.download = `${player}_${type}_${date}.txt`;
+      return `${player}_${type}_${date}.txt`;
+    }
+
+    let actionToastTimer = null;
+    function showActionToast(message) {
+      const toast = $("action-toast");
+      if (!toast) return;
+      toast.textContent = message;
+      toast.hidden = false;
+      requestAnimationFrame(() => toast.classList.add("visible"));
+      clearTimeout(actionToastTimer);
+      actionToastTimer = setTimeout(() => {
+        toast.classList.remove("visible");
+        toast.hidden = true;
+      }, 2800);
+    }
+
+    async function copyDecklistText(text) {
+      if (navigator.clipboard?.writeText) {
+        await navigator.clipboard.writeText(text);
+        return true;
+      }
+      const area = document.createElement("textarea");
+      area.value = text;
+      area.setAttribute("readonly", "");
+      area.style.position = "fixed";
+      area.style.left = "-9999px";
+      document.body.appendChild(area);
+      area.select();
+      const ok = document.execCommand("copy");
+      area.remove();
+      return ok;
+    }
+
+    async function shareDecklistFile(text, filename) {
+      if (!navigator.share) return false;
+      const file = new File([text], filename, { type: "text/plain;charset=utf-8" });
+      try {
+        if (navigator.canShare?.({ files: [file] })) {
+          await navigator.share({ files: [file], title: filename });
+          return true;
+        }
+        await navigator.share({ title: filename, text });
+        return true;
+      } catch (err) {
+        if (err?.name === "AbortError") return true;
+        return false;
+      }
+    }
+
+    function triggerBlobDownload(text, filename) {
+      const blob = new Blob([text], { type: "text/plain;charset=utf-8" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = filename;
+      a.rel = "noopener";
+      a.style.display = "none";
+      document.body.appendChild(a);
       a.click();
-      URL.revokeObjectURL(url);
+      setTimeout(() => {
+        URL.revokeObjectURL(url);
+        a.remove();
+      }, 2000);
+    }
+
+    async function downloadDecklist(entry) {
+      const text = exportDeckText(entry);
+      const filename = exportFilename(entry);
+
+      if (isTouch) {
+        if (await shareDecklistFile(text, filename)) {
+          showActionToast("Decklist ready to save or share");
+          return;
+        }
+        try {
+          if (await copyDecklistText(text)) {
+            showActionToast("Decklist copied — paste into MTGO or Moxfield");
+            return;
+          }
+        } catch (_) {}
+        try {
+          triggerBlobDownload(text, filename);
+          showActionToast("Downloading decklist…");
+          return;
+        } catch (_) {}
+        showActionToast("Could not export decklist on this device");
+        return;
+      }
+
+      triggerBlobDownload(text, filename);
     }
 
     /* ── Color pips ── */
+    function bindDeckActionButton(btn, handler) {
+      if (isTouch) {
+        btn.addEventListener("touchend", (e) => {
+          e.preventDefault();
+          e.stopPropagation();
+          handler(e);
+        }, { passive: false });
+        return;
+      }
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation();
+        handler(e);
+      });
+    }
+
     function renderColorPips(colors) {
       const container = el("span", "color-pips");
       const list = colors || ["C"];
@@ -672,7 +1020,7 @@
       if (openDropdown && !e.target.closest(".bc-dropdown") && !e.target.closest(".bc-trigger")) {
         closeDropdown();
       }
-      if (isTouch && !e.target.closest(".card-name")) hidePreview();
+      if (isTouch && !e.target.closest(".card-name, .card-tile")) hidePreview();
     });
 
     function showDropdown(trigger, items, onSelect) {
@@ -826,6 +1174,7 @@
     function renderDeck(entry) {
       const deck = entry.decklist;
       const container = el("div", "deck-container");
+      if (deckViewMode === "visual") container.classList.add("visual-deck");
 
       const header = el("div", "deck-header");
 
@@ -870,30 +1219,57 @@
       container.appendChild(header);
 
       const columns = el("div", "decklist-columns");
+      if (deckViewMode === "visual") columns.classList.add("visual-mode");
 
       if (deck.main_deck?.length) {
         const col = el("div", "deck-col");
-        col.appendChild(el("h4", "col-title", "Main Deck"));
-        col.appendChild(renderCategories(deck.main_deck));
+        const mainTotal = deckCardTotal(deck.main_deck);
+        col.appendChild(el("h4", "col-title", `Main Deck (${mainTotal})`));
+        col.appendChild(
+          deckViewMode === "visual"
+            ? renderVisualGrid(deck.main_deck)
+            : renderCategories(deck.main_deck)
+        );
         columns.appendChild(col);
       }
 
       if (deck.sideboard_deck?.length) {
         const col = el("div", "deck-col sideboard-col");
-        col.appendChild(el("h4", "col-title sideboard-title", "Sideboard"));
-        col.appendChild(renderFlat(deck.sideboard_deck));
+        const sbTotal = deckCardTotal(deck.sideboard_deck);
+        col.appendChild(el("h4", "col-title sideboard-title", `Sideboard (${sbTotal})`));
+        col.appendChild(
+          deckViewMode === "visual"
+            ? renderVisualGrid(deck.sideboard_deck)
+            : renderFlat(deck.sideboard_deck)
+        );
         columns.appendChild(col);
       }
 
       container.appendChild(columns);
 
       const actions = el("div", "deck-actions");
-      const downloadBtn = el("button", "download-btn", "\u2913  Export MTGO");
+      const viewToggleBtn = el(
+        "button",
+        "deck-action-btn deck-view-toggle",
+        deckViewMode === "text" ? "\u9638  Visual" : "\u2630  Text"
+      );
+      viewToggleBtn.type = "button";
+      viewToggleBtn.setAttribute(
+        "aria-label",
+        deckViewMode === "text" ? "Switch to visual deck view" : "Switch to text deck view"
+      );
+      bindDeckActionButton(viewToggleBtn, () => {
+        deckViewMode = deckViewMode === "text" ? "visual" : "text";
+        localStorage.setItem("ms-deck-view", deckViewMode);
+        showDeck();
+      });
+      actions.appendChild(viewToggleBtn);
+
+      const downloadBtn = el("button", "deck-action-btn download-btn", "\u2913  Export MTGO");
       downloadBtn.type = "button";
       downloadBtn.setAttribute("aria-label", "Download decklist as text file");
-      downloadBtn.addEventListener("click", (e) => {
-        e.stopPropagation();
-        downloadDecklist(entry);
+      bindDeckActionButton(downloadBtn, () => {
+        downloadDecklist(entry).catch(console.warn);
       });
       actions.appendChild(downloadBtn);
       container.appendChild(actions);
@@ -956,10 +1332,12 @@
         deckIdx = filteredDecks.length - 1;
       }
       content.innerHTML = "";
+      visualImageLoadId++;
       const entry = filteredDecks[deckIdx];
       const deckEl = renderDeck(entry);
       deckEl.classList.add(slideDir > 0 ? "slide-up" : "slide-down");
       content.appendChild(deckEl);
+      if (deckViewMode === "visual") observeVisualDeckLayout(deckEl);
       updateBreadcrumb(entry);
       updateProgress();
     }
@@ -1022,8 +1400,14 @@
       if (e.key === "ArrowLeft") { e.preventDefault(); throttledGo(-1); }
     });
 
+    window.addEventListener("resize", () => {
+      const deck = content.querySelector(".deck-container.visual-deck");
+      if (deck) scheduleVisualFit(deck);
+    });
+
     content.addEventListener("wheel", (e) => {
       if (isPlayerModalOpen()) return;
+      if (deckViewMode === "visual" && e.target.closest(".decklist-columns")) return;
       e.preventDefault();
       if (Math.abs(e.deltaX) > Math.abs(e.deltaY) && Math.abs(e.deltaX) > 30) {
         if (e.deltaX > 0) openPlayerProfileFromDeck();
@@ -1034,11 +1418,33 @@
 
     let touchStartX = 0;
     let touchStartY = 0;
+    let touchStartTarget = null;
+
+    function shouldBlockDeckSwipe(target) {
+      if (!target?.closest) return false;
+      if (target.closest(
+        ".card-tile, .card-name, .deck-actions, .player-link, .deck-action-btn, .bc-trigger, .bc-dropdown"
+      )) {
+        return true;
+      }
+      if (deckViewMode === "visual" && target.closest(".decklist-columns")) {
+        return true;
+      }
+      return false;
+    }
+
     content.addEventListener("touchstart", (e) => {
-      touchStartX = e.changedTouches[0].screenX;
-      touchStartY = e.changedTouches[0].screenY;
+      const touch = e.touches[0] || e.changedTouches[0];
+      if (!touch) return;
+      touchStartX = touch.screenX;
+      touchStartY = touch.screenY;
+      touchStartTarget = e.target;
     }, { passive: true });
     content.addEventListener("touchend", (e) => {
+      if (shouldBlockDeckSwipe(touchStartTarget) || shouldBlockDeckSwipe(e.target)) {
+        touchStartTarget = null;
+        return;
+      }
       if (isPlayerModalOpen()) {
         const deltaX = touchStartX - e.changedTouches[0].screenX;
         const deltaY = touchStartY - e.changedTouches[0].screenY;
@@ -1052,6 +1458,7 @@
         return;
       }
       if (Math.abs(deltaY) > 50) throttledGo(deltaY > 0 ? 1 : -1);
+      touchStartTarget = null;
     });
 
     playerModal.addEventListener("click", (e) => {
@@ -1254,6 +1661,8 @@
     });
 
     window.addEventListener("beforeinstallprompt", (e) => {
+      const isLocalDev = location.hostname === "localhost" || location.hostname === "127.0.0.1";
+      if (isLocalDev) return;
       e.preventDefault();
       deferredInstallPrompt = e;
       updateInstallUi();
@@ -1273,8 +1682,18 @@
       });
     }
   </script>
-  <script data-goatcounter="https://vedalken.goatcounter.com/count"
-          async src="//gc.zgo.at/count.js"></script>
+  <script>
+    (function () {
+      const host = location.hostname;
+      const isLocalDev = host === "localhost" || host === "127.0.0.1";
+      if (isLocalDev) return;
+      const s = document.createElement("script");
+      s.async = true;
+      s.dataset.goatcounter = "https://vedalken.goatcounter.com/count";
+      s.src = "https://gc.zgo.at/count.js";
+      document.body.appendChild(s);
+    })();
+  </script>
 </body>
 
 </html>
