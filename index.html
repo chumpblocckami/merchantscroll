@@ -973,18 +973,26 @@
       return ok;
     }
 
+    function canShareDeckFile(file) {
+      try {
+        return navigator.canShare?.({ files: [file] }) ?? false;
+      } catch (_) {
+        return false;
+      }
+    }
+
     async function shareDecklistFile(text, filename) {
       if (!navigator.share) return false;
       const file = new File([text], filename, { type: "text/plain;charset=utf-8" });
       try {
-        if (navigator.canShare?.({ files: [file] })) {
+        if (canShareDeckFile(file)) {
           await navigator.share({ files: [file], title: filename });
           return true;
         }
         await navigator.share({ title: filename, text });
         return true;
       } catch (err) {
-        if (err?.name === "AbortError") return true;
+        if (err?.name === "AbortError") return false;
         return false;
       }
     }
@@ -1038,13 +1046,13 @@
         btn.addEventListener("touchend", (e) => {
           e.preventDefault();
           e.stopPropagation();
-          handler(e);
+          Promise.resolve(handler(e)).catch(console.warn);
         }, { passive: false });
         return;
       }
       btn.addEventListener("click", (e) => {
         e.stopPropagation();
-        handler(e);
+        Promise.resolve(handler(e)).catch(console.warn);
       });
     }
 
