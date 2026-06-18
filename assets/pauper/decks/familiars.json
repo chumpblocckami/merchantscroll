@@ -2,10 +2,10 @@
   "archetype": "Familiars",
   "slug": "familiars",
   "stats": {
-    "total_entries": 259,
-    "league_entries": 151,
-    "league_trophies": 151,
-    "league_trophies_yearly": 64,
+    "total_entries": 260,
+    "league_entries": 152,
+    "league_trophies": 152,
+    "league_trophies_yearly": 65,
     "challenge_appearances": 87,
     "challenge_wins": 351,
     "challenge_losses": 220,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 68
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-1810636",
+      "tournament": "Pauper League",
+      "date": "2026-06-18",
+      "player": "AvenRedeemer",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-1710636",
       "tournament": "Pauper League",
@@ -362,21 +377,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-0912842086",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-09",
-      "player": "ChaoticMTG",
-      "colors": [
-        "B",
-        "U",
-        "W"
-      ],
-      "record": "4-3",
-      "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
