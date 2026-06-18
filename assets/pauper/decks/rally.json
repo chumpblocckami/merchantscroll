@@ -2,10 +2,10 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 927,
-    "league_entries": 547,
-    "league_trophies": 547,
-    "league_trophies_yearly": 207,
+    "total_entries": 928,
+    "league_entries": 548,
+    "league_trophies": 548,
+    "league_trophies_yearly": 208,
     "challenge_appearances": 350,
     "challenge_wins": 1336,
     "challenge_losses": 902,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 68
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-1810636",
+      "tournament": "Pauper League",
+      "date": "2026-06-18",
+      "player": "marcomartinelli999",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-1710636",
       "tournament": "Pauper League",
@@ -338,20 +352,6 @@
       ],
       "record": "",
       "final_rank": 2,
-      "source": "pauperwave",
-      "type": "irl"
-    },
-    {
-      "site_name": "pauperwave-2026-06-13-versilia-summer-2026",
-      "tournament": "LP Versilia Summer 2026 — Versilia",
-      "date": "2026-06-13",
-      "player": "Stefano Tarabella",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "",
-      "final_rank": 5,
       "source": "pauperwave",
       "type": "irl"
     }

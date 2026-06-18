@@ -2,21 +2,35 @@
   "archetype": "Boros Synth",
   "slug": "boros-synth",
   "stats": {
-    "total_entries": 8,
-    "league_entries": 4,
-    "league_trophies": 4,
-    "league_trophies_yearly": 1,
+    "total_entries": 9,
+    "league_entries": 5,
+    "league_trophies": 5,
+    "league_trophies_yearly": 2,
     "challenge_appearances": 0,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 3,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 56,
-    "league_trophy_rank_alltime": 58,
+    "league_trophy_rank_yearly": 54,
+    "league_trophy_rank_alltime": 57,
     "league_trophy_decks_yearly": 58,
     "league_trophy_decks_alltime": 68
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-1810636",
+      "tournament": "Pauper League",
+      "date": "2026-06-18",
+      "player": "Huskyman20035",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-04-0610405",
       "tournament": "Pauper League",
@@ -161,6 +175,10 @@
     },
     {
       "player": "ethanunofficial",
+      "count": 1
+    },
+    {
+      "player": "Huskyman20035",
       "count": 1
     }
   ]

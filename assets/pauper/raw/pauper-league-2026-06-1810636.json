@@ -2802,7 +2802,7 @@
         "B",
         "G"
       ],
-      "archetype": "Gardens"
+      "archetype": "Food Pestilence"
     },
     {
       "player": "AvenRedeemer",
@@ -3414,7 +3414,7 @@
         "R",
         "W"
       ],
-      "archetype": "Boros Glitter"
+      "archetype": "Boros Synth"
     },
     {
       "player": "True-Name-Nemesis",
@@ -3641,7 +3641,7 @@
         "B",
         "G"
       ],
-      "archetype": "Gardens"
+      "archetype": "Food Pestilence"
     },
     {
       "player": "Ciri80",
@@ -4019,7 +4019,7 @@
         "G",
         "R"
       ],
-      "archetype": "Pingers"
+      "archetype": "Rally"
     },
     {
       "player": "_Abijhavs_",
@@ -4729,6 +4729,148 @@
         "G"
       ],
       "archetype": "Elves"
+    },
+    {
+      "player": "CosmicCharles",
+      "main_deck": [
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Clockwork Percussionist",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Experimental Synthesizer",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Great Furnace",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Goblin Tomb Raider",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Galvanic Blast",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Lightning Bolt",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Voldaren Epicure",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Chain Lightning",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Reckless Lackey",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Inventor's Axe",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "14",
+          "card_attributes": {
+            "card_name": "Mountain",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Lava Spike",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Gingerbrute",
+            "card_type": "ISCREA"
+          }
+        }
+      ],
+      "sideboard_deck": [
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Tectonic Hazard",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Relic of Progenitus",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Pyroblast",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Smash to Smithereens",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Red Elemental Blast",
+            "card_type": "INSTNT"
+          }
+        }
+      ],
+      "wins": {
+        "loginplayeventcourseid": "35318694",
+        "wins": "5",
+        "losses": "0"
+      },
+      "colors": [
+        "R"
+      ],
+      "archetype": "Mono Red Kuldotha"
     }
   ]
 }
