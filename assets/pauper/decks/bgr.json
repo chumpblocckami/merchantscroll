@@ -2,15 +2,15 @@
   "archetype": "BGR",
   "slug": "bgr",
   "stats": {
-    "total_entries": 14,
+    "total_entries": 13,
     "league_entries": 11,
     "league_trophies": 11,
     "league_trophies_yearly": 11,
-    "challenge_appearances": 3,
-    "challenge_wins": 13,
-    "challenge_losses": 6,
+    "challenge_appearances": 2,
+    "challenge_wins": 9,
+    "challenge_losses": 4,
     "irl_top8": 0,
-    "challenge_win_pct": 68,
+    "challenge_win_pct": 69,
     "league_trophy_rank_yearly": 44,
     "league_trophy_rank_alltime": 49,
     "league_trophy_decks_yearly": 58,
@@ -211,31 +211,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-08-2212812149",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-08-22",
-      "player": "Hamuda",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "newbarola",
       "count": 11
-    },
-    {
-      "player": "Hamuda",
-      "count": 1
     },
     {
       "player": "olati",

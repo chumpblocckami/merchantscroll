@@ -2,10 +2,10 @@
   "archetype": "Cawgate",
   "slug": "cawgate",
   "stats": {
-    "total_entries": 414,
-    "league_entries": 250,
-    "league_trophies": 250,
-    "league_trophies_yearly": 130,
+    "total_entries": 415,
+    "league_entries": 251,
+    "league_trophies": 251,
+    "league_trophies_yearly": 131,
     "challenge_appearances": 131,
     "challenge_wins": 544,
     "challenge_losses": 324,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 68
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-1810636",
+      "tournament": "Pauper League",
+      "date": "2026-06-18",
+      "player": "matutehyuga",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-1412844338",
       "tournament": "Pauper Challenge 32",
@@ -378,22 +393,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-04-2210636",
-      "tournament": "Pauper League",
-      "date": "2026-04-22",
-      "player": "AlessandroPiraccini",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -415,7 +414,7 @@
     },
     {
       "player": "matutehyuga",
-      "count": 13
+      "count": 14
     },
     {
       "player": "SamaLama",
