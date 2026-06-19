@@ -108,6 +108,101 @@ class TestCanonicalStarttime(unittest.TestCase):
         self.assertEqual(result["starttime"], "2025-11-23")
 
 
+class TestRefreshPolicy(unittest.TestCase):
+    def test_active_league_within_week(self):
+        from datetime import date
+
+        from src.refresh_policy import is_active_league
+
+        self.assertTrue(
+            is_active_league(
+                "pauper-league-2026-06-1710636",
+                today=date(2026, 6, 19),
+            )
+        )
+        self.assertFalse(
+            is_active_league(
+                "pauper-league-2026-06-1010636",
+                today=date(2026, 6, 19),
+            )
+        )
+
+    def test_should_crawl_empty_recent_challenge(self):
+        from datetime import date
+
+        from src.refresh_policy import should_crawl_mtgo
+
+        self.assertTrue(
+            should_crawl_mtgo(
+                "pauper-challenge-32-2026-06-1812844831",
+                exists=True,
+                stored_deck_count=0,
+                today=date(2026, 6, 19),
+            )
+        )
+        self.assertFalse(
+            should_crawl_mtgo(
+                "pauper-challenge-32-2026-05-1012842105",
+                exists=True,
+                stored_deck_count=0,
+                today=date(2026, 6, 19),
+            )
+        )
+
+    def test_should_crawl_active_league_with_decks(self):
+        from datetime import date
+
+        from src.refresh_policy import should_crawl_mtgo
+
+        self.assertTrue(
+            should_crawl_mtgo(
+                "pauper-league-2026-06-1710636",
+                exists=True,
+                stored_deck_count=24,
+                today=date(2026, 6, 19),
+            )
+        )
+        self.assertFalse(
+            should_crawl_mtgo(
+                "pauper-challenge-32-2026-06-1412844338",
+                exists=True,
+                stored_deck_count=32,
+                today=date(2026, 6, 19),
+            )
+        )
+
+    def test_save_tournament_if_nonempty(self):
+        import tempfile
+        from pathlib import Path
+
+        from src.refresh_policy import save_tournament_if_nonempty
+
+        with tempfile.TemporaryDirectory() as tmp:
+            raw = Path(tmp)
+            site = "pauper-challenge-empty"
+            empty = {
+                "site_name": site,
+                "description": "Empty",
+                "decklists": [],
+            }
+            changed, count = save_tournament_if_nonempty(raw, site, empty)
+            self.assertFalse(changed)
+            self.assertEqual(count, 0)
+            self.assertFalse((raw / f"{site}.json").exists())
+
+            (raw / f"{site}.json").write_text('{"decklists": []}')
+            changed, count = save_tournament_if_nonempty(raw, site, empty)
+            self.assertTrue(changed)
+            self.assertEqual(count, 0)
+            self.assertFalse((raw / f"{site}.json").exists())
+
+            full = {**empty, "decklists": [{"player": "alice", "main_deck": []}]}
+            changed, count = save_tournament_if_nonempty(raw, site, full)
+            self.assertTrue(changed)
+            self.assertEqual(count, 1)
+            self.assertTrue((raw / f"{site}.json").exists())
+
+
 class TestNormalizeDate(unittest.TestCase):
     def test_iso_date(self):
         self.assertEqual(normalize_date("2026-06-05"), "2026-06-05")

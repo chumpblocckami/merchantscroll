@@ -20,8 +20,12 @@ from src.classifier import (
 )
 from src.deck_stats import rebuild_deck_profiles
 from src.player_stats import rebuild_player_profiles
-from src.saver import save_json_locally
 from src.scryfall import build_color_lookup, download_oracle_cards
+from src.refresh_policy import (
+    save_tournament_if_nonempty,
+    should_crawl_mtgo,
+    stored_deck_counts,
+)
 from src.utils import extract_date
 
 
@@ -31,25 +35,30 @@ def slug_from_url(url: str) -> str:
 
 
 def discover_new_tournaments(fmt: str) -> list[str]:
-    """Return MTGO URLs for tournaments that haven't been crawled yet.
-
-    Uses the filesystem (existing JSON files in assets/{fmt}/raw/) as the
-    source of truth instead of a separate tournaments.txt manifest.
-    Same-day tournaments are always re-crawled since their data may update.
-    """
+    """Return MTGO URLs for tournaments that should be crawled this run."""
     raw_dir = Path(f"./assets/{fmt}/raw")
     raw_dir.mkdir(parents=True, exist_ok=True)
-    existing = {f.stem for f in raw_dir.glob("*.json")}
-    today = datetime.now().date().isoformat()
+    counts = stored_deck_counts(raw_dir)
+    today = datetime.now().date()
 
     all_urls = crawl_tournaments()
     urls = [u for u in all_urls if fmt in u]
     urls = sorted(urls, key=extract_date, reverse=True)
 
-    new_urls = [
-        u for u in urls
-        if slug_from_url(u) not in existing or today in slug_from_url(u)
-    ]
+    seen: set[str] = set()
+    new_urls: list[str] = []
+    for url in urls:
+        slug = slug_from_url(url)
+        if slug in seen:
+            continue
+        seen.add(slug)
+        if should_crawl_mtgo(
+            slug,
+            exists=slug in counts,
+            stored_deck_count=counts.get(slug),
+            today=today,
+        ):
+            new_urls.append(url)
     return new_urls
 
 
@@ -110,12 +119,17 @@ def start_crawler():
 
             site_name = data.get("site_name", slug_from_url(url))
             path = RAW_TOURNAMENT_PATH.format(deck_format=fmt, tournament_id=site_name)
-            save_json_locally(path, data)
-            crawled += 1
+            wrote, deck_count = save_tournament_if_nonempty(
+                path.parent, site_name, data
+            )
+            if deck_count > 0:
+                crawled += 1
+            elif not wrote:
+                skipped += 1
             time.sleep(1)
 
     token = os.environ.get("TOKEN") or os.environ.get("GITHUB_TOKEN")
-    pw_crawled = crawl_pauperwave_tournaments(color_lookup, token=token)
+    pw_crawled, _ = crawl_pauperwave_tournaments(color_lookup, token=token)
     crawled += len(pw_crawled)
 
     if pw_crawled:

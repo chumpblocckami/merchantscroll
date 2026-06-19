@@ -1,9 +1,9 @@
 """End-to-end crawl pipeline for Merchant Scroll.
 
 Discovers new Pauper tournaments on MTGO, crawls those not already
-stored locally (and re-crawls same-day events whose decklists may still
-be updating), enriches with color data, updates the index, and writes
-the info.json timestamp.
+stored locally, refreshes active leagues and recent empty placeholders,
+enriches with color data, updates the index, and writes the info.json
+timestamp.
 """
 
 import json
@@ -26,6 +26,13 @@ from .pauperwave_crawler import (
     fetch_markdown,
     parse_tournament_file,
 )
+from .refresh_policy import (
+    prune_empty_raw_files,
+    save_tournament_if_nonempty,
+    should_crawl_mtgo,
+    should_import_pauperwave,
+    stored_deck_counts,
+)
 from .scryfall import build_color_lookup, download_oracle_cards
 from .utils import canonical_starttime, extract_date
 
@@ -42,103 +49,120 @@ def discover_pauper_urls() -> list[str]:
     pauper = [u for u in urls if "/pauper-" in u.lower()]
     return sorted(pauper, key=extract_date, reverse=True)
 
-
-def existing_site_names() -> set[str]:
-    """Return the set of site_names already stored locally."""
-    if not RAW_DIR.exists():
-        return set()
-    return {p.stem for p in RAW_DIR.glob("*.json")}
-
-
 def site_name_from_url(url: str) -> str:
     return url.rstrip("/").split("/")[-1]
 
 
-def crawl_new_tournaments(color_lookup: dict[str, list[str]]) -> list[str]:
-    """Crawl new Pauper tournaments and refresh same-day leagues.
+def crawl_new_tournaments(
+    color_lookup: dict[str, list[str]],
+) -> tuple[list[str], bool]:
+    """Crawl new Pauper tournaments and refresh leagues or empty placeholders.
 
-    Returns a list of site_names that were crawled or refreshed.
+    Returns ``(saved_site_names, data_changed)``.
     """
     print("Discovering tournaments from mtgo.com...")
     urls = discover_pauper_urls()
     print(f"Found {len(urls)} Pauper tournament(s) on MTGO.")
 
-    existing = existing_site_names()
-    today = datetime.now().date().isoformat()
-    to_crawl = [
-        (u, site_name_from_url(u))
-        for u in urls
-        if site_name_from_url(u) not in existing or today in site_name_from_url(u)
-    ]
+    counts = stored_deck_counts(RAW_DIR)
+    existing = set(counts)
+    today = datetime.now().date()
+    to_crawl: list[tuple[str, str]] = []
+    seen: set[str] = set()
+    for url in urls:
+        site_name = site_name_from_url(url)
+        if site_name in seen:
+            continue
+        seen.add(site_name)
+        if should_crawl_mtgo(
+            site_name,
+            exists=site_name in existing,
+            stored_deck_count=counts.get(site_name),
+            today=today,
+        ):
+            to_crawl.append((url, site_name))
 
     if not to_crawl:
         print("No new tournaments to crawl.")
-        return []
+        return [], False
 
     new_count = sum(1 for _, sn in to_crawl if sn not in existing)
     refresh_count = len(to_crawl) - new_count
     print(
         f"{len(to_crawl)} tournament(s) to crawl"
-        f" ({new_count} new, {refresh_count} same-day refresh).\n"
+        f" ({new_count} new, {refresh_count} refresh).\n"
     )
     RAW_DIR.mkdir(parents=True, exist_ok=True)
 
-    crawled = []
+    saved: list[str] = []
+    changed = False
     for url, site_name in to_crawl:
         print(f"  Crawling {site_name}...")
         data = crawl_decks(url, color_lookup=color_lookup)
         if data is None:
-            print(f"  Skipped (crawl failed).")
+            print("  Skipped (crawl failed).")
             continue
 
         archetype_map = load_archetype_dictionary()
         if archetype_map:
             enrich_archetypes(data, archetype_map)
 
-        deck_count = len(data.get("decklists", []))
-        out_path = RAW_DIR / f"{site_name}.json"
-        out_path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
-        print(f"  Saved ({deck_count} decks).")
-        crawled.append(site_name)
+        wrote, deck_count = save_tournament_if_nonempty(
+            RAW_DIR, site_name, data, ensure_ascii=False
+        )
+        if wrote:
+            changed = True
+        if deck_count > 0:
+            saved.append(site_name)
 
-    print(f"\nCrawled {len(crawled)} tournament(s).")
-    return crawled
+    print(f"\nCrawled {len(saved)} tournament(s) with decklists.")
+    return saved, changed
 
 
 def crawl_pauperwave_tournaments(
     color_lookup: dict[str, list[str]],
     token: str | None = None,
-) -> list[str]:
-    """Crawl new Pauperwave IRL tournaments.
+) -> tuple[list[str], bool]:
+    """Crawl new Pauperwave IRL tournaments and retry empty placeholders.
 
-    Returns a list of site_names that were newly crawled.
+    Returns ``(saved_site_names, data_changed)``.
     """
     print("Discovering tournaments from Pauperwave...")
     try:
         files = discover_pauperwave_files(token=token)
     except Exception as e:
         print(f"  Failed to list Pauperwave files: {e}")
-        return []
+        return [], False
 
     print(f"Found {len(files)} Pauperwave tournament file(s).")
 
-    existing = existing_site_names()
-    new_files = []
-    for f in files:
-        slug = f["name"].replace(".md", "")
+    counts = stored_deck_counts(RAW_DIR)
+    to_import: list[tuple[dict, str]] = []
+    for file_info in files:
+        slug = file_info["name"].replace(".md", "")
         site_name = f"pauperwave-{slug}"
-        if site_name not in existing:
-            new_files.append((f, site_name))
+        if should_import_pauperwave(
+            site_name,
+            exists=site_name in counts,
+            stored_deck_count=counts.get(site_name),
+        ):
+            to_import.append((file_info, site_name))
 
-    if not new_files:
-        print("No new Pauperwave tournaments to import.")
-        return []
+    if not to_import:
+        print("No Pauperwave tournaments to import.")
+        return [], False
 
-    print(f"{len(new_files)} new Pauperwave tournament(s) to import.\n")
+    new_count = sum(1 for _, sn in to_import if sn not in counts)
+    refresh_count = len(to_import) - new_count
+    print(
+        f"{len(to_import)} Pauperwave tournament(s) to import"
+        f" ({new_count} new, {refresh_count} refresh).\n"
+    )
     RAW_DIR.mkdir(parents=True, exist_ok=True)
 
-    crawled = []
-    for file_info, site_name in new_files:
+    saved: list[str] = []
+    changed = False
+    for file_info, site_name in to_import:
         print(f"  Importing {file_info['name']}...")
         try:
             md = fetch_markdown(file_info["download_url"])
@@ -153,14 +177,14 @@ def crawl_pauperwave_tournaments(
             print("  Skipped (no decklists or unpublished).")
             continue
 
-        deck_count = len(data.get("decklists", []))
-        out_path = RAW_DIR / f"{site_name}.json"
-        out_path.write_text(json.dumps(data, indent=2))
-        print(f"  Saved ({deck_count} decks).")
-        crawled.append(site_name)
+        wrote, deck_count = save_tournament_if_nonempty(RAW_DIR, site_name, data)
+        if wrote:
+            changed = True
+        if deck_count > 0:
+            saved.append(site_name)
 
-    print(f"\nImported {len(crawled)} Pauperwave tournament(s).")
-    return crawled
+    print(f"\nImported {len(saved)} Pauperwave tournament(s) with decklists.")
+    return saved, changed
 
 
 def fix_league_starttimes() -> int:
@@ -189,13 +213,17 @@ def fix_league_starttimes() -> int:
     return fixed
 
 
-def rebuild_index():
-    """Regenerate index.json from all raw tournament files, sorted by date desc."""
+def rebuild_index() -> bool:
+    """Regenerate index.json from raw tournament files, sorted by date desc.
+
+    Returns whether the index content changed.
+    """
     if not RAW_DIR.exists():
         print("No raw directory found, skipping index generation.")
-        return
+        return False
 
     fix_league_starttimes()
+    prune_empty_raw_files(RAW_DIR)
 
     index = []
     for path in RAW_DIR.glob("*.json"):
@@ -203,17 +231,23 @@ def rebuild_index():
             data = json.loads(path.read_text())
         except (json.JSONDecodeError, OSError):
             continue
+        deck_count = len(data.get("decklists", []))
+        if deck_count == 0:
+            continue
         site_name = data.get("site_name", path.stem)
         index.append({
             "site_name": path.stem,
             "starttime": canonical_starttime(site_name, data.get("starttime", "")),
-            "deck_count": len(data.get("decklists", [])),
+            "deck_count": deck_count,
         })
 
     index.sort(key=lambda x: x["starttime"], reverse=True)
     INDEX_PATH.parent.mkdir(parents=True, exist_ok=True)
-    INDEX_PATH.write_text(json.dumps(index, indent=2))
+    new_text = json.dumps(index, indent=2) + "\n"
+    previous = INDEX_PATH.read_text() if INDEX_PATH.exists() else ""
+    INDEX_PATH.write_text(new_text)
     print(f"Index updated: {len(index)} tournaments.")
+    return new_text != previous
 
 
 def rebuild_players_index():
@@ -265,8 +299,10 @@ def run(refresh_scryfall: bool = False):
     rebuild_archetype_dictionary()
 
     token = os.environ.get("TOKEN") or os.environ.get("GITHUB_TOKEN")
-    crawled = crawl_new_tournaments(color_lookup)
-    pw_crawled = crawl_pauperwave_tournaments(color_lookup, token=token)
+    crawled, mtgo_changed = crawl_new_tournaments(color_lookup)
+    pw_crawled, pw_changed = crawl_pauperwave_tournaments(
+        color_lookup, token=token
+    )
 
     if pw_crawled:
         rebuild_archetype_dictionary()
@@ -278,16 +314,28 @@ def run(refresh_scryfall: bool = False):
         print(f"Classified {classified} MTGO decklist(s).")
 
     all_crawled = crawled + pw_crawled
+    data_changed = mtgo_changed or pw_changed or bool(classified)
 
-    if all_crawled or classified:
-        rebuild_index()
+    if data_changed:
+        index_changed = rebuild_index()
         rebuild_players_index()
         rebuild_player_profiles()
         if normalized:
             print(f"Archetype labels normalized: {normalized} decklists.")
         rebuild_deck_profiles()
-        write_info()
+        if index_changed or all_crawled or classified:
+            write_info()
+        else:
+            print("Data pruned — index rebuilt without new decklists.")
     else:
-        print("Nothing new — index unchanged.")
+        pruned = prune_empty_raw_files(RAW_DIR)
+        if pruned:
+            rebuild_index()
+            rebuild_players_index()
+            rebuild_player_profiles()
+            rebuild_deck_profiles()
+            write_info()
+        else:
+            print("Nothing new — index unchanged.")
 
     return all_crawled
