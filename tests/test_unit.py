@@ -203,6 +203,65 @@ class TestRefreshPolicy(unittest.TestCase):
             self.assertTrue((raw / f"{site}.json").exists())
 
 
+class TestClassifyAndNormalize(unittest.TestCase):
+    def test_classify_unlabeled_mtgo_deck(self):
+        import tempfile
+        from pathlib import Path
+
+        from src.classifier import classify_and_normalize_labels
+
+        archetype_map = {
+            "U Terror": ["Tolarian Terror", "Counterspell", "Thought Scour"],
+        }
+        tournament = {
+            "site_name": "pauper-league-test",
+            "decklists": [
+                {
+                    "player": "alice",
+                    "main_deck": [
+                        {
+                            "qty": "4",
+                            "card_attributes": {
+                                "card_name": "Tolarian Terror",
+                                "card_type": "ISCREA",
+                            },
+                        },
+                        {
+                            "qty": "4",
+                            "card_attributes": {
+                                "card_name": "Counterspell",
+                                "card_type": "INSTNT",
+                            },
+                        },
+                        {
+                            "qty": "4",
+                            "card_attributes": {
+                                "card_name": "Thought Scour",
+                                "card_type": "SORCRY",
+                            },
+                        },
+                    ],
+                    "sideboard_deck": [],
+                }
+            ],
+        }
+
+        with tempfile.TemporaryDirectory() as tmp:
+            raw = Path(tmp)
+            (raw / "pauper-league-test.json").write_text(
+                __import__("json").dumps(tournament)
+            )
+            classified, normalized = classify_and_normalize_labels(
+                archetype_map, raw_dir=raw
+            )
+            self.assertEqual(classified, 1)
+            self.assertEqual(normalized, 0)
+            saved = __import__("json").loads(
+                (raw / "pauper-league-test.json").read_text()
+            )
+            self.assertEqual(saved["decklists"][0]["archetype"], "U Terror")
+
+
 class TestNormalizeDate(unittest.TestCase):
     def test_iso_date(self):
         self.assertEqual(normalize_date("2026-06-05"), "2026-06-05")

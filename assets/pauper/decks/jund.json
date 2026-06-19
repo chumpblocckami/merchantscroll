@@ -2,10 +2,10 @@
   "archetype": "Jund",
   "slug": "jund",
   "stats": {
-    "total_entries": 1131,
-    "league_entries": 509,
-    "league_trophies": 509,
-    "league_trophies_yearly": 188,
+    "total_entries": 1130,
+    "league_entries": 508,
+    "league_trophies": 508,
+    "league_trophies_yearly": 187,
     "challenge_appearances": 528,
     "challenge_wins": 2117,
     "challenge_losses": 1335,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 5,
     "league_trophy_rank_alltime": 5,
-    "league_trophy_decks_yearly": 61,
-    "league_trophy_decks_alltime": 69
+    "league_trophy_decks_yearly": 64,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -228,21 +228,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-06-1310636",
-      "tournament": "Pauper League",
-      "date": "2026-06-13",
-      "player": "Provo_the_Monk",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-06-1312844320",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-13",
@@ -391,6 +376,21 @@
       "final_rank": 5,
       "source": "pauperwave",
       "type": "irl"
+    },
+    {
+      "site_name": "pauper-league-2026-06-0910636",
+      "tournament": "Pauper League",
+      "date": "2026-06-09",
+      "player": "Starlliege",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [

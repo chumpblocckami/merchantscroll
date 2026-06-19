@@ -28,7 +28,6 @@ def canonical_archetype(name: str) -> str:
     return ARCHETYPE_ALIASES.get(cleaned, cleaned)
 
 
-
 MATCH_THRESHOLD = 0.5
 MIN_DECKS_PER_ARCHETYPE = 2
 MIN_CARD_PRESENCE_RATE = 0.5
@@ -189,6 +188,21 @@ def classify_unlabeled_mtgo_decks(
             path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
 
     return updated
+
+
+def classify_and_normalize_labels(
+    archetype_map: dict[str, list[str]] | None = None,
+    raw_dir: Path = RAW_DIR,
+) -> tuple[int, int]:
+    """Classify unlabeled MTGO decks and normalize archetype aliases.
+
+    Returns ``(classified_count, normalized_count)``.
+    """
+    archetype_map = archetype_map or load_archetype_dictionary()
+    classified = classify_unlabeled_mtgo_decks(archetype_map, raw_dir=raw_dir)
+    normalized = normalize_archetype_labels(raw_dir=raw_dir)
+    return classified, normalized
+
 
 def normalize_archetype_labels(raw_dir: Path = RAW_DIR) -> int:
     """Rewrite known archetype aliases in raw tournament data. Returns decks updated."""

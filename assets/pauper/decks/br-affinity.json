@@ -2,21 +2,35 @@
   "archetype": "BR Affinity",
   "slug": "br-affinity",
   "stats": {
-    "total_entries": 2,
-    "league_entries": 0,
-    "league_trophies": 0,
-    "league_trophies_yearly": 0,
+    "total_entries": 3,
+    "league_entries": 1,
+    "league_trophies": 1,
+    "league_trophies_yearly": 1,
     "challenge_appearances": 0,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 2,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": null,
-    "league_trophy_decks_yearly": 61,
-    "league_trophy_decks_alltime": 69
+    "league_trophy_rank_yearly": 61,
+    "league_trophy_rank_alltime": 67,
+    "league_trophy_decks_yearly": 64,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-1810636",
+      "tournament": "Pauper League",
+      "date": "2026-06-18",
+      "player": "qbturtle15",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauperwave-2026-06-14-piacenza-summer-2026",
       "tournament": "LP Piacenza Summer 2026 — Piacenza",
@@ -53,6 +67,10 @@
     },
     {
       "player": "Gregorio Vietina",
+      "count": 1
+    },
+    {
+      "player": "qbturtle15",
       "count": 1
     }
   ]

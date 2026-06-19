@@ -12,8 +12,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from .classifier import (
-    classify_unlabeled_mtgo_decks,
-    normalize_archetype_labels,
+    classify_and_normalize_labels,
     enrich_archetypes,
     load_archetype_dictionary,
     rebuild_archetype_dictionary,
@@ -285,6 +284,51 @@ def write_info():
     print(f"info.json updated: {now}")
 
 
+def rebuild_derived_artifacts(
+    *,
+    refresh_dictionary: bool = True,
+    write_timestamp: bool = True,
+    raw_dir: Path = RAW_DIR,
+) -> dict[str, int | bool]:
+    """Rebuild indexes, profiles, and archetype labels from raw tournament files.
+
+    Runs in a fixed order so naming is stable before profile aggregation:
+
+    1. Rebuild archetype dictionary from labeled Pauperwave decks
+    2. Classify unlabeled MTGO decks and normalize aliases
+    3. Rebuild tournament and player indexes
+    4. Rebuild player and deck (meta) profiles
+
+    Returns a summary dict with ``classified``, ``normalized``, and
+    ``index_changed`` keys.
+    """
+    if refresh_dictionary:
+        rebuild_archetype_dictionary(raw_dir)
+
+    archetype_map = load_archetype_dictionary()
+    classified, normalized = classify_and_normalize_labels(
+        archetype_map, raw_dir=raw_dir
+    )
+    if classified:
+        print(f"Classified {classified} MTGO decklist(s).")
+    if normalized:
+        print(f"Archetype labels normalized: {normalized} decklists.")
+
+    index_changed = rebuild_index()
+    rebuild_players_index()
+    rebuild_player_profiles(raw_dir=raw_dir)
+    rebuild_deck_profiles(raw_dir=raw_dir)
+
+    if write_timestamp:
+        write_info()
+
+    return {
+        "classified": classified,
+        "normalized": normalized,
+        "index_changed": index_changed,
+    }
+
+
 def run(refresh_scryfall: bool = False):
     """Full pipeline: download scryfall data, crawl new tournaments, rebuild index."""
     cache = download_oracle_cards()
@@ -304,37 +348,15 @@ def run(refresh_scryfall: bool = False):
         color_lookup, token=token
     )
 
-    if pw_crawled:
-        rebuild_archetype_dictionary()
-
-    archetype_map = load_archetype_dictionary()
-    classified = classify_unlabeled_mtgo_decks(archetype_map)
-    normalized = normalize_archetype_labels()
-    if classified:
-        print(f"Classified {classified} MTGO decklist(s).")
-
     all_crawled = crawled + pw_crawled
-    data_changed = mtgo_changed or pw_changed or bool(classified)
+    data_changed = mtgo_changed or pw_changed
 
     if data_changed:
-        index_changed = rebuild_index()
-        rebuild_players_index()
-        rebuild_player_profiles()
-        if normalized:
-            print(f"Archetype labels normalized: {normalized} decklists.")
-        rebuild_deck_profiles()
-        if index_changed or all_crawled or classified:
-            write_info()
-        else:
-            print("Data pruned — index rebuilt without new decklists.")
+        rebuild_derived_artifacts(refresh_dictionary=True)
     else:
         pruned = prune_empty_raw_files(RAW_DIR)
         if pruned:
-            rebuild_index()
-            rebuild_players_index()
-            rebuild_player_profiles()
-            rebuild_deck_profiles()
-            write_info()
+            rebuild_derived_artifacts(refresh_dictionary=False)
         else:
             print("Nothing new — index unchanged.")
 

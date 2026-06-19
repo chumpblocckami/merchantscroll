@@ -14,48 +14,40 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
 
       - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
+        run: uv python install 3.10
 
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install requests beautifulsoup4 tqdm gitpython python-dotenv pyyaml
+        run: uv sync
 
-      - name: Set git
+      - name: Set git identity
         env:
-          USER: ${{secrets.USER}}
-          MAIL: ${{secrets.MAIL}}
+          USER: ${{ secrets.USER }}
+          MAIL: ${{ secrets.MAIL }}
         run: |
           git config --global user.name "${USER}"
           git config --global user.email "${MAIL}"
 
-      - name: Run MTGO and Pauperwave crawlers
+      - name: Run crawl pipeline
         env:
           TOKEN: ${{ secrets.TOKEN }}
           GITHUB_TOKEN: ${{ github.token }}
-          TOKEN_DECKS: ${{ secrets.TOKEN_DECKS }}
-          REPO: merchantscroll
-          USER: chumpblocckami
-        run: python entrypoint.py
+        run: uv run python crawl.py
 
-      - name: Pull latest after crawler commits
-        run: git pull --rebase origin main
-
-      - name: Build index
-        run: python scripts/build_index.py
-
-      - name: Set last update timestamp
+      - name: Commit and push crawl artifacts
         run: |
-          echo "{\"last_update\": \"$(date -u '+%A, %B %d, %Y at %H:%M UTC')\"}" > info.json
-
-      - name: Commit and push build artifacts
-        run: |
-          git config user.name "GitHub Actions"
-          git config user.email "actions@github.com"
-          git add info.json assets/*/index.json
-          git diff --cached --quiet || (git commit -m "Update index and timestamp" && git push)
+          git add assets/ archetypes/ info.json
+          if git diff --cached --quiet; then
+            echo "No crawl changes to commit."
+          else
+            git commit -m "Crawler: update tournament data"
+            git pull --rebase origin main
+            git push origin main
+          fi

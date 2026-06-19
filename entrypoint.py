@@ -10,16 +10,12 @@ from tqdm import tqdm
 from src.constants.misc import FORMATS
 from src.constants.paths import RAW_TOURNAMENT_PATH
 from src.crawler import crawl_decks, crawl_tournaments
-from src.pipeline import crawl_pauperwave_tournaments
+from src.pipeline import crawl_pauperwave_tournaments, rebuild_derived_artifacts
 from src.classifier import (
-    classify_unlabeled_mtgo_decks,
-    normalize_archetype_labels,
     enrich_archetypes,
     load_archetype_dictionary,
     rebuild_archetype_dictionary,
 )
-from src.deck_stats import rebuild_deck_profiles
-from src.player_stats import rebuild_player_profiles
 from src.scryfall import build_color_lookup, download_oracle_cards
 from src.refresh_policy import (
     save_tournament_if_nonempty,
@@ -85,6 +81,7 @@ def start_crawler():
 
     crawled = 0
     skipped = 0
+    data_changed = False
 
     for fmt in FORMATS:
         try:
@@ -122,6 +119,8 @@ def start_crawler():
             wrote, deck_count = save_tournament_if_nonempty(
                 path.parent, site_name, data
             )
+            if wrote:
+                data_changed = True
             if deck_count > 0:
                 crawled += 1
             elif not wrote:
@@ -129,28 +128,20 @@ def start_crawler():
             time.sleep(1)
 
     token = os.environ.get("TOKEN") or os.environ.get("GITHUB_TOKEN")
-    pw_crawled, _ = crawl_pauperwave_tournaments(color_lookup, token=token)
+    pw_crawled, pw_changed = crawl_pauperwave_tournaments(color_lookup, token=token)
     crawled += len(pw_crawled)
+    data_changed = data_changed or pw_changed
 
-    if pw_crawled:
-        rebuild_archetype_dictionary()
-
-    archetype_map = load_archetype_dictionary()
-    classified = classify_unlabeled_mtgo_decks(archetype_map)
-    normalized = normalize_archetype_labels()
-    if classified:
-        print(f"Classified {classified} MTGO decklist(s).")
-        crawled += classified
-
-    rebuild_player_profiles()
-    if normalized:
-        print(f"Archetype labels normalized: {normalized} decklists.")
-    rebuild_deck_profiles()
+    if data_changed:
+        summary = rebuild_derived_artifacts(refresh_dictionary=True)
+        crawled += int(summary["classified"])
+    else:
+        print("Nothing new — skipping derived artifact rebuild.")
 
     print(f"Done. Crawled: {crawled}, Skipped: {skipped}")
 
     git_push_all(
-        f"Crawled {crawled} tournament(s)" if crawled else "Update player profiles"
+        f"Crawled {crawled} tournament(s)" if crawled else "No tournament changes"
     )
 
 
