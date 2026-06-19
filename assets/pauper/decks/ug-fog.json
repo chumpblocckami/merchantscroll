@@ -2,10 +2,10 @@
   "archetype": "UG Fog",
   "slug": "ug-fog",
   "stats": {
-    "total_entries": 421,
-    "league_entries": 211,
-    "league_trophies": 211,
-    "league_trophies_yearly": 13,
+    "total_entries": 422,
+    "league_entries": 212,
+    "league_trophies": 212,
+    "league_trophies_yearly": 14,
     "challenge_appearances": 181,
     "challenge_wins": 770,
     "challenge_losses": 429,
@@ -46,6 +46,23 @@
       "final_rank": 22,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1410636",
+      "tournament": "Pauper League",
+      "date": "2026-06-14",
+      "player": "Hype12232",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1312844320",
@@ -384,21 +401,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2310636",
-      "tournament": "Pauper League",
-      "date": "2026-05-23",
-      "player": "Ctian",
-      "colors": [
-        "B",
-        "G",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -439,8 +441,8 @@
       "count": 12
     },
     {
-      "player": "Raptor56",
-      "count": 9
+      "player": "Hype12232",
+      "count": 10
     }
   ]
 }
