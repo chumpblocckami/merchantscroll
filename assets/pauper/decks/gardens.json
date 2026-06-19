@@ -2,10 +2,10 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 609,
-    "league_entries": 334,
-    "league_trophies": 334,
-    "league_trophies_yearly": 140,
+    "total_entries": 608,
+    "league_entries": 333,
+    "league_trophies": 333,
+    "league_trophies_yearly": 139,
     "challenge_appearances": 242,
     "challenge_wins": 1006,
     "challenge_losses": 584,
@@ -32,19 +32,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-06-1610636",
-      "tournament": "Pauper League",
-      "date": "2026-06-16",
-      "player": "GFILLIPPI77",
-      "colors": [
-        "B"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-06-1510636",
       "tournament": "Pauper League",
       "date": "2026-06-15",
@@ -57,6 +44,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauperwave-2026-06-14-piacenza-summer-2026",
+      "tournament": "LP Piacenza Summer 2026 — Piacenza",
+      "date": "2026-06-14",
+      "player": "Riccardo Ipri",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "",
+      "final_rank": 3,
+      "source": "pauperwave",
+      "type": "irl"
     },
     {
       "site_name": "pauper-league-2026-06-1410636",
@@ -85,20 +86,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-06-14-piacenza-summer-2026",
-      "tournament": "LP Piacenza Summer 2026 — Piacenza",
-      "date": "2026-06-14",
-      "player": "Riccardo Ipri",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "",
-      "final_rank": 3,
-      "source": "pauperwave",
-      "type": "irl"
     },
     {
       "site_name": "pauper-league-2026-06-1310636",
@@ -366,6 +353,20 @@
       "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0412843773",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-04",
+      "player": "darkuna",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "3-3",
+      "final_rank": 30,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -402,11 +403,11 @@
       "count": 12
     },
     {
-      "player": "Otacon_",
+      "player": "KingZiggy",
       "count": 9
     },
     {
-      "player": "KingZiggy",
+      "player": "Otacon_",
       "count": 9
     }
   ]

@@ -2,10 +2,10 @@
   "archetype": "Monsters Tron",
   "slug": "monsters-tron",
   "stats": {
-    "total_entries": 133,
-    "league_entries": 89,
-    "league_trophies": 89,
-    "league_trophies_yearly": 83,
+    "total_entries": 134,
+    "league_entries": 90,
+    "league_trophies": 90,
+    "league_trophies_yearly": 84,
     "challenge_appearances": 36,
     "challenge_wins": 140,
     "challenge_losses": 96,
@@ -17,6 +17,22 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-1910636",
+      "tournament": "Pauper League",
+      "date": "2026-06-19",
+      "player": "Huskyman20035",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-showcase-challenge-2026-06-1412844285",
       "tournament": "Pauper Showcase Challenge",
@@ -47,6 +63,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauperwave-2026-06-12-spezia-summer-2026",
+      "tournament": "LP La Spezia Summer 2026 — La Spezia",
+      "date": "2026-06-12",
+      "player": "Richard Zuccaro",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
       "site_name": "pauper-league-2026-06-1210636",
       "tournament": "Pauper League",
       "date": "2026-06-12",
@@ -72,21 +103,6 @@
       ],
       "record": "",
       "final_rank": 3,
-      "source": "pauperwave",
-      "type": "irl"
-    },
-    {
-      "site_name": "pauperwave-2026-06-12-spezia-summer-2026",
-      "tournament": "LP La Spezia Summer 2026 — La Spezia",
-      "date": "2026-06-12",
-      "player": "Richard Zuccaro",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "",
-      "final_rank": 5,
       "source": "pauperwave",
       "type": "irl"
     },
@@ -358,22 +374,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-05-1712842508",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-17",
-      "player": "HornsOfTheRabbit",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauperwave-2026-05-17-pauper-clash",
       "tournament": "Novara Pauper Clash — Novara",
       "date": "2026-05-17",
@@ -388,20 +388,20 @@
       "type": "irl"
     },
     {
-      "site_name": "pauper-rc-qualifier-2026-05-1712842450",
-      "tournament": "Pauper RC Qualifier",
+      "site_name": "pauper-challenge-32-2026-05-1712842508",
+      "tournament": "Pauper Challenge 32",
       "date": "2026-05-17",
-      "player": "Echanez",
+      "player": "HornsOfTheRabbit",
       "colors": [
         "B",
         "G",
         "R",
         "U"
       ],
-      "record": "",
-      "final_rank": null,
+      "record": "3-3",
+      "final_rank": 29,
       "source": "mtgo",
-      "type": "other"
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -414,11 +414,11 @@
       "count": 7
     },
     {
-      "player": "brick_",
+      "player": "giggimille",
       "count": 6
     },
     {
-      "player": "giggimille",
+      "player": "brick_",
       "count": 6
     },
     {
@@ -430,10 +430,6 @@
       "count": 5
     },
     {
-      "player": "HornsOfTheRabbit",
-      "count": 4
-    },
-    {
       "player": "paupea-nyan-nyan",
       "count": 4
     },
@@ -442,7 +438,11 @@
       "count": 4
     },
     {
-      "player": "Maur0",
+      "player": "HornsOfTheRabbit",
+      "count": 4
+    },
+    {
+      "player": "wolf777",
       "count": 3
     }
   ]

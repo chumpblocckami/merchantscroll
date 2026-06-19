@@ -2,17 +2,17 @@
   "archetype": "UB Control",
   "slug": "ub-control",
   "stats": {
-    "total_entries": 152,
-    "league_entries": 103,
-    "league_trophies": 103,
-    "league_trophies_yearly": 56,
+    "total_entries": 153,
+    "league_entries": 104,
+    "league_trophies": 104,
+    "league_trophies_yearly": 57,
     "challenge_appearances": 45,
     "challenge_wins": 151,
     "challenge_losses": 127,
     "irl_top8": 3,
     "challenge_win_pct": 54,
     "league_trophy_rank_yearly": 24,
-    "league_trophy_rank_alltime": 27,
+    "league_trophy_rank_alltime": 26,
     "league_trophy_decks_yearly": 64,
     "league_trophy_decks_alltime": 72
   },
@@ -30,6 +30,21 @@
       "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1810636",
+      "tournament": "Pauper League",
+      "date": "2026-06-18",
+      "player": "AvenRedeemer",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-1810636",
@@ -364,20 +379,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-2512840552",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-25",
-      "player": "_Abijhavs_",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "1-3",
-      "final_rank": 31,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -398,11 +399,11 @@
       "count": 5
     },
     {
-      "player": "Mikibairon96",
+      "player": "morpheus38",
       "count": 4
     },
     {
-      "player": "__Noob__",
+      "player": "Mikibairon96",
       "count": 4
     },
     {
@@ -410,7 +411,7 @@
       "count": 4
     },
     {
-      "player": "morpheus38",
+      "player": "__Noob__",
       "count": 4
     },
     {
@@ -418,7 +419,7 @@
       "count": 3
     },
     {
-      "player": "vikizin",
+      "player": "elle992",
       "count": 3
     }
   ]

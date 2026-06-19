@@ -2,10 +2,10 @@
   "archetype": "Jund",
   "slug": "jund",
   "stats": {
-    "total_entries": 1130,
-    "league_entries": 508,
-    "league_trophies": 508,
-    "league_trophies_yearly": 187,
+    "total_entries": 1131,
+    "league_entries": 509,
+    "league_trophies": 509,
+    "league_trophies_yearly": 188,
     "challenge_appearances": 528,
     "challenge_wins": 2117,
     "challenge_losses": 1335,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-1910636",
+      "tournament": "Pauper League",
+      "date": "2026-06-19",
+      "player": "Lynx33",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-1910636",
       "tournament": "Pauper League",
@@ -123,6 +138,36 @@
       "type": "league"
     },
     {
+      "site_name": "pauperwave-2026-06-14-piacenza-summer-2026",
+      "tournament": "LP Piacenza Summer 2026 — Piacenza",
+      "date": "2026-06-14",
+      "player": "Damiano Bertolo",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
+      "site_name": "pauperwave-2026-06-14-piacenza-summer-2026",
+      "tournament": "LP Piacenza Summer 2026 — Piacenza",
+      "date": "2026-06-14",
+      "player": "Nicola Masoero",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-06-1412844338",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-14",
@@ -166,51 +211,6 @@
       "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauperwave-2026-06-14-piacenza-summer-2026",
-      "tournament": "LP Piacenza Summer 2026 — Piacenza",
-      "date": "2026-06-14",
-      "player": "Damiano Bertolo",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "",
-      "final_rank": 5,
-      "source": "pauperwave",
-      "type": "irl"
-    },
-    {
-      "site_name": "pauperwave-2026-06-14-piacenza-summer-2026",
-      "tournament": "LP Piacenza Summer 2026 — Piacenza",
-      "date": "2026-06-14",
-      "player": "Nicola Masoero",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "",
-      "final_rank": 5,
-      "source": "pauperwave",
-      "type": "irl"
-    },
-    {
-      "site_name": "pauperwave-2026-06-13-versilia-summer-2026",
-      "tournament": "LP Versilia Summer 2026 — Versilia",
-      "date": "2026-06-13",
-      "player": "Lorenzo Buzzoni",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "",
-      "final_rank": 5,
-      "source": "pauperwave",
-      "type": "irl"
     },
     {
       "site_name": "pauper-league-2026-06-1310636",
@@ -273,6 +273,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauperwave-2026-06-13-versilia-summer-2026",
+      "tournament": "LP Versilia Summer 2026 — Versilia",
+      "date": "2026-06-13",
+      "player": "Lorenzo Buzzoni",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-06-1212844305",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-12",
@@ -301,6 +316,21 @@
       "final_rank": 3,
       "source": "pauperwave",
       "type": "irl"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1110636",
+      "tournament": "Pauper League",
+      "date": "2026-06-11",
+      "player": "Pilot83",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1112844295",
@@ -348,21 +378,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-06-1110636",
-      "tournament": "Pauper League",
-      "date": "2026-06-11",
-      "player": "Pilot83",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauperwave-2026-06-10-modena-summer-2026",
       "tournament": "LP Modena Summer 2026 — Modena",
       "date": "2026-06-10",
@@ -376,21 +391,6 @@
       "final_rank": 5,
       "source": "pauperwave",
       "type": "irl"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0910636",
-      "tournament": "Pauper League",
-      "date": "2026-06-09",
-      "player": "Starlliege",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -415,15 +415,15 @@
       "count": 22
     },
     {
+      "player": "AlessandroPiraccini",
+      "count": 17
+    },
+    {
       "player": "SpikeYou",
       "count": 17
     },
     {
       "player": "yuxiaoyu",
-      "count": 17
-    },
-    {
-      "player": "AlessandroPiraccini",
       "count": 17
     },
     {

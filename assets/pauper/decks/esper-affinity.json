@@ -2,10 +2,10 @@
   "archetype": "Esper Affinity",
   "slug": "esper-affinity",
   "stats": {
-    "total_entries": 73,
-    "league_entries": 53,
-    "league_trophies": 53,
-    "league_trophies_yearly": 10,
+    "total_entries": 72,
+    "league_entries": 52,
+    "league_trophies": 52,
+    "league_trophies_yearly": 9,
     "challenge_appearances": 15,
     "challenge_wins": 51,
     "challenge_losses": 36,
@@ -22,21 +22,6 @@
       "tournament": "Pauper League",
       "date": "2026-06-17",
       "player": "PermanentDM",
-      "colors": [
-        "B",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1310636",
-      "tournament": "Pauper League",
-      "date": "2026-06-13",
-      "player": "-Nicolo-",
       "colors": [
         "B",
         "U",
@@ -384,6 +369,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-11-3012825489",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-11-30",
+      "player": "MarshFlats",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -392,19 +392,19 @@
       "count": 7
     },
     {
-      "player": "unsur3",
-      "count": 5
-    },
-    {
       "player": "MarshFlats",
       "count": 5
     },
     {
-      "player": "VanillaJames",
-      "count": 4
+      "player": "unsur3",
+      "count": 5
     },
     {
       "player": "Pafru",
+      "count": 4
+    },
+    {
+      "player": "VanillaJames",
       "count": 4
     },
     {
@@ -416,15 +416,15 @@
       "count": 2
     },
     {
+      "player": "oliverjuqs",
+      "count": 2
+    },
+    {
+      "player": "Michele Barsotti",
+      "count": 2
+    },
+    {
       "player": "Luiz0211",
-      "count": 2
-    },
-    {
-      "player": "Goffman",
-      "count": 2
-    },
-    {
-      "player": "PermanentDM",
       "count": 2
     }
   ]

@@ -11,8 +11,8 @@
     "challenge_losses": 313,
     "irl_top8": 2,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 40,
-    "league_trophy_rank_alltime": 32,
+    "league_trophy_rank_yearly": 39,
+    "league_trophy_rank_alltime": 33,
     "league_trophy_decks_yearly": 64,
     "league_trophy_decks_alltime": 72
   },
@@ -309,22 +309,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-03-1412835312",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-14",
-      "player": "NMT_Sco94",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "6-2",
-      "final_rank": 4,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-03-1410405",
       "tournament": "pauper-league-2026-03-1410405",
       "date": "2026-03-14",
@@ -339,6 +323,22 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-03-1412835312",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-03-14",
+      "player": "NMT_Sco94",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "6-2",
+      "final_rank": 4,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-03-1212835286",
@@ -436,10 +436,6 @@
       "count": 6
     },
     {
-      "player": "Mah_Alves",
-      "count": 6
-    },
-    {
       "player": "MisterTwin",
       "count": 6
     },
@@ -448,7 +444,15 @@
       "count": 6
     },
     {
+      "player": "Mah_Alves",
+      "count": 6
+    },
+    {
       "player": "NMT_Sco94",
+      "count": 5
+    },
+    {
+      "player": "Wizard_2002",
       "count": 5
     },
     {
@@ -456,11 +460,7 @@
       "count": 5
     },
     {
-      "player": "AoFTW",
-      "count": 5
-    },
-    {
-      "player": "Wizard_2002",
+      "player": "JuaKi",
       "count": 5
     }
   ]

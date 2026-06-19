@@ -2,10 +2,10 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 123,
-    "league_entries": 65,
-    "league_trophies": 65,
-    "league_trophies_yearly": 37,
+    "total_entries": 124,
+    "league_entries": 66,
+    "league_trophies": 66,
+    "league_trophies_yearly": 38,
     "challenge_appearances": 53,
     "challenge_wins": 168,
     "challenge_losses": 131,
@@ -44,6 +44,20 @@
       "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1410636",
+      "tournament": "Pauper League",
+      "date": "2026-06-14",
+      "player": "Dovin_Baaan",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1312844320",
@@ -352,20 +366,6 @@
       "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2812843381",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-28",
-      "player": "zippzipp_",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -374,11 +374,11 @@
       "count": 30
     },
     {
-      "player": "_Luvi_",
+      "player": "Niederschatten",
       "count": 6
     },
     {
-      "player": "Niederschatten",
+      "player": "_Luvi_",
       "count": 6
     },
     {
@@ -386,15 +386,11 @@
       "count": 4
     },
     {
-      "player": "FRFSEIXAS",
-      "count": 3
-    },
-    {
       "player": "6apMaJleu4",
       "count": 3
     },
     {
-      "player": "Guizera",
+      "player": "FRFSEIXAS",
       "count": 3
     },
     {
@@ -402,11 +398,15 @@
       "count": 3
     },
     {
-      "player": "trussell48",
+      "player": "Guizera",
+      "count": 3
+    },
+    {
+      "player": "Beast_31rus",
       "count": 2
     },
     {
-      "player": "smikkelmanjan",
+      "player": "Lynx33",
       "count": 2
     }
   ]
