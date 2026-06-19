@@ -3,25 +3,40 @@
   "display_name": "PrimoShow1",
   "irl_name": null,
   "stats": {
-    "total_entries": 33,
+    "total_entries": 34,
     "league_trophies": 15,
     "league_trophies_yearly": 8,
-    "challenge_wins": 73,
-    "challenge_losses": 41,
+    "challenge_wins": 77,
+    "challenge_losses": 44,
     "irl_top8": 0,
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 102,
     "league_trophy_rank_alltime": 130,
-    "league_trophy_players_yearly": 1141,
-    "league_trophy_players_alltime": 1902
+    "league_trophy_players_yearly": 1146,
+    "league_trophy_players_alltime": 1906
   },
   "favorite_decks": [
     {
       "archetype": "Monsters",
-      "count": 33
+      "count": 34
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-1912844841",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-19",
+      "player": "PrimoShow1",
+      "archetype": "Monsters",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-0512843783",
       "tournament": "Pauper Challenge 32",
@@ -391,22 +406,6 @@
       ],
       "record": "3-3",
       "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-12-1812827476",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-12-18",
-      "player": "PrimoShow1",
-      "archetype": "Monsters",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 20,
       "source": "mtgo",
       "type": "challenge"
     }

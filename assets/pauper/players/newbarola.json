@@ -3,17 +3,17 @@
   "display_name": "newbarola",
   "irl_name": null,
   "stats": {
-    "total_entries": 112,
+    "total_entries": 113,
     "league_trophies": 71,
     "league_trophies_yearly": 60,
-    "challenge_wins": 160,
-    "challenge_losses": 90,
+    "challenge_wins": 165,
+    "challenge_losses": 93,
     "irl_top8": 0,
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 1,
     "league_trophy_rank_alltime": 8,
-    "league_trophy_players_yearly": 1141,
-    "league_trophy_players_alltime": 1902
+    "league_trophy_players_yearly": 1146,
+    "league_trophy_players_alltime": 1906
   },
   "favorite_decks": [
     {
@@ -41,6 +41,10 @@
       "count": 6
     },
     {
+      "archetype": "Affinity",
+      "count": 3
+    },
+    {
       "archetype": "W Heroic",
       "count": 2
     },
@@ -51,13 +55,25 @@
     {
       "archetype": "Cawgate",
       "count": 2
-    },
-    {
-      "archetype": "Monsters",
-      "count": 2
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-1912844841",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-19",
+      "player": "newbarola",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-3",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-1810636",
       "tournament": "Pauper League",
@@ -423,22 +439,6 @@
       "colors": [
         "G",
         "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-1710636",
-      "tournament": "Pauper League",
-      "date": "2026-05-17",
-      "player": "newbarola",
-      "archetype": "GW Gates",
-      "colors": [
-        "G",
-        "R",
-        "W"
       ],
       "record": "5-0",
       "final_rank": null,

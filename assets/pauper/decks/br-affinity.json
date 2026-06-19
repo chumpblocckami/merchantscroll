@@ -3,20 +3,35 @@
   "slug": "br-affinity",
   "stats": {
     "total_entries": 4,
-    "league_entries": 2,
-    "league_trophies": 2,
-    "league_trophies_yearly": 2,
-    "challenge_appearances": 0,
-    "challenge_wins": 0,
-    "challenge_losses": 0,
+    "league_entries": 1,
+    "league_trophies": 1,
+    "league_trophies_yearly": 1,
+    "challenge_appearances": 1,
+    "challenge_wins": 4,
+    "challenge_losses": 3,
     "irl_top8": 2,
-    "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 54,
-    "league_trophy_rank_alltime": 63,
+    "challenge_win_pct": 57,
+    "league_trophy_rank_yearly": 61,
+    "league_trophy_rank_alltime": 67,
     "league_trophy_decks_yearly": 63,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-1912844841",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-19",
+      "player": "AlessandroPiraccini",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-1810636",
       "tournament": "Pauper League",
@@ -46,21 +61,6 @@
       "type": "irl"
     },
     {
-      "site_name": "pauper-league-2026-06-1310636",
-      "tournament": "Pauper League",
-      "date": "2026-06-13",
-      "player": "Provo_the_Monk",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauperwave-2026-03-01-firenze-winter-2025",
       "tournament": "LP Firenze Winter 2025 — Firenze",
       "date": "2026-03-01",
@@ -77,11 +77,11 @@
   ],
   "top_pilots": [
     {
-      "player": "Provo_the_Monk",
+      "player": "Gregorio Vietina",
       "count": 1
     },
     {
-      "player": "Gregorio Vietina",
+      "player": "AlessandroPiraccini",
       "count": 1
     },
     {

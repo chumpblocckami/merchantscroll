@@ -2,21 +2,35 @@
   "archetype": "U Terror",
   "slug": "u-terror",
   "stats": {
-    "total_entries": 1549,
+    "total_entries": 1550,
     "league_entries": 753,
     "league_trophies": 753,
     "league_trophies_yearly": 278,
-    "challenge_appearances": 698,
-    "challenge_wins": 2868,
-    "challenge_losses": 1718,
+    "challenge_appearances": 699,
+    "challenge_wins": 2873,
+    "challenge_losses": 1721,
     "irl_top8": 39,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 2,
     "league_trophy_rank_alltime": 2,
     "league_trophy_decks_yearly": 63,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-1912844841",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-19",
+      "player": "discoverN",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-3",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-1812844831",
       "tournament": "Pauper Challenge 32",
@@ -350,20 +364,6 @@
       "final_rank": 4,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1412844338",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-14",
-      "player": "discoverN",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 16,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -373,7 +373,7 @@
     },
     {
       "player": "discoverN",
-      "count": 83
+      "count": 84
     },
     {
       "player": "Purgatory_01",

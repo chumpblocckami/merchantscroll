@@ -3,17 +3,17 @@
   "display_name": "Purgatory_01",
   "irl_name": null,
   "stats": {
-    "total_entries": 95,
+    "total_entries": 96,
     "league_trophies": 53,
     "league_trophies_yearly": 21,
-    "challenge_wins": 159,
-    "challenge_losses": 102,
+    "challenge_wins": 164,
+    "challenge_losses": 104,
     "irl_top8": 0,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 24,
-    "league_trophy_rank_alltime": 16,
-    "league_trophy_players_yearly": 1141,
-    "league_trophy_players_alltime": 1902
+    "league_trophy_rank_alltime": 17,
+    "league_trophy_players_yearly": 1146,
+    "league_trophy_players_alltime": 1906
   },
   "favorite_decks": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "archetype": "UB Faeries",
-      "count": 15
+      "count": 16
     },
     {
       "archetype": "UB Terror",
@@ -42,6 +42,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-1912844841",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-19",
+      "player": "Purgatory_01",
+      "archetype": "UB Faeries",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-1812844831",
       "tournament": "Pauper Challenge 32",
@@ -418,22 +433,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-0212838101",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-02",
-      "player": "Purgatory_01",
-      "archetype": "U Terror",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

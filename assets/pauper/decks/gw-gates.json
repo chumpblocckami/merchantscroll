@@ -2,21 +2,67 @@
   "archetype": "GW Gates",
   "slug": "gw-gates",
   "stats": {
-    "total_entries": 144,
-    "league_entries": 88,
-    "league_trophies": 88,
-    "league_trophies_yearly": 65,
-    "challenge_appearances": 52,
-    "challenge_wins": 195,
-    "challenge_losses": 123,
+    "total_entries": 147,
+    "league_entries": 89,
+    "league_trophies": 89,
+    "league_trophies_yearly": 66,
+    "challenge_appearances": 54,
+    "challenge_wins": 203,
+    "challenge_losses": 129,
     "irl_top8": 2,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 22,
-    "league_trophy_rank_alltime": 31,
+    "league_trophy_rank_yearly": 21,
+    "league_trophy_rank_alltime": 30,
     "league_trophy_decks_yearly": 63,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-1912844841",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-19",
+      "player": "Emogoblin",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-3",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1912844841",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-19",
+      "player": "Patrimattone",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 28,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1910636",
+      "tournament": "Pauper League",
+      "date": "2026-06-19",
+      "player": "Maccaciock",
+      "colors": [
+        "B",
+        "G",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-1812844831",
       "tournament": "Pauper Challenge 32",
@@ -348,51 +394,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2910636",
-      "tournament": "Pauper League",
-      "date": "2026-05-29",
-      "player": "Emogoblin",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2910636",
-      "tournament": "Pauper League",
-      "date": "2026-05-29",
-      "player": "Cabz",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2812843381",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-28",
-      "player": "Emogoblin",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "2-4",
-      "final_rank": 26,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -410,7 +411,7 @@
     },
     {
       "player": "Emogoblin",
-      "count": 5
+      "count": 6
     },
     {
       "player": "olati",
@@ -429,11 +430,11 @@
       "count": 4
     },
     {
-      "player": "JsyvX",
-      "count": 3
+      "player": "Maccaciock",
+      "count": 4
     },
     {
-      "player": "CAM_13",
+      "player": "JsyvX",
       "count": 3
     }
   ]

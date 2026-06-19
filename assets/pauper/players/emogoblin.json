@@ -3,17 +3,17 @@
   "display_name": "Emogoblin",
   "irl_name": null,
   "stats": {
-    "total_entries": 26,
+    "total_entries": 27,
     "league_trophies": 9,
     "league_trophies_yearly": 7,
-    "challenge_wins": 71,
-    "challenge_losses": 42,
+    "challenge_wins": 76,
+    "challenge_losses": 45,
     "irl_top8": 0,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 118,
-    "league_trophy_rank_alltime": 241,
-    "league_trophy_players_yearly": 1141,
-    "league_trophy_players_alltime": 1902
+    "league_trophy_rank_alltime": 242,
+    "league_trophy_players_yearly": 1146,
+    "league_trophy_players_alltime": 1906
   },
   "favorite_decks": [
     {
@@ -21,11 +21,11 @@
       "count": 9
     },
     {
-      "archetype": "BGRW",
-      "count": 5
+      "archetype": "GW Gates",
+      "count": 6
     },
     {
-      "archetype": "GW Gates",
+      "archetype": "BGRW",
       "count": 5
     },
     {
@@ -50,6 +50,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-1912844841",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-19",
+      "player": "Emogoblin",
+      "archetype": "GW Gates",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-3",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-1812844831",
       "tournament": "Pauper Challenge 32",
@@ -447,22 +463,6 @@
       "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-12-319987",
-      "tournament": "pauper-league-2025-12-319987",
-      "date": "2025-12-31",
-      "player": "Emogoblin",
-      "archetype": "",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

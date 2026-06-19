@@ -2,21 +2,67 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 3,
-    "league_entries": 1,
-    "league_trophies": 1,
-    "league_trophies_yearly": 1,
-    "challenge_appearances": 0,
-    "challenge_wins": 0,
-    "challenge_losses": 0,
+    "total_entries": 6,
+    "league_entries": 3,
+    "league_trophies": 3,
+    "league_trophies_yearly": 3,
+    "challenge_appearances": 1,
+    "challenge_wins": 4,
+    "challenge_losses": 3,
     "irl_top8": 2,
-    "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 61,
-    "league_trophy_rank_alltime": 70,
+    "challenge_win_pct": 57,
+    "league_trophy_rank_yearly": 54,
+    "league_trophy_rank_alltime": 61,
     "league_trophy_decks_yearly": 63,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-1912844841",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-19",
+      "player": "karatedom",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 18,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1910636",
+      "tournament": "Pauper League",
+      "date": "2026-06-19",
+      "player": "AchoElOjcah",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1910636",
+      "tournament": "Pauper League",
+      "date": "2026-06-19",
+      "player": "Huskyman20035",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-1510636",
       "tournament": "Pauper League",
@@ -64,6 +110,18 @@
     }
   ],
   "top_pilots": [
+    {
+      "player": "karatedom",
+      "count": 1
+    },
+    {
+      "player": "AchoElOjcah",
+      "count": 1
+    },
+    {
+      "player": "Huskyman20035",
+      "count": 1
+    },
     {
       "player": "Lorenzo Montana",
       "count": 1
