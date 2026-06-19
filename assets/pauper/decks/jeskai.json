@@ -2,10 +2,10 @@
   "archetype": "Jeskai",
   "slug": "jeskai",
   "stats": {
-    "total_entries": 201,
-    "league_entries": 139,
-    "league_trophies": 139,
-    "league_trophies_yearly": 75,
+    "total_entries": 200,
+    "league_entries": 138,
+    "league_trophies": 138,
+    "league_trophies_yearly": 74,
     "challenge_appearances": 52,
     "challenge_wins": 210,
     "challenge_losses": 125,
@@ -13,25 +13,10 @@
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 19,
     "league_trophy_rank_alltime": 22,
-    "league_trophy_decks_yearly": 64,
+    "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-06-1810636",
-      "tournament": "Pauper League",
-      "date": "2026-06-18",
-      "player": "AvenRedeemer",
-      "colors": [
-        "B",
-        "G",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-league-2026-06-1710636",
       "tournament": "Pauper League",
@@ -397,6 +382,21 @@
       ],
       "record": "5-2",
       "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0412843773",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-04",
+      "player": "CarrodaPolicia",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
     }
