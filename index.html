@@ -1116,18 +1116,37 @@
       return (dateStr || "").split(" ")[0];
     }
 
+    function dateDeckCount(dk) {
+      return tournamentIndex
+        .filter(t => dateKey(t.starttime) === dk)
+        .reduce((sum, t) => sum + (t.deck_count || 0), 0);
+    }
+
     function getAvailableDates() {
       const seen = new Set();
       const dates = [];
       for (const t of tournamentIndex) {
         const dk = dateKey(t.starttime);
-        if (dk && !seen.has(dk)) { seen.add(dk); dates.push(dk); }
+        if (!dk || seen.has(dk)) continue;
+        seen.add(dk);
+        if (dateDeckCount(dk) > 0) dates.push(dk);
       }
       return dates;
     }
 
     function getTournamentsForDate(dk) {
-      return tournamentIndex.filter(t => dateKey(t.starttime) === dk);
+      return tournamentIndex.filter(
+        t => dateKey(t.starttime) === dk && (t.deck_count || 0) > 0
+      );
+    }
+
+    function findAlternateDateWithDecks(dk) {
+      const dates = getAvailableDates();
+      const pos = dates.indexOf(dk);
+      if (pos < 0) return dates[0] || null;
+      for (let i = pos + 1; i < dates.length; i++) return dates[i];
+      for (let i = pos - 1; i >= 0; i--) return dates[i];
+      return null;
     }
 
     function tournamentLabel(siteName) {
@@ -1220,9 +1239,16 @@
 
     /* ── Breadcrumb navigation ── */
     async function navigateToDate(dk) {
+      if (dateDeckCount(dk) <= 0) {
+        const alt = findAlternateDateWithDecks(dk);
+        if (alt) return navigateToDate(alt);
+        return;
+      }
       const tournaments = getTournamentsForDate(dk);
       if (!tournaments.length) return;
-      await ensureTournamentLoaded(tournaments[0].site_name);
+      for (const t of tournaments) {
+        await ensureTournamentLoaded(t.site_name);
+      }
       const idx = filteredDecks.findIndex(d => dateKey(d.tournamentDate) === dk);
       if (idx >= 0) { deckIdx = idx; showDeck(); }
     }
@@ -1238,37 +1264,46 @@
       showDeck();
     }
 
+    function ingestTournamentDecks(siteName, data) {
+      const name = data.description || data.name || "";
+      const date = data.starttime || data.publish_date || "";
+      const before = allDecks.length;
+      for (const dl of (data.decklists || [])) {
+        allDecks.push({
+          tournamentName: name,
+          tournamentDate: date,
+          siteName,
+          player: dl.player,
+          decklist: dl,
+        });
+      }
+      loadedTournaments.add(siteName);
+      if (allDecks.length > before) {
+        allDecks.sort((a, b) => {
+          const da = dateKey(a.tournamentDate), db = dateKey(b.tournamentDate);
+          if (da !== db) return db.localeCompare(da);
+          return 0;
+        });
+        filteredDecks = allDecks;
+      }
+      return allDecks.length > before;
+    }
+
     async function ensureTournamentLoaded(siteName) {
       if (loadedTournaments.has(siteName)) return;
       const idxPos = tournamentIndex.findIndex(t => t.site_name === siteName);
       if (idxPos < 0) return;
+      if (!tournamentIndex[idxPos].deck_count) {
+        loadedTournaments.add(siteName);
+        return;
+      }
 
       loading = true;
       try {
         const res = await fetch(`assets/pauper/raw/${siteName}.json`, { cache: "no-store" });
         if (!res.ok) throw new Error("fetch failed");
         const data = await res.json();
-
-        const name = data.description || data.name || "";
-        const date = data.starttime || data.publish_date || "";
-        for (const dl of (data.decklists || [])) {
-          allDecks.push({
-            tournamentName: name,
-            tournamentDate: date,
-            siteName: siteName,
-            player: dl.player,
-            decklist: dl,
-          });
-        }
-        loadedTournaments.add(siteName);
-
-        allDecks.sort((a, b) => {
-          const da = dateKey(a.tournamentDate), db = dateKey(b.tournamentDate);
-          if (da !== db) return db.localeCompare(da);
-          return 0;
-        });
-
-        filteredDecks = allDecks;
+        ingestTournamentDecks(siteName, data);
       } catch (e) {
         console.warn("Failed to load tournament:", siteName, e);
       }
@@ -1463,36 +1498,44 @@
     }
 
     async function loadTournament() {
-      if (loading || nextTournamentIdx >= tournamentIndex.length) return;
+      if (loading || nextTournamentIdx >= tournamentIndex.length) return false;
       loading = true;
 
       const entry = tournamentIndex[nextTournamentIdx];
       nextTournamentIdx++;
 
-      if (loadedTournaments.has(entry.site_name)) { loading = false; return; }
+      if (loadedTournaments.has(entry.site_name)) {
+        loading = false;
+        return false;
+      }
 
+      if (!entry.deck_count) {
+        loadedTournaments.add(entry.site_name);
+        loading = false;
+        return false;
+      }
+
+      let added = false;
       try {
         const res = await fetch(`assets/pauper/raw/${entry.site_name}.json`, { cache: "no-store" });
         if (!res.ok) throw new Error("fetch failed");
         const data = await res.json();
-
-        const name = data.description || data.name || "";
-        const date = data.starttime || data.publish_date || "";
-        for (const dl of (data.decklists || [])) {
-          allDecks.push({
-            tournamentName: name,
-            tournamentDate: date,
-            siteName: entry.site_name,
-            player: dl.player,
-            decklist: dl,
-          });
-        }
-        loadedTournaments.add(entry.site_name);
-        filteredDecks = allDecks;
+        added = ingestTournamentDecks(entry.site_name, data);
       } catch (e) {
         console.warn("Skipping tournament:", entry.site_name, e);
       }
       loading = false;
+      return added;
+    }
+
+    async function loadUntilDecks() {
+      while (filteredDecks.length === 0 && nextTournamentIdx < tournamentIndex.length) {
+        content.innerHTML = "";
+        loader.textContent = "Loading decks...";
+        loader.style.display = "block";
+        content.appendChild(loader);
+        await loadTournament();
+      }
     }
 
     /* ── Navigation ── */
@@ -1552,6 +1595,29 @@
     /* ── Input handling ── */
     let throttle = false;
     let suppressDeckCardClick = false;
+
+    function getTextDecklistScroller(target) {
+      if (deckViewMode === "visual") return null;
+      const cols = target?.closest?.(".decklist-columns");
+      if (!cols || cols.classList.contains("visual-mode")) return null;
+      return cols;
+    }
+
+    function decklistCanScroll(el, deltaY) {
+      if (!el || el.scrollHeight <= el.clientHeight + 1) return false;
+      const atTop = el.scrollTop <= 0;
+      const atBottom = el.scrollTop + el.clientHeight >= el.scrollHeight - 1;
+      if (deltaY > 0) return !atBottom;
+      if (deltaY < 0) return !atTop;
+      return false;
+    }
+
+    function shouldNavigateDeckOnWheel(e) {
+      const scroller = getTextDecklistScroller(e.target);
+      if (!scroller) return true;
+      return !decklistCanScroll(scroller, e.deltaY);
+    }
+
     function throttledGo(dir) {
       if (throttle) return;
       throttle = true;
@@ -1590,12 +1656,14 @@
 
     content.addEventListener("wheel", (e) => {
       if (isPlayerModalOpen()) return;
-      e.preventDefault();
       if (Math.abs(e.deltaX) > Math.abs(e.deltaY) && Math.abs(e.deltaX) > 30) {
+        e.preventDefault();
         if (e.deltaX > 0) openPlayerProfileFromDeck();
         else openDeckProfileFromDeck();
         return;
       }
+      if (!shouldNavigateDeckOnWheel(e)) return;
+      e.preventDefault();
       throttledGo(e.deltaY > 0 ? 1 : -1);
     }, { passive: false });
 
@@ -1727,7 +1795,7 @@
             }
           }
 
-          await loadTournament();
+          await loadUntilDecks();
           showDeck();
         } else {
           loader.textContent = `No pauper tournaments found for ${currentYear}.`;

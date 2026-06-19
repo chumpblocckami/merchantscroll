@@ -776,6 +776,8 @@ a.player-name:hover {
   gap: 28px;
   min-height: 0;
   overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
   padding-bottom: 6px;
 }
 
@@ -983,16 +985,7 @@ a.player-name:hover {
 }
 
 .decklist-columns::-webkit-scrollbar {
-  width: 4px;
-}
-
-.decklist-columns::-webkit-scrollbar-track {
-  background: transparent;
-}
-
-.decklist-columns::-webkit-scrollbar-thumb {
-  background: var(--scrollbar-thumb);
-  border-radius: 2px;
+  display: none;
 }
 
 .deck-col {
@@ -1547,6 +1540,8 @@ kbd {
     flex: 1;
     min-height: 0;
     overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
     flex-direction: column;
     gap: 10px;
     padding-bottom: 2px;
