@@ -2,35 +2,21 @@
   "archetype": "GR",
   "slug": "gr",
   "stats": {
-    "total_entries": 40,
-    "league_entries": 31,
-    "league_trophies": 31,
-    "league_trophies_yearly": 19,
+    "total_entries": 35,
+    "league_entries": 26,
+    "league_trophies": 26,
+    "league_trophies_yearly": 14,
     "challenge_appearances": 9,
     "challenge_wins": 34,
     "challenge_losses": 26,
     "irl_top8": 0,
     "challenge_win_pct": 57,
-    "league_trophy_rank_yearly": 36,
-    "league_trophy_rank_alltime": 42,
-    "league_trophy_decks_yearly": 58,
+    "league_trophy_rank_yearly": 41,
+    "league_trophy_rank_alltime": 44,
+    "league_trophy_decks_yearly": 59,
     "league_trophy_decks_alltime": 68
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-06-1510636",
-      "tournament": "Pauper League",
-      "date": "2026-06-15",
-      "player": "ModnarTR",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-league-2026-06-1010636",
       "tournament": "Pauper League",
@@ -64,20 +50,6 @@
       "tournament": "Pauper League",
       "date": "2026-06-09",
       "player": "newbarola",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0510636",
-      "tournament": "Pauper League",
-      "date": "2026-06-05",
-      "player": "CloudRunner172",
       "colors": [
         "G",
         "R"
@@ -214,52 +186,10 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-05-1610636",
-      "tournament": "Pauper League",
-      "date": "2026-05-16",
-      "player": "itsamebogy",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-2510405",
-      "tournament": "Pauper League",
-      "date": "2026-03-25",
-      "player": "Jack-Z",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-03-1410405",
       "tournament": "pauper-league-2026-03-1410405",
       "date": "2026-03-14",
       "player": "Nonoo",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-0110196",
-      "tournament": "pauper-league-2026-03-0110196",
-      "date": "2026-03-01",
-      "player": "willlupi",
       "colors": [
         "G",
         "R"
@@ -366,6 +296,76 @@
       "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-09-079535",
+      "tournament": "pauper-league-2025-09-079535",
+      "date": "2025-09-07",
+      "player": "newbarola",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-08-3112812801",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-08-31",
+      "player": "ICT95",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-2",
+      "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-08-3112812801",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-08-31",
+      "player": "Raziel1993",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-3",
+      "final_rank": 27,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-08-309535",
+      "tournament": "pauper-league-2025-08-309535",
+      "date": "2025-08-30",
+      "player": "ICT95",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-08-229535",
+      "tournament": "pauper-league-2025-08-229535",
+      "date": "2025-08-22",
+      "player": "Sorceress-Queen",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -398,15 +398,15 @@
       "count": 1
     },
     {
-      "player": "CloudRunner172",
-      "count": 1
-    },
-    {
       "player": "ulbabrabal",
       "count": 1
     },
     {
       "player": "AguaTonificada",
+      "count": 1
+    },
+    {
+      "player": "Takaoka_Spiral",
       "count": 1
     }
   ]
