@@ -1,29 +1,31 @@
 {
-  "archetype": "R",
-  "slug": "r",
+  "archetype": "BRW",
+  "slug": "brw",
   "stats": {
     "total_entries": 1,
     "league_entries": 1,
     "league_trophies": 1,
-    "league_trophies_yearly": 0,
+    "league_trophies_yearly": 1,
     "challenge_appearances": 0,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 71,
+    "league_trophy_rank_yearly": 62,
+    "league_trophy_rank_alltime": 69,
     "league_trophy_decks_yearly": 64,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
-      "site_name": "pauper-league-2025-10-189750",
-      "tournament": "pauper-league-2025-10-189750",
-      "date": "2025-10-18",
-      "player": "_against_",
+      "site_name": "pauper-league-2026-06-1410636",
+      "tournament": "Pauper League",
+      "date": "2026-06-14",
+      "player": "cabrabr12",
       "colors": [
-        "R"
+        "B",
+        "R",
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -33,7 +35,7 @@
   ],
   "top_pilots": [
     {
-      "player": "_against_",
+      "player": "cabrabr12",
       "count": 1
     }
   ]

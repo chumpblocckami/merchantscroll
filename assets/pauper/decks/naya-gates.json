@@ -2,21 +2,36 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 67,
+    "total_entries": 68,
     "league_entries": 30,
     "league_trophies": 30,
     "league_trophies_yearly": 23,
-    "challenge_appearances": 23,
-    "challenge_wins": 86,
-    "challenge_losses": 51,
+    "challenge_appearances": 24,
+    "challenge_wins": 91,
+    "challenge_losses": 54,
     "irl_top8": 12,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 35,
     "league_trophy_rank_alltime": 43,
-    "league_trophy_decks_yearly": 63,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 64,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-1912844841",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-19",
+      "player": "Emogoblin",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-3",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-1812844831",
       "tournament": "Pauper Challenge 32",
@@ -404,23 +419,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-04-2210636",
-      "tournament": "Pauper League",
-      "date": "2026-04-22",
-      "player": "Serpico_94",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -441,6 +439,10 @@
       "count": 2
     },
     {
+      "player": "Emogoblin",
+      "count": 2
+    },
+    {
       "player": "Serpico_94",
       "count": 2
     },
@@ -458,10 +460,6 @@
     },
     {
       "player": "Mrityuhara",
-      "count": 1
-    },
-    {
-      "player": "lostonkato",
       "count": 1
     }
   ]
