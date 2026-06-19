@@ -2,21 +2,36 @@
   "archetype": "BR Madness",
   "slug": "br-madness",
   "stats": {
-    "total_entries": 743,
+    "total_entries": 745,
     "league_entries": 361,
     "league_trophies": 361,
     "league_trophies_yearly": 95,
-    "challenge_appearances": 356,
-    "challenge_wins": 1454,
-    "challenge_losses": 902,
-    "irl_top8": 8,
+    "challenge_appearances": 357,
+    "challenge_wins": 1457,
+    "challenge_losses": 905,
+    "irl_top8": 9,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 14,
     "league_trophy_rank_alltime": 7,
-    "league_trophy_decks_yearly": 59,
-    "league_trophy_decks_alltime": 68
+    "league_trophy_decks_yearly": 61,
+    "league_trophy_decks_alltime": 69
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-1812844831",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-18",
+      "player": "Captain_Tsubasa",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-1810636",
       "tournament": "Pauper League",
@@ -106,6 +121,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauperwave-2026-06-13-aquila-summer-2026",
+      "tournament": "LP L'Aquila Summer 2026 — L'Aquila",
+      "date": "2026-06-13",
+      "player": "Andrea Grimaldi",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "",
+      "final_rank": 3,
+      "source": "pauperwave",
+      "type": "irl"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1312844320",
@@ -361,36 +391,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0310636",
-      "tournament": "Pauper League",
-      "date": "2026-06-03",
-      "player": "EngRC",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0210636",
-      "tournament": "Pauper League",
-      "date": "2026-06-02",
-      "player": "SalamiBroetchen",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -412,7 +412,7 @@
     },
     {
       "player": "Captain_Tsubasa",
-      "count": 17
+      "count": 18
     },
     {
       "player": "HermonHero",
@@ -423,11 +423,11 @@
       "count": 15
     },
     {
-      "player": "Than",
+      "player": "Niederschatten",
       "count": 14
     },
     {
-      "player": "Niederschatten",
+      "player": "Than",
       "count": 14
     },
     {

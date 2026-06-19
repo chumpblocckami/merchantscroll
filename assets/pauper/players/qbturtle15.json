@@ -10,10 +10,10 @@
     "challenge_losses": 9,
     "irl_top8": 0,
     "challenge_win_pct": 57,
-    "league_trophy_rank_yearly": 363,
-    "league_trophy_rank_alltime": 66,
-    "league_trophy_players_yearly": 1139,
-    "league_trophy_players_alltime": 1900
+    "league_trophy_rank_yearly": 366,
+    "league_trophy_rank_alltime": 67,
+    "league_trophy_players_yearly": 1143,
+    "league_trophy_players_alltime": 1903
   },
   "favorite_decks": [
     {
@@ -21,12 +21,12 @@
       "count": 15
     },
     {
-      "archetype": "Jund",
+      "archetype": "Gardens",
       "count": 4
     },
     {
-      "archetype": "Gardens",
-      "count": 4
+      "archetype": "Jund",
+      "count": 3
     },
     {
       "archetype": "B Sacrifice",
@@ -34,6 +34,10 @@
     },
     {
       "archetype": "UB Terror",
+      "count": 1
+    },
+    {
+      "archetype": "Altar",
       "count": 1
     }
   ],
@@ -43,7 +47,7 @@
       "tournament": "Pauper League",
       "date": "2026-06-18",
       "player": "qbturtle15",
-      "archetype": "Jund",
+      "archetype": "Altar",
       "colors": [
         "B",
         "R"
@@ -182,20 +186,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-07-139366",
-      "tournament": "pauper-league-2025-07-139366",
-      "date": "2025-07-13",
-      "player": "qbturtle15",
-      "archetype": "White Weenie",
-      "colors": [
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2025-07-1312802837",
       "tournament": "Pauper Challenge 32",
       "date": "2025-07-13",
@@ -208,6 +198,20 @@
       "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-07-139366",
+      "tournament": "pauper-league-2025-07-139366",
+      "date": "2025-07-13",
+      "player": "qbturtle15",
+      "archetype": "White Weenie",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2025-07-119366",

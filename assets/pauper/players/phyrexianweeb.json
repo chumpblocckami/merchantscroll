@@ -10,10 +10,10 @@
     "challenge_losses": 14,
     "irl_top8": 0,
     "challenge_win_pct": 56,
-    "league_trophy_rank_yearly": 549,
+    "league_trophy_rank_yearly": 551,
     "league_trophy_rank_alltime": 256,
-    "league_trophy_players_yearly": 1139,
-    "league_trophy_players_alltime": 1900
+    "league_trophy_players_yearly": 1143,
+    "league_trophy_players_alltime": 1903
   },
   "favorite_decks": [
     {
@@ -25,11 +25,11 @@
       "count": 2
     },
     {
-      "archetype": "U Terror",
+      "archetype": "RG Ponza",
       "count": 1
     },
     {
-      "archetype": "RG Ponza",
+      "archetype": "U Terror",
       "count": 1
     }
   ],
@@ -217,22 +217,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-05-179081",
-      "tournament": "pauper-league-2025-05-179081",
-      "date": "2025-05-17",
-      "player": "PhyrexianWeeb",
-      "archetype": "U Faeries",
-      "colors": [
-        "G",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2025-05-1712780149",
       "tournament": "Pauper Challenge 32",
       "date": "2025-05-17",
@@ -247,6 +231,22 @@
       "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-05-179081",
+      "tournament": "pauper-league-2025-05-179081",
+      "date": "2025-05-17",
+      "player": "PhyrexianWeeb",
+      "archetype": "U Faeries",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ]
 }

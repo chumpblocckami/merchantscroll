@@ -2012,8 +2012,7 @@
         "B",
         "R",
         "W"
-      ],
-      "archetype": "White Weenie"
+      ]
     },
     {
       "player": "maribves",
@@ -2798,7 +2797,7 @@
       "colors": [
         "R"
       ],
-      "archetype": "Rally"
+      "archetype": "Mono Red Kuldotha"
     },
     {
       "player": "Hype12232",
@@ -3070,7 +3069,7 @@
         "U",
         "W"
       ],
-      "archetype": "UG Fog"
+      "archetype": "Monsters Tron"
     },
     {
       "player": "sNouX",
@@ -3672,6 +3671,254 @@
       ]
     },
     {
+      "player": "Kiki-Gigi",
+      "main_deck": [
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Golgari Rot Farm",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Nihil Spellbomb",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Spinning Darkness",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Crypt Rats",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Snuff Out",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Swamp",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Ichor Wellspring",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Defile",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Witch's Cottage",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Suffocating Fumes",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Reckoner's Bargain",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Avenging Hunter",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Urborg Repossession",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Haunted Mire",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Troll of Khazad-dûm",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Lembas",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Campfire",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Fanatical Offering",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Tithing Blade",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Eviscerator's Insight",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Swamp",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Bojuka Bog",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Khalni Garden",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Cast Down",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Swamp",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Swamp",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Swamp",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Swamp",
+            "card_type": "LAND  "
+          }
+        }
+      ],
+      "sideboard_deck": [
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Duress",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Troublemaker Ouphe",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Nihil Spellbomb",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Drown in Sorrow",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Weather the Storm",
+            "card_type": "INSTNT"
+          }
+        }
+      ],
+      "wins": {
+        "loginplayeventcourseid": "35293937",
+        "wins": "5",
+        "losses": "0"
+      },
+      "colors": [
+        "B",
+        "G"
+      ],
+      "archetype": "Gardens"
+    },
+    {
       "player": "Vojbe",
       "main_deck": [
         {
@@ -3846,7 +4093,7 @@
       "colors": [
         "R"
       ],
-      "archetype": "Pingers"
+      "archetype": "Mono Red Kuldotha"
     },
     {
       "player": "Dovin_Baaan",
@@ -4392,6 +4639,198 @@
       ]
     },
     {
+      "player": "jubileubr",
+      "main_deck": [
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Burning-Tree Emissary",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Chain Lightning",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Clockwork Percussionist",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "End the Festivities",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Experimental Synthesizer",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Mountain",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Lightning Bolt",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Goblin Tomb Raider",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Great Furnace",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Goblin Bushwhacker",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Galvanic Blast",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Rally at the Hornburg",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Voldaren Epicure",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Wrenn's Resolve",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Mountain",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "12",
+          "card_attributes": {
+            "card_name": "Mountain",
+            "card_type": "LAND  "
+          }
+        }
+      ],
+      "sideboard_deck": [
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Cast into the Fire",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "End the Festivities",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Gorilla Shaman",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Relic of Progenitus",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Red Elemental Blast",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Searing Blaze",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Smash to Smithereens",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Relic of Progenitus",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Pyroblast",
+            "card_type": "INSTNT"
+          }
+        }
+      ],
+      "wins": {
+        "loginplayeventcourseid": "35295254",
+        "wins": "5",
+        "losses": "0"
+      },
+      "colors": [
+        "G",
+        "R"
+      ],
+      "archetype": "Mono Red Kuldotha"
+    },
+    {
       "player": "Raptor56",
       "main_deck": [
         {
@@ -4598,6 +5037,199 @@
         "W"
       ],
       "archetype": "Familiars"
+    },
+    {
+      "player": "imbaterran",
+      "main_deck": [
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Masked Vandal",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Forest",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Saruli Caretaker",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Forest",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Generous Ent",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Land Grant",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Dread Return",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Lotleth Giant",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Sagu Wildling",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Elves of Deep Shadow",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Gatecreeper Vine",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Winding Way",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Avenging Hunter",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Lead the Stampede",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Balustrade Spy",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Overgrown Battlement",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Wall of Roots",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Swamp",
+            "card_type": "LAND  "
+          }
+        }
+      ],
+      "sideboard_deck": [
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Fang Dragon",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Mountain",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Mesmeric Fiend",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Flaring Pain",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Masked Vandal",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Gorilla Shaman",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Writhing Chrysalis",
+            "card_type": "ISCREA"
+          }
+        }
+      ],
+      "wins": {
+        "loginplayeventcourseid": "35296390",
+        "wins": "5",
+        "losses": "0"
+      },
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "archetype": "Spy"
     }
   ]
 }

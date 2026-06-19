@@ -10,18 +10,18 @@
     "challenge_losses": 10,
     "irl_top8": 0,
     "challenge_win_pct": 47,
-    "league_trophy_rank_yearly": 961,
-    "league_trophy_rank_alltime": 339,
-    "league_trophy_players_yearly": 1139,
-    "league_trophy_players_alltime": 1900
+    "league_trophy_rank_yearly": 965,
+    "league_trophy_rank_alltime": 340,
+    "league_trophy_players_yearly": 1143,
+    "league_trophy_players_alltime": 1903
   },
   "favorite_decks": [
     {
-      "archetype": "Rally",
+      "archetype": "Gardens",
       "count": 2
     },
     {
-      "archetype": "Gardens",
+      "archetype": "Rally",
       "count": 2
     },
     {
@@ -29,11 +29,7 @@
       "count": 1
     },
     {
-      "archetype": "Spy",
-      "count": 1
-    },
-    {
-      "archetype": "UB Terror",
+      "archetype": "Jund",
       "count": 1
     },
     {
@@ -45,7 +41,11 @@
       "count": 1
     },
     {
-      "archetype": "Jund",
+      "archetype": "Spy",
+      "count": 1
+    },
+    {
+      "archetype": "UB Terror",
       "count": 1
     }
   ],
@@ -80,6 +80,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-10-189750",
+      "tournament": "pauper-league-2025-10-189750",
+      "date": "2025-10-18",
+      "player": "NattaZan79",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2025-10-1812820716",
       "tournament": "Pauper Challenge 32",
       "date": "2025-10-18",
@@ -94,21 +109,6 @@
       "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-10-189750",
-      "tournament": "pauper-league-2025-10-189750",
-      "date": "2025-10-18",
-      "player": "NattaZan79",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2025-09-219535",

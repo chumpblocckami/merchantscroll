@@ -2,21 +2,52 @@
   "archetype": "GW Gates",
   "slug": "gw-gates",
   "stats": {
-    "total_entries": 142,
-    "league_entries": 87,
-    "league_trophies": 87,
-    "league_trophies_yearly": 64,
-    "challenge_appearances": 51,
-    "challenge_wins": 191,
-    "challenge_losses": 121,
+    "total_entries": 144,
+    "league_entries": 88,
+    "league_trophies": 88,
+    "league_trophies_yearly": 65,
+    "challenge_appearances": 52,
+    "challenge_wins": 195,
+    "challenge_losses": 123,
     "irl_top8": 2,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 22,
+    "league_trophy_rank_yearly": 21,
     "league_trophy_rank_alltime": 31,
-    "league_trophy_decks_yearly": 59,
-    "league_trophy_decks_alltime": 68
+    "league_trophy_decks_yearly": 61,
+    "league_trophy_decks_alltime": 69
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-1812844831",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-18",
+      "player": "Bahsis",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 20,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1810636",
+      "tournament": "Pauper League",
+      "date": "2026-06-18",
+      "player": "Hrdd",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-1710636",
       "tournament": "Pauper League",
@@ -123,6 +154,21 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-challenge-32-2026-06-0712843817",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-07",
+      "player": "olati",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "4-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-league-2026-06-0710636",
       "tournament": "Pauper League",
       "date": "2026-06-07",
@@ -166,21 +212,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0712843817",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-07",
-      "player": "olati",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "4-3",
-      "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-0612843798",
@@ -362,38 +393,6 @@
       "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2710636",
-      "tournament": "Pauper League",
-      "date": "2026-05-27",
-      "player": "G-Monteiro",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2610636",
-      "tournament": "Pauper League",
-      "date": "2026-05-26",
-      "player": "Triso",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -418,10 +417,6 @@
       "count": 4
     },
     {
-      "player": "eXeliS",
-      "count": 4
-    },
-    {
       "player": "marzaboi",
       "count": 4
     },
@@ -430,7 +425,11 @@
       "count": 4
     },
     {
-      "player": "JsyvX",
+      "player": "eXeliS",
+      "count": 4
+    },
+    {
+      "player": "Maccaciock",
       "count": 3
     },
     {

@@ -10,10 +10,10 @@
     "challenge_losses": 5,
     "irl_top8": 0,
     "challenge_win_pct": 62,
-    "league_trophy_rank_yearly": 306,
-    "league_trophy_rank_alltime": 682,
-    "league_trophy_players_yearly": 1139,
-    "league_trophy_players_alltime": 1900
+    "league_trophy_rank_yearly": 311,
+    "league_trophy_rank_alltime": 684,
+    "league_trophy_players_yearly": 1143,
+    "league_trophy_players_alltime": 1903
   },
   "favorite_decks": [
     {
@@ -75,21 +75,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-01-019987",
-      "tournament": "pauper-league-2026-01-019987",
-      "date": "2026-01-01",
-      "player": "floyza",
-      "archetype": "Familiars",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-01-0112828151",
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-01",
@@ -103,6 +88,21 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-01-019987",
+      "tournament": "pauper-league-2026-01-019987",
+      "date": "2026-01-01",
+      "player": "floyza",
+      "archetype": "Familiars",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ]
 }

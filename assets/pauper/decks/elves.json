@@ -2,21 +2,37 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1118,
+    "total_entries": 1121,
     "league_entries": 598,
     "league_trophies": 598,
     "league_trophies_yearly": 216,
-    "challenge_appearances": 463,
-    "challenge_wins": 1826,
-    "challenge_losses": 1163,
-    "irl_top8": 29,
+    "challenge_appearances": 464,
+    "challenge_wins": 1831,
+    "challenge_losses": 1165,
+    "irl_top8": 31,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 3,
     "league_trophy_rank_alltime": 3,
-    "league_trophy_decks_yearly": 59,
-    "league_trophy_decks_alltime": 68
+    "league_trophy_decks_yearly": 61,
+    "league_trophy_decks_alltime": 69
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-1812844831",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-18",
+      "player": "PNascimento",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-1810636",
       "tournament": "Pauper League",
@@ -50,6 +66,20 @@
       "tournament": "Pauper League",
       "date": "2026-06-15",
       "player": "KidRenan",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1410636",
+      "tournament": "Pauper League",
+      "date": "2026-06-14",
+      "player": "CarrodaPolicia",
       "colors": [
         "B",
         "G"
@@ -102,20 +132,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-06-1410636",
-      "tournament": "Pauper League",
-      "date": "2026-06-14",
-      "player": "CarrodaPolicia",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-06-1310636",
       "tournament": "Pauper League",
       "date": "2026-06-13",
@@ -130,18 +146,18 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1312844320",
-      "tournament": "Pauper Challenge 32",
+      "site_name": "pauperwave-2026-06-13-maschere-di-vittoria",
+      "tournament": "Maschere di Vittoria — Treviso",
       "date": "2026-06-13",
-      "player": "newbarola",
+      "player": "Claudio Ferrara",
       "colors": [
-        "G",
-        "U"
+        "B",
+        "G"
       ],
-      "record": "5-2",
-      "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
     },
     {
       "site_name": "pauperwave-2026-06-13-lp-brescia-summer",
@@ -155,6 +171,20 @@
       "final_rank": 5,
       "source": "pauperwave",
       "type": "irl"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1312844320",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-13",
+      "player": "newbarola",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1212844305",
@@ -211,6 +241,20 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauperwave-2026-06-10-modena-summer-2026",
+      "tournament": "LP Modena Summer 2026 — Modena",
+      "date": "2026-06-10",
+      "player": "Giovanni Zavatti",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "",
+      "final_rank": 3,
+      "source": "pauperwave",
+      "type": "irl"
     },
     {
       "site_name": "pauper-league-2026-06-1010636",
@@ -325,48 +369,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0612843798",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-06",
-      "player": "Shiib",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "7-2",
-      "final_rank": 2,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0612843798",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-06",
-      "player": "pepeteam",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "3-3",
-      "final_rank": 22,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0612843798",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-06",
-      "player": "Mokemi",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [

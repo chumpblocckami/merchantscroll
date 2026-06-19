@@ -12,8 +12,8 @@
     "challenge_win_pct": 57,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": null,
-    "league_trophy_players_yearly": 1139,
-    "league_trophy_players_alltime": 1900
+    "league_trophy_players_yearly": 1143,
+    "league_trophy_players_alltime": 1903
   },
   "favorite_decks": [
     {
@@ -29,14 +29,6 @@
       "count": 2
     },
     {
-      "archetype": "GW Gates",
-      "count": 1
-    },
-    {
-      "archetype": "Pingers",
-      "count": 1
-    },
-    {
       "archetype": "Elves",
       "count": 1
     },
@@ -45,11 +37,19 @@
       "count": 1
     },
     {
+      "archetype": "U Terror",
+      "count": 1
+    },
+    {
       "archetype": "U Faeries",
       "count": 1
     },
     {
-      "archetype": "U Terror",
+      "archetype": "Pingers",
+      "count": 1
+    },
+    {
+      "archetype": "GW Gates",
       "count": 1
     }
   ],
@@ -225,23 +225,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-qualifier-2025-05-1612780097",
-      "tournament": "Pauper Qualifier",
-      "date": "2025-05-16",
-      "player": "_Batutinha_",
-      "archetype": "Bogle",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
       "site_name": "pauper-challenge-32-2025-05-1612780132",
       "tournament": "Pauper Challenge 32",
       "date": "2025-05-16",
@@ -257,6 +240,23 @@
       "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-qualifier-2025-05-1612780097",
+      "tournament": "Pauper Qualifier",
+      "date": "2025-05-16",
+      "player": "_Batutinha_",
+      "archetype": "Bogle",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-3",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "other"
     },
     {
       "site_name": "pauper-challenge-32-2025-05-0912777329",

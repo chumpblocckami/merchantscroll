@@ -2,36 +2,21 @@
   "archetype": "Familiars",
   "slug": "familiars",
   "stats": {
-    "total_entries": 260,
-    "league_entries": 152,
-    "league_trophies": 152,
-    "league_trophies_yearly": 65,
+    "total_entries": 261,
+    "league_entries": 151,
+    "league_trophies": 151,
+    "league_trophies_yearly": 64,
     "challenge_appearances": 87,
     "challenge_wins": 351,
     "challenge_losses": 220,
-    "irl_top8": 18,
+    "irl_top8": 20,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 21,
+    "league_trophy_rank_yearly": 22,
     "league_trophy_rank_alltime": 21,
-    "league_trophy_decks_yearly": 59,
-    "league_trophy_decks_alltime": 68
+    "league_trophy_decks_yearly": 61,
+    "league_trophy_decks_alltime": 69
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-06-1810636",
-      "tournament": "Pauper League",
-      "date": "2026-06-18",
-      "player": "AvenRedeemer",
-      "colors": [
-        "B",
-        "G",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-league-2026-06-1710636",
       "tournament": "Pauper League",
@@ -133,6 +118,20 @@
       "type": "league"
     },
     {
+      "site_name": "pauperwave-2026-06-13-aquila-summer-2026",
+      "tournament": "LP L'Aquila Summer 2026 — L'Aquila",
+      "date": "2026-06-13",
+      "player": "Alessio De Leonardis",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
       "site_name": "pauper-league-2026-06-1210636",
       "tournament": "Pauper League",
       "date": "2026-06-12",
@@ -159,6 +158,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauperwave-2026-06-10-modena-summer-2026",
+      "tournament": "LP Modena Summer 2026 — Modena",
+      "date": "2026-06-10",
+      "player": "Alessio Sposito",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "",
+      "final_rank": 2,
+      "source": "pauperwave",
+      "type": "irl"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-0412843773",
@@ -362,21 +375,6 @@
       "final_rank": 5,
       "source": "pauperwave",
       "type": "irl"
-    },
-    {
-      "site_name": "pauper-league-2026-05-1010636",
-      "tournament": "Pauper League",
-      "date": "2026-05-10",
-      "player": "LucianoGuma",
-      "colors": [
-        "B",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -401,11 +399,11 @@
       "count": 12
     },
     {
-      "player": "Vaan_3",
+      "player": "Berga_",
       "count": 7
     },
     {
-      "player": "Berga_",
+      "player": "Vaan_3",
       "count": 7
     },
     {
@@ -413,11 +411,11 @@
       "count": 6
     },
     {
-      "player": "Borbs",
+      "player": "CrystalEye97",
       "count": 5
     },
     {
-      "player": "CrystalEye97",
+      "player": "othavirium",
       "count": 5
     }
   ]

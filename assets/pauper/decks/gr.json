@@ -2,21 +2,35 @@
   "archetype": "GR",
   "slug": "gr",
   "stats": {
-    "total_entries": 35,
-    "league_entries": 26,
-    "league_trophies": 26,
-    "league_trophies_yearly": 14,
+    "total_entries": 36,
+    "league_entries": 27,
+    "league_trophies": 27,
+    "league_trophies_yearly": 15,
     "challenge_appearances": 9,
     "challenge_wins": 34,
     "challenge_losses": 26,
     "irl_top8": 0,
     "challenge_win_pct": 57,
-    "league_trophy_rank_yearly": 41,
+    "league_trophy_rank_yearly": 42,
     "league_trophy_rank_alltime": 44,
-    "league_trophy_decks_yearly": 59,
-    "league_trophy_decks_alltime": 68
+    "league_trophy_decks_yearly": 61,
+    "league_trophy_decks_alltime": 69
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-1510636",
+      "tournament": "Pauper League",
+      "date": "2026-06-15",
+      "player": "ModnarTR",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-1010636",
       "tournament": "Pauper League",
@@ -352,30 +366,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-08-229535",
-      "tournament": "pauper-league-2025-08-229535",
-      "date": "2025-08-22",
-      "player": "Sorceress-Queen",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
+    {
+      "player": "newbarola",
+      "count": 9
+    },
     {
       "player": "ICT95",
       "count": 9
     },
     {
-      "player": "newbarola",
-      "count": 9
+      "player": "Sorceress-Queen",
+      "count": 2
     },
     {
       "player": "olati",
@@ -386,27 +390,23 @@
       "count": 2
     },
     {
-      "player": "Sorceress-Queen",
-      "count": 2
-    },
-    {
-      "player": "ganjadejanga",
+      "player": "KOKOLOKO3435",
       "count": 1
     },
     {
-      "player": "VampiroIL",
-      "count": 1
-    },
-    {
-      "player": "ulbabrabal",
-      "count": 1
-    },
-    {
-      "player": "AguaTonificada",
+      "player": "PR0boszcz",
       "count": 1
     },
     {
       "player": "Takaoka_Spiral",
+      "count": 1
+    },
+    {
+      "player": "Nonoo",
+      "count": 1
+    },
+    {
+      "player": "Riccc",
       "count": 1
     }
   ]

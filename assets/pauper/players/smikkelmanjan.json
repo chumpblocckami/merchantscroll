@@ -12,8 +12,8 @@
     "challenge_win_pct": 50,
     "league_trophy_rank_yearly": 202,
     "league_trophy_rank_alltime": 224,
-    "league_trophy_players_yearly": 1139,
-    "league_trophy_players_alltime": 1900
+    "league_trophy_players_yearly": 1143,
+    "league_trophy_players_alltime": 1903
   },
   "favorite_decks": [
     {
@@ -21,15 +21,15 @@
       "count": 5
     },
     {
+      "archetype": "Ponza",
+      "count": 2
+    },
+    {
       "archetype": "Rally",
       "count": 2
     },
     {
       "archetype": "Jund",
-      "count": 2
-    },
-    {
-      "archetype": "Ponza",
       "count": 2
     },
     {
@@ -132,21 +132,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2025-11-3012825489",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-11-30",
-      "player": "smikkelmanjan",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "3-3",
-      "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2025-11-309987",
       "tournament": "pauper-league-2025-11-309987",
       "date": "2025-11-30",
@@ -160,6 +145,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-11-3012825489",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-11-30",
+      "player": "smikkelmanjan",
+      "archetype": "Gardens",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "3-3",
+      "final_rank": 27,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-league-2025-11-289987",

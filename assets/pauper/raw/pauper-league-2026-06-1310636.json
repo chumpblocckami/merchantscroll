@@ -1493,7 +1493,7 @@
         "R",
         "W"
       ],
-      "archetype": "BW Refurbished"
+      "archetype": "Jund"
     },
     {
       "player": "Hrdd",
@@ -3428,7 +3428,7 @@
       "colors": [
         "R"
       ],
-      "archetype": "Rally"
+      "archetype": "Mono Red Kuldotha"
     },
     {
       "player": "SrPato",
@@ -4390,7 +4390,7 @@
         "G",
         "R"
       ],
-      "archetype": "Rally"
+      "archetype": "Mono Red Kuldotha"
     },
     {
       "player": "Martin_Dominguez",
@@ -5022,7 +5022,7 @@
       "colors": [
         "R"
       ],
-      "archetype": "Rally"
+      "archetype": "Mono Red Kuldotha"
     },
     {
       "player": "StudentAnselmus",
@@ -5209,6 +5209,184 @@
         "W"
       ],
       "archetype": "Cycle Storm"
+    },
+    {
+      "player": "forse",
+      "main_deck": [
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Spell Pierce",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Brinebarrow Intruder",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Cast Down",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Contaminated Aquifer",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "14",
+          "card_attributes": {
+            "card_name": "Island",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Dispel",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Faerie Miscreant",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Faerie Seer",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Counterspell",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Lórien Revealed",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Moon-Circuit Hacker",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Spellstutter Sprite",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Ninja of the Deep Hours",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Agony Warp",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Thorn of the Black Rose",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Snuff Out",
+            "card_type": "INSTNT"
+          }
+        }
+      ],
+      "sideboard_deck": [
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Annul",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Arms of Hadar",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Envelop",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Extract a Confession",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Hydroblast",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Hydroblast",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Relic of Progenitus",
+            "card_type": "ARTFCT"
+          }
+        }
+      ],
+      "wins": {
+        "loginplayeventcourseid": "35290007",
+        "wins": "5",
+        "losses": "0"
+      },
+      "colors": [
+        "B",
+        "U"
+      ],
+      "archetype": "UB Faeries"
     }
   ]
 }

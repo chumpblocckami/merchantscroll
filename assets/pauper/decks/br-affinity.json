@@ -2,21 +2,35 @@
   "archetype": "BR Affinity",
   "slug": "br-affinity",
   "stats": {
-    "total_entries": 1,
+    "total_entries": 2,
     "league_entries": 0,
     "league_trophies": 0,
     "league_trophies_yearly": 0,
     "challenge_appearances": 0,
     "challenge_wins": 0,
     "challenge_losses": 0,
-    "irl_top8": 1,
+    "irl_top8": 2,
     "challenge_win_pct": null,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": null,
-    "league_trophy_decks_yearly": 59,
-    "league_trophy_decks_alltime": 68
+    "league_trophy_decks_yearly": 61,
+    "league_trophy_decks_alltime": 69
   },
   "recent_entries": [
+    {
+      "site_name": "pauperwave-2026-06-14-piacenza-summer-2026",
+      "tournament": "LP Piacenza Summer 2026 — Piacenza",
+      "date": "2026-06-14",
+      "player": "Francesco Zibella",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
+    },
     {
       "site_name": "pauperwave-2026-03-01-firenze-winter-2025",
       "tournament": "LP Firenze Winter 2025 — Firenze",
@@ -33,6 +47,10 @@
     }
   ],
   "top_pilots": [
+    {
+      "player": "Francesco Zibella",
+      "count": 1
+    },
     {
       "player": "Gregorio Vietina",
       "count": 1

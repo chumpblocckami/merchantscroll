@@ -10,10 +10,10 @@
     "challenge_losses": 20,
     "irl_top8": 0,
     "challenge_win_pct": 67,
-    "league_trophy_rank_yearly": 133,
-    "league_trophy_rank_alltime": 137,
-    "league_trophy_players_yearly": 1139,
-    "league_trophy_players_alltime": 1900
+    "league_trophy_rank_yearly": 134,
+    "league_trophy_rank_alltime": 138,
+    "league_trophy_players_yearly": 1143,
+    "league_trophy_players_alltime": 1903
   },
   "favorite_decks": [
     {
@@ -37,10 +37,6 @@
       "count": 1
     },
     {
-      "archetype": "U Terror",
-      "count": 1
-    },
-    {
       "archetype": "W Heroic",
       "count": 1
     },
@@ -54,6 +50,10 @@
     },
     {
       "archetype": "Familiars",
+      "count": 1
+    },
+    {
+      "archetype": "U Terror",
       "count": 1
     }
   ],
@@ -206,22 +206,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-03-0812834527",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-08",
-      "player": "CHRIS-Mtg-02",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-03-0810405",
       "tournament": "pauper-league-2026-03-0810405",
       "date": "2026-03-08",
@@ -236,6 +220,22 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-03-0812834527",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-03-08",
+      "player": "CHRIS-Mtg-02",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-02-2812834072",

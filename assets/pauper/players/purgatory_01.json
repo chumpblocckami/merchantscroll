@@ -3,22 +3,22 @@
   "display_name": "Purgatory_01",
   "irl_name": null,
   "stats": {
-    "total_entries": 94,
+    "total_entries": 95,
     "league_trophies": 53,
     "league_trophies_yearly": 21,
-    "challenge_wins": 157,
-    "challenge_losses": 99,
+    "challenge_wins": 159,
+    "challenge_losses": 102,
     "irl_top8": 0,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 24,
     "league_trophy_rank_alltime": 16,
-    "league_trophy_players_yearly": 1139,
-    "league_trophy_players_alltime": 1900
+    "league_trophy_players_yearly": 1143,
+    "league_trophy_players_alltime": 1903
   },
   "favorite_decks": [
     {
       "archetype": "U Terror",
-      "count": 59
+      "count": 60
     },
     {
       "archetype": "UB Faeries",
@@ -42,6 +42,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-1812844831",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-18",
+      "player": "Purgatory_01",
+      "archetype": "U Terror",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-1810636",
       "tournament": "Pauper League",
@@ -356,22 +372,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-04-1010405",
-      "tournament": "Pauper League",
-      "date": "2026-04-10",
-      "player": "Purgatory_01",
-      "archetype": "U Terror",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-04-1012838870",
       "tournament": "Pauper Challenge 32",
       "date": "2026-04-10",
@@ -386,6 +386,22 @@
       "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-04-1010405",
+      "tournament": "Pauper League",
+      "date": "2026-04-10",
+      "player": "Purgatory_01",
+      "archetype": "U Terror",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-04-0510405",
@@ -418,21 +434,6 @@
       "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-03-3110405",
-      "tournament": "Pauper League",
-      "date": "2026-03-31",
-      "player": "Purgatory_01",
-      "archetype": "UB Terror",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

@@ -2,21 +2,36 @@
   "archetype": "Cycle Storm",
   "slug": "cycle-storm",
   "stats": {
-    "total_entries": 63,
+    "total_entries": 64,
     "league_entries": 44,
     "league_trophies": 44,
     "league_trophies_yearly": 24,
     "challenge_appearances": 15,
     "challenge_wins": 50,
     "challenge_losses": 43,
-    "irl_top8": 3,
+    "irl_top8": 4,
     "challenge_win_pct": 54,
     "league_trophy_rank_yearly": 34,
     "league_trophy_rank_alltime": 39,
-    "league_trophy_decks_yearly": 59,
-    "league_trophy_decks_alltime": 68
+    "league_trophy_decks_yearly": 61,
+    "league_trophy_decks_alltime": 69
   },
   "recent_entries": [
+    {
+      "site_name": "pauperwave-2026-06-13-versilia-summer-2026",
+      "tournament": "LP Versilia Summer 2026 — Versilia",
+      "date": "2026-06-13",
+      "player": "Luca della Latta",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "",
+      "final_rank": 3,
+      "source": "pauperwave",
+      "type": "irl"
+    },
     {
       "site_name": "pauper-league-2026-06-1310636",
       "tournament": "Pauper League",
@@ -33,10 +48,10 @@
       "type": "league"
     },
     {
-      "site_name": "pauperwave-2026-06-13-versilia-summer-2026",
-      "tournament": "LP Versilia Summer 2026 — Versilia",
+      "site_name": "pauperwave-2026-06-13-aquila-summer-2026",
+      "tournament": "LP L'Aquila Summer 2026 — L'Aquila",
       "date": "2026-06-13",
-      "player": "Luca della Latta",
+      "player": "Francesco Redaelli",
       "colors": [
         "B",
         "R",
@@ -375,21 +390,6 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-03-3110405",
-      "tournament": "Pauper League",
-      "date": "2026-03-31",
-      "player": "StudentAnselmus",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -402,12 +402,20 @@
       "count": 6
     },
     {
+      "player": "williami1986",
+      "count": 3
+    },
+    {
       "player": "saidin.raken",
       "count": 3
     },
     {
-      "player": "williami1986",
-      "count": 3
+      "player": "CrouchingPig",
+      "count": 2
+    },
+    {
+      "player": "Swarm_OF_Mats",
+      "count": 2
     },
     {
       "player": "PedroRocha",
@@ -418,20 +426,12 @@
       "count": 2
     },
     {
-      "player": "Swarm_OF_Mats",
-      "count": 2
-    },
-    {
       "player": "Cornetto",
       "count": 2
     },
     {
-      "player": "CrouchingPig",
+      "player": "Francesco Redaelli",
       "count": 2
-    },
-    {
-      "player": "Alessandro Calisi",
-      "count": 1
     }
   ]
 }

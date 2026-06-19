@@ -2,19 +2,19 @@
   "archetype": "RG Ponza",
   "slug": "rg-ponza",
   "stats": {
-    "total_entries": 83,
+    "total_entries": 85,
     "league_entries": 41,
     "league_trophies": 41,
     "league_trophies_yearly": 16,
     "challenge_appearances": 38,
     "challenge_wins": 134,
     "challenge_losses": 109,
-    "irl_top8": 3,
+    "irl_top8": 5,
     "challenge_win_pct": 55,
-    "league_trophy_rank_yearly": 39,
+    "league_trophy_rank_yearly": 40,
     "league_trophy_rank_alltime": 41,
-    "league_trophy_decks_yearly": 59,
-    "league_trophy_decks_alltime": 68
+    "league_trophy_decks_yearly": 61,
+    "league_trophy_decks_alltime": 69
   },
   "recent_entries": [
     {
@@ -30,6 +30,34 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauperwave-2026-06-12-spezia-summer-2026",
+      "tournament": "LP La Spezia Summer 2026 — La Spezia",
+      "date": "2026-06-12",
+      "player": "Luca Giovannelli",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "",
+      "final_rank": 3,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
+      "site_name": "pauperwave-2026-06-12-spezia-summer-2026",
+      "tournament": "LP La Spezia Summer 2026 — La Spezia",
+      "date": "2026-06-12",
+      "player": "Luca Scattina",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
     },
     {
       "site_name": "pauper-league-2026-06-1110636",
@@ -341,34 +369,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-1510196",
-      "tournament": "pauper-league-2026-02-1510196",
-      "date": "2026-02-15",
-      "player": "Crevelloni",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-02-1412833033",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-02-14",
-      "player": "Ixidor29",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-3",
-      "final_rank": 6,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -381,27 +381,15 @@
       "count": 5
     },
     {
-      "player": "QueMario",
-      "count": 3
-    },
-    {
       "player": "majin_puar",
       "count": 3
     },
     {
-      "player": "Auripower",
-      "count": 2
+      "player": "QueMario",
+      "count": 3
     },
     {
-      "player": "Crevelloni",
-      "count": 2
-    },
-    {
-      "player": "_AND1STG_",
-      "count": 2
-    },
-    {
-      "player": "SidRocha",
+      "player": "_Luvi_",
       "count": 2
     },
     {
@@ -410,6 +398,18 @@
     },
     {
       "player": "PNascimento",
+      "count": 2
+    },
+    {
+      "player": "Crevelloni",
+      "count": 2
+    },
+    {
+      "player": "2krewlop",
+      "count": 2
+    },
+    {
+      "player": "Al_bertoR",
       "count": 2
     }
   ]

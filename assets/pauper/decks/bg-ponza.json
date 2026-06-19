@@ -2,21 +2,35 @@
   "archetype": "BG Ponza",
   "slug": "bg-ponza",
   "stats": {
-    "total_entries": 1,
+    "total_entries": 2,
     "league_entries": 0,
     "league_trophies": 0,
     "league_trophies_yearly": 0,
     "challenge_appearances": 0,
     "challenge_wins": 0,
     "challenge_losses": 0,
-    "irl_top8": 1,
+    "irl_top8": 2,
     "challenge_win_pct": null,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": null,
-    "league_trophy_decks_yearly": 59,
-    "league_trophy_decks_alltime": 68
+    "league_trophy_decks_yearly": 61,
+    "league_trophy_decks_alltime": 69
   },
   "recent_entries": [
+    {
+      "site_name": "pauperwave-2026-06-12-lucca-summer-2026",
+      "tournament": "LP Lucca Summer 2026 — Lucca",
+      "date": "2026-06-12",
+      "player": "Niccolò Ragghianti",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
+    },
     {
       "site_name": "pauperwave-2026-02-15-lucca-winter-2025",
       "tournament": "LP Lucca Winter 2025 — Lucca",
@@ -35,7 +49,7 @@
   "top_pilots": [
     {
       "player": "Niccolò Ragghianti",
-      "count": 1
+      "count": 2
     }
   ]
 }

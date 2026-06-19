@@ -2,19 +2,19 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 605,
-    "league_entries": 332,
-    "league_trophies": 332,
-    "league_trophies_yearly": 138,
+    "total_entries": 609,
+    "league_entries": 334,
+    "league_trophies": 334,
+    "league_trophies_yearly": 140,
     "challenge_appearances": 242,
     "challenge_wins": 1006,
     "challenge_losses": 584,
-    "irl_top8": 16,
+    "irl_top8": 18,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 11,
+    "league_trophy_rank_yearly": 10,
     "league_trophy_rank_alltime": 8,
-    "league_trophy_decks_yearly": 59,
-    "league_trophy_decks_alltime": 68
+    "league_trophy_decks_yearly": 61,
+    "league_trophy_decks_alltime": 69
   },
   "recent_entries": [
     {
@@ -25,6 +25,19 @@
       "colors": [
         "B",
         "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1610636",
+      "tournament": "Pauper League",
+      "date": "2026-06-16",
+      "player": "GFILLIPPI77",
+      "colors": [
+        "B"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -58,6 +71,34 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1410636",
+      "tournament": "Pauper League",
+      "date": "2026-06-14",
+      "player": "Kiki-Gigi",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauperwave-2026-06-14-piacenza-summer-2026",
+      "tournament": "LP Piacenza Summer 2026 — Piacenza",
+      "date": "2026-06-14",
+      "player": "Riccardo Ipri",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "",
+      "final_rank": 3,
+      "source": "pauperwave",
+      "type": "irl"
     },
     {
       "site_name": "pauper-league-2026-06-1310636",
@@ -128,6 +169,21 @@
       "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauperwave-2026-06-12-spezia-summer-2026",
+      "tournament": "LP La Spezia Summer 2026 — La Spezia",
+      "date": "2026-06-12",
+      "player": "Liliana Russo",
+      "colors": [
+        "B",
+        "G",
+        "W"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
     },
     {
       "site_name": "pauper-league-2026-06-1110636",
@@ -310,62 +366,6 @@
       "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0412843773",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-04",
-      "player": "darkuna",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "3-3",
-      "final_rank": 30,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0310636",
-      "tournament": "Pauper League",
-      "date": "2026-06-03",
-      "player": "Uchoa",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0310636",
-      "tournament": "Pauper League",
-      "date": "2026-06-03",
-      "player": "Mankeke",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0210636",
-      "tournament": "Pauper League",
-      "date": "2026-06-02",
-      "player": "LEANDROFLORESTA",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -402,11 +402,11 @@
       "count": 12
     },
     {
-      "player": "KingZiggy",
+      "player": "Otacon_",
       "count": 9
     },
     {
-      "player": "Otacon_",
+      "player": "KingZiggy",
       "count": 9
     }
   ]
