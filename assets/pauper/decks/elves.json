@@ -2,13 +2,13 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1125,
+    "total_entries": 1126,
     "league_entries": 598,
     "league_trophies": 598,
     "league_trophies_yearly": 216,
-    "challenge_appearances": 468,
-    "challenge_wins": 1852,
-    "challenge_losses": 1175,
+    "challenge_appearances": 469,
+    "challenge_wins": 1855,
+    "challenge_losses": 1178,
     "irl_top8": 31,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 3,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2012844856",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-20",
+      "player": "Shiib",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "3-3",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-1912844841",
       "tournament": "Pauper Challenge 32",
@@ -355,26 +369,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0712843817",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-07",
-      "player": "KOKOLOKO3435",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-3",
-      "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "Shiib",
-      "count": 94
+      "count": 95
     },
     {
       "player": "Boquinha",

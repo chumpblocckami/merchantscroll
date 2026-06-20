@@ -3,25 +3,40 @@
   "display_name": "Shiib",
   "irl_name": null,
   "stats": {
-    "total_entries": 94,
+    "total_entries": 95,
     "league_trophies": 20,
     "league_trophies_yearly": 8,
-    "challenge_wins": 261,
-    "challenge_losses": 179,
+    "challenge_wins": 264,
+    "challenge_losses": 182,
     "irl_top8": 0,
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 104,
     "league_trophy_rank_alltime": 87,
-    "league_trophy_players_yearly": 1148,
-    "league_trophy_players_alltime": 1907
+    "league_trophy_players_yearly": 1149,
+    "league_trophy_players_alltime": 1908
   },
   "favorite_decks": [
     {
       "archetype": "Elves",
-      "count": 94
+      "count": 95
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2012844856",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-20",
+      "player": "Shiib",
+      "archetype": "Elves",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "3-3",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-1912844841",
       "tournament": "Pauper Challenge 32",
@@ -381,21 +396,6 @@
       "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-04-1610405",
-      "tournament": "Pauper League",
-      "date": "2026-04-16",
-      "player": "Shiib",
-      "archetype": "Elves",
-      "colors": [
-        "G",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

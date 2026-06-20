@@ -2,13 +2,13 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 939,
+    "total_entries": 942,
     "league_entries": 553,
     "league_trophies": 553,
     "league_trophies_yearly": 213,
-    "challenge_appearances": 353,
-    "challenge_wins": 1349,
-    "challenge_losses": 910,
+    "challenge_appearances": 356,
+    "challenge_wins": 1363,
+    "challenge_losses": 917,
     "irl_top8": 21,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 4,
@@ -44,6 +44,47 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2012844856",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-20",
+      "player": "SaculSueahtam",
+      "colors": [
+        "R"
+      ],
+      "record": "7-2",
+      "final_rank": 2,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2012844856",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-20",
+      "player": "Jinjaa",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 12,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2012844856",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-20",
+      "player": "Goblin_Player",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 21,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1912844841",
@@ -317,53 +358,12 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1412844338",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-14",
-      "player": "PR0boszcz",
-      "colors": [
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 31,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-showcase-challenge-2026-06-1412844285",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2026-06-14",
-      "player": "vini_torres",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "7-3",
-      "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1410636",
-      "tournament": "Pauper League",
-      "date": "2026-06-14",
-      "player": "shioray",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "SaculSueahtam",
-      "count": 70
+      "count": 71
     },
     {
       "player": "vini_torres",
@@ -394,11 +394,11 @@
       "count": 11
     },
     {
-      "player": "PedroStark",
-      "count": 10
+      "player": "Goblin_Player",
+      "count": 11
     },
     {
-      "player": "irahscott",
+      "player": "PedroStark",
       "count": 10
     }
   ]

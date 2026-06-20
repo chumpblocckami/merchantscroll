@@ -3,22 +3,22 @@
   "display_name": "yuxiaoyu",
   "irl_name": null,
   "stats": {
-    "total_entries": 74,
+    "total_entries": 75,
     "league_trophies": 59,
     "league_trophies_yearly": 23,
-    "challenge_wins": 51,
-    "challenge_losses": 39,
+    "challenge_wins": 54,
+    "challenge_losses": 42,
     "irl_top8": 0,
-    "challenge_win_pct": 57,
+    "challenge_win_pct": 56,
     "league_trophy_rank_yearly": 21,
     "league_trophy_rank_alltime": 13,
-    "league_trophy_players_yearly": 1148,
-    "league_trophy_players_alltime": 1907
+    "league_trophy_players_yearly": 1149,
+    "league_trophy_players_alltime": 1908
   },
   "favorite_decks": [
     {
       "archetype": "Gardens",
-      "count": 32
+      "count": 33
     },
     {
       "archetype": "Jund",
@@ -58,6 +58,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2012844856",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-20",
+      "player": "yuxiaoyu",
+      "archetype": "Gardens",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-1710636",
       "tournament": "Pauper League",
@@ -418,21 +433,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-1412835312",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-14",
-      "player": "yuxiaoyu",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-2",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

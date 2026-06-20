@@ -2,13 +2,13 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 123,
+    "total_entries": 124,
     "league_entries": 65,
     "league_trophies": 65,
     "league_trophies_yearly": 37,
-    "challenge_appearances": 53,
-    "challenge_wins": 168,
-    "challenge_losses": 131,
+    "challenge_appearances": 54,
+    "challenge_wins": 171,
+    "challenge_losses": 134,
     "irl_top8": 4,
     "challenge_win_pct": 56,
     "league_trophy_rank_yearly": 29,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2012844856",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-20",
+      "player": "zippzipp_",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 30,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-1412844338",
       "tournament": "Pauper Challenge 32",
@@ -350,20 +364,6 @@
       ],
       "record": "3-3",
       "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2812843381",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-28",
-      "player": "zippzipp_",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
     }

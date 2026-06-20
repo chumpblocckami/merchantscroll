@@ -2,13 +2,13 @@
   "archetype": "Jund",
   "slug": "jund",
   "stats": {
-    "total_entries": 1131,
-    "league_entries": 507,
-    "league_trophies": 507,
-    "league_trophies_yearly": 186,
-    "challenge_appearances": 530,
-    "challenge_wins": 2130,
-    "challenge_losses": 1338,
+    "total_entries": 1134,
+    "league_entries": 508,
+    "league_trophies": 508,
+    "league_trophies_yearly": 187,
+    "challenge_appearances": 532,
+    "challenge_wins": 2135,
+    "challenge_losses": 1343,
     "irl_top8": 53,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 5,
@@ -17,6 +17,36 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2012844856",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-20",
+      "player": "_blaze66",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 20,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2012844856",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-20",
+      "player": "3draw_TANO",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "2-2",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-1912844841",
       "tournament": "Pauper Challenge 32",
@@ -91,6 +121,21 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1710636",
+      "tournament": "Pauper League",
+      "date": "2026-06-17",
+      "player": "temur4life",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-1710636",
@@ -346,57 +391,12 @@
       "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1112844295",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-11",
-      "player": "Starlliege",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "2-3",
-      "final_rank": 30,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1112844295",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-11",
-      "player": "carvs",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "2-4",
-      "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauperwave-2026-06-10-modena-summer-2026",
-      "tournament": "LP Modena Summer 2026 — Modena",
-      "date": "2026-06-10",
-      "player": "Michele Barzanti",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "",
-      "final_rank": 5,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [
     {
       "player": "_blaze66",
-      "count": 138
+      "count": 139
     },
     {
       "player": "Walker735",

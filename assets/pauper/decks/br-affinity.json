@@ -3,16 +3,16 @@
   "slug": "br-affinity",
   "stats": {
     "total_entries": 8,
-    "league_entries": 5,
-    "league_trophies": 5,
-    "league_trophies_yearly": 5,
-    "challenge_appearances": 1,
-    "challenge_wins": 4,
-    "challenge_losses": 3,
+    "league_entries": 4,
+    "league_trophies": 4,
+    "league_trophies_yearly": 4,
+    "challenge_appearances": 2,
+    "challenge_wins": 9,
+    "challenge_losses": 5,
     "irl_top8": 2,
-    "challenge_win_pct": 57,
-    "league_trophy_rank_yearly": 50,
-    "league_trophy_rank_alltime": 57,
+    "challenge_win_pct": 64,
+    "league_trophy_rank_yearly": 51,
+    "league_trophy_rank_alltime": 60,
     "league_trophy_decks_yearly": 64,
     "league_trophy_decks_alltime": 72
   },
@@ -44,6 +44,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2012844856",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-20",
+      "player": "AlessandroPiraccini",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1912844841",
@@ -90,21 +105,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-06-1710636",
-      "tournament": "Pauper League",
-      "date": "2026-06-17",
-      "player": "temur4life",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauperwave-2026-06-14-piacenza-summer-2026",
       "tournament": "LP Piacenza Summer 2026 — Piacenza",
       "date": "2026-06-14",
@@ -139,6 +139,10 @@
       "count": 2
     },
     {
+      "player": "AlessandroPiraccini",
+      "count": 2
+    },
+    {
       "player": "KuramaKev",
       "count": 1
     },
@@ -147,15 +151,7 @@
       "count": 1
     },
     {
-      "player": "AlessandroPiraccini",
-      "count": 1
-    },
-    {
       "player": "Francesco Zibella",
-      "count": 1
-    },
-    {
-      "player": "temur4life",
       "count": 1
     },
     {

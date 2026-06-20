@@ -2,21 +2,53 @@
   "archetype": "UG Fog",
   "slug": "ug-fog",
   "stats": {
-    "total_entries": 422,
-    "league_entries": 212,
-    "league_trophies": 212,
-    "league_trophies_yearly": 14,
-    "challenge_appearances": 181,
-    "challenge_wins": 770,
-    "challenge_losses": 429,
+    "total_entries": 424,
+    "league_entries": 213,
+    "league_trophies": 213,
+    "league_trophies_yearly": 15,
+    "challenge_appearances": 182,
+    "challenge_wins": 774,
+    "challenge_losses": 431,
     "irl_top8": 10,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 43,
+    "league_trophy_rank_yearly": 42,
     "league_trophy_rank_alltime": 15,
     "league_trophy_decks_yearly": 64,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2010636",
+      "tournament": "Pauper League",
+      "date": "2026-06-20",
+      "player": "Hype12232",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2012844856",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-20",
+      "player": "Kirblinxy",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-showcase-challenge-2026-06-1412844285",
       "tournament": "Pauper Showcase Challenge",
@@ -371,36 +403,6 @@
       "final_rank": 1,
       "source": "pauperwave",
       "type": "irl"
-    },
-    {
-      "site_name": "pauperwave-2026-05-24-pauperagù",
-      "tournament": "Pauperagù 2026 — Bologna",
-      "date": "2026-05-24",
-      "player": "Alessandro Moretti",
-      "colors": [
-        "G",
-        "U"
-      ],
-      "record": "",
-      "final_rank": 5,
-      "source": "pauperwave",
-      "type": "irl"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2310636",
-      "tournament": "Pauper League",
-      "date": "2026-05-23",
-      "player": "Hype12232",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -442,7 +444,7 @@
     },
     {
       "player": "Hype12232",
-      "count": 10
+      "count": 11
     }
   ]
 }
