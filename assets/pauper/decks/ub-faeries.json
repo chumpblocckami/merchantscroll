@@ -2,10 +2,10 @@
   "archetype": "UB Faeries",
   "slug": "ub-faeries",
   "stats": {
-    "total_entries": 490,
-    "league_entries": 282,
-    "league_trophies": 282,
-    "league_trophies_yearly": 154,
+    "total_entries": 492,
+    "league_entries": 284,
+    "league_trophies": 284,
+    "league_trophies_yearly": 156,
     "challenge_appearances": 183,
     "challenge_wins": 733,
     "challenge_losses": 453,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2010636",
+      "tournament": "Pauper League",
+      "date": "2026-06-20",
+      "player": "Gianmoschella",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-1912844841",
       "tournament": "Pauper Challenge 32",
@@ -166,6 +180,19 @@
       "colors": [
         "B",
         "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1610636",
+      "tournament": "Pauper League",
+      "date": "2026-06-16",
+      "player": "GFILLIPPI77",
+      "colors": [
+        "B"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -338,34 +365,6 @@
       ],
       "record": "5-3",
       "final_rank": 4,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1312844320",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-13",
-      "player": "Punchilleno",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1312844320",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-13",
-      "player": "Niederschatten",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
     }

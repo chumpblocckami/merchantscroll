@@ -2,10 +2,10 @@
   "archetype": "BR Madness",
   "slug": "br-madness",
   "stats": {
-    "total_entries": 746,
-    "league_entries": 361,
-    "league_trophies": 361,
-    "league_trophies_yearly": 95,
+    "total_entries": 747,
+    "league_entries": 362,
+    "league_trophies": 362,
+    "league_trophies_yearly": 96,
     "challenge_appearances": 358,
     "challenge_wins": 1459,
     "challenge_losses": 909,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2010636",
+      "tournament": "Pauper League",
+      "date": "2026-06-20",
+      "player": "vikizin",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-1912844841",
       "tournament": "Pauper Challenge 32",
@@ -376,21 +391,6 @@
       "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0412843773",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-04",
-      "player": "Captain_Tsubasa",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -427,12 +427,12 @@
       "count": 14
     },
     {
-      "player": "Niederschatten",
+      "player": "vikizin",
       "count": 14
     },
     {
-      "player": "Martani",
-      "count": 13
+      "player": "Niederschatten",
+      "count": 14
     }
   ]
 }
