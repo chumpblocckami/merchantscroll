@@ -2,10 +2,10 @@
   "archetype": "Altar",
   "slug": "altar",
   "stats": {
-    "total_entries": 86,
-    "league_entries": 59,
-    "league_trophies": 59,
-    "league_trophies_yearly": 19,
+    "total_entries": 87,
+    "league_entries": 60,
+    "league_trophies": 60,
+    "league_trophies_yearly": 20,
     "challenge_appearances": 23,
     "challenge_wins": 89,
     "challenge_losses": 60,
@@ -13,10 +13,25 @@
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 36,
     "league_trophy_rank_alltime": 36,
-    "league_trophy_decks_yearly": 64,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 63,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2010636",
+      "tournament": "Pauper League",
+      "date": "2026-06-20",
+      "player": "Todeshorst",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-1910636",
       "tournament": "Pauper League",
@@ -392,20 +407,6 @@
       "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauperwave-2026-02-20-rivoli-winter-2025",
-      "tournament": "LP Rivoli Winter 2025 — Rivoli",
-      "date": "2026-02-20",
-      "player": "Paolo Simon",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "",
-      "final_rank": 3,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [

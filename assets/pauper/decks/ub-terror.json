@@ -2,66 +2,21 @@
   "archetype": "UB Terror",
   "slug": "ub-terror",
   "stats": {
-    "total_entries": 509,
-    "league_entries": 282,
-    "league_trophies": 282,
-    "league_trophies_yearly": 140,
-    "challenge_appearances": 205,
-    "challenge_wins": 832,
-    "challenge_losses": 505,
+    "total_entries": 506,
+    "league_entries": 281,
+    "league_trophies": 281,
+    "league_trophies_yearly": 139,
+    "challenge_appearances": 203,
+    "challenge_wins": 826,
+    "challenge_losses": 500,
     "irl_top8": 8,
     "challenge_win_pct": 62,
-    "league_trophy_rank_yearly": 11,
+    "league_trophy_rank_yearly": 10,
     "league_trophy_rank_alltime": 13,
-    "league_trophy_decks_yearly": 64,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 63,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-06-2010636",
-      "tournament": "Pauper League",
-      "date": "2026-06-20",
-      "player": "Prague",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2012844856",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-20",
-      "player": "Prague",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-2",
-      "final_rank": 14,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2012844856",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-20",
-      "player": "mehanske",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 19,
-      "source": "mtgo",
-      "type": "challenge"
-    },
     {
       "site_name": "pauper-challenge-32-2026-06-1912844841",
       "tournament": "Pauper Challenge 32",
@@ -388,6 +343,51 @@
       "final_rank": 7,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-05-2112842891",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-05-21",
+      "player": "Brasatore",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 17,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-05-1810636",
+      "tournament": "Pauper League",
+      "date": "2026-05-18",
+      "player": "dftleonidasfr",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-05-1712842508",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-05-17",
+      "player": "ELESSAR_PLAY",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 21,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -396,12 +396,12 @@
       "count": 44
     },
     {
-      "player": "mehanske",
+      "player": "_against_",
       "count": 16
     },
     {
-      "player": "_against_",
-      "count": 16
+      "player": "mehanske",
+      "count": 15
     },
     {
       "player": "bombaj",
