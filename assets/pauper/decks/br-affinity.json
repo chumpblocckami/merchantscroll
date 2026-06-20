@@ -2,16 +2,16 @@
   "archetype": "BR Affinity",
   "slug": "br-affinity",
   "stats": {
-    "total_entries": 8,
+    "total_entries": 10,
     "league_entries": 4,
     "league_trophies": 4,
     "league_trophies_yearly": 4,
-    "challenge_appearances": 2,
-    "challenge_wins": 9,
-    "challenge_losses": 5,
+    "challenge_appearances": 4,
+    "challenge_wins": 14,
+    "challenge_losses": 10,
     "irl_top8": 2,
-    "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 52,
+    "challenge_win_pct": 58,
+    "league_trophy_rank_yearly": 51,
     "league_trophy_rank_alltime": 60,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
@@ -61,6 +61,36 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-06-2012844856",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-20",
+      "player": "_blaze66",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 20,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2012844856",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-20",
+      "player": "3draw_TANO",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "2-2",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-06-1912844841",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-19",
@@ -76,14 +106,13 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-06-1910636",
+      "site_name": "pauper-league-2026-06-1810636",
       "tournament": "Pauper League",
-      "date": "2026-06-19",
-      "player": "Lynx33",
+      "date": "2026-06-18",
+      "player": "qbturtle15",
       "colors": [
         "B",
-        "R",
-        "W"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -91,12 +120,13 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-06-1810636",
+      "site_name": "pauper-league-2026-06-1710636",
       "tournament": "Pauper League",
-      "date": "2026-06-18",
-      "player": "qbturtle15",
+      "date": "2026-06-17",
+      "player": "temur4life",
       "colors": [
         "B",
+        "G",
         "R"
       ],
       "record": "5-0",
@@ -155,7 +185,15 @@
       "count": 1
     },
     {
-      "player": "Lynx33",
+      "player": "_blaze66",
+      "count": 1
+    },
+    {
+      "player": "3draw_TANO",
+      "count": 1
+    },
+    {
+      "player": "temur4life",
       "count": 1
     }
   ]

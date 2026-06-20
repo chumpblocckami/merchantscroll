@@ -3,17 +3,17 @@
   "display_name": "Al_bertoR",
   "irl_name": null,
   "stats": {
-    "total_entries": 34,
-    "league_trophies": 23,
-    "league_trophies_yearly": 9,
+    "total_entries": 35,
+    "league_trophies": 24,
+    "league_trophies_yearly": 10,
     "challenge_wins": 42,
     "challenge_losses": 28,
     "irl_top8": 0,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 82,
-    "league_trophy_rank_alltime": 62,
-    "league_trophy_players_yearly": 1146,
-    "league_trophy_players_alltime": 1908
+    "league_trophy_rank_yearly": 75,
+    "league_trophy_rank_alltime": 59,
+    "league_trophy_players_yearly": 1150,
+    "league_trophy_players_alltime": 1909
   },
   "favorite_decks": [
     {
@@ -25,15 +25,15 @@
       "count": 9
     },
     {
+      "archetype": "Affinity",
+      "count": 4
+    },
+    {
       "archetype": "UR Control",
       "count": 4
     },
     {
       "archetype": "UB Faeries",
-      "count": 3
-    },
-    {
-      "archetype": "Affinity",
       "count": 3
     },
     {
@@ -50,6 +50,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-1410636",
+      "tournament": "Pauper League",
+      "date": "2026-06-14",
+      "player": "Al_bertoR",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-0310636",
       "tournament": "Pauper League",
@@ -416,22 +432,6 @@
       ],
       "record": "3-3",
       "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-09-0612813561",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-09-06",
-      "player": "Al_bertoR",
-      "archetype": "Jeskai",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 7,
       "source": "mtgo",
       "type": "challenge"
     }
