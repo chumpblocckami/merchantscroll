@@ -2,10 +2,10 @@
   "archetype": "Spy",
   "slug": "spy",
   "stats": {
-    "total_entries": 662,
-    "league_entries": 421,
-    "league_trophies": 421,
-    "league_trophies_yearly": 143,
+    "total_entries": 663,
+    "league_entries": 422,
+    "league_trophies": 422,
+    "league_trophies_yearly": 144,
     "challenge_appearances": 196,
     "challenge_wins": 790,
     "challenge_losses": 491,
@@ -31,6 +31,21 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1910636",
+      "tournament": "Pauper League",
+      "date": "2026-06-19",
+      "player": "Hrdd",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-1610636",
@@ -374,22 +389,6 @@
       "final_rank": 3,
       "source": "pauperwave",
       "type": "irl"
-    },
-    {
-      "site_name": "pauper-league-2026-05-3110636",
-      "tournament": "Pauper League",
-      "date": "2026-05-31",
-      "player": "nietoalcora",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [

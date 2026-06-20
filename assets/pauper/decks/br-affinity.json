@@ -2,17 +2,17 @@
   "archetype": "BR Affinity",
   "slug": "br-affinity",
   "stats": {
-    "total_entries": 4,
-    "league_entries": 1,
-    "league_trophies": 1,
-    "league_trophies_yearly": 1,
+    "total_entries": 5,
+    "league_entries": 2,
+    "league_trophies": 2,
+    "league_trophies_yearly": 2,
     "challenge_appearances": 1,
     "challenge_wins": 4,
     "challenge_losses": 3,
     "irl_top8": 2,
     "challenge_win_pct": 57,
-    "league_trophy_rank_yearly": 61,
-    "league_trophy_rank_alltime": 67,
+    "league_trophy_rank_yearly": 55,
+    "league_trophy_rank_alltime": 65,
     "league_trophy_decks_yearly": 64,
     "league_trophy_decks_alltime": 72
   },
@@ -31,6 +31,21 @@
       "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1910636",
+      "tournament": "Pauper League",
+      "date": "2026-06-19",
+      "player": "Lynx33",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-1810636",
@@ -86,6 +101,10 @@
     },
     {
       "player": "Francesco Zibella",
+      "count": 1
+    },
+    {
+      "player": "Lynx33",
       "count": 1
     },
     {

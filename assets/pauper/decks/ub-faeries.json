@@ -2,10 +2,10 @@
   "archetype": "UB Faeries",
   "slug": "ub-faeries",
   "stats": {
-    "total_entries": 489,
-    "league_entries": 281,
-    "league_trophies": 281,
-    "league_trophies_yearly": 153,
+    "total_entries": 490,
+    "league_entries": 282,
+    "league_trophies": 282,
+    "league_trophies_yearly": 154,
     "challenge_appearances": 183,
     "challenge_wins": 733,
     "challenge_losses": 453,
@@ -36,6 +36,20 @@
       "tournament": "Pauper League",
       "date": "2026-06-19",
       "player": "Proteina",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1910636",
+      "tournament": "Pauper League",
+      "date": "2026-06-19",
+      "player": "Bielzito",
       "colors": [
         "B",
         "U"
@@ -354,20 +368,6 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauperwave-2026-06-13-lp-brescia-summer",
-      "tournament": "LP Brescia Summer 2026 — Brescia",
-      "date": "2026-06-13",
-      "player": "Michael Calegari",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "",
-      "final_rank": 1,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [
