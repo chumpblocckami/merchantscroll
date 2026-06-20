@@ -3,17 +3,17 @@
   "display_name": "sai199orz",
   "irl_name": null,
   "stats": {
-    "total_entries": 35,
-    "league_trophies": 17,
-    "league_trophies_yearly": 4,
+    "total_entries": 37,
+    "league_trophies": 19,
+    "league_trophies_yearly": 6,
     "challenge_wins": 81,
     "challenge_losses": 44,
     "irl_top8": 0,
     "challenge_win_pct": 65,
-    "league_trophy_rank_yearly": 269,
-    "league_trophy_rank_alltime": 112,
-    "league_trophy_players_yearly": 1145,
-    "league_trophy_players_alltime": 1905
+    "league_trophy_rank_yearly": 161,
+    "league_trophy_rank_alltime": 92,
+    "league_trophy_players_yearly": 1148,
+    "league_trophy_players_alltime": 1907
   },
   "favorite_decks": [
     {
@@ -21,12 +21,16 @@
       "count": 12
     },
     {
-      "archetype": "R Madness",
-      "count": 7
-    },
-    {
       "archetype": "Affinity",
       "count": 6
+    },
+    {
+      "archetype": "R Madness",
+      "count": 5
+    },
+    {
+      "archetype": "BR Madness",
+      "count": 5
     },
     {
       "archetype": "Ponza",
@@ -35,10 +39,6 @@
     {
       "archetype": "Jund",
       "count": 2
-    },
-    {
-      "archetype": "BR Madness",
-      "count": 1
     },
     {
       "archetype": "Monsters",
@@ -71,11 +71,27 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-06-1510636",
+      "site_name": "pauper-league-2026-06-1610636",
       "tournament": "Pauper League",
-      "date": "2026-06-15",
+      "date": "2026-06-16",
       "player": "sai199orz",
-      "archetype": "R Madness",
+      "archetype": "BR Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1610636",
+      "tournament": "Pauper League",
+      "date": "2026-06-16",
+      "player": "sai199orz",
+      "archetype": "BR Madness",
       "colors": [
         "B",
         "R",
@@ -91,7 +107,23 @@
       "tournament": "Pauper League",
       "date": "2026-06-15",
       "player": "sai199orz",
-      "archetype": "R Madness",
+      "archetype": "BR Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1510636",
+      "tournament": "Pauper League",
+      "date": "2026-06-15",
+      "player": "sai199orz",
+      "archetype": "BR Madness",
       "colors": [
         "B",
         "R",
@@ -433,37 +465,6 @@
       ],
       "record": "7-2",
       "final_rank": 3,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-07-129366",
-      "tournament": "pauper-league-2025-07-129366",
-      "date": "2025-07-12",
-      "player": "sai199orz",
-      "archetype": "Monsters",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-07-0512801657",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-07-05",
-      "player": "sai199orz",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "2-4",
-      "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
     }

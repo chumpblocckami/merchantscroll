@@ -2,10 +2,10 @@
   "archetype": "Flicker Tron",
   "slug": "flicker-tron",
   "stats": {
-    "total_entries": 223,
-    "league_entries": 124,
-    "league_trophies": 124,
-    "league_trophies_yearly": 48,
+    "total_entries": 225,
+    "league_entries": 126,
+    "league_trophies": 126,
+    "league_trophies_yearly": 50,
     "challenge_appearances": 86,
     "challenge_wins": 351,
     "challenge_losses": 221,
@@ -17,6 +17,40 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-1610636",
+      "tournament": "Pauper League",
+      "date": "2026-06-16",
+      "player": "bombaj",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1610636",
+      "tournament": "Pauper League",
+      "date": "2026-06-16",
+      "player": "Antillectual",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-showcase-challenge-2026-06-1412844285",
       "tournament": "Pauper Showcase Challenge",
@@ -406,40 +440,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2710636",
-      "tournament": "Pauper League",
-      "date": "2026-05-27",
-      "player": "bombaj",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2510636",
-      "tournament": "Pauper League",
-      "date": "2026-05-25",
-      "player": "Alleyezonme",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -453,7 +453,7 @@
     },
     {
       "player": "bombaj",
-      "count": 14
+      "count": 15
     },
     {
       "player": "Raptor56",
@@ -476,12 +476,12 @@
       "count": 6
     },
     {
-      "player": "A_AdeptoTerra",
+      "player": "Antillectual",
       "count": 5
     },
     {
-      "player": "Antillectual",
-      "count": 4
+      "player": "A_AdeptoTerra",
+      "count": 5
     }
   ]
 }

@@ -2,10 +2,10 @@
   "archetype": "Affinity",
   "slug": "affinity",
   "stats": {
-    "total_entries": 839,
-    "league_entries": 327,
-    "league_trophies": 327,
-    "league_trophies_yearly": 170,
+    "total_entries": 840,
+    "league_entries": 328,
+    "league_trophies": 328,
+    "league_trophies_yearly": 171,
     "challenge_appearances": 443,
     "challenge_wins": 1821,
     "challenge_losses": 1113,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2010636",
+      "tournament": "Pauper League",
+      "date": "2026-06-20",
+      "player": "tyreel04",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-1912844841",
       "tournament": "Pauper Challenge 32",
@@ -376,21 +391,6 @@
       "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauperwave-2026-06-13-maschere-di-vittoria",
-      "tournament": "Maschere di Vittoria — Treviso",
-      "date": "2026-06-13",
-      "player": "Lorenzo Di Grazia",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "",
-      "final_rank": 2,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [

@@ -2,17 +2,17 @@
   "archetype": "RG Storm",
   "slug": "rg-storm",
   "stats": {
-    "total_entries": 130,
-    "league_entries": 102,
-    "league_trophies": 102,
-    "league_trophies_yearly": 89,
+    "total_entries": 131,
+    "league_entries": 103,
+    "league_trophies": 103,
+    "league_trophies_yearly": 90,
     "challenge_appearances": 19,
     "challenge_wins": 73,
     "challenge_losses": 49,
     "irl_top8": 9,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 15,
-    "league_trophy_rank_alltime": 28,
+    "league_trophy_rank_alltime": 26,
     "league_trophy_decks_yearly": 64,
     "league_trophy_decks_alltime": 72
   },
@@ -22,6 +22,21 @@
       "tournament": "Pauper League",
       "date": "2026-06-18",
       "player": "Ciri80",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1610636",
+      "tournament": "Pauper League",
+      "date": "2026-06-16",
+      "player": "saidin.raken",
       "colors": [
         "G",
         "R",
@@ -387,28 +402,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-1810636",
-      "tournament": "Pauper League",
-      "date": "2026-05-18",
-      "player": "saidin.raken",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "saidin.raken",
-      "count": 28
+      "count": 29
     },
     {
       "player": "DataPusher",

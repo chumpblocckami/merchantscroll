@@ -2,16 +2,16 @@
   "archetype": "Jeskai",
   "slug": "jeskai",
   "stats": {
-    "total_entries": 204,
-    "league_entries": 140,
-    "league_trophies": 140,
-    "league_trophies_yearly": 76,
+    "total_entries": 205,
+    "league_entries": 141,
+    "league_trophies": 141,
+    "league_trophies_yearly": 77,
     "challenge_appearances": 54,
     "challenge_wins": 219,
     "challenge_losses": 129,
     "irl_top8": 9,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 19,
+    "league_trophy_rank_yearly": 18,
     "league_trophy_rank_alltime": 22,
     "league_trophy_decks_yearly": 64,
     "league_trophy_decks_alltime": 72
@@ -21,10 +21,11 @@
       "site_name": "pauper-league-2026-06-2010636",
       "tournament": "Pauper League",
       "date": "2026-06-20",
-      "player": "Fluc_",
+      "player": "ChaoticMTG",
       "colors": [
         "R",
-        "U"
+        "U",
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -99,6 +100,21 @@
       "player": "Thn",
       "colors": [
         "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1610636",
+      "tournament": "Pauper League",
+      "date": "2026-06-16",
+      "player": "ChaoticMTG",
+      "colors": [
+        "R",
         "U",
         "W"
       ],
@@ -383,27 +399,12 @@
       "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0510636",
-      "tournament": "Pauper League",
-      "date": "2026-06-05",
-      "player": "VeryRedMan",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "ChaoticMTG",
-      "count": 32
+      "count": 34
     },
     {
       "player": "daifuku",
