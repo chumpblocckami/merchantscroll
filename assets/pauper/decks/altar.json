@@ -2,10 +2,10 @@
   "archetype": "Altar",
   "slug": "altar",
   "stats": {
-    "total_entries": 86,
-    "league_entries": 59,
-    "league_trophies": 59,
-    "league_trophies_yearly": 19,
+    "total_entries": 88,
+    "league_entries": 61,
+    "league_trophies": 61,
+    "league_trophies_yearly": 21,
     "challenge_appearances": 23,
     "challenge_wins": 89,
     "challenge_losses": 60,
@@ -17,6 +17,37 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2010636",
+      "tournament": "Pauper League",
+      "date": "2026-06-20",
+      "player": "Abisd94",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2010636",
+      "tournament": "Pauper League",
+      "date": "2026-06-20",
+      "player": "Todeshorst",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-1910636",
       "tournament": "Pauper League",
@@ -377,41 +408,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-02-2112833543",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-02-21",
-      "player": "Terminus0",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 25,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauperwave-2026-02-20-rivoli-winter-2025",
-      "tournament": "LP Rivoli Winter 2025 — Rivoli",
-      "date": "2026-02-20",
-      "player": "Paolo Simon",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "",
-      "final_rank": 3,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [
     {
       "player": "Abisd94",
-      "count": 15
+      "count": 16
     },
     {
       "player": "saidin.raken",
