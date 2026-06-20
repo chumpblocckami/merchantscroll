@@ -2,16 +2,16 @@
   "archetype": "Familiars",
   "slug": "familiars",
   "stats": {
-    "total_entries": 263,
-    "league_entries": 153,
-    "league_trophies": 153,
-    "league_trophies_yearly": 66,
+    "total_entries": 260,
+    "league_entries": 150,
+    "league_trophies": 150,
+    "league_trophies_yearly": 63,
     "challenge_appearances": 87,
     "challenge_wins": 351,
     "challenge_losses": 220,
     "irl_top8": 20,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 21,
+    "league_trophy_rank_yearly": 22,
     "league_trophy_rank_alltime": 21,
     "league_trophy_decks_yearly": 64,
     "league_trophy_decks_alltime": 72
@@ -37,51 +37,6 @@
       "tournament": "Pauper League",
       "date": "2026-06-17",
       "player": "ChaoticMTG",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1610636",
-      "tournament": "Pauper League",
-      "date": "2026-06-16",
-      "player": "bombaj",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1610636",
-      "tournament": "Pauper League",
-      "date": "2026-06-16",
-      "player": "saidin.raken",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1610636",
-      "tournament": "Pauper League",
-      "date": "2026-06-16",
-      "player": "Ctian",
       "colors": [
         "U",
         "W"
@@ -378,12 +333,56 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-05-1310636",
+      "tournament": "Pauper League",
+      "date": "2026-05-13",
+      "player": "CrystalEye97",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauperwave-2026-05-10-pauperkingdom-3",
+      "tournament": "Pauper Kingdom 3 — Mediavalle e Garfagnana",
+      "date": "2026-05-10",
+      "player": "Gianluigi Carrara",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
+      "site_name": "pauper-league-2026-05-1010636",
+      "tournament": "Pauper League",
+      "date": "2026-05-10",
+      "player": "LucianoGuma",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "saidin.raken",
-      "count": 28
+      "count": 27
     },
     {
       "player": "TSPJendrek",

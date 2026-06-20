@@ -2,17 +2,17 @@
   "archetype": "BR Affinity",
   "slug": "br-affinity",
   "stats": {
-    "total_entries": 6,
-    "league_entries": 3,
-    "league_trophies": 3,
-    "league_trophies_yearly": 3,
+    "total_entries": 8,
+    "league_entries": 5,
+    "league_trophies": 5,
+    "league_trophies_yearly": 5,
     "challenge_appearances": 1,
     "challenge_wins": 4,
     "challenge_losses": 3,
     "irl_top8": 2,
     "challenge_win_pct": 57,
-    "league_trophy_rank_yearly": 52,
-    "league_trophy_rank_alltime": 61,
+    "league_trophy_rank_yearly": 50,
+    "league_trophy_rank_alltime": 58,
     "league_trophy_decks_yearly": 64,
     "league_trophy_decks_alltime": 72
   },
@@ -25,6 +25,20 @@
       "colors": [
         "B",
         "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2010636",
+      "tournament": "Pauper League",
+      "date": "2026-06-20",
+      "player": "qbturtle15",
+      "colors": [
+        "B",
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -76,6 +90,21 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-06-1710636",
+      "tournament": "Pauper League",
+      "date": "2026-06-17",
+      "player": "temur4life",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauperwave-2026-06-14-piacenza-summer-2026",
       "tournament": "LP Piacenza Summer 2026 — Piacenza",
       "date": "2026-06-14",
@@ -106,6 +135,10 @@
   ],
   "top_pilots": [
     {
+      "player": "qbturtle15",
+      "count": 2
+    },
+    {
       "player": "KuramaKev",
       "count": 1
     },
@@ -122,11 +155,11 @@
       "count": 1
     },
     {
-      "player": "Lynx33",
+      "player": "temur4life",
       "count": 1
     },
     {
-      "player": "qbturtle15",
+      "player": "Lynx33",
       "count": 1
     }
   ]
