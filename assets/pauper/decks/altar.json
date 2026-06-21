@@ -2,51 +2,21 @@
   "archetype": "Altar",
   "slug": "altar",
   "stats": {
-    "total_entries": 86,
-    "league_entries": 59,
-    "league_trophies": 59,
-    "league_trophies_yearly": 19,
+    "total_entries": 84,
+    "league_entries": 57,
+    "league_trophies": 57,
+    "league_trophies_yearly": 17,
     "challenge_appearances": 23,
     "challenge_wins": 89,
     "challenge_losses": 60,
     "irl_top8": 2,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 37,
+    "league_trophy_rank_yearly": 38,
     "league_trophy_rank_alltime": 36,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-06-2010636",
-      "tournament": "Pauper League",
-      "date": "2026-06-20",
-      "player": "Todeshorst",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1910636",
-      "tournament": "Pauper League",
-      "date": "2026-06-19",
-      "player": "Abisd94",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-challenge-32-2026-06-1112844295",
       "tournament": "Pauper Challenge 32",
@@ -405,12 +375,42 @@
       "final_rank": 3,
       "source": "pauperwave",
       "type": "irl"
+    },
+    {
+      "site_name": "pauper-league-2026-02-1810196",
+      "tournament": "pauper-league-2026-02-1810196",
+      "date": "2026-02-18",
+      "player": "Abisd94",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-1310196",
+      "tournament": "pauper-league-2026-02-1310196",
+      "date": "2026-02-13",
+      "player": "Abisd94",
+      "colors": [
+        "B",
+        "G",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "Abisd94",
-      "count": 15
+      "count": 14
     },
     {
       "player": "saidin.raken",
