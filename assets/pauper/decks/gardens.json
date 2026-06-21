@@ -2,10 +2,10 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 614,
-    "league_entries": 335,
-    "league_trophies": 335,
-    "league_trophies_yearly": 141,
+    "total_entries": 615,
+    "league_entries": 336,
+    "league_trophies": 336,
+    "league_trophies_yearly": 142,
     "challenge_appearances": 246,
     "challenge_wins": 1017,
     "challenge_losses": 597,
@@ -92,6 +92,20 @@
       "tournament": "Pauper League",
       "date": "2026-06-19",
       "player": "Caiobeta_",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1810636",
+      "tournament": "Pauper League",
+      "date": "2026-06-18",
+      "player": "True-Name-Nemesis",
       "colors": [
         "B",
         "G"
@@ -353,20 +367,6 @@
       "final_rank": 19,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0510636",
-      "tournament": "Pauper League",
-      "date": "2026-06-05",
-      "player": "LEANDROFLORESTA",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -392,7 +392,7 @@
     },
     {
       "player": "True-Name-Nemesis",
-      "count": 15
+      "count": 16
     },
     {
       "player": "orbuletto",

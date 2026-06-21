@@ -2,10 +2,10 @@
   "archetype": "BW Refurbished",
   "slug": "bw-refurbished",
   "stats": {
-    "total_entries": 329,
-    "league_entries": 191,
-    "league_trophies": 191,
-    "league_trophies_yearly": 78,
+    "total_entries": 330,
+    "league_entries": 192,
+    "league_trophies": 192,
+    "league_trophies_yearly": 79,
     "challenge_appearances": 132,
     "challenge_wins": 501,
     "challenge_losses": 340,
@@ -86,6 +86,20 @@
       "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1810636",
+      "tournament": "Pauper League",
+      "date": "2026-06-18",
+      "player": "Huskyman20035",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-1710636",
@@ -357,20 +371,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-05-31-rolling-pauper-2026",
-      "tournament": "Rolling Pauper 2026 — Caserta",
-      "date": "2026-05-31",
-      "player": "Crescenzo Cipolletta",
-      "colors": [
-        "B",
-        "W"
-      ],
-      "record": "",
-      "final_rank": 3,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [
@@ -388,7 +388,7 @@
     },
     {
       "player": "Huskyman20035",
-      "count": 13
+      "count": 14
     },
     {
       "player": "lostonkato",

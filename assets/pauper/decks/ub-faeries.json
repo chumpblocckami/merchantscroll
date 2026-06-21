@@ -2,10 +2,10 @@
   "archetype": "UB Faeries",
   "slug": "ub-faeries",
   "stats": {
-    "total_entries": 492,
-    "league_entries": 284,
-    "league_trophies": 284,
-    "league_trophies_yearly": 156,
+    "total_entries": 493,
+    "league_entries": 285,
+    "league_trophies": 285,
+    "league_trophies_yearly": 157,
     "challenge_appearances": 183,
     "challenge_wins": 733,
     "challenge_losses": 453,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2110636",
+      "tournament": "Pauper League",
+      "date": "2026-06-21",
+      "player": "MagesOfLotus",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2010636",
       "tournament": "Pauper League",
@@ -351,20 +366,6 @@
       ],
       "record": "6-3",
       "final_rank": 2,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1312844320",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-13",
-      "player": "PR0boszcz",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-3",
-      "final_rank": 4,
       "source": "mtgo",
       "type": "challenge"
     }
