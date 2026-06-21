@@ -2,10 +2,10 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 945,
-    "league_entries": 556,
-    "league_trophies": 556,
-    "league_trophies_yearly": 216,
+    "total_entries": 946,
+    "league_entries": 557,
+    "league_trophies": 557,
+    "league_trophies_yearly": 217,
     "challenge_appearances": 356,
     "challenge_wins": 1363,
     "challenge_losses": 917,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2110636",
+      "tournament": "Pauper League",
+      "date": "2026-06-21",
+      "player": "boom_bust",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2110636",
       "tournament": "Pauper League",
@@ -347,20 +361,6 @@
       "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1412844338",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-14",
-      "player": "salsicciafuriosa97",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -374,7 +374,7 @@
     },
     {
       "player": "boom_bust",
-      "count": 44
+      "count": 45
     },
     {
       "player": "GilbertoAntunes",
