@@ -2,10 +2,10 @@
   "archetype": "BR Madness",
   "slug": "br-madness",
   "stats": {
-    "total_entries": 748,
-    "league_entries": 363,
-    "league_trophies": 363,
-    "league_trophies_yearly": 97,
+    "total_entries": 749,
+    "league_entries": 364,
+    "league_trophies": 364,
+    "league_trophies_yearly": 98,
     "challenge_appearances": 358,
     "challenge_wins": 1459,
     "challenge_losses": 909,
@@ -22,6 +22,21 @@
       "tournament": "Pauper League",
       "date": "2026-06-21",
       "player": "vikizin",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2110636",
+      "tournament": "Pauper League",
+      "date": "2026-06-21",
+      "player": "checoso_fdk",
       "colors": [
         "B",
         "R",
@@ -376,21 +391,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0412843773",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-04",
-      "player": "grajtow",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "8-1",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
