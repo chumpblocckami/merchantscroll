@@ -2,10 +2,10 @@
   "archetype": "Spy",
   "slug": "spy",
   "stats": {
-    "total_entries": 663,
-    "league_entries": 422,
-    "league_trophies": 422,
-    "league_trophies_yearly": 144,
+    "total_entries": 664,
+    "league_entries": 423,
+    "league_trophies": 423,
+    "league_trophies_yearly": 145,
     "challenge_appearances": 196,
     "challenge_wins": 790,
     "challenge_losses": 491,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2110636",
+      "tournament": "Pauper League",
+      "date": "2026-06-21",
+      "player": "lumely",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-1912844841",
       "tournament": "Pauper Challenge 32",
@@ -375,20 +390,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-05-31-ferrara-trio",
-      "tournament": "Pauperiadi Trio — Ferrara",
-      "date": "2026-05-31",
-      "player": "Federico Lazzari",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "",
-      "final_rank": 3,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [
