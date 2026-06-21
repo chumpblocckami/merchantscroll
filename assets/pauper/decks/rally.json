@@ -2,10 +2,10 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 941,
-    "league_entries": 552,
-    "league_trophies": 552,
-    "league_trophies_yearly": 212,
+    "total_entries": 943,
+    "league_entries": 554,
+    "league_trophies": 554,
+    "league_trophies_yearly": 214,
     "challenge_appearances": 356,
     "challenge_wins": 1363,
     "challenge_losses": 917,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2110636",
+      "tournament": "Pauper League",
+      "date": "2026-06-21",
+      "player": "hjc",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2010636",
       "tournament": "Pauper League",
@@ -199,6 +213,19 @@
       "site_name": "pauper-league-2026-06-1710636",
       "tournament": "Pauper League",
       "date": "2026-06-17",
+      "player": "Albreto",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1710636",
+      "tournament": "Pauper League",
+      "date": "2026-06-17",
       "player": "kmasuyama",
       "colors": [
         "G",
@@ -330,32 +357,6 @@
       ],
       "record": "3-3",
       "final_rank": 21,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1412844338",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-14",
-      "player": "Kirblinxy",
-      "colors": [
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1412844338",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-14",
-      "player": "PR0boszcz",
-      "colors": [
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
     }

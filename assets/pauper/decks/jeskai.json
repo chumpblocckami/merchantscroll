@@ -2,10 +2,10 @@
   "archetype": "Jeskai",
   "slug": "jeskai",
   "stats": {
-    "total_entries": 208,
-    "league_entries": 142,
-    "league_trophies": 142,
-    "league_trophies_yearly": 78,
+    "total_entries": 207,
+    "league_entries": 141,
+    "league_trophies": 141,
+    "league_trophies_yearly": 77,
     "challenge_appearances": 56,
     "challenge_wins": 227,
     "challenge_losses": 134,
@@ -17,20 +17,6 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-06-2010636",
-      "tournament": "Pauper League",
-      "date": "2026-06-20",
-      "player": "Fluc_",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-league-2026-06-2010636",
       "tournament": "Pauper League",
@@ -395,6 +381,21 @@
       ],
       "record": "5-2",
       "final_rank": 14,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0712843817",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-07",
+      "player": "Rooney56",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-3",
+      "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
     }
