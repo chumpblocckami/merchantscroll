@@ -2,10 +2,10 @@
   "archetype": "UB Faeries",
   "slug": "ub-faeries",
   "stats": {
-    "total_entries": 498,
-    "league_entries": 288,
-    "league_trophies": 288,
-    "league_trophies_yearly": 160,
+    "total_entries": 497,
+    "league_entries": 287,
+    "league_trophies": 287,
+    "league_trophies_yearly": 159,
     "challenge_appearances": 185,
     "challenge_wins": 742,
     "challenge_losses": 459,
@@ -273,19 +273,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-06-1610636",
-      "tournament": "Pauper League",
-      "date": "2026-06-16",
-      "player": "GFILLIPPI77",
-      "colors": [
-        "B"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-showcase-challenge-2026-06-1412844285",
       "tournament": "Pauper Showcase Challenge",
       "date": "2026-06-14",
@@ -366,6 +353,20 @@
       ],
       "record": "6-3",
       "final_rank": 28,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-showcase-challenge-2026-06-1412844285",
+      "tournament": "Pauper Showcase Challenge",
+      "date": "2026-06-14",
+      "player": "Strongmind",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "6-3",
+      "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
     }

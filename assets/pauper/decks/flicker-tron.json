@@ -2,10 +2,10 @@
   "archetype": "Flicker Tron",
   "slug": "flicker-tron",
   "stats": {
-    "total_entries": 226,
-    "league_entries": 127,
-    "league_trophies": 127,
-    "league_trophies_yearly": 51,
+    "total_entries": 228,
+    "league_entries": 129,
+    "league_trophies": 129,
+    "league_trophies_yearly": 53,
     "challenge_appearances": 86,
     "challenge_wins": 351,
     "challenge_losses": 221,
@@ -22,6 +22,40 @@
       "tournament": "Pauper League",
       "date": "2026-06-20",
       "player": "qwertyelmer",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2010636",
+      "tournament": "Pauper League",
+      "date": "2026-06-20",
+      "player": "Hype12232",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1610636",
+      "tournament": "Pauper League",
+      "date": "2026-06-16",
+      "player": "bombaj",
       "colors": [
         "B",
         "G",
@@ -406,40 +440,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2810636",
-      "tournament": "Pauper League",
-      "date": "2026-05-28",
-      "player": "bombaj",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2812843381",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-28",
-      "player": "Alleyezonme",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "2-4",
-      "final_rank": 30,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -453,7 +453,7 @@
     },
     {
       "player": "bombaj",
-      "count": 14
+      "count": 15
     },
     {
       "player": "Raptor56",
