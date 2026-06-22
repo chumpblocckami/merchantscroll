@@ -2,10 +2,10 @@
   "archetype": "Food Pestilence",
   "slug": "food-pestilence",
   "stats": {
-    "total_entries": 229,
-    "league_entries": 168,
-    "league_trophies": 168,
-    "league_trophies_yearly": 113,
+    "total_entries": 230,
+    "league_entries": 169,
+    "league_trophies": 169,
+    "league_trophies_yearly": 114,
     "challenge_appearances": 58,
     "challenge_wins": 222,
     "challenge_losses": 139,
@@ -64,6 +64,20 @@
       "tournament": "Pauper League",
       "date": "2026-06-18",
       "player": "ninjajar",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1810636",
+      "tournament": "Pauper League",
+      "date": "2026-06-18",
+      "player": "True-Name-Nemesis",
       "colors": [
         "B",
         "G"
@@ -351,26 +365,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-04-3010636",
-      "tournament": "Pauper League",
-      "date": "2026-04-30",
-      "player": "True-Name-Nemesis",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "True-Name-Nemesis",
-      "count": 54
+      "count": 55
     },
     {
       "player": "PR0boszcz",

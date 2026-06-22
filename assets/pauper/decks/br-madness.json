@@ -2,10 +2,10 @@
   "archetype": "BR Madness",
   "slug": "br-madness",
   "stats": {
-    "total_entries": 749,
-    "league_entries": 364,
-    "league_trophies": 364,
-    "league_trophies_yearly": 98,
+    "total_entries": 751,
+    "league_entries": 366,
+    "league_trophies": 366,
+    "league_trophies_yearly": 100,
     "challenge_appearances": 358,
     "challenge_wins": 1459,
     "challenge_losses": 909,
@@ -22,6 +22,21 @@
       "tournament": "Pauper League",
       "date": "2026-06-22",
       "player": "TronZera",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2210636",
+      "tournament": "Pauper League",
+      "date": "2026-06-22",
+      "player": "HollyMacaroni",
       "colors": [
         "B",
         "R",
@@ -52,6 +67,21 @@
       "tournament": "Pauper League",
       "date": "2026-06-21",
       "player": "checoso_fdk",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2010636",
+      "tournament": "Pauper League",
+      "date": "2026-06-20",
+      "player": "vikizin",
       "colors": [
         "B",
         "R",
@@ -361,36 +391,6 @@
       "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0510636",
-      "tournament": "Pauper League",
-      "date": "2026-06-05",
-      "player": "sc0ttex",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0510636",
-      "tournament": "Pauper League",
-      "date": "2026-06-05",
-      "player": "Xto2",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -423,11 +423,11 @@
       "count": 15
     },
     {
-      "player": "Than",
-      "count": 14
+      "player": "vikizin",
+      "count": 15
     },
     {
-      "player": "vikizin",
+      "player": "Than",
       "count": 14
     },
     {
