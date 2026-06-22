@@ -2,17 +2,17 @@
   "archetype": "BR Affinity",
   "slug": "br-affinity",
   "stats": {
-    "total_entries": 9,
-    "league_entries": 4,
-    "league_trophies": 4,
-    "league_trophies_yearly": 4,
+    "total_entries": 10,
+    "league_entries": 5,
+    "league_trophies": 5,
+    "league_trophies_yearly": 5,
     "challenge_appearances": 3,
     "challenge_wins": 13,
     "challenge_losses": 8,
     "irl_top8": 2,
     "challenge_win_pct": 62,
-    "league_trophy_rank_yearly": 52,
-    "league_trophy_rank_alltime": 61,
+    "league_trophy_rank_yearly": 50,
+    "league_trophy_rank_alltime": 59,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
@@ -120,6 +120,21 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-06-1710636",
+      "tournament": "Pauper League",
+      "date": "2026-06-17",
+      "player": "temur4life",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauperwave-2026-06-14-piacenza-summer-2026",
       "tournament": "LP Piacenza Summer 2026 — Piacenza",
       "date": "2026-06-14",
@@ -167,6 +182,10 @@
     },
     {
       "player": "Francesco Zibella",
+      "count": 1
+    },
+    {
+      "player": "temur4life",
       "count": 1
     },
     {
