@@ -2,10 +2,10 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 949,
-    "league_entries": 558,
-    "league_trophies": 558,
-    "league_trophies_yearly": 218,
+    "total_entries": 947,
+    "league_entries": 556,
+    "league_trophies": 556,
+    "league_trophies_yearly": 216,
     "challenge_appearances": 358,
     "challenge_wins": 1372,
     "challenge_losses": 922,
@@ -105,34 +105,6 @@
       "tournament": "Pauper League",
       "date": "2026-06-21",
       "player": "hjc",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2010636",
-      "tournament": "Pauper League",
-      "date": "2026-06-20",
-      "player": "Goblin_Player",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2010636",
-      "tournament": "Pauper League",
-      "date": "2026-06-20",
-      "player": "Goblin_Player",
       "colors": [
         "G",
         "R"
@@ -360,6 +332,34 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauperwave-2026-06-14-piacenza-summer-2026",
+      "tournament": "LP Piacenza Summer 2026 — Piacenza",
+      "date": "2026-06-14",
+      "player": "Filippo Ghelfi",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "",
+      "final_rank": 2,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1412844338",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-14",
+      "player": "Mahers",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -396,11 +396,11 @@
       "count": 11
     },
     {
-      "player": "Goblin_Player",
-      "count": 11
+      "player": "PedroStark",
+      "count": 10
     },
     {
-      "player": "PedroStark",
+      "player": "irahscott",
       "count": 10
     }
   ]

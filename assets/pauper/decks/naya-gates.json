@@ -2,16 +2,16 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 71,
-    "league_entries": 33,
-    "league_trophies": 33,
-    "league_trophies_yearly": 26,
+    "total_entries": 70,
+    "league_entries": 32,
+    "league_trophies": 32,
+    "league_trophies_yearly": 25,
     "challenge_appearances": 24,
     "challenge_wins": 91,
     "challenge_losses": 54,
     "irl_top8": 12,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 34,
+    "league_trophy_rank_yearly": 35,
     "league_trophy_rank_alltime": 42,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
@@ -44,21 +44,6 @@
         "G",
         "R",
         "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2010636",
-      "tournament": "Pauper League",
-      "date": "2026-06-20",
-      "player": "Emogoblin",
-      "colors": [
-        "G",
-        "R",
         "W"
       ],
       "record": "5-0",
@@ -419,19 +404,36 @@
       "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-04-2412840538",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-04-24",
+      "player": "Duke_LukeM",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
-    {
-      "player": "Emogoblin",
-      "count": 4
-    },
     {
       "player": "manohito",
       "count": 4
     },
     {
       "player": "CHRIS-Mtg-02",
+      "count": 3
+    },
+    {
+      "player": "Emogoblin",
       "count": 3
     },
     {
