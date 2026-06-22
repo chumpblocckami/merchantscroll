@@ -2,21 +2,37 @@
   "archetype": "BGRU",
   "slug": "bgru",
   "stats": {
-    "total_entries": 52,
-    "league_entries": 31,
-    "league_trophies": 31,
-    "league_trophies_yearly": 19,
+    "total_entries": 53,
+    "league_entries": 32,
+    "league_trophies": 32,
+    "league_trophies_yearly": 20,
     "challenge_appearances": 20,
     "challenge_wins": 76,
     "challenge_losses": 50,
     "irl_top8": 0,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 37,
-    "league_trophy_rank_alltime": 43,
+    "league_trophy_rank_yearly": 36,
+    "league_trophy_rank_alltime": 42,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2010636",
+      "tournament": "Pauper League",
+      "date": "2026-06-20",
+      "player": "Abisd94",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-1910636",
       "tournament": "Pauper League",
@@ -400,22 +416,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-02-0112831750",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-02-01",
-      "player": "Skpchino",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "2-2",
-      "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
