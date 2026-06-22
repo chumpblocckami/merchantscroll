@@ -2,13 +2,13 @@
   "archetype": "UW Glitter",
   "slug": "uw-glitter",
   "stats": {
-    "total_entries": 33,
+    "total_entries": 34,
     "league_entries": 22,
     "league_trophies": 22,
     "league_trophies_yearly": 18,
-    "challenge_appearances": 9,
-    "challenge_wins": 32,
-    "challenge_losses": 23,
+    "challenge_appearances": 10,
+    "challenge_wins": 36,
+    "challenge_losses": 26,
     "irl_top8": 2,
     "challenge_win_pct": 58,
     "league_trophy_rank_yearly": 38,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2112844875",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-21",
+      "player": "Otherwise",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-1410636",
       "tournament": "Pauper League",
@@ -354,21 +369,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-01-0312828177",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-03",
-      "player": "elvis10",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 21,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -383,6 +383,10 @@
     {
       "player": "budzik",
       "count": 3
+    },
+    {
+      "player": "Otherwise",
+      "count": 2
     },
     {
       "player": "Luiz0211",
@@ -406,10 +410,6 @@
     },
     {
       "player": "karatedom",
-      "count": 1
-    },
-    {
-      "player": "Otherwise",
       "count": 1
     }
   ]

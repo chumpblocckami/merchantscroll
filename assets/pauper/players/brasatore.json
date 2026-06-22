@@ -3,22 +3,26 @@
   "display_name": "Brasatore",
   "irl_name": null,
   "stats": {
-    "total_entries": 25,
+    "total_entries": 26,
     "league_trophies": 0,
     "league_trophies_yearly": 0,
-    "challenge_wins": 83,
-    "challenge_losses": 70,
+    "challenge_wins": 89,
+    "challenge_losses": 72,
     "irl_top8": 0,
-    "challenge_win_pct": 54,
+    "challenge_win_pct": 55,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": null,
-    "league_trophy_players_yearly": 1158,
-    "league_trophy_players_alltime": 1916
+    "league_trophy_players_yearly": 1159,
+    "league_trophy_players_alltime": 1917
   },
   "favorite_decks": [
     {
       "archetype": "BR Madness",
       "count": 10
+    },
+    {
+      "archetype": "Affinity",
+      "count": 3
     },
     {
       "archetype": "Jund",
@@ -41,10 +45,6 @@
       "count": 2
     },
     {
-      "archetype": "Affinity",
-      "count": 2
-    },
-    {
       "archetype": "White Weenie",
       "count": 1
     },
@@ -58,6 +58,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2112844875",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-21",
+      "player": "Brasatore",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "6-2",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-05-2812843381",
       "tournament": "Pauper Challenge 32",
@@ -432,21 +448,6 @@
       ],
       "record": "2-4",
       "final_rank": 31,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-05-1012777346",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-05-10",
-      "player": "Brasatore",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R"
-      ],
-      "record": "2-3",
-      "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
     }

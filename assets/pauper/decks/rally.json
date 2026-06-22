@@ -2,13 +2,13 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 946,
+    "total_entries": 948,
     "league_entries": 557,
     "league_trophies": 557,
     "league_trophies_yearly": 217,
-    "challenge_appearances": 356,
-    "challenge_wins": 1363,
-    "challenge_losses": 917,
+    "challenge_appearances": 358,
+    "challenge_wins": 1372,
+    "challenge_losses": 922,
     "irl_top8": 21,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 4,
@@ -17,6 +17,33 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2112844875",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-21",
+      "player": "SaculSueahtam",
+      "colors": [
+        "R"
+      ],
+      "record": "5-2",
+      "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2112844875",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-21",
+      "player": "Mahers",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-2110636",
       "tournament": "Pauper League",
@@ -333,40 +360,12 @@
       "final_rank": 2,
       "source": "pauperwave",
       "type": "irl"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1412844338",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-14",
-      "player": "Mahers",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1412844338",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-14",
-      "player": "Infinitalove",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "SaculSueahtam",
-      "count": 71
+      "count": 72
     },
     {
       "player": "vini_torres",

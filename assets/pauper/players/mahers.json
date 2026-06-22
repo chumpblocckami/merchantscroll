@@ -3,17 +3,17 @@
   "display_name": "Mahers",
   "irl_name": null,
   "stats": {
-    "total_entries": 28,
+    "total_entries": 29,
     "league_trophies": 2,
     "league_trophies_yearly": 2,
-    "challenge_wins": 106,
-    "challenge_losses": 68,
+    "challenge_wins": 110,
+    "challenge_losses": 71,
     "irl_top8": 0,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 518,
-    "league_trophy_rank_alltime": 1002,
-    "league_trophy_players_yearly": 1158,
-    "league_trophy_players_alltime": 1916
+    "league_trophy_rank_yearly": 519,
+    "league_trophy_rank_alltime": 1003,
+    "league_trophy_players_yearly": 1159,
+    "league_trophy_players_alltime": 1917
   },
   "favorite_decks": [
     {
@@ -22,10 +22,25 @@
     },
     {
       "archetype": "Rally",
-      "count": 8
+      "count": 9
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2112844875",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-21",
+      "player": "Mahers",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-1412844338",
       "tournament": "Pauper Challenge 32",
@@ -401,22 +416,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-01-1712830048",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-17",
-      "player": "Mahers",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-2",
-      "final_rank": 6,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

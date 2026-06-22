@@ -2,21 +2,36 @@
   "archetype": "Temur Control",
   "slug": "temur-control",
   "stats": {
-    "total_entries": 4,
+    "total_entries": 5,
     "league_entries": 2,
     "league_trophies": 2,
     "league_trophies_yearly": 2,
-    "challenge_appearances": 0,
-    "challenge_wins": 0,
-    "challenge_losses": 0,
+    "challenge_appearances": 1,
+    "challenge_wins": 4,
+    "challenge_losses": 3,
     "irl_top8": 2,
-    "challenge_win_pct": null,
+    "challenge_win_pct": 57,
     "league_trophy_rank_yearly": 58,
     "league_trophy_rank_alltime": 67,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2112844875",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-21",
+      "player": "andredoriaa",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 18,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-1910636",
       "tournament": "Pauper League",
@@ -80,15 +95,15 @@
   ],
   "top_pilots": [
     {
+      "player": "andredoriaa",
+      "count": 2
+    },
+    {
       "player": "qwertyelmer",
       "count": 1
     },
     {
       "player": "Daniele Gambini",
-      "count": 1
-    },
-    {
-      "player": "andredoriaa",
       "count": 1
     },
     {

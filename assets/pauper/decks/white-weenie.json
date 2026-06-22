@@ -2,13 +2,13 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 562,
+    "total_entries": 563,
     "league_entries": 333,
     "league_trophies": 333,
     "league_trophies_yearly": 143,
-    "challenge_appearances": 203,
-    "challenge_wins": 784,
-    "challenge_losses": 510,
+    "challenge_appearances": 204,
+    "challenge_wins": 788,
+    "challenge_losses": 513,
     "irl_top8": 15,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 9,
@@ -17,6 +17,19 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2112844875",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-21",
+      "player": "MAFS",
+      "colors": [
+        "W"
+      ],
+      "record": "4-3",
+      "final_rank": 30,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-2110636",
       "tournament": "Pauper League",
@@ -335,19 +348,6 @@
       "player": "bnpbnp",
       "colors": [
         "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0210636",
-      "tournament": "Pauper League",
-      "date": "2026-06-02",
-      "player": "boshfred",
-      "colors": [
         "W"
       ],
       "record": "5-0",

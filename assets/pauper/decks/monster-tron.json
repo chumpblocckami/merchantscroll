@@ -2,21 +2,96 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 8,
+    "total_entries": 13,
     "league_entries": 3,
     "league_trophies": 3,
     "league_trophies_yearly": 3,
-    "challenge_appearances": 3,
-    "challenge_wins": 16,
-    "challenge_losses": 6,
+    "challenge_appearances": 8,
+    "challenge_wins": 42,
+    "challenge_losses": 18,
     "irl_top8": 2,
-    "challenge_win_pct": 73,
+    "challenge_win_pct": 70,
     "league_trophy_rank_yearly": 54,
     "league_trophy_rank_alltime": 62,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2112844875",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-21",
+      "player": "Valimoth",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "8-1",
+      "final_rank": 3,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2112844875",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-21",
+      "player": "Syns",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "6-3",
+      "final_rank": 4,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2112844875",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-21",
+      "player": "SorryImSoTilted",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2112844875",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-21",
+      "player": "BERNASTORRES",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2112844875",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-21",
+      "player": "PNascimento",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-2010636",
       "tournament": "Pauper League",
@@ -141,6 +216,10 @@
   ],
   "top_pilots": [
     {
+      "player": "Valimoth",
+      "count": 2
+    },
+    {
       "player": "SirBarbaffo",
       "count": 1
     },
@@ -149,11 +228,23 @@
       "count": 1
     },
     {
-      "player": "Valimoth",
+      "player": "Echanez",
       "count": 1
     },
     {
-      "player": "Echanez",
+      "player": "Syns",
+      "count": 1
+    },
+    {
+      "player": "SorryImSoTilted",
+      "count": 1
+    },
+    {
+      "player": "BERNASTORRES",
+      "count": 1
+    },
+    {
+      "player": "PNascimento",
       "count": 1
     },
     {
@@ -162,14 +253,6 @@
     },
     {
       "player": "Lorenzo Montana",
-      "count": 1
-    },
-    {
-      "player": "Francesco Musto",
-      "count": 1
-    },
-    {
-      "player": "Casanova_13",
       "count": 1
     }
   ]

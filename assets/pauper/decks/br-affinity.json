@@ -2,21 +2,36 @@
   "archetype": "BR Affinity",
   "slug": "br-affinity",
   "stats": {
-    "total_entries": 7,
+    "total_entries": 8,
     "league_entries": 3,
     "league_trophies": 3,
     "league_trophies_yearly": 3,
-    "challenge_appearances": 2,
-    "challenge_wins": 9,
-    "challenge_losses": 5,
+    "challenge_appearances": 3,
+    "challenge_wins": 13,
+    "challenge_losses": 8,
     "irl_top8": 2,
-    "challenge_win_pct": 64,
+    "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 52,
     "league_trophy_rank_alltime": 61,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2112844875",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-21",
+      "player": "AlessandroPiraccini",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-2010636",
       "tournament": "Pauper League",
@@ -120,11 +135,11 @@
   ],
   "top_pilots": [
     {
-      "player": "qbturtle15",
-      "count": 2
+      "player": "AlessandroPiraccini",
+      "count": 3
     },
     {
-      "player": "AlessandroPiraccini",
+      "player": "qbturtle15",
       "count": 2
     },
     {
