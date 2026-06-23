@@ -2,10 +2,10 @@
   "archetype": "Familiars",
   "slug": "familiars",
   "stats": {
-    "total_entries": 261,
-    "league_entries": 151,
-    "league_trophies": 151,
-    "league_trophies_yearly": 64,
+    "total_entries": 262,
+    "league_entries": 152,
+    "league_trophies": 152,
+    "league_trophies_yearly": 65,
     "challenge_appearances": 87,
     "challenge_wins": 351,
     "challenge_losses": 220,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-1810636",
+      "tournament": "Pauper League",
+      "date": "2026-06-18",
+      "player": "AvenRedeemer",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-1710636",
       "tournament": "Pauper League",
@@ -361,20 +376,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-05-10-pauperkingdom-3",
-      "tournament": "Pauper Kingdom 3 — Mediavalle e Garfagnana",
-      "date": "2026-05-10",
-      "player": "Gianluigi Carrara",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "",
-      "final_rank": 5,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [

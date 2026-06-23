@@ -2,10 +2,10 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1131,
-    "league_entries": 602,
-    "league_trophies": 602,
-    "league_trophies_yearly": 220,
+    "total_entries": 1132,
+    "league_entries": 603,
+    "league_trophies": 603,
+    "league_trophies_yearly": 221,
     "challenge_appearances": 470,
     "challenge_wins": 1864,
     "challenge_losses": 1179,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2310636",
+      "tournament": "Pauper League",
+      "date": "2026-06-23",
+      "player": "Enz091",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2210636",
       "tournament": "Pauper League",
@@ -353,20 +367,6 @@
       ],
       "record": "4-2",
       "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1212844305",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-12",
-      "player": "KOKOLOKO3435",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "3-3",
-      "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
     }
