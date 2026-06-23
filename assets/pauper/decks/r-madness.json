@@ -2,10 +2,10 @@
   "archetype": "R Madness",
   "slug": "r-madness",
   "stats": {
-    "total_entries": 1744,
-    "league_entries": 1043,
-    "league_trophies": 1043,
-    "league_trophies_yearly": 471,
+    "total_entries": 1743,
+    "league_entries": 1042,
+    "league_trophies": 1042,
+    "league_trophies_yearly": 470,
     "challenge_appearances": 602,
     "challenge_wins": 2365,
     "challenge_losses": 1524,
@@ -78,36 +78,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-06-2210636",
-      "tournament": "Pauper League",
-      "date": "2026-06-22",
-      "player": "yahakara",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2210636",
-      "tournament": "Pauper League",
-      "date": "2026-06-22",
-      "player": "MisterTwin",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-06-2112844875",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-21",
@@ -151,6 +121,22 @@
       "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2110636",
+      "tournament": "Pauper League",
+      "date": "2026-06-21",
+      "player": "hetare_ane",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-2110636",
@@ -391,12 +377,27 @@
       "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1812844831",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-18",
+      "player": "ElkVinci",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "MisterTwin",
-      "count": 74
+      "count": 73
     },
     {
       "player": "boom_bust",

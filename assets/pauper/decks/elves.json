@@ -2,10 +2,10 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1133,
-    "league_entries": 604,
-    "league_trophies": 604,
-    "league_trophies_yearly": 222,
+    "total_entries": 1131,
+    "league_entries": 602,
+    "league_trophies": 602,
+    "league_trophies_yearly": 220,
     "challenge_appearances": 470,
     "challenge_wins": 1864,
     "challenge_losses": 1179,
@@ -35,33 +35,6 @@
       "tournament": "Pauper League",
       "date": "2026-06-23",
       "player": "Enz091",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2210636",
-      "tournament": "Pauper League",
-      "date": "2026-06-22",
-      "player": "gaahei1",
-      "colors": [
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2210636",
-      "tournament": "Pauper League",
-      "date": "2026-06-22",
-      "player": "_ratchet_",
       "colors": [
         "B",
         "G"
@@ -366,6 +339,34 @@
       ],
       "record": "4-3",
       "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1212844305",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-12",
+      "player": "Enz091",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "4-2",
+      "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1212844305",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-12",
+      "player": "KOKOLOKO3435",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "3-3",
+      "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
     }

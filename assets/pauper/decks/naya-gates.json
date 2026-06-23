@@ -2,10 +2,10 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 74,
-    "league_entries": 36,
-    "league_trophies": 36,
-    "league_trophies_yearly": 29,
+    "total_entries": 71,
+    "league_entries": 33,
+    "league_trophies": 33,
+    "league_trophies_yearly": 26,
     "challenge_appearances": 24,
     "challenge_wins": 91,
     "challenge_losses": 54,
@@ -21,58 +21,24 @@
       "site_name": "pauper-league-2026-06-2310855",
       "tournament": "Pauper League",
       "date": "2026-06-23",
+      "player": "Edo_01",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2310855",
+      "tournament": "Pauper League",
+      "date": "2026-06-23",
       "player": "marzaboi",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2210636",
-      "tournament": "Pauper League",
-      "date": "2026-06-22",
-      "player": "Serpico_CC",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2210636",
-      "tournament": "Pauper League",
-      "date": "2026-06-22",
-      "player": "renato_tadeo",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2210636",
-      "tournament": "Pauper League",
-      "date": "2026-06-22",
-      "player": "Emogoblin",
       "colors": [
         "B",
         "G",
@@ -95,21 +61,6 @@
         "G",
         "R",
         "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2010636",
-      "tournament": "Pauper League",
-      "date": "2026-06-20",
-      "player": "Emogoblin",
-      "colors": [
-        "G",
-        "R",
         "W"
       ],
       "record": "5-0",
@@ -421,13 +372,58 @@
       "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-04-2610636",
+      "tournament": "Pauper League",
+      "date": "2026-04-26",
+      "player": "BokyFloky",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-04-2512840552",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-04-25",
+      "player": "NMT_Sco94",
+      "colors": [
+        "B",
+        "G",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-04-2512840552",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-04-25",
+      "player": "manohito",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "2-4",
+      "final_rank": 27,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
-    {
-      "player": "Emogoblin",
-      "count": 4
-    },
     {
       "player": "manohito",
       "count": 4
@@ -445,6 +441,10 @@
       "count": 2
     },
     {
+      "player": "Emogoblin",
+      "count": 2
+    },
+    {
       "player": "Serpico_94",
       "count": 2
     },
@@ -457,11 +457,11 @@
       "count": 2
     },
     {
-      "player": "Serpico_CC",
-      "count": 2
+      "player": "Andrea Mattei",
+      "count": 1
     },
     {
-      "player": "Andrea Mattei",
+      "player": "Mrityuhara",
       "count": 1
     }
   ]
