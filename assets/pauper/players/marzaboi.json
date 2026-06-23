@@ -3,17 +3,17 @@
   "display_name": "marzaboi",
   "irl_name": null,
   "stats": {
-    "total_entries": 52,
-    "league_trophies": 15,
-    "league_trophies_yearly": 4,
+    "total_entries": 53,
+    "league_trophies": 16,
+    "league_trophies_yearly": 5,
     "challenge_wins": 151,
     "challenge_losses": 80,
     "irl_top8": 0,
     "challenge_win_pct": 65,
-    "league_trophy_rank_yearly": 263,
-    "league_trophy_rank_alltime": 129,
-    "league_trophy_players_yearly": 1167,
-    "league_trophy_players_alltime": 1924
+    "league_trophy_rank_yearly": 197,
+    "league_trophy_rank_alltime": 121,
+    "league_trophy_players_yearly": 1169,
+    "league_trophy_players_alltime": 1926
   },
   "favorite_decks": [
     {
@@ -43,9 +43,31 @@
     {
       "archetype": "Spy",
       "count": 2
+    },
+    {
+      "archetype": "Naya Gates",
+      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2310855",
+      "tournament": "Pauper League",
+      "date": "2026-06-23",
+      "player": "marzaboi",
+      "archetype": "Naya Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-1212844305",
       "tournament": "Pauper Challenge 32",
@@ -451,21 +473,6 @@
       ],
       "record": "3-3",
       "final_rank": 30,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-11-0212822705",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-11-02",
-      "player": "marzaboi",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-3",
-      "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
     }

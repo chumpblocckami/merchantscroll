@@ -2,17 +2,17 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 13,
-    "league_entries": 3,
-    "league_trophies": 3,
-    "league_trophies_yearly": 3,
+    "total_entries": 15,
+    "league_entries": 5,
+    "league_trophies": 5,
+    "league_trophies_yearly": 5,
     "challenge_appearances": 8,
     "challenge_wins": 42,
     "challenge_losses": 18,
     "irl_top8": 2,
     "challenge_win_pct": 70,
-    "league_trophy_rank_yearly": 54,
-    "league_trophy_rank_alltime": 62,
+    "league_trophy_rank_yearly": 52,
+    "league_trophy_rank_alltime": 59,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
@@ -96,6 +96,22 @@
       "site_name": "pauper-league-2026-06-2010636",
       "tournament": "Pauper League",
       "date": "2026-06-20",
+      "player": "Abisd94",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2010636",
+      "tournament": "Pauper League",
+      "date": "2026-06-20",
       "player": "SirBarbaffo",
       "colors": [
         "G",
@@ -169,6 +185,22 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-06-1910636",
+      "tournament": "Pauper League",
+      "date": "2026-06-19",
+      "player": "Huskyman20035",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2026-06-1510636",
       "tournament": "Pauper League",
       "date": "2026-06-15",
@@ -220,6 +252,10 @@
       "count": 2
     },
     {
+      "player": "Abisd94",
+      "count": 1
+    },
+    {
       "player": "SirBarbaffo",
       "count": 1
     },
@@ -249,10 +285,6 @@
     },
     {
       "player": "AchoElOjcah",
-      "count": 1
-    },
-    {
-      "player": "Lorenzo Montana",
       "count": 1
     }
   ]
