@@ -3,9 +3,9 @@
   "display_name": "barff",
   "irl_name": null,
   "stats": {
-    "total_entries": 193,
-    "league_trophies": 127,
-    "league_trophies_yearly": 44,
+    "total_entries": 194,
+    "league_trophies": 128,
+    "league_trophies_yearly": 45,
     "challenge_wins": 323,
     "challenge_losses": 115,
     "irl_top8": 0,
@@ -30,7 +30,7 @@
     },
     {
       "archetype": "UB Control",
-      "count": 3
+      "count": 4
     },
     {
       "archetype": "R Madness",
@@ -54,6 +54,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2310636",
+      "tournament": "Pauper League",
+      "date": "2026-06-23",
+      "player": "barff",
+      "archetype": "UB Control",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-1810636",
       "tournament": "Pauper League",
@@ -428,22 +443,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-2412840538",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-24",
-      "player": "barff",
-      "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "G",
-        "U"
-      ],
-      "record": "",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

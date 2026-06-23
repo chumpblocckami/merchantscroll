@@ -2,10 +2,10 @@
   "archetype": "Boros Tribe",
   "slug": "boros-tribe",
   "stats": {
-    "total_entries": 75,
-    "league_entries": 43,
-    "league_trophies": 43,
-    "league_trophies_yearly": 43,
+    "total_entries": 76,
+    "league_entries": 44,
+    "league_trophies": 44,
+    "league_trophies_yearly": 44,
     "challenge_appearances": 29,
     "challenge_wins": 115,
     "challenge_losses": 73,
@@ -24,6 +24,23 @@
       "player": "NiccoGra",
       "colors": [
         "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2210636",
+      "tournament": "Pauper League",
+      "date": "2026-06-22",
+      "player": "Emogoblin",
+      "colors": [
+        "B",
+        "G",
         "R",
         "U",
         "W"
@@ -401,22 +418,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2110636",
-      "tournament": "Pauper League",
-      "date": "2026-05-21",
-      "player": "bigcrab89",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -426,7 +427,7 @@
     },
     {
       "player": "Emogoblin",
-      "count": 9
+      "count": 10
     },
     {
       "player": "lostonkato",

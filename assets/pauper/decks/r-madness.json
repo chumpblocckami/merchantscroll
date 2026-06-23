@@ -2,10 +2,10 @@
   "archetype": "R Madness",
   "slug": "r-madness",
   "stats": {
-    "total_entries": 1742,
-    "league_entries": 1041,
-    "league_trophies": 1041,
-    "league_trophies_yearly": 469,
+    "total_entries": 1743,
+    "league_entries": 1042,
+    "league_trophies": 1042,
+    "league_trophies_yearly": 470,
     "challenge_appearances": 602,
     "challenge_wins": 2365,
     "challenge_losses": 1524,
@@ -22,6 +22,21 @@
       "tournament": "Pauper League",
       "date": "2026-06-23",
       "player": "yahakara",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2310636",
+      "tournament": "Pauper League",
+      "date": "2026-06-23",
+      "player": "Hericllys",
       "colors": [
         "B",
         "R",
@@ -377,21 +392,6 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1810636",
-      "tournament": "Pauper League",
-      "date": "2026-06-18",
-      "player": "TheGreatGaston",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [

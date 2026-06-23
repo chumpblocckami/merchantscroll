@@ -2,10 +2,10 @@
   "archetype": "BW Refurbished",
   "slug": "bw-refurbished",
   "stats": {
-    "total_entries": 331,
-    "league_entries": 193,
-    "league_trophies": 193,
-    "league_trophies_yearly": 80,
+    "total_entries": 330,
+    "league_entries": 192,
+    "league_trophies": 192,
+    "league_trophies_yearly": 79,
     "challenge_appearances": 132,
     "challenge_wins": 501,
     "challenge_losses": 340,
@@ -99,20 +99,6 @@
       "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1810636",
-      "tournament": "Pauper League",
-      "date": "2026-06-18",
-      "player": "Huskyman20035",
-      "colors": [
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-1710636",
@@ -369,6 +355,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-0110636",
+      "tournament": "Pauper League",
+      "date": "2026-06-01",
+      "player": "cabrabr12",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -386,7 +387,7 @@
     },
     {
       "player": "Huskyman20035",
-      "count": 14
+      "count": 13
     },
     {
       "player": "lostonkato",

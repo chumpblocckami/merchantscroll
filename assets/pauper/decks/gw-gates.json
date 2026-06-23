@@ -2,10 +2,10 @@
   "archetype": "GW Gates",
   "slug": "gw-gates",
   "stats": {
-    "total_entries": 149,
-    "league_entries": 92,
-    "league_trophies": 92,
-    "league_trophies_yearly": 69,
+    "total_entries": 148,
+    "league_entries": 91,
+    "league_trophies": 91,
+    "league_trophies_yearly": 68,
     "challenge_appearances": 53,
     "challenge_wins": 198,
     "challenge_losses": 126,
@@ -41,21 +41,6 @@
       "colors": [
         "B",
         "G",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2010636",
-      "tournament": "Pauper League",
-      "date": "2026-06-20",
-      "player": "Emogoblin",
-      "colors": [
-        "G",
-        "R",
         "W"
       ],
       "record": "5-0",
@@ -394,6 +379,22 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-05-3012843407",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-05-30",
+      "player": "Burnigh0",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 21,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -411,7 +412,7 @@
     },
     {
       "player": "Emogoblin",
-      "count": 6
+      "count": 5
     },
     {
       "player": "Maccaciock",
