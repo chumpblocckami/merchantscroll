@@ -2,10 +2,10 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 950,
-    "league_entries": 559,
-    "league_trophies": 559,
-    "league_trophies_yearly": 219,
+    "total_entries": 951,
+    "league_entries": 560,
+    "league_trophies": 560,
+    "league_trophies_yearly": 220,
     "challenge_appearances": 358,
     "challenge_wins": 1372,
     "challenge_losses": 922,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2310636",
+      "tournament": "Pauper League",
+      "date": "2026-06-23",
+      "player": "vini_torres",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2210636",
       "tournament": "Pauper League",
@@ -346,20 +360,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1610636",
-      "tournament": "Pauper League",
-      "date": "2026-06-16",
-      "player": "hyuma",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -369,7 +369,7 @@
     },
     {
       "player": "vini_torres",
-      "count": 65
+      "count": 66
     },
     {
       "player": "boom_bust",
