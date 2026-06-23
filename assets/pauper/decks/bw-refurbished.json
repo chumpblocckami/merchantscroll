@@ -2,21 +2,34 @@
   "archetype": "BW Refurbished",
   "slug": "bw-refurbished",
   "stats": {
-    "total_entries": 328,
-    "league_entries": 190,
-    "league_trophies": 190,
-    "league_trophies_yearly": 77,
+    "total_entries": 330,
+    "league_entries": 192,
+    "league_trophies": 192,
+    "league_trophies_yearly": 79,
     "challenge_appearances": 132,
     "challenge_wins": 501,
     "challenge_losses": 340,
     "irl_top8": 4,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 19,
+    "league_trophy_rank_yearly": 18,
     "league_trophy_rank_alltime": 18,
-    "league_trophy_decks_yearly": 62,
+    "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2310636",
+      "tournament": "Pauper League",
+      "date": "2026-06-23",
+      "player": "stonz",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2010636",
       "tournament": "Pauper League",
@@ -44,6 +57,20 @@
       "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1910636",
+      "tournament": "Pauper League",
+      "date": "2026-06-19",
+      "player": "clamego",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1812844831",
@@ -337,34 +364,6 @@
       "colors": [
         "B",
         "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-05-31-rolling-pauper-2026",
-      "tournament": "Rolling Pauper 2026 — Caserta",
-      "date": "2026-05-31",
-      "player": "Crescenzo Cipolletta",
-      "colors": [
-        "B",
-        "W"
-      ],
-      "record": "",
-      "final_rank": 3,
-      "source": "pauperwave",
-      "type": "irl"
-    },
-    {
-      "site_name": "pauper-league-2026-05-3110636",
-      "tournament": "Pauper League",
-      "date": "2026-05-31",
-      "player": "deatheaten",
-      "colors": [
-        "B",
         "W"
       ],
       "record": "5-0",

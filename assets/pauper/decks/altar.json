@@ -2,18 +2,18 @@
   "archetype": "Altar",
   "slug": "altar",
   "stats": {
-    "total_entries": 86,
-    "league_entries": 57,
-    "league_trophies": 57,
-    "league_trophies_yearly": 17,
+    "total_entries": 88,
+    "league_entries": 59,
+    "league_trophies": 59,
+    "league_trophies_yearly": 19,
     "challenge_appearances": 25,
     "challenge_wins": 97,
     "challenge_losses": 66,
     "irl_top8": 2,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 38,
+    "league_trophy_rank_yearly": 37,
     "league_trophy_rank_alltime": 36,
-    "league_trophy_decks_yearly": 62,
+    "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
@@ -47,6 +47,36 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2010636",
+      "tournament": "Pauper League",
+      "date": "2026-06-20",
+      "player": "Todeshorst",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1910636",
+      "tournament": "Pauper League",
+      "date": "2026-06-19",
+      "player": "Abisd94",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1112844295",
@@ -377,41 +407,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-02-2112833543",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-02-21",
-      "player": "Terminus0",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 25,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauperwave-2026-02-20-rivoli-winter-2025",
-      "tournament": "LP Rivoli Winter 2025 — Rivoli",
-      "date": "2026-02-20",
-      "player": "Paolo Simon",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "",
-      "final_rank": 3,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [
     {
       "player": "Abisd94",
-      "count": 14
+      "count": 15
     },
     {
       "player": "saidin.raken",

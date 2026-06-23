@@ -3,17 +3,17 @@
   "display_name": "clamego",
   "irl_name": null,
   "stats": {
-    "total_entries": 18,
-    "league_trophies": 9,
-    "league_trophies_yearly": 3,
+    "total_entries": 19,
+    "league_trophies": 10,
+    "league_trophies_yearly": 4,
     "challenge_wins": 28,
     "challenge_losses": 22,
     "irl_top8": 0,
     "challenge_win_pct": 56,
-    "league_trophy_rank_yearly": 301,
-    "league_trophy_rank_alltime": 235,
-    "league_trophy_players_yearly": 1162,
-    "league_trophy_players_alltime": 1920
+    "league_trophy_rank_yearly": 226,
+    "league_trophy_rank_alltime": 208,
+    "league_trophy_players_yearly": 1167,
+    "league_trophy_players_alltime": 1924
   },
   "favorite_decks": [
     {
@@ -30,6 +30,10 @@
     },
     {
       "archetype": "UB Faeries",
+      "count": 2
+    },
+    {
+      "archetype": "BW Refurbished",
       "count": 2
     },
     {
@@ -51,13 +55,24 @@
     {
       "archetype": "UB Terror",
       "count": 1
-    },
-    {
-      "archetype": "UR Control",
-      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-1910636",
+      "tournament": "Pauper League",
+      "date": "2026-06-19",
+      "player": "clamego",
+      "archetype": "BW Refurbished",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-04-0610405",
       "tournament": "Pauper League",
