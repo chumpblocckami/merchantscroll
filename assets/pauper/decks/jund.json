@@ -2,13 +2,13 @@
   "archetype": "Jund",
   "slug": "jund",
   "stats": {
-    "total_entries": 1137,
-    "league_entries": 510,
-    "league_trophies": 510,
-    "league_trophies_yearly": 189,
-    "challenge_appearances": 533,
-    "challenge_wins": 2139,
-    "challenge_losses": 1346,
+    "total_entries": 1141,
+    "league_entries": 511,
+    "league_trophies": 511,
+    "league_trophies_yearly": 190,
+    "challenge_appearances": 536,
+    "challenge_wins": 2149,
+    "challenge_losses": 1356,
     "irl_top8": 53,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 5,
@@ -121,6 +121,21 @@
       "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1910636",
+      "tournament": "Pauper League",
+      "date": "2026-06-19",
+      "player": "Lynx33",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-1910636",
@@ -376,27 +391,12 @@
       "final_rank": 5,
       "source": "pauperwave",
       "type": "irl"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1212844305",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-12",
-      "player": "Yugi_Muto",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "8-1",
-      "final_rank": 2,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "_blaze66",
-      "count": 140
+      "count": 141
     },
     {
       "player": "Walker735",
@@ -427,12 +427,12 @@
       "count": 17
     },
     {
-      "player": "Mikibairon96",
+      "player": "carvs",
       "count": 16
     },
     {
-      "player": "carvs",
-      "count": 15
+      "player": "Mikibairon96",
+      "count": 16
     }
   ]
 }

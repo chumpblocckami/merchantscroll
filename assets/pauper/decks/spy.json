@@ -2,13 +2,13 @@
   "archetype": "Spy",
   "slug": "spy",
   "stats": {
-    "total_entries": 666,
+    "total_entries": 667,
     "league_entries": 424,
     "league_trophies": 424,
     "league_trophies_yearly": 146,
-    "challenge_appearances": 197,
-    "challenge_wins": 795,
-    "challenge_losses": 493,
+    "challenge_appearances": 198,
+    "challenge_wins": 800,
+    "challenge_losses": 495,
     "irl_top8": 24,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 8,
@@ -272,6 +272,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-05-1712844295",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-11",
+      "player": "wand_thief",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-2",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-league-2026-06-0810636",
       "tournament": "Pauper League",
       "date": "2026-06-08",
@@ -373,21 +388,6 @@
       ],
       "record": "3-3",
       "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0512843783",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-05",
-      "player": "CHRIS-Mtg-02",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "3-2",
-      "final_rank": 16,
       "source": "mtgo",
       "type": "challenge"
     }

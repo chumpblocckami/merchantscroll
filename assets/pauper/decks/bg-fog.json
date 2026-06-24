@@ -2,13 +2,13 @@
   "archetype": "BG Fog",
   "slug": "bg-fog",
   "stats": {
-    "total_entries": 98,
-    "league_entries": 52,
-    "league_trophies": 52,
-    "league_trophies_yearly": 29,
-    "challenge_appearances": 39,
-    "challenge_wins": 170,
-    "challenge_losses": 95,
+    "total_entries": 100,
+    "league_entries": 53,
+    "league_trophies": 53,
+    "league_trophies_yearly": 30,
+    "challenge_appearances": 40,
+    "challenge_wins": 174,
+    "challenge_losses": 98,
     "irl_top8": 3,
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 32,
@@ -34,6 +34,20 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-06-2010636",
+      "tournament": "Pauper League",
+      "date": "2026-06-20",
+      "player": "KuramaKev",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2026-06-1510636",
       "tournament": "Pauper League",
       "date": "2026-06-15",
@@ -51,6 +65,22 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1112844295",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-11",
+      "player": "HoldTheElle",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-05-1712844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
       "player": "HoldTheElle",
@@ -379,38 +409,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-1412835312",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-14",
-      "player": "Taddy_99",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "2-3",
-      "final_rank": 28,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-1412835312",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-14",
-      "player": "Hampuse1",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 30,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -431,12 +429,12 @@
       "count": 11
     },
     {
-      "player": "BabySoft",
+      "player": "HoldTheElle",
       "count": 4
     },
     {
-      "player": "HoldTheElle",
-      "count": 3
+      "player": "BabySoft",
+      "count": 4
     },
     {
       "player": "Taddy_99",

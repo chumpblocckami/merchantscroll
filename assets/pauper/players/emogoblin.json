@@ -3,17 +3,17 @@
   "display_name": "Emogoblin",
   "irl_name": null,
   "stats": {
-    "total_entries": 28,
+    "total_entries": 29,
     "league_trophies": 10,
     "league_trophies_yearly": 8,
-    "challenge_wins": 76,
-    "challenge_losses": 45,
+    "challenge_wins": 82,
+    "challenge_losses": 47,
     "irl_top8": 0,
-    "challenge_win_pct": 63,
+    "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 99,
     "league_trophy_rank_alltime": 211,
-    "league_trophy_players_yearly": 1165,
-    "league_trophy_players_alltime": 1921
+    "league_trophy_players_yearly": 1166,
+    "league_trophy_players_alltime": 1922
   },
   "favorite_decks": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "archetype": "Naya Gates",
-      "count": 2
+      "count": 3
     },
     {
       "archetype": "Elves",
@@ -55,7 +55,7 @@
       "tournament": "Pauper League",
       "date": "2026-06-20",
       "player": "Emogoblin",
-      "archetype": "GW Gates",
+      "archetype": "Naya Gates",
       "colors": [
         "G",
         "R",
@@ -117,6 +117,22 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1112844295",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-11",
+      "player": "Emogoblin",
+      "archetype": "GW Gates",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "6-2",
+      "final_rank": 3,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-05-1712844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
       "player": "Emogoblin",
@@ -447,22 +463,6 @@
       "final_rank": 20,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-01-019987",
-      "tournament": "pauper-league-2026-01-019987",
-      "date": "2026-01-01",
-      "player": "Emogoblin",
-      "archetype": "",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

@@ -2,13 +2,13 @@
   "archetype": "Pingers",
   "slug": "pingers",
   "stats": {
-    "total_entries": 285,
+    "total_entries": 286,
     "league_entries": 178,
     "league_trophies": 178,
     "league_trophies_yearly": 10,
-    "challenge_appearances": 92,
-    "challenge_wins": 382,
-    "challenge_losses": 247,
+    "challenge_appearances": 93,
+    "challenge_wins": 386,
+    "challenge_losses": 249,
     "irl_top8": 7,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 45,
@@ -55,6 +55,19 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-05-1712844295",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-11",
+      "player": "John1111",
+      "colors": [
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauperwave-2026-05-31-roma-summer-2026",
@@ -329,21 +342,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-12-2712828084",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-12-27",
-      "player": "Lamela",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [

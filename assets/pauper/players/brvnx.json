@@ -3,17 +3,17 @@
   "display_name": "Brvnx",
   "irl_name": null,
   "stats": {
-    "total_entries": 56,
+    "total_entries": 57,
     "league_trophies": 16,
     "league_trophies_yearly": 7,
-    "challenge_wins": 155,
-    "challenge_losses": 94,
+    "challenge_wins": 159,
+    "challenge_losses": 96,
     "irl_top8": 0,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 120,
     "league_trophy_rank_alltime": 117,
-    "league_trophy_players_yearly": 1165,
-    "league_trophy_players_alltime": 1921
+    "league_trophy_players_yearly": 1166,
+    "league_trophy_players_alltime": 1922
   },
   "favorite_decks": [
     {
@@ -26,7 +26,7 @@
     },
     {
       "archetype": "UR Control",
-      "count": 12
+      "count": 13
     },
     {
       "archetype": "Cawgate",
@@ -86,6 +86,21 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1112844295",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-11",
+      "player": "Brvnx",
+      "archetype": "UR Control",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 12,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-05-1712844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
       "player": "Brvnx",
@@ -409,21 +424,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-01-1712830048",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-17",
-      "player": "Brvnx",
-      "archetype": "UR Control",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "6-2",
-      "final_rank": 3,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

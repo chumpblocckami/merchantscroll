@@ -2,17 +2,17 @@
   "archetype": "Temur Control",
   "slug": "temur-control",
   "stats": {
-    "total_entries": 5,
-    "league_entries": 2,
-    "league_trophies": 2,
-    "league_trophies_yearly": 2,
-    "challenge_appearances": 1,
-    "challenge_wins": 4,
-    "challenge_losses": 3,
+    "total_entries": 7,
+    "league_entries": 3,
+    "league_trophies": 3,
+    "league_trophies_yearly": 3,
+    "challenge_appearances": 2,
+    "challenge_wins": 7,
+    "challenge_losses": 6,
     "irl_top8": 2,
-    "challenge_win_pct": 57,
-    "league_trophy_rank_yearly": 58,
-    "league_trophy_rank_alltime": 67,
+    "challenge_win_pct": 54,
+    "league_trophy_rank_yearly": 54,
+    "league_trophy_rank_alltime": 62,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
@@ -31,6 +31,20 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2010636",
+      "tournament": "Pauper League",
+      "date": "2026-06-20",
+      "player": "Fluc_",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-1910636",
@@ -78,6 +92,21 @@
       "type": "irl"
     },
     {
+      "site_name": "pauper-challenge-32-2026-05-1712844295",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-11",
+      "player": "kuszlik",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauperwave-2026-06-10-modena-summer-2026",
       "tournament": "LP Modena Summer 2026 — Modena",
       "date": "2026-06-10",
@@ -99,11 +128,19 @@
       "count": 2
     },
     {
+      "player": "Fluc_",
+      "count": 1
+    },
+    {
       "player": "qwertyelmer",
       "count": 1
     },
     {
       "player": "Daniele Gambini",
+      "count": 1
+    },
+    {
+      "player": "kuszlik",
       "count": 1
     },
     {

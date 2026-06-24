@@ -3,27 +3,43 @@
   "display_name": "Starlliege",
   "irl_name": null,
   "stats": {
-    "total_entries": 2,
+    "total_entries": 3,
     "league_trophies": 1,
     "league_trophies_yearly": 1,
-    "challenge_wins": 2,
-    "challenge_losses": 3,
+    "challenge_wins": 4,
+    "challenge_losses": 6,
     "irl_top8": 0,
     "challenge_win_pct": 40,
-    "league_trophy_rank_yearly": 1091,
-    "league_trophy_rank_alltime": 1797,
-    "league_trophy_players_yearly": 1165,
-    "league_trophy_players_alltime": 1921
+    "league_trophy_rank_yearly": 1092,
+    "league_trophy_rank_alltime": 1798,
+    "league_trophy_players_yearly": 1166,
+    "league_trophy_players_alltime": 1922
   },
   "favorite_decks": [
     {
       "archetype": "Jund",
-      "count": 2
+      "count": 3
     }
   ],
   "recent_entries": [
     {
       "site_name": "pauper-challenge-32-2026-06-1112844295",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-11",
+      "player": "Starlliege",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "2-3",
+      "final_rank": 30,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-05-1712844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
       "player": "Starlliege",
