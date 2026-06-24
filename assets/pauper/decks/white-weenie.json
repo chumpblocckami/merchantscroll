@@ -2,19 +2,19 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 566,
-    "league_entries": 335,
-    "league_trophies": 335,
-    "league_trophies_yearly": 145,
+    "total_entries": 568,
+    "league_entries": 337,
+    "league_trophies": 337,
+    "league_trophies_yearly": 147,
     "challenge_appearances": 205,
     "challenge_wins": 792,
     "challenge_losses": 515,
     "irl_top8": 15,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 9,
-    "league_trophy_rank_alltime": 9,
-    "league_trophy_decks_yearly": 63,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_rank_yearly": 8,
+    "league_trophy_rank_alltime": 8,
+    "league_trophy_decks_yearly": 64,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -39,6 +39,35 @@
       "date": "2026-06-23",
       "player": "Poily",
       "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2210636",
+      "tournament": "Pauper League",
+      "date": "2026-06-22",
+      "player": "barba94",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2210636",
+      "tournament": "Pauper League",
+      "date": "2026-06-22",
+      "player": "Guidonick",
+      "colors": [
+        "B",
+        "R",
+        "U",
         "W"
       ],
       "record": "5-0",
@@ -324,35 +353,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0612843798",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-06",
-      "player": "mei0024",
-      "colors": [
-        "R",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0512843783",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-05",
-      "player": "dragtar",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [

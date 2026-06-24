@@ -2,21 +2,34 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 953,
-    "league_entries": 560,
-    "league_trophies": 560,
-    "league_trophies_yearly": 220,
+    "total_entries": 956,
+    "league_entries": 563,
+    "league_trophies": 563,
+    "league_trophies_yearly": 223,
     "challenge_appearances": 360,
     "challenge_wins": 1379,
     "challenge_losses": 927,
     "irl_top8": 21,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 4,
+    "league_trophy_rank_yearly": 3,
     "league_trophy_rank_alltime": 4,
-    "league_trophy_decks_yearly": 63,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 64,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2410855",
+      "tournament": "Pauper League",
+      "date": "2026-06-24",
+      "player": "SaculSueahtam",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2310636",
       "tournament": "Pauper League",
@@ -49,6 +62,34 @@
       "tournament": "Pauper League",
       "date": "2026-06-23",
       "player": "hjc",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2210636",
+      "tournament": "Pauper League",
+      "date": "2026-06-22",
+      "player": "ziofrancone",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2210636",
+      "tournament": "Pauper League",
+      "date": "2026-06-22",
+      "player": "Kelekkis",
       "colors": [
         "G",
         "R"
@@ -318,53 +359,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1710636",
-      "tournament": "Pauper League",
-      "date": "2026-06-17",
-      "player": "Albreto",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1710636",
-      "tournament": "Pauper League",
-      "date": "2026-06-17",
-      "player": "kmasuyama",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1610636",
-      "tournament": "Pauper League",
-      "date": "2026-06-16",
-      "player": "hjc",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "SaculSueahtam",
-      "count": 73
+      "count": 74
     },
     {
       "player": "vini_torres",

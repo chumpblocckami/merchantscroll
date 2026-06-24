@@ -2,19 +2,19 @@
   "archetype": "Altar",
   "slug": "altar",
   "stats": {
-    "total_entries": 87,
+    "total_entries": 88,
     "league_entries": 58,
     "league_trophies": 58,
     "league_trophies_yearly": 18,
-    "challenge_appearances": 25,
-    "challenge_wins": 97,
-    "challenge_losses": 66,
+    "challenge_appearances": 26,
+    "challenge_wins": 101,
+    "challenge_losses": 68,
     "irl_top8": 2,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 36,
+    "league_trophy_rank_yearly": 37,
     "league_trophy_rank_alltime": 36,
-    "league_trophy_decks_yearly": 63,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 64,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -49,10 +49,10 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-06-1910636",
+      "site_name": "pauper-league-2026-06-2010636",
       "tournament": "Pauper League",
-      "date": "2026-06-19",
-      "player": "Abisd94",
+      "date": "2026-06-20",
+      "player": "Todeshorst",
       "colors": [
         "B",
         "G",
@@ -65,6 +65,23 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1112844295",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-11",
+      "player": "Entropy263",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 14,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-05-1712844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
       "player": "Entropy263",
@@ -392,27 +409,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-02-2112833543",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-02-21",
-      "player": "Terminus0",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 25,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "Abisd94",
-      "count": 15
+      "count": 14
     },
     {
       "player": "saidin.raken",
@@ -424,7 +426,7 @@
     },
     {
       "player": "Entropy263",
-      "count": 8
+      "count": 9
     },
     {
       "player": "DataPusher",

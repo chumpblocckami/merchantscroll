@@ -2,10 +2,10 @@
   "archetype": "R Madness",
   "slug": "r-madness",
   "stats": {
-    "total_entries": 1744,
-    "league_entries": 1042,
-    "league_trophies": 1042,
-    "league_trophies_yearly": 470,
+    "total_entries": 1748,
+    "league_entries": 1046,
+    "league_trophies": 1046,
+    "league_trophies_yearly": 474,
     "challenge_appearances": 603,
     "challenge_wins": 2368,
     "challenge_losses": 1527,
@@ -13,10 +13,40 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 1,
     "league_trophy_rank_alltime": 1,
-    "league_trophy_decks_yearly": 63,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 64,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2410855",
+      "tournament": "Pauper League",
+      "date": "2026-06-24",
+      "player": "hyuma",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2410855",
+      "tournament": "Pauper League",
+      "date": "2026-06-24",
+      "player": "fazparte",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2310855",
       "tournament": "Pauper League",
@@ -67,6 +97,36 @@
       "tournament": "Pauper League",
       "date": "2026-06-23",
       "player": "Hericllys",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2210636",
+      "tournament": "Pauper League",
+      "date": "2026-06-22",
+      "player": "yahakara",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2210636",
+      "tournament": "Pauper League",
+      "date": "2026-06-22",
+      "player": "MisterTwin",
       "colors": [
         "B",
         "R",
@@ -332,72 +392,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1812844831",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-18",
-      "player": "giulio854854",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1812844831",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-18",
-      "player": "Albreto",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 14,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1812844831",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-18",
-      "player": "sai199orz",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 21,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1812844831",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-18",
-      "player": "ElkVinci",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "MisterTwin",
-      "count": 73
+      "count": 74
     },
     {
       "player": "boom_bust",
@@ -428,12 +428,12 @@
       "count": 23
     },
     {
-      "player": "Blvcky",
+      "player": "fazparte",
       "count": 22
     },
     {
-      "player": "fazparte",
-      "count": 21
+      "player": "Blvcky",
+      "count": 22
     }
   ]
 }

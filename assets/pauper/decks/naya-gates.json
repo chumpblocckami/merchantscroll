@@ -2,21 +2,38 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 72,
-    "league_entries": 34,
-    "league_trophies": 34,
-    "league_trophies_yearly": 27,
+    "total_entries": 76,
+    "league_entries": 38,
+    "league_trophies": 38,
+    "league_trophies_yearly": 31,
     "challenge_appearances": 24,
     "challenge_wins": 91,
     "challenge_losses": 54,
     "irl_top8": 12,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 34,
+    "league_trophy_rank_yearly": 32,
     "league_trophy_rank_alltime": 42,
-    "league_trophy_decks_yearly": 63,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 64,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2410855",
+      "tournament": "Pauper League",
+      "date": "2026-06-24",
+      "player": "Protean_Hulk",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2310855",
       "tournament": "Pauper League",
@@ -39,6 +56,57 @@
       "tournament": "Pauper League",
       "date": "2026-06-23",
       "player": "marzaboi",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2210636",
+      "tournament": "Pauper League",
+      "date": "2026-06-22",
+      "player": "Serpico_CC",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2210636",
+      "tournament": "Pauper League",
+      "date": "2026-06-22",
+      "player": "renato_tadeo",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2210636",
+      "tournament": "Pauper League",
+      "date": "2026-06-22",
+      "player": "Emogoblin",
       "colors": [
         "B",
         "G",
@@ -353,85 +421,19 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-04-3010636",
-      "tournament": "Pauper League",
-      "date": "2026-04-30",
-      "player": "PunTheDawg",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-3012841331",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-30",
-      "player": "_against_",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-04-2610636",
-      "tournament": "Pauper League",
-      "date": "2026-04-26",
-      "player": "BokyFloky",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-2512840552",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-25",
-      "player": "NMT_Sco94",
-      "colors": [
-        "B",
-        "G",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
+    {
+      "player": "Emogoblin",
+      "count": 4
+    },
     {
       "player": "manohito",
       "count": 4
     },
     {
       "player": "CHRIS-Mtg-02",
-      "count": 3
-    },
-    {
-      "player": "Emogoblin",
       "count": 3
     },
     {
@@ -455,11 +457,11 @@
       "count": 2
     },
     {
-      "player": "Andrea Mattei",
-      "count": 1
+      "player": "Serpico_CC",
+      "count": 2
     },
     {
-      "player": "Mrityuhara",
+      "player": "Andrea Mattei",
       "count": 1
     }
   ]

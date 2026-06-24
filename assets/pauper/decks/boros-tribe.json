@@ -2,26 +2,58 @@
   "archetype": "Boros Tribe",
   "slug": "boros-tribe",
   "stats": {
-    "total_entries": 75,
-    "league_entries": 43,
-    "league_trophies": 43,
-    "league_trophies_yearly": 43,
+    "total_entries": 77,
+    "league_entries": 45,
+    "league_trophies": 45,
+    "league_trophies_yearly": 45,
     "challenge_appearances": 29,
     "challenge_wins": 115,
     "challenge_losses": 73,
     "irl_top8": 3,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 27,
-    "league_trophy_rank_alltime": 40,
-    "league_trophy_decks_yearly": 63,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_rank_yearly": 26,
+    "league_trophy_rank_alltime": 39,
+    "league_trophy_decks_yearly": 64,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2410855",
+      "tournament": "Pauper League",
+      "date": "2026-06-24",
+      "player": "MisterAsiago",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2310855",
       "tournament": "Pauper League",
       "date": "2026-06-23",
       "player": "Nfinity14",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2210636",
+      "tournament": "Pauper League",
+      "date": "2026-06-22",
+      "player": "NiccoGra",
       "colors": [
         "B",
         "R",
@@ -385,38 +417,6 @@
       "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2110636",
-      "tournament": "Pauper League",
-      "date": "2026-05-21",
-      "player": "forse",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2110636",
-      "tournament": "Pauper League",
-      "date": "2026-05-21",
-      "player": "bigcrab89",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -433,6 +433,10 @@
       "count": 6
     },
     {
+      "player": "MisterAsiago",
+      "count": 4
+    },
+    {
       "player": "Lee_Sang",
       "count": 4
     },
@@ -446,10 +450,6 @@
     },
     {
       "player": "Hamuda",
-      "count": 3
-    },
-    {
-      "player": "MisterAsiago",
       "count": 3
     },
     {

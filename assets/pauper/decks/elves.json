@@ -2,19 +2,19 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1132,
-    "league_entries": 602,
-    "league_trophies": 602,
-    "league_trophies_yearly": 220,
+    "total_entries": 1134,
+    "league_entries": 604,
+    "league_trophies": 604,
+    "league_trophies_yearly": 222,
     "challenge_appearances": 471,
     "challenge_wins": 1867,
     "challenge_losses": 1182,
     "irl_top8": 31,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 3,
+    "league_trophy_rank_yearly": 4,
     "league_trophy_rank_alltime": 3,
-    "league_trophy_decks_yearly": 63,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 64,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -35,6 +35,33 @@
       "tournament": "Pauper League",
       "date": "2026-06-23",
       "player": "Enz091",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2210636",
+      "tournament": "Pauper League",
+      "date": "2026-06-22",
+      "player": "gaahei1",
+      "colors": [
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2210636",
+      "tournament": "Pauper League",
+      "date": "2026-06-22",
+      "player": "_ratchet_",
       "colors": [
         "B",
         "G"
@@ -339,34 +366,6 @@
       ],
       "record": "4-3",
       "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1212844305",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-12",
-      "player": "Enz091",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-2",
-      "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1212844305",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-12",
-      "player": "KOKOLOKO3435",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "3-3",
-      "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
     }
