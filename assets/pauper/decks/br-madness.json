@@ -2,10 +2,10 @@
   "archetype": "BR Madness",
   "slug": "br-madness",
   "stats": {
-    "total_entries": 756,
-    "league_entries": 366,
-    "league_trophies": 366,
-    "league_trophies_yearly": 100,
+    "total_entries": 757,
+    "league_entries": 367,
+    "league_trophies": 367,
+    "league_trophies_yearly": 101,
     "challenge_appearances": 363,
     "challenge_wins": 1475,
     "challenge_losses": 923,
@@ -31,6 +31,21 @@
       "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2410855",
+      "tournament": "Pauper League",
+      "date": "2026-06-24",
+      "player": "Caveman95",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-2210636",
@@ -374,21 +389,6 @@
       ],
       "record": "3-3",
       "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-1712844295",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-11",
-      "player": "Captain_Tsubasa",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
     }

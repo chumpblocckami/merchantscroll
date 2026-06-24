@@ -2,21 +2,36 @@
   "archetype": "BG Glee",
   "slug": "bg-glee",
   "stats": {
-    "total_entries": 4,
+    "total_entries": 5,
     "league_entries": 2,
     "league_trophies": 2,
     "league_trophies_yearly": 0,
-    "challenge_appearances": 0,
-    "challenge_wins": 0,
-    "challenge_losses": 0,
+    "challenge_appearances": 1,
+    "challenge_wins": 3,
+    "challenge_losses": 3,
     "irl_top8": 2,
-    "challenge_win_pct": null,
+    "challenge_win_pct": 50,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": 64,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "PNascimento",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2025-10-059750",
       "tournament": "pauper-league-2025-10-059750",
@@ -83,6 +98,10 @@
     },
     {
       "player": "kuldothared",
+      "count": 1
+    },
+    {
+      "player": "PNascimento",
       "count": 1
     },
     {

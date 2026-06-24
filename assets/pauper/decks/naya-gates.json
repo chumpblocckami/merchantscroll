@@ -2,16 +2,16 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 85,
-    "league_entries": 42,
-    "league_trophies": 42,
-    "league_trophies_yearly": 35,
+    "total_entries": 86,
+    "league_entries": 43,
+    "league_trophies": 43,
+    "league_trophies_yearly": 36,
     "challenge_appearances": 29,
     "challenge_wins": 111,
     "challenge_losses": 65,
     "irl_top8": 12,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 31,
+    "league_trophy_rank_yearly": 30,
     "league_trophy_rank_alltime": 41,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
@@ -174,6 +174,23 @@
       "tournament": "Pauper League",
       "date": "2026-06-24",
       "player": "celobee",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2410855",
+      "tournament": "Pauper League",
+      "date": "2026-06-24",
+      "player": "jbl2311",
       "colors": [
         "B",
         "G",
@@ -413,22 +430,6 @@
       "final_rank": 16,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-05-1810636",
-      "tournament": "Pauper League",
-      "date": "2026-05-18",
-      "player": "Hype12232",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [

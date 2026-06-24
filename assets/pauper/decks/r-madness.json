@@ -2,10 +2,10 @@
   "archetype": "R Madness",
   "slug": "r-madness",
   "stats": {
-    "total_entries": 1756,
-    "league_entries": 1051,
-    "league_trophies": 1051,
-    "league_trophies_yearly": 479,
+    "total_entries": 1757,
+    "league_entries": 1052,
+    "league_trophies": 1052,
+    "league_trophies_yearly": 480,
     "challenge_appearances": 606,
     "challenge_wins": 2376,
     "challenge_losses": 1536,
@@ -157,6 +157,21 @@
       "tournament": "Pauper League",
       "date": "2026-06-24",
       "player": "lgqueiroz3",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2410855",
+      "tournament": "Pauper League",
+      "date": "2026-06-24",
+      "player": "ff7",
       "colors": [
         "B",
         "R",
@@ -375,21 +390,6 @@
       ],
       "record": "4-2",
       "final_rank": 9,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2012844856",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-20",
-      "player": "eresopacaso",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
     }
