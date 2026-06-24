@@ -2,10 +2,10 @@
   "archetype": "Spy",
   "slug": "spy",
   "stats": {
-    "total_entries": 667,
-    "league_entries": 424,
-    "league_trophies": 424,
-    "league_trophies_yearly": 146,
+    "total_entries": 666,
+    "league_entries": 423,
+    "league_trophies": 423,
+    "league_trophies_yearly": 145,
     "challenge_appearances": 198,
     "challenge_wins": 800,
     "challenge_losses": 495,
@@ -46,21 +46,6 @@
       "final_rank": 14,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2110636",
-      "tournament": "Pauper League",
-      "date": "2026-06-21",
-      "player": "lumely",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1912844841",
@@ -388,6 +373,21 @@
       ],
       "record": "3-3",
       "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0512843783",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-05",
+      "player": "CHRIS-Mtg-02",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-2",
+      "final_rank": 16,
       "source": "mtgo",
       "type": "challenge"
     }

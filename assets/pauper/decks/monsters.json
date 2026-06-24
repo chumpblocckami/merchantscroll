@@ -2,10 +2,10 @@
   "archetype": "Monsters",
   "slug": "monsters",
   "stats": {
-    "total_entries": 364,
-    "league_entries": 207,
-    "league_trophies": 207,
-    "league_trophies_yearly": 62,
+    "total_entries": 363,
+    "league_entries": 206,
+    "league_trophies": 206,
+    "league_trophies_yearly": 61,
     "challenge_appearances": 132,
     "challenge_wins": 478,
     "challenge_losses": 348,
@@ -17,20 +17,6 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-06-2110636",
-      "tournament": "Pauper League",
-      "date": "2026-06-21",
-      "player": "donnetokyo",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-challenge-32-2026-06-1912844841",
       "tournament": "Pauper Challenge 32",
@@ -372,6 +358,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-05-0510636",
+      "tournament": "Pauper League",
+      "date": "2026-05-05",
+      "player": "Livio1",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -408,11 +409,11 @@
       "count": 5
     },
     {
-      "player": "donnetokyo",
+      "player": "knighthawkrex",
       "count": 5
     },
     {
-      "player": "knighthawkrex",
+      "player": "Cheers",
       "count": 5
     }
   ]

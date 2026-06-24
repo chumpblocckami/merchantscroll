@@ -3,17 +3,17 @@
   "display_name": "LabroNico",
   "irl_name": null,
   "stats": {
-    "total_entries": 25,
-    "league_trophies": 18,
-    "league_trophies_yearly": 5,
+    "total_entries": 26,
+    "league_trophies": 19,
+    "league_trophies_yearly": 6,
     "challenge_wins": 25,
     "challenge_losses": 16,
     "irl_top8": 0,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 194,
-    "league_trophy_rank_alltime": 101,
-    "league_trophy_players_yearly": 1173,
-    "league_trophy_players_alltime": 1929
+    "league_trophy_rank_yearly": 146,
+    "league_trophy_rank_alltime": 92,
+    "league_trophy_players_yearly": 1167,
+    "league_trophy_players_alltime": 1923
   },
   "favorite_decks": [
     {
@@ -43,9 +43,31 @@
     {
       "archetype": "Flicker Tron",
       "count": 1
+    },
+    {
+      "archetype": "Naya Gates",
+      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2410855",
+      "tournament": "Pauper League",
+      "date": "2026-06-24",
+      "player": "LabroNico",
+      "archetype": "Naya Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-0310636",
       "tournament": "Pauper League",
@@ -426,22 +448,6 @@
       "final_rank": 3,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-03-269535",
-      "tournament": "pauper-league-2025-03-269535",
-      "date": "2025-03-26",
-      "player": "LabroNico",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }
