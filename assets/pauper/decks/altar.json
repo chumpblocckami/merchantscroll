@@ -2,16 +2,16 @@
   "archetype": "Altar",
   "slug": "altar",
   "stats": {
-    "total_entries": 91,
-    "league_entries": 61,
-    "league_trophies": 61,
-    "league_trophies_yearly": 21,
+    "total_entries": 87,
+    "league_entries": 57,
+    "league_trophies": 57,
+    "league_trophies_yearly": 17,
     "challenge_appearances": 26,
     "challenge_wins": 101,
     "challenge_losses": 68,
     "irl_top8": 2,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 36,
+    "league_trophy_rank_yearly": 38,
     "league_trophy_rank_alltime": 36,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
@@ -47,68 +47,6 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2010636",
-      "tournament": "Pauper League",
-      "date": "2026-06-20",
-      "player": "Abisd94",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2010636",
-      "tournament": "Pauper League",
-      "date": "2026-06-20",
-      "player": "Todeshorst",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1910636",
-      "tournament": "Pauper League",
-      "date": "2026-06-19",
-      "player": "Abisd94",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1910636",
-      "tournament": "Pauper League",
-      "date": "2026-06-19",
-      "player": "Huskyman20035",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1112844295",
@@ -409,12 +347,74 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-2510196",
+      "tournament": "pauper-league-2026-02-2510196",
+      "date": "2026-02-25",
+      "player": "giuliodice",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-2410196",
+      "tournament": "pauper-league-2026-02-2410196",
+      "date": "2026-02-24",
+      "player": "saidin.raken",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-2310196",
+      "tournament": "pauper-league-2026-02-2310196",
+      "date": "2026-02-23",
+      "player": "Loerien",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-02-2112833543",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-02-21",
+      "player": "Terminus0",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "Abisd94",
-      "count": 16
+      "count": 14
     },
     {
       "player": "saidin.raken",
@@ -437,10 +437,6 @@
       "count": 3
     },
     {
-      "player": "Huskyman20035",
-      "count": 3
-    },
-    {
       "player": "yasiu86",
       "count": 2
     },
@@ -450,6 +446,10 @@
     },
     {
       "player": "mimmON",
+      "count": 2
+    },
+    {
+      "player": "Nasello",
       "count": 2
     }
   ]

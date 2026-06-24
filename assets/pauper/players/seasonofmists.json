@@ -3,17 +3,17 @@
   "display_name": "seasonofmists",
   "irl_name": null,
   "stats": {
-    "total_entries": 60,
+    "total_entries": 61,
     "league_trophies": 4,
     "league_trophies_yearly": 0,
-    "challenge_wins": 254,
-    "challenge_losses": 119,
+    "challenge_wins": 262,
+    "challenge_losses": 120,
     "irl_top8": 0,
-    "challenge_win_pct": 68,
+    "challenge_win_pct": 69,
     "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 602,
-    "league_trophy_players_yearly": 1167,
-    "league_trophy_players_alltime": 1923
+    "league_trophy_rank_alltime": 603,
+    "league_trophy_players_yearly": 1175,
+    "league_trophy_players_alltime": 1930
   },
   "favorite_decks": [
     {
@@ -35,9 +35,31 @@
     {
       "archetype": "Affinity",
       "count": 1
+    },
+    {
+      "archetype": "Naya Gates",
+      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "seasonofmists",
+      "archetype": "Naya Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "8-1",
+      "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-05-2912843392",
       "tournament": "Pauper Challenge 32",
@@ -443,22 +465,6 @@
       ],
       "record": "3-3",
       "final_rank": 25,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-01-1012829365",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-10",
-      "player": "seasonofmists",
-      "archetype": "Dredge",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "8-1",
-      "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
     }

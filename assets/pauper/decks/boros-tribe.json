@@ -2,16 +2,16 @@
   "archetype": "Boros Tribe",
   "slug": "boros-tribe",
   "stats": {
-    "total_entries": 77,
-    "league_entries": 45,
-    "league_trophies": 45,
-    "league_trophies_yearly": 45,
+    "total_entries": 78,
+    "league_entries": 46,
+    "league_trophies": 46,
+    "league_trophies_yearly": 46,
     "challenge_appearances": 29,
     "challenge_wins": 115,
     "challenge_losses": 73,
     "irl_top8": 3,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 27,
+    "league_trophy_rank_yearly": 26,
     "league_trophy_rank_alltime": 39,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
@@ -22,6 +22,22 @@
       "tournament": "Pauper League",
       "date": "2026-06-24",
       "player": "MisterAsiago",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2410855",
+      "tournament": "Pauper League",
+      "date": "2026-06-24",
+      "player": "NiccoGra",
       "colors": [
         "B",
         "R",
@@ -401,22 +417,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2212842901",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-22",
-      "player": "Emogoblin",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [

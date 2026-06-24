@@ -2,13 +2,13 @@
   "archetype": "U Faeries",
   "slug": "u-faeries",
   "stats": {
-    "total_entries": 528,
+    "total_entries": 529,
     "league_entries": 295,
     "league_trophies": 295,
     "league_trophies_yearly": 69,
-    "challenge_appearances": 209,
-    "challenge_wins": 858,
-    "challenge_losses": 527,
+    "challenge_appearances": 210,
+    "challenge_wins": 862,
+    "challenge_losses": 530,
     "irl_top8": 11,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 21,
@@ -17,6 +17,19 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "Guii_Machado",
+      "colors": [
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-2410855",
       "tournament": "Pauper League",
@@ -332,19 +345,6 @@
       "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauperwave-2026-05-24-pauperagù",
-      "tournament": "Pauperagù 2026 — Bologna",
-      "date": "2026-05-24",
-      "player": "Stefano Monti",
-      "colors": [
-        "U"
-      ],
-      "record": "",
-      "final_rank": 5,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [
@@ -354,7 +354,7 @@
     },
     {
       "player": "Guii_Machado",
-      "count": 16
+      "count": 17
     },
     {
       "player": "serajh",

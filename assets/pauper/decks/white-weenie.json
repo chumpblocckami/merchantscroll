@@ -2,21 +2,37 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 567,
-    "league_entries": 336,
-    "league_trophies": 336,
-    "league_trophies_yearly": 146,
-    "challenge_appearances": 205,
-    "challenge_wins": 792,
-    "challenge_losses": 515,
+    "total_entries": 569,
+    "league_entries": 337,
+    "league_trophies": 337,
+    "league_trophies_yearly": 147,
+    "challenge_appearances": 206,
+    "challenge_wins": 797,
+    "challenge_losses": 517,
     "irl_top8": 15,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 8,
-    "league_trophy_rank_alltime": 9,
+    "league_trophy_rank_alltime": 8,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "Supremoguy",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-2310855",
       "tournament": "Pauper League",
@@ -87,6 +103,19 @@
       "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2110636",
+      "tournament": "Pauper League",
+      "date": "2026-06-21",
+      "player": "YulSeht",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2012844856",
@@ -325,33 +354,6 @@
       ],
       "record": "4-2",
       "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0710636",
-      "tournament": "Pauper League",
-      "date": "2026-06-07",
-      "player": "TryHardMol",
-      "colors": [
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0612843798",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-06",
-      "player": "mei0024",
-      "colors": [
-        "R",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
     }

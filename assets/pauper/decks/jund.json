@@ -2,13 +2,13 @@
   "archetype": "Jund",
   "slug": "jund",
   "stats": {
-    "total_entries": 1140,
-    "league_entries": 510,
-    "league_trophies": 510,
-    "league_trophies_yearly": 189,
-    "challenge_appearances": 536,
-    "challenge_wins": 2149,
-    "challenge_losses": 1356,
+    "total_entries": 1143,
+    "league_entries": 512,
+    "league_trophies": 512,
+    "league_trophies_yearly": 191,
+    "challenge_appearances": 537,
+    "challenge_wins": 2155,
+    "challenge_losses": 1357,
     "irl_top8": 53,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 5,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "ziofrancone",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "6-1",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-2210636",
       "tournament": "Pauper League",
@@ -46,6 +61,36 @@
       "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2110636",
+      "tournament": "Pauper League",
+      "date": "2026-06-21",
+      "player": "fufu1",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2110636",
+      "tournament": "Pauper League",
+      "date": "2026-06-21",
+      "player": "Dragnoob01",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2012844856",
@@ -344,51 +389,6 @@
       ],
       "record": "3-3",
       "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1312844320",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-13",
-      "player": "Jinjaa",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "2-4",
-      "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauperwave-2026-06-13-versilia-summer-2026",
-      "tournament": "LP Versilia Summer 2026 — Versilia",
-      "date": "2026-06-13",
-      "player": "Lorenzo Buzzoni",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "",
-      "final_rank": 5,
-      "source": "pauperwave",
-      "type": "irl"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1212844305",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-12",
-      "player": "Yugi_Muto",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "8-1",
-      "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
     }

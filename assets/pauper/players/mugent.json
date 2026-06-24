@@ -3,22 +3,22 @@
   "display_name": "mugent",
   "irl_name": null,
   "stats": {
-    "total_entries": 43,
-    "league_trophies": 22,
-    "league_trophies_yearly": 12,
+    "total_entries": 44,
+    "league_trophies": 23,
+    "league_trophies_yearly": 13,
     "challenge_wins": 72,
     "challenge_losses": 55,
     "irl_top8": 0,
     "challenge_win_pct": 57,
-    "league_trophy_rank_yearly": 61,
-    "league_trophy_rank_alltime": 76,
-    "league_trophy_players_yearly": 1167,
-    "league_trophy_players_alltime": 1923
+    "league_trophy_rank_yearly": 57,
+    "league_trophy_rank_alltime": 69,
+    "league_trophy_players_yearly": 1175,
+    "league_trophy_players_alltime": 1930
   },
   "favorite_decks": [
     {
       "archetype": "R Madness",
-      "count": 13
+      "count": 14
     },
     {
       "archetype": "Pingers",
@@ -58,6 +58,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2110636",
+      "tournament": "Pauper League",
+      "date": "2026-06-21",
+      "player": "mugent",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-1510636",
       "tournament": "Pauper League",
@@ -432,21 +448,6 @@
       ],
       "record": "2-3",
       "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-12-0612825806",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-12-06",
-      "player": "mugent",
-      "archetype": "Monsters",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
     }

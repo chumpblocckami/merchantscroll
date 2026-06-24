@@ -2,21 +2,49 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1132,
-    "league_entries": 602,
-    "league_trophies": 602,
-    "league_trophies_yearly": 220,
-    "challenge_appearances": 471,
-    "challenge_wins": 1867,
-    "challenge_losses": 1182,
+    "total_entries": 1136,
+    "league_entries": 604,
+    "league_trophies": 604,
+    "league_trophies_yearly": 222,
+    "challenge_appearances": 473,
+    "challenge_wins": 1878,
+    "challenge_losses": 1186,
     "irl_top8": 31,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 3,
+    "league_trophy_rank_yearly": 4,
     "league_trophy_rank_alltime": 3,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "Shiib",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "7-2",
+      "final_rank": 2,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "haveaboavida",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "4-2",
+      "final_rank": 12,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-2310855",
       "tournament": "Pauper League",
@@ -84,6 +112,35 @@
       "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2110636",
+      "tournament": "Pauper League",
+      "date": "2026-06-21",
+      "player": "Boquinha",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2110636",
+      "tournament": "Pauper League",
+      "date": "2026-06-21",
+      "player": "Vojbe",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2012844856",
@@ -311,72 +368,16 @@
       "final_rank": 5,
       "source": "pauperwave",
       "type": "irl"
-    },
-    {
-      "site_name": "pauperwave-2026-06-13-maschere-di-vittoria",
-      "tournament": "Maschere di Vittoria — Treviso",
-      "date": "2026-06-13",
-      "player": "Claudio Ferrara",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "",
-      "final_rank": 5,
-      "source": "pauperwave",
-      "type": "irl"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1212844305",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-12",
-      "player": "Emogoblin",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-3",
-      "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1212844305",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-12",
-      "player": "Enz091",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-2",
-      "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1212844305",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-12",
-      "player": "KOKOLOKO3435",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "3-3",
-      "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "Shiib",
-      "count": 96
+      "count": 97
     },
     {
       "player": "Boquinha",
-      "count": 79
+      "count": 80
     },
     {
       "player": "newbarola",

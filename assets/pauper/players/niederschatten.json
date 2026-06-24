@@ -3,17 +3,17 @@
   "display_name": "Niederschatten",
   "irl_name": null,
   "stats": {
-    "total_entries": 90,
+    "total_entries": 91,
     "league_trophies": 46,
     "league_trophies_yearly": 23,
-    "challenge_wins": 185,
-    "challenge_losses": 98,
+    "challenge_wins": 191,
+    "challenge_losses": 100,
     "irl_top8": 0,
-    "challenge_win_pct": 65,
+    "challenge_win_pct": 66,
     "league_trophy_rank_yearly": 20,
     "league_trophy_rank_alltime": 22,
-    "league_trophy_players_yearly": 1167,
-    "league_trophy_players_alltime": 1923
+    "league_trophy_players_yearly": 1175,
+    "league_trophy_players_alltime": 1930
   },
   "favorite_decks": [
     {
@@ -29,12 +29,12 @@
       "count": 14
     },
     {
-      "archetype": "Pingers",
+      "archetype": "UB Faeries",
       "count": 7
     },
     {
-      "archetype": "UB Faeries",
-      "count": 6
+      "archetype": "Pingers",
+      "count": 7
     },
     {
       "archetype": "Ponza",
@@ -58,6 +58,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "Niederschatten",
+      "archetype": "UB Faeries",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "6-2",
+      "final_rank": 3,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2012844856",
       "tournament": "Pauper Challenge 32",
@@ -409,21 +424,6 @@
       "player": "Niederschatten",
       "archetype": "Mono Red Kuldotha",
       "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-04-0710405",
-      "tournament": "Pauper League",
-      "date": "2026-04-07",
-      "player": "Niederschatten",
-      "archetype": "Rally",
-      "colors": [
-        "G",
         "R"
       ],
       "record": "5-0",

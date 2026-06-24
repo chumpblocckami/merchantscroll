@@ -3,17 +3,17 @@
   "display_name": "Montij",
   "irl_name": null,
   "stats": {
-    "total_entries": 20,
+    "total_entries": 21,
     "league_trophies": 18,
     "league_trophies_yearly": 6,
-    "challenge_wins": 3,
-    "challenge_losses": 3,
+    "challenge_wins": 7,
+    "challenge_losses": 5,
     "irl_top8": 0,
-    "challenge_win_pct": 50,
+    "challenge_win_pct": 58,
     "league_trophy_rank_yearly": 153,
     "league_trophy_rank_alltime": 103,
-    "league_trophy_players_yearly": 1167,
-    "league_trophy_players_alltime": 1923
+    "league_trophy_players_yearly": 1175,
+    "league_trophy_players_alltime": 1930
   },
   "favorite_decks": [
     {
@@ -47,9 +47,31 @@
     {
       "archetype": "BG Fog",
       "count": 1
+    },
+    {
+      "archetype": "Naya Gates",
+      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "Montij",
+      "archetype": "Naya Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-0510636",
       "tournament": "Pauper League",

@@ -2,21 +2,36 @@
   "archetype": "Pizza Combo",
   "slug": "pizza-combo",
   "stats": {
-    "total_entries": 10,
+    "total_entries": 11,
     "league_entries": 7,
     "league_trophies": 7,
     "league_trophies_yearly": 7,
-    "challenge_appearances": 0,
-    "challenge_wins": 0,
-    "challenge_losses": 0,
+    "challenge_appearances": 1,
+    "challenge_wins": 4,
+    "challenge_losses": 2,
     "irl_top8": 1,
-    "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 47,
-    "league_trophy_rank_alltime": 54,
+    "challenge_win_pct": 67,
+    "league_trophy_rank_yearly": 49,
+    "league_trophy_rank_alltime": 55,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "AlessandroPiraccini",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauperwave-2026-06-13-versilia-summer-2026",
       "tournament": "LP Versilia Summer 2026 — Versilia",
@@ -202,15 +217,15 @@
       "count": 1
     },
     {
+      "player": "AlessandroPiraccini",
+      "count": 1
+    },
+    {
       "player": "Vincenzo Lanzetta",
       "count": 1
     },
     {
       "player": "Paul16",
-      "count": 1
-    },
-    {
-      "player": "Riccardo Cestari",
       "count": 1
     }
   ]
