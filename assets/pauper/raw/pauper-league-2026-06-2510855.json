@@ -1209,6 +1209,13 @@
       "player": "DiabeticMerman",
       "main_deck": [
         {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Guttersnipe",
+            "card_type": "ISCREA"
+          }
+        },
+        {
           "qty": "4",
           "card_attributes": {
             "card_name": "Sneaky Snacker",
@@ -1301,13 +1308,6 @@
         },
         {
           "qty": "1",
-          "card_attributes": {
-            "card_name": "Guttersnipe",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "2",
           "card_attributes": {
             "card_name": "Guttersnipe",
             "card_type": "ISCREA"
@@ -2025,7 +2025,7 @@
       "colors": [
         "R"
       ],
-      "archetype": "Rally"
+      "archetype": "Mono Red Kuldotha"
     },
     {
       "player": "vini_torres",
@@ -2888,7 +2888,8 @@
         "G",
         "R",
         "U"
-      ]
+      ],
+      "archetype": "Jund Glee"
     },
     {
       "player": "DataPusher",
@@ -3094,76 +3095,6 @@
       "player": "SamaLama",
       "main_deck": [
         {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Lórien Revealed",
-            "card_type": "SORCRY"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Snuff Out",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Contaminated Aquifer",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Faerie Seer",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Augur of Bolas",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Counterspell",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Spellstutter Sprite",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Agony Warp",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "10",
-          "card_attributes": {
-            "card_name": "Island",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Thorn of the Black Rose",
-            "card_type": "ISCREA"
-          }
-        },
-        {
           "qty": "3",
           "card_attributes": {
             "card_name": "Ninja of the Deep Hours",
@@ -3238,6 +3169,76 @@
           "card_attributes": {
             "card_name": "Suffocating Fumes",
             "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Lórien Revealed",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Snuff Out",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Contaminated Aquifer",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Faerie Seer",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Augur of Bolas",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Counterspell",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Spellstutter Sprite",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Agony Warp",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "10",
+          "card_attributes": {
+            "card_name": "Island",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Thorn of the Black Rose",
+            "card_type": "ISCREA"
           }
         }
       ],
@@ -4441,6 +4442,20 @@
         {
           "qty": "2",
           "card_attributes": {
+            "card_name": "Smash to Smithereens",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Cast into the Fire",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
             "card_name": "End the Festivities",
             "card_type": "SORCRY"
           }
@@ -4471,20 +4486,6 @@
           "card_attributes": {
             "card_name": "Relic of Progenitus",
             "card_type": "ARTFCT"
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Smash to Smithereens",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Cast into the Fire",
-            "card_type": "INSTNT"
           }
         }
       ],
@@ -5134,7 +5135,178 @@
         "B",
         "W"
       ],
-      "archetype": "BR Affinity"
+      "archetype": "Esper Affinity"
+    },
+    {
+      "player": "EntroPete",
+      "main_deck": [
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Bloodthrone Vampire",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Carrion Feeder",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Rite of Consumption",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Nested Shambler",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Mortician Beetle",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Infestation Sage",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "17",
+          "card_attributes": {
+            "card_name": "Swamp",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Supernatural Stamina",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Accursed Marauder",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Sadistic Glee",
+            "card_type": "ENCHMT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Unearth",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Nezumi Linkbreaker",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Snuff Out",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Shambling Ghast",
+            "card_type": "ISCREA"
+          }
+        }
+      ],
+      "sideboard_deck": [
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Accursed Marauder",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Snuff Out",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Tragic Slip",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Mesmeric Fiend",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Rotten Reunion",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Tragic Slip",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Mutagenic Growth",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Nihil Spellbomb",
+            "card_type": "ARTFCT"
+          }
+        }
+      ],
+      "wins": {
+        "loginplayeventcourseid": "35361984",
+        "wins": "5",
+        "losses": "0"
+      },
+      "colors": [
+        "B",
+        "G"
+      ],
+      "archetype": "B Sacrifice"
     }
   ]
 }

@@ -2,13 +2,13 @@
   "archetype": "UW Glitter",
   "slug": "uw-glitter",
   "stats": {
-    "total_entries": 35,
+    "total_entries": 36,
     "league_entries": 22,
     "league_trophies": 22,
     "league_trophies_yearly": 18,
-    "challenge_appearances": 11,
-    "challenge_wins": 39,
-    "challenge_losses": 29,
+    "challenge_appearances": 12,
+    "challenge_wins": 42,
+    "challenge_losses": 32,
     "irl_top8": 2,
     "challenge_win_pct": 57,
     "league_trophy_rank_yearly": 38,
@@ -49,6 +49,21 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1112844295",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-11",
+      "player": "cabrabr12",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0212844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
       "player": "cabrabr12",
@@ -358,25 +373,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-04-1910405",
-      "tournament": "Pauper League",
-      "date": "2026-04-19",
-      "player": "Tortugaz",
-      "colors": [
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "cabrabr12",
-      "count": 15
+      "count": 16
     },
     {
       "player": "elvis10",
