@@ -2,13 +2,13 @@
   "archetype": "Jeskai",
   "slug": "jeskai",
   "stats": {
-    "total_entries": 218,
+    "total_entries": 222,
     "league_entries": 147,
     "league_trophies": 147,
     "league_trophies_yearly": 83,
-    "challenge_appearances": 61,
-    "challenge_wins": 246,
-    "challenge_losses": 148,
+    "challenge_appearances": 65,
+    "challenge_wins": 260,
+    "challenge_losses": 158,
     "irl_top8": 9,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 16,
@@ -231,6 +231,36 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-06-1012844841",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-19",
+      "player": "ChaoticMTG",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 12,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1012844841",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-19",
+      "player": "Ale_Mtg",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 19,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-league-2026-06-1910636",
       "tournament": "Pauper League",
       "date": "2026-06-19",
@@ -366,43 +396,12 @@
       "final_rank": 6,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1212844305",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-12",
-      "player": "Mikhathara1994",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 16,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1112844295",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-11",
-      "player": "Tinker_deck",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 22,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "ChaoticMTG",
-      "count": 34
+      "count": 35
     },
     {
       "player": "daifuku",

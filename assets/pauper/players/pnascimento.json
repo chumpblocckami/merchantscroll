@@ -3,17 +3,17 @@
   "display_name": "PNascimento",
   "irl_name": null,
   "stats": {
-    "total_entries": 93,
+    "total_entries": 94,
     "league_trophies": 5,
     "league_trophies_yearly": 0,
-    "challenge_wins": 338,
-    "challenge_losses": 219,
+    "challenge_wins": 341,
+    "challenge_losses": 223,
     "irl_top8": 0,
-    "challenge_win_pct": 61,
+    "challenge_win_pct": 60,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": 488,
-    "league_trophy_players_yearly": 1182,
-    "league_trophy_players_alltime": 1934
+    "league_trophy_players_yearly": 1183,
+    "league_trophy_players_alltime": 1935
   },
   "favorite_decks": [
     {
@@ -25,15 +25,15 @@
       "count": 11
     },
     {
+      "archetype": "Elves",
+      "count": 8
+    },
+    {
       "archetype": "R Madness",
       "count": 7
     },
     {
       "archetype": "Cawgate",
-      "count": 7
-    },
-    {
-      "archetype": "Elves",
       "count": 7
     },
     {
@@ -110,6 +110,23 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1912844841",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-19",
+      "player": "PNascimento",
+      "archetype": "Elves",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "3-4",
+      "final_rank": 31,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1012844841",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-19",
       "player": "PNascimento",
@@ -453,21 +470,6 @@
       ],
       "record": "3-3",
       "final_rank": 26,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-2912836784",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-29",
-      "player": "PNascimento",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-3",
-      "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
     }

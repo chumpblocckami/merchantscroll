@@ -3,17 +3,17 @@
   "display_name": "SpockVidaLoka",
   "irl_name": null,
   "stats": {
-    "total_entries": 54,
+    "total_entries": 55,
     "league_trophies": 1,
     "league_trophies_yearly": 0,
-    "challenge_wins": 205,
-    "challenge_losses": 133,
+    "challenge_wins": 208,
+    "challenge_losses": 136,
     "irl_top8": 0,
-    "challenge_win_pct": 61,
+    "challenge_win_pct": 60,
     "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 1806,
-    "league_trophy_players_yearly": 1182,
-    "league_trophy_players_alltime": 1934
+    "league_trophy_rank_alltime": 1807,
+    "league_trophy_players_yearly": 1183,
+    "league_trophy_players_alltime": 1935
   },
   "favorite_decks": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "archetype": "U Terror",
-      "count": 2
+      "count": 3
     },
     {
       "archetype": "Bogle",
@@ -108,6 +108,22 @@
       "date": "2026-06-11",
       "player": "SpockVidaLoka",
       "archetype": "UB Control",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 21,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0212844295",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-11",
+      "player": "SpockVidaLoka",
+      "archetype": "U Terror",
       "colors": [
         "B",
         "R",
@@ -436,22 +452,6 @@
       ],
       "record": "2-4",
       "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-11-2712825445",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-11-27",
-      "player": "SpockVidaLoka",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "6-3",
-      "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
     }

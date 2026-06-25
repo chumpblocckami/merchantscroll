@@ -2,13 +2,13 @@
   "archetype": "U Terror",
   "slug": "u-terror",
   "stats": {
-    "total_entries": 1569,
+    "total_entries": 1574,
     "league_entries": 761,
     "league_trophies": 761,
     "league_trophies_yearly": 286,
-    "challenge_appearances": 710,
-    "challenge_wins": 2916,
-    "challenge_losses": 1751,
+    "challenge_appearances": 715,
+    "challenge_wins": 2936,
+    "challenge_losses": 1764,
     "irl_top8": 39,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 2,
@@ -258,6 +258,20 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-06-1012844841",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-19",
+      "player": "discoverN",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-3",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-06-1812844831",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-18",
@@ -354,34 +368,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1710636",
-      "tournament": "Pauper League",
-      "date": "2026-06-17",
-      "player": "Ska_Bonk",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "Luminati",
-      "count": 246
+      "count": 247
     },
     {
       "player": "discoverN",
-      "count": 84
+      "count": 85
     },
     {
       "player": "Purgatory_01",
-      "count": 62
+      "count": 63
     },
     {
       "player": "carvs",

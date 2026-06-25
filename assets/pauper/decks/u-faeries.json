@@ -2,13 +2,13 @@
   "archetype": "U Faeries",
   "slug": "u-faeries",
   "stats": {
-    "total_entries": 530,
+    "total_entries": 533,
     "league_entries": 295,
     "league_trophies": 295,
     "league_trophies_yearly": 69,
-    "challenge_appearances": 211,
-    "challenge_wins": 866,
-    "challenge_losses": 533,
+    "challenge_appearances": 214,
+    "challenge_wins": 880,
+    "challenge_losses": 540,
     "irl_top8": 11,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 21,
@@ -101,6 +101,19 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1912844841",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-19",
+      "player": "Beicodegeia",
+      "colors": [
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1012844841",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-19",
       "player": "Beicodegeia",
@@ -217,6 +230,33 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-06-0212844295",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-11",
+      "player": "Guii_Machado",
+      "colors": [
+        "U"
+      ],
+      "record": "6-2",
+      "final_rank": 4,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0212844295",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-11",
+      "player": "Mordeka1ser",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 15,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-05-1712844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
@@ -306,45 +346,6 @@
       "final_rank": 7,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0410636",
-      "tournament": "Pauper League",
-      "date": "2026-06-04",
-      "player": "maribves",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0210636",
-      "tournament": "Pauper League",
-      "date": "2026-06-02",
-      "player": "FranPi",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-3010636",
-      "tournament": "Pauper League",
-      "date": "2026-05-30",
-      "player": "CrowleyMr",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -354,7 +355,7 @@
     },
     {
       "player": "Guii_Machado",
-      "count": 17
+      "count": 18
     },
     {
       "player": "serajh",

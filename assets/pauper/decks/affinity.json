@@ -2,13 +2,13 @@
   "archetype": "Affinity",
   "slug": "affinity",
   "stats": {
-    "total_entries": 858,
+    "total_entries": 861,
     "league_entries": 334,
     "league_trophies": 334,
     "league_trophies_yearly": 177,
-    "challenge_appearances": 455,
-    "challenge_wins": 1870,
-    "challenge_losses": 1143,
+    "challenge_appearances": 458,
+    "challenge_wins": 1888,
+    "challenge_losses": 1149,
     "irl_top8": 39,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 6,
@@ -318,6 +318,36 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-06-1012844841",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-19",
+      "player": "newbarola",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-3",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1012844841",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-19",
+      "player": "LuffyDoChapeuDePalha",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 22,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-league-2026-06-1910636",
       "tournament": "Pauper League",
       "date": "2026-06-19",
@@ -361,42 +391,12 @@
       "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1812844831",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-18",
-      "player": "LuffyDoChapeuDePalha",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 25,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1810636",
-      "tournament": "Pauper League",
-      "date": "2026-06-18",
-      "player": "Pedrothedead",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "LuffyDoChapeuDePalha",
-      "count": 180
+      "count": 182
     },
     {
       "player": "Beicodegeia",

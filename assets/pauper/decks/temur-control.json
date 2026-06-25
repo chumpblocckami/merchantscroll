@@ -2,17 +2,17 @@
   "archetype": "Temur Control",
   "slug": "temur-control",
   "stats": {
-    "total_entries": 8,
+    "total_entries": 10,
     "league_entries": 4,
     "league_trophies": 4,
     "league_trophies_yearly": 4,
-    "challenge_appearances": 2,
-    "challenge_wins": 7,
-    "challenge_losses": 6,
+    "challenge_appearances": 4,
+    "challenge_wins": 14,
+    "challenge_losses": 11,
     "irl_top8": 2,
-    "challenge_win_pct": 54,
-    "league_trophy_rank_yearly": 52,
-    "league_trophy_rank_alltime": 60,
+    "challenge_win_pct": 56,
+    "league_trophy_rank_yearly": 53,
+    "league_trophy_rank_alltime": 61,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
@@ -21,7 +21,7 @@
       "site_name": "pauper-league-2026-06-2210636",
       "tournament": "Pauper League",
       "date": "2026-06-22",
-      "player": "ZobLeBerger",
+      "player": "firstshot",
       "colors": [
         "G",
         "R",
@@ -107,6 +107,35 @@
       "type": "irl"
     },
     {
+      "site_name": "pauper-challenge-32-2026-06-0212844295",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-11",
+      "player": "Brvnx",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 12,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0212844295",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-11",
+      "player": "kuszlik",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-05-1712844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
@@ -143,6 +172,10 @@
       "count": 2
     },
     {
+      "player": "kuszlik",
+      "count": 2
+    },
+    {
       "player": "Fluc_",
       "count": 1
     },
@@ -151,7 +184,7 @@
       "count": 1
     },
     {
-      "player": "ZobLeBerger",
+      "player": "firstshot",
       "count": 1
     },
     {
@@ -159,7 +192,7 @@
       "count": 1
     },
     {
-      "player": "kuszlik",
+      "player": "Brvnx",
       "count": 1
     },
     {

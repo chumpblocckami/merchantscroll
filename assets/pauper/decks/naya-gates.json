@@ -2,13 +2,13 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 97,
+    "total_entries": 98,
     "league_entries": 46,
     "league_trophies": 46,
     "league_trophies_yearly": 39,
-    "challenge_appearances": 37,
-    "challenge_wins": 138,
-    "challenge_losses": 86,
+    "challenge_appearances": 38,
+    "challenge_wins": 143,
+    "challenge_losses": 89,
     "irl_top8": 12,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 28,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2510855",
+      "tournament": "Pauper League",
+      "date": "2026-06-25",
+      "player": "peposhi",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2510855",
       "tournament": "Pauper League",
@@ -423,29 +438,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2210636",
-      "tournament": "Pauper League",
-      "date": "2026-06-22",
-      "player": "Serpico_CC",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "Emogoblin",
-      "count": 4
+      "count": 5
     },
     {
       "player": "manohito",

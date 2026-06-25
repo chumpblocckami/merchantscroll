@@ -3,22 +3,22 @@
   "display_name": "mehanske",
   "irl_name": null,
   "stats": {
-    "total_entries": 51,
+    "total_entries": 52,
     "league_trophies": 12,
     "league_trophies_yearly": 10,
-    "challenge_wins": 150,
-    "challenge_losses": 97,
+    "challenge_wins": 154,
+    "challenge_losses": 99,
     "irl_top8": 0,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 85,
     "league_trophy_rank_alltime": 171,
-    "league_trophy_players_yearly": 1182,
-    "league_trophy_players_alltime": 1934
+    "league_trophy_players_yearly": 1183,
+    "league_trophy_players_alltime": 1935
   },
   "favorite_decks": [
     {
       "archetype": "UB Terror",
-      "count": 17
+      "count": 18
     },
     {
       "archetype": "BR Madness",
@@ -104,6 +104,22 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1112844295",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-11",
+      "player": "mehanske",
+      "archetype": "UB Terror",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 16,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0212844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
       "player": "mehanske",
@@ -441,22 +457,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-1512835331",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-15",
-      "player": "mehanske",
-      "archetype": "BR Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

@@ -3,22 +3,22 @@
   "display_name": "QueMario",
   "irl_name": null,
   "stats": {
-    "total_entries": 37,
+    "total_entries": 38,
     "league_trophies": 6,
     "league_trophies_yearly": 3,
-    "challenge_wins": 125,
-    "challenge_losses": 83,
+    "challenge_wins": 134,
+    "challenge_losses": 84,
     "irl_top8": 0,
-    "challenge_win_pct": 60,
+    "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 383,
     "league_trophy_rank_alltime": 421,
-    "league_trophy_players_yearly": 1182,
-    "league_trophy_players_alltime": 1934
+    "league_trophy_players_yearly": 1183,
+    "league_trophy_players_alltime": 1935
   },
   "favorite_decks": [
     {
       "archetype": "Elves",
-      "count": 25
+      "count": 26
     },
     {
       "archetype": "RG Ponza",
@@ -52,6 +52,21 @@
   "recent_entries": [
     {
       "site_name": "pauper-challenge-32-2026-06-1912844841",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-19",
+      "player": "QueMario",
+      "archetype": "Elves",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "9-1",
+      "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1012844841",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-19",
       "player": "QueMario",
@@ -400,20 +415,6 @@
       "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-rc-super-qualifier-2025-07-1312802763",
-      "tournament": "Pauper RC Super Qualifier",
-      "date": "2025-07-13",
-      "player": "QueMario",
-      "archetype": "Elves",
-      "colors": [
-        "G"
-      ],
-      "record": "9-2",
-      "final_rank": 4,
-      "source": "mtgo",
-      "type": "other"
     }
   ]
 }

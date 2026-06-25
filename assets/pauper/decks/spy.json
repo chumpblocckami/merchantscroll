@@ -2,13 +2,13 @@
   "archetype": "Spy",
   "slug": "spy",
   "stats": {
-    "total_entries": 669,
+    "total_entries": 671,
     "league_entries": 425,
     "league_trophies": 425,
     "league_trophies_yearly": 147,
-    "challenge_appearances": 199,
-    "challenge_wins": 802,
-    "challenge_losses": 499,
+    "challenge_appearances": 201,
+    "challenge_wins": 810,
+    "challenge_losses": 505,
     "irl_top8": 24,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 8,
@@ -94,6 +94,21 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1912844841",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-19",
+      "player": "PGBrewing",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-4",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1012844841",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-19",
       "player": "PGBrewing",
@@ -302,6 +317,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-06-0212844295",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-11",
+      "player": "wand_thief",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-2",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-05-1712844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
@@ -360,36 +390,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0712843817",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-07",
-      "player": "JsyvX",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "8-2",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0610636",
-      "tournament": "Pauper League",
-      "date": "2026-06-06",
-      "player": "JsyvX",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -430,8 +430,8 @@
       "count": 10
     },
     {
-      "player": "Borbs",
-      "count": 9
+      "player": "wand_thief",
+      "count": 10
     }
   ]
 }

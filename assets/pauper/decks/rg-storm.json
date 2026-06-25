@@ -2,10 +2,10 @@
   "archetype": "RG Storm",
   "slug": "rg-storm",
   "stats": {
-    "total_entries": 133,
-    "league_entries": 103,
-    "league_trophies": 103,
-    "league_trophies_yearly": 90,
+    "total_entries": 134,
+    "league_entries": 104,
+    "league_trophies": 104,
+    "league_trophies_yearly": 91,
     "challenge_appearances": 21,
     "challenge_wins": 77,
     "challenge_losses": 52,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2510855",
+      "tournament": "Pauper League",
+      "date": "2026-06-25",
+      "player": "DataPusher",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845631",
       "tournament": "Pauper Challenge 32",
@@ -384,22 +399,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2110636",
-      "tournament": "Pauper League",
-      "date": "2026-05-21",
-      "player": "Fragoel2",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -409,7 +408,7 @@
     },
     {
       "player": "DataPusher",
-      "count": 13
+      "count": 14
     },
     {
       "player": "vincent99",

@@ -2,13 +2,13 @@
   "archetype": "BG Fog",
   "slug": "bg-fog",
   "stats": {
-    "total_entries": 99,
+    "total_entries": 100,
     "league_entries": 52,
     "league_trophies": 52,
     "league_trophies_yearly": 29,
-    "challenge_appearances": 40,
-    "challenge_wins": 174,
-    "challenge_losses": 98,
+    "challenge_appearances": 41,
+    "challenge_wins": 178,
+    "challenge_losses": 101,
     "irl_top8": 3,
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 33,
@@ -51,6 +51,22 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1112844295",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-11",
+      "player": "HoldTheElle",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0212844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
       "player": "HoldTheElle",
@@ -395,22 +411,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-1412835312",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-14",
-      "player": "Taddy_99",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "2-3",
-      "final_rank": 28,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -432,7 +432,7 @@
     },
     {
       "player": "HoldTheElle",
-      "count": 4
+      "count": 5
     },
     {
       "player": "BabySoft",
