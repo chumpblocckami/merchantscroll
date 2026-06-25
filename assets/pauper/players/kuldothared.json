@@ -3,22 +3,22 @@
   "display_name": "kuldothared",
   "irl_name": null,
   "stats": {
-    "total_entries": 43,
+    "total_entries": 44,
     "league_trophies": 11,
     "league_trophies_yearly": 2,
-    "challenge_wins": 126,
-    "challenge_losses": 78,
+    "challenge_wins": 130,
+    "challenge_losses": 81,
     "irl_top8": 0,
     "challenge_win_pct": 62,
-    "league_trophy_rank_yearly": 517,
+    "league_trophy_rank_yearly": 519,
     "league_trophy_rank_alltime": 192,
-    "league_trophy_players_yearly": 1177,
-    "league_trophy_players_alltime": 1931
+    "league_trophy_players_yearly": 1182,
+    "league_trophy_players_alltime": 1934
   },
   "favorite_decks": [
     {
       "archetype": "Jund",
-      "count": 29
+      "count": 30
     },
     {
       "archetype": "UG Fog",
@@ -42,6 +42,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845631",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "kuldothared",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "4-3",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-05-2910636",
       "tournament": "Pauper League",
@@ -416,20 +432,6 @@
       ],
       "record": "4-2",
       "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-10-1712820702",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-10-17",
-      "player": "kuldothared",
-      "archetype": "UG Fog",
-      "colors": [
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
     }

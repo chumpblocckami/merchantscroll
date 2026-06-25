@@ -2,13 +2,13 @@
   "archetype": "UB Faeries",
   "slug": "ub-faeries",
   "stats": {
-    "total_entries": 501,
+    "total_entries": 502,
     "league_entries": 289,
     "league_trophies": 289,
     "league_trophies_yearly": 161,
-    "challenge_appearances": 187,
-    "challenge_wins": 751,
-    "challenge_losses": 464,
+    "challenge_appearances": 188,
+    "challenge_wins": 756,
+    "challenge_losses": 467,
     "irl_top8": 9,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 7,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845631",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "MisterTwin",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-3",
+      "final_rank": 4,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845625",
       "tournament": "Pauper Challenge 32",
@@ -353,20 +367,6 @@
       ],
       "record": "7-2",
       "final_rank": 16,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-showcase-challenge-2026-06-1412844285",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2026-06-14",
-      "player": "Misplacedginger",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "6-3",
-      "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
     }

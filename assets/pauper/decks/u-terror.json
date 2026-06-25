@@ -2,21 +2,49 @@
   "archetype": "U Terror",
   "slug": "u-terror",
   "stats": {
-    "total_entries": 1566,
-    "league_entries": 760,
-    "league_trophies": 760,
-    "league_trophies_yearly": 285,
-    "challenge_appearances": 708,
-    "challenge_wins": 2912,
-    "challenge_losses": 1743,
+    "total_entries": 1569,
+    "league_entries": 761,
+    "league_trophies": 761,
+    "league_trophies_yearly": 286,
+    "challenge_appearances": 710,
+    "challenge_wins": 2916,
+    "challenge_losses": 1751,
     "irl_top8": 39,
-    "challenge_win_pct": 63,
+    "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 2,
     "league_trophy_rank_alltime": 2,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845631",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "Luminati",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 17,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845631",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "Sarlanga",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "1-5",
+      "final_rank": 28,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845625",
       "tournament": "Pauper Challenge 32",
@@ -30,6 +58,20 @@
       "final_rank": 4,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2410855",
+      "tournament": "Pauper League",
+      "date": "2026-06-24",
+      "player": "Wizard_2002",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-2310855",
@@ -326,54 +368,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1710636",
-      "tournament": "Pauper League",
-      "date": "2026-06-17",
-      "player": "BigPopp",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1710636",
-      "tournament": "Pauper League",
-      "date": "2026-06-17",
-      "player": "kozilex72",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1710636",
-      "tournament": "Pauper League",
-      "date": "2026-06-17",
-      "player": "jonasensio",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "Luminati",
-      "count": 245
+      "count": 246
     },
     {
       "player": "discoverN",

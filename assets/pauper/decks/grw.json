@@ -2,21 +2,36 @@
   "archetype": "GRW",
   "slug": "grw",
   "stats": {
-    "total_entries": 23,
+    "total_entries": 24,
     "league_entries": 20,
     "league_trophies": 20,
     "league_trophies_yearly": 6,
-    "challenge_appearances": 3,
-    "challenge_wins": 13,
-    "challenge_losses": 7,
+    "challenge_appearances": 4,
+    "challenge_wins": 14,
+    "challenge_losses": 11,
     "irl_top8": 0,
-    "challenge_win_pct": 65,
+    "challenge_win_pct": 56,
     "league_trophy_rank_yearly": 50,
     "league_trophy_rank_alltime": 46,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845631",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "Walker735",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "1-4",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-05-2310636",
       "tournament": "Pauper League",
@@ -401,7 +416,7 @@
       "count": 1
     },
     {
-      "player": "RubensNetto",
+      "player": "Walker735",
       "count": 1
     }
   ]

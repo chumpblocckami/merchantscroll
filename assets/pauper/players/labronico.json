@@ -3,17 +3,17 @@
   "display_name": "LabroNico",
   "irl_name": null,
   "stats": {
-    "total_entries": 26,
+    "total_entries": 27,
     "league_trophies": 19,
     "league_trophies_yearly": 6,
-    "challenge_wins": 25,
-    "challenge_losses": 16,
+    "challenge_wins": 32,
+    "challenge_losses": 18,
     "irl_top8": 0,
-    "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 146,
+    "challenge_win_pct": 64,
+    "league_trophy_rank_yearly": 147,
     "league_trophy_rank_alltime": 92,
-    "league_trophy_players_yearly": 1177,
-    "league_trophy_players_alltime": 1931
+    "league_trophy_players_yearly": 1182,
+    "league_trophy_players_alltime": 1934
   },
   "favorite_decks": [
     {
@@ -37,19 +37,37 @@
       "count": 2
     },
     {
+      "archetype": "Naya Gates",
+      "count": 2
+    },
+    {
       "archetype": "U Faeries",
       "count": 1
     },
     {
       "archetype": "Flicker Tron",
       "count": 1
-    },
-    {
-      "archetype": "Naya Gates",
-      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845631",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "LabroNico",
+      "archetype": "Naya Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "7-2",
+      "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-2410855",
       "tournament": "Pauper League",
@@ -432,22 +450,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-showcase-challenge-2025-07-1212802762",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2025-07-12",
-      "player": "LabroNico",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "8-3",
-      "final_rank": 3,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

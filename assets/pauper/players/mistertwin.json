@@ -3,26 +3,26 @@
   "display_name": "MisterTwin",
   "irl_name": null,
   "stats": {
-    "total_entries": 150,
+    "total_entries": 151,
     "league_trophies": 69,
     "league_trophies_yearly": 14,
-    "challenge_wins": 339,
-    "challenge_losses": 189,
+    "challenge_wins": 344,
+    "challenge_losses": 192,
     "irl_top8": 0,
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 50,
     "league_trophy_rank_alltime": 9,
-    "league_trophy_players_yearly": 1177,
-    "league_trophy_players_alltime": 1931
+    "league_trophy_players_yearly": 1182,
+    "league_trophy_players_alltime": 1934
   },
   "favorite_decks": [
     {
       "archetype": "R Madness",
-      "count": 74
+      "count": 73
     },
     {
       "archetype": "BR Madness",
-      "count": 21
+      "count": 22
     },
     {
       "archetype": "Rally",
@@ -59,11 +59,26 @@
   ],
   "recent_entries": [
     {
+      "site_name": "pauper-challenge-32-2026-06-2412845631",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "MisterTwin",
+      "archetype": "UB Faeries",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-3",
+      "final_rank": 4,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-league-2026-06-2210636",
       "tournament": "Pauper League",
       "date": "2026-06-22",
       "player": "MisterTwin",
-      "archetype": "R Madness",
+      "archetype": "BR Madness",
       "colors": [
         "B",
         "R",
@@ -438,22 +453,6 @@
       ],
       "record": "7-2",
       "final_rank": 3,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-1712839670",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-17",
-      "player": "MisterTwin",
-      "archetype": "UB Terror",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
     }

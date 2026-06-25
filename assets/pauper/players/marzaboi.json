@@ -3,17 +3,17 @@
   "display_name": "marzaboi",
   "irl_name": null,
   "stats": {
-    "total_entries": 55,
+    "total_entries": 56,
     "league_trophies": 17,
     "league_trophies_yearly": 6,
-    "challenge_wins": 156,
-    "challenge_losses": 82,
+    "challenge_wins": 157,
+    "challenge_losses": 84,
     "irl_top8": 0,
-    "challenge_win_pct": 66,
-    "league_trophy_rank_yearly": 150,
-    "league_trophy_rank_alltime": 113,
-    "league_trophy_players_yearly": 1177,
-    "league_trophy_players_alltime": 1931
+    "challenge_win_pct": 65,
+    "league_trophy_rank_yearly": 151,
+    "league_trophy_rank_alltime": 114,
+    "league_trophy_players_yearly": 1182,
+    "league_trophy_players_alltime": 1934
   },
   "favorite_decks": [
     {
@@ -33,6 +33,10 @@
       "count": 4
     },
     {
+      "archetype": "Naya Gates",
+      "count": 4
+    },
+    {
       "archetype": "B Sacrifice",
       "count": 3
     },
@@ -41,15 +45,29 @@
       "count": 3
     },
     {
-      "archetype": "Naya Gates",
-      "count": 3
-    },
-    {
       "archetype": "Spy",
       "count": 2
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845631",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "marzaboi",
+      "archetype": "Naya Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "1-2",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845625",
       "tournament": "Pauper Challenge 32",
@@ -461,22 +479,6 @@
       ],
       "record": "8-1",
       "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-11-2112824780",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-11-21",
-      "player": "marzaboi",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
     }
