@@ -675,7 +675,8 @@
         "G",
         "R",
         "U"
-      ]
+      ],
+      "archetype": "Jund Glee"
     },
     {
       "player": "ILCAMPO2",
@@ -1209,13 +1210,6 @@
       "player": "DiabeticMerman",
       "main_deck": [
         {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Guttersnipe",
-            "card_type": "ISCREA"
-          }
-        },
-        {
           "qty": "4",
           "card_attributes": {
             "card_name": "Sneaky Snacker",
@@ -1312,6 +1306,13 @@
             "card_name": "Guttersnipe",
             "card_type": "ISCREA"
           }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Guttersnipe",
+            "card_type": "ISCREA"
+          }
         }
       ],
       "sideboard_deck": [
@@ -1383,6 +1384,194 @@
         "U"
       ],
       "archetype": "R Madness"
+    },
+    {
+      "player": "ls149950",
+      "main_deck": [
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Prismatic Strands",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Bitter Reunion",
+            "card_type": "ENCHMT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Citadel Gate",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Cliffgate",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Hawkeye's Bow",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Journey to Nowhere",
+            "card_type": "ENCHMT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Malevolent Rumble",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Manor Gate",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Mountain",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Outlaw Medic",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Faithless Looting",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Pursue the Past",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Sacred Cat",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Seeker of Skybreak",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Sneaky Snacker",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Plains",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Basilisk Gate",
+            "card_type": "LAND  "
+          }
+        }
+      ],
+      "sideboard_deck": [
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Lightning Bolt",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Guardian of the Guildpact",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Journey to Nowhere",
+            "card_type": "ENCHMT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Ancient Grudge",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Outlaw Medic",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Shattered Acolyte",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Red Elemental Blast",
+            "card_type": "INSTNT"
+          }
+        }
+      ],
+      "wins": {
+        "loginplayeventcourseid": "35356019",
+        "wins": "5",
+        "losses": "0"
+      },
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "archetype": "Naya Gates"
     },
     {
       "player": "KingZiggy",
@@ -2025,7 +2214,7 @@
       "colors": [
         "R"
       ],
-      "archetype": "Mono Red Kuldotha"
+      "archetype": "Rally"
     },
     {
       "player": "vini_torres",
@@ -3095,6 +3284,76 @@
       "player": "SamaLama",
       "main_deck": [
         {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Lórien Revealed",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Snuff Out",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Contaminated Aquifer",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Faerie Seer",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Augur of Bolas",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Counterspell",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Spellstutter Sprite",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Agony Warp",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "10",
+          "card_attributes": {
+            "card_name": "Island",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Thorn of the Black Rose",
+            "card_type": "ISCREA"
+          }
+        },
+        {
           "qty": "3",
           "card_attributes": {
             "card_name": "Ninja of the Deep Hours",
@@ -3169,76 +3428,6 @@
           "card_attributes": {
             "card_name": "Suffocating Fumes",
             "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Lórien Revealed",
-            "card_type": "SORCRY"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Snuff Out",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Contaminated Aquifer",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Faerie Seer",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Augur of Bolas",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Counterspell",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Spellstutter Sprite",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Agony Warp",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "10",
-          "card_attributes": {
-            "card_name": "Island",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Thorn of the Black Rose",
-            "card_type": "ISCREA"
           }
         }
       ],
@@ -4442,20 +4631,6 @@
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Smash to Smithereens",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Cast into the Fire",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
             "card_name": "End the Festivities",
             "card_type": "SORCRY"
           }
@@ -4486,6 +4661,20 @@
           "card_attributes": {
             "card_name": "Relic of Progenitus",
             "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Smash to Smithereens",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Cast into the Fire",
+            "card_type": "INSTNT"
           }
         }
       ],
@@ -4684,6 +4873,187 @@
       ],
       "wins": {
         "loginplayeventcourseid": "35359919",
+        "wins": "5",
+        "losses": "0"
+      },
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "archetype": "Naya Gates"
+    },
+    {
+      "player": "Emogoblin",
+      "main_deck": [
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Lightning Bolt",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Outlaw Medic",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Sacred Cat",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Sneaky Snacker",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Seeker of Skybreak",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Mountain",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Malevolent Rumble",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Plains",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Pursue the Past",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Citadel Gate",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Cliffgate",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Bitter Reunion",
+            "card_type": "ENCHMT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Manor Gate",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Prismatic Strands",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Lightning Bolt",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Torch the Tower",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Hawkeye's Bow",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Basilisk Gate",
+            "card_type": "LAND  "
+          }
+        }
+      ],
+      "sideboard_deck": [
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Breath Weapon",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Ancient Grudge",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Shattered Acolyte",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Thraben Charm",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Writhing Chrysalis",
+            "card_type": "ISCREA"
+          }
+        }
+      ],
+      "wins": {
+        "loginplayeventcourseid": "35360143",
         "wins": "5",
         "losses": "0"
       },

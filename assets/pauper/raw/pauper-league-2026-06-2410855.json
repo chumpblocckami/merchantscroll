@@ -444,7 +444,7 @@
         "R",
         "U"
       ],
-      "archetype": "Monster Tron"
+      "archetype": "Monsters Tron"
     },
     {
       "player": "maribves",
@@ -2607,6 +2607,20 @@
         {
           "qty": "2",
           "card_attributes": {
+            "card_name": "End the Festivities",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Red Elemental Blast",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
             "card_name": "Searing Blaze",
             "card_type": "INSTNT"
           }
@@ -2650,20 +2664,6 @@
           "qty": "1",
           "card_attributes": {
             "card_name": "Smash to Smithereens",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "End the Festivities",
-            "card_type": "SORCRY"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Red Elemental Blast",
             "card_type": "INSTNT"
           }
         }
@@ -3128,6 +3128,13 @@
         {
           "qty": "2",
           "card_attributes": {
+            "card_name": "Siege Smash",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
             "card_name": "Prismatic Strands",
             "card_type": "INSTNT"
           }
@@ -3164,13 +3171,6 @@
           "qty": "2",
           "card_attributes": {
             "card_name": "Breath Weapon",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Siege Smash",
             "card_type": "INSTNT"
           }
         }
@@ -4289,6 +4289,13 @@
       "player": "ff7",
       "main_deck": [
         {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Guttersnipe",
+            "card_type": "ISCREA"
+          }
+        },
+        {
           "qty": "4",
           "card_attributes": {
             "card_name": "Kessig Flamebreather",
@@ -4377,13 +4384,6 @@
           "card_attributes": {
             "card_name": "Mountain",
             "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "3",
-          "card_attributes": {
-            "card_name": "Guttersnipe",
-            "card_type": "ISCREA"
           }
         }
       ],
