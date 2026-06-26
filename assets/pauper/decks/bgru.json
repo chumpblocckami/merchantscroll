@@ -2,10 +2,10 @@
   "archetype": "BGRU",
   "slug": "bgru",
   "stats": {
-    "total_entries": 54,
-    "league_entries": 33,
-    "league_trophies": 33,
-    "league_trophies_yearly": 21,
+    "total_entries": 55,
+    "league_entries": 34,
+    "league_trophies": 34,
+    "league_trophies_yearly": 22,
     "challenge_appearances": 20,
     "challenge_wins": 76,
     "challenge_losses": 50,
@@ -17,6 +17,22 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2610855",
+      "tournament": "Pauper League",
+      "date": "2026-06-26",
+      "player": "yuxiaoyu",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2510855",
       "tournament": "Pauper League",
@@ -400,22 +416,6 @@
       "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-02-1510196",
-      "tournament": "pauper-league-2026-02-1510196",
-      "date": "2026-02-15",
-      "player": "williami1986",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [

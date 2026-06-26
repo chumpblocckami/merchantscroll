@@ -2682,6 +2682,20 @@
       "player": "NMT_Sco94",
       "main_deck": [
         {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Mountain",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "11",
+          "card_attributes": {
+            "card_name": "Mountain",
+            "card_type": "LAND  "
+          }
+        },
+        {
           "qty": "2",
           "card_attributes": {
             "card_name": "Mountain",
@@ -2774,20 +2788,6 @@
         },
         {
           "qty": "2",
-          "card_attributes": {
-            "card_name": "Mountain",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Mountain",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "11",
           "card_attributes": {
             "card_name": "Mountain",
             "card_type": "LAND  "
@@ -3192,34 +3192,6 @@
       "player": "Thn",
       "main_deck": [
         {
-          "qty": "3",
-          "card_attributes": {
-            "card_name": "Bender's Waterskin",
-            "card_type": "ARTFCT"
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Brainstorm",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Ride's End",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Skred",
-            "card_type": "INSTNT"
-          }
-        },
-        {
           "qty": "1",
           "card_attributes": {
             "card_name": "Breath Weapon",
@@ -3356,6 +3328,34 @@
           "qty": "1",
           "card_attributes": {
             "card_name": "Spell Pierce",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Bender's Waterskin",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Brainstorm",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Ride's End",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Skred",
             "card_type": "INSTNT"
           }
         }

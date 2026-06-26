@@ -2,10 +2,10 @@
   "archetype": "Altar",
   "slug": "altar",
   "stats": {
-    "total_entries": 89,
-    "league_entries": 58,
-    "league_trophies": 58,
-    "league_trophies_yearly": 18,
+    "total_entries": 90,
+    "league_entries": 59,
+    "league_trophies": 59,
+    "league_trophies_yearly": 19,
     "challenge_appearances": 27,
     "challenge_wins": 105,
     "challenge_losses": 70,
@@ -47,6 +47,21 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2010636",
+      "tournament": "Pauper League",
+      "date": "2026-06-20",
+      "player": "Todeshorst",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-1910636",
@@ -385,21 +400,6 @@
       "tournament": "pauper-league-2026-02-2510196",
       "date": "2026-02-25",
       "player": "giuliodice",
-      "colors": [
-        "B",
-        "G",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-2410196",
-      "tournament": "pauper-league-2026-02-2410196",
-      "date": "2026-02-24",
-      "player": "saidin.raken",
       "colors": [
         "B",
         "G",
