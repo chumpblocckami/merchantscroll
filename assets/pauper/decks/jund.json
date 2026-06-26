@@ -2,10 +2,10 @@
   "archetype": "Jund",
   "slug": "jund",
   "stats": {
-    "total_entries": 1158,
-    "league_entries": 514,
-    "league_trophies": 514,
-    "league_trophies_yearly": 193,
+    "total_entries": 1159,
+    "league_entries": 515,
+    "league_trophies": 515,
+    "league_trophies_yearly": 194,
     "challenge_appearances": 550,
     "challenge_wins": 2207,
     "challenge_losses": 1389,
@@ -22,6 +22,21 @@
       "tournament": "Pauper League",
       "date": "2026-06-26",
       "player": "iamkrazy1",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2610855",
+      "tournament": "Pauper League",
+      "date": "2026-06-26",
+      "player": "PNascimento",
       "colors": [
         "B",
         "G",
@@ -374,21 +389,6 @@
       ],
       "record": "4-2",
       "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1812844831",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-18",
-      "player": "Walker735",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
     }

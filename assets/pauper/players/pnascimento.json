@@ -3,17 +3,17 @@
   "display_name": "PNascimento",
   "irl_name": null,
   "stats": {
-    "total_entries": 95,
-    "league_trophies": 5,
-    "league_trophies_yearly": 0,
+    "total_entries": 96,
+    "league_trophies": 6,
+    "league_trophies_yearly": 1,
     "challenge_wins": 344,
     "challenge_losses": 226,
     "irl_top8": 0,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 491,
-    "league_trophy_players_yearly": 1189,
-    "league_trophy_players_alltime": 1940
+    "league_trophy_rank_yearly": 1054,
+    "league_trophy_rank_alltime": 419,
+    "league_trophy_players_yearly": 1192,
+    "league_trophy_players_alltime": 1942
   },
   "favorite_decks": [
     {
@@ -53,11 +53,27 @@
       "count": 2
     },
     {
-      "archetype": "RG Ponza",
+      "archetype": "Jund",
       "count": 2
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2610855",
+      "tournament": "Pauper League",
+      "date": "2026-06-26",
+      "player": "PNascimento",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2512845643",
       "tournament": "Pauper Challenge 32",
@@ -455,22 +471,6 @@
       ],
       "record": "4-2",
       "final_rank": 16,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-1712839670",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-17",
-      "player": "PNascimento",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 14,
       "source": "mtgo",
       "type": "challenge"
     }
