@@ -2,13 +2,13 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1140,
-    "league_entries": 603,
-    "league_trophies": 603,
-    "league_trophies_yearly": 221,
-    "challenge_appearances": 478,
-    "challenge_wins": 1902,
-    "challenge_losses": 1199,
+    "total_entries": 1142,
+    "league_entries": 604,
+    "league_trophies": 604,
+    "league_trophies_yearly": 222,
+    "challenge_appearances": 479,
+    "challenge_wins": 1908,
+    "challenge_losses": 1201,
     "irl_top8": 31,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 4,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845643",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-25",
+      "player": "Shiib",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "6-2",
+      "final_rank": 3,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845625",
       "tournament": "Pauper Challenge 32",
@@ -44,6 +58,19 @@
       "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2310855",
+      "tournament": "Pauper League",
+      "date": "2026-06-23",
+      "player": "KOKOLOKO3435",
+      "colors": [
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-2310636",
@@ -344,40 +371,12 @@
       "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-showcase-challenge-2026-06-1412844285",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2026-06-14",
-      "player": "arturcosta",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "7-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1410636",
-      "tournament": "Pauper League",
-      "date": "2026-06-14",
-      "player": "CarrodaPolicia",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "Shiib",
-      "count": 99
+      "count": 100
     },
     {
       "player": "Boquinha",

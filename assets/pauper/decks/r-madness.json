@@ -2,13 +2,13 @@
   "archetype": "R Madness",
   "slug": "r-madness",
   "stats": {
-    "total_entries": 1766,
-    "league_entries": 1057,
-    "league_trophies": 1057,
-    "league_trophies_yearly": 485,
-    "challenge_appearances": 610,
-    "challenge_wins": 2392,
-    "challenge_losses": 1545,
+    "total_entries": 1769,
+    "league_entries": 1058,
+    "league_trophies": 1058,
+    "league_trophies_yearly": 486,
+    "challenge_appearances": 612,
+    "challenge_wins": 2395,
+    "challenge_losses": 1553,
     "irl_top8": 60,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 1,
@@ -17,6 +17,36 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845643",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-25",
+      "player": "jackie42005",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "1-4",
+      "final_rank": 28,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845643",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-25",
+      "player": "fazparte",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "2-4",
+      "final_rank": 31,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-2510855",
       "tournament": "Pauper League",
@@ -288,6 +318,21 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-06-2310855",
+      "tournament": "Pauper League",
+      "date": "2026-06-23",
+      "player": "Dr_dej96",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2026-06-2310636",
       "tournament": "Pauper League",
       "date": "2026-06-23",
@@ -346,51 +391,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2210636",
-      "tournament": "Pauper League",
-      "date": "2026-06-22",
-      "player": "MisterTwin",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2112844875",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-21",
-      "player": "MisterTwin",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-3",
-      "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2112844875",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-21",
-      "player": "Hamuda",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 28,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -423,11 +423,11 @@
       "count": 25
     },
     {
-      "player": "Denisevich",
-      "count": 23
+      "player": "fazparte",
+      "count": 24
     },
     {
-      "player": "fazparte",
+      "player": "Denisevich",
       "count": 23
     },
     {

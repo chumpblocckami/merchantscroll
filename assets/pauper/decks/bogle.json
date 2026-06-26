@@ -2,13 +2,13 @@
   "archetype": "Bogle",
   "slug": "bogle",
   "stats": {
-    "total_entries": 215,
+    "total_entries": 216,
     "league_entries": 86,
     "league_trophies": 86,
     "league_trophies_yearly": 15,
-    "challenge_appearances": 123,
-    "challenge_wins": 494,
-    "challenge_losses": 318,
+    "challenge_appearances": 124,
+    "challenge_wins": 497,
+    "challenge_losses": 321,
     "irl_top8": 2,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 40,
@@ -17,6 +17,22 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845643",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-25",
+      "player": "PedraStone",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 20,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845625",
       "tournament": "Pauper Challenge 32",
@@ -402,28 +418,12 @@
       "final_rank": 6,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-0612834493",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-06",
-      "player": "PedraStone",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "8-1",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "PedraStone",
-      "count": 27
+      "count": 28
     },
     {
       "player": "Ixidor29",

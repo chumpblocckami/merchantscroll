@@ -2,13 +2,13 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 127,
+    "total_entries": 128,
     "league_entries": 66,
     "league_trophies": 66,
     "league_trophies_yearly": 38,
-    "challenge_appearances": 56,
-    "challenge_wins": 177,
-    "challenge_losses": 140,
+    "challenge_appearances": 57,
+    "challenge_wins": 180,
+    "challenge_losses": 143,
     "irl_top8": 4,
     "challenge_win_pct": 56,
     "league_trophy_rank_yearly": 30,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845643",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-25",
+      "player": "JuaKi",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 17,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-2310636",
       "tournament": "Pauper League",
@@ -344,20 +358,6 @@
       "tournament": "Pauper League",
       "date": "2026-06-01",
       "player": "BandaidBandit",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-3110636",
-      "tournament": "Pauper League",
-      "date": "2026-05-31",
-      "player": "Ineves",
       "colors": [
         "G",
         "R"

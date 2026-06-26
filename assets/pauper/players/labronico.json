@@ -3,17 +3,17 @@
   "display_name": "LabroNico",
   "irl_name": null,
   "stats": {
-    "total_entries": 27,
+    "total_entries": 28,
     "league_trophies": 19,
     "league_trophies_yearly": 6,
-    "challenge_wins": 32,
-    "challenge_losses": 18,
+    "challenge_wins": 36,
+    "challenge_losses": 20,
     "irl_top8": 0,
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 148,
     "league_trophy_rank_alltime": 92,
-    "league_trophy_players_yearly": 1182,
-    "league_trophy_players_alltime": 1935
+    "league_trophy_players_yearly": 1186,
+    "league_trophy_players_alltime": 1938
   },
   "favorite_decks": [
     {
@@ -23,6 +23,10 @@
     {
       "archetype": "Jund",
       "count": 4
+    },
+    {
+      "archetype": "Naya Gates",
+      "count": 3
     },
     {
       "archetype": "Affinity",
@@ -37,10 +41,6 @@
       "count": 2
     },
     {
-      "archetype": "Naya Gates",
-      "count": 2
-    },
-    {
       "archetype": "U Faeries",
       "count": 1
     },
@@ -50,6 +50,24 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845643",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-25",
+      "player": "LabroNico",
+      "archetype": "Naya Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 15,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845631",
       "tournament": "Pauper Challenge 32",
@@ -429,22 +447,6 @@
         "B",
         "R",
         "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-07-189366",
-      "tournament": "pauper-league-2025-07-189366",
-      "date": "2025-07-18",
-      "player": "LabroNico",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G",
-        "R"
       ],
       "record": "5-0",
       "final_rank": null,

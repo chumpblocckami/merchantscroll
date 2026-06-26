@@ -3,17 +3,17 @@
   "display_name": "CounterTopGarchomp",
   "irl_name": null,
   "stats": {
-    "total_entries": 26,
-    "league_trophies": 17,
-    "league_trophies_yearly": 6,
+    "total_entries": 27,
+    "league_trophies": 18,
+    "league_trophies_yearly": 7,
     "challenge_wins": 28,
     "challenge_losses": 14,
     "irl_top8": 0,
     "challenge_win_pct": 67,
-    "league_trophy_rank_yearly": 140,
-    "league_trophy_rank_alltime": 112,
-    "league_trophy_players_yearly": 1182,
-    "league_trophy_players_alltime": 1935
+    "league_trophy_rank_yearly": 122,
+    "league_trophy_rank_alltime": 99,
+    "league_trophy_players_yearly": 1186,
+    "league_trophy_players_alltime": 1938
   },
   "favorite_decks": [
     {
@@ -39,9 +39,31 @@
     {
       "archetype": "U Terror",
       "count": 1
+    },
+    {
+      "archetype": "Naya Gates",
+      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2610855",
+      "tournament": "Pauper League",
+      "date": "2026-06-26",
+      "player": "CounterTopGarchomp",
+      "archetype": "Naya Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-1210636",
       "tournament": "Pauper League",
@@ -406,22 +428,6 @@
       "final_rank": 7,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-03-269535",
-      "tournament": "pauper-league-2025-03-269535",
-      "date": "2025-03-26",
-      "player": "CounterTopGarchomp",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

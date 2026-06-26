@@ -2,13 +2,13 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 571,
-    "league_entries": 336,
-    "league_trophies": 336,
-    "league_trophies_yearly": 146,
-    "challenge_appearances": 209,
-    "challenge_wins": 811,
-    "challenge_losses": 524,
+    "total_entries": 573,
+    "league_entries": 337,
+    "league_trophies": 337,
+    "league_trophies_yearly": 147,
+    "challenge_appearances": 210,
+    "challenge_wins": 816,
+    "challenge_losses": 526,
     "irl_top8": 15,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 9,
@@ -17,6 +17,22 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845643",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-25",
+      "player": "Pafru",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845625",
       "tournament": "Pauper Challenge 32",
@@ -32,6 +48,22 @@
       "final_rank": 6,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2310855",
+      "tournament": "Pauper League",
+      "date": "2026-06-23",
+      "player": "Supremoguy",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-2310636",
@@ -327,32 +359,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1110636",
-      "tournament": "Pauper League",
-      "date": "2026-06-11",
-      "player": "Uagli1",
-      "colors": [
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1112844295",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-11",
-      "player": "MAFS",
-      "colors": [
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [

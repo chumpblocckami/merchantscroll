@@ -2,10 +2,10 @@
   "archetype": "BW Refurbished",
   "slug": "bw-refurbished",
   "stats": {
-    "total_entries": 333,
-    "league_entries": 193,
-    "league_trophies": 193,
-    "league_trophies_yearly": 80,
+    "total_entries": 334,
+    "league_entries": 194,
+    "league_trophies": 194,
+    "league_trophies_yearly": 81,
     "challenge_appearances": 134,
     "challenge_wins": 509,
     "challenge_losses": 345,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2510855",
+      "tournament": "Pauper League",
+      "date": "2026-06-25",
+      "player": "ThieresTMS",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2310636",
       "tournament": "Pauper League",
@@ -355,20 +369,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0210636",
-      "tournament": "Pauper League",
-      "date": "2026-06-02",
-      "player": "gasimpar",
-      "colors": [
-        "B",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -389,11 +389,11 @@
       "count": 14
     },
     {
-      "player": "lostonkato",
-      "count": 10
+      "player": "ThieresTMS",
+      "count": 11
     },
     {
-      "player": "ThieresTMS",
+      "player": "lostonkato",
       "count": 10
     },
     {

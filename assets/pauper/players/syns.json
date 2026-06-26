@@ -3,17 +3,17 @@
   "display_name": "Syns",
   "irl_name": null,
   "stats": {
-    "total_entries": 50,
+    "total_entries": 51,
     "league_trophies": 15,
     "league_trophies_yearly": 12,
-    "challenge_wins": 121,
-    "challenge_losses": 97,
+    "challenge_wins": 125,
+    "challenge_losses": 99,
     "irl_top8": 0,
     "challenge_win_pct": 56,
     "league_trophy_rank_yearly": 64,
     "league_trophy_rank_alltime": 135,
-    "league_trophy_players_yearly": 1182,
-    "league_trophy_players_alltime": 1935
+    "league_trophy_players_yearly": 1186,
+    "league_trophy_players_alltime": 1938
   },
   "favorite_decks": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "archetype": "Rally",
-      "count": 4
+      "count": 5
     },
     {
       "archetype": "Pingers",
@@ -46,6 +46,20 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845643",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-25",
+      "player": "Syns",
+      "archetype": "Rally",
+      "colors": [
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2112844875",
       "tournament": "Pauper Challenge 32",
@@ -429,22 +443,6 @@
       "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-03-2310405",
-      "tournament": "pauper-league-2026-03-2310405",
-      "date": "2026-03-23",
-      "player": "Syns",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

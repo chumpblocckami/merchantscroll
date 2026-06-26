@@ -2,13 +2,13 @@
   "archetype": "UG Fog",
   "slug": "ug-fog",
   "stats": {
-    "total_entries": 424,
+    "total_entries": 425,
     "league_entries": 212,
     "league_trophies": 212,
     "league_trophies_yearly": 14,
-    "challenge_appearances": 183,
-    "challenge_wins": 776,
-    "challenge_losses": 435,
+    "challenge_appearances": 184,
+    "challenge_wins": 779,
+    "challenge_losses": 438,
     "irl_top8": 10,
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 43,
@@ -17,6 +17,22 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845643",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-25",
+      "player": "Heisen01",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845631",
       "tournament": "Pauper Challenge 32",
@@ -385,20 +401,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-05-24-pauper-focaccia-trio",
-      "tournament": "Pauper Focaccia Trio — Genova",
-      "date": "2026-05-24",
-      "player": "Matteo Cirigliano",
-      "colors": [
-        "G",
-        "U"
-      ],
-      "record": "",
-      "final_rank": 1,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [

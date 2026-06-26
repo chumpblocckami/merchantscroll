@@ -2,15 +2,15 @@
   "archetype": "UR Control",
   "slug": "ur-control",
   "stats": {
-    "total_entries": 190,
+    "total_entries": 191,
     "league_entries": 120,
     "league_trophies": 120,
     "league_trophies_yearly": 45,
-    "challenge_appearances": 60,
-    "challenge_wins": 250,
-    "challenge_losses": 150,
+    "challenge_appearances": 61,
+    "challenge_wins": 254,
+    "challenge_losses": 152,
     "irl_top8": 3,
-    "challenge_win_pct": 62,
+    "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 27,
     "league_trophy_rank_alltime": 24,
     "league_trophy_decks_yearly": 63,
@@ -18,10 +18,25 @@
   },
   "recent_entries": [
     {
+      "site_name": "pauper-challenge-32-2026-06-2512845643",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-25",
+      "player": "SpockVidaLoka",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-league-2026-06-2210636",
       "tournament": "Pauper League",
       "date": "2026-06-22",
-      "player": "ZobLeBerger",
+      "player": "firstshot",
       "colors": [
         "G",
         "R",
@@ -369,27 +384,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-04-0610405",
-      "tournament": "Pauper League",
-      "date": "2026-04-06",
-      "player": "Mafuhsa",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "SpockVidaLoka",
-      "count": 26
+      "count": 27
     },
     {
       "player": "vikizin",
