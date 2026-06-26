@@ -2,10 +2,10 @@
   "archetype": "Familiars",
   "slug": "familiars",
   "stats": {
-    "total_entries": 263,
-    "league_entries": 152,
-    "league_trophies": 152,
-    "league_trophies_yearly": 65,
+    "total_entries": 264,
+    "league_entries": 153,
+    "league_trophies": 153,
+    "league_trophies_yearly": 66,
     "challenge_appearances": 88,
     "challenge_wins": 354,
     "challenge_losses": 223,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2610855",
+      "tournament": "Pauper League",
+      "date": "2026-06-26",
+      "player": "Bails76",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845625",
       "tournament": "Pauper Challenge 32",
@@ -360,21 +374,6 @@
       "final_rank": 3,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-05-1310636",
-      "tournament": "Pauper League",
-      "date": "2026-05-13",
-      "player": "Mikibairon96",
-      "colors": [
-        "B",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [

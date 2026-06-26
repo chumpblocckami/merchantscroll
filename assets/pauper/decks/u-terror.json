@@ -2,10 +2,10 @@
   "archetype": "U Terror",
   "slug": "u-terror",
   "stats": {
-    "total_entries": 1577,
-    "league_entries": 763,
-    "league_trophies": 763,
-    "league_trophies_yearly": 288,
+    "total_entries": 1578,
+    "league_entries": 764,
+    "league_trophies": 764,
+    "league_trophies_yearly": 289,
     "challenge_appearances": 716,
     "challenge_wins": 2940,
     "challenge_losses": 1766,
@@ -22,6 +22,20 @@
       "tournament": "Pauper League",
       "date": "2026-06-26",
       "player": "Oshinn",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2610855",
+      "tournament": "Pauper League",
+      "date": "2026-06-26",
+      "player": "Wolfsam",
       "colors": [
         "R",
         "U"
@@ -351,20 +365,6 @@
       ],
       "record": "4-2",
       "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1812844831",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-18",
-      "player": "Jii-Ro",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
     }

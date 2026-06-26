@@ -2,17 +2,17 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 16,
-    "league_entries": 3,
-    "league_trophies": 3,
-    "league_trophies_yearly": 3,
+    "total_entries": 18,
+    "league_entries": 5,
+    "league_trophies": 5,
+    "league_trophies_yearly": 5,
     "challenge_appearances": 11,
     "challenge_wins": 50,
     "challenge_losses": 28,
     "irl_top8": 2,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 54,
-    "league_trophy_rank_alltime": 62,
+    "league_trophy_rank_yearly": 52,
+    "league_trophy_rank_alltime": 59,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
@@ -46,6 +46,22 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2410855",
+      "tournament": "Pauper League",
+      "date": "2026-06-24",
+      "player": "Abisd94",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2112844875",
@@ -121,6 +137,22 @@
       "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2010636",
+      "tournament": "Pauper League",
+      "date": "2026-06-20",
+      "player": "Abisd94",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-2010636",
@@ -265,6 +297,10 @@
       "count": 3
     },
     {
+      "player": "Abisd94",
+      "count": 2
+    },
+    {
       "player": "karatedom",
       "count": 2
     },
@@ -294,10 +330,6 @@
     },
     {
       "player": "AchoElOjcah",
-      "count": 1
-    },
-    {
-      "player": "Lorenzo Montana",
       "count": 1
     }
   ]

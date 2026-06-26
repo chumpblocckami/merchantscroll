@@ -443,7 +443,8 @@
         "G",
         "R",
         "U"
-      ]
+      ],
+      "archetype": "Monster Tron"
     },
     {
       "player": "maribves",
@@ -793,6 +794,48 @@
       "player": "marzaboi",
       "main_deck": [
         {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Outlaw Medic",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Sacred Cat",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Mountain",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Sneaky Snacker",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Hawkeye's Bow",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Mountain",
+            "card_type": "LAND  "
+          }
+        },
+        {
           "qty": "4",
           "card_attributes": {
             "card_name": "Malevolent Rumble",
@@ -873,48 +916,6 @@
           "qty": "3",
           "card_attributes": {
             "card_name": "Plains",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "3",
-          "card_attributes": {
-            "card_name": "Outlaw Medic",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Sacred Cat",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Mountain",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Sneaky Snacker",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Hawkeye's Bow",
-            "card_type": "ARTFCT"
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Mountain",
             "card_type": "LAND  "
           }
         }
