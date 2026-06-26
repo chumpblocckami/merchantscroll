@@ -2,13 +2,13 @@
   "archetype": "Flicker Tron",
   "slug": "flicker-tron",
   "stats": {
-    "total_entries": 227,
+    "total_entries": 228,
     "league_entries": 128,
     "league_trophies": 128,
     "league_trophies_yearly": 52,
-    "challenge_appearances": 86,
-    "challenge_wins": 351,
-    "challenge_losses": 221,
+    "challenge_appearances": 87,
+    "challenge_wins": 357,
+    "challenge_losses": 224,
     "irl_top8": 5,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 25,
@@ -67,6 +67,23 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-showcase-challenge-2026-06-2012844285",
+      "tournament": "Pauper Showcase Challenge",
+      "date": "2026-06-14",
+      "player": "Alleyezonme",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "6-3",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-showcase-challenge-2026-06-1412844285",
@@ -423,29 +440,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2810636",
-      "tournament": "Pauper League",
-      "date": "2026-05-28",
-      "player": "bombaj",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "Alleyezonme",
-      "count": 63
+      "count": 64
     },
     {
       "player": "ziofrancone",

@@ -3,13 +3,13 @@
   "display_name": "CarrodaPolicia",
   "irl_name": null,
   "stats": {
-    "total_entries": 19,
+    "total_entries": 20,
     "league_trophies": 10,
     "league_trophies_yearly": 10,
-    "challenge_wins": 27,
-    "challenge_losses": 24,
+    "challenge_wins": 31,
+    "challenge_losses": 26,
     "irl_top8": 0,
-    "challenge_win_pct": 53,
+    "challenge_win_pct": 54,
     "league_trophy_rank_yearly": 81,
     "league_trophy_rank_alltime": 208,
     "league_trophy_players_yearly": 1192,
@@ -18,7 +18,7 @@
   "favorite_decks": [
     {
       "archetype": "Elves",
-      "count": 6
+      "count": 7
     },
     {
       "archetype": "R Madness",
@@ -73,6 +73,21 @@
       ],
       "record": "4-3",
       "final_rank": 21,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2012844338",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-14",
+      "player": "CarrodaPolicia",
+      "archetype": "Elves",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "4-2",
+      "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
     },

@@ -3,13 +3,13 @@
   "display_name": "Echanez",
   "irl_name": null,
   "stats": {
-    "total_entries": 31,
+    "total_entries": 32,
     "league_trophies": 22,
     "league_trophies_yearly": 10,
-    "challenge_wins": 33,
-    "challenge_losses": 24,
+    "challenge_wins": 42,
+    "challenge_losses": 27,
     "irl_top8": 0,
-    "challenge_win_pct": 58,
+    "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 83,
     "league_trophy_rank_alltime": 75,
     "league_trophy_players_yearly": 1192,
@@ -41,6 +41,10 @@
       "count": 2
     },
     {
+      "archetype": "Monster Tron",
+      "count": 2
+    },
+    {
       "archetype": "R Madness",
       "count": 2
     },
@@ -50,10 +54,6 @@
     },
     {
       "archetype": "White Weenie",
-      "count": 1
-    },
-    {
-      "archetype": "Boros Glitter",
       "count": 1
     }
   ],
@@ -72,6 +72,22 @@
       ],
       "record": "3-3",
       "final_rank": 22,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-showcase-challenge-2026-06-2012844285",
+      "tournament": "Pauper Showcase Challenge",
+      "date": "2026-06-14",
+      "player": "Echanez",
+      "archetype": "Monster Tron",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "9-3",
+      "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -439,22 +455,6 @@
       "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-09-039535",
-      "tournament": "pauper-league-2025-09-039535",
-      "date": "2025-09-03",
-      "player": "Echanez",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

@@ -2,21 +2,37 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 16,
-    "league_entries": 3,
-    "league_trophies": 3,
-    "league_trophies_yearly": 3,
-    "challenge_appearances": 11,
-    "challenge_wins": 50,
-    "challenge_losses": 28,
+    "total_entries": 20,
+    "league_entries": 6,
+    "league_trophies": 6,
+    "league_trophies_yearly": 6,
+    "challenge_appearances": 12,
+    "challenge_wins": 59,
+    "challenge_losses": 31,
     "irl_top8": 2,
-    "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 54,
-    "league_trophy_rank_alltime": 62,
+    "challenge_win_pct": 66,
+    "league_trophy_rank_yearly": 51,
+    "league_trophy_rank_alltime": 56,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2610855",
+      "tournament": "Pauper League",
+      "date": "2026-06-26",
+      "player": "Abisd94",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845625",
       "tournament": "Pauper Challenge 32",
@@ -46,6 +62,22 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2410855",
+      "tournament": "Pauper League",
+      "date": "2026-06-24",
+      "player": "Abisd94",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2112844875",
@@ -121,6 +153,22 @@
       "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2010636",
+      "tournament": "Pauper League",
+      "date": "2026-06-20",
+      "player": "Abisd94",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-2010636",
@@ -229,6 +277,21 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-showcase-challenge-2026-06-2012844285",
+      "tournament": "Pauper Showcase Challenge",
+      "date": "2026-06-14",
+      "player": "Echanez",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "9-3",
+      "final_rank": 2,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauperwave-2026-06-10-modena-summer-2026",
       "tournament": "LP Modena Summer 2026 — Modena",
       "date": "2026-06-10",
@@ -261,8 +324,16 @@
   ],
   "top_pilots": [
     {
+      "player": "Abisd94",
+      "count": 3
+    },
+    {
       "player": "Valimoth",
       "count": 3
+    },
+    {
+      "player": "Echanez",
+      "count": 2
     },
     {
       "player": "karatedom",
@@ -274,10 +345,6 @@
     },
     {
       "player": "SirBarbaffo",
-      "count": 1
-    },
-    {
-      "player": "Echanez",
       "count": 1
     },
     {
@@ -294,10 +361,6 @@
     },
     {
       "player": "AchoElOjcah",
-      "count": 1
-    },
-    {
-      "player": "Lorenzo Montana",
       "count": 1
     }
   ]

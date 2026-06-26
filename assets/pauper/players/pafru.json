@@ -3,13 +3,13 @@
   "display_name": "Pafru",
   "irl_name": null,
   "stats": {
-    "total_entries": 31,
+    "total_entries": 33,
     "league_trophies": 12,
     "league_trophies_yearly": 1,
-    "challenge_wins": 77,
-    "challenge_losses": 46,
+    "challenge_wins": 83,
+    "challenge_losses": 52,
     "irl_top8": 0,
-    "challenge_win_pct": 63,
+    "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 1035,
     "league_trophy_rank_alltime": 176,
     "league_trophy_players_yearly": 1192,
@@ -41,6 +41,10 @@
       "count": 2
     },
     {
+      "archetype": "BW Refurbished",
+      "count": 2
+    },
+    {
       "archetype": "White Weenie",
       "count": 1
     },
@@ -49,11 +53,7 @@
       "count": 1
     },
     {
-      "archetype": "BW Refurbished",
-      "count": 1
-    },
-    {
-      "archetype": "Boros Glitter",
+      "archetype": "Pingers",
       "count": 1
     }
   ],
@@ -117,6 +117,35 @@
       ],
       "record": "3-3",
       "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2312844831",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-18",
+      "player": "Pafru",
+      "archetype": "BW Refurbished",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2012844338",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-14",
+      "player": "Pafru",
+      "archetype": "Pingers",
+      "colors": [
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -411,37 +440,6 @@
       ],
       "record": "4-2",
       "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-06-1512794613",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-06-15",
-      "player": "Pafru",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "2-3",
-      "final_rank": 25,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-06-0812792709",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-06-08",
-      "player": "Pafru",
-      "archetype": "BR Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-2",
-      "final_rank": 16,
       "source": "mtgo",
       "type": "challenge"
     }

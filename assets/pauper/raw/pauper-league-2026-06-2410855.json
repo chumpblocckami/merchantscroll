@@ -443,7 +443,8 @@
         "G",
         "R",
         "U"
-      ]
+      ],
+      "archetype": "Monster Tron"
     },
     {
       "player": "maribves",
@@ -1420,6 +1421,20 @@
       "player": "Protean_Hulk",
       "main_deck": [
         {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Outlaw Medic",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Sacred Cat",
+            "card_type": "ISCREA"
+          }
+        },
+        {
           "qty": "1",
           "card_attributes": {
             "card_name": "Mountain",
@@ -1550,20 +1565,6 @@
           "card_attributes": {
             "card_name": "Plains",
             "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "3",
-          "card_attributes": {
-            "card_name": "Outlaw Medic",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Sacred Cat",
-            "card_type": "ISCREA"
           }
         }
       ],
@@ -1994,7 +1995,7 @@
       "colors": [
         "R"
       ],
-      "archetype": "Rally"
+      "archetype": "Pingers"
     },
     {
       "player": "Albreto",
@@ -2675,7 +2676,7 @@
       "colors": [
         "R"
       ],
-      "archetype": "Rally"
+      "archetype": "Pingers"
     },
     {
       "player": "NMT_Sco94",
@@ -4860,6 +4861,41 @@
       "player": "Wizard_2002",
       "main_deck": [
         {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Island",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Island",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Ponder",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Thought Scour",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Tolarian Terror",
+            "card_type": "ISCREA"
+          }
+        },
+        {
           "qty": "2",
           "card_attributes": {
             "card_name": "Island",
@@ -4976,41 +5012,6 @@
           "card_attributes": {
             "card_name": "Island",
             "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Island",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Island",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "3",
-          "card_attributes": {
-            "card_name": "Ponder",
-            "card_type": "SORCRY"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Thought Scour",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Tolarian Terror",
-            "card_type": "ISCREA"
           }
         }
       ],

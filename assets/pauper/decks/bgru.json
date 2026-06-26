@@ -2,24 +2,24 @@
   "archetype": "BGRU",
   "slug": "bgru",
   "stats": {
-    "total_entries": 59,
-    "league_entries": 38,
-    "league_trophies": 38,
-    "league_trophies_yearly": 26,
-    "challenge_appearances": 20,
-    "challenge_wins": 76,
-    "challenge_losses": 50,
+    "total_entries": 58,
+    "league_entries": 35,
+    "league_trophies": 35,
+    "league_trophies_yearly": 23,
+    "challenge_appearances": 22,
+    "challenge_wins": 85,
+    "challenge_losses": 55,
     "irl_top8": 0,
-    "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 35,
+    "challenge_win_pct": 61,
+    "league_trophy_rank_yearly": 36,
     "league_trophy_rank_alltime": 43,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
-      "site_name": "pauper-league-2026-06-2610855",
-      "tournament": "Pauper League",
+      "site_name": "pauper-challenge-32-2026-06-2612845653",
+      "tournament": "Pauper Challenge 32",
       "date": "2026-06-26",
       "player": "yuxiaoyu",
       "colors": [
@@ -28,16 +28,32 @@
         "R",
         "U"
       ],
-      "record": "5-0",
-      "final_rank": null,
+      "record": "5-2",
+      "final_rank": 12,
       "source": "mtgo",
-      "type": "league"
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2612845653",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-26",
+      "player": "teasdale",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-league-2026-06-2610855",
       "tournament": "Pauper League",
       "date": "2026-06-26",
-      "player": "Abisd94",
+      "player": "yuxiaoyu",
       "colors": [
         "B",
         "G",
@@ -101,39 +117,7 @@
       "site_name": "pauper-league-2026-06-2410855",
       "tournament": "Pauper League",
       "date": "2026-06-24",
-      "player": "Abisd94",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2410855",
-      "tournament": "Pauper League",
-      "date": "2026-06-24",
       "player": "LordLini",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2010636",
-      "tournament": "Pauper League",
-      "date": "2026-06-20",
-      "player": "Abisd94",
       "colors": [
         "B",
         "G",
@@ -416,6 +400,22 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-03-2210405",
+      "tournament": "pauper-league-2026-03-2210405",
+      "date": "2026-03-22",
+      "player": "williami1986",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -436,15 +436,15 @@
       "count": 5
     },
     {
-      "player": "Abisd94",
-      "count": 3
-    },
-    {
       "player": "saidin.raken",
       "count": 3
     },
     {
       "player": "PNascimento",
+      "count": 2
+    },
+    {
+      "player": "yuxiaoyu",
       "count": 2
     },
     {
@@ -456,7 +456,7 @@
       "count": 1
     },
     {
-      "player": "scipios",
+      "player": "teasdale",
       "count": 1
     }
   ]

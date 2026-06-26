@@ -2,13 +2,13 @@
   "archetype": "U Faeries",
   "slug": "u-faeries",
   "stats": {
-    "total_entries": 535,
+    "total_entries": 537,
     "league_entries": 296,
     "league_trophies": 296,
     "league_trophies_yearly": 70,
-    "challenge_appearances": 215,
-    "challenge_wins": 883,
-    "challenge_losses": 543,
+    "challenge_appearances": 217,
+    "challenge_wins": 892,
+    "challenge_losses": 547,
     "irl_top8": 11,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 20,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2612845653",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-26",
+      "player": "Denisevich",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-2610855",
       "tournament": "Pauper League",
@@ -153,6 +167,19 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1812844831",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-18",
+      "player": "Beicodegeia",
+      "colors": [
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2312844831",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-18",
       "player": "Beicodegeia",
@@ -320,32 +347,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0610636",
-      "tournament": "Pauper League",
-      "date": "2026-06-06",
-      "player": "FranPi",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0510636",
-      "tournament": "Pauper League",
-      "date": "2026-06-05",
-      "player": "Robotflow",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -370,19 +371,19 @@
       "count": 10
     },
     {
+      "player": "Denisevich",
+      "count": 10
+    },
+    {
       "player": "_Luvi_",
       "count": 10
     },
     {
-      "player": "Denisevich",
-      "count": 9
+      "player": "Beicodegeia",
+      "count": 10
     },
     {
       "player": "sirhempsalot",
-      "count": 9
-    },
-    {
-      "player": "Beicodegeia",
       "count": 9
     },
     {

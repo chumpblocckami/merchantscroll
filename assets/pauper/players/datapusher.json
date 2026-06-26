@@ -3,13 +3,13 @@
   "display_name": "DataPusher",
   "irl_name": null,
   "stats": {
-    "total_entries": 43,
+    "total_entries": 44,
     "league_trophies": 34,
     "league_trophies_yearly": 21,
-    "challenge_wins": 38,
-    "challenge_losses": 19,
+    "challenge_wins": 45,
+    "challenge_losses": 21,
     "irl_top8": 0,
-    "challenge_win_pct": 67,
+    "challenge_win_pct": 68,
     "league_trophy_rank_yearly": 25,
     "league_trophy_rank_alltime": 35,
     "league_trophy_players_yearly": 1192,
@@ -18,7 +18,7 @@
   "favorite_decks": [
     {
       "archetype": "RG Storm",
-      "count": 14
+      "count": 15
     },
     {
       "archetype": "Jund",
@@ -69,6 +69,22 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-showcase-challenge-2026-06-2012844285",
+      "tournament": "Pauper Showcase Challenge",
+      "date": "2026-06-14",
+      "player": "DataPusher",
+      "archetype": "RG Storm",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "7-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-showcase-challenge-2026-06-1412844285",
@@ -439,22 +455,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-01-0312828177",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-03",
-      "player": "DataPusher",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "6-2",
-      "final_rank": 3,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

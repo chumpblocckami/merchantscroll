@@ -2,21 +2,49 @@
   "archetype": "Familiars",
   "slug": "familiars",
   "stats": {
-    "total_entries": 264,
+    "total_entries": 266,
     "league_entries": 153,
     "league_trophies": 153,
     "league_trophies_yearly": 66,
-    "challenge_appearances": 88,
-    "challenge_wins": 354,
-    "challenge_losses": 223,
+    "challenge_appearances": 90,
+    "challenge_wins": 366,
+    "challenge_losses": 226,
     "irl_top8": 20,
-    "challenge_win_pct": 61,
+    "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 22,
     "league_trophy_rank_alltime": 21,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2612845653",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-26",
+      "player": "ChaoticMTG",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "7-1",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2612845653",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-26",
+      "player": "LydiaTheHuman",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-2610855",
       "tournament": "Pauper League",
@@ -345,35 +373,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-05-16-pauperstruck",
-      "tournament": "Pauperstruck 2026",
-      "date": "2026-05-16",
-      "player": "Lorenzo Bergamini",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "",
-      "final_rank": 3,
-      "source": "pauperwave",
-      "type": "irl"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-1512842474",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-15",
-      "player": "Mikibairon96",
-      "colors": [
-        "B",
-        "U",
-        "W"
-      ],
-      "record": "7-1",
-      "final_rank": 3,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -387,7 +386,7 @@
     },
     {
       "player": "ChaoticMTG",
-      "count": 20
+      "count": 21
     },
     {
       "player": "Mikibairon96",

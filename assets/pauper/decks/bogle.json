@@ -2,13 +2,13 @@
   "archetype": "Bogle",
   "slug": "bogle",
   "stats": {
-    "total_entries": 216,
+    "total_entries": 218,
     "league_entries": 86,
     "league_trophies": 86,
     "league_trophies_yearly": 15,
-    "challenge_appearances": 124,
-    "challenge_wins": 497,
-    "challenge_losses": 321,
+    "challenge_appearances": 126,
+    "challenge_wins": 506,
+    "challenge_losses": 325,
     "irl_top8": 2,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 40,
@@ -81,6 +81,22 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-06-2312844831",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-18",
+      "player": "broers_",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-league-2026-06-1710636",
       "tournament": "Pauper League",
       "date": "2026-06-17",
@@ -95,6 +111,22 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2012844338",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-14",
+      "player": "broers_",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 14,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1412844338",
@@ -386,38 +418,6 @@
       "final_rank": 4,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-1212835286",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-12",
-      "player": "PedraStone",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "8-1",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-0812834527",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-08",
-      "player": "Boin",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 6,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -450,15 +450,15 @@
       "count": 6
     },
     {
+      "player": "broers_",
+      "count": 6
+    },
+    {
       "player": "NMT_Sco94",
       "count": 5
     },
     {
       "player": "Wizard_2002",
-      "count": 5
-    },
-    {
-      "player": "DEANmachine",
       "count": 5
     }
   ]

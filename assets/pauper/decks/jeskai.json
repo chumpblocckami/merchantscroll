@@ -2,21 +2,51 @@
   "archetype": "Jeskai",
   "slug": "jeskai",
   "stats": {
-    "total_entries": 223,
+    "total_entries": 228,
     "league_entries": 147,
     "league_trophies": 147,
     "league_trophies_yearly": 83,
-    "challenge_appearances": 66,
-    "challenge_wins": 265,
-    "challenge_losses": 160,
+    "challenge_appearances": 71,
+    "challenge_wins": 292,
+    "challenge_losses": 171,
     "irl_top8": 9,
-    "challenge_win_pct": 62,
+    "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 17,
     "league_trophy_rank_alltime": 22,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2612845653",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-26",
+      "player": "Mikhathara1994",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "6-3",
+      "final_rank": 3,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2612845653",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-26",
+      "player": "TSPJendrek",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "6-2",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2512845643",
       "tournament": "Pauper Challenge 32",
@@ -353,37 +383,7 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1412844338",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-14",
-      "player": "TentacleFan",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 9,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1412844338",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-14",
-      "player": "TSPJendrek",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-showcase-challenge-2026-06-1412844285",
+      "site_name": "pauper-showcase-challenge-2026-06-2012844285",
       "tournament": "Pauper Showcase Challenge",
       "date": "2026-06-14",
       "player": "pepeteam",
@@ -408,16 +408,16 @@
       "count": 15
     },
     {
+      "player": "TSPJendrek",
+      "count": 10
+    },
+    {
       "player": "vikizin",
       "count": 9
     },
     {
       "player": "Al_bertoR",
       "count": 9
-    },
-    {
-      "player": "TSPJendrek",
-      "count": 8
     },
     {
       "player": "DarkPattaman",
@@ -436,7 +436,7 @@
       "count": 4
     },
     {
-      "player": "Denisevich",
+      "player": "Mikhathara1994",
       "count": 4
     }
   ]

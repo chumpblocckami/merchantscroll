@@ -3,11 +3,11 @@
   "display_name": "SaculSueahtam",
   "irl_name": null,
   "stats": {
-    "total_entries": 78,
+    "total_entries": 80,
     "league_trophies": 8,
     "league_trophies_yearly": 5,
-    "challenge_wins": 281,
-    "challenge_losses": 169,
+    "challenge_wins": 289,
+    "challenge_losses": 174,
     "irl_top8": 0,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 213,
@@ -18,10 +18,28 @@
   "favorite_decks": [
     {
       "archetype": "Rally",
-      "count": 78
+      "count": 76
+    },
+    {
+      "archetype": "Pingers",
+      "count": 4
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2612845653",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-26",
+      "player": "SaculSueahtam",
+      "archetype": "Pingers",
+      "colors": [
+        "R"
+      ],
+      "record": "4-3",
+      "final_rank": 17,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845631",
       "tournament": "Pauper Challenge 32",
@@ -41,7 +59,7 @@
       "tournament": "Pauper League",
       "date": "2026-06-24",
       "player": "SaculSueahtam",
-      "archetype": "Rally",
+      "archetype": "Pingers",
       "colors": [
         "R"
       ],
@@ -55,7 +73,7 @@
       "tournament": "Pauper League",
       "date": "2026-06-24",
       "player": "SaculSueahtam",
-      "archetype": "Rally",
+      "archetype": "Pingers",
       "colors": [
         "R"
       ],
@@ -117,6 +135,20 @@
       ],
       "record": "5-2",
       "final_rank": 14,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2012844338",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-14",
+      "player": "SaculSueahtam",
+      "archetype": "Pingers",
+      "colors": [
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 19,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -344,34 +376,6 @@
       ],
       "record": "3-3",
       "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-showcase-challenge-2026-05-1012842047",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2026-05-10",
-      "player": "SaculSueahtam",
-      "archetype": "Rally",
-      "colors": [
-        "R"
-      ],
-      "record": "",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-0712842061",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-07",
-      "player": "SaculSueahtam",
-      "archetype": "Rally",
-      "colors": [
-        "R"
-      ],
-      "record": "2-3",
-      "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
     }

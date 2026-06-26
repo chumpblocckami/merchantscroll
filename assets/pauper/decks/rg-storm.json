@@ -2,21 +2,36 @@
   "archetype": "RG Storm",
   "slug": "rg-storm",
   "stats": {
-    "total_entries": 135,
+    "total_entries": 137,
     "league_entries": 105,
     "league_trophies": 105,
     "league_trophies_yearly": 92,
-    "challenge_appearances": 21,
-    "challenge_wins": 77,
-    "challenge_losses": 52,
+    "challenge_appearances": 23,
+    "challenge_wins": 88,
+    "challenge_losses": 57,
     "irl_top8": 9,
-    "challenge_win_pct": 60,
+    "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 15,
     "league_trophy_rank_alltime": 25,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2612845653",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-26",
+      "player": "ziofrancone",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-2610855",
       "tournament": "Pauper League",
@@ -106,6 +121,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-showcase-challenge-2026-06-2012844285",
+      "tournament": "Pauper Showcase Challenge",
+      "date": "2026-06-14",
+      "player": "DataPusher",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "7-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-showcase-challenge-2026-06-1412844285",
@@ -368,36 +398,6 @@
       "final_rank": 14,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2310636",
-      "tournament": "Pauper League",
-      "date": "2026-05-23",
-      "player": "DataPusher",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-05-23-pauper-focaccia-2026",
-      "tournament": "Pauper Focaccia 2026 — Genova",
-      "date": "2026-05-23",
-      "player": "Matteo Cirigliano",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "",
-      "final_rank": 5,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [
@@ -407,7 +407,7 @@
     },
     {
       "player": "DataPusher",
-      "count": 14
+      "count": 15
     },
     {
       "player": "vincent99",

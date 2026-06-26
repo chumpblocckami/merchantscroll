@@ -2,16 +2,16 @@
   "archetype": "UR Control",
   "slug": "ur-control",
   "stats": {
-    "total_entries": 192,
-    "league_entries": 121,
-    "league_trophies": 121,
-    "league_trophies_yearly": 46,
-    "challenge_appearances": 61,
-    "challenge_wins": 254,
-    "challenge_losses": 152,
+    "total_entries": 195,
+    "league_entries": 122,
+    "league_trophies": 122,
+    "league_trophies_yearly": 47,
+    "challenge_appearances": 63,
+    "challenge_wins": 264,
+    "challenge_losses": 157,
     "irl_top8": 3,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 28,
+    "league_trophy_rank_yearly": 27,
     "league_trophy_rank_alltime": 24,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
@@ -37,6 +37,21 @@
       "tournament": "Pauper League",
       "date": "2026-06-22",
       "player": "ZobLeBerger",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2210636",
+      "tournament": "Pauper League",
+      "date": "2026-06-22",
+      "player": "firstshot",
       "colors": [
         "G",
         "R",
@@ -74,6 +89,36 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-showcase-challenge-2026-06-2012844285",
+      "tournament": "Pauper Showcase Challenge",
+      "date": "2026-06-14",
+      "player": "SpockVidaLoka",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "6-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2012844338",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-14",
+      "player": "SpockVidaLoka",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 15,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauperwave-2026-06-14-piacenza-summer-2026",
@@ -338,57 +383,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-1912839704",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-19",
-      "player": "hopkins23",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-4",
-      "final_rank": 28,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-1212838904",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-12",
-      "player": "Belekuris",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-4",
-      "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-0912838859",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-09",
-      "player": "Craig_Long123",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "2-4",
-      "final_rank": 28,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "SpockVidaLoka",
-      "count": 27
+      "count": 29
     },
     {
       "player": "vikizin",

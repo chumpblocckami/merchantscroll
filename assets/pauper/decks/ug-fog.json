@@ -2,16 +2,16 @@
   "archetype": "UG Fog",
   "slug": "ug-fog",
   "stats": {
-    "total_entries": 426,
+    "total_entries": 428,
     "league_entries": 213,
     "league_trophies": 213,
     "league_trophies_yearly": 15,
-    "challenge_appearances": 184,
-    "challenge_wins": 779,
-    "challenge_losses": 438,
+    "challenge_appearances": 186,
+    "challenge_wins": 794,
+    "challenge_losses": 443,
     "irl_top8": 10,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 43,
+    "league_trophy_rank_yearly": 44,
     "league_trophy_rank_alltime": 15,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
@@ -92,6 +92,36 @@
       ],
       "record": "4-2",
       "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-showcase-challenge-2026-06-2012844285",
+      "tournament": "Pauper Showcase Challenge",
+      "date": "2026-06-14",
+      "player": "A_AdeptoTerra",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "record": "9-2",
+      "final_rank": 3,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-showcase-challenge-2026-06-2012844285",
+      "tournament": "Pauper Showcase Challenge",
+      "date": "2026-06-14",
+      "player": "Kirblinxy",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "record": "6-3",
+      "final_rank": 22,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -373,35 +403,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-05-30-rivoli-summer-2026",
-      "tournament": "LP Rivoli Summer 2026 — Rivoli",
-      "date": "2026-05-30",
-      "player": "Davide Da Ros",
-      "colors": [
-        "G",
-        "U"
-      ],
-      "record": "",
-      "final_rank": 5,
-      "source": "pauperwave",
-      "type": "irl"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2912843392",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-29",
-      "player": "A_AdeptoTerra",
-      "colors": [
-        "B",
-        "G",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -434,11 +435,11 @@
       "count": 15
     },
     {
-      "player": "Adrowo",
-      "count": 12
+      "player": "A_AdeptoTerra",
+      "count": 13
     },
     {
-      "player": "A_AdeptoTerra",
+      "player": "Adrowo",
       "count": 12
     },
     {

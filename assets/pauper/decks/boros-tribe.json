@@ -2,16 +2,16 @@
   "archetype": "Boros Tribe",
   "slug": "boros-tribe",
   "stats": {
-    "total_entries": 79,
+    "total_entries": 81,
     "league_entries": 46,
     "league_trophies": 46,
     "league_trophies_yearly": 46,
-    "challenge_appearances": 30,
-    "challenge_wins": 117,
-    "challenge_losses": 76,
+    "challenge_appearances": 32,
+    "challenge_wins": 129,
+    "challenge_losses": 82,
     "irl_top8": 3,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 27,
+    "league_trophy_rank_yearly": 28,
     "league_trophy_rank_alltime": 40,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
@@ -128,6 +128,38 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-showcase-challenge-2026-06-2012844285",
+      "tournament": "Pauper Showcase Challenge",
+      "date": "2026-06-14",
+      "player": "NMT_Sco94",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "6-3",
+      "final_rank": 31,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-showcase-challenge-2026-06-2012844285",
+      "tournament": "Pauper Showcase Challenge",
+      "date": "2026-06-14",
+      "player": "Aldreen",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "6-3",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-showcase-challenge-2026-06-1412844285",
@@ -385,38 +417,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2412842933",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-24",
-      "player": "PNascimento",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2410636",
-      "tournament": "Pauper League",
-      "date": "2026-05-24",
-      "player": "Jezerezeh",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -449,16 +449,16 @@
       "count": 3
     },
     {
+      "player": "Aldreen",
+      "count": 3
+    },
+    {
       "player": "Hamuda",
       "count": 3
     },
     {
       "player": "Sandokan92",
       "count": 3
-    },
-    {
-      "player": "Aldreen",
-      "count": 2
     }
   ]
 }

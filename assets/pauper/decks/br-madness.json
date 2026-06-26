@@ -2,13 +2,13 @@
   "archetype": "BR Madness",
   "slug": "br-madness",
   "stats": {
-    "total_entries": 765,
+    "total_entries": 767,
     "league_entries": 367,
     "league_trophies": 367,
     "league_trophies_yearly": 101,
-    "challenge_appearances": 371,
-    "challenge_wins": 1508,
-    "challenge_losses": 945,
+    "challenge_appearances": 373,
+    "challenge_wins": 1514,
+    "challenge_losses": 951,
     "irl_top8": 9,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 14,
@@ -214,6 +214,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-06-2312844831",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-18",
+      "player": "Captain_Tsubasa",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-league-2026-06-1810636",
       "tournament": "Pauper League",
       "date": "2026-06-18",
@@ -257,6 +272,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2012844338",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-14",
+      "player": "Armacinsky",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1412844338",
@@ -362,36 +392,6 @@
       "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1112844295",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-11",
-      "player": "grajtow",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1112844295",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-11",
-      "player": "Valimoth",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -404,16 +404,16 @@
       "count": 26
     },
     {
+      "player": "Captain_Tsubasa",
+      "count": 21
+    },
+    {
       "player": "grajtow",
       "count": 21
     },
     {
       "player": "MisterTwin",
       "count": 21
-    },
-    {
-      "player": "Captain_Tsubasa",
-      "count": 20
     },
     {
       "player": "mehanske",

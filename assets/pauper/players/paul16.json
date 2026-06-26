@@ -3,13 +3,13 @@
   "display_name": "Paul16",
   "irl_name": null,
   "stats": {
-    "total_entries": 77,
+    "total_entries": 78,
     "league_trophies": 63,
     "league_trophies_yearly": 24,
-    "challenge_wins": 57,
-    "challenge_losses": 35,
+    "challenge_wins": 64,
+    "challenge_losses": 37,
     "irl_top8": 0,
-    "challenge_win_pct": 62,
+    "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 18,
     "league_trophy_rank_alltime": 11,
     "league_trophy_players_yearly": 1192,
@@ -18,7 +18,7 @@
   "favorite_decks": [
     {
       "archetype": "Jund",
-      "count": 22
+      "count": 23
     },
     {
       "archetype": "U Terror",
@@ -88,6 +88,22 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-showcase-challenge-2026-06-2012844285",
+      "tournament": "Pauper Showcase Challenge",
+      "date": "2026-06-14",
+      "player": "Paul16",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "7-2",
+      "final_rank": 15,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-showcase-challenge-2026-06-1412844285",
@@ -424,21 +440,6 @@
       "archetype": "R Madness",
       "colors": [
         "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-0410196",
-      "tournament": "pauper-league-2026-02-0410196",
-      "date": "2026-02-04",
-      "player": "Paul16",
-      "archetype": "U Terror",
-      "colors": [
         "R",
         "U"
       ],

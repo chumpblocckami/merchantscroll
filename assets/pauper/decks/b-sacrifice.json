@@ -2,13 +2,13 @@
   "archetype": "B Sacrifice",
   "slug": "b-sacrifice",
   "stats": {
-    "total_entries": 288,
+    "total_entries": 289,
     "league_entries": 199,
     "league_trophies": 199,
     "league_trophies_yearly": 79,
-    "challenge_appearances": 81,
-    "challenge_wins": 339,
-    "challenge_losses": 199,
+    "challenge_appearances": 82,
+    "challenge_wins": 346,
+    "challenge_losses": 201,
     "irl_top8": 4,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 19,
@@ -71,6 +71,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-showcase-challenge-2026-06-2012844285",
+      "tournament": "Pauper Showcase Challenge",
+      "date": "2026-06-14",
+      "player": "EntroPete",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "7-2",
+      "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-showcase-challenge-2026-06-1412844285",
@@ -338,25 +352,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-league-2026-05-1310636",
-      "tournament": "Pauper League",
-      "date": "2026-05-13",
-      "player": "Cryomanc3r",
-      "colors": [
-        "B"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "EntroPete",
-      "count": 44
+      "count": 45
     },
     {
       "player": "airplay",
