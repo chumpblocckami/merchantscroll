@@ -2,10 +2,10 @@
   "archetype": "Altar",
   "slug": "altar",
   "stats": {
-    "total_entries": 90,
-    "league_entries": 59,
-    "league_trophies": 59,
-    "league_trophies_yearly": 19,
+    "total_entries": 93,
+    "league_entries": 62,
+    "league_trophies": 62,
+    "league_trophies_yearly": 22,
     "challenge_appearances": 27,
     "challenge_wins": 105,
     "challenge_losses": 70,
@@ -17,6 +17,38 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2610855",
+      "tournament": "Pauper League",
+      "date": "2026-06-26",
+      "player": "Abisd94",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2410855",
+      "tournament": "Pauper League",
+      "date": "2026-06-24",
+      "player": "Abisd94",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2112844875",
       "tournament": "Pauper Challenge 32",
@@ -47,6 +79,22 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2010636",
+      "tournament": "Pauper League",
+      "date": "2026-06-20",
+      "player": "Abisd94",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-2010636",
@@ -362,59 +410,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-3110196",
-      "tournament": "pauper-league-2026-02-3110196",
-      "date": "2026-02-31",
-      "player": "Gerry_Lo_Speziato",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-2610196",
-      "tournament": "pauper-league-2026-02-2610196",
-      "date": "2026-02-26",
-      "player": "axbycs",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-2510196",
-      "tournament": "pauper-league-2026-02-2510196",
-      "date": "2026-02-25",
-      "player": "giuliodice",
-      "colors": [
-        "B",
-        "G",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "Abisd94",
-      "count": 15
+      "count": 18
     },
     {
       "player": "Entropy263",
