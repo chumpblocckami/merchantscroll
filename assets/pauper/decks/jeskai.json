@@ -2,16 +2,16 @@
   "archetype": "Jeskai",
   "slug": "jeskai",
   "stats": {
-    "total_entries": 223,
-    "league_entries": 147,
-    "league_trophies": 147,
-    "league_trophies_yearly": 83,
+    "total_entries": 224,
+    "league_entries": 148,
+    "league_trophies": 148,
+    "league_trophies_yearly": 84,
     "challenge_appearances": 66,
     "challenge_wins": 265,
     "challenge_losses": 160,
     "irl_top8": 9,
     "challenge_win_pct": 62,
-    "league_trophy_rank_yearly": 17,
+    "league_trophy_rank_yearly": 16,
     "league_trophy_rank_alltime": 22,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
@@ -169,6 +169,20 @@
       "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2010636",
+      "tournament": "Pauper League",
+      "date": "2026-06-20",
+      "player": "Fluc_",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-2010636",
@@ -379,21 +393,6 @@
       ],
       "record": "4-2",
       "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-showcase-challenge-2026-06-1412844285",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2026-06-14",
-      "player": "pepeteam",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "7-2",
-      "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
     }

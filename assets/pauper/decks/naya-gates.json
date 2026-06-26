@@ -2,17 +2,17 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 110,
-    "league_entries": 52,
-    "league_trophies": 52,
-    "league_trophies_yearly": 45,
+    "total_entries": 111,
+    "league_entries": 53,
+    "league_trophies": 53,
+    "league_trophies_yearly": 46,
     "challenge_appearances": 44,
     "challenge_wins": 169,
     "challenge_losses": 102,
     "irl_top8": 12,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 27,
-    "league_trophy_rank_alltime": 39,
+    "league_trophy_rank_alltime": 37,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
@@ -39,6 +39,23 @@
       "tournament": "Pauper League",
       "date": "2026-06-26",
       "player": "Edo_01",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2610855",
+      "tournament": "Pauper League",
+      "date": "2026-06-26",
+      "player": "manu1234",
       "colors": [
         "B",
         "G",
@@ -420,23 +437,6 @@
       ],
       "record": "8-1",
       "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2412845625",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "marzaboi",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 7,
       "source": "mtgo",
       "type": "challenge"
     }

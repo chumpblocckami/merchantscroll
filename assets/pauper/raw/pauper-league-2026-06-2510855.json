@@ -902,7 +902,7 @@
         "B",
         "G"
       ],
-      "archetype": "Jund Gardens"
+      "archetype": "Food Pestilence"
     },
     {
       "player": "GrazerBoy",
@@ -1316,27 +1316,6 @@
       ],
       "sideboard_deck": [
         {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Relic of Progenitus",
-            "card_type": "ARTFCT"
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "End the Festivities",
-            "card_type": "SORCRY"
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Smash to Smithereens",
-            "card_type": "INSTNT"
-          }
-        },
-        {
           "qty": "2",
           "card_attributes": {
             "card_name": "Searing Blaze",
@@ -1369,6 +1348,27 @@
           "card_attributes": {
             "card_name": "Relic of Progenitus",
             "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Relic of Progenitus",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "End the Festivities",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Smash to Smithereens",
+            "card_type": "INSTNT"
           }
         }
       ],
@@ -2213,7 +2213,7 @@
       "colors": [
         "R"
       ],
-      "archetype": "Rally"
+      "archetype": "Mono Red Kuldotha"
     },
     {
       "player": "vini_torres",
@@ -3076,7 +3076,8 @@
         "G",
         "R",
         "U"
-      ]
+      ],
+      "archetype": "Jund Glee"
     },
     {
       "player": "DataPusher",
@@ -4541,48 +4542,6 @@
       "player": "GilbertoAntunes",
       "main_deck": [
         {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Lightning Bolt",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Voldaren Epicure",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Vision of Love",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Guttersnipe",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Grab the Prize",
-            "card_type": "SORCRY"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Lava Dart",
-            "card_type": "INSTNT"
-          }
-        },
-        {
           "qty": "18",
           "card_attributes": {
             "card_name": "Mountain",
@@ -4622,6 +4581,48 @@
           "card_attributes": {
             "card_name": "Sneaky Snacker",
             "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Lightning Bolt",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Voldaren Epicure",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Vision of Love",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Guttersnipe",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Grab the Prize",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Lava Dart",
+            "card_type": "INSTNT"
           }
         }
       ],
@@ -5503,7 +5504,7 @@
         "B",
         "W"
       ],
-      "archetype": "BR Affinity"
+      "archetype": "BW Refurbished"
     },
     {
       "player": "G-Monteiro",
