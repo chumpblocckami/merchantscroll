@@ -3,19 +3,23 @@
   "display_name": "peposhi",
   "irl_name": null,
   "stats": {
-    "total_entries": 3,
-    "league_trophies": 0,
-    "league_trophies_yearly": 0,
+    "total_entries": 4,
+    "league_trophies": 1,
+    "league_trophies_yearly": 1,
     "challenge_wins": 7,
     "challenge_losses": 10,
     "irl_top8": 0,
     "challenge_win_pct": 41,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": null,
-    "league_trophy_players_yearly": 1189,
-    "league_trophy_players_alltime": 1938
+    "league_trophy_rank_yearly": 1046,
+    "league_trophy_rank_alltime": 1714,
+    "league_trophy_players_yearly": 1193,
+    "league_trophy_players_alltime": 1942
   },
   "favorite_decks": [
+    {
+      "archetype": "Naya Gates",
+      "count": 2
+    },
     {
       "archetype": "GW Gates",
       "count": 1
@@ -23,13 +27,25 @@
     {
       "archetype": "U Terror",
       "count": 1
-    },
-    {
-      "archetype": "Naya Gates",
-      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2510855",
+      "tournament": "Pauper League",
+      "date": "2026-06-25",
+      "player": "peposhi",
+      "archetype": "Naya Gates",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845625",
       "tournament": "Pauper Challenge 32",

@@ -1152,76 +1152,6 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Lembas",
-            "card_type": "ARTFCT"
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Nihil Spellbomb",
-            "card_type": "ARTFCT"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Nutrient Block",
-            "card_type": "ARTFCT"
-          }
-        },
-        {
-          "qty": "3",
-          "card_attributes": {
-            "card_name": "Pestilence",
-            "card_type": "ENCHMT"
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Snuff Out",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Ichor Wellspring",
-            "card_type": "ARTFCT"
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Tithing Blade",
-            "card_type": "ARTFCT"
-          }
-        },
-        {
-          "qty": "3",
-          "card_attributes": {
-            "card_name": "Troll of Khazad-dûm",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Swamp",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Bojuka Bog",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
             "card_name": "Cast Down",
             "card_type": "INSTNT"
           }
@@ -1301,6 +1231,76 @@
           "card_attributes": {
             "card_name": "Duress",
             "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Lembas",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Nihil Spellbomb",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Nutrient Block",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Pestilence",
+            "card_type": "ENCHMT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Snuff Out",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Ichor Wellspring",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Tithing Blade",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Troll of Khazad-dûm",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Swamp",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Bojuka Bog",
+            "card_type": "LAND  "
           }
         }
       ],
@@ -2131,6 +2131,20 @@
       ],
       "sideboard_deck": [
         {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Envelop",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Hydroblast",
+            "card_type": "INSTNT"
+          }
+        },
+        {
           "qty": "4",
           "card_attributes": {
             "card_name": "Blue Elemental Blast",
@@ -2162,20 +2176,6 @@
           "qty": "1",
           "card_attributes": {
             "card_name": "Negate",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Envelop",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Hydroblast",
             "card_type": "INSTNT"
           }
         }
@@ -2908,48 +2908,6 @@
       "player": "Abisd94",
       "main_deck": [
         {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Impulse",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "3",
-          "card_attributes": {
-            "card_name": "Mysidian Elder",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Remote Isle",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Bramble Wurm",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Kaervek's Torch",
-            "card_type": "SORCRY"
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Steel Wrecking Ball",
-            "card_type": "ARTFCT"
-          }
-        },
-        {
           "qty": "3",
           "card_attributes": {
             "card_name": "Black Mage's Rod",
@@ -3046,6 +3004,48 @@
             "card_name": "Island",
             "card_type": "LAND  "
           }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Impulse",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Mysidian Elder",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Remote Isle",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Bramble Wurm",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Kaervek's Torch",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Steel Wrecking Ball",
+            "card_type": "ARTFCT"
+          }
         }
       ],
       "sideboard_deck": [
@@ -3088,7 +3088,8 @@
         "G",
         "R",
         "U"
-      ]
+      ],
+      "archetype": "Monster Tron"
     },
     {
       "player": "eli2107",
@@ -6213,7 +6214,7 @@
         "R",
         "U"
       ],
-      "archetype": "BR Madness"
+      "archetype": "R Madness"
     }
   ]
 }

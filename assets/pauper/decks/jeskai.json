@@ -2,10 +2,10 @@
   "archetype": "Jeskai",
   "slug": "jeskai",
   "stats": {
-    "total_entries": 233,
-    "league_entries": 146,
-    "league_trophies": 146,
-    "league_trophies_yearly": 82,
+    "total_entries": 234,
+    "league_entries": 147,
+    "league_trophies": 147,
+    "league_trophies_yearly": 83,
     "challenge_appearances": 77,
     "challenge_wins": 319,
     "challenge_losses": 186,
@@ -61,6 +61,22 @@
       "final_rank": 6,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2510855",
+      "tournament": "Pauper League",
+      "date": "2026-06-25",
+      "player": "KingZiggy",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845625",
@@ -378,21 +394,6 @@
       ],
       "record": "7-2",
       "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2012844338",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-14",
-      "player": "TentacleFan",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
     }

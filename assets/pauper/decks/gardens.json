@@ -2,17 +2,17 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 623,
-    "league_entries": 336,
-    "league_trophies": 336,
-    "league_trophies_yearly": 142,
+    "total_entries": 622,
+    "league_entries": 335,
+    "league_trophies": 335,
+    "league_trophies_yearly": 141,
     "challenge_appearances": 254,
     "challenge_wins": 1043,
     "challenge_losses": 624,
     "irl_top8": 18,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 10,
-    "league_trophy_rank_alltime": 9,
+    "league_trophy_rank_yearly": 11,
+    "league_trophy_rank_alltime": 10,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
@@ -46,6 +46,20 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-06-2510855",
+      "tournament": "Pauper League",
+      "date": "2026-06-25",
+      "player": "orbuletto",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-06-2412845631",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
@@ -58,34 +72,6 @@
       "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2310636",
-      "tournament": "Pauper League",
-      "date": "2026-06-23",
-      "player": "True-Name-Nemesis",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2210636",
-      "tournament": "Pauper League",
-      "date": "2026-06-22",
-      "player": "__Noob__",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2112844875",
@@ -367,12 +353,26 @@
       "final_rank": 5,
       "source": "pauperwave",
       "type": "irl"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1110636",
+      "tournament": "Pauper League",
+      "date": "2026-06-11",
+      "player": "ninjajar",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "__Noob__",
-      "count": 126
+      "count": 125
     },
     {
       "player": "NickNorman",
@@ -392,11 +392,11 @@
     },
     {
       "player": "True-Name-Nemesis",
-      "count": 16
+      "count": 15
     },
     {
       "player": "orbuletto",
-      "count": 13
+      "count": 14
     },
     {
       "player": "G-Monteiro",

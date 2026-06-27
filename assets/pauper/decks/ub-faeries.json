@@ -2,10 +2,10 @@
   "archetype": "UB Faeries",
   "slug": "ub-faeries",
   "stats": {
-    "total_entries": 523,
-    "league_entries": 291,
-    "league_trophies": 291,
-    "league_trophies_yearly": 163,
+    "total_entries": 525,
+    "league_entries": 293,
+    "league_trophies": 293,
+    "league_trophies_yearly": 165,
     "challenge_appearances": 207,
     "challenge_wins": 858,
     "challenge_losses": 517,
@@ -79,6 +79,34 @@
       "tournament": "Pauper League",
       "date": "2026-06-26",
       "player": "barff",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2510855",
+      "tournament": "Pauper League",
+      "date": "2026-06-25",
+      "player": "SamaLama",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2510855",
+      "tournament": "Pauper League",
+      "date": "2026-06-25",
+      "player": "Niederschatten",
       "colors": [
         "B",
         "U"
@@ -343,34 +371,6 @@
       "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1812844831",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-18",
-      "player": "Guii_Machado",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 22,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1812844831",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-18",
-      "player": "Dinosaur-chan",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -411,7 +411,7 @@
       "count": 10
     },
     {
-      "player": "vikizin",
+      "player": "Niederschatten",
       "count": 9
     }
   ]
