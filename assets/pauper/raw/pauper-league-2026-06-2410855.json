@@ -443,7 +443,8 @@
         "G",
         "R",
         "U"
-      ]
+      ],
+      "archetype": "Monster Tron"
     },
     {
       "player": "maribves",
@@ -1750,6 +1751,27 @@
       ],
       "sideboard_deck": [
         {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Flaring Pain",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Loran's Escape",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Prismatic Strands",
+            "card_type": "INSTNT"
+          }
+        },
+        {
           "qty": "2",
           "card_attributes": {
             "card_name": "Thraben Charm",
@@ -1774,27 +1796,6 @@
           "qty": "2",
           "card_attributes": {
             "card_name": "Siege Smash",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Flaring Pain",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Loran's Escape",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Prismatic Strands",
             "card_type": "INSTNT"
           }
         }
@@ -2146,13 +2147,6 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Seeker of Skybreak",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
             "card_name": "Outlaw Medic",
             "card_type": "ISCREA"
           }
@@ -2267,6 +2261,13 @@
           "card_attributes": {
             "card_name": "Basilisk Gate",
             "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Seeker of Skybreak",
+            "card_type": "ISCREA"
           }
         }
       ],
@@ -4448,6 +4449,48 @@
         {
           "qty": "4",
           "card_attributes": {
+            "card_name": "Sagu Wildling",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Saruli Caretaker",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Gatecreeper Vine",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Masked Vandal",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Dread Return",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Wall of Roots",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
             "card_name": "Balustrade Spy",
             "card_type": "ISCREA"
           }
@@ -4554,48 +4597,6 @@
           "qty": "2",
           "card_attributes": {
             "card_name": "Quirion Ranger",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Sagu Wildling",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "3",
-          "card_attributes": {
-            "card_name": "Saruli Caretaker",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "3",
-          "card_attributes": {
-            "card_name": "Gatecreeper Vine",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Masked Vandal",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Dread Return",
-            "card_type": "SORCRY"
-          }
-        },
-        {
-          "qty": "3",
-          "card_attributes": {
-            "card_name": "Wall of Roots",
             "card_type": "ISCREA"
           }
         }

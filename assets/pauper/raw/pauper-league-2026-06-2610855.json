@@ -846,6 +846,27 @@
         {
           "qty": "4",
           "card_attributes": {
+            "card_name": "Brinebarrow Intruder",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "18",
+          "card_attributes": {
+            "card_name": "Island",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Dispel",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
             "card_name": "Faerie Miscreant",
             "card_type": "ISCREA"
           }
@@ -911,27 +932,6 @@
           "card_attributes": {
             "card_name": "Spellstutter Sprite",
             "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Brinebarrow Intruder",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "18",
-          "card_attributes": {
-            "card_name": "Island",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Dispel",
-            "card_type": "INSTNT"
           }
         }
       ],
@@ -3088,7 +3088,8 @@
         "G",
         "R",
         "U"
-      ]
+      ],
+      "archetype": "Monster Tron"
     },
     {
       "player": "eli2107",
