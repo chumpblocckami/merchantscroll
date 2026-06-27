@@ -2,21 +2,36 @@
   "archetype": "RG Storm",
   "slug": "rg-storm",
   "stats": {
-    "total_entries": 137,
-    "league_entries": 105,
-    "league_trophies": 105,
-    "league_trophies_yearly": 92,
-    "challenge_appearances": 23,
-    "challenge_wins": 88,
-    "challenge_losses": 57,
+    "total_entries": 140,
+    "league_entries": 106,
+    "league_trophies": 106,
+    "league_trophies_yearly": 93,
+    "challenge_appearances": 25,
+    "challenge_wins": 96,
+    "challenge_losses": 63,
     "irl_top8": 9,
-    "challenge_win_pct": 61,
+    "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 15,
     "league_trophy_rank_alltime": 25,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2710855",
+      "tournament": "Pauper League",
+      "date": "2026-06-27",
+      "player": "lumely",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2612845653",
       "tournament": "Pauper Challenge 32",
@@ -213,6 +228,36 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-challenge-32-2026-06-1312843817",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-07",
+      "player": "Mikhathara1994",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 15,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1312843817",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-07",
+      "player": "DataPusher",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-06-0712843817",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-07",
@@ -349,55 +394,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2810636",
-      "tournament": "Pauper League",
-      "date": "2026-05-28",
-      "player": "DataPusher",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2710636",
-      "tournament": "Pauper League",
-      "date": "2026-05-27",
-      "player": "Pilopanga",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2412842933",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-24",
-      "player": "DataPusher",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 14,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -407,7 +403,11 @@
     },
     {
       "player": "DataPusher",
-      "count": 15
+      "count": 16
+    },
+    {
+      "player": "Mikhathara1994",
+      "count": 7
     },
     {
       "player": "vincent99",
@@ -415,10 +415,6 @@
     },
     {
       "player": "tzuizz",
-      "count": 6
-    },
-    {
-      "player": "Mikhathara1994",
       "count": 6
     },
     {

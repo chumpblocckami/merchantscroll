@@ -2,21 +2,36 @@
   "archetype": "Pizza Combo",
   "slug": "pizza-combo",
   "stats": {
-    "total_entries": 12,
-    "league_entries": 7,
-    "league_trophies": 7,
-    "league_trophies_yearly": 7,
+    "total_entries": 13,
+    "league_entries": 8,
+    "league_trophies": 8,
+    "league_trophies_yearly": 8,
     "challenge_appearances": 2,
     "challenge_wins": 7,
     "challenge_losses": 5,
     "irl_top8": 1,
     "challenge_win_pct": 58,
-    "league_trophy_rank_yearly": 47,
+    "league_trophy_rank_yearly": 48,
     "league_trophy_rank_alltime": 54,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2610855",
+      "tournament": "Pauper League",
+      "date": "2026-06-26",
+      "player": "AlessandroPiraccini",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845631",
       "tournament": "Pauper Challenge 32",
@@ -205,7 +220,7 @@
   "top_pilots": [
     {
       "player": "AlessandroPiraccini",
-      "count": 2
+      "count": 3
     },
     {
       "player": "DB_LucianoGuma",

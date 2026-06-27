@@ -2,13 +2,13 @@
   "archetype": "BW Refurbished",
   "slug": "bw-refurbished",
   "stats": {
-    "total_entries": 337,
-    "league_entries": 193,
-    "league_trophies": 193,
-    "league_trophies_yearly": 80,
-    "challenge_appearances": 138,
-    "challenge_wins": 528,
-    "challenge_losses": 355,
+    "total_entries": 340,
+    "league_entries": 194,
+    "league_trophies": 194,
+    "league_trophies_yearly": 81,
+    "challenge_appearances": 140,
+    "challenge_wins": 536,
+    "challenge_losses": 361,
     "irl_top8": 4,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 18,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2510855",
+      "tournament": "Pauper League",
+      "date": "2026-06-25",
+      "player": "ThieresTMS",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2310636",
       "tournament": "Pauper League",
@@ -354,20 +368,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0712843817",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-07",
-      "player": "Mordeka1ser",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -393,7 +393,7 @@
     },
     {
       "player": "ThieresTMS",
-      "count": 10
+      "count": 11
     },
     {
       "player": "Hoarse_Duck",

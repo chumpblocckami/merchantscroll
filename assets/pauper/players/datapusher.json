@@ -3,22 +3,22 @@
   "display_name": "DataPusher",
   "irl_name": null,
   "stats": {
-    "total_entries": 44,
+    "total_entries": 45,
     "league_trophies": 34,
     "league_trophies_yearly": 21,
-    "challenge_wins": 45,
-    "challenge_losses": 21,
+    "challenge_wins": 49,
+    "challenge_losses": 24,
     "irl_top8": 0,
-    "challenge_win_pct": 68,
+    "challenge_win_pct": 67,
     "league_trophy_rank_yearly": 25,
     "league_trophy_rank_alltime": 35,
-    "league_trophy_players_yearly": 1193,
+    "league_trophy_players_yearly": 1194,
     "league_trophy_players_alltime": 1942
   },
   "favorite_decks": [
     {
       "archetype": "RG Storm",
-      "count": 15
+      "count": 16
     },
     {
       "archetype": "Jund",
@@ -99,6 +99,22 @@
       ],
       "record": "7-2",
       "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1312843817",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-07",
+      "player": "DataPusher",
+      "archetype": "RG Storm",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -434,22 +450,6 @@
       "archetype": "Elves",
       "colors": [
         "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-059987",
-      "tournament": "pauper-league-2026-01-059987",
-      "date": "2026-01-05",
-      "player": "DataPusher",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
       ],
       "record": "5-0",
       "final_rank": null,

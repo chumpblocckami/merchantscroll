@@ -3,16 +3,16 @@
   "display_name": "Terminus0",
   "irl_name": null,
   "stats": {
-    "total_entries": 34,
+    "total_entries": 35,
     "league_trophies": 11,
     "league_trophies_yearly": 0,
-    "challenge_wins": 87,
-    "challenge_losses": 53,
+    "challenge_wins": 93,
+    "challenge_losses": 54,
     "irl_top8": 0,
-    "challenge_win_pct": 62,
+    "challenge_win_pct": 63,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": 201,
-    "league_trophy_players_yearly": 1193,
+    "league_trophy_players_yearly": 1194,
     "league_trophy_players_alltime": 1942
   },
   "favorite_decks": [
@@ -25,12 +25,12 @@
       "count": 10
     },
     {
-      "archetype": "Monsters",
+      "archetype": "Ponza",
       "count": 3
     },
     {
-      "archetype": "Ponza",
-      "count": 2
+      "archetype": "Monsters",
+      "count": 3
     },
     {
       "archetype": "U Terror",
@@ -60,6 +60,21 @@
   "recent_entries": [
     {
       "site_name": "pauper-challenge-32-2026-06-1312844320",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-13",
+      "player": "Terminus0",
+      "archetype": "Ponza",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "6-1",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-03-1712844320",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-13",
       "player": "Terminus0",
@@ -433,24 +448,6 @@
       ],
       "record": "7-2",
       "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-07-0512801657",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-07-05",
-      "player": "Terminus0",
-      "archetype": "Walls",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
     }

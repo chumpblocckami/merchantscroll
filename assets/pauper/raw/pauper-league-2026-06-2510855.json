@@ -1203,7 +1203,7 @@
         "G",
         "R"
       ],
-      "archetype": "Rally"
+      "archetype": "Mono Red Kuldotha"
     },
     {
       "player": "DiabeticMerman",
@@ -2213,7 +2213,7 @@
       "colors": [
         "R"
       ],
-      "archetype": "Pingers"
+      "archetype": "Rally"
     },
     {
       "player": "vini_torres",
@@ -2391,7 +2391,7 @@
         "G",
         "R"
       ],
-      "archetype": "Rally"
+      "archetype": "Mono Red Kuldotha"
     },
     {
       "player": "renato_tadeo",
@@ -2543,48 +2543,6 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Pursue the Past",
-            "card_type": "SORCRY"
-          }
-        },
-        {
-          "qty": "3",
-          "card_attributes": {
-            "card_name": "Sacred Cat",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Seeker of Skybreak",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Sneaky Snacker",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "3",
-          "card_attributes": {
-            "card_name": "Mountain",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Prismatic Strands",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
             "card_name": "Bitter Reunion",
             "card_type": "ENCHMT"
           }
@@ -2657,6 +2615,48 @@
           "card_attributes": {
             "card_name": "Basilisk Gate",
             "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Pursue the Past",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Sacred Cat",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Seeker of Skybreak",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Sneaky Snacker",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Mountain",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Prismatic Strands",
+            "card_type": "INSTNT"
           }
         }
       ],
@@ -5452,13 +5452,6 @@
       ],
       "sideboard_deck": [
         {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Suffocating Fumes",
-            "card_type": "INSTNT"
-          }
-        },
-        {
           "qty": "2",
           "card_attributes": {
             "card_name": "Divest",
@@ -5492,6 +5485,13 @@
             "card_name": "Mukotai Ambusher",
             "card_type": "ISCREA"
           }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Suffocating Fumes",
+            "card_type": "INSTNT"
+          }
         }
       ],
       "wins": {
@@ -5503,7 +5503,7 @@
         "B",
         "W"
       ],
-      "archetype": "Esper Affinity"
+      "archetype": "BW Refurbished"
     },
     {
       "player": "G-Monteiro",

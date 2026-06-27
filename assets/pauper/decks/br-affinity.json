@@ -2,17 +2,17 @@
   "archetype": "BR Affinity",
   "slug": "br-affinity",
   "stats": {
-    "total_entries": 12,
-    "league_entries": 3,
-    "league_trophies": 3,
-    "league_trophies_yearly": 3,
-    "challenge_appearances": 7,
-    "challenge_wins": 25,
-    "challenge_losses": 21,
+    "total_entries": 15,
+    "league_entries": 4,
+    "league_trophies": 4,
+    "league_trophies_yearly": 4,
+    "challenge_appearances": 9,
+    "challenge_wins": 32,
+    "challenge_losses": 26,
     "irl_top8": 2,
-    "challenge_win_pct": 54,
+    "challenge_win_pct": 55,
     "league_trophy_rank_yearly": 53,
-    "league_trophy_rank_alltime": 62,
+    "league_trophy_rank_alltime": 60,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
@@ -75,6 +75,21 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2110636",
+      "tournament": "Pauper League",
+      "date": "2026-06-21",
+      "player": "fufu1",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-2010636",
@@ -178,6 +193,36 @@
       "type": "irl"
     },
     {
+      "site_name": "pauper-challenge-32-2025-03-1712844320",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-13",
+      "player": "Squall93",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-03-1712844320",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-13",
+      "player": "_blaze66",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauperwave-2026-03-01-firenze-winter-2025",
       "tournament": "LP Firenze Winter 2025 — Firenze",
       "date": "2026-03-01",
@@ -223,6 +268,14 @@
     },
     {
       "player": "s8shock",
+      "count": 1
+    },
+    {
+      "player": "Squall93",
+      "count": 1
+    },
+    {
+      "player": "_blaze66",
       "count": 1
     }
   ]

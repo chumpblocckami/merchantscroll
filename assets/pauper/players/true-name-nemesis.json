@@ -3,16 +3,16 @@
   "display_name": "True-Name-Nemesis",
   "irl_name": null,
   "stats": {
-    "total_entries": 79,
+    "total_entries": 80,
     "league_trophies": 57,
     "league_trophies_yearly": 31,
-    "challenge_wins": 90,
-    "challenge_losses": 50,
+    "challenge_wins": 94,
+    "challenge_losses": 52,
     "irl_top8": 0,
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 8,
     "league_trophy_rank_alltime": 15,
-    "league_trophy_players_yearly": 1193,
+    "league_trophy_players_yearly": 1194,
     "league_trophy_players_alltime": 1942
   },
   "favorite_decks": [
@@ -42,6 +42,10 @@
     },
     {
       "archetype": "B Sacrifice",
+      "count": 1
+    },
+    {
+      "archetype": "Temur Control",
       "count": 1
     }
   ],
@@ -127,6 +131,21 @@
       "date": "2026-06-13",
       "player": "True-Name-Nemesis",
       "archetype": "UB Control",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-03-1712844320",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-13",
+      "player": "True-Name-Nemesis",
+      "archetype": "Temur Control",
       "colors": [
         "B",
         "U"
@@ -402,21 +421,6 @@
       "colors": [
         "B",
         "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-2010196",
-      "tournament": "pauper-league-2026-02-2010196",
-      "date": "2026-02-20",
-      "player": "True-Name-Nemesis",
-      "archetype": "W Heroic",
-      "colors": [
-        "B",
-        "W"
       ],
       "record": "5-0",
       "final_rank": null,

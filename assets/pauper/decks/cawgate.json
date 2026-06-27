@@ -2,13 +2,13 @@
   "archetype": "Cawgate",
   "slug": "cawgate",
   "stats": {
-    "total_entries": 419,
+    "total_entries": 420,
     "league_entries": 253,
     "league_trophies": 253,
     "league_trophies_yearly": 133,
-    "challenge_appearances": 133,
-    "challenge_wins": 552,
-    "challenge_losses": 329,
+    "challenge_appearances": 134,
+    "challenge_wins": 559,
+    "challenge_losses": 331,
     "irl_top8": 11,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 12,
@@ -104,6 +104,21 @@
       ],
       "record": "3-3",
       "final_rank": 28,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1312843817",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-07",
+      "player": "Gn42",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "7-2",
+      "final_rank": 3,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -378,21 +393,6 @@
       "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-0112841341",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-01",
-      "player": "floyza",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -417,11 +417,11 @@
       "count": 14
     },
     {
-      "player": "SamaLama",
-      "count": 12
+      "player": "Gn42",
+      "count": 13
     },
     {
-      "player": "Gn42",
+      "player": "SamaLama",
       "count": 12
     },
     {

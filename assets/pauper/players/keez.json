@@ -3,16 +3,16 @@
   "display_name": "Keez",
   "irl_name": null,
   "stats": {
-    "total_entries": 15,
+    "total_entries": 16,
     "league_trophies": 3,
     "league_trophies_yearly": 3,
-    "challenge_wins": 37,
-    "challenge_losses": 33,
+    "challenge_wins": 39,
+    "challenge_losses": 37,
     "irl_top8": 0,
-    "challenge_win_pct": 53,
+    "challenge_win_pct": 51,
     "league_trophy_rank_yearly": 348,
     "league_trophy_rank_alltime": 721,
-    "league_trophy_players_yearly": 1193,
+    "league_trophy_players_yearly": 1194,
     "league_trophy_players_alltime": 1942
   },
   "favorite_decks": [
@@ -31,6 +31,10 @@
     {
       "archetype": "W Heroic",
       "count": 1
+    },
+    {
+      "archetype": "Mono Red Kuldotha",
+      "count": 1
     }
   ],
   "recent_entries": [
@@ -40,6 +44,20 @@
       "date": "2026-06-13",
       "player": "Keez",
       "archetype": "Rally",
+      "colors": [
+        "R"
+      ],
+      "record": "2-4",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-03-1712844320",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-13",
+      "player": "Keez",
+      "archetype": "Mono Red Kuldotha",
       "colors": [
         "R"
       ],

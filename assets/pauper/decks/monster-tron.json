@@ -2,17 +2,17 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 18,
+    "total_entries": 19,
     "league_entries": 4,
     "league_trophies": 4,
     "league_trophies_yearly": 4,
-    "challenge_appearances": 12,
-    "challenge_wins": 59,
-    "challenge_losses": 31,
+    "challenge_appearances": 13,
+    "challenge_wins": 62,
+    "challenge_losses": 34,
     "irl_top8": 2,
-    "challenge_win_pct": 66,
-    "league_trophy_rank_yearly": 52,
-    "league_trophy_rank_alltime": 60,
+    "challenge_win_pct": 65,
+    "league_trophy_rank_yearly": 54,
+    "league_trophy_rank_alltime": 61,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
@@ -261,6 +261,20 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2025-03-1712844320",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-13",
+      "player": "Echanez",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 19,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauperwave-2026-06-10-modena-summer-2026",
       "tournament": "LP Modena Summer 2026 — Modena",
       "date": "2026-06-10",
@@ -293,12 +307,12 @@
   ],
   "top_pilots": [
     {
-      "player": "Valimoth",
+      "player": "Echanez",
       "count": 3
     },
     {
-      "player": "Echanez",
-      "count": 2
+      "player": "Valimoth",
+      "count": 3
     },
     {
       "player": "karatedom",

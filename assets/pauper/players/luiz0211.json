@@ -3,19 +3,27 @@
   "display_name": "Luiz0211",
   "irl_name": null,
   "stats": {
-    "total_entries": 14,
+    "total_entries": 16,
     "league_trophies": 8,
     "league_trophies_yearly": 6,
-    "challenge_wins": 25,
-    "challenge_losses": 16,
+    "challenge_wins": 32,
+    "challenge_losses": 22,
     "irl_top8": 0,
-    "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 152,
+    "challenge_win_pct": 59,
+    "league_trophy_rank_yearly": 153,
     "league_trophy_rank_alltime": 295,
-    "league_trophy_players_yearly": 1193,
+    "league_trophy_players_yearly": 1194,
     "league_trophy_players_alltime": 1942
   },
   "favorite_decks": [
+    {
+      "archetype": "UW Glitter",
+      "count": 3
+    },
+    {
+      "archetype": "R Madness",
+      "count": 2
+    },
     {
       "archetype": "Esper Affinity",
       "count": 2
@@ -27,14 +35,6 @@
     {
       "archetype": "Pingers",
       "count": 2
-    },
-    {
-      "archetype": "UW Glitter",
-      "count": 2
-    },
-    {
-      "archetype": "R Madness",
-      "count": 1
     },
     {
       "archetype": "BW Refurbished",
@@ -100,6 +100,38 @@
       ],
       "record": "3-3",
       "final_rank": 22,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-03-1712844320",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-13",
+      "player": "Luiz0211",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 22,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1312843817",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-07",
+      "player": "Luiz0211",
+      "archetype": "UW Glitter",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "4-3",
+      "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
     },

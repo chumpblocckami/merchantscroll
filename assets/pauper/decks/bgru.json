@@ -2,13 +2,13 @@
   "archetype": "BGRU",
   "slug": "bgru",
   "stats": {
-    "total_entries": 58,
-    "league_entries": 35,
-    "league_trophies": 35,
-    "league_trophies_yearly": 23,
-    "challenge_appearances": 22,
-    "challenge_wins": 85,
-    "challenge_losses": 55,
+    "total_entries": 60,
+    "league_entries": 36,
+    "league_trophies": 36,
+    "league_trophies_yearly": 24,
+    "challenge_appearances": 23,
+    "challenge_wins": 89,
+    "challenge_losses": 58,
     "irl_top8": 0,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 36,
@@ -69,7 +69,7 @@
       "site_name": "pauper-league-2026-06-2610855",
       "tournament": "Pauper League",
       "date": "2026-06-26",
-      "player": "MyDeckStats",
+      "player": "Abisd94",
       "colors": [
         "B",
         "G",
@@ -102,6 +102,22 @@
       "tournament": "Pauper League",
       "date": "2026-06-25",
       "player": "qbturtle15",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2410855",
+      "tournament": "Pauper League",
+      "date": "2026-06-24",
+      "player": "Abisd94",
       "colors": [
         "B",
         "G",
@@ -176,6 +192,22 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1312843817",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-07",
+      "player": "Bungi",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-0712843817",
@@ -384,38 +416,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-04-1710405",
-      "tournament": "Pauper League",
-      "date": "2026-04-17",
-      "player": "williami1986",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-2210405",
-      "tournament": "pauper-league-2026-03-2210405",
-      "date": "2026-03-22",
-      "player": "williami1986",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -429,7 +429,7 @@
     },
     {
       "player": "Bungi",
-      "count": 6
+      "count": 7
     },
     {
       "player": "williami1986",
@@ -452,11 +452,11 @@
       "count": 2
     },
     {
-      "player": "SweetIto",
-      "count": 1
+      "player": "Abisd94",
+      "count": 2
     },
     {
-      "player": "teasdale",
+      "player": "SweetIto",
       "count": 1
     }
   ]

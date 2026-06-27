@@ -2,13 +2,13 @@
   "archetype": "Flicker Tron",
   "slug": "flicker-tron",
   "stats": {
-    "total_entries": 231,
-    "league_entries": 131,
-    "league_trophies": 131,
-    "league_trophies_yearly": 55,
-    "challenge_appearances": 87,
-    "challenge_wins": 357,
-    "challenge_losses": 224,
+    "total_entries": 230,
+    "league_entries": 129,
+    "league_trophies": 129,
+    "league_trophies_yearly": 53,
+    "challenge_appearances": 88,
+    "challenge_wins": 360,
+    "challenge_losses": 227,
     "irl_top8": 5,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 25,
@@ -17,38 +17,6 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-06-2610855",
-      "tournament": "Pauper League",
-      "date": "2026-06-26",
-      "player": "Abisd94",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2410855",
-      "tournament": "Pauper League",
-      "date": "2026-06-24",
-      "player": "Abisd94",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-league-2026-06-2010636",
       "tournament": "Pauper League",
@@ -183,6 +151,22 @@
       "final_rank": 5,
       "source": "pauperwave",
       "type": "irl"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-03-1712844320",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-13",
+      "player": "LydiaTheHuman",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1212844305",
@@ -437,6 +421,23 @@
       "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-05-3010636",
+      "tournament": "Pauper League",
+      "date": "2026-05-30",
+      "player": "Raptor56",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -465,10 +466,6 @@
       "count": 9
     },
     {
-      "player": "Abisd94",
-      "count": 7
-    },
-    {
       "player": "EhDM",
       "count": 6
     },
@@ -478,6 +475,10 @@
     },
     {
       "player": "Antillectual",
+      "count": 5
+    },
+    {
+      "player": "A_AdeptoTerra",
       "count": 5
     }
   ]

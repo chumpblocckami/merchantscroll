@@ -2,21 +2,37 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 130,
-    "league_entries": 66,
-    "league_trophies": 66,
-    "league_trophies_yearly": 38,
-    "challenge_appearances": 59,
-    "challenge_wins": 186,
-    "challenge_losses": 149,
+    "total_entries": 133,
+    "league_entries": 67,
+    "league_trophies": 67,
+    "league_trophies_yearly": 39,
+    "challenge_appearances": 61,
+    "challenge_wins": 196,
+    "challenge_losses": 153,
     "irl_top8": 4,
     "challenge_win_pct": 56,
-    "league_trophy_rank_yearly": 30,
+    "league_trophy_rank_yearly": 29,
     "league_trophy_rank_alltime": 34,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2610855",
+      "tournament": "Pauper League",
+      "date": "2026-06-26",
+      "player": "MyDeckStats",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2512845643",
       "tournament": "Pauper Challenge 32",
@@ -144,6 +160,20 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2025-03-1712844320",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-13",
+      "player": "Terminus0",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "6-1",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-06-1212844305",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-12",
@@ -242,6 +272,20 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-challenge-32-2026-06-1312843817",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-07",
+      "player": "Guizera",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-3",
+      "final_rank": 22,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-06-0712843817",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-07",
@@ -324,48 +368,6 @@
       "final_rank": 20,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0412843773",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-04",
-      "player": "Guizera",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0410636",
-      "tournament": "Pauper League",
-      "date": "2026-06-04",
-      "player": "trussell48",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0410636",
-      "tournament": "Pauper League",
-      "date": "2026-06-04",
-      "player": "LuquetteCHQ",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -386,6 +388,14 @@
       "count": 4
     },
     {
+      "player": "Guizera",
+      "count": 4
+    },
+    {
+      "player": "Terminus0",
+      "count": 3
+    },
+    {
       "player": "guiwarchina",
       "count": 3
     },
@@ -400,14 +410,6 @@
     {
       "player": "Eliod",
       "count": 3
-    },
-    {
-      "player": "Guizera",
-      "count": 3
-    },
-    {
-      "player": "Beast_31rus",
-      "count": 2
     }
   ]
 }

@@ -2,13 +2,13 @@
   "archetype": "RG Ponza",
   "slug": "rg-ponza",
   "stats": {
-    "total_entries": 85,
+    "total_entries": 87,
     "league_entries": 41,
     "league_trophies": 41,
     "league_trophies_yearly": 16,
-    "challenge_appearances": 38,
-    "challenge_wins": 134,
-    "challenge_losses": 109,
+    "challenge_appearances": 40,
+    "challenge_wins": 140,
+    "challenge_losses": 116,
     "irl_top8": 5,
     "challenge_win_pct": 55,
     "league_trophy_rank_yearly": 39,
@@ -30,6 +30,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-03-1712844320",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-13",
+      "player": "QueMario",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauperwave-2026-06-12-spezia-summer-2026",
@@ -72,6 +86,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1312843817",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-07",
+      "player": "PNascimento",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "3-4",
+      "final_rank": 31,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-0712843817",
@@ -341,34 +370,6 @@
       "final_rank": 14,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-02-1912833518",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-02-19",
-      "player": "Ixidor29",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "6-2",
-      "final_rank": 4,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-02-1610196",
-      "tournament": "pauper-league-2026-02-1610196",
-      "date": "2026-02-16",
-      "player": "Crevelloni",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -382,6 +383,10 @@
     },
     {
       "player": "QueMario",
+      "count": 4
+    },
+    {
+      "player": "PNascimento",
       "count": 3
     },
     {
@@ -406,10 +411,6 @@
     },
     {
       "player": "ThiagoCagao",
-      "count": 2
-    },
-    {
-      "player": "PNascimento",
       "count": 2
     }
   ]
