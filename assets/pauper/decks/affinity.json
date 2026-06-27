@@ -2,21 +2,36 @@
   "archetype": "Affinity",
   "slug": "affinity",
   "stats": {
-    "total_entries": 872,
-    "league_entries": 335,
-    "league_trophies": 335,
-    "league_trophies_yearly": 178,
+    "total_entries": 873,
+    "league_entries": 336,
+    "league_trophies": 336,
+    "league_trophies_yearly": 179,
     "challenge_appearances": 468,
     "challenge_wins": 1939,
     "challenge_losses": 1171,
     "irl_top8": 39,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 6,
-    "league_trophy_rank_alltime": 9,
+    "league_trophy_rank_alltime": 10,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2710855",
+      "tournament": "Pauper League",
+      "date": "2026-06-27",
+      "player": "ZoooK",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2612845653",
       "tournament": "Pauper Challenge 32",
@@ -374,21 +389,6 @@
       ],
       "record": "5-3",
       "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1912844841",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-19",
-      "player": "LuffyDoChapeuDePalha",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 22,
       "source": "mtgo",
       "type": "challenge"
     }

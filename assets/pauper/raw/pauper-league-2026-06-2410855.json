@@ -443,8 +443,7 @@
         "G",
         "R",
         "U"
-      ],
-      "archetype": "Monster Tron"
+      ]
     },
     {
       "player": "maribves",
@@ -1141,7 +1140,7 @@
         "R",
         "U"
       ],
-      "archetype": "BR Madness"
+      "archetype": "R Madness"
     },
     {
       "player": "hyuma",
@@ -1278,7 +1277,7 @@
         "R",
         "U"
       ],
-      "archetype": "BR Madness"
+      "archetype": "R Madness"
     },
     {
       "player": "fazparte",
@@ -1415,7 +1414,7 @@
         "R",
         "U"
       ],
-      "archetype": "BR Madness"
+      "archetype": "R Madness"
     },
     {
       "player": "Protean_Hulk",
@@ -2139,7 +2138,7 @@
         "R",
         "U"
       ],
-      "archetype": "BR Madness"
+      "archetype": "R Madness"
     },
     {
       "player": "Hype12232",
@@ -2492,7 +2491,7 @@
         "R",
         "U"
       ],
-      "archetype": "BR Madness"
+      "archetype": "R Madness"
     },
     {
       "player": "SaculSueahtam",
@@ -2841,7 +2840,7 @@
         "R",
         "U"
       ],
-      "archetype": "BR Madness"
+      "archetype": "R Madness"
     },
     {
       "player": "Crestomanci",
@@ -4088,7 +4087,7 @@
         "R",
         "U"
       ],
-      "archetype": "BR Madness"
+      "archetype": "R Madness"
     },
     {
       "player": "jbl2311",
@@ -4441,7 +4440,7 @@
         "R",
         "U"
       ],
-      "archetype": "BR Madness"
+      "archetype": "R Madness"
     },
     {
       "player": "landthraben",
@@ -4684,20 +4683,6 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Lightning Bolt",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Faithless Looting",
-            "card_type": "SORCRY"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
             "card_name": "Voldaren Epicure",
             "card_type": "ISCREA"
           }
@@ -4798,6 +4783,20 @@
           "card_attributes": {
             "card_name": "Mountain",
             "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Lightning Bolt",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Faithless Looting",
+            "card_type": "SORCRY"
           }
         }
       ],

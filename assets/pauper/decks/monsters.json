@@ -2,10 +2,10 @@
   "archetype": "Monsters",
   "slug": "monsters",
   "stats": {
-    "total_entries": 366,
-    "league_entries": 207,
-    "league_trophies": 207,
-    "league_trophies_yearly": 62,
+    "total_entries": 367,
+    "league_entries": 208,
+    "league_trophies": 208,
+    "league_trophies_yearly": 63,
     "challenge_appearances": 134,
     "challenge_wins": 484,
     "challenge_losses": 354,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2710855",
+      "tournament": "Pauper League",
+      "date": "2026-06-27",
+      "player": "Vesuvan_Doppelganger",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2110636",
       "tournament": "Pauper League",
@@ -358,20 +372,6 @@
       "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-0712842061",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-07",
-      "player": "Guizera",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -405,7 +405,7 @@
     },
     {
       "player": "Vesuvan_Doppelganger",
-      "count": 5
+      "count": 6
     },
     {
       "player": "donnetokyo",

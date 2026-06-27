@@ -2213,7 +2213,7 @@
       "colors": [
         "R"
       ],
-      "archetype": "Mono Red Kuldotha"
+      "archetype": "Pingers"
     },
     {
       "player": "vini_torres",
@@ -3282,55 +3282,6 @@
       "player": "SamaLama",
       "main_deck": [
         {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Bojuka Bog",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Dimir Aqueduct",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Seething Landscape",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Swamp",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Dispel",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Mukotai Ambusher",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Suffocating Fumes",
-            "card_type": "INSTNT"
-          }
-        },
-        {
           "qty": "4",
           "card_attributes": {
             "card_name": "Lórien Revealed",
@@ -3426,6 +3377,55 @@
           "card_attributes": {
             "card_name": "Extract a Confession",
             "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Bojuka Bog",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Dimir Aqueduct",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Seething Landscape",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Swamp",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Dispel",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Mukotai Ambusher",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Suffocating Fumes",
+            "card_type": "INSTNT"
           }
         }
       ],
@@ -5068,41 +5068,6 @@
       "player": "Elegant_95",
       "main_deck": [
         {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Sneaky Snacker",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Murmuring Mystic",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Snuff Out",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "10",
-          "card_attributes": {
-            "card_name": "Island",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Lórien Revealed",
-            "card_type": "SORCRY"
-          }
-        },
-        {
           "qty": "1",
           "card_attributes": {
             "card_name": "Dispel",
@@ -5199,9 +5164,51 @@
             "card_name": "Deep Analysis",
             "card_type": "SORCRY"
           }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Sneaky Snacker",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Murmuring Mystic",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Snuff Out",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "10",
+          "card_attributes": {
+            "card_name": "Island",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Lórien Revealed",
+            "card_type": "SORCRY"
+          }
         }
       ],
       "sideboard_deck": [
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Blue Elemental Blast",
+            "card_type": "INSTNT"
+          }
+        },
         {
           "qty": "3",
           "card_attributes": {
@@ -5236,13 +5243,6 @@
             "card_name": "Dispel",
             "card_type": "INSTNT"
           }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Blue Elemental Blast",
-            "card_type": "INSTNT"
-          }
         }
       ],
       "wins": {
@@ -5260,6 +5260,48 @@
     {
       "player": "ThieresTMS",
       "main_deck": [
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Swamp",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Swamp",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Swamp",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Plains",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Plains",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Plains",
+            "card_type": "LAND  "
+          }
+        },
         {
           "qty": "4",
           "card_attributes": {
@@ -5404,48 +5446,6 @@
           "qty": "3",
           "card_attributes": {
             "card_name": "Vault of Whispers",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Swamp",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Swamp",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Swamp",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Plains",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Plains",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Plains",
             "card_type": "LAND  "
           }
         }
