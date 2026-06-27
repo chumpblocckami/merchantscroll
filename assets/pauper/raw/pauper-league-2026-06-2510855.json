@@ -902,7 +902,7 @@
         "B",
         "G"
       ],
-      "archetype": "Jund Gardens"
+      "archetype": "Food Pestilence"
     },
     {
       "player": "GrazerBoy",
@@ -2213,7 +2213,7 @@
       "colors": [
         "R"
       ],
-      "archetype": "Rally"
+      "archetype": "Pingers"
     },
     {
       "player": "vini_torres",
@@ -2543,6 +2543,48 @@
         {
           "qty": "4",
           "card_attributes": {
+            "card_name": "Pursue the Past",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Sacred Cat",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Seeker of Skybreak",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Sneaky Snacker",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Mountain",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Prismatic Strands",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
             "card_name": "Bitter Reunion",
             "card_type": "ENCHMT"
           }
@@ -2615,48 +2657,6 @@
           "card_attributes": {
             "card_name": "Basilisk Gate",
             "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Pursue the Past",
-            "card_type": "SORCRY"
-          }
-        },
-        {
-          "qty": "3",
-          "card_attributes": {
-            "card_name": "Sacred Cat",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Seeker of Skybreak",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Sneaky Snacker",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "3",
-          "card_attributes": {
-            "card_name": "Mountain",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Prismatic Strands",
-            "card_type": "INSTNT"
           }
         }
       ],

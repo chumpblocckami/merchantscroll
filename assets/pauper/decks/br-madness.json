@@ -2,10 +2,10 @@
   "archetype": "BR Madness",
   "slug": "br-madness",
   "stats": {
-    "total_entries": 767,
-    "league_entries": 367,
-    "league_trophies": 367,
-    "league_trophies_yearly": 101,
+    "total_entries": 768,
+    "league_entries": 368,
+    "league_trophies": 368,
+    "league_trophies_yearly": 102,
     "challenge_appearances": 373,
     "challenge_wins": 1514,
     "challenge_losses": 951,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2610855",
+      "tournament": "Pauper League",
+      "date": "2026-06-26",
+      "player": "Vesuvan_Doppelganger",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845631",
       "tournament": "Pauper Challenge 32",
@@ -377,21 +392,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1112844295",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-11",
-      "player": "NMT_Sco94",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [

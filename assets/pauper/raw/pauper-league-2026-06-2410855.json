@@ -444,7 +444,7 @@
         "R",
         "U"
       ],
-      "archetype": "Monster Tron"
+      "archetype": "Flicker Tron"
     },
     {
       "player": "maribves",
@@ -1625,6 +1625,48 @@
         {
           "qty": "4",
           "card_attributes": {
+            "card_name": "Sneaky Snacker",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Spirit Mascot",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Thrilling Discovery",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Tireless Tribe",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Boros Garrison",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Lightning Axe",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
             "card_name": "Aurora Eidolon",
             "card_type": "ISCREA"
           }
@@ -1704,48 +1746,6 @@
           "card_attributes": {
             "card_name": "Sandstorm Eidolon",
             "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Sneaky Snacker",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Spirit Mascot",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Thrilling Discovery",
-            "card_type": "SORCRY"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Tireless Tribe",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Boros Garrison",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "3",
-          "card_attributes": {
-            "card_name": "Lightning Axe",
-            "card_type": "INSTNT"
           }
         }
       ],
@@ -1995,7 +1995,7 @@
       "colors": [
         "R"
       ],
-      "archetype": "Pingers"
+      "archetype": "Rally"
     },
     {
       "player": "Albreto",
@@ -2676,7 +2676,7 @@
       "colors": [
         "R"
       ],
-      "archetype": "Pingers"
+      "archetype": "Rally"
     },
     {
       "player": "NMT_Sco94",
@@ -4861,41 +4861,6 @@
       "player": "Wizard_2002",
       "main_deck": [
         {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Island",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Island",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "3",
-          "card_attributes": {
-            "card_name": "Ponder",
-            "card_type": "SORCRY"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Thought Scour",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Tolarian Terror",
-            "card_type": "ISCREA"
-          }
-        },
-        {
           "qty": "2",
           "card_attributes": {
             "card_name": "Island",
@@ -5012,6 +4977,41 @@
           "card_attributes": {
             "card_name": "Island",
             "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Island",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Island",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Ponder",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Thought Scour",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Tolarian Terror",
+            "card_type": "ISCREA"
           }
         }
       ],

@@ -2,16 +2,16 @@
   "archetype": "UG Fog",
   "slug": "ug-fog",
   "stats": {
-    "total_entries": 428,
-    "league_entries": 213,
-    "league_trophies": 213,
-    "league_trophies_yearly": 15,
+    "total_entries": 427,
+    "league_entries": 212,
+    "league_trophies": 212,
+    "league_trophies_yearly": 14,
     "challenge_appearances": 186,
     "challenge_wins": 794,
     "challenge_losses": 443,
     "irl_top8": 10,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 44,
+    "league_trophy_rank_yearly": 43,
     "league_trophy_rank_alltime": 15,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
@@ -57,23 +57,6 @@
         "B",
         "G",
         "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2010636",
-      "tournament": "Pauper League",
-      "date": "2026-06-20",
-      "player": "Hype12232",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -403,6 +386,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauperwave-2026-05-30-rivoli-summer-2026",
+      "tournament": "LP Rivoli Summer 2026 — Rivoli",
+      "date": "2026-05-30",
+      "player": "Davide Da Ros",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
     }
   ],
   "top_pilots": [
@@ -443,8 +440,8 @@
       "count": 12
     },
     {
-      "player": "Hype12232",
-      "count": 10
+      "player": "Raptor56",
+      "count": 9
     }
   ]
 }
