@@ -2,53 +2,21 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 134,
-    "league_entries": 68,
-    "league_trophies": 68,
-    "league_trophies_yearly": 40,
+    "total_entries": 132,
+    "league_entries": 66,
+    "league_trophies": 66,
+    "league_trophies_yearly": 38,
     "challenge_appearances": 61,
     "challenge_wins": 196,
     "challenge_losses": 153,
     "irl_top8": 4,
     "challenge_win_pct": 56,
-    "league_trophy_rank_yearly": 29,
+    "league_trophy_rank_yearly": 30,
     "league_trophy_rank_alltime": 34,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-06-2710855",
-      "tournament": "Pauper League",
-      "date": "2026-06-27",
-      "player": "mikamimtg",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2610855",
-      "tournament": "Pauper League",
-      "date": "2026-06-26",
-      "player": "MyDeckStats",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-challenge-32-2026-06-2512845643",
       "tournament": "Pauper Challenge 32",
@@ -368,6 +336,34 @@
       ],
       "record": "4-2",
       "final_rank": 14,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0512843783",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-05",
+      "player": "Scappie",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 20,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0412843773",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-04",
+      "player": "Guizera",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
     }

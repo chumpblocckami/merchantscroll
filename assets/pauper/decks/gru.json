@@ -2,21 +2,36 @@
   "archetype": "GRU",
   "slug": "gru",
   "stats": {
-    "total_entries": 7,
+    "total_entries": 8,
     "league_entries": 6,
     "league_trophies": 6,
     "league_trophies_yearly": 3,
-    "challenge_appearances": 1,
-    "challenge_wins": 4,
-    "challenge_losses": 2,
+    "challenge_appearances": 2,
+    "challenge_wins": 8,
+    "challenge_losses": 4,
     "irl_top8": 0,
     "challenge_win_pct": 67,
-    "league_trophy_rank_yearly": 54,
+    "league_trophy_rank_yearly": 55,
     "league_trophy_rank_alltime": 55,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2712845668",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-27",
+      "player": "AlessandroPiraccini",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-2610855",
       "tournament": "Pauper League",
@@ -125,6 +140,10 @@
   ],
   "top_pilots": [
     {
+      "player": "AlessandroPiraccini",
+      "count": 2
+    },
+    {
       "player": "ViktorVektor",
       "count": 1
     },
@@ -146,10 +165,6 @@
     },
     {
       "player": "EntroPete",
-      "count": 1
-    },
-    {
-      "player": "AlessandroPiraccini",
       "count": 1
     }
   ]

@@ -488,69 +488,6 @@
       "player": "Berga_",
       "main_deck": [
         {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Generous Ent",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Oliphaunt",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Seeker of Skybreak",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Sneaky Snacker",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Writhing Chrysalis",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Demand Answers",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Heritage Reclamation",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Skred",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "3",
-          "card_attributes": {
-            "card_name": "Tamiyo's Safekeeping",
-            "card_type": "INSTNT"
-          }
-        },
-        {
           "qty": "4",
           "card_attributes": {
             "card_name": "Vision of Love",
@@ -618,6 +555,69 @@
           "card_attributes": {
             "card_name": "Twisted Landscape",
             "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Generous Ent",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Oliphaunt",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Seeker of Skybreak",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Sneaky Snacker",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Writhing Chrysalis",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Demand Answers",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Heritage Reclamation",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Skred",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Tamiyo's Safekeeping",
+            "card_type": "INSTNT"
           }
         }
       ],
@@ -1318,13 +1318,6 @@
         {
           "qty": "2",
           "card_attributes": {
-            "card_name": "Searing Blaze",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
             "card_name": "Pyroblast",
             "card_type": "INSTNT"
           }
@@ -1368,6 +1361,13 @@
           "qty": "2",
           "card_attributes": {
             "card_name": "Smash to Smithereens",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Searing Blaze",
             "card_type": "INSTNT"
           }
         }
@@ -2213,7 +2213,7 @@
       "colors": [
         "R"
       ],
-      "archetype": "Pingers"
+      "archetype": "Mono Red Kuldotha"
     },
     {
       "player": "vini_torres",
@@ -5068,27 +5068,6 @@
       "player": "Elegant_95",
       "main_deck": [
         {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Dispel",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "3",
-          "card_attributes": {
-            "card_name": "Mental Note",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Gurmag Angler",
-            "card_type": "ISCREA"
-          }
-        },
-        {
           "qty": "3",
           "card_attributes": {
             "card_name": "Abandon Attachments",
@@ -5199,6 +5178,27 @@
             "card_name": "Lórien Revealed",
             "card_type": "SORCRY"
           }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Dispel",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Mental Note",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Gurmag Angler",
+            "card_type": "ISCREA"
+          }
         }
       ],
       "sideboard_deck": [
@@ -5260,48 +5260,6 @@
     {
       "player": "ThieresTMS",
       "main_deck": [
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Swamp",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Swamp",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Swamp",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Plains",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Plains",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Plains",
-            "card_type": "LAND  "
-          }
-        },
         {
           "qty": "4",
           "card_attributes": {
@@ -5448,6 +5406,48 @@
             "card_name": "Vault of Whispers",
             "card_type": "LAND  "
           }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Swamp",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Swamp",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Swamp",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Plains",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Plains",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Plains",
+            "card_type": "LAND  "
+          }
         }
       ],
       "sideboard_deck": [
@@ -5503,7 +5503,7 @@
         "B",
         "W"
       ],
-      "archetype": "BW Refurbished"
+      "archetype": "Esper Affinity"
     },
     {
       "player": "G-Monteiro",
