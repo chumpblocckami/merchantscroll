@@ -675,7 +675,8 @@
         "G",
         "R",
         "U"
-      ]
+      ],
+      "archetype": "Jund Glee"
     },
     {
       "player": "ILCAMPO2",
@@ -1203,7 +1204,7 @@
         "G",
         "R"
       ],
-      "archetype": "Mono Red Kuldotha"
+      "archetype": "Rally"
     },
     {
       "player": "DiabeticMerman",
@@ -2391,7 +2392,7 @@
         "G",
         "R"
       ],
-      "archetype": "Mono Red Kuldotha"
+      "archetype": "Rally"
     },
     {
       "player": "renato_tadeo",
@@ -5452,6 +5453,13 @@
       ],
       "sideboard_deck": [
         {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Suffocating Fumes",
+            "card_type": "INSTNT"
+          }
+        },
+        {
           "qty": "2",
           "card_attributes": {
             "card_name": "Divest",
@@ -5484,13 +5492,6 @@
           "card_attributes": {
             "card_name": "Mukotai Ambusher",
             "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Suffocating Fumes",
-            "card_type": "INSTNT"
           }
         }
       ],
