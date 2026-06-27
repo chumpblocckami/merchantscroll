@@ -2,10 +2,10 @@
   "archetype": "R Madness",
   "slug": "r-madness",
   "stats": {
-    "total_entries": 1797,
-    "league_entries": 1064,
-    "league_trophies": 1064,
-    "league_trophies_yearly": 492,
+    "total_entries": 1798,
+    "league_entries": 1065,
+    "league_trophies": 1065,
+    "league_trophies_yearly": 493,
     "challenge_appearances": 634,
     "challenge_wins": 2486,
     "challenge_losses": 1613,
@@ -67,6 +67,21 @@
       "tournament": "Pauper League",
       "date": "2026-06-27",
       "player": "rafaelcapua",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2710855",
+      "tournament": "Pauper League",
+      "date": "2026-06-27",
+      "player": "renato_tadeo",
       "colors": [
         "B",
         "R",
@@ -376,21 +391,6 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2410855",
-      "tournament": "Pauper League",
-      "date": "2026-06-24",
-      "player": "addictionfiction",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [

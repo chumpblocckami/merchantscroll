@@ -2,10 +2,10 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 628,
-    "league_entries": 339,
-    "league_trophies": 339,
-    "league_trophies_yearly": 145,
+    "total_entries": 627,
+    "league_entries": 338,
+    "league_trophies": 338,
+    "league_trophies_yearly": 144,
     "challenge_appearances": 256,
     "challenge_wins": 1048,
     "challenge_losses": 629,
@@ -120,20 +120,6 @@
       "tournament": "Pauper League",
       "date": "2026-06-23",
       "player": "True-Name-Nemesis",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2210636",
-      "tournament": "Pauper League",
-      "date": "2026-06-22",
-      "player": "Pleitegeier",
       "colors": [
         "B",
         "G"
@@ -364,6 +350,20 @@
       ],
       "record": "2-4",
       "final_rank": 31,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-03-1712844320",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-13",
+      "player": "manjyui",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "2-4",
+      "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
     }

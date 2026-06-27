@@ -2,10 +2,10 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 991,
-    "league_entries": 571,
-    "league_trophies": 571,
-    "league_trophies_yearly": 231,
+    "total_entries": 986,
+    "league_entries": 566,
+    "league_trophies": 566,
+    "league_trophies_yearly": 226,
     "challenge_appearances": 387,
     "challenge_wins": 1490,
     "challenge_losses": 995,
@@ -35,8 +35,9 @@
       "site_name": "pauper-league-2026-06-2710855",
       "tournament": "Pauper League",
       "date": "2026-06-27",
-      "player": "SaculSueahtam",
+      "player": "Maraldino",
       "colors": [
+        "G",
         "R"
       ],
       "record": "5-0",
@@ -128,19 +129,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-06-2610855",
-      "tournament": "Pauper League",
-      "date": "2026-06-26",
-      "player": "eli2107",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-06-2512845643",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-25",
@@ -188,19 +176,6 @@
       "player": "GuanglaiKangyi",
       "colors": [
         "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2510855",
-      "tournament": "Pauper League",
-      "date": "2026-06-25",
-      "player": "StonyHandz",
-      "colors": [
         "R"
       ],
       "record": "5-0",
@@ -278,51 +253,12 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-06-2410855",
-      "tournament": "Pauper League",
-      "date": "2026-06-24",
-      "player": "SaculSueahtam",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2410855",
-      "tournament": "Pauper League",
-      "date": "2026-06-24",
-      "player": "SaculSueahtam",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-06-2310636",
       "tournament": "Pauper League",
       "date": "2026-06-23",
       "player": "vini_torres",
       "colors": [
         "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2310636",
-      "tournament": "Pauper League",
-      "date": "2026-06-23",
-      "player": "gustha86",
-      "colors": [
         "R"
       ],
       "record": "5-0",
@@ -357,12 +293,81 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2210636",
+      "tournament": "Pauper League",
+      "date": "2026-06-22",
+      "player": "Kelekkis",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2112844875",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-21",
+      "player": "SaculSueahtam",
+      "colors": [
+        "R"
+      ],
+      "record": "5-2",
+      "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2112844875",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-21",
+      "player": "Mahers",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2110636",
+      "tournament": "Pauper League",
+      "date": "2026-06-21",
+      "player": "boom_bust",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2110636",
+      "tournament": "Pauper League",
+      "date": "2026-06-21",
+      "player": "hjc",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "SaculSueahtam",
-      "count": 81
+      "count": 78
     },
     {
       "player": "vini_torres",
