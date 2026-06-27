@@ -2,17 +2,17 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 624,
-    "league_entries": 337,
-    "league_trophies": 337,
-    "league_trophies_yearly": 143,
+    "total_entries": 623,
+    "league_entries": 336,
+    "league_trophies": 336,
+    "league_trophies_yearly": 142,
     "challenge_appearances": 254,
     "challenge_wins": 1043,
     "challenge_losses": 624,
     "irl_top8": 18,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 10,
-    "league_trophy_rank_alltime": 8,
+    "league_trophy_rank_alltime": 9,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
@@ -44,20 +44,6 @@
       "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2510855",
-      "tournament": "Pauper League",
-      "date": "2026-06-25",
-      "player": "orbuletto",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845631",
@@ -366,6 +352,21 @@
       "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauperwave-2026-06-12-spezia-summer-2026",
+      "tournament": "LP La Spezia Summer 2026 — La Spezia",
+      "date": "2026-06-12",
+      "player": "Liliana Russo",
+      "colors": [
+        "B",
+        "G",
+        "W"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
     }
   ],
   "top_pilots": [
@@ -395,7 +396,7 @@
     },
     {
       "player": "orbuletto",
-      "count": 14
+      "count": 13
     },
     {
       "player": "G-Monteiro",

@@ -2,10 +2,10 @@
   "archetype": "UR Control",
   "slug": "ur-control",
   "stats": {
-    "total_entries": 194,
-    "league_entries": 121,
-    "league_trophies": 121,
-    "league_trophies_yearly": 46,
+    "total_entries": 193,
+    "league_entries": 120,
+    "league_trophies": 120,
+    "league_trophies_yearly": 45,
     "challenge_appearances": 63,
     "challenge_wins": 264,
     "challenge_losses": 157,
@@ -31,21 +31,6 @@
       "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2210636",
-      "tournament": "Pauper League",
-      "date": "2026-06-22",
-      "player": "firstshot",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-2010636",
@@ -381,6 +366,21 @@
       ],
       "record": "3-4",
       "final_rank": 28,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-04-1212838904",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-04-12",
+      "player": "Belekuris",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-4",
+      "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
     }

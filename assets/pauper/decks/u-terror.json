@@ -2,10 +2,10 @@
   "archetype": "U Terror",
   "slug": "u-terror",
   "stats": {
-    "total_entries": 1602,
-    "league_entries": 764,
-    "league_trophies": 764,
-    "league_trophies_yearly": 289,
+    "total_entries": 1601,
+    "league_entries": 763,
+    "league_trophies": 763,
+    "league_trophies_yearly": 288,
     "challenge_appearances": 740,
     "challenge_wins": 3059,
     "challenge_losses": 1823,
@@ -86,20 +86,6 @@
       "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2510855",
-      "tournament": "Pauper League",
-      "date": "2026-06-25",
-      "player": "haqe",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845631",
@@ -365,6 +351,20 @@
       ],
       "record": "5-3",
       "final_rank": 4,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1812844831",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-18",
+      "player": "carvs",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "6-1",
+      "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
     }
