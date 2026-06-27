@@ -2,10 +2,10 @@
   "archetype": "BGRU",
   "slug": "bgru",
   "stats": {
-    "total_entries": 58,
-    "league_entries": 34,
-    "league_trophies": 34,
-    "league_trophies_yearly": 22,
+    "total_entries": 59,
+    "league_entries": 35,
+    "league_trophies": 35,
+    "league_trophies_yearly": 23,
     "challenge_appearances": 23,
     "challenge_wins": 89,
     "challenge_losses": 58,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 36,
     "league_trophy_rank_alltime": 43,
-    "league_trophy_decks_yearly": 64,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 63,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -70,6 +70,22 @@
       "tournament": "Pauper League",
       "date": "2026-06-26",
       "player": "MyDeckStats",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2510855",
+      "tournament": "Pauper League",
+      "date": "2026-06-25",
+      "player": "Berga_",
       "colors": [
         "B",
         "G",
@@ -389,22 +405,6 @@
       "site_name": "pauper-league-2026-04-1710405",
       "tournament": "Pauper League",
       "date": "2026-04-17",
-      "player": "williami1986",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-2210405",
-      "tournament": "pauper-league-2026-03-2210405",
-      "date": "2026-03-22",
       "player": "williami1986",
       "colors": [
         "B",

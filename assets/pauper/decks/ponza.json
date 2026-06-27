@@ -2,10 +2,10 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 131,
-    "league_entries": 65,
-    "league_trophies": 65,
-    "league_trophies_yearly": 37,
+    "total_entries": 132,
+    "league_entries": 66,
+    "league_trophies": 66,
+    "league_trophies_yearly": 38,
     "challenge_appearances": 61,
     "challenge_wins": 196,
     "challenge_losses": 153,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 56,
     "league_trophy_rank_yearly": 30,
     "league_trophy_rank_alltime": 34,
-    "league_trophy_decks_yearly": 64,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 63,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -30,6 +30,20 @@
       "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2310636",
+      "tournament": "Pauper League",
+      "date": "2026-06-23",
+      "player": "guiwarchina",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2012844856",
@@ -352,20 +366,6 @@
       "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0410636",
-      "tournament": "Pauper League",
-      "date": "2026-06-04",
-      "player": "trussell48",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -394,6 +394,10 @@
       "count": 3
     },
     {
+      "player": "guiwarchina",
+      "count": 3
+    },
+    {
       "player": "6apMaJleu4",
       "count": 3
     },
@@ -404,10 +408,6 @@
     {
       "player": "Eliod",
       "count": 3
-    },
-    {
-      "player": "Beast_31rus",
-      "count": 2
     }
   ]
 }
