@@ -3,7 +3,7 @@
   "display_name": "wolf777",
   "irl_name": null,
   "stats": {
-    "total_entries": 117,
+    "total_entries": 118,
     "league_trophies": 80,
     "league_trophies_yearly": 27,
     "challenge_wins": 152,
@@ -21,12 +21,12 @@
       "count": 27
     },
     {
-      "archetype": "UG Fog",
+      "archetype": "Jund",
       "count": 15
     },
     {
-      "archetype": "Jund",
-      "count": 14
+      "archetype": "UG Fog",
+      "count": 15
     },
     {
       "archetype": "W Heroic",
@@ -58,6 +58,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
+      "tournament": "Pauper RC Super Qualifier",
+      "date": "2026-06-27",
+      "player": "wolf777",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "7-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "other"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2612845653",
       "tournament": "Pauper Challenge 32",
@@ -438,21 +454,6 @@
       "final_rank": 16,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-03-0710405",
-      "tournament": "pauper-league-2026-03-0710405",
-      "date": "2026-03-07",
-      "player": "wolf777",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

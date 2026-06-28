@@ -3,7 +3,7 @@
   "display_name": "vini_torres",
   "irl_name": null,
   "stats": {
-    "total_entries": 101,
+    "total_entries": 102,
     "league_trophies": 61,
     "league_trophies_yearly": 34,
     "challenge_wins": 160,
@@ -18,7 +18,7 @@
   "favorite_decks": [
     {
       "archetype": "Rally",
-      "count": 73
+      "count": 74
     },
     {
       "archetype": "Pingers",
@@ -34,6 +34,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
+      "tournament": "Pauper RC Super Qualifier",
+      "date": "2026-06-27",
+      "player": "vini_torres",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "7-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "other"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2712845668",
       "tournament": "Pauper Challenge 32",
@@ -393,21 +408,6 @@
       "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-05-0510636",
-      "tournament": "Pauper League",
-      "date": "2026-05-05",
-      "player": "vini_torres",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

@@ -2,7 +2,7 @@
   "archetype": "Affinity",
   "slug": "affinity",
   "stats": {
-    "total_entries": 874,
+    "total_entries": 875,
     "league_entries": 336,
     "league_trophies": 336,
     "league_trophies_yearly": 179,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
+      "tournament": "Pauper RC Super Qualifier",
+      "date": "2026-06-27",
+      "player": "LuffyDoChapeuDePalha",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "6-3",
+      "final_rank": 21,
+      "source": "mtgo",
+      "type": "other"
+    },
     {
       "site_name": "pauper-league-2026-06-2710855",
       "tournament": "Pauper League",
@@ -376,27 +391,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2012844856",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-20",
-      "player": "keme",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "LuffyDoChapeuDePalha",
-      "count": 190
+      "count": 191
     },
     {
       "player": "Beicodegeia",

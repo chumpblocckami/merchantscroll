@@ -2,21 +2,53 @@
   "archetype": "BGRU",
   "slug": "bgru",
   "stats": {
-    "total_entries": 59,
-    "league_entries": 36,
-    "league_trophies": 36,
-    "league_trophies_yearly": 24,
+    "total_entries": 61,
+    "league_entries": 37,
+    "league_trophies": 37,
+    "league_trophies_yearly": 25,
     "challenge_appearances": 22,
     "challenge_wins": 84,
     "challenge_losses": 56,
     "irl_top8": 0,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 36,
+    "league_trophy_rank_yearly": 35,
     "league_trophy_rank_alltime": 43,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2810855",
+      "tournament": "Pauper League",
+      "date": "2026-06-28",
+      "player": "VampiroIL",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
+      "tournament": "Pauper RC Super Qualifier",
+      "date": "2026-06-27",
+      "player": "Sodeq",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "7-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "other"
+    },
     {
       "site_name": "pauper-league-2026-06-2710855",
       "tournament": "Pauper League",
@@ -384,38 +416,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-04-2010405",
-      "tournament": "Pauper League",
-      "date": "2026-04-20",
-      "player": "saidin.raken",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-04-1710405",
-      "tournament": "Pauper League",
-      "date": "2026-04-17",
-      "player": "williami1986",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -448,15 +448,15 @@
       "count": 2
     },
     {
+      "player": "VampiroIL",
+      "count": 1
+    },
+    {
       "player": "SweetIto",
       "count": 1
     },
     {
       "player": "teasdale",
-      "count": 1
-    },
-    {
-      "player": "scipios",
       "count": 1
     }
   ]

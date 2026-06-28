@@ -2,7 +2,7 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 132,
+    "total_entries": 133,
     "league_entries": 66,
     "league_trophies": 66,
     "league_trophies_yearly": 38,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
+      "tournament": "Pauper RC Super Qualifier",
+      "date": "2026-06-27",
+      "player": "Venga",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "7-2",
+      "final_rank": 14,
+      "source": "mtgo",
+      "type": "other"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2512845643",
       "tournament": "Pauper Challenge 32",
@@ -350,20 +364,6 @@
       ],
       "record": "4-2",
       "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0412843773",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-04",
-      "player": "Guizera",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
     }
