@@ -2,10 +2,10 @@
   "archetype": "RG Storm",
   "slug": "rg-storm",
   "stats": {
-    "total_entries": 140,
-    "league_entries": 106,
-    "league_trophies": 106,
-    "league_trophies_yearly": 93,
+    "total_entries": 141,
+    "league_entries": 107,
+    "league_trophies": 107,
+    "league_trophies_yearly": 94,
     "challenge_appearances": 25,
     "challenge_wins": 96,
     "challenge_losses": 63,
@@ -13,10 +13,25 @@
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 15,
     "league_trophy_rank_alltime": 25,
-    "league_trophy_decks_yearly": 63,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 64,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2810855",
+      "tournament": "Pauper League",
+      "date": "2026-06-28",
+      "player": "lumely",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2710855",
       "tournament": "Pauper League",
@@ -378,22 +393,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2910636",
-      "tournament": "Pauper League",
-      "date": "2026-05-29",
-      "player": "YulSeht",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -418,6 +417,10 @@
       "count": 6
     },
     {
+      "player": "lumely",
+      "count": 5
+    },
+    {
       "player": "Pilopanga",
       "count": 5
     },
@@ -431,10 +434,6 @@
     },
     {
       "player": "Ocaroca",
-      "count": 4
-    },
-    {
-      "player": "Abisd94",
       "count": 4
     }
   ]

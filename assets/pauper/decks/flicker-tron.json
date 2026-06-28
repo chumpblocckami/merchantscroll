@@ -2,10 +2,10 @@
   "archetype": "Flicker Tron",
   "slug": "flicker-tron",
   "stats": {
-    "total_entries": 231,
-    "league_entries": 129,
-    "league_trophies": 129,
-    "league_trophies_yearly": 53,
+    "total_entries": 232,
+    "league_entries": 130,
+    "league_trophies": 130,
+    "league_trophies_yearly": 54,
     "challenge_appearances": 89,
     "challenge_wins": 364,
     "challenge_losses": 229,
@@ -13,10 +13,27 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 26,
     "league_trophy_rank_alltime": 23,
-    "league_trophy_decks_yearly": 63,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 64,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2810855",
+      "tournament": "Pauper League",
+      "date": "2026-06-28",
+      "player": "qwertyelmer",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2010636",
       "tournament": "Pauper League",
@@ -421,23 +438,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-3012843407",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-30",
-      "player": "Alleyezonme",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -474,11 +474,11 @@
       "count": 6
     },
     {
-      "player": "Antillectual",
+      "player": "qwertyelmer",
       "count": 5
     },
     {
-      "player": "A_AdeptoTerra",
+      "player": "Antillectual",
       "count": 5
     }
   ]

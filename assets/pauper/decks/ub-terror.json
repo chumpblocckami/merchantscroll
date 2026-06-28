@@ -2,21 +2,36 @@
   "archetype": "UB Terror",
   "slug": "ub-terror",
   "stats": {
-    "total_entries": 522,
-    "league_entries": 285,
-    "league_trophies": 285,
-    "league_trophies_yearly": 143,
+    "total_entries": 523,
+    "league_entries": 286,
+    "league_trophies": 286,
+    "league_trophies_yearly": 144,
     "challenge_appearances": 214,
     "challenge_wins": 869,
     "challenge_losses": 527,
     "irl_top8": 8,
     "challenge_win_pct": 62,
-    "league_trophy_rank_yearly": 10,
+    "league_trophy_rank_yearly": 11,
     "league_trophy_rank_alltime": 13,
-    "league_trophy_decks_yearly": 63,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 64,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2810855",
+      "tournament": "Pauper League",
+      "date": "2026-06-28",
+      "player": "qbturtle15",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
       "tournament": "Pauper RC Super Qualifier",
@@ -376,21 +391,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0612843798",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-06",
-      "player": "mehanske",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
