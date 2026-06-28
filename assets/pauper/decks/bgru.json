@@ -2,10 +2,10 @@
   "archetype": "BGRU",
   "slug": "bgru",
   "stats": {
-    "total_entries": 60,
-    "league_entries": 37,
-    "league_trophies": 37,
-    "league_trophies_yearly": 25,
+    "total_entries": 62,
+    "league_entries": 39,
+    "league_trophies": 39,
+    "league_trophies_yearly": 27,
     "challenge_appearances": 22,
     "challenge_wins": 84,
     "challenge_losses": 56,
@@ -17,6 +17,22 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2810855",
+      "tournament": "Pauper League",
+      "date": "2026-06-28",
+      "player": "billsive",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2810855",
       "tournament": "Pauper League",
@@ -70,6 +86,22 @@
       "tournament": "Pauper League",
       "date": "2026-06-26",
       "player": "yuxiaoyu",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2610855",
+      "tournament": "Pauper League",
+      "date": "2026-06-26",
+      "player": "Abisd94",
       "colors": [
         "B",
         "G",
@@ -384,38 +416,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-0310636",
-      "tournament": "Pauper League",
-      "date": "2026-05-03",
-      "player": "CosmicCharles",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-04-2010405",
-      "tournament": "Pauper League",
-      "date": "2026-04-20",
-      "player": "saidin.raken",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -448,15 +448,15 @@
       "count": 2
     },
     {
+      "player": "billsive",
+      "count": 1
+    },
+    {
       "player": "VampiroIL",
       "count": 1
     },
     {
       "player": "SweetIto",
-      "count": 1
-    },
-    {
-      "player": "teasdale",
       "count": 1
     }
   ]
