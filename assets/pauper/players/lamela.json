@@ -3,11 +3,11 @@
   "display_name": "Lamela",
   "irl_name": null,
   "stats": {
-    "total_entries": 42,
+    "total_entries": 43,
     "league_trophies": 15,
     "league_trophies_yearly": 12,
-    "challenge_wins": 99,
-    "challenge_losses": 66,
+    "challenge_wins": 102,
+    "challenge_losses": 69,
     "irl_top8": 0,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 65,
@@ -29,6 +29,10 @@
       "count": 3
     },
     {
+      "archetype": "Familiars",
+      "count": 3
+    },
+    {
       "archetype": "UG Fog",
       "count": 3
     },
@@ -42,10 +46,6 @@
     },
     {
       "archetype": "Naya Gates",
-      "count": 2
-    },
-    {
-      "archetype": "Familiars",
       "count": 2
     },
     {
@@ -109,6 +109,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0112843773",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-04",
+      "player": "Lamela",
+      "archetype": "Familiars",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-0412843773",
@@ -442,21 +457,6 @@
         "B",
         "R",
         "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-029987",
-      "tournament": "pauper-league-2026-01-029987",
-      "date": "2026-01-02",
-      "player": "Lamela",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G"
       ],
       "record": "5-0",
       "final_rank": null,

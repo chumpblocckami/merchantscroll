@@ -3,11 +3,11 @@
   "display_name": "Brasatore",
   "irl_name": null,
   "stats": {
-    "total_entries": 28,
+    "total_entries": 29,
     "league_trophies": 0,
     "league_trophies_yearly": 0,
-    "challenge_wins": 93,
-    "challenge_losses": 78,
+    "challenge_wins": 95,
+    "challenge_losses": 82,
     "irl_top8": 0,
     "challenge_win_pct": 54,
     "league_trophy_rank_yearly": null,
@@ -23,6 +23,10 @@
     {
       "archetype": "Affinity",
       "count": 4
+    },
+    {
+      "archetype": "BR Affinity",
+      "count": 2
     },
     {
       "archetype": "Jund",
@@ -45,10 +49,6 @@
       "count": 2
     },
     {
-      "archetype": "BR Affinity",
-      "count": 1
-    },
-    {
       "archetype": "White Weenie",
       "count": 1
     },
@@ -60,6 +60,22 @@
   "recent_entries": [
     {
       "site_name": "pauper-challenge-32-2026-06-2512845643",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-25",
+      "player": "Brasatore",
+      "archetype": "BR Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "2-4",
+      "final_rank": 30,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845643",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-25",
       "player": "Brasatore",
@@ -435,20 +451,6 @@
       ],
       "record": "5-2",
       "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-06-1512794613",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-06-15",
-      "player": "Brasatore",
-      "archetype": "Elves",
-      "colors": [
-        "G"
-      ],
-      "record": "8-1",
-      "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
     }

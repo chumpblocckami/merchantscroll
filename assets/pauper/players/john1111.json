@@ -3,19 +3,23 @@
   "display_name": "John1111",
   "irl_name": null,
   "stats": {
-    "total_entries": 22,
+    "total_entries": 23,
     "league_trophies": 1,
     "league_trophies_yearly": 1,
-    "challenge_wins": 76,
-    "challenge_losses": 51,
+    "challenge_wins": 79,
+    "challenge_losses": 54,
     "irl_top8": 0,
-    "challenge_win_pct": 60,
+    "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 906,
     "league_trophy_rank_alltime": 1539,
     "league_trophy_players_yearly": 1196,
     "league_trophy_players_alltime": 1944
   },
   "favorite_decks": [
+    {
+      "archetype": "Ponza",
+      "count": 3
+    },
     {
       "archetype": "U Terror",
       "count": 3
@@ -30,10 +34,6 @@
     },
     {
       "archetype": "Rally",
-      "count": 2
-    },
-    {
-      "archetype": "Ponza",
       "count": 2
     },
     {
@@ -70,6 +70,21 @@
       ],
       "record": "2-3",
       "final_rank": 28,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1212844338",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-14",
+      "player": "John1111",
+      "archetype": "Ponza",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
     },

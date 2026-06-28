@@ -3,11 +3,11 @@
   "display_name": "PedraStone",
   "irl_name": null,
   "stats": {
-    "total_entries": 61,
+    "total_entries": 62,
     "league_trophies": 0,
     "league_trophies_yearly": 0,
-    "challenge_wins": 250,
-    "challenge_losses": 148,
+    "challenge_wins": 253,
+    "challenge_losses": 151,
     "irl_top8": 0,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": null,
@@ -18,7 +18,7 @@
   "favorite_decks": [
     {
       "archetype": "Bogle",
-      "count": 28
+      "count": 29
     },
     {
       "archetype": "Affinity",
@@ -56,6 +56,23 @@
   "recent_entries": [
     {
       "site_name": "pauper-challenge-32-2026-06-2512845643",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-25",
+      "player": "PedraStone",
+      "archetype": "Bogle",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 20,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845643",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-25",
       "player": "PedraStone",
@@ -441,22 +458,6 @@
       ],
       "record": "5-2",
       "final_rank": 6,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-11-2712825445",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-11-27",
-      "player": "PedraStone",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "2-3",
-      "final_rank": 20,
       "source": "mtgo",
       "type": "challenge"
     }

@@ -2,13 +2,13 @@
   "archetype": "Monsters",
   "slug": "monsters",
   "stats": {
-    "total_entries": 367,
+    "total_entries": 368,
     "league_entries": 208,
     "league_trophies": 208,
     "league_trophies_yearly": 63,
-    "challenge_appearances": 134,
-    "challenge_wins": 484,
-    "challenge_losses": 354,
+    "challenge_appearances": 135,
+    "challenge_wins": 486,
+    "challenge_losses": 357,
     "irl_top8": 18,
     "challenge_win_pct": 58,
     "league_trophy_rank_yearly": 23,
@@ -70,6 +70,20 @@
       ],
       "record": "4-3",
       "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1212844338",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-14",
+      "player": "Ipnotico86",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "2-3",
+      "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -356,20 +370,6 @@
       ],
       "record": "",
       "final_rank": null,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-0812842071",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-08",
-      "player": "PrimoShow1",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "6-1",
-      "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
     }

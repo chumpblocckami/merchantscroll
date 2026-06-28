@@ -2,13 +2,13 @@
   "archetype": "Walls",
   "slug": "walls",
   "stats": {
-    "total_entries": 159,
+    "total_entries": 161,
     "league_entries": 103,
     "league_trophies": 103,
     "league_trophies_yearly": 34,
-    "challenge_appearances": 49,
-    "challenge_wins": 189,
-    "challenge_losses": 131,
+    "challenge_appearances": 51,
+    "challenge_wins": 194,
+    "challenge_losses": 137,
     "irl_top8": 3,
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 32,
@@ -30,6 +30,39 @@
       ],
       "record": "2-3",
       "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845643",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-25",
+      "player": "ziofrancone",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1212844338",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-14",
+      "player": "zimooo2",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -396,38 +429,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-0112841341",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-01",
-      "player": "JorGG",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-04-3010636",
-      "tournament": "Pauper League",
-      "date": "2026-04-30",
-      "player": "Echanez",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -444,6 +445,10 @@
       "count": 9
     },
     {
+      "player": "zimooo2",
+      "count": 5
+    },
+    {
       "player": "Otifex",
       "count": 5
     },
@@ -457,10 +462,6 @@
     },
     {
       "player": "Now1770",
-      "count": 4
-    },
-    {
-      "player": "zimooo2",
       "count": 4
     },
     {

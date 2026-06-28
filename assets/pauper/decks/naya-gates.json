@@ -2,13 +2,13 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 134,
+    "total_entries": 140,
     "league_entries": 63,
     "league_trophies": 63,
     "league_trophies_yearly": 56,
-    "challenge_appearances": 54,
-    "challenge_wins": 207,
-    "challenge_losses": 129,
+    "challenge_appearances": 60,
+    "challenge_wins": 233,
+    "challenge_losses": 142,
     "irl_top8": 12,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 25,
@@ -22,6 +22,23 @@
       "tournament": "Pauper League",
       "date": "2026-06-28",
       "player": "celobee",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2810855",
+      "tournament": "Pauper League",
+      "date": "2026-06-28",
+      "player": "newbarola",
       "colors": [
         "B",
         "G",
@@ -84,6 +101,23 @@
       "final_rank": 23,
       "source": "mtgo",
       "type": "other"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2710855",
+      "tournament": "Pauper League",
+      "date": "2026-06-27",
+      "player": "Feitosa_",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-2710855",
@@ -407,46 +441,16 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2610855",
-      "tournament": "Pauper League",
-      "date": "2026-06-26",
-      "player": "Spochni",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2610855",
-      "tournament": "Pauper League",
-      "date": "2026-06-26",
-      "player": "othavirium",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "Emogoblin",
       "count": 7
+    },
+    {
+      "player": "LabroNico",
+      "count": 4
     },
     {
       "player": "manohito",
@@ -465,7 +469,7 @@
       "count": 3
     },
     {
-      "player": "LabroNico",
+      "player": "seasonofmists",
       "count": 3
     },
     {
@@ -477,11 +481,7 @@
       "count": 3
     },
     {
-      "player": "SoterX",
-      "count": 2
-    },
-    {
-      "player": "seasonofmists",
+      "player": "newbarola",
       "count": 2
     }
   ]

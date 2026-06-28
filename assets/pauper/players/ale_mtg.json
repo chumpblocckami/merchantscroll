@@ -3,11 +3,11 @@
   "display_name": "Ale_Mtg",
   "irl_name": null,
   "stats": {
-    "total_entries": 12,
+    "total_entries": 13,
     "league_trophies": 0,
     "league_trophies_yearly": 0,
-    "challenge_wins": 39,
-    "challenge_losses": 18,
+    "challenge_wins": 43,
+    "challenge_losses": 20,
     "irl_top8": 0,
     "challenge_win_pct": 68,
     "league_trophy_rank_yearly": null,
@@ -25,15 +25,15 @@
       "count": 3
     },
     {
+      "archetype": "BR Madness",
+      "count": 2
+    },
+    {
       "archetype": "UB Faeries",
       "count": 2
     },
     {
       "archetype": "U Terror",
-      "count": 1
-    },
-    {
-      "archetype": "BR Madness",
       "count": 1
     },
     {
@@ -117,6 +117,22 @@
       ],
       "record": "6-3",
       "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0112843773",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-04",
+      "player": "Ale_Mtg",
+      "archetype": "BR Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
     },

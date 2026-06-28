@@ -2,13 +2,13 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 993,
-    "league_entries": 570,
-    "league_trophies": 570,
-    "league_trophies_yearly": 230,
-    "challenge_appearances": 387,
-    "challenge_wins": 1490,
-    "challenge_losses": 995,
+    "total_entries": 1007,
+    "league_entries": 571,
+    "league_trophies": 571,
+    "league_trophies_yearly": 231,
+    "challenge_appearances": 400,
+    "challenge_wins": 1541,
+    "challenge_losses": 1027,
     "irl_top8": 21,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 3,
@@ -66,6 +66,19 @@
       "player": "Albreto",
       "colors": [
         "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2710855",
+      "tournament": "Pauper League",
+      "date": "2026-06-27",
+      "player": "SaculSueahtam",
+      "colors": [
         "R"
       ],
       "record": "5-0",
@@ -225,6 +238,47 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-06-2412845643",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-25",
+      "player": "vini_torres",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "7-2",
+      "final_rank": 2,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845643",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-25",
+      "player": "Syns",
+      "colors": [
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845643",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-25",
+      "player": "boom_bust",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 21,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-league-2026-06-2510855",
       "tournament": "Pauper League",
       "date": "2026-06-25",
@@ -306,73 +360,20 @@
       "final_rank": 19,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2410855",
-      "tournament": "Pauper League",
-      "date": "2026-06-24",
-      "player": "SaculSueahtam",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2410855",
-      "tournament": "Pauper League",
-      "date": "2026-06-24",
-      "player": "SaculSueahtam",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2310636",
-      "tournament": "Pauper League",
-      "date": "2026-06-23",
-      "player": "vini_torres",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2310636",
-      "tournament": "Pauper League",
-      "date": "2026-06-23",
-      "player": "gustha86",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "SaculSueahtam",
-      "count": 80
+      "count": 83
     },
     {
       "player": "vini_torres",
-      "count": 74
+      "count": 75
     },
     {
       "player": "boom_bust",
-      "count": 49
+      "count": 51
     },
     {
       "player": "GilbertoAntunes",
@@ -387,6 +388,10 @@
       "count": 13
     },
     {
+      "player": "Mahers",
+      "count": 12
+    },
+    {
       "player": "NMT_Sco94",
       "count": 11
     },
@@ -397,10 +402,6 @@
     {
       "player": "Goblin_Player",
       "count": 11
-    },
-    {
-      "player": "Mahers",
-      "count": 10
     }
   ]
 }

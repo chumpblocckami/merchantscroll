@@ -3,11 +3,11 @@
   "display_name": "Alleyezonme",
   "irl_name": null,
   "stats": {
-    "total_entries": 71,
+    "total_entries": 72,
     "league_trophies": 32,
     "league_trophies_yearly": 13,
-    "challenge_wins": 165,
-    "challenge_losses": 101,
+    "challenge_wins": 169,
+    "challenge_losses": 103,
     "irl_top8": 0,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 53,
@@ -18,7 +18,7 @@
   "favorite_decks": [
     {
       "archetype": "Flicker Tron",
-      "count": 64
+      "count": 65
     },
     {
       "archetype": "Affinity",
@@ -99,6 +99,24 @@
       ],
       "record": "8-1",
       "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0112843773",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-04",
+      "player": "Alleyezonme",
+      "archetype": "Flicker Tron",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 13,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -461,24 +479,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-12-2512828058",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-12-25",
-      "player": "Alleyezonme",
-      "archetype": "Flicker Tron",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-3",
-      "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

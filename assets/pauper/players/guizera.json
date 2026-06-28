@@ -3,13 +3,13 @@
   "display_name": "Guizera",
   "irl_name": null,
   "stats": {
-    "total_entries": 6,
+    "total_entries": 7,
     "league_trophies": 1,
     "league_trophies_yearly": 1,
-    "challenge_wins": 19,
-    "challenge_losses": 13,
+    "challenge_wins": 23,
+    "challenge_losses": 15,
     "irl_top8": 0,
-    "challenge_win_pct": 59,
+    "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 864,
     "league_trophy_rank_alltime": 1477,
     "league_trophy_players_yearly": 1196,
@@ -18,7 +18,7 @@
   "favorite_decks": [
     {
       "archetype": "Ponza",
-      "count": 4
+      "count": 5
     },
     {
       "archetype": "Rally",
@@ -72,6 +72,21 @@
       ],
       "record": "4-3",
       "final_rank": 22,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0112843773",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-04",
+      "player": "Guizera",
+      "archetype": "Ponza",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
     },

@@ -2,16 +2,16 @@
   "archetype": "Jeskai",
   "slug": "jeskai",
   "stats": {
-    "total_entries": 241,
+    "total_entries": 245,
     "league_entries": 148,
     "league_trophies": 148,
     "league_trophies_yearly": 84,
-    "challenge_appearances": 80,
-    "challenge_wins": 329,
-    "challenge_losses": 194,
+    "challenge_appearances": 84,
+    "challenge_wins": 345,
+    "challenge_losses": 203,
     "irl_top8": 9,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 17,
+    "league_trophy_rank_yearly": 16,
     "league_trophy_rank_alltime": 22,
     "league_trophy_decks_yearly": 63,
     "league_trophy_decks_alltime": 71
@@ -154,6 +154,21 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2512845643",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-25",
+      "player": "TSPJendrek",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845643",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-25",
       "player": "TSPJendrek",
@@ -379,21 +394,6 @@
       "final_rank": 19,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1012844841",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-19",
-      "player": "ChaoticMTG",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -407,7 +407,7 @@
     },
     {
       "player": "TSPJendrek",
-      "count": 12
+      "count": 14
     },
     {
       "player": "vikizin",

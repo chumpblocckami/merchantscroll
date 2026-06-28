@@ -2,13 +2,13 @@
   "archetype": "Cawgate",
   "slug": "cawgate",
   "stats": {
-    "total_entries": 420,
+    "total_entries": 421,
     "league_entries": 253,
     "league_trophies": 253,
     "league_trophies_yearly": 133,
-    "challenge_appearances": 134,
-    "challenge_wins": 559,
-    "challenge_losses": 331,
+    "challenge_appearances": 135,
+    "challenge_wins": 562,
+    "challenge_losses": 334,
     "irl_top8": 11,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 12,
@@ -76,6 +76,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1212844338",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-14",
+      "player": "zahninator",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 28,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2012844338",
@@ -377,22 +392,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-0212841356",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-02",
-      "player": "Kirblinxy",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "8-1",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [

@@ -2,13 +2,13 @@
   "archetype": "UG Fog",
   "slug": "ug-fog",
   "stats": {
-    "total_entries": 427,
+    "total_entries": 429,
     "league_entries": 212,
     "league_trophies": 212,
     "league_trophies_yearly": 14,
-    "challenge_appearances": 186,
-    "challenge_wins": 794,
-    "challenge_losses": 443,
+    "challenge_appearances": 188,
+    "challenge_wins": 802,
+    "challenge_losses": 448,
     "irl_top8": 10,
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 43,
@@ -19,6 +19,22 @@
   "recent_entries": [
     {
       "site_name": "pauper-challenge-32-2026-06-2512845643",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-25",
+      "player": "Heisen01",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845643",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-25",
       "player": "Heisen01",
@@ -341,6 +357,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-06-0112843773",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-04",
+      "player": "Heisen01",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-06-0412843773",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-04",
@@ -370,36 +401,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0210636",
-      "tournament": "Pauper League",
-      "date": "2026-06-02",
-      "player": "Adrowo",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-05-30-rivoli-summer-2026",
-      "tournament": "LP Rivoli Summer 2026 — Rivoli",
-      "date": "2026-05-30",
-      "player": "Davide Da Ros",
-      "colors": [
-        "G",
-        "U"
-      ],
-      "record": "",
-      "final_rank": 5,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [

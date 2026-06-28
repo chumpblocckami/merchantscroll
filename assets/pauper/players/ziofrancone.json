@@ -3,13 +3,13 @@
   "display_name": "ziofrancone",
   "irl_name": null,
   "stats": {
-    "total_entries": 50,
+    "total_entries": 51,
     "league_trophies": 10,
     "league_trophies_yearly": 3,
-    "challenge_wins": 154,
-    "challenge_losses": 83,
+    "challenge_wins": 156,
+    "challenge_losses": 86,
     "irl_top8": 0,
-    "challenge_win_pct": 65,
+    "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 421,
     "league_trophy_rank_alltime": 237,
     "league_trophy_players_yearly": 1196,
@@ -41,15 +41,15 @@
       "count": 3
     },
     {
+      "archetype": "Walls",
+      "count": 2
+    },
+    {
       "archetype": "Spy",
       "count": 2
     },
     {
       "archetype": "R Madness",
-      "count": 1
-    },
-    {
-      "archetype": "Walls",
       "count": 1
     },
     {
@@ -92,6 +92,23 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2512845643",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-25",
+      "player": "ziofrancone",
+      "archetype": "Walls",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845643",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-25",
       "player": "ziofrancone",
@@ -442,23 +459,6 @@
       "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-championship-week-finals-2025-11-1512824377",
-      "tournament": "Pauper Championship Week Finals",
-      "date": "2025-11-15",
-      "player": "ziofrancone",
-      "archetype": "Cawgate",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "6-2",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "other"
     }
   ]
 }

@@ -2,13 +2,13 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 631,
-    "league_entries": 340,
-    "league_trophies": 340,
-    "league_trophies_yearly": 146,
-    "challenge_appearances": 256,
-    "challenge_wins": 1048,
-    "challenge_losses": 629,
+    "total_entries": 632,
+    "league_entries": 338,
+    "league_trophies": 338,
+    "league_trophies_yearly": 144,
+    "challenge_appearances": 259,
+    "challenge_wins": 1061,
+    "challenge_losses": 638,
     "irl_top8": 18,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 10,
@@ -116,6 +116,20 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-06-2412845643",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-25",
+      "player": "__Noob__",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "4-3",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-league-2026-06-2510855",
       "tournament": "Pauper League",
       "date": "2026-06-25",
@@ -156,34 +170,6 @@
       "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2310636",
-      "tournament": "Pauper League",
-      "date": "2026-06-23",
-      "player": "True-Name-Nemesis",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2210636",
-      "tournament": "Pauper League",
-      "date": "2026-06-22",
-      "player": "Pleitegeier",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-2210636",
@@ -366,12 +352,26 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1310636",
+      "tournament": "Pauper League",
+      "date": "2026-06-13",
+      "player": "yuxiaoyu",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "__Noob__",
-      "count": 127
+      "count": 129
     },
     {
       "player": "NickNorman",
@@ -386,11 +386,11 @@
       "count": 22
     },
     {
-      "player": "True-Name-Nemesis",
-      "count": 17
+      "player": "Jace_MTG",
+      "count": 16
     },
     {
-      "player": "Jace_MTG",
+      "player": "True-Name-Nemesis",
       "count": 16
     },
     {
