@@ -2,35 +2,21 @@
   "archetype": "UB Control",
   "slug": "ub-control",
   "stats": {
-    "total_entries": 156,
-    "league_entries": 105,
-    "league_trophies": 105,
-    "league_trophies_yearly": 58,
+    "total_entries": 155,
+    "league_entries": 104,
+    "league_trophies": 104,
+    "league_trophies_yearly": 57,
     "challenge_appearances": 47,
     "challenge_wins": 159,
     "challenge_losses": 132,
     "irl_top8": 3,
     "challenge_win_pct": 55,
-    "league_trophy_rank_yearly": 24,
-    "league_trophy_rank_alltime": 26,
-    "league_trophy_decks_yearly": 63,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_rank_yearly": 25,
+    "league_trophy_rank_alltime": 27,
+    "league_trophy_decks_yearly": 64,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-06-2310636",
-      "tournament": "Pauper League",
-      "date": "2026-06-23",
-      "player": "barff",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-challenge-32-2026-06-2112844875",
       "tournament": "Pauper Challenge 32",
@@ -376,6 +362,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-04-3010636",
+      "tournament": "Pauper League",
+      "date": "2026-04-30",
+      "player": "_Abijhavs_",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -404,16 +404,16 @@
       "count": 4
     },
     {
-      "player": "barff",
-      "count": 4
-    },
-    {
       "player": "ivanguille",
       "count": 4
     },
     {
       "player": "__Noob__",
       "count": 4
+    },
+    {
+      "player": "barff",
+      "count": 3
     },
     {
       "player": "elle992",
