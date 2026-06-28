@@ -2,19 +2,19 @@
   "archetype": "BR Affinity",
   "slug": "br-affinity",
   "stats": {
-    "total_entries": 16,
-    "league_entries": 3,
-    "league_trophies": 3,
-    "league_trophies_yearly": 3,
+    "total_entries": 17,
+    "league_entries": 4,
+    "league_trophies": 4,
+    "league_trophies_yearly": 4,
     "challenge_appearances": 11,
     "challenge_wins": 37,
     "challenge_losses": 33,
     "irl_top8": 2,
     "challenge_win_pct": 53,
-    "league_trophy_rank_yearly": 54,
-    "league_trophy_rank_alltime": 62,
-    "league_trophy_decks_yearly": 64,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_rank_yearly": 53,
+    "league_trophy_rank_alltime": 61,
+    "league_trophy_decks_yearly": 63,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -76,6 +76,20 @@
       "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2510855",
+      "tournament": "Pauper League",
+      "date": "2026-06-25",
+      "player": "ThieresTMS",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845625",
@@ -282,15 +296,15 @@
       "count": 1
     },
     {
+      "player": "ThieresTMS",
+      "count": 1
+    },
+    {
       "player": "s8shock",
       "count": 1
     },
     {
       "player": "Squall93",
-      "count": 1
-    },
-    {
-      "player": "_blaze66",
       "count": 1
     }
   ]

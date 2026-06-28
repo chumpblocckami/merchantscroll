@@ -2,21 +2,51 @@
   "archetype": "BG Fog",
   "slug": "bg-fog",
   "stats": {
-    "total_entries": 99,
-    "league_entries": 51,
-    "league_trophies": 51,
-    "league_trophies_yearly": 28,
+    "total_entries": 101,
+    "league_entries": 53,
+    "league_trophies": 53,
+    "league_trophies_yearly": 30,
     "challenge_appearances": 41,
     "challenge_wins": 178,
     "challenge_losses": 101,
     "irl_top8": 3,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 34,
-    "league_trophy_rank_alltime": 39,
-    "league_trophy_decks_yearly": 64,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_rank_yearly": 33,
+    "league_trophy_rank_alltime": 38,
+    "league_trophy_decks_yearly": 63,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2310636",
+      "tournament": "Pauper League",
+      "date": "2026-06-23",
+      "player": "murilobds",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2310636",
+      "tournament": "Pauper League",
+      "date": "2026-06-23",
+      "player": "True-Name-Nemesis",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-1510636",
       "tournament": "Pauper League",
@@ -379,44 +409,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-1710405",
-      "tournament": "pauper-league-2026-03-1710405",
-      "date": "2026-03-17",
-      "player": "murilobds",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-1412835312",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-14",
-      "player": "Taddy_99",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "2-3",
-      "final_rank": 28,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "murilobds",
-      "count": 26
+      "count": 27
     },
     {
       "player": "IvernOP",

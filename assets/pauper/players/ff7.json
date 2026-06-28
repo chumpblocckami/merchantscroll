@@ -3,22 +3,22 @@
   "display_name": "ff7",
   "irl_name": null,
   "stats": {
-    "total_entries": 35,
-    "league_trophies": 30,
-    "league_trophies_yearly": 15,
+    "total_entries": 36,
+    "league_trophies": 31,
+    "league_trophies_yearly": 16,
     "challenge_wins": 18,
     "challenge_losses": 9,
     "irl_top8": 0,
     "challenge_win_pct": 67,
-    "league_trophy_rank_yearly": 43,
-    "league_trophy_rank_alltime": 46,
-    "league_trophy_players_yearly": 1194,
-    "league_trophy_players_alltime": 1942
+    "league_trophy_rank_yearly": 37,
+    "league_trophy_rank_alltime": 45,
+    "league_trophy_players_yearly": 1196,
+    "league_trophy_players_alltime": 1944
   },
   "favorite_decks": [
     {
       "archetype": "U Terror",
-      "count": 12
+      "count": 13
     },
     {
       "archetype": "White Weenie",
@@ -62,6 +62,21 @@
       "archetype": "R Madness",
       "colors": [
         "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2310636",
+      "tournament": "Pauper League",
+      "date": "2026-06-23",
+      "player": "ff7",
+      "archetype": "U Terror",
+      "colors": [
         "R",
         "U"
       ],
@@ -430,21 +445,6 @@
       "archetype": "White Weenie",
       "colors": [
         "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-09-249750",
-      "tournament": "pauper-league-2025-09-249750",
-      "date": "2025-09-24",
-      "player": "ff7",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
       ],
       "record": "5-0",
       "final_rank": null,
