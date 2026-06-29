@@ -3,17 +3,17 @@
   "display_name": "LabroNico",
   "irl_name": null,
   "stats": {
-    "total_entries": 29,
-    "league_trophies": 19,
-    "league_trophies_yearly": 6,
+    "total_entries": 30,
+    "league_trophies": 20,
+    "league_trophies_yearly": 7,
     "challenge_wins": 40,
     "challenge_losses": 22,
     "irl_top8": 0,
     "challenge_win_pct": 65,
-    "league_trophy_rank_yearly": 153,
-    "league_trophy_rank_alltime": 94,
-    "league_trophy_players_yearly": 1203,
-    "league_trophy_players_alltime": 1949
+    "league_trophy_rank_yearly": 131,
+    "league_trophy_rank_alltime": 89,
+    "league_trophy_players_yearly": 1206,
+    "league_trophy_players_alltime": 1951
   },
   "favorite_decks": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "archetype": "Naya Gates",
-      "count": 4
+      "count": 5
     },
     {
       "archetype": "Jund",
@@ -50,6 +50,24 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2910855",
+      "tournament": "Pauper League",
+      "date": "2026-06-29",
+      "player": "LabroNico",
+      "archetype": "Naya Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2512845643",
       "tournament": "Pauper Challenge 32",
@@ -439,21 +457,6 @@
       "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-08-089535",
-      "tournament": "pauper-league-2025-08-089535",
-      "date": "2025-08-08",
-      "player": "LabroNico",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }
