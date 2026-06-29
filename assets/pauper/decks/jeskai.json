@@ -2,18 +2,18 @@
   "archetype": "Jeskai",
   "slug": "jeskai",
   "stats": {
-    "total_entries": 246,
+    "total_entries": 249,
     "league_entries": 149,
     "league_trophies": 149,
     "league_trophies_yearly": 85,
-    "challenge_appearances": 84,
-    "challenge_wins": 345,
-    "challenge_losses": 203,
+    "challenge_appearances": 87,
+    "challenge_wins": 357,
+    "challenge_losses": 212,
     "irl_top8": 9,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 16,
     "league_trophy_rank_alltime": 22,
-    "league_trophy_decks_yearly": 64,
+    "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
@@ -46,6 +46,52 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2812845687",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-28",
+      "player": "vikizin",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 12,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2812845687",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-28",
+      "player": "Pleitegeier",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-3",
+      "final_rank": 27,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2812845687",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-28",
+      "player": "Mikhathara1994",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-4",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
@@ -349,51 +395,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2012844856",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-20",
-      "player": "TSPJendrek",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 6,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2012844856",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-20",
-      "player": "pepeteam",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 26,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1912844841",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-19",
-      "player": "ChaoticMTG",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -411,7 +412,7 @@
     },
     {
       "player": "vikizin",
-      "count": 9
+      "count": 10
     },
     {
       "player": "Al_bertoR",
@@ -427,7 +428,7 @@
     },
     {
       "player": "Mikhathara1994",
-      "count": 5
+      "count": 6
     },
     {
       "player": "GrimFlayerBR",

@@ -2,18 +2,18 @@
   "archetype": "U Terror",
   "slug": "u-terror",
   "stats": {
-    "total_entries": 1622,
+    "total_entries": 1623,
     "league_entries": 766,
     "league_trophies": 766,
     "league_trophies_yearly": 291,
-    "challenge_appearances": 755,
-    "challenge_wins": 3120,
-    "challenge_losses": 1861,
+    "challenge_appearances": 756,
+    "challenge_wins": 3124,
+    "challenge_losses": 1864,
     "irl_top8": 39,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 2,
     "league_trophy_rank_alltime": 2,
-    "league_trophy_decks_yearly": 64,
+    "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
@@ -30,6 +30,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2812845687",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-28",
+      "player": "Luminati",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
@@ -355,26 +369,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2210636",
-      "tournament": "Pauper League",
-      "date": "2026-06-22",
-      "player": "AaronFritts",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "Luminati",
-      "count": 256
+      "count": 257
     },
     {
       "player": "discoverN",
