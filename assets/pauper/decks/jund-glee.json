@@ -2,21 +2,37 @@
   "archetype": "Jund Glee",
   "slug": "jund-glee",
   "stats": {
-    "total_entries": 11,
-    "league_entries": 6,
-    "league_trophies": 6,
-    "league_trophies_yearly": 5,
+    "total_entries": 13,
+    "league_entries": 8,
+    "league_trophies": 8,
+    "league_trophies_yearly": 7,
     "challenge_appearances": 2,
     "challenge_wins": 6,
     "challenge_losses": 6,
     "irl_top8": 3,
     "challenge_win_pct": 50,
-    "league_trophy_rank_yearly": 52,
-    "league_trophy_rank_alltime": 55,
-    "league_trophy_decks_yearly": 65,
+    "league_trophy_rank_yearly": 49,
+    "league_trophy_rank_alltime": 53,
+    "league_trophy_decks_yearly": 64,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-2810855",
+      "tournament": "Pauper League",
+      "date": "2026-06-28",
+      "player": "billsive",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2612845653",
       "tournament": "Pauper Challenge 32",
@@ -32,6 +48,22 @@
       "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2510855",
+      "tournament": "Pauper League",
+      "date": "2026-06-25",
+      "player": "Berga_",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-1510636",
@@ -179,6 +211,10 @@
   ],
   "top_pilots": [
     {
+      "player": "billsive",
+      "count": 1
+    },
+    {
       "player": "Kampo",
       "count": 1
     },
@@ -207,15 +243,11 @@
       "count": 1
     },
     {
+      "player": "Berga_",
+      "count": 1
+    },
+    {
       "player": "itsamebogy",
-      "count": 1
-    },
-    {
-      "player": "Franco Cicchini",
-      "count": 1
-    },
-    {
-      "player": "Lorenzo Bergamini",
       "count": 1
     }
   ]
