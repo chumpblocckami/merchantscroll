@@ -2,10 +2,10 @@
   "archetype": "Boros Tribe",
   "slug": "boros-tribe",
   "stats": {
-    "total_entries": 86,
-    "league_entries": 48,
-    "league_trophies": 48,
-    "league_trophies_yearly": 48,
+    "total_entries": 85,
+    "league_entries": 47,
+    "league_trophies": 47,
+    "league_trophies_yearly": 47,
     "challenge_appearances": 35,
     "challenge_wins": 139,
     "challenge_losses": 89,
@@ -13,26 +13,10 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 27,
     "league_trophy_rank_alltime": 40,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 63,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-06-2910855",
-      "tournament": "Pauper League",
-      "date": "2026-06-29",
-      "player": "lostonkato",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845631",
       "tournament": "Pauper Challenge 32",
@@ -418,6 +402,22 @@
       "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-05-2912843392",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-05-29",
+      "player": "Emogoblin",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -431,7 +431,7 @@
     },
     {
       "player": "lostonkato",
-      "count": 7
+      "count": 6
     },
     {
       "player": "MisterAsiago",

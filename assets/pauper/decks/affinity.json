@@ -2,51 +2,21 @@
   "archetype": "Affinity",
   "slug": "affinity",
   "stats": {
-    "total_entries": 897,
-    "league_entries": 338,
-    "league_trophies": 338,
-    "league_trophies_yearly": 181,
+    "total_entries": 895,
+    "league_entries": 336,
+    "league_trophies": 336,
+    "league_trophies_yearly": 179,
     "challenge_appearances": 488,
     "challenge_wins": 2019,
     "challenge_losses": 1222,
     "irl_top8": 39,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 6,
-    "league_trophy_rank_alltime": 9,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_rank_alltime": 10,
+    "league_trophy_decks_yearly": 63,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-06-2910855",
-      "tournament": "Pauper League",
-      "date": "2026-06-29",
-      "player": "ZoooK",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2810855",
-      "tournament": "Pauper League",
-      "date": "2026-06-28",
-      "player": "Fisicman",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-challenge-32-2026-06-2812845687",
       "tournament": "Pauper Challenge 32",
@@ -388,6 +358,36 @@
       ],
       "record": "3-3",
       "final_rank": 14,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "LuffyDoChapeuDePalha",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 15,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "newbarola",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
     }

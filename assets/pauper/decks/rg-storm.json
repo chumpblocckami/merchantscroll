@@ -2,10 +2,10 @@
   "archetype": "RG Storm",
   "slug": "rg-storm",
   "stats": {
-    "total_entries": 143,
-    "league_entries": 107,
-    "league_trophies": 107,
-    "league_trophies_yearly": 94,
+    "total_entries": 142,
+    "league_entries": 106,
+    "league_trophies": 106,
+    "league_trophies_yearly": 93,
     "challenge_appearances": 27,
     "challenge_wins": 100,
     "challenge_losses": 66,
@@ -13,25 +13,10 @@
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 15,
     "league_trophy_rank_alltime": 25,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 63,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-06-2810855",
-      "tournament": "Pauper League",
-      "date": "2026-06-28",
-      "player": "lumely",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-league-2026-06-2710855",
       "tournament": "Pauper League",
@@ -393,6 +378,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauperwave-2026-05-30-rivoli-summer-2026",
+      "tournament": "LP Rivoli Summer 2026 — Rivoli",
+      "date": "2026-05-30",
+      "player": "Nicholas Boscolo Todaro",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "",
+      "final_rank": 3,
+      "source": "pauperwave",
+      "type": "irl"
     }
   ],
   "top_pilots": [
@@ -417,10 +416,6 @@
       "count": 6
     },
     {
-      "player": "lumely",
-      "count": 5
-    },
-    {
       "player": "Pilopanga",
       "count": 5
     },
@@ -434,6 +429,10 @@
     },
     {
       "player": "Ocaroca",
+      "count": 4
+    },
+    {
+      "player": "Abisd94",
       "count": 4
     }
   ]

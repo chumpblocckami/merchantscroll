@@ -2,10 +2,10 @@
   "archetype": "BGRU",
   "slug": "bgru",
   "stats": {
-    "total_entries": 59,
-    "league_entries": 36,
-    "league_trophies": 36,
-    "league_trophies_yearly": 24,
+    "total_entries": 57,
+    "league_entries": 34,
+    "league_trophies": 34,
+    "league_trophies_yearly": 22,
     "challenge_appearances": 22,
     "challenge_wins": 84,
     "challenge_losses": 56,
@@ -13,42 +13,10 @@
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 36,
     "league_trophy_rank_alltime": 43,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 63,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-06-2810855",
-      "tournament": "Pauper League",
-      "date": "2026-06-28",
-      "player": "billsive",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2810855",
-      "tournament": "Pauper League",
-      "date": "2026-06-28",
-      "player": "VampiroIL",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-challenge-32-2026-06-2612845653",
       "tournament": "Pauper Challenge 32",
@@ -416,6 +384,38 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-03-2210405",
+      "tournament": "pauper-league-2026-03-2210405",
+      "date": "2026-03-22",
+      "player": "williami1986",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-03-0710405",
+      "tournament": "pauper-league-2026-03-0710405",
+      "date": "2026-03-07",
+      "player": "brunolinofelix",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -448,15 +448,15 @@
       "count": 2
     },
     {
-      "player": "billsive",
-      "count": 1
-    },
-    {
-      "player": "VampiroIL",
-      "count": 1
-    },
-    {
       "player": "SweetIto",
+      "count": 1
+    },
+    {
+      "player": "teasdale",
+      "count": 1
+    },
+    {
+      "player": "scipios",
       "count": 1
     }
   ]
