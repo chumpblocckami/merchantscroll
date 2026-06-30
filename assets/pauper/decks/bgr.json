@@ -2,21 +2,36 @@
   "archetype": "BGR",
   "slug": "bgr",
   "stats": {
-    "total_entries": 14,
+    "total_entries": 15,
     "league_entries": 11,
     "league_trophies": 11,
     "league_trophies_yearly": 11,
-    "challenge_appearances": 3,
-    "challenge_wins": 12,
-    "challenge_losses": 7,
+    "challenge_appearances": 4,
+    "challenge_wins": 15,
+    "challenge_losses": 10,
     "irl_top8": 0,
-    "challenge_win_pct": 63,
+    "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 45,
     "league_trophy_rank_alltime": 49,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2812845668",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-27",
+      "player": "hetare_ane",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2712845668",
       "tournament": "Pauper Challenge 32",
@@ -234,15 +249,15 @@
       "count": 11
     },
     {
+      "player": "hetare_ane",
+      "count": 2
+    },
+    {
       "player": "olati",
       "count": 1
     },
     {
       "player": "Sorceress-Queen",
-      "count": 1
-    },
-    {
-      "player": "hetare_ane",
       "count": 1
     }
   ]

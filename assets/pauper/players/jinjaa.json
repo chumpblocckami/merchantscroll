@@ -3,16 +3,16 @@
   "display_name": "Jinjaa",
   "irl_name": null,
   "stats": {
-    "total_entries": 29,
+    "total_entries": 30,
     "league_trophies": 5,
     "league_trophies_yearly": 3,
-    "challenge_wins": 87,
-    "challenge_losses": 65,
+    "challenge_wins": 92,
+    "challenge_losses": 67,
     "irl_top8": 0,
-    "challenge_win_pct": 57,
+    "challenge_win_pct": 58,
     "league_trophy_rank_yearly": 350,
     "league_trophy_rank_alltime": 475,
-    "league_trophy_players_yearly": 1210,
+    "league_trophy_players_yearly": 1211,
     "league_trophy_players_alltime": 1954
   },
   "favorite_decks": [
@@ -33,6 +33,10 @@
       "count": 5
     },
     {
+      "archetype": "Jeskai",
+      "count": 2
+    },
+    {
       "archetype": "White Weenie",
       "count": 1
     },
@@ -45,15 +49,27 @@
       "count": 1
     },
     {
-      "archetype": "Jeskai",
-      "count": 1
-    },
-    {
       "archetype": "UB Terror",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2812845668",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-27",
+      "player": "Jinjaa",
+      "archetype": "Jeskai",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2712845668",
       "tournament": "Pauper Challenge 32",
@@ -418,20 +434,6 @@
       ],
       "record": "3-3",
       "final_rank": 25,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-07-1212802814",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-07-12",
-      "player": "Jinjaa",
-      "archetype": "U Faeries",
-      "colors": [
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
     }

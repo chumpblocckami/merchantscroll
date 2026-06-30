@@ -2,13 +2,13 @@
   "archetype": "RG Storm",
   "slug": "rg-storm",
   "stats": {
-    "total_entries": 141,
+    "total_entries": 143,
     "league_entries": 107,
     "league_trophies": 107,
     "league_trophies_yearly": 94,
-    "challenge_appearances": 25,
-    "challenge_wins": 96,
-    "challenge_losses": 63,
+    "challenge_appearances": 27,
+    "challenge_wins": 100,
+    "challenge_losses": 66,
     "irl_top8": 9,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 15,
@@ -119,6 +119,36 @@
       ],
       "record": "4-2",
       "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "saidin.raken",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845631",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "saidin.raken",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "0-1",
+      "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -363,42 +393,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-05-30-rivoli-summer-2026",
-      "tournament": "LP Rivoli Summer 2026 — Rivoli",
-      "date": "2026-05-30",
-      "player": "Nicholas Boscolo Todaro",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "",
-      "final_rank": 3,
-      "source": "pauperwave",
-      "type": "irl"
-    },
-    {
-      "site_name": "pauper-league-2026-05-3010636",
-      "tournament": "Pauper League",
-      "date": "2026-05-30",
-      "player": "SrPato",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "saidin.raken",
-      "count": 31
+      "count": 33
     },
     {
       "player": "DataPusher",

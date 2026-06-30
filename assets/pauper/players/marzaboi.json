@@ -3,22 +3,26 @@
   "display_name": "marzaboi",
   "irl_name": null,
   "stats": {
-    "total_entries": 56,
+    "total_entries": 58,
     "league_trophies": 17,
     "league_trophies_yearly": 6,
-    "challenge_wins": 157,
-    "challenge_losses": 84,
+    "challenge_wins": 163,
+    "challenge_losses": 88,
     "irl_top8": 0,
     "challenge_win_pct": 65,
     "league_trophy_rank_yearly": 157,
     "league_trophy_rank_alltime": 117,
-    "league_trophy_players_yearly": 1210,
+    "league_trophy_players_yearly": 1211,
     "league_trophy_players_alltime": 1954
   },
   "favorite_decks": [
     {
       "archetype": "Dredge",
       "count": 32
+    },
+    {
+      "archetype": "Naya Gates",
+      "count": 6
     },
     {
       "archetype": "GW Gates",
@@ -30,10 +34,6 @@
     },
     {
       "archetype": "White Weenie",
-      "count": 4
-    },
-    {
-      "archetype": "Naya Gates",
       "count": 4
     },
     {
@@ -83,6 +83,42 @@
       ],
       "record": "5-2",
       "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "marzaboi",
+      "archetype": "Naya Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845631",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "marzaboi",
+      "archetype": "Naya Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "1-2",
+      "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -445,39 +481,6 @@
         "W"
       ],
       "record": "9-0",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-12-129987",
-      "tournament": "pauper-league-2025-12-129987",
-      "date": "2025-12-12",
-      "player": "marzaboi",
-      "archetype": "Dredge",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-11-2312824808",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-11-23",
-      "player": "marzaboi",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "8-1",
       "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"

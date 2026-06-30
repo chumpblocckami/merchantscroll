@@ -3,16 +3,16 @@
   "display_name": "Emogoblin",
   "irl_name": null,
   "stats": {
-    "total_entries": 35,
+    "total_entries": 37,
     "league_trophies": 12,
     "league_trophies_yearly": 10,
-    "challenge_wins": 96,
-    "challenge_losses": 55,
+    "challenge_wins": 101,
+    "challenge_losses": 57,
     "irl_top8": 0,
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 85,
     "league_trophy_rank_alltime": 168,
-    "league_trophy_players_yearly": 1210,
+    "league_trophy_players_yearly": 1211,
     "league_trophy_players_alltime": 1954
   },
   "favorite_decks": [
@@ -22,11 +22,11 @@
     },
     {
       "archetype": "GW Gates",
-      "count": 8
+      "count": 9
     },
     {
       "archetype": "Naya Gates",
-      "count": 6
+      "count": 7
     },
     {
       "archetype": "BGRW",
@@ -52,6 +52,24 @@
   "recent_entries": [
     {
       "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
+      "tournament": "Pauper RC Super Qualifier",
+      "date": "2026-06-27",
+      "player": "Emogoblin",
+      "archetype": "Naya Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "7-2",
+      "final_rank": 15,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
       "tournament": "Pauper RC Super Qualifier",
       "date": "2026-06-27",
       "player": "Emogoblin",
@@ -268,6 +286,22 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-06-0712843798",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-06",
+      "player": "Emogoblin",
+      "archetype": "GW Gates",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-06-0512843783",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-05",
@@ -433,40 +467,6 @@
       "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-2612840571",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-26",
-      "player": "Emogoblin",
-      "archetype": "Boros Tribe",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-04-2610636",
-      "tournament": "Pauper League",
-      "date": "2026-04-26",
-      "player": "Emogoblin",
-      "archetype": "Boros Tribe",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

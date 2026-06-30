@@ -3,7 +3,7 @@
   "display_name": "_Shikamaru_",
   "irl_name": null,
   "stats": {
-    "total_entries": 1,
+    "total_entries": 2,
     "league_trophies": 0,
     "league_trophies_yearly": 0,
     "challenge_wins": 0,
@@ -12,12 +12,16 @@
     "challenge_win_pct": null,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": null,
-    "league_trophy_players_yearly": 1210,
+    "league_trophy_players_yearly": 1211,
     "league_trophy_players_alltime": 1954
   },
   "favorite_decks": [
     {
       "archetype": "Rally",
+      "count": 1
+    },
+    {
+      "archetype": "Pingers",
       "count": 1
     }
   ],
@@ -28,6 +32,21 @@
       "date": "2026-06-27",
       "player": "_Shikamaru_",
       "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "6-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
+      "tournament": "Pauper RC Super Qualifier",
+      "date": "2026-06-27",
+      "player": "_Shikamaru_",
+      "archetype": "Pingers",
       "colors": [
         "G",
         "R"

@@ -2,13 +2,13 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 635,
+    "total_entries": 642,
     "league_entries": 341,
     "league_trophies": 341,
     "league_trophies_yearly": 147,
-    "challenge_appearances": 259,
-    "challenge_wins": 1061,
-    "challenge_losses": 638,
+    "challenge_appearances": 265,
+    "challenge_wins": 1079,
+    "challenge_losses": 655,
     "irl_top8": 18,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 10,
@@ -74,6 +74,20 @@
       "type": "other"
     },
     {
+      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
+      "tournament": "Pauper RC Super Qualifier",
+      "date": "2026-06-27",
+      "player": "yuxiaoyu",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "8-2",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
       "site_name": "pauper-league-2026-06-2710855",
       "tournament": "Pauper League",
       "date": "2026-06-27",
@@ -86,6 +100,34 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2812845668",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-27",
+      "player": "__Noob__",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "3-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2812845668",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-27",
+      "player": "John1111",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "2-3",
+      "final_rank": 28,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2712845668",
@@ -173,6 +215,20 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845631",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "__Noob__",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "1-3",
+      "final_rank": 27,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845631",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "__Noob__",
@@ -310,68 +366,12 @@
       "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1910636",
-      "tournament": "Pauper League",
-      "date": "2026-06-19",
-      "player": "Caiobeta_",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1710636",
-      "tournament": "Pauper League",
-      "date": "2026-06-17",
-      "player": "yuxiaoyu",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1510636",
-      "tournament": "Pauper League",
-      "date": "2026-06-15",
-      "player": "orbuletto",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-06-14-piacenza-summer-2026",
-      "tournament": "LP Piacenza Summer 2026 — Piacenza",
-      "date": "2026-06-14",
-      "player": "Riccardo Ipri",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "",
-      "final_rank": 3,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [
     {
       "player": "__Noob__",
-      "count": 129
+      "count": 133
     },
     {
       "player": "NickNorman",
@@ -379,7 +379,7 @@
     },
     {
       "player": "yuxiaoyu",
-      "count": 35
+      "count": 36
     },
     {
       "player": "Aster17",

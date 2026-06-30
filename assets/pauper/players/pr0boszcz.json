@@ -3,22 +3,26 @@
   "display_name": "PR0boszcz",
   "irl_name": null,
   "stats": {
-    "total_entries": 33,
+    "total_entries": 35,
     "league_trophies": 6,
     "league_trophies_yearly": 3,
-    "challenge_wins": 106,
-    "challenge_losses": 64,
+    "challenge_wins": 112,
+    "challenge_losses": 69,
     "irl_top8": 0,
     "challenge_win_pct": 62,
-    "league_trophy_rank_yearly": 391,
+    "league_trophy_rank_yearly": 392,
     "league_trophy_rank_alltime": 426,
-    "league_trophy_players_yearly": 1210,
+    "league_trophy_players_yearly": 1211,
     "league_trophy_players_alltime": 1954
   },
   "favorite_decks": [
     {
       "archetype": "Food Pestilence",
       "count": 16
+    },
+    {
+      "archetype": "Jund",
+      "count": 3
     },
     {
       "archetype": "Affinity",
@@ -37,7 +41,7 @@
       "count": 2
     },
     {
-      "archetype": "Jund",
+      "archetype": "U Terror",
       "count": 2
     },
     {
@@ -51,13 +55,24 @@
     {
       "archetype": "Pingers",
       "count": 1
-    },
-    {
-      "archetype": "Esper Affinity",
-      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-06-2812845668",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-27",
+      "player": "PR0boszcz",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 15,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2712845668",
       "tournament": "Pauper Challenge 32",
@@ -161,6 +176,22 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-0612843798",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-06",
+      "player": "PR0boszcz",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 12,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0712843798",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-06",
       "player": "PR0boszcz",
@@ -401,36 +432,6 @@
       ],
       "record": "4-2",
       "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-0512838145",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-05",
-      "player": "PR0boszcz",
-      "archetype": "Food Pestilence",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-2",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-0312838111",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-03",
-      "player": "PR0boszcz",
-      "archetype": "Food Pestilence",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "9-1",
-      "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
     }

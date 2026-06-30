@@ -2,13 +2,13 @@
   "archetype": "UB Faeries",
   "slug": "ub-faeries",
   "stats": {
-    "total_entries": 540,
+    "total_entries": 550,
     "league_entries": 298,
     "league_trophies": 298,
     "league_trophies_yearly": 170,
-    "challenge_appearances": 216,
-    "challenge_wins": 899,
-    "challenge_losses": 541,
+    "challenge_appearances": 225,
+    "challenge_wins": 938,
+    "challenge_losses": 565,
     "irl_top8": 9,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 7,
@@ -130,6 +130,20 @@
       "type": "other"
     },
     {
+      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
+      "tournament": "Pauper RC Super Qualifier",
+      "date": "2026-06-27",
+      "player": "Uagli1",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "6-3",
+      "final_rank": 31,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
       "site_name": "pauper-league-2026-06-2710855",
       "tournament": "Pauper League",
       "date": "2026-06-27",
@@ -156,6 +170,62 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2812845668",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-27",
+      "player": "MatheusPonciano",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "6-3",
+      "final_rank": 2,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2812845668",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-27",
+      "player": "Niederschatten",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "6-2",
+      "final_rank": 3,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2812845668",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-27",
+      "player": "manjyui",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 16,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2812845668",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-27",
+      "player": "ninstitute",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 18,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2712845668",
@@ -297,77 +367,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2510855",
-      "tournament": "Pauper League",
-      "date": "2026-06-25",
-      "player": "Niederschatten",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2412845631",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "MisterTwin",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-3",
-      "final_rank": 4,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2412845625",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "Niederschatten",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "6-2",
-      "final_rank": 3,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2412845625",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "AvenRedeemer",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2310636",
-      "tournament": "Pauper League",
-      "date": "2026-06-23",
-      "player": "Seksed",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -377,7 +376,7 @@
     },
     {
       "player": "Brvnx",
-      "count": 22
+      "count": 23
     },
     {
       "player": "taravangian_",
@@ -396,12 +395,12 @@
       "count": 14
     },
     {
-      "player": "bombaj",
-      "count": 11
+      "player": "Niederschatten",
+      "count": 12
     },
     {
-      "player": "Niederschatten",
-      "count": 10
+      "player": "bombaj",
+      "count": 11
     },
     {
       "player": "andredoriaa",

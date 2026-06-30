@@ -3,7 +3,7 @@
   "display_name": "Triso",
   "irl_name": null,
   "stats": {
-    "total_entries": 29,
+    "total_entries": 30,
     "league_trophies": 18,
     "league_trophies_yearly": 8,
     "challenge_wins": 45,
@@ -12,7 +12,7 @@
     "challenge_win_pct": 68,
     "league_trophy_rank_yearly": 118,
     "league_trophy_rank_alltime": 111,
-    "league_trophy_players_yearly": 1210,
+    "league_trophy_players_yearly": 1211,
     "league_trophy_players_alltime": 1954
   },
   "favorite_decks": [
@@ -34,12 +34,30 @@
     },
     {
       "archetype": "Naya Gates",
-      "count": 1
+      "count": 2
     }
   ],
   "recent_entries": [
     {
       "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
+      "tournament": "Pauper RC Super Qualifier",
+      "date": "2026-06-27",
+      "player": "Triso",
+      "archetype": "Naya Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "7-2",
+      "final_rank": 16,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
       "tournament": "Pauper RC Super Qualifier",
       "date": "2026-06-27",
       "player": "Triso",
@@ -417,22 +435,6 @@
       "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-08-249535",
-      "tournament": "pauper-league-2025-08-249535",
-      "date": "2025-08-24",
-      "player": "Triso",
-      "archetype": "Dredge",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

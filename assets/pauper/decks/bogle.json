@@ -2,21 +2,37 @@
   "archetype": "Bogle",
   "slug": "bogle",
   "stats": {
-    "total_entries": 224,
-    "league_entries": 87,
-    "league_trophies": 87,
-    "league_trophies_yearly": 16,
-    "challenge_appearances": 131,
-    "challenge_wins": 525,
-    "challenge_losses": 339,
+    "total_entries": 226,
+    "league_entries": 88,
+    "league_trophies": 88,
+    "league_trophies_yearly": 17,
+    "challenge_appearances": 132,
+    "challenge_wins": 528,
+    "challenge_losses": 342,
     "irl_top8": 2,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 39,
+    "league_trophy_rank_yearly": 40,
     "league_trophy_rank_alltime": 32,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-3010855",
+      "tournament": "Pauper League",
+      "date": "2026-06-30",
+      "player": "JuaKi",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2810855",
       "tournament": "Pauper League",
@@ -99,6 +115,22 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "PedraStone",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 16,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845625",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "PedraStone",
@@ -387,44 +419,12 @@
       "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-03-2510405",
-      "tournament": "Pauper League",
-      "date": "2026-03-25",
-      "player": "cnoz",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-2112835994",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-21",
-      "player": "PedraStone",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "PedraStone",
-      "count": 29
+      "count": 30
     },
     {
       "player": "Ixidor29",
@@ -455,11 +455,11 @@
       "count": 6
     },
     {
-      "player": "NMT_Sco94",
-      "count": 5
+      "player": "JuaKi",
+      "count": 6
     },
     {
-      "player": "Wizard_2002",
+      "player": "NMT_Sco94",
       "count": 5
     }
   ]

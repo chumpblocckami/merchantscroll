@@ -2,16 +2,16 @@
   "archetype": "RG Ponza",
   "slug": "rg-ponza",
   "stats": {
-    "total_entries": 87,
+    "total_entries": 88,
     "league_entries": 41,
     "league_trophies": 41,
     "league_trophies_yearly": 16,
-    "challenge_appearances": 40,
-    "challenge_wins": 140,
-    "challenge_losses": 116,
+    "challenge_appearances": 41,
+    "challenge_wins": 144,
+    "challenge_losses": 118,
     "irl_top8": 5,
     "challenge_win_pct": 55,
-    "league_trophy_rank_yearly": 40,
+    "league_trophy_rank_yearly": 41,
     "league_trophy_rank_alltime": 42,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 72
@@ -114,6 +114,21 @@
       ],
       "record": "3-4",
       "final_rank": 31,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0712843798",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-06",
+      "player": "PNascimento",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -356,20 +371,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-02-2112833543",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-02-21",
-      "player": "Ixidor29",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 14,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -387,7 +388,7 @@
     },
     {
       "player": "PNascimento",
-      "count": 3
+      "count": 4
     },
     {
       "player": "majin_puar",

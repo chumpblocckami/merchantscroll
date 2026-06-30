@@ -2,16 +2,16 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 138,
-    "league_entries": 66,
-    "league_trophies": 66,
-    "league_trophies_yearly": 38,
-    "challenge_appearances": 65,
-    "challenge_wins": 209,
-    "challenge_losses": 164,
+    "total_entries": 144,
+    "league_entries": 68,
+    "league_trophies": 68,
+    "league_trophies_yearly": 40,
+    "challenge_appearances": 67,
+    "challenge_wins": 215,
+    "challenge_losses": 170,
     "irl_top8": 4,
     "challenge_win_pct": 56,
-    "league_trophy_rank_yearly": 30,
+    "league_trophy_rank_yearly": 29,
     "league_trophy_rank_alltime": 35,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 72
@@ -46,6 +46,68 @@
       "final_rank": 14,
       "source": "mtgo",
       "type": "other"
+    },
+    {
+      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
+      "tournament": "Pauper RC Super Qualifier",
+      "date": "2026-06-27",
+      "player": "Sodeq",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "7-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
+      "tournament": "Pauper RC Super Qualifier",
+      "date": "2026-06-27",
+      "player": "Venga",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "7-2",
+      "final_rank": 14,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2710855",
+      "tournament": "Pauper League",
+      "date": "2026-06-27",
+      "player": "mikamimtg",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2610855",
+      "tournament": "Pauper League",
+      "date": "2026-06-26",
+      "player": "MyDeckStats",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2512845643",
@@ -312,68 +374,16 @@
       "final_rank": 19,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0910636",
-      "tournament": "Pauper League",
-      "date": "2026-06-09",
-      "player": "Guizera",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1312843817",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-07",
-      "player": "Guizera",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-3",
-      "final_rank": 22,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0712843817",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-07",
-      "player": "Guizera",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-3",
-      "final_rank": 22,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0612843798",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-06",
-      "player": "Ixidor29",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "2-4",
-      "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "Ixidor29",
-      "count": 34
+      "count": 35
+    },
+    {
+      "player": "Guizera",
+      "count": 6
     },
     {
       "player": "Niederschatten",
@@ -382,10 +392,6 @@
     {
       "player": "_Luvi_",
       "count": 6
-    },
-    {
-      "player": "Guizera",
-      "count": 5
     },
     {
       "player": "sai199orz",

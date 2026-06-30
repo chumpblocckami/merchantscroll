@@ -2,13 +2,13 @@
   "archetype": "UG Fog",
   "slug": "ug-fog",
   "stats": {
-    "total_entries": 429,
+    "total_entries": 431,
     "league_entries": 212,
     "league_trophies": 212,
     "league_trophies_yearly": 14,
-    "challenge_appearances": 188,
-    "challenge_wins": 802,
-    "challenge_losses": 448,
+    "challenge_appearances": 190,
+    "challenge_wins": 809,
+    "challenge_losses": 454,
     "irl_top8": 10,
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 44,
@@ -51,6 +51,21 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845631",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "HoldTheElle",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "record": "2-4",
+      "final_rank": 20,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845631",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "HoldTheElle",
@@ -372,7 +387,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-0412843773",
+      "site_name": "pauper-challenge-32-2026-06-0612843773",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-04",
       "player": "Heisen01",
@@ -385,22 +400,6 @@
       "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0310636",
-      "tournament": "Pauper League",
-      "date": "2026-06-03",
-      "player": "Adrowo",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [

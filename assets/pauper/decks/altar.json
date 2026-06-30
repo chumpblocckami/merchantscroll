@@ -2,16 +2,16 @@
   "archetype": "Altar",
   "slug": "altar",
   "stats": {
-    "total_entries": 90,
+    "total_entries": 91,
     "league_entries": 59,
     "league_trophies": 59,
     "league_trophies_yearly": 19,
-    "challenge_appearances": 27,
-    "challenge_wins": 105,
-    "challenge_losses": 70,
+    "challenge_appearances": 28,
+    "challenge_wins": 109,
+    "challenge_losses": 72,
     "irl_top8": 2,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 37,
+    "league_trophy_rank_yearly": 38,
     "league_trophy_rank_alltime": 37,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 72
@@ -145,6 +145,23 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0612843773",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-04",
+      "player": "Entropy263",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 17,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-0412843773",
@@ -394,21 +411,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-2510196",
-      "tournament": "pauper-league-2026-02-2510196",
-      "date": "2026-02-25",
-      "player": "giuliodice",
-      "colors": [
-        "B",
-        "G",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -418,7 +420,7 @@
     },
     {
       "player": "Entropy263",
-      "count": 10
+      "count": 11
     },
     {
       "player": "saidin.raken",

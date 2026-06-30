@@ -2,13 +2,13 @@
   "archetype": "Familiars",
   "slug": "familiars",
   "stats": {
-    "total_entries": 269,
+    "total_entries": 273,
     "league_entries": 153,
     "league_trophies": 153,
     "league_trophies_yearly": 66,
-    "challenge_appearances": 92,
-    "challenge_wins": 377,
-    "challenge_losses": 230,
+    "challenge_appearances": 95,
+    "challenge_wins": 391,
+    "challenge_losses": 237,
     "irl_top8": 20,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 22,
@@ -30,6 +30,34 @@
       "final_rank": 22,
       "source": "mtgo",
       "type": "other"
+    },
+    {
+      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
+      "tournament": "Pauper RC Super Qualifier",
+      "date": "2026-06-27",
+      "player": "LydiaTheHuman",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "6-3",
+      "final_rank": 22,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2812845668",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-27",
+      "player": "ChaoticMTG",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "8-1",
+      "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2712845668",
@@ -89,6 +117,20 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "Vaan_3",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 20,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845625",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "Vaan_3",
@@ -287,6 +329,20 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-06-0612843773",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-04",
+      "player": "Lamela",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-06-0412843773",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-04",
@@ -313,63 +369,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-05-31-ferrara-trio",
-      "tournament": "Pauperiadi Trio — Ferrara",
-      "date": "2026-05-31",
-      "player": "Michele Baroni",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "",
-      "final_rank": 2,
-      "source": "pauperwave",
-      "type": "irl"
-    },
-    {
-      "site_name": "pauperwave-2026-05-24-pauper-focaccia-trio",
-      "tournament": "Pauper Focaccia Trio — Genova",
-      "date": "2026-05-24",
-      "player": "Tommaso Loss",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "",
-      "final_rank": 3,
-      "source": "pauperwave",
-      "type": "irl"
-    },
-    {
-      "site_name": "pauperwave-2026-05-23-pauper-cats",
-      "tournament": "Pauper Cats — Vicenza",
-      "date": "2026-05-23",
-      "player": "Damiano Lunardon",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "",
-      "final_rank": 5,
-      "source": "pauperwave",
-      "type": "irl"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2110636",
-      "tournament": "Pauper League",
-      "date": "2026-05-21",
-      "player": "Antillectual",
-      "colors": [
-        "B",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -378,12 +377,12 @@
       "count": 28
     },
     {
-      "player": "TSPJendrek",
+      "player": "ChaoticMTG",
       "count": 23
     },
     {
-      "player": "ChaoticMTG",
-      "count": 22
+      "player": "TSPJendrek",
+      "count": 23
     },
     {
       "player": "Mikibairon96",
@@ -395,7 +394,7 @@
     },
     {
       "player": "Vaan_3",
-      "count": 8
+      "count": 9
     },
     {
       "player": "Berga_",

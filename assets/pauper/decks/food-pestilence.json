@@ -2,7 +2,7 @@
   "archetype": "Food Pestilence",
   "slug": "food-pestilence",
   "stats": {
-    "total_entries": 236,
+    "total_entries": 237,
     "league_entries": 175,
     "league_trophies": 175,
     "league_trophies_yearly": 120,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
+      "tournament": "Pauper RC Super Qualifier",
+      "date": "2026-06-27",
+      "player": "True-Name-Nemesis",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "8-2",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "other"
+    },
     {
       "site_name": "pauper-league-2026-06-2610855",
       "tournament": "Pauper League",
@@ -351,26 +365,12 @@
       "final_rank": 20,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-05-1210636",
-      "tournament": "Pauper League",
-      "date": "2026-05-12",
-      "player": "Hottaro",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "True-Name-Nemesis",
-      "count": 57
+      "count": 58
     },
     {
       "player": "PR0boszcz",

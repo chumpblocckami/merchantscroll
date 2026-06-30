@@ -2,15 +2,15 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 20,
+    "total_entries": 22,
     "league_entries": 4,
     "league_trophies": 4,
     "league_trophies_yearly": 4,
-    "challenge_appearances": 14,
-    "challenge_wins": 66,
-    "challenge_losses": 36,
+    "challenge_appearances": 16,
+    "challenge_wins": 70,
+    "challenge_losses": 43,
     "irl_top8": 2,
-    "challenge_win_pct": 65,
+    "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 52,
     "league_trophy_rank_alltime": 60,
     "league_trophy_decks_yearly": 65,
@@ -34,6 +34,36 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "SorryImSoTilted",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "2-4",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "Valimoth",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 30,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845625",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "SorryImSoTilted",
@@ -324,19 +354,19 @@
   ],
   "top_pilots": [
     {
+      "player": "Valimoth",
+      "count": 4
+    },
+    {
       "player": "Echanez",
       "count": 3
     },
     {
-      "player": "Valimoth",
+      "player": "SorryImSoTilted",
       "count": 3
     },
     {
       "player": "karatedom",
-      "count": 2
-    },
-    {
-      "player": "SorryImSoTilted",
       "count": 2
     },
     {

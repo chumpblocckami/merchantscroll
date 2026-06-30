@@ -2,21 +2,66 @@
   "archetype": "BR Affinity",
   "slug": "br-affinity",
   "stats": {
-    "total_entries": 16,
+    "total_entries": 21,
     "league_entries": 3,
     "league_trophies": 3,
     "league_trophies_yearly": 3,
-    "challenge_appearances": 11,
-    "challenge_wins": 37,
-    "challenge_losses": 33,
+    "challenge_appearances": 15,
+    "challenge_wins": 47,
+    "challenge_losses": 45,
     "irl_top8": 2,
-    "challenge_win_pct": 53,
+    "challenge_win_pct": 51,
     "league_trophy_rank_yearly": 54,
     "league_trophy_rank_alltime": 64,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
+      "tournament": "Pauper RC Super Qualifier",
+      "date": "2026-06-27",
+      "player": "manohito",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "7-3",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2812845668",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-27",
+      "player": "Thn",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 19,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2812845668",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-27",
+      "player": "manohito",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "2-4",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2712845668",
       "tournament": "Pauper Challenge 32",
@@ -88,6 +133,35 @@
       ],
       "record": "3-3",
       "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "s8shock",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "Brasatore",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "2-2",
+      "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -259,10 +333,22 @@
     },
     {
       "player": "Brasatore",
-      "count": 2
+      "count": 3
     },
     {
       "player": "qbturtle15",
+      "count": 2
+    },
+    {
+      "player": "manohito",
+      "count": 2
+    },
+    {
+      "player": "s8shock",
+      "count": 2
+    },
+    {
+      "player": "Thn",
       "count": 2
     },
     {
@@ -279,18 +365,6 @@
     },
     {
       "player": "Francesco Zibella",
-      "count": 1
-    },
-    {
-      "player": "s8shock",
-      "count": 1
-    },
-    {
-      "player": "Squall93",
-      "count": 1
-    },
-    {
-      "player": "_blaze66",
       "count": 1
     }
   ]

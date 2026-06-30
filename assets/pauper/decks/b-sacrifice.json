@@ -2,7 +2,7 @@
   "archetype": "B Sacrifice",
   "slug": "b-sacrifice",
   "stats": {
-    "total_entries": 291,
+    "total_entries": 293,
     "league_entries": 199,
     "league_trophies": 199,
     "league_trophies_yearly": 79,
@@ -32,6 +32,33 @@
     },
     {
       "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
+      "tournament": "Pauper RC Super Qualifier",
+      "date": "2026-06-27",
+      "player": "EntroPete",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "7-2",
+      "final_rank": 17,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
+      "tournament": "Pauper RC Super Qualifier",
+      "date": "2026-06-27",
+      "player": "Cryomanc3r",
+      "colors": [
+        "B"
+      ],
+      "record": "8-3",
+      "final_rank": 4,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
       "tournament": "Pauper RC Super Qualifier",
       "date": "2026-06-27",
       "player": "EntroPete",
@@ -326,38 +353,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2210636",
-      "tournament": "Pauper League",
-      "date": "2026-05-22",
-      "player": "Cryomanc3r",
-      "colors": [
-        "B"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2110636",
-      "tournament": "Pauper League",
-      "date": "2026-05-21",
-      "player": "airplay",
-      "colors": [
-        "B"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "EntroPete",
-      "count": 46
+      "count": 47
     },
     {
       "player": "airplay",
@@ -365,7 +366,7 @@
     },
     {
       "player": "Cryomanc3r",
-      "count": 32
+      "count": 33
     },
     {
       "player": "MarshFlats",

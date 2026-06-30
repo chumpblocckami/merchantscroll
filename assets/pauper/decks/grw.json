@@ -2,15 +2,15 @@
   "archetype": "GRW",
   "slug": "grw",
   "stats": {
-    "total_entries": 25,
+    "total_entries": 26,
     "league_entries": 21,
     "league_trophies": 21,
     "league_trophies_yearly": 7,
-    "challenge_appearances": 4,
-    "challenge_wins": 14,
-    "challenge_losses": 11,
+    "challenge_appearances": 5,
+    "challenge_wins": 15,
+    "challenge_losses": 15,
     "irl_top8": 0,
-    "challenge_win_pct": 56,
+    "challenge_win_pct": 50,
     "league_trophy_rank_yearly": 48,
     "league_trophy_rank_alltime": 46,
     "league_trophy_decks_yearly": 65,
@@ -34,6 +34,21 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845631",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "Walker735",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "1-4",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845631",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "Walker735",
@@ -376,21 +391,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2024-08-129987",
-      "tournament": "pauper-league-2024-08-129987",
-      "date": "2024-08-12",
-      "player": "mtgbozo1",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -415,6 +415,10 @@
       "count": 2
     },
     {
+      "player": "Walker735",
+      "count": 2
+    },
+    {
       "player": "Nonoo",
       "count": 1
     },
@@ -428,10 +432,6 @@
     },
     {
       "player": "Gersaker11",
-      "count": 1
-    },
-    {
-      "player": "PinoIo_Cosmico",
       "count": 1
     }
   ]

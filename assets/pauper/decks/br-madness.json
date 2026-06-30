@@ -2,21 +2,36 @@
   "archetype": "BR Madness",
   "slug": "br-madness",
   "stats": {
-    "total_entries": 777,
-    "league_entries": 369,
-    "league_trophies": 369,
-    "league_trophies_yearly": 103,
-    "challenge_appearances": 380,
-    "challenge_wins": 1545,
-    "challenge_losses": 968,
+    "total_entries": 785,
+    "league_entries": 370,
+    "league_trophies": 370,
+    "league_trophies_yearly": 104,
+    "challenge_appearances": 386,
+    "challenge_wins": 1570,
+    "challenge_losses": 982,
     "irl_top8": 9,
-    "challenge_win_pct": 61,
+    "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 14,
     "league_trophy_rank_alltime": 7,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-3010855",
+      "tournament": "Pauper League",
+      "date": "2026-06-30",
+      "player": "EricIronheart",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
       "tournament": "Pauper RC Super Qualifier",
@@ -30,6 +45,35 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "other"
+    },
+    {
+      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
+      "tournament": "Pauper RC Super Qualifier",
+      "date": "2026-06-27",
+      "player": "romerito1",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "record": "6-3",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2812845668",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-27",
+      "player": "DarioSmp",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2712845668",
@@ -93,6 +137,21 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "mehanske",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 21,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845625",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "mehanske",
@@ -332,66 +391,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1212844338",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-14",
-      "player": "Armacinsky",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 26,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2012844338",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-14",
-      "player": "Armacinsky",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 26,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1412844338",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-14",
-      "player": "Armacinsky",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 26,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1310636",
-      "tournament": "Pauper League",
-      "date": "2026-06-13",
-      "player": "Drugo",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -405,11 +404,11 @@
     },
     {
       "player": "Captain_Tsubasa",
-      "count": 22
+      "count": 23
     },
     {
       "player": "grajtow",
-      "count": 22
+      "count": 23
     },
     {
       "player": "MisterTwin",
@@ -417,7 +416,7 @@
     },
     {
       "player": "mehanske",
-      "count": 17
+      "count": 18
     },
     {
       "player": "HermonHero",
