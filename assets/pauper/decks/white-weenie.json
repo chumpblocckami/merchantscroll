@@ -2,21 +2,37 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 577,
-    "league_entries": 337,
-    "league_trophies": 337,
-    "league_trophies_yearly": 147,
+    "total_entries": 578,
+    "league_entries": 338,
+    "league_trophies": 338,
+    "league_trophies_yearly": 148,
     "challenge_appearances": 214,
     "challenge_wins": 837,
     "challenge_losses": 534,
     "irl_top8": 15,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 10,
+    "league_trophy_rank_yearly": 9,
     "league_trophy_rank_alltime": 10,
-    "league_trophy_decks_yearly": 64,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-3010855",
+      "tournament": "Pauper League",
+      "date": "2026-06-30",
+      "player": "Guidonick",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2512845643",
       "tournament": "Pauper Challenge 32",
@@ -349,19 +365,6 @@
       "final_rank": 7,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauperwave-2026-06-13-lp-brescia-summer",
-      "tournament": "LP Brescia Summer 2026 — Brescia",
-      "date": "2026-06-13",
-      "player": "Michele Scalvini",
-      "colors": [
-        "W"
-      ],
-      "record": "",
-      "final_rank": 3,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [

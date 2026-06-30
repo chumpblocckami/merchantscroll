@@ -2,10 +2,10 @@
   "archetype": "Flicker Tron",
   "slug": "flicker-tron",
   "stats": {
-    "total_entries": 232,
-    "league_entries": 130,
-    "league_trophies": 130,
-    "league_trophies_yearly": 54,
+    "total_entries": 233,
+    "league_entries": 131,
+    "league_trophies": 131,
+    "league_trophies_yearly": 55,
     "challenge_appearances": 89,
     "challenge_wins": 364,
     "challenge_losses": 229,
@@ -13,10 +13,27 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 26,
     "league_trophy_rank_alltime": 23,
-    "league_trophy_decks_yearly": 64,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-3010855",
+      "tournament": "Pauper League",
+      "date": "2026-06-30",
+      "player": "qwertyelmer",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2810855",
       "tournament": "Pauper League",
@@ -421,23 +438,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-3110636",
-      "tournament": "Pauper League",
-      "date": "2026-05-31",
-      "player": "SpikeYou",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -466,16 +466,16 @@
       "count": 9
     },
     {
+      "player": "qwertyelmer",
+      "count": 6
+    },
+    {
       "player": "EhDM",
       "count": 6
     },
     {
       "player": "Kampo",
       "count": 6
-    },
-    {
-      "player": "qwertyelmer",
-      "count": 5
     },
     {
       "player": "Antillectual",
