@@ -2,10 +2,10 @@
   "archetype": "R Madness",
   "slug": "r-madness",
   "stats": {
-    "total_entries": 1828,
-    "league_entries": 1073,
-    "league_trophies": 1073,
-    "league_trophies_yearly": 501,
+    "total_entries": 1829,
+    "league_entries": 1074,
+    "league_trophies": 1074,
+    "league_trophies_yearly": 502,
     "challenge_appearances": 653,
     "challenge_wins": 2552,
     "challenge_losses": 1668,
@@ -14,7 +14,7 @@
     "league_trophy_rank_yearly": 1,
     "league_trophy_rank_alltime": 1,
     "league_trophy_decks_yearly": 64,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -22,6 +22,21 @@
       "tournament": "Pauper League",
       "date": "2026-06-29",
       "player": "1feri2feri3feri",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2910855",
+      "tournament": "Pauper League",
+      "date": "2026-06-29",
+      "player": "maribves",
       "colors": [
         "B",
         "R",
@@ -376,21 +391,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2612845653",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-26",
-      "player": "wabodabo",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "6-2",
-      "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
