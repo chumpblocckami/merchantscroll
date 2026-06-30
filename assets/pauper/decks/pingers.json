@@ -2,25 +2,51 @@
   "archetype": "Pingers",
   "slug": "pingers",
   "stats": {
-    "total_entries": 309,
-    "league_entries": 187,
-    "league_trophies": 187,
-    "league_trophies_yearly": 19,
+    "total_entries": 305,
+    "league_entries": 183,
+    "league_trophies": 183,
+    "league_trophies_yearly": 15,
     "challenge_appearances": 105,
     "challenge_wins": 428,
     "challenge_losses": 283,
     "irl_top8": 7,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 38,
+    "league_trophy_rank_yearly": 42,
     "league_trophy_rank_alltime": 19,
-    "league_trophy_decks_yearly": 63,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
       "site_name": "pauper-league-2026-06-3010855",
       "tournament": "Pauper League",
       "date": "2026-06-30",
+      "player": "GilbertoAntunes",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-3010855",
+      "tournament": "Pauper League",
+      "date": "2026-06-30",
+      "player": "Maxipk",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2810855",
+      "tournament": "Pauper League",
+      "date": "2026-06-28",
       "player": "GilbertoAntunes",
       "colors": [
         "R"
@@ -57,33 +83,6 @@
       "final_rank": 25,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2710855",
-      "tournament": "Pauper League",
-      "date": "2026-06-27",
-      "player": "Albreto",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2710855",
-      "tournament": "Pauper League",
-      "date": "2026-06-27",
-      "player": "SaculSueahtam",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2812845668",
@@ -128,33 +127,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-06-2610855",
-      "tournament": "Pauper League",
-      "date": "2026-06-26",
-      "player": "mindoku",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2610855",
-      "tournament": "Pauper League",
-      "date": "2026-06-26",
-      "player": "eli2107",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-06-2512845625",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
@@ -194,32 +166,6 @@
       "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2410855",
-      "tournament": "Pauper League",
-      "date": "2026-06-24",
-      "player": "SaculSueahtam",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2410855",
-      "tournament": "Pauper League",
-      "date": "2026-06-24",
-      "player": "SaculSueahtam",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-2210636",
@@ -350,6 +296,58 @@
       "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0712843798",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-06",
+      "player": "SaculSueahtam",
+      "colors": [
+        "R"
+      ],
+      "record": "5-3",
+      "final_rank": 4,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0612843773",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-04",
+      "player": "SaculSueahtam",
+      "colors": [
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 22,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauperwave-2026-05-31-roma-summer-2026",
+      "tournament": "LP Roma Summer 2026 — Roma",
+      "date": "2026-05-31",
+      "player": "Riccardo Conti",
+      "colors": [
+        "R"
+      ],
+      "record": "",
+      "final_rank": 3,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-05-2912843392",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-05-29",
+      "player": "seasonofmists",
+      "colors": [
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -382,16 +380,16 @@
       "count": 7
     },
     {
-      "player": "SaculSueahtam",
-      "count": 7
-    },
-    {
       "player": "IvernOP",
       "count": 7
     },
     {
       "player": "Niederschatten",
       "count": 7
+    },
+    {
+      "player": "GilbertoAntunes",
+      "count": 6
     }
   ]
 }

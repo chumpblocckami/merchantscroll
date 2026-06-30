@@ -2,10 +2,10 @@
   "archetype": "Flicker Tron",
   "slug": "flicker-tron",
   "stats": {
-    "total_entries": 235,
-    "league_entries": 130,
-    "league_trophies": 130,
-    "league_trophies_yearly": 54,
+    "total_entries": 236,
+    "league_entries": 131,
+    "league_trophies": 131,
+    "league_trophies_yearly": 55,
     "challenge_appearances": 92,
     "challenge_wins": 379,
     "challenge_losses": 235,
@@ -13,14 +13,31 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 26,
     "league_trophy_rank_alltime": 23,
-    "league_trophy_decks_yearly": 63,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
       "site_name": "pauper-league-2026-06-3010855",
       "tournament": "Pauper League",
       "date": "2026-06-30",
+      "player": "qwertyelmer",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2810855",
+      "tournament": "Pauper League",
+      "date": "2026-06-28",
       "player": "qwertyelmer",
       "colors": [
         "B",
@@ -420,23 +437,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0410636",
-      "tournament": "Pauper League",
-      "date": "2026-06-04",
-      "player": "fj_rodman",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -469,15 +469,15 @@
       "count": 7
     },
     {
+      "player": "qwertyelmer",
+      "count": 6
+    },
+    {
       "player": "EhDM",
       "count": 6
     },
     {
       "player": "Antillectual",
-      "count": 5
-    },
-    {
-      "player": "A_AdeptoTerra",
       "count": 5
     }
   ]

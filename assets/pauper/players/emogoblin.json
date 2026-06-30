@@ -3,17 +3,17 @@
   "display_name": "Emogoblin",
   "irl_name": null,
   "stats": {
-    "total_entries": 37,
-    "league_trophies": 12,
-    "league_trophies_yearly": 10,
+    "total_entries": 38,
+    "league_trophies": 13,
+    "league_trophies_yearly": 11,
     "challenge_wins": 101,
     "challenge_losses": 57,
     "irl_top8": 0,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 84,
-    "league_trophy_rank_alltime": 167,
-    "league_trophy_players_yearly": 1199,
-    "league_trophy_players_alltime": 1946
+    "league_trophy_rank_yearly": 76,
+    "league_trophy_rank_alltime": 155,
+    "league_trophy_players_yearly": 1213,
+    "league_trophy_players_alltime": 1955
   },
   "favorite_decks": [
     {
@@ -37,11 +37,11 @@
       "count": 3
     },
     {
-      "archetype": "Elves",
-      "count": 1
+      "archetype": "White Weenie",
+      "count": 2
     },
     {
-      "archetype": "White Weenie",
+      "archetype": "Elves",
       "count": 1
     },
     {
@@ -50,6 +50,20 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-3010855",
+      "tournament": "Pauper League",
+      "date": "2026-06-30",
+      "player": "Emogoblin",
+      "archetype": "White Weenie",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
       "tournament": "Pauper RC Super Qualifier",
@@ -450,23 +464,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-3012841331",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-30",
-      "player": "Emogoblin",
-      "archetype": "Boros Tribe",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "8-1",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }
