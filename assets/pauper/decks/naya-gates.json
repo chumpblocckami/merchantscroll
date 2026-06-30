@@ -2,10 +2,10 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 146,
-    "league_entries": 67,
-    "league_trophies": 67,
-    "league_trophies_yearly": 60,
+    "total_entries": 147,
+    "league_entries": 68,
+    "league_trophies": 68,
+    "league_trophies_yearly": 61,
     "challenge_appearances": 62,
     "challenge_wins": 243,
     "challenge_losses": 147,
@@ -39,6 +39,23 @@
       "tournament": "Pauper League",
       "date": "2026-06-29",
       "player": "hasetaku0709",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2910855",
+      "tournament": "Pauper League",
+      "date": "2026-06-29",
+      "player": "newbarola",
       "colors": [
         "B",
         "G",
@@ -424,23 +441,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2610855",
-      "tournament": "Pauper League",
-      "date": "2026-06-26",
-      "player": "celobee",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -451,6 +451,10 @@
     {
       "player": "LabroNico",
       "count": 5
+    },
+    {
+      "player": "newbarola",
+      "count": 4
     },
     {
       "player": "seasonofmists",
@@ -466,10 +470,6 @@
     },
     {
       "player": "celobee",
-      "count": 3
-    },
-    {
-      "player": "newbarola",
       "count": 3
     },
     {

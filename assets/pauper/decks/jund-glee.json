@@ -2,17 +2,17 @@
   "archetype": "Jund Glee",
   "slug": "jund-glee",
   "stats": {
-    "total_entries": 13,
-    "league_entries": 8,
-    "league_trophies": 8,
-    "league_trophies_yearly": 7,
+    "total_entries": 15,
+    "league_entries": 10,
+    "league_trophies": 10,
+    "league_trophies_yearly": 9,
     "challenge_appearances": 2,
     "challenge_wins": 6,
     "challenge_losses": 6,
     "irl_top8": 3,
     "challenge_win_pct": 50,
-    "league_trophy_rank_yearly": 49,
-    "league_trophy_rank_alltime": 53,
+    "league_trophy_rank_yearly": 47,
+    "league_trophy_rank_alltime": 51,
     "league_trophy_decks_yearly": 64,
     "league_trophy_decks_alltime": 72
   },
@@ -50,10 +50,42 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-06-2610855",
+      "tournament": "Pauper League",
+      "date": "2026-06-26",
+      "player": "yuxiaoyu",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2026-06-2510855",
       "tournament": "Pauper League",
       "date": "2026-06-25",
       "player": "Berga_",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2510855",
+      "tournament": "Pauper League",
+      "date": "2026-06-25",
+      "player": "qbturtle15",
       "colors": [
         "B",
         "G",
@@ -211,6 +243,10 @@
   ],
   "top_pilots": [
     {
+      "player": "yuxiaoyu",
+      "count": 2
+    },
+    {
       "player": "billsive",
       "count": 1
     },
@@ -224,10 +260,6 @@
     },
     {
       "player": "CloudRunner172",
-      "count": 1
-    },
-    {
-      "player": "yuxiaoyu",
       "count": 1
     },
     {
@@ -247,7 +279,7 @@
       "count": 1
     },
     {
-      "player": "itsamebogy",
+      "player": "qbturtle15",
       "count": 1
     }
   ]

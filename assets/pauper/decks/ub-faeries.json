@@ -2,10 +2,10 @@
   "archetype": "UB Faeries",
   "slug": "ub-faeries",
   "stats": {
-    "total_entries": 538,
-    "league_entries": 296,
-    "league_trophies": 296,
-    "league_trophies_yearly": 168,
+    "total_entries": 540,
+    "league_entries": 298,
+    "league_trophies": 298,
+    "league_trophies_yearly": 170,
     "challenge_appearances": 216,
     "challenge_wins": 899,
     "challenge_losses": 541,
@@ -22,6 +22,34 @@
       "tournament": "Pauper League",
       "date": "2026-06-29",
       "player": "Purgatory_01",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2910855",
+      "tournament": "Pauper League",
+      "date": "2026-06-29",
+      "player": "taravangian_",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2910855",
+      "tournament": "Pauper League",
+      "date": "2026-06-29",
+      "player": "sNouX",
       "colors": [
         "B",
         "U"
@@ -340,35 +368,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2210636",
-      "tournament": "Pauper League",
-      "date": "2026-06-22",
-      "player": "dannyground",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2112844875",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-21",
-      "player": "Brvnx",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-3",
-      "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -382,7 +381,7 @@
     },
     {
       "player": "taravangian_",
-      "count": 19
+      "count": 20
     },
     {
       "player": "Beicodegeia",
