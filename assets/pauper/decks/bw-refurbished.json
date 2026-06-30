@@ -2,10 +2,10 @@
   "archetype": "BW Refurbished",
   "slug": "bw-refurbished",
   "stats": {
-    "total_entries": 343,
-    "league_entries": 194,
-    "league_trophies": 194,
-    "league_trophies_yearly": 81,
+    "total_entries": 344,
+    "league_entries": 195,
+    "league_trophies": 195,
+    "league_trophies_yearly": 82,
     "challenge_appearances": 143,
     "challenge_wins": 549,
     "challenge_losses": 367,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-06-3010855",
+      "tournament": "Pauper League",
+      "date": "2026-06-30",
+      "player": "ThiagoGuerra",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-3010855",
       "tournament": "Pauper League",
@@ -355,20 +369,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0910636",
-      "tournament": "Pauper League",
-      "date": "2026-06-09",
-      "player": "Seitan666",
-      "colors": [
-        "B",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -405,12 +405,12 @@
       "count": 8
     },
     {
-      "player": "gasimpar",
+      "player": "ThiagoGuerra",
       "count": 8
     },
     {
-      "player": "ThiagoGuerra",
-      "count": 7
+      "player": "gasimpar",
+      "count": 8
     }
   ]
 }

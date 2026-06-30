@@ -2,10 +2,10 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1165,
-    "league_entries": 607,
-    "league_trophies": 607,
-    "league_trophies_yearly": 225,
+    "total_entries": 1164,
+    "league_entries": 606,
+    "league_trophies": 606,
+    "league_trophies_yearly": 224,
     "challenge_appearances": 499,
     "challenge_wins": 2003,
     "challenge_losses": 1247,
@@ -17,20 +17,6 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-06-2910855",
-      "tournament": "Pauper League",
-      "date": "2026-06-29",
-      "player": "Kelekkis",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-league-2026-06-2810855",
       "tournament": "Pauper League",
@@ -364,6 +350,20 @@
       ],
       "record": "5-2",
       "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1012844841",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-19",
+      "player": "CarrodaPolicia",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "4-3",
+      "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
     }

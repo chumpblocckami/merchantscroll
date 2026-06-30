@@ -2,10 +2,10 @@
   "archetype": "Boros Tribe",
   "slug": "boros-tribe",
   "stats": {
-    "total_entries": 87,
-    "league_entries": 49,
-    "league_trophies": 49,
-    "league_trophies_yearly": 49,
+    "total_entries": 86,
+    "league_entries": 48,
+    "league_trophies": 48,
+    "league_trophies_yearly": 48,
     "challenge_appearances": 35,
     "challenge_wins": 139,
     "challenge_losses": 89,
@@ -22,22 +22,6 @@
       "tournament": "Pauper League",
       "date": "2026-06-30",
       "player": "FLAT_",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2910855",
-      "tournament": "Pauper League",
-      "date": "2026-06-29",
-      "player": "lostonkato",
       "colors": [
         "B",
         "R",
@@ -418,6 +402,22 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-05-3012843407",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-05-30",
+      "player": "Oceansoul92",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "2-4",
+      "final_rank": 31,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -431,7 +431,7 @@
     },
     {
       "player": "lostonkato",
-      "count": 7
+      "count": 6
     },
     {
       "player": "MisterAsiago",
