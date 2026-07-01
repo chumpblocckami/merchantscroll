@@ -3,17 +3,17 @@
   "display_name": "sai199orz",
   "irl_name": null,
   "stats": {
-    "total_entries": 42,
+    "total_entries": 43,
     "league_trophies": 21,
     "league_trophies_yearly": 8,
-    "challenge_wins": 92,
-    "challenge_losses": 53,
+    "challenge_wins": 95,
+    "challenge_losses": 56,
     "irl_top8": 0,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 113,
     "league_trophy_rank_alltime": 85,
-    "league_trophy_players_yearly": 1218,
-    "league_trophy_players_alltime": 1959
+    "league_trophy_players_yearly": 1219,
+    "league_trophy_players_alltime": 1960
   },
   "favorite_decks": [
     {
@@ -51,9 +51,29 @@
     {
       "archetype": "BW Refurbished",
       "count": 1
+    },
+    {
+      "archetype": "BRW",
+      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0112845719",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-01",
+      "player": "sai199orz",
+      "archetype": "",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 18,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-2910855",
       "tournament": "Pauper League",
@@ -441,24 +461,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-08-0912807474",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-08-09",
-      "player": "sai199orz",
-      "archetype": "Elves",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "6-2",
-      "final_rank": 3,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

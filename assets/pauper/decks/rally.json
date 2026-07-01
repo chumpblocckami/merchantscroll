@@ -2,21 +2,63 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 1022,
-    "league_entries": 579,
-    "league_trophies": 579,
-    "league_trophies_yearly": 239,
-    "challenge_appearances": 406,
-    "challenge_wins": 1563,
-    "challenge_losses": 1043,
+    "total_entries": 1026,
+    "league_entries": 580,
+    "league_trophies": 580,
+    "league_trophies_yearly": 240,
+    "challenge_appearances": 409,
+    "challenge_wins": 1579,
+    "challenge_losses": 1049,
     "irl_top8": 21,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 3,
     "league_trophy_rank_alltime": 4,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0112845719",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-01",
+      "player": "vini_torres",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "8-1",
+      "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0112845719",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-01",
+      "player": "PedraStone",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-2",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0112845719",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-01",
+      "player": "boom_bust",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-0110855",
       "tournament": "Pauper League",
@@ -49,6 +91,20 @@
       "tournament": "Pauper League",
       "date": "2026-07-01",
       "player": "Legocop80",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-01",
+      "player": "outZEROo",
       "colors": [
         "G",
         "R"
@@ -306,60 +362,6 @@
       "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2610855",
-      "tournament": "Pauper League",
-      "date": "2026-06-26",
-      "player": "mindoku",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2610855",
-      "tournament": "Pauper League",
-      "date": "2026-06-26",
-      "player": "eli2107",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2512845643",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-25",
-      "player": "vini_torres",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "7-2",
-      "final_rank": 2,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2512845643",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-25",
-      "player": "Syns",
-      "colors": [
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -369,11 +371,11 @@
     },
     {
       "player": "vini_torres",
-      "count": 76
+      "count": 77
     },
     {
       "player": "boom_bust",
-      "count": 53
+      "count": 54
     },
     {
       "player": "GilbertoAntunes",

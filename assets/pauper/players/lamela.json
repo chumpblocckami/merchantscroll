@@ -3,17 +3,17 @@
   "display_name": "Lamela",
   "irl_name": null,
   "stats": {
-    "total_entries": 46,
+    "total_entries": 47,
     "league_trophies": 16,
     "league_trophies_yearly": 13,
-    "challenge_wins": 109,
-    "challenge_losses": 74,
+    "challenge_wins": 111,
+    "challenge_losses": 78,
     "irl_top8": 0,
-    "challenge_win_pct": 60,
+    "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 58,
     "league_trophy_rank_alltime": 125,
-    "league_trophy_players_yearly": 1218,
-    "league_trophy_players_alltime": 1959
+    "league_trophy_players_yearly": 1219,
+    "league_trophy_players_alltime": 1960
   },
   "favorite_decks": [
     {
@@ -29,6 +29,10 @@
       "count": 4
     },
     {
+      "archetype": "RG Storm",
+      "count": 4
+    },
+    {
       "archetype": "Pingers",
       "count": 3
     },
@@ -38,10 +42,6 @@
     },
     {
       "archetype": "UG Fog",
-      "count": 3
-    },
-    {
-      "archetype": "RG Storm",
       "count": 3
     },
     {
@@ -58,6 +58,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0112845719",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-01",
+      "player": "Lamela",
+      "archetype": "RG Storm",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "2-4",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-0110855",
       "tournament": "Pauper League",
@@ -432,22 +448,6 @@
       "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-02-0910196",
-      "tournament": "pauper-league-2026-02-0910196",
-      "date": "2026-02-09",
-      "player": "Lamela",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-02-0910196",

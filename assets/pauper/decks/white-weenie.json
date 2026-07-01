@@ -2,27 +2,68 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 583,
-    "league_entries": 340,
-    "league_trophies": 340,
-    "league_trophies_yearly": 150,
-    "challenge_appearances": 217,
-    "challenge_wins": 851,
-    "challenge_losses": 540,
+    "total_entries": 586,
+    "league_entries": 341,
+    "league_trophies": 341,
+    "league_trophies_yearly": 151,
+    "challenge_appearances": 219,
+    "challenge_wins": 858,
+    "challenge_losses": 545,
     "irl_top8": 15,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 9,
     "league_trophy_rank_alltime": 10,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0112845719",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-01",
+      "player": "dragtar",
+      "colors": [
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0112845719",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-01",
+      "player": "Niederschatten",
+      "colors": [
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 19,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-0110855",
       "tournament": "Pauper League",
       "date": "2026-07-01",
       "player": "Niederschatten",
       "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-01",
+      "player": "Huskyman20035",
+      "colors": [
+        "B",
+        "R",
         "W"
       ],
       "record": "5-0",
@@ -324,50 +365,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1610636",
-      "tournament": "Pauper League",
-      "date": "2026-06-16",
-      "player": "Guidonick",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-showcase-challenge-2026-06-1412844285",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2026-06-14",
-      "player": "cabrabr12",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "7-2",
-      "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1410636",
-      "tournament": "Pauper League",
-      "date": "2026-06-14",
-      "player": "MohoJojo",
-      "colors": [
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -380,11 +377,11 @@
       "count": 34
     },
     {
-      "player": "Deodato",
-      "count": 21
+      "player": "Niederschatten",
+      "count": 22
     },
     {
-      "player": "Niederschatten",
+      "player": "Deodato",
       "count": 21
     },
     {
@@ -405,11 +402,11 @@
     },
     {
       "player": "Huskyman20035",
-      "count": 11
+      "count": 12
     },
     {
       "player": "dragtar",
-      "count": 10
+      "count": 11
     }
   ]
 }

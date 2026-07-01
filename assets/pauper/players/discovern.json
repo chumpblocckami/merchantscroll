@@ -3,22 +3,22 @@
   "display_name": "discoverN",
   "irl_name": null,
   "stats": {
-    "total_entries": 98,
+    "total_entries": 99,
     "league_trophies": 4,
     "league_trophies_yearly": 0,
-    "challenge_wins": 441,
-    "challenge_losses": 188,
+    "challenge_wins": 446,
+    "challenge_losses": 190,
     "irl_top8": 0,
     "challenge_win_pct": 70,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": 556,
-    "league_trophy_players_yearly": 1218,
-    "league_trophy_players_alltime": 1959
+    "league_trophy_players_yearly": 1219,
+    "league_trophy_players_alltime": 1960
   },
   "favorite_decks": [
     {
       "archetype": "U Terror",
-      "count": 91
+      "count": 92
     },
     {
       "archetype": "UB Terror",
@@ -26,6 +26,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0112845719",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-01",
+      "player": "discoverN",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2812845668",
       "tournament": "Pauper Challenge 32",
@@ -385,21 +400,6 @@
       "final_rank": 28,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-02-0812832545",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-02-08",
-      "player": "discoverN",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "9-0",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

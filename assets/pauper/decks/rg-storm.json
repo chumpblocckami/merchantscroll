@@ -2,21 +2,52 @@
   "archetype": "RG Storm",
   "slug": "rg-storm",
   "stats": {
-    "total_entries": 145,
+    "total_entries": 147,
     "league_entries": 109,
     "league_trophies": 109,
     "league_trophies_yearly": 96,
-    "challenge_appearances": 27,
-    "challenge_wins": 100,
-    "challenge_losses": 66,
+    "challenge_appearances": 29,
+    "challenge_wins": 106,
+    "challenge_losses": 72,
     "irl_top8": 9,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 15,
     "league_trophy_rank_alltime": 25,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0112845719",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-01",
+      "player": "AlessandroPiraccini",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 17,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0112845719",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-01",
+      "player": "Lamela",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "2-4",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-0110855",
       "tournament": "Pauper League",
@@ -361,36 +392,6 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0410636",
-      "tournament": "Pauper League",
-      "date": "2026-06-04",
-      "player": "txouzo",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0410636",
-      "tournament": "Pauper League",
-      "date": "2026-06-04",
-      "player": "saidin.raken",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
