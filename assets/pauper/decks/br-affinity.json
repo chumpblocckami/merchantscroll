@@ -2,21 +2,36 @@
   "archetype": "BR Affinity",
   "slug": "br-affinity",
   "stats": {
-    "total_entries": 22,
+    "total_entries": 23,
     "league_entries": 4,
     "league_trophies": 4,
     "league_trophies_yearly": 4,
-    "challenge_appearances": 15,
-    "challenge_wins": 47,
-    "challenge_losses": 45,
+    "challenge_appearances": 16,
+    "challenge_wins": 53,
+    "challenge_losses": 48,
     "irl_top8": 2,
-    "challenge_win_pct": 51,
+    "challenge_win_pct": 52,
     "league_trophy_rank_yearly": 53,
     "league_trophy_rank_alltime": 61,
     "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0112845719",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-01",
+      "player": "_blaze66",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "6-3",
+      "final_rank": 2,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-0110855",
       "tournament": "Pauper League",
@@ -355,6 +370,10 @@
       "count": 2
     },
     {
+      "player": "_blaze66",
+      "count": 2
+    },
+    {
       "player": "manohito",
       "count": 2
     },
@@ -376,10 +395,6 @@
     },
     {
       "player": "Gregorio Vietina",
-      "count": 1
-    },
-    {
-      "player": "Francesco Zibella",
       "count": 1
     }
   ]
