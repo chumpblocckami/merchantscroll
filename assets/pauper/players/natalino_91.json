@@ -3,22 +3,22 @@
   "display_name": "Natalino_91",
   "irl_name": null,
   "stats": {
-    "total_entries": 34,
-    "league_trophies": 11,
-    "league_trophies_yearly": 6,
+    "total_entries": 35,
+    "league_trophies": 12,
+    "league_trophies_yearly": 7,
     "challenge_wins": 78,
     "challenge_losses": 63,
     "irl_top8": 0,
     "challenge_win_pct": 55,
-    "league_trophy_rank_yearly": 163,
-    "league_trophy_rank_alltime": 198,
-    "league_trophy_players_yearly": 1215,
-    "league_trophy_players_alltime": 1956
+    "league_trophy_rank_yearly": 137,
+    "league_trophy_rank_alltime": 177,
+    "league_trophy_players_yearly": 1217,
+    "league_trophy_players_alltime": 1958
   },
   "favorite_decks": [
     {
       "archetype": "Dredge",
-      "count": 16
+      "count": 15
     },
     {
       "archetype": "Elves",
@@ -26,6 +26,10 @@
     },
     {
       "archetype": "B Sacrifice",
+      "count": 3
+    },
+    {
+      "archetype": "BR Madness",
       "count": 3
     },
     {
@@ -37,16 +41,16 @@
       "count": 2
     },
     {
-      "archetype": "BR Madness",
-      "count": 2
-    },
-    {
       "archetype": "White Weenie",
       "count": 2
     },
     {
       "archetype": "Food Pestilence",
       "count": 2
+    },
+    {
+      "archetype": "Rally",
+      "count": 1
     }
   ],
   "recent_entries": [
@@ -55,12 +59,26 @@
       "tournament": "Pauper League",
       "date": "2026-07-01",
       "player": "Natalino_91",
-      "archetype": "Dredge",
+      "archetype": "BR Madness",
       "colors": [
         "B",
         "G",
         "R",
         "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-01",
+      "player": "Natalino_91",
+      "archetype": "Rally",
+      "colors": [
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -434,20 +452,6 @@
       ],
       "record": "3-3",
       "final_rank": 26,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-11-0812823572",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-11-08",
-      "player": "Natalino_91",
-      "archetype": "B Sacrifice",
-      "colors": [
-        "B"
-      ],
-      "record": "3-3",
-      "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
     }

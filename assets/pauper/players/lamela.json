@@ -3,17 +3,17 @@
   "display_name": "Lamela",
   "irl_name": null,
   "stats": {
-    "total_entries": 45,
-    "league_trophies": 15,
-    "league_trophies_yearly": 12,
+    "total_entries": 46,
+    "league_trophies": 16,
+    "league_trophies_yearly": 13,
     "challenge_wins": 109,
     "challenge_losses": 74,
     "irl_top8": 0,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 67,
-    "league_trophy_rank_alltime": 133,
-    "league_trophy_players_yearly": 1215,
-    "league_trophy_players_alltime": 1956
+    "league_trophy_rank_yearly": 58,
+    "league_trophy_rank_alltime": 125,
+    "league_trophy_players_yearly": 1217,
+    "league_trophy_players_alltime": 1958
   },
   "favorite_decks": [
     {
@@ -41,6 +41,10 @@
       "count": 3
     },
     {
+      "archetype": "RG Storm",
+      "count": 3
+    },
+    {
       "archetype": "Gardens",
       "count": 3
     },
@@ -51,13 +55,25 @@
     {
       "archetype": "Rally",
       "count": 2
-    },
-    {
-      "archetype": "RG Storm",
-      "count": 2
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-01",
+      "player": "Lamela",
+      "archetype": "RG Storm",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2612845653",
       "tournament": "Pauper Challenge 32",
@@ -448,21 +464,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-01-1112829384",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-11",
-      "player": "Lamela",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-2",
-      "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

@@ -3,17 +3,17 @@
   "display_name": "Niederschatten",
   "irl_name": null,
   "stats": {
-    "total_entries": 97,
-    "league_trophies": 47,
-    "league_trophies_yearly": 24,
+    "total_entries": 98,
+    "league_trophies": 48,
+    "league_trophies_yearly": 25,
     "challenge_wins": 218,
     "challenge_losses": 111,
     "irl_top8": 0,
     "challenge_win_pct": 66,
-    "league_trophy_rank_yearly": 19,
-    "league_trophy_rank_alltime": 21,
-    "league_trophy_players_yearly": 1215,
-    "league_trophy_players_alltime": 1956
+    "league_trophy_rank_yearly": 16,
+    "league_trophy_rank_alltime": 20,
+    "league_trophy_players_yearly": 1217,
+    "league_trophy_players_alltime": 1958
   },
   "favorite_decks": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "archetype": "White Weenie",
-      "count": 20
+      "count": 21
     },
     {
       "archetype": "BR Madness",
@@ -58,6 +58,20 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-01",
+      "player": "Niederschatten",
+      "archetype": "White Weenie",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2812845668",
       "tournament": "Pauper Challenge 32",
@@ -415,21 +429,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-2612840571",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-26",
-      "player": "Niederschatten",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }
