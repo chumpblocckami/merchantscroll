@@ -2,36 +2,21 @@
   "archetype": "BRW",
   "slug": "brw",
   "stats": {
-    "total_entries": 2,
+    "total_entries": 1,
     "league_entries": 1,
     "league_trophies": 1,
     "league_trophies_yearly": 1,
-    "challenge_appearances": 1,
-    "challenge_wins": 3,
-    "challenge_losses": 3,
+    "challenge_appearances": 0,
+    "challenge_wins": 0,
+    "challenge_losses": 0,
     "irl_top8": 0,
-    "challenge_win_pct": 50,
+    "challenge_win_pct": null,
     "league_trophy_rank_yearly": 65,
     "league_trophy_rank_alltime": 71,
     "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-challenge-32-2026-07-0112845719",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-01",
-      "player": "sai199orz",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
-    },
     {
       "site_name": "pauper-league-2026-07-0110855",
       "tournament": "Pauper League",
@@ -49,10 +34,6 @@
     }
   ],
   "top_pilots": [
-    {
-      "player": "sai199orz",
-      "count": 1
-    },
     {
       "player": "sim00rte",
       "count": 1
