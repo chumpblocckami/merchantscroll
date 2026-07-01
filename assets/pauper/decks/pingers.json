@@ -2,16 +2,16 @@
   "archetype": "Pingers",
   "slug": "pingers",
   "stats": {
-    "total_entries": 305,
-    "league_entries": 183,
-    "league_trophies": 183,
-    "league_trophies_yearly": 15,
+    "total_entries": 306,
+    "league_entries": 184,
+    "league_trophies": 184,
+    "league_trophies_yearly": 16,
     "challenge_appearances": 105,
     "challenge_wins": 428,
     "challenge_losses": 283,
     "irl_top8": 7,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 42,
+    "league_trophy_rank_yearly": 40,
     "league_trophy_rank_alltime": 19,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 72
@@ -35,6 +35,19 @@
       "tournament": "Pauper League",
       "date": "2026-06-30",
       "player": "Maxipk",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2910855",
+      "tournament": "Pauper League",
+      "date": "2026-06-29",
+      "player": "Qu4",
       "colors": [
         "R"
       ],
@@ -335,19 +348,6 @@
       "final_rank": 3,
       "source": "pauperwave",
       "type": "irl"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2912843392",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-29",
-      "player": "seasonofmists",
-      "colors": [
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [

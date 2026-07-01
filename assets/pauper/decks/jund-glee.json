@@ -2,17 +2,17 @@
   "archetype": "Jund Glee",
   "slug": "jund-glee",
   "stats": {
-    "total_entries": 15,
-    "league_entries": 9,
-    "league_trophies": 9,
-    "league_trophies_yearly": 8,
+    "total_entries": 16,
+    "league_entries": 10,
+    "league_trophies": 10,
+    "league_trophies_yearly": 9,
     "challenge_appearances": 3,
     "challenge_wins": 9,
     "challenge_losses": 9,
     "irl_top8": 3,
     "challenge_win_pct": 50,
     "league_trophy_rank_yearly": 47,
-    "league_trophy_rank_alltime": 52,
+    "league_trophy_rank_alltime": 51,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 72
   },
@@ -54,6 +54,22 @@
       "tournament": "Pauper League",
       "date": "2026-06-26",
       "player": "yuxiaoyu",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2510855",
+      "tournament": "Pauper League",
+      "date": "2026-06-25",
+      "player": "Berga_",
       "colors": [
         "B",
         "G",
@@ -274,11 +290,11 @@
       "count": 1
     },
     {
-      "player": "qbturtle15",
+      "player": "Berga_",
       "count": 1
     },
     {
-      "player": "PNascimento",
+      "player": "qbturtle15",
       "count": 1
     }
   ]
