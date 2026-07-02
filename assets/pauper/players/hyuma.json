@@ -3,17 +3,17 @@
   "display_name": "hyuma",
   "irl_name": null,
   "stats": {
-    "total_entries": 30,
-    "league_trophies": 24,
-    "league_trophies_yearly": 15,
+    "total_entries": 31,
+    "league_trophies": 25,
+    "league_trophies_yearly": 16,
     "challenge_wins": 20,
     "challenge_losses": 14,
     "irl_top8": 0,
     "challenge_win_pct": 59,
-    "league_trophy_rank_yearly": 45,
-    "league_trophy_rank_alltime": 64,
-    "league_trophy_players_yearly": 1222,
-    "league_trophy_players_alltime": 1962
+    "league_trophy_rank_yearly": 41,
+    "league_trophy_rank_alltime": 61,
+    "league_trophy_players_yearly": 1229,
+    "league_trophy_players_alltime": 1965
   },
   "favorite_decks": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "archetype": "Rally",
-      "count": 8
+      "count": 9
     },
     {
       "archetype": "Pingers",
@@ -30,6 +30,20 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-02",
+      "player": "hyuma",
+      "archetype": "Rally",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2410855",
       "tournament": "Pauper League",
@@ -405,22 +419,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-10-2412821674",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-10-24",
-      "player": "hyuma",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "2-3",
-      "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

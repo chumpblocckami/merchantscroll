@@ -2,21 +2,36 @@
   "archetype": "Jund Glee",
   "slug": "jund-glee",
   "stats": {
-    "total_entries": 16,
-    "league_entries": 10,
-    "league_trophies": 10,
-    "league_trophies_yearly": 9,
+    "total_entries": 18,
+    "league_entries": 12,
+    "league_trophies": 12,
+    "league_trophies_yearly": 11,
     "challenge_appearances": 3,
     "challenge_wins": 9,
     "challenge_losses": 9,
     "irl_top8": 3,
     "challenge_win_pct": 50,
-    "league_trophy_rank_yearly": 47,
-    "league_trophy_rank_alltime": 51,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 73
+    "league_trophy_rank_yearly": 46,
+    "league_trophy_rank_alltime": 49,
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-01",
+      "player": "peristiri",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2810855",
       "tournament": "Pauper League",
@@ -27,6 +42,23 @@
         "G",
         "R",
         "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2810855",
+      "tournament": "Pauper League",
+      "date": "2026-06-28",
+      "player": "Hibiam94",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -266,6 +298,10 @@
       "count": 1
     },
     {
+      "player": "Hibiam94",
+      "count": 1
+    },
+    {
       "player": "Kampo",
       "count": 1
     },
@@ -291,10 +327,6 @@
     },
     {
       "player": "Berga_",
-      "count": 1
-    },
-    {
-      "player": "qbturtle15",
       "count": 1
     }
   ]

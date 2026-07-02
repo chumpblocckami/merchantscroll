@@ -2,21 +2,37 @@
   "archetype": "Walls",
   "slug": "walls",
   "stats": {
-    "total_entries": 161,
-    "league_entries": 103,
-    "league_trophies": 103,
-    "league_trophies_yearly": 34,
+    "total_entries": 162,
+    "league_entries": 104,
+    "league_trophies": 104,
+    "league_trophies_yearly": 35,
     "challenge_appearances": 51,
     "challenge_wins": 194,
     "challenge_losses": 137,
     "irl_top8": 3,
     "challenge_win_pct": 59,
-    "league_trophy_rank_yearly": 32,
+    "league_trophy_rank_yearly": 31,
     "league_trophy_rank_alltime": 28,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 73
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-02",
+      "player": "apas72",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2512845643",
       "tournament": "Pauper Challenge 32",
@@ -413,28 +429,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-0210636",
-      "tournament": "Pauper League",
-      "date": "2026-05-02",
-      "player": "apas72",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "apas72",
-      "count": 41
+      "count": 42
     },
     {
       "player": "Terminus0",
