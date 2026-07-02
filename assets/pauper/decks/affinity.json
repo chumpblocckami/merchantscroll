@@ -2,10 +2,10 @@
   "archetype": "Affinity",
   "slug": "affinity",
   "stats": {
-    "total_entries": 905,
-    "league_entries": 343,
-    "league_trophies": 343,
-    "league_trophies_yearly": 186,
+    "total_entries": 906,
+    "league_entries": 344,
+    "league_trophies": 344,
+    "league_trophies_yearly": 187,
     "challenge_appearances": 491,
     "challenge_wins": 2028,
     "challenge_losses": 1231,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-02",
+      "player": "Gianmoschella",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0112845719",
       "tournament": "Pauper Challenge 32",
@@ -373,21 +388,6 @@
       ],
       "record": "4-2",
       "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2412845643",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-25",
-      "player": "newbarola",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "2-4",
-      "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
     }

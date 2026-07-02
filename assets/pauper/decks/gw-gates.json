@@ -2,21 +2,37 @@
   "archetype": "GW Gates",
   "slug": "gw-gates",
   "stats": {
-    "total_entries": 165,
-    "league_entries": 93,
-    "league_trophies": 93,
-    "league_trophies_yearly": 70,
+    "total_entries": 166,
+    "league_entries": 94,
+    "league_trophies": 94,
+    "league_trophies_yearly": 71,
     "challenge_appearances": 68,
     "challenge_wins": 261,
     "challenge_losses": 162,
     "irl_top8": 2,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 21,
-    "league_trophy_rank_alltime": 30,
+    "league_trophy_rank_alltime": 29,
     "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-02",
+      "player": "Triso",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2512845643",
       "tournament": "Pauper Challenge 32",
@@ -388,21 +404,6 @@
       "final_rank": 4,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1112844295",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-11",
-      "player": "Emogoblin",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "6-2",
-      "final_rank": 3,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -420,7 +421,7 @@
     },
     {
       "player": "Triso",
-      "count": 6
+      "count": 7
     },
     {
       "player": "olati",

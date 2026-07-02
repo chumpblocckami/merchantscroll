@@ -2,37 +2,21 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 29,
-    "league_entries": 9,
-    "league_trophies": 9,
-    "league_trophies_yearly": 9,
+    "total_entries": 27,
+    "league_entries": 7,
+    "league_trophies": 7,
+    "league_trophies_yearly": 7,
     "challenge_appearances": 18,
     "challenge_wins": 75,
     "challenge_losses": 49,
     "irl_top8": 2,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 48,
-    "league_trophy_rank_alltime": 53,
+    "league_trophy_rank_yearly": 50,
+    "league_trophy_rank_alltime": 56,
     "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-07-0210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-02",
-      "player": "Ankylosaur",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-challenge-32-2026-07-0112845719",
       "tournament": "Pauper Challenge 32",
@@ -60,23 +44,6 @@
       "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-01",
-      "player": "Raptor56",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-0110855",
@@ -397,6 +364,37 @@
       "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-03-1712844320",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-13",
+      "player": "Echanez",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 19,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauperwave-2026-06-10-modena-summer-2026",
+      "tournament": "LP Modena Summer 2026 — Modena",
+      "date": "2026-06-10",
+      "player": "Francesco Musto",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
     }
   ],
   "top_pilots": [
@@ -433,11 +431,11 @@
       "count": 1
     },
     {
-      "player": "Ankylosaur",
+      "player": "Undertakerpauper",
       "count": 1
     },
     {
-      "player": "Undertakerpauper",
+      "player": "Syns",
       "count": 1
     }
   ]

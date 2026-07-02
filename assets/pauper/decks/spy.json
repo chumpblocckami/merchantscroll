@@ -2,10 +2,10 @@
   "archetype": "Spy",
   "slug": "spy",
   "stats": {
-    "total_entries": 684,
-    "league_entries": 431,
-    "league_trophies": 431,
-    "league_trophies_yearly": 153,
+    "total_entries": 685,
+    "league_entries": 432,
+    "league_trophies": 432,
+    "league_trophies_yearly": 154,
     "challenge_appearances": 208,
     "challenge_wins": 839,
     "challenge_losses": 525,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-02",
+      "player": "imbaterran",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0112845719",
       "tournament": "Pauper Challenge 32",
@@ -376,20 +391,6 @@
       "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauperwave-2026-06-13-lp-brescia-summer",
-      "tournament": "LP Brescia Summer 2026 — Brescia",
-      "date": "2026-06-13",
-      "player": "Michele Montanari",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "",
-      "final_rank": 5,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [
