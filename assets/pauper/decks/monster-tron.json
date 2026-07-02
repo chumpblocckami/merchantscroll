@@ -2,37 +2,21 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 29,
-    "league_entries": 9,
-    "league_trophies": 9,
-    "league_trophies_yearly": 9,
+    "total_entries": 28,
+    "league_entries": 8,
+    "league_trophies": 8,
+    "league_trophies_yearly": 8,
     "challenge_appearances": 18,
     "challenge_wins": 75,
     "challenge_losses": 49,
     "irl_top8": 2,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 48,
-    "league_trophy_rank_alltime": 53,
+    "league_trophy_rank_yearly": 49,
+    "league_trophy_rank_alltime": 55,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-07-0210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-02",
-      "player": "Ankylosaur",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-league-2026-07-0210855",
       "tournament": "Pauper League",
@@ -396,6 +380,20 @@
       "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-03-1712844320",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-13",
+      "player": "Echanez",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 19,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -432,11 +430,11 @@
       "count": 1
     },
     {
-      "player": "Ankylosaur",
+      "player": "Auripower",
       "count": 1
     },
     {
-      "player": "Auripower",
+      "player": "Undertakerpauper",
       "count": 1
     }
   ]
