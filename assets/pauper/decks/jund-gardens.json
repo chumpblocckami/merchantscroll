@@ -2,21 +2,50 @@
   "archetype": "Jund Gardens",
   "slug": "jund-gardens",
   "stats": {
-    "total_entries": 24,
-    "league_entries": 15,
-    "league_trophies": 15,
-    "league_trophies_yearly": 14,
+    "total_entries": 26,
+    "league_entries": 17,
+    "league_trophies": 17,
+    "league_trophies_yearly": 16,
     "challenge_appearances": 3,
     "challenge_wins": 9,
     "challenge_losses": 8,
     "irl_top8": 6,
     "challenge_win_pct": 53,
-    "league_trophy_rank_yearly": 43,
+    "league_trophy_rank_yearly": 40,
     "league_trophy_rank_alltime": 48,
     "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-02",
+      "player": "GiorgioCombo",
+      "colors": [
+        "B",
+        "G",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-01",
+      "player": "Kwojn",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauperwave-2026-06-13-aquila-summer-2026",
       "tournament": "LP L'Aquila Summer 2026 — L'Aquila",
@@ -361,20 +390,6 @@
       "final_rank": 2,
       "source": "pauperwave",
       "type": "irl"
-    },
-    {
-      "site_name": "pauper-league-2025-06-039081",
-      "tournament": "pauper-league-2025-06-039081",
-      "date": "2025-06-03",
-      "player": "MVanni",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -407,15 +422,15 @@
       "count": 1
     },
     {
+      "player": "GiorgioCombo",
+      "count": 1
+    },
+    {
       "player": "Tommaso Loss",
       "count": 1
     },
     {
       "player": "Burnigh0",
-      "count": 1
-    },
-    {
-      "player": "MVanni",
       "count": 1
     }
   ]
