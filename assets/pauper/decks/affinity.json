@@ -2,10 +2,10 @@
   "archetype": "Affinity",
   "slug": "affinity",
   "stats": {
-    "total_entries": 909,
-    "league_entries": 347,
-    "league_trophies": 347,
-    "league_trophies_yearly": 190,
+    "total_entries": 910,
+    "league_entries": 348,
+    "league_trophies": 348,
+    "league_trophies_yearly": 191,
     "challenge_appearances": 491,
     "challenge_wins": 2028,
     "challenge_losses": 1231,
@@ -22,6 +22,21 @@
       "tournament": "Pauper League",
       "date": "2026-07-03",
       "player": "BrokeMagic",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-03",
+      "player": "Heterodox",
       "colors": [
         "B",
         "R",
@@ -373,21 +388,6 @@
       ],
       "record": "4-3",
       "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2512845643",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-25",
-      "player": "LuffyDoChapeuDePalha",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
     }

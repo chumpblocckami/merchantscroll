@@ -2,10 +2,10 @@
   "archetype": "UB Faeries",
   "slug": "ub-faeries",
   "stats": {
-    "total_entries": 563,
-    "league_entries": 307,
-    "league_trophies": 307,
-    "league_trophies_yearly": 179,
+    "total_entries": 564,
+    "league_entries": 308,
+    "league_trophies": 308,
+    "league_trophies_yearly": 180,
     "challenge_appearances": 229,
     "challenge_wins": 956,
     "challenge_losses": 573,
@@ -36,6 +36,20 @@
       "tournament": "Pauper League",
       "date": "2026-07-03",
       "player": "OJoaoSette",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-03",
+      "player": "End3avour",
       "colors": [
         "B",
         "U"
@@ -352,20 +366,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2812845668",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-27",
-      "player": "MatheusPonciano",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "6-3",
-      "final_rank": 2,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [

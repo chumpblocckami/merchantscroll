@@ -2,10 +2,10 @@
   "archetype": "Jund",
   "slug": "jund",
   "stats": {
-    "total_entries": 1211,
-    "league_entries": 522,
-    "league_trophies": 522,
-    "league_trophies_yearly": 201,
+    "total_entries": 1212,
+    "league_entries": 523,
+    "league_trophies": 523,
+    "league_trophies_yearly": 202,
     "challenge_appearances": 586,
     "challenge_wins": 2354,
     "challenge_losses": 1478,
@@ -22,6 +22,21 @@
       "tournament": "Pauper League",
       "date": "2026-07-03",
       "player": "Rusherlol",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-03",
+      "player": "JimmyBoy02",
       "colors": [
         "B",
         "G",
@@ -374,21 +389,6 @@
       ],
       "record": "7-2",
       "final_rank": 12,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
-      "tournament": "Pauper RC Super Qualifier",
-      "date": "2026-06-27",
-      "player": "therock988",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "7-2",
-      "final_rank": 18,
       "source": "mtgo",
       "type": "other"
     }
