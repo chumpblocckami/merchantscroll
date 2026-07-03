@@ -2,10 +2,10 @@
   "archetype": "Spy",
   "slug": "spy",
   "stats": {
-    "total_entries": 689,
-    "league_entries": 434,
-    "league_trophies": 434,
-    "league_trophies_yearly": 156,
+    "total_entries": 690,
+    "league_entries": 435,
+    "league_trophies": 435,
+    "league_trophies_yearly": 157,
     "challenge_appearances": 210,
     "challenge_wins": 846,
     "challenge_losses": 530,
@@ -37,6 +37,21 @@
       "tournament": "Pauper League",
       "date": "2026-07-03",
       "player": "Papilloshi",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-03",
+      "player": "lumely",
       "colors": [
         "B",
         "G",
@@ -376,21 +391,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-06-14-piacenza-summer-2026",
-      "tournament": "LP Piacenza Summer 2026 — Piacenza",
-      "date": "2026-06-14",
-      "player": "Emilio Zanoni",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "",
-      "final_rank": 5,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [

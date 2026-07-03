@@ -2439,8 +2439,7 @@
         "B",
         "R",
         "W"
-      ],
-      "archetype": "BR Affinity"
+      ]
     },
     {
       "player": "Pafru",
@@ -2688,8 +2687,7 @@
         "B",
         "R",
         "W"
-      ],
-      "archetype": "BR Affinity"
+      ]
     },
     {
       "player": "Regis_Hangar49",
@@ -5124,8 +5122,7 @@
         "B",
         "R",
         "W"
-      ],
-      "archetype": "BR Affinity"
+      ]
     },
     {
       "player": "End3avour",
@@ -5617,7 +5614,7 @@
         "U",
         "W"
       ],
-      "archetype": "Monster Tron"
+      "archetype": "Flicker Tron"
     },
     {
       "player": "zewill",
@@ -6209,6 +6206,206 @@
         "U"
       ],
       "archetype": "BR Madness"
+    },
+    {
+      "player": "lumely",
+      "main_deck": [
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Balustrade Spy",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Wall of Roots",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Swamp",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Gatecreeper Vine",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Land Grant",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Sagu Wildling",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Quirion Ranger",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Overgrown Battlement",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Masked Vandal",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Nyxborn Hydra",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Lotleth Giant",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Lead the Stampede",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Saruli Caretaker",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Dread Return",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Winding Way",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Generous Ent",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Mesmeric Fiend",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Guerrilla Gorilla",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Forest",
+            "card_type": "LAND  "
+          }
+        }
+      ],
+      "sideboard_deck": [
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Ghitu Slinger",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Faerie Macabre",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Fang Dragon",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Wooded Ridgeline",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Weather the Storm",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Ancient Grudge",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Flaring Pain",
+            "card_type": "INSTNT"
+          }
+        }
+      ],
+      "wins": {
+        "loginplayeventcourseid": "35415799",
+        "wins": "5",
+        "losses": "0"
+      },
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "archetype": "Spy"
     }
   ]
 }
