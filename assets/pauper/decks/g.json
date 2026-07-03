@@ -2,21 +2,34 @@
   "archetype": "G",
   "slug": "g",
   "stats": {
-    "total_entries": 29,
-    "league_entries": 19,
-    "league_trophies": 19,
-    "league_trophies_yearly": 0,
+    "total_entries": 30,
+    "league_entries": 20,
+    "league_trophies": 20,
+    "league_trophies_yearly": 1,
     "challenge_appearances": 10,
     "challenge_wins": 40,
     "challenge_losses": 25,
     "irl_top8": 0,
     "challenge_win_pct": 62,
-    "league_trophy_rank_yearly": null,
+    "league_trophy_rank_yearly": 65,
     "league_trophy_rank_alltime": 47,
-    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-03",
+      "player": "bnpbnp",
+      "colors": [
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-01-0112828151",
       "tournament": "Pauper Challenge 32",
@@ -328,19 +341,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-05-079081",
-      "tournament": "pauper-league-2025-05-079081",
-      "date": "2025-05-07",
-      "player": "bid1992",
-      "colors": [
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -350,7 +350,7 @@
     },
     {
       "player": "bnpbnp",
-      "count": 2
+      "count": 3
     },
     {
       "player": "Vlalutscher",
