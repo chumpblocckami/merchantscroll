@@ -2,10 +2,10 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1169,
-    "league_entries": 611,
-    "league_trophies": 611,
-    "league_trophies_yearly": 229,
+    "total_entries": 1170,
+    "league_entries": 612,
+    "league_trophies": 612,
+    "league_trophies_yearly": 230,
     "challenge_appearances": 499,
     "challenge_wins": 2003,
     "challenge_losses": 1247,
@@ -22,6 +22,20 @@
       "tournament": "Pauper League",
       "date": "2026-07-02",
       "player": "Enz091",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-02",
+      "player": "PxtxGuille",
       "colors": [
         "B",
         "G"
@@ -348,20 +362,6 @@
       ],
       "record": "9-1",
       "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1912844841",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-19",
-      "player": "Shiib",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-2",
-      "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
     }

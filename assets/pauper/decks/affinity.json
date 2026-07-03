@@ -2,10 +2,10 @@
   "archetype": "Affinity",
   "slug": "affinity",
   "stats": {
-    "total_entries": 907,
-    "league_entries": 345,
-    "league_trophies": 345,
-    "league_trophies_yearly": 188,
+    "total_entries": 908,
+    "league_entries": 346,
+    "league_trophies": 346,
+    "league_trophies_yearly": 189,
     "challenge_appearances": 491,
     "challenge_wins": 2028,
     "challenge_losses": 1231,
@@ -37,6 +37,21 @@
       "tournament": "Pauper League",
       "date": "2026-07-02",
       "player": "Al_bertoR",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-02",
+      "player": "AstroBonny",
       "colors": [
         "B",
         "R",
@@ -373,21 +388,6 @@
       ],
       "record": "2-4",
       "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2412845643",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-25",
-      "player": "sai199orz",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 7,
       "source": "mtgo",
       "type": "challenge"
     }
