@@ -3,17 +3,17 @@
   "display_name": "Walker735",
   "irl_name": "Paolo Donfrancesco",
   "stats": {
-    "total_entries": 83,
+    "total_entries": 84,
     "league_trophies": 17,
     "league_trophies_yearly": 1,
-    "challenge_wins": 277,
-    "challenge_losses": 134,
+    "challenge_wins": 280,
+    "challenge_losses": 137,
     "irl_top8": 5,
     "challenge_win_pct": 67,
-    "league_trophy_rank_yearly": 1218,
+    "league_trophy_rank_yearly": 1219,
     "league_trophy_rank_alltime": 122,
-    "league_trophy_players_yearly": 1233,
-    "league_trophy_players_alltime": 1968
+    "league_trophy_players_yearly": 1234,
+    "league_trophy_players_alltime": 1969
   },
   "favorite_decks": [
     {
@@ -37,6 +37,10 @@
       "count": 2
     },
     {
+      "archetype": "U Terror",
+      "count": 1
+    },
+    {
       "archetype": "Affinity",
       "count": 1
     },
@@ -51,13 +55,24 @@
     {
       "archetype": "Altar",
       "count": 1
-    },
-    {
-      "archetype": "GW Gates",
-      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0212846460",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-02",
+      "player": "Walker735",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 27,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2612845653",
       "tournament": "Pauper Challenge 32",
@@ -441,22 +456,6 @@
       "final_rank": 3,
       "source": "pauperwave",
       "type": "irl"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-1512835331",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-15",
-      "player": "Walker735",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "4-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

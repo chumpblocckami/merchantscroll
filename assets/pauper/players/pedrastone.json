@@ -3,17 +3,17 @@
   "display_name": "PedraStone",
   "irl_name": null,
   "stats": {
-    "total_entries": 64,
+    "total_entries": 65,
     "league_trophies": 0,
     "league_trophies_yearly": 0,
-    "challenge_wins": 261,
-    "challenge_losses": 156,
+    "challenge_wins": 267,
+    "challenge_losses": 158,
     "irl_top8": 0,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": null,
-    "league_trophy_players_yearly": 1233,
-    "league_trophy_players_alltime": 1968
+    "league_trophy_players_yearly": 1234,
+    "league_trophy_players_alltime": 1969
   },
   "favorite_decks": [
     {
@@ -33,6 +33,10 @@
       "count": 3
     },
     {
+      "archetype": "Rally",
+      "count": 2
+    },
+    {
       "archetype": "UG Fog",
       "count": 2
     },
@@ -45,10 +49,6 @@
       "count": 2
     },
     {
-      "archetype": "Rally",
-      "count": 1
-    },
-    {
       "archetype": "U Faeries",
       "count": 1
     },
@@ -58,6 +58,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0212846460",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-02",
+      "player": "PedraStone",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "6-2",
+      "final_rank": 3,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0112845719",
       "tournament": "Pauper Challenge 32",
@@ -446,22 +461,6 @@
       ],
       "record": "4-2",
       "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-12-0412825780",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-12-04",
-      "player": "PedraStone",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
     }

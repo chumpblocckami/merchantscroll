@@ -3,22 +3,22 @@
   "display_name": "vini_torres",
   "irl_name": null,
   "stats": {
-    "total_entries": 108,
+    "total_entries": 109,
     "league_trophies": 61,
     "league_trophies_yearly": 34,
-    "challenge_wins": 187,
-    "challenge_losses": 104,
+    "challenge_wins": 192,
+    "challenge_losses": 106,
     "irl_top8": 0,
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 7,
     "league_trophy_rank_alltime": 12,
-    "league_trophy_players_yearly": 1233,
-    "league_trophy_players_alltime": 1968
+    "league_trophy_players_yearly": 1234,
+    "league_trophy_players_alltime": 1969
   },
   "favorite_decks": [
     {
       "archetype": "Rally",
-      "count": 77
+      "count": 78
     },
     {
       "archetype": "Pingers",
@@ -34,6 +34,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0212846460",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-02",
+      "player": "vini_torres",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-2",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0112845719",
       "tournament": "Pauper Challenge 32",
@@ -393,21 +408,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-1512842474",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-15",
-      "player": "vini_torres",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 21,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

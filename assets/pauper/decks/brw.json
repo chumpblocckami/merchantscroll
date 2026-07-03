@@ -2,21 +2,51 @@
   "archetype": "BRW",
   "slug": "brw",
   "stats": {
-    "total_entries": 1,
-    "league_entries": 1,
-    "league_trophies": 1,
-    "league_trophies_yearly": 1,
+    "total_entries": 3,
+    "league_entries": 3,
+    "league_trophies": 3,
+    "league_trophies_yearly": 3,
     "challenge_appearances": 0,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 64,
-    "league_trophy_rank_alltime": 70,
+    "league_trophy_rank_yearly": 55,
+    "league_trophy_rank_alltime": 66,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-03",
+      "player": "Pafru",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-02",
+      "player": "cabrabr12",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-0110855",
       "tournament": "Pauper League",
@@ -34,6 +64,14 @@
     }
   ],
   "top_pilots": [
+    {
+      "player": "cabrabr12",
+      "count": 1
+    },
+    {
+      "player": "Pafru",
+      "count": 1
+    },
     {
       "player": "sim00rte",
       "count": 1

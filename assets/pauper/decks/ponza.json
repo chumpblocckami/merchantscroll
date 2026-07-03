@@ -2,13 +2,13 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 146,
+    "total_entries": 147,
     "league_entries": 69,
     "league_trophies": 69,
     "league_trophies_yearly": 41,
-    "challenge_appearances": 68,
-    "challenge_wins": 218,
-    "challenge_losses": 172,
+    "challenge_appearances": 69,
+    "challenge_wins": 222,
+    "challenge_losses": 174,
     "irl_top8": 4,
     "challenge_win_pct": 56,
     "league_trophy_rank_yearly": 29,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0212846460",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-02",
+      "player": "Ixidor29",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 18,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0112845719",
       "tournament": "Pauper Challenge 32",
@@ -360,26 +374,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1112844295",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-11",
-      "player": "Ixidor29",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 19,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "Ixidor29",
-      "count": 36
+      "count": 37
     },
     {
       "player": "Guizera",
