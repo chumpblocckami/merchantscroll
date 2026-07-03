@@ -2440,7 +2440,7 @@
         "R",
         "W"
       ],
-      "archetype": "Boros Glitter"
+      "archetype": "BR Affinity"
     },
     {
       "player": "Pafru",
@@ -2689,7 +2689,7 @@
         "R",
         "W"
       ],
-      "archetype": "Boros Glitter"
+      "archetype": "BR Affinity"
     },
     {
       "player": "Regis_Hangar49",
@@ -4683,7 +4683,7 @@
       "colors": [
         "R"
       ],
-      "archetype": "Pingers"
+      "archetype": "Rally"
     },
     {
       "player": "Heterodox",
@@ -4898,6 +4898,234 @@
         "U"
       ],
       "archetype": "Affinity"
+    },
+    {
+      "player": "Borbs",
+      "main_deck": [
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Glint Hawk",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Refurbished Familiar",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Kor Skyfisher",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Lembas",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Experimental Synthesizer",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Lightning Bolt",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Cleansing Wildfire",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Galvanic Blast",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Bojuka Bog",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Drossforge Bridge",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Rustvale Bridge",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Plains",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Mukotai Ambusher",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Swamp",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Makeshift Munitions",
+            "card_type": "ENCHMT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Black Mage's Rod",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Shattered Landscape",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Mountain",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Tithing Blade",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Navigator's Compass",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Grim Bauble",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Ancient Den",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Omen of the Dead",
+            "card_type": "ENCHMT"
+          }
+        }
+      ],
+      "sideboard_deck": [
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Red Elemental Blast",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Cast into the Fire",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Electrickery",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Tithing Blade",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Thraben Charm",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Mukotai Ambusher",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Faerie Macabre",
+            "card_type": "ISCREA"
+          }
+        }
+      ],
+      "wins": {
+        "loginplayeventcourseid": "35413313",
+        "wins": "5",
+        "losses": "0"
+      },
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "archetype": "BR Affinity"
     },
     {
       "player": "End3avour",
@@ -5389,7 +5617,7 @@
         "U",
         "W"
       ],
-      "archetype": "Flicker Tron"
+      "archetype": "Monster Tron"
     },
     {
       "player": "zewill",
@@ -5568,6 +5796,419 @@
         "R"
       ],
       "archetype": "Rally"
+    },
+    {
+      "player": "Wizard_2002",
+      "main_deck": [
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Island",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Island",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Cryptic Serpent",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Deem Inferior",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Island",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Island",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Dispel",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Delver of Secrets",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Lórien Revealed",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Mental Note",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Deep Analysis",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Sleep of the Dead",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Counterspell",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Brainstorm",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Island",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Island",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Island",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Island",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Island",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Ponder",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Thought Scour",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Tolarian Terror",
+            "card_type": "ISCREA"
+          }
+        }
+      ],
+      "sideboard_deck": [
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Hydroblast",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Blue Elemental Blast",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Gut Shot",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Annul",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Steel Sabotage",
+            "card_type": "INSTNT"
+          }
+        }
+      ],
+      "wins": {
+        "loginplayeventcourseid": "35414652",
+        "wins": "5",
+        "losses": "0"
+      },
+      "colors": [
+        "R",
+        "U"
+      ],
+      "archetype": "U Terror"
+    },
+    {
+      "player": "kmasuyama",
+      "main_deck": [
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Jagged Barrens",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Galvanic Blast",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Vampire's Kiss",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Alms of the Vein",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Vault of Whispers",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Lightning Bolt",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Faithless Looting",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Mountain",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Fiery Temper",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Kitchen Imp",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Grab the Prize",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Drossforge Bridge",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Sneaky Snacker",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Voldaren Epicure",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Great Furnace",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Rakdos Carnarium",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Bojuka Bog",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Demand Answers",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Swamp",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Highway Robbery",
+            "card_type": "SORCRY"
+          }
+        }
+      ],
+      "sideboard_deck": [
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Cast into the Fire",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Red Elemental Blast",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "End the Festivities",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Extract a Confession",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Raven of Fell Omens",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Nihil Spellbomb",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Dark Withering",
+            "card_type": "INSTNT"
+          }
+        }
+      ],
+      "wins": {
+        "loginplayeventcourseid": "35415332",
+        "wins": "5",
+        "losses": "0"
+      },
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "archetype": "BR Madness"
     }
   ]
 }

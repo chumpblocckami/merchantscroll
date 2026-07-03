@@ -2,13 +2,13 @@
   "archetype": "Familiars",
   "slug": "familiars",
   "stats": {
-    "total_entries": 277,
+    "total_entries": 278,
     "league_entries": 154,
     "league_trophies": 154,
     "league_trophies_yearly": 67,
-    "challenge_appearances": 98,
-    "challenge_wins": 403,
-    "challenge_losses": 245,
+    "challenge_appearances": 99,
+    "challenge_wins": 407,
+    "challenge_losses": 248,
     "irl_top8": 20,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 22,
@@ -30,6 +30,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0312846470",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-03",
+      "player": "ChaoticMTG",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "4-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0212846460",
@@ -355,20 +369,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-06-10-modena-summer-2026",
-      "tournament": "LP Modena Summer 2026 — Modena",
-      "date": "2026-06-10",
-      "player": "Alessio Sposito",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "",
-      "final_rank": 2,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [
@@ -378,7 +378,7 @@
     },
     {
       "player": "ChaoticMTG",
-      "count": 25
+      "count": 26
     },
     {
       "player": "TSPJendrek",

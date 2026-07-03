@@ -3,11 +3,11 @@
   "display_name": "Triso",
   "irl_name": null,
   "stats": {
-    "total_entries": 31,
+    "total_entries": 32,
     "league_trophies": 19,
     "league_trophies_yearly": 9,
-    "challenge_wins": 45,
-    "challenge_losses": 21,
+    "challenge_wins": 50,
+    "challenge_losses": 23,
     "irl_top8": 0,
     "challenge_win_pct": 68,
     "league_trophy_rank_yearly": 103,
@@ -22,7 +22,7 @@
     },
     {
       "archetype": "GW Gates",
-      "count": 7
+      "count": 8
     },
     {
       "archetype": "White Weenie",
@@ -38,6 +38,23 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0312846470",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-03",
+      "player": "Triso",
+      "archetype": "GW Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-0210855",
       "tournament": "Pauper League",
@@ -418,22 +435,6 @@
       ],
       "record": "3-3",
       "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-10-0412818128",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-10-04",
-      "player": "Triso",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-2",
-      "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
     }

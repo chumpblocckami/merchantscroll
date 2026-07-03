@@ -3,13 +3,13 @@
   "display_name": "Echanez",
   "irl_name": null,
   "stats": {
-    "total_entries": 34,
+    "total_entries": 35,
     "league_trophies": 22,
     "league_trophies_yearly": 10,
-    "challenge_wins": 48,
-    "challenge_losses": 33,
+    "challenge_wins": 55,
+    "challenge_losses": 35,
     "irl_top8": 0,
-    "challenge_win_pct": 59,
+    "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 85,
     "league_trophy_rank_alltime": 77,
     "league_trophy_players_yearly": 1242,
@@ -21,11 +21,11 @@
       "count": 8
     },
     {
-      "archetype": "Gardens",
-      "count": 4
+      "archetype": "Monster Tron",
+      "count": 5
     },
     {
-      "archetype": "Monster Tron",
+      "archetype": "Gardens",
       "count": 4
     },
     {
@@ -58,6 +58,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0312846470",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-03",
+      "player": "Echanez",
+      "archetype": "Monster Tron",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "7-2",
+      "final_rank": 3,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0112845719",
       "tournament": "Pauper Challenge 32",
@@ -435,20 +450,6 @@
       "archetype": "Rally",
       "colors": [
         "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-10-089750",
-      "tournament": "pauper-league-2025-10-089750",
-      "date": "2025-10-08",
-      "player": "Echanez",
-      "archetype": "Mono Red Kuldotha",
-      "colors": [
         "R"
       ],
       "record": "5-0",

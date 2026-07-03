@@ -2,13 +2,13 @@
   "archetype": "Bogle",
   "slug": "bogle",
   "stats": {
-    "total_entries": 229,
+    "total_entries": 230,
     "league_entries": 90,
     "league_trophies": 90,
     "league_trophies_yearly": 19,
-    "challenge_appearances": 133,
-    "challenge_wins": 531,
-    "challenge_losses": 344,
+    "challenge_appearances": 134,
+    "challenge_wins": 535,
+    "challenge_losses": 347,
     "irl_top8": 2,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 38,
@@ -17,6 +17,23 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0312846470",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-03",
+      "player": "QueMario",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-3",
+      "final_rank": 19,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0112845719",
       "tournament": "Pauper Challenge 32",
@@ -404,22 +421,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-04-2610636",
-      "tournament": "Pauper League",
-      "date": "2026-04-26",
-      "player": "JJBIG",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -456,12 +457,12 @@
       "count": 6
     },
     {
-      "player": "Mah_Alves",
+      "player": "QueMario",
       "count": 6
     },
     {
-      "player": "NMT_Sco94",
-      "count": 5
+      "player": "Mah_Alves",
+      "count": 6
     }
   ]
 }

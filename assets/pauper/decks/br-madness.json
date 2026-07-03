@@ -2,10 +2,10 @@
   "archetype": "BR Madness",
   "slug": "br-madness",
   "stats": {
-    "total_entries": 790,
-    "league_entries": 375,
-    "league_trophies": 375,
-    "league_trophies_yearly": 109,
+    "total_entries": 789,
+    "league_entries": 374,
+    "league_trophies": 374,
+    "league_trophies_yearly": 108,
     "challenge_appearances": 386,
     "challenge_wins": 1570,
     "challenge_losses": 982,
@@ -33,6 +33,21 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-07-0310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-03",
+      "player": "kmasuyama",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2026-07-0210855",
       "tournament": "Pauper League",
       "date": "2026-07-02",
@@ -48,44 +63,12 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-07-0210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-02",
-      "player": "Sodeq",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-07-0110855",
       "tournament": "Pauper League",
       "date": "2026-07-01",
       "player": "Alakhai",
       "colors": [
         "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-01",
-      "player": "Natalino_91",
-      "colors": [
-        "B",
-        "G",
         "R",
         "U"
       ],
@@ -390,6 +373,21 @@
         "U"
       ],
       "record": "2-4",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1812844831",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-18",
+      "player": "Captain_Tsubasa",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
       "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"

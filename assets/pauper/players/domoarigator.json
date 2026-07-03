@@ -3,22 +3,22 @@
   "display_name": "DomoArigatoR",
   "irl_name": null,
   "stats": {
-    "total_entries": 25,
+    "total_entries": 26,
     "league_trophies": 9,
     "league_trophies_yearly": 1,
-    "challenge_wins": 55,
-    "challenge_losses": 42,
+    "challenge_wins": 59,
+    "challenge_losses": 45,
     "irl_top8": 0,
     "challenge_win_pct": 57,
-    "league_trophy_rank_yearly": 821,
-    "league_trophy_rank_alltime": 250,
+    "league_trophy_rank_yearly": 822,
+    "league_trophy_rank_alltime": 251,
     "league_trophy_players_yearly": 1242,
     "league_trophy_players_alltime": 1976
   },
   "favorite_decks": [
     {
       "archetype": "U Terror",
-      "count": 16
+      "count": 17
     },
     {
       "archetype": "UB Faeries",
@@ -42,6 +42,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0312846470",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-03",
+      "player": "DomoArigatoR",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2012844856",
       "tournament": "Pauper Challenge 32",
@@ -406,21 +421,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-05-0312774499",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-05-03",
-      "player": "DomoArigatoR",
-      "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }
