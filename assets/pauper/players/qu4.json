@@ -3,33 +3,29 @@
   "display_name": "Qu4",
   "irl_name": null,
   "stats": {
-    "total_entries": 8,
-    "league_trophies": 8,
-    "league_trophies_yearly": 6,
+    "total_entries": 9,
+    "league_trophies": 9,
+    "league_trophies_yearly": 7,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 176,
-    "league_trophy_rank_alltime": 318,
+    "league_trophy_rank_yearly": 146,
+    "league_trophy_rank_alltime": 272,
     "league_trophy_players_yearly": 1250,
     "league_trophy_players_alltime": 1983
   },
   "favorite_decks": [
+    {
+      "archetype": "Pingers",
+      "count": 3
+    },
     {
       "archetype": "Cawgate",
       "count": 3
     },
     {
       "archetype": "Jund",
-      "count": 1
-    },
-    {
-      "archetype": "Pingers",
-      "count": 1
-    },
-    {
-      "archetype": "Rally",
       "count": 1
     },
     {
@@ -47,7 +43,21 @@
       "tournament": "Pauper League",
       "date": "2026-07-04",
       "player": "Qu4",
-      "archetype": "Rally",
+      "archetype": "Pingers",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-04",
+      "player": "Qu4",
+      "archetype": "Pingers",
       "colors": [
         "R"
       ],

@@ -2,13 +2,13 @@
   "archetype": "Affinity",
   "slug": "affinity",
   "stats": {
-    "total_entries": 912,
+    "total_entries": 913,
     "league_entries": 349,
     "league_trophies": 349,
     "league_trophies_yearly": 192,
-    "challenge_appearances": 492,
-    "challenge_wins": 2033,
-    "challenge_losses": 1234,
+    "challenge_appearances": 493,
+    "challenge_wins": 2037,
+    "challenge_losses": 1236,
     "irl_top8": 39,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 6,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0412846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "Nulyan",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 17,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-0410855",
       "tournament": "Pauper League",
@@ -373,21 +387,6 @@
       ],
       "record": "4-2",
       "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2612845653",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-26",
-      "player": "LuffyDoChapeuDePalha",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-2",
-      "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
     }

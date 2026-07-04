@@ -1618,7 +1618,7 @@
         "U",
         "W"
       ],
-      "archetype": "Boros Synth"
+      "archetype": "Boros Glitter"
     },
     {
       "player": "LabroNico",
@@ -3612,7 +3612,7 @@
         "R",
         "U"
       ],
-      "archetype": "Esper Affinity"
+      "archetype": "UB Control"
     },
     {
       "player": "Abisd94",
@@ -4994,7 +4994,7 @@
       "colors": [
         "R"
       ],
-      "archetype": "Rally"
+      "archetype": "Pingers"
     },
     {
       "player": "fullmtg1",
@@ -5469,6 +5469,162 @@
       "archetype": "R Madness"
     },
     {
+      "player": "Qu4",
+      "main_deck": [
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Clockwork Percussionist",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Experimental Synthesizer",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "14",
+          "card_attributes": {
+            "card_name": "Mountain",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Galvanic Blast",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Great Furnace",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Goblin Tomb Raider",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Gingerbrute",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Inventor's Axe",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Goblin Bushwhacker",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Fireblast",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Reckless Impulse",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Reckless Lackey",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Voldaren Epicure",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "End the Festivities",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Lightning Bolt",
+            "card_type": "INSTNT"
+          }
+        }
+      ],
+      "sideboard_deck": [
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Cast into the Fire",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "End the Festivities",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Relic of Progenitus",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Searing Blaze",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Red Elemental Blast",
+            "card_type": "INSTNT"
+          }
+        }
+      ],
+      "wins": {
+        "loginplayeventcourseid": "35423424",
+        "wins": "5",
+        "losses": "0"
+      },
+      "colors": [
+        "R"
+      ],
+      "archetype": "Pingers"
+    },
+    {
       "player": "sNouX",
       "main_deck": [
         {
@@ -5615,7 +5771,7 @@
       "colors": [
         "R"
       ],
-      "archetype": "Rally"
+      "archetype": "Pingers"
     },
     {
       "player": "End3avour",

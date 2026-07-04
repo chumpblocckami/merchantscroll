@@ -2,17 +2,17 @@
   "archetype": "BR Affinity",
   "slug": "br-affinity",
   "stats": {
-    "total_entries": 22,
-    "league_entries": 3,
-    "league_trophies": 3,
-    "league_trophies_yearly": 3,
+    "total_entries": 23,
+    "league_entries": 4,
+    "league_trophies": 4,
+    "league_trophies_yearly": 4,
     "challenge_appearances": 16,
     "challenge_wins": 53,
     "challenge_losses": 48,
     "irl_top8": 2,
     "challenge_win_pct": 52,
-    "league_trophy_rank_yearly": 55,
-    "league_trophy_rank_alltime": 64,
+    "league_trophy_rank_yearly": 54,
+    "league_trophy_rank_alltime": 61,
     "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 72
   },
@@ -31,6 +31,21 @@
       "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-01",
+      "player": "synth1a",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
