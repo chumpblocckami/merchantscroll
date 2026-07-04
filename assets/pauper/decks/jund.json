@@ -2,10 +2,10 @@
   "archetype": "Jund",
   "slug": "jund",
   "stats": {
-    "total_entries": 1212,
-    "league_entries": 523,
-    "league_trophies": 523,
-    "league_trophies_yearly": 202,
+    "total_entries": 1213,
+    "league_entries": 524,
+    "league_trophies": 524,
+    "league_trophies_yearly": 203,
     "challenge_appearances": 586,
     "challenge_wins": 2354,
     "challenge_losses": 1478,
@@ -157,6 +157,21 @@
       "tournament": "Pauper League",
       "date": "2026-07-01",
       "player": "DKstriker1",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-01",
+      "player": "synth1a",
       "colors": [
         "B",
         "G",
@@ -374,21 +389,6 @@
       ],
       "record": "7-2",
       "final_rank": 11,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
-      "tournament": "Pauper RC Super Qualifier",
-      "date": "2026-06-27",
-      "player": "ziofrancone",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "7-2",
-      "final_rank": 12,
       "source": "mtgo",
       "type": "other"
     }
