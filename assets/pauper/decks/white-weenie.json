@@ -2,10 +2,10 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 586,
-    "league_entries": 339,
-    "league_trophies": 339,
-    "league_trophies_yearly": 149,
+    "total_entries": 588,
+    "league_entries": 341,
+    "league_trophies": 341,
+    "league_trophies_yearly": 151,
     "challenge_appearances": 221,
     "challenge_wins": 866,
     "challenge_losses": 551,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 9,
     "league_trophy_rank_alltime": 10,
-    "league_trophy_decks_yearly": 64,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -68,6 +68,34 @@
       "final_rank": 19,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-01",
+      "player": "Niederschatten",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-01",
+      "player": "Huskyman20035",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-3010855",
@@ -336,33 +364,6 @@
       "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1810636",
-      "tournament": "Pauper League",
-      "date": "2026-06-18",
-      "player": "bnpbnp",
-      "colors": [
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1710636",
-      "tournament": "Pauper League",
-      "date": "2026-06-17",
-      "player": "OweyD",
-      "colors": [
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -380,7 +381,7 @@
     },
     {
       "player": "Niederschatten",
-      "count": 21
+      "count": 22
     },
     {
       "player": "Denisevich",
@@ -399,11 +400,11 @@
       "count": 14
     },
     {
-      "player": "dragtar",
-      "count": 11
+      "player": "Huskyman20035",
+      "count": 12
     },
     {
-      "player": "Huskyman20035",
+      "player": "dragtar",
       "count": 11
     }
   ]

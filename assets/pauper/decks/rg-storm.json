@@ -2,10 +2,10 @@
   "archetype": "RG Storm",
   "slug": "rg-storm",
   "stats": {
-    "total_entries": 148,
-    "league_entries": 109,
-    "league_trophies": 109,
-    "league_trophies_yearly": 96,
+    "total_entries": 150,
+    "league_entries": 111,
+    "league_trophies": 111,
+    "league_trophies_yearly": 98,
     "challenge_appearances": 30,
     "challenge_wins": 114,
     "challenge_losses": 74,
@@ -13,10 +13,25 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 15,
     "league_trophy_rank_alltime": 25,
-    "league_trophy_decks_yearly": 64,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-04",
+      "player": "Abisd94",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0312846470",
       "tournament": "Pauper Challenge 32",
@@ -77,6 +92,21 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-01",
+      "player": "Lamela",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-3010855",
@@ -362,36 +392,6 @@
       "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1312843817",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-07",
-      "player": "DataPusher",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0712843817",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-07",
-      "player": "Mikhathara1994",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -428,12 +428,12 @@
       "count": 5
     },
     {
-      "player": "txouzo",
+      "player": "Abisd94",
       "count": 5
     },
     {
-      "player": "Ocaroca",
-      "count": 4
+      "player": "txouzo",
+      "count": 5
     }
   ]
 }

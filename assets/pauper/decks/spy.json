@@ -2,10 +2,10 @@
   "archetype": "Spy",
   "slug": "spy",
   "stats": {
-    "total_entries": 685,
-    "league_entries": 430,
-    "league_trophies": 430,
-    "league_trophies_yearly": 152,
+    "total_entries": 687,
+    "league_entries": 432,
+    "league_trophies": 432,
+    "league_trophies_yearly": 154,
     "challenge_appearances": 210,
     "challenge_wins": 846,
     "challenge_losses": 530,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 8,
     "league_trophy_rank_alltime": 6,
-    "league_trophy_decks_yearly": 64,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -76,6 +76,36 @@
       "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-01",
+      "player": "GoodVibesOnly",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-01",
+      "player": "asWerty",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-2910855",
@@ -361,36 +391,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1310636",
-      "tournament": "Pauper League",
-      "date": "2026-06-13",
-      "player": "Hrdd",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1312844320",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-13",
-      "player": "hetare_ane",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 26,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -400,7 +400,7 @@
     },
     {
       "player": "asWerty",
-      "count": 24
+      "count": 25
     },
     {
       "player": "Mikito9171",

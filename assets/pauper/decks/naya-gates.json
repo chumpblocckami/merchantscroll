@@ -2,19 +2,19 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 179,
-    "league_entries": 74,
-    "league_trophies": 74,
-    "league_trophies_yearly": 67,
+    "total_entries": 180,
+    "league_entries": 75,
+    "league_trophies": 75,
+    "league_trophies_yearly": 68,
     "challenge_appearances": 85,
     "challenge_wins": 339,
     "challenge_losses": 203,
     "irl_top8": 12,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 23,
+    "league_trophy_rank_yearly": 22,
     "league_trophy_rank_alltime": 34,
-    "league_trophy_decks_yearly": 64,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -256,6 +256,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-07-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-01",
+      "player": "ABAC0",
+      "colors": [
+        "B",
+        "G",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2026-06-3010855",
       "tournament": "Pauper League",
       "date": "2026-06-30",
@@ -422,23 +437,6 @@
       ],
       "record": "7-2",
       "final_rank": 15,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
-      "tournament": "Pauper RC Super Qualifier",
-      "date": "2026-06-27",
-      "player": "Triso",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "7-2",
-      "final_rank": 16,
       "source": "mtgo",
       "type": "other"
     }

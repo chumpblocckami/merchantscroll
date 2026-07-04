@@ -2,10 +2,10 @@
   "archetype": "B Sacrifice",
   "slug": "b-sacrifice",
   "stats": {
-    "total_entries": 295,
-    "league_entries": 201,
-    "league_trophies": 201,
-    "league_trophies_yearly": 81,
+    "total_entries": 296,
+    "league_entries": 202,
+    "league_trophies": 202,
+    "league_trophies_yearly": 82,
     "challenge_appearances": 82,
     "challenge_wins": 346,
     "challenge_losses": 201,
@@ -13,10 +13,24 @@
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 19,
     "league_trophy_rank_alltime": 17,
-    "league_trophy_decks_yearly": 64,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-04",
+      "player": "AngryChickenMTG",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-0210855",
       "tournament": "Pauper League",
@@ -338,20 +352,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2412842933",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-24",
-      "player": "EntroPete",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "8-1",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [

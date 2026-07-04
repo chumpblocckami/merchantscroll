@@ -2,10 +2,10 @@
   "archetype": "Boros Tribe",
   "slug": "boros-tribe",
   "stats": {
-    "total_entries": 88,
-    "league_entries": 50,
-    "league_trophies": 50,
-    "league_trophies_yearly": 50,
+    "total_entries": 89,
+    "league_entries": 51,
+    "league_trophies": 51,
+    "league_trophies_yearly": 51,
     "challenge_appearances": 35,
     "challenge_wins": 139,
     "challenge_losses": 89,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 27,
     "league_trophy_rank_alltime": 40,
-    "league_trophy_decks_yearly": 64,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -22,6 +22,22 @@
       "tournament": "Pauper League",
       "date": "2026-07-02",
       "player": "NMT_Sco94",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-01",
+      "player": "vincent99",
       "colors": [
         "B",
         "R",
@@ -402,22 +418,6 @@
       "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0410636",
-      "tournament": "Pauper League",
-      "date": "2026-06-04",
-      "player": "Lee_Sang",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
