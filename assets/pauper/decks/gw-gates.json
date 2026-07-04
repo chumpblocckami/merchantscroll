@@ -2,10 +2,10 @@
   "archetype": "GW Gates",
   "slug": "gw-gates",
   "stats": {
-    "total_entries": 168,
-    "league_entries": 94,
-    "league_trophies": 94,
-    "league_trophies_yearly": 71,
+    "total_entries": 169,
+    "league_entries": 95,
+    "league_trophies": 95,
+    "league_trophies_yearly": 72,
     "challenge_appearances": 70,
     "challenge_wins": 272,
     "challenge_losses": 167,
@@ -58,6 +58,23 @@
         "B",
         "G",
         "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-02",
+      "player": "Carlinhos_Jund",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
         "W"
       ],
       "record": "5-0",
@@ -389,21 +406,6 @@
       ],
       "record": "7-2",
       "final_rank": 9,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1312844320",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-13",
-      "player": "Diomed_Tidid",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "2-4",
-      "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
     }
