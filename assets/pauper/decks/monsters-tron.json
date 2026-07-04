@@ -2,21 +2,37 @@
   "archetype": "Monsters Tron",
   "slug": "monsters-tron",
   "stats": {
-    "total_entries": 134,
-    "league_entries": 90,
-    "league_trophies": 90,
-    "league_trophies_yearly": 84,
+    "total_entries": 135,
+    "league_entries": 91,
+    "league_trophies": 91,
+    "league_trophies_yearly": 85,
     "challenge_appearances": 36,
     "challenge_wins": 140,
     "challenge_losses": 96,
     "irl_top8": 6,
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 17,
-    "league_trophy_rank_alltime": 32,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_rank_alltime": 31,
+    "league_trophy_decks_yearly": 64,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-02",
+      "player": "Ankylosaur",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-1910636",
       "tournament": "Pauper League",
@@ -386,22 +402,6 @@
       "final_rank": 3,
       "source": "pauperwave",
       "type": "irl"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-1712842508",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-17",
-      "player": "HornsOfTheRabbit",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [

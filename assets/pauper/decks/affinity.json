@@ -2,10 +2,10 @@
   "archetype": "Affinity",
   "slug": "affinity",
   "stats": {
-    "total_entries": 911,
-    "league_entries": 348,
-    "league_trophies": 348,
-    "league_trophies_yearly": 191,
+    "total_entries": 907,
+    "league_entries": 344,
+    "league_trophies": 344,
+    "league_trophies_yearly": 187,
     "challenge_appearances": 492,
     "challenge_wins": 2033,
     "challenge_losses": 1234,
@@ -13,40 +13,10 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 6,
     "league_trophy_rank_alltime": 8,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 64,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-07-0310855",
-      "tournament": "Pauper League",
-      "date": "2026-07-03",
-      "player": "BrokeMagic",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0310855",
-      "tournament": "Pauper League",
-      "date": "2026-07-03",
-      "player": "Heterodox",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-challenge-32-2026-07-0312846470",
       "tournament": "Pauper Challenge 32",
@@ -151,36 +121,6 @@
       "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-01",
-      "player": "lindoso01",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-01",
-      "player": "Al_bertoR",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-3010855",
@@ -390,6 +330,66 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845643",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-25",
+      "player": "sai199orz",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845643",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-25",
+      "player": "LuffyDoChapeuDePalha",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845643",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-25",
+      "player": "newbarola",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "2-4",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845643",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-25",
+      "player": "sai199orz",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -422,16 +422,16 @@
       "count": 13
     },
     {
-      "player": "lindoso01",
-      "count": 11
-    },
-    {
       "player": "yahakara",
       "count": 11
     },
     {
       "player": "outZEROo",
       "count": 11
+    },
+    {
+      "player": "lindoso01",
+      "count": 10
     }
   ]
 }

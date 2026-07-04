@@ -3,17 +3,17 @@
   "display_name": "Lamela",
   "irl_name": null,
   "stats": {
-    "total_entries": 47,
-    "league_trophies": 16,
-    "league_trophies_yearly": 13,
+    "total_entries": 46,
+    "league_trophies": 15,
+    "league_trophies_yearly": 12,
     "challenge_wins": 111,
     "challenge_losses": 78,
     "irl_top8": 0,
     "challenge_win_pct": 59,
-    "league_trophy_rank_yearly": 59,
-    "league_trophy_rank_alltime": 127,
-    "league_trophy_players_yearly": 1245,
-    "league_trophy_players_alltime": 1979
+    "league_trophy_rank_yearly": 69,
+    "league_trophy_rank_alltime": 133,
+    "league_trophy_players_yearly": 1227,
+    "league_trophy_players_alltime": 1963
   },
   "favorite_decks": [
     {
@@ -29,10 +29,6 @@
       "count": 4
     },
     {
-      "archetype": "RG Storm",
-      "count": 4
-    },
-    {
       "archetype": "Pingers",
       "count": 3
     },
@@ -42,6 +38,10 @@
     },
     {
       "archetype": "UG Fog",
+      "count": 3
+    },
+    {
+      "archetype": "RG Storm",
       "count": 3
     },
     {
@@ -73,22 +73,6 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-01",
-      "player": "Lamela",
-      "archetype": "RG Storm",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2612845653",
@@ -448,6 +432,22 @@
       "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-02-0910196",
+      "tournament": "pauper-league-2026-02-0910196",
+      "date": "2026-02-09",
+      "player": "Lamela",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-02-0910196",
