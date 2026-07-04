@@ -2,49 +2,21 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 149,
-    "league_entries": 70,
-    "league_trophies": 70,
-    "league_trophies_yearly": 42,
-    "challenge_appearances": 70,
-    "challenge_wins": 225,
-    "challenge_losses": 177,
+    "total_entries": 146,
+    "league_entries": 68,
+    "league_trophies": 68,
+    "league_trophies_yearly": 40,
+    "challenge_appearances": 69,
+    "challenge_wins": 222,
+    "challenge_losses": 174,
     "irl_top8": 4,
     "challenge_win_pct": 56,
     "league_trophy_rank_yearly": 29,
     "league_trophy_rank_alltime": 35,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 68,
+    "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-challenge-32-2026-07-0412846485",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-04",
-      "player": "Ixidor29",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 28,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-04",
-      "player": "Darkmasterfent",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-challenge-32-2026-07-0212846460",
       "tournament": "Pauper Challenge 32",
@@ -72,20 +44,6 @@
       "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-01",
-      "player": "KGery",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
@@ -374,12 +332,54 @@
       "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1210636",
+      "tournament": "Pauper League",
+      "date": "2026-06-12",
+      "player": "Ixidor29",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1210636",
+      "tournament": "Pauper League",
+      "date": "2026-06-12",
+      "player": "guiwarchina",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1112844295",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-11",
+      "player": "Ixidor29",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 19,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "Ixidor29",
-      "count": 38
+      "count": 37
     },
     {
       "player": "Guizera",
