@@ -3,22 +3,22 @@
   "display_name": "yuxiaoyu",
   "irl_name": null,
   "stats": {
-    "total_entries": 81,
+    "total_entries": 82,
     "league_trophies": 61,
     "league_trophies_yearly": 25,
-    "challenge_wins": 61,
-    "challenge_losses": 48,
+    "challenge_wins": 65,
+    "challenge_losses": 50,
     "irl_top8": 0,
-    "challenge_win_pct": 56,
-    "league_trophy_rank_yearly": 17,
+    "challenge_win_pct": 57,
+    "league_trophy_rank_yearly": 18,
     "league_trophy_rank_alltime": 13,
-    "league_trophy_players_yearly": 1236,
-    "league_trophy_players_alltime": 1971
+    "league_trophy_players_yearly": 1246,
+    "league_trophy_players_alltime": 1980
   },
   "favorite_decks": [
     {
       "archetype": "Gardens",
-      "count": 36
+      "count": 37
     },
     {
       "archetype": "Jund",
@@ -58,6 +58,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0412846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "yuxiaoyu",
+      "archetype": "Gardens",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "4-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
       "tournament": "Pauper RC Super Qualifier",
@@ -425,21 +440,6 @@
       "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-04-0810405",
-      "tournament": "Pauper League",
-      "date": "2026-04-08",
-      "player": "yuxiaoyu",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

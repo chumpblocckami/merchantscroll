@@ -2,21 +2,51 @@
   "archetype": "RG Storm",
   "slug": "rg-storm",
   "stats": {
-    "total_entries": 150,
+    "total_entries": 152,
     "league_entries": 111,
     "league_trophies": 111,
     "league_trophies_yearly": 98,
-    "challenge_appearances": 30,
-    "challenge_wins": 114,
-    "challenge_losses": 74,
+    "challenge_appearances": 32,
+    "challenge_wins": 118,
+    "challenge_losses": 80,
     "irl_top8": 9,
-    "challenge_win_pct": 61,
+    "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 15,
     "league_trophy_rank_alltime": 25,
-    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0412846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "John1111",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0412846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "Lamela",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-0410855",
       "tournament": "Pauper League",
@@ -362,36 +392,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0910636",
-      "tournament": "Pauper League",
-      "date": "2026-06-09",
-      "player": "txouzo",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1312843817",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-07",
-      "player": "Mikhathara1994",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -424,15 +424,15 @@
       "count": 5
     },
     {
+      "player": "Lamela",
+      "count": 5
+    },
+    {
       "player": "CosmicCharles",
       "count": 5
     },
     {
       "player": "Abisd94",
-      "count": 5
-    },
-    {
-      "player": "txouzo",
       "count": 5
     }
   ]

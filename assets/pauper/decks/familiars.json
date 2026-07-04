@@ -2,26 +2,68 @@
   "archetype": "Familiars",
   "slug": "familiars",
   "stats": {
-    "total_entries": 278,
-    "league_entries": 154,
-    "league_trophies": 154,
-    "league_trophies_yearly": 67,
-    "challenge_appearances": 99,
-    "challenge_wins": 407,
-    "challenge_losses": 248,
+    "total_entries": 282,
+    "league_entries": 157,
+    "league_trophies": 157,
+    "league_trophies_yearly": 70,
+    "challenge_appearances": 100,
+    "challenge_wins": 413,
+    "challenge_losses": 250,
     "irl_top8": 20,
     "challenge_win_pct": 62,
-    "league_trophy_rank_yearly": 23,
+    "league_trophy_rank_yearly": 22,
     "league_trophy_rank_alltime": 21,
-    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0412846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "ChaoticMTG",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "6-2",
+      "final_rank": 4,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-0410855",
       "tournament": "Pauper League",
       "date": "2026-07-04",
       "player": "TheManji",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-04",
+      "player": "Gn42",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-03",
+      "player": "Bails76",
       "colors": [
         "U",
         "W"
@@ -58,6 +100,23 @@
       "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-02",
+      "player": "Winthrowlose",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0112845719",
@@ -313,62 +372,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1310636",
-      "tournament": "Pauper League",
-      "date": "2026-06-13",
-      "player": "Martin_Dominguez",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-06-13-aquila-summer-2026",
-      "tournament": "LP L'Aquila Summer 2026 — L'Aquila",
-      "date": "2026-06-13",
-      "player": "Alessio De Leonardis",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "",
-      "final_rank": 5,
-      "source": "pauperwave",
-      "type": "irl"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1210636",
-      "tournament": "Pauper League",
-      "date": "2026-06-12",
-      "player": "nuyileqq",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1210636",
-      "tournament": "Pauper League",
-      "date": "2026-06-12",
-      "player": "Edo_01",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -378,7 +381,7 @@
     },
     {
       "player": "ChaoticMTG",
-      "count": 26
+      "count": 27
     },
     {
       "player": "TSPJendrek",

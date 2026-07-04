@@ -3,17 +3,17 @@
   "display_name": "Pafru",
   "irl_name": null,
   "stats": {
-    "total_entries": 36,
-    "league_trophies": 12,
-    "league_trophies_yearly": 1,
-    "challenge_wins": 94,
-    "challenge_losses": 60,
+    "total_entries": 39,
+    "league_trophies": 14,
+    "league_trophies_yearly": 3,
+    "challenge_wins": 97,
+    "challenge_losses": 63,
     "irl_top8": 0,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 1067,
-    "league_trophy_rank_alltime": 180,
-    "league_trophy_players_yearly": 1236,
-    "league_trophy_players_alltime": 1971
+    "league_trophy_rank_yearly": 391,
+    "league_trophy_rank_alltime": 152,
+    "league_trophy_players_yearly": 1246,
+    "league_trophy_players_alltime": 1980
   },
   "favorite_decks": [
     {
@@ -31,6 +31,10 @@
     {
       "archetype": "Esper Affinity",
       "count": 4
+    },
+    {
+      "archetype": "Boros Synth",
+      "count": 3
     },
     {
       "archetype": "White Weenie",
@@ -51,13 +55,57 @@
     {
       "archetype": "UB Faeries",
       "count": 1
-    },
-    {
-      "archetype": "Spy",
-      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0412846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "Pafru",
+      "archetype": "Boros Synth",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 21,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-03",
+      "player": "Pafru",
+      "archetype": "Boros Synth",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-03",
+      "player": "Pafru",
+      "archetype": "Boros Synth",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0212846460",
       "tournament": "Pauper Challenge 32",
@@ -393,54 +441,6 @@
       "final_rank": 22,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-08-119535",
-      "tournament": "pauper-league-2025-08-119535",
-      "date": "2025-08-11",
-      "player": "Pafru",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-08-109535",
-      "tournament": "pauper-league-2025-08-109535",
-      "date": "2025-08-10",
-      "player": "Pafru",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-07-259366",
-      "tournament": "pauper-league-2025-07-259366",
-      "date": "2025-07-25",
-      "player": "Pafru",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

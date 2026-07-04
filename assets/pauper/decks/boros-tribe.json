@@ -2,21 +2,54 @@
   "archetype": "Boros Tribe",
   "slug": "boros-tribe",
   "stats": {
-    "total_entries": 89,
-    "league_entries": 51,
-    "league_trophies": 51,
-    "league_trophies_yearly": 51,
-    "challenge_appearances": 35,
-    "challenge_wins": 139,
-    "challenge_losses": 89,
+    "total_entries": 91,
+    "league_entries": 52,
+    "league_trophies": 52,
+    "league_trophies_yearly": 52,
+    "challenge_appearances": 36,
+    "challenge_wins": 142,
+    "challenge_losses": 92,
     "irl_top8": 3,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 27,
     "league_trophy_rank_alltime": 40,
-    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0412846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "PNascimento",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-03",
+      "player": "NMT_Sco94",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-0210855",
       "tournament": "Pauper League",
@@ -386,44 +419,12 @@
       "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0612843773",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-04",
-      "player": "Enz091",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0412843773",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-04",
-      "player": "Enz091",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "PNascimento",
-      "count": 11
+      "count": 12
     },
     {
       "player": "Emogoblin",
@@ -436,6 +437,10 @@
     {
       "player": "MisterAsiago",
       "count": 6
+    },
+    {
+      "player": "NMT_Sco94",
+      "count": 4
     },
     {
       "player": "Lee_Sang",
@@ -451,10 +456,6 @@
     },
     {
       "player": "Enz091",
-      "count": 3
-    },
-    {
-      "player": "NMT_Sco94",
       "count": 3
     },
     {

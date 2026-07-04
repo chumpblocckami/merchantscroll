@@ -2,21 +2,37 @@
   "archetype": "Bogle",
   "slug": "bogle",
   "stats": {
-    "total_entries": 230,
+    "total_entries": 231,
     "league_entries": 90,
     "league_trophies": 90,
     "league_trophies_yearly": 19,
-    "challenge_appearances": 134,
-    "challenge_wins": 535,
-    "challenge_losses": 347,
+    "challenge_appearances": 135,
+    "challenge_wins": 537,
+    "challenge_losses": 350,
     "irl_top8": 2,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 38,
     "league_trophy_rank_alltime": 31,
-    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0412846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "AoFTW",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "2-3",
+      "final_rank": 31,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0312846470",
       "tournament": "Pauper Challenge 32",
@@ -404,23 +420,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-0710636",
-      "tournament": "Pauper League",
-      "date": "2026-05-07",
-      "player": "stash86",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -434,7 +433,7 @@
     },
     {
       "player": "AoFTW",
-      "count": 8
+      "count": 9
     },
     {
       "player": "broers_",

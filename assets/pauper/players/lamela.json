@@ -3,17 +3,17 @@
   "display_name": "Lamela",
   "irl_name": null,
   "stats": {
-    "total_entries": 47,
+    "total_entries": 48,
     "league_trophies": 16,
     "league_trophies_yearly": 13,
-    "challenge_wins": 111,
-    "challenge_losses": 78,
+    "challenge_wins": 113,
+    "challenge_losses": 81,
     "irl_top8": 0,
-    "challenge_win_pct": 59,
-    "league_trophy_rank_yearly": 59,
-    "league_trophy_rank_alltime": 126,
-    "league_trophy_players_yearly": 1236,
-    "league_trophy_players_alltime": 1971
+    "challenge_win_pct": 58,
+    "league_trophy_rank_yearly": 60,
+    "league_trophy_rank_alltime": 127,
+    "league_trophy_players_yearly": 1246,
+    "league_trophy_players_alltime": 1980
   },
   "favorite_decks": [
     {
@@ -25,11 +25,11 @@
       "count": 7
     },
     {
-      "archetype": "Familiars",
-      "count": 4
+      "archetype": "RG Storm",
+      "count": 5
     },
     {
-      "archetype": "RG Storm",
+      "archetype": "Familiars",
       "count": 4
     },
     {
@@ -58,6 +58,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0412846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "Lamela",
+      "archetype": "RG Storm",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0112845719",
       "tournament": "Pauper Challenge 32",
@@ -448,22 +464,6 @@
       "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-02-0910196",
-      "tournament": "pauper-league-2026-02-0910196",
-      "date": "2026-02-09",
-      "player": "Lamela",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

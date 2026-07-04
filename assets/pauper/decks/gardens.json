@@ -2,21 +2,35 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 645,
+    "total_entries": 646,
     "league_entries": 343,
     "league_trophies": 343,
     "league_trophies_yearly": 149,
-    "challenge_appearances": 266,
-    "challenge_wins": 1083,
-    "challenge_losses": 658,
+    "challenge_appearances": 267,
+    "challenge_wins": 1087,
+    "challenge_losses": 660,
     "irl_top8": 18,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 10,
     "league_trophy_rank_alltime": 9,
-    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0412846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "yuxiaoyu",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "4-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0312846470",
       "tournament": "Pauper Challenge 32",
@@ -352,20 +366,6 @@
       "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2012844856",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-20",
-      "player": "hetare_ane",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "3-3",
-      "final_rank": 25,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -379,7 +379,7 @@
     },
     {
       "player": "yuxiaoyu",
-      "count": 36
+      "count": 37
     },
     {
       "player": "Aster17",
