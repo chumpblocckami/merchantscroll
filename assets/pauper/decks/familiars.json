@@ -2,10 +2,10 @@
   "archetype": "Familiars",
   "slug": "familiars",
   "stats": {
-    "total_entries": 282,
-    "league_entries": 157,
-    "league_trophies": 157,
-    "league_trophies_yearly": 70,
+    "total_entries": 281,
+    "league_entries": 156,
+    "league_trophies": 156,
+    "league_trophies_yearly": 69,
     "challenge_appearances": 100,
     "challenge_wins": 413,
     "challenge_losses": 250,
@@ -100,23 +100,6 @@
       "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-02",
-      "player": "Winthrowlose",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0112845719",
@@ -365,6 +348,20 @@
       "colors": [
         "G",
         "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1310636",
+      "tournament": "Pauper League",
+      "date": "2026-06-13",
+      "player": "Martin_Dominguez",
+      "colors": [
         "U",
         "W"
       ],
