@@ -2,10 +2,10 @@
   "archetype": "BR Madness",
   "slug": "br-madness",
   "stats": {
-    "total_entries": 790,
-    "league_entries": 375,
-    "league_trophies": 375,
-    "league_trophies_yearly": 109,
+    "total_entries": 791,
+    "league_entries": 376,
+    "league_trophies": 376,
+    "league_trophies_yearly": 110,
     "challenge_appearances": 386,
     "challenge_wins": 1570,
     "challenge_losses": 982,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-04",
+      "player": "Adrowo",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-0310855",
       "tournament": "Pauper League",
@@ -375,21 +390,6 @@
       ],
       "record": "7-3",
       "final_rank": 2,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1012844841",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-19",
-      "player": "BERNASTORRES",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "2-4",
-      "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
     }

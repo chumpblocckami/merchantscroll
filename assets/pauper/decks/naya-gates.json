@@ -2,21 +2,38 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 176,
-    "league_entries": 71,
-    "league_trophies": 71,
-    "league_trophies_yearly": 64,
+    "total_entries": 177,
+    "league_entries": 72,
+    "league_trophies": 72,
+    "league_trophies_yearly": 65,
     "challenge_appearances": 85,
     "challenge_wins": 339,
     "challenge_losses": 203,
     "irl_top8": 12,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 24,
+    "league_trophy_rank_yearly": 23,
     "league_trophy_rank_alltime": 34,
     "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-04",
+      "player": "lostonkato",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0312846470",
       "tournament": "Pauper Challenge 32",
@@ -422,23 +439,6 @@
       "final_rank": 15,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
-      "tournament": "Pauper RC Super Qualifier",
-      "date": "2026-06-27",
-      "player": "Triso",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "7-2",
-      "final_rank": 16,
-      "source": "mtgo",
-      "type": "other"
     }
   ],
   "top_pilots": [
@@ -463,6 +463,10 @@
       "count": 6
     },
     {
+      "player": "lostonkato",
+      "count": 4
+    },
+    {
       "player": "manohito",
       "count": 4
     },
@@ -472,10 +476,6 @@
     },
     {
       "player": "celobee",
-      "count": 3
-    },
-    {
-      "player": "lostonkato",
       "count": 3
     },
     {
