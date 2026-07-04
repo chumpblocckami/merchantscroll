@@ -2,10 +2,10 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 150,
-    "league_entries": 71,
-    "league_trophies": 71,
-    "league_trophies_yearly": 43,
+    "total_entries": 149,
+    "league_entries": 70,
+    "league_trophies": 70,
+    "league_trophies_yearly": 42,
     "challenge_appearances": 70,
     "challenge_wins": 225,
     "challenge_losses": 177,
@@ -58,22 +58,6 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-02",
-      "player": "Sodeq",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0112845719",
@@ -376,6 +360,20 @@
       "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1212844305",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-12",
+      "player": "Ixidor29",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 27,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -416,7 +414,7 @@
       "count": 3
     },
     {
-      "player": "Sodeq",
+      "player": "FRFSEIXAS",
       "count": 3
     }
   ]

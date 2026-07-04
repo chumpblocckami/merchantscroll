@@ -2,10 +2,10 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1174,
-    "league_entries": 612,
-    "league_trophies": 612,
-    "league_trophies_yearly": 230,
+    "total_entries": 1175,
+    "league_entries": 613,
+    "league_trophies": 613,
+    "league_trophies_yearly": 231,
     "challenge_appearances": 503,
     "challenge_wins": 2017,
     "challenge_losses": 1259,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-04",
+      "player": "kille",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0312846470",
       "tournament": "Pauper Challenge 32",
@@ -349,20 +363,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2112844875",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-21",
-      "player": "karatedom",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "9-1",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
