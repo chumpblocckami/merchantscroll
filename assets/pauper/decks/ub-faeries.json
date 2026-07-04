@@ -2,10 +2,10 @@
   "archetype": "UB Faeries",
   "slug": "ub-faeries",
   "stats": {
-    "total_entries": 571,
-    "league_entries": 310,
-    "league_trophies": 310,
-    "league_trophies_yearly": 182,
+    "total_entries": 572,
+    "league_entries": 311,
+    "league_trophies": 311,
+    "league_trophies_yearly": 183,
     "challenge_appearances": 234,
     "challenge_wins": 972,
     "challenge_losses": 590,
@@ -51,6 +51,20 @@
       "tournament": "Pauper League",
       "date": "2026-07-04",
       "player": "LabroNico",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-04",
+      "player": "End3avour",
       "colors": [
         "B",
         "U"
@@ -353,20 +367,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2812845687",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-28",
-      "player": "Infinitalove",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "7-2",
-      "final_rank": 3,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
