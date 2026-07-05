@@ -2,17 +2,17 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 31,
-    "league_entries": 9,
-    "league_trophies": 9,
-    "league_trophies_yearly": 9,
+    "total_entries": 33,
+    "league_entries": 11,
+    "league_trophies": 11,
+    "league_trophies_yearly": 11,
     "challenge_appearances": 20,
     "challenge_wins": 86,
     "challenge_losses": 53,
     "irl_top8": 2,
     "challenge_win_pct": 62,
-    "league_trophy_rank_yearly": 48,
-    "league_trophy_rank_alltime": 53,
+    "league_trophy_rank_yearly": 47,
+    "league_trophy_rank_alltime": 51,
     "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 72
   },
@@ -31,6 +31,23 @@
       "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-03",
+      "player": "Hype12232",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-0310855",
@@ -60,6 +77,22 @@
       "final_rank": 3,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-02",
+      "player": "Ankylosaur",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-0210855",
@@ -364,36 +397,6 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1012844841",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-19",
-      "player": "karatedom",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1910636",
-      "tournament": "Pauper League",
-      "date": "2026-06-19",
-      "player": "AchoElOjcah",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -414,6 +417,10 @@
       "count": 2
     },
     {
+      "player": "Hype12232",
+      "count": 2
+    },
+    {
       "player": "karatedom",
       "count": 2
     },
@@ -426,15 +433,11 @@
       "count": 1
     },
     {
-      "player": "Hype12232",
-      "count": 1
-    },
-    {
       "player": "SirBarbaffo",
       "count": 1
     },
     {
-      "player": "Auripower",
+      "player": "Ankylosaur",
       "count": 1
     }
   ]

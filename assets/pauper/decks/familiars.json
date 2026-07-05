@@ -2,21 +2,35 @@
   "archetype": "Familiars",
   "slug": "familiars",
   "stats": {
-    "total_entries": 281,
-    "league_entries": 156,
-    "league_trophies": 156,
-    "league_trophies_yearly": 69,
+    "total_entries": 284,
+    "league_entries": 159,
+    "league_trophies": 159,
+    "league_trophies_yearly": 72,
     "challenge_appearances": 100,
     "challenge_wins": 413,
     "challenge_losses": 250,
     "irl_top8": 20,
     "challenge_win_pct": 62,
-    "league_trophy_rank_yearly": 23,
+    "league_trophy_rank_yearly": 21,
     "league_trophy_rank_alltime": 21,
     "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-05",
+      "player": "Berga_",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0412846485",
       "tournament": "Pauper Challenge 32",
@@ -102,6 +116,23 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-07-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-02",
+      "player": "Winthrowlose",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-0112845719",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-01",
@@ -128,6 +159,23 @@
       "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-01",
+      "player": "Raptor56",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
@@ -325,50 +373,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1410636",
-      "tournament": "Pauper League",
-      "date": "2026-06-14",
-      "player": "Berga_",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1410636",
-      "tournament": "Pauper League",
-      "date": "2026-06-14",
-      "player": "Raptor56",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1310636",
-      "tournament": "Pauper League",
-      "date": "2026-06-13",
-      "player": "Martin_Dominguez",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -398,7 +402,7 @@
     },
     {
       "player": "Berga_",
-      "count": 7
+      "count": 8
     },
     {
       "player": "MichelBiro",
