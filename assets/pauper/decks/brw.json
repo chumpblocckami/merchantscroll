@@ -1,37 +1,31 @@
 {
-  "username": "mnszz",
-  "display_name": "MnSzZ",
-  "irl_name": null,
+  "archetype": "BRW",
+  "slug": "brw",
   "stats": {
     "total_entries": 2,
+    "league_entries": 2,
     "league_trophies": 2,
     "league_trophies_yearly": 2,
+    "challenge_appearances": 0,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 583,
-    "league_trophy_rank_alltime": 1060,
-    "league_trophy_players_yearly": 1260,
-    "league_trophy_players_alltime": 1991
+    "league_trophy_rank_yearly": 59,
+    "league_trophy_rank_alltime": 69,
+    "league_trophy_decks_yearly": 68,
+    "league_trophy_decks_alltime": 74
   },
-  "favorite_decks": [
-    {
-      "archetype": "R Madness",
-      "count": 2
-    }
-  ],
   "recent_entries": [
     {
-      "site_name": "pauper-league-2026-07-0310855",
+      "site_name": "pauper-league-2026-07-0210855",
       "tournament": "Pauper League",
-      "date": "2026-07-03",
-      "player": "MnSzZ",
-      "archetype": "R Madness",
+      "date": "2026-07-02",
+      "player": "cabrabr12",
       "colors": [
         "B",
         "R",
-        "U"
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -39,20 +33,29 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-04-2410636",
+      "site_name": "pauper-league-2026-07-0110855",
       "tournament": "Pauper League",
-      "date": "2026-04-24",
-      "player": "MnSzZ",
-      "archetype": "R Madness",
+      "date": "2026-07-01",
+      "player": "sim00rte",
       "colors": [
         "B",
         "R",
-        "U"
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    }
+  ],
+  "top_pilots": [
+    {
+      "player": "cabrabr12",
+      "count": 1
+    },
+    {
+      "player": "sim00rte",
+      "count": 1
     }
   ]
 }

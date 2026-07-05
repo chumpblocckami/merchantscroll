@@ -665,7 +665,8 @@
         "B",
         "G",
         "W"
-      ]
+      ],
+      "archetype": "Food Pestilence"
     },
     {
       "player": "PrimoShow1",
@@ -2674,7 +2675,7 @@
         "R",
         "U"
       ],
-      "archetype": "BR Madness"
+      "archetype": "R Madness"
     },
     {
       "player": "fishduggery",
@@ -5405,6 +5406,469 @@
         "U"
       ],
       "archetype": "R Madness"
+    },
+    {
+      "player": "Trukki",
+      "main_deck": [
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Cast Down",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Cleansing Wildfire",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Drossforge Bridge",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Eviscerator's Insight",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Fanatical Offering",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Forest",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Nyxborn Hydra",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Nihil Spellbomb",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Krark-Clan Shaman",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Lembas",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Makeshift Munitions",
+            "card_type": "ENCHMT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Mountain",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Ichor Wellspring",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Refurbished Familiar",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Slagwoods Bridge",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Forest",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Twisted Landscape",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Writhing Chrysalis",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Swamp",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Swamp",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Swamp",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Galvanic Blast",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Terminate",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Vault of Whispers",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Gixian Infiltrator",
+            "card_type": "ISCREA"
+          }
+        }
+      ],
+      "sideboard_deck": [
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Pyroblast",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Terminate",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Breath Weapon",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Faerie Macabre",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Duress",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Ancient Grudge",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Troublemaker Ouphe",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Weather the Storm",
+            "card_type": "INSTNT"
+          }
+        }
+      ],
+      "wins": {
+        "loginplayeventcourseid": "35430420",
+        "wins": "5",
+        "losses": "0"
+      },
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "archetype": "Jund"
+    },
+    {
+      "player": "apa19",
+      "main_deck": [
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Lembas",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Plains",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Citadel Gate",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Cliffgate",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Cryogen Relic",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Kor Skyfisher",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Shattered Acolyte",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Glint Hawk",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Mountain",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Torch the Tower",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Jolted Awake",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Faithless Looting",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Melded Moxite",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Basilisk Gate",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Journey to Nowhere",
+            "card_type": "ENCHMT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Sacred Cat",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Sea Gate",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Ancient Den",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Sneaky Snacker",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Pursue the Past",
+            "card_type": "SORCRY"
+          }
+        }
+      ],
+      "sideboard_deck": [
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Pyroblast",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Journey to Nowhere",
+            "card_type": "ENCHMT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Pyroblast",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Hydroblast",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Dust to Dust",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Relic of Progenitus",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Relic of Progenitus",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Thraben Charm",
+            "card_type": "INSTNT"
+          }
+        }
+      ],
+      "wins": {
+        "loginplayeventcourseid": "35430953",
+        "wins": "5",
+        "losses": "0"
+      },
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ]
     }
   ]
 }

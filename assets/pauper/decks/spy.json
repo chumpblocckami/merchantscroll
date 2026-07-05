@@ -2,10 +2,10 @@
   "archetype": "Spy",
   "slug": "spy",
   "stats": {
-    "total_entries": 693,
-    "league_entries": 438,
-    "league_trophies": 438,
-    "league_trophies_yearly": 160,
+    "total_entries": 694,
+    "league_entries": 439,
+    "league_trophies": 439,
+    "league_trophies_yearly": 161,
     "challenge_appearances": 210,
     "challenge_wins": 846,
     "challenge_losses": 530,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 8,
     "league_trophy_rank_alltime": 6,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 68,
+    "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
     {
@@ -56,6 +56,23 @@
         "B",
         "G",
         "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-04",
+      "player": "Taute",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -364,21 +381,6 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1912844841",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-19",
-      "player": "PGBrewing",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "3-4",
-      "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1012844841",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-19",
       "player": "PGBrewing",

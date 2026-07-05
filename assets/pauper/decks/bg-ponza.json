@@ -2,19 +2,19 @@
   "archetype": "BG Ponza",
   "slug": "bg-ponza",
   "stats": {
-    "total_entries": 3,
-    "league_entries": 0,
-    "league_trophies": 0,
-    "league_trophies_yearly": 0,
+    "total_entries": 5,
+    "league_entries": 2,
+    "league_trophies": 2,
+    "league_trophies_yearly": 2,
     "challenge_appearances": 1,
     "challenge_wins": 3,
     "challenge_losses": 3,
     "irl_top8": 2,
     "challenge_win_pct": 50,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": null,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_rank_yearly": 57,
+    "league_trophy_rank_alltime": 66,
+    "league_trophy_decks_yearly": 68,
+    "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
     {
@@ -30,6 +30,34 @@
       "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-04",
+      "player": "Darkmasterfent",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-01",
+      "player": "KGery",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauperwave-2026-06-12-lucca-summer-2026",
@@ -67,6 +95,14 @@
     },
     {
       "player": "Ixidor29",
+      "count": 1
+    },
+    {
+      "player": "Darkmasterfent",
+      "count": 1
+    },
+    {
+      "player": "KGery",
       "count": 1
     }
   ]

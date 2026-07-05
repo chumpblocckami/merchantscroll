@@ -2,10 +2,10 @@
   "archetype": "Jund",
   "slug": "jund",
   "stats": {
-    "total_entries": 1216,
-    "league_entries": 524,
-    "league_trophies": 524,
-    "league_trophies_yearly": 203,
+    "total_entries": 1218,
+    "league_entries": 526,
+    "league_trophies": 526,
+    "league_trophies_yearly": 205,
     "challenge_appearances": 589,
     "challenge_wins": 2366,
     "challenge_losses": 1485,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 5,
     "league_trophy_rank_alltime": 5,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 68,
+    "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
     {
@@ -22,6 +22,21 @@
       "tournament": "Pauper League",
       "date": "2026-07-05",
       "player": "Squall93",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-05",
+      "player": "Trukki",
       "colors": [
         "B",
         "G",
@@ -228,6 +243,21 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-07-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-01",
+      "player": "synth1a",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2026-06-2910855",
       "tournament": "Pauper League",
       "date": "2026-06-29",
@@ -359,36 +389,6 @@
       ],
       "record": "7-2",
       "final_rank": 10,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
-      "tournament": "Pauper RC Super Qualifier",
-      "date": "2026-06-27",
-      "player": "wolf777",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "7-2",
-      "final_rank": 11,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
-      "tournament": "Pauper RC Super Qualifier",
-      "date": "2026-06-27",
-      "player": "ziofrancone",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "7-2",
-      "final_rank": 12,
       "source": "mtgo",
       "type": "other"
     }
