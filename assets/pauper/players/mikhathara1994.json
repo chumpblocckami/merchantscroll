@@ -3,19 +3,23 @@
   "display_name": "Mikhathara1994",
   "irl_name": null,
   "stats": {
-    "total_entries": 48,
-    "league_trophies": 14,
-    "league_trophies_yearly": 4,
+    "total_entries": 49,
+    "league_trophies": 15,
+    "league_trophies_yearly": 5,
     "challenge_wins": 134,
     "challenge_losses": 76,
     "irl_top8": 0,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 288,
-    "league_trophy_rank_alltime": 150,
+    "league_trophy_rank_yearly": 222,
+    "league_trophy_rank_alltime": 139,
     "league_trophy_players_yearly": 1255,
     "league_trophy_players_alltime": 1987
   },
   "favorite_decks": [
+    {
+      "archetype": "RG Storm",
+      "count": 9
+    },
     {
       "archetype": "Jeskai",
       "count": 9
@@ -23,10 +27,6 @@
     {
       "archetype": "Spy",
       "count": 9
-    },
-    {
-      "archetype": "RG Storm",
-      "count": 8
     },
     {
       "archetype": "UG Fog",
@@ -58,6 +58,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-05",
+      "player": "Mikhathara1994",
+      "archetype": "RG Storm",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0412846485",
       "tournament": "Pauper Challenge 32",
@@ -443,21 +459,6 @@
       "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-rc-super-qualifier-2025-11-0912823531",
-      "tournament": "Pauper RC Super Qualifier",
-      "date": "2025-11-09",
-      "player": "Mikhathara1994",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "7-2",
-      "final_rank": 20,
-      "source": "mtgo",
-      "type": "other"
     }
   ]
 }

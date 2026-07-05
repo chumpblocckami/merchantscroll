@@ -2,16 +2,16 @@
   "archetype": "Flicker Tron",
   "slug": "flicker-tron",
   "stats": {
-    "total_entries": 241,
-    "league_entries": 135,
-    "league_trophies": 135,
-    "league_trophies_yearly": 59,
+    "total_entries": 240,
+    "league_entries": 134,
+    "league_trophies": 134,
+    "league_trophies_yearly": 58,
     "challenge_appearances": 93,
     "challenge_wins": 382,
     "challenge_losses": 238,
     "irl_top8": 5,
     "challenge_win_pct": 62,
-    "league_trophy_rank_yearly": 25,
+    "league_trophy_rank_yearly": 26,
     "league_trophy_rank_alltime": 23,
     "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 72
@@ -22,23 +22,6 @@
       "tournament": "Pauper League",
       "date": "2026-07-05",
       "player": "Xatrith",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0310855",
-      "tournament": "Pauper League",
-      "date": "2026-07-03",
-      "player": "Hype12232",
       "colors": [
         "B",
         "G",
@@ -435,6 +418,22 @@
       ],
       "record": "8-1",
       "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0712843798",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-06",
+      "player": "Kampo",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
     }
