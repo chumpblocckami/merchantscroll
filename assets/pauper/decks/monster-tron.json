@@ -2,10 +2,10 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 32,
-    "league_entries": 10,
-    "league_trophies": 10,
-    "league_trophies_yearly": 10,
+    "total_entries": 31,
+    "league_entries": 9,
+    "league_trophies": 9,
+    "league_trophies_yearly": 9,
     "challenge_appearances": 20,
     "challenge_wins": 86,
     "challenge_losses": 53,
@@ -31,23 +31,6 @@
       "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0310855",
-      "tournament": "Pauper League",
-      "date": "2026-07-03",
-      "player": "Hype12232",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-0310855",
@@ -396,6 +379,21 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1910636",
+      "tournament": "Pauper League",
+      "date": "2026-06-19",
+      "player": "AchoElOjcah",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -416,10 +414,6 @@
       "count": 2
     },
     {
-      "player": "Hype12232",
-      "count": 2
-    },
-    {
       "player": "karatedom",
       "count": 2
     },
@@ -429,6 +423,10 @@
     },
     {
       "player": "Entropy263",
+      "count": 1
+    },
+    {
+      "player": "Hype12232",
       "count": 1
     },
     {
