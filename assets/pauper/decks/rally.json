@@ -2,10 +2,10 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 1049,
-    "league_entries": 594,
-    "league_trophies": 594,
-    "league_trophies_yearly": 254,
+    "total_entries": 1050,
+    "league_entries": 595,
+    "league_trophies": 595,
+    "league_trophies_yearly": 255,
     "challenge_appearances": 418,
     "challenge_wins": 1620,
     "challenge_losses": 1072,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 3,
     "league_trophy_rank_alltime": 4,
-    "league_trophy_decks_yearly": 68,
-    "league_trophy_decks_alltime": 74
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -51,6 +51,21 @@
       "date": "2026-07-05",
       "player": "jakallo98",
       "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-05",
+      "player": "LELE_88",
+      "colors": [
+        "B",
         "G",
         "R"
       ],
@@ -346,20 +361,6 @@
       ],
       "record": "5-2",
       "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0112845719",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-01",
-      "player": "boom_bust",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
     }
