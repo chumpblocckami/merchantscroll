@@ -2,10 +2,10 @@
   "archetype": "UR Control",
   "slug": "ur-control",
   "stats": {
-    "total_entries": 201,
-    "league_entries": 123,
-    "league_trophies": 123,
-    "league_trophies_yearly": 48,
+    "total_entries": 200,
+    "league_entries": 122,
+    "league_trophies": 122,
+    "league_trophies_yearly": 47,
     "challenge_appearances": 68,
     "challenge_wins": 282,
     "challenge_losses": 169,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 28,
     "league_trophy_rank_alltime": 24,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -30,21 +30,6 @@
       "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-04",
-      "player": "Ben_Matocha",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-3010855",
@@ -381,6 +366,20 @@
       "final_rank": 3,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauperwave-2026-05-24-pauperagù",
+      "tournament": "Pauperagù 2026 — Bologna",
+      "date": "2026-05-24",
+      "player": "Lapo Bartoli",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "",
+      "final_rank": null,
+      "source": "pauperwave",
+      "type": "irl"
     }
   ],
   "top_pilots": [

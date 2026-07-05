@@ -1,43 +1,40 @@
 {
-  "archetype": "BRUW",
-  "slug": "bruw",
+  "username": "grantfly",
+  "display_name": "Grantfly",
+  "irl_name": null,
   "stats": {
     "total_entries": 1,
-    "league_entries": 1,
     "league_trophies": 1,
     "league_trophies_yearly": 1,
-    "challenge_appearances": 0,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 64,
-    "league_trophy_rank_alltime": 70,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "league_trophy_rank_yearly": 895,
+    "league_trophy_rank_alltime": 1494,
+    "league_trophy_players_yearly": 1253,
+    "league_trophy_players_alltime": 1986
   },
+  "favorite_decks": [
+    {
+      "archetype": "B Sacrifice",
+      "count": 1
+    }
+  ],
   "recent_entries": [
     {
       "site_name": "pauper-league-2026-07-0510855",
       "tournament": "Pauper League",
       "date": "2026-07-05",
-      "player": "Punchilleno",
+      "player": "Grantfly",
+      "archetype": "B Sacrifice",
       "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
+        "B"
       ],
       "record": "5-0",
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    }
-  ],
-  "top_pilots": [
-    {
-      "player": "Punchilleno",
-      "count": 1
     }
   ]
 }
