@@ -11,12 +11,27 @@
     "challenge_losses": 48,
     "irl_top8": 2,
     "challenge_win_pct": 52,
-    "league_trophy_rank_yearly": 54,
+    "league_trophy_rank_yearly": 53,
     "league_trophy_rank_alltime": 62,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 67,
+    "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-05",
+      "player": "Squall93",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0112845719",
       "tournament": "Pauper Challenge 32",
@@ -31,21 +46,6 @@
       "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-01",
-      "player": "synth1a",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
@@ -366,6 +366,10 @@
       "count": 3
     },
     {
+      "player": "Squall93",
+      "count": 2
+    },
+    {
       "player": "qbturtle15",
       "count": 2
     },
@@ -391,10 +395,6 @@
     },
     {
       "player": "KuramaKev",
-      "count": 1
-    },
-    {
-      "player": "Gregorio Vietina",
       "count": 1
     }
   ]

@@ -1644,8 +1644,7 @@
         "R",
         "U",
         "W"
-      ],
-      "archetype": "BW Refurbished"
+      ]
     },
     {
       "player": "kokoko098",
@@ -3503,7 +3502,7 @@
         "G",
         "R"
       ],
-      "archetype": "Jund"
+      "archetype": "BR Affinity"
     },
     {
       "player": "Huskyman20035",
@@ -4247,6 +4246,226 @@
       "archetype": "B Sacrifice"
     },
     {
+      "player": "DrizztCRO",
+      "main_deck": [
+        {
+          "qty": "8",
+          "card_attributes": {
+            "card_name": "Island",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Plains",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Sunscape Familiar",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Azorius Chancery",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Mulldrifter",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Sea Gate Oracle",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Preordain",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Negate",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Ghostly Flicker",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Archaeomancer",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Mortuary Mire",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Snap",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "God-Pharaoh's Faithful",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Murmuring Mystic",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Ephemerate",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Prohibit",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Sage's Row Denizen",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Glacial Floodplain",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Meeting of Minds",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Glorious Gale",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Lórien Revealed",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Contaminated Landscape",
+            "card_type": "LAND  "
+          }
+        }
+      ],
+      "sideboard_deck": [
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Dust to Dust",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Stonehorn Dignitary",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Negate",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Last Breath",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Hydroblast",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Glorious Gale",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Thraben Charm",
+            "card_type": "INSTNT"
+          }
+        }
+      ],
+      "wins": {
+        "loginplayeventcourseid": "35428679",
+        "wins": "5",
+        "losses": "0"
+      },
+      "colors": [
+        "U",
+        "W"
+      ],
+      "archetype": "Familiars"
+    },
+    {
       "player": "EntroPete",
       "main_deck": [
         {
@@ -4421,13 +4640,6 @@
       "player": "Mikebrav",
       "main_deck": [
         {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Guttersnipe",
-            "card_type": "ISCREA"
-          }
-        },
-        {
           "qty": "4",
           "card_attributes": {
             "card_name": "Fireblast",
@@ -4548,6 +4760,13 @@
         },
         {
           "qty": "3",
+          "card_attributes": {
+            "card_name": "Guttersnipe",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
           "card_attributes": {
             "card_name": "Guttersnipe",
             "card_type": "ISCREA"
@@ -4836,6 +5055,157 @@
         "W"
       ],
       "archetype": "Familiars"
+    },
+    {
+      "player": "OniReject",
+      "main_deck": [
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Fireblast",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Voldaren Epicure",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Sneaky Snacker",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Fiery Temper",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Lightning Bolt",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Faithless Looting",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Grab the Prize",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Highway Robbery",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Lava Dart",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Guttersnipe",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "18",
+          "card_attributes": {
+            "card_name": "Mountain",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Melded Moxite",
+            "card_type": "ARTFCT"
+          }
+        }
+      ],
+      "sideboard_deck": [
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Red Elemental Blast",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Relic of Progenitus",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Suplex",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Flaring Pain",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Relic of Progenitus",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Pyroblast",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Red Elemental Blast",
+            "card_type": "INSTNT"
+          }
+        }
+      ],
+      "wins": {
+        "loginplayeventcourseid": "35429364",
+        "wins": "5",
+        "losses": "0"
+      },
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "archetype": "R Madness"
     }
   ]
 }
