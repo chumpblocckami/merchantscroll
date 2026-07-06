@@ -2,10 +2,10 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 1058,
-    "league_entries": 598,
-    "league_trophies": 598,
-    "league_trophies_yearly": 258,
+    "total_entries": 1057,
+    "league_entries": 597,
+    "league_trophies": 597,
+    "league_trophies_yearly": 257,
     "challenge_appearances": 423,
     "challenge_wins": 1639,
     "challenge_losses": 1087,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 3,
     "league_trophy_rank_alltime": 4,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -255,19 +255,6 @@
       "site_name": "pauper-league-2026-07-0310855",
       "tournament": "Pauper League",
       "date": "2026-07-03",
-      "player": "Maxipk",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0310855",
-      "tournament": "Pauper League",
-      "date": "2026-07-03",
       "player": "zewill",
       "colors": [
         "G",
@@ -359,6 +346,20 @@
       ],
       "record": "5-2",
       "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0212846460",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-02",
+      "player": "boom_bust",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-3",
+      "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
     }

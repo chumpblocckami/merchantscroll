@@ -2,10 +2,10 @@
   "archetype": "Monsters",
   "slug": "monsters",
   "stats": {
-    "total_entries": 369,
-    "league_entries": 209,
-    "league_trophies": 209,
-    "league_trophies_yearly": 64,
+    "total_entries": 370,
+    "league_entries": 210,
+    "league_trophies": 210,
+    "league_trophies_yearly": 65,
     "challenge_appearances": 135,
     "challenge_wins": 486,
     "challenge_losses": 357,
@@ -13,10 +13,24 @@
     "challenge_win_pct": 58,
     "league_trophy_rank_yearly": 24,
     "league_trophy_rank_alltime": 16,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-06",
+      "player": "AsinoRotante",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-0210855",
       "tournament": "Pauper League",
@@ -357,20 +371,6 @@
       ],
       "record": "3-3",
       "final_rank": 19,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-1512842474",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-15",
-      "player": "YSZzz",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "6-2",
-      "final_rank": 4,
       "source": "mtgo",
       "type": "challenge"
     }

@@ -3,15 +3,15 @@
   "display_name": "marzaboi",
   "irl_name": null,
   "stats": {
-    "total_entries": 60,
-    "league_trophies": 17,
-    "league_trophies_yearly": 6,
+    "total_entries": 61,
+    "league_trophies": 18,
+    "league_trophies_yearly": 7,
     "challenge_wins": 173,
     "challenge_losses": 92,
     "irl_top8": 0,
     "challenge_win_pct": 65,
-    "league_trophy_rank_yearly": 169,
-    "league_trophy_rank_alltime": 120,
+    "league_trophy_rank_yearly": 140,
+    "league_trophy_rank_alltime": 109,
     "league_trophy_players_yearly": 1264,
     "league_trophy_players_alltime": 1994
   },
@@ -22,7 +22,7 @@
     },
     {
       "archetype": "Naya Gates",
-      "count": 8
+      "count": 9
     },
     {
       "archetype": "GW Gates",
@@ -50,6 +50,24 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-06",
+      "player": "marzaboi",
+      "archetype": "Naya Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0512846504",
       "tournament": "Pauper Challenge 32",
@@ -466,24 +484,6 @@
       "final_rank": 20,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-rc-super-qualifier-2025-12-2812828040",
-      "tournament": "Pauper RC Super Qualifier",
-      "date": "2025-12-28",
-      "player": "marzaboi",
-      "archetype": "Dredge",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "10-2",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "other"
     }
   ]
 }
