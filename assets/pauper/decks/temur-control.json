@@ -2,21 +2,36 @@
   "archetype": "Temur Control",
   "slug": "temur-control",
   "stats": {
-    "total_entries": 10,
+    "total_entries": 11,
     "league_entries": 3,
     "league_trophies": 3,
     "league_trophies_yearly": 3,
-    "challenge_appearances": 5,
-    "challenge_wins": 18,
-    "challenge_losses": 13,
+    "challenge_appearances": 6,
+    "challenge_wins": 24,
+    "challenge_losses": 16,
     "irl_top8": 2,
-    "challenge_win_pct": 58,
-    "league_trophy_rank_yearly": 56,
+    "challenge_win_pct": 60,
+    "league_trophy_rank_yearly": 59,
     "league_trophy_rank_alltime": 66,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 67,
+    "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-showcase-challenge-2026-07-0512846446",
+      "tournament": "Pauper Showcase Challenge",
+      "date": "2026-07-05",
+      "player": "ZobLeBerger",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "6-3",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-2210636",
       "tournament": "Pauper League",
@@ -181,6 +196,10 @@
     },
     {
       "player": "firstshot",
+      "count": 1
+    },
+    {
+      "player": "ZobLeBerger",
       "count": 1
     },
     {

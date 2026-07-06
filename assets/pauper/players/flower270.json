@@ -3,22 +3,22 @@
   "display_name": "flower270",
   "irl_name": null,
   "stats": {
-    "total_entries": 62,
+    "total_entries": 63,
     "league_trophies": 52,
     "league_trophies_yearly": 30,
-    "challenge_wins": 44,
-    "challenge_losses": 12,
+    "challenge_wins": 51,
+    "challenge_losses": 14,
     "irl_top8": 0,
-    "challenge_win_pct": 79,
+    "challenge_win_pct": 78,
     "league_trophy_rank_yearly": 10,
     "league_trophy_rank_alltime": 18,
-    "league_trophy_players_yearly": 1262,
-    "league_trophy_players_alltime": 1992
+    "league_trophy_players_yearly": 1263,
+    "league_trophy_players_alltime": 1993
   },
   "favorite_decks": [
     {
       "archetype": "U Terror",
-      "count": 31
+      "count": 32
     },
     {
       "archetype": "Jund",
@@ -58,6 +58,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-showcase-challenge-2026-07-0512846446",
+      "tournament": "Pauper Showcase Challenge",
+      "date": "2026-07-05",
+      "player": "flower270",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "7-2",
+      "final_rank": 14,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-0210855",
       "tournament": "Pauper League",
@@ -420,22 +435,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-0412838126",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-04",
-      "player": "flower270",
-      "archetype": "UB Terror",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "9-0",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

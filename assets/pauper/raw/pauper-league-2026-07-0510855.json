@@ -2030,8 +2030,7 @@
         "R",
         "U",
         "W"
-      ],
-      "archetype": "BW Refurbished"
+      ]
     },
     {
       "player": "kokoko098",
@@ -2910,7 +2909,7 @@
         "B",
         "G"
       ],
-      "archetype": "Monster Tron"
+      "archetype": "Monsters Tron"
     },
     {
       "player": "maribves",
@@ -3061,7 +3060,7 @@
         "R",
         "U"
       ],
-      "archetype": "BR Madness"
+      "archetype": "R Madness"
     },
     {
       "player": "fishduggery",
@@ -5426,6 +5425,55 @@
       "player": "Berga_",
       "main_deck": [
         {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Murmuring Mystic",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Ghostly Flicker",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Azorius Chancery",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Archaeomancer",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Sunscape Familiar",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Snap",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Negate",
+            "card_type": "INSTNT"
+          }
+        },
+        {
           "qty": "3",
           "card_attributes": {
             "card_name": "Sea Gate Oracle",
@@ -5521,55 +5569,6 @@
           "card_attributes": {
             "card_name": "Island",
             "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Murmuring Mystic",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Ghostly Flicker",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Azorius Chancery",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "3",
-          "card_attributes": {
-            "card_name": "Archaeomancer",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Sunscape Familiar",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Snap",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Negate",
-            "card_type": "INSTNT"
           }
         }
       ],
@@ -6155,7 +6154,7 @@
       "colors": [
         "R"
       ],
-      "archetype": "Rally"
+      "archetype": "Pingers"
     },
     {
       "player": "Trukki",
@@ -6618,8 +6617,7 @@
         "R",
         "U",
         "W"
-      ],
-      "archetype": "Boros Glitter"
+      ]
     },
     {
       "player": "Carlinhos_Jund",

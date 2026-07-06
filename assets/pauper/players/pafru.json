@@ -3,17 +3,17 @@
   "display_name": "Pafru",
   "irl_name": null,
   "stats": {
-    "total_entries": 39,
+    "total_entries": 40,
     "league_trophies": 14,
     "league_trophies_yearly": 3,
-    "challenge_wins": 97,
-    "challenge_losses": 63,
+    "challenge_wins": 101,
+    "challenge_losses": 65,
     "irl_top8": 0,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 396,
+    "league_trophy_rank_yearly": 397,
     "league_trophy_rank_alltime": 152,
-    "league_trophy_players_yearly": 1262,
-    "league_trophy_players_alltime": 1992
+    "league_trophy_players_yearly": 1263,
+    "league_trophy_players_alltime": 1993
   },
   "favorite_decks": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "archetype": "Boros Glitter",
-      "count": 3
+      "count": 4
     },
     {
       "archetype": "White Weenie",
@@ -58,6 +58,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0512846504",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-05",
+      "player": "Pafru",
+      "archetype": "Boros Glitter",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0412846485",
       "tournament": "Pauper Challenge 32",
@@ -425,22 +441,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-08-1512810045",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-08-15",
-      "player": "Pafru",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 22,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

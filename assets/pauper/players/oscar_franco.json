@@ -3,17 +3,17 @@
   "display_name": "Oscar_Franco",
   "irl_name": null,
   "stats": {
-    "total_entries": 5,
+    "total_entries": 6,
     "league_trophies": 4,
     "league_trophies_yearly": 2,
-    "challenge_wins": 0,
-    "challenge_losses": 0,
+    "challenge_wins": 4,
+    "challenge_losses": 2,
     "irl_top8": 0,
-    "challenge_win_pct": null,
+    "challenge_win_pct": 67,
     "league_trophy_rank_yearly": 611,
     "league_trophy_rank_alltime": 607,
-    "league_trophy_players_yearly": 1262,
-    "league_trophy_players_alltime": 1992
+    "league_trophy_players_yearly": 1263,
+    "league_trophy_players_alltime": 1993
   },
   "favorite_decks": [
     {
@@ -23,6 +23,10 @@
     {
       "archetype": "U Faeries",
       "count": 2
+    },
+    {
+      "archetype": "UB Terror",
+      "count": 1
     }
   ],
   "recent_entries": [
@@ -40,6 +44,22 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0512846504",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-05",
+      "player": "Oscar_Franco",
+      "archetype": "UB Terror",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-league-2026-07-0410855",

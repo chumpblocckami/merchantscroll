@@ -2,21 +2,36 @@
   "archetype": "GW Gates",
   "slug": "gw-gates",
   "stats": {
-    "total_entries": 168,
+    "total_entries": 169,
     "league_entries": 94,
     "league_trophies": 94,
     "league_trophies_yearly": 71,
-    "challenge_appearances": 70,
-    "challenge_wins": 272,
-    "challenge_losses": 167,
+    "challenge_appearances": 71,
+    "challenge_wins": 276,
+    "challenge_losses": 169,
     "irl_top8": 2,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 23,
     "league_trophy_rank_alltime": 29,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 67,
+    "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0512846504",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-05",
+      "player": "Triso",
+      "colors": [
+        "B",
+        "G",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 16,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0312846470",
       "tournament": "Pauper Challenge 32",
@@ -391,21 +406,6 @@
       "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1312844320",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-13",
-      "player": "Diomed_Tidid",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "2-4",
-      "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -418,12 +418,12 @@
       "count": 18
     },
     {
-      "player": "Emogoblin",
+      "player": "Triso",
       "count": 9
     },
     {
-      "player": "Triso",
-      "count": 8
+      "player": "Emogoblin",
+      "count": 9
     },
     {
       "player": "olati",
