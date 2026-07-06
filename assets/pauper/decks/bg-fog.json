@@ -2,37 +2,21 @@
   "archetype": "BG Fog",
   "slug": "bg-fog",
   "stats": {
-    "total_entries": 101,
-    "league_entries": 53,
-    "league_trophies": 53,
-    "league_trophies_yearly": 30,
+    "total_entries": 100,
+    "league_entries": 52,
+    "league_trophies": 52,
+    "league_trophies_yearly": 29,
     "challenge_appearances": 41,
     "challenge_wins": 178,
     "challenge_losses": 101,
     "irl_top8": 3,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 33,
-    "league_trophy_rank_alltime": 39,
+    "league_trophy_rank_yearly": 34,
+    "league_trophy_rank_alltime": 40,
     "league_trophy_decks_yearly": 67,
     "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-07-0210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-02",
-      "player": "murilobds",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-league-2026-06-2310636",
       "tournament": "Pauper League",
@@ -411,12 +395,28 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-03-1710405",
+      "tournament": "pauper-league-2026-03-1710405",
+      "date": "2026-03-17",
+      "player": "murilobds",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "murilobds",
-      "count": 28
+      "count": 27
     },
     {
       "player": "IvernOP",
