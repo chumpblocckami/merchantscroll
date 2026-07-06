@@ -2,10 +2,10 @@
   "archetype": "Flicker Tron",
   "slug": "flicker-tron",
   "stats": {
-    "total_entries": 241,
-    "league_entries": 135,
-    "league_trophies": 135,
-    "league_trophies_yearly": 59,
+    "total_entries": 240,
+    "league_entries": 134,
+    "league_trophies": 134,
+    "league_trophies_yearly": 58,
     "challenge_appearances": 93,
     "challenge_wins": 382,
     "challenge_losses": 238,
@@ -72,23 +72,6 @@
       "tournament": "Pauper League",
       "date": "2026-07-02",
       "player": "Winthrowlose",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-01",
-      "player": "Raptor56",
       "colors": [
         "B",
         "G",
@@ -437,6 +420,22 @@
       "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0712843798",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-06",
+      "player": "Kampo",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -454,7 +453,7 @@
     },
     {
       "player": "Raptor56",
-      "count": 10
+      "count": 9
     },
     {
       "player": "Hampuse1",

@@ -2,10 +2,10 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 1050,
-    "league_entries": 595,
-    "league_trophies": 595,
-    "league_trophies_yearly": 255,
+    "total_entries": 1051,
+    "league_entries": 596,
+    "league_trophies": 596,
+    "league_trophies_yearly": 256,
     "challenge_appearances": 418,
     "challenge_wins": 1620,
     "challenge_losses": 1072,
@@ -52,6 +52,19 @@
       "player": "jakallo98",
       "colors": [
         "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-05",
+      "player": "NMT_Sco94",
+      "colors": [
         "R"
       ],
       "record": "5-0",
@@ -349,20 +362,6 @@
       "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0112845719",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-01",
-      "player": "PedraStone",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-2",
-      "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -395,16 +394,16 @@
       "count": 13
     },
     {
+      "player": "NMT_Sco94",
+      "count": 12
+    },
+    {
       "player": "xDaddy",
       "count": 12
     },
     {
       "player": "Goblin_Player",
       "count": 12
-    },
-    {
-      "player": "NMT_Sco94",
-      "count": 11
     }
   ]
 }
