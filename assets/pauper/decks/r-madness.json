@@ -2,10 +2,10 @@
   "archetype": "R Madness",
   "slug": "r-madness",
   "stats": {
-    "total_entries": 1882,
-    "league_entries": 1090,
-    "league_trophies": 1090,
-    "league_trophies_yearly": 518,
+    "total_entries": 1884,
+    "league_entries": 1092,
+    "league_trophies": 1092,
+    "league_trophies_yearly": 520,
     "challenge_appearances": 687,
     "challenge_wins": 2691,
     "challenge_losses": 1751,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 1,
     "league_trophy_rank_alltime": 1,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -22,6 +22,21 @@
       "tournament": "Pauper League",
       "date": "2026-07-06",
       "player": "GilbertoAntunes",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-06",
+      "player": "daskreven",
       "colors": [
         "B",
         "R",
@@ -374,21 +389,6 @@
       ],
       "record": "4-2",
       "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0212846460",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-02",
-      "player": "fazparte",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
     }

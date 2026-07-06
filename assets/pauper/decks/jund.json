@@ -2,10 +2,10 @@
   "archetype": "Jund",
   "slug": "jund",
   "stats": {
-    "total_entries": 1222,
-    "league_entries": 524,
-    "league_trophies": 524,
-    "league_trophies_yearly": 203,
+    "total_entries": 1225,
+    "league_entries": 527,
+    "league_trophies": 527,
+    "league_trophies_yearly": 206,
     "challenge_appearances": 595,
     "challenge_wins": 2400,
     "challenge_losses": 1500,
@@ -13,10 +13,25 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 5,
     "league_trophy_rank_alltime": 5,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-06",
+      "player": "lucotto",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-0510855",
       "tournament": "Pauper League",
@@ -288,6 +303,36 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-07-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-02",
+      "player": "Protean_Hulk",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-02",
+      "player": "Frecuenza12",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2026-07-0110855",
       "tournament": "Pauper League",
       "date": "2026-07-01",
@@ -346,51 +391,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2812845687",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-28",
-      "player": "ziofrancone",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "6-2",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2812845687",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-28",
-      "player": "ls149950",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-2",
-      "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2812845687",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-28",
-      "player": "_blaze66",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "4-3",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [

@@ -3,17 +3,17 @@
   "display_name": "Triso",
   "irl_name": null,
   "stats": {
-    "total_entries": 32,
-    "league_trophies": 18,
-    "league_trophies_yearly": 8,
+    "total_entries": 33,
+    "league_trophies": 19,
+    "league_trophies_yearly": 9,
     "challenge_wins": 54,
     "challenge_losses": 25,
     "irl_top8": 0,
     "challenge_win_pct": 68,
-    "league_trophy_rank_yearly": 123,
-    "league_trophy_rank_alltime": 111,
-    "league_trophy_players_yearly": 1254,
-    "league_trophy_players_alltime": 1988
+    "league_trophy_rank_yearly": 106,
+    "league_trophy_rank_alltime": 98,
+    "league_trophy_players_yearly": 1264,
+    "league_trophy_players_alltime": 1994
   },
   "favorite_decks": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "archetype": "GW Gates",
-      "count": 8
+      "count": 9
     },
     {
       "archetype": "White Weenie",
@@ -70,6 +70,23 @@
       "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-02",
+      "player": "Triso",
+      "archetype": "GW Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
@@ -418,22 +435,6 @@
       ],
       "record": "7-2",
       "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-10-1012819509",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-10-10",
-      "player": "Triso",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
     }

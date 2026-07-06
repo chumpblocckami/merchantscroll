@@ -2,19 +2,19 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 33,
-    "league_entries": 9,
-    "league_trophies": 9,
-    "league_trophies_yearly": 9,
+    "total_entries": 34,
+    "league_entries": 10,
+    "league_trophies": 10,
+    "league_trophies_yearly": 10,
     "challenge_appearances": 22,
     "challenge_wins": 99,
     "challenge_losses": 58,
     "irl_top8": 2,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 49,
-    "league_trophy_rank_alltime": 55,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "league_trophy_rank_yearly": 48,
+    "league_trophy_rank_alltime": 52,
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -102,6 +102,22 @@
       "final_rank": 3,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-02",
+      "player": "Auripower",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0112845719",
@@ -373,21 +389,6 @@
       ],
       "record": "3-3",
       "final_rank": 22,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1912844841",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-19",
-      "player": "karatedom",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
     }

@@ -2,10 +2,10 @@
   "archetype": "Monsters",
   "slug": "monsters",
   "stats": {
-    "total_entries": 368,
-    "league_entries": 208,
-    "league_trophies": 208,
-    "league_trophies_yearly": 63,
+    "total_entries": 369,
+    "league_entries": 209,
+    "league_trophies": 209,
+    "league_trophies_yearly": 64,
     "challenge_appearances": 135,
     "challenge_wins": 486,
     "challenge_losses": 357,
@@ -13,10 +13,25 @@
     "challenge_win_pct": 58,
     "league_trophy_rank_yearly": 24,
     "league_trophy_rank_alltime": 16,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-02",
+      "player": "AsinoRotante",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2710855",
       "tournament": "Pauper League",
@@ -356,20 +371,6 @@
       ],
       "record": "6-2",
       "final_rank": 4,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-showcase-challenge-2026-05-1012842047",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2026-05-10",
-      "player": "medvedev",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "",
-      "final_rank": null,
       "source": "mtgo",
       "type": "challenge"
     }

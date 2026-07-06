@@ -2,10 +2,10 @@
   "archetype": "Spy",
   "slug": "spy",
   "stats": {
-    "total_entries": 695,
-    "league_entries": 439,
-    "league_trophies": 439,
-    "league_trophies_yearly": 161,
+    "total_entries": 696,
+    "league_entries": 440,
+    "league_trophies": 440,
+    "league_trophies_yearly": 162,
     "challenge_appearances": 211,
     "challenge_wins": 855,
     "challenge_losses": 532,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 8,
     "league_trophy_rank_alltime": 6,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -180,6 +180,21 @@
       "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-02",
+      "player": "imbaterran",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0112845719",
@@ -375,21 +390,6 @@
       "final_rank": 14,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2110636",
-      "tournament": "Pauper League",
-      "date": "2026-06-21",
-      "player": "lumely",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [

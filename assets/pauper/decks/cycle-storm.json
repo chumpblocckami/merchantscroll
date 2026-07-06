@@ -2,10 +2,10 @@
   "archetype": "Cycle Storm",
   "slug": "cycle-storm",
   "stats": {
-    "total_entries": 67,
-    "league_entries": 45,
-    "league_trophies": 45,
-    "league_trophies_yearly": 25,
+    "total_entries": 68,
+    "league_entries": 46,
+    "league_trophies": 46,
+    "league_trophies_yearly": 26,
     "challenge_appearances": 15,
     "challenge_wins": 50,
     "challenge_losses": 43,
@@ -13,10 +13,27 @@
     "challenge_win_pct": 54,
     "league_trophy_rank_yearly": 35,
     "league_trophy_rank_alltime": 41,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-06",
+      "player": "PedroRocha",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
       "tournament": "Pauper RC Super Qualifier",
@@ -373,21 +390,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-1212838904",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-12",
-      "player": "StudentAnselmus",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "4-3",
-      "final_rank": 28,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -404,15 +406,15 @@
       "count": 3
     },
     {
+      "player": "PedroRocha",
+      "count": 3
+    },
+    {
       "player": "williami1986",
       "count": 3
     },
     {
       "player": "Francesco Redaelli",
-      "count": 2
-    },
-    {
-      "player": "PedroRocha",
       "count": 2
     },
     {
