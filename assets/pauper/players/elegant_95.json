@@ -3,22 +3,22 @@
   "display_name": "Elegant_95",
   "irl_name": null,
   "stats": {
-    "total_entries": 26,
-    "league_trophies": 4,
-    "league_trophies_yearly": 3,
+    "total_entries": 27,
+    "league_trophies": 5,
+    "league_trophies_yearly": 4,
     "challenge_wins": 82,
     "challenge_losses": 57,
     "irl_top8": 0,
     "challenge_win_pct": 59,
-    "league_trophy_rank_yearly": 343,
-    "league_trophy_rank_alltime": 563,
-    "league_trophy_players_yearly": 1264,
-    "league_trophy_players_alltime": 1994
+    "league_trophy_rank_yearly": 257,
+    "league_trophy_rank_alltime": 473,
+    "league_trophy_players_yearly": 1267,
+    "league_trophy_players_alltime": 1995
   },
   "favorite_decks": [
     {
       "archetype": "U Terror",
-      "count": 23
+      "count": 24
     },
     {
       "archetype": "BR Madness",
@@ -34,6 +34,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-06",
+      "player": "Elegant_95",
+      "archetype": "U Terror",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2510855",
       "tournament": "Pauper League",
@@ -384,21 +399,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-08-0812807460",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-08-08",
-      "player": "Elegant_95",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

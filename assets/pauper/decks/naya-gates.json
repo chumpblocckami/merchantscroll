@@ -2,10 +2,10 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 193,
-    "league_entries": 81,
-    "league_trophies": 81,
-    "league_trophies_yearly": 74,
+    "total_entries": 194,
+    "league_entries": 82,
+    "league_trophies": 82,
+    "league_trophies_yearly": 75,
     "challenge_appearances": 92,
     "challenge_wins": 383,
     "challenge_losses": 217,
@@ -17,6 +17,23 @@
     "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-07",
+      "player": "newbarola",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-0610855",
       "tournament": "Pauper League",
@@ -424,29 +441,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0112845719",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-01",
-      "player": "newbarola",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "6-2",
-      "final_rank": 3,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "newbarola",
-      "count": 11
+      "count": 12
     },
     {
       "player": "marzaboi",

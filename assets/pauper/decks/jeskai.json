@@ -2,17 +2,17 @@
   "archetype": "Jeskai",
   "slug": "jeskai",
   "stats": {
-    "total_entries": 277,
-    "league_entries": 159,
-    "league_trophies": 159,
-    "league_trophies_yearly": 95,
+    "total_entries": 276,
+    "league_entries": 158,
+    "league_trophies": 158,
+    "league_trophies_yearly": 94,
     "challenge_appearances": 102,
     "challenge_wins": 424,
     "challenge_losses": 251,
     "irl_top8": 9,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 16,
-    "league_trophy_rank_alltime": 21,
+    "league_trophy_rank_alltime": 22,
     "league_trophy_decks_yearly": 67,
     "league_trophy_decks_alltime": 73
   },
@@ -200,21 +200,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-07-0410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-04",
-      "player": "Ben_Matocha",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-07-0310855",
       "tournament": "Pauper League",
       "date": "2026-07-03",
@@ -393,6 +378,21 @@
       ],
       "record": "6-3",
       "final_rank": 30,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
+      "tournament": "Pauper RC Super Qualifier",
+      "date": "2026-06-27",
+      "player": "Ale_Mtg",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "6-3",
+      "final_rank": 20,
       "source": "mtgo",
       "type": "other"
     }
