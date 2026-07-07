@@ -2,21 +2,35 @@
   "archetype": "Temur Control",
   "slug": "temur-control",
   "stats": {
-    "total_entries": 11,
-    "league_entries": 3,
-    "league_trophies": 3,
-    "league_trophies_yearly": 3,
+    "total_entries": 12,
+    "league_entries": 4,
+    "league_trophies": 4,
+    "league_trophies_yearly": 4,
     "challenge_appearances": 6,
     "challenge_wins": 24,
     "challenge_losses": 16,
     "irl_top8": 2,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 57,
-    "league_trophy_rank_alltime": 66,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_rank_yearly": 54,
+    "league_trophy_rank_alltime": 62,
+    "league_trophy_decks_yearly": 67,
+    "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-07",
+      "player": "roger__estrada",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-showcase-challenge-2026-07-0512846446",
       "tournament": "Pauper Showcase Challenge",
@@ -192,6 +206,10 @@
     },
     {
       "player": "qwertyelmer",
+      "count": 1
+    },
+    {
+      "player": "roger__estrada",
       "count": 1
     },
     {

@@ -2,10 +2,10 @@
   "archetype": "Jund",
   "slug": "jund",
   "stats": {
-    "total_entries": 1225,
-    "league_entries": 527,
-    "league_trophies": 527,
-    "league_trophies_yearly": 206,
+    "total_entries": 1227,
+    "league_entries": 529,
+    "league_trophies": 529,
+    "league_trophies_yearly": 208,
     "challenge_appearances": 595,
     "challenge_wins": 2400,
     "challenge_losses": 1500,
@@ -13,10 +13,25 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 5,
     "league_trophy_rank_alltime": 5,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 67,
+    "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-07",
+      "player": "_blaze66",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-0710855",
       "tournament": "Pauper League",
@@ -51,12 +66,26 @@
       "site_name": "pauper-league-2026-07-0610855",
       "tournament": "Pauper League",
       "date": "2026-07-06",
-      "player": "Huskyman20035",
+      "player": "Paul16",
       "colors": [
         "B",
         "G",
-        "R",
-        "U"
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-05",
+      "player": "Squall93",
+      "colors": [
+        "B",
+        "G",
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -362,42 +391,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2910855",
-      "tournament": "Pauper League",
-      "date": "2026-06-29",
-      "player": "sai199orz",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2910855",
-      "tournament": "Pauper League",
-      "date": "2026-06-29",
-      "player": "sai199orz",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "_blaze66",
-      "count": 153
+      "count": 154
     },
     {
       "player": "Walker735",
@@ -413,7 +412,7 @@
     },
     {
       "player": "Paul16",
-      "count": 23
+      "count": 24
     },
     {
       "player": "wolf777",
