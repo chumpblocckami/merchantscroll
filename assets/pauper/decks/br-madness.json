@@ -2,10 +2,10 @@
   "archetype": "BR Madness",
   "slug": "br-madness",
   "stats": {
-    "total_entries": 795,
-    "league_entries": 379,
-    "league_trophies": 379,
-    "league_trophies_yearly": 113,
+    "total_entries": 796,
+    "league_entries": 380,
+    "league_trophies": 380,
+    "league_trophies_yearly": 114,
     "challenge_appearances": 387,
     "challenge_wins": 1574,
     "challenge_losses": 984,
@@ -36,6 +36,21 @@
       "tournament": "Pauper League",
       "date": "2026-07-07",
       "player": "Ctian",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-07",
+      "player": "Ed_Elric",
       "colors": [
         "B",
         "R",
@@ -373,22 +388,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2110636",
-      "tournament": "Pauper League",
-      "date": "2026-06-21",
-      "player": "hetare_ane",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -398,7 +397,7 @@
     },
     {
       "player": "Ed_Elric",
-      "count": 26
+      "count": 27
     },
     {
       "player": "Captain_Tsubasa",
