@@ -2,10 +2,10 @@
   "archetype": "UB Terror",
   "slug": "ub-terror",
   "stats": {
-    "total_entries": 535,
-    "league_entries": 287,
-    "league_trophies": 287,
-    "league_trophies_yearly": 145,
+    "total_entries": 536,
+    "league_entries": 288,
+    "league_trophies": 288,
+    "league_trophies_yearly": 146,
     "challenge_appearances": 224,
     "challenge_wins": 922,
     "challenge_losses": 546,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-07",
+      "player": "dftleonidasfr",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0512846504",
       "tournament": "Pauper Challenge 32",
@@ -374,21 +389,6 @@
       ],
       "record": "4-3",
       "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1012844841",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-19",
-      "player": "thediabetical",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 20,
       "source": "mtgo",
       "type": "challenge"
     }
