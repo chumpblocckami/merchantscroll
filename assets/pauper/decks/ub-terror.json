@@ -2,10 +2,10 @@
   "archetype": "UB Terror",
   "slug": "ub-terror",
   "stats": {
-    "total_entries": 536,
-    "league_entries": 288,
-    "league_trophies": 288,
-    "league_trophies_yearly": 146,
+    "total_entries": 538,
+    "league_entries": 290,
+    "league_trophies": 290,
+    "league_trophies_yearly": 148,
     "challenge_appearances": 224,
     "challenge_wins": 922,
     "challenge_losses": 546,
@@ -13,15 +13,45 @@
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 11,
     "league_trophy_rank_alltime": 13,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
       "site_name": "pauper-league-2026-07-0710855",
       "tournament": "Pauper League",
       "date": "2026-07-07",
+      "player": "carvs",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-07",
       "player": "dftleonidasfr",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-07",
+      "player": "zgrimintes",
       "colors": [
         "B",
         "R",
@@ -361,42 +391,12 @@
       "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1912844841",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-19",
-      "player": "thediabetical",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1012844841",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-19",
-      "player": "Magicofplayer1",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "carvs",
-      "count": 44
+      "count": 45
     },
     {
       "player": "mehanske",

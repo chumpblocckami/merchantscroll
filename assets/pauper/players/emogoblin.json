@@ -3,17 +3,17 @@
   "display_name": "Emogoblin",
   "irl_name": null,
   "stats": {
-    "total_entries": 40,
-    "league_trophies": 15,
-    "league_trophies_yearly": 13,
+    "total_entries": 41,
+    "league_trophies": 16,
+    "league_trophies_yearly": 14,
     "challenge_wins": 101,
     "challenge_losses": 57,
     "irl_top8": 0,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 61,
-    "league_trophy_rank_alltime": 139,
-    "league_trophy_players_yearly": 1269,
-    "league_trophy_players_alltime": 1997
+    "league_trophy_rank_yearly": 51,
+    "league_trophy_rank_alltime": 126,
+    "league_trophy_players_yearly": 1275,
+    "league_trophy_players_alltime": 2001
   },
   "favorite_decks": [
     {
@@ -26,7 +26,7 @@
     },
     {
       "archetype": "Naya Gates",
-      "count": 8
+      "count": 9
     },
     {
       "archetype": "BGRW",
@@ -54,6 +54,24 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-07",
+      "player": "Emogoblin",
+      "archetype": "Naya Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-0410855",
       "tournament": "Pauper League",
@@ -447,23 +465,6 @@
       ],
       "record": "5-2",
       "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2112842891",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-21",
-      "player": "Emogoblin",
-      "archetype": "Boros Tribe",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 22,
       "source": "mtgo",
       "type": "challenge"
     }

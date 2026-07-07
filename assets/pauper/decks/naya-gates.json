@@ -2,19 +2,19 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 194,
-    "league_entries": 82,
-    "league_trophies": 82,
-    "league_trophies_yearly": 75,
+    "total_entries": 197,
+    "league_entries": 85,
+    "league_trophies": 85,
+    "league_trophies_yearly": 78,
     "challenge_appearances": 92,
     "challenge_wins": 383,
     "challenge_losses": 217,
     "irl_top8": 12,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 21,
+    "league_trophy_rank_yearly": 20,
     "league_trophy_rank_alltime": 34,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -22,6 +22,57 @@
       "tournament": "Pauper League",
       "date": "2026-07-07",
       "player": "newbarola",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-07",
+      "player": "Emogoblin",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-07",
+      "player": "OniReject",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-07",
+      "player": "MCScards",
       "colors": [
         "B",
         "G",
@@ -390,57 +441,6 @@
       "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0212846460",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-02",
-      "player": "seasonofmists",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 19,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0212846460",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-02",
-      "player": "newbarola",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-02",
-      "player": "Carlinhos_Jund",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -449,15 +449,15 @@
       "count": 12
     },
     {
+      "player": "Emogoblin",
+      "count": 9
+    },
+    {
       "player": "marzaboi",
       "count": 9
     },
     {
       "player": "seasonofmists",
-      "count": 8
-    },
-    {
-      "player": "Emogoblin",
       "count": 8
     },
     {
