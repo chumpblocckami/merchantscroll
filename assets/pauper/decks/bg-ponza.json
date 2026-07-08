@@ -2,49 +2,21 @@
   "archetype": "BG Ponza",
   "slug": "bg-ponza",
   "stats": {
-    "total_entries": 6,
-    "league_entries": 3,
-    "league_trophies": 3,
-    "league_trophies_yearly": 3,
+    "total_entries": 3,
+    "league_entries": 0,
+    "league_trophies": 0,
+    "league_trophies_yearly": 0,
     "challenge_appearances": 1,
     "challenge_wins": 3,
     "challenge_losses": 3,
     "irl_top8": 2,
     "challenge_win_pct": 50,
-    "league_trophy_rank_yearly": 56,
-    "league_trophy_rank_alltime": 64,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "league_trophy_rank_yearly": null,
+    "league_trophy_rank_alltime": null,
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-07-0710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-07",
-      "player": "Niederschatten",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-07",
-      "player": "_Abijhavs_",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-challenge-32-2026-07-0412846485",
       "tournament": "Pauper Challenge 32",
@@ -58,20 +30,6 @@
       "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-04",
-      "player": "Darkmasterfent",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauperwave-2026-06-12-lucca-summer-2026",
@@ -109,18 +67,6 @@
     },
     {
       "player": "Ixidor29",
-      "count": 1
-    },
-    {
-      "player": "Niederschatten",
-      "count": 1
-    },
-    {
-      "player": "_Abijhavs_",
-      "count": 1
-    },
-    {
-      "player": "Darkmasterfent",
       "count": 1
     }
   ]
