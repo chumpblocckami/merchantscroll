@@ -3,14 +3,14 @@
   "display_name": "QueMario",
   "irl_name": null,
   "stats": {
-    "total_entries": 42,
+    "total_entries": 43,
     "league_trophies": 6,
     "league_trophies_yearly": 3,
-    "challenge_wins": 148,
-    "challenge_losses": 95,
+    "challenge_wins": 152,
+    "challenge_losses": 97,
     "irl_top8": 0,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 416,
+    "league_trophy_rank_yearly": 418,
     "league_trophy_rank_alltime": 436,
     "league_trophy_players_yearly": 1280,
     "league_trophy_players_alltime": 2005
@@ -22,7 +22,7 @@
     },
     {
       "archetype": "Bogle",
-      "count": 6
+      "count": 7
     },
     {
       "archetype": "RG Ponza",
@@ -50,6 +50,24 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0812846623",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-08",
+      "player": "QueMario",
+      "archetype": "Bogle",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0312846470",
       "tournament": "Pauper Challenge 32",
@@ -411,20 +429,6 @@
       ],
       "record": "6-2",
       "final_rank": 4,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-09-2112815153",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-09-21",
-      "player": "QueMario",
-      "archetype": "Elves",
-      "colors": [
-        "G"
-      ],
-      "record": "4-2",
-      "final_rank": 20,
       "source": "mtgo",
       "type": "challenge"
     }

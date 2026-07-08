@@ -2,21 +2,34 @@
   "archetype": "B Sacrifice",
   "slug": "b-sacrifice",
   "stats": {
-    "total_entries": 302,
+    "total_entries": 303,
     "league_entries": 207,
     "league_trophies": 207,
     "league_trophies_yearly": 87,
-    "challenge_appearances": 83,
-    "challenge_wins": 349,
-    "challenge_losses": 204,
+    "challenge_appearances": 84,
+    "challenge_wins": 353,
+    "challenge_losses": 206,
     "irl_top8": 4,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 17,
     "league_trophy_rank_alltime": 17,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0812846623",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-08",
+      "player": "airplay",
+      "colors": [
+        "B"
+      ],
+      "record": "4-2",
+      "final_rank": 15,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-0510855",
       "tournament": "Pauper League",
@@ -340,19 +353,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0710636",
-      "tournament": "Pauper League",
-      "date": "2026-06-07",
-      "player": "airplay",
-      "colors": [
-        "B"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -362,7 +362,7 @@
     },
     {
       "player": "airplay",
-      "count": 35
+      "count": 36
     },
     {
       "player": "Cryomanc3r",

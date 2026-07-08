@@ -3,15 +3,15 @@
   "display_name": "ciurlo",
   "irl_name": null,
   "stats": {
-    "total_entries": 4,
+    "total_entries": 5,
     "league_trophies": 2,
     "league_trophies_yearly": 0,
-    "challenge_wins": 3,
-    "challenge_losses": 3,
+    "challenge_wins": 9,
+    "challenge_losses": 5,
     "irl_top8": 0,
-    "challenge_win_pct": 50,
+    "challenge_win_pct": 64,
     "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 918,
+    "league_trophy_rank_alltime": 920,
     "league_trophy_players_yearly": 1280,
     "league_trophy_players_alltime": 2005
   },
@@ -19,6 +19,10 @@
     {
       "archetype": "Jeskai",
       "count": 2
+    },
+    {
+      "archetype": "Elves",
+      "count": 1
     },
     {
       "archetype": "Jund",
@@ -30,6 +34,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0812846623",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-08",
+      "player": "ciurlo",
+      "archetype": "Elves",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "6-2",
+      "final_rank": 4,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-rc-super-qualifier-2025-11-0912823531",
       "tournament": "Pauper RC Super Qualifier",

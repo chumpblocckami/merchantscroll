@@ -3,11 +3,11 @@
   "display_name": "PinoIo_Cosmico",
   "irl_name": null,
   "stats": {
-    "total_entries": 27,
+    "total_entries": 28,
     "league_trophies": 10,
     "league_trophies_yearly": 6,
-    "challenge_wins": 59,
-    "challenge_losses": 37,
+    "challenge_wins": 62,
+    "challenge_losses": 40,
     "irl_top8": 0,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 180,
@@ -18,7 +18,7 @@
   "favorite_decks": [
     {
       "archetype": "Elves",
-      "count": 12
+      "count": 13
     },
     {
       "archetype": "Affinity",
@@ -50,6 +50,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0812846623",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-08",
+      "player": "PinoIo_Cosmico",
+      "archetype": "Elves",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "3-3",
+      "final_rank": 30,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-05-1612842489",
       "tournament": "Pauper Challenge 32",
@@ -422,22 +437,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-09-1312814274",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-09-13",
-      "player": "PinoIo_Cosmico",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-2",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

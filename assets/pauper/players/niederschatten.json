@@ -3,11 +3,11 @@
   "display_name": "Niederschatten",
   "irl_name": null,
   "stats": {
-    "total_entries": 100,
+    "total_entries": 101,
     "league_trophies": 49,
     "league_trophies_yearly": 26,
-    "challenge_wins": 221,
-    "challenge_losses": 114,
+    "challenge_wins": 226,
+    "challenge_losses": 116,
     "irl_top8": 0,
     "challenge_win_pct": 66,
     "league_trophy_rank_yearly": 16,
@@ -33,12 +33,12 @@
       "count": 12
     },
     {
-      "archetype": "Pingers",
-      "count": 7
+      "archetype": "Ponza",
+      "count": 8
     },
     {
-      "archetype": "Ponza",
-      "count": 6
+      "archetype": "Pingers",
+      "count": 7
     },
     {
       "archetype": "U Faeries",
@@ -49,21 +49,36 @@
       "count": 3
     },
     {
-      "archetype": "RG Ponza",
-      "count": 2
+      "archetype": "Jeskai",
+      "count": 1
     },
     {
-      "archetype": "Jeskai",
+      "archetype": "RG Ponza",
       "count": 1
     }
   ],
   "recent_entries": [
     {
+      "site_name": "pauper-challenge-32-2026-07-0812846623",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-08",
+      "player": "Niederschatten",
+      "archetype": "Ponza",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-2",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-league-2026-07-0710855",
       "tournament": "Pauper League",
       "date": "2026-07-07",
       "player": "Niederschatten",
-      "archetype": "RG Ponza",
+      "archetype": "Ponza",
       "colors": [
         "G",
         "R"
@@ -413,21 +428,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-05-0810636",
-      "tournament": "Pauper League",
-      "date": "2026-05-08",
-      "player": "Niederschatten",
-      "archetype": "Ponza",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }
