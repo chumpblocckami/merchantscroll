@@ -2,10 +2,10 @@
   "archetype": "Jeskai",
   "slug": "jeskai",
   "stats": {
-    "total_entries": 281,
-    "league_entries": 163,
-    "league_trophies": 163,
-    "league_trophies_yearly": 99,
+    "total_entries": 282,
+    "league_entries": 164,
+    "league_trophies": 164,
+    "league_trophies_yearly": 100,
     "challenge_appearances": 102,
     "challenge_wins": 424,
     "challenge_losses": 251,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 16,
     "league_trophy_rank_alltime": 21,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 67,
+    "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
     {
@@ -24,6 +24,21 @@
       "player": "Acecalna",
       "colors": [
         "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-08",
+      "player": "Pleitegeier",
+      "colors": [
         "R",
         "U",
         "W"
@@ -379,21 +394,6 @@
       ],
       "record": "5-2",
       "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2812845687",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-28",
-      "player": "Pleitegeier",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-3",
-      "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
     }
