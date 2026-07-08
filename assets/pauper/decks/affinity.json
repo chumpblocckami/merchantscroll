@@ -2,10 +2,10 @@
   "archetype": "Affinity",
   "slug": "affinity",
   "stats": {
-    "total_entries": 926,
-    "league_entries": 353,
-    "league_trophies": 353,
-    "league_trophies_yearly": 196,
+    "total_entries": 927,
+    "league_entries": 354,
+    "league_trophies": 354,
+    "league_trophies_yearly": 197,
     "challenge_appearances": 502,
     "challenge_wins": 2083,
     "challenge_losses": 1257,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 6,
     "league_trophy_rank_alltime": 8,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 67,
+    "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
     {
@@ -33,10 +33,25 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-07-0710855",
+      "site_name": "pauper-league-2026-07-0810855",
       "tournament": "Pauper League",
-      "date": "2026-07-07",
-      "player": "lindoso01",
+      "date": "2026-07-08",
+      "player": "WotC_AbeC",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-08",
+      "player": "Heterodox",
       "colors": [
         "B",
         "R",
@@ -51,9 +66,10 @@
       "site_name": "pauper-league-2026-07-0710855",
       "tournament": "Pauper League",
       "date": "2026-07-07",
-      "player": "taravangian_",
+      "player": "lindoso01",
       "colors": [
         "B",
+        "R",
         "U"
       ],
       "record": "5-0",
@@ -373,21 +389,6 @@
       "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-01",
-      "player": "lindoso01",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
