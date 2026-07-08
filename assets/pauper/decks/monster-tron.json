@@ -2,35 +2,21 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 35,
-    "league_entries": 11,
-    "league_trophies": 11,
-    "league_trophies_yearly": 11,
+    "total_entries": 33,
+    "league_entries": 9,
+    "league_trophies": 9,
+    "league_trophies_yearly": 9,
     "challenge_appearances": 22,
     "challenge_wins": 99,
     "challenge_losses": 58,
     "irl_top8": 2,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 46,
-    "league_trophy_rank_alltime": 51,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_rank_yearly": 49,
+    "league_trophy_rank_alltime": 54,
+    "league_trophy_decks_yearly": 67,
+    "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-07-0510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-05",
-      "player": "ovelha_aL",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-showcase-challenge-2026-07-0512846446",
       "tournament": "Pauper Showcase Challenge",
@@ -102,22 +88,6 @@
       "final_rank": 3,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-02",
-      "player": "Ankylosaur",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-0210855",
@@ -391,6 +361,37 @@
       "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2012844856",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-20",
+      "player": "Echanez",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 22,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1912844841",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-19",
+      "player": "karatedom",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 18,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -419,10 +420,6 @@
       "count": 2
     },
     {
-      "player": "ovelha_aL",
-      "count": 1
-    },
-    {
       "player": "Entropy263",
       "count": 1
     },
@@ -432,6 +429,10 @@
     },
     {
       "player": "SirBarbaffo",
+      "count": 1
+    },
+    {
+      "player": "Auripower",
       "count": 1
     }
   ]
