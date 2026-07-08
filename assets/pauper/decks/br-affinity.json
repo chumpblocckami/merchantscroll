@@ -2,21 +2,81 @@
   "archetype": "BR Affinity",
   "slug": "br-affinity",
   "stats": {
-    "total_entries": 23,
-    "league_entries": 4,
-    "league_trophies": 4,
-    "league_trophies_yearly": 4,
+    "total_entries": 27,
+    "league_entries": 8,
+    "league_trophies": 8,
+    "league_trophies_yearly": 8,
     "challenge_appearances": 16,
     "challenge_wins": 53,
     "challenge_losses": 48,
     "irl_top8": 2,
     "challenge_win_pct": 52,
-    "league_trophy_rank_yearly": 55,
-    "league_trophy_rank_alltime": 62,
+    "league_trophy_rank_yearly": 50,
+    "league_trophy_rank_alltime": 55,
     "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-05",
+      "player": "Trukki",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-03",
+      "player": "Pafru",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-03",
+      "player": "Pafru",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-03",
+      "player": "Borbs",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0112845719",
       "tournament": "Pauper Challenge 32",
@@ -325,35 +385,6 @@
       "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-03-1712844320",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-13",
-      "player": "_blaze66",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauperwave-2026-03-01-firenze-winter-2025",
-      "tournament": "LP Firenze Winter 2025 — Firenze",
-      "date": "2026-03-01",
-      "player": "Gregorio Vietina",
-      "colors": [
-        "B",
-        "R"
-      ],
-      "record": "",
-      "final_rank": 1,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [
@@ -378,6 +409,10 @@
       "count": 2
     },
     {
+      "player": "Pafru",
+      "count": 2
+    },
+    {
       "player": "s8shock",
       "count": 2
     },
@@ -386,15 +421,11 @@
       "count": 2
     },
     {
+      "player": "Trukki",
+      "count": 1
+    },
+    {
       "player": "giggimille",
-      "count": 1
-    },
-    {
-      "player": "KuramaKev",
-      "count": 1
-    },
-    {
-      "player": "Gregorio Vietina",
       "count": 1
     }
   ]
