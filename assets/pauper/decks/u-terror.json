@@ -2,10 +2,10 @@
   "archetype": "U Terror",
   "slug": "u-terror",
   "stats": {
-    "total_entries": 1681,
-    "league_entries": 789,
-    "league_trophies": 789,
-    "league_trophies_yearly": 314,
+    "total_entries": 1682,
+    "league_entries": 790,
+    "league_trophies": 790,
+    "league_trophies_yearly": 315,
     "challenge_appearances": 788,
     "challenge_wins": 3250,
     "challenge_losses": 1952,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-08",
+      "player": "Luminati",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-0710855",
       "tournament": "Pauper League",
@@ -351,26 +365,12 @@
       "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0212846460",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-02",
-      "player": "Syns",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "Luminati",
-      "count": 269
+      "count": 270
     },
     {
       "player": "discoverN",
