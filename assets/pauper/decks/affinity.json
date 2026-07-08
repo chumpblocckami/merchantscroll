@@ -2,10 +2,10 @@
   "archetype": "Affinity",
   "slug": "affinity",
   "stats": {
-    "total_entries": 929,
-    "league_entries": 355,
-    "league_trophies": 355,
-    "league_trophies_yearly": 198,
+    "total_entries": 930,
+    "league_entries": 356,
+    "league_trophies": 356,
+    "league_trophies_yearly": 199,
     "challenge_appearances": 503,
     "challenge_wins": 2087,
     "challenge_losses": 1259,
@@ -100,6 +100,20 @@
       "colors": [
         "B",
         "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-07",
+      "player": "taravangian_",
+      "colors": [
+        "B",
         "U"
       ],
       "record": "5-0",
@@ -374,21 +388,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0112845719",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-01",
-      "player": "LuffyDoChapeuDePalha",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-2",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [

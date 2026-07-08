@@ -2,10 +2,10 @@
   "archetype": "R Madness",
   "slug": "r-madness",
   "stats": {
-    "total_entries": 1896,
-    "league_entries": 1100,
-    "league_trophies": 1100,
-    "league_trophies_yearly": 528,
+    "total_entries": 1897,
+    "league_entries": 1101,
+    "league_trophies": 1101,
+    "league_trophies_yearly": 529,
     "challenge_appearances": 691,
     "challenge_wins": 2707,
     "challenge_losses": 1762,
@@ -261,6 +261,21 @@
       "site_name": "pauper-league-2026-07-0510855",
       "tournament": "Pauper League",
       "date": "2026-07-05",
+      "player": "maribves",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-05",
       "player": "Mikebrav",
       "colors": [
         "B",
@@ -374,21 +389,6 @@
       ],
       "record": "4-2",
       "final_rank": 14,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0412846485",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-04",
-      "player": "ABCD_1234",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 20,
       "source": "mtgo",
       "type": "challenge"
     }
