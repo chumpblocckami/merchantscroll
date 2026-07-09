@@ -3,17 +3,17 @@
   "display_name": "Syns",
   "irl_name": null,
   "stats": {
-    "total_entries": 55,
-    "league_trophies": 15,
-    "league_trophies_yearly": 12,
+    "total_entries": 56,
+    "league_trophies": 16,
+    "league_trophies_yearly": 13,
     "challenge_wins": 139,
     "challenge_losses": 109,
     "irl_top8": 0,
     "challenge_win_pct": 56,
-    "league_trophy_rank_yearly": 75,
-    "league_trophy_rank_alltime": 146,
-    "league_trophy_players_yearly": 1277,
-    "league_trophy_players_alltime": 2003
+    "league_trophy_rank_yearly": 65,
+    "league_trophy_rank_alltime": 134,
+    "league_trophy_players_yearly": 1282,
+    "league_trophy_players_alltime": 2006
   },
   "favorite_decks": [
     {
@@ -29,6 +29,10 @@
       "count": 3
     },
     {
+      "archetype": "Affinity",
+      "count": 2
+    },
+    {
       "archetype": "U Terror",
       "count": 1
     },
@@ -41,15 +45,27 @@
       "count": 1
     },
     {
-      "archetype": "Affinity",
-      "count": 1
-    },
-    {
       "archetype": "RG Ponza",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-08",
+      "player": "Syns",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0812846623",
       "tournament": "Pauper Challenge 32",
@@ -428,22 +444,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-0912838859",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-09",
-      "player": "Syns",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

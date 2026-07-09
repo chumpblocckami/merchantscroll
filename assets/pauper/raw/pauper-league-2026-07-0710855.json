@@ -7719,6 +7719,27 @@
       "player": "Maccaciock",
       "main_deck": [
         {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Forest",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Basilisk Gate",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Citadel Gate",
+            "card_type": "LAND  "
+          }
+        },
+        {
           "qty": "4",
           "card_attributes": {
             "card_name": "Gatecreeper Vine",
@@ -7828,27 +7849,6 @@
           "card_attributes": {
             "card_name": "Llanowar Visionary",
             "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Forest",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Basilisk Gate",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Citadel Gate",
-            "card_type": "LAND  "
           }
         }
       ],
@@ -8533,7 +8533,7 @@
         "B",
         "U"
       ],
-      "archetype": "Esper Affinity"
+      "archetype": "Affinity"
     }
   ]
 }
