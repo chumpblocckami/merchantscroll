@@ -2,10 +2,10 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 158,
-    "league_entries": 74,
-    "league_trophies": 74,
-    "league_trophies_yearly": 46,
+    "total_entries": 159,
+    "league_entries": 75,
+    "league_trophies": 75,
+    "league_trophies_yearly": 47,
     "challenge_appearances": 75,
     "challenge_wins": 247,
     "challenge_losses": 190,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-09",
+      "player": "_Abijhavs_",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-0810855",
       "tournament": "Pauper League",
@@ -360,20 +374,6 @@
       "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1212844338",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-14",
-      "player": "Ixidor29",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 22,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -410,11 +410,11 @@
       "count": 3
     },
     {
-      "player": "6apMaJleu4",
+      "player": "_Abijhavs_",
       "count": 3
     },
     {
-      "player": "Venga",
+      "player": "6apMaJleu4",
       "count": 3
     }
   ]
