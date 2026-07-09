@@ -2,10 +2,10 @@
   "archetype": "BW Refurbished",
   "slug": "bw-refurbished",
   "stats": {
-    "total_entries": 350,
-    "league_entries": 200,
-    "league_trophies": 200,
-    "league_trophies_yearly": 87,
+    "total_entries": 348,
+    "league_entries": 198,
+    "league_trophies": 198,
+    "league_trophies_yearly": 85,
     "challenge_appearances": 144,
     "challenge_wins": 552,
     "challenge_losses": 370,
@@ -46,22 +46,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-07-0510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-05",
-      "player": "Punchilleno",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-07-0512846504",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-05",
@@ -84,22 +68,6 @@
       "player": "Frank_Bonaparte",
       "colors": [
         "B",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-04",
-      "player": "viashinoperuano",
-      "colors": [
-        "B",
-        "R",
-        "U",
         "W"
       ],
       "record": "5-0",
@@ -374,12 +342,41 @@
       "final_rank": 6,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1310636",
+      "tournament": "Pauper League",
+      "date": "2026-06-13",
+      "player": "-Nicolo-",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1110636",
+      "tournament": "Pauper League",
+      "date": "2026-06-11",
+      "player": "Martin_Dominguez",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "viashinoperuano",
-      "count": 42
+      "count": 41
     },
     {
       "player": "lindoso01",

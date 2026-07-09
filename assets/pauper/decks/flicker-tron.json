@@ -2,10 +2,10 @@
   "archetype": "Flicker Tron",
   "slug": "flicker-tron",
   "stats": {
-    "total_entries": 246,
-    "league_entries": 138,
-    "league_trophies": 138,
-    "league_trophies_yearly": 62,
+    "total_entries": 245,
+    "league_entries": 137,
+    "league_trophies": 137,
+    "league_trophies_yearly": 61,
     "challenge_appearances": 95,
     "challenge_wins": 388,
     "challenge_losses": 243,
@@ -18,6 +18,22 @@
   },
   "recent_entries": [
     {
+      "site_name": "pauper-league-2026-07-0810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-08",
+      "player": "Kampo",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2026-07-0710855",
       "tournament": "Pauper League",
       "date": "2026-07-07",
@@ -28,22 +44,6 @@
         "R",
         "U",
         "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0610855",
-      "tournament": "Pauper League",
-      "date": "2026-07-06",
-      "player": "Huskyman20035",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -99,23 +99,6 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0310855",
-      "tournament": "Pauper League",
-      "date": "2026-07-03",
-      "player": "Hype12232",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0212846460",
@@ -434,6 +417,23 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1010636",
+      "tournament": "Pauper League",
+      "date": "2026-06-10",
+      "player": "PellX18",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -463,7 +463,7 @@
     },
     {
       "player": "Kampo",
-      "count": 7
+      "count": 8
     },
     {
       "player": "qwertyelmer",

@@ -2,10 +2,10 @@
   "archetype": "RG Storm",
   "slug": "rg-storm",
   "stats": {
-    "total_entries": 161,
-    "league_entries": 118,
-    "league_trophies": 118,
-    "league_trophies_yearly": 105,
+    "total_entries": 162,
+    "league_entries": 119,
+    "league_trophies": 119,
+    "league_trophies_yearly": 106,
     "challenge_appearances": 34,
     "challenge_wins": 128,
     "challenge_losses": 85,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-09",
+      "player": "jesusgreen",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-0810855",
       "tournament": "Pauper League",
@@ -375,21 +390,6 @@
       ],
       "record": "0-1",
       "final_rank": 31,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2412845625",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "saidin.raken",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
     }
