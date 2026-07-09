@@ -2,36 +2,21 @@
   "archetype": "Jund Gardens",
   "slug": "jund-gardens",
   "stats": {
-    "total_entries": 26,
-    "league_entries": 17,
-    "league_trophies": 17,
-    "league_trophies_yearly": 16,
+    "total_entries": 25,
+    "league_entries": 16,
+    "league_trophies": 16,
+    "league_trophies_yearly": 15,
     "challenge_appearances": 3,
     "challenge_wins": 9,
     "challenge_losses": 8,
     "irl_top8": 6,
     "challenge_win_pct": 53,
-    "league_trophy_rank_yearly": 41,
+    "league_trophy_rank_yearly": 43,
     "league_trophy_rank_alltime": 48,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-07-0510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-05",
-      "player": "GiorgioCombo",
-      "colors": [
-        "B",
-        "G",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-league-2026-07-0210855",
       "tournament": "Pauper League",
@@ -391,6 +376,20 @@
       "final_rank": 2,
       "source": "pauperwave",
       "type": "irl"
+    },
+    {
+      "site_name": "pauper-league-2025-06-039081",
+      "tournament": "pauper-league-2025-06-039081",
+      "date": "2025-06-03",
+      "player": "MVanni",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -411,10 +410,6 @@
       "count": 2
     },
     {
-      "player": "GiorgioCombo",
-      "count": 2
-    },
-    {
       "player": "Simone Villivà",
       "count": 1
     },
@@ -424,6 +419,10 @@
     },
     {
       "player": "Riccardo Ipri",
+      "count": 1
+    },
+    {
+      "player": "GiorgioCombo",
       "count": 1
     },
     {

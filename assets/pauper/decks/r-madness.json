@@ -2,10 +2,10 @@
   "archetype": "R Madness",
   "slug": "r-madness",
   "stats": {
-    "total_entries": 1898,
-    "league_entries": 1102,
-    "league_trophies": 1102,
-    "league_trophies_yearly": 530,
+    "total_entries": 1900,
+    "league_entries": 1104,
+    "league_trophies": 1104,
+    "league_trophies_yearly": 532,
     "challenge_appearances": 691,
     "challenge_wins": 2707,
     "challenge_losses": 1762,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 1,
     "league_trophy_rank_alltime": 1,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -52,6 +52,21 @@
       "tournament": "Pauper League",
       "date": "2026-07-09",
       "player": "hyuma",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-09",
+      "player": "_Alias_",
       "colors": [
         "B",
         "R",
@@ -246,6 +261,36 @@
       "site_name": "pauper-league-2026-07-0610855",
       "tournament": "Pauper League",
       "date": "2026-07-06",
+      "player": "Echanez",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-06",
+      "player": "Echanez",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-06",
       "player": "lgqueiroz3",
       "colors": [
         "B",
@@ -262,21 +307,6 @@
       "tournament": "Pauper League",
       "date": "2026-07-05",
       "player": "John_Marek",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-05",
-      "player": "maribves",
       "colors": [
         "B",
         "R",
@@ -359,36 +389,6 @@
       ],
       "record": "7-2",
       "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-showcase-challenge-2026-07-0512846446",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2026-07-05",
-      "player": "hyuma",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "6-3",
-      "final_rank": 31,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0412846485",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-04",
-      "player": "CrilaPeoty",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "7-2",
-      "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
     }
