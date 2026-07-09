@@ -10,22 +10,26 @@
     "challenge_losses": 9,
     "irl_top8": 0,
     "challenge_win_pct": 50,
-    "league_trophy_rank_yearly": 1250,
+    "league_trophy_rank_yearly": 1252,
     "league_trophy_rank_alltime": 528,
-    "league_trophy_players_yearly": 1283,
-    "league_trophy_players_alltime": 2006
+    "league_trophy_players_yearly": 1285,
+    "league_trophy_players_alltime": 2007
   },
   "favorite_decks": [
-    {
-      "archetype": "Rally",
-      "count": 2
-    },
     {
       "archetype": "Walls",
       "count": 2
     },
     {
+      "archetype": "Rally",
+      "count": 1
+    },
+    {
       "archetype": "GW Gates",
+      "count": 1
+    },
+    {
+      "archetype": "Pingers",
       "count": 1
     },
     {
@@ -47,7 +51,7 @@
       "tournament": "Pauper League",
       "date": "2026-07-07",
       "player": "Tzauro",
-      "archetype": "Rally",
+      "archetype": "Pingers",
       "colors": [
         "G",
         "R"

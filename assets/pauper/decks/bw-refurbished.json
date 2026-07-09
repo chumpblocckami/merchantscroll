@@ -2,19 +2,19 @@
   "archetype": "BW Refurbished",
   "slug": "bw-refurbished",
   "stats": {
-    "total_entries": 349,
-    "league_entries": 199,
-    "league_trophies": 199,
-    "league_trophies_yearly": 86,
+    "total_entries": 348,
+    "league_entries": 198,
+    "league_trophies": 198,
+    "league_trophies_yearly": 85,
     "challenge_appearances": 144,
     "challenge_wins": 552,
     "challenge_losses": 370,
     "irl_top8": 4,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 18,
-    "league_trophy_rank_alltime": 18,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "league_trophy_rank_alltime": 19,
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -68,22 +68,6 @@
       "player": "Frank_Bonaparte",
       "colors": [
         "B",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-04",
-      "player": "viashinoperuano",
-      "colors": [
-        "B",
-        "R",
-        "U",
         "W"
       ],
       "record": "5-0",
@@ -373,12 +357,26 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1110636",
+      "tournament": "Pauper League",
+      "date": "2026-06-11",
+      "player": "Martin_Dominguez",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "viashinoperuano",
-      "count": 42
+      "count": 41
     },
     {
       "player": "lindoso01",

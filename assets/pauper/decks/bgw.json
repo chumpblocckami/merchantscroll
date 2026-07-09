@@ -2,19 +2,19 @@
   "archetype": "BGW",
   "slug": "bgw",
   "stats": {
-    "total_entries": 4,
-    "league_entries": 3,
-    "league_trophies": 3,
-    "league_trophies_yearly": 2,
+    "total_entries": 5,
+    "league_entries": 4,
+    "league_trophies": 4,
+    "league_trophies_yearly": 3,
     "challenge_appearances": 1,
     "challenge_wins": 5,
     "challenge_losses": 2,
     "irl_top8": 0,
     "challenge_win_pct": 71,
-    "league_trophy_rank_yearly": 59,
-    "league_trophy_rank_alltime": 65,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "league_trophy_rank_yearly": 55,
+    "league_trophy_rank_alltime": 61,
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -22,6 +22,21 @@
       "tournament": "Pauper League",
       "date": "2026-07-06",
       "player": "T_Wrecks",
+      "colors": [
+        "B",
+        "G",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-05",
+      "player": "GiorgioCombo",
       "colors": [
         "B",
         "G",
@@ -82,6 +97,10 @@
     {
       "player": "dbagan13",
       "count": 2
+    },
+    {
+      "player": "GiorgioCombo",
+      "count": 1
     },
     {
       "player": "Cyberpunker",
