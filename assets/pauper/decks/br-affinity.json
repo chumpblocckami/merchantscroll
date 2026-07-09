@@ -2,51 +2,21 @@
   "archetype": "BR Affinity",
   "slug": "br-affinity",
   "stats": {
-    "total_entries": 28,
-    "league_entries": 9,
-    "league_trophies": 9,
-    "league_trophies_yearly": 9,
+    "total_entries": 26,
+    "league_entries": 7,
+    "league_trophies": 7,
+    "league_trophies_yearly": 7,
     "challenge_appearances": 16,
     "challenge_wins": 53,
     "challenge_losses": 48,
     "irl_top8": 2,
     "challenge_win_pct": 52,
-    "league_trophy_rank_yearly": 49,
-    "league_trophy_rank_alltime": 53,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_rank_yearly": 51,
+    "league_trophy_rank_alltime": 56,
+    "league_trophy_decks_yearly": 67,
+    "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-07-0910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-09",
-      "player": "Pafru",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-05",
-      "player": "Trukki",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-league-2026-07-0310855",
       "tournament": "Pauper League",
@@ -385,6 +355,36 @@
       "final_rank": 5,
       "source": "pauperwave",
       "type": "irl"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-03-1712844320",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-13",
+      "player": "Squall93",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-03-1712844320",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-13",
+      "player": "_blaze66",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -394,10 +394,6 @@
     },
     {
       "player": "Brasatore",
-      "count": 3
-    },
-    {
-      "player": "Pafru",
       "count": 3
     },
     {
@@ -413,6 +409,10 @@
       "count": 2
     },
     {
+      "player": "Pafru",
+      "count": 2
+    },
+    {
       "player": "s8shock",
       "count": 2
     },
@@ -421,11 +421,11 @@
       "count": 2
     },
     {
-      "player": "Trukki",
+      "player": "giggimille",
       "count": 1
     },
     {
-      "player": "giggimille",
+      "player": "KuramaKev",
       "count": 1
     }
   ]

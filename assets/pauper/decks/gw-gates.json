@@ -2,10 +2,10 @@
   "archetype": "GW Gates",
   "slug": "gw-gates",
   "stats": {
-    "total_entries": 170,
-    "league_entries": 95,
-    "league_trophies": 95,
-    "league_trophies_yearly": 72,
+    "total_entries": 171,
+    "league_entries": 96,
+    "league_trophies": 96,
+    "league_trophies_yearly": 73,
     "challenge_appearances": 71,
     "challenge_wins": 276,
     "challenge_losses": 169,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 23,
     "league_trophy_rank_alltime": 29,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 67,
+    "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
     {
@@ -25,6 +25,23 @@
       "colors": [
         "B",
         "G",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-05",
+      "player": "Carlinhos_Jund",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
         "W"
       ],
       "record": "5-0",
@@ -379,21 +396,6 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2012844338",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-14",
-      "player": "auzzie51",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "6-1",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1412844338",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-14",
       "player": "auzzie51",

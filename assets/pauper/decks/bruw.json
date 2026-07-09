@@ -2,21 +2,53 @@
   "archetype": "BRUW",
   "slug": "bruw",
   "stats": {
-    "total_entries": 1,
-    "league_entries": 0,
-    "league_trophies": 0,
-    "league_trophies_yearly": 0,
+    "total_entries": 4,
+    "league_entries": 3,
+    "league_trophies": 3,
+    "league_trophies_yearly": 3,
     "challenge_appearances": 1,
     "challenge_wins": 3,
     "challenge_losses": 3,
     "irl_top8": 0,
     "challenge_win_pct": 50,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": null,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_rank_yearly": 56,
+    "league_trophy_rank_alltime": 66,
+    "league_trophy_decks_yearly": 67,
+    "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-05",
+      "player": "Punchilleno",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-05",
+      "player": "apa19",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0512846504",
       "tournament": "Pauper Challenge 32",
@@ -32,11 +64,35 @@
       "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-04",
+      "player": "viashinoperuano",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "Punchilleno",
+      "count": 2
+    },
+    {
+      "player": "apa19",
+      "count": 1
+    },
+    {
+      "player": "viashinoperuano",
       "count": 1
     }
   ]

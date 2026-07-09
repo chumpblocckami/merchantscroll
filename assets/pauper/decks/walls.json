@@ -2,38 +2,21 @@
   "archetype": "Walls",
   "slug": "walls",
   "stats": {
-    "total_entries": 163,
-    "league_entries": 105,
-    "league_trophies": 105,
-    "league_trophies_yearly": 36,
+    "total_entries": 162,
+    "league_entries": 104,
+    "league_trophies": 104,
+    "league_trophies_yearly": 35,
     "challenge_appearances": 51,
     "challenge_wins": 194,
     "challenge_losses": 137,
     "irl_top8": 3,
     "challenge_win_pct": 59,
-    "league_trophy_rank_yearly": 32,
+    "league_trophy_rank_yearly": 31,
     "league_trophy_rank_alltime": 28,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 67,
+    "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-07-0410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-04",
-      "player": "Taute",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-league-2026-07-0210855",
       "tournament": "Pauper League",
@@ -430,6 +413,22 @@
       "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-05-0310636",
+      "tournament": "Pauper League",
+      "date": "2026-05-03",
+      "player": "Taute",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -466,11 +465,11 @@
       "count": 4
     },
     {
-      "player": "Taute",
-      "count": 4
+      "player": "Timshin",
+      "count": 3
     },
     {
-      "player": "Timshin",
+      "player": "Denisevich",
       "count": 3
     }
   ]

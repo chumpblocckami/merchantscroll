@@ -11,10 +11,10 @@
     "challenge_losses": 220,
     "irl_top8": 12,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 20,
+    "league_trophy_rank_yearly": 19,
     "league_trophy_rank_alltime": 31,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 67,
+    "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
     {
@@ -91,6 +91,23 @@
       "date": "2026-07-09",
       "player": "Punchilleno",
       "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-09",
+      "player": "yasiu86",
+      "colors": [
+        "B",
         "G",
         "R",
         "U",
@@ -259,23 +276,6 @@
       "tournament": "Pauper League",
       "date": "2026-07-05",
       "player": "PrimoShow1",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-05",
-      "player": "Carlinhos_Jund",
       "colors": [
         "B",
         "G",
@@ -468,10 +468,6 @@
       "count": 4
     },
     {
-      "player": "Carlinhos_Jund",
-      "count": 4
-    },
-    {
       "player": "manohito",
       "count": 4
     },
@@ -481,6 +477,10 @@
     },
     {
       "player": "celobee",
+      "count": 3
+    },
+    {
+      "player": "hasetaku0709",
       "count": 3
     }
   ]
