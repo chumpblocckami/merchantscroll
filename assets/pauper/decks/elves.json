@@ -2,10 +2,10 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1186,
-    "league_entries": 616,
-    "league_trophies": 616,
-    "league_trophies_yearly": 234,
+    "total_entries": 1187,
+    "league_entries": 617,
+    "league_trophies": 617,
+    "league_trophies_yearly": 235,
     "challenge_appearances": 511,
     "challenge_wins": 2053,
     "challenge_losses": 1279,
@@ -22,6 +22,20 @@
       "tournament": "Pauper League",
       "date": "2026-07-10",
       "player": "CaptainKirkk",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-10",
+      "player": "JorGG",
       "colors": [
         "B",
         "G"
@@ -353,19 +367,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2612845653",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-26",
-      "player": "Mokemi",
-      "colors": [
-        "G"
-      ],
-      "record": "4-3",
-      "final_rank": 28,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
