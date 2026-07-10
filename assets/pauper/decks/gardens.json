@@ -2,10 +2,10 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 655,
-    "league_entries": 347,
-    "league_trophies": 347,
-    "league_trophies_yearly": 153,
+    "total_entries": 656,
+    "league_entries": 348,
+    "league_trophies": 348,
+    "league_trophies_yearly": 154,
     "challenge_appearances": 272,
     "challenge_wins": 1105,
     "challenge_losses": 673,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-09",
+      "player": "orbuletto",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-0810855",
       "tournament": "Pauper League",
@@ -352,20 +366,6 @@
       "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2512845643",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-25",
-      "player": "__Noob__",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-3",
-      "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -395,7 +395,7 @@
     },
     {
       "player": "orbuletto",
-      "count": 14
+      "count": 15
     },
     {
       "player": "G-Monteiro",
