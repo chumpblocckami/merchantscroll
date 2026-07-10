@@ -2,13 +2,13 @@
   "archetype": "Jeskai",
   "slug": "jeskai",
   "stats": {
-    "total_entries": 295,
+    "total_entries": 296,
     "league_entries": 170,
     "league_trophies": 170,
     "league_trophies_yearly": 106,
-    "challenge_appearances": 109,
-    "challenge_wins": 452,
-    "challenge_losses": 269,
+    "challenge_appearances": 110,
+    "challenge_wins": 454,
+    "challenge_losses": 272,
     "irl_top8": 9,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 16,
@@ -31,6 +31,22 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1012847113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-10",
+      "player": "daifuku",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "2-3",
+      "final_rank": 30,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-league-2026-07-0910855",
@@ -380,22 +396,6 @@
       "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0412846485",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-04",
-      "player": "vikizin",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -405,7 +405,7 @@
     },
     {
       "player": "daifuku",
-      "count": 19
+      "count": 20
     },
     {
       "player": "TSPJendrek",

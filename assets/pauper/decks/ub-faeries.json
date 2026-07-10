@@ -2,10 +2,10 @@
   "archetype": "UB Faeries",
   "slug": "ub-faeries",
   "stats": {
-    "total_entries": 586,
-    "league_entries": 317,
-    "league_trophies": 317,
-    "league_trophies_yearly": 189,
+    "total_entries": 585,
+    "league_entries": 316,
+    "league_trophies": 316,
+    "league_trophies_yearly": 188,
     "challenge_appearances": 242,
     "challenge_wins": 1004,
     "challenge_losses": 613,
@@ -22,20 +22,6 @@
       "tournament": "Pauper League",
       "date": "2026-07-10",
       "player": "ninstitute",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-10",
-      "player": "barff",
       "colors": [
         "B",
         "U"
@@ -368,12 +354,26 @@
       "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0212846460",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-02",
+      "player": "barff",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "9-0",
+      "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "barff",
-      "count": 99
+      "count": 98
     },
     {
       "player": "Brvnx",

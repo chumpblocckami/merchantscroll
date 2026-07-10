@@ -2,13 +2,13 @@
   "archetype": "UB Terror",
   "slug": "ub-terror",
   "stats": {
-    "total_entries": 541,
+    "total_entries": 543,
     "league_entries": 291,
     "league_trophies": 291,
     "league_trophies_yearly": 149,
-    "challenge_appearances": 226,
-    "challenge_wins": 935,
-    "challenge_losses": 548,
+    "challenge_appearances": 228,
+    "challenge_wins": 943,
+    "challenge_losses": 553,
     "irl_top8": 8,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 11,
@@ -31,6 +31,36 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1012847113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-10",
+      "player": "Oscar_Franco",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1012847113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-10",
+      "player": "_against_",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0812846623",
@@ -361,36 +391,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2310636",
-      "tournament": "Pauper League",
-      "date": "2026-06-23",
-      "player": "Samuel97",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2010636",
-      "tournament": "Pauper League",
-      "date": "2026-06-20",
-      "player": "Prague",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -399,11 +399,11 @@
       "count": 45
     },
     {
-      "player": "mehanske",
-      "count": 19
+      "player": "_against_",
+      "count": 20
     },
     {
-      "player": "_against_",
+      "player": "mehanske",
       "count": 19
     },
     {

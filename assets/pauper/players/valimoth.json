@@ -3,14 +3,14 @@
   "display_name": "Valimoth",
   "irl_name": null,
   "stats": {
-    "total_entries": 31,
+    "total_entries": 32,
     "league_trophies": 13,
     "league_trophies_yearly": 3,
-    "challenge_wins": 75,
-    "challenge_losses": 38,
+    "challenge_wins": 80,
+    "challenge_losses": 40,
     "irl_top8": 0,
-    "challenge_win_pct": 66,
-    "league_trophy_rank_yearly": 453,
+    "challenge_win_pct": 67,
+    "league_trophy_rank_yearly": 454,
     "league_trophy_rank_alltime": 169,
     "league_trophy_players_yearly": 1292,
     "league_trophy_players_alltime": 2014
@@ -21,11 +21,11 @@
       "count": 6
     },
     {
-      "archetype": "U Terror",
-      "count": 5
+      "archetype": "Monster Tron",
+      "count": 6
     },
     {
-      "archetype": "Monster Tron",
+      "archetype": "U Terror",
       "count": 5
     },
     {
@@ -58,6 +58,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-1012847113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-10",
+      "player": "Valimoth",
+      "archetype": "Monster Tron",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-2",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-showcase-challenge-2026-07-0512846446",
       "tournament": "Pauper Showcase Challenge",
@@ -435,21 +450,6 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-08-079535",
-      "tournament": "pauper-league-2025-08-079535",
-      "date": "2025-08-07",
-      "player": "Valimoth",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

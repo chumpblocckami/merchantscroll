@@ -2,13 +2,13 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 35,
+    "total_entries": 37,
     "league_entries": 10,
     "league_trophies": 10,
     "league_trophies_yearly": 10,
-    "challenge_appearances": 23,
-    "challenge_wins": 103,
-    "challenge_losses": 60,
+    "challenge_appearances": 25,
+    "challenge_wins": 111,
+    "challenge_losses": 65,
     "irl_top8": 2,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 48,
@@ -18,13 +18,42 @@
   },
   "recent_entries": [
     {
-      "site_name": "pauper-league-2026-07-0910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-09",
-      "player": "fabiosturm",
+      "site_name": "pauper-challenge-32-2026-07-1012847113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-10",
+      "player": "Valimoth",
       "colors": [
         "G",
         "R"
+      ],
+      "record": "5-2",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1012847113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-10",
+      "player": "Cr0memox",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-05",
+      "player": "ovelha_aL",
+      "colors": [
+        "B",
+        "G"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -360,45 +389,15 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2010636",
-      "tournament": "Pauper League",
-      "date": "2026-06-20",
-      "player": "SirBarbaffo",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2012844856",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-20",
-      "player": "Valimoth",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "9-0",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
-      "player": "Echanez",
-      "count": 5
+      "player": "Valimoth",
+      "count": 6
     },
     {
-      "player": "Valimoth",
+      "player": "Echanez",
       "count": 5
     },
     {
@@ -418,6 +417,10 @@
       "count": 2
     },
     {
+      "player": "ovelha_aL",
+      "count": 1
+    },
+    {
       "player": "Entropy263",
       "count": 1
     },
@@ -427,10 +430,6 @@
     },
     {
       "player": "SirBarbaffo",
-      "count": 1
-    },
-    {
-      "player": "Auripower",
       "count": 1
     }
   ]

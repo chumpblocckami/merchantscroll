@@ -2,21 +2,36 @@
   "archetype": "BR Affinity",
   "slug": "br-affinity",
   "stats": {
-    "total_entries": 27,
-    "league_entries": 7,
-    "league_trophies": 7,
-    "league_trophies_yearly": 7,
+    "total_entries": 28,
+    "league_entries": 8,
+    "league_trophies": 8,
+    "league_trophies_yearly": 8,
     "challenge_appearances": 17,
     "challenge_wins": 56,
     "challenge_losses": 51,
     "irl_top8": 2,
     "challenge_win_pct": 52,
-    "league_trophy_rank_yearly": 51,
-    "league_trophy_rank_alltime": 56,
+    "league_trophy_rank_yearly": 50,
+    "league_trophy_rank_alltime": 55,
     "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-09",
+      "player": "Pafru",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0312846485",
       "tournament": "Pauper Challenge 32",
@@ -370,34 +385,19 @@
       "final_rank": 5,
       "source": "pauperwave",
       "type": "irl"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-03-1712844320",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-13",
-      "player": "Squall93",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 9,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
+    {
+      "player": "Pafru",
+      "count": 4
+    },
     {
       "player": "AlessandroPiraccini",
       "count": 4
     },
     {
       "player": "Brasatore",
-      "count": 3
-    },
-    {
-      "player": "Pafru",
       "count": 3
     },
     {
