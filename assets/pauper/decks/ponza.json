@@ -2,10 +2,10 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 160,
-    "league_entries": 74,
-    "league_trophies": 74,
-    "league_trophies_yearly": 46,
+    "total_entries": 161,
+    "league_entries": 75,
+    "league_trophies": 75,
+    "league_trophies_yearly": 47,
     "challenge_appearances": 77,
     "challenge_wins": 255,
     "challenge_losses": 195,
@@ -128,6 +128,20 @@
       "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-07",
+      "player": "Niederschatten",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-0710855",
@@ -360,20 +374,6 @@
       "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2310636",
-      "tournament": "Pauper League",
-      "date": "2026-06-23",
-      "player": "guiwarchina",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -383,7 +383,7 @@
     },
     {
       "player": "Niederschatten",
-      "count": 7
+      "count": 8
     },
     {
       "player": "Guizera",

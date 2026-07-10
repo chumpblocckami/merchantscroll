@@ -2,10 +2,10 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 659,
-    "league_entries": 348,
-    "league_trophies": 348,
-    "league_trophies_yearly": 154,
+    "total_entries": 660,
+    "league_entries": 349,
+    "league_trophies": 349,
+    "league_trophies_yearly": 155,
     "challenge_appearances": 275,
     "challenge_wins": 1114,
     "challenge_losses": 681,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-10",
+      "player": "elle992",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-0910855",
       "tournament": "Pauper League",
@@ -350,20 +364,6 @@
       ],
       "record": "3-2",
       "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2812845668",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-27",
-      "player": "John1111",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "2-3",
-      "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
     }
