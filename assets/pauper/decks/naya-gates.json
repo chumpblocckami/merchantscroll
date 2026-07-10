@@ -2,10 +2,10 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 206,
-    "league_entries": 92,
-    "league_trophies": 92,
-    "league_trophies_yearly": 85,
+    "total_entries": 207,
+    "league_entries": 93,
+    "league_trophies": 93,
+    "league_trophies_yearly": 86,
     "challenge_appearances": 94,
     "challenge_wins": 394,
     "challenge_losses": 221,
@@ -306,6 +306,23 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-07-0510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-05",
+      "player": "Carlinhos_Jund",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-0512846504",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-05",
@@ -423,23 +440,6 @@
       "final_rank": 22,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-04",
-      "player": "JsyvX",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -468,6 +468,10 @@
       "count": 4
     },
     {
+      "player": "Carlinhos_Jund",
+      "count": 4
+    },
+    {
       "player": "manohito",
       "count": 4
     },
@@ -477,10 +481,6 @@
     },
     {
       "player": "celobee",
-      "count": 3
-    },
-    {
-      "player": "hasetaku0709",
       "count": 3
     }
   ]
