@@ -2,10 +2,10 @@
   "archetype": "Food Pestilence",
   "slug": "food-pestilence",
   "stats": {
-    "total_entries": 241,
-    "league_entries": 177,
-    "league_trophies": 177,
-    "league_trophies_yearly": 122,
+    "total_entries": 243,
+    "league_entries": 179,
+    "league_trophies": 179,
+    "league_trophies_yearly": 124,
     "challenge_appearances": 60,
     "challenge_wins": 231,
     "challenge_losses": 145,
@@ -13,10 +13,38 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 13,
     "league_trophy_rank_alltime": 20,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-09",
+      "player": "orbuletto",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-06",
+      "player": "__Noob__",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0512846504",
       "tournament": "Pauper Challenge 32",
@@ -337,34 +365,6 @@
       "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2110636",
-      "tournament": "Pauper League",
-      "date": "2026-05-21",
-      "player": "Kwojn",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-1712842508",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-17",
-      "player": "True-Name-Nemesis",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "3-3",
-      "final_rank": 22,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -401,12 +401,12 @@
       "count": 5
     },
     {
-      "player": "adonis2k",
+      "player": "__Noob__",
       "count": 5
     },
     {
-      "player": "__Noob__",
-      "count": 4
+      "player": "adonis2k",
+      "count": 5
     }
   ]
 }

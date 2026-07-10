@@ -2,10 +2,10 @@
   "archetype": "RG Ponza",
   "slug": "rg-ponza",
   "stats": {
-    "total_entries": 90,
-    "league_entries": 43,
-    "league_trophies": 43,
-    "league_trophies_yearly": 18,
+    "total_entries": 89,
+    "league_entries": 42,
+    "league_trophies": 42,
+    "league_trophies_yearly": 17,
     "challenge_appearances": 41,
     "challenge_wins": 144,
     "challenge_losses": 118,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 55,
     "league_trophy_rank_yearly": 41,
     "league_trophy_rank_alltime": 42,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -22,20 +22,6 @@
       "tournament": "Pauper League",
       "date": "2026-07-08",
       "player": "arturcosta",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-07",
-      "player": "Niederschatten",
       "colors": [
         "G",
         "R"
@@ -371,6 +357,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-02-2212833562",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-02-22",
+      "player": "Ixidor29",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "2-4",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [

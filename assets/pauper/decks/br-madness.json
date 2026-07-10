@@ -2,21 +2,36 @@
   "archetype": "BR Madness",
   "slug": "br-madness",
   "stats": {
-    "total_entries": 802,
+    "total_entries": 803,
     "league_entries": 386,
     "league_trophies": 386,
     "league_trophies_yearly": 120,
-    "challenge_appearances": 387,
-    "challenge_wins": 1574,
-    "challenge_losses": 984,
+    "challenge_appearances": 388,
+    "challenge_wins": 1577,
+    "challenge_losses": 987,
     "irl_top8": 9,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 14,
     "league_trophy_rank_alltime": 7,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912847103",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-09",
+      "player": "deleon91",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 31,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-0910855",
       "tournament": "Pauper League",
@@ -370,21 +385,6 @@
       ],
       "record": "8-1",
       "final_rank": 2,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2412845631",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "taldoitalo",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 14,
       "source": "mtgo",
       "type": "challenge"
     }

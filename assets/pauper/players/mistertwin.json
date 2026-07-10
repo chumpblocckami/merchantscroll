@@ -3,22 +3,22 @@
   "display_name": "MisterTwin",
   "irl_name": null,
   "stats": {
-    "total_entries": 164,
+    "total_entries": 165,
     "league_trophies": 69,
     "league_trophies_yearly": 14,
-    "challenge_wins": 396,
-    "challenge_losses": 227,
+    "challenge_wins": 400,
+    "challenge_losses": 229,
     "irl_top8": 0,
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 55,
     "league_trophy_rank_alltime": 10,
-    "league_trophy_players_yearly": 1286,
-    "league_trophy_players_alltime": 2008
+    "league_trophy_players_yearly": 1288,
+    "league_trophy_players_alltime": 2010
   },
   "favorite_decks": [
     {
       "archetype": "R Madness",
-      "count": 86
+      "count": 87
     },
     {
       "archetype": "BR Madness",
@@ -58,6 +58,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912847103",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-09",
+      "player": "MisterTwin",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0812846623",
       "tournament": "Pauper Challenge 32",
@@ -439,22 +455,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2912843392",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-29",
-      "player": "MisterTwin",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

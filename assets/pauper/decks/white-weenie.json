@@ -2,10 +2,10 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 593,
-    "league_entries": 345,
-    "league_trophies": 345,
-    "league_trophies_yearly": 155,
+    "total_entries": 594,
+    "league_entries": 346,
+    "league_trophies": 346,
+    "league_trophies_yearly": 156,
     "challenge_appearances": 222,
     "challenge_wins": 873,
     "challenge_losses": 553,
@@ -13,10 +13,26 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 9,
     "league_trophy_rank_alltime": 10,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-10",
+      "player": "Luiz0211",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-0710855",
       "tournament": "Pauper League",
@@ -353,19 +369,6 @@
       ],
       "record": "3-3",
       "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1912844841",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-19",
-      "player": "Niederschatten",
-      "colors": [
-        "W"
-      ],
-      "record": "6-2",
-      "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
     }

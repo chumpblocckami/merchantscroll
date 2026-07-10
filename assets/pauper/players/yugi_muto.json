@@ -3,25 +3,25 @@
   "display_name": "Yugi_Muto",
   "irl_name": null,
   "stats": {
-    "total_entries": 27,
+    "total_entries": 28,
     "league_trophies": 10,
     "league_trophies_yearly": 4,
-    "challenge_wins": 69,
-    "challenge_losses": 44,
+    "challenge_wins": 72,
+    "challenge_losses": 47,
     "irl_top8": 0,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 324,
     "league_trophy_rank_alltime": 249,
-    "league_trophy_players_yearly": 1286,
-    "league_trophy_players_alltime": 2008
+    "league_trophy_players_yearly": 1288,
+    "league_trophy_players_alltime": 2010
   },
   "favorite_decks": [
     {
-      "archetype": "UG Fog",
-      "count": 7
+      "archetype": "Jund",
+      "count": 8
     },
     {
-      "archetype": "Jund",
+      "archetype": "UG Fog",
       "count": 7
     },
     {
@@ -46,6 +46,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912847103",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-09",
+      "player": "Yugi_Muto",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0212846460",
       "tournament": "Pauper Challenge 32",
@@ -416,21 +432,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-06-2112798171",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-06-21",
-      "player": "Yugi_Muto",
-      "archetype": "Monsters",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-3",
-      "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

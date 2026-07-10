@@ -2,21 +2,35 @@
   "archetype": "UR Control",
   "slug": "ur-control",
   "stats": {
-    "total_entries": 201,
+    "total_entries": 202,
     "league_entries": 123,
     "league_trophies": 123,
     "league_trophies_yearly": 48,
-    "challenge_appearances": 68,
-    "challenge_wins": 282,
-    "challenge_losses": 169,
+    "challenge_appearances": 69,
+    "challenge_wins": 286,
+    "challenge_losses": 171,
     "irl_top8": 3,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 28,
     "league_trophy_rank_alltime": 24,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912847103",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-09",
+      "player": "Skpchino",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 20,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-0710855",
       "tournament": "Pauper League",
@@ -365,21 +379,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-3012843407",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-30",
-      "player": "True-Name-Nemesis",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "6-2",
-      "final_rank": 3,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
