@@ -2,37 +2,21 @@
   "archetype": "Boros Glitter",
   "slug": "boros-glitter",
   "stats": {
-    "total_entries": 140,
-    "league_entries": 87,
-    "league_trophies": 87,
-    "league_trophies_yearly": 35,
-    "challenge_appearances": 50,
-    "challenge_wins": 195,
-    "challenge_losses": 132,
+    "total_entries": 138,
+    "league_entries": 86,
+    "league_trophies": 86,
+    "league_trophies_yearly": 34,
+    "challenge_appearances": 49,
+    "challenge_wins": 192,
+    "challenge_losses": 129,
     "irl_top8": 2,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 32,
     "league_trophy_rank_alltime": 34,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 67,
+    "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-challenge-32-2026-07-1012847113",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-10",
-      "player": "viashinoperuano",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 26,
-      "source": "mtgo",
-      "type": "challenge"
-    },
     {
       "site_name": "pauper-challenge-32-2026-07-0912847103",
       "tournament": "Pauper Challenge 32",
@@ -62,22 +46,6 @@
       "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-04",
-      "player": "viashinoperuano",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-1310636",
@@ -399,12 +367,42 @@
       "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-04-0412838126",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-04-04",
+      "player": "SiegeRyan",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-04-0310405",
+      "tournament": "Pauper League",
+      "date": "2026-04-03",
+      "player": "EastsideCrew",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "viashinoperuano",
-      "count": 38
+      "count": 36
     },
     {
       "player": "Huskyman20035",

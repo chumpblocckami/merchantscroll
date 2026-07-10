@@ -2,10 +2,10 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 1066,
-    "league_entries": 599,
-    "league_trophies": 599,
-    "league_trophies_yearly": 259,
+    "total_entries": 1070,
+    "league_entries": 603,
+    "league_trophies": 603,
+    "league_trophies_yearly": 263,
     "challenge_appearances": 430,
     "challenge_wins": 1662,
     "challenge_losses": 1105,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 3,
     "league_trophy_rank_alltime": 4,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 67,
+    "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
     {
@@ -246,6 +246,19 @@
       "site_name": "pauper-league-2026-07-0510855",
       "tournament": "Pauper League",
       "date": "2026-07-05",
+      "player": "NMT_Sco94",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-05",
       "player": "LELE_88",
       "colors": [
         "B",
@@ -353,19 +366,6 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-04",
-      "player": "Punchilleno",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -398,16 +398,16 @@
       "count": 13
     },
     {
+      "player": "NMT_Sco94",
+      "count": 12
+    },
+    {
       "player": "xDaddy",
       "count": 12
     },
     {
       "player": "Goblin_Player",
       "count": 12
-    },
-    {
-      "player": "NMT_Sco94",
-      "count": 11
     }
   ]
 }
