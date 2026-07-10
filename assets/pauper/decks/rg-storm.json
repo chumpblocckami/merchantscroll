@@ -2,10 +2,10 @@
   "archetype": "RG Storm",
   "slug": "rg-storm",
   "stats": {
-    "total_entries": 167,
-    "league_entries": 121,
-    "league_trophies": 121,
-    "league_trophies_yearly": 108,
+    "total_entries": 166,
+    "league_entries": 120,
+    "league_trophies": 120,
+    "league_trophies_yearly": 107,
     "challenge_appearances": 37,
     "challenge_wins": 136,
     "challenge_losses": 93,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 15,
     "league_trophy_rank_alltime": 25,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -273,21 +273,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-07-0410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-04",
-      "player": "Abisd94",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-07-0312846470",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-03",
@@ -392,6 +377,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2710855",
+      "tournament": "Pauper League",
+      "date": "2026-06-27",
+      "player": "lumely",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -432,7 +432,7 @@
       "count": 5
     },
     {
-      "player": "Abisd94",
+      "player": "txouzo",
       "count": 5
     }
   ]

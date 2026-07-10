@@ -2,10 +2,10 @@
   "archetype": "Affinity",
   "slug": "affinity",
   "stats": {
-    "total_entries": 933,
-    "league_entries": 357,
-    "league_trophies": 357,
-    "league_trophies_yearly": 200,
+    "total_entries": 934,
+    "league_entries": 358,
+    "league_trophies": 358,
+    "league_trophies_yearly": 201,
     "challenge_appearances": 505,
     "challenge_wins": 2097,
     "challenge_losses": 1263,
@@ -13,15 +13,45 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 6,
     "league_trophy_rank_alltime": 8,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
       "site_name": "pauper-league-2026-07-1010855",
       "tournament": "Pauper League",
       "date": "2026-07-10",
+      "player": "Boquinha",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-10",
       "player": "ThiagoGuerra",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-10",
+      "player": "Boquinha",
       "colors": [
         "B",
         "R",
@@ -331,21 +361,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-07-0410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-04",
-      "player": "Senk10",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-07-0310855",
       "tournament": "Pauper League",
       "date": "2026-07-03",
@@ -374,21 +389,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0312846470",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-03",
-      "player": "LuffyDoChapeuDePalha",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-3",
-      "final_rank": 6,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
