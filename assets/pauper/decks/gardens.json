@@ -2,13 +2,13 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 655,
-    "league_entries": 347,
-    "league_trophies": 347,
-    "league_trophies_yearly": 153,
-    "challenge_appearances": 272,
-    "challenge_wins": 1105,
-    "challenge_losses": 673,
+    "total_entries": 659,
+    "league_entries": 348,
+    "league_trophies": 348,
+    "league_trophies_yearly": 154,
+    "challenge_appearances": 275,
+    "challenge_wins": 1114,
+    "challenge_losses": 681,
     "irl_top8": 18,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 10,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-09",
+      "player": "orbuletto",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-0810855",
       "tournament": "Pauper League",
@@ -131,6 +145,48 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0412846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "VitorOliveiraTIM",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "3-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0312846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "yuxiaoyu",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "4-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0312846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "True-Name-Nemesis",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "2-3",
+      "final_rank": 19,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0312846485",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-04",
       "player": "VitorOliveiraTIM",
@@ -310,62 +366,6 @@
       "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2712845668",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-27",
-      "player": "__Noob__",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "3-2",
-      "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2712845668",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-27",
-      "player": "John1111",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "2-3",
-      "final_rank": 28,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2612845653",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-26",
-      "player": "__Noob__",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "8-2",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2512845643",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-25",
-      "player": "__Noob__",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-3",
-      "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -379,7 +379,7 @@
     },
     {
       "player": "yuxiaoyu",
-      "count": 37
+      "count": 38
     },
     {
       "player": "Aster17",
@@ -387,7 +387,7 @@
     },
     {
       "player": "True-Name-Nemesis",
-      "count": 18
+      "count": 19
     },
     {
       "player": "Jace_MTG",
@@ -395,7 +395,7 @@
     },
     {
       "player": "orbuletto",
-      "count": 14
+      "count": 15
     },
     {
       "player": "G-Monteiro",

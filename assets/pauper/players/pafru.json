@@ -3,17 +3,17 @@
   "display_name": "Pafru",
   "irl_name": null,
   "stats": {
-    "total_entries": 41,
-    "league_trophies": 14,
-    "league_trophies_yearly": 3,
-    "challenge_wins": 104,
-    "challenge_losses": 68,
+    "total_entries": 43,
+    "league_trophies": 15,
+    "league_trophies_yearly": 4,
+    "challenge_wins": 107,
+    "challenge_losses": 71,
     "irl_top8": 0,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 404,
-    "league_trophy_rank_alltime": 153,
-    "league_trophy_players_yearly": 1287,
-    "league_trophy_players_alltime": 2011
+    "league_trophy_rank_yearly": 303,
+    "league_trophy_rank_alltime": 145,
+    "league_trophy_players_yearly": 1292,
+    "league_trophy_players_alltime": 2014
   },
   "favorite_decks": [
     {
@@ -30,6 +30,10 @@
     },
     {
       "archetype": "Esper Affinity",
+      "count": 4
+    },
+    {
+      "archetype": "BR Affinity",
       "count": 4
     },
     {
@@ -51,10 +55,6 @@
     {
       "archetype": "BW Refurbished",
       "count": 2
-    },
-    {
-      "archetype": "BR Affinity",
-      "count": 2
     }
   ],
   "recent_entries": [
@@ -73,6 +73,22 @@
       "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-09",
+      "player": "Pafru",
+      "archetype": "BR Affinity",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0512846504",
@@ -96,6 +112,22 @@
       "date": "2026-07-04",
       "player": "Pafru",
       "archetype": "Boros Synth",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 21,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0312846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "Pafru",
+      "archetype": "BR Affinity",
       "colors": [
         "B",
         "R",
@@ -406,37 +438,6 @@
       "colors": [
         "G",
         "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-08-299535",
-      "tournament": "pauper-league-2025-08-299535",
-      "date": "2025-08-29",
-      "player": "Pafru",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-08-279535",
-      "tournament": "pauper-league-2025-08-279535",
-      "date": "2025-08-27",
-      "player": "Pafru",
-      "archetype": "Esper Affinity",
-      "colors": [
-        "B",
-        "U",
-        "W"
       ],
       "record": "5-0",
       "final_rank": null,

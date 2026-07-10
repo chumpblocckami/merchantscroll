@@ -2,13 +2,13 @@
   "archetype": "Familiars",
   "slug": "familiars",
   "stats": {
-    "total_entries": 287,
+    "total_entries": 288,
     "league_entries": 161,
     "league_trophies": 161,
     "league_trophies_yearly": 74,
-    "challenge_appearances": 101,
-    "challenge_wins": 415,
-    "challenge_losses": 252,
+    "challenge_appearances": 102,
+    "challenge_wins": 421,
+    "challenge_losses": 254,
     "irl_top8": 20,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 22,
@@ -103,6 +103,20 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0412846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "ChaoticMTG",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "6-2",
+      "final_rank": 4,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0312846485",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-04",
       "player": "ChaoticMTG",
@@ -353,20 +367,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1710636",
-      "tournament": "Pauper League",
-      "date": "2026-06-17",
-      "player": "ChaoticMTG",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -376,7 +376,7 @@
     },
     {
       "player": "ChaoticMTG",
-      "count": 27
+      "count": 28
     },
     {
       "player": "TSPJendrek",

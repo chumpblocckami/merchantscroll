@@ -2,10 +2,10 @@
   "archetype": "BW Refurbished",
   "slug": "bw-refurbished",
   "stats": {
-    "total_entries": 352,
-    "league_entries": 200,
-    "league_trophies": 200,
-    "league_trophies_yearly": 87,
+    "total_entries": 351,
+    "league_entries": 199,
+    "league_trophies": 199,
+    "league_trophies_yearly": 86,
     "challenge_appearances": 146,
     "challenge_wins": 558,
     "challenge_losses": 375,
@@ -114,22 +114,6 @@
       "player": "Frank_Bonaparte",
       "colors": [
         "B",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-04",
-      "player": "viashinoperuano",
-      "colors": [
-        "B",
-        "R",
-        "U",
         "W"
       ],
       "record": "5-0",
@@ -375,12 +359,27 @@
       "final_rank": 7,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1412844338",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-14",
+      "player": "Punchilleno",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "viashinoperuano",
-      "count": 43
+      "count": 42
     },
     {
       "player": "lindoso01",

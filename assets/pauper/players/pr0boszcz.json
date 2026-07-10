@@ -3,22 +3,26 @@
   "display_name": "PR0boszcz",
   "irl_name": null,
   "stats": {
-    "total_entries": 37,
+    "total_entries": 38,
     "league_trophies": 6,
     "league_trophies_yearly": 3,
-    "challenge_wins": 125,
+    "challenge_wins": 134,
     "challenge_losses": 71,
     "irl_top8": 0,
-    "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 416,
-    "league_trophy_rank_alltime": 435,
-    "league_trophy_players_yearly": 1287,
-    "league_trophy_players_alltime": 2011
+    "challenge_win_pct": 65,
+    "league_trophy_rank_yearly": 422,
+    "league_trophy_rank_alltime": 437,
+    "league_trophy_players_yearly": 1292,
+    "league_trophy_players_alltime": 2014
   },
   "favorite_decks": [
     {
       "archetype": "Food Pestilence",
       "count": 16
+    },
+    {
+      "archetype": "UB Terror",
+      "count": 3
     },
     {
       "archetype": "Jund",
@@ -38,10 +42,6 @@
     },
     {
       "archetype": "UB Faeries",
-      "count": 2
-    },
-    {
-      "archetype": "UB Terror",
       "count": 2
     },
     {
@@ -76,6 +76,22 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0412846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "PR0boszcz",
+      "archetype": "UB Terror",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "9-0",
+      "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0312846485",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-04",
       "player": "PR0boszcz",
@@ -419,21 +435,6 @@
       ],
       "record": "5-3",
       "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-1812839685",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-18",
-      "player": "PR0boszcz",
-      "archetype": "Food Pestilence",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-2",
-      "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
     }

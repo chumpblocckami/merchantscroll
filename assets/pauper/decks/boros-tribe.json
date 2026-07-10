@@ -2,17 +2,17 @@
   "archetype": "Boros Tribe",
   "slug": "boros-tribe",
   "stats": {
-    "total_entries": 95,
+    "total_entries": 96,
     "league_entries": 56,
     "league_trophies": 56,
     "league_trophies_yearly": 56,
-    "challenge_appearances": 36,
-    "challenge_wins": 142,
-    "challenge_losses": 92,
+    "challenge_appearances": 37,
+    "challenge_wins": 145,
+    "challenge_losses": 95,
     "irl_top8": 3,
-    "challenge_win_pct": 61,
+    "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 27,
-    "league_trophy_rank_alltime": 38,
+    "league_trophy_rank_alltime": 39,
     "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 72
   },
@@ -83,6 +83,23 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0412846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "PNascimento",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0312846485",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-04",
       "player": "PNascimento",
@@ -402,28 +419,12 @@
       "final_rank": 2,
       "source": "pauperwave",
       "type": "irl"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1212844305",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-12",
-      "player": "HughC",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "PNascimento",
-      "count": 12
+      "count": 13
     },
     {
       "player": "Emogoblin",

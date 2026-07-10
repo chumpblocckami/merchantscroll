@@ -3,17 +3,17 @@
   "display_name": "Brvnx",
   "irl_name": null,
   "stats": {
-    "total_entries": 65,
+    "total_entries": 66,
     "league_trophies": 16,
     "league_trophies_yearly": 7,
-    "challenge_wins": 200,
-    "challenge_losses": 113,
+    "challenge_wins": 204,
+    "challenge_losses": 115,
     "irl_top8": 0,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 134,
-    "league_trophy_rank_alltime": 125,
-    "league_trophy_players_yearly": 1287,
-    "league_trophy_players_alltime": 2011
+    "league_trophy_rank_yearly": 136,
+    "league_trophy_rank_alltime": 126,
+    "league_trophy_players_yearly": 1292,
+    "league_trophy_players_alltime": 2014
   },
   "favorite_decks": [
     {
@@ -35,6 +35,10 @@
     {
       "archetype": "U Terror",
       "count": 5
+    },
+    {
+      "archetype": "Jeskai",
+      "count": 1
     },
     {
       "archetype": "Temur Control",
@@ -76,6 +80,21 @@
       "date": "2026-07-04",
       "player": "Brvnx",
       "archetype": "UR Control",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0312846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "Brvnx",
+      "archetype": "Jeskai",
       "colors": [
         "R",
         "U"
@@ -408,22 +427,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-0212841356",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-02",
-      "player": "Brvnx",
-      "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-2",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

@@ -2,13 +2,13 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 34,
+    "total_entries": 35,
     "league_entries": 10,
     "league_trophies": 10,
     "league_trophies_yearly": 10,
-    "challenge_appearances": 22,
-    "challenge_wins": 99,
-    "challenge_losses": 58,
+    "challenge_appearances": 23,
+    "challenge_wins": 103,
+    "challenge_losses": 60,
     "irl_top8": 2,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 48,
@@ -18,13 +18,13 @@
   },
   "recent_entries": [
     {
-      "site_name": "pauper-league-2026-07-0510855",
+      "site_name": "pauper-league-2026-07-0910855",
       "tournament": "Pauper League",
-      "date": "2026-07-05",
-      "player": "ovelha_aL",
+      "date": "2026-07-09",
+      "player": "fabiosturm",
       "colors": [
-        "B",
-        "G"
+        "G",
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -61,6 +61,21 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0412846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "giuliodice",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0312846485",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-04",
       "player": "giuliodice",
@@ -375,22 +390,6 @@
       "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2012844856",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-20",
-      "player": "Echanez",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 22,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -403,12 +402,12 @@
       "count": 5
     },
     {
-      "player": "SorryImSoTilted",
+      "player": "giuliodice",
       "count": 3
     },
     {
-      "player": "giuliodice",
-      "count": 2
+      "player": "SorryImSoTilted",
+      "count": 3
     },
     {
       "player": "karatedom",
@@ -417,10 +416,6 @@
     {
       "player": "Abisd94",
       "count": 2
-    },
-    {
-      "player": "ovelha_aL",
-      "count": 1
     },
     {
       "player": "Entropy263",
@@ -432,6 +427,10 @@
     },
     {
       "player": "SirBarbaffo",
+      "count": 1
+    },
+    {
+      "player": "Auripower",
       "count": 1
     }
   ]

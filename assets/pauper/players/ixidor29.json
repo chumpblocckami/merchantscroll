@@ -3,22 +3,22 @@
   "display_name": "Ixidor29",
   "irl_name": null,
   "stats": {
-    "total_entries": 119,
+    "total_entries": 120,
     "league_trophies": 20,
     "league_trophies_yearly": 15,
-    "challenge_wins": 354,
-    "challenge_losses": 267,
+    "challenge_wins": 357,
+    "challenge_losses": 270,
     "irl_top8": 0,
     "challenge_win_pct": 57,
     "league_trophy_rank_yearly": 47,
-    "league_trophy_rank_alltime": 89,
-    "league_trophy_players_yearly": 1287,
-    "league_trophy_players_alltime": 2011
+    "league_trophy_rank_alltime": 90,
+    "league_trophy_players_yearly": 1292,
+    "league_trophy_players_alltime": 2014
   },
   "favorite_decks": [
     {
       "archetype": "Ponza",
-      "count": 39
+      "count": 40
     },
     {
       "archetype": "RG Ponza",
@@ -94,6 +94,21 @@
       "date": "2026-07-04",
       "player": "Ixidor29",
       "archetype": "BG Ponza",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 28,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0312846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "Ixidor29",
+      "archetype": "Ponza",
       "colors": [
         "G",
         "R"
@@ -421,22 +436,6 @@
       "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2610636",
-      "tournament": "Pauper League",
-      "date": "2026-05-26",
-      "player": "Ixidor29",
-      "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }
