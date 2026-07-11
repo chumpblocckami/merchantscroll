@@ -2,13 +2,13 @@
   "archetype": "BR Affinity",
   "slug": "br-affinity",
   "stats": {
-    "total_entries": 31,
+    "total_entries": 30,
     "league_entries": 8,
     "league_trophies": 8,
     "league_trophies_yearly": 8,
-    "challenge_appearances": 20,
-    "challenge_wins": 67,
-    "challenge_losses": 58,
+    "challenge_appearances": 19,
+    "challenge_wins": 64,
+    "challenge_losses": 55,
     "irl_top8": 2,
     "challenge_win_pct": 54,
     "league_trophy_rank_yearly": 50,
@@ -17,21 +17,6 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-challenge-32-2026-07-1112847128",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-11",
-      "player": "3draw_TANO",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
-    },
     {
       "site_name": "pauper-challenge-32-2026-07-1112847128",
       "tournament": "Pauper Challenge 32",
@@ -387,6 +372,21 @@
       "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1012844841",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-19",
+      "player": "AlessandroPiraccini",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -415,10 +415,6 @@
       "count": 2
     },
     {
-      "player": "3draw_TANO",
-      "count": 2
-    },
-    {
       "player": "s8shock",
       "count": 2
     },
@@ -428,6 +424,10 @@
     },
     {
       "player": "giggimille",
+      "count": 1
+    },
+    {
+      "player": "KuramaKev",
       "count": 1
     }
   ]

@@ -2,21 +2,38 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 216,
-    "league_entries": 95,
-    "league_trophies": 95,
-    "league_trophies_yearly": 88,
+    "total_entries": 217,
+    "league_entries": 96,
+    "league_trophies": 96,
+    "league_trophies_yearly": 89,
     "challenge_appearances": 101,
     "challenge_wins": 422,
     "challenge_losses": 239,
     "irl_top8": 12,
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 17,
-    "league_trophy_rank_alltime": 30,
+    "league_trophy_rank_alltime": 29,
     "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-1110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-11",
+      "player": "Emogoblin",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-1110855",
       "tournament": "Pauper League",
@@ -423,23 +440,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0512846504",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-05",
-      "player": "marzaboi",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -449,7 +449,7 @@
     },
     {
       "player": "Emogoblin",
-      "count": 9
+      "count": 10
     },
     {
       "player": "marzaboi",

@@ -2,10 +2,10 @@
   "archetype": "UR Control",
   "slug": "ur-control",
   "stats": {
-    "total_entries": 203,
-    "league_entries": 124,
-    "league_trophies": 124,
-    "league_trophies_yearly": 49,
+    "total_entries": 202,
+    "league_entries": 123,
+    "league_trophies": 123,
+    "league_trophies_yearly": 48,
     "challenge_appearances": 69,
     "challenge_wins": 286,
     "challenge_losses": 171,
@@ -45,20 +45,6 @@
       "final_rank": 20,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-07",
-      "player": "roger__estrada",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0412846485",
@@ -379,6 +365,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-0410636",
+      "tournament": "Pauper League",
+      "date": "2026-06-04",
+      "player": "True-Name-Nemesis",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -387,12 +388,12 @@
       "count": 31
     },
     {
-      "player": "roger__estrada",
+      "player": "vikizin",
       "count": 16
     },
     {
-      "player": "vikizin",
-      "count": 16
+      "player": "roger__estrada",
+      "count": 15
     },
     {
       "player": "Brvnx",
