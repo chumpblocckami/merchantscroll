@@ -2,21 +2,36 @@
   "archetype": "UR Control",
   "slug": "ur-control",
   "stats": {
-    "total_entries": 202,
-    "league_entries": 123,
-    "league_trophies": 123,
-    "league_trophies_yearly": 48,
+    "total_entries": 203,
+    "league_entries": 124,
+    "league_trophies": 124,
+    "league_trophies_yearly": 49,
     "challenge_appearances": 69,
     "challenge_wins": 286,
     "challenge_losses": 171,
     "irl_top8": 3,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 29,
+    "league_trophy_rank_yearly": 28,
     "league_trophy_rank_alltime": 24,
     "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-10",
+      "player": "ZobLeBerger",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0912847103",
       "tournament": "Pauper Challenge 32",
@@ -364,21 +379,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0410636",
-      "tournament": "Pauper League",
-      "date": "2026-06-04",
-      "player": "True-Name-Nemesis",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -419,7 +419,7 @@
       "count": 4
     },
     {
-      "player": "andredoriaa",
+      "player": "ZobLeBerger",
       "count": 4
     }
   ]

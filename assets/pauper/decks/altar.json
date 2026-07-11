@@ -2,21 +2,37 @@
   "archetype": "Altar",
   "slug": "altar",
   "stats": {
-    "total_entries": 91,
-    "league_entries": 59,
-    "league_trophies": 59,
-    "league_trophies_yearly": 19,
+    "total_entries": 92,
+    "league_entries": 60,
+    "league_trophies": 60,
+    "league_trophies_yearly": 20,
     "challenge_appearances": 28,
     "challenge_wins": 109,
     "challenge_losses": 72,
     "irl_top8": 2,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 39,
+    "league_trophy_rank_yearly": 37,
     "league_trophy_rank_alltime": 37,
     "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-06",
+      "player": "Huskyman20035",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2112844875",
       "tournament": "Pauper Challenge 32",
@@ -395,22 +411,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-2610196",
-      "tournament": "pauper-league-2026-02-2610196",
-      "date": "2026-02-26",
-      "player": "axbycs",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -439,6 +439,10 @@
       "count": 3
     },
     {
+      "player": "Huskyman20035",
+      "count": 3
+    },
+    {
       "player": "yasiu86",
       "count": 2
     },
@@ -448,10 +452,6 @@
     },
     {
       "player": "mimmON",
-      "count": 2
-    },
-    {
-      "player": "Nasello",
       "count": 2
     }
   ]
