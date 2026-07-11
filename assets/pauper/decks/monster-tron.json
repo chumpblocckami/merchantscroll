@@ -2,17 +2,17 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 36,
-    "league_entries": 9,
-    "league_trophies": 9,
-    "league_trophies_yearly": 9,
+    "total_entries": 38,
+    "league_entries": 11,
+    "league_trophies": 11,
+    "league_trophies_yearly": 11,
     "challenge_appearances": 25,
     "challenge_wins": 111,
     "challenge_losses": 65,
     "irl_top8": 2,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 50,
-    "league_trophy_rank_alltime": 55,
+    "league_trophy_rank_yearly": 47,
+    "league_trophy_rank_alltime": 51,
     "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 72
   },
@@ -45,6 +45,34 @@
       "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-09",
+      "player": "fabiosturm",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-05",
+      "player": "ovelha_aL",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-showcase-challenge-2026-07-0512846446",
@@ -358,38 +386,6 @@
       "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2010636",
-      "tournament": "Pauper League",
-      "date": "2026-06-20",
-      "player": "Hype12232",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2010636",
-      "tournament": "Pauper League",
-      "date": "2026-06-20",
-      "player": "SirBarbaffo",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -418,6 +414,10 @@
       "count": 2
     },
     {
+      "player": "ovelha_aL",
+      "count": 1
+    },
+    {
       "player": "Entropy263",
       "count": 1
     },
@@ -427,10 +427,6 @@
     },
     {
       "player": "SirBarbaffo",
-      "count": 1
-    },
-    {
-      "player": "Auripower",
       "count": 1
     }
   ]

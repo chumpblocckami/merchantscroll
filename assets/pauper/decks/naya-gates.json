@@ -2,17 +2,17 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 212,
-    "league_entries": 93,
-    "league_trophies": 93,
-    "league_trophies_yearly": 86,
+    "total_entries": 213,
+    "league_entries": 94,
+    "league_trophies": 94,
+    "league_trophies_yearly": 87,
     "challenge_appearances": 99,
     "challenge_wins": 414,
     "challenge_losses": 234,
     "irl_top8": 12,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 20,
-    "league_trophy_rank_alltime": 31,
+    "league_trophy_rank_yearly": 18,
+    "league_trophy_rank_alltime": 30,
     "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 72
   },
@@ -357,6 +357,23 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-07-0510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-05",
+      "player": "Carlinhos_Jund",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-0512846504",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-05",
@@ -423,23 +440,6 @@
       "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0412846485",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-04",
-      "player": "newbarola",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -472,16 +472,16 @@
       "count": 4
     },
     {
+      "player": "Carlinhos_Jund",
+      "count": 4
+    },
+    {
       "player": "manohito",
       "count": 4
     },
     {
       "player": "PNascimento",
       "count": 4
-    },
-    {
-      "player": "celobee",
-      "count": 3
     }
   ]
 }

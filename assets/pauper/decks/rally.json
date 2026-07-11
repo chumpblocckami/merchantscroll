@@ -2,10 +2,10 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 1072,
-    "league_entries": 605,
-    "league_trophies": 605,
-    "league_trophies_yearly": 265,
+    "total_entries": 1070,
+    "league_entries": 603,
+    "league_trophies": 603,
+    "league_trophies_yearly": 263,
     "challenge_appearances": 430,
     "challenge_wins": 1662,
     "challenge_losses": 1105,
@@ -115,21 +115,6 @@
       "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-08",
-      "player": "Nictophobia",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-0810855",
@@ -275,19 +260,6 @@
       "site_name": "pauper-league-2026-07-0510855",
       "tournament": "Pauper League",
       "date": "2026-07-05",
-      "player": "NMT_Sco94",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-05",
       "player": "LELE_88",
       "colors": [
         "B",
@@ -369,6 +341,32 @@
       "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0412846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "Punchilleno",
+      "colors": [
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 18,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0312846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "Punchilleno",
+      "colors": [
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 18,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -401,16 +399,16 @@
       "count": 13
     },
     {
-      "player": "NMT_Sco94",
-      "count": 12
-    },
-    {
       "player": "xDaddy",
       "count": 12
     },
     {
       "player": "Goblin_Player",
       "count": 12
+    },
+    {
+      "player": "NMT_Sco94",
+      "count": 11
     }
   ]
 }
