@@ -2,21 +2,34 @@
   "archetype": "B Sacrifice",
   "slug": "b-sacrifice",
   "stats": {
-    "total_entries": 305,
-    "league_entries": 207,
-    "league_trophies": 207,
-    "league_trophies_yearly": 87,
-    "challenge_appearances": 86,
-    "challenge_wins": 360,
-    "challenge_losses": 211,
+    "total_entries": 303,
+    "league_entries": 204,
+    "league_trophies": 204,
+    "league_trophies_yearly": 84,
+    "challenge_appearances": 87,
+    "challenge_wins": 363,
+    "challenge_losses": 214,
     "irl_top8": 4,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 18,
+    "league_trophy_rank_yearly": 19,
     "league_trophy_rank_alltime": 17,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-1112847128",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-11",
+      "player": "airplay",
+      "colors": [
+        "B"
+      ],
+      "record": "3-3",
+      "final_rank": 15,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1012847113",
       "tournament": "Pauper Challenge 32",
@@ -55,46 +68,6 @@
       "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-05",
-      "player": "Grantfly",
-      "colors": [
-        "B"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-05",
-      "player": "toxicdraft",
-      "colors": [
-        "B"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-05",
-      "player": "EntroPete",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0512846504",
@@ -353,16 +326,42 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1010636",
+      "tournament": "Pauper League",
+      "date": "2026-06-10",
+      "player": "elvis10",
+      "colors": [
+        "B"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-0910636",
+      "tournament": "Pauper League",
+      "date": "2026-06-09",
+      "player": "RUCetFort",
+      "colors": [
+        "B"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "EntroPete",
-      "count": 49
+      "count": 48
     },
     {
       "player": "airplay",
-      "count": 38
+      "count": 39
     },
     {
       "player": "Cryomanc3r",

@@ -3,25 +3,25 @@
   "display_name": "Valimoth",
   "irl_name": null,
   "stats": {
-    "total_entries": 32,
+    "total_entries": 33,
     "league_trophies": 13,
     "league_trophies_yearly": 3,
-    "challenge_wins": 80,
-    "challenge_losses": 40,
+    "challenge_wins": 84,
+    "challenge_losses": 42,
     "irl_top8": 0,
     "challenge_win_pct": 67,
-    "league_trophy_rank_yearly": 455,
+    "league_trophy_rank_yearly": 451,
     "league_trophy_rank_alltime": 169,
-    "league_trophy_players_yearly": 1295,
-    "league_trophy_players_alltime": 2017
+    "league_trophy_players_yearly": 1284,
+    "league_trophy_players_alltime": 2009
   },
   "favorite_decks": [
     {
-      "archetype": "Rally",
-      "count": 6
+      "archetype": "Monster Tron",
+      "count": 7
     },
     {
-      "archetype": "Monster Tron",
+      "archetype": "Rally",
       "count": 6
     },
     {
@@ -58,6 +58,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-1112847128",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-11",
+      "player": "Valimoth",
+      "archetype": "Monster Tron",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1012847113",
       "tournament": "Pauper Challenge 32",
@@ -434,22 +449,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-10-0512818146",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-10-05",
-      "player": "Valimoth",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

@@ -2,21 +2,36 @@
   "archetype": "GW Gates",
   "slug": "gw-gates",
   "stats": {
-    "total_entries": 171,
+    "total_entries": 172,
     "league_entries": 95,
     "league_trophies": 95,
     "league_trophies_yearly": 72,
-    "challenge_appearances": 72,
-    "challenge_wins": 283,
-    "challenge_losses": 170,
+    "challenge_appearances": 73,
+    "challenge_wins": 287,
+    "challenge_losses": 172,
     "irl_top8": 2,
-    "challenge_win_pct": 62,
+    "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 23,
     "league_trophy_rank_alltime": 29,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-1112847128",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-11",
+      "player": "TuggaNaxos",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1012847113",
       "tournament": "Pauper Challenge 32",
@@ -391,21 +406,6 @@
       "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2012844338",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-14",
-      "player": "auzzie51",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "6-1",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -446,8 +446,8 @@
       "count": 4
     },
     {
-      "player": "auzzie51",
-      "count": 3
+      "player": "TuggaNaxos",
+      "count": 4
     }
   ]
 }
