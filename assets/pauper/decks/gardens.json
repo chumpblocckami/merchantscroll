@@ -2,13 +2,13 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 658,
-    "league_entries": 346,
-    "league_trophies": 346,
-    "league_trophies_yearly": 152,
-    "challenge_appearances": 276,
-    "challenge_wins": 1120,
-    "challenge_losses": 682,
+    "total_entries": 662,
+    "league_entries": 349,
+    "league_trophies": 349,
+    "league_trophies_yearly": 155,
+    "challenge_appearances": 277,
+    "challenge_wins": 1123,
+    "challenge_losses": 685,
     "irl_top8": 18,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 10,
@@ -17,6 +17,34 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-1112847128",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-11",
+      "player": "yuxiaoyu",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-10",
+      "player": "elle992",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1012847113",
       "tournament": "Pauper Challenge 32",
@@ -35,9 +63,10 @@
       "site_name": "pauper-league-2026-07-0910855",
       "tournament": "Pauper League",
       "date": "2026-07-09",
-      "player": "GFILLIPPI77",
+      "player": "orbuletto",
       "colors": [
-        "B"
+        "B",
+        "G"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -45,10 +74,10 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-07-0910855",
+      "site_name": "pauper-league-2026-07-0810855",
       "tournament": "Pauper League",
-      "date": "2026-07-09",
-      "player": "orbuletto",
+      "date": "2026-07-08",
+      "player": "__Noob__",
       "colors": [
         "B",
         "G"
@@ -71,6 +100,34 @@
       "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-06",
+      "player": "__Noob__",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-06",
+      "player": "Aster17",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0512846504",
@@ -309,68 +366,12 @@
       "final_rank": 7,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2710855",
-      "tournament": "Pauper League",
-      "date": "2026-06-27",
-      "player": "Aster17",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2812845668",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-27",
-      "player": "__Noob__",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "3-2",
-      "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2812845668",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-27",
-      "player": "John1111",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "2-3",
-      "final_rank": 28,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2712845668",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-27",
-      "player": "__Noob__",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "3-2",
-      "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "__Noob__",
-      "count": 135
+      "count": 137
     },
     {
       "player": "NickNorman",
@@ -378,11 +379,11 @@
     },
     {
       "player": "yuxiaoyu",
-      "count": 39
+      "count": 40
     },
     {
       "player": "Aster17",
-      "count": 22
+      "count": 23
     },
     {
       "player": "True-Name-Nemesis",
