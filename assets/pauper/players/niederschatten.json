@@ -3,11 +3,11 @@
   "display_name": "Niederschatten",
   "irl_name": null,
   "stats": {
-    "total_entries": 101,
+    "total_entries": 102,
     "league_trophies": 49,
     "league_trophies_yearly": 26,
-    "challenge_wins": 226,
-    "challenge_losses": 116,
+    "challenge_wins": 231,
+    "challenge_losses": 118,
     "irl_top8": 0,
     "challenge_win_pct": 66,
     "league_trophy_rank_yearly": 16,
@@ -49,11 +49,11 @@
       "count": 3
     },
     {
-      "archetype": "Jeskai",
-      "count": 1
+      "archetype": "RG Ponza",
+      "count": 2
     },
     {
-      "archetype": "RG Ponza",
+      "archetype": "Jeskai",
       "count": 1
     }
   ],
@@ -74,11 +74,26 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-07-0612846623",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-08",
+      "player": "Niederschatten",
+      "archetype": "Ponza",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-2",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-league-2026-07-0710855",
       "tournament": "Pauper League",
       "date": "2026-07-07",
       "player": "Niederschatten",
-      "archetype": "Ponza",
+      "archetype": "RG Ponza",
       "colors": [
         "G",
         "R"
@@ -411,21 +426,6 @@
       ],
       "record": "5-2",
       "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-showcase-challenge-2026-05-1012842047",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2026-05-10",
-      "player": "Niederschatten",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "",
-      "final_rank": null,
       "source": "mtgo",
       "type": "challenge"
     }

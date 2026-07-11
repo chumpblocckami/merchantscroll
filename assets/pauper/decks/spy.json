@@ -2,13 +2,13 @@
   "archetype": "Spy",
   "slug": "spy",
   "stats": {
-    "total_entries": 700,
+    "total_entries": 701,
     "league_entries": 442,
     "league_trophies": 442,
     "league_trophies_yearly": 164,
-    "challenge_appearances": 213,
-    "challenge_wins": 862,
-    "challenge_losses": 537,
+    "challenge_appearances": 214,
+    "challenge_wins": 866,
+    "challenge_losses": 539,
     "irl_top8": 24,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 8,
@@ -64,6 +64,21 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0812846623",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-08",
+      "player": "medvedev",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0612846623",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-08",
       "player": "medvedev",
@@ -375,21 +390,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2412845631",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "walrusmadness",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "2-4",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [

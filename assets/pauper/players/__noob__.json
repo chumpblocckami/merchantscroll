@@ -3,11 +3,11 @@
   "display_name": "__Noob__",
   "irl_name": null,
   "stats": {
-    "total_entries": 158,
+    "total_entries": 159,
     "league_trophies": 50,
     "league_trophies_yearly": 32,
-    "challenge_wins": 465,
-    "challenge_losses": 237,
+    "challenge_wins": 468,
+    "challenge_losses": 239,
     "irl_top8": 0,
     "challenge_win_pct": 66,
     "league_trophy_rank_yearly": 8,
@@ -18,7 +18,11 @@
   "favorite_decks": [
     {
       "archetype": "Gardens",
-      "count": 137
+      "count": 136
+    },
+    {
+      "archetype": "Jund Gardens",
+      "count": 5
     },
     {
       "archetype": "Food Pestilence",
@@ -30,10 +34,6 @@
     },
     {
       "archetype": "Jund",
-      "count": 3
-    },
-    {
-      "archetype": "Jund Gardens",
       "count": 3
     },
     {
@@ -63,7 +63,7 @@
       "tournament": "Pauper League",
       "date": "2026-07-08",
       "player": "__Noob__",
-      "archetype": "Gardens",
+      "archetype": "Jund Gardens",
       "colors": [
         "B",
         "G"
@@ -79,6 +79,21 @@
       "date": "2026-07-08",
       "player": "__Noob__",
       "archetype": "Gardens",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "3-2",
+      "final_rank": 17,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0612846623",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-08",
+      "player": "__Noob__",
+      "archetype": "Jund Gardens",
       "colors": [
         "B",
         "G"
@@ -415,21 +430,6 @@
       ],
       "record": "8-1",
       "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2112842891",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-21",
-      "player": "__Noob__",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "3-3",
-      "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
     }

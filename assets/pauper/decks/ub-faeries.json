@@ -2,13 +2,13 @@
   "archetype": "UB Faeries",
   "slug": "ub-faeries",
   "stats": {
-    "total_entries": 587,
+    "total_entries": 589,
     "league_entries": 318,
     "league_trophies": 318,
     "league_trophies_yearly": 190,
-    "challenge_appearances": 242,
-    "challenge_wins": 1004,
-    "challenge_losses": 613,
+    "challenge_appearances": 244,
+    "challenge_wins": 1010,
+    "challenge_losses": 619,
     "irl_top8": 9,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 7,
@@ -131,6 +131,34 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0812846623",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-08",
+      "player": "discoverN",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0612846623",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-08",
+      "player": "Purgatory_01",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 22,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0612846623",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-08",
       "player": "discoverN",
@@ -340,34 +368,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0312846470",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-03",
-      "player": "Purgatory_01",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0312846470",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-03",
-      "player": "GigaChadSigmaMale",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "3-4",
-      "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -376,11 +376,11 @@
       "count": 99
     },
     {
-      "player": "Brvnx",
-      "count": 23
+      "player": "Purgatory_01",
+      "count": 24
     },
     {
-      "player": "Purgatory_01",
+      "player": "Brvnx",
       "count": 23
     },
     {

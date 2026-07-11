@@ -2,13 +2,13 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 163,
-    "league_entries": 76,
-    "league_trophies": 76,
-    "league_trophies_yearly": 48,
-    "challenge_appearances": 78,
-    "challenge_wins": 262,
-    "challenge_losses": 197,
+    "total_entries": 164,
+    "league_entries": 74,
+    "league_trophies": 74,
+    "league_trophies_yearly": 46,
+    "challenge_appearances": 81,
+    "challenge_wins": 275,
+    "challenge_losses": 204,
     "irl_top8": 4,
     "challenge_win_pct": 57,
     "league_trophy_rank_yearly": 29,
@@ -64,20 +64,6 @@
       "tournament": "Pauper League",
       "date": "2026-07-09",
       "player": "_Abijhavs_",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-08",
-      "player": "arturcosta",
       "colors": [
         "G",
         "R"
@@ -158,18 +144,46 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-07-0710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-07",
+      "site_name": "pauper-challenge-32-2026-07-0612846623",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-08",
+      "player": "kaikas",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-2",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0612846623",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-08",
       "player": "Niederschatten",
       "colors": [
         "G",
         "R"
       ],
-      "record": "5-0",
-      "final_rank": null,
+      "record": "5-2",
+      "final_rank": 7,
       "source": "mtgo",
-      "type": "league"
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0612846623",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-08",
+      "player": "_Abijhavs_",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-league-2026-07-0710855",
@@ -358,22 +372,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2610855",
-      "tournament": "Pauper League",
-      "date": "2026-06-26",
-      "player": "MyDeckStats",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -395,7 +393,7 @@
     },
     {
       "player": "_Abijhavs_",
-      "count": 4
+      "count": 5
     },
     {
       "player": "sai199orz",
@@ -414,7 +412,7 @@
       "count": 3
     },
     {
-      "player": "6apMaJleu4",
+      "player": "kaikas",
       "count": 3
     }
   ]

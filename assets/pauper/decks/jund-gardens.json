@@ -2,30 +2,57 @@
   "archetype": "Jund Gardens",
   "slug": "jund-gardens",
   "stats": {
-    "total_entries": 26,
-    "league_entries": 17,
-    "league_trophies": 17,
-    "league_trophies_yearly": 16,
-    "challenge_appearances": 3,
-    "challenge_wins": 9,
-    "challenge_losses": 8,
+    "total_entries": 28,
+    "league_entries": 18,
+    "league_trophies": 18,
+    "league_trophies_yearly": 17,
+    "challenge_appearances": 4,
+    "challenge_wins": 12,
+    "challenge_losses": 10,
     "irl_top8": 6,
-    "challenge_win_pct": 53,
-    "league_trophy_rank_yearly": 41,
+    "challenge_win_pct": 55,
+    "league_trophy_rank_yearly": 42,
     "league_trophy_rank_alltime": 48,
     "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
-      "site_name": "pauper-league-2026-07-0510855",
+      "site_name": "pauper-league-2026-07-0810855",
       "tournament": "Pauper League",
-      "date": "2026-07-05",
-      "player": "GiorgioCombo",
+      "date": "2026-07-08",
+      "player": "__Noob__",
       "colors": [
         "B",
-        "G",
-        "W"
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0612846623",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-08",
+      "player": "__Noob__",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "3-2",
+      "final_rank": 17,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-06",
+      "player": "Aster17",
+      "colors": [
+        "B",
+        "G"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -361,45 +388,15 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-2310196",
-      "tournament": "pauper-league-2026-02-2310196",
-      "date": "2026-02-23",
-      "player": "__Noob__",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-02-21-singolo-pauperfest-3",
-      "tournament": "Pauperfest 3 2026 (SuperIPT Milano) — Milano",
-      "date": "2026-02-21",
-      "player": "Tommaso Loss",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "",
-      "final_rank": 2,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [
     {
-      "player": "giulio854854",
-      "count": 3
+      "player": "__Noob__",
+      "count": 5
     },
     {
-      "player": "__Noob__",
+      "player": "giulio854854",
       "count": 3
     },
     {
@@ -408,10 +405,6 @@
     },
     {
       "player": "TuggaNaxos",
-      "count": 2
-    },
-    {
-      "player": "GiorgioCombo",
       "count": 2
     },
     {
@@ -424,6 +417,10 @@
     },
     {
       "player": "Riccardo Ipri",
+      "count": 1
+    },
+    {
+      "player": "GiorgioCombo",
       "count": 1
     },
     {
