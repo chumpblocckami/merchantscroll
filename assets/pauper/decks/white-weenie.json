@@ -2,19 +2,19 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 596,
-    "league_entries": 345,
-    "league_trophies": 345,
-    "league_trophies_yearly": 155,
+    "total_entries": 597,
+    "league_entries": 346,
+    "league_trophies": 346,
+    "league_trophies_yearly": 156,
     "challenge_appearances": 225,
     "challenge_wins": 881,
     "challenge_losses": 562,
     "irl_top8": 15,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 10,
+    "league_trophy_rank_yearly": 9,
     "league_trophy_rank_alltime": 10,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -104,6 +104,21 @@
       "date": "2026-07-06",
       "player": "PrezKoumori",
       "colors": [
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-05",
+      "player": "Huskyman20035",
+      "colors": [
+        "B",
         "R",
         "W"
       ],
@@ -356,19 +371,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2112844875",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-21",
-      "player": "MAFS",
-      "colors": [
-        "W"
-      ],
-      "record": "4-3",
-      "final_rank": 30,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -406,7 +408,7 @@
     },
     {
       "player": "Huskyman20035",
-      "count": 12
+      "count": 13
     },
     {
       "player": "dragtar",
