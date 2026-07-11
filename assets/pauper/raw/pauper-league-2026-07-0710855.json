@@ -3437,7 +3437,7 @@
         "U",
         "W"
       ],
-      "archetype": "Altar"
+      "archetype": "Flicker Tron"
     },
     {
       "player": "wolf777",
@@ -8279,6 +8279,69 @@
         {
           "qty": "1",
           "card_attributes": {
+            "card_name": "Suffocating Fumes",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Vault of Whispers",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Island",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Swamp",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Nihil Spellbomb",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Refurbished Familiar",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Sneaky Snacker",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Spellstutter Sprite",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Myr Enforcer",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
             "card_name": "Island",
             "card_type": "LAND  "
           }
@@ -8387,69 +8450,6 @@
             "card_name": "Thoughtcast",
             "card_type": "SORCRY"
           }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Suffocating Fumes",
-            "card_type": "INSTNT"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Vault of Whispers",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Island",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Swamp",
-            "card_type": "LAND  "
-          }
-        },
-        {
-          "qty": "2",
-          "card_attributes": {
-            "card_name": "Nihil Spellbomb",
-            "card_type": "ARTFCT"
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Refurbished Familiar",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Sneaky Snacker",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "4",
-          "card_attributes": {
-            "card_name": "Spellstutter Sprite",
-            "card_type": "ISCREA"
-          }
-        },
-        {
-          "qty": "1",
-          "card_attributes": {
-            "card_name": "Myr Enforcer",
-            "card_type": "ISCREA"
-          }
         }
       ],
       "sideboard_deck": [
@@ -8533,7 +8533,7 @@
         "B",
         "U"
       ],
-      "archetype": "Affinity"
+      "archetype": "Esper Affinity"
     }
   ]
 }
