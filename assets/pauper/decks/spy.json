@@ -2,10 +2,10 @@
   "archetype": "Spy",
   "slug": "spy",
   "stats": {
-    "total_entries": 698,
-    "league_entries": 440,
-    "league_trophies": 440,
-    "league_trophies_yearly": 162,
+    "total_entries": 700,
+    "league_entries": 442,
+    "league_trophies": 442,
+    "league_trophies_yearly": 164,
     "challenge_appearances": 213,
     "challenge_wins": 862,
     "challenge_losses": 537,
@@ -13,10 +13,25 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 8,
     "league_trophy_rank_alltime": 6,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-1110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-11",
+      "player": "Creamy_Greek",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1012847113",
       "tournament": "Pauper Challenge 32",
@@ -135,6 +150,21 @@
       "final_rank": 3,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-04",
+      "player": "iGh0st",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-0310855",
@@ -360,36 +390,6 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2512845631",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "walrusmadness",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "2-4",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2410855",
-      "tournament": "Pauper League",
-      "date": "2026-06-24",
-      "player": "landthraben",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [

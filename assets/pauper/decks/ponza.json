@@ -2,21 +2,35 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 161,
-    "league_entries": 74,
-    "league_trophies": 74,
-    "league_trophies_yearly": 46,
+    "total_entries": 163,
+    "league_entries": 76,
+    "league_trophies": 76,
+    "league_trophies_yearly": 48,
     "challenge_appearances": 78,
     "challenge_wins": 262,
     "challenge_losses": 197,
     "irl_top8": 4,
     "challenge_win_pct": 57,
-    "league_trophy_rank_yearly": 29,
+    "league_trophy_rank_yearly": 28,
     "league_trophy_rank_alltime": 35,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-1110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-11",
+      "player": "_Abijhavs_",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1012847113",
       "tournament": "Pauper Challenge 32",
@@ -214,6 +228,20 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-07-0410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-04",
+      "player": "Darkmasterfent",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-0212846460",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-02",
@@ -346,34 +374,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2512845643",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-25",
-      "player": "JuaKi",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2412845643",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-25",
-      "player": "JuaKi",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -394,6 +394,10 @@
       "count": 6
     },
     {
+      "player": "_Abijhavs_",
+      "count": 4
+    },
+    {
       "player": "sai199orz",
       "count": 4
     },
@@ -407,10 +411,6 @@
     },
     {
       "player": "guiwarchina",
-      "count": 3
-    },
-    {
-      "player": "_Abijhavs_",
       "count": 3
     },
     {
