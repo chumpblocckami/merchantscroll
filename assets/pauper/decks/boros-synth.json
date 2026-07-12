@@ -2,21 +2,36 @@
   "archetype": "Boros Synth",
   "slug": "boros-synth",
   "stats": {
-    "total_entries": 10,
-    "league_entries": 4,
-    "league_trophies": 4,
-    "league_trophies_yearly": 1,
+    "total_entries": 11,
+    "league_entries": 5,
+    "league_trophies": 5,
+    "league_trophies_yearly": 2,
     "challenge_appearances": 2,
     "challenge_wins": 6,
     "challenge_losses": 6,
     "irl_top8": 3,
     "challenge_win_pct": 50,
-    "league_trophy_rank_yearly": 63,
-    "league_trophy_rank_alltime": 62,
+    "league_trophy_rank_yearly": 59,
+    "league_trophy_rank_alltime": 60,
     "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-09",
+      "player": "Pafru",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0412846485",
       "tournament": "Pauper Challenge 32",
@@ -166,12 +181,12 @@
   ],
   "top_pilots": [
     {
-      "player": "Chord_For_15",
+      "player": "Pafru",
       "count": 2
     },
     {
-      "player": "Pafru",
-      "count": 1
+      "player": "Chord_For_15",
+      "count": 2
     },
     {
       "player": "Emanuele Navarra",
