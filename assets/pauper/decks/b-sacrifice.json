@@ -2,10 +2,10 @@
   "archetype": "B Sacrifice",
   "slug": "b-sacrifice",
   "stats": {
-    "total_entries": 307,
-    "league_entries": 208,
-    "league_trophies": 208,
-    "league_trophies_yearly": 88,
+    "total_entries": 308,
+    "league_entries": 209,
+    "league_trophies": 209,
+    "league_trophies_yearly": 89,
     "challenge_appearances": 87,
     "challenge_wins": 363,
     "challenge_losses": 214,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 18,
     "league_trophy_rank_alltime": 17,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -22,6 +22,20 @@
       "tournament": "Pauper League",
       "date": "2026-07-12",
       "player": "AngryChickenMTG",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-12",
+      "player": "dpastoNick",
       "colors": [
         "B",
         "G"
@@ -339,19 +353,6 @@
       "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1410636",
-      "tournament": "Pauper League",
-      "date": "2026-06-14",
-      "player": "airplay",
-      "colors": [
-        "B"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
