@@ -2,10 +2,10 @@
   "archetype": "U Terror",
   "slug": "u-terror",
   "stats": {
-    "total_entries": 1705,
-    "league_entries": 794,
-    "league_trophies": 794,
-    "league_trophies_yearly": 319,
+    "total_entries": 1710,
+    "league_entries": 799,
+    "league_trophies": 799,
+    "league_trophies_yearly": 324,
     "challenge_appearances": 807,
     "challenge_wins": 3323,
     "challenge_losses": 2000,
@@ -13,10 +13,24 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 2,
     "league_trophy_rank_alltime": 2,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-1110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-11",
+      "player": "bonzin",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1112847128",
       "tournament": "Pauper Challenge 32",
@@ -86,6 +100,21 @@
       "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-10",
+      "player": "dftleonidasfr",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-1010855",
@@ -334,34 +363,6 @@
       "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-07",
-      "player": "mememan420",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-07",
-      "player": "Kefwyn",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -374,12 +375,12 @@
       "count": 92
     },
     {
-      "player": "Purgatory_01",
+      "player": "carvs",
       "count": 66
     },
     {
-      "player": "carvs",
-      "count": 65
+      "player": "Purgatory_01",
+      "count": 66
     },
     {
       "player": "fsst",

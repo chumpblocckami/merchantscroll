@@ -2,10 +2,10 @@
   "archetype": "BW Refurbished",
   "slug": "bw-refurbished",
   "stats": {
-    "total_entries": 353,
-    "league_entries": 199,
-    "league_trophies": 199,
-    "league_trophies_yearly": 86,
+    "total_entries": 354,
+    "league_entries": 200,
+    "league_trophies": 200,
+    "league_trophies_yearly": 87,
     "challenge_appearances": 148,
     "challenge_wins": 563,
     "challenge_losses": 382,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 19,
     "league_trophy_rank_alltime": 18,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -98,6 +98,22 @@
       "player": "GASTyR",
       "colors": [
         "B",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-05",
+      "player": "Punchilleno",
+      "colors": [
+        "B",
+        "R",
+        "U",
         "W"
       ],
       "record": "5-0",
@@ -358,20 +374,6 @@
       ],
       "record": "5-2",
       "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-showcase-challenge-2026-06-2012844285",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2026-06-14",
-      "player": "lostonkato",
-      "colors": [
-        "B",
-        "W"
-      ],
-      "record": "7-3",
-      "final_rank": 6,
       "source": "mtgo",
       "type": "challenge"
     }
