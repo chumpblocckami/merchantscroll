@@ -2,16 +2,16 @@
   "archetype": "Jund Gardens",
   "slug": "jund-gardens",
   "stats": {
-    "total_entries": 26,
-    "league_entries": 16,
-    "league_trophies": 16,
-    "league_trophies_yearly": 15,
+    "total_entries": 27,
+    "league_entries": 17,
+    "league_trophies": 17,
+    "league_trophies_yearly": 16,
     "challenge_appearances": 4,
     "challenge_wins": 12,
     "challenge_losses": 10,
     "irl_top8": 6,
     "challenge_win_pct": 55,
-    "league_trophy_rank_yearly": 43,
+    "league_trophy_rank_yearly": 42,
     "league_trophy_rank_alltime": 48,
     "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 72
@@ -30,6 +30,21 @@
       "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-05",
+      "player": "GiorgioCombo",
+      "colors": [
+        "B",
+        "G",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-0210855",
@@ -375,21 +390,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-02-21-singolo-pauperfest-3",
-      "tournament": "Pauperfest 3 2026 (SuperIPT Milano) — Milano",
-      "date": "2026-02-21",
-      "player": "Tommaso Loss",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "",
-      "final_rank": 2,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [
@@ -410,6 +410,10 @@
       "count": 2
     },
     {
+      "player": "GiorgioCombo",
+      "count": 2
+    },
+    {
       "player": "Simone Villivà",
       "count": 1
     },
@@ -419,10 +423,6 @@
     },
     {
       "player": "Riccardo Ipri",
-      "count": 1
-    },
-    {
-      "player": "GiorgioCombo",
       "count": 1
     },
     {
