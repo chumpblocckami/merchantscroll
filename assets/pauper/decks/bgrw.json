@@ -2,21 +2,37 @@
   "archetype": "BGRW",
   "slug": "bgrw",
   "stats": {
-    "total_entries": 7,
-    "league_entries": 3,
-    "league_trophies": 3,
-    "league_trophies_yearly": 3,
+    "total_entries": 8,
+    "league_entries": 4,
+    "league_trophies": 4,
+    "league_trophies_yearly": 4,
     "challenge_appearances": 4,
     "challenge_wins": 12,
     "challenge_losses": 12,
     "irl_top8": 0,
     "challenge_win_pct": 50,
     "league_trophy_rank_yearly": 54,
-    "league_trophy_rank_alltime": 63,
+    "league_trophy_rank_alltime": 61,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-08",
+      "player": "1feri2feri3feri",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2910855",
       "tournament": "Pauper League",
@@ -138,6 +154,10 @@
     {
       "player": "FungBoi",
       "count": 2
+    },
+    {
+      "player": "1feri2feri3feri",
+      "count": 1
     }
   ]
 }

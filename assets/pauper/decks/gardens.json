@@ -2,16 +2,16 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 661,
-    "league_entries": 348,
-    "league_trophies": 348,
-    "league_trophies_yearly": 154,
+    "total_entries": 663,
+    "league_entries": 350,
+    "league_trophies": 350,
+    "league_trophies_yearly": 156,
     "challenge_appearances": 277,
     "challenge_wins": 1123,
     "challenge_losses": 685,
     "irl_top8": 18,
     "challenge_win_pct": 62,
-    "league_trophy_rank_yearly": 10,
+    "league_trophy_rank_yearly": 9,
     "league_trophy_rank_alltime": 9,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
@@ -63,7 +63,34 @@
       "site_name": "pauper-league-2026-07-0910855",
       "tournament": "Pauper League",
       "date": "2026-07-09",
+      "player": "GFILLIPPI77",
+      "colors": [
+        "B"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-09",
       "player": "orbuletto",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-08",
+      "player": "__Noob__",
       "colors": [
         "B",
         "G"
@@ -338,40 +365,12 @@
       "final_rank": 7,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
-      "tournament": "Pauper RC Super Qualifier",
-      "date": "2026-06-27",
-      "player": "yuxiaoyu",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "8-2",
-      "final_rank": 7,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2710855",
-      "tournament": "Pauper League",
-      "date": "2026-06-27",
-      "player": "Aster17",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "__Noob__",
-      "count": 136
+      "count": 137
     },
     {
       "player": "NickNorman",

@@ -3,17 +3,17 @@
   "display_name": "Syns",
   "irl_name": null,
   "stats": {
-    "total_entries": 57,
-    "league_trophies": 15,
-    "league_trophies_yearly": 12,
+    "total_entries": 58,
+    "league_trophies": 16,
+    "league_trophies_yearly": 13,
     "challenge_wins": 144,
     "challenge_losses": 116,
     "irl_top8": 0,
     "challenge_win_pct": 55,
-    "league_trophy_rank_yearly": 75,
-    "league_trophy_rank_alltime": 147,
-    "league_trophy_players_yearly": 1287,
-    "league_trophy_players_alltime": 2011
+    "league_trophy_rank_yearly": 67,
+    "league_trophy_rank_alltime": 135,
+    "league_trophy_players_yearly": 1296,
+    "league_trophy_players_alltime": 2017
   },
   "favorite_decks": [
     {
@@ -29,6 +29,10 @@
       "count": 3
     },
     {
+      "archetype": "Affinity",
+      "count": 2
+    },
+    {
       "archetype": "Monster Tron",
       "count": 2
     },
@@ -38,10 +42,6 @@
     },
     {
       "archetype": "BR Madness",
-      "count": 1
-    },
-    {
-      "archetype": "Affinity",
       "count": 1
     },
     {
@@ -64,6 +64,22 @@
       "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-08",
+      "player": "Syns",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0812846623",
@@ -425,22 +441,6 @@
       ],
       "record": "4-3",
       "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-1112838885",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-11",
-      "player": "Syns",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
     }
