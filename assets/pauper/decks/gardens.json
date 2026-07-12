@@ -2,10 +2,10 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 662,
-    "league_entries": 349,
-    "league_trophies": 349,
-    "league_trophies_yearly": 155,
+    "total_entries": 661,
+    "league_entries": 348,
+    "league_trophies": 348,
+    "league_trophies_yearly": 154,
     "challenge_appearances": 277,
     "challenge_wins": 1123,
     "challenge_losses": 685,
@@ -64,20 +64,6 @@
       "tournament": "Pauper League",
       "date": "2026-07-09",
       "player": "orbuletto",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-08",
-      "player": "__Noob__",
       "colors": [
         "B",
         "G"
@@ -366,12 +352,26 @@
       "final_rank": 7,
       "source": "mtgo",
       "type": "other"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2710855",
+      "tournament": "Pauper League",
+      "date": "2026-06-27",
+      "player": "Aster17",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "__Noob__",
-      "count": 137
+      "count": 136
     },
     {
       "player": "NickNorman",
