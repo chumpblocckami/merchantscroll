@@ -2,10 +2,10 @@
   "archetype": "Affinity",
   "slug": "affinity",
   "stats": {
-    "total_entries": 941,
-    "league_entries": 363,
-    "league_trophies": 363,
-    "league_trophies_yearly": 206,
+    "total_entries": 943,
+    "league_entries": 365,
+    "league_trophies": 365,
+    "league_trophies_yearly": 208,
     "challenge_appearances": 507,
     "challenge_wins": 2104,
     "challenge_losses": 1268,
@@ -64,6 +64,21 @@
       "site_name": "pauper-league-2026-07-1010855",
       "tournament": "Pauper League",
       "date": "2026-07-10",
+      "player": "Boquinha",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-10",
       "player": "MT_Adrian",
       "colors": [
         "B",
@@ -96,6 +111,21 @@
       "player": "newbarola",
       "colors": [
         "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-10",
+      "player": "Boquinha",
+      "colors": [
+        "B",
+        "R",
         "U"
       ],
       "record": "5-0",
@@ -354,35 +384,6 @@
       ],
       "record": "2-3",
       "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0512846504",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-05",
-      "player": "Angus91",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-showcase-challenge-2026-07-0512846446",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2026-07-05",
-      "player": "RNicoF",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "8-2",
-      "final_rank": 6,
       "source": "mtgo",
       "type": "challenge"
     }
