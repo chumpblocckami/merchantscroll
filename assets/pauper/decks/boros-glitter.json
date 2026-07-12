@@ -2,16 +2,16 @@
   "archetype": "Boros Glitter",
   "slug": "boros-glitter",
   "stats": {
-    "total_entries": 140,
-    "league_entries": 87,
-    "league_trophies": 87,
-    "league_trophies_yearly": 35,
+    "total_entries": 141,
+    "league_entries": 88,
+    "league_trophies": 88,
+    "league_trophies_yearly": 36,
     "challenge_appearances": 50,
     "challenge_wins": 196,
     "challenge_losses": 131,
     "irl_top8": 2,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 32,
+    "league_trophy_rank_yearly": 31,
     "league_trophy_rank_alltime": 34,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
@@ -46,6 +46,21 @@
       "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-09",
+      "player": "Pafru",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-0510855",
@@ -382,22 +397,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-0412838126",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-04",
-      "player": "hetare_ane",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 31,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -414,15 +413,15 @@
       "count": 6
     },
     {
+      "player": "Pafru",
+      "count": 5
+    },
+    {
       "player": "ThiagoGuerra",
       "count": 5
     },
     {
       "player": "roter_Erzengel",
-      "count": 4
-    },
-    {
-      "player": "Pafru",
       "count": 4
     },
     {

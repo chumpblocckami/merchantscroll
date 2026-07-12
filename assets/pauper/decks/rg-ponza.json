@@ -2,35 +2,21 @@
   "archetype": "RG Ponza",
   "slug": "rg-ponza",
   "stats": {
-    "total_entries": 91,
-    "league_entries": 43,
-    "league_trophies": 43,
-    "league_trophies_yearly": 18,
+    "total_entries": 89,
+    "league_entries": 41,
+    "league_trophies": 41,
+    "league_trophies_yearly": 16,
     "challenge_appearances": 42,
     "challenge_wins": 147,
     "challenge_losses": 121,
     "irl_top8": 5,
     "challenge_win_pct": 55,
-    "league_trophy_rank_yearly": 41,
+    "league_trophy_rank_yearly": 42,
     "league_trophy_rank_alltime": 42,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-07-0810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-08",
-      "player": "arturcosta",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-challenge-32-2026-07-0612846623",
       "tournament": "Pauper Challenge 32",
@@ -44,20 +30,6 @@
       "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-07",
-      "player": "Niederschatten",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-1410636",
@@ -369,6 +341,34 @@
       ],
       "record": "3-3",
       "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-02-2310196",
+      "tournament": "pauper-league-2026-02-2310196",
+      "date": "2026-02-23",
+      "player": "2krewlop",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-02-2212833562",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-02-22",
+      "player": "Ixidor29",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "2-4",
+      "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
     }
