@@ -2,19 +2,19 @@
   "archetype": "BR Affinity",
   "slug": "br-affinity",
   "stats": {
-    "total_entries": 30,
-    "league_entries": 8,
-    "league_trophies": 8,
-    "league_trophies_yearly": 8,
+    "total_entries": 31,
+    "league_entries": 9,
+    "league_trophies": 9,
+    "league_trophies_yearly": 9,
     "challenge_appearances": 19,
     "challenge_wins": 63,
     "challenge_losses": 56,
     "irl_top8": 2,
     "challenge_win_pct": 53,
     "league_trophy_rank_yearly": 50,
-    "league_trophy_rank_alltime": 55,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_rank_alltime": 54,
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -61,6 +61,21 @@
       "final_rank": 14,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-09",
+      "player": "Pafru",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0312846485",
@@ -372,34 +387,19 @@
       "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1012844841",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-19",
-      "player": "AlessandroPiraccini",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
+    {
+      "player": "Pafru",
+      "count": 4
+    },
     {
       "player": "AlessandroPiraccini",
       "count": 4
     },
     {
       "player": "Brasatore",
-      "count": 3
-    },
-    {
-      "player": "Pafru",
       "count": 3
     },
     {
