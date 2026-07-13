@@ -2,19 +2,19 @@
   "archetype": "Esper Affinity",
   "slug": "esper-affinity",
   "stats": {
-    "total_entries": 85,
-    "league_entries": 61,
-    "league_trophies": 61,
-    "league_trophies_yearly": 18,
+    "total_entries": 79,
+    "league_entries": 55,
+    "league_trophies": 55,
+    "league_trophies_yearly": 12,
     "challenge_appearances": 19,
     "challenge_wins": 67,
     "challenge_losses": 44,
     "irl_top8": 4,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 41,
-    "league_trophy_rank_alltime": 37,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_rank_yearly": 46,
+    "league_trophy_rank_alltime": 39,
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -26,20 +26,6 @@
         "B",
         "U",
         "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-12",
-      "player": "MT_Adrian",
-      "colors": [
-        "B",
-        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -59,48 +45,6 @@
       "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-11",
-      "player": "newbarola",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-10",
-      "player": "MT_Adrian",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-10",
-      "player": "newbarola",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1012847113",
@@ -129,35 +73,6 @@
       "final_rank": 19,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-09",
-      "player": "taravangian_",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-07",
-      "player": "taravangian_",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0312846485",
@@ -377,6 +292,95 @@
       "final_rank": 5,
       "source": "pauperwave",
       "type": "irl"
+    },
+    {
+      "site_name": "pauperwave-2026-03-01-brescia-winter-2025",
+      "tournament": "LP Brescia Winter 2025 — Brescia",
+      "date": "2026-03-03",
+      "player": "Fadi Mohiddin",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
+      "site_name": "pauper-league-2026-03-0210196",
+      "tournament": "pauper-league-2026-03-0210196",
+      "date": "2026-03-02",
+      "player": "someoldguy",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-2410196",
+      "tournament": "pauper-league-2026-02-2410196",
+      "date": "2026-02-24",
+      "player": "unsur3",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauperwave-2026-02-15-lucca-winter-2025",
+      "tournament": "LP Lucca Winter 2025 — Lucca",
+      "date": "2026-02-15",
+      "player": "Michele Barsotti",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
+      "site_name": "pauperwave-2026-02-01-damnation-trio-2026",
+      "tournament": "Damnation Team Trio 2026 — Lucca",
+      "date": "2026-02-01",
+      "player": "Giorgio Omietti",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "",
+      "final_rank": null,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
+      "site_name": "pauper-league-2026-01-079987",
+      "tournament": "pauper-league-2026-01-079987",
+      "date": "2026-01-07",
+      "player": "Eisehorn",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -391,10 +395,6 @@
     {
       "player": "unsur3",
       "count": 5
-    },
-    {
-      "player": "newbarola",
-      "count": 4
     },
     {
       "player": "Pafru",
@@ -418,6 +418,10 @@
     },
     {
       "player": "Michele Barsotti",
+      "count": 2
+    },
+    {
+      "player": "Luiz0211",
       "count": 2
     }
   ]
