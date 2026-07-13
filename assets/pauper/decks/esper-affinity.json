@@ -2,10 +2,10 @@
   "archetype": "Esper Affinity",
   "slug": "esper-affinity",
   "stats": {
-    "total_entries": 78,
-    "league_entries": 54,
-    "league_trophies": 54,
-    "league_trophies_yearly": 11,
+    "total_entries": 79,
+    "league_entries": 55,
+    "league_trophies": 55,
+    "league_trophies_yearly": 12,
     "challenge_appearances": 19,
     "challenge_wins": 67,
     "challenge_losses": 44,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-1310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-13",
+      "player": "GilbertoAntunes",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1212847145",
       "tournament": "Pauper Challenge 32",
@@ -366,27 +381,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-12-229987",
-      "tournament": "pauper-league-2025-12-229987",
-      "date": "2025-12-22",
-      "player": "gigiomag",
-      "colors": [
-        "B",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "GilbertoAntunes",
-      "count": 7
+      "count": 8
     },
     {
       "player": "MarshFlats",

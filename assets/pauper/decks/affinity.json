@@ -2,10 +2,10 @@
   "archetype": "Affinity",
   "slug": "affinity",
   "stats": {
-    "total_entries": 948,
-    "league_entries": 368,
-    "league_trophies": 368,
-    "league_trophies_yearly": 211,
+    "total_entries": 949,
+    "league_entries": 369,
+    "league_trophies": 369,
+    "league_trophies_yearly": 212,
     "challenge_appearances": 509,
     "challenge_wins": 2110,
     "challenge_losses": 1273,
@@ -22,6 +22,21 @@
       "tournament": "Pauper League",
       "date": "2026-07-13",
       "player": "Elfu",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-13",
+      "player": "joelson",
       "colors": [
         "B",
         "R",
@@ -365,20 +380,6 @@
       "colors": [
         "B",
         "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-07",
-      "player": "taravangian_",
-      "colors": [
-        "B",
         "U"
       ],
       "record": "5-0",
