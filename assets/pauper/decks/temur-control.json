@@ -2,28 +2,41 @@
   "archetype": "Temur Control",
   "slug": "temur-control",
   "stats": {
-    "total_entries": 13,
-    "league_entries": 4,
-    "league_trophies": 4,
-    "league_trophies_yearly": 4,
+    "total_entries": 14,
+    "league_entries": 5,
+    "league_trophies": 5,
+    "league_trophies_yearly": 5,
     "challenge_appearances": 7,
     "challenge_wins": 28,
     "challenge_losses": 18,
     "irl_top8": 2,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 56,
-    "league_trophy_rank_alltime": 64,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_rank_yearly": 54,
+    "league_trophy_rank_alltime": 61,
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
-      "site_name": "pauper-league-2026-07-1010855",
+      "site_name": "pauper-league-2026-07-1310855",
       "tournament": "Pauper League",
-      "date": "2026-07-10",
-      "player": "ZobLeBerger",
+      "date": "2026-07-13",
+      "player": "DeviousPenguin666",
       "colors": [
-        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-13",
+      "player": "DeviousPenguin666",
+      "colors": [
         "R",
         "U"
       ],
@@ -213,15 +226,15 @@
   ],
   "top_pilots": [
     {
-      "player": "ZobLeBerger",
-      "count": 2
-    },
-    {
       "player": "andredoriaa",
       "count": 2
     },
     {
       "player": "kuszlik",
+      "count": 2
+    },
+    {
+      "player": "DeviousPenguin666",
       "count": 2
     },
     {
@@ -237,6 +250,10 @@
       "count": 1
     },
     {
+      "player": "ZobLeBerger",
+      "count": 1
+    },
+    {
       "player": "Daniele Gambini",
       "count": 1
     },
@@ -246,10 +263,6 @@
     },
     {
       "player": "Brvnx",
-      "count": 1
-    },
-    {
-      "player": "Marcello Baccolini",
       "count": 1
     }
   ]

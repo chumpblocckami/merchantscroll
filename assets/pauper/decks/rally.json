@@ -2,10 +2,10 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 1082,
-    "league_entries": 608,
-    "league_trophies": 608,
-    "league_trophies_yearly": 268,
+    "total_entries": 1083,
+    "league_entries": 609,
+    "league_trophies": 609,
+    "league_trophies_yearly": 269,
     "challenge_appearances": 437,
     "challenge_wins": 1687,
     "challenge_losses": 1124,
@@ -13,10 +13,24 @@
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 3,
     "league_trophy_rank_alltime": 4,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-1310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-13",
+      "player": "boom_bust",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-1210855",
       "tournament": "Pauper League",
@@ -353,20 +367,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-07",
-      "player": "Roris",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -380,7 +380,7 @@
     },
     {
       "player": "boom_bust",
-      "count": 55
+      "count": 56
     },
     {
       "player": "GilbertoAntunes",

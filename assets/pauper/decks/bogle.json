@@ -2,21 +2,37 @@
   "archetype": "Bogle",
   "slug": "bogle",
   "stats": {
-    "total_entries": 238,
-    "league_entries": 92,
-    "league_trophies": 92,
-    "league_trophies_yearly": 21,
+    "total_entries": 239,
+    "league_entries": 93,
+    "league_trophies": 93,
+    "league_trophies_yearly": 22,
     "challenge_appearances": 140,
     "challenge_wins": 557,
     "challenge_losses": 361,
     "irl_top8": 2,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 37,
-    "league_trophy_rank_alltime": 32,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_rank_alltime": 31,
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-1310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-13",
+      "player": "Essenza",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-1210855",
       "tournament": "Pauper League",
@@ -404,22 +420,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1212844338",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-14",
-      "player": "broers_",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 14,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
