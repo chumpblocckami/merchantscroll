@@ -2,13 +2,13 @@
   "archetype": "Jund",
   "slug": "jund",
   "stats": {
-    "total_entries": 1245,
+    "total_entries": 1246,
     "league_entries": 535,
     "league_trophies": 535,
     "league_trophies_yearly": 214,
-    "challenge_appearances": 607,
-    "challenge_wins": 2455,
-    "challenge_losses": 1527,
+    "challenge_appearances": 608,
+    "challenge_wins": 2458,
+    "challenge_losses": 1530,
     "irl_top8": 53,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 5,
@@ -31,6 +31,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1212847145",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-12",
+      "player": "Brasatore",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1112847128",
@@ -375,21 +390,6 @@
       ],
       "record": "3-3",
       "final_rank": 19,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-showcase-challenge-2026-07-0512846446",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2026-07-05",
-      "player": "Walker735",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "7-2",
-      "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
     }

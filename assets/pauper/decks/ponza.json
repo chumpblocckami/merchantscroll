@@ -2,13 +2,13 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 168,
+    "total_entries": 170,
     "league_entries": 77,
     "league_trophies": 77,
     "league_trophies_yearly": 49,
-    "challenge_appearances": 82,
-    "challenge_wins": 277,
-    "challenge_losses": 208,
+    "challenge_appearances": 84,
+    "challenge_wins": 284,
+    "challenge_losses": 213,
     "irl_top8": 4,
     "challenge_win_pct": 57,
     "league_trophy_rank_yearly": 28,
@@ -17,6 +17,34 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-1212847145",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-12",
+      "player": "pokerswizard",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1212847145",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-12",
+      "player": "_Abijhavs_",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 30,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-1110855",
       "tournament": "Pauper League",
@@ -338,36 +366,6 @@
       "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-01",
-      "player": "KGery",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
-      "tournament": "Pauper RC Super Qualifier",
-      "date": "2026-06-27",
-      "player": "Sodeq",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "7-2",
-      "final_rank": 9,
-      "source": "mtgo",
-      "type": "other"
     }
   ],
   "top_pilots": [
@@ -380,16 +378,16 @@
       "count": 9
     },
     {
+      "player": "_Abijhavs_",
+      "count": 6
+    },
+    {
       "player": "Guizera",
       "count": 6
     },
     {
       "player": "_Luvi_",
       "count": 6
-    },
-    {
-      "player": "_Abijhavs_",
-      "count": 5
     },
     {
       "player": "sai199orz",

@@ -3,11 +3,11 @@
   "display_name": "PNascimento",
   "irl_name": null,
   "stats": {
-    "total_entries": 107,
+    "total_entries": 108,
     "league_trophies": 6,
     "league_trophies_yearly": 1,
-    "challenge_wins": 382,
-    "challenge_losses": 256,
+    "challenge_wins": 386,
+    "challenge_losses": 258,
     "irl_top8": 0,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 1140,
@@ -41,6 +41,10 @@
       "count": 6
     },
     {
+      "archetype": "Walls",
+      "count": 4
+    },
+    {
       "archetype": "Bogle",
       "count": 4
     },
@@ -51,13 +55,26 @@
     {
       "archetype": "Naya Gates",
       "count": 4
-    },
-    {
-      "archetype": "Walls",
-      "count": 3
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-1212847145",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-12",
+      "player": "PNascimento",
+      "archetype": "Walls",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 19,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0412846485",
       "tournament": "Pauper Challenge 32",
@@ -455,22 +472,6 @@
         "R"
       ],
       "record": "2-4",
-      "final_rank": 31,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-1712842508",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-17",
-      "player": "PNascimento",
-      "archetype": "Boros Tribe",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
       "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"

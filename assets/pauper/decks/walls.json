@@ -2,21 +2,37 @@
   "archetype": "Walls",
   "slug": "walls",
   "stats": {
-    "total_entries": 163,
+    "total_entries": 164,
     "league_entries": 105,
     "league_trophies": 105,
     "league_trophies_yearly": 36,
-    "challenge_appearances": 51,
-    "challenge_wins": 194,
-    "challenge_losses": 137,
+    "challenge_appearances": 52,
+    "challenge_wins": 198,
+    "challenge_losses": 139,
     "irl_top8": 3,
     "challenge_win_pct": 59,
-    "league_trophy_rank_yearly": 32,
+    "league_trophy_rank_yearly": 31,
     "league_trophy_rank_alltime": 28,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-1212847145",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-12",
+      "player": "PNascimento",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 19,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-0410855",
       "tournament": "Pauper League",
@@ -414,22 +430,6 @@
       "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-0712842061",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-07",
-      "player": "Taute",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "3-2",
-      "final_rank": 9,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -466,12 +466,12 @@
       "count": 4
     },
     {
-      "player": "Taute",
+      "player": "PNascimento",
       "count": 4
     },
     {
-      "player": "Timshin",
-      "count": 3
+      "player": "Taute",
+      "count": 4
     }
   ]
 }

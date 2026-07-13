@@ -2,13 +2,13 @@
   "archetype": "BW Refurbished",
   "slug": "bw-refurbished",
   "stats": {
-    "total_entries": 354,
+    "total_entries": 355,
     "league_entries": 200,
     "league_trophies": 200,
     "league_trophies_yearly": 87,
-    "challenge_appearances": 148,
-    "challenge_wins": 563,
-    "challenge_losses": 382,
+    "challenge_appearances": 149,
+    "challenge_wins": 566,
+    "challenge_losses": 385,
     "irl_top8": 4,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 19,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-1212847145",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-12",
+      "player": "CAM_13",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 27,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1112847128",
       "tournament": "Pauper Challenge 32",
@@ -361,21 +375,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1212844338",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-14",
-      "player": "Punchilleno",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [

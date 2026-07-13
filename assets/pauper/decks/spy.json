@@ -2,13 +2,13 @@
   "archetype": "Spy",
   "slug": "spy",
   "stats": {
-    "total_entries": 703,
+    "total_entries": 704,
     "league_entries": 444,
     "league_trophies": 444,
     "league_trophies_yearly": 166,
-    "challenge_appearances": 214,
-    "challenge_wins": 866,
-    "challenge_losses": 539,
+    "challenge_appearances": 215,
+    "challenge_wins": 871,
+    "challenge_losses": 542,
     "irl_top8": 24,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 8,
@@ -46,6 +46,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1212847145",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-12",
+      "player": "SambucoDeCulo",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-3",
+      "final_rank": 4,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-league-2026-07-1110855",
@@ -366,21 +381,6 @@
       "tournament": "Pauper League",
       "date": "2026-06-29",
       "player": "StonyHandz",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2810855",
-      "tournament": "Pauper League",
-      "date": "2026-06-28",
-      "player": "CaptainTeemu112",
       "colors": [
         "B",
         "G",

@@ -2,21 +2,37 @@
   "archetype": "GW Gates",
   "slug": "gw-gates",
   "stats": {
-    "total_entries": 172,
+    "total_entries": 173,
     "league_entries": 95,
     "league_trophies": 95,
     "league_trophies_yearly": 72,
-    "challenge_appearances": 73,
-    "challenge_wins": 287,
-    "challenge_losses": 172,
+    "challenge_appearances": 74,
+    "challenge_wins": 290,
+    "challenge_losses": 175,
     "irl_top8": 2,
-    "challenge_win_pct": 63,
+    "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 23,
     "league_trophy_rank_alltime": 30,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-1212847145",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-12",
+      "player": "mehanske",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 31,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1112847128",
       "tournament": "Pauper Challenge 32",
@@ -391,21 +407,6 @@
       "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-showcase-challenge-2026-06-2012844285",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2026-06-14",
-      "player": "CrazyMorango",
-      "colors": [
-        "B",
-        "G",
-        "W"
-      ],
-      "record": "7-2",
-      "final_rank": 9,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -426,15 +427,15 @@
       "count": 9
     },
     {
+      "player": "mehanske",
+      "count": 6
+    },
+    {
       "player": "Maccaciock",
       "count": 6
     },
     {
       "player": "olati",
-      "count": 5
-    },
-    {
-      "player": "mehanske",
       "count": 5
     },
     {
