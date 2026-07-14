@@ -2,10 +2,10 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 167,
-    "league_entries": 74,
-    "league_trophies": 74,
-    "league_trophies_yearly": 46,
+    "total_entries": 166,
+    "league_entries": 73,
+    "league_trophies": 73,
+    "league_trophies_yearly": 45,
     "challenge_appearances": 84,
     "challenge_wins": 284,
     "challenge_losses": 213,
@@ -86,20 +86,6 @@
       "final_rank": 6,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-09",
-      "player": "_Abijhavs_",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-0810855",
@@ -368,6 +354,22 @@
       "final_rank": 14,
       "source": "mtgo",
       "type": "other"
+    },
+    {
+      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
+      "tournament": "Pauper RC Super Qualifier",
+      "date": "2026-06-27",
+      "player": "Sodeq",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "7-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "other"
     }
   ],
   "top_pilots": [
@@ -389,7 +391,7 @@
     },
     {
       "player": "_Abijhavs_",
-      "count": 5
+      "count": 4
     },
     {
       "player": "sai199orz",
