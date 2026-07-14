@@ -2,17 +2,17 @@
   "archetype": "Jeskai",
   "slug": "jeskai",
   "stats": {
-    "total_entries": 309,
-    "league_entries": 177,
-    "league_trophies": 177,
-    "league_trophies_yearly": 113,
+    "total_entries": 310,
+    "league_entries": 178,
+    "league_trophies": 178,
+    "league_trophies_yearly": 114,
     "challenge_appearances": 116,
     "challenge_wins": 479,
     "challenge_losses": 286,
     "irl_top8": 9,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 15,
-    "league_trophy_rank_alltime": 21,
+    "league_trophy_rank_alltime": 20,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
@@ -37,6 +37,21 @@
       "tournament": "Pauper League",
       "date": "2026-07-14",
       "player": "Ben_Matocha",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-14",
+      "player": "olati",
       "colors": [
         "R",
         "U",
@@ -387,21 +402,6 @@
       "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-07",
-      "player": "wolf777",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
