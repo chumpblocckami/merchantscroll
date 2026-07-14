@@ -2,10 +2,10 @@
   "archetype": "Monsters Tron",
   "slug": "monsters-tron",
   "stats": {
-    "total_entries": 135,
-    "league_entries": 91,
-    "league_trophies": 91,
-    "league_trophies_yearly": 85,
+    "total_entries": 136,
+    "league_entries": 92,
+    "league_trophies": 92,
+    "league_trophies_yearly": 86,
     "challenge_appearances": 36,
     "challenge_wins": 140,
     "challenge_losses": 96,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-09",
+      "player": "fabiosturm",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-0510855",
       "tournament": "Pauper League",
@@ -386,20 +400,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-05-17-pauper-clash",
-      "tournament": "Novara Pauper Clash — Novara",
-      "date": "2026-05-17",
-      "player": "Andrea Feo",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "",
-      "final_rank": 3,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [
@@ -432,16 +432,16 @@
       "count": 4
     },
     {
+      "player": "fabiosturm",
+      "count": 4
+    },
+    {
       "player": "golubtsov",
       "count": 4
     },
     {
       "player": "HornsOfTheRabbit",
       "count": 4
-    },
-    {
-      "player": "wolf777",
-      "count": 3
     }
   ]
 }
