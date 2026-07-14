@@ -2,10 +2,10 @@
   "archetype": "BR Madness",
   "slug": "br-madness",
   "stats": {
-    "total_entries": 808,
-    "league_entries": 387,
-    "league_trophies": 387,
-    "league_trophies_yearly": 121,
+    "total_entries": 807,
+    "league_entries": 386,
+    "league_trophies": 386,
+    "league_trophies_yearly": 120,
     "challenge_appearances": 392,
     "challenge_wins": 1590,
     "challenge_losses": 997,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-1410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-14",
+      "player": "bubu22383",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-1410855",
       "tournament": "Pauper League",
@@ -90,35 +105,6 @@
       "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-09",
-      "player": "Fink64",
-      "colors": [
-        "B",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-09",
-      "player": "mehanske",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-0810855",
@@ -387,6 +373,20 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "other"
+    },
+    {
+      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
+      "tournament": "Pauper RC Super Qualifier",
+      "date": "2026-06-27",
+      "player": "romerito1",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "record": "6-3",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "other"
     }
   ],
   "top_pilots": [
@@ -412,7 +412,7 @@
     },
     {
       "player": "mehanske",
-      "count": 20
+      "count": 19
     },
     {
       "player": "HermonHero",

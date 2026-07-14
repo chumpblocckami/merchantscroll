@@ -3,17 +3,17 @@
   "display_name": "Edo_01",
   "irl_name": null,
   "stats": {
-    "total_entries": 44,
-    "league_trophies": 31,
-    "league_trophies_yearly": 3,
+    "total_entries": 45,
+    "league_trophies": 32,
+    "league_trophies_yearly": 4,
     "challenge_wins": 53,
     "challenge_losses": 28,
     "irl_top8": 0,
     "challenge_win_pct": 65,
-    "league_trophy_rank_yearly": 357,
-    "league_trophy_rank_alltime": 48,
-    "league_trophy_players_yearly": 1307,
-    "league_trophy_players_alltime": 2023
+    "league_trophy_rank_yearly": 269,
+    "league_trophy_rank_alltime": 43,
+    "league_trophy_players_yearly": 1305,
+    "league_trophy_players_alltime": 2022
   },
   "favorite_decks": [
     {
@@ -33,11 +33,11 @@
       "count": 2
     },
     {
-      "archetype": "Boros Glitter",
-      "count": 1
+      "archetype": "Familiars",
+      "count": 2
     },
     {
-      "archetype": "Familiars",
+      "archetype": "Boros Glitter",
       "count": 1
     },
     {
@@ -50,6 +50,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-1410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-14",
+      "player": "Edo_01",
+      "archetype": "Familiars",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2610855",
       "tournament": "Pauper League",
@@ -416,20 +431,6 @@
       "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-07-319535",
-      "tournament": "pauper-league-2025-07-319535",
-      "date": "2025-07-31",
-      "player": "Edo_01",
-      "archetype": "UG Fog",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }
