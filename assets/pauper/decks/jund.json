@@ -2,10 +2,10 @@
   "archetype": "Jund",
   "slug": "jund",
   "stats": {
-    "total_entries": 1247,
-    "league_entries": 536,
-    "league_trophies": 536,
-    "league_trophies_yearly": 215,
+    "total_entries": 1248,
+    "league_entries": 537,
+    "league_trophies": 537,
+    "league_trophies_yearly": 216,
     "challenge_appearances": 608,
     "challenge_wins": 2458,
     "challenge_losses": 1530,
@@ -214,6 +214,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-07-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-09",
+      "player": "newbarola",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2026-07-0810855",
       "tournament": "Pauper League",
       "date": "2026-07-08",
@@ -376,21 +391,6 @@
       ],
       "record": "8-1",
       "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0512846504",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-05",
-      "player": "_blaze66",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "4-3",
-      "final_rank": 7,
       "source": "mtgo",
       "type": "challenge"
     }
