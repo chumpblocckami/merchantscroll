@@ -2,10 +2,10 @@
   "archetype": "Jund",
   "slug": "jund",
   "stats": {
-    "total_entries": 1245,
-    "league_entries": 534,
-    "league_trophies": 534,
-    "league_trophies_yearly": 213,
+    "total_entries": 1246,
+    "league_entries": 535,
+    "league_trophies": 535,
+    "league_trophies_yearly": 214,
     "challenge_appearances": 608,
     "challenge_wins": 2458,
     "challenge_losses": 1530,
@@ -26,6 +26,22 @@
         "B",
         "G",
         "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-13",
+      "player": "Abisd94",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -375,21 +391,6 @@
       ],
       "record": "3-3",
       "final_rank": 19,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-showcase-challenge-2026-07-0512846446",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2026-07-05",
-      "player": "Walker735",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "7-2",
-      "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
     }

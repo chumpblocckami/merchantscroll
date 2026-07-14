@@ -2,10 +2,10 @@
   "archetype": "RG Storm",
   "slug": "rg-storm",
   "stats": {
-    "total_entries": 166,
-    "league_entries": 119,
-    "league_trophies": 119,
-    "league_trophies_yearly": 106,
+    "total_entries": 167,
+    "league_entries": 120,
+    "league_trophies": 120,
+    "league_trophies_yearly": 107,
     "challenge_appearances": 38,
     "challenge_wins": 140,
     "challenge_losses": 95,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-1110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-11",
+      "player": "lumely",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-1010855",
       "tournament": "Pauper League",
@@ -377,21 +392,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2710855",
-      "tournament": "Pauper League",
-      "date": "2026-06-27",
-      "player": "lumely",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -412,16 +412,16 @@
       "count": 6
     },
     {
+      "player": "lumely",
+      "count": 6
+    },
+    {
       "player": "tzuizz",
       "count": 6
     },
     {
       "player": "Lamela",
       "count": 6
-    },
-    {
-      "player": "lumely",
-      "count": 5
     },
     {
       "player": "Pilopanga",

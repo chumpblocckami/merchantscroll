@@ -2,10 +2,10 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 166,
-    "league_entries": 73,
-    "league_trophies": 73,
-    "league_trophies_yearly": 45,
+    "total_entries": 168,
+    "league_entries": 75,
+    "league_trophies": 75,
+    "league_trophies_yearly": 47,
     "challenge_appearances": 84,
     "challenge_wins": 284,
     "challenge_losses": 213,
@@ -44,6 +44,34 @@
       "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-11",
+      "player": "_Abijhavs_",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-11",
+      "player": "Scherben",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1112847128",
@@ -340,36 +368,6 @@
       "final_rank": 9,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
-      "tournament": "Pauper RC Super Qualifier",
-      "date": "2026-06-27",
-      "player": "Venga",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "7-2",
-      "final_rank": 14,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
-      "tournament": "Pauper RC Super Qualifier",
-      "date": "2026-06-27",
-      "player": "Sodeq",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "7-2",
-      "final_rank": 9,
-      "source": "mtgo",
-      "type": "other"
     }
   ],
   "top_pilots": [
@@ -391,7 +389,7 @@
     },
     {
       "player": "_Abijhavs_",
-      "count": 4
+      "count": 5
     },
     {
       "player": "sai199orz",

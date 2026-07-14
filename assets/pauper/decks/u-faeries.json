@@ -2,10 +2,10 @@
   "archetype": "U Faeries",
   "slug": "u-faeries",
   "stats": {
-    "total_entries": 555,
-    "league_entries": 302,
-    "league_trophies": 302,
-    "league_trophies_yearly": 76,
+    "total_entries": 556,
+    "league_entries": 303,
+    "league_trophies": 303,
+    "league_trophies_yearly": 77,
     "challenge_appearances": 229,
     "challenge_wins": 945,
     "challenge_losses": 577,
@@ -29,6 +29,20 @@
       "final_rank": 6,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-11",
+      "player": "barff",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0912847103",
@@ -335,25 +349,12 @@
       "final_rank": 7,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1912844841",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-19",
-      "player": "Beicodegeia",
-      "colors": [
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "barff",
-      "count": 86
+      "count": 87
     },
     {
       "player": "Guii_Machado",
