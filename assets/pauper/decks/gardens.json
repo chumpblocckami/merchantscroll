@@ -2,10 +2,10 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 662,
-    "league_entries": 348,
-    "league_trophies": 348,
-    "league_trophies_yearly": 154,
+    "total_entries": 664,
+    "league_entries": 350,
+    "league_trophies": 350,
+    "league_trophies_yearly": 156,
     "challenge_appearances": 278,
     "challenge_wins": 1131,
     "challenge_losses": 686,
@@ -47,6 +47,20 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-07-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-10",
+      "player": "elle992",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-1012847113",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-10",
@@ -59,6 +73,19 @@
       "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-09",
+      "player": "GFILLIPPI77",
+      "colors": [
+        "B"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-0910855",
@@ -337,34 +364,6 @@
       ],
       "record": "8-2",
       "final_rank": 5,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
-      "tournament": "Pauper RC Super Qualifier",
-      "date": "2026-06-27",
-      "player": "yuxiaoyu",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "8-2",
-      "final_rank": 7,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
-      "tournament": "Pauper RC Super Qualifier",
-      "date": "2026-06-27",
-      "player": "yuxiaoyu",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "8-2",
-      "final_rank": 7,
       "source": "mtgo",
       "type": "other"
     }

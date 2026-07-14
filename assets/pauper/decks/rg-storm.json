@@ -2,10 +2,10 @@
   "archetype": "RG Storm",
   "slug": "rg-storm",
   "stats": {
-    "total_entries": 168,
-    "league_entries": 121,
-    "league_trophies": 121,
-    "league_trophies_yearly": 108,
+    "total_entries": 170,
+    "league_entries": 123,
+    "league_trophies": 123,
+    "league_trophies_yearly": 110,
     "challenge_appearances": 38,
     "challenge_wins": 140,
     "challenge_losses": 95,
@@ -18,10 +18,40 @@
   },
   "recent_entries": [
     {
+      "site_name": "pauper-league-2026-07-1410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-14",
+      "player": "saidin.raken",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2026-07-1110855",
       "tournament": "Pauper League",
       "date": "2026-07-11",
       "player": "lumely",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-10",
+      "player": "Londaron",
       "colors": [
         "G",
         "R",
@@ -362,42 +392,12 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-01",
-      "player": "Lamela",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-3010855",
-      "tournament": "Pauper League",
-      "date": "2026-06-30",
-      "player": "saidin.raken",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "saidin.raken",
-      "count": 38
+      "count": 39
     },
     {
       "player": "DataPusher",
