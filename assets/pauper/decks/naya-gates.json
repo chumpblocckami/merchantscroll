@@ -2,21 +2,38 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 215,
-    "league_entries": 93,
-    "league_trophies": 93,
-    "league_trophies_yearly": 86,
+    "total_entries": 213,
+    "league_entries": 91,
+    "league_trophies": 91,
+    "league_trophies_yearly": 84,
     "challenge_appearances": 102,
     "challenge_wins": 428,
     "challenge_losses": 241,
     "irl_top8": 12,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 19,
-    "league_trophy_rank_alltime": 32,
+    "league_trophy_rank_yearly": 20,
+    "league_trophy_rank_alltime": 33,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-1410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-14",
+      "player": "Mankeke",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-1210855",
       "tournament": "Pauper League",
@@ -137,23 +154,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-07-1010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-10",
-      "player": "Mankeke",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-07-1012847113",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-10",
@@ -203,40 +203,6 @@
       "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-08",
-      "player": "jubileubr",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-08",
-      "player": "paiehquemcria",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0812846623",
@@ -439,6 +405,40 @@
       ],
       "record": "11-1",
       "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-showcase-challenge-2026-07-0512846446",
+      "tournament": "Pauper Showcase Challenge",
+      "date": "2026-07-05",
+      "player": "Bahsis",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "9-2",
+      "final_rank": 4,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-showcase-challenge-2026-07-0512846446",
+      "tournament": "Pauper Showcase Challenge",
+      "date": "2026-07-05",
+      "player": "Linden_43",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "7-2",
+      "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
     }

@@ -2,10 +2,10 @@
   "archetype": "Spy",
   "slug": "spy",
   "stats": {
-    "total_entries": 707,
-    "league_entries": 447,
-    "league_trophies": 447,
-    "league_trophies_yearly": 169,
+    "total_entries": 708,
+    "league_entries": 448,
+    "league_trophies": 448,
+    "league_trophies_yearly": 170,
     "challenge_appearances": 215,
     "challenge_wins": 871,
     "challenge_losses": 542,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-1410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-14",
+      "player": "Kuriboh",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-1310855",
       "tournament": "Pauper League",
@@ -375,21 +390,6 @@
       "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-01",
-      "player": "GoodVibesOnly",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
