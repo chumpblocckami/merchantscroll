@@ -2,10 +2,10 @@
   "archetype": "R Madness",
   "slug": "r-madness",
   "stats": {
-    "total_entries": 1927,
-    "league_entries": 1103,
-    "league_trophies": 1103,
-    "league_trophies_yearly": 531,
+    "total_entries": 1930,
+    "league_entries": 1106,
+    "league_trophies": 1106,
+    "league_trophies_yearly": 534,
     "challenge_appearances": 719,
     "challenge_wins": 2823,
     "challenge_losses": 1827,
@@ -37,21 +37,6 @@
       "tournament": "Pauper League",
       "date": "2026-07-13",
       "player": "mad8ball",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-12",
-      "player": "MisterTwin",
       "colors": [
         "B",
         "R",
@@ -391,12 +376,27 @@
       "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-09",
+      "player": "Altart",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "MisterTwin",
-      "count": 91
+      "count": 90
     },
     {
       "player": "boom_bust",

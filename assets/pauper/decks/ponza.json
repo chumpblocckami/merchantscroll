@@ -2,10 +2,10 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 169,
-    "league_entries": 76,
-    "league_trophies": 76,
-    "league_trophies_yearly": 48,
+    "total_entries": 170,
+    "league_entries": 77,
+    "league_trophies": 77,
+    "league_trophies_yearly": 49,
     "challenge_appearances": 84,
     "challenge_wins": 284,
     "challenge_losses": 213,
@@ -114,6 +114,20 @@
       "final_rank": 6,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-09",
+      "player": "_Abijhavs_",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-0810855",
@@ -352,20 +366,6 @@
       "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-01",
-      "player": "KGery",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -378,16 +378,16 @@
       "count": 9
     },
     {
+      "player": "_Abijhavs_",
+      "count": 6
+    },
+    {
       "player": "Guizera",
       "count": 6
     },
     {
       "player": "_Luvi_",
       "count": 6
-    },
-    {
-      "player": "_Abijhavs_",
-      "count": 5
     },
     {
       "player": "sai199orz",
