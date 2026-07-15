@@ -2,10 +2,10 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 168,
-    "league_entries": 75,
-    "league_trophies": 75,
-    "league_trophies_yearly": 47,
+    "total_entries": 167,
+    "league_entries": 74,
+    "league_trophies": 74,
+    "league_trophies_yearly": 46,
     "challenge_appearances": 84,
     "challenge_wins": 284,
     "challenge_losses": 213,
@@ -17,20 +17,6 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-07-1510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-15",
-      "player": "Venga",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-challenge-32-2026-07-1212847145",
       "tournament": "Pauper Challenge 32",
@@ -368,6 +354,20 @@
       "final_rank": 9,
       "source": "mtgo",
       "type": "other"
+    },
+    {
+      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
+      "tournament": "Pauper RC Super Qualifier",
+      "date": "2026-06-27",
+      "player": "Venga",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "7-2",
+      "final_rank": 14,
+      "source": "mtgo",
+      "type": "other"
     }
   ],
   "top_pilots": [
@@ -392,10 +392,6 @@
       "count": 4
     },
     {
-      "player": "Venga",
-      "count": 4
-    },
-    {
       "player": "sai199orz",
       "count": 4
     },
@@ -409,6 +405,10 @@
     },
     {
       "player": "guiwarchina",
+      "count": 3
+    },
+    {
+      "player": "kaikas",
       "count": 3
     }
   ]
