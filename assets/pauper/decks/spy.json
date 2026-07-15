@@ -2,10 +2,10 @@
   "archetype": "Spy",
   "slug": "spy",
   "stats": {
-    "total_entries": 708,
-    "league_entries": 448,
-    "league_trophies": 448,
-    "league_trophies_yearly": 170,
+    "total_entries": 709,
+    "league_entries": 449,
+    "league_trophies": 449,
+    "league_trophies_yearly": 171,
     "challenge_appearances": 215,
     "challenge_wins": 871,
     "challenge_losses": 542,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-1510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-15",
+      "player": "AlessandroPiraccini",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-1310855",
       "tournament": "Pauper League",
@@ -375,21 +390,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0112845719",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-01",
-      "player": "MyDeckStats",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -402,16 +402,16 @@
       "count": 26
     },
     {
+      "player": "AlessandroPiraccini",
+      "count": 15
+    },
+    {
       "player": "Mikito9171",
       "count": 15
     },
     {
       "player": "3vildr4k3",
       "count": 15
-    },
-    {
-      "player": "AlessandroPiraccini",
-      "count": 14
     },
     {
       "player": "Luddrox",

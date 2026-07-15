@@ -2,16 +2,16 @@
   "archetype": "Esper Affinity",
   "slug": "esper-affinity",
   "stats": {
-    "total_entries": 83,
-    "league_entries": 59,
-    "league_trophies": 59,
-    "league_trophies_yearly": 16,
+    "total_entries": 82,
+    "league_entries": 58,
+    "league_trophies": 58,
+    "league_trophies_yearly": 15,
     "challenge_appearances": 19,
     "challenge_wins": 67,
     "challenge_losses": 44,
     "irl_top8": 4,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 41,
+    "league_trophy_rank_yearly": 43,
     "league_trophy_rank_alltime": 38,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
@@ -45,20 +45,6 @@
       "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-11",
-      "player": "newbarola",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-1010855",
@@ -379,6 +365,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-2410196",
+      "tournament": "pauper-league-2026-02-2410196",
+      "date": "2026-02-24",
+      "player": "unsur3",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -395,10 +395,6 @@
       "count": 5
     },
     {
-      "player": "newbarola",
-      "count": 4
-    },
-    {
       "player": "Pafru",
       "count": 4
     },
@@ -408,6 +404,10 @@
     },
     {
       "player": "Kirblinxy",
+      "count": 3
+    },
+    {
+      "player": "newbarola",
       "count": 3
     },
     {
