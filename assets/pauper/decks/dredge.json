@@ -12,7 +12,7 @@
     "irl_top8": 8,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 34,
-    "league_trophy_rank_alltime": 31,
+    "league_trophy_rank_alltime": 32,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
@@ -297,40 +297,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-03-0612834493",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-06",
-      "player": "seasonofmists",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-3",
-      "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-0612834493",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-06",
-      "player": "Fatone",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 30,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-03-0610405",
       "tournament": "pauper-league-2026-03-0610405",
       "date": "2026-03-06",
@@ -380,9 +346,9 @@
       "type": "irl"
     },
     {
-      "site_name": "pauper-challenge-32-2026-03-0512834483",
+      "site_name": "pauper-challenge-32-2026-03-0612834493",
       "tournament": "Pauper Challenge 32",
-      "date": "2026-03-05",
+      "date": "2026-03-06",
       "player": "seasonofmists",
       "colors": [
         "B",
@@ -391,8 +357,25 @@
         "U",
         "W"
       ],
-      "record": "5-2",
-      "final_rank": 5,
+      "record": "4-3",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-03-0612834493",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-03-06",
+      "player": "Fatone",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -412,6 +395,23 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-03-0512834483",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-03-05",
+      "player": "seasonofmists",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauperwave-2026-03-01-exploding-pauper",

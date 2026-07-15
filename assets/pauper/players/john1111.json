@@ -10,20 +10,12 @@
     "challenge_losses": 65,
     "irl_top8": 0,
     "challenge_win_pct": 58,
-    "league_trophy_rank_yearly": 983,
-    "league_trophy_rank_alltime": 1595,
-    "league_trophy_players_yearly": 1307,
-    "league_trophy_players_alltime": 2025
+    "league_trophy_rank_yearly": 988,
+    "league_trophy_rank_alltime": 1598,
+    "league_trophy_players_yearly": 1311,
+    "league_trophy_players_alltime": 2028
   },
   "favorite_decks": [
-    {
-      "archetype": "Ponza",
-      "count": 3
-    },
-    {
-      "archetype": "U Terror",
-      "count": 3
-    },
     {
       "archetype": "BR Madness",
       "count": 3
@@ -33,7 +25,15 @@
       "count": 3
     },
     {
-      "archetype": "Naya Gates",
+      "archetype": "Ponza",
+      "count": 3
+    },
+    {
+      "archetype": "U Terror",
+      "count": 3
+    },
+    {
+      "archetype": "Rally",
       "count": 2
     },
     {
@@ -45,15 +45,15 @@
       "count": 2
     },
     {
-      "archetype": "Rally",
-      "count": 2
-    },
-    {
       "archetype": "R Madness",
       "count": 2
     },
     {
-      "archetype": "Jund",
+      "archetype": "Naya Gates",
+      "count": 2
+    },
+    {
+      "archetype": "Pingers",
       "count": 1
     }
   ],
@@ -77,22 +77,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0412846485",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-04",
-      "player": "John1111",
-      "archetype": "RG Storm",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "2-3",
-      "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-07-0312846485",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-04",
@@ -109,7 +93,23 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2812845668",
+      "site_name": "pauper-challenge-32-2026-07-0412846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "John1111",
+      "archetype": "RG Storm",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2712845668",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-27",
       "player": "John1111",
@@ -124,7 +124,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2712845668",
+      "site_name": "pauper-challenge-32-2026-06-2812845668",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-27",
       "player": "John1111",
@@ -154,7 +154,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2012844338",
+      "site_name": "pauper-challenge-32-2026-06-1412844338",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-14",
       "player": "John1111",
@@ -169,7 +169,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1412844338",
+      "site_name": "pauper-challenge-32-2026-06-2012844338",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-14",
       "player": "John1111",
@@ -198,11 +198,11 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-0212844295",
+      "site_name": "pauper-challenge-32-2026-05-1712844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
       "player": "John1111",
-      "archetype": "Rally",
+      "archetype": "Pingers",
       "colors": [
         "R"
       ],
@@ -212,11 +212,11 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-05-1712844295",
+      "site_name": "pauper-challenge-32-2026-06-0212844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
       "player": "John1111",
-      "archetype": "Pingers",
+      "archetype": "Rally",
       "colors": [
         "R"
       ],

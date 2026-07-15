@@ -12,8 +12,8 @@
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 7,
     "league_trophy_rank_alltime": 12,
-    "league_trophy_players_yearly": 1307,
-    "league_trophy_players_alltime": 2025
+    "league_trophy_players_yearly": 1311,
+    "league_trophy_players_alltime": 2028
   },
   "favorite_decks": [
     {
@@ -155,8 +155,8 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
-      "tournament": "Pauper RC Super Qualifier",
+      "site_name": "pauper-challenge-32-2026-06-2712845668",
+      "tournament": "Pauper Challenge 32",
       "date": "2026-06-27",
       "player": "vini_torres",
       "archetype": "Rally",
@@ -164,10 +164,10 @@
         "G",
         "R"
       ],
-      "record": "7-2",
-      "final_rank": 13,
+      "record": "4-3",
+      "final_rank": 8,
       "source": "mtgo",
-      "type": "other"
+      "type": "challenge"
     },
     {
       "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
@@ -200,8 +200,8 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2712845668",
-      "tournament": "Pauper Challenge 32",
+      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
+      "tournament": "Pauper RC Super Qualifier",
       "date": "2026-06-27",
       "player": "vini_torres",
       "archetype": "Rally",
@@ -209,10 +209,10 @@
         "G",
         "R"
       ],
-      "record": "4-3",
-      "final_rank": 8,
+      "record": "7-2",
+      "final_rank": 13,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "other"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2612845653",
@@ -228,6 +228,21 @@
       "final_rank": 14,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2510855",
+      "tournament": "Pauper League",
+      "date": "2026-06-25",
+      "player": "vini_torres",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2512845643",
@@ -260,26 +275,11 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-06-2510855",
-      "tournament": "Pauper League",
-      "date": "2026-06-25",
-      "player": "vini_torres",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2412845631",
+      "site_name": "pauper-challenge-32-2026-06-2512845631",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "vini_torres",
-      "archetype": "Rally",
+      "archetype": "Pingers",
       "colors": [
         "G",
         "R"
@@ -290,11 +290,11 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2512845631",
+      "site_name": "pauper-challenge-32-2026-06-2412845631",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "vini_torres",
-      "archetype": "Pingers",
+      "archetype": "Rally",
       "colors": [
         "G",
         "R"
@@ -320,21 +320,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1812844831",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-18",
-      "player": "vini_torres",
-      "archetype": "Mono Red Kuldotha",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 16,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-06-2312844831",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-18",
@@ -350,17 +335,17 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-showcase-challenge-2026-06-2012844285",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2026-06-14",
+      "site_name": "pauper-challenge-32-2026-06-1812844831",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-18",
       "player": "vini_torres",
-      "archetype": "Rally",
+      "archetype": "Mono Red Kuldotha",
       "colors": [
         "G",
         "R"
       ],
-      "record": "7-3",
-      "final_rank": 7,
+      "record": "4-2",
+      "final_rank": 16,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -380,11 +365,26 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1312844320",
+      "site_name": "pauper-showcase-challenge-2026-06-2012844285",
+      "tournament": "Pauper Showcase Challenge",
+      "date": "2026-06-14",
+      "player": "vini_torres",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "7-3",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-03-1712844320",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-13",
       "player": "vini_torres",
-      "archetype": "Rally",
+      "archetype": "Mono Red Kuldotha",
       "colors": [
         "G",
         "R"
@@ -395,11 +395,11 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2025-03-1712844320",
+      "site_name": "pauper-challenge-32-2026-06-1312844320",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-13",
       "player": "vini_torres",
-      "archetype": "Mono Red Kuldotha",
+      "archetype": "Rally",
       "colors": [
         "G",
         "R"

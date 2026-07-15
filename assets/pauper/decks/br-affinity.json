@@ -2,16 +2,16 @@
   "archetype": "BR Affinity",
   "slug": "br-affinity",
   "stats": {
-    "total_entries": 32,
-    "league_entries": 10,
-    "league_trophies": 10,
-    "league_trophies_yearly": 10,
+    "total_entries": 31,
+    "league_entries": 9,
+    "league_trophies": 9,
+    "league_trophies_yearly": 9,
     "challenge_appearances": 19,
     "challenge_wins": 63,
     "challenge_losses": 56,
     "irl_top8": 2,
     "challenge_win_pct": 53,
-    "league_trophy_rank_yearly": 49,
+    "league_trophy_rank_yearly": 50,
     "league_trophy_rank_alltime": 54,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
@@ -26,20 +26,6 @@
         "B",
         "G",
         "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-12",
-      "player": "MT_Adrian",
-      "colors": [
-        "B",
-        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -152,6 +138,21 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-07-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-01",
+      "player": "synth1a",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-0112845719",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-01",
@@ -167,19 +168,19 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-07-0110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-01",
-      "player": "synth1a",
+      "site_name": "pauper-challenge-32-2026-06-2712845668",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-27",
+      "player": "Thn",
       "colors": [
         "B",
         "G",
         "R"
       ],
-      "record": "5-0",
-      "final_rank": null,
+      "record": "3-3",
+      "final_rank": 19,
       "source": "mtgo",
-      "type": "league"
+      "type": "challenge"
     },
     {
       "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
@@ -223,21 +224,6 @@
       ],
       "record": "2-4",
       "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2712845668",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-27",
-      "player": "Thn",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 19,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -386,6 +372,21 @@
       "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1012844841",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-19",
+      "player": "AlessandroPiraccini",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -394,7 +395,7 @@
       "count": 4
     },
     {
-      "player": "Brasatore",
+      "player": "_blaze66",
       "count": 3
     },
     {
@@ -402,23 +403,11 @@
       "count": 3
     },
     {
-      "player": "_blaze66",
+      "player": "Brasatore",
       "count": 3
     },
     {
-      "player": "qbturtle15",
-      "count": 2
-    },
-    {
-      "player": "manohito",
-      "count": 2
-    },
-    {
       "player": "3draw_TANO",
-      "count": 2
-    },
-    {
-      "player": "s8shock",
       "count": 2
     },
     {
@@ -426,7 +415,19 @@
       "count": 2
     },
     {
-      "player": "giggimille",
+      "player": "manohito",
+      "count": 2
+    },
+    {
+      "player": "qbturtle15",
+      "count": 2
+    },
+    {
+      "player": "s8shock",
+      "count": 2
+    },
+    {
+      "player": "Squall93",
       "count": 1
     }
   ]

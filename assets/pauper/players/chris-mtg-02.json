@@ -10,10 +10,10 @@
     "challenge_losses": 22,
     "irl_top8": 0,
     "challenge_win_pct": 67,
-    "league_trophy_rank_yearly": 164,
-    "league_trophy_rank_alltime": 153,
-    "league_trophy_players_yearly": 1307,
-    "league_trophy_players_alltime": 2025
+    "league_trophy_rank_yearly": 165,
+    "league_trophy_rank_alltime": 155,
+    "league_trophy_players_yearly": 1311,
+    "league_trophy_players_alltime": 2028
   },
   "favorite_decks": [
     {
@@ -21,11 +21,11 @@
       "count": 9
     },
     {
-      "archetype": "Naya Gates",
+      "archetype": "Spy",
       "count": 3
     },
     {
-      "archetype": "Spy",
+      "archetype": "Naya Gates",
       "count": 3
     },
     {
@@ -33,15 +33,7 @@
       "count": 2
     },
     {
-      "archetype": "Food Pestilence",
-      "count": 1
-    },
-    {
-      "archetype": "U Terror",
-      "count": 1
-    },
-    {
-      "archetype": "W Heroic",
+      "archetype": "Familiars",
       "count": 1
     },
     {
@@ -49,11 +41,19 @@
       "count": 1
     },
     {
+      "archetype": "U Terror",
+      "count": 1
+    },
+    {
+      "archetype": "Food Pestilence",
+      "count": 1
+    },
+    {
       "archetype": "Rally",
       "count": 1
     },
     {
-      "archetype": "Familiars",
+      "archetype": "Altar Tron",
       "count": 1
     }
   ],
@@ -222,22 +222,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-03-0812834527",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-08",
-      "player": "CHRIS-Mtg-02",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-03-0810405",
       "tournament": "pauper-league-2026-03-0810405",
       "date": "2026-03-08",
@@ -252,6 +236,22 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-03-0812834527",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-03-08",
+      "player": "CHRIS-Mtg-02",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-02-2812834072",

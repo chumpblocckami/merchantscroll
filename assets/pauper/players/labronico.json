@@ -12,8 +12,8 @@
     "challenge_win_pct": 66,
     "league_trophy_rank_yearly": 100,
     "league_trophy_rank_alltime": 82,
-    "league_trophy_players_yearly": 1307,
-    "league_trophy_players_alltime": 2025
+    "league_trophy_players_yearly": 1311,
+    "league_trophy_players_alltime": 2028
   },
   "favorite_decks": [
     {
@@ -29,11 +29,11 @@
       "count": 4
     },
     {
-      "archetype": "Affinity",
+      "archetype": "Spy",
       "count": 3
     },
     {
-      "archetype": "Spy",
+      "archetype": "Affinity",
       "count": 3
     },
     {
@@ -41,7 +41,7 @@
       "count": 2
     },
     {
-      "archetype": "Ponza",
+      "archetype": "UB Faeries",
       "count": 1
     },
     {
@@ -53,7 +53,7 @@
       "count": 1
     },
     {
-      "archetype": "UB Faeries",
+      "archetype": "Ponza",
       "count": 1
     }
   ],
@@ -143,8 +143,8 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2412845631",
-      "tournament": "Pauper Challenge 32",
+      "site_name": "pauper-league-2026-06-2410855",
+      "tournament": "Pauper League",
       "date": "2026-06-24",
       "player": "LabroNico",
       "archetype": "Naya Gates",
@@ -155,10 +155,10 @@
         "U",
         "W"
       ],
-      "record": "7-2",
-      "final_rank": 1,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2512845631",
@@ -179,8 +179,8 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-06-2410855",
-      "tournament": "Pauper League",
+      "site_name": "pauper-challenge-32-2026-06-2412845631",
+      "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "LabroNico",
       "archetype": "Naya Gates",
@@ -191,10 +191,10 @@
         "U",
         "W"
       ],
-      "record": "5-0",
-      "final_rank": null,
+      "record": "7-2",
+      "final_rank": 1,
       "source": "mtgo",
-      "type": "league"
+      "type": "challenge"
     },
     {
       "site_name": "pauper-league-2026-06-0310636",
@@ -324,22 +324,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-12-189987",
-      "tournament": "pauper-league-2025-12-189987",
-      "date": "2025-12-18",
-      "player": "LabroNico",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2025-12-1812827476",
       "tournament": "Pauper Challenge 32",
       "date": "2025-12-18",
@@ -354,6 +338,22 @@
       "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-12-189987",
+      "tournament": "pauper-league-2025-12-189987",
+      "date": "2025-12-18",
+      "player": "LabroNico",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2025-12-149987",

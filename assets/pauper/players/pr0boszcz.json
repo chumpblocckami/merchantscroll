@@ -10,15 +10,19 @@
     "challenge_losses": 71,
     "irl_top8": 0,
     "challenge_win_pct": 65,
-    "league_trophy_rank_yearly": 426,
-    "league_trophy_rank_alltime": 436,
-    "league_trophy_players_yearly": 1307,
-    "league_trophy_players_alltime": 2025
+    "league_trophy_rank_yearly": 432,
+    "league_trophy_rank_alltime": 438,
+    "league_trophy_players_yearly": 1311,
+    "league_trophy_players_alltime": 2028
   },
   "favorite_decks": [
     {
       "archetype": "Food Pestilence",
       "count": 16
+    },
+    {
+      "archetype": "Affinity",
+      "count": 3
     },
     {
       "archetype": "UB Terror",
@@ -29,16 +33,8 @@
       "count": 3
     },
     {
-      "archetype": "Affinity",
-      "count": 3
-    },
-    {
       "archetype": "Spy",
       "count": 3
-    },
-    {
-      "archetype": "Rally",
-      "count": 2
     },
     {
       "archetype": "UB Faeries",
@@ -49,11 +45,15 @@
       "count": 2
     },
     {
-      "archetype": "White Weenie",
-      "count": 1
+      "archetype": "Rally",
+      "count": 2
     },
     {
       "archetype": "GR",
+      "count": 1
+    },
+    {
+      "archetype": "White Weenie",
       "count": 1
     }
   ],
@@ -75,22 +75,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0412846485",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-04",
-      "player": "PR0boszcz",
-      "archetype": "UB Terror",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "9-0",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-07-0312846485",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-04",
@@ -107,7 +91,23 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2812845668",
+      "site_name": "pauper-challenge-32-2026-07-0412846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "PR0boszcz",
+      "archetype": "UB Terror",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "9-0",
+      "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2712845668",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-27",
       "player": "PR0boszcz",
@@ -122,7 +122,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2712845668",
+      "site_name": "pauper-challenge-32-2026-06-2812845668",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-27",
       "player": "PR0boszcz",
@@ -151,20 +151,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2012844338",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-14",
-      "player": "PR0boszcz",
-      "archetype": "Pingers",
-      "colors": [
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 31,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-06-1412844338",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-14",
@@ -179,7 +165,21 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1312844320",
+      "site_name": "pauper-challenge-32-2026-06-2012844338",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-14",
+      "player": "PR0boszcz",
+      "archetype": "Pingers",
+      "colors": [
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 31,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-03-1712844320",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-13",
       "player": "PR0boszcz",
@@ -194,7 +194,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2025-03-1712844320",
+      "site_name": "pauper-challenge-32-2026-06-1312844320",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-13",
       "player": "PR0boszcz",

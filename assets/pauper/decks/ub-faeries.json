@@ -2,10 +2,10 @@
   "archetype": "UB Faeries",
   "slug": "ub-faeries",
   "stats": {
-    "total_entries": 592,
-    "league_entries": 320,
-    "league_trophies": 320,
-    "league_trophies_yearly": 192,
+    "total_entries": 595,
+    "league_entries": 323,
+    "league_trophies": 323,
+    "league_trophies_yearly": 195,
     "challenge_appearances": 245,
     "challenge_wins": 1013,
     "challenge_losses": 622,
@@ -64,6 +64,20 @@
       "tournament": "Pauper League",
       "date": "2026-07-12",
       "player": "Gianmoschella",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-11",
+      "player": "barff",
       "colors": [
         "B",
         "U"
@@ -156,6 +170,34 @@
       "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-09",
+      "player": "Purgatory_01",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-09",
+      "player": "barff",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0812846623",
@@ -270,64 +312,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0412846485",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-04",
-      "player": "AvenRedeemer",
-      "colors": [
-        "B",
-        "G",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0412846485",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-04",
-      "player": "ninstitute",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0312846485",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-04",
-      "player": "AvenRedeemer",
-      "colors": [
-        "B",
-        "G",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0312846485",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-04",
-      "player": "ninstitute",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-07-0410855",
       "tournament": "Pauper League",
       "date": "2026-07-04",
@@ -356,28 +340,43 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-07-0310855",
-      "tournament": "Pauper League",
-      "date": "2026-07-03",
-      "player": "Purgatory_01",
+      "site_name": "pauper-challenge-32-2026-07-0312846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "AvenRedeemer",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0312846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "ninstitute",
       "colors": [
         "B",
         "U"
       ],
-      "record": "5-0",
-      "final_rank": null,
+      "record": "3-3",
+      "final_rank": 27,
       "source": "mtgo",
-      "type": "league"
+      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "barff",
-      "count": 98
+      "count": 100
     },
     {
       "player": "Purgatory_01",
-      "count": 25
+      "count": 26
     },
     {
       "player": "Brvnx",
@@ -396,11 +395,11 @@
       "count": 14
     },
     {
-      "player": "Niederschatten",
+      "player": "ninstitute",
       "count": 12
     },
     {
-      "player": "ninstitute",
+      "player": "Niederschatten",
       "count": 12
     },
     {
@@ -408,7 +407,7 @@
       "count": 11
     },
     {
-      "player": "andredoriaa",
+      "player": "dannyground",
       "count": 10
     }
   ]

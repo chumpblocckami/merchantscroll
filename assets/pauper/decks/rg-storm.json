@@ -2,10 +2,10 @@
   "archetype": "RG Storm",
   "slug": "rg-storm",
   "stats": {
-    "total_entries": 167,
-    "league_entries": 120,
-    "league_trophies": 120,
-    "league_trophies_yearly": 107,
+    "total_entries": 170,
+    "league_entries": 123,
+    "league_trophies": 123,
+    "league_trophies_yearly": 110,
     "challenge_appearances": 38,
     "challenge_wins": 140,
     "challenge_losses": 95,
@@ -22,6 +22,21 @@
       "tournament": "Pauper League",
       "date": "2026-07-15",
       "player": "saidin.raken",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-11",
+      "player": "lumely",
       "colors": [
         "G",
         "R",
@@ -63,9 +78,24 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-07-0810855",
+      "site_name": "pauper-league-2026-07-0910855",
       "tournament": "Pauper League",
-      "date": "2026-07-08",
+      "date": "2026-07-09",
+      "player": "jesusgreen",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-09",
       "player": "Sandokan92",
       "colors": [
         "G",
@@ -91,6 +121,21 @@
       "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-08",
+      "player": "Sandokan92",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0612846623",
@@ -213,66 +258,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0412846485",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-04",
-      "player": "John1111",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "2-3",
-      "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0412846485",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-04",
-      "player": "Lamela",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "2-3",
-      "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0312846485",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-04",
-      "player": "John1111",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "2-3",
-      "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0312846485",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-04",
-      "player": "Lamela",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "2-3",
-      "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-07-0410855",
       "tournament": "Pauper League",
       "date": "2026-07-04",
@@ -286,6 +271,66 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0312846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "John1111",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0312846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "Lamela",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0412846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "John1111",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0412846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "Lamela",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0312846470",
@@ -318,37 +363,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0112845719",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-01",
-      "player": "AlessandroPiraccini",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0112845719",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-01",
-      "player": "Lamela",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "2-4",
-      "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-07-0110855",
       "tournament": "Pauper League",
       "date": "2026-07-01",
@@ -364,34 +378,20 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-06-3010855",
-      "tournament": "Pauper League",
-      "date": "2026-06-30",
-      "player": "saidin.raken",
+      "site_name": "pauper-challenge-32-2026-07-0112845719",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-01",
+      "player": "AlessandroPiraccini",
       "colors": [
+        "B",
         "G",
         "R",
         "U"
       ],
-      "record": "5-0",
-      "final_rank": null,
+      "record": "4-2",
+      "final_rank": 17,
       "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2810855",
-      "tournament": "Pauper League",
-      "date": "2026-06-28",
-      "player": "lumely",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -412,27 +412,27 @@
       "count": 6
     },
     {
-      "player": "tzuizz",
-      "count": 6
-    },
-    {
       "player": "Lamela",
       "count": 6
     },
     {
       "player": "lumely",
+      "count": 6
+    },
+    {
+      "player": "tzuizz",
+      "count": 6
+    },
+    {
+      "player": "Abisd94",
       "count": 5
     },
     {
-      "player": "Pilopanga",
+      "player": "txouzo",
       "count": 5
     },
     {
       "player": "CosmicCharles",
-      "count": 5
-    },
-    {
-      "player": "Abisd94",
       "count": 5
     }
   ]

@@ -2,10 +2,10 @@
   "archetype": "R Madness",
   "slug": "r-madness",
   "stats": {
-    "total_entries": 1933,
-    "league_entries": 1109,
-    "league_trophies": 1109,
-    "league_trophies_yearly": 537,
+    "total_entries": 1938,
+    "league_entries": 1114,
+    "league_trophies": 1114,
+    "league_trophies_yearly": 542,
     "challenge_appearances": 719,
     "challenge_wins": 2823,
     "challenge_losses": 1827,
@@ -183,6 +183,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-07-1110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-11",
+      "player": "ermili",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-1112847128",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-11",
@@ -211,66 +226,6 @@
       "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-10",
-      "player": "botvinnik",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-10",
-      "player": "OJoaoSette",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-10",
-      "player": "prowens",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-10",
-      "player": "GilbertoAntunes",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1012847113",
@@ -378,19 +333,64 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0912847103",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-09",
-      "player": "Franzisco23195",
+      "site_name": "pauper-league-2026-07-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-10",
+      "player": "botvinnik",
       "colors": [
         "B",
         "R",
         "U"
       ],
-      "record": "7-1",
-      "final_rank": 3,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-10",
+      "player": "OJoaoSette",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-10",
+      "player": "prowens",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-10",
+      "player": "GilbertoAntunes",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -431,7 +431,7 @@
       "count": 23
     },
     {
-      "player": "Blvcky",
+      "player": "hyuma",
       "count": 22
     }
   ]

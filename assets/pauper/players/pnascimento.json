@@ -10,10 +10,10 @@
     "challenge_losses": 258,
     "irl_top8": 0,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 1144,
-    "league_trophy_rank_alltime": 435,
-    "league_trophy_players_yearly": 1307,
-    "league_trophy_players_alltime": 2025
+    "league_trophy_rank_yearly": 1148,
+    "league_trophy_rank_alltime": 437,
+    "league_trophy_players_yearly": 1311,
+    "league_trophy_players_alltime": 2028
   },
   "favorite_decks": [
     {
@@ -41,7 +41,7 @@
       "count": 6
     },
     {
-      "archetype": "Walls",
+      "archetype": "RG Ponza",
       "count": 4
     },
     {
@@ -49,7 +49,7 @@
       "count": 4
     },
     {
-      "archetype": "RG Ponza",
+      "archetype": "Walls",
       "count": 4
     },
     {
@@ -76,7 +76,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0412846485",
+      "site_name": "pauper-challenge-32-2026-07-0312846485",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-04",
       "player": "PNascimento",
@@ -94,7 +94,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0312846485",
+      "site_name": "pauper-challenge-32-2026-07-0412846485",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-04",
       "player": "PNascimento",
@@ -127,7 +127,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2812845668",
+      "site_name": "pauper-challenge-32-2026-06-2712845668",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-27",
       "player": "PNascimento",
@@ -145,7 +145,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2712845668",
+      "site_name": "pauper-challenge-32-2026-06-2812845668",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-27",
       "player": "PNascimento",
@@ -211,45 +211,11 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2412845631",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "PNascimento",
-      "archetype": "Naya Gates",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-06-2412845625",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "PNascimento",
       "archetype": "BG Glee",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 26,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2512845625",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "PNascimento",
-      "archetype": "Jund Glee",
       "colors": [
         "B",
         "G",
@@ -279,6 +245,40 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-06-2512845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "PNascimento",
+      "archetype": "Jund Glee",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845631",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "PNascimento",
+      "archetype": "Naya Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-06-2112844875",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-21",
@@ -291,23 +291,6 @@
       ],
       "record": "3-3",
       "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1912844841",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-19",
-      "player": "PNascimento",
-      "archetype": "Elves",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "3-4",
-      "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -329,7 +312,24 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1812844831",
+      "site_name": "pauper-challenge-32-2026-06-1912844841",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-19",
+      "player": "PNascimento",
+      "archetype": "Elves",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "3-4",
+      "final_rank": 31,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2312844831",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-18",
       "player": "PNascimento",
@@ -346,7 +346,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2312844831",
+      "site_name": "pauper-challenge-32-2026-06-1812844831",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-18",
       "player": "PNascimento",

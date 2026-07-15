@@ -2,10 +2,10 @@
   "archetype": "BR Madness",
   "slug": "br-madness",
   "stats": {
-    "total_entries": 805,
-    "league_entries": 384,
-    "league_trophies": 384,
-    "league_trophies_yearly": 118,
+    "total_entries": 807,
+    "league_entries": 386,
+    "league_trophies": 386,
+    "league_trophies_yearly": 120,
     "challenge_appearances": 392,
     "challenge_wins": 1590,
     "challenge_losses": 997,
@@ -75,6 +75,35 @@
       "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-09",
+      "player": "Fink64",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-09",
+      "player": "mehanske",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-0810855",
@@ -195,19 +224,19 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0412846485",
-      "tournament": "Pauper Challenge 32",
+      "site_name": "pauper-league-2026-07-0410855",
+      "tournament": "Pauper League",
       "date": "2026-07-04",
-      "player": "Franzisco23195",
+      "player": "Adrowo",
       "colors": [
         "B",
         "R",
         "U"
       ],
-      "record": "4-2",
-      "final_rank": 12,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0312846485",
@@ -225,19 +254,19 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-07-0410855",
-      "tournament": "Pauper League",
+      "site_name": "pauper-challenge-32-2026-07-0412846485",
+      "tournament": "Pauper Challenge 32",
       "date": "2026-07-04",
-      "player": "Adrowo",
+      "player": "Franzisco23195",
       "colors": [
         "B",
         "R",
         "U"
       ],
-      "record": "5-0",
-      "final_rank": null,
+      "record": "4-2",
+      "final_rank": 12,
       "source": "mtgo",
-      "type": "league"
+      "type": "challenge"
     },
     {
       "site_name": "pauper-league-2026-07-0310855",
@@ -331,18 +360,19 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
-      "tournament": "Pauper RC Super Qualifier",
+      "site_name": "pauper-challenge-32-2026-06-2712845668",
+      "tournament": "Pauper Challenge 32",
       "date": "2026-06-27",
-      "player": "romerito1",
+      "player": "DarioSmp",
       "colors": [
         "B",
-        "R"
+        "R",
+        "U"
       ],
-      "record": "6-3",
+      "record": "3-3",
       "final_rank": 24,
       "source": "mtgo",
-      "type": "other"
+      "type": "challenge"
     },
     {
       "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
@@ -357,36 +387,6 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2812845668",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-27",
-      "player": "DarioSmp",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2712845668",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-27",
-      "player": "DarioSmp",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -412,7 +412,7 @@
     },
     {
       "player": "mehanske",
-      "count": 19
+      "count": 20
     },
     {
       "player": "HermonHero",
@@ -423,11 +423,11 @@
       "count": 15
     },
     {
-      "player": "Than",
+      "player": "Niederschatten",
       "count": 14
     },
     {
-      "player": "Niederschatten",
+      "player": "Than",
       "count": 14
     }
   ]

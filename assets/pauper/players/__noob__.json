@@ -12,8 +12,8 @@
     "challenge_win_pct": 66,
     "league_trophy_rank_yearly": 8,
     "league_trophy_rank_alltime": 20,
-    "league_trophy_players_yearly": 1307,
-    "league_trophy_players_alltime": 2025
+    "league_trophy_players_yearly": 1311,
+    "league_trophy_players_alltime": 2028
   },
   "favorite_decks": [
     {
@@ -21,15 +21,15 @@
       "count": 137
     },
     {
+      "archetype": "Jund Gardens",
+      "count": 4
+    },
+    {
       "archetype": "Food Pestilence",
       "count": 4
     },
     {
       "archetype": "UB Control",
-      "count": 4
-    },
-    {
-      "archetype": "Jund Gardens",
       "count": 4
     },
     {
@@ -41,7 +41,7 @@
       "count": 2
     },
     {
-      "archetype": "White Weenie",
+      "archetype": "BW Refurbished",
       "count": 1
     },
     {
@@ -49,7 +49,7 @@
       "count": 1
     },
     {
-      "archetype": "BW Refurbished",
+      "archetype": "White Weenie",
       "count": 1
     },
     {
@@ -58,21 +58,6 @@
     }
   ],
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-07-0810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-08",
-      "player": "__Noob__",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-challenge-32-2026-07-0812846623",
       "tournament": "Pauper Challenge 32",
@@ -87,6 +72,21 @@
       "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-08",
+      "player": "__Noob__",
+      "archetype": "Gardens",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0612846623",
@@ -134,7 +134,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2812845668",
+      "site_name": "pauper-challenge-32-2026-06-2712845668",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-27",
       "player": "__Noob__",
@@ -149,7 +149,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2712845668",
+      "site_name": "pauper-challenge-32-2026-06-2812845668",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-27",
       "player": "__Noob__",
@@ -209,7 +209,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2412845631",
+      "site_name": "pauper-challenge-32-2026-06-2512845631",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "__Noob__",
@@ -224,7 +224,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2512845631",
+      "site_name": "pauper-challenge-32-2026-06-2412845631",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "__Noob__",
@@ -254,7 +254,7 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1912844841",
+      "site_name": "pauper-challenge-32-2026-06-1012844841",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-19",
       "player": "__Noob__",
@@ -269,7 +269,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1012844841",
+      "site_name": "pauper-challenge-32-2026-06-1912844841",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-19",
       "player": "__Noob__",
@@ -329,7 +329,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-0112843773",
+      "site_name": "pauper-challenge-32-2026-06-0612843773",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-04",
       "player": "__Noob__",
@@ -344,7 +344,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-0612843773",
+      "site_name": "pauper-challenge-32-2026-06-0112843773",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-04",
       "player": "__Noob__",

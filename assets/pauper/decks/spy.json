@@ -2,10 +2,10 @@
   "archetype": "Spy",
   "slug": "spy",
   "stats": {
-    "total_entries": 708,
-    "league_entries": 448,
-    "league_trophies": 448,
-    "league_trophies_yearly": 170,
+    "total_entries": 710,
+    "league_entries": 450,
+    "league_trophies": 450,
+    "league_trophies_yearly": 172,
     "challenge_appearances": 215,
     "challenge_wins": 871,
     "challenge_losses": 542,
@@ -153,6 +153,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-07-1110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-11",
+      "player": "Creamy_Greek",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-1012847113",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-10",
@@ -166,6 +181,21 @@
       "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-09",
+      "player": "PabloRR",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0812846623",
@@ -360,36 +390,6 @@
       "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-02",
-      "player": "imbaterran",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0112845719",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-01",
-      "player": "MyDeckStats",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -402,6 +402,10 @@
       "count": 26
     },
     {
+      "player": "3vildr4k3",
+      "count": 15
+    },
+    {
       "player": "AlessandroPiraccini",
       "count": 15
     },
@@ -410,27 +414,23 @@
       "count": 15
     },
     {
-      "player": "3vildr4k3",
-      "count": 15
-    },
-    {
       "player": "Luddrox",
       "count": 13
-    },
-    {
-      "player": "Borbs",
-      "count": 11
     },
     {
       "player": "Pauperformance",
       "count": 11
     },
     {
-      "player": "simins",
+      "player": "Borbs",
+      "count": 11
+    },
+    {
+      "player": "wand_thief",
       "count": 10
     },
     {
-      "player": "Regis_Hangar49",
+      "player": "simins",
       "count": 10
     }
   ]
