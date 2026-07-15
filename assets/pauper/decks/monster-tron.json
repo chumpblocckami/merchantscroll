@@ -2,17 +2,17 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 42,
-    "league_entries": 12,
-    "league_trophies": 12,
-    "league_trophies_yearly": 12,
+    "total_entries": 43,
+    "league_entries": 13,
+    "league_trophies": 13,
+    "league_trophies_yearly": 13,
     "challenge_appearances": 28,
     "challenge_wins": 118,
     "challenge_losses": 75,
     "irl_top8": 2,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 48,
-    "league_trophy_rank_alltime": 51,
+    "league_trophy_rank_yearly": 46,
+    "league_trophy_rank_alltime": 49,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
@@ -37,6 +37,22 @@
       "tournament": "Pauper League",
       "date": "2026-07-13",
       "player": "BGnarly",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-13",
+      "player": "Abisd94",
       "colors": [
         "B",
         "G",
@@ -370,21 +386,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2112844875",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-21",
-      "player": "Valimoth",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "8-1",
-      "final_rank": 3,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -405,15 +406,15 @@
       "count": 3
     },
     {
+      "player": "Abisd94",
+      "count": 3
+    },
+    {
       "player": "karatedom",
       "count": 2
     },
     {
       "player": "Syns",
-      "count": 2
-    },
-    {
-      "player": "Abisd94",
       "count": 2
     },
     {
