@@ -2,10 +2,10 @@
   "archetype": "UB Faeries",
   "slug": "ub-faeries",
   "stats": {
-    "total_entries": 594,
-    "league_entries": 322,
-    "league_trophies": 322,
-    "league_trophies_yearly": 194,
+    "total_entries": 592,
+    "league_entries": 320,
+    "league_trophies": 320,
+    "league_trophies_yearly": 192,
     "challenge_appearances": 245,
     "challenge_wins": 1013,
     "challenge_losses": 622,
@@ -156,34 +156,6 @@
       "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-09",
-      "player": "Purgatory_01",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-09",
-      "player": "barff",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0812846623",
@@ -368,16 +340,44 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-04",
+      "player": "End3avour",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-03",
+      "player": "Purgatory_01",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "barff",
-      "count": 99
+      "count": 98
     },
     {
       "player": "Purgatory_01",
-      "count": 26
+      "count": 25
     },
     {
       "player": "Brvnx",
