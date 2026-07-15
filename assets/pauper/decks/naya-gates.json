@@ -2,13 +2,13 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 216,
+    "total_entries": 217,
     "league_entries": 92,
     "league_trophies": 92,
     "league_trophies_yearly": 85,
-    "challenge_appearances": 104,
-    "challenge_wins": 438,
-    "challenge_losses": 244,
+    "challenge_appearances": 105,
+    "challenge_wins": 441,
+    "challenge_losses": 247,
     "irl_top8": 12,
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 20,
@@ -48,6 +48,23 @@
       ],
       "record": "4-2",
       "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1512847177",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-15",
+      "player": "seasonofmists",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 22,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -423,23 +440,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0512846504",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-05",
-      "player": "marzaboi",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -452,12 +452,12 @@
       "count": 11
     },
     {
-      "player": "marzaboi",
+      "player": "seasonofmists",
       "count": 9
     },
     {
-      "player": "seasonofmists",
-      "count": 8
+      "player": "marzaboi",
+      "count": 9
     },
     {
       "player": "LabroNico",

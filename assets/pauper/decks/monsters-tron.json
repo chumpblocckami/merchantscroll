@@ -2,21 +2,50 @@
   "archetype": "Monsters Tron",
   "slug": "monsters-tron",
   "stats": {
-    "total_entries": 135,
+    "total_entries": 137,
     "league_entries": 91,
     "league_trophies": 91,
     "league_trophies_yearly": 85,
-    "challenge_appearances": 36,
-    "challenge_wins": 140,
-    "challenge_losses": 96,
+    "challenge_appearances": 38,
+    "challenge_wins": 152,
+    "challenge_losses": 100,
     "irl_top8": 6,
-    "challenge_win_pct": 59,
+    "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 19,
     "league_trophy_rank_alltime": 33,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-1512847177",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-15",
+      "player": "_against_",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "8-1",
+      "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1512847177",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-15",
+      "player": "Goblin_Player",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-3",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-0510855",
       "tournament": "Pauper League",
@@ -370,36 +399,6 @@
       "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-05-1810636",
-      "tournament": "Pauper League",
-      "date": "2026-05-18",
-      "player": "Leben10",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-05-17-pauper-clash",
-      "tournament": "Novara Pauper Clash — Novara",
-      "date": "2026-05-17",
-      "player": "Andrea Feo",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "",
-      "final_rank": 3,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [

@@ -2,10 +2,10 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 173,
-    "league_entries": 79,
-    "league_trophies": 79,
-    "league_trophies_yearly": 51,
+    "total_entries": 172,
+    "league_entries": 78,
+    "league_trophies": 78,
+    "league_trophies_yearly": 50,
     "challenge_appearances": 85,
     "challenge_wins": 288,
     "challenge_losses": 215,
@@ -30,20 +30,6 @@
       "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-15",
-      "player": "Venga",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-1410855",
@@ -366,6 +352,20 @@
       "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-04",
+      "player": "Darkmasterfent",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -390,10 +390,6 @@
       "count": 6
     },
     {
-      "player": "Venga",
-      "count": 4
-    },
-    {
       "player": "sai199orz",
       "count": 4
     },
@@ -407,6 +403,10 @@
     },
     {
       "player": "guiwarchina",
+      "count": 3
+    },
+    {
+      "player": "kaikas",
       "count": 3
     }
   ]

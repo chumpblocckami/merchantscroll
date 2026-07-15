@@ -2,50 +2,21 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 47,
-    "league_entries": 14,
-    "league_trophies": 14,
-    "league_trophies_yearly": 14,
-    "challenge_appearances": 31,
-    "challenge_wins": 133,
-    "challenge_losses": 82,
+    "total_entries": 46,
+    "league_entries": 15,
+    "league_trophies": 15,
+    "league_trophies_yearly": 15,
+    "challenge_appearances": 29,
+    "challenge_wins": 121,
+    "challenge_losses": 78,
     "irl_top8": 2,
-    "challenge_win_pct": 62,
+    "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 44,
     "league_trophy_rank_alltime": 49,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-challenge-32-2026-07-1512847177",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-15",
-      "player": "_against_",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "8-1",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1512847177",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-15",
-      "player": "Goblin_Player",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-3",
-      "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
-    },
     {
       "site_name": "pauper-challenge-32-2026-07-1512847177",
       "tournament": "Pauper Challenge 32",
@@ -60,6 +31,22 @@
       "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-15",
+      "player": "Blue_Magic",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-1410855",
@@ -383,6 +370,21 @@
       "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "SorryImSoTilted",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "2-4",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -419,11 +421,11 @@
       "count": 1
     },
     {
-      "player": "_against_",
+      "player": "AFitzsimmons",
       "count": 1
     },
     {
-      "player": "Goblin_Player",
+      "player": "Hype12232",
       "count": 1
     }
   ]
