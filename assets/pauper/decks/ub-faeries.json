@@ -2,10 +2,10 @@
   "archetype": "UB Faeries",
   "slug": "ub-faeries",
   "stats": {
-    "total_entries": 595,
-    "league_entries": 323,
-    "league_trophies": 323,
-    "league_trophies_yearly": 195,
+    "total_entries": 594,
+    "league_entries": 322,
+    "league_trophies": 322,
+    "league_trophies_yearly": 194,
     "challenge_appearances": 245,
     "challenge_wins": 1013,
     "challenge_losses": 622,
@@ -64,20 +64,6 @@
       "tournament": "Pauper League",
       "date": "2026-07-12",
       "player": "Gianmoschella",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-11",
-      "player": "barff",
       "colors": [
         "B",
         "U"
@@ -368,12 +354,26 @@
       "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-04",
+      "player": "LabroNico",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "barff",
-      "count": 100
+      "count": 99
     },
     {
       "player": "Purgatory_01",
