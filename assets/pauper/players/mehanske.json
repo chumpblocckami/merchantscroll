@@ -3,17 +3,17 @@
   "display_name": "mehanske",
   "irl_name": null,
   "stats": {
-    "total_entries": 59,
+    "total_entries": 60,
     "league_trophies": 13,
     "league_trophies_yearly": 11,
-    "challenge_wins": 176,
-    "challenge_losses": 115,
+    "challenge_wins": 178,
+    "challenge_losses": 118,
     "irl_top8": 0,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 89,
     "league_trophy_rank_alltime": 163,
-    "league_trophy_players_yearly": 1311,
-    "league_trophy_players_alltime": 2028
+    "league_trophy_players_yearly": 1316,
+    "league_trophy_players_alltime": 2032
   },
   "favorite_decks": [
     {
@@ -33,8 +33,16 @@
       "count": 6
     },
     {
+      "archetype": "White Weenie",
+      "count": 2
+    },
+    {
       "archetype": "U Terror",
       "count": 2
+    },
+    {
+      "archetype": "Affinity",
+      "count": 1
     },
     {
       "archetype": "Rally",
@@ -43,17 +51,23 @@
     {
       "archetype": "RG Storm",
       "count": 1
-    },
-    {
-      "archetype": "White Weenie",
-      "count": 1
-    },
-    {
-      "archetype": "Affinity",
-      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-1512847177",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-15",
+      "player": "mehanske",
+      "archetype": "White Weenie",
+      "colors": [
+        "W"
+      ],
+      "record": "2-3",
+      "final_rank": 31,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1212847145",
       "tournament": "Pauper Challenge 32",
@@ -169,7 +183,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2025-03-1712844320",
+      "site_name": "pauper-challenge-32-2026-06-1312844320",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-13",
       "player": "mehanske",
@@ -185,7 +199,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1312844320",
+      "site_name": "pauper-challenge-32-2025-03-1712844320",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-13",
       "player": "mehanske",
@@ -217,7 +231,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-05-1712844295",
+      "site_name": "pauper-challenge-32-2026-06-0212844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
       "player": "mehanske",
@@ -233,7 +247,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-0212844295",
+      "site_name": "pauper-challenge-32-2026-05-1712844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
       "player": "mehanske",
@@ -441,22 +455,6 @@
       ],
       "record": "6-3",
       "final_rank": 2,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-0512838145",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-05",
-      "player": "mehanske",
-      "archetype": "UB Terror",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-2",
-      "final_rank": 16,
       "source": "mtgo",
       "type": "challenge"
     }

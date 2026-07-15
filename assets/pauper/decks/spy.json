@@ -2,13 +2,13 @@
   "archetype": "Spy",
   "slug": "spy",
   "stats": {
-    "total_entries": 710,
-    "league_entries": 450,
-    "league_trophies": 450,
-    "league_trophies_yearly": 172,
-    "challenge_appearances": 215,
-    "challenge_wins": 871,
-    "challenge_losses": 542,
+    "total_entries": 713,
+    "league_entries": 452,
+    "league_trophies": 452,
+    "league_trophies_yearly": 174,
+    "challenge_appearances": 216,
+    "challenge_wins": 875,
+    "challenge_losses": 544,
     "irl_top8": 24,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 8,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-1512847177",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-15",
+      "player": "wolf777",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 14,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-1510855",
       "tournament": "Pauper League",
@@ -36,6 +51,36 @@
       "site_name": "pauper-league-2026-07-1510855",
       "tournament": "Pauper League",
       "date": "2026-07-15",
+      "player": "AlessandroPiraccini",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-14",
+      "player": "Kuriboh",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-14",
       "player": "AlessandroPiraccini",
       "colors": [
         "B",
@@ -345,51 +390,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0310855",
-      "tournament": "Pauper League",
-      "date": "2026-07-03",
-      "player": "lumely",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0212846460",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-02",
-      "player": "Cyberzilla",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0212846460",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-02",
-      "player": "SidRocha",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 31,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -402,15 +402,15 @@
       "count": 26
     },
     {
-      "player": "3vildr4k3",
-      "count": 15
-    },
-    {
       "player": "AlessandroPiraccini",
-      "count": 15
+      "count": 16
     },
     {
       "player": "Mikito9171",
+      "count": 15
+    },
+    {
+      "player": "3vildr4k3",
       "count": 15
     },
     {
@@ -418,19 +418,19 @@
       "count": 13
     },
     {
-      "player": "Pauperformance",
-      "count": 11
-    },
-    {
       "player": "Borbs",
       "count": 11
     },
     {
-      "player": "wand_thief",
-      "count": 10
+      "player": "Pauperformance",
+      "count": 11
     },
     {
       "player": "simins",
+      "count": 10
+    },
+    {
+      "player": "Regis_Hangar49",
       "count": 10
     }
   ]

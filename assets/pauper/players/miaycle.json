@@ -10,10 +10,10 @@
     "challenge_losses": 55,
     "irl_top8": 0,
     "challenge_win_pct": 53,
-    "league_trophy_rank_yearly": 307,
-    "league_trophy_rank_alltime": 313,
-    "league_trophy_players_yearly": 1311,
-    "league_trophy_players_alltime": 2028
+    "league_trophy_rank_yearly": 311,
+    "league_trophy_rank_alltime": 315,
+    "league_trophy_players_yearly": 1316,
+    "league_trophy_players_alltime": 2032
   },
   "favorite_decks": [
     {
@@ -25,7 +25,7 @@
       "count": 4
     },
     {
-      "archetype": "White Weenie",
+      "archetype": "Elves",
       "count": 3
     },
     {
@@ -33,7 +33,7 @@
       "count": 3
     },
     {
-      "archetype": "Elves",
+      "archetype": "White Weenie",
       "count": 3
     },
     {
@@ -41,15 +41,15 @@
       "count": 2
     },
     {
-      "archetype": "Bogle",
-      "count": 1
-    },
-    {
       "archetype": "Rally",
       "count": 1
     },
     {
       "archetype": "B Sacrifice",
+      "count": 1
+    },
+    {
+      "archetype": "Bogle",
       "count": 1
     }
   ],
@@ -352,21 +352,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-01-1712830048",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-17",
-      "player": "Miaycle",
-      "archetype": "Monsters",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-01-179987",
       "tournament": "pauper-league-2026-01-179987",
       "date": "2026-01-17",
@@ -380,6 +365,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-01-1712830048",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-01-17",
+      "player": "Miaycle",
+      "archetype": "Monsters",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 27,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-league-2026-01-109987",

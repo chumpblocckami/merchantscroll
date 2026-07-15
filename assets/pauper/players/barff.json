@@ -3,22 +3,22 @@
   "display_name": "barff",
   "irl_name": null,
   "stats": {
-    "total_entries": 206,
+    "total_entries": 207,
     "league_trophies": 135,
     "league_trophies_yearly": 52,
-    "challenge_wins": 358,
-    "challenge_losses": 123,
+    "challenge_wins": 361,
+    "challenge_losses": 126,
     "irl_top8": 0,
     "challenge_win_pct": 74,
     "league_trophy_rank_yearly": 2,
     "league_trophy_rank_alltime": 1,
-    "league_trophy_players_yearly": 1311,
-    "league_trophy_players_alltime": 2028
+    "league_trophy_players_yearly": 1316,
+    "league_trophy_players_alltime": 2032
   },
   "favorite_decks": [
     {
       "archetype": "UB Faeries",
-      "count": 100
+      "count": 101
     },
     {
       "archetype": "U Faeries",
@@ -45,15 +45,30 @@
       "count": 1
     },
     {
-      "archetype": "B Sacrifice",
+      "archetype": "Rally",
       "count": 1
     },
     {
-      "archetype": "Rally",
+      "archetype": "B Sacrifice",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-1512847177",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-15",
+      "player": "barff",
+      "archetype": "UB Faeries",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 20,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-1110855",
       "tournament": "Pauper League",
@@ -250,6 +265,21 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-showcase-challenge-2026-06-2012844285",
+      "tournament": "Pauper Showcase Challenge",
+      "date": "2026-06-14",
+      "player": "barff",
+      "archetype": "UB Faeries",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "11-1",
+      "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-showcase-challenge-2026-06-1412844285",
       "tournament": "Pauper Showcase Challenge",
       "date": "2026-06-14",
@@ -265,16 +295,16 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-showcase-challenge-2026-06-2012844285",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2026-06-14",
+      "site_name": "pauper-challenge-32-2026-06-1212844305",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-12",
       "player": "barff",
       "archetype": "UB Faeries",
       "colors": [
         "B",
         "U"
       ],
-      "record": "11-1",
+      "record": "8-1",
       "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
@@ -292,21 +322,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1212844305",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-12",
-      "player": "barff",
-      "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "8-1",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
     },
     {
       "site_name": "pauper-league-2026-06-1010636",
@@ -416,22 +431,6 @@
       "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-rc-qualifier-2026-05-1712842450",
-      "tournament": "Pauper RC Qualifier",
-      "date": "2026-05-17",
-      "player": "barff",
-      "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "G",
-        "U"
-      ],
-      "record": "",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
     }
   ]
 }

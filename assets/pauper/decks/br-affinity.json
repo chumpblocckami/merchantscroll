@@ -2,17 +2,17 @@
   "archetype": "BR Affinity",
   "slug": "br-affinity",
   "stats": {
-    "total_entries": 31,
-    "league_entries": 9,
-    "league_trophies": 9,
-    "league_trophies_yearly": 9,
+    "total_entries": 33,
+    "league_entries": 11,
+    "league_trophies": 11,
+    "league_trophies_yearly": 11,
     "challenge_appearances": 19,
     "challenge_wins": 63,
     "challenge_losses": 56,
     "irl_top8": 2,
     "challenge_win_pct": 53,
-    "league_trophy_rank_yearly": 50,
-    "league_trophy_rank_alltime": 54,
+    "league_trophy_rank_yearly": 48,
+    "league_trophy_rank_alltime": 51,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
@@ -26,6 +26,34 @@
         "B",
         "G",
         "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-12",
+      "player": "MT_Adrian",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-11",
+      "player": "newbarola",
+      "colors": [
+        "B",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -138,21 +166,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-07-0110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-01",
-      "player": "synth1a",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-07-0112845719",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-01",
@@ -168,19 +181,19 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2712845668",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-27",
-      "player": "Thn",
+      "site_name": "pauper-league-2026-07-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-01",
+      "player": "synth1a",
       "colors": [
         "B",
         "G",
         "R"
       ],
-      "record": "3-3",
-      "final_rank": 19,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     },
     {
       "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
@@ -224,6 +237,21 @@
       ],
       "record": "2-4",
       "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2712845668",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-27",
+      "player": "Thn",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 19,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -357,36 +385,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2012844856",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-20",
-      "player": "AlessandroPiraccini",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-2",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1012844841",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-19",
-      "player": "AlessandroPiraccini",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -395,7 +393,7 @@
       "count": 4
     },
     {
-      "player": "_blaze66",
+      "player": "Brasatore",
       "count": 3
     },
     {
@@ -403,15 +401,11 @@
       "count": 3
     },
     {
-      "player": "Brasatore",
+      "player": "_blaze66",
       "count": 3
     },
     {
-      "player": "3draw_TANO",
-      "count": 2
-    },
-    {
-      "player": "Thn",
+      "player": "qbturtle15",
       "count": 2
     },
     {
@@ -419,7 +413,7 @@
       "count": 2
     },
     {
-      "player": "qbturtle15",
+      "player": "3draw_TANO",
       "count": 2
     },
     {
@@ -427,7 +421,11 @@
       "count": 2
     },
     {
-      "player": "Squall93",
+      "player": "Thn",
+      "count": 2
+    },
+    {
+      "player": "newbarola",
       "count": 1
     }
   ]

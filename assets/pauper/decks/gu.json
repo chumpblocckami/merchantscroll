@@ -11,7 +11,7 @@
     "challenge_losses": 5,
     "irl_top8": 0,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 55,
+    "league_trophy_rank_yearly": 56,
     "league_trophy_rank_alltime": 55,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
@@ -144,20 +144,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-qualifier-2025-05-1612780097",
-      "tournament": "Pauper Qualifier",
-      "date": "2025-05-16",
-      "player": "bernardocssa",
-      "colors": [
-        "G",
-        "U"
-      ],
-      "record": "6-2",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
       "site_name": "pauper-league-2025-05-169081",
       "tournament": "pauper-league-2025-05-169081",
       "date": "2025-05-16",
@@ -170,6 +156,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-qualifier-2025-05-1612780097",
+      "tournament": "Pauper Qualifier",
+      "date": "2025-05-16",
+      "player": "bernardocssa",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "6-2",
+      "final_rank": 17,
+      "source": "mtgo",
+      "type": "other"
     },
     {
       "site_name": "pauper-league-2025-05-079081",
@@ -196,11 +196,15 @@
       "count": 2
     },
     {
-      "player": "PhyrexianBomber",
+      "player": "ulbabrabal",
       "count": 1
     },
     {
       "player": "bernardocssa",
+      "count": 1
+    },
+    {
+      "player": "PhyrexianBomber",
       "count": 1
     },
     {
@@ -209,10 +213,6 @@
     },
     {
       "player": "Bullz0Eye",
-      "count": 1
-    },
-    {
-      "player": "ulbabrabal",
       "count": 1
     }
   ]

@@ -10,10 +10,10 @@
     "challenge_losses": 8,
     "irl_top8": 0,
     "challenge_win_pct": 72,
-    "league_trophy_rank_yearly": 102,
+    "league_trophy_rank_yearly": 103,
     "league_trophy_rank_alltime": 63,
-    "league_trophy_players_yearly": 1311,
-    "league_trophy_players_alltime": 2028
+    "league_trophy_players_yearly": 1316,
+    "league_trophy_players_alltime": 2032
   },
   "favorite_decks": [
     {
@@ -29,10 +29,6 @@
       "count": 3
     },
     {
-      "archetype": "U Terror",
-      "count": 2
-    },
-    {
       "archetype": "Jund",
       "count": 2
     },
@@ -41,15 +37,19 @@
       "count": 2
     },
     {
+      "archetype": "U Terror",
+      "count": 2
+    },
+    {
       "archetype": "UB Faeries",
       "count": 1
     },
     {
-      "archetype": "R Madness",
+      "archetype": "Gardens",
       "count": 1
     },
     {
-      "archetype": "Gardens",
+      "archetype": "R Madness",
       "count": 1
     },
     {
@@ -249,22 +249,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-10-129750",
-      "tournament": "pauper-league-2025-10-129750",
-      "date": "2025-10-12",
-      "player": "MarshFlats",
-      "archetype": "Esper Affinity",
-      "colors": [
-        "B",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2025-10-1212819541",
       "tournament": "Pauper Challenge 32",
       "date": "2025-10-12",
@@ -279,6 +263,22 @@
       "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-10-129750",
+      "tournament": "pauper-league-2025-10-129750",
+      "date": "2025-10-12",
+      "player": "MarshFlats",
+      "archetype": "Esper Affinity",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2025-10-119750",
