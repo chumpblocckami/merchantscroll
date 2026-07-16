@@ -3,11 +3,11 @@
   "display_name": "discoverN",
   "irl_name": null,
   "stats": {
-    "total_entries": 102,
+    "total_entries": 103,
     "league_trophies": 4,
     "league_trophies_yearly": 0,
-    "challenge_wins": 458,
-    "challenge_losses": 198,
+    "challenge_wins": 464,
+    "challenge_losses": 200,
     "irl_top8": 0,
     "challenge_win_pct": 70,
     "league_trophy_rank_yearly": null,
@@ -26,10 +26,25 @@
     },
     {
       "archetype": "UB Faeries",
-      "count": 3
+      "count": 4
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0312847177",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-15",
+      "player": "discoverN",
+      "archetype": "UB Faeries",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "6-2",
+      "final_rank": 3,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1512847177",
       "tournament": "Pauper Challenge 32",
@@ -387,21 +402,6 @@
       ],
       "record": "2-3",
       "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-1512835331",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-15",
-      "player": "discoverN",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-2",
-      "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
     }

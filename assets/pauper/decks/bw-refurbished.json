@@ -2,13 +2,13 @@
   "archetype": "BW Refurbished",
   "slug": "bw-refurbished",
   "stats": {
-    "total_entries": 357,
+    "total_entries": 358,
     "league_entries": 201,
     "league_trophies": 201,
     "league_trophies_yearly": 88,
-    "challenge_appearances": 150,
-    "challenge_wins": 569,
-    "challenge_losses": 388,
+    "challenge_appearances": 151,
+    "challenge_wins": 572,
+    "challenge_losses": 391,
     "irl_top8": 4,
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 18,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0312847177",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-15",
+      "player": "Nulyan",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 27,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1512847177",
       "tournament": "Pauper Challenge 32",
@@ -363,20 +378,6 @@
       "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1810636",
-      "tournament": "Pauper League",
-      "date": "2026-06-18",
-      "player": "Huskyman20035",
-      "colors": [
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [

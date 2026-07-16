@@ -3,11 +3,11 @@
   "display_name": "True-Name-Nemesis",
   "irl_name": null,
   "stats": {
-    "total_entries": 86,
+    "total_entries": 87,
     "league_trophies": 57,
     "league_trophies_yearly": 31,
-    "challenge_wins": 108,
-    "challenge_losses": 63,
+    "challenge_wins": 112,
+    "challenge_losses": 65,
     "irl_top8": 0,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 10,
@@ -18,7 +18,7 @@
   "favorite_decks": [
     {
       "archetype": "Food Pestilence",
-      "count": 60
+      "count": 61
     },
     {
       "archetype": "Gardens",
@@ -50,6 +50,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0312847177",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-15",
+      "player": "True-Name-Nemesis",
+      "archetype": "Food Pestilence",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "4-2",
+      "final_rank": 18,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1512847177",
       "tournament": "Pauper Challenge 32",
@@ -411,21 +426,6 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-03-2410405",
-      "tournament": "Pauper League",
-      "date": "2026-03-24",
-      "player": "True-Name-Nemesis",
-      "archetype": "Food Pestilence",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

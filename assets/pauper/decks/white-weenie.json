@@ -2,13 +2,13 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 600,
+    "total_entries": 601,
     "league_entries": 347,
     "league_trophies": 347,
     "league_trophies_yearly": 157,
-    "challenge_appearances": 227,
-    "challenge_wins": 886,
-    "challenge_losses": 568,
+    "challenge_appearances": 228,
+    "challenge_wins": 888,
+    "challenge_losses": 571,
     "irl_top8": 15,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 9,
@@ -17,6 +17,19 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0312847177",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-15",
+      "player": "mehanske",
+      "colors": [
+        "W"
+      ],
+      "record": "2-3",
+      "final_rank": 31,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1512847177",
       "tournament": "Pauper Challenge 32",
@@ -353,22 +366,6 @@
       "final_rank": 6,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2310855",
-      "tournament": "Pauper League",
-      "date": "2026-06-23",
-      "player": "Supremoguy",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [

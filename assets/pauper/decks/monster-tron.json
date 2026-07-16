@@ -2,21 +2,36 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 46,
+    "total_entries": 47,
     "league_entries": 15,
     "league_trophies": 15,
     "league_trophies_yearly": 15,
-    "challenge_appearances": 29,
-    "challenge_wins": 121,
-    "challenge_losses": 78,
+    "challenge_appearances": 30,
+    "challenge_wins": 124,
+    "challenge_losses": 81,
     "irl_top8": 2,
-    "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 44,
-    "league_trophy_rank_alltime": 49,
+    "challenge_win_pct": 60,
+    "league_trophy_rank_yearly": 45,
+    "league_trophy_rank_alltime": 50,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0312847177",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-15",
+      "player": "AFitzsimmons",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 28,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1512847177",
       "tournament": "Pauper Challenge 32",
@@ -63,22 +78,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-07-1410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-14",
-      "player": "brick_",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-07-1310855",
       "tournament": "Pauper League",
       "date": "2026-07-13",
@@ -98,6 +97,22 @@
       "tournament": "Pauper League",
       "date": "2026-07-13",
       "player": "BGnarly",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-13",
+      "player": "Abisd94",
       "colors": [
         "B",
         "G",
@@ -370,21 +385,6 @@
       "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2412845625",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "SorryImSoTilted",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "2-4",
-      "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -405,6 +405,14 @@
       "count": 3
     },
     {
+      "player": "Abisd94",
+      "count": 3
+    },
+    {
+      "player": "AFitzsimmons",
+      "count": 2
+    },
+    {
       "player": "karatedom",
       "count": 2
     },
@@ -413,15 +421,7 @@
       "count": 2
     },
     {
-      "player": "Abisd94",
-      "count": 2
-    },
-    {
       "player": "Entropy263",
-      "count": 1
-    },
-    {
-      "player": "AFitzsimmons",
       "count": 1
     },
     {
