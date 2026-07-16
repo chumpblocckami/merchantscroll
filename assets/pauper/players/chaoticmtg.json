@@ -3,17 +3,17 @@
   "display_name": "ChaoticMTG",
   "irl_name": null,
   "stats": {
-    "total_entries": 70,
-    "league_trophies": 35,
-    "league_trophies_yearly": 16,
+    "total_entries": 71,
+    "league_trophies": 36,
+    "league_trophies_yearly": 17,
     "challenge_wins": 171,
     "challenge_losses": 80,
     "irl_top8": 0,
     "challenge_win_pct": 68,
-    "league_trophy_rank_yearly": 42,
-    "league_trophy_rank_alltime": 36,
-    "league_trophy_players_yearly": 1307,
-    "league_trophy_players_alltime": 2026
+    "league_trophy_rank_yearly": 39,
+    "league_trophy_rank_alltime": 35,
+    "league_trophy_players_yearly": 1320,
+    "league_trophy_players_alltime": 2036
   },
   "favorite_decks": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "archetype": "Familiars",
-      "count": 28
+      "count": 29
     },
     {
       "archetype": "Bogle",
@@ -30,6 +30,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-1610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-16",
+      "player": "ChaoticMTG",
+      "archetype": "Familiars",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0312846485",
       "tournament": "Pauper Challenge 32",
@@ -404,22 +420,6 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-05-0110636",
-      "tournament": "Pauper League",
-      "date": "2026-05-01",
-      "player": "ChaoticMTG",
-      "archetype": "Jeskai",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }
