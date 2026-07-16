@@ -2,10 +2,10 @@
   "archetype": "Monsters Tron",
   "slug": "monsters-tron",
   "stats": {
-    "total_entries": 139,
-    "league_entries": 91,
-    "league_trophies": 91,
-    "league_trophies_yearly": 85,
+    "total_entries": 140,
+    "league_entries": 92,
+    "league_trophies": 92,
+    "league_trophies_yearly": 86,
     "challenge_appearances": 40,
     "challenge_wins": 164,
     "challenge_losses": 104,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 20,
     "league_trophy_rank_alltime": 33,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -74,6 +74,22 @@
       "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-14",
+      "player": "brick_",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-0510855",
@@ -381,22 +397,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2610636",
-      "tournament": "Pauper League",
-      "date": "2026-05-26",
-      "player": "Alexch",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -405,12 +405,12 @@
       "count": 8
     },
     {
-      "player": "jadencamelot",
+      "player": "brick_",
       "count": 7
     },
     {
-      "player": "brick_",
-      "count": 6
+      "player": "jadencamelot",
+      "count": 7
     },
     {
       "player": "giggimille",
