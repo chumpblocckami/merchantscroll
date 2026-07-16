@@ -2,21 +2,36 @@
   "archetype": "Jeskai",
   "slug": "jeskai",
   "stats": {
-    "total_entries": 317,
-    "league_entries": 185,
-    "league_trophies": 185,
-    "league_trophies_yearly": 121,
+    "total_entries": 319,
+    "league_entries": 187,
+    "league_trophies": 187,
+    "league_trophies_yearly": 123,
     "challenge_appearances": 116,
     "challenge_wins": 479,
     "challenge_losses": 286,
     "irl_top8": 9,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 15,
+    "league_trophy_rank_yearly": 14,
     "league_trophy_rank_alltime": 20,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-1610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-16",
+      "player": "Jace_MTG",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-1610855",
       "tournament": "Pauper League",
@@ -38,6 +53,22 @@
       "tournament": "Pauper League",
       "date": "2026-07-16",
       "player": "vikizin",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-16",
+      "player": "taravangian_",
       "colors": [
         "B",
         "R",
@@ -370,37 +401,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-09",
-      "player": "Belekuris",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-08",
-      "player": "Acecalna",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -429,11 +429,11 @@
       "count": 9
     },
     {
-      "player": "DarkPattaman",
-      "count": 8
+      "player": "Jace_MTG",
+      "count": 9
     },
     {
-      "player": "Jace_MTG",
+      "player": "DarkPattaman",
       "count": 8
     },
     {
