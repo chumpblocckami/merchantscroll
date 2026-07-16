@@ -12,8 +12,8 @@
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 17,
     "league_trophy_rank_alltime": 15,
-    "league_trophy_players_yearly": 1318,
-    "league_trophy_players_alltime": 2034
+    "league_trophy_players_yearly": 1316,
+    "league_trophy_players_alltime": 2032
   },
   "favorite_decks": [
     {
@@ -33,11 +33,11 @@
       "count": 8
     },
     {
-      "archetype": "Monsters",
+      "archetype": "Affinity",
       "count": 1
     },
     {
-      "archetype": "Affinity",
+      "archetype": "Monsters",
       "count": 1
     }
   ],
@@ -118,21 +118,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-07-0310855",
-      "tournament": "Pauper League",
-      "date": "2026-07-03",
-      "player": "Purgatory_01",
-      "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-07-0312846470",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-03",
@@ -146,6 +131,21 @@
       "final_rank": 20,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-03",
+      "player": "Purgatory_01",
+      "archetype": "UB Faeries",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-3010855",
@@ -178,7 +178,7 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2812845668",
+      "site_name": "pauper-challenge-32-2026-06-2712845668",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-27",
       "player": "Purgatory_01",
@@ -193,7 +193,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2712845668",
+      "site_name": "pauper-challenge-32-2026-06-2812845668",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-27",
       "player": "Purgatory_01",
@@ -224,21 +224,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1912844841",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-19",
-      "player": "Purgatory_01",
-      "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-2",
-      "final_rank": 9,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-06-1012844841",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-19",
@@ -254,18 +239,17 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1812844831",
+      "site_name": "pauper-challenge-32-2026-06-1912844841",
       "tournament": "Pauper Challenge 32",
-      "date": "2026-06-18",
+      "date": "2026-06-19",
       "player": "Purgatory_01",
-      "archetype": "U Terror",
+      "archetype": "UB Faeries",
       "colors": [
         "B",
-        "R",
         "U"
       ],
-      "record": "2-3",
-      "final_rank": 23,
+      "record": "5-2",
+      "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -301,6 +285,22 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-challenge-32-2026-06-1812844831",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-18",
+      "player": "Purgatory_01",
+      "archetype": "U Terror",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-league-2026-06-1210636",
       "tournament": "Pauper League",
       "date": "2026-06-12",
@@ -332,7 +332,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-0212844295",
+      "site_name": "pauper-challenge-32-2026-05-1712844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
       "player": "Purgatory_01",
@@ -348,7 +348,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-05-1712844295",
+      "site_name": "pauper-challenge-32-2026-06-0212844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
       "player": "Purgatory_01",

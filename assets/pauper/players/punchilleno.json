@@ -12,8 +12,8 @@
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 437,
     "league_trophy_rank_alltime": 823,
-    "league_trophy_players_yearly": 1318,
-    "league_trophy_players_alltime": 2034
+    "league_trophy_players_yearly": 1316,
+    "league_trophy_players_alltime": 2032
   },
   "favorite_decks": [
     {
@@ -25,6 +25,10 @@
       "count": 3
     },
     {
+      "archetype": "Jeskai",
+      "count": 1
+    },
+    {
       "archetype": "UB Faeries",
       "count": 1
     },
@@ -34,10 +38,6 @@
     },
     {
       "archetype": "BRUW",
-      "count": 1
-    },
-    {
-      "archetype": "Jeskai",
       "count": 1
     }
   ],
@@ -94,18 +94,18 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0412846485",
-      "tournament": "Pauper Challenge 32",
+      "site_name": "pauper-league-2026-07-0410855",
+      "tournament": "Pauper League",
       "date": "2026-07-04",
       "player": "Punchilleno",
       "archetype": "Rally",
       "colors": [
         "R"
       ],
-      "record": "3-3",
-      "final_rank": 18,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0312846485",
@@ -122,37 +122,21 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-07-0410855",
-      "tournament": "Pauper League",
+      "site_name": "pauper-challenge-32-2026-07-0412846485",
+      "tournament": "Pauper Challenge 32",
       "date": "2026-07-04",
       "player": "Punchilleno",
       "archetype": "Rally",
       "colors": [
         "R"
       ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1212844338",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-14",
-      "player": "Punchilleno",
-      "archetype": "BW Refurbished",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 7,
+      "record": "3-3",
+      "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2012844338",
+      "site_name": "pauper-challenge-32-2026-06-1212844338",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-14",
       "player": "Punchilleno",
@@ -184,11 +168,27 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1312844320",
+      "site_name": "pauper-challenge-32-2026-06-2012844338",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-14",
+      "player": "Punchilleno",
+      "archetype": "BW Refurbished",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-03-1712844320",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-13",
       "player": "Punchilleno",
-      "archetype": "UB Faeries",
+      "archetype": "Jeskai",
       "colors": [
         "R",
         "U"
@@ -199,11 +199,11 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2025-03-1712844320",
+      "site_name": "pauper-challenge-32-2026-06-1312844320",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-13",
       "player": "Punchilleno",
-      "archetype": "Jeskai",
+      "archetype": "UB Faeries",
       "colors": [
         "R",
         "U"

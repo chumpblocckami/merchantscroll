@@ -2,16 +2,16 @@
   "archetype": "Esper Affinity",
   "slug": "esper-affinity",
   "stats": {
-    "total_entries": 81,
-    "league_entries": 57,
-    "league_trophies": 57,
-    "league_trophies_yearly": 14,
+    "total_entries": 80,
+    "league_entries": 56,
+    "league_trophies": 56,
+    "league_trophies_yearly": 13,
     "challenge_appearances": 19,
     "challenge_wins": 67,
     "challenge_losses": 44,
     "irl_top8": 4,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 44,
+    "league_trophy_rank_yearly": 46,
     "league_trophy_rank_alltime": 39,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
@@ -45,20 +45,6 @@
       "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-11",
-      "player": "newbarola",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1012847113",
@@ -104,20 +90,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0312846485",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-04",
-      "player": "Nulyan",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-07-0410855",
       "tournament": "Pauper League",
       "date": "2026-07-04",
@@ -131,6 +103,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0312846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "Nulyan",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 17,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-league-2026-06-2510855",
@@ -380,6 +366,21 @@
       "final_rank": 5,
       "source": "pauperwave",
       "type": "irl"
+    },
+    {
+      "site_name": "pauperwave-2026-02-01-damnation-trio-2026",
+      "tournament": "Damnation Team Trio 2026 — Lucca",
+      "date": "2026-02-01",
+      "player": "Giorgio Omietti",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "",
+      "final_rank": null,
+      "source": "pauperwave",
+      "type": "irl"
     }
   ],
   "top_pilots": [
@@ -404,23 +405,23 @@
       "count": 4
     },
     {
-      "player": "newbarola",
-      "count": 3
-    },
-    {
       "player": "Kirblinxy",
       "count": 3
     },
     {
-      "player": "DobleP",
+      "player": "Goffman",
       "count": 2
     },
     {
-      "player": "oliverjuqs",
+      "player": "newbarola",
       "count": 2
     },
     {
       "player": "Michele Barsotti",
+      "count": 2
+    },
+    {
+      "player": "Luiz0211",
       "count": 2
     }
   ]

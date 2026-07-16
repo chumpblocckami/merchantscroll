@@ -11,9 +11,9 @@
     "irl_top8": 0,
     "challenge_win_pct": 51,
     "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 1085,
-    "league_trophy_players_yearly": 1318,
-    "league_trophy_players_alltime": 2034
+    "league_trophy_rank_alltime": 1084,
+    "league_trophy_players_yearly": 1316,
+    "league_trophy_players_alltime": 2032
   },
   "favorite_decks": [
     {
@@ -21,16 +21,12 @@
       "count": 5
     },
     {
-      "archetype": "Spy",
-      "count": 4
-    },
-    {
       "archetype": "Cawgate",
       "count": 4
     },
     {
-      "archetype": "U Terror",
-      "count": 3
+      "archetype": "Spy",
+      "count": 4
     },
     {
       "archetype": "Monsters",
@@ -41,15 +37,19 @@
       "count": 3
     },
     {
+      "archetype": "U Terror",
+      "count": 3
+    },
+    {
+      "archetype": "Boros Tribe",
+      "count": 1
+    },
+    {
       "archetype": "Rally",
       "count": 1
     },
     {
       "archetype": "Bogle",
-      "count": 1
-    },
-    {
-      "archetype": "Boros Tribe",
       "count": 1
     }
   ],
@@ -292,21 +292,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-last-chance-2025-08-1212807514",
-      "tournament": "Pauper Last Chance",
-      "date": "2025-08-12",
-      "player": "medvedev",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "3-2",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
       "site_name": "pauper-last-chance-2025-08-1212807516",
       "tournament": "Pauper Last Chance",
       "date": "2025-08-12",
@@ -317,6 +302,21 @@
         "U"
       ],
       "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2025-08-1212807514",
+      "tournament": "Pauper Last Chance",
+      "date": "2025-08-12",
+      "player": "medvedev",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "3-2",
       "final_rank": null,
       "source": "mtgo",
       "type": "other"

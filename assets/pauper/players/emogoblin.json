@@ -12,8 +12,8 @@
     "challenge_win_pct": 66,
     "league_trophy_rank_yearly": 50,
     "league_trophy_rank_alltime": 121,
-    "league_trophy_players_yearly": 1318,
-    "league_trophy_players_alltime": 2034
+    "league_trophy_players_yearly": 1316,
+    "league_trophy_players_alltime": 2032
   },
   "favorite_decks": [
     {
@@ -41,15 +41,15 @@
       "count": 2
     },
     {
+      "archetype": "Rally",
+      "count": 1
+    },
+    {
       "archetype": "Elves",
       "count": 1
     },
     {
       "archetype": "Cawgate",
-      "count": 1
-    },
-    {
-      "archetype": "Rally",
       "count": 1
     }
   ],
@@ -173,7 +173,7 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
+      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
       "tournament": "Pauper RC Super Qualifier",
       "date": "2026-06-27",
       "player": "Emogoblin",
@@ -191,7 +191,7 @@
       "type": "other"
     },
     {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
+      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
       "tournament": "Pauper RC Super Qualifier",
       "date": "2026-06-27",
       "player": "Emogoblin",
@@ -261,22 +261,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1912844841",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-19",
-      "player": "Emogoblin",
-      "archetype": "Naya Gates",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-3",
-      "final_rank": 6,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-06-1012844841",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-19",
@@ -293,7 +277,23 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1812844831",
+      "site_name": "pauper-challenge-32-2026-06-1912844841",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-19",
+      "player": "Emogoblin",
+      "archetype": "Naya Gates",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-3",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2312844831",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-18",
       "player": "Emogoblin",
@@ -311,7 +311,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2312844831",
+      "site_name": "pauper-challenge-32-2026-06-1812844831",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-18",
       "player": "Emogoblin",
@@ -360,7 +360,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-0212844295",
+      "site_name": "pauper-challenge-32-2026-05-1712844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
       "player": "Emogoblin",
@@ -376,7 +376,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-05-1712844295",
+      "site_name": "pauper-challenge-32-2026-06-0212844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
       "player": "Emogoblin",

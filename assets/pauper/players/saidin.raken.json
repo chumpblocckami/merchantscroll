@@ -12,8 +12,8 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 3,
     "league_trophy_rank_alltime": 2,
-    "league_trophy_players_yearly": 1318,
-    "league_trophy_players_alltime": 2034
+    "league_trophy_players_yearly": 1316,
+    "league_trophy_players_alltime": 2032
   },
   "favorite_decks": [
     {
@@ -37,11 +37,11 @@
       "count": 10
     },
     {
-      "archetype": "Cycle Storm",
+      "archetype": "Altar Tron",
       "count": 3
     },
     {
-      "archetype": "Altar Tron",
+      "archetype": "Cycle Storm",
       "count": 3
     },
     {
@@ -53,7 +53,7 @@
       "count": 2
     },
     {
-      "archetype": "BG Glee",
+      "archetype": "Flicker Tron",
       "count": 1
     }
   ],
@@ -91,21 +91,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-07-0810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-08",
-      "player": "saidin.raken",
-      "archetype": "Familiars",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-07-0812846623",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-08",
@@ -120,6 +105,21 @@
       "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-08",
+      "player": "saidin.raken",
+      "archetype": "Familiars",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0612846623",
@@ -186,22 +186,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2412845631",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "saidin.raken",
-      "archetype": "RG Storm",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "0-1",
-      "final_rank": 31,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-06-2412845625",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
@@ -214,6 +198,22 @@
       ],
       "record": "4-2",
       "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845631",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "saidin.raken",
+      "archetype": "RG Storm",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "0-1",
+      "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -234,7 +234,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2512845631",
+      "site_name": "pauper-challenge-32-2026-06-2412845631",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "saidin.raken",

@@ -12,8 +12,8 @@
     "challenge_win_pct": 54,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": 151,
-    "league_trophy_players_yearly": 1318,
-    "league_trophy_players_alltime": 2034
+    "league_trophy_players_yearly": 1316,
+    "league_trophy_players_alltime": 2032
   },
   "favorite_decks": [
     {
@@ -33,15 +33,15 @@
       "count": 2
     },
     {
+      "archetype": "U Terror",
+      "count": 1
+    },
+    {
       "archetype": "UB Terror",
       "count": 1
     },
     {
       "archetype": "Boros Glitter",
-      "count": 1
-    },
-    {
-      "archetype": "U Terror",
       "count": 1
     }
   ],
@@ -383,6 +383,23 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-challenge-32-2025-05-3112782655",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-05-31",
+      "player": "3vildr4k3",
+      "archetype": "Altar Tron",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-league-2025-05-319081",
       "tournament": "pauper-league-2025-05-319081",
       "date": "2025-05-31",
@@ -399,23 +416,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-05-3112782655",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-05-31",
-      "player": "3vildr4k3",
-      "archetype": "Altar Tron",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "2-3",
-      "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2025-05-2412782313",

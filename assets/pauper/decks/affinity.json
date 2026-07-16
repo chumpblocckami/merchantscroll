@@ -2,10 +2,10 @@
   "archetype": "Affinity",
   "slug": "affinity",
   "stats": {
-    "total_entries": 954,
-    "league_entries": 370,
-    "league_trophies": 370,
-    "league_trophies_yearly": 213,
+    "total_entries": 955,
+    "league_entries": 371,
+    "league_trophies": 371,
+    "league_trophies_yearly": 214,
     "challenge_appearances": 513,
     "challenge_wins": 2126,
     "challenge_losses": 1283,
@@ -245,6 +245,20 @@
       "site_name": "pauper-league-2026-07-1110855",
       "tournament": "Pauper League",
       "date": "2026-07-11",
+      "player": "newbarola",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-11",
       "player": "softcastles",
       "colors": [
         "B",
@@ -274,10 +288,9 @@
       "site_name": "pauper-league-2026-07-1010855",
       "tournament": "Pauper League",
       "date": "2026-07-10",
-      "player": "Boquinha",
+      "player": "MT_Adrian",
       "colors": [
         "B",
-        "R",
         "U"
       ],
       "record": "5-0",
@@ -304,10 +317,9 @@
       "site_name": "pauper-league-2026-07-1010855",
       "tournament": "Pauper League",
       "date": "2026-07-10",
-      "player": "Boquinha",
+      "player": "newbarola",
       "colors": [
         "B",
-        "R",
         "U"
       ],
       "record": "5-0",
@@ -346,40 +358,25 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-07-0812846623",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-08",
+      "player": "LuffyDoChapeuDePalha",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 16,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-league-2026-07-0810855",
       "tournament": "Pauper League",
       "date": "2026-07-08",
       "player": "CarrodaPolicia",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-08",
-      "player": "WotC_AbeC",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-08",
-      "player": "Heterodox",
       "colors": [
         "B",
         "R",
@@ -397,11 +394,11 @@
       "count": 210
     },
     {
-      "player": "Beicodegeia",
+      "player": "galeogiao",
       "count": 25
     },
     {
-      "player": "galeogiao",
+      "player": "Beicodegeia",
       "count": 25
     },
     {
@@ -418,18 +415,18 @@
     },
     {
       "player": "newbarola",
-      "count": 14
+      "count": 16
     },
     {
       "player": "lindoso01",
       "count": 12
     },
     {
-      "player": "yahakara",
+      "player": "outZEROo",
       "count": 11
     },
     {
-      "player": "outZEROo",
+      "player": "yahakara",
       "count": 11
     }
   ]
