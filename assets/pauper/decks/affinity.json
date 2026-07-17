@@ -2,13 +2,13 @@
   "archetype": "Affinity",
   "slug": "affinity",
   "stats": {
-    "total_entries": 954,
-    "league_entries": 370,
-    "league_trophies": 370,
-    "league_trophies_yearly": 213,
-    "challenge_appearances": 513,
-    "challenge_wins": 2126,
-    "challenge_losses": 1283,
+    "total_entries": 958,
+    "league_entries": 372,
+    "league_trophies": 372,
+    "league_trophies_yearly": 215,
+    "challenge_appearances": 515,
+    "challenge_wins": 2134,
+    "challenge_losses": 1287,
     "irl_top8": 39,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 6,
@@ -30,6 +30,36 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1612847678",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-16",
+      "player": "VitorCarvalho01",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1612847678",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-16",
+      "player": "LuffyDoChapeuDePalha",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 12,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0312847177",
@@ -122,10 +152,10 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-07-1410855",
+      "site_name": "pauper-league-2026-07-1310855",
       "tournament": "Pauper League",
-      "date": "2026-07-14",
-      "player": "iLKor",
+      "date": "2026-07-13",
+      "player": "Elfu",
       "colors": [
         "B",
         "R",
@@ -137,10 +167,25 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-07-1410855",
+      "site_name": "pauper-league-2026-07-1310855",
       "tournament": "Pauper League",
-      "date": "2026-07-14",
-      "player": "ZoooK",
+      "date": "2026-07-13",
+      "player": "Veiler01",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-13",
+      "player": "joelson",
       "colors": [
         "B",
         "R",
@@ -159,6 +204,20 @@
       "colors": [
         "B",
         "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-12",
+      "player": "MT_Adrian",
+      "colors": [
+        "B",
         "U"
       ],
       "record": "5-0",
@@ -326,72 +385,12 @@
       "final_rank": 4,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0912847103",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-09",
-      "player": "bruno_bto",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 16,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0812846623",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-08",
-      "player": "LuffyDoChapeuDePalha",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 16,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-08",
-      "player": "CarrodaPolicia",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-08",
-      "player": "WotC_AbeC",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "LuffyDoChapeuDePalha",
-      "count": 210
+      "count": 211
     },
     {
       "player": "galeogiao",

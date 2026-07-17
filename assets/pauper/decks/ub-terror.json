@@ -2,13 +2,13 @@
   "archetype": "UB Terror",
   "slug": "ub-terror",
   "stats": {
-    "total_entries": 546,
-    "league_entries": 292,
-    "league_trophies": 292,
-    "league_trophies_yearly": 150,
-    "challenge_appearances": 230,
-    "challenge_wins": 952,
-    "challenge_losses": 557,
+    "total_entries": 548,
+    "league_entries": 293,
+    "league_trophies": 293,
+    "league_trophies_yearly": 151,
+    "challenge_appearances": 231,
+    "challenge_wins": 955,
+    "challenge_losses": 560,
     "irl_top8": 8,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 11,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-1612847678",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-16",
+      "player": "Lollopollo2001",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 20,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-1210855",
       "tournament": "Pauper League",
@@ -45,6 +60,20 @@
       "final_rank": 7,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-11",
+      "player": "bonzin",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1012847113",
@@ -360,36 +389,6 @@
       "final_rank": 26,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2812845668",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-27",
-      "player": "cicciogire",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "6-1",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2812845668",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-27",
-      "player": "Prague",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 21,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [

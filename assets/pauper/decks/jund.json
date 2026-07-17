@@ -2,13 +2,13 @@
   "archetype": "Jund",
   "slug": "jund",
   "stats": {
-    "total_entries": 1257,
-    "league_entries": 542,
-    "league_trophies": 542,
-    "league_trophies_yearly": 221,
-    "challenge_appearances": 612,
-    "challenge_wins": 2476,
-    "challenge_losses": 1538,
+    "total_entries": 1258,
+    "league_entries": 541,
+    "league_trophies": 541,
+    "league_trophies_yearly": 220,
+    "challenge_appearances": 614,
+    "challenge_wins": 2483,
+    "challenge_losses": 1543,
     "irl_top8": 53,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 5,
@@ -78,6 +78,36 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1612847678",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-16",
+      "player": "_blaze66",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 17,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1612847678",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-16",
+      "player": "manohito",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 31,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0312847177",
@@ -156,10 +186,10 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-07-1410855",
+      "site_name": "pauper-league-2026-07-1310855",
       "tournament": "Pauper League",
-      "date": "2026-07-14",
-      "player": "Yugi_Muto",
+      "date": "2026-07-13",
+      "player": "_Rogusbr_",
       "colors": [
         "B",
         "G",
@@ -171,29 +201,15 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-07-1410855",
+      "site_name": "pauper-league-2026-07-1310855",
       "tournament": "Pauper League",
-      "date": "2026-07-14",
-      "player": "Thn",
+      "date": "2026-07-13",
+      "player": "Abisd94",
       "colors": [
         "B",
         "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-14",
-      "player": "Oscar_Franco",
-      "colors": [
-        "B",
-        "G",
-        "R"
+        "R",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -379,27 +395,12 @@
       "final_rank": 3,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-08",
-      "player": "Frecuenza12",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "_blaze66",
-      "count": 159
+      "count": 160
     },
     {
       "player": "Walker735",

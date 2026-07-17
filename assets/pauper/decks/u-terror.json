@@ -2,13 +2,13 @@
   "archetype": "U Terror",
   "slug": "u-terror",
   "stats": {
-    "total_entries": 1724,
+    "total_entries": 1727,
     "league_entries": 804,
     "league_trophies": 804,
     "league_trophies_yearly": 329,
-    "challenge_appearances": 816,
-    "challenge_wins": 3366,
-    "challenge_losses": 2021,
+    "challenge_appearances": 819,
+    "challenge_wins": 3376,
+    "challenge_losses": 2029,
     "irl_top8": 39,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 2,
@@ -58,6 +58,48 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1612847678",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-16",
+      "player": "Oceansoul92",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1612847678",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-16",
+      "player": "Luminati",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1612847678",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-16",
+      "player": "outZEROo",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 30,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0312847177",
@@ -214,10 +256,24 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-07-1410855",
+      "site_name": "pauper-league-2026-07-1310855",
       "tournament": "Pauper League",
-      "date": "2026-07-14",
-      "player": "fullmtg1",
+      "date": "2026-07-13",
+      "player": "Serpico_CC",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-13",
+      "player": "Oceansoul92",
       "colors": [
         "R",
         "U"
@@ -270,20 +326,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-07-1110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-11",
-      "player": "bonzin",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-07-1112847128",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-11",
@@ -324,54 +366,12 @@
       "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1112847128",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-11",
-      "player": "oskiyaa",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1112847128",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-11",
-      "player": "haqe",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "2-4",
-      "final_rank": 30,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1012847113",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-10",
-      "player": "outZEROo",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "Luminati",
-      "count": 273
+      "count": 274
     },
     {
       "player": "discoverN",

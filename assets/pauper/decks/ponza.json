@@ -2,13 +2,13 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 174,
+    "total_entries": 175,
     "league_entries": 79,
     "league_trophies": 79,
     "league_trophies_yearly": 51,
-    "challenge_appearances": 86,
-    "challenge_wins": 292,
-    "challenge_losses": 217,
+    "challenge_appearances": 87,
+    "challenge_wins": 295,
+    "challenge_losses": 220,
     "irl_top8": 4,
     "challenge_win_pct": 57,
     "league_trophy_rank_yearly": 28,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-1612847678",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-16",
+      "player": "Ixidor29",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 22,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0312847177",
       "tournament": "Pauper Challenge 32",
@@ -60,13 +74,14 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-07-1410855",
+      "site_name": "pauper-league-2026-07-1210855",
       "tournament": "Pauper League",
-      "date": "2026-07-14",
-      "player": "Ixidor29",
+      "date": "2026-07-12",
+      "player": "el-barto",
       "colors": [
         "G",
-        "R"
+        "R",
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -350,20 +365,6 @@
       ],
       "record": "6-3",
       "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0512846504",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-05",
-      "player": "Ixidor29",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
     }

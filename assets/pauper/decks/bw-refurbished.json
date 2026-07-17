@@ -2,16 +2,16 @@
   "archetype": "BW Refurbished",
   "slug": "bw-refurbished",
   "stats": {
-    "total_entries": 357,
-    "league_entries": 200,
-    "league_trophies": 200,
-    "league_trophies_yearly": 87,
+    "total_entries": 358,
+    "league_entries": 201,
+    "league_trophies": 201,
+    "league_trophies_yearly": 88,
     "challenge_appearances": 151,
     "challenge_wins": 572,
     "challenge_losses": 391,
     "irl_top8": 4,
     "challenge_win_pct": 59,
-    "league_trophy_rank_yearly": 19,
+    "league_trophy_rank_yearly": 18,
     "league_trophy_rank_alltime": 18,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
@@ -46,6 +46,21 @@
       "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-13",
+      "player": "Nulyan",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1212847145",
@@ -361,20 +376,6 @@
       ],
       "record": "4-2",
       "final_rank": 19,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1812844831",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-18",
-      "player": "Pafru",
-      "colors": [
-        "B",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
     }
