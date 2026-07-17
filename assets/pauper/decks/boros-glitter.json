@@ -2,21 +2,36 @@
   "archetype": "Boros Glitter",
   "slug": "boros-glitter",
   "stats": {
-    "total_entries": 141,
+    "total_entries": 142,
     "league_entries": 88,
     "league_trophies": 88,
     "league_trophies_yearly": 36,
-    "challenge_appearances": 50,
-    "challenge_wins": 196,
-    "challenge_losses": 131,
+    "challenge_appearances": 51,
+    "challenge_wins": 200,
+    "challenge_losses": 133,
     "irl_top8": 2,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 31,
     "league_trophy_rank_alltime": 34,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-1612847678",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-16",
+      "player": "Pafru",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 18,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1112847128",
       "tournament": "Pauper Challenge 32",
@@ -382,21 +397,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-04-0410405",
-      "tournament": "Pauper League",
-      "date": "2026-04-04",
-      "player": "Huskyman20035",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -409,12 +409,12 @@
       "count": 14
     },
     {
-      "player": "someoldguy",
+      "player": "Pafru",
       "count": 6
     },
     {
-      "player": "Pafru",
-      "count": 5
+      "player": "someoldguy",
+      "count": 6
     },
     {
       "player": "ThiagoGuerra",
