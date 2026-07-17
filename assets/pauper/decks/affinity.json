@@ -2,10 +2,10 @@
   "archetype": "Affinity",
   "slug": "affinity",
   "stats": {
-    "total_entries": 958,
-    "league_entries": 372,
-    "league_trophies": 372,
-    "league_trophies_yearly": 215,
+    "total_entries": 962,
+    "league_entries": 376,
+    "league_trophies": 376,
+    "league_trophies_yearly": 219,
     "challenge_appearances": 515,
     "challenge_wins": 2134,
     "challenge_losses": 1287,
@@ -21,10 +21,39 @@
       "site_name": "pauper-league-2026-07-1710855",
       "tournament": "Pauper League",
       "date": "2026-07-17",
+      "player": "Mark_Confidant",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-17",
       "player": "lindoso01",
       "colors": [
         "B",
         "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-16",
+      "player": "_Abijhavs_",
+      "colors": [
+        "B",
         "U"
       ],
       "record": "5-0",
@@ -243,6 +272,20 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-07-1210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-12",
+      "player": "MT_Adrian",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-1212847145",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-12",
@@ -271,6 +314,20 @@
       "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-11",
+      "player": "newbarola",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-1110855",
@@ -329,65 +386,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-10",
-      "player": "ThiagoGuerra",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-10",
-      "player": "newbarola",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-10",
-      "player": "Boquinha",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0912847103",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-09",
-      "player": "LuffyDoChapeuDePalha",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "6-2",
-      "final_rank": 4,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -417,7 +415,7 @@
     },
     {
       "player": "newbarola",
-      "count": 15
+      "count": 16
     },
     {
       "player": "lindoso01",

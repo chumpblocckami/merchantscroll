@@ -2,53 +2,21 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 51,
-    "league_entries": 18,
-    "league_trophies": 18,
-    "league_trophies_yearly": 18,
+    "total_entries": 49,
+    "league_entries": 16,
+    "league_trophies": 16,
+    "league_trophies_yearly": 16,
     "challenge_appearances": 31,
     "challenge_wins": 129,
     "challenge_losses": 83,
     "irl_top8": 2,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 41,
-    "league_trophy_rank_alltime": 48,
+    "league_trophy_rank_yearly": 42,
+    "league_trophy_rank_alltime": 49,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-07-1610855",
-      "tournament": "Pauper League",
-      "date": "2026-07-16",
-      "player": "qwertyelmer",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1610855",
-      "tournament": "Pauper League",
-      "date": "2026-07-16",
-      "player": "briera96",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-league-2026-07-1610855",
       "tournament": "Pauper League",
@@ -110,22 +78,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-07-1510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-15",
-      "player": "Blue_Magic",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-07-1410855",
       "tournament": "Pauper League",
       "date": "2026-07-14",
@@ -174,12 +126,30 @@
       "site_name": "pauper-league-2026-07-1310855",
       "tournament": "Pauper League",
       "date": "2026-07-13",
-      "player": "Abisd94",
+      "player": "Raptor56",
       "colors": [
         "B",
         "G",
         "R",
-        "U"
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-11",
+      "player": "Raptor56",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -388,6 +358,34 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0112845719",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-01",
+      "player": "Echanez",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0112845719",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-01",
+      "player": "Undertakerpauper",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "2-3",
+      "final_rank": 28,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -404,10 +402,6 @@
       "count": 3
     },
     {
-      "player": "Abisd94",
-      "count": 3
-    },
-    {
       "player": "giuliodice",
       "count": 3
     },
@@ -416,7 +410,15 @@
       "count": 2
     },
     {
+      "player": "Abisd94",
+      "count": 2
+    },
+    {
       "player": "AFitzsimmons",
+      "count": 2
+    },
+    {
+      "player": "Raptor56",
       "count": 2
     },
     {
@@ -425,10 +427,6 @@
     },
     {
       "player": "Tsubasa_Cat",
-      "count": 1
-    },
-    {
-      "player": "BERNASTORRES",
       "count": 1
     }
   ]
