@@ -3,17 +3,17 @@
   "display_name": "AlessandroPiraccini",
   "irl_name": null,
   "stats": {
-    "total_entries": 90,
-    "league_trophies": 32,
-    "league_trophies_yearly": 12,
-    "challenge_wins": 258,
-    "challenge_losses": 125,
+    "total_entries": 92,
+    "league_trophies": 33,
+    "league_trophies_yearly": 13,
+    "challenge_wins": 264,
+    "challenge_losses": 127,
     "irl_top8": 0,
-    "challenge_win_pct": 67,
-    "league_trophy_rank_yearly": 70,
-    "league_trophy_rank_alltime": 41,
-    "league_trophy_players_yearly": 1314,
-    "league_trophy_players_alltime": 2030
+    "challenge_win_pct": 68,
+    "league_trophy_rank_yearly": 62,
+    "league_trophy_rank_alltime": 40,
+    "league_trophy_players_yearly": 1321,
+    "league_trophy_players_alltime": 2037
   },
   "favorite_decks": [
     {
@@ -46,18 +46,34 @@
     },
     {
       "archetype": "R Madness",
+      "count": 4
+    },
+    {
+      "archetype": "Dredge",
       "count": 3
     },
     {
       "archetype": "BR Madness",
       "count": 2
-    },
-    {
-      "archetype": "UB Faeries",
-      "count": 2
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-1712847682",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-17",
+      "player": "AlessandroPiraccini",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "6-2",
+      "final_rank": 4,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1612847678",
       "tournament": "Pauper Challenge 32",
@@ -73,6 +89,22 @@
       "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-15",
+      "player": "AlessandroPiraccini",
+      "archetype": "Dredge",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-1410855",
@@ -426,38 +458,6 @@
       "final_rank": 19,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-05-0510636",
-      "tournament": "Pauper League",
-      "date": "2026-05-05",
-      "player": "AlessandroPiraccini",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-0510636",
-      "tournament": "Pauper League",
-      "date": "2026-05-05",
-      "player": "AlessandroPiraccini",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

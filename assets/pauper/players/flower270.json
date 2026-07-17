@@ -3,17 +3,17 @@
   "display_name": "flower270",
   "irl_name": null,
   "stats": {
-    "total_entries": 64,
-    "league_trophies": 52,
-    "league_trophies_yearly": 30,
+    "total_entries": 65,
+    "league_trophies": 53,
+    "league_trophies_yearly": 31,
     "challenge_wins": 56,
     "challenge_losses": 17,
     "irl_top8": 0,
     "challenge_win_pct": 77,
-    "league_trophy_rank_yearly": 11,
+    "league_trophy_rank_yearly": 10,
     "league_trophy_rank_alltime": 18,
-    "league_trophy_players_yearly": 1314,
-    "league_trophy_players_alltime": 2030
+    "league_trophy_players_yearly": 1321,
+    "league_trophy_players_alltime": 2037
   },
   "favorite_decks": [
     {
@@ -49,15 +49,33 @@
       "count": 1
     },
     {
-      "archetype": "BW Refurbished",
+      "archetype": "Naya Gates",
       "count": 1
     },
     {
-      "archetype": "Dredge",
+      "archetype": "BW Refurbished",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-1610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-16",
+      "player": "flower270",
+      "archetype": "Naya Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1112847128",
       "tournament": "Pauper Challenge 32",
@@ -420,22 +438,6 @@
       "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-04-1610405",
-      "tournament": "Pauper League",
-      "date": "2026-04-16",
-      "player": "flower270",
-      "archetype": "UB Terror",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }
