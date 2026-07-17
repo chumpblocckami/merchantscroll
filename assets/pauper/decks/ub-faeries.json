@@ -2,10 +2,10 @@
   "archetype": "UB Faeries",
   "slug": "ub-faeries",
   "stats": {
-    "total_entries": 603,
-    "league_entries": 322,
-    "league_trophies": 322,
-    "league_trophies_yearly": 194,
+    "total_entries": 604,
+    "league_entries": 323,
+    "league_trophies": 323,
+    "league_trophies_yearly": 195,
     "challenge_appearances": 254,
     "challenge_wins": 1052,
     "challenge_losses": 644,
@@ -142,6 +142,20 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-15",
+      "player": "maribves",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-1210855",
@@ -350,20 +364,6 @@
       ],
       "record": "3-3",
       "final_rank": 22,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0612846623",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-08",
-      "player": "discoverN",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
     }

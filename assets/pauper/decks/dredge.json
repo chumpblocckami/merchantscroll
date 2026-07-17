@@ -2,21 +2,36 @@
   "archetype": "Dredge",
   "slug": "dredge",
   "stats": {
-    "total_entries": 201,
-    "league_entries": 93,
-    "league_trophies": 93,
-    "league_trophies_yearly": 30,
+    "total_entries": 202,
+    "league_entries": 94,
+    "league_trophies": 94,
+    "league_trophies_yearly": 31,
     "challenge_appearances": 94,
     "challenge_wins": 391,
     "challenge_losses": 225,
     "irl_top8": 8,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 34,
+    "league_trophy_rank_yearly": 33,
     "league_trophy_rank_alltime": 32,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-1510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-15",
+      "player": "AlessandroPiraccini",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-0110855",
       "tournament": "Pauper League",
@@ -412,20 +427,6 @@
       "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauperwave-2026-03-01-exploding-pauper",
-      "tournament": "Exploding Pauper 2026 (IPT Lodi) — Lodi",
-      "date": "2026-03-03",
-      "player": "Lorenzo Aldegheri",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "",
-      "final_rank": 2,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [
