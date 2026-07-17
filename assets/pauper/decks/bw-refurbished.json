@@ -2,21 +2,36 @@
   "archetype": "BW Refurbished",
   "slug": "bw-refurbished",
   "stats": {
-    "total_entries": 358,
-    "league_entries": 201,
-    "league_trophies": 201,
-    "league_trophies_yearly": 88,
+    "total_entries": 359,
+    "league_entries": 202,
+    "league_trophies": 202,
+    "league_trophies_yearly": 89,
     "challenge_appearances": 151,
     "challenge_wins": 572,
     "challenge_losses": 391,
     "irl_top8": 4,
     "challenge_win_pct": 59,
-    "league_trophy_rank_yearly": 19,
+    "league_trophy_rank_yearly": 18,
     "league_trophy_rank_alltime": 18,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-1710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-17",
+      "player": "elvis10",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0312847177",
       "tournament": "Pauper Challenge 32",
@@ -364,20 +379,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1812844831",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-18",
-      "player": "haveaboavida",
-      "colors": [
-        "B",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 19,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
