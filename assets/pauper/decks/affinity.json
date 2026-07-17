@@ -2,10 +2,10 @@
   "archetype": "Affinity",
   "slug": "affinity",
   "stats": {
-    "total_entries": 957,
-    "league_entries": 371,
-    "league_trophies": 371,
-    "league_trophies_yearly": 214,
+    "total_entries": 959,
+    "league_entries": 373,
+    "league_trophies": 373,
+    "league_trophies_yearly": 216,
     "challenge_appearances": 515,
     "challenge_wins": 2134,
     "challenge_losses": 1287,
@@ -228,6 +228,20 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-07-1210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-12",
+      "player": "MT_Adrian",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-1212847145",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-12",
@@ -256,6 +270,20 @@
       "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-11",
+      "player": "newbarola",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-1110855",
@@ -358,36 +386,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0912847103",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-09",
-      "player": "LuffyDoChapeuDePalha",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "6-2",
-      "final_rank": 4,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0912847103",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-09",
-      "player": "bruno_bto",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 16,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -417,7 +415,7 @@
     },
     {
       "player": "newbarola",
-      "count": 15
+      "count": 16
     },
     {
       "player": "lindoso01",
