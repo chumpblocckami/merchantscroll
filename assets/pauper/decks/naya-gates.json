@@ -2,16 +2,16 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 229,
-    "league_entries": 97,
-    "league_trophies": 97,
-    "league_trophies_yearly": 90,
+    "total_entries": 230,
+    "league_entries": 98,
+    "league_trophies": 98,
+    "league_trophies_yearly": 91,
     "challenge_appearances": 112,
     "challenge_wins": 468,
     "challenge_losses": 263,
     "irl_top8": 12,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 19,
+    "league_trophy_rank_yearly": 18,
     "league_trophy_rank_alltime": 31,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
@@ -67,6 +67,21 @@
       "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-16",
+      "player": "GiorgioCombo",
+      "colors": [
+        "B",
+        "G",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-1610855",
@@ -424,23 +439,6 @@
       "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-09",
-      "player": "LordLini",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [

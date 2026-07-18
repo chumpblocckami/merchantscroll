@@ -2,10 +2,10 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 180,
-    "league_entries": 82,
-    "league_trophies": 82,
-    "league_trophies_yearly": 54,
+    "total_entries": 177,
+    "league_entries": 79,
+    "league_trophies": 79,
+    "league_trophies_yearly": 51,
     "challenge_appearances": 89,
     "challenge_wins": 302,
     "challenge_losses": 225,
@@ -17,21 +17,6 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-07-1710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-17",
-      "player": "el-barto",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-league-2026-07-1710855",
       "tournament": "Pauper League",
@@ -117,20 +102,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-07-1510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-15",
-      "player": "Venga",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-07-1410855",
       "tournament": "Pauper League",
       "date": "2026-07-14",
@@ -138,21 +109,6 @@
       "colors": [
         "G",
         "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-12",
-      "player": "el-barto",
-      "colors": [
-        "G",
-        "R",
-        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -368,6 +324,48 @@
       "final_rank": 6,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0612846623",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-08",
+      "player": "Niederschatten",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-2",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0612846623",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-08",
+      "player": "_Abijhavs_",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-07",
+      "player": "Niederschatten",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -392,15 +390,15 @@
       "count": 6
     },
     {
-      "player": "Venga",
-      "count": 4
-    },
-    {
       "player": "sai199orz",
       "count": 4
     },
     {
       "player": "Terminus0",
+      "count": 3
+    },
+    {
+      "player": "Venga",
       "count": 3
     },
     {
