@@ -2,13 +2,13 @@
   "archetype": "Food Pestilence",
   "slug": "food-pestilence",
   "stats": {
-    "total_entries": 244,
+    "total_entries": 246,
     "league_entries": 178,
     "league_trophies": 178,
     "league_trophies_yearly": 123,
-    "challenge_appearances": 62,
-    "challenge_wins": 239,
-    "challenge_losses": 149,
+    "challenge_appearances": 64,
+    "challenge_wins": 246,
+    "challenge_losses": 154,
     "irl_top8": 2,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 15,
@@ -30,6 +30,34 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1812847695",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-18",
+      "player": "yuxiaoyu",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-2",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1812847695",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-18",
+      "player": "__Noob__",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "2-3",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0312847177",
@@ -337,34 +365,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0610636",
-      "tournament": "Pauper League",
-      "date": "2026-06-06",
-      "player": "dftleonidasfr",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0110636",
-      "tournament": "Pauper League",
-      "date": "2026-06-01",
-      "player": "dftleonidasfr",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -397,16 +397,16 @@
       "count": 6
     },
     {
+      "player": "__Noob__",
+      "count": 5
+    },
+    {
       "player": "LucaAshok",
       "count": 5
     },
     {
       "player": "adonis2k",
       "count": 5
-    },
-    {
-      "player": "Nuserdog",
-      "count": 4
     }
   ]
 }

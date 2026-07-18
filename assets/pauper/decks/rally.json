@@ -2,10 +2,10 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 1119,
-    "league_entries": 621,
-    "league_trophies": 621,
-    "league_trophies_yearly": 281,
+    "total_entries": 1120,
+    "league_entries": 622,
+    "league_trophies": 622,
+    "league_trophies_yearly": 282,
     "challenge_appearances": 461,
     "challenge_wins": 1776,
     "challenge_losses": 1180,
@@ -50,6 +50,20 @@
       "tournament": "Pauper League",
       "date": "2026-07-18",
       "player": "ermili",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-18",
+      "player": "irahscott",
       "colors": [
         "G",
         "R"
@@ -349,20 +363,6 @@
       ],
       "record": "4-2",
       "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1512847177",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-15",
-      "player": "Niederschatten",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 16,
       "source": "mtgo",
       "type": "challenge"
     }
