@@ -3,17 +3,17 @@
   "display_name": "KidRenan",
   "irl_name": null,
   "stats": {
-    "total_entries": 74,
-    "league_trophies": 48,
-    "league_trophies_yearly": 25,
+    "total_entries": 75,
+    "league_trophies": 49,
+    "league_trophies_yearly": 26,
     "challenge_wins": 94,
     "challenge_losses": 65,
     "irl_top8": 0,
     "challenge_win_pct": 59,
-    "league_trophy_rank_yearly": 20,
-    "league_trophy_rank_alltime": 22,
-    "league_trophy_players_yearly": 1322,
-    "league_trophy_players_alltime": 2038
+    "league_trophy_rank_yearly": 18,
+    "league_trophy_rank_alltime": 21,
+    "league_trophy_players_yearly": 1323,
+    "league_trophy_players_alltime": 2039
   },
   "favorite_decks": [
     {
@@ -22,10 +22,26 @@
     },
     {
       "archetype": "Elves",
-      "count": 12
+      "count": 13
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-1810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-18",
+      "player": "KidRenan",
+      "archetype": "Elves",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1212847145",
       "tournament": "Pauper Challenge 32",
@@ -382,20 +398,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-0312838111",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-03",
-      "player": "KidRenan",
-      "archetype": "White Weenie",
-      "colors": [
-        "W"
-      ],
-      "record": "5-3",
-      "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

@@ -2,10 +2,10 @@
   "archetype": "U Terror",
   "slug": "u-terror",
   "stats": {
-    "total_entries": 1732,
-    "league_entries": 807,
-    "league_trophies": 807,
-    "league_trophies_yearly": 332,
+    "total_entries": 1734,
+    "league_entries": 809,
+    "league_trophies": 809,
+    "league_trophies_yearly": 334,
     "challenge_appearances": 821,
     "challenge_wins": 3384,
     "challenge_losses": 2033,
@@ -18,11 +18,40 @@
   },
   "recent_entries": [
     {
+      "site_name": "pauper-league-2026-07-1810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-18",
+      "player": "Luminati",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2026-07-1710855",
       "tournament": "Pauper League",
       "date": "2026-07-17",
       "player": "vivorilla93",
       "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-17",
+      "player": "Baro_94",
+      "colors": [
+        "B",
         "R",
         "U"
       ],
@@ -338,40 +367,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1212847145",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-12",
-      "player": "Oceansoul92",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 9,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1212847145",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-12",
-      "player": "FishCombatant",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "Luminati",
-      "count": 275
+      "count": 276
     },
     {
       "player": "discoverN",

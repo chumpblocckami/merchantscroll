@@ -3,17 +3,17 @@
   "display_name": "TuggaNaxos",
   "irl_name": null,
   "stats": {
-    "total_entries": 25,
-    "league_trophies": 16,
-    "league_trophies_yearly": 12,
+    "total_entries": 26,
+    "league_trophies": 17,
+    "league_trophies_yearly": 13,
     "challenge_wins": 31,
     "challenge_losses": 15,
     "irl_top8": 0,
     "challenge_win_pct": 67,
-    "league_trophy_rank_yearly": 80,
-    "league_trophy_rank_alltime": 137,
-    "league_trophy_players_yearly": 1322,
-    "league_trophy_players_alltime": 2038
+    "league_trophy_rank_yearly": 73,
+    "league_trophy_rank_alltime": 127,
+    "league_trophy_players_yearly": 1323,
+    "league_trophy_players_alltime": 2039
   },
   "favorite_decks": [
     {
@@ -41,6 +41,10 @@
       "count": 1
     },
     {
+      "archetype": "Naya Gates",
+      "count": 1
+    },
+    {
       "archetype": "Affinity",
       "count": 1
     },
@@ -51,13 +55,27 @@
     {
       "archetype": "Food Pestilence",
       "count": 1
-    },
-    {
-      "archetype": "Cawgate",
-      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-1810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-18",
+      "player": "TuggaNaxos",
+      "archetype": "Naya Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1112847128",
       "tournament": "Pauper Challenge 32",
@@ -426,21 +444,6 @@
       "colors": [
         "G",
         "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-05-119081",
-      "tournament": "pauper-league-2025-05-119081",
-      "date": "2025-05-11",
-      "player": "TuggaNaxos",
-      "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "G"
       ],
       "record": "5-0",
       "final_rank": null,
