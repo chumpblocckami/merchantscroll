@@ -2,10 +2,10 @@
   "archetype": "Monsters",
   "slug": "monsters",
   "stats": {
-    "total_entries": 377,
-    "league_entries": 215,
-    "league_trophies": 215,
-    "league_trophies_yearly": 70,
+    "total_entries": 376,
+    "league_entries": 214,
+    "league_trophies": 214,
+    "league_trophies_yearly": 69,
     "challenge_appearances": 137,
     "challenge_wins": 494,
     "challenge_losses": 363,
@@ -21,21 +21,6 @@
       "site_name": "pauper-league-2026-07-1810855",
       "tournament": "Pauper League",
       "date": "2026-07-18",
-      "player": "el-barto",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-17",
       "player": "el-barto",
       "colors": [
         "G",
@@ -376,6 +361,20 @@
         "R"
       ],
       "record": "3-3",
+      "final_rank": 17,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-05-2412842933",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-05-24",
+      "player": "ultrajelle",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-2",
       "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
