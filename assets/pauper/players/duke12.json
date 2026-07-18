@@ -3,19 +3,23 @@
   "display_name": "duke12",
   "irl_name": null,
   "stats": {
-    "total_entries": 9,
+    "total_entries": 10,
     "league_trophies": 0,
     "league_trophies_yearly": 0,
-    "challenge_wins": 31,
-    "challenge_losses": 13,
+    "challenge_wins": 35,
+    "challenge_losses": 15,
     "irl_top8": 0,
     "challenge_win_pct": 70,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": null,
-    "league_trophy_players_yearly": 1323,
-    "league_trophy_players_alltime": 2039
+    "league_trophy_players_yearly": 1320,
+    "league_trophy_players_alltime": 2037
   },
   "favorite_decks": [
+    {
+      "archetype": "Affinity",
+      "count": 2
+    },
     {
       "archetype": "Jund",
       "count": 2
@@ -37,10 +41,6 @@
       "count": 1
     },
     {
-      "archetype": "Affinity",
-      "count": 1
-    },
-    {
       "archetype": "Gardens",
       "count": 1
     },
@@ -50,6 +50,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912847113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-10",
+      "player": "duke12",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1012847113",
       "tournament": "Pauper Challenge 32",

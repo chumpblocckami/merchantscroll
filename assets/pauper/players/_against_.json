@@ -3,22 +3,22 @@
   "display_name": "_against_",
   "irl_name": null,
   "stats": {
-    "total_entries": 82,
+    "total_entries": 83,
     "league_trophies": 18,
     "league_trophies_yearly": 4,
-    "challenge_wins": 283,
-    "challenge_losses": 155,
+    "challenge_wins": 286,
+    "challenge_losses": 158,
     "irl_top8": 0,
-    "challenge_win_pct": 65,
-    "league_trophy_rank_yearly": 268,
+    "challenge_win_pct": 64,
+    "league_trophy_rank_yearly": 265,
     "league_trophy_rank_alltime": 106,
-    "league_trophy_players_yearly": 1323,
-    "league_trophy_players_alltime": 2039
+    "league_trophy_players_yearly": 1320,
+    "league_trophy_players_alltime": 2037
   },
   "favorite_decks": [
     {
       "archetype": "UB Terror",
-      "count": 20
+      "count": 21
     },
     {
       "archetype": "B Sacrifice",
@@ -87,6 +87,22 @@
       ],
       "record": "8-1",
       "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912847113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-10",
+      "player": "_against_",
+      "archetype": "UB Terror",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -432,22 +448,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-0612834493",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-06",
-      "player": "_against_",
-      "archetype": "White Weenie",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 26,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

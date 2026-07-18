@@ -3,17 +3,17 @@
   "display_name": "kaikas",
   "irl_name": null,
   "stats": {
-    "total_entries": 21,
+    "total_entries": 23,
     "league_trophies": 3,
     "league_trophies_yearly": 2,
-    "challenge_wins": 71,
-    "challenge_losses": 47,
+    "challenge_wins": 81,
+    "challenge_losses": 52,
     "irl_top8": 0,
-    "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 594,
-    "league_trophy_rank_alltime": 759,
-    "league_trophy_players_yearly": 1323,
-    "league_trophy_players_alltime": 2039
+    "challenge_win_pct": 61,
+    "league_trophy_rank_yearly": 592,
+    "league_trophy_rank_alltime": 756,
+    "league_trophy_players_yearly": 1320,
+    "league_trophy_players_alltime": 2037
   },
   "favorite_decks": [
     {
@@ -25,16 +25,16 @@
       "count": 7
     },
     {
+      "archetype": "Ponza",
+      "count": 4
+    },
+    {
       "archetype": "BR Madness",
       "count": 3
     },
     {
-      "archetype": "Ponza",
-      "count": 3
-    },
-    {
       "archetype": "Naya Gates",
-      "count": 1
+      "count": 2
     }
   ],
   "recent_entries": [
@@ -53,6 +53,39 @@
       ],
       "record": "3-3",
       "final_rank": 21,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1512847682",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-17",
+      "player": "kaikas",
+      "archetype": "Naya Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 21,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912847113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-10",
+      "player": "kaikas",
+      "archetype": "Ponza",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "7-2",
+      "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
     },

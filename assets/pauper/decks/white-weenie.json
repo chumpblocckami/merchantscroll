@@ -2,13 +2,13 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 604,
+    "total_entries": 606,
     "league_entries": 350,
     "league_trophies": 350,
     "league_trophies_yearly": 160,
-    "challenge_appearances": 228,
-    "challenge_wins": 888,
-    "challenge_losses": 571,
+    "challenge_appearances": 230,
+    "challenge_wins": 893,
+    "challenge_losses": 577,
     "irl_top8": 15,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 9,
@@ -122,6 +122,32 @@
       ],
       "record": "3-3",
       "final_rank": 24,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912847113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-10",
+      "player": "KidRenan",
+      "colors": [
+        "W"
+      ],
+      "record": "2-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912847113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-10",
+      "player": "Pjey",
+      "colors": [
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -331,41 +357,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-3010855",
-      "tournament": "Pauper League",
-      "date": "2026-06-30",
-      "player": "Emogoblin",
-      "colors": [
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2512845643",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-25",
-      "player": "Pafru",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "KidRenan",
-      "count": 62
+      "count": 63
     },
     {
       "player": "jwaves",

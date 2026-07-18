@@ -2,16 +2,16 @@
   "archetype": "Familiars",
   "slug": "familiars",
   "stats": {
-    "total_entries": 291,
-    "league_entries": 164,
-    "league_trophies": 164,
-    "league_trophies_yearly": 77,
+    "total_entries": 289,
+    "league_entries": 162,
+    "league_trophies": 162,
+    "league_trophies_yearly": 75,
     "challenge_appearances": 102,
     "challenge_wins": 421,
     "challenge_losses": 254,
     "irl_top8": 20,
     "challenge_win_pct": 62,
-    "league_trophy_rank_yearly": 22,
+    "league_trophy_rank_yearly": 23,
     "league_trophy_rank_alltime": 22,
     "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 72
@@ -22,35 +22,6 @@
       "tournament": "Pauper League",
       "date": "2026-07-16",
       "player": "ChaoticMTG",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-14",
-      "player": "Edo_01",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-14",
-      "player": "Mikibairon96",
       "colors": [
         "R",
         "U",
@@ -368,6 +339,34 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "Vaan_3",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 20,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "Vaan_3",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 20,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -385,7 +384,7 @@
     },
     {
       "player": "Mikibairon96",
-      "count": 16
+      "count": 15
     },
     {
       "player": "Kampo",

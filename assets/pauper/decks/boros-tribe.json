@@ -2,13 +2,13 @@
   "archetype": "Boros Tribe",
   "slug": "boros-tribe",
   "stats": {
-    "total_entries": 100,
+    "total_entries": 101,
     "league_entries": 59,
     "league_trophies": 59,
     "league_trophies_yearly": 59,
-    "challenge_appearances": 38,
-    "challenge_wins": 148,
-    "challenge_losses": 98,
+    "challenge_appearances": 39,
+    "challenge_wins": 151,
+    "challenge_losses": 101,
     "irl_top8": 3,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 26,
@@ -19,6 +19,22 @@
   "recent_entries": [
     {
       "site_name": "pauper-challenge-32-2026-07-1712847682",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-17",
+      "player": "Sandokan92",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1512847682",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-17",
       "player": "Sandokan92",
@@ -403,22 +419,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-showcase-challenge-2026-06-1412844285",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2026-06-14",
-      "player": "NMT_Sco94",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "6-3",
-      "final_rank": 31,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -440,7 +440,7 @@
     },
     {
       "player": "Sandokan92",
-      "count": 5
+      "count": 6
     },
     {
       "player": "NMT_Sco94",

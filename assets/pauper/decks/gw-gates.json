@@ -2,16 +2,16 @@
   "archetype": "GW Gates",
   "slug": "gw-gates",
   "stats": {
-    "total_entries": 178,
+    "total_entries": 179,
     "league_entries": 100,
     "league_trophies": 100,
     "league_trophies_yearly": 77,
-    "challenge_appearances": 74,
-    "challenge_wins": 290,
-    "challenge_losses": 175,
+    "challenge_appearances": 75,
+    "challenge_wins": 297,
+    "challenge_losses": 176,
     "irl_top8": 2,
-    "challenge_win_pct": 62,
-    "league_trophy_rank_yearly": 23,
+    "challenge_win_pct": 63,
+    "league_trophy_rank_yearly": 22,
     "league_trophy_rank_alltime": 29,
     "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 72
@@ -45,6 +45,21 @@
       ],
       "record": "4-2",
       "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912847113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-10",
+      "player": "TuggaNaxos",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "7-1",
+      "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -400,21 +415,6 @@
       "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1910636",
-      "tournament": "Pauper League",
-      "date": "2026-06-19",
-      "player": "Maccaciock",
-      "colors": [
-        "B",
-        "G",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -448,7 +448,7 @@
     },
     {
       "player": "TuggaNaxos",
-      "count": 4
+      "count": 5
     },
     {
       "player": "marzaboi",
