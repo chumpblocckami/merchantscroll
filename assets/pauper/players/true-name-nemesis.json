@@ -3,17 +3,17 @@
   "display_name": "True-Name-Nemesis",
   "irl_name": null,
   "stats": {
-    "total_entries": 87,
-    "league_trophies": 57,
-    "league_trophies_yearly": 31,
+    "total_entries": 88,
+    "league_trophies": 58,
+    "league_trophies_yearly": 32,
     "challenge_wins": 112,
     "challenge_losses": 65,
     "irl_top8": 0,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 12,
+    "league_trophy_rank_yearly": 10,
     "league_trophy_rank_alltime": 16,
-    "league_trophy_players_yearly": 1320,
-    "league_trophy_players_alltime": 2037
+    "league_trophy_players_yearly": 1323,
+    "league_trophy_players_alltime": 2039
   },
   "favorite_decks": [
     {
@@ -45,11 +45,30 @@
       "count": 1
     },
     {
+      "archetype": "BG Fog",
+      "count": 1
+    },
+    {
       "archetype": "Jund",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-1810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-18",
+      "player": "True-Name-Nemesis",
+      "archetype": "BG Fog",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0312847177",
       "tournament": "Pauper Challenge 32",
@@ -411,21 +430,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-2712836750",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-27",
-      "player": "True-Name-Nemesis",
-      "archetype": "Food Pestilence",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-2",
-      "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

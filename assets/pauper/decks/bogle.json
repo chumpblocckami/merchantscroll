@@ -2,22 +2,39 @@
   "archetype": "Bogle",
   "slug": "bogle",
   "stats": {
-    "total_entries": 244,
-    "league_entries": 98,
-    "league_trophies": 98,
-    "league_trophies_yearly": 27,
-    "challenge_appearances": 140,
-    "challenge_wins": 557,
-    "challenge_losses": 361,
+    "total_entries": 246,
+    "league_entries": 99,
+    "league_trophies": 99,
+    "league_trophies_yearly": 28,
+    "challenge_appearances": 141,
+    "challenge_wins": 560,
+    "challenge_losses": 364,
     "irl_top8": 2,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 36,
     "league_trophy_rank_alltime": 30,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
+      "site_name": "pauper-challenge-32-2026-07-1812847695",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-18",
+      "player": "ArtemisNix",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 18,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-league-2026-07-1710855",
       "tournament": "Pauper League",
       "date": "2026-07-17",
@@ -73,6 +90,23 @@
       "tournament": "Pauper League",
       "date": "2026-07-16",
       "player": "iLKor",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-14",
+      "player": "ArtemisNix",
       "colors": [
         "B",
         "G",
@@ -391,38 +425,6 @@
       ],
       "record": "3-3",
       "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2412845643",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-25",
-      "player": "PedraStone",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2412845625",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "PedraStone",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 16,
       "source": "mtgo",
       "type": "challenge"
     }

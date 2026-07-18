@@ -2,19 +2,19 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1211,
+    "total_entries": 1212,
     "league_entries": 623,
     "league_trophies": 623,
     "league_trophies_yearly": 241,
-    "challenge_appearances": 529,
-    "challenge_wins": 2122,
-    "challenge_losses": 1327,
+    "challenge_appearances": 530,
+    "challenge_wins": 2125,
+    "challenge_losses": 1330,
     "irl_top8": 31,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 4,
     "league_trophy_rank_alltime": 3,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -31,6 +31,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1812847695",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-18",
+      "player": "hetare_ane",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "3-3",
+      "final_rank": 27,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-league-2026-07-1710855",
@@ -352,20 +366,6 @@
       ],
       "record": "6-2",
       "final_rank": 4,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0812846623",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-08",
-      "player": "KidRenan",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-2",
-      "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
     }

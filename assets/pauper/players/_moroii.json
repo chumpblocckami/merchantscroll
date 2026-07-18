@@ -3,17 +3,17 @@
   "display_name": "_Moroii",
   "irl_name": null,
   "stats": {
-    "total_entries": 19,
+    "total_entries": 20,
     "league_trophies": 18,
     "league_trophies_yearly": 4,
-    "challenge_wins": 0,
-    "challenge_losses": 0,
+    "challenge_wins": 2,
+    "challenge_losses": 4,
     "irl_top8": 0,
-    "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 267,
+    "challenge_win_pct": 33,
+    "league_trophy_rank_yearly": 270,
     "league_trophy_rank_alltime": 107,
-    "league_trophy_players_yearly": 1320,
-    "league_trophy_players_alltime": 2037
+    "league_trophy_players_yearly": 1323,
+    "league_trophy_players_alltime": 2039
   },
   "favorite_decks": [
     {
@@ -43,9 +43,31 @@
     {
       "archetype": "BR Madness",
       "count": 1
+    },
+    {
+      "archetype": "Monster Tron",
+      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-1812847695",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-18",
+      "player": "_Moroii",
+      "archetype": "Monster Tron",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "2-4",
+      "final_rank": 30,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-04-2910636",
       "tournament": "Pauper League",

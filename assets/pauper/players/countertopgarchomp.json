@@ -3,17 +3,17 @@
   "display_name": "CounterTopGarchomp",
   "irl_name": null,
   "stats": {
-    "total_entries": 27,
+    "total_entries": 28,
     "league_trophies": 18,
     "league_trophies_yearly": 7,
-    "challenge_wins": 28,
-    "challenge_losses": 14,
+    "challenge_wins": 31,
+    "challenge_losses": 16,
     "irl_top8": 0,
-    "challenge_win_pct": 67,
-    "league_trophy_rank_yearly": 142,
+    "challenge_win_pct": 66,
+    "league_trophy_rank_yearly": 145,
     "league_trophy_rank_alltime": 110,
-    "league_trophy_players_yearly": 1320,
-    "league_trophy_players_alltime": 2037
+    "league_trophy_players_yearly": 1323,
+    "league_trophy_players_alltime": 2039
   },
   "favorite_decks": [
     {
@@ -23,6 +23,10 @@
     {
       "archetype": "Pingers",
       "count": 8
+    },
+    {
+      "archetype": "Naya Gates",
+      "count": 2
     },
     {
       "archetype": "Jund",
@@ -39,13 +43,27 @@
     {
       "archetype": "U Terror",
       "count": 1
-    },
-    {
-      "archetype": "Naya Gates",
-      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-1812847695",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-18",
+      "player": "CounterTopGarchomp",
+      "archetype": "Naya Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-2",
+      "final_rank": 14,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-2610855",
       "tournament": "Pauper League",
@@ -414,20 +432,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-05-1012777346",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-05-10",
-      "player": "CounterTopGarchomp",
-      "archetype": "Pingers",
-      "colors": [
-        "R"
-      ],
-      "record": "5-2",
-      "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

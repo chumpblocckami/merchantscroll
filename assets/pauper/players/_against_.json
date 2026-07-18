@@ -3,17 +3,17 @@
   "display_name": "_against_",
   "irl_name": null,
   "stats": {
-    "total_entries": 83,
+    "total_entries": 84,
     "league_trophies": 18,
     "league_trophies_yearly": 4,
-    "challenge_wins": 286,
-    "challenge_losses": 158,
+    "challenge_wins": 291,
+    "challenge_losses": 160,
     "irl_top8": 0,
-    "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 265,
+    "challenge_win_pct": 65,
+    "league_trophy_rank_yearly": 268,
     "league_trophy_rank_alltime": 106,
-    "league_trophy_players_yearly": 1320,
-    "league_trophy_players_alltime": 2037
+    "league_trophy_players_yearly": 1323,
+    "league_trophy_players_alltime": 2039
   },
   "favorite_decks": [
     {
@@ -58,6 +58,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-1812847695",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-18",
+      "player": "_against_",
+      "archetype": "Monster Tron",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-2",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0312847177",
       "tournament": "Pauper Challenge 32",
@@ -432,22 +447,6 @@
       "final_rank": 4,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-03-1110405",
-      "tournament": "pauper-league-2026-03-1110405",
-      "date": "2026-03-11",
-      "player": "_against_",
-      "archetype": "White Weenie",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

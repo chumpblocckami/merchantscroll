@@ -3,17 +3,17 @@
   "display_name": "Drugo",
   "irl_name": null,
   "stats": {
-    "total_entries": 33,
+    "total_entries": 34,
     "league_trophies": 10,
     "league_trophies_yearly": 8,
-    "challenge_wins": 95,
-    "challenge_losses": 51,
+    "challenge_wins": 99,
+    "challenge_losses": 53,
     "irl_top8": 0,
     "challenge_win_pct": 65,
-    "league_trophy_rank_yearly": 115,
-    "league_trophy_rank_alltime": 224,
-    "league_trophy_players_yearly": 1320,
-    "league_trophy_players_alltime": 2037
+    "league_trophy_rank_yearly": 116,
+    "league_trophy_rank_alltime": 226,
+    "league_trophy_players_yearly": 1323,
+    "league_trophy_players_alltime": 2039
   },
   "favorite_decks": [
     {
@@ -53,11 +53,28 @@
       "count": 1
     },
     {
-      "archetype": "Elves",
+      "archetype": "Jeskai",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-1812847695",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-18",
+      "player": "Drugo",
+      "archetype": "Jeskai",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 16,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0312846470",
       "tournament": "Pauper Challenge 32",
@@ -437,22 +454,6 @@
       ],
       "record": "4-2",
       "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-12-0512825792",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-12-05",
-      "player": "Drugo",
-      "archetype": "UB Terror",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 19,
       "source": "mtgo",
       "type": "challenge"
     }
