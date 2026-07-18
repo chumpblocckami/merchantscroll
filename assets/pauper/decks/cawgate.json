@@ -2,15 +2,15 @@
   "archetype": "Cawgate",
   "slug": "cawgate",
   "stats": {
-    "total_entries": 426,
+    "total_entries": 427,
     "league_entries": 256,
     "league_trophies": 256,
     "league_trophies_yearly": 136,
-    "challenge_appearances": 137,
-    "challenge_wins": 568,
-    "challenge_losses": 340,
+    "challenge_appearances": 138,
+    "challenge_wins": 571,
+    "challenge_losses": 343,
     "irl_top8": 11,
-    "challenge_win_pct": 63,
+    "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 12,
     "league_trophy_rank_alltime": 14,
     "league_trophy_decks_yearly": 65,
@@ -19,6 +19,22 @@
   "recent_entries": [
     {
       "site_name": "pauper-challenge-32-2026-07-1712847682",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-17",
+      "player": "3draw_TANO",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1612847682",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-17",
       "player": "3draw_TANO",
@@ -379,22 +395,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-0712842061",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-07",
-      "player": "Bahsis",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 22,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [

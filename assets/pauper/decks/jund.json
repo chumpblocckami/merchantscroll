@@ -2,13 +2,13 @@
   "archetype": "Jund",
   "slug": "jund",
   "stats": {
-    "total_entries": 1268,
+    "total_entries": 1269,
     "league_entries": 544,
     "league_trophies": 544,
     "league_trophies_yearly": 223,
-    "challenge_appearances": 621,
-    "challenge_wins": 2510,
-    "challenge_losses": 1561,
+    "challenge_appearances": 622,
+    "challenge_wins": 2513,
+    "challenge_losses": 1564,
     "irl_top8": 53,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 5,
@@ -124,6 +124,21 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1712847682",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-17",
+      "player": "_blaze66",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1612847682",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-17",
       "player": "_blaze66",
@@ -376,27 +391,12 @@
       "final_rank": 4,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1112847128",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-11",
-      "player": "eXeliS",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 22,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "_blaze66",
-      "count": 164
+      "count": 165
     },
     {
       "player": "Walker735",

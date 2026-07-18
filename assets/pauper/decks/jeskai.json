@@ -2,13 +2,13 @@
   "archetype": "Jeskai",
   "slug": "jeskai",
   "stats": {
-    "total_entries": 330,
+    "total_entries": 331,
     "league_entries": 192,
     "league_trophies": 192,
     "league_trophies_yearly": 128,
-    "challenge_appearances": 122,
-    "challenge_wins": 502,
-    "challenge_losses": 300,
+    "challenge_appearances": 123,
+    "challenge_wins": 506,
+    "challenge_losses": 302,
     "irl_top8": 9,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 13,
@@ -112,6 +112,22 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1712847682",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-17",
+      "player": "vikizin",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1612847682",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-17",
       "player": "vikizin",
@@ -387,21 +403,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1310855",
-      "tournament": "Pauper League",
-      "date": "2026-07-13",
-      "player": "evening_child",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -419,7 +420,7 @@
     },
     {
       "player": "vikizin",
-      "count": 16
+      "count": 17
     },
     {
       "player": "Mikhathara1994",

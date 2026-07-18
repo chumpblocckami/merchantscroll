@@ -2,13 +2,13 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 238,
+    "total_entries": 240,
     "league_entries": 100,
     "league_trophies": 100,
     "league_trophies_yearly": 93,
-    "challenge_appearances": 118,
-    "challenge_wins": 489,
-    "challenge_losses": 279,
+    "challenge_appearances": 120,
+    "challenge_wins": 496,
+    "challenge_losses": 284,
     "irl_top8": 12,
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 17,
@@ -121,6 +121,40 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1712847682",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-17",
+      "player": "kaikas",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 21,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1612847682",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-17",
+      "player": "seasonofmists",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1612847682",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-17",
       "player": "kaikas",
@@ -405,40 +439,6 @@
       "final_rank": 3,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-11",
-      "player": "Emogoblin",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-11",
-      "player": "clamego",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -447,11 +447,11 @@
       "count": 13
     },
     {
-      "player": "Emogoblin",
-      "count": 12
+      "player": "seasonofmists",
+      "count": 13
     },
     {
-      "player": "seasonofmists",
+      "player": "Emogoblin",
       "count": 12
     },
     {

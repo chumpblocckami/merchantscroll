@@ -3,11 +3,11 @@
   "display_name": "Bawer",
   "irl_name": null,
   "stats": {
-    "total_entries": 27,
+    "total_entries": 28,
     "league_trophies": 4,
     "league_trophies_yearly": 0,
-    "challenge_wins": 84,
-    "challenge_losses": 59,
+    "challenge_wins": 88,
+    "challenge_losses": 61,
     "irl_top8": 0,
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": null,
@@ -21,16 +21,16 @@
       "count": 6
     },
     {
+      "archetype": "Elves",
+      "count": 4
+    },
+    {
       "archetype": "Rally",
       "count": 4
     },
     {
       "archetype": "R Madness",
       "count": 4
-    },
-    {
-      "archetype": "Elves",
-      "count": 3
     },
     {
       "archetype": "BR Madness",
@@ -60,6 +60,21 @@
   "recent_entries": [
     {
       "site_name": "pauper-challenge-32-2026-07-1712847682",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-17",
+      "player": "Bawer",
+      "archetype": "Elves",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "4-2",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1612847682",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-17",
       "player": "Bawer",
@@ -427,20 +442,6 @@
       "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-06-139366",
-      "tournament": "pauper-league-2025-06-139366",
-      "date": "2025-06-13",
-      "player": "Bawer",
-      "archetype": "Pingers",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }
