@@ -2,10 +2,10 @@
   "archetype": "Monsters",
   "slug": "monsters",
   "stats": {
-    "total_entries": 373,
-    "league_entries": 212,
-    "league_trophies": 212,
-    "league_trophies_yearly": 67,
+    "total_entries": 374,
+    "league_entries": 213,
+    "league_trophies": 213,
+    "league_trophies_yearly": 68,
     "challenge_appearances": 136,
     "challenge_wins": 490,
     "challenge_losses": 360,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 58,
     "league_trophy_rank_yearly": 24,
     "league_trophy_rank_alltime": 15,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -31,6 +31,20 @@
       "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-15",
+      "player": "Venga",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-1210855",
@@ -353,20 +367,6 @@
       "tournament": "Pauper League",
       "date": "2026-05-23",
       "player": "wand_thief",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2110636",
-      "tournament": "Pauper League",
-      "date": "2026-05-21",
-      "player": "PrimoShow1",
       "colors": [
         "G",
         "R"
