@@ -3,28 +3,44 @@
   "slug": "br-affinity",
   "stats": {
     "total_entries": 33,
-    "league_entries": 11,
-    "league_trophies": 11,
-    "league_trophies_yearly": 11,
-    "challenge_appearances": 19,
-    "challenge_wins": 63,
-    "challenge_losses": 56,
+    "league_entries": 10,
+    "league_trophies": 10,
+    "league_trophies_yearly": 10,
+    "challenge_appearances": 20,
+    "challenge_wins": 66,
+    "challenge_losses": 59,
     "irl_top8": 2,
     "challenge_win_pct": 53,
     "league_trophy_rank_yearly": 48,
-    "league_trophy_rank_alltime": 51,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_rank_alltime": 53,
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
-      "site_name": "pauper-league-2026-07-1610855",
-      "tournament": "Pauper League",
-      "date": "2026-07-16",
-      "player": "_Abijhavs_",
+      "site_name": "pauper-challenge-32-2026-07-1812847695",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-18",
+      "player": "_blaze66",
       "colors": [
         "B",
-        "U"
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 28,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-14",
+      "player": "Thn",
+      "colors": [
+        "B",
+        "G",
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -40,20 +56,6 @@
         "B",
         "G",
         "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-12",
-      "player": "MT_Adrian",
-      "colors": [
-        "B",
-        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -389,12 +391,12 @@
   ],
   "top_pilots": [
     {
-      "player": "AlessandroPiraccini",
+      "player": "_blaze66",
       "count": 4
     },
     {
-      "player": "_blaze66",
-      "count": 3
+      "player": "AlessandroPiraccini",
+      "count": 4
     },
     {
       "player": "Pafru",
@@ -405,11 +407,11 @@
       "count": 3
     },
     {
-      "player": "3draw_TANO",
-      "count": 2
+      "player": "Thn",
+      "count": 3
     },
     {
-      "player": "Thn",
+      "player": "3draw_TANO",
       "count": 2
     },
     {

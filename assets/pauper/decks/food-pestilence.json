@@ -2,10 +2,10 @@
   "archetype": "Food Pestilence",
   "slug": "food-pestilence",
   "stats": {
-    "total_entries": 243,
-    "league_entries": 177,
-    "league_trophies": 177,
-    "league_trophies_yearly": 122,
+    "total_entries": 244,
+    "league_entries": 178,
+    "league_trophies": 178,
+    "league_trophies_yearly": 123,
     "challenge_appearances": 62,
     "challenge_wins": 239,
     "challenge_losses": 149,
@@ -13,10 +13,24 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 15,
     "league_trophy_rank_alltime": 21,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-1810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-18",
+      "player": "True-Name-Nemesis",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0312847177",
       "tournament": "Pauper Challenge 32",
@@ -351,26 +365,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2212842901",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-22",
-      "player": "Kalggot",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "2-3",
-      "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "True-Name-Nemesis",
-      "count": 61
+      "count": 62
     },
     {
       "player": "PR0boszcz",

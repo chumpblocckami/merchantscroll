@@ -2,37 +2,21 @@
   "archetype": "Walls",
   "slug": "walls",
   "stats": {
-    "total_entries": 165,
+    "total_entries": 164,
     "league_entries": 105,
     "league_trophies": 105,
     "league_trophies_yearly": 36,
-    "challenge_appearances": 53,
-    "challenge_wins": 201,
-    "challenge_losses": 142,
+    "challenge_appearances": 52,
+    "challenge_wins": 198,
+    "challenge_losses": 139,
     "irl_top8": 3,
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 32,
     "league_trophy_rank_alltime": 28,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-challenge-32-2026-07-1812847695",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-18",
-      "player": "PNascimento",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 22,
-      "source": "mtgo",
-      "type": "challenge"
-    },
     {
       "site_name": "pauper-challenge-32-2026-07-1212847145",
       "tournament": "Pauper Challenge 32",
@@ -430,6 +414,22 @@
       "final_rank": 4,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-05-0812842071",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-05-08",
+      "player": "Denisevich",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -454,10 +454,6 @@
       "count": 5
     },
     {
-      "player": "PNascimento",
-      "count": 5
-    },
-    {
       "player": "Pilopanga",
       "count": 5
     },
@@ -467,6 +463,10 @@
     },
     {
       "player": "Taute",
+      "count": 4
+    },
+    {
+      "player": "PNascimento",
       "count": 4
     },
     {

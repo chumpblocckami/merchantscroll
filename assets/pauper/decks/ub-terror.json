@@ -2,10 +2,10 @@
   "archetype": "UB Terror",
   "slug": "ub-terror",
   "stats": {
-    "total_entries": 556,
-    "league_entries": 293,
-    "league_trophies": 293,
-    "league_trophies_yearly": 151,
+    "total_entries": 555,
+    "league_entries": 292,
+    "league_trophies": 292,
+    "league_trophies_yearly": 150,
     "challenge_appearances": 239,
     "challenge_wins": 994,
     "challenge_losses": 576,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 11,
     "league_trophy_rank_alltime": 13,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -136,20 +136,6 @@
       "final_rank": 20,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-12",
-      "player": "bonzin",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1212847145",
@@ -388,6 +374,21 @@
       ],
       "record": "7-2",
       "final_rank": 4,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0312846470",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-03",
+      "player": "_against_",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 14,
       "source": "mtgo",
       "type": "challenge"
     }

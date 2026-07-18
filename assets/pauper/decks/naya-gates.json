@@ -2,19 +2,19 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 237,
-    "league_entries": 99,
-    "league_trophies": 99,
-    "league_trophies_yearly": 92,
-    "challenge_appearances": 118,
-    "challenge_wins": 489,
-    "challenge_losses": 279,
+    "total_entries": 233,
+    "league_entries": 96,
+    "league_trophies": 96,
+    "league_trophies_yearly": 89,
+    "challenge_appearances": 117,
+    "challenge_wins": 486,
+    "challenge_losses": 276,
     "irl_top8": 12,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 17,
+    "league_trophy_rank_yearly": 19,
     "league_trophy_rank_alltime": 31,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -22,6 +22,23 @@
       "tournament": "Pauper League",
       "date": "2026-07-18",
       "player": "TuggaNaxos",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-18",
+      "player": "Rusherlol",
       "colors": [
         "B",
         "G",
@@ -48,23 +65,6 @@
       ],
       "record": "3-2",
       "final_rank": 14,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1812847695",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-18",
-      "player": "I_HEART_DREDGE",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 19,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -152,38 +152,6 @@
       "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1610855",
-      "tournament": "Pauper League",
-      "date": "2026-07-16",
-      "player": "GiorgioCombo",
-      "colors": [
-        "B",
-        "G",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1610855",
-      "tournament": "Pauper League",
-      "date": "2026-07-16",
-      "player": "flower270",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1612847678",
@@ -322,44 +290,10 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-07-1410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-14",
-      "player": "Mankeke",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-07-1210855",
       "tournament": "Pauper League",
       "date": "2026-07-12",
       "player": "marcomartinelli999",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-12",
-      "player": "yasiu86",
       "colors": [
         "B",
         "G",
@@ -439,6 +373,74 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1112847128",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-11",
+      "player": "Dreddybajs",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912847113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-10",
+      "player": "NattaZan79",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-3",
+      "final_rank": 4,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912847113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-10",
+      "player": "lilianna1989",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 28,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1012847113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-10",
+      "player": "NattaZan79",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-3",
+      "final_rank": 4,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [

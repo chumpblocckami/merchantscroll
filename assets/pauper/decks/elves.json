@@ -2,19 +2,19 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1212,
+    "total_entries": 1213,
     "league_entries": 623,
     "league_trophies": 623,
     "league_trophies_yearly": 241,
-    "challenge_appearances": 530,
-    "challenge_wins": 2125,
-    "challenge_losses": 1330,
+    "challenge_appearances": 531,
+    "challenge_wins": 2128,
+    "challenge_losses": 1333,
     "irl_top8": 31,
-    "challenge_win_pct": 62,
+    "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 4,
     "league_trophy_rank_alltime": 3,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -31,6 +31,22 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1812847695",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-18",
+      "player": "PNascimento",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 22,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1812847695",
@@ -352,20 +368,6 @@
       ],
       "record": "3-3",
       "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0812846623",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-08",
-      "player": "ciurlo",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "6-2",
-      "final_rank": 4,
       "source": "mtgo",
       "type": "challenge"
     }
