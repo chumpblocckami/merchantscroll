@@ -2,37 +2,21 @@
   "archetype": "Altar",
   "slug": "altar",
   "stats": {
-    "total_entries": 97,
-    "league_entries": 63,
-    "league_trophies": 63,
-    "league_trophies_yearly": 23,
+    "total_entries": 93,
+    "league_entries": 59,
+    "league_trophies": 59,
+    "league_trophies_yearly": 19,
     "challenge_appearances": 30,
     "challenge_wins": 114,
     "challenge_losses": 79,
     "irl_top8": 2,
     "challenge_win_pct": 59,
-    "league_trophy_rank_yearly": 37,
-    "league_trophy_rank_alltime": 37,
+    "league_trophy_rank_yearly": 40,
+    "league_trophy_rank_alltime": 38,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-07-1810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-18",
-      "player": "Huskyman20035",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-challenge-32-2026-07-1812847695",
       "tournament": "Pauper Challenge 32",
@@ -49,54 +33,6 @@
       "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1610855",
-      "tournament": "Pauper League",
-      "date": "2026-07-16",
-      "player": "briera96",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-15",
-      "player": "Blue_Magic",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1310855",
-      "tournament": "Pauper League",
-      "date": "2026-07-13",
-      "player": "Abisd94",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1212847145",
@@ -419,12 +355,69 @@
       "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-04-2810636",
+      "tournament": "Pauper League",
+      "date": "2026-04-28",
+      "player": "Huskyman20035",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-04-0512838145",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-04-05",
+      "player": "davidallen101",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-3",
+      "final_rank": 31,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-03-2212836012",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-03-22",
+      "player": "davidallen101",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 30,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-03-1810405",
+      "tournament": "pauper-league-2026-03-1810405",
+      "date": "2026-03-18",
+      "player": "davidallen101",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "Abisd94",
-      "count": 16
+      "count": 15
     },
     {
       "player": "Entropy263",
@@ -443,10 +436,6 @@
       "count": 5
     },
     {
-      "player": "Huskyman20035",
-      "count": 3
-    },
-    {
       "player": "davidallen101",
       "count": 3
     },
@@ -460,6 +449,10 @@
     },
     {
       "player": "yasiu86",
+      "count": 2
+    },
+    {
+      "player": "Loerien",
       "count": 2
     }
   ]

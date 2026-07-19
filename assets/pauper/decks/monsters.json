@@ -2,10 +2,10 @@
   "archetype": "Monsters",
   "slug": "monsters",
   "stats": {
-    "total_entries": 378,
-    "league_entries": 215,
-    "league_trophies": 215,
-    "league_trophies_yearly": 70,
+    "total_entries": 379,
+    "league_entries": 216,
+    "league_trophies": 216,
+    "league_trophies_yearly": 71,
     "challenge_appearances": 138,
     "challenge_wins": 498,
     "challenge_losses": 366,
@@ -91,6 +91,20 @@
       "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-15",
+      "player": "Venga",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-1210855",
@@ -366,20 +380,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2912843392",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-29",
-      "player": "2krewlop",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 28,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
