@@ -2,10 +2,10 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 613,
-    "league_entries": 353,
-    "league_trophies": 353,
-    "league_trophies_yearly": 163,
+    "total_entries": 614,
+    "league_entries": 354,
+    "league_trophies": 354,
+    "league_trophies_yearly": 164,
     "challenge_appearances": 234,
     "challenge_wins": 909,
     "challenge_losses": 587,
@@ -36,6 +36,19 @@
       "tournament": "Pauper League",
       "date": "2026-07-19",
       "player": "Lirror",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-19",
+      "player": "LoveCrayons",
       "colors": [
         "W"
       ],
@@ -342,20 +355,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-showcase-challenge-2026-07-0512846446",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2026-07-05",
-      "player": "Terracotta99",
-      "colors": [
-        "R",
-        "W"
-      ],
-      "record": "7-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
