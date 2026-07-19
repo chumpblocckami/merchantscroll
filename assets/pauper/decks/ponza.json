@@ -2,10 +2,10 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 185,
-    "league_entries": 80,
-    "league_trophies": 80,
-    "league_trophies_yearly": 52,
+    "total_entries": 184,
+    "league_entries": 79,
+    "league_trophies": 79,
+    "league_trophies_yearly": 51,
     "challenge_appearances": 96,
     "challenge_wins": 334,
     "challenge_losses": 241,
@@ -13,24 +13,10 @@
     "challenge_win_pct": 58,
     "league_trophy_rank_yearly": 28,
     "league_trophy_rank_alltime": 35,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-07-1910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-19",
-      "player": "Morimox",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-challenge-32-2026-07-1812847695",
       "tournament": "Pauper Challenge 32",
@@ -364,6 +350,20 @@
       ],
       "record": "5-2",
       "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0812846623",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-08",
+      "player": "_Abijhavs_",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
     }
