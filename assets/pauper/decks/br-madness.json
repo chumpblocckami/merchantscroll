@@ -2,10 +2,10 @@
   "archetype": "BR Madness",
   "slug": "br-madness",
   "stats": {
-    "total_entries": 811,
-    "league_entries": 387,
-    "league_trophies": 387,
-    "league_trophies_yearly": 121,
+    "total_entries": 810,
+    "league_entries": 386,
+    "league_trophies": 386,
+    "league_trophies_yearly": 120,
     "challenge_appearances": 395,
     "challenge_wins": 1599,
     "challenge_losses": 1005,
@@ -13,26 +13,10 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 15,
     "league_trophy_rank_alltime": 7,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-07-1610855",
-      "tournament": "Pauper League",
-      "date": "2026-07-16",
-      "player": "19LNC91",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-challenge-32-2026-07-1612847678",
       "tournament": "Pauper Challenge 32",
@@ -382,6 +366,21 @@
       "colors": [
         "B",
         "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-01",
+      "player": "Alakhai",
+      "colors": [
+        "B",
         "R",
         "U"
       ],
