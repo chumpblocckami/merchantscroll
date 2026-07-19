@@ -2,10 +2,10 @@
   "archetype": "BW Refurbished",
   "slug": "bw-refurbished",
   "stats": {
-    "total_entries": 361,
-    "league_entries": 204,
-    "league_trophies": 204,
-    "league_trophies_yearly": 91,
+    "total_entries": 360,
+    "league_entries": 203,
+    "league_trophies": 203,
+    "league_trophies_yearly": 90,
     "challenge_appearances": 151,
     "challenge_wins": 572,
     "challenge_losses": 391,
@@ -24,22 +24,6 @@
       "player": "Aster17",
       "colors": [
         "B",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-17",
-      "player": "Irenicus_Mfs",
-      "colors": [
-        "B",
-        "R",
-        "U",
         "W"
       ],
       "record": "5-0",
@@ -379,6 +363,20 @@
       ],
       "record": "4-2",
       "final_rank": 19,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2312844831",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-18",
+      "player": "Pafru",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
     }
