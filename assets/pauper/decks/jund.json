@@ -2,10 +2,10 @@
   "archetype": "Jund",
   "slug": "jund",
   "stats": {
-    "total_entries": 1269,
-    "league_entries": 544,
-    "league_trophies": 544,
-    "league_trophies_yearly": 223,
+    "total_entries": 1273,
+    "league_entries": 548,
+    "league_trophies": 548,
+    "league_trophies_yearly": 227,
     "challenge_appearances": 622,
     "challenge_wins": 2513,
     "challenge_losses": 1564,
@@ -336,10 +336,26 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-07-1310855",
+      "site_name": "pauper-league-2026-07-1510855",
       "tournament": "Pauper League",
-      "date": "2026-07-13",
-      "player": "_Rogusbr_",
+      "date": "2026-07-15",
+      "player": "Blue_Magic",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-14",
+      "player": "Yugi_Muto",
       "colors": [
         "B",
         "G",
@@ -351,10 +367,10 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-07-1210855",
+      "site_name": "pauper-league-2026-07-1410855",
       "tournament": "Pauper League",
-      "date": "2026-07-12",
-      "player": "lucotto",
+      "date": "2026-07-14",
+      "player": "Thn",
       "colors": [
         "B",
         "G",
@@ -366,34 +382,19 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1212847145",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-12",
-      "player": "Brasatore",
+      "site_name": "pauper-league-2026-07-1410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-14",
+      "player": "Oscar_Franco",
       "colors": [
         "B",
         "G",
         "R"
       ],
-      "record": "3-3",
-      "final_rank": 23,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1112847128",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-11",
-      "player": "flower270",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-3",
-      "final_rank": 4,
-      "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     }
   ],
   "top_pilots": [

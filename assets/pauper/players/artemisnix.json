@@ -3,22 +3,22 @@
   "display_name": "ArtemisNix",
   "irl_name": null,
   "stats": {
-    "total_entries": 1,
-    "league_trophies": 0,
-    "league_trophies_yearly": 0,
+    "total_entries": 2,
+    "league_trophies": 1,
+    "league_trophies_yearly": 1,
     "challenge_wins": 3,
     "challenge_losses": 3,
     "irl_top8": 0,
     "challenge_win_pct": 50,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": null,
-    "league_trophy_players_yearly": 1323,
-    "league_trophy_players_alltime": 2039
+    "league_trophy_rank_yearly": 776,
+    "league_trophy_rank_alltime": 1286,
+    "league_trophy_players_yearly": 1329,
+    "league_trophy_players_alltime": 2042
   },
   "favorite_decks": [
     {
       "archetype": "Bogle",
-      "count": 1
+      "count": 2
     }
   ],
   "recent_entries": [
@@ -39,6 +39,24 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-14",
+      "player": "ArtemisNix",
+      "archetype": "Bogle",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ]
 }

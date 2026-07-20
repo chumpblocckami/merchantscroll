@@ -3,17 +3,17 @@
   "display_name": "SpikeYou",
   "irl_name": null,
   "stats": {
-    "total_entries": 42,
-    "league_trophies": 18,
-    "league_trophies_yearly": 8,
+    "total_entries": 43,
+    "league_trophies": 19,
+    "league_trophies_yearly": 9,
     "challenge_wins": 88,
     "challenge_losses": 59,
     "irl_top8": 0,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 131,
-    "league_trophy_rank_alltime": 116,
-    "league_trophy_players_yearly": 1323,
-    "league_trophy_players_alltime": 2039
+    "league_trophy_rank_yearly": 115,
+    "league_trophy_rank_alltime": 104,
+    "league_trophy_players_yearly": 1329,
+    "league_trophy_players_alltime": 2042
   },
   "favorite_decks": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "archetype": "Elves",
-      "count": 9
+      "count": 10
     },
     {
       "archetype": "Flicker Tron",
@@ -58,6 +58,23 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-1910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-19",
+      "player": "SpikeYou",
+      "archetype": "Elves",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0512846504",
       "tournament": "Pauper Challenge 32",
@@ -443,22 +460,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-11-1612824440",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-11-16",
-      "player": "SpikeYou",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-2",
-      "final_rank": 9,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

@@ -2,26 +2,83 @@
   "archetype": "Familiars",
   "slug": "familiars",
   "stats": {
-    "total_entries": 289,
-    "league_entries": 162,
-    "league_trophies": 162,
-    "league_trophies_yearly": 75,
+    "total_entries": 293,
+    "league_entries": 166,
+    "league_trophies": 166,
+    "league_trophies_yearly": 79,
     "challenge_appearances": 102,
     "challenge_wins": 421,
     "challenge_losses": 254,
     "irl_top8": 20,
     "challenge_win_pct": 62,
-    "league_trophy_rank_yearly": 23,
+    "league_trophy_rank_yearly": 22,
     "league_trophy_rank_alltime": 22,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
+      "site_name": "pauper-league-2026-07-1910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-19",
+      "player": "Xx420blazeitxX",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-19",
+      "player": "bombaj",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2026-07-1610855",
       "tournament": "Pauper League",
       "date": "2026-07-16",
       "player": "ChaoticMTG",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-14",
+      "player": "Edo_01",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-14",
+      "player": "Mikibairon96",
       "colors": [
         "R",
         "U",
@@ -311,62 +368,6 @@
       "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2612845653",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-26",
-      "player": "LydiaTheHuman",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2610855",
-      "tournament": "Pauper League",
-      "date": "2026-06-26",
-      "player": "Bails76",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2412845625",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "Vaan_3",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2512845625",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "Vaan_3",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -384,7 +385,7 @@
     },
     {
       "player": "Mikibairon96",
-      "count": 15
+      "count": 16
     },
     {
       "player": "Kampo",
