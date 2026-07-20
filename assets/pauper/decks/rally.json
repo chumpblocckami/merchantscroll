@@ -2,10 +2,10 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 1129,
-    "league_entries": 623,
-    "league_trophies": 623,
-    "league_trophies_yearly": 283,
+    "total_entries": 1130,
+    "league_entries": 624,
+    "league_trophies": 624,
+    "league_trophies_yearly": 284,
     "challenge_appearances": 469,
     "challenge_wins": 1811,
     "challenge_losses": 1200,
@@ -17,6 +17,19 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-20",
+      "player": "2krewlop",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-1910855",
       "tournament": "Pauper League",
@@ -350,22 +363,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1612847678",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-16",
-      "player": "ewerb123",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [

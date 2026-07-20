@@ -2,10 +2,10 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 189,
-    "league_entries": 81,
-    "league_trophies": 81,
-    "league_trophies_yearly": 53,
+    "total_entries": 188,
+    "league_entries": 80,
+    "league_trophies": 80,
+    "league_trophies_yearly": 52,
     "challenge_appearances": 99,
     "challenge_wins": 345,
     "challenge_losses": 251,
@@ -242,20 +242,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-07-1510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-15",
-      "player": "Venga",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-07-1410855",
       "tournament": "Pauper League",
       "date": "2026-07-14",
@@ -366,6 +352,20 @@
       "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912847103",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-09",
+      "player": "Ixidor29",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-2",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -394,10 +394,6 @@
       "count": 5
     },
     {
-      "player": "Venga",
-      "count": 4
-    },
-    {
       "player": "kaikas",
       "count": 4
     },
@@ -408,6 +404,10 @@
     {
       "player": "mehanske",
       "count": 4
+    },
+    {
+      "player": "Terminus0",
+      "count": 3
     }
   ]
 }
