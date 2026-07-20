@@ -2012,7 +2012,7 @@
         "R",
         "W"
       ],
-      "archetype": "Bogle"
+      "archetype": "Monsters"
     },
     {
       "player": "A_AdeptoTerra",
@@ -2199,7 +2199,7 @@
         "R",
         "U"
       ],
-      "archetype": "Monsters Tron"
+      "archetype": "Monster Tron"
     },
     {
       "player": "Emogoblin",
@@ -2754,8 +2754,7 @@
         "G",
         "R",
         "U"
-      ],
-      "archetype": "Altar"
+      ]
     },
     {
       "player": "TuggaNaxos",
@@ -2948,8 +2947,7 @@
         "G",
         "R",
         "U"
-      ],
-      "archetype": "Altar"
+      ]
     },
     {
       "player": "Mankeke",
@@ -4738,7 +4736,7 @@
         "U",
         "W"
       ],
-      "archetype": "Familiars"
+      "archetype": "Jeskai"
     },
     {
       "player": "CrilaPeoty",
@@ -4925,7 +4923,385 @@
         "U",
         "W"
       ],
-      "archetype": "Monsters Tron"
+      "archetype": "Monster Tron"
+    },
+    {
+      "player": "EntroPete",
+      "main_deck": [
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Bloodthrone Vampire",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Carrion Feeder",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Rite of Consumption",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Nested Shambler",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Mortician Beetle",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Infestation Sage",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "17",
+          "card_attributes": {
+            "card_name": "Swamp",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Supernatural Stamina",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Accursed Marauder",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Sadistic Glee",
+            "card_type": "ENCHMT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Unearth",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Nezumi Linkbreaker",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Snuff Out",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Shambling Ghast",
+            "card_type": "ISCREA"
+          }
+        }
+      ],
+      "sideboard_deck": [
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Accursed Marauder",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Snuff Out",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Tragic Slip",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Mesmeric Fiend",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Rotten Reunion",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Tragic Slip",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Mutagenic Growth",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Nihil Spellbomb",
+            "card_type": "ARTFCT"
+          }
+        }
+      ],
+      "wins": {
+        "loginplayeventcourseid": "35543102",
+        "wins": "5",
+        "losses": "0"
+      },
+      "colors": [
+        "B",
+        "G"
+      ],
+      "archetype": "B Sacrifice"
+    },
+    {
+      "player": "brummett",
+      "main_deck": [
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Wall of Roots",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Overgrown Battlement",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Elves of Deep Shadow",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Swamp",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Gatecreeper Vine",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Generous Ent",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Jaspera Sentinel",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Land Grant",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Lead the Stampede",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Lotleth Giant",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Lotus Petal",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Masked Vandal",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Mesmeric Fiend",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Dread Return",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Sagu Wildling",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Saruli Caretaker",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Forest",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Troll of Khazad-dûm",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Balustrade Spy",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Winding Way",
+            "card_type": "SORCRY"
+          }
+        }
+      ],
+      "sideboard_deck": [
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Faerie Macabre",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Flaring Pain",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Guerrilla Gorilla",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Haunting Misery",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Healer of the Glade",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Jack-o'-Lantern",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Mesmeric Fiend",
+            "card_type": "ISCREA"
+          }
+        }
+      ],
+      "wins": {
+        "loginplayeventcourseid": "35543541",
+        "wins": "5",
+        "losses": "0"
+      },
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "archetype": "Spy"
     }
   ]
 }

@@ -2,19 +2,19 @@
   "archetype": "Dredge",
   "slug": "dredge",
   "stats": {
-    "total_entries": 202,
-    "league_entries": 93,
-    "league_trophies": 93,
-    "league_trophies_yearly": 30,
+    "total_entries": 203,
+    "league_entries": 94,
+    "league_trophies": 94,
+    "league_trophies_yearly": 31,
     "challenge_appearances": 95,
     "challenge_wins": 394,
     "challenge_losses": 227,
     "irl_top8": 8,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 35,
-    "league_trophy_rank_alltime": 33,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_rank_yearly": 33,
+    "league_trophy_rank_alltime": 32,
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -31,6 +31,21 @@
       "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-15",
+      "player": "AlessandroPiraccini",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-0110855",
@@ -410,23 +425,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-0512834483",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-05",
-      "player": "seasonofmists",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [

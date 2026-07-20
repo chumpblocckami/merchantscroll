@@ -2,19 +2,19 @@
   "archetype": "Jeskai",
   "slug": "jeskai",
   "stats": {
-    "total_entries": 325,
-    "league_entries": 185,
-    "league_trophies": 185,
-    "league_trophies_yearly": 121,
+    "total_entries": 334,
+    "league_entries": 194,
+    "league_trophies": 194,
+    "league_trophies_yearly": 130,
     "challenge_appearances": 124,
     "challenge_wins": 515,
     "challenge_losses": 303,
     "irl_top8": 9,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 15,
-    "league_trophy_rank_alltime": 20,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_rank_yearly": 13,
+    "league_trophy_rank_alltime": 19,
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -22,6 +22,21 @@
       "tournament": "Pauper League",
       "date": "2026-07-20",
       "player": "taravangian_",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-20",
+      "player": "vikizin",
       "colors": [
         "R",
         "U",
@@ -46,6 +61,22 @@
       "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-18",
+      "player": "Life_from_the_Loam",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1812847695",
@@ -84,6 +115,22 @@
       "date": "2026-07-17",
       "player": "Alex2109",
       "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-17",
+      "player": "AurellHarmonics",
+      "colors": [
+        "B",
         "R",
         "U",
         "W"
@@ -160,9 +207,55 @@
       "site_name": "pauper-league-2026-07-1610855",
       "tournament": "Pauper League",
       "date": "2026-07-16",
+      "player": "Jace_MTG",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-16",
+      "player": "AurellHarmonics",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-16",
       "player": "vikizin",
       "colors": [
         "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-16",
+      "player": "bafusVIII",
+      "colors": [
         "R",
         "U",
         "W"
@@ -207,7 +300,37 @@
       "site_name": "pauper-league-2026-07-1510855",
       "tournament": "Pauper League",
       "date": "2026-07-15",
+      "player": "evening_child",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-15",
       "player": "Ben_Matocha",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-15",
+      "player": "bafusVIII",
       "colors": [
         "R",
         "U",
@@ -278,131 +401,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1310855",
-      "tournament": "Pauper League",
-      "date": "2026-07-13",
-      "player": "vikizin",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1310855",
-      "tournament": "Pauper League",
-      "date": "2026-07-13",
-      "player": "TonyBerts",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1310855",
-      "tournament": "Pauper League",
-      "date": "2026-07-13",
-      "player": "evening_child",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-12",
-      "player": "Acecalna",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1212847145",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-12",
-      "player": "Cheiffireball",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1212847145",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-12",
-      "player": "Acecalna",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 28,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-11",
-      "player": "Ben_Matocha",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1112847128",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-11",
-      "player": "daifuku",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "8-1",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -415,11 +413,11 @@
       "count": 23
     },
     {
-      "player": "TSPJendrek",
-      "count": 17
+      "player": "vikizin",
+      "count": 18
     },
     {
-      "player": "vikizin",
+      "player": "TSPJendrek",
       "count": 17
     },
     {
@@ -432,7 +430,7 @@
     },
     {
       "player": "Jace_MTG",
-      "count": 8
+      "count": 9
     },
     {
       "player": "DarkPattaman",
