@@ -3,17 +3,17 @@
   "display_name": "seasonofmists",
   "irl_name": null,
   "stats": {
-    "total_entries": 73,
+    "total_entries": 74,
     "league_trophies": 4,
     "league_trophies_yearly": 0,
-    "challenge_wins": 328,
-    "challenge_losses": 140,
+    "challenge_wins": 332,
+    "challenge_losses": 143,
     "irl_top8": 0,
     "challenge_win_pct": 70,
     "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 644,
-    "league_trophy_players_yearly": 1326,
-    "league_trophy_players_alltime": 2041
+    "league_trophy_rank_alltime": 645,
+    "league_trophy_players_yearly": 1329,
+    "league_trophy_players_alltime": 2042
   },
   "favorite_decks": [
     {
@@ -39,9 +39,28 @@
     {
       "archetype": "Affinity",
       "count": 1
+    },
+    {
+      "archetype": "UB Faeries",
+      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-1912847712",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-19",
+      "player": "seasonofmists",
+      "archetype": "UB Faeries",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 19,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1712847682",
       "tournament": "Pauper Challenge 32",
@@ -449,24 +468,6 @@
       ],
       "record": "4-3",
       "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-0512834483",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-05",
-      "player": "seasonofmists",
-      "archetype": "Dredge",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
     }

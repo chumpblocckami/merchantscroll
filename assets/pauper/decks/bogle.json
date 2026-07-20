@@ -2,21 +2,36 @@
   "archetype": "Bogle",
   "slug": "bogle",
   "stats": {
-    "total_entries": 247,
-    "league_entries": 100,
-    "league_trophies": 100,
-    "league_trophies_yearly": 29,
+    "total_entries": 248,
+    "league_entries": 101,
+    "league_trophies": 101,
+    "league_trophies_yearly": 30,
     "challenge_appearances": 141,
     "challenge_wins": 560,
     "challenge_losses": 364,
     "irl_top8": 2,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 35,
-    "league_trophy_rank_alltime": 29,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_rank_yearly": 34,
+    "league_trophy_rank_alltime": 30,
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-20",
+      "player": "SpikeYou",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-1810855",
       "tournament": "Pauper League",
@@ -411,22 +426,6 @@
       "final_rank": 22,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2810855",
-      "tournament": "Pauper League",
-      "date": "2026-06-28",
-      "player": "rbsmpt",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [

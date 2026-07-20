@@ -3,17 +3,17 @@
   "display_name": "John1111",
   "irl_name": null,
   "stats": {
-    "total_entries": 27,
+    "total_entries": 28,
     "league_trophies": 1,
     "league_trophies_yearly": 1,
-    "challenge_wins": 91,
-    "challenge_losses": 65,
+    "challenge_wins": 99,
+    "challenge_losses": 67,
     "irl_top8": 0,
-    "challenge_win_pct": 58,
-    "league_trophy_rank_yearly": 998,
-    "league_trophy_rank_alltime": 1603,
-    "league_trophy_players_yearly": 1326,
-    "league_trophy_players_alltime": 2041
+    "challenge_win_pct": 60,
+    "league_trophy_rank_yearly": 1004,
+    "league_trophy_rank_alltime": 1606,
+    "league_trophy_players_yearly": 1329,
+    "league_trophy_players_alltime": 2042
   },
   "favorite_decks": [
     {
@@ -26,6 +26,10 @@
     },
     {
       "archetype": "Ponza",
+      "count": 3
+    },
+    {
+      "archetype": "Naya Gates",
       "count": 3
     },
     {
@@ -49,15 +53,29 @@
       "count": 2
     },
     {
-      "archetype": "Naya Gates",
-      "count": 2
-    },
-    {
       "archetype": "Pingers",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-1912847712",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-19",
+      "player": "John1111",
+      "archetype": "Naya Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "8-2",
+      "final_rank": 2,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1212847145",
       "tournament": "Pauper Challenge 32",
@@ -425,21 +443,6 @@
       ],
       "record": "4-2",
       "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-06-2212798189",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-06-22",
-      "player": "John1111",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-3",
-      "final_rank": 7,
       "source": "mtgo",
       "type": "challenge"
     }

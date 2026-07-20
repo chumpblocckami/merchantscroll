@@ -2,21 +2,35 @@
   "archetype": "Temur Control",
   "slug": "temur-control",
   "stats": {
-    "total_entries": 13,
+    "total_entries": 14,
     "league_entries": 4,
     "league_trophies": 4,
     "league_trophies_yearly": 4,
-    "challenge_appearances": 7,
-    "challenge_wins": 28,
-    "challenge_losses": 18,
+    "challenge_appearances": 8,
+    "challenge_wins": 31,
+    "challenge_losses": 22,
     "irl_top8": 2,
-    "challenge_win_pct": 61,
+    "challenge_win_pct": 58,
     "league_trophy_rank_yearly": 55,
     "league_trophy_rank_alltime": 63,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-1912847712",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-19",
+      "player": "DeviousPenguin666",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "3-4",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-1010855",
       "tournament": "Pauper League",
@@ -245,11 +259,11 @@
       "count": 1
     },
     {
-      "player": "firstshot",
+      "player": "DeviousPenguin666",
       "count": 1
     },
     {
-      "player": "Marcello Baccolini",
+      "player": "firstshot",
       "count": 1
     }
   ]

@@ -3,22 +3,26 @@
   "display_name": "groot02",
   "irl_name": null,
   "stats": {
-    "total_entries": 4,
+    "total_entries": 5,
     "league_trophies": 1,
     "league_trophies_yearly": 1,
-    "challenge_wins": 3,
-    "challenge_losses": 3,
+    "challenge_wins": 7,
+    "challenge_losses": 6,
     "irl_top8": 0,
-    "challenge_win_pct": 50,
-    "league_trophy_rank_yearly": 951,
-    "league_trophy_rank_alltime": 1537,
-    "league_trophy_players_yearly": 1326,
-    "league_trophy_players_alltime": 2041
+    "challenge_win_pct": 54,
+    "league_trophy_rank_yearly": 958,
+    "league_trophy_rank_alltime": 1541,
+    "league_trophy_players_yearly": 1329,
+    "league_trophy_players_alltime": 2042
   },
   "favorite_decks": [
     {
       "archetype": "Cawgate",
       "count": 2
+    },
+    {
+      "archetype": "Naya Gates",
+      "count": 1
     },
     {
       "archetype": "BW Refurbished",
@@ -30,6 +34,24 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-1912847712",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-19",
+      "player": "groot02",
+      "archetype": "Naya Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-3",
+      "final_rank": 21,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-02-0310196",
       "tournament": "pauper-league-2026-02-0310196",

@@ -3,17 +3,17 @@
   "display_name": "SpikeYou",
   "irl_name": null,
   "stats": {
-    "total_entries": 42,
-    "league_trophies": 18,
-    "league_trophies_yearly": 8,
+    "total_entries": 44,
+    "league_trophies": 20,
+    "league_trophies_yearly": 10,
     "challenge_wins": 88,
     "challenge_losses": 59,
     "irl_top8": 0,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 133,
-    "league_trophy_rank_alltime": 116,
-    "league_trophy_players_yearly": 1326,
-    "league_trophy_players_alltime": 2041
+    "league_trophy_rank_yearly": 98,
+    "league_trophy_rank_alltime": 98,
+    "league_trophy_players_yearly": 1329,
+    "league_trophy_players_alltime": 2042
   },
   "favorite_decks": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "archetype": "Elves",
-      "count": 9
+      "count": 10
     },
     {
       "archetype": "Flicker Tron",
@@ -45,19 +45,52 @@
       "count": 2
     },
     {
+      "archetype": "Bogle",
+      "count": 2
+    },
+    {
       "archetype": "UB Terror",
       "count": 2
     },
     {
       "archetype": "W Heroic",
       "count": 1
-    },
-    {
-      "archetype": "Bogle",
-      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-20",
+      "player": "SpikeYou",
+      "archetype": "Bogle",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-19",
+      "player": "SpikeYou",
+      "archetype": "Elves",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0512846504",
       "tournament": "Pauper Challenge 32",
@@ -425,38 +458,6 @@
       ],
       "record": "2-4",
       "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-11-279987",
-      "tournament": "pauper-league-2025-11-279987",
-      "date": "2025-11-27",
-      "player": "SpikeYou",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-11-1612824440",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-11-16",
-      "player": "SpikeYou",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-2",
-      "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
     }
