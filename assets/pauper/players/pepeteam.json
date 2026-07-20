@@ -3,7 +3,7 @@
   "display_name": "pepeteam",
   "irl_name": null,
   "stats": {
-    "total_entries": 30,
+    "total_entries": 31,
     "league_trophies": 0,
     "league_trophies_yearly": 0,
     "challenge_wins": 126,
@@ -26,7 +26,7 @@
     },
     {
       "archetype": "Jeskai",
-      "count": 3
+      "count": 4
     },
     {
       "archetype": "BW Refurbished",
@@ -42,6 +42,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-last-chance-2026-07-2012847724",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-20",
+      "player": "pepeteam",
+      "archetype": "Jeskai",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "0-1",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2012844856",
       "tournament": "Pauper Challenge 32",
@@ -404,22 +420,6 @@
       ],
       "record": "3-3",
       "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-08-0212806307",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-08-02",
-      "player": "pepeteam",
-      "archetype": "Elves",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
     }
