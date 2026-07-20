@@ -2,10 +2,10 @@
   "archetype": "Altar",
   "slug": "altar",
   "stats": {
-    "total_entries": 99,
-    "league_entries": 65,
-    "league_trophies": 65,
-    "league_trophies_yearly": 25,
+    "total_entries": 100,
+    "league_entries": 66,
+    "league_trophies": 66,
+    "league_trophies_yearly": 26,
     "challenge_appearances": 30,
     "challenge_wins": 114,
     "challenge_losses": 79,
@@ -22,6 +22,22 @@
       "tournament": "Pauper League",
       "date": "2026-07-20",
       "player": "Enz091",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-20",
+      "player": "TuggaNaxos",
       "colors": [
         "B",
         "G",
@@ -397,22 +413,6 @@
         "B",
         "G",
         "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-1310636",
-      "tournament": "Pauper League",
-      "date": "2026-05-13",
-      "player": "Huskyman20035",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
       ],
       "record": "5-0",
       "final_rank": null,
