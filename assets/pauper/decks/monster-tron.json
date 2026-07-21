@@ -2,10 +2,10 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 57,
-    "league_entries": 18,
-    "league_trophies": 18,
-    "league_trophies_yearly": 18,
+    "total_entries": 58,
+    "league_entries": 19,
+    "league_trophies": 19,
+    "league_trophies_yearly": 19,
     "challenge_appearances": 35,
     "challenge_wins": 144,
     "challenge_losses": 95,
@@ -22,6 +22,22 @@
       "tournament": "Pauper League",
       "date": "2026-07-21",
       "player": "lucotto",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-21",
+      "player": "brick_",
       "colors": [
         "G",
         "R",
@@ -369,20 +385,6 @@
       "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-showcase-challenge-2026-07-0512846446",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2026-07-05",
-      "player": "Tsubasa_Cat",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "6-3",
-      "final_rank": 25,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -419,12 +421,12 @@
       "count": 2
     },
     {
-      "player": "karatedom",
+      "player": "brick_",
       "count": 2
     },
     {
-      "player": "Tsubasa_Cat",
-      "count": 1
+      "player": "karatedom",
+      "count": 2
     }
   ]
 }

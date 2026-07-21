@@ -2,10 +2,10 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 1147,
-    "league_entries": 626,
-    "league_trophies": 626,
-    "league_trophies_yearly": 286,
+    "total_entries": 1148,
+    "league_entries": 627,
+    "league_trophies": 627,
+    "league_trophies_yearly": 287,
     "challenge_appearances": 469,
     "challenge_wins": 1811,
     "challenge_losses": 1200,
@@ -22,6 +22,20 @@
       "tournament": "Pauper League",
       "date": "2026-07-21",
       "player": "Legocop80",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-21",
+      "player": "GilbertoAntunes",
       "colors": [
         "G",
         "R"
@@ -352,20 +366,6 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-18",
-      "player": "Elios33_",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -383,7 +383,7 @@
     },
     {
       "player": "GilbertoAntunes",
-      "count": 37
+      "count": 38
     },
     {
       "player": "Niederschatten",

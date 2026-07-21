@@ -2,10 +2,10 @@
   "archetype": "Affinity",
   "slug": "affinity",
   "stats": {
-    "total_entries": 970,
-    "league_entries": 380,
-    "league_trophies": 380,
-    "league_trophies_yearly": 223,
+    "total_entries": 971,
+    "league_entries": 381,
+    "league_trophies": 381,
+    "league_trophies_yearly": 224,
     "challenge_appearances": 518,
     "challenge_wins": 2144,
     "challenge_losses": 1295,
@@ -36,6 +36,21 @@
       "tournament": "Pauper League",
       "date": "2026-07-21",
       "player": "RotyBoty",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-21",
+      "player": "Mirozel1",
       "colors": [
         "B",
         "R",
@@ -372,21 +387,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1212847145",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-12",
-      "player": "Heterodox",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-2",
-      "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [

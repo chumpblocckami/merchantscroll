@@ -2,10 +2,10 @@
   "archetype": "UB Faeries",
   "slug": "ub-faeries",
   "stats": {
-    "total_entries": 638,
-    "league_entries": 331,
-    "league_trophies": 331,
-    "league_trophies_yearly": 203,
+    "total_entries": 639,
+    "league_entries": 332,
+    "league_trophies": 332,
+    "league_trophies_yearly": 204,
     "challenge_appearances": 279,
     "challenge_wins": 1152,
     "challenge_losses": 706,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-21",
+      "player": "barff",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-last-chance-2026-07-2112847730",
       "tournament": "Pauper Last Chance",
@@ -353,26 +367,12 @@
       "final_rank": 19,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1612847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "Triso",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "2-3",
-      "final_rank": 22,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "barff",
-      "count": 107
+      "count": 108
     },
     {
       "player": "Purgatory_01",

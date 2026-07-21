@@ -2,10 +2,10 @@
   "archetype": "U Terror",
   "slug": "u-terror",
   "stats": {
-    "total_entries": 1757,
-    "league_entries": 815,
-    "league_trophies": 815,
-    "league_trophies_yearly": 340,
+    "total_entries": 1758,
+    "league_entries": 816,
+    "league_trophies": 816,
+    "league_trophies_yearly": 341,
     "challenge_appearances": 833,
     "challenge_wins": 3434,
     "challenge_losses": 2062,
@@ -37,6 +37,21 @@
       "date": "2026-07-21",
       "player": "Paul16",
       "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-21",
+      "player": "carvs",
+      "colors": [
+        "B",
         "R",
         "U"
       ],
@@ -352,20 +367,6 @@
       "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1512847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "Luminati",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 9,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -383,7 +384,7 @@
     },
     {
       "player": "carvs",
-      "count": 65
+      "count": 66
     },
     {
       "player": "fsst",
