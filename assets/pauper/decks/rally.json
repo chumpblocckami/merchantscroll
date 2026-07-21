@@ -2,10 +2,10 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 1148,
-    "league_entries": 627,
-    "league_trophies": 627,
-    "league_trophies_yearly": 287,
+    "total_entries": 1151,
+    "league_entries": 630,
+    "league_trophies": 630,
+    "league_trophies_yearly": 290,
     "challenge_appearances": 469,
     "challenge_wins": 1811,
     "challenge_losses": 1200,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 3,
     "league_trophy_rank_alltime": 3,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -36,6 +36,20 @@
       "tournament": "Pauper League",
       "date": "2026-07-21",
       "player": "GilbertoAntunes",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-21",
+      "player": "davidbrito",
       "colors": [
         "G",
         "R"
@@ -274,6 +288,32 @@
       "site_name": "pauper-league-2026-07-2010855",
       "tournament": "Pauper League",
       "date": "2026-07-20",
+      "player": "2krewlop",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-20",
+      "player": "2krewlop",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-20",
       "player": "fatalgek",
       "colors": [
         "G",
@@ -322,48 +362,6 @@
       ],
       "record": "6-2",
       "final_rank": 6,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1912847712",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-19",
-      "player": "boom_bust",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-2",
-      "final_rank": 14,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1912847712",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-19",
-      "player": "PedraStone",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-3",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1912847712",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-19",
-      "player": "Ipnotico86",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
     }

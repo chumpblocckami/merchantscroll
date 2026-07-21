@@ -3,16 +3,16 @@
   "display_name": "Walker735",
   "irl_name": "Paolo Donfrancesco",
   "stats": {
-    "total_entries": 94,
-    "league_trophies": 18,
-    "league_trophies_yearly": 2,
+    "total_entries": 95,
+    "league_trophies": 19,
+    "league_trophies_yearly": 3,
     "challenge_wins": 319,
     "challenge_losses": 155,
     "irl_top8": 5,
     "challenge_win_pct": 67,
-    "league_trophy_rank_yearly": 726,
-    "league_trophy_rank_alltime": 121,
-    "league_trophy_players_yearly": 1334,
+    "league_trophy_rank_yearly": 487,
+    "league_trophy_rank_alltime": 106,
+    "league_trophy_players_yearly": 1335,
     "league_trophy_players_alltime": 2047
   },
   "favorite_decks": [
@@ -37,6 +37,10 @@
       "count": 2
     },
     {
+      "archetype": "Affinity",
+      "count": 2
+    },
+    {
       "archetype": "GRW",
       "count": 2
     },
@@ -51,13 +55,25 @@
     {
       "archetype": "Altar",
       "count": 1
-    },
-    {
-      "archetype": "GW Gates",
-      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-21",
+      "player": "Walker735",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-last-chance-2026-07-2112847730",
       "tournament": "Pauper Last Chance",
@@ -432,22 +448,6 @@
       "final_rank": 5,
       "source": "pauperwave",
       "type": "irl"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-0312841375",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-03",
-      "player": "Walker735",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 9,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }
