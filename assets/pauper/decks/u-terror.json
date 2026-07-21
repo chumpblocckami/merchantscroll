@@ -2,10 +2,10 @@
   "archetype": "U Terror",
   "slug": "u-terror",
   "stats": {
-    "total_entries": 1750,
-    "league_entries": 813,
-    "league_trophies": 813,
-    "league_trophies_yearly": 338,
+    "total_entries": 1751,
+    "league_entries": 814,
+    "league_trophies": 814,
+    "league_trophies_yearly": 339,
     "challenge_appearances": 833,
     "challenge_wins": 3434,
     "challenge_losses": 2062,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-21",
+      "player": "kozilex72",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-1910855",
       "tournament": "Pauper League",
@@ -350,20 +364,6 @@
       ],
       "record": "2-3",
       "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1612847678",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-16",
-      "player": "outZEROo",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
     }

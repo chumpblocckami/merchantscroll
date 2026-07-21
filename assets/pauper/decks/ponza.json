@@ -2,10 +2,10 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 190,
-    "league_entries": 81,
-    "league_trophies": 81,
-    "league_trophies_yearly": 53,
+    "total_entries": 189,
+    "league_entries": 80,
+    "league_trophies": 80,
+    "league_trophies_yearly": 52,
     "challenge_appearances": 99,
     "challenge_wins": 345,
     "challenge_losses": 251,
@@ -30,20 +30,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-20",
-      "player": "19LNC91",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-1910855",
@@ -355,6 +341,20 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0912847113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-10",
+      "player": "kaikas",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "7-2",
+      "final_rank": 2,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1012847113",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-10",
       "player": "kaikas",

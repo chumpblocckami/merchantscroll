@@ -2,10 +2,10 @@
   "archetype": "Spy",
   "slug": "spy",
   "stats": {
-    "total_entries": 722,
-    "league_entries": 457,
-    "league_trophies": 457,
-    "league_trophies_yearly": 179,
+    "total_entries": 723,
+    "league_entries": 458,
+    "league_trophies": 458,
+    "league_trophies_yearly": 180,
     "challenge_appearances": 219,
     "challenge_wins": 886,
     "challenge_losses": 552,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-21",
+      "player": "SambucoDeCulo",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-last-chance-2026-07-2012847724",
       "tournament": "Pauper Last Chance",
@@ -376,21 +391,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0812846623",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-08",
-      "player": "medvedev",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
