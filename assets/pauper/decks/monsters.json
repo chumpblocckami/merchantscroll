@@ -2,10 +2,10 @@
   "archetype": "Monsters",
   "slug": "monsters",
   "stats": {
-    "total_entries": 381,
-    "league_entries": 218,
-    "league_trophies": 218,
-    "league_trophies_yearly": 73,
+    "total_entries": 382,
+    "league_entries": 219,
+    "league_trophies": 219,
+    "league_trophies_yearly": 74,
     "challenge_appearances": 138,
     "challenge_wins": 498,
     "challenge_losses": 366,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-21",
+      "player": "PrimoShow1",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-2010855",
       "tournament": "Pauper League",
@@ -364,26 +378,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0512843783",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-05",
-      "player": "PrimoShow1",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "PrimoShow1",
-      "count": 38
+      "count": 39
     },
     {
       "player": "Broa",

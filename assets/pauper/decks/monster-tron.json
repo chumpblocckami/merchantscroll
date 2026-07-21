@@ -2,17 +2,17 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 60,
-    "league_entries": 22,
-    "league_trophies": 22,
-    "league_trophies_yearly": 22,
+    "total_entries": 57,
+    "league_entries": 19,
+    "league_trophies": 19,
+    "league_trophies_yearly": 19,
     "challenge_appearances": 35,
     "challenge_wins": 144,
     "challenge_losses": 95,
     "irl_top8": 2,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 37,
-    "league_trophy_rank_alltime": 47,
+    "league_trophy_rank_yearly": 41,
+    "league_trophy_rank_alltime": 48,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
@@ -35,7 +35,7 @@
       "site_name": "pauper-league-2026-07-2010855",
       "tournament": "Pauper League",
       "date": "2026-07-20",
-      "player": "Enz091",
+      "player": "A_AdeptoTerra",
       "colors": [
         "B",
         "G",
@@ -51,12 +51,12 @@
       "site_name": "pauper-league-2026-07-2010855",
       "tournament": "Pauper League",
       "date": "2026-07-20",
-      "player": "TuggaNaxos",
+      "player": "CrilaPeoty",
       "colors": [
-        "B",
         "G",
         "R",
-        "U"
+        "U",
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -91,54 +91,6 @@
       "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-18",
-      "player": "Huskyman20035",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1610855",
-      "tournament": "Pauper League",
-      "date": "2026-07-16",
-      "player": "qwertyelmer",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1610855",
-      "tournament": "Pauper League",
-      "date": "2026-07-16",
-      "player": "briera96",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-1610855",
@@ -391,6 +343,48 @@
       ],
       "record": "3-3",
       "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-09",
+      "player": "fabiosturm",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-showcase-challenge-2026-07-0512846446",
+      "tournament": "Pauper Showcase Challenge",
+      "date": "2026-07-05",
+      "player": "Valimoth",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "7-2",
+      "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-showcase-challenge-2026-07-0512846446",
+      "tournament": "Pauper Showcase Challenge",
+      "date": "2026-07-05",
+      "player": "Tsubasa_Cat",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "6-3",
+      "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
     }
