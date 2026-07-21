@@ -2,10 +2,10 @@
   "archetype": "R Madness",
   "slug": "r-madness",
   "stats": {
-    "total_entries": 1985,
-    "league_entries": 1123,
-    "league_trophies": 1123,
-    "league_trophies_yearly": 551,
+    "total_entries": 1984,
+    "league_entries": 1122,
+    "league_trophies": 1122,
+    "league_trophies_yearly": 550,
     "challenge_appearances": 755,
     "challenge_wins": 2978,
     "challenge_losses": 1910,
@@ -151,21 +151,6 @@
       "final_rank": 22,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-18",
-      "player": "xMatias",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1812847695",
@@ -389,6 +374,21 @@
       ],
       "record": "6-2",
       "final_rank": 4,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1512847682",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-17",
+      "player": "GzusReturned",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
     }
