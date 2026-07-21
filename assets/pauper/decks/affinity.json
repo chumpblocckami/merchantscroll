@@ -2,7 +2,7 @@
   "archetype": "Affinity",
   "slug": "affinity",
   "stats": {
-    "total_entries": 969,
+    "total_entries": 970,
     "league_entries": 380,
     "league_trophies": 380,
     "league_trophies_yearly": 223,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 6,
     "league_trophy_rank_alltime": 8,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -45,6 +45,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2112847730",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "GigaChadSigmaMale",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "3-2",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
     },
     {
       "site_name": "pauper-league-2026-07-1910855",
@@ -371,21 +385,6 @@
       ],
       "record": "3-2",
       "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1212847145",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-12",
-      "player": "MyongKong",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
     }

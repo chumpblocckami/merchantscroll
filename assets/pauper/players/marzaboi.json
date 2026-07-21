@@ -3,7 +3,7 @@
   "display_name": "marzaboi",
   "irl_name": null,
   "stats": {
-    "total_entries": 61,
+    "total_entries": 62,
     "league_trophies": 18,
     "league_trophies_yearly": 7,
     "challenge_wins": 173,
@@ -22,7 +22,7 @@
     },
     {
       "archetype": "Naya Gates",
-      "count": 9
+      "count": 10
     },
     {
       "archetype": "White Weenie",
@@ -50,6 +50,23 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-last-chance-2026-07-2112847730",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "marzaboi",
+      "archetype": "Naya Gates",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-1",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
     {
       "site_name": "pauper-league-2026-07-0610855",
       "tournament": "Pauper League",
@@ -466,24 +483,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-01-0812829339",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-08",
-      "player": "marzaboi",
-      "archetype": "Dredge",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

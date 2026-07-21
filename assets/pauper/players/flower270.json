@@ -3,7 +3,7 @@
   "display_name": "flower270",
   "irl_name": null,
   "stats": {
-    "total_entries": 65,
+    "total_entries": 66,
     "league_trophies": 53,
     "league_trophies_yearly": 31,
     "challenge_wins": 56,
@@ -18,7 +18,7 @@
   "favorite_decks": [
     {
       "archetype": "U Terror",
-      "count": 32
+      "count": 33
     },
     {
       "archetype": "Jund",
@@ -58,6 +58,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-last-chance-2026-07-2112847730",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "flower270",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "3-2",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
     {
       "site_name": "pauper-league-2026-07-1610855",
       "tournament": "Pauper League",
@@ -423,21 +438,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-1812839685",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-18",
-      "player": "flower270",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-2",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

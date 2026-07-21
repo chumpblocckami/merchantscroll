@@ -3,7 +3,7 @@
   "display_name": "PedraStone",
   "irl_name": null,
   "stats": {
-    "total_entries": 77,
+    "total_entries": 78,
     "league_trophies": 0,
     "league_trophies_yearly": 0,
     "challenge_wins": 312,
@@ -26,7 +26,7 @@
     },
     {
       "archetype": "Rally",
-      "count": 14
+      "count": 15
     },
     {
       "archetype": "R Madness",
@@ -58,6 +58,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-last-chance-2026-07-2112847730",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "PedraStone",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-1",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1912847712",
       "tournament": "Pauper Challenge 32",
@@ -429,23 +444,6 @@
       ],
       "record": "8-1",
       "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-0512834483",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-05",
-      "player": "PedraStone",
-      "archetype": "Bogle",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "2-4",
-      "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
     }

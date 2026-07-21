@@ -3,7 +3,7 @@
   "display_name": "Drugo",
   "irl_name": null,
   "stats": {
-    "total_entries": 36,
+    "total_entries": 37,
     "league_trophies": 11,
     "league_trophies_yearly": 9,
     "challenge_wins": 104,
@@ -18,7 +18,7 @@
   "favorite_decks": [
     {
       "archetype": "UB Terror",
-      "count": 15
+      "count": 16
     },
     {
       "archetype": "Spy",
@@ -58,6 +58,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-last-chance-2026-07-2112847730",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "Drugo",
+      "archetype": "UB Terror",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
     {
       "site_name": "pauper-league-2026-07-1910855",
       "tournament": "Pauper League",
@@ -441,21 +457,6 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-12-1212826861",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-12-12",
-      "player": "Drugo",
-      "archetype": "BW Refurbished",
-      "colors": [
-        "B",
-        "W"
-      ],
-      "record": "6-2",
-      "final_rank": 3,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

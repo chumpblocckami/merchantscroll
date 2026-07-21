@@ -3,15 +3,15 @@
   "display_name": "Antillectual",
   "irl_name": null,
   "stats": {
-    "total_entries": 28,
-    "league_trophies": 27,
-    "league_trophies_yearly": 12,
+    "total_entries": 29,
+    "league_trophies": 28,
+    "league_trophies_yearly": 13,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 76,
-    "league_trophy_rank_alltime": 56,
+    "league_trophy_rank_yearly": 67,
+    "league_trophy_rank_alltime": 53,
     "league_trophy_players_yearly": 1333,
     "league_trophy_players_alltime": 2046
   },
@@ -41,6 +41,10 @@
       "count": 2
     },
     {
+      "archetype": "Familiars",
+      "count": 2
+    },
+    {
       "archetype": "Jund",
       "count": 2
     },
@@ -51,13 +55,24 @@
     {
       "archetype": "UR Control",
       "count": 1
-    },
-    {
-      "archetype": "UB Control",
-      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-21",
+      "player": "Antillectual",
+      "archetype": "Familiars",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-1610636",
       "tournament": "Pauper League",
@@ -446,21 +461,6 @@
       "final_rank": 31,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-league-2025-05-109081",
-      "tournament": "pauper-league-2025-05-109081",
-      "date": "2025-05-10",
-      "player": "Antillectual",
-      "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }
