@@ -2,7 +2,7 @@
   "archetype": "BR Affinity",
   "slug": "br-affinity",
   "stats": {
-    "total_entries": 32,
+    "total_entries": 33,
     "league_entries": 10,
     "league_trophies": 10,
     "league_trophies_yearly": 10,
@@ -30,6 +30,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2112847730",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "manohito",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "2-3",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
     },
     {
       "site_name": "pauper-league-2026-07-1310855",
@@ -371,21 +386,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2012844856",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-20",
-      "player": "AlessandroPiraccini",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-2",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -406,6 +406,10 @@
       "count": 3
     },
     {
+      "player": "manohito",
+      "count": 3
+    },
+    {
       "player": "qbturtle15",
       "count": 3
     },
@@ -415,10 +419,6 @@
     },
     {
       "player": "Thn",
-      "count": 2
-    },
-    {
-      "player": "manohito",
       "count": 2
     },
     {

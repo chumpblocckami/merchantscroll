@@ -2,10 +2,10 @@
   "archetype": "R Madness",
   "slug": "r-madness",
   "stats": {
-    "total_entries": 1988,
-    "league_entries": 1124,
-    "league_trophies": 1124,
-    "league_trophies_yearly": 552,
+    "total_entries": 1989,
+    "league_entries": 1125,
+    "league_trophies": 1125,
+    "league_trophies_yearly": 553,
     "challenge_appearances": 755,
     "challenge_wins": 2978,
     "challenge_losses": 1910,
@@ -22,6 +22,21 @@
       "tournament": "Pauper League",
       "date": "2026-07-21",
       "player": "hyuma",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-21",
+      "player": "Maxipk",
       "colors": [
         "B",
         "R",
@@ -374,21 +389,6 @@
       ],
       "record": "6-2",
       "final_rank": 4,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1612847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "GzusReturned",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
     }
