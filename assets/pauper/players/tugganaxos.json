@@ -3,17 +3,17 @@
   "display_name": "TuggaNaxos",
   "irl_name": null,
   "stats": {
-    "total_entries": 27,
-    "league_trophies": 17,
-    "league_trophies_yearly": 13,
+    "total_entries": 28,
+    "league_trophies": 18,
+    "league_trophies_yearly": 14,
     "challenge_wins": 38,
     "challenge_losses": 16,
     "irl_top8": 0,
     "challenge_win_pct": 70,
-    "league_trophy_rank_yearly": 74,
-    "league_trophy_rank_alltime": 128,
-    "league_trophy_players_yearly": 1329,
-    "league_trophy_players_alltime": 2043
+    "league_trophy_rank_yearly": 60,
+    "league_trophy_rank_alltime": 118,
+    "league_trophy_players_yearly": 1333,
+    "league_trophy_players_alltime": 2046
   },
   "favorite_decks": [
     {
@@ -41,6 +41,10 @@
       "count": 1
     },
     {
+      "archetype": "Naya Gates",
+      "count": 1
+    },
+    {
       "archetype": "Affinity",
       "count": 1
     },
@@ -49,11 +53,7 @@
       "count": 1
     },
     {
-      "archetype": "Altar",
-      "count": 1
-    },
-    {
-      "archetype": "Food Pestilence",
+      "archetype": "Monster Tron",
       "count": 1
     }
   ],
@@ -63,12 +63,30 @@
       "tournament": "Pauper League",
       "date": "2026-07-20",
       "player": "TuggaNaxos",
-      "archetype": "Altar",
+      "archetype": "Monster Tron",
       "colors": [
         "B",
         "G",
         "R",
         "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-18",
+      "player": "TuggaNaxos",
+      "archetype": "Naya Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -430,20 +448,6 @@
       "colors": [
         "B",
         "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-06-069081",
-      "tournament": "pauper-league-2025-06-069081",
-      "date": "2025-06-06",
-      "player": "TuggaNaxos",
-      "archetype": "Gardens",
-      "colors": [
-        "B"
       ],
       "record": "5-0",
       "final_rank": null,

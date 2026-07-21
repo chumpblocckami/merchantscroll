@@ -2,10 +2,10 @@
   "archetype": "Familiars",
   "slug": "familiars",
   "stats": {
-    "total_entries": 294,
-    "league_entries": 167,
-    "league_trophies": 167,
-    "league_trophies_yearly": 80,
+    "total_entries": 293,
+    "league_entries": 166,
+    "league_trophies": 166,
+    "league_trophies_yearly": 79,
     "challenge_appearances": 102,
     "challenge_wins": 421,
     "challenge_losses": 254,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 22,
     "league_trophy_rank_alltime": 22,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -50,21 +50,6 @@
       "tournament": "Pauper League",
       "date": "2026-07-16",
       "player": "ChaoticMTG",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-15",
-      "player": "evening_child",
       "colors": [
         "R",
         "U",
@@ -369,6 +354,20 @@
       "final_rank": 22,
       "source": "mtgo",
       "type": "other"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2612845653",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-26",
+      "player": "ChaoticMTG",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "7-1",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [

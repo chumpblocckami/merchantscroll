@@ -2,10 +2,10 @@
   "archetype": "Spy",
   "slug": "spy",
   "stats": {
-    "total_entries": 720,
-    "league_entries": 455,
-    "league_trophies": 455,
-    "league_trophies_yearly": 177,
+    "total_entries": 722,
+    "league_entries": 457,
+    "league_trophies": 457,
+    "league_trophies_yearly": 179,
     "challenge_appearances": 219,
     "challenge_wins": 886,
     "challenge_losses": 552,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 8,
     "league_trophy_rank_alltime": 6,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -52,6 +52,21 @@
       "tournament": "Pauper League",
       "date": "2026-07-20",
       "player": "brummett",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-18",
+      "player": "StonyHandz",
       "colors": [
         "B",
         "G",
@@ -142,6 +157,21 @@
       "tournament": "Pauper League",
       "date": "2026-07-15",
       "player": "kokoko098",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-15",
+      "player": "AlessandroPiraccini",
       "colors": [
         "B",
         "G",
@@ -361,35 +391,6 @@
       "final_rank": 13,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0612846623",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-08",
-      "player": "medvedev",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0610855",
-      "tournament": "Pauper League",
-      "date": "2026-07-06",
-      "player": "StonyHandz",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -402,11 +403,11 @@
       "count": 26
     },
     {
-      "player": "3vildr4k3",
-      "count": 15
+      "player": "AlessandroPiraccini",
+      "count": 16
     },
     {
-      "player": "AlessandroPiraccini",
+      "player": "3vildr4k3",
       "count": 15
     },
     {
