@@ -2,21 +2,80 @@
   "archetype": "BR Affinity",
   "slug": "br-affinity",
   "stats": {
-    "total_entries": 33,
-    "league_entries": 10,
-    "league_trophies": 10,
-    "league_trophies_yearly": 10,
+    "total_entries": 38,
+    "league_entries": 14,
+    "league_trophies": 14,
+    "league_trophies_yearly": 14,
     "challenge_appearances": 19,
     "challenge_wins": 63,
     "challenge_losses": 56,
     "irl_top8": 2,
     "challenge_win_pct": 53,
-    "league_trophy_rank_yearly": 49,
-    "league_trophy_rank_alltime": 54,
+    "league_trophy_rank_yearly": 45,
+    "league_trophy_rank_alltime": 50,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-22",
+      "player": "__JankyMerc__",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2212847741",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-22",
+      "player": "Mirozel1",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "1-3",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-21",
+      "player": "Ciri80",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-21",
+      "player": "Mirozel1",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-2110855",
       "tournament": "Pauper League",
@@ -25,6 +84,21 @@
       "colors": [
         "B",
         "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-21",
+      "player": "Walker735",
+      "colors": [
+        "B",
+        "R",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -314,78 +388,6 @@
       "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2512845625",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "s8shock",
-      "colors": [
-        "B",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2512845625",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "Brasatore",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "2-2",
-      "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2112844875",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-21",
-      "player": "AlessandroPiraccini",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2010636",
-      "tournament": "Pauper League",
-      "date": "2026-06-20",
-      "player": "KuramaKev",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2010636",
-      "tournament": "Pauper League",
-      "date": "2026-06-20",
-      "player": "qbturtle15",
-      "colors": [
-        "B",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -426,8 +428,8 @@
       "count": 2
     },
     {
-      "player": "Squall93",
-      "count": 1
+      "player": "Mirozel1",
+      "count": 2
     }
   ]
 }

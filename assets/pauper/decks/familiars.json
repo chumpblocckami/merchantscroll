@@ -2,16 +2,16 @@
   "archetype": "Familiars",
   "slug": "familiars",
   "stats": {
-    "total_entries": 296,
-    "league_entries": 168,
-    "league_trophies": 168,
-    "league_trophies_yearly": 81,
+    "total_entries": 297,
+    "league_entries": 169,
+    "league_trophies": 169,
+    "league_trophies_yearly": 82,
     "challenge_appearances": 102,
     "challenge_wins": 421,
     "challenge_losses": 254,
     "irl_top8": 20,
     "challenge_win_pct": 62,
-    "league_trophy_rank_yearly": 22,
+    "league_trophy_rank_yearly": 21,
     "league_trophy_rank_alltime": 22,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
@@ -23,6 +23,21 @@
       "date": "2026-07-22",
       "player": "bombaj",
       "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-22",
+      "player": "Mikibairon96",
+      "colors": [
+        "R",
         "U",
         "W"
       ],
@@ -354,20 +369,6 @@
       "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
-      "tournament": "Pauper RC Super Qualifier",
-      "date": "2026-06-27",
-      "player": "LydiaTheHuman",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "6-3",
-      "final_rank": 22,
-      "source": "mtgo",
-      "type": "other"
     }
   ],
   "top_pilots": [
@@ -385,7 +386,7 @@
     },
     {
       "player": "Mikibairon96",
-      "count": 16
+      "count": 17
     },
     {
       "player": "Kampo",
