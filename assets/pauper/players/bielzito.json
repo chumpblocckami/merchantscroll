@@ -12,8 +12,8 @@
     "challenge_win_pct": 57,
     "league_trophy_rank_yearly": 216,
     "league_trophy_rank_alltime": 300,
-    "league_trophy_players_yearly": 1340,
-    "league_trophy_players_alltime": 2051
+    "league_trophy_players_yearly": 1341,
+    "league_trophy_players_alltime": 2052
   },
   "favorite_decks": [
     {
@@ -29,7 +29,7 @@
       "count": 1
     },
     {
-      "archetype": "U Terror",
+      "archetype": "UB Terror",
       "count": 1
     }
   ],
@@ -39,7 +39,7 @@
       "tournament": "Pauper League",
       "date": "2026-07-22",
       "player": "Bielzito",
-      "archetype": "U Terror",
+      "archetype": "UB Terror",
       "colors": [
         "B",
         "R",
@@ -144,21 +144,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2025-05-2512782331",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-05-25",
-      "player": "Bielzito",
-      "archetype": "U Faeries",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 25,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2025-05-259081",
       "tournament": "pauper-league-2025-05-259081",
       "date": "2025-05-25",
@@ -172,6 +157,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-05-2512782331",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-05-25",
+      "player": "Bielzito",
+      "archetype": "U Faeries",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ]
 }

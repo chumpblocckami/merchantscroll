@@ -2,10 +2,10 @@
   "archetype": "Bogle",
   "slug": "bogle",
   "stats": {
-    "total_entries": 251,
-    "league_entries": 103,
-    "league_trophies": 103,
-    "league_trophies_yearly": 32,
+    "total_entries": 250,
+    "league_entries": 102,
+    "league_trophies": 102,
+    "league_trophies_yearly": 31,
     "challenge_appearances": 141,
     "challenge_wins": 560,
     "challenge_losses": 364,
@@ -13,10 +13,26 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 33,
     "league_trophy_rank_alltime": 30,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-last-chance-2026-07-2212847741",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-22",
+      "player": "COMBO-BOY",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
     {
       "site_name": "pauper-league-2026-07-2210855",
       "tournament": "Pauper League",
@@ -35,57 +51,10 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-last-chance-2026-07-2212847741",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-22",
-      "player": "COMBO-BOY",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
       "site_name": "pauper-league-2026-07-2110855",
       "tournament": "Pauper League",
       "date": "2026-07-21",
       "player": "Ixidor29",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-20",
-      "player": "SpikeYou",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-18",
-      "player": "Essenza",
       "colors": [
         "G",
         "R",
@@ -113,6 +82,22 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-18",
+      "player": "Essenza",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-1710855",
@@ -265,7 +250,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0812846623",
+      "site_name": "pauper-challenge-32-2026-07-0612846623",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-08",
       "player": "QueMario",
@@ -282,7 +267,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0612846623",
+      "site_name": "pauper-challenge-32-2026-07-0812846623",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-08",
       "player": "QueMario",
@@ -427,6 +412,22 @@
       "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-3010855",
+      "tournament": "Pauper League",
+      "date": "2026-06-30",
+      "player": "JuaKi",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -455,7 +456,7 @@
       "count": 7
     },
     {
-      "player": "MisterTwin",
+      "player": "Mah_Alves",
       "count": 6
     },
     {
@@ -463,11 +464,11 @@
       "count": 6
     },
     {
-      "player": "hockeybro26",
+      "player": "MisterTwin",
       "count": 6
     },
     {
-      "player": "Mah_Alves",
+      "player": "hockeybro26",
       "count": 6
     }
   ]

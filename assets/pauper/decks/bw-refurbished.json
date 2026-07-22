@@ -2,19 +2,19 @@
   "archetype": "BW Refurbished",
   "slug": "bw-refurbished",
   "stats": {
-    "total_entries": 364,
+    "total_entries": 365,
     "league_entries": 205,
     "league_trophies": 205,
     "league_trophies_yearly": 92,
-    "challenge_appearances": 152,
-    "challenge_wins": 577,
-    "challenge_losses": 393,
+    "challenge_appearances": 153,
+    "challenge_wins": 580,
+    "challenge_losses": 396,
     "irl_top8": 4,
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 19,
     "league_trophy_rank_alltime": 18,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -42,6 +42,20 @@
       ],
       "record": "5-2",
       "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-2212848161",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-22",
+      "player": "Mordeka1ser",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 16,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -365,20 +379,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1012844841",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-19",
-      "player": "Hibiam94",
-      "colors": [
-        "B",
-        "W"
-      ],
-      "record": "4-3",
-      "final_rank": 26,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -411,7 +411,7 @@
       "count": 9
     },
     {
-      "player": "T-Wilder",
+      "player": "Hoarse_Duck",
       "count": 8
     },
     {
@@ -419,7 +419,7 @@
       "count": 8
     },
     {
-      "player": "Hoarse_Duck",
+      "player": "T-Wilder",
       "count": 8
     }
   ]
