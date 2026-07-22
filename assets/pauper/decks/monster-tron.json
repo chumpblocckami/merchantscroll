@@ -2,17 +2,17 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 64,
-    "league_entries": 22,
-    "league_trophies": 22,
-    "league_trophies_yearly": 22,
+    "total_entries": 60,
+    "league_entries": 19,
+    "league_trophies": 19,
+    "league_trophies_yearly": 19,
     "challenge_appearances": 35,
     "challenge_wins": 144,
     "challenge_losses": 95,
     "irl_top8": 2,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 38,
-    "league_trophy_rank_alltime": 47,
+    "league_trophy_rank_yearly": 41,
+    "league_trophy_rank_alltime": 48,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
@@ -35,28 +35,15 @@
       "site_name": "pauper-last-chance-2026-07-2212847741",
       "tournament": "Pauper Last Chance",
       "date": "2026-07-22",
-      "player": "Sharkcaster_Mage",
+      "player": "_Moroii",
       "colors": [
         "B",
         "G",
         "R",
-        "U"
+        "U",
+        "W"
       ],
-      "record": "1-4",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2212847741",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-22",
-      "player": "Tsubasa_Cat",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "2-2",
+      "record": "1-1",
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
@@ -66,22 +53,6 @@
       "tournament": "Pauper League",
       "date": "2026-07-21",
       "player": "lucotto",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-21",
-      "player": "brick_",
       "colors": [
         "G",
         "R",
@@ -148,38 +119,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-20",
-      "player": "A_AdeptoTerra",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-20",
-      "player": "CrilaPeoty",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1912847712",
@@ -389,6 +328,64 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912847113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-10",
+      "player": "Valimoth",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-2",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912847113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-10",
+      "player": "Cr0memox",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1012847113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-10",
+      "player": "Valimoth",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-2",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1012847113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-10",
+      "player": "Cr0memox",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -417,10 +414,6 @@
       "count": 3
     },
     {
-      "player": "Tsubasa_Cat",
-      "count": 2
-    },
-    {
       "player": "Cr0memox",
       "count": 2
     },
@@ -429,8 +422,12 @@
       "count": 2
     },
     {
-      "player": "brick_",
+      "player": "karatedom",
       "count": 2
+    },
+    {
+      "player": "Tsubasa_Cat",
+      "count": 1
     }
   ]
 }

@@ -2,10 +2,10 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 684,
-    "league_entries": 353,
-    "league_trophies": 353,
-    "league_trophies_yearly": 159,
+    "total_entries": 683,
+    "league_entries": 352,
+    "league_trophies": 352,
+    "league_trophies_yearly": 158,
     "challenge_appearances": 290,
     "challenge_wins": 1180,
     "challenge_losses": 711,
@@ -115,20 +115,6 @@
       "final_rank": 20,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-18",
-      "player": "True-Name-Nemesis",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-1810855",
@@ -370,6 +356,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-09",
+      "player": "orbuletto",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -391,7 +391,7 @@
     },
     {
       "player": "True-Name-Nemesis",
-      "count": 20
+      "count": 19
     },
     {
       "player": "Jace_MTG",
