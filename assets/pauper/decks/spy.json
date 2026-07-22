@@ -2,7 +2,7 @@
   "archetype": "Spy",
   "slug": "spy",
   "stats": {
-    "total_entries": 725,
+    "total_entries": 727,
     "league_entries": 459,
     "league_trophies": 459,
     "league_trophies_yearly": 181,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-last-chance-2026-07-2212847741",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-22",
+      "player": "StonyHandz",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-2",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
     {
       "site_name": "pauper-league-2026-07-2110855",
       "tournament": "Pauper League",
@@ -46,6 +61,22 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2112847738",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "HaHaHa_",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "3-2",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
     },
     {
       "site_name": "pauper-last-chance-2026-07-2112847730",
@@ -359,36 +390,6 @@
       ],
       "record": "5-3",
       "final_rank": 4,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-11",
-      "player": "Creamy_Greek",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0912847113",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-10",
-      "player": "SidRocha",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
     }

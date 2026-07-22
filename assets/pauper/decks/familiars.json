@@ -2,10 +2,10 @@
   "archetype": "Familiars",
   "slug": "familiars",
   "stats": {
-    "total_entries": 295,
-    "league_entries": 167,
-    "league_trophies": 167,
-    "league_trophies_yearly": 80,
+    "total_entries": 296,
+    "league_entries": 168,
+    "league_trophies": 168,
+    "league_trophies_yearly": 81,
     "challenge_appearances": 102,
     "challenge_wins": 421,
     "challenge_losses": 254,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-22",
+      "player": "bombaj",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-2110855",
       "tournament": "Pauper League",
@@ -354,20 +368,6 @@
       "final_rank": 22,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2812845668",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-27",
-      "player": "ChaoticMTG",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "8-1",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [

@@ -2,7 +2,7 @@
   "archetype": "Bogle",
   "slug": "bogle",
   "stats": {
-    "total_entries": 248,
+    "total_entries": 249,
     "league_entries": 101,
     "league_trophies": 101,
     "league_trophies_yearly": 30,
@@ -12,11 +12,27 @@
     "irl_top8": 2,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 34,
-    "league_trophy_rank_alltime": 31,
+    "league_trophy_rank_alltime": 30,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-last-chance-2026-07-2212847741",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-22",
+      "player": "COMBO-BOY",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
     {
       "site_name": "pauper-league-2026-07-2110855",
       "tournament": "Pauper League",
@@ -409,22 +425,6 @@
       ],
       "record": "4-3",
       "final_rank": 21,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2812845687",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-28",
-      "player": "AoFTW",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-3",
-      "final_rank": 22,
       "source": "mtgo",
       "type": "challenge"
     }

@@ -2,10 +2,10 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 190,
-    "league_entries": 80,
-    "league_trophies": 80,
-    "league_trophies_yearly": 52,
+    "total_entries": 195,
+    "league_entries": 83,
+    "league_trophies": 83,
+    "league_trophies_yearly": 55,
     "challenge_appearances": 99,
     "challenge_wins": 345,
     "challenge_losses": 251,
@@ -17,6 +17,48 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-22",
+      "player": "mehanske",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2212847741",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-22",
+      "player": "mehanske",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-1",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2112847738",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "mehanske",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "2-3",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
     {
       "site_name": "pauper-last-chance-2026-07-2112847730",
       "tournament": "Pauper Last Chance",
@@ -44,6 +86,35 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-20",
+      "player": "SpikeYou",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-20",
+      "player": "19LNC91",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-1910855",
@@ -296,76 +367,6 @@
       "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1212847145",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-12",
-      "player": "_Abijhavs_",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 30,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-11",
-      "player": "_Abijhavs_",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-11",
-      "player": "Scherben",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1112847128",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-11",
-      "player": "lilianna1989",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "2-4",
-      "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0912847113",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-10",
-      "player": "kaikas",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "7-2",
-      "final_rank": 2,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -376,6 +377,10 @@
     {
       "player": "Niederschatten",
       "count": 9
+    },
+    {
+      "player": "mehanske",
+      "count": 7
     },
     {
       "player": "Guizera",
@@ -399,10 +404,6 @@
     },
     {
       "player": "sai199orz",
-      "count": 4
-    },
-    {
-      "player": "mehanske",
       "count": 4
     },
     {

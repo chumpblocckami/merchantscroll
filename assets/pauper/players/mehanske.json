@@ -3,17 +3,17 @@
   "display_name": "mehanske",
   "irl_name": null,
   "stats": {
-    "total_entries": 66,
-    "league_trophies": 13,
-    "league_trophies_yearly": 11,
+    "total_entries": 69,
+    "league_trophies": 14,
+    "league_trophies_yearly": 12,
     "challenge_wins": 202,
     "challenge_losses": 131,
     "irl_top8": 0,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 91,
-    "league_trophy_rank_alltime": 168,
-    "league_trophy_players_yearly": 1337,
-    "league_trophy_players_alltime": 2049
+    "league_trophy_rank_yearly": 83,
+    "league_trophy_rank_alltime": 158,
+    "league_trophy_players_yearly": 1338,
+    "league_trophy_players_alltime": 2050
   },
   "favorite_decks": [
     {
@@ -29,12 +29,12 @@
       "count": 8
     },
     {
-      "archetype": "GW Gates",
-      "count": 6
+      "archetype": "Ponza",
+      "count": 7
     },
     {
-      "archetype": "Ponza",
-      "count": 4
+      "archetype": "GW Gates",
+      "count": 6
     },
     {
       "archetype": "White Weenie",
@@ -58,6 +58,51 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-22",
+      "player": "mehanske",
+      "archetype": "Ponza",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2212847741",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-22",
+      "player": "mehanske",
+      "archetype": "Ponza",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-1",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2112847738",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "mehanske",
+      "archetype": "Ponza",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "2-3",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1812847695",
       "tournament": "Pauper Challenge 32",
@@ -401,55 +446,6 @@
       ],
       "record": "3-3",
       "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2112842891",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-21",
-      "player": "mehanske",
-      "archetype": "BR Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "7-2",
-      "final_rank": 2,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-0912842086",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-09",
-      "player": "mehanske",
-      "archetype": "BR Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-0712842061",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-07",
-      "player": "mehanske",
-      "archetype": "GW Gates",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
     }

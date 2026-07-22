@@ -3,7 +3,7 @@
   "display_name": "discoverN",
   "irl_name": null,
   "stats": {
-    "total_entries": 103,
+    "total_entries": 105,
     "league_trophies": 4,
     "league_trophies_yearly": 0,
     "challenge_wins": 464,
@@ -12,13 +12,13 @@
     "challenge_win_pct": 70,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": 586,
-    "league_trophy_players_yearly": 1337,
-    "league_trophy_players_alltime": 2049
+    "league_trophy_players_yearly": 1338,
+    "league_trophy_players_alltime": 2050
   },
   "favorite_decks": [
     {
       "archetype": "U Terror",
-      "count": 92
+      "count": 93
     },
     {
       "archetype": "UB Terror",
@@ -26,10 +26,39 @@
     },
     {
       "archetype": "UB Faeries",
-      "count": 4
+      "count": 5
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-last-chance-2026-07-2212847741",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-22",
+      "player": "discoverN",
+      "archetype": "UB Faeries",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "0-1",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2112847738",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "discoverN",
+      "archetype": "U Terror",
+      "colors": [
+        "U"
+      ],
+      "record": "3-2",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0312847177",
       "tournament": "Pauper Challenge 32",
@@ -372,36 +401,6 @@
       ],
       "record": "8-1",
       "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-2812836765",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-28",
-      "player": "discoverN",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 22,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-2712836750",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-27",
-      "player": "discoverN",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "2-3",
-      "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
     }

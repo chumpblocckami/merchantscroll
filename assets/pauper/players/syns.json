@@ -3,17 +3,17 @@
   "display_name": "Syns",
   "irl_name": null,
   "stats": {
-    "total_entries": 62,
-    "league_trophies": 16,
-    "league_trophies_yearly": 13,
+    "total_entries": 65,
+    "league_trophies": 17,
+    "league_trophies_yearly": 14,
     "challenge_wins": 165,
     "challenge_losses": 119,
     "irl_top8": 0,
     "challenge_win_pct": 58,
-    "league_trophy_rank_yearly": 75,
-    "league_trophy_rank_alltime": 138,
-    "league_trophy_players_yearly": 1337,
-    "league_trophy_players_alltime": 2049
+    "league_trophy_rank_yearly": 60,
+    "league_trophy_rank_alltime": 130,
+    "league_trophy_players_yearly": 1338,
+    "league_trophy_players_alltime": 2050
   },
   "favorite_decks": [
     {
@@ -25,15 +25,19 @@
       "count": 7
     },
     {
+      "archetype": "Monster Tron",
+      "count": 4
+    },
+    {
       "archetype": "Pingers",
       "count": 3
     },
     {
-      "archetype": "Monster Tron",
+      "archetype": "Affinity",
       "count": 2
     },
     {
-      "archetype": "Affinity",
+      "archetype": "BR Madness",
       "count": 2
     },
     {
@@ -43,13 +47,55 @@
     {
       "archetype": "RG Ponza",
       "count": 1
-    },
-    {
-      "archetype": "BR Madness",
-      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-22",
+      "player": "Syns",
+      "archetype": "Monster Tron",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2212847741",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-22",
+      "player": "Syns",
+      "archetype": "BR Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-1",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2112847738",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "Syns",
+      "archetype": "Monster Tron",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "2-3",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
     {
       "site_name": "pauper-last-chance-2026-07-2112847730",
       "tournament": "Pauper Last Chance",
@@ -394,54 +440,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-0312841375",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-03",
-      "player": "Syns",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 14,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-0112841341",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-01",
-      "player": "Syns",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-3012841331",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-30",
-      "player": "Syns",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

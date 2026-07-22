@@ -2,7 +2,7 @@
   "archetype": "R Madness",
   "slug": "r-madness",
   "stats": {
-    "total_entries": 1990,
+    "total_entries": 1993,
     "league_entries": 1126,
     "league_trophies": 1126,
     "league_trophies_yearly": 554,
@@ -33,6 +33,36 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-last-chance-2026-07-2212847741",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-22",
+      "player": "hyuma",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "0-2",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2212847741",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-22",
+      "player": "AlessandroPiraccini",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "1-1",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
       "site_name": "pauper-league-2026-07-2110855",
       "tournament": "Pauper League",
       "date": "2026-07-21",
@@ -61,6 +91,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2112847738",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "AlessandroPiraccini",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "2-1",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
     },
     {
       "site_name": "pauper-last-chance-2026-07-2112847730",
@@ -346,51 +391,6 @@
       "final_rank": 4,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1712847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "GzusReturned",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 26,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1712847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "xMatias",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1612847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "Syns",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "7-1",
-      "final_rank": 3,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -424,7 +424,7 @@
     },
     {
       "player": "hyuma",
-      "count": 25
+      "count": 26
     },
     {
       "player": "carvs",
