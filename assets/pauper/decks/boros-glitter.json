@@ -2,21 +2,35 @@
   "archetype": "Boros Glitter",
   "slug": "boros-glitter",
   "stats": {
-    "total_entries": 143,
+    "total_entries": 144,
     "league_entries": 88,
     "league_trophies": 88,
     "league_trophies_yearly": 36,
-    "challenge_appearances": 52,
-    "challenge_wins": 203,
-    "challenge_losses": 136,
+    "challenge_appearances": 53,
+    "challenge_wins": 206,
+    "challenge_losses": 139,
     "irl_top8": 2,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 31,
     "league_trophy_rank_alltime": 34,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2212848161",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-22",
+      "player": "Mordeka1ser",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 16,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1612847678",
       "tournament": "Pauper Challenge 32",
@@ -382,21 +396,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-04-0610405",
-      "tournament": "Pauper League",
-      "date": "2026-04-06",
-      "player": "Kingcreeper",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -409,11 +408,11 @@
       "count": 14
     },
     {
-      "player": "someoldguy",
+      "player": "Pafru",
       "count": 6
     },
     {
-      "player": "Pafru",
+      "player": "someoldguy",
       "count": 6
     },
     {
@@ -421,11 +420,11 @@
       "count": 5
     },
     {
-      "player": "lostonkato",
+      "player": "ProfPidu",
       "count": 4
     },
     {
-      "player": "ProfPidu",
+      "player": "lostonkato",
       "count": 4
     },
     {
@@ -433,11 +432,11 @@
       "count": 4
     },
     {
-      "player": "Kingcreeper",
+      "player": "celobee",
       "count": 3
     },
     {
-      "player": "kalko",
+      "player": "Kingcreeper",
       "count": 3
     }
   ]

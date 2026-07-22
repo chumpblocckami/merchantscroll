@@ -3,11 +3,11 @@
   "display_name": "pepeteam",
   "irl_name": null,
   "stats": {
-    "total_entries": 33,
+    "total_entries": 34,
     "league_trophies": 0,
     "league_trophies_yearly": 0,
-    "challenge_wins": 126,
-    "challenge_losses": 70,
+    "challenge_wins": 130,
+    "challenge_losses": 72,
     "irl_top8": 0,
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": null,
@@ -22,7 +22,7 @@
     },
     {
       "archetype": "Jeskai",
-      "count": 6
+      "count": 7
     },
     {
       "archetype": "U Terror",
@@ -57,6 +57,22 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-2212848161",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-22",
+      "player": "pepeteam",
+      "archetype": "Jeskai",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-last-chance-2026-07-2112847730",
@@ -406,21 +422,6 @@
       ],
       "record": "4-2",
       "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-08-2312812163",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-08-23",
-      "player": "pepeteam",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "2-4",
-      "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
     }

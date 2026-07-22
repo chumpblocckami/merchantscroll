@@ -2,21 +2,36 @@
   "archetype": "Cawgate",
   "slug": "cawgate",
   "stats": {
-    "total_entries": 429,
+    "total_entries": 430,
     "league_entries": 257,
     "league_trophies": 257,
     "league_trophies_yearly": 137,
-    "challenge_appearances": 138,
-    "challenge_wins": 571,
-    "challenge_losses": 343,
+    "challenge_appearances": 139,
+    "challenge_wins": 575,
+    "challenge_losses": 345,
     "irl_top8": 11,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 12,
     "league_trophy_rank_alltime": 14,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2212848161",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-22",
+      "player": "bafusVIII",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-last-chance-2026-07-2012847724",
       "tournament": "Pauper Last Chance",
@@ -48,6 +63,22 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-challenge-32-2026-07-1712847682",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-17",
+      "player": "3draw_TANO",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-1612847682",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-17",
@@ -65,22 +96,6 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1512847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "3draw_TANO",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 25,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1712847682",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-17",
       "player": "3draw_TANO",
@@ -201,7 +216,7 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1412844338",
+      "site_name": "pauper-challenge-32-2026-06-1212844338",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-14",
       "player": "zahninator",
@@ -216,7 +231,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1212844338",
+      "site_name": "pauper-challenge-32-2026-06-1412844338",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-14",
       "player": "zahninator",
@@ -246,7 +261,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-0712843817",
+      "site_name": "pauper-challenge-32-2026-06-1312843817",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-07",
       "player": "Gn42",
@@ -261,7 +276,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1312843817",
+      "site_name": "pauper-challenge-32-2026-06-0712843817",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-07",
       "player": "Gn42",
@@ -379,22 +394,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-0910636",
-      "tournament": "Pauper League",
-      "date": "2026-05-09",
-      "player": "Bahsis",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -415,11 +414,11 @@
       "count": 15
     },
     {
-      "player": "matutehyuga",
+      "player": "SamaLama",
       "count": 14
     },
     {
-      "player": "SamaLama",
+      "player": "matutehyuga",
       "count": 14
     },
     {

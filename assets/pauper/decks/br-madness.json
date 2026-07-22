@@ -3,18 +3,18 @@
   "slug": "br-madness",
   "stats": {
     "total_entries": 817,
-    "league_entries": 391,
-    "league_trophies": 391,
-    "league_trophies_yearly": 125,
-    "challenge_appearances": 395,
-    "challenge_wins": 1599,
-    "challenge_losses": 1005,
+    "league_entries": 390,
+    "league_trophies": 390,
+    "league_trophies_yearly": 124,
+    "challenge_appearances": 396,
+    "challenge_wins": 1602,
+    "challenge_losses": 1008,
     "irl_top8": 9,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 14,
     "league_trophy_rank_alltime": 7,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -31,6 +31,22 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-2212848161",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-22",
+      "player": "_against_",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 14,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-last-chance-2026-07-2012847724",
@@ -78,22 +94,6 @@
       "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1610855",
-      "tournament": "Pauper League",
-      "date": "2026-07-16",
-      "player": "19LNC91",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-1410855",
@@ -376,19 +376,19 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0312846485",
-      "tournament": "Pauper Challenge 32",
+      "site_name": "pauper-league-2026-07-0410855",
+      "tournament": "Pauper League",
       "date": "2026-07-04",
-      "player": "Franzisco23195",
+      "player": "Adrowo",
       "colors": [
         "B",
         "R",
         "U"
       ],
-      "record": "4-2",
-      "final_rank": 12,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -417,19 +417,19 @@
       "count": 21
     },
     {
-      "player": "vikizin",
-      "count": 15
-    },
-    {
       "player": "HermonHero",
       "count": 15
     },
     {
-      "player": "Than",
-      "count": 14
+      "player": "vikizin",
+      "count": 15
     },
     {
       "player": "Niederschatten",
+      "count": 14
+    },
+    {
+      "player": "Than",
       "count": 14
     }
   ]

@@ -2,35 +2,21 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 194,
+    "total_entries": 195,
     "league_entries": 82,
     "league_trophies": 82,
     "league_trophies_yearly": 54,
-    "challenge_appearances": 99,
-    "challenge_wins": 345,
-    "challenge_losses": 251,
+    "challenge_appearances": 100,
+    "challenge_wins": 348,
+    "challenge_losses": 254,
     "irl_top8": 4,
     "challenge_win_pct": 58,
     "league_trophy_rank_yearly": 28,
     "league_trophy_rank_alltime": 35,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-last-chance-2026-07-2212847741",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-22",
-      "player": "mehanske",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-1",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
     {
       "site_name": "pauper-league-2026-07-2210855",
       "tournament": "Pauper League",
@@ -46,18 +32,32 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-last-chance-2026-07-2112847730",
+      "site_name": "pauper-last-chance-2026-07-2212847741",
       "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
+      "date": "2026-07-22",
+      "player": "mehanske",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-1",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-2212848161",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-22",
       "player": "Ixidor29",
       "colors": [
         "G",
         "R"
       ],
-      "record": "3-2",
-      "final_rank": null,
+      "record": "3-3",
+      "final_rank": 23,
       "source": "mtgo",
-      "type": "other"
+      "type": "challenge"
     },
     {
       "site_name": "pauper-last-chance-2026-07-2112847738",
@@ -69,6 +69,20 @@
         "R"
       ],
       "record": "2-3",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2112847730",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "Ixidor29",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-2",
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
@@ -186,90 +200,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1612847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "mehanske",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1612847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "ridikolaus",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1512847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "mehanske",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1512847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "ridikolaus",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1712847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "mehanske",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1712847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "ridikolaus",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-07-1710855",
       "tournament": "Pauper League",
       "date": "2026-07-17",
@@ -282,6 +212,90 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1712847682",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-17",
+      "player": "mehanske",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 12,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1712847682",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-17",
+      "player": "ridikolaus",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1612847682",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-17",
+      "player": "mehanske",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 12,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1612847682",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-17",
+      "player": "ridikolaus",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1512847682",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-17",
+      "player": "mehanske",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 12,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1512847682",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-17",
+      "player": "ridikolaus",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1612847678",
@@ -352,26 +366,12 @@
       "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1212847145",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-12",
-      "player": "_Abijhavs_",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 30,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "Ixidor29",
-      "count": 46
+      "count": 47
     },
     {
       "player": "Niederschatten",
@@ -386,11 +386,11 @@
       "count": 6
     },
     {
-      "player": "_Luvi_",
+      "player": "_Abijhavs_",
       "count": 6
     },
     {
-      "player": "_Abijhavs_",
+      "player": "_Luvi_",
       "count": 6
     },
     {
@@ -406,7 +406,7 @@
       "count": 4
     },
     {
-      "player": "Eliod",
+      "player": "Terminus0",
       "count": 3
     }
   ]

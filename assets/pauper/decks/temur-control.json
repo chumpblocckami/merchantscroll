@@ -13,8 +13,8 @@
     "challenge_win_pct": 58,
     "league_trophy_rank_yearly": 55,
     "league_trophy_rank_alltime": 63,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -137,6 +137,20 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-challenge-32-2025-03-1712844320",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-13",
+      "player": "True-Name-Nemesis",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauperwave-2026-06-13-versilia-summer-2026",
       "tournament": "LP Versilia Summer 2026 — Versilia",
       "date": "2026-06-13",
@@ -150,20 +164,6 @@
       "final_rank": 5,
       "source": "pauperwave",
       "type": "irl"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-03-1712844320",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-13",
-      "player": "True-Name-Nemesis",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-05-1712844295",
@@ -227,6 +227,10 @@
   ],
   "top_pilots": [
     {
+      "player": "ZobLeBerger",
+      "count": 2
+    },
+    {
       "player": "andredoriaa",
       "count": 2
     },
@@ -235,27 +239,11 @@
       "count": 2
     },
     {
-      "player": "ZobLeBerger",
-      "count": 2
-    },
-    {
-      "player": "firstshot",
-      "count": 1
-    },
-    {
       "player": "Kwebel",
       "count": 1
     },
     {
-      "player": "Brvnx",
-      "count": 1
-    },
-    {
-      "player": "Marcello Baccolini",
-      "count": 1
-    },
-    {
-      "player": "DeviousPenguin666",
+      "player": "True-Name-Nemesis",
       "count": 1
     },
     {
@@ -264,6 +252,18 @@
     },
     {
       "player": "qwertyelmer",
+      "count": 1
+    },
+    {
+      "player": "Brvnx",
+      "count": 1
+    },
+    {
+      "player": "DeviousPenguin666",
+      "count": 1
+    },
+    {
+      "player": "firstshot",
       "count": 1
     }
   ]

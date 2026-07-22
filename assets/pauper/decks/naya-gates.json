@@ -2,21 +2,55 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 258,
-    "league_entries": 105,
-    "league_trophies": 105,
-    "league_trophies_yearly": 98,
-    "challenge_appearances": 122,
-    "challenge_wins": 508,
-    "challenge_losses": 289,
+    "total_entries": 259,
+    "league_entries": 104,
+    "league_trophies": 104,
+    "league_trophies_yearly": 97,
+    "challenge_appearances": 124,
+    "challenge_wins": 511,
+    "challenge_losses": 294,
     "irl_top8": 12,
-    "challenge_win_pct": 64,
+    "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 17,
-    "league_trophy_rank_alltime": 28,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_rank_alltime": 29,
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-22",
+      "player": "CKieling",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-22",
+      "player": "Rusherlol",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-last-chance-2026-07-2212847741",
       "tournament": "Pauper Last Chance",
@@ -69,10 +103,10 @@
       "type": "other"
     },
     {
-      "site_name": "pauper-league-2026-07-2210855",
-      "tournament": "Pauper League",
+      "site_name": "pauper-challenge-32-2026-07-2212848161",
+      "tournament": "Pauper Challenge 32",
       "date": "2026-07-22",
-      "player": "CKieling",
+      "player": "GzusReturned",
       "colors": [
         "B",
         "G",
@@ -80,27 +114,26 @@
         "U",
         "W"
       ],
-      "record": "5-0",
-      "final_rank": null,
+      "record": "2-3",
+      "final_rank": 20,
       "source": "mtgo",
-      "type": "league"
+      "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-07-2210855",
-      "tournament": "Pauper League",
+      "site_name": "pauper-challenge-32-2026-07-2212848161",
+      "tournament": "Pauper Challenge 32",
       "date": "2026-07-22",
-      "player": "Rusherlol",
+      "player": "marzaboi",
       "colors": [
         "B",
-        "G",
         "R",
         "U",
         "W"
       ],
-      "record": "5-0",
-      "final_rank": null,
+      "record": "1-2",
+      "final_rank": 31,
       "source": "mtgo",
-      "type": "league"
+      "type": "challenge"
     },
     {
       "site_name": "pauper-league-2026-07-2110855",
@@ -118,39 +151,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2112847730",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "_Batutinha_",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2112847730",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "marzaboi",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-1",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
     },
     {
       "site_name": "pauper-last-chance-2026-07-2112847738",
@@ -216,6 +216,39 @@
         "W"
       ],
       "record": "3-2",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2112847730",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "_Batutinha_",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2112847730",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "marzaboi",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-1",
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
@@ -323,40 +356,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1812847695",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-18",
-      "player": "CounterTopGarchomp",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-2",
-      "final_rank": 14,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1812847695",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-18",
-      "player": "I_HEART_DREDGE",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 19,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-07-1810855",
       "tournament": "Pauper League",
       "date": "2026-07-18",
@@ -391,10 +390,10 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1612847682",
+      "site_name": "pauper-challenge-32-2026-07-1812847695",
       "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "seasonofmists",
+      "date": "2026-07-18",
+      "player": "CounterTopGarchomp",
       "colors": [
         "B",
         "G",
@@ -402,16 +401,16 @@
         "U",
         "W"
       ],
-      "record": "4-2",
-      "final_rank": 10,
+      "record": "3-2",
+      "final_rank": 14,
       "source": "mtgo",
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1612847682",
+      "site_name": "pauper-challenge-32-2026-07-1812847695",
       "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "kaikas",
+      "date": "2026-07-18",
+      "player": "I_HEART_DREDGE",
       "colors": [
         "B",
         "G",
@@ -420,15 +419,15 @@
         "W"
       ],
       "record": "3-3",
-      "final_rank": 21,
+      "final_rank": 19,
       "source": "mtgo",
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1512847682",
-      "tournament": "Pauper Challenge 32",
+      "site_name": "pauper-league-2026-07-1710855",
+      "tournament": "Pauper League",
       "date": "2026-07-17",
-      "player": "seasonofmists",
+      "player": "yasiu86",
       "colors": [
         "B",
         "G",
@@ -436,10 +435,10 @@
         "U",
         "W"
       ],
-      "record": "4-2",
-      "final_rank": 10,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -457,18 +456,18 @@
     },
     {
       "player": "marzaboi",
-      "count": 10
+      "count": 11
     },
     {
       "player": "LabroNico",
       "count": 6
     },
     {
-      "player": "Carlinhos_Jund",
+      "player": "PrimoShow1",
       "count": 4
     },
     {
-      "player": "manohito",
+      "player": "Carlinhos_Jund",
       "count": 4
     },
     {
@@ -476,7 +475,7 @@
       "count": 4
     },
     {
-      "player": "PrimoShow1",
+      "player": "manohito",
       "count": 4
     },
     {

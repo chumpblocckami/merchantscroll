@@ -3,22 +3,22 @@
   "display_name": "ChaoticMTG",
   "irl_name": null,
   "stats": {
-    "total_entries": 72,
-    "league_trophies": 37,
-    "league_trophies_yearly": 18,
+    "total_entries": 73,
+    "league_trophies": 38,
+    "league_trophies_yearly": 19,
     "challenge_wins": 171,
     "challenge_losses": 80,
     "irl_top8": 0,
     "challenge_win_pct": 68,
-    "league_trophy_rank_yearly": 38,
-    "league_trophy_rank_alltime": 35,
+    "league_trophy_rank_yearly": 34,
+    "league_trophy_rank_alltime": 34,
     "league_trophy_players_yearly": 1340,
     "league_trophy_players_alltime": 2051
   },
   "favorite_decks": [
     {
       "archetype": "Jeskai",
-      "count": 37
+      "count": 38
     },
     {
       "archetype": "Familiars",
@@ -30,6 +30,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-22",
+      "player": "ChaoticMTG",
+      "archetype": "Jeskai",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-1710855",
       "tournament": "Pauper League",
@@ -199,7 +215,7 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1912844841",
+      "site_name": "pauper-challenge-32-2026-06-1012844841",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-19",
       "player": "ChaoticMTG",
@@ -215,7 +231,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1012844841",
+      "site_name": "pauper-challenge-32-2026-06-1912844841",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-19",
       "player": "ChaoticMTG",
@@ -402,22 +418,6 @@
       ],
       "record": "4-3",
       "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-0312841375",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-03",
-      "player": "ChaoticMTG",
-      "archetype": "Familiars",
-      "colors": [
-        "B",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
     }

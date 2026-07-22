@@ -10,7 +10,7 @@
     "challenge_losses": 4,
     "irl_top8": 0,
     "challenge_win_pct": 56,
-    "league_trophy_rank_yearly": 331,
+    "league_trophy_rank_yearly": 332,
     "league_trophy_rank_alltime": 245,
     "league_trophy_players_yearly": 1340,
     "league_trophy_players_alltime": 2051
@@ -21,11 +21,7 @@
       "count": 6
     },
     {
-      "archetype": "UB Terror",
-      "count": 1
-    },
-    {
-      "archetype": "U Terror",
+      "archetype": "Flicker Tron",
       "count": 1
     },
     {
@@ -33,7 +29,11 @@
       "count": 1
     },
     {
-      "archetype": "Flicker Tron",
+      "archetype": "Elves",
+      "count": 1
+    },
+    {
+      "archetype": "UB Terror",
       "count": 1
     },
     {
@@ -41,7 +41,7 @@
       "count": 1
     },
     {
-      "archetype": "Elves",
+      "archetype": "U Terror",
       "count": 1
     }
   ],
@@ -189,21 +189,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2025-08-0312806324",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-08-03",
-      "player": "MichelBiro",
-      "archetype": "Familiars",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2025-08-039535",
       "tournament": "pauper-league-2025-08-039535",
       "date": "2025-08-03",
@@ -218,6 +203,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-08-0312806324",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-08-03",
+      "player": "MichelBiro",
+      "archetype": "Familiars",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 17,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-league-2025-07-129366",

@@ -3,15 +3,15 @@
   "display_name": "medvedev",
   "irl_name": null,
   "stats": {
-    "total_entries": 25,
+    "total_entries": 26,
     "league_trophies": 2,
     "league_trophies_yearly": 0,
-    "challenge_wins": 60,
-    "challenge_losses": 58,
+    "challenge_wins": 63,
+    "challenge_losses": 61,
     "irl_top8": 0,
     "challenge_win_pct": 51,
     "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 1097,
+    "league_trophy_rank_alltime": 1098,
     "league_trophy_players_yearly": 1340,
     "league_trophy_players_alltime": 2051
   },
@@ -21,19 +21,19 @@
       "count": 5
     },
     {
-      "archetype": "Spy",
-      "count": 4
-    },
-    {
       "archetype": "Cawgate",
       "count": 4
     },
     {
-      "archetype": "U Faeries",
-      "count": 3
+      "archetype": "Spy",
+      "count": 4
     },
     {
       "archetype": "Monsters",
+      "count": 3
+    },
+    {
+      "archetype": "U Faeries",
       "count": 3
     },
     {
@@ -51,11 +51,31 @@
     {
       "archetype": "Bogle",
       "count": 1
+    },
+    {
+      "archetype": "UB Terror",
+      "count": 1
     }
   ],
   "recent_entries": [
     {
-      "site_name": "pauper-challenge-32-2026-07-0612846623",
+      "site_name": "pauper-challenge-32-2026-07-2212848161",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-22",
+      "player": "medvedev",
+      "archetype": "UB Terror",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 21,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0812846623",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-08",
       "player": "medvedev",
@@ -71,7 +91,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0812846623",
+      "site_name": "pauper-challenge-32-2026-07-0612846623",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-08",
       "player": "medvedev",
@@ -435,21 +455,6 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-03-269535",
-      "tournament": "pauper-league-2025-03-269535",
-      "date": "2025-03-26",
-      "player": "medvedev",
-      "archetype": "U Faeries",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }
