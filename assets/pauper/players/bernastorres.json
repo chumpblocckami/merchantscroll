@@ -12,8 +12,8 @@
     "challenge_win_pct": 56,
     "league_trophy_rank_yearly": 797,
     "league_trophy_rank_alltime": 570,
-    "league_trophy_players_yearly": 1339,
-    "league_trophy_players_alltime": 2050
+    "league_trophy_players_yearly": 1340,
+    "league_trophy_players_alltime": 2051
   },
   "favorite_decks": [
     {
@@ -21,11 +21,11 @@
       "count": 7
     },
     {
-      "archetype": "Familiars",
+      "archetype": "BR Madness",
       "count": 5
     },
     {
-      "archetype": "BR Madness",
+      "archetype": "Familiars",
       "count": 5
     },
     {
@@ -33,11 +33,11 @@
       "count": 3
     },
     {
-      "archetype": "GW Gates",
+      "archetype": "Cawgate",
       "count": 2
     },
     {
-      "archetype": "Cawgate",
+      "archetype": "GW Gates",
       "count": 2
     },
     {
@@ -45,15 +45,15 @@
       "count": 2
     },
     {
+      "archetype": "Bogle",
+      "count": 1
+    },
+    {
+      "archetype": "B Sacrifice",
+      "count": 1
+    },
+    {
       "archetype": "Monster Tron",
-      "count": 1
-    },
-    {
-      "archetype": "Dredge",
-      "count": 1
-    },
-    {
-      "archetype": "BW Refurbished",
       "count": 1
     }
   ],
@@ -75,7 +75,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1012844841",
+      "site_name": "pauper-challenge-32-2026-06-1912844841",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-19",
       "player": "BERNASTORRES",
@@ -91,7 +91,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1912844841",
+      "site_name": "pauper-challenge-32-2026-06-1012844841",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-19",
       "player": "BERNASTORRES",
@@ -403,22 +403,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2025-08-0212806307",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-08-02",
-      "player": "BERNASTORRES",
-      "archetype": "Altar Tron",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 19,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-showcase-challenge-2025-08-0212806252",
       "tournament": "Pauper Showcase Challenge",
       "date": "2025-08-02",
@@ -431,6 +415,22 @@
       ],
       "record": "6-3",
       "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-08-0212806307",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-08-02",
+      "player": "BERNASTORRES",
+      "archetype": "Altar Tron",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 19,
       "source": "mtgo",
       "type": "challenge"
     },

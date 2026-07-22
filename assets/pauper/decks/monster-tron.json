@@ -13,8 +13,8 @@
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 37,
     "league_trophy_rank_alltime": 45,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -62,20 +62,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-last-chance-2026-07-2112847738",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "Syns",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "2-3",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
       "site_name": "pauper-last-chance-2026-07-2112847730",
       "tournament": "Pauper Last Chance",
       "date": "2026-07-21",
@@ -85,6 +71,20 @@
         "R"
       ],
       "record": "2-2",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2112847738",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "Syns",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "2-3",
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
@@ -181,6 +181,22 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-challenge-32-2026-07-1612847678",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-16",
+      "player": "ziofrancone",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-league-2026-07-1610855",
       "tournament": "Pauper League",
       "date": "2026-07-16",
@@ -225,22 +241,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1612847678",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-16",
-      "player": "ziofrancone",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0312847177",
@@ -334,23 +334,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-07-1110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-11",
-      "player": "Raptor56",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-07-1112847128",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-11",
@@ -391,6 +374,23 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-11",
+      "player": "Raptor56",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -411,16 +411,12 @@
       "count": 3
     },
     {
-      "player": "giuliodice",
-      "count": 3
-    },
-    {
       "player": "AFitzsimmons",
       "count": 3
     },
     {
-      "player": "Cr0memox",
-      "count": 2
+      "player": "giuliodice",
+      "count": 3
     },
     {
       "player": "Abisd94",
@@ -431,7 +427,11 @@
       "count": 2
     },
     {
-      "player": "Tsubasa_Cat",
+      "player": "Cr0memox",
+      "count": 2
+    },
+    {
+      "player": "Auripower",
       "count": 1
     }
   ]

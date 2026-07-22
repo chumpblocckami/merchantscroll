@@ -2,10 +2,10 @@
   "archetype": "UB Faeries",
   "slug": "ub-faeries",
   "stats": {
-    "total_entries": 643,
-    "league_entries": 333,
-    "league_trophies": 333,
-    "league_trophies_yearly": 205,
+    "total_entries": 642,
+    "league_entries": 332,
+    "league_trophies": 332,
+    "league_trophies_yearly": 204,
     "challenge_appearances": 279,
     "challenge_wins": 1152,
     "challenge_losses": 706,
@@ -13,24 +13,10 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 7,
     "league_trophy_rank_alltime": 11,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-07-2210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-22",
-      "player": "Walii_",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-last-chance-2026-07-2212847741",
       "tournament": "Pauper Last Chance",
@@ -72,6 +58,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-22",
+      "player": "Walii_",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-2110855",
@@ -148,20 +148,6 @@
       "site_name": "pauper-league-2026-07-1910855",
       "tournament": "Pauper League",
       "date": "2026-07-19",
-      "player": "Gius1901",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-19",
       "player": "OJoaoSette",
       "colors": [
         "B",
@@ -197,6 +183,34 @@
       ],
       "record": "4-3",
       "final_rank": 19,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1812847695",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-18",
+      "player": "Beicodegeia",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1812847695",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-18",
+      "player": "Oscar_Franco",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -243,35 +257,7 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1812847695",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-18",
-      "player": "Beicodegeia",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1812847695",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-18",
-      "player": "Oscar_Franco",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1712847682",
+      "site_name": "pauper-challenge-32-2026-07-1612847682",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-17",
       "player": "Oscar_Franco",
@@ -285,7 +271,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1712847682",
+      "site_name": "pauper-challenge-32-2026-07-1612847682",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-17",
       "player": "barff",
@@ -299,7 +285,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1712847682",
+      "site_name": "pauper-challenge-32-2026-07-1612847682",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-17",
       "player": "roter_Erzengel",
@@ -313,7 +299,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1712847682",
+      "site_name": "pauper-challenge-32-2026-07-1612847682",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-17",
       "player": "Gigen",
@@ -327,7 +313,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1712847682",
+      "site_name": "pauper-challenge-32-2026-07-1612847682",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-17",
       "player": "Triso",
@@ -341,7 +327,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1712847682",
+      "site_name": "pauper-challenge-32-2026-07-1612847682",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-17",
       "player": "msskinbolic",
@@ -355,7 +341,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1712847682",
+      "site_name": "pauper-challenge-32-2026-07-1612847682",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-17",
       "player": "ABCD_1234",
@@ -365,6 +351,20 @@
       ],
       "record": "3-3",
       "final_rank": 30,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1512847682",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-17",
+      "player": "Oscar_Franco",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "7-2",
+      "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
     }

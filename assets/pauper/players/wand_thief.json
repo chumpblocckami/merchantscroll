@@ -12,8 +12,8 @@
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 491,
     "league_trophy_rank_alltime": 257,
-    "league_trophy_players_yearly": 1339,
-    "league_trophy_players_alltime": 2050
+    "league_trophy_players_yearly": 1340,
+    "league_trophy_players_alltime": 2051
   },
   "favorite_decks": [
     {
@@ -33,19 +33,15 @@
       "count": 2
     },
     {
+      "archetype": "Boros Glitter",
+      "count": 1
+    },
+    {
       "archetype": "GW Gates",
       "count": 1
     },
     {
-      "archetype": "Monsters",
-      "count": 1
-    },
-    {
-      "archetype": "BR Madness",
-      "count": 1
-    },
-    {
-      "archetype": "Boros Glitter",
+      "archetype": "Bogle",
       "count": 1
     },
     {
@@ -53,7 +49,11 @@
       "count": 1
     },
     {
-      "archetype": "Bogle",
+      "archetype": "BR Madness",
+      "count": 1
+    },
+    {
+      "archetype": "Monsters",
       "count": 1
     }
   ],
@@ -95,22 +95,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1112844295",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-11",
-      "player": "wand_thief",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-2",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-05-1712844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
@@ -128,6 +112,22 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-0212844295",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-11",
+      "player": "wand_thief",
+      "archetype": "Spy",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-2",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1112844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
       "player": "wand_thief",
@@ -255,7 +255,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-special-2025-11-1212824394",
+      "site_name": "pauper-challenge-32-special-2025-11-1312824394",
       "tournament": "Pauper Challenge 32 Special",
       "date": "2025-11-13",
       "player": "wand_thief",
@@ -271,7 +271,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-special-2025-11-1312824394",
+      "site_name": "pauper-challenge-32-special-2025-11-1212824394",
       "tournament": "Pauper Challenge 32 Special",
       "date": "2025-11-13",
       "player": "wand_thief",
