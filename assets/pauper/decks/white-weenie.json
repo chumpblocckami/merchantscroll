@@ -2,10 +2,10 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 619,
-    "league_entries": 356,
-    "league_trophies": 356,
-    "league_trophies_yearly": 166,
+    "total_entries": 620,
+    "league_entries": 357,
+    "league_trophies": 357,
+    "league_trophies_yearly": 167,
     "challenge_appearances": 234,
     "challenge_wins": 909,
     "challenge_losses": 587,
@@ -17,6 +17,19 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-23",
+      "player": "Riccc",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-last-chance-2026-07-2112847730",
       "tournament": "Pauper Last Chance",
@@ -334,19 +347,6 @@
       ],
       "record": "2-3",
       "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1012847113",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-10",
-      "player": "Pjey",
-      "colors": [
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
     }

@@ -2,21 +2,34 @@
   "archetype": "BR Affinity",
   "slug": "br-affinity",
   "stats": {
-    "total_entries": 34,
-    "league_entries": 11,
-    "league_trophies": 11,
-    "league_trophies_yearly": 11,
+    "total_entries": 36,
+    "league_entries": 13,
+    "league_trophies": 13,
+    "league_trophies_yearly": 13,
     "challenge_appearances": 19,
     "challenge_wins": 63,
     "challenge_losses": 56,
     "irl_top8": 2,
     "challenge_win_pct": 53,
-    "league_trophy_rank_yearly": 48,
-    "league_trophy_rank_alltime": 51,
+    "league_trophy_rank_yearly": 47,
+    "league_trophy_rank_alltime": 50,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-23",
+      "player": "uspdudes",
+      "colors": [
+        "B"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-2210855",
       "tournament": "Pauper League",
@@ -26,6 +39,20 @@
         "B",
         "G",
         "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-21",
+      "player": "Ciri80",
+      "colors": [
+        "B",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -358,35 +385,6 @@
       "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2112844875",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-21",
-      "player": "AlessandroPiraccini",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2010636",
-      "tournament": "Pauper League",
-      "date": "2026-06-20",
-      "player": "KuramaKev",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -427,7 +425,7 @@
       "count": 2
     },
     {
-      "player": "Francesco Zibella",
+      "player": "Ciri80",
       "count": 1
     }
   ]

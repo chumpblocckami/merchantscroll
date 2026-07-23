@@ -2,10 +2,10 @@
   "archetype": "Jeskai",
   "slug": "jeskai",
   "stats": {
-    "total_entries": 347,
-    "league_entries": 200,
-    "league_trophies": 200,
-    "league_trophies_yearly": 136,
+    "total_entries": 348,
+    "league_entries": 201,
+    "league_trophies": 201,
+    "league_trophies_yearly": 137,
     "challenge_appearances": 126,
     "challenge_wins": 525,
     "challenge_losses": 307,
@@ -22,6 +22,21 @@
       "tournament": "Pauper League",
       "date": "2026-07-23",
       "player": "Ben_Matocha",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-23",
+      "player": "taravangian_",
       "colors": [
         "R",
         "U",
@@ -374,21 +389,6 @@
       "player": "AurellHarmonics",
       "colors": [
         "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-17",
-      "player": "ChaoticMTG",
-      "colors": [
         "R",
         "U",
         "W"
