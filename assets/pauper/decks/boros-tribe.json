@@ -13,8 +13,8 @@
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 26,
     "league_trophy_rank_alltime": 38,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -22,6 +22,22 @@
       "tournament": "Pauper League",
       "date": "2026-07-22",
       "player": "Kefwyn",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-18",
+      "player": "Marl-bro-ro",
       "colors": [
         "B",
         "R",
@@ -50,20 +66,20 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-07-1810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-18",
-      "player": "Marl-bro-ro",
+      "site_name": "pauper-challenge-32-2026-07-1712847682",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-17",
+      "player": "Sandokan92",
       "colors": [
         "B",
         "R",
         "U",
         "W"
       ],
-      "record": "5-0",
-      "final_rank": null,
+      "record": "3-3",
+      "final_rank": 29,
       "source": "mtgo",
-      "type": "league"
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1612847682",
@@ -83,22 +99,6 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1512847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "Sandokan92",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1712847682",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-17",
       "player": "Sandokan92",
@@ -372,7 +372,7 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2412845631",
+      "site_name": "pauper-challenge-32-2026-06-2512845631",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "MisterAsiago",
@@ -388,7 +388,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2512845631",
+      "site_name": "pauper-challenge-32-2026-06-2412845631",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "MisterAsiago",
@@ -430,11 +430,11 @@
       "count": 11
     },
     {
-      "player": "lostonkato",
+      "player": "Sandokan92",
       "count": 7
     },
     {
-      "player": "Sandokan92",
+      "player": "lostonkato",
       "count": 7
     },
     {
@@ -450,15 +450,15 @@
       "count": 4
     },
     {
-      "player": "Enz091",
-      "count": 3
-    },
-    {
       "player": "Aldreen",
       "count": 3
     },
     {
-      "player": "Kiyocore",
+      "player": "RubensNetto",
+      "count": 3
+    },
+    {
+      "player": "Enz091",
       "count": 3
     }
   ]

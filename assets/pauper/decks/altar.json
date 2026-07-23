@@ -2,19 +2,19 @@
   "archetype": "Altar",
   "slug": "altar",
   "stats": {
-    "total_entries": 100,
-    "league_entries": 64,
-    "league_trophies": 64,
-    "league_trophies_yearly": 24,
+    "total_entries": 99,
+    "league_entries": 63,
+    "league_trophies": 63,
+    "league_trophies_yearly": 23,
     "challenge_appearances": 30,
     "challenge_wins": 114,
     "challenge_losses": 79,
     "irl_top8": 2,
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 37,
-    "league_trophy_rank_alltime": 36,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_rank_alltime": 37,
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -64,21 +64,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-19",
-      "player": "SurgeonofDeath",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1812847695",
@@ -223,6 +208,23 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-challenge-32-2026-06-1112844295",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-11",
+      "player": "Entropy263",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 14,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-05-1712844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
@@ -241,23 +243,6 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-0212844295",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-11",
-      "player": "Entropy263",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 14,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1112844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
       "player": "Entropy263",
@@ -340,6 +325,21 @@
       "type": "league"
     },
     {
+      "site_name": "pauperwave-2026-05-24-pauper-focaccia-trio",
+      "tournament": "Pauper Focaccia Trio — Genova",
+      "date": "2026-05-24",
+      "player": "Simone Ledda",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "record": "",
+      "final_rank": 3,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-05-2412842933",
       "tournament": "Pauper Challenge 32",
       "date": "2026-05-24",
@@ -355,21 +355,6 @@
       "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauperwave-2026-05-24-pauper-focaccia-trio",
-      "tournament": "Pauper Focaccia Trio — Genova",
-      "date": "2026-05-24",
-      "player": "Simone Ledda",
-      "colors": [
-        "B",
-        "G",
-        "U"
-      ],
-      "record": "",
-      "final_rank": 3,
-      "source": "pauperwave",
-      "type": "irl"
     },
     {
       "site_name": "pauper-challenge-32-2026-05-2112842891",
@@ -417,6 +402,22 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-05-1310636",
+      "tournament": "Pauper League",
+      "date": "2026-05-13",
+      "player": "Huskyman20035",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -445,19 +446,19 @@
       "count": 3
     },
     {
-      "player": "3vildr4k3",
+      "player": "Nasello",
+      "count": 2
+    },
+    {
+      "player": "NMT_Sco94",
+      "count": 2
+    },
+    {
+      "player": "yasiu86",
       "count": 2
     },
     {
       "player": "Loerien",
-      "count": 2
-    },
-    {
-      "player": "Gerry_Lo_Speziato",
-      "count": 2
-    },
-    {
-      "player": "_Moroii",
       "count": 2
     }
   ]

@@ -11,10 +11,10 @@
     "challenge_losses": 14,
     "irl_top8": 2,
     "challenge_win_pct": 65,
-    "league_trophy_rank_yearly": 66,
-    "league_trophy_rank_alltime": 54,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_rank_yearly": 65,
+    "league_trophy_rank_alltime": 53,
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -74,20 +74,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2025-08-1512810045",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-08-15",
-      "player": "__Noob__",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 9,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2025-08-159535",
       "tournament": "pauper-league-2025-08-159535",
       "date": "2025-08-15",
@@ -100,6 +86,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-08-1512810045",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-08-15",
+      "player": "__Noob__",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-last-chance-2025-08-1212807516",
@@ -160,20 +160,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2025-08-0312806324",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-08-03",
-      "player": "Hamuda",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2025-08-039535",
       "tournament": "pauper-league-2025-08-039535",
       "date": "2025-08-03",
@@ -188,18 +174,18 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-08-029535",
-      "tournament": "pauper-league-2025-08-029535",
-      "date": "2025-08-02",
-      "player": "RotyBoty",
+      "site_name": "pauper-challenge-32-2025-08-0312806324",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-08-03",
+      "player": "Hamuda",
       "colors": [
         "B",
         "U"
       ],
-      "record": "5-0",
-      "final_rank": null,
+      "record": "4-3",
+      "final_rank": 29,
       "source": "mtgo",
-      "type": "league"
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2025-08-0212806307",
@@ -214,6 +200,20 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-08-029535",
+      "tournament": "pauper-league-2025-08-029535",
+      "date": "2025-08-02",
+      "player": "RotyBoty",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2025-08-019535",
@@ -324,19 +324,11 @@
       "count": 2
     },
     {
-      "player": "__Noob__",
-      "count": 1
-    },
-    {
       "player": "Matteo Cassano",
       "count": 1
     },
     {
-      "player": "NoneOfYourBusiness",
-      "count": 1
-    },
-    {
-      "player": "AguaTonificada",
+      "player": "azatoyellow",
       "count": 1
     },
     {
@@ -348,11 +340,19 @@
       "count": 1
     },
     {
-      "player": "Enrico Colzi",
+      "player": "DobleP",
       "count": 1
     },
     {
       "player": "RotyBoty",
+      "count": 1
+    },
+    {
+      "player": "Enrico Colzi",
+      "count": 1
+    },
+    {
+      "player": "Raydan",
       "count": 1
     }
   ]

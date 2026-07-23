@@ -1082,7 +1082,7 @@
       "colors": [
         "B"
       ],
-      "archetype": "BR Affinity"
+      "archetype": "Gardens"
     },
     {
       "player": "reto_mtg",
@@ -1504,7 +1504,7 @@
         "G",
         "R"
       ],
-      "archetype": "Monster Tron"
+      "archetype": "Monsters Tron"
     },
     {
       "player": "Gadgistan4k",
@@ -2459,7 +2459,7 @@
         "U",
         "W"
       ],
-      "archetype": "Flicker Tron"
+      "archetype": "Monster Tron"
     },
     {
       "player": "Ciri80",
@@ -4164,6 +4164,191 @@
       "archetype": "UB Terror"
     },
     {
+      "player": "saidin.raken",
+      "main_deck": [
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Archaeomancer",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "God-Pharaoh's Faithful",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Ghostly Flicker",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Mortuary Mire",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Snap",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Sunscape Familiar",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "10",
+          "card_attributes": {
+            "card_name": "Snow-Covered Island",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Mulldrifter",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Azorius Chancery",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Snow-Covered Plains",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Preordain",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "The Modern Age",
+            "card_type": "ENCHMT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Glacial Floodplain",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Ephemerate",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Ash Barrens",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Deep Analysis",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Prismatic Strands",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Foil",
+            "card_type": "INSTNT"
+          }
+        }
+      ],
+      "sideboard_deck": [
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Hydroblast",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Dust to Dust",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Negate",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Last Breath",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Prohibit",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Revoke Existence",
+            "card_type": "SORCRY"
+          }
+        }
+      ],
+      "wins": {
+        "loginplayeventcourseid": "35563425",
+        "wins": "5",
+        "losses": "0"
+      },
+      "colors": [
+        "U",
+        "W"
+      ],
+      "archetype": "Familiars"
+    },
+    {
       "player": "_Abijhavs_",
       "main_deck": [
         {
@@ -4332,7 +4517,178 @@
         "G",
         "R"
       ],
-      "archetype": "BG Ponza"
+      "archetype": "Ponza"
+    },
+    {
+      "player": "_Abijhavs_",
+      "main_deck": [
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Annoyed Altisaur",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "14",
+          "card_attributes": {
+            "card_name": "Forest",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Avenging Hunter",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Boarding Party",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Eldrazi Repurposer",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Generous Ent",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Malevolent Rumble",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Mwonvuli Acid-Moss",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Mountain",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Arbor Elf",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Structural Distortion",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Thermokarst",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Utopia Sprawl",
+            "card_type": "ENCHMT"
+          }
+        },
+        {
+          "qty": "1",
+          "card_attributes": {
+            "card_name": "Wooded Ridgeline",
+            "card_type": "LAND  "
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Writhing Chrysalis",
+            "card_type": "ISCREA"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Wild Growth",
+            "card_type": "ENCHMT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Bonder's Ornament",
+            "card_type": "ARTFCT"
+          }
+        }
+      ],
+      "sideboard_deck": [
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Breath Weapon",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "4",
+          "card_attributes": {
+            "card_name": "Deglamer",
+            "card_type": "INSTNT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Suplex",
+            "card_type": "SORCRY"
+          }
+        },
+        {
+          "qty": "3",
+          "card_attributes": {
+            "card_name": "Relic of Progenitus",
+            "card_type": "ARTFCT"
+          }
+        },
+        {
+          "qty": "2",
+          "card_attributes": {
+            "card_name": "Weather the Storm",
+            "card_type": "INSTNT"
+          }
+        }
+      ],
+      "wins": {
+        "loginplayeventcourseid": "35564030",
+        "wins": "5",
+        "losses": "0"
+      },
+      "colors": [
+        "G",
+        "R"
+      ],
+      "archetype": "Ponza"
     }
   ]
 }
