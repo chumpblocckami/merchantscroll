@@ -2,10 +2,10 @@
   "archetype": "Monsters",
   "slug": "monsters",
   "stats": {
-    "total_entries": 381,
-    "league_entries": 218,
-    "league_trophies": 218,
-    "league_trophies_yearly": 73,
+    "total_entries": 383,
+    "league_entries": 220,
+    "league_trophies": 220,
+    "league_trophies_yearly": 75,
     "challenge_appearances": 138,
     "challenge_wins": 498,
     "challenge_losses": 366,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 58,
     "league_trophy_rank_yearly": 24,
     "league_trophy_rank_alltime": 15,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -25,6 +25,21 @@
       "colors": [
         "G",
         "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-20",
+      "player": "SpikeYou",
+      "colors": [
+        "G",
+        "R",
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -63,6 +78,21 @@
       "site_name": "pauper-league-2026-07-1810855",
       "tournament": "Pauper League",
       "date": "2026-07-18",
+      "player": "el-barto",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-17",
       "player": "el-barto",
       "colors": [
         "G",
@@ -346,35 +376,6 @@
       ],
       "record": "4-2",
       "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0610636",
-      "tournament": "Pauper League",
-      "date": "2026-06-06",
-      "player": "olati",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0512843783",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-05",
-      "player": "PrimoShow1",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
     }

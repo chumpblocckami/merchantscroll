@@ -2,10 +2,10 @@
   "archetype": "Bogle",
   "slug": "bogle",
   "stats": {
-    "total_entries": 252,
-    "league_entries": 104,
-    "league_trophies": 104,
-    "league_trophies_yearly": 33,
+    "total_entries": 251,
+    "league_entries": 103,
+    "league_trophies": 103,
+    "league_trophies_yearly": 32,
     "challenge_appearances": 141,
     "challenge_wins": 560,
     "challenge_losses": 364,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 33,
     "league_trophy_rank_alltime": 30,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -76,21 +76,6 @@
         "G",
         "R",
         "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-20",
-      "player": "SpikeYou",
-      "colors": [
-        "G",
-        "R",
         "W"
       ],
       "record": "5-0",
@@ -427,6 +412,23 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0112845719",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-01",
+      "player": "QueMario",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [

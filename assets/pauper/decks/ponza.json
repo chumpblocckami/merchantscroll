@@ -2,10 +2,10 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 195,
-    "league_entries": 82,
-    "league_trophies": 82,
-    "league_trophies_yearly": 54,
+    "total_entries": 197,
+    "league_entries": 84,
+    "league_trophies": 84,
+    "league_trophies_yearly": 56,
     "challenge_appearances": 100,
     "challenge_wins": 348,
     "challenge_losses": 254,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 58,
     "league_trophy_rank_yearly": 28,
     "league_trophy_rank_alltime": 35,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -36,6 +36,20 @@
       "tournament": "Pauper League",
       "date": "2026-07-22",
       "player": "SidRocha",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-22",
+      "player": "Mindartis",
       "colors": [
         "G",
         "R"
@@ -114,6 +128,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-20",
+      "player": "19LNC91",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-1910855",
@@ -336,34 +364,6 @@
       ],
       "record": "4-2",
       "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-14",
-      "player": "Ixidor29",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1212847145",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-12",
-      "player": "pokerswizard",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
     }

@@ -3,21 +3,25 @@
   "display_name": "Ciri80",
   "irl_name": null,
   "stats": {
-    "total_entries": 18,
-    "league_trophies": 18,
-    "league_trophies_yearly": 12,
+    "total_entries": 19,
+    "league_trophies": 19,
+    "league_trophies_yearly": 13,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 79,
-    "league_trophy_rank_alltime": 112,
+    "league_trophy_rank_yearly": 72,
+    "league_trophy_rank_alltime": 102,
     "league_trophy_players_yearly": 1342,
     "league_trophy_players_alltime": 2052
   },
   "favorite_decks": [
     {
       "archetype": "Spy",
+      "count": 3
+    },
+    {
+      "archetype": "RG Storm",
       "count": 3
     },
     {
@@ -33,10 +37,6 @@
       "count": 2
     },
     {
-      "archetype": "RG Storm",
-      "count": 2
-    },
-    {
       "archetype": "UG Fog",
       "count": 1
     },
@@ -49,7 +49,7 @@
       "count": 1
     },
     {
-      "archetype": "Affinity",
+      "archetype": "BR Affinity",
       "count": 1
     },
     {
@@ -59,11 +59,27 @@
   ],
   "recent_entries": [
     {
+      "site_name": "pauper-league-2026-07-2310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-23",
+      "player": "Ciri80",
+      "archetype": "RG Storm",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2026-07-2110855",
       "tournament": "Pauper League",
       "date": "2026-07-21",
       "player": "Ciri80",
-      "archetype": "Affinity",
+      "archetype": "BR Affinity",
       "colors": [
         "B",
         "U"
