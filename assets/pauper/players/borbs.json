@@ -12,8 +12,8 @@
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 146,
     "league_trophy_rank_alltime": 195,
-    "league_trophy_players_yearly": 1342,
-    "league_trophy_players_alltime": 2052
+    "league_trophy_players_yearly": 1343,
+    "league_trophy_players_alltime": 2053
   },
   "favorite_decks": [
     {
@@ -25,11 +25,7 @@
       "count": 6
     },
     {
-      "archetype": "Boros Glitter",
-      "count": 1
-    },
-    {
-      "archetype": "GW Gates",
+      "archetype": "BW Refurbished",
       "count": 1
     },
     {
@@ -37,7 +33,11 @@
       "count": 1
     },
     {
-      "archetype": "BW Refurbished",
+      "archetype": "Boros Glitter",
+      "count": 1
+    },
+    {
+      "archetype": "GW Gates",
       "count": 1
     }
   ],
@@ -185,22 +185,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-01-159987",
-      "tournament": "pauper-league-2026-01-159987",
-      "date": "2026-01-15",
-      "player": "Borbs",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-01-1512830022",
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-15",
@@ -215,6 +199,22 @@
       "final_rank": 16,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-01-159987",
+      "tournament": "pauper-league-2026-01-159987",
+      "date": "2026-01-15",
+      "player": "Borbs",
+      "archetype": "Spy",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-01-0812829339",

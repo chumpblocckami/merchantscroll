@@ -2,17 +2,17 @@
   "archetype": "Altar",
   "slug": "altar",
   "stats": {
-    "total_entries": 102,
-    "league_entries": 66,
-    "league_trophies": 66,
-    "league_trophies_yearly": 26,
+    "total_entries": 99,
+    "league_entries": 63,
+    "league_trophies": 63,
+    "league_trophies_yearly": 23,
     "challenge_appearances": 30,
     "challenge_wins": 114,
     "challenge_losses": 79,
     "irl_top8": 2,
     "challenge_win_pct": 59,
-    "league_trophy_rank_yearly": 37,
-    "league_trophy_rank_alltime": 36,
+    "league_trophy_rank_yearly": 38,
+    "league_trophy_rank_alltime": 37,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
@@ -64,54 +64,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-20",
-      "player": "Enz091",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-20",
-      "player": "TuggaNaxos",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-18",
-      "player": "Huskyman20035",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1812847695",
@@ -256,23 +208,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1112844295",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-11",
-      "player": "Entropy263",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 14,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-05-1712844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
@@ -291,6 +226,23 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-0212844295",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-11",
+      "player": "Entropy263",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 14,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1112844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
       "player": "Entropy263",
@@ -373,21 +325,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauperwave-2026-05-24-pauper-focaccia-trio",
-      "tournament": "Pauper Focaccia Trio — Genova",
-      "date": "2026-05-24",
-      "player": "Simone Ledda",
-      "colors": [
-        "B",
-        "G",
-        "U"
-      ],
-      "record": "",
-      "final_rank": 3,
-      "source": "pauperwave",
-      "type": "irl"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-05-2412842933",
       "tournament": "Pauper Challenge 32",
       "date": "2026-05-24",
@@ -405,6 +342,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauperwave-2026-05-24-pauper-focaccia-trio",
+      "tournament": "Pauper Focaccia Trio — Genova",
+      "date": "2026-05-24",
+      "player": "Simone Ledda",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "record": "",
+      "final_rank": 3,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-05-2112842891",
       "tournament": "Pauper Challenge 32",
       "date": "2026-05-21",
@@ -420,6 +372,52 @@
       "final_rank": 13,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-05-1510636",
+      "tournament": "Pauper League",
+      "date": "2026-05-15",
+      "player": "mimmON",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-05-1410636",
+      "tournament": "Pauper League",
+      "date": "2026-05-14",
+      "player": "SurgeonofDeath",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-05-1310636",
+      "tournament": "Pauper League",
+      "date": "2026-05-13",
+      "player": "Huskyman20035",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -444,23 +442,23 @@
       "count": 5
     },
     {
-      "player": "Huskyman20035",
-      "count": 3
-    },
-    {
       "player": "davidallen101",
       "count": 3
     },
     {
-      "player": "Nasello",
+      "player": "3vildr4k3",
       "count": 2
     },
     {
-      "player": "NMT_Sco94",
+      "player": "Loerien",
       "count": 2
     },
     {
-      "player": "yasiu86",
+      "player": "Gerry_Lo_Speziato",
+      "count": 2
+    },
+    {
+      "player": "_Moroii",
       "count": 2
     }
   ]

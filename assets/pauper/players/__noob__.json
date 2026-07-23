@@ -12,8 +12,8 @@
     "challenge_win_pct": 66,
     "league_trophy_rank_yearly": 9,
     "league_trophy_rank_alltime": 20,
-    "league_trophy_players_yearly": 1342,
-    "league_trophy_players_alltime": 2052
+    "league_trophy_players_yearly": 1343,
+    "league_trophy_players_alltime": 2053
   },
   "favorite_decks": [
     {
@@ -21,15 +21,15 @@
       "count": 148
     },
     {
+      "archetype": "UB Control",
+      "count": 4
+    },
+    {
       "archetype": "Jund Gardens",
       "count": 4
     },
     {
       "archetype": "Food Pestilence",
-      "count": 4
-    },
-    {
-      "archetype": "UB Control",
       "count": 4
     },
     {
@@ -41,7 +41,7 @@
       "count": 2
     },
     {
-      "archetype": "BW Refurbished",
+      "archetype": "Whale Combo",
       "count": 1
     },
     {
@@ -49,11 +49,11 @@
       "count": 1
     },
     {
-      "archetype": "White Weenie",
+      "archetype": "Rally",
       "count": 1
     },
     {
-      "archetype": "Rally",
+      "archetype": "White Weenie",
       "count": 1
     }
   ],
@@ -119,21 +119,6 @@
       "type": "other"
     },
     {
-      "site_name": "pauper-league-2026-07-1810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-18",
-      "player": "__Noob__",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-07-1812847695",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-18",
@@ -149,19 +134,19 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1712847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
+      "site_name": "pauper-league-2026-07-1810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-18",
       "player": "__Noob__",
       "archetype": "Gardens",
       "colors": [
         "B",
         "G"
       ],
-      "record": "4-2",
-      "final_rank": 16,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1612847682",
@@ -180,6 +165,21 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1512847682",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-17",
+      "player": "__Noob__",
+      "archetype": "Gardens",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "4-2",
+      "final_rank": 16,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1712847682",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-17",
       "player": "__Noob__",
@@ -224,21 +224,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0812846623",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-08",
-      "player": "__Noob__",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "3-2",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-07-0810855",
       "tournament": "Pauper League",
       "date": "2026-07-08",
@@ -259,6 +244,21 @@
       "date": "2026-07-08",
       "player": "__Noob__",
       "archetype": "Jund Gardens",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "3-2",
+      "final_rank": 17,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0812846623",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-08",
+      "player": "__Noob__",
+      "archetype": "Gardens",
       "colors": [
         "B",
         "G"
@@ -344,21 +344,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2512845643",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-25",
-      "player": "__Noob__",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-3",
-      "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-06-2412845643",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-25",
@@ -374,7 +359,22 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2512845631",
+      "site_name": "pauper-challenge-32-2026-06-2512845643",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-25",
+      "player": "__Noob__",
+      "archetype": "Gardens",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "4-3",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845631",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "__Noob__",
@@ -389,7 +389,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2412845631",
+      "site_name": "pauper-challenge-32-2026-06-2512845631",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "__Noob__",
@@ -419,7 +419,7 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1012844841",
+      "site_name": "pauper-challenge-32-2026-06-1912844841",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-19",
       "player": "__Noob__",

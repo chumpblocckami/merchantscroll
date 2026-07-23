@@ -3,22 +3,22 @@
   "display_name": "True-Name-Nemesis",
   "irl_name": null,
   "stats": {
-    "total_entries": 88,
-    "league_trophies": 58,
-    "league_trophies_yearly": 32,
+    "total_entries": 89,
+    "league_trophies": 59,
+    "league_trophies_yearly": 33,
     "challenge_wins": 112,
     "challenge_losses": 65,
     "irl_top8": 0,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 11,
+    "league_trophy_rank_yearly": 10,
     "league_trophy_rank_alltime": 16,
-    "league_trophy_players_yearly": 1342,
-    "league_trophy_players_alltime": 2052
+    "league_trophy_players_yearly": 1343,
+    "league_trophy_players_alltime": 2053
   },
   "favorite_decks": [
     {
       "archetype": "Food Pestilence",
-      "count": 62
+      "count": 63
     },
     {
       "archetype": "Gardens",
@@ -29,11 +29,11 @@
       "count": 2
     },
     {
-      "archetype": "Temur Control",
+      "archetype": "W Heroic",
       "count": 1
     },
     {
-      "archetype": "W Heroic",
+      "archetype": "Jund",
       "count": 1
     },
     {
@@ -45,11 +45,26 @@
       "count": 1
     },
     {
-      "archetype": "Jund",
+      "archetype": "Temur Control",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-23",
+      "player": "True-Name-Nemesis",
+      "archetype": "Food Pestilence",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-1810855",
       "tournament": "Pauper League",
@@ -246,11 +261,11 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2025-03-1712844320",
+      "site_name": "pauper-challenge-32-2026-06-1312844320",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-13",
       "player": "True-Name-Nemesis",
-      "archetype": "Temur Control",
+      "archetype": "UB Control",
       "colors": [
         "B",
         "U"
@@ -261,11 +276,11 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1312844320",
+      "site_name": "pauper-challenge-32-2025-03-1712844320",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-13",
       "player": "True-Name-Nemesis",
-      "archetype": "UB Control",
+      "archetype": "Temur Control",
       "colors": [
         "B",
         "U"
@@ -411,21 +426,6 @@
       "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-04-0110405",
-      "tournament": "Pauper League",
-      "date": "2026-04-01",
-      "player": "True-Name-Nemesis",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }
