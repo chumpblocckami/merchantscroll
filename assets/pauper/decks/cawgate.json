@@ -2,10 +2,10 @@
   "archetype": "Cawgate",
   "slug": "cawgate",
   "stats": {
-    "total_entries": 430,
-    "league_entries": 257,
-    "league_trophies": 257,
-    "league_trophies_yearly": 137,
+    "total_entries": 431,
+    "league_entries": 258,
+    "league_trophies": 258,
+    "league_trophies_yearly": 138,
     "challenge_appearances": 139,
     "challenge_wins": 575,
     "challenge_losses": 345,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-23",
+      "player": "mnaga",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-2212848161",
       "tournament": "Pauper Challenge 32",
@@ -379,27 +394,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-1410636",
-      "tournament": "Pauper League",
-      "date": "2026-05-14",
-      "player": "matutehyuga",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "mnaga",
-      "count": 45
+      "count": 46
     },
     {
       "player": "hjc",

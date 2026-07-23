@@ -3,15 +3,15 @@
   "display_name": "Xto2",
   "irl_name": null,
   "stats": {
-    "total_entries": 43,
-    "league_trophies": 34,
-    "league_trophies_yearly": 9,
+    "total_entries": 44,
+    "league_trophies": 35,
+    "league_trophies_yearly": 10,
     "challenge_wins": 24,
     "challenge_losses": 19,
     "irl_top8": 0,
     "challenge_win_pct": 56,
-    "league_trophy_rank_yearly": 119,
-    "league_trophy_rank_alltime": 39,
+    "league_trophy_rank_yearly": 103,
+    "league_trophy_rank_alltime": 38,
     "league_trophy_players_yearly": 1342,
     "league_trophy_players_alltime": 2052
   },
@@ -22,7 +22,7 @@
     },
     {
       "archetype": "BR Madness",
-      "count": 8
+      "count": 9
     },
     {
       "archetype": "R Madness",
@@ -42,6 +42,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-23",
+      "player": "Xto2",
+      "archetype": "BR Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-0210855",
       "tournament": "Pauper League",
@@ -410,20 +426,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-league-2025-08-089535",
-      "tournament": "pauper-league-2025-08-089535",
-      "date": "2025-08-08",
-      "player": "Xto2",
-      "archetype": "U Terror",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

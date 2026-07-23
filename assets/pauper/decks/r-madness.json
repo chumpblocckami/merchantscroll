@@ -2,10 +2,10 @@
   "archetype": "R Madness",
   "slug": "r-madness",
   "stats": {
-    "total_entries": 1996,
-    "league_entries": 1127,
-    "league_trophies": 1127,
-    "league_trophies_yearly": 555,
+    "total_entries": 1997,
+    "league_entries": 1128,
+    "league_trophies": 1128,
+    "league_trophies_yearly": 556,
     "challenge_appearances": 757,
     "challenge_wins": 2984,
     "challenge_losses": 1916,
@@ -22,6 +22,21 @@
       "tournament": "Pauper League",
       "date": "2026-07-23",
       "player": "Ed_Elric",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-23",
+      "player": "vikizin",
       "colors": [
         "B",
         "R",
@@ -376,21 +391,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-17",
-      "player": "Muril0Ambra",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -408,7 +408,7 @@
     },
     {
       "player": "vikizin",
-      "count": 41
+      "count": 42
     },
     {
       "player": "NMT_Sco94",
