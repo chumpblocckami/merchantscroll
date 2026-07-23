@@ -29,19 +29,19 @@
       "count": 9
     },
     {
-      "archetype": "Ponza",
-      "count": 4
-    },
-    {
       "archetype": "Jund",
       "count": 4
     },
     {
-      "archetype": "GU",
-      "count": 1
+      "archetype": "Ponza",
+      "count": 4
     },
     {
       "archetype": "BW Refurbished",
+      "count": 1
+    },
+    {
+      "archetype": "GU",
       "count": 1
     },
     {
@@ -49,11 +49,11 @@
       "count": 1
     },
     {
-      "archetype": "BR Madness",
+      "archetype": "Monsters",
       "count": 1
     },
     {
-      "archetype": "Monsters",
+      "archetype": "BR Madness",
       "count": 1
     }
   ],
@@ -123,7 +123,7 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2412845643",
+      "site_name": "pauper-challenge-32-2026-06-2512845643",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-25",
       "player": "sai199orz",
@@ -139,7 +139,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2512845643",
+      "site_name": "pauper-challenge-32-2026-06-2412845643",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-25",
       "player": "sai199orz",
@@ -331,22 +331,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2025-11-149750",
-      "tournament": "pauper-league-2025-11-149750",
-      "date": "2025-11-14",
-      "player": "sai199orz",
-      "archetype": "Elves",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-special-2025-11-1412824408",
       "tournament": "Pauper Challenge 32 Special",
       "date": "2025-11-14",
@@ -363,12 +347,13 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2025-10-179750",
-      "tournament": "pauper-league-2025-10-179750",
-      "date": "2025-10-17",
+      "site_name": "pauper-league-2025-11-149750",
+      "tournament": "pauper-league-2025-11-149750",
+      "date": "2025-11-14",
       "player": "sai199orz",
-      "archetype": "Ponza",
+      "archetype": "Elves",
       "colors": [
+        "B",
         "G",
         "R"
       ],
@@ -394,6 +379,21 @@
       "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-10-179750",
+      "tournament": "pauper-league-2025-10-179750",
+      "date": "2025-10-17",
+      "player": "sai199orz",
+      "archetype": "Ponza",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-10-0412818128",

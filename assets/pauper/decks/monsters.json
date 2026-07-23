@@ -2,10 +2,10 @@
   "archetype": "Monsters",
   "slug": "monsters",
   "stats": {
-    "total_entries": 382,
-    "league_entries": 219,
-    "league_trophies": 219,
-    "league_trophies_yearly": 74,
+    "total_entries": 380,
+    "league_entries": 217,
+    "league_trophies": 217,
+    "league_trophies_yearly": 72,
     "challenge_appearances": 138,
     "challenge_wins": 498,
     "challenge_losses": 366,
@@ -60,19 +60,19 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-07-1810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-18",
-      "player": "el-barto",
+      "site_name": "pauper-challenge-32-2026-07-1712847682",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-17",
+      "player": "PrimoShow1",
       "colors": [
+        "B",
         "G",
-        "R",
-        "W"
+        "R"
       ],
-      "record": "5-0",
-      "final_rank": null,
+      "record": "4-3",
+      "final_rank": 8,
       "source": "mtgo",
-      "type": "league"
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1612847682",
@@ -103,36 +103,6 @@
       "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1712847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "PrimoShow1",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "4-3",
-      "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-17",
-      "player": "el-barto",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-1510855",
@@ -250,20 +220,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1912844841",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-19",
-      "player": "PrimoShow1",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-3",
-      "final_rank": 25,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-06-1012844841",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-19",
@@ -278,7 +234,21 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1412844338",
+      "site_name": "pauper-challenge-32-2026-06-1912844841",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-19",
+      "player": "PrimoShow1",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1212844338",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-14",
       "player": "Ipnotico86",
@@ -292,7 +262,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1212844338",
+      "site_name": "pauper-challenge-32-2026-06-1412844338",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-14",
       "player": "Ipnotico86",
@@ -350,6 +320,21 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-challenge-32-2026-06-0612843798",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-06",
+      "player": "PNascimento",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-league-2026-06-0610636",
       "tournament": "Pauper League",
       "date": "2026-06-06",
@@ -365,19 +350,33 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-0612843798",
+      "site_name": "pauper-challenge-32-2026-06-0512843783",
       "tournament": "Pauper Challenge 32",
-      "date": "2026-06-06",
-      "player": "PNascimento",
+      "date": "2026-06-05",
+      "player": "PrimoShow1",
       "colors": [
         "G",
-        "R",
-        "W"
+        "R"
       ],
       "record": "4-2",
-      "final_rank": 10,
+      "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-0310636",
+      "tournament": "Pauper League",
+      "date": "2026-06-03",
+      "player": "Frecuenza12",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -394,31 +393,31 @@
       "count": 20
     },
     {
-      "player": "HelioLima",
-      "count": 14
-    },
-    {
       "player": "Ixidor29",
       "count": 14
     },
     {
-      "player": "Frecuenza12",
-      "count": 8
+      "player": "HelioLima",
+      "count": 14
     },
     {
       "player": "_against_",
       "count": 8
     },
     {
-      "player": "Vesuvan_Doppelganger",
-      "count": 6
+      "player": "Frecuenza12",
+      "count": 8
     },
     {
       "player": "donnetokyo",
       "count": 6
     },
     {
-      "player": "ultrajelle",
+      "player": "Vesuvan_Doppelganger",
+      "count": 6
+    },
+    {
+      "player": "knighthawkrex",
       "count": 5
     }
   ]

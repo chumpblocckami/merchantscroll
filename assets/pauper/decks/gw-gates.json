@@ -2,10 +2,10 @@
   "archetype": "GW Gates",
   "slug": "gw-gates",
   "stats": {
-    "total_entries": 180,
-    "league_entries": 101,
-    "league_trophies": 101,
-    "league_trophies_yearly": 78,
+    "total_entries": 179,
+    "league_entries": 100,
+    "league_trophies": 100,
+    "league_trophies_yearly": 77,
     "challenge_appearances": 75,
     "challenge_wins": 297,
     "challenge_losses": 176,
@@ -17,23 +17,6 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-07-2210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-22",
-      "player": "CKieling",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-challenge-32-2026-07-1212847145",
       "tournament": "Pauper Challenge 32",
@@ -227,22 +210,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-07-0210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-02",
-      "player": "Triso",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-07-0212846460",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-02",
@@ -259,19 +226,20 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2412845643",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-25",
-      "player": "PNascimento",
+      "site_name": "pauper-league-2026-07-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-02",
+      "player": "Triso",
       "colors": [
+        "B",
         "G",
         "R",
         "W"
       ],
-      "record": "3-3",
-      "final_rank": 23,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2512845643",
@@ -289,19 +257,17 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2512845625",
+      "site_name": "pauper-challenge-32-2026-06-2412845643",
       "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "Kirblinxy",
+      "date": "2026-06-25",
+      "player": "PNascimento",
       "colors": [
-        "B",
         "G",
         "R",
-        "U",
         "W"
       ],
-      "record": "2-2",
-      "final_rank": 29,
+      "record": "3-3",
+      "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -336,6 +302,23 @@
       ],
       "record": "2-4",
       "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "Kirblinxy",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "2-2",
+      "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -402,19 +385,36 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-06-1910636",
-      "tournament": "Pauper League",
+      "site_name": "pauper-challenge-32-2026-06-1012844841",
+      "tournament": "Pauper Challenge 32",
       "date": "2026-06-19",
-      "player": "Maccaciock",
+      "player": "Patrimattone",
       "colors": [
         "B",
         "G",
+        "R",
         "W"
       ],
-      "record": "5-0",
-      "final_rank": null,
+      "record": "3-3",
+      "final_rank": 28,
       "source": "mtgo",
-      "type": "league"
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1912844841",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-19",
+      "player": "Patrimattone",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 28,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -427,27 +427,27 @@
       "count": 18
     },
     {
-      "player": "Triso",
-      "count": 9
-    },
-    {
       "player": "Emogoblin",
       "count": 9
     },
     {
-      "player": "mehanske",
-      "count": 6
+      "player": "Triso",
+      "count": 9
     },
     {
       "player": "Maccaciock",
       "count": 6
     },
     {
-      "player": "TuggaNaxos",
-      "count": 5
+      "player": "mehanske",
+      "count": 6
     },
     {
       "player": "olati",
+      "count": 5
+    },
+    {
+      "player": "TuggaNaxos",
       "count": 5
     },
     {

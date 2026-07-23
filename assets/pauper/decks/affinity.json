@@ -2,10 +2,10 @@
   "archetype": "Affinity",
   "slug": "affinity",
   "stats": {
-    "total_entries": 975,
-    "league_entries": 381,
-    "league_trophies": 381,
-    "league_trophies_yearly": 224,
+    "total_entries": 976,
+    "league_entries": 382,
+    "league_trophies": 382,
+    "league_trophies_yearly": 225,
     "challenge_appearances": 519,
     "challenge_wins": 2146,
     "challenge_losses": 1299,
@@ -17,21 +17,6 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-last-chance-2026-07-2212847741",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-22",
-      "player": "CounterTopGarchomp",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "2-2",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
     {
       "site_name": "pauper-league-2026-07-2210855",
       "tournament": "Pauper League",
@@ -46,6 +31,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2212847741",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-22",
+      "player": "CounterTopGarchomp",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "2-2",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-2212848161",
@@ -95,7 +95,7 @@
       "site_name": "pauper-league-2026-07-2110855",
       "tournament": "Pauper League",
       "date": "2026-07-21",
-      "player": "Walker735",
+      "player": "Mirozel1",
       "colors": [
         "B",
         "R",
@@ -107,18 +107,19 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-last-chance-2026-07-2112847730",
-      "tournament": "Pauper Last Chance",
+      "site_name": "pauper-league-2026-07-2110855",
+      "tournament": "Pauper League",
       "date": "2026-07-21",
-      "player": "GigaChadSigmaMale",
+      "player": "Walker735",
       "colors": [
         "B",
+        "R",
         "U"
       ],
-      "record": "3-2",
+      "record": "5-0",
       "final_rank": null,
       "source": "mtgo",
-      "type": "other"
+      "type": "league"
     },
     {
       "site_name": "pauper-last-chance-2026-07-2112847738",
@@ -142,6 +143,20 @@
       "colors": [
         "B",
         "R",
+        "U"
+      ],
+      "record": "3-2",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2112847730",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "GigaChadSigmaMale",
+      "colors": [
+        "B",
         "U"
       ],
       "record": "3-2",
@@ -373,21 +388,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1310855",
-      "tournament": "Pauper League",
-      "date": "2026-07-13",
-      "player": "Elfu",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -424,11 +424,11 @@
       "count": 13
     },
     {
-      "player": "yahakara",
+      "player": "outZEROo",
       "count": 11
     },
     {
-      "player": "outZEROo",
+      "player": "yahakara",
       "count": 11
     }
   ]
