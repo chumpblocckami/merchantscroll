@@ -10,9 +10,9 @@
     "challenge_losses": 47,
     "irl_top8": 0,
     "challenge_win_pct": 47,
-    "league_trophy_rank_yearly": 302,
+    "league_trophy_rank_yearly": 303,
     "league_trophy_rank_alltime": 233,
-    "league_trophy_players_yearly": 1341,
+    "league_trophy_players_yearly": 1342,
     "league_trophy_players_alltime": 2052
   },
   "favorite_decks": [
@@ -29,15 +29,11 @@
       "count": 3
     },
     {
-      "archetype": "Jund",
-      "count": 2
-    },
-    {
-      "archetype": "Naya Gates",
-      "count": 2
-    },
-    {
       "archetype": "R Madness",
+      "count": 2
+    },
+    {
+      "archetype": "Jund",
       "count": 2
     },
     {
@@ -45,15 +41,19 @@
       "count": 2
     },
     {
+      "archetype": "Naya Gates",
+      "count": 2
+    },
+    {
       "archetype": "UB Faeries",
       "count": 1
     },
     {
-      "archetype": "BR Madness",
+      "archetype": "Food Pestilence",
       "count": 1
     },
     {
-      "archetype": "Spy",
+      "archetype": "BR Affinity",
       "count": 1
     }
   ],
@@ -77,11 +77,11 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2412845643",
+      "site_name": "pauper-challenge-32-2026-06-2512845643",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-25",
       "player": "giggimille",
-      "archetype": "Jund",
+      "archetype": "BR Affinity",
       "colors": [
         "B",
         "G",
@@ -93,11 +93,11 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2512845643",
+      "site_name": "pauper-challenge-32-2026-06-2412845643",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-25",
       "player": "giggimille",
-      "archetype": "BR Affinity",
+      "archetype": "Jund",
       "colors": [
         "B",
         "G",
@@ -336,22 +336,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2025-11-209987",
-      "tournament": "pauper-league-2025-11-209987",
-      "date": "2025-11-20",
-      "player": "giggimille",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2025-11-2012824768",
       "tournament": "Pauper Challenge 32",
       "date": "2025-11-20",
@@ -366,6 +350,22 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-11-209987",
+      "tournament": "pauper-league-2025-11-209987",
+      "date": "2025-11-20",
+      "player": "giggimille",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2025-11-159750",
