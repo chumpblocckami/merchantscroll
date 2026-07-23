@@ -2,10 +2,10 @@
   "archetype": "BR Affinity",
   "slug": "br-affinity",
   "stats": {
-    "total_entries": 35,
-    "league_entries": 12,
-    "league_trophies": 12,
-    "league_trophies_yearly": 12,
+    "total_entries": 34,
+    "league_entries": 11,
+    "league_trophies": 11,
+    "league_trophies_yearly": 11,
     "challenge_appearances": 19,
     "challenge_wins": 63,
     "challenge_losses": 56,
@@ -18,27 +18,13 @@
   },
   "recent_entries": [
     {
-      "site_name": "pauper-league-2026-07-2210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-22",
-      "player": "_blaze66",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-07-2110855",
       "tournament": "Pauper League",
       "date": "2026-07-21",
-      "player": "Ciri80",
+      "player": "Mirozel1",
       "colors": [
         "B",
+        "R",
         "U"
       ],
       "record": "5-0",
@@ -387,15 +373,25 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2010636",
+      "tournament": "Pauper League",
+      "date": "2026-06-20",
+      "player": "KuramaKev",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "AlessandroPiraccini",
-      "count": 4
-    },
-    {
-      "player": "_blaze66",
       "count": 4
     },
     {
@@ -408,6 +404,10 @@
     },
     {
       "player": "Pafru",
+      "count": 3
+    },
+    {
+      "player": "_blaze66",
       "count": 3
     },
     {
@@ -427,7 +427,7 @@
       "count": 2
     },
     {
-      "player": "Ciri80",
+      "player": "Mirozel1",
       "count": 1
     }
   ]

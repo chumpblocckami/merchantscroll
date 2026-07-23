@@ -2,10 +2,10 @@
   "archetype": "UB Terror",
   "slug": "ub-terror",
   "stats": {
-    "total_entries": 573,
-    "league_entries": 297,
-    "league_trophies": 297,
-    "league_trophies_yearly": 155,
+    "total_entries": 572,
+    "league_entries": 296,
+    "league_trophies": 296,
+    "league_trophies_yearly": 154,
     "challenge_appearances": 243,
     "challenge_wins": 1014,
     "challenge_losses": 585,
@@ -33,6 +33,21 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-07-2310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-23",
+      "player": "Sneax7",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-last-chance-2026-07-2212847741",
       "tournament": "Pauper Last Chance",
       "date": "2026-07-22",
@@ -46,21 +61,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-22",
-      "player": "Bielzito",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-2210855",
@@ -363,21 +363,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-07-1710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-17",
-      "player": "Baro_94",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-07-1612847678",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-16",
@@ -391,6 +376,20 @@
       "final_rank": 20,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-12",
+      "player": "bonzin",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [

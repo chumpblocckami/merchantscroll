@@ -2,10 +2,10 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 197,
-    "league_entries": 84,
-    "league_trophies": 84,
-    "league_trophies_yearly": 56,
+    "total_entries": 199,
+    "league_entries": 86,
+    "league_trophies": 86,
+    "league_trophies_yearly": 58,
     "challenge_appearances": 100,
     "challenge_wins": 348,
     "challenge_losses": 254,
@@ -88,6 +88,20 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-07-2210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-22",
+      "player": "Mindartis",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-2212848161",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-22",
@@ -142,6 +156,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-20",
+      "player": "19LNC91",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-1910855",
@@ -336,34 +364,6 @@
       ],
       "record": "3-3",
       "final_rank": 22,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0312847177",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-15",
-      "player": "Ixidor29",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1512847177",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-15",
-      "player": "Ixidor29",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
     }
