@@ -2,10 +2,10 @@
   "archetype": "RG Storm",
   "slug": "rg-storm",
   "stats": {
-    "total_entries": 185,
-    "league_entries": 131,
-    "league_trophies": 131,
-    "league_trophies_yearly": 118,
+    "total_entries": 187,
+    "league_entries": 133,
+    "league_trophies": 133,
+    "league_trophies_yearly": 120,
     "challenge_appearances": 40,
     "challenge_wins": 145,
     "challenge_losses": 101,
@@ -21,7 +21,37 @@
       "site_name": "pauper-league-2026-07-2310855",
       "tournament": "Pauper League",
       "date": "2026-07-23",
+      "player": "tzuizz",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-23",
       "player": "Ciri80",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-23",
+      "player": "saidin.raken",
       "colors": [
         "G",
         "R",
@@ -333,21 +363,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0812846623",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-08",
-      "player": "saidin.raken",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 9,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-07-0810855",
       "tournament": "Pauper League",
       "date": "2026-07-08",
@@ -376,27 +391,12 @@
       "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-07",
-      "player": "Onybur",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "saidin.raken",
-      "count": 41
+      "count": 42
     },
     {
       "player": "DataPusher",
@@ -408,7 +408,11 @@
     },
     {
       "player": "tzuizz",
-      "count": 7
+      "count": 8
+    },
+    {
+      "player": "lumely",
+      "count": 6
     },
     {
       "player": "vincent99",
@@ -419,19 +423,15 @@
       "count": 6
     },
     {
-      "player": "lumely",
-      "count": 6
+      "player": "CosmicCharles",
+      "count": 5
     },
     {
-      "player": "Abisd94",
+      "player": "Pilopanga",
       "count": 5
     },
     {
       "player": "txouzo",
-      "count": 5
-    },
-    {
-      "player": "CosmicCharles",
       "count": 5
     }
   ]

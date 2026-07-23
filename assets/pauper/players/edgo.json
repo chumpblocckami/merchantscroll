@@ -17,11 +17,11 @@
   },
   "favorite_decks": [
     {
-      "archetype": "BR Madness",
+      "archetype": "White Weenie",
       "count": 5
     },
     {
-      "archetype": "White Weenie",
+      "archetype": "BR Madness",
       "count": 5
     },
     {
@@ -29,19 +29,19 @@
       "count": 4
     },
     {
-      "archetype": "Jund",
-      "count": 3
-    },
-    {
       "archetype": "Elves",
       "count": 3
     },
     {
-      "archetype": "UB Faeries",
-      "count": 2
+      "archetype": "Jund",
+      "count": 3
     },
     {
       "archetype": "Food Pestilence",
+      "count": 2
+    },
+    {
+      "archetype": "UB Faeries",
       "count": 2
     },
     {
@@ -107,21 +107,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-01-1712830048",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-17",
-      "player": "edgo",
-      "archetype": "Food Pestilence",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "3-3",
-      "final_rank": 28,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-01-179987",
       "tournament": "pauper-league-2026-01-179987",
       "date": "2026-01-17",
@@ -151,6 +136,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-01-1712830048",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-01-17",
+      "player": "edgo",
+      "archetype": "Food Pestilence",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "3-3",
+      "final_rank": 28,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2025-12-2812828104",
@@ -428,8 +428,8 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-05-099081",
-      "tournament": "pauper-league-2025-05-099081",
+      "site_name": "pauper-challenge-32-2025-05-0912777329",
+      "tournament": "Pauper Challenge 32",
       "date": "2025-05-09",
       "player": "edgo",
       "archetype": "Elves",
@@ -440,10 +440,10 @@
         "U",
         "W"
       ],
-      "record": "5-0",
-      "final_rank": null,
+      "record": "3-3",
+      "final_rank": 19,
       "source": "mtgo",
-      "type": "league"
+      "type": "challenge"
     }
   ]
 }

@@ -29,15 +29,7 @@
       "count": 3
     },
     {
-      "archetype": "R Madness",
-      "count": 2
-    },
-    {
       "archetype": "Jund",
-      "count": 2
-    },
-    {
-      "archetype": "Flicker Tron",
       "count": 2
     },
     {
@@ -45,15 +37,23 @@
       "count": 2
     },
     {
+      "archetype": "R Madness",
+      "count": 2
+    },
+    {
+      "archetype": "Flicker Tron",
+      "count": 2
+    },
+    {
       "archetype": "UB Faeries",
       "count": 1
     },
     {
-      "archetype": "Food Pestilence",
+      "archetype": "BR Madness",
       "count": 1
     },
     {
-      "archetype": "BR Affinity",
+      "archetype": "Spy",
       "count": 1
     }
   ],
@@ -77,11 +77,11 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2512845643",
+      "site_name": "pauper-challenge-32-2026-06-2412845643",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-25",
       "player": "giggimille",
-      "archetype": "BR Affinity",
+      "archetype": "Jund",
       "colors": [
         "B",
         "G",
@@ -93,11 +93,11 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2412845643",
+      "site_name": "pauper-challenge-32-2026-06-2512845643",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-25",
       "player": "giggimille",
-      "archetype": "Jund",
+      "archetype": "BR Affinity",
       "colors": [
         "B",
         "G",
@@ -336,22 +336,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2025-11-2012824768",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-11-20",
-      "player": "giggimille",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "1-4",
-      "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2025-11-209987",
       "tournament": "pauper-league-2025-11-209987",
       "date": "2025-11-20",
@@ -366,6 +350,22 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-11-2012824768",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-11-20",
+      "player": "giggimille",
+      "archetype": "Gardens",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "1-4",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-league-2025-11-159750",
