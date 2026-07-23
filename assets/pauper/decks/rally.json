@@ -2,10 +2,10 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 1160,
-    "league_entries": 628,
-    "league_trophies": 628,
-    "league_trophies_yearly": 288,
+    "total_entries": 1163,
+    "league_entries": 631,
+    "league_trophies": 631,
+    "league_trophies_yearly": 291,
     "challenge_appearances": 472,
     "challenge_wins": 1822,
     "challenge_losses": 1207,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 3,
     "league_trophy_rank_alltime": 3,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -133,6 +133,20 @@
       "tournament": "Pauper League",
       "date": "2026-07-21",
       "player": "Legocop80",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-21",
+      "player": "GilbertoAntunes",
       "colors": [
         "G",
         "R"
@@ -350,20 +364,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2012847724",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-20",
-      "player": "toondoslav",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "1-1",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
     }
   ],
   "top_pilots": [
@@ -381,7 +381,7 @@
     },
     {
       "player": "GilbertoAntunes",
-      "count": 37
+      "count": 38
     },
     {
       "player": "Niederschatten",

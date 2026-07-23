@@ -3,15 +3,15 @@
   "display_name": "_Abijhavs_",
   "irl_name": null,
   "stats": {
-    "total_entries": 52,
-    "league_trophies": 28,
-    "league_trophies_yearly": 20,
+    "total_entries": 53,
+    "league_trophies": 29,
+    "league_trophies_yearly": 21,
     "challenge_wins": 78,
     "challenge_losses": 68,
     "irl_top8": 0,
     "challenge_win_pct": 53,
-    "league_trophy_rank_yearly": 30,
-    "league_trophy_rank_alltime": 52,
+    "league_trophy_rank_yearly": 28,
+    "league_trophy_rank_alltime": 50,
     "league_trophy_players_yearly": 1344,
     "league_trophy_players_alltime": 2053
   },
@@ -29,11 +29,30 @@
       "count": 1
     },
     {
+      "archetype": "BG Ponza",
+      "count": 1
+    },
+    {
       "archetype": "Jeskai",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-23",
+      "player": "_Abijhavs_",
+      "archetype": "BG Ponza",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-1610855",
       "tournament": "Pauper League",
@@ -393,21 +412,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-2212836012",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-22",
-      "player": "_Abijhavs_",
-      "archetype": "UB Control",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }
