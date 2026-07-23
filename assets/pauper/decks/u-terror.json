@@ -2,10 +2,10 @@
   "archetype": "U Terror",
   "slug": "u-terror",
   "stats": {
-    "total_entries": 1766,
-    "league_entries": 818,
-    "league_trophies": 818,
-    "league_trophies_yearly": 343,
+    "total_entries": 1767,
+    "league_entries": 819,
+    "league_trophies": 819,
+    "league_trophies_yearly": 344,
     "challenge_appearances": 836,
     "challenge_wins": 3445,
     "challenge_losses": 2070,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 2,
     "league_trophy_rank_alltime": 2,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -22,6 +22,20 @@
       "tournament": "Pauper League",
       "date": "2026-07-22",
       "player": "EttoreMi",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-22",
+      "player": "carvs",
       "colors": [
         "R",
         "U"
@@ -352,20 +366,6 @@
       "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-18",
-      "player": "Paul16",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -383,7 +383,7 @@
     },
     {
       "player": "carvs",
-      "count": 66
+      "count": 67
     },
     {
       "player": "fsst",
