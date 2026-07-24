@@ -2,10 +2,10 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 1175,
-    "league_entries": 631,
-    "league_trophies": 631,
-    "league_trophies_yearly": 291,
+    "total_entries": 1176,
+    "league_entries": 632,
+    "league_trophies": 632,
+    "league_trophies_yearly": 292,
     "challenge_appearances": 484,
     "challenge_wins": 1872,
     "challenge_losses": 1238,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-24",
+      "player": "kalko",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-2312848178",
       "tournament": "Pauper Challenge 32",
@@ -347,20 +361,6 @@
         "R"
       ],
       "record": "3-1",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2112847738",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "MatheusPonciano",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-2",
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
