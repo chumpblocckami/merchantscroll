@@ -2,21 +2,35 @@
   "archetype": "UB Control",
   "slug": "ub-control",
   "stats": {
-    "total_entries": 158,
-    "league_entries": 106,
-    "league_trophies": 106,
-    "league_trophies_yearly": 59,
+    "total_entries": 159,
+    "league_entries": 107,
+    "league_trophies": 107,
+    "league_trophies_yearly": 60,
     "challenge_appearances": 48,
     "challenge_wins": 162,
     "challenge_losses": 135,
     "irl_top8": 3,
     "challenge_win_pct": 55,
-    "league_trophy_rank_yearly": 28,
-    "league_trophy_rank_alltime": 27,
+    "league_trophy_rank_yearly": 27,
+    "league_trophy_rank_alltime": 26,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-1910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-19",
+      "player": "Gius1901",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-1610855",
       "tournament": "Pauper League",
@@ -89,20 +103,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-06-1810636",
-      "tournament": "Pauper League",
-      "date": "2026-06-18",
-      "player": "_Abijhavs_",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-06-1812844831",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-18",
@@ -115,6 +115,20 @@
       "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1810636",
+      "tournament": "Pauper League",
+      "date": "2026-06-18",
+      "player": "_Abijhavs_",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1412844338",
@@ -161,20 +175,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-06-1210636",
-      "tournament": "Pauper League",
-      "date": "2026-06-12",
-      "player": "elle992",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-06-1212844305",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-12",
@@ -188,6 +188,20 @@
       "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-1210636",
+      "tournament": "Pauper League",
+      "date": "2026-06-12",
+      "player": "elle992",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1112844295",
@@ -361,20 +375,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-1510636",
-      "tournament": "Pauper League",
-      "date": "2026-05-15",
-      "player": "morpheus38",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -399,15 +399,7 @@
       "count": 4
     },
     {
-      "player": "Mikibairon96",
-      "count": 4
-    },
-    {
       "player": "ivanguille",
-      "count": 4
-    },
-    {
-      "player": "barff",
       "count": 4
     },
     {
@@ -415,7 +407,15 @@
       "count": 4
     },
     {
-      "player": "elle992",
+      "player": "barff",
+      "count": 4
+    },
+    {
+      "player": "Mikibairon96",
+      "count": 4
+    },
+    {
+      "player": "celobee",
       "count": 3
     }
   ]
