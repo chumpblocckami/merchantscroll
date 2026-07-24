@@ -3,7 +3,7 @@
   "display_name": "cicciogire",
   "irl_name": null,
   "stats": {
-    "total_entries": 28,
+    "total_entries": 29,
     "league_trophies": 2,
     "league_trophies_yearly": 1,
     "challenge_wins": 99,
@@ -12,13 +12,13 @@
     "challenge_win_pct": 66,
     "league_trophy_rank_yearly": 857,
     "league_trophy_rank_alltime": 951,
-    "league_trophy_players_yearly": 1348,
-    "league_trophy_players_alltime": 2056
+    "league_trophy_players_yearly": 1350,
+    "league_trophy_players_alltime": 2057
   },
   "favorite_decks": [
     {
       "archetype": "UB Terror",
-      "count": 10
+      "count": 11
     },
     {
       "archetype": "U Terror",
@@ -42,6 +42,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-last-chance-2026-07-1912847738",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "cicciogire",
+      "archetype": "UB Terror",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "0-1",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
     {
       "site_name": "pauper-last-chance-2026-07-2112847738",
       "tournament": "Pauper Last Chance",
@@ -418,22 +434,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-special-2025-11-1312824394",
-      "tournament": "Pauper Challenge 32 Special",
-      "date": "2025-11-13",
-      "player": "cicciogire",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "7-1",
-      "final_rank": 3,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

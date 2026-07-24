@@ -2,7 +2,7 @@
   "archetype": "BG Fog",
   "slug": "bg-fog",
   "stats": {
-    "total_entries": 103,
+    "total_entries": 104,
     "league_entries": 53,
     "league_trophies": 53,
     "league_trophies_yearly": 30,
@@ -17,6 +17,22 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-last-chance-2026-07-1912847738",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "ASDFGHJKJHGFDSA",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "4-1",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
     {
       "site_name": "pauper-last-chance-2026-07-2112847738",
       "tournament": "Pauper Last Chance",
@@ -396,22 +412,6 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-03-2910405",
-      "tournament": "Pauper League",
-      "date": "2026-03-29",
-      "player": "ASDFGHJKJHGFDSA",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -420,15 +420,15 @@
       "count": 28
     },
     {
+      "player": "ASDFGHJKJHGFDSA",
+      "count": 13
+    },
+    {
       "player": "Kirblinxy",
       "count": 12
     },
     {
       "player": "IvernOP",
-      "count": 12
-    },
-    {
-      "player": "ASDFGHJKJHGFDSA",
       "count": 12
     },
     {

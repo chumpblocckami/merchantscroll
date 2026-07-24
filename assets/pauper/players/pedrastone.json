@@ -3,7 +3,7 @@
   "display_name": "PedraStone",
   "irl_name": null,
   "stats": {
-    "total_entries": 83,
+    "total_entries": 84,
     "league_trophies": 0,
     "league_trophies_yearly": 0,
     "challenge_wins": 330,
@@ -12,8 +12,8 @@
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": null,
-    "league_trophy_players_yearly": 1348,
-    "league_trophy_players_alltime": 2056
+    "league_trophy_players_yearly": 1350,
+    "league_trophy_players_alltime": 2057
   },
   "favorite_decks": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "archetype": "Rally",
-      "count": 20
+      "count": 21
     },
     {
       "archetype": "Affinity",
@@ -58,6 +58,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-last-chance-2026-07-1912847738",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "PedraStone",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "2-3",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
     {
       "site_name": "pauper-last-chance-2026-07-2112847730",
       "tournament": "Pauper Last Chance",
@@ -423,20 +438,6 @@
       ],
       "record": "3-3",
       "final_rank": 16,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2312844831",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-18",
-      "player": "PedraStone",
-      "archetype": "White Weenie",
-      "colors": [
-        "W"
-      ],
-      "record": "7-2",
-      "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
     }

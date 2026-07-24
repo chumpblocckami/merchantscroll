@@ -2,7 +2,7 @@
   "archetype": "RG Storm",
   "slug": "rg-storm",
   "stats": {
-    "total_entries": 194,
+    "total_entries": 196,
     "league_entries": 134,
     "league_trophies": 134,
     "league_trophies_yearly": 121,
@@ -151,6 +151,36 @@
       "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-1912847738",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "slaxx",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "1-1",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-1912847738",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "Cachorrowo",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "4-1",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
     },
     {
       "site_name": "pauper-last-chance-2026-07-2112847738",
@@ -361,36 +391,6 @@
       "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-09",
-      "player": "jesusgreen",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-09",
-      "player": "Sandokan92",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -427,11 +427,11 @@
       "count": 5
     },
     {
-      "player": "Pilopanga",
+      "player": "Cachorrowo",
       "count": 5
     },
     {
-      "player": "txouzo",
+      "player": "Pilopanga",
       "count": 5
     }
   ]

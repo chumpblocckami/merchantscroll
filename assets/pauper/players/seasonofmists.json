@@ -3,7 +3,7 @@
   "display_name": "seasonofmists",
   "irl_name": null,
   "stats": {
-    "total_entries": 79,
+    "total_entries": 80,
     "league_trophies": 4,
     "league_trophies_yearly": 0,
     "challenge_wins": 349,
@@ -12,8 +12,8 @@
     "challenge_win_pct": 70,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": 659,
-    "league_trophy_players_yearly": 1348,
-    "league_trophy_players_alltime": 2056
+    "league_trophy_players_yearly": 1350,
+    "league_trophy_players_alltime": 2057
   },
   "favorite_decks": [
     {
@@ -21,12 +21,12 @@
       "count": 36
     },
     {
-      "archetype": "Dredge",
+      "archetype": "Naya Gates",
       "count": 19
     },
     {
-      "archetype": "Naya Gates",
-      "count": 18
+      "archetype": "Dredge",
+      "count": 19
     },
     {
       "archetype": "Elves",
@@ -50,6 +50,24 @@
       "site_name": "pauper-last-chance-2026-07-2212847741",
       "tournament": "Pauper Last Chance",
       "date": "2026-07-22",
+      "player": "seasonofmists",
+      "archetype": "Naya Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "1-1",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-1912847738",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
       "player": "seasonofmists",
       "archetype": "Naya Gates",
       "colors": [
@@ -458,22 +476,6 @@
       ],
       "record": "8-1",
       "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-1612839659",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-16",
-      "player": "seasonofmists",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
     }
