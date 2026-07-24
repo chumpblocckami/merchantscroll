@@ -2,17 +2,17 @@
   "archetype": "Altar",
   "slug": "altar",
   "stats": {
-    "total_entries": 99,
-    "league_entries": 63,
-    "league_trophies": 63,
-    "league_trophies_yearly": 23,
+    "total_entries": 103,
+    "league_entries": 67,
+    "league_trophies": 67,
+    "league_trophies_yearly": 27,
     "challenge_appearances": 30,
     "challenge_wins": 114,
     "challenge_losses": 79,
     "irl_top8": 2,
     "challenge_win_pct": 59,
-    "league_trophy_rank_yearly": 38,
-    "league_trophy_rank_alltime": 37,
+    "league_trophy_rank_yearly": 37,
+    "league_trophy_rank_alltime": 36,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
@@ -26,6 +26,23 @@
         "B",
         "G",
         "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-23",
+      "player": "Kuriboh",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -66,6 +83,38 @@
       "type": "other"
     },
     {
+      "site_name": "pauper-league-2026-07-2010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-20",
+      "player": "Enz091",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-20",
+      "player": "TuggaNaxos",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-1812847695",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-18",
@@ -81,6 +130,22 @@
       "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-18",
+      "player": "Huskyman20035",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-1610855",
@@ -355,69 +420,6 @@
       "final_rank": 3,
       "source": "pauperwave",
       "type": "irl"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2112842891",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-21",
-      "player": "Entropy263",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-05-1510636",
-      "tournament": "Pauper League",
-      "date": "2026-05-15",
-      "player": "mimmON",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-1410636",
-      "tournament": "Pauper League",
-      "date": "2026-05-14",
-      "player": "SurgeonofDeath",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-1310636",
-      "tournament": "Pauper League",
-      "date": "2026-05-13",
-      "player": "Huskyman20035",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -446,6 +448,10 @@
       "count": 3
     },
     {
+      "player": "Huskyman20035",
+      "count": 3
+    },
+    {
       "player": "3vildr4k3",
       "count": 2
     },
@@ -455,10 +461,6 @@
     },
     {
       "player": "Gerry_Lo_Speziato",
-      "count": 2
-    },
-    {
-      "player": "_Moroii",
       "count": 2
     }
   ]
