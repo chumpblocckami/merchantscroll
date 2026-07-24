@@ -2,49 +2,21 @@
   "archetype": "Pingers",
   "slug": "pingers",
   "stats": {
-    "total_entries": 321,
-    "league_entries": 195,
-    "league_trophies": 195,
-    "league_trophies_yearly": 27,
-    "challenge_appearances": 109,
-    "challenge_wins": 449,
-    "challenge_losses": 290,
+    "total_entries": 318,
+    "league_entries": 194,
+    "league_trophies": 194,
+    "league_trophies_yearly": 26,
+    "challenge_appearances": 107,
+    "challenge_wins": 435,
+    "challenge_losses": 288,
     "irl_top8": 7,
-    "challenge_win_pct": 61,
+    "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 37,
     "league_trophy_rank_alltime": 20,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-challenge-32-2026-07-2412848188",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-24",
-      "player": "vini_torres",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "9-0",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-2412848188",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-24",
-      "player": "moon11",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-2",
-      "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
-    },
     {
       "site_name": "pauper-league-2026-07-2410855",
       "tournament": "Pauper League",
@@ -105,20 +77,6 @@
       "site_name": "pauper-league-2026-07-2110855",
       "tournament": "Pauper League",
       "date": "2026-07-21",
-      "player": "davidbrito",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-18",
       "player": "davidbrito",
       "colors": [
         "G",
@@ -360,12 +318,52 @@
       "final_rank": 19,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845631",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "vini_torres",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-3",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845631",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "SaculSueahtam",
+      "colors": [
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2210636",
+      "tournament": "Pauper League",
+      "date": "2026-06-22",
+      "player": "ziofrancone",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "vini_torres",
-      "count": 23
+      "count": 22
     },
     {
       "player": "boom_bust",

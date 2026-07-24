@@ -2,13 +2,13 @@
   "archetype": "Bogle",
   "slug": "bogle",
   "stats": {
-    "total_entries": 254,
+    "total_entries": 255,
     "league_entries": 103,
     "league_trophies": 103,
     "league_trophies_yearly": 32,
-    "challenge_appearances": 144,
-    "challenge_wins": 569,
-    "challenge_losses": 372,
+    "challenge_appearances": 145,
+    "challenge_wins": 572,
+    "challenge_losses": 375,
     "irl_top8": 2,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 33,
@@ -82,6 +82,23 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1912847695",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-18",
+      "player": "ArtemisNix",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 18,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1812847695",
@@ -411,23 +428,6 @@
       ],
       "record": "4-3",
       "final_rank": 19,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0512845719",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-01",
-      "player": "QueMario",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-2",
-      "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
     }

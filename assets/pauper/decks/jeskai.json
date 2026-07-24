@@ -2,13 +2,13 @@
   "archetype": "Jeskai",
   "slug": "jeskai",
   "stats": {
-    "total_entries": 356,
+    "total_entries": 359,
     "league_entries": 201,
     "league_trophies": 201,
     "league_trophies_yearly": 137,
-    "challenge_appearances": 134,
-    "challenge_wins": 560,
-    "challenge_losses": 327,
+    "challenge_appearances": 137,
+    "challenge_wins": 571,
+    "challenge_losses": 334,
     "irl_top8": 9,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 13,
@@ -303,6 +303,37 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-07-1912847695",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-18",
+      "player": "Drugo",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 16,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1912847695",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-18",
+      "player": "newbarola",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 20,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-1812847695",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-18",
@@ -364,38 +395,6 @@
       "final_rank": 13,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1512847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "vikizin",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1712847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "vikizin",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -409,7 +408,7 @@
     },
     {
       "player": "vikizin",
-      "count": 19
+      "count": 20
     },
     {
       "player": "TSPJendrek",

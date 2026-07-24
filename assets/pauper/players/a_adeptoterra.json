@@ -3,11 +3,11 @@
   "display_name": "A_AdeptoTerra",
   "irl_name": null,
   "stats": {
-    "total_entries": 65,
+    "total_entries": 66,
     "league_trophies": 13,
     "league_trophies_yearly": 3,
-    "challenge_wins": 206,
-    "challenge_losses": 109,
+    "challenge_wins": 208,
+    "challenge_losses": 110,
     "irl_top8": 0,
     "challenge_win_pct": 65,
     "league_trophy_rank_yearly": 368,
@@ -26,7 +26,7 @@
     },
     {
       "archetype": "R Madness",
-      "count": 9
+      "count": 10
     },
     {
       "archetype": "Elves",
@@ -79,7 +79,7 @@
       "tournament": "Pauper League",
       "date": "2026-07-20",
       "player": "A_AdeptoTerra",
-      "archetype": "Monsters Tron",
+      "archetype": "Monster Tron",
       "colors": [
         "B",
         "G",
@@ -90,6 +90,22 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1912847695",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-18",
+      "player": "A_AdeptoTerra",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "2-1",
+      "final_rank": 31,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1812847695",
@@ -440,21 +456,6 @@
       ],
       "record": "3-3",
       "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-02-1212833008",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-02-12",
-      "player": "A_AdeptoTerra",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-2",
-      "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
     }

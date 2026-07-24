@@ -2,37 +2,21 @@
   "archetype": "Monsters Tron",
   "slug": "monsters-tron",
   "stats": {
-    "total_entries": 148,
-    "league_entries": 95,
-    "league_trophies": 95,
-    "league_trophies_yearly": 89,
-    "challenge_appearances": 45,
-    "challenge_wins": 187,
-    "challenge_losses": 115,
+    "total_entries": 145,
+    "league_entries": 93,
+    "league_trophies": 93,
+    "league_trophies_yearly": 87,
+    "challenge_appearances": 44,
+    "challenge_wins": 184,
+    "challenge_losses": 112,
     "irl_top8": 6,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 20,
-    "league_trophy_rank_alltime": 32,
+    "league_trophy_rank_alltime": 33,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-challenge-32-2026-07-2412848188",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-24",
-      "player": "Echanez",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
-    },
     {
       "site_name": "pauper-league-2026-07-2310855",
       "tournament": "Pauper League",
@@ -52,38 +36,6 @@
       "tournament": "Pauper League",
       "date": "2026-07-21",
       "player": "brick_",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-20",
-      "player": "A_AdeptoTerra",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-20",
-      "player": "CrilaPeoty",
       "colors": [
         "G",
         "R",
@@ -390,12 +342,60 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-05-3110636",
+      "tournament": "Pauper League",
+      "date": "2026-05-31",
+      "player": "HelioLima",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-05-3010636",
+      "tournament": "Pauper League",
+      "date": "2026-05-30",
+      "player": "Casanova_13",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-05-3010636",
+      "tournament": "Pauper League",
+      "date": "2026-05-30",
+      "player": "ple",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "Echanez",
-      "count": 9
+      "count": 8
     },
     {
       "player": "jadencamelot",

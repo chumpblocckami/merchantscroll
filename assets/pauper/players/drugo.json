@@ -3,11 +3,11 @@
   "display_name": "Drugo",
   "irl_name": null,
   "stats": {
-    "total_entries": 38,
+    "total_entries": 39,
     "league_trophies": 11,
     "league_trophies_yearly": 9,
-    "challenge_wins": 111,
-    "challenge_losses": 58,
+    "challenge_wins": 115,
+    "challenge_losses": 60,
     "irl_top8": 0,
     "challenge_win_pct": 66,
     "league_trophy_rank_yearly": 105,
@@ -29,15 +29,15 @@
       "count": 4
     },
     {
+      "archetype": "Jeskai",
+      "count": 2
+    },
+    {
       "archetype": "Affinity",
       "count": 1
     },
     {
       "archetype": "Ponza",
-      "count": 1
-    },
-    {
-      "archetype": "Jeskai",
       "count": 1
     },
     {
@@ -103,6 +103,23 @@
       ],
       "record": "5-3",
       "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1912847695",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-18",
+      "player": "Drugo",
+      "archetype": "Jeskai",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 16,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -440,23 +457,6 @@
       "final_rank": 3,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-01-079987",
-      "tournament": "pauper-league-2026-01-079987",
-      "date": "2026-01-07",
-      "player": "Drugo",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

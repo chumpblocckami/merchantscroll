@@ -3,11 +3,11 @@
   "display_name": "Niederschatten",
   "irl_name": null,
   "stats": {
-    "total_entries": 108,
+    "total_entries": 109,
     "league_trophies": 49,
     "league_trophies_yearly": 26,
-    "challenge_wins": 257,
-    "challenge_losses": 131,
+    "challenge_wins": 262,
+    "challenge_losses": 133,
     "irl_top8": 0,
     "challenge_win_pct": 66,
     "league_trophy_rank_yearly": 20,
@@ -96,6 +96,22 @@
       "date": "2026-07-17",
       "player": "Niederschatten",
       "archetype": "Monsters Tron",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1812847682",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-17",
+      "player": "Niederschatten",
+      "archetype": "Monster Tron",
       "colors": [
         "G",
         "R",
@@ -414,22 +430,6 @@
       "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-05-2310636",
-      "tournament": "Pauper League",
-      "date": "2026-05-23",
-      "player": "Niederschatten",
-      "archetype": "Jeskai",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

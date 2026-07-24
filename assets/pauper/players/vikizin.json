@@ -3,11 +3,11 @@
   "display_name": "vikizin",
   "irl_name": null,
   "stats": {
-    "total_entries": 134,
+    "total_entries": 135,
     "league_trophies": 112,
     "league_trophies_yearly": 48,
-    "challenge_wins": 83,
-    "challenge_losses": 51,
+    "challenge_wins": 87,
+    "challenge_losses": 53,
     "irl_top8": 0,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 5,
@@ -22,7 +22,7 @@
     },
     {
       "archetype": "Jeskai",
-      "count": 19
+      "count": 20
     },
     {
       "archetype": "UR Control",
@@ -142,6 +142,23 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1712847682",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-17",
+      "player": "vikizin",
+      "archetype": "Jeskai",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1812847682",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-17",
       "player": "vikizin",
@@ -451,22 +468,6 @@
       "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-04-2610636",
-      "tournament": "Pauper League",
-      "date": "2026-04-26",
-      "player": "vikizin",
-      "archetype": "UB Control",
-      "colors": [
-        "B",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }
