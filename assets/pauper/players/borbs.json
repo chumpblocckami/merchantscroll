@@ -3,13 +3,13 @@
   "display_name": "Borbs",
   "irl_name": null,
   "stats": {
-    "total_entries": 21,
+    "total_entries": 22,
     "league_trophies": 11,
     "league_trophies_yearly": 7,
-    "challenge_wins": 36,
-    "challenge_losses": 24,
+    "challenge_wins": 39,
+    "challenge_losses": 27,
     "irl_top8": 0,
-    "challenge_win_pct": 60,
+    "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 146,
     "league_trophy_rank_alltime": 195,
     "league_trophy_players_yearly": 1344,
@@ -22,7 +22,15 @@
     },
     {
       "archetype": "Familiars",
-      "count": 6
+      "count": 7
+    },
+    {
+      "archetype": "BW Refurbished",
+      "count": 1
+    },
+    {
+      "archetype": "BR Affinity",
+      "count": 1
     },
     {
       "archetype": "Boros Glitter",
@@ -31,17 +39,25 @@
     {
       "archetype": "GW Gates",
       "count": 1
-    },
-    {
-      "archetype": "BR Affinity",
-      "count": 1
-    },
-    {
-      "archetype": "BW Refurbished",
-      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2312848178",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-23",
+      "player": "Borbs",
+      "archetype": "Familiars",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 21,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-last-chance-2026-07-2112847730",
       "tournament": "Pauper Last Chance",
@@ -185,22 +201,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-01-159987",
-      "tournament": "pauper-league-2026-01-159987",
-      "date": "2026-01-15",
-      "player": "Borbs",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-01-1512830022",
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-15",
@@ -215,6 +215,22 @@
       "final_rank": 16,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-01-159987",
+      "tournament": "pauper-league-2026-01-159987",
+      "date": "2026-01-15",
+      "player": "Borbs",
+      "archetype": "Spy",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-01-0812829339",

@@ -3,13 +3,13 @@
   "display_name": "Echanez",
   "irl_name": null,
   "stats": {
-    "total_entries": 38,
+    "total_entries": 40,
     "league_trophies": 25,
     "league_trophies_yearly": 13,
-    "challenge_wins": 55,
-    "challenge_losses": 35,
+    "challenge_wins": 65,
+    "challenge_losses": 40,
     "irl_top8": 0,
-    "challenge_win_pct": 61,
+    "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 73,
     "league_trophy_rank_alltime": 66,
     "league_trophy_players_yearly": 1344,
@@ -22,7 +22,7 @@
     },
     {
       "archetype": "Monster Tron",
-      "count": 5
+      "count": 7
     },
     {
       "archetype": "Gardens",
@@ -37,11 +37,11 @@
       "count": 3
     },
     {
-      "archetype": "Monsters",
+      "archetype": "R Madness",
       "count": 2
     },
     {
-      "archetype": "Food Pestilence",
+      "archetype": "Monsters",
       "count": 2
     },
     {
@@ -49,11 +49,11 @@
       "count": 2
     },
     {
-      "archetype": "R Madness",
+      "archetype": "Food Pestilence",
       "count": 2
     },
     {
-      "archetype": "Jund",
+      "archetype": "White Weenie",
       "count": 1
     }
   ],
@@ -106,6 +106,21 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-challenge-32-2026-07-0712846470",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-03",
+      "player": "Echanez",
+      "archetype": "Monster Tron",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "7-2",
+      "final_rank": 3,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-0312846470",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-03",
@@ -117,6 +132,21 @@
       ],
       "record": "7-2",
       "final_rank": 3,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0512845719",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-01",
+      "player": "Echanez",
+      "archetype": "Monster Tron",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -185,11 +215,11 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2025-03-1712844320",
+      "site_name": "pauper-challenge-32-2026-06-1312844320",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-13",
       "player": "Echanez",
-      "archetype": "Monster Tron",
+      "archetype": "Monsters Tron",
       "colors": [
         "G",
         "R"
@@ -200,11 +230,11 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1312844320",
+      "site_name": "pauper-challenge-32-2025-03-1712844320",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-13",
       "player": "Echanez",
-      "archetype": "Monsters Tron",
+      "archetype": "Monster Tron",
       "colors": [
         "G",
         "R"
@@ -366,22 +396,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-04-1812839685",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-18",
-      "player": "Echanez",
-      "archetype": "Food Pestilence",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-04-1810405",
       "tournament": "Pauper League",
       "date": "2026-04-18",
@@ -397,6 +411,22 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-04-1812839685",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-04-18",
+      "player": "Echanez",
+      "archetype": "Food Pestilence",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 15,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-league-2026-03-1710405",
@@ -422,34 +452,6 @@
       "colors": [
         "B",
         "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-11-219987",
-      "tournament": "pauper-league-2025-11-219987",
-      "date": "2025-11-21",
-      "player": "Echanez",
-      "archetype": "Pingers",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-11-209987",
-      "tournament": "pauper-league-2025-11-209987",
-      "date": "2025-11-20",
-      "player": "Echanez",
-      "archetype": "Pingers",
-      "colors": [
         "R"
       ],
       "record": "5-0",

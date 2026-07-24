@@ -2,13 +2,13 @@
   "archetype": "BR Madness",
   "slug": "br-madness",
   "stats": {
-    "total_entries": 818,
+    "total_entries": 821,
     "league_entries": 391,
     "league_trophies": 391,
     "league_trophies_yearly": 125,
-    "challenge_appearances": 396,
-    "challenge_wins": 1602,
-    "challenge_losses": 1008,
+    "challenge_appearances": 399,
+    "challenge_wins": 1612,
+    "challenge_losses": 1015,
     "irl_top8": 9,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 14,
@@ -200,6 +200,35 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-07-1412847113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-10",
+      "player": "Irenicus_Mfs",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 20,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1412847113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-10",
+      "player": "mehanske",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-1012847113",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-10",
@@ -359,36 +388,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-05",
-      "player": "Nickyq",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-05",
-      "player": "SK8_RJ",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -409,27 +408,27 @@
       "count": 23
     },
     {
+      "player": "mehanske",
+      "count": 22
+    },
+    {
       "player": "MisterTwin",
       "count": 21
-    },
-    {
-      "player": "mehanske",
-      "count": 21
-    },
-    {
-      "player": "HermonHero",
-      "count": 15
     },
     {
       "player": "vikizin",
       "count": 15
     },
     {
-      "player": "Niederschatten",
-      "count": 14
+      "player": "HermonHero",
+      "count": 15
     },
     {
       "player": "Than",
+      "count": 14
+    },
+    {
+      "player": "Niederschatten",
       "count": 14
     }
   ]

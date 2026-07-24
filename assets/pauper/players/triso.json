@@ -3,11 +3,11 @@
   "display_name": "Triso",
   "irl_name": null,
   "stats": {
-    "total_entries": 36,
+    "total_entries": 37,
     "league_trophies": 19,
     "league_trophies_yearly": 9,
-    "challenge_wins": 60,
-    "challenge_losses": 34,
+    "challenge_wins": 65,
+    "challenge_losses": 36,
     "irl_top8": 0,
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 119,
@@ -22,7 +22,7 @@
     },
     {
       "archetype": "GW Gates",
-      "count": 9
+      "count": 10
     },
     {
       "archetype": "White Weenie",
@@ -33,30 +33,15 @@
       "count": 3
     },
     {
-      "archetype": "Naya Gates",
+      "archetype": "Dredge",
       "count": 2
     },
     {
-      "archetype": "Dredge",
+      "archetype": "Naya Gates",
       "count": 2
     }
   ],
   "recent_entries": [
-    {
-      "site_name": "pauper-challenge-32-2026-07-1712847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "Triso",
-      "archetype": "UB Faeries",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "2-3",
-      "final_rank": 22,
-      "source": "mtgo",
-      "type": "challenge"
-    },
     {
       "site_name": "pauper-challenge-32-2026-07-1612847682",
       "tournament": "Pauper Challenge 32",
@@ -88,6 +73,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-07-1712847682",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-17",
+      "player": "Triso",
+      "archetype": "UB Faeries",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 22,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-0512846504",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-05",
@@ -100,6 +100,23 @@
       ],
       "record": "4-2",
       "final_rank": 16,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0712846470",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-03",
+      "player": "Triso",
+      "archetype": "GW Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -422,22 +439,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-10-3112822673",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-10-31",
-      "player": "Triso",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-3",
-      "final_rank": 4,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

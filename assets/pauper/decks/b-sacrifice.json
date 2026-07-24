@@ -2,13 +2,13 @@
   "archetype": "B Sacrifice",
   "slug": "b-sacrifice",
   "stats": {
-    "total_entries": 316,
+    "total_entries": 317,
     "league_entries": 214,
     "league_trophies": 214,
     "league_trophies_yearly": 94,
-    "challenge_appearances": 89,
-    "challenge_wins": 368,
-    "challenge_losses": 221,
+    "challenge_appearances": 90,
+    "challenge_wins": 371,
+    "challenge_losses": 224,
     "irl_top8": 4,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 18,
@@ -32,6 +32,19 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-last-chance-2026-07-2212847741",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-22",
+      "player": "airplay",
+      "colors": [
+        "B"
+      ],
+      "record": "3-2",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
       "site_name": "pauper-league-2026-07-2210855",
       "tournament": "Pauper League",
       "date": "2026-07-22",
@@ -44,19 +57,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2212847741",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-22",
-      "player": "airplay",
-      "colors": [
-        "B"
-      ],
-      "record": "3-2",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-2212848161",
@@ -167,6 +167,19 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-07-1412847113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-10",
+      "player": "airplay",
+      "colors": [
+        "B"
+      ],
+      "record": "3-3",
+      "final_rank": 22,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-1012847113",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-10",
@@ -180,7 +193,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0812846623",
+      "site_name": "pauper-challenge-32-2026-07-0612846623",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-08",
       "player": "airplay",
@@ -193,7 +206,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0612846623",
+      "site_name": "pauper-challenge-32-2026-07-0812846623",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-08",
       "player": "airplay",
@@ -337,20 +350,6 @@
       "final_rank": 4,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
-      "tournament": "Pauper RC Super Qualifier",
-      "date": "2026-06-27",
-      "player": "EntroPete",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "7-2",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "other"
     }
   ],
   "top_pilots": [
@@ -360,7 +359,7 @@
     },
     {
       "player": "airplay",
-      "count": 43
+      "count": 44
     },
     {
       "player": "Cryomanc3r",

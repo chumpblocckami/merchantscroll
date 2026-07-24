@@ -3,13 +3,13 @@
   "display_name": "GigaChadSigmaMale",
   "irl_name": null,
   "stats": {
-    "total_entries": 5,
+    "total_entries": 7,
     "league_trophies": 0,
     "league_trophies_yearly": 0,
-    "challenge_wins": 10,
-    "challenge_losses": 9,
+    "challenge_wins": 16,
+    "challenge_losses": 16,
     "irl_top8": 0,
-    "challenge_win_pct": 53,
+    "challenge_win_pct": 50,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": null,
     "league_trophy_players_yearly": 1344,
@@ -17,27 +17,42 @@
   },
   "favorite_decks": [
     {
-      "archetype": "UB Faeries",
-      "count": 1
+      "archetype": "UG Fog",
+      "count": 2
     },
     {
-      "archetype": "UG Fog",
-      "count": 1
+      "archetype": "UB Faeries",
+      "count": 2
     },
     {
       "archetype": "White Weenie",
       "count": 1
     },
     {
-      "archetype": "Naya Gates",
+      "archetype": "Affinity",
       "count": 1
     },
     {
-      "archetype": "Affinity",
+      "archetype": "Naya Gates",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-last-chance-2026-07-2112847730",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "GigaChadSigmaMale",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "3-2",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
     {
       "site_name": "pauper-last-chance-2026-07-2112847738",
       "tournament": "Pauper Last Chance",
@@ -50,21 +65,6 @@
         "R",
         "U",
         "W"
-      ],
-      "record": "3-2",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2112847730",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "GigaChadSigmaMale",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "U"
       ],
       "record": "3-2",
       "final_rank": null,
@@ -86,6 +86,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-07-0712846470",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-03",
+      "player": "GigaChadSigmaMale",
+      "archetype": "UB Faeries",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "3-4",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-0312846470",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-03",
@@ -97,6 +112,22 @@
       ],
       "record": "3-4",
       "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0512845719",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-01",
+      "player": "GigaChadSigmaMale",
+      "archetype": "UG Fog",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 20,
       "source": "mtgo",
       "type": "challenge"
     },

@@ -2,13 +2,13 @@
   "archetype": "Familiars",
   "slug": "familiars",
   "stats": {
-    "total_entries": 298,
+    "total_entries": 303,
     "league_entries": 170,
     "league_trophies": 170,
     "league_trophies_yearly": 83,
-    "challenge_appearances": 102,
-    "challenge_wins": 421,
-    "challenge_losses": 254,
+    "challenge_appearances": 107,
+    "challenge_wins": 442,
+    "challenge_losses": 268,
     "irl_top8": 20,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 21,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2312848178",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-23",
+      "player": "Borbs",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 21,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-2310855",
       "tournament": "Pauper League",
@@ -245,32 +260,18 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-07-0410855",
-      "tournament": "Pauper League",
+      "site_name": "pauper-challenge-32-2026-07-0912846485",
+      "tournament": "Pauper Challenge 32",
       "date": "2026-07-04",
-      "player": "TheManji",
+      "player": "ChaoticMTG",
       "colors": [
         "U",
         "W"
       ],
-      "record": "5-0",
-      "final_rank": null,
+      "record": "6-2",
+      "final_rank": 4,
       "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-04",
-      "player": "Gn42",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0312846485",
@@ -301,6 +302,48 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-07-0410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-04",
+      "player": "TheManji",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-04",
+      "player": "Gn42",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0712846470",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-03",
+      "player": "ChaoticMTG",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "4-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-0312846470",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-03",
@@ -327,58 +370,16 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0212846460",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-02",
-      "player": "ChaoticMTG",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0112845719",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-01",
-      "player": "ChaoticMTG",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "6-2",
-      "final_rank": 4,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0112845719",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-01",
-      "player": "Starlliege",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "2-4",
-      "final_rank": 31,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
-      "player": "saidin.raken",
-      "count": 30
+      "player": "ChaoticMTG",
+      "count": 32
     },
     {
-      "player": "ChaoticMTG",
-      "count": 29
+      "player": "saidin.raken",
+      "count": 30
     },
     {
       "player": "TSPJendrek",
@@ -402,14 +403,14 @@
     },
     {
       "player": "Borbs",
-      "count": 6
+      "count": 7
     },
     {
       "player": "MichelBiro",
       "count": 6
     },
     {
-      "player": "CrystalEye97",
+      "player": "othavirium",
       "count": 5
     }
   ]

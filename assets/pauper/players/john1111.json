@@ -3,13 +3,13 @@
   "display_name": "John1111",
   "irl_name": null,
   "stats": {
-    "total_entries": 28,
+    "total_entries": 29,
     "league_trophies": 1,
     "league_trophies_yearly": 1,
-    "challenge_wins": 99,
-    "challenge_losses": 67,
+    "challenge_wins": 101,
+    "challenge_losses": 70,
     "irl_top8": 0,
-    "challenge_win_pct": 60,
+    "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 1018,
     "league_trophy_rank_alltime": 1618,
     "league_trophy_players_yearly": 1344,
@@ -17,11 +17,7 @@
   },
   "favorite_decks": [
     {
-      "archetype": "BR Madness",
-      "count": 3
-    },
-    {
-      "archetype": "Gardens",
+      "archetype": "RG Storm",
       "count": 3
     },
     {
@@ -37,19 +33,23 @@
       "count": 3
     },
     {
+      "archetype": "BR Madness",
+      "count": 3
+    },
+    {
+      "archetype": "Gardens",
+      "count": 3
+    },
+    {
+      "archetype": "R Madness",
+      "count": 2
+    },
+    {
       "archetype": "Rally",
       "count": 2
     },
     {
-      "archetype": "RG Storm",
-      "count": 2
-    },
-    {
       "archetype": "Elves",
-      "count": 2
-    },
-    {
-      "archetype": "R Madness",
       "count": 2
     },
     {
@@ -91,6 +91,22 @@
       ],
       "record": "6-2",
       "final_rank": 3,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "John1111",
+      "archetype": "RG Storm",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -157,7 +173,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1212844338",
+      "site_name": "pauper-challenge-32-2026-06-1412844338",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-14",
       "player": "John1111",
@@ -172,7 +188,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1412844338",
+      "site_name": "pauper-challenge-32-2026-06-1212844338",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-14",
       "player": "John1111",
@@ -202,20 +218,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1112844295",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-11",
-      "player": "John1111",
-      "archetype": "Rally",
-      "colors": [
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 9,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-05-1712844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
@@ -231,6 +233,20 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-0212844295",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-11",
+      "player": "John1111",
+      "archetype": "Rally",
+      "colors": [
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1112844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
       "player": "John1111",
@@ -428,21 +444,6 @@
       ],
       "record": "3-3",
       "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-06-2812799998",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-06-28",
-      "player": "John1111",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
     }

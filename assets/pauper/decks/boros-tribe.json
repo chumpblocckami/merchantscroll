@@ -2,13 +2,13 @@
   "archetype": "Boros Tribe",
   "slug": "boros-tribe",
   "stats": {
-    "total_entries": 105,
+    "total_entries": 106,
     "league_entries": 61,
     "league_trophies": 61,
     "league_trophies_yearly": 61,
-    "challenge_appearances": 41,
-    "challenge_wins": 157,
-    "challenge_losses": 107,
+    "challenge_appearances": 42,
+    "challenge_wins": 160,
+    "challenge_losses": 110,
     "irl_top8": 3,
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 26,
@@ -22,22 +22,6 @@
       "tournament": "Pauper League",
       "date": "2026-07-22",
       "player": "Kefwyn",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-18",
-      "player": "Marl-bro-ro",
       "colors": [
         "B",
         "R",
@@ -66,20 +50,20 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1712847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "Sandokan92",
+      "site_name": "pauper-league-2026-07-1810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-18",
+      "player": "Marl-bro-ro",
       "colors": [
         "B",
         "R",
         "U",
         "W"
       ],
-      "record": "3-3",
-      "final_rank": 29,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1612847682",
@@ -99,6 +83,22 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1512847682",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-17",
+      "player": "Sandokan92",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1712847682",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-17",
       "player": "Sandokan92",
@@ -224,6 +224,23 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "PNascimento",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0312846485",
@@ -372,22 +389,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2512845631",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "MisterAsiago",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "2-3",
-      "final_rank": 19,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-06-2412845631",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
@@ -404,37 +405,37 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-06-2310855",
-      "tournament": "Pauper League",
-      "date": "2026-06-23",
-      "player": "Nfinity14",
+      "site_name": "pauper-challenge-32-2026-06-2512845631",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "MisterAsiago",
       "colors": [
         "B",
         "R",
         "U",
         "W"
       ],
-      "record": "5-0",
-      "final_rank": null,
+      "record": "2-3",
+      "final_rank": 19,
       "source": "mtgo",
-      "type": "league"
+      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "PNascimento",
-      "count": 13
+      "count": 14
     },
     {
       "player": "Emogoblin",
       "count": 11
     },
     {
-      "player": "Sandokan92",
+      "player": "lostonkato",
       "count": 7
     },
     {
-      "player": "lostonkato",
+      "player": "Sandokan92",
       "count": 7
     },
     {
@@ -450,15 +451,15 @@
       "count": 4
     },
     {
+      "player": "Enz091",
+      "count": 3
+    },
+    {
       "player": "Aldreen",
       "count": 3
     },
     {
-      "player": "RubensNetto",
-      "count": 3
-    },
-    {
-      "player": "Enz091",
+      "player": "Kiyocore",
       "count": 3
     }
   ]

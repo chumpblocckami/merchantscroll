@@ -3,14 +3,14 @@
   "display_name": "Oceansoul92",
   "irl_name": null,
   "stats": {
-    "total_entries": 28,
+    "total_entries": 30,
     "league_trophies": 9,
     "league_trophies_yearly": 5,
-    "challenge_wins": 77,
-    "challenge_losses": 39,
+    "challenge_wins": 83,
+    "challenge_losses": 44,
     "irl_top8": 0,
-    "challenge_win_pct": 66,
-    "league_trophy_rank_yearly": 255,
+    "challenge_win_pct": 65,
+    "league_trophy_rank_yearly": 256,
     "league_trophy_rank_alltime": 280,
     "league_trophy_players_yearly": 1344,
     "league_trophy_players_alltime": 2053
@@ -18,7 +18,7 @@
   "favorite_decks": [
     {
       "archetype": "U Terror",
-      "count": 17
+      "count": 19
     },
     {
       "archetype": "Spy",
@@ -34,6 +34,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2312848178",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-23",
+      "player": "Oceansoul92",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-2110855",
       "tournament": "Pauper League",
@@ -136,6 +151,21 @@
       ],
       "record": "5-2",
       "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "Oceansoul92",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -385,36 +415,6 @@
       "final_rank": 29,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-league-2025-07-089366",
-      "tournament": "pauper-league-2025-07-089366",
-      "date": "2025-07-08",
-      "player": "Oceansoul92",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-07-029366",
-      "tournament": "pauper-league-2025-07-029366",
-      "date": "2025-07-02",
-      "player": "Oceansoul92",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

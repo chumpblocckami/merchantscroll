@@ -2,13 +2,13 @@
   "archetype": "Spy",
   "slug": "spy",
   "stats": {
-    "total_entries": 728,
-    "league_entries": 460,
-    "league_trophies": 460,
-    "league_trophies_yearly": 182,
-    "challenge_appearances": 219,
-    "challenge_wins": 886,
-    "challenge_losses": 552,
+    "total_entries": 732,
+    "league_entries": 461,
+    "league_trophies": 461,
+    "league_trophies_yearly": 183,
+    "challenge_appearances": 222,
+    "challenge_wins": 897,
+    "challenge_losses": 560,
     "irl_top8": 24,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 8,
@@ -17,6 +17,36 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-24",
+      "player": "StonyHandz",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-2312848178",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-23",
+      "player": "OttoSaske",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-2",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-2310855",
       "tournament": "Pauper League",
@@ -78,6 +108,21 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-last-chance-2026-07-2112847730",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "kokoko098",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "1-2",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
       "site_name": "pauper-last-chance-2026-07-2112847738",
       "tournament": "Pauper Last Chance",
       "date": "2026-07-21",
@@ -89,21 +134,6 @@
         "W"
       ],
       "record": "3-2",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2112847730",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "kokoko098",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "1-2",
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
@@ -184,21 +214,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-07-1610855",
-      "tournament": "Pauper League",
-      "date": "2026-07-16",
-      "player": "Drinkme",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-07-1612847678",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-16",
@@ -212,6 +227,21 @@
       "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-16",
+      "player": "Drinkme",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0312847177",
@@ -362,36 +392,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-12",
-      "player": "Borbs",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-12",
-      "player": "gunners2346",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -408,11 +408,11 @@
       "count": 16
     },
     {
-      "player": "3vildr4k3",
+      "player": "Mikito9171",
       "count": 15
     },
     {
-      "player": "Mikito9171",
+      "player": "3vildr4k3",
       "count": 15
     },
     {
@@ -420,15 +420,15 @@
       "count": 13
     },
     {
-      "player": "Pauperformance",
-      "count": 11
-    },
-    {
       "player": "Borbs",
       "count": 11
     },
     {
-      "player": "wand_thief",
+      "player": "Pauperformance",
+      "count": 11
+    },
+    {
+      "player": "Regis_Hangar49",
       "count": 10
     },
     {

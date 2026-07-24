@@ -3,13 +3,13 @@
   "display_name": "Paul16",
   "irl_name": null,
   "stats": {
-    "total_entries": 85,
+    "total_entries": 86,
     "league_trophies": 69,
     "league_trophies_yearly": 30,
-    "challenge_wins": 67,
-    "challenge_losses": 40,
+    "challenge_wins": 70,
+    "challenge_losses": 43,
     "irl_top8": 0,
-    "challenge_win_pct": 63,
+    "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 15,
     "league_trophy_rank_alltime": 11,
     "league_trophy_players_yearly": 1344,
@@ -45,7 +45,7 @@
       "count": 5
     },
     {
-      "archetype": "Food Pestilence",
+      "archetype": "Naya Gates",
       "count": 2
     },
     {
@@ -148,6 +148,24 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0512845719",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-01",
+      "player": "Paul16",
+      "archetype": "Naya Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 21,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0112845719",
@@ -430,22 +448,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-0812834527",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-08",
-      "player": "Paul16",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 26,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

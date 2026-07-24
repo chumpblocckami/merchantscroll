@@ -2,21 +2,47 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 620,
+    "total_entries": 628,
     "league_entries": 357,
     "league_trophies": 357,
     "league_trophies_yearly": 167,
-    "challenge_appearances": 234,
-    "challenge_wins": 909,
-    "challenge_losses": 587,
+    "challenge_appearances": 242,
+    "challenge_wins": 934,
+    "challenge_losses": 611,
     "irl_top8": 15,
-    "challenge_win_pct": 61,
+    "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 9,
     "league_trophy_rank_alltime": 9,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2312848178",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-23",
+      "player": "M_EMORIE_S",
+      "colors": [
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 28,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-2312848178",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-23",
+      "player": "Uagli1",
+      "colors": [
+        "W"
+      ],
+      "record": "2-4",
+      "final_rank": 31,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-2310855",
       "tournament": "Pauper League",
@@ -31,19 +57,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-last-chance-2026-07-2112847738",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "Botboy",
-      "colors": [
-        "W"
-      ],
-      "record": "4-1",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
       "site_name": "pauper-last-chance-2026-07-2112847730",
       "tournament": "Pauper Last Chance",
       "date": "2026-07-21",
@@ -52,6 +65,19 @@
         "W"
       ],
       "record": "3-2",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2112847738",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "Botboy",
+      "colors": [
+        "W"
+      ],
+      "record": "4-1",
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
@@ -149,22 +175,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-07-1810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-18",
-      "player": "Luiz0211",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-07-1812847695",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-18",
@@ -218,6 +228,22 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-18",
+      "player": "Luiz0211",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-1710855",
@@ -323,50 +349,24 @@
       "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0912847113",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-10",
-      "player": "Pjey",
-      "colors": [
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1012847113",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-10",
-      "player": "KidRenan",
-      "colors": [
-        "W"
-      ],
-      "record": "2-3",
-      "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "KidRenan",
-      "count": 63
+      "count": 65
     },
     {
       "player": "jwaves",
       "count": 34
     },
     {
-      "player": "Deodato",
-      "count": 22
+      "player": "Niederschatten",
+      "count": 23
     },
     {
-      "player": "Niederschatten",
-      "count": 22
+      "player": "Deodato",
+      "count": 23
     },
     {
       "player": "Denisevich",
@@ -390,7 +390,7 @@
     },
     {
       "player": "dragtar",
-      "count": 11
+      "count": 12
     }
   ]
 }

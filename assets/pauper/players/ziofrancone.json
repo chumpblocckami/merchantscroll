@@ -3,14 +3,14 @@
   "display_name": "ziofrancone",
   "irl_name": null,
   "stats": {
-    "total_entries": 62,
+    "total_entries": 64,
     "league_trophies": 10,
     "league_trophies_yearly": 3,
-    "challenge_wins": 193,
-    "challenge_losses": 101,
+    "challenge_wins": 201,
+    "challenge_losses": 106,
     "irl_top8": 0,
-    "challenge_win_pct": 66,
-    "league_trophy_rank_yearly": 495,
+    "challenge_win_pct": 65,
+    "league_trophy_rank_yearly": 496,
     "league_trophy_rank_alltime": 259,
     "league_trophy_players_yearly": 1344,
     "league_trophy_players_alltime": 2053
@@ -22,10 +22,10 @@
     },
     {
       "archetype": "Jund",
-      "count": 16
+      "count": 17
     },
     {
-      "archetype": "Altar Tron",
+      "archetype": "Rally",
       "count": 3
     },
     {
@@ -33,7 +33,7 @@
       "count": 3
     },
     {
-      "archetype": "Rally",
+      "archetype": "Elves",
       "count": 3
     },
     {
@@ -41,8 +41,8 @@
       "count": 3
     },
     {
-      "archetype": "Elves",
-      "count": 2
+      "archetype": "Altar Tron",
+      "count": 3
     },
     {
       "archetype": "Spy",
@@ -53,11 +53,28 @@
       "count": 2
     },
     {
-      "archetype": "UB Terror",
+      "archetype": "Pingers",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2312848178",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-23",
+      "player": "ziofrancone",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 17,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-last-chance-2026-07-2212847741",
       "tournament": "Pauper Last Chance",
@@ -118,6 +135,21 @@
       ],
       "record": "5-2",
       "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0712846470",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-03",
+      "player": "ziofrancone",
+      "archetype": "Elves",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-2",
+      "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -217,23 +249,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2512845643",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-25",
-      "player": "ziofrancone",
-      "archetype": "Walls",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "2-3",
-      "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-06-2412845643",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-25",
@@ -251,34 +266,19 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2412845625",
+      "site_name": "pauper-challenge-32-2026-06-2512845643",
       "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
+      "date": "2026-06-25",
       "player": "ziofrancone",
-      "archetype": "Jund",
+      "archetype": "Walls",
       "colors": [
         "B",
         "G",
-        "R"
+        "R",
+        "U"
       ],
-      "record": "6-1",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2512845631",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "ziofrancone",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "0-2",
-      "final_rank": 30,
+      "record": "2-3",
+      "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -299,7 +299,39 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-06-2412845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "ziofrancone",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "6-1",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-06-2412845631",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "ziofrancone",
+      "archetype": "Jund",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "0-2",
+      "final_rank": 30,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845631",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "ziofrancone",
@@ -421,38 +453,6 @@
       "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-0912838859",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-09",
-      "player": "ziofrancone",
-      "archetype": "UB Terror",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-rc-qualifier-2026-02-2212833504",
-      "tournament": "Pauper RC Qualifier",
-      "date": "2026-02-22",
-      "player": "ziofrancone",
-      "archetype": "Cawgate",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "6-2",
-      "final_rank": 11,
-      "source": "mtgo",
-      "type": "other"
     }
   ]
 }

@@ -3,25 +3,25 @@
   "display_name": "bafusVIII",
   "irl_name": null,
   "stats": {
-    "total_entries": 8,
+    "total_entries": 9,
     "league_trophies": 4,
     "league_trophies_yearly": 4,
-    "challenge_wins": 15,
-    "challenge_losses": 6,
+    "challenge_wins": 20,
+    "challenge_losses": 8,
     "irl_top8": 0,
     "challenge_win_pct": 71,
-    "league_trophy_rank_yearly": 286,
-    "league_trophy_rank_alltime": 566,
+    "league_trophy_rank_yearly": 288,
+    "league_trophy_rank_alltime": 567,
     "league_trophy_players_yearly": 1344,
     "league_trophy_players_alltime": 2053
   },
   "favorite_decks": [
     {
-      "archetype": "Jeskai",
-      "count": 3
+      "archetype": "Cawgate",
+      "count": 4
     },
     {
-      "archetype": "Cawgate",
+      "archetype": "Jeskai",
       "count": 3
     },
     {
@@ -30,6 +30,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2312848178",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-23",
+      "player": "bafusVIII",
+      "archetype": "Cawgate",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-2212848161",
       "tournament": "Pauper Challenge 32",
@@ -79,22 +95,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-07-1610855",
-      "tournament": "Pauper League",
-      "date": "2026-07-16",
-      "player": "bafusVIII",
-      "archetype": "Jeskai",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-07-1612847678",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-16",
@@ -109,6 +109,22 @@
       "final_rank": 3,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-16",
+      "player": "bafusVIII",
+      "archetype": "Jeskai",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-1510855",

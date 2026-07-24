@@ -2,17 +2,17 @@
   "archetype": "BR Affinity",
   "slug": "br-affinity",
   "stats": {
-    "total_entries": 33,
+    "total_entries": 34,
     "league_entries": 10,
     "league_trophies": 10,
     "league_trophies_yearly": 10,
-    "challenge_appearances": 19,
-    "challenge_wins": 63,
-    "challenge_losses": 56,
+    "challenge_appearances": 20,
+    "challenge_wins": 67,
+    "challenge_losses": 58,
     "irl_top8": 2,
-    "challenge_win_pct": 53,
+    "challenge_win_pct": 54,
     "league_trophy_rank_yearly": 49,
-    "league_trophy_rank_alltime": 55,
+    "league_trophy_rank_alltime": 54,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
@@ -73,6 +73,21 @@
       ],
       "record": "3-3",
       "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1412847113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-10",
+      "player": "3draw_TANO",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 14,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -257,6 +272,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-06-2412845643",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-25",
+      "player": "Brasatore",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "2-4",
+      "final_rank": 30,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-06-2512845643",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-25",
@@ -283,35 +313,6 @@
       ],
       "record": "2-4",
       "final_rank": 30,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2412845643",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-25",
-      "player": "Brasatore",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "2-4",
-      "final_rank": 30,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2412845625",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "s8shock",
-      "colors": [
-        "B",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -345,6 +346,20 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-06-2412845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "s8shock",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-06-2112844875",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-21",
@@ -372,20 +387,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2010636",
-      "tournament": "Pauper League",
-      "date": "2026-06-20",
-      "player": "qbturtle15",
-      "colors": [
-        "B",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -394,19 +395,7 @@
       "count": 4
     },
     {
-      "player": "_blaze66",
-      "count": 3
-    },
-    {
-      "player": "Pafru",
-      "count": 3
-    },
-    {
       "player": "Brasatore",
-      "count": 3
-    },
-    {
-      "player": "manohito",
       "count": 3
     },
     {
@@ -414,7 +403,23 @@
       "count": 3
     },
     {
+      "player": "Pafru",
+      "count": 3
+    },
+    {
+      "player": "_blaze66",
+      "count": 3
+    },
+    {
+      "player": "manohito",
+      "count": 3
+    },
+    {
       "player": "3draw_TANO",
+      "count": 3
+    },
+    {
+      "player": "s8shock",
       "count": 2
     },
     {
@@ -422,11 +427,7 @@
       "count": 2
     },
     {
-      "player": "s8shock",
-      "count": 2
-    },
-    {
-      "player": "Squall93",
+      "player": "Francesco Zibella",
       "count": 1
     }
   ]

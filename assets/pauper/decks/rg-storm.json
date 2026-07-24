@@ -2,21 +2,51 @@
   "archetype": "RG Storm",
   "slug": "rg-storm",
   "stats": {
-    "total_entries": 187,
-    "league_entries": 133,
-    "league_trophies": 133,
-    "league_trophies_yearly": 120,
-    "challenge_appearances": 40,
-    "challenge_wins": 145,
-    "challenge_losses": 101,
+    "total_entries": 194,
+    "league_entries": 134,
+    "league_trophies": 134,
+    "league_trophies_yearly": 121,
+    "challenge_appearances": 46,
+    "challenge_wins": 165,
+    "challenge_losses": 119,
     "irl_top8": 9,
-    "challenge_win_pct": 59,
+    "challenge_win_pct": 58,
     "league_trophy_rank_yearly": 16,
     "league_trophy_rank_alltime": 24,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2312848178",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-23",
+      "player": "Cachorrowo",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "2-4",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-23",
+      "player": "bluedog222",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-2310855",
       "tournament": "Pauper League",
@@ -361,36 +391,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0812846623",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-08",
-      "player": "saidin.raken",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 9,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-08",
-      "player": "Sandokan92",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -404,34 +404,34 @@
     },
     {
       "player": "Mikhathara1994",
-      "count": 11
+      "count": 12
+    },
+    {
+      "player": "Lamela",
+      "count": 8
     },
     {
       "player": "tzuizz",
       "count": 8
     },
     {
-      "player": "vincent99",
-      "count": 6
-    },
-    {
-      "player": "Lamela",
-      "count": 6
-    },
-    {
       "player": "lumely",
       "count": 6
     },
     {
-      "player": "Abisd94",
+      "player": "vincent99",
+      "count": 6
+    },
+    {
+      "player": "CosmicCharles",
+      "count": 5
+    },
+    {
+      "player": "Pilopanga",
       "count": 5
     },
     {
       "player": "txouzo",
-      "count": 5
-    },
-    {
-      "player": "CosmicCharles",
       "count": 5
     }
   ]

@@ -3,13 +3,13 @@
   "display_name": "Lamela",
   "irl_name": null,
   "stats": {
-    "total_entries": 49,
+    "total_entries": 51,
     "league_trophies": 16,
     "league_trophies_yearly": 13,
-    "challenge_wins": 115,
-    "challenge_losses": 84,
+    "challenge_wins": 119,
+    "challenge_losses": 91,
     "irl_top8": 0,
-    "challenge_win_pct": 58,
+    "challenge_win_pct": 57,
     "league_trophy_rank_yearly": 74,
     "league_trophy_rank_alltime": 135,
     "league_trophy_players_yearly": 1344,
@@ -21,12 +21,12 @@
       "count": 14
     },
     {
-      "archetype": "Jund",
-      "count": 7
+      "archetype": "RG Storm",
+      "count": 8
     },
     {
-      "archetype": "RG Storm",
-      "count": 6
+      "archetype": "Jund",
+      "count": 7
     },
     {
       "archetype": "Familiars",
@@ -34,10 +34,6 @@
     },
     {
       "archetype": "Gardens",
-      "count": 3
-    },
-    {
-      "archetype": "UG Fog",
       "count": 3
     },
     {
@@ -49,15 +45,35 @@
       "count": 3
     },
     {
-      "archetype": "Rally",
-      "count": 2
+      "archetype": "UG Fog",
+      "count": 3
     },
     {
       "archetype": "Jund Gardens",
       "count": 2
+    },
+    {
+      "archetype": "Rally",
+      "count": 2
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "Lamela",
+      "archetype": "RG Storm",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0312846485",
       "tournament": "Pauper Challenge 32",
@@ -86,6 +102,22 @@
         "U"
       ],
       "record": "2-3",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0512845719",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-01",
+      "player": "Lamela",
+      "archetype": "RG Storm",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "2-4",
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
@@ -141,7 +173,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2512845631",
+      "site_name": "pauper-challenge-32-2026-06-2412845631",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "Lamela",
@@ -159,7 +191,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2412845631",
+      "site_name": "pauper-challenge-32-2026-06-2512845631",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "Lamela",
@@ -432,38 +464,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-1212835286",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-12",
-      "player": "Lamela",
-      "archetype": "Jund Gardens",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "1-3",
-      "final_rank": 30,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-0512834483",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-05",
-      "player": "Lamela",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "2-4",
-      "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

@@ -3,14 +3,14 @@
   "display_name": "Irenicus_Mfs",
   "irl_name": null,
   "stats": {
-    "total_entries": 21,
+    "total_entries": 22,
     "league_trophies": 17,
     "league_trophies_yearly": 5,
-    "challenge_wins": 17,
-    "challenge_losses": 8,
+    "challenge_wins": 21,
+    "challenge_losses": 10,
     "irl_top8": 0,
     "challenge_win_pct": 68,
-    "league_trophy_rank_yearly": 239,
+    "league_trophy_rank_yearly": 240,
     "league_trophy_rank_alltime": 124,
     "league_trophy_players_yearly": 1344,
     "league_trophy_players_alltime": 2053
@@ -18,19 +18,11 @@
   "favorite_decks": [
     {
       "archetype": "BR Madness",
-      "count": 6
+      "count": 7
     },
     {
       "archetype": "R Madness",
       "count": 4
-    },
-    {
-      "archetype": "Jeskai",
-      "count": 2
-    },
-    {
-      "archetype": "Monsters",
-      "count": 2
     },
     {
       "archetype": "Pingers",
@@ -41,7 +33,15 @@
       "count": 2
     },
     {
-      "archetype": "Affinity",
+      "archetype": "Monsters",
+      "count": 2
+    },
+    {
+      "archetype": "Jeskai",
+      "count": 2
+    },
+    {
+      "archetype": "UB Control",
       "count": 1
     },
     {
@@ -49,7 +49,7 @@
       "count": 1
     },
     {
-      "archetype": "UB Control",
+      "archetype": "Affinity",
       "count": 1
     }
   ],
@@ -73,6 +73,21 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0912847113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-10",
+      "player": "Irenicus_Mfs",
+      "archetype": "BR Madness",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 20,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1412847113",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-10",
       "player": "Irenicus_Mfs",
