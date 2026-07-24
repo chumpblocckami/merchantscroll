@@ -21,15 +21,15 @@
       "count": 3
     },
     {
-      "archetype": "White Weenie",
-      "count": 3
-    },
-    {
       "archetype": "Esper Affinity",
       "count": 3
     },
     {
-      "archetype": "Pingers",
+      "archetype": "White Weenie",
+      "count": 3
+    },
+    {
+      "archetype": "R Madness",
       "count": 2
     },
     {
@@ -37,7 +37,7 @@
       "count": 2
     },
     {
-      "archetype": "R Madness",
+      "archetype": "Pingers",
       "count": 2
     },
     {
@@ -45,15 +45,15 @@
       "count": 1
     },
     {
-      "archetype": "U Terror",
-      "count": 1
-    },
-    {
-      "archetype": "Rally",
-      "count": 1
-    },
-    {
       "archetype": "UB Terror",
+      "count": 1
+    },
+    {
+      "archetype": "Jund",
+      "count": 1
+    },
+    {
+      "archetype": "U Terror",
       "count": 1
     }
   ],
@@ -66,6 +66,23 @@
       "archetype": "Esper Affinity",
       "colors": [
         "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-18",
+      "player": "Luiz0211",
+      "archetype": "White Weenie",
+      "colors": [
+        "B",
+        "R",
         "U",
         "W"
       ],
@@ -90,23 +107,6 @@
       "final_rank": 13,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-18",
-      "player": "Luiz0211",
-      "archetype": "White Weenie",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-1010855",
@@ -155,22 +155,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1312844320",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-13",
-      "player": "Luiz0211",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 22,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-challenge-32-2025-03-1712844320",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-13",
@@ -187,7 +171,23 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-0712843817",
+      "site_name": "pauper-challenge-32-2026-06-1312844320",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-13",
+      "player": "Luiz0211",
+      "archetype": "R Madness",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 22,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1312843817",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-07",
       "player": "Luiz0211",
@@ -203,7 +203,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1312843817",
+      "site_name": "pauper-challenge-32-2026-06-0712843817",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-07",
       "player": "Luiz0211",
