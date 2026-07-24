@@ -2,13 +2,13 @@
   "archetype": "BW Refurbished",
   "slug": "bw-refurbished",
   "stats": {
-    "total_entries": 368,
+    "total_entries": 369,
     "league_entries": 206,
     "league_trophies": 206,
     "league_trophies_yearly": 93,
-    "challenge_appearances": 155,
-    "challenge_wins": 586,
-    "challenge_losses": 402,
+    "challenge_appearances": 156,
+    "challenge_wins": 589,
+    "challenge_losses": 405,
     "irl_top8": 4,
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 19,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2412848188",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-24",
+      "player": "CAM_13",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 28,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-2312848178",
       "tournament": "Pauper Challenge 32",
@@ -364,20 +378,6 @@
         "B",
         "R",
         "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-3010855",
-      "tournament": "Pauper League",
-      "date": "2026-06-30",
-      "player": "ThiagoGuerra",
-      "colors": [
-        "R",
         "W"
       ],
       "record": "5-0",

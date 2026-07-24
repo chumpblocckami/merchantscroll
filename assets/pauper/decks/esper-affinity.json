@@ -2,13 +2,13 @@
   "archetype": "Esper Affinity",
   "slug": "esper-affinity",
   "stats": {
-    "total_entries": 88,
+    "total_entries": 89,
     "league_entries": 59,
     "league_trophies": 59,
     "league_trophies_yearly": 16,
-    "challenge_appearances": 22,
-    "challenge_wins": 79,
-    "challenge_losses": 50,
+    "challenge_appearances": 23,
+    "challenge_wins": 82,
+    "challenge_losses": 53,
     "irl_top8": 4,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 44,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2412848188",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-24",
+      "player": "JuaKi",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-last-chance-2026-07-2212847741",
       "tournament": "Pauper Last Chance",
@@ -359,20 +374,6 @@
         "B",
         "U",
         "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-03-1910405",
-      "tournament": "pauper-league-2026-03-1910405",
-      "date": "2026-03-19",
-      "player": "unsur3",
-      "colors": [
-        "B",
-        "U"
       ],
       "record": "5-0",
       "final_rank": null,

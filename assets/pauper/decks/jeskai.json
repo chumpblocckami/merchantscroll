@@ -2,13 +2,13 @@
   "archetype": "Jeskai",
   "slug": "jeskai",
   "stats": {
-    "total_entries": 355,
+    "total_entries": 356,
     "league_entries": 201,
     "league_trophies": 201,
     "league_trophies_yearly": 137,
-    "challenge_appearances": 133,
-    "challenge_wins": 553,
-    "challenge_losses": 325,
+    "challenge_appearances": 134,
+    "challenge_wins": 560,
+    "challenge_losses": 327,
     "irl_top8": 9,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 13,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2412848188",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-24",
+      "player": "Ben_Matocha",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "7-2",
+      "final_rank": 2,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-2312848178",
       "tournament": "Pauper Challenge 32",
@@ -381,21 +396,6 @@
       "final_rank": 13,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-17",
-      "player": "Alex2109",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [

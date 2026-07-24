@@ -2,17 +2,17 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1227,
-    "league_entries": 627,
-    "league_trophies": 627,
-    "league_trophies_yearly": 245,
+    "total_entries": 1228,
+    "league_entries": 628,
+    "league_trophies": 628,
+    "league_trophies_yearly": 246,
     "challenge_appearances": 537,
     "challenge_wins": 2150,
     "challenge_losses": 1350,
     "irl_top8": 31,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 4,
-    "league_trophy_rank_alltime": 4,
+    "league_trophy_rank_alltime": 3,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
@@ -28,6 +28,21 @@
         "R",
         "U",
         "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-24",
+      "player": "KidRenan",
+      "colors": [
+        "B",
+        "G",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -362,20 +377,6 @@
       "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1310855",
-      "tournament": "Pauper League",
-      "date": "2026-07-13",
-      "player": "ganjadejanga",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [

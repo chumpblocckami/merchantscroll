@@ -3,21 +3,25 @@
   "display_name": "duke12",
   "irl_name": null,
   "stats": {
-    "total_entries": 11,
+    "total_entries": 12,
     "league_trophies": 0,
     "league_trophies_yearly": 0,
-    "challenge_wins": 39,
-    "challenge_losses": 17,
+    "challenge_wins": 43,
+    "challenge_losses": 19,
     "irl_top8": 0,
-    "challenge_win_pct": 70,
+    "challenge_win_pct": 69,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": null,
-    "league_trophy_players_yearly": 1346,
-    "league_trophy_players_alltime": 2054
+    "league_trophy_players_yearly": 1348,
+    "league_trophy_players_alltime": 2056
   },
   "favorite_decks": [
     {
       "archetype": "Affinity",
+      "count": 2
+    },
+    {
+      "archetype": "Naya Gates",
       "count": 2
     },
     {
@@ -41,15 +45,29 @@
       "count": 1
     },
     {
-      "archetype": "Naya Gates",
-      "count": 1
-    },
-    {
       "archetype": "UR Control",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2412848188",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-24",
+      "player": "duke12",
+      "archetype": "Naya Gates",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 14,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0912847113",
       "tournament": "Pauper Challenge 32",

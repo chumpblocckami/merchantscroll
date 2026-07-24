@@ -2,13 +2,13 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 629,
-    "league_entries": 358,
-    "league_trophies": 358,
-    "league_trophies_yearly": 168,
-    "challenge_appearances": 242,
-    "challenge_wins": 934,
-    "challenge_losses": 611,
+    "total_entries": 632,
+    "league_entries": 359,
+    "league_trophies": 359,
+    "league_trophies_yearly": 169,
+    "challenge_appearances": 244,
+    "challenge_wins": 940,
+    "challenge_losses": 617,
     "irl_top8": 15,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 9,
@@ -18,12 +18,53 @@
   },
   "recent_entries": [
     {
+      "site_name": "pauper-challenge-32-2026-07-2412848188",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-24",
+      "player": "dragtar",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-2412848188",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-24",
+      "player": "M_EMORIE_S",
+      "colors": [
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-league-2026-07-2410855",
       "tournament": "Pauper League",
       "date": "2026-07-24",
       "player": "Riccc",
       "colors": [
         "B",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-24",
+      "player": "EthanGZA",
+      "colors": [
         "W"
       ],
       "record": "5-0",
@@ -310,46 +351,6 @@
       "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1310855",
-      "tournament": "Pauper League",
-      "date": "2026-07-13",
-      "player": "PABLO17",
-      "colors": [
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1212847145",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-12",
-      "player": "Terracotta99",
-      "colors": [
-        "R",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 25,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1112847128",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-11",
-      "player": "Pjey",
-      "colors": [
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -386,12 +387,12 @@
       "count": 14
     },
     {
-      "player": "Huskyman20035",
+      "player": "dragtar",
       "count": 13
     },
     {
-      "player": "dragtar",
-      "count": 12
+      "player": "Huskyman20035",
+      "count": 13
     }
   ]
 }

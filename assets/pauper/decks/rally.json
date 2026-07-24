@@ -2,17 +2,17 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 1177,
-    "league_entries": 633,
-    "league_trophies": 633,
-    "league_trophies_yearly": 293,
+    "total_entries": 1172,
+    "league_entries": 628,
+    "league_trophies": 628,
+    "league_trophies_yearly": 288,
     "challenge_appearances": 484,
     "challenge_wins": 1872,
     "challenge_losses": 1238,
     "irl_top8": 21,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 3,
-    "league_trophy_rank_alltime": 3,
+    "league_trophy_rank_alltime": 4,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
@@ -22,20 +22,6 @@
       "tournament": "Pauper League",
       "date": "2026-07-24",
       "player": "kalko",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-24",
-      "player": "Marvepino",
       "colors": [
         "G",
         "R"
@@ -198,48 +184,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-07-2110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-21",
-      "player": "Legocop80",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-21",
-      "player": "GilbertoAntunes",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-21",
-      "player": "davidbrito",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-last-chance-2026-07-2112847730",
       "tournament": "Pauper Last Chance",
       "date": "2026-07-21",
@@ -364,6 +308,62 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2112847738",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "Demian77",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-1",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2112847738",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "MatheusPonciano",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-2",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2112847738",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "PedraStone",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "2-3",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2112847738",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "The_Lion91",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "1-4",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
     }
   ],
   "top_pilots": [
@@ -381,7 +381,7 @@
     },
     {
       "player": "GilbertoAntunes",
-      "count": 38
+      "count": 37
     },
     {
       "player": "Niederschatten",

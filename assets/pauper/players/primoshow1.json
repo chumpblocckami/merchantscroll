@@ -3,22 +3,22 @@
   "display_name": "PrimoShow1",
   "irl_name": null,
   "stats": {
-    "total_entries": 45,
+    "total_entries": 46,
     "league_trophies": 17,
     "league_trophies_yearly": 10,
-    "challenge_wins": 115,
-    "challenge_losses": 68,
+    "challenge_wins": 118,
+    "challenge_losses": 70,
     "irl_top8": 0,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 99,
     "league_trophy_rank_alltime": 128,
-    "league_trophy_players_yearly": 1346,
-    "league_trophy_players_alltime": 2054
+    "league_trophy_players_yearly": 1348,
+    "league_trophy_players_alltime": 2056
   },
   "favorite_decks": [
     {
       "archetype": "Monsters",
-      "count": 39
+      "count": 40
     },
     {
       "archetype": "Naya Gates",
@@ -26,6 +26,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2412848188",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-24",
+      "player": "PrimoShow1",
+      "archetype": "Monsters",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-2",
+      "final_rank": 12,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-2110855",
       "tournament": "Pauper League",
@@ -408,22 +423,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-2812836765",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-28",
-      "player": "PrimoShow1",
-      "archetype": "Monsters",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-2",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

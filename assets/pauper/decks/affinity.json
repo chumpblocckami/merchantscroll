@@ -2,13 +2,13 @@
   "archetype": "Affinity",
   "slug": "affinity",
   "stats": {
-    "total_entries": 983,
-    "league_entries": 384,
-    "league_trophies": 384,
-    "league_trophies_yearly": 227,
-    "challenge_appearances": 524,
-    "challenge_wins": 2167,
-    "challenge_losses": 1313,
+    "total_entries": 984,
+    "league_entries": 383,
+    "league_trophies": 383,
+    "league_trophies_yearly": 226,
+    "challenge_appearances": 526,
+    "challenge_wins": 2174,
+    "challenge_losses": 1318,
     "irl_top8": 39,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 6,
@@ -17,6 +17,36 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2412848188",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-24",
+      "player": "Vhangar",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 18,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-2412848188",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-24",
+      "player": "LuffyDoChapeuDePalha",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 19,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-2410855",
       "tournament": "Pauper League",
@@ -127,21 +157,6 @@
       "tournament": "Pauper League",
       "date": "2026-07-21",
       "player": "RotyBoty",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-21",
-      "player": "Mirozel1",
       "colors": [
         "B",
         "R",
@@ -374,27 +389,12 @@
       "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-15",
-      "player": "IlDivino90",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "LuffyDoChapeuDePalha",
-      "count": 214
+      "count": 215
     },
     {
       "player": "galeogiao",

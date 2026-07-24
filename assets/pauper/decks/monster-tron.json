@@ -2,21 +2,36 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 72,
-    "league_entries": 23,
-    "league_trophies": 23,
-    "league_trophies_yearly": 23,
-    "challenge_appearances": 42,
-    "challenge_wins": 176,
-    "challenge_losses": 111,
+    "total_entries": 71,
+    "league_entries": 21,
+    "league_trophies": 21,
+    "league_trophies_yearly": 21,
+    "challenge_appearances": 43,
+    "challenge_wins": 180,
+    "challenge_losses": 113,
     "irl_top8": 2,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 38,
-    "league_trophy_rank_alltime": 46,
+    "league_trophy_rank_yearly": 40,
+    "league_trophy_rank_alltime": 47,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2412848188",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-24",
+      "player": "Valimoth",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-2310855",
       "tournament": "Pauper League",
@@ -181,38 +196,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-20",
-      "player": "Enz091",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-20",
-      "player": "TuggaNaxos",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1912847712",
@@ -391,12 +374,26 @@
       "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1112847128",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-11",
+      "player": "Nik97",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "1-4",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "Valimoth",
-      "count": 12
+      "count": 13
     },
     {
       "player": "Echanez",
