@@ -2,10 +2,10 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1237,
-    "league_entries": 630,
-    "league_trophies": 630,
-    "league_trophies_yearly": 248,
+    "total_entries": 1238,
+    "league_entries": 631,
+    "league_trophies": 631,
+    "league_trophies_yearly": 249,
     "challenge_appearances": 542,
     "challenge_wins": 2170,
     "challenge_losses": 1363,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 4,
     "league_trophy_rank_alltime": 4,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -68,6 +68,20 @@
         "B",
         "G",
         "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-25",
+      "player": "A_AdeptoTerra",
+      "colors": [
+        "B",
+        "G"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -362,20 +376,6 @@
       ],
       "record": "3-3",
       "final_rank": 31,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1712847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "Bawer",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-2",
-      "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
     }

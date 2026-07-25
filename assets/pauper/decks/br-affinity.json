@@ -2,21 +2,36 @@
   "archetype": "BR Affinity",
   "slug": "br-affinity",
   "stats": {
-    "total_entries": 38,
+    "total_entries": 39,
     "league_entries": 14,
     "league_trophies": 14,
     "league_trophies_yearly": 14,
-    "challenge_appearances": 20,
-    "challenge_wins": 67,
-    "challenge_losses": 58,
+    "challenge_appearances": 21,
+    "challenge_wins": 70,
+    "challenge_losses": 61,
     "irl_top8": 2,
-    "challenge_win_pct": 54,
+    "challenge_win_pct": 53,
     "league_trophy_rank_yearly": 46,
     "league_trophy_rank_alltime": 50,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2512848203",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-25",
+      "player": "Lamela",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-2210855",
       "tournament": "Pauper League",
@@ -372,20 +387,6 @@
       ],
       "record": "2-4",
       "final_rank": 30,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2512845625",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "s8shock",
-      "colors": [
-        "B",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
     }
