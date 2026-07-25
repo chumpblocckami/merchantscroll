@@ -3,17 +3,17 @@
   "display_name": "NMT_Sco94",
   "irl_name": null,
   "stats": {
-    "total_entries": 143,
-    "league_trophies": 53,
-    "league_trophies_yearly": 11,
+    "total_entries": 144,
+    "league_trophies": 54,
+    "league_trophies_yearly": 12,
     "challenge_wins": 370,
     "challenge_losses": 211,
     "irl_top8": 0,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 93,
-    "league_trophy_rank_alltime": 19,
-    "league_trophy_players_yearly": 1353,
-    "league_trophy_players_alltime": 2060
+    "league_trophy_rank_yearly": 85,
+    "league_trophy_rank_alltime": 18,
+    "league_trophy_players_yearly": 1354,
+    "league_trophy_players_alltime": 2061
   },
   "favorite_decks": [
     {
@@ -26,7 +26,7 @@
     },
     {
       "archetype": "Rally",
-      "count": 13
+      "count": 14
     },
     {
       "archetype": "Flicker Tron",
@@ -67,6 +67,21 @@
       "colors": [
         "R",
         "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-25",
+      "player": "NMT_Sco94",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -438,22 +453,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-02-1412833033",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-02-14",
-      "player": "NMT_Sco94",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }
