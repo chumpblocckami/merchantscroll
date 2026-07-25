@@ -2,10 +2,10 @@
   "archetype": "UB Control",
   "slug": "ub-control",
   "stats": {
-    "total_entries": 164,
-    "league_entries": 112,
-    "league_trophies": 112,
-    "league_trophies_yearly": 65,
+    "total_entries": 161,
+    "league_entries": 109,
+    "league_trophies": 109,
+    "league_trophies_yearly": 62,
     "challenge_appearances": 48,
     "challenge_wins": 162,
     "challenge_losses": 135,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-25",
+      "player": "alevale9722",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-2310855",
       "tournament": "Pauper League",
@@ -37,65 +51,6 @@
       "tournament": "Pauper League",
       "date": "2026-07-23",
       "player": "Sneax7",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-22",
-      "player": "Bielzito",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-22",
-      "player": "Baro_94",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-19",
-      "player": "Gius1901",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-19",
-      "player": "Drugo",
       "colors": [
         "B",
         "R",
@@ -377,6 +332,48 @@
       "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-05-2412842933",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-05-24",
+      "player": "morpheus38",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauperwave-2026-05-24-pauperagù",
+      "tournament": "Pauperagù 2026 — Bologna",
+      "date": "2026-05-24",
+      "player": "Filippo Onoranti",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
+      "site_name": "pauperwave-2026-05-23-pauper-focaccia-2026",
+      "tournament": "Pauper Focaccia 2026 — Genova",
+      "date": "2026-05-23",
+      "player": "Ivan Fuseri",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "",
+      "final_rank": 3,
+      "source": "pauperwave",
+      "type": "irl"
     }
   ],
   "top_pilots": [
@@ -417,8 +414,8 @@
       "count": 4
     },
     {
-      "player": "celobee",
-      "count": 3
+      "player": "alevale9722",
+      "count": 4
     }
   ]
 }
