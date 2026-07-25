@@ -2,13 +2,13 @@
   "archetype": "UB Terror",
   "slug": "ub-terror",
   "stats": {
-    "total_entries": 583,
-    "league_entries": 296,
-    "league_trophies": 296,
-    "league_trophies_yearly": 154,
-    "challenge_appearances": 250,
-    "challenge_wins": 1051,
-    "challenge_losses": 599,
+    "total_entries": 585,
+    "league_entries": 297,
+    "league_trophies": 297,
+    "league_trophies_yearly": 155,
+    "challenge_appearances": 251,
+    "challenge_wins": 1058,
+    "challenge_losses": 601,
     "irl_top8": 8,
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 11,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2512848203",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-25",
+      "player": "Drugo",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "7-2",
+      "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-2312848178",
       "tournament": "Pauper Challenge 32",
@@ -48,6 +63,36 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-07-2310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-23",
+      "player": "JuaKi",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-23",
+      "player": "Sneax7",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-last-chance-2026-07-2212847741",
       "tournament": "Pauper Last Chance",
       "date": "2026-07-22",
@@ -67,21 +112,6 @@
       "tournament": "Pauper League",
       "date": "2026-07-22",
       "player": "Bielzito",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-22",
-      "player": "Baro_94",
       "colors": [
         "B",
         "R",
@@ -361,36 +391,6 @@
       "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1612847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "PR0boszcz",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1512847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "Lollopollo2001",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "8-1",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -408,7 +408,7 @@
     },
     {
       "player": "Drugo",
-      "count": 17
+      "count": 18
     },
     {
       "player": "bombaj",

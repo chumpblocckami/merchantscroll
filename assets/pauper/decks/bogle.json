@@ -2,13 +2,13 @@
   "archetype": "Bogle",
   "slug": "bogle",
   "stats": {
-    "total_entries": 256,
+    "total_entries": 257,
     "league_entries": 104,
     "league_trophies": 104,
     "league_trophies_yearly": 33,
-    "challenge_appearances": 145,
-    "challenge_wins": 572,
-    "challenge_losses": 375,
+    "challenge_appearances": 146,
+    "challenge_wins": 576,
+    "challenge_losses": 377,
     "irl_top8": 2,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 33,
@@ -17,6 +17,22 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2512848203",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-25",
+      "player": "RioMare85",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-2310855",
       "tournament": "Pauper League",
@@ -409,23 +425,6 @@
       ],
       "record": "2-3",
       "final_rank": 31,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0712846470",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-03",
-      "player": "QueMario",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-3",
-      "final_rank": 19,
       "source": "mtgo",
       "type": "challenge"
     }

@@ -2,13 +2,13 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 212,
+    "total_entries": 214,
     "league_entries": 87,
     "league_trophies": 87,
     "league_trophies_yearly": 59,
-    "challenge_appearances": 111,
-    "challenge_wins": 398,
-    "challenge_losses": 278,
+    "challenge_appearances": 113,
+    "challenge_wins": 407,
+    "challenge_losses": 282,
     "irl_top8": 4,
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 28,
@@ -17,6 +17,34 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2512848203",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-25",
+      "player": "_Abijhavs_",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "6-1",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-2512848203",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-25",
+      "player": "Ixidor29",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 17,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-2412848188",
       "tournament": "Pauper Challenge 32",
@@ -338,47 +366,19 @@
       "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1812847695",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-18",
-      "player": "ridikolaus",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 21,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1612847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "mehanske",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "Ixidor29",
-      "count": 51
-    },
-    {
-      "player": "mehanske",
-      "count": 10
+      "count": 52
     },
     {
       "player": "_Abijhavs_",
+      "count": 11
+    },
+    {
+      "player": "mehanske",
       "count": 10
     },
     {
