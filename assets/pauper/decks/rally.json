@@ -2,10 +2,10 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 1190,
-    "league_entries": 635,
-    "league_trophies": 635,
-    "league_trophies_yearly": 295,
+    "total_entries": 1191,
+    "league_entries": 636,
+    "league_trophies": 636,
+    "league_trophies_yearly": 296,
     "challenge_appearances": 491,
     "challenge_wins": 1904,
     "challenge_losses": 1252,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-25",
+      "player": "vini_torres",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-2412848188",
       "tournament": "Pauper Challenge 32",
@@ -350,20 +364,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2112847730",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "MJ_23",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-2",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
     }
   ],
   "top_pilots": [
@@ -373,7 +373,7 @@
     },
     {
       "player": "vini_torres",
-      "count": 89
+      "count": 90
     },
     {
       "player": "boom_bust",
