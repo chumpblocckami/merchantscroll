@@ -2,21 +2,36 @@
   "archetype": "BGR",
   "slug": "bgr",
   "stats": {
-    "total_entries": 16,
+    "total_entries": 17,
     "league_entries": 12,
     "league_trophies": 12,
     "league_trophies_yearly": 12,
-    "challenge_appearances": 4,
-    "challenge_wins": 15,
-    "challenge_losses": 10,
+    "challenge_appearances": 5,
+    "challenge_wins": 18,
+    "challenge_losses": 13,
     "irl_top8": 0,
-    "challenge_win_pct": 60,
+    "challenge_win_pct": 58,
     "league_trophy_rank_yearly": 47,
     "league_trophy_rank_alltime": 50,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2512848203",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-25",
+      "player": "Lamela",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-0510855",
       "tournament": "Pauper League",
@@ -273,6 +288,10 @@
     },
     {
       "player": "olati",
+      "count": 1
+    },
+    {
+      "player": "Lamela",
       "count": 1
     },
     {

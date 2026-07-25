@@ -2,10 +2,10 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1235,
-    "league_entries": 628,
-    "league_trophies": 628,
-    "league_trophies_yearly": 246,
+    "total_entries": 1236,
+    "league_entries": 629,
+    "league_trophies": 629,
+    "league_trophies_yearly": 247,
     "challenge_appearances": 542,
     "challenge_wins": 2170,
     "challenge_losses": 1363,
@@ -44,6 +44,20 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-25",
+      "player": "ganjadejanga",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-2410855",
@@ -363,20 +377,6 @@
       "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-17",
-      "player": "NancyPelosiOnlyF",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -394,7 +394,7 @@
     },
     {
       "player": "ganjadejanga",
-      "count": 34
+      "count": 35
     },
     {
       "player": "QueMario",
