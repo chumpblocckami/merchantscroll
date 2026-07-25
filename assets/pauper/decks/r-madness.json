@@ -2,10 +2,10 @@
   "archetype": "R Madness",
   "slug": "r-madness",
   "stats": {
-    "total_entries": 2028,
-    "league_entries": 1126,
-    "league_trophies": 1126,
-    "league_trophies_yearly": 554,
+    "total_entries": 2035,
+    "league_entries": 1133,
+    "league_trophies": 1133,
+    "league_trophies_yearly": 561,
     "challenge_appearances": 789,
     "challenge_wins": 3113,
     "challenge_losses": 1994,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 1,
     "league_trophy_rank_alltime": 1,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -126,7 +126,37 @@
       "site_name": "pauper-league-2026-07-2410855",
       "tournament": "Pauper League",
       "date": "2026-07-24",
+      "player": "Ryuji",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-24",
       "player": "vikizin",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-24",
+      "player": "hyuma",
       "colors": [
         "B",
         "R",
@@ -243,6 +273,21 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-07-2310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-23",
+      "player": "yahakara",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-last-chance-2026-07-2212847741",
       "tournament": "Pauper Last Chance",
       "date": "2026-07-22",
@@ -271,6 +316,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-22",
+      "player": "Ruthison",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-2212848161",
@@ -318,8 +378,8 @@
       "type": "other"
     },
     {
-      "site_name": "pauper-last-chance-2026-07-2112847730",
-      "tournament": "Pauper Last Chance",
+      "site_name": "pauper-league-2026-07-2110855",
+      "tournament": "Pauper League",
       "date": "2026-07-21",
       "player": "hyuma",
       "colors": [
@@ -327,70 +387,10 @@
         "R",
         "U"
       ],
-      "record": "3-2",
+      "record": "5-0",
       "final_rank": null,
       "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2112847730",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "AlessandroPiraccini",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "2-1",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2112847738",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "AlessandroPiraccini",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "2-1",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2012847724",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-20",
-      "player": "MatheusPonciano",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "1-3",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2012847724",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-20",
-      "player": "AlessandroPiraccini",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "1-1",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -423,11 +423,11 @@
       "count": 28
     },
     {
-      "player": "carvs",
-      "count": 25
+      "player": "hyuma",
+      "count": 27
     },
     {
-      "player": "hyuma",
+      "player": "carvs",
       "count": 25
     },
     {
