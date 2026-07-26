@@ -2,10 +2,10 @@
   "archetype": "Jeskai",
   "slug": "jeskai",
   "stats": {
-    "total_entries": 365,
-    "league_entries": 205,
-    "league_trophies": 205,
-    "league_trophies_yearly": 141,
+    "total_entries": 366,
+    "league_entries": 206,
+    "league_trophies": 206,
+    "league_trophies_yearly": 142,
     "challenge_appearances": 139,
     "challenge_wins": 580,
     "challenge_losses": 338,
@@ -121,6 +121,21 @@
       "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-24",
+      "player": "Worgasmo",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-2312848178",
@@ -376,21 +391,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1912847712",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-19",
-      "player": "evening_child",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "9-1",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
