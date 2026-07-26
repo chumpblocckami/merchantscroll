@@ -2,10 +2,10 @@
   "archetype": "RG Storm",
   "slug": "rg-storm",
   "stats": {
-    "total_entries": 196,
-    "league_entries": 134,
-    "league_trophies": 134,
-    "league_trophies_yearly": 121,
+    "total_entries": 197,
+    "league_entries": 135,
+    "league_trophies": 135,
+    "league_trophies_yearly": 122,
     "challenge_appearances": 46,
     "challenge_wins": 165,
     "challenge_losses": 119,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-26",
+      "player": "saidin.raken",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-2312848178",
       "tournament": "Pauper Challenge 32",
@@ -376,27 +391,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0912847103",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-09",
-      "player": "Cachorrowo",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "saidin.raken",
-      "count": 42
+      "count": 43
     },
     {
       "player": "DataPusher",

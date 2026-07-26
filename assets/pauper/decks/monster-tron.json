@@ -2,26 +2,26 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 77,
-    "league_entries": 22,
-    "league_trophies": 22,
-    "league_trophies_yearly": 22,
+    "total_entries": 79,
+    "league_entries": 24,
+    "league_trophies": 24,
+    "league_trophies_yearly": 24,
     "challenge_appearances": 47,
     "challenge_wins": 195,
     "challenge_losses": 124,
     "irl_top8": 2,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 38,
-    "league_trophy_rank_alltime": 47,
+    "league_trophy_rank_yearly": 37,
+    "league_trophy_rank_alltime": 45,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
-      "site_name": "pauper-league-2026-07-2510855",
+      "site_name": "pauper-league-2026-07-2610855",
       "tournament": "Pauper League",
-      "date": "2026-07-25",
-      "player": "Syns",
+      "date": "2026-07-26",
+      "player": "Sweeeeet",
       "colors": [
         "B",
         "G",
@@ -68,10 +68,13 @@
       "site_name": "pauper-league-2026-07-2310855",
       "tournament": "Pauper League",
       "date": "2026-07-23",
-      "player": "Ixidor29",
+      "player": "Kuriboh",
       "colors": [
+        "B",
         "G",
-        "R"
+        "R",
+        "U",
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -241,6 +244,38 @@
       "type": "other"
     },
     {
+      "site_name": "pauper-league-2026-07-2010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-20",
+      "player": "Enz091",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-20",
+      "player": "TuggaNaxos",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-1912847712",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-19",
@@ -359,35 +394,6 @@
       "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1512847177",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-15",
-      "player": "AFitzsimmons",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 28,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-14",
-      "player": "Taute",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -401,7 +407,7 @@
     },
     {
       "player": "Syns",
-      "count": 6
+      "count": 5
     },
     {
       "player": "giuliodice",

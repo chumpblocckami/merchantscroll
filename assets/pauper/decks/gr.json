@@ -2,21 +2,49 @@
   "archetype": "GR",
   "slug": "gr",
   "stats": {
-    "total_entries": 36,
-    "league_entries": 27,
-    "league_trophies": 27,
-    "league_trophies_yearly": 15,
+    "total_entries": 38,
+    "league_entries": 29,
+    "league_trophies": 29,
+    "league_trophies_yearly": 17,
     "challenge_appearances": 9,
     "challenge_wins": 34,
     "challenge_losses": 26,
     "irl_top8": 0,
     "challenge_win_pct": 57,
-    "league_trophy_rank_yearly": 45,
+    "league_trophy_rank_yearly": 42,
     "league_trophy_rank_alltime": 44,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-24",
+      "player": "FungBoi",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-24",
+      "player": "FungBoi",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2410855",
       "tournament": "Pauper League",
@@ -338,34 +366,6 @@
       "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-08-3112812801",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-08-31",
-      "player": "Raziel1993",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-3",
-      "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-08-309535",
-      "tournament": "pauper-league-2025-08-309535",
-      "date": "2025-08-30",
-      "player": "ICT95",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -390,6 +390,10 @@
       "count": 2
     },
     {
+      "player": "FungBoi",
+      "count": 2
+    },
+    {
       "player": "Todeshorst",
       "count": 1
     },
@@ -403,10 +407,6 @@
     },
     {
       "player": "PR0boszcz",
-      "count": 1
-    },
-    {
-      "player": "ulbabrabal",
       "count": 1
     }
   ]
