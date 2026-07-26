@@ -2,10 +2,10 @@
   "archetype": "U Terror",
   "slug": "u-terror",
   "stats": {
-    "total_entries": 1809,
-    "league_entries": 825,
-    "league_trophies": 825,
-    "league_trophies_yearly": 350,
+    "total_entries": 1808,
+    "league_entries": 824,
+    "league_trophies": 824,
+    "league_trophies_yearly": 349,
     "challenge_appearances": 870,
     "challenge_wins": 3579,
     "challenge_losses": 2152,
@@ -213,20 +213,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-07-2410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-24",
-      "player": "MojitoErgoSum",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-07-2312848178",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-23",
@@ -363,6 +349,20 @@
       ],
       "record": "4-3",
       "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-2212848161",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-22",
+      "player": "Conway",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
     }
