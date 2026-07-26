@@ -2,10 +2,10 @@
   "archetype": "Jund",
   "slug": "jund",
   "stats": {
-    "total_entries": 1321,
-    "league_entries": 557,
-    "league_trophies": 557,
-    "league_trophies_yearly": 236,
+    "total_entries": 1320,
+    "league_entries": 556,
+    "league_trophies": 556,
+    "league_trophies_yearly": 235,
     "challenge_appearances": 649,
     "challenge_wins": 2610,
     "challenge_losses": 1639,
@@ -229,23 +229,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-07-2310855",
-      "tournament": "Pauper League",
-      "date": "2026-07-23",
-      "player": "Kuriboh",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-last-chance-2026-07-2212847741",
       "tournament": "Pauper Last Chance",
       "date": "2026-07-22",
@@ -391,6 +374,21 @@
         "R"
       ],
       "record": "2-3",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-1912847738",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "Walker735",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
       "final_rank": null,
       "source": "mtgo",
       "type": "other"

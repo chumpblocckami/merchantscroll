@@ -2,10 +2,10 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1239,
-    "league_entries": 632,
-    "league_trophies": 632,
-    "league_trophies_yearly": 250,
+    "total_entries": 1240,
+    "league_entries": 633,
+    "league_trophies": 633,
+    "league_trophies_yearly": 251,
     "challenge_appearances": 542,
     "challenge_wins": 2170,
     "challenge_losses": 1363,
@@ -26,6 +26,22 @@
         "B",
         "G",
         "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-26",
+      "player": "Kelekkis",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -363,20 +379,6 @@
       ],
       "record": "3-3",
       "final_rank": 31,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1512847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "Bawer",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-2",
-      "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
     }

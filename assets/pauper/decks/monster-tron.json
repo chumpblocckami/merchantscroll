@@ -2,21 +2,37 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 76,
-    "league_entries": 21,
-    "league_trophies": 21,
-    "league_trophies_yearly": 21,
+    "total_entries": 77,
+    "league_entries": 22,
+    "league_trophies": 22,
+    "league_trophies_yearly": 22,
     "challenge_appearances": 47,
     "challenge_wins": 195,
     "challenge_losses": 124,
     "irl_top8": 2,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 39,
+    "league_trophy_rank_yearly": 38,
     "league_trophy_rank_alltime": 47,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-25",
+      "player": "Syns",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-2412848188",
       "tournament": "Pauper Challenge 32",
@@ -372,22 +388,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-14",
-      "player": "brick_",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -401,7 +401,7 @@
     },
     {
       "player": "Syns",
-      "count": 5
+      "count": 6
     },
     {
       "player": "giuliodice",
