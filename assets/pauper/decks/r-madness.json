@@ -2,10 +2,10 @@
   "archetype": "R Madness",
   "slug": "r-madness",
   "stats": {
-    "total_entries": 2034,
-    "league_entries": 1132,
-    "league_trophies": 1132,
-    "league_trophies_yearly": 560,
+    "total_entries": 2035,
+    "league_entries": 1133,
+    "league_trophies": 1133,
+    "league_trophies_yearly": 561,
     "challenge_appearances": 789,
     "challenge_wins": 3113,
     "challenge_losses": 1994,
@@ -31,6 +31,21 @@
       "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-25",
+      "player": "vikizin",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-2412848188",
@@ -376,21 +391,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-21",
-      "player": "Maxipk",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -408,7 +408,7 @@
     },
     {
       "player": "vikizin",
-      "count": 43
+      "count": 44
     },
     {
       "player": "NMT_Sco94",

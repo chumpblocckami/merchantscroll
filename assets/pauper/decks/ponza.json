@@ -2,16 +2,16 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 216,
-    "league_entries": 89,
-    "league_trophies": 89,
-    "league_trophies_yearly": 61,
+    "total_entries": 215,
+    "league_entries": 88,
+    "league_trophies": 88,
+    "league_trophies_yearly": 60,
     "challenge_appearances": 113,
     "challenge_wins": 407,
     "challenge_losses": 282,
     "irl_top8": 4,
     "challenge_win_pct": 59,
-    "league_trophy_rank_yearly": 27,
+    "league_trophy_rank_yearly": 28,
     "league_trophy_rank_alltime": 35,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
@@ -200,20 +200,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-07-2210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-22",
-      "player": "Mindartis",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-07-2212848161",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-22",
@@ -287,10 +273,11 @@
       "site_name": "pauper-league-2026-07-2010855",
       "tournament": "Pauper League",
       "date": "2026-07-20",
-      "player": "19LNC91",
+      "player": "SpikeYou",
       "colors": [
         "G",
-        "R"
+        "R",
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -364,6 +351,20 @@
       ],
       "record": "8-1",
       "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1912847695",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-18",
+      "player": "ridikolaus",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
     }

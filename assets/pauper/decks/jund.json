@@ -2,10 +2,10 @@
   "archetype": "Jund",
   "slug": "jund",
   "stats": {
-    "total_entries": 1318,
-    "league_entries": 554,
-    "league_trophies": 554,
-    "league_trophies_yearly": 233,
+    "total_entries": 1319,
+    "league_entries": 555,
+    "league_trophies": 555,
+    "league_trophies_yearly": 234,
     "challenge_appearances": 649,
     "challenge_wins": 2610,
     "challenge_losses": 1639,
@@ -76,6 +76,21 @@
       "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-25",
+      "player": "_blaze66",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-2412848188",
@@ -377,27 +392,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-21",
-      "player": "cat_JAM",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "_blaze66",
-      "count": 174
+      "count": 175
     },
     {
       "player": "Walker735",

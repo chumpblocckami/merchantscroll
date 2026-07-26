@@ -2,21 +2,36 @@
   "archetype": "Cycle Storm",
   "slug": "cycle-storm",
   "stats": {
-    "total_entries": 77,
-    "league_entries": 50,
-    "league_trophies": 50,
-    "league_trophies_yearly": 30,
+    "total_entries": 78,
+    "league_entries": 51,
+    "league_trophies": 51,
+    "league_trophies_yearly": 31,
     "challenge_appearances": 16,
     "challenge_wins": 55,
     "challenge_losses": 45,
     "irl_top8": 4,
     "challenge_win_pct": 55,
-    "league_trophy_rank_yearly": 35,
+    "league_trophy_rank_yearly": 34,
     "league_trophy_rank_alltime": 41,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-25",
+      "player": "Bryant_Cook",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-2210855",
       "tournament": "Pauper League",
@@ -378,20 +393,6 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauperwave-2026-05-03-wild-pauper",
-      "tournament": "Wild Pauper — Roma",
-      "date": "2026-05-03",
-      "player": "Alessandro Calisi",
-      "colors": [
-        "B",
-        "R"
-      ],
-      "record": "",
-      "final_rank": 1,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [
@@ -401,7 +402,7 @@
     },
     {
       "player": "Bryant_Cook",
-      "count": 6
+      "count": 7
     },
     {
       "player": "saidin.raken",
