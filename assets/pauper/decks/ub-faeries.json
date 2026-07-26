@@ -2,7 +2,7 @@
   "archetype": "UB Faeries",
   "slug": "ub-faeries",
   "stats": {
-    "total_entries": 663,
+    "total_entries": 664,
     "league_entries": 332,
     "league_trophies": 332,
     "league_trophies_yearly": 204,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "barff",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-1",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "showcase"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-2512848203",
       "tournament": "Pauper Challenge 32",
@@ -353,26 +367,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1612847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "Oscar_Franco",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "7-2",
-      "final_rank": 2,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "barff",
-      "count": 112
+      "count": 113
     },
     {
       "player": "Purgatory_01",

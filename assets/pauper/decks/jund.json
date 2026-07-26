@@ -2,7 +2,7 @@
   "archetype": "Jund",
   "slug": "jund",
   "stats": {
-    "total_entries": 1320,
+    "total_entries": 1323,
     "league_entries": 556,
     "league_trophies": 556,
     "league_trophies_yearly": 235,
@@ -31,6 +31,51 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "Walker735",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "6-2",
+      "final_rank": 1,
+      "source": "mtgo",
+      "type": "showcase"
+    },
+    {
+      "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "ziofrancone",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "1-4",
+      "final_rank": 22,
+      "source": "mtgo",
+      "type": "showcase"
+    },
+    {
+      "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "eXeliS",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "1-4",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "showcase"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-2512848203",
@@ -347,51 +392,6 @@
       "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-2212848161",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-22",
-      "player": "lilianna1989",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "1-5",
-      "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-1912847738",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "sidisi",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "2-3",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-1912847738",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "Walker735",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
     }
   ],
   "top_pilots": [
@@ -401,7 +401,7 @@
     },
     {
       "player": "Walker735",
-      "count": 66
+      "count": 67
     },
     {
       "player": "seasonofmists",
@@ -428,11 +428,11 @@
       "count": 18
     },
     {
-      "player": "AlessandroPiraccini",
-      "count": 17
+      "player": "ziofrancone",
+      "count": 18
     },
     {
-      "player": "yuxiaoyu",
+      "player": "AlessandroPiraccini",
       "count": 17
     }
   ]

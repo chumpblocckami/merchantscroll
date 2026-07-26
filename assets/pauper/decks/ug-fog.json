@@ -2,7 +2,7 @@
   "archetype": "UG Fog",
   "slug": "ug-fog",
   "stats": {
-    "total_entries": 434,
+    "total_entries": 435,
     "league_entries": 212,
     "league_trophies": 212,
     "league_trophies_yearly": 14,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "Bahsis",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "record": "0-2",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "showcase"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1212847145",
       "tournament": "Pauper Challenge 32",
@@ -383,21 +398,6 @@
       ],
       "record": "3-3",
       "final_rank": 25,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0512843783",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-05",
-      "player": "A_AdeptoTerra",
-      "colors": [
-        "B",
-        "G",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
     }

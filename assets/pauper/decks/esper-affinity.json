@@ -2,21 +2,35 @@
   "archetype": "Esper Affinity",
   "slug": "esper-affinity",
   "stats": {
-    "total_entries": 90,
-    "league_entries": 59,
-    "league_trophies": 59,
-    "league_trophies_yearly": 16,
+    "total_entries": 92,
+    "league_entries": 60,
+    "league_trophies": 60,
+    "league_trophies_yearly": 17,
     "challenge_appearances": 24,
     "challenge_wins": 85,
     "challenge_losses": 56,
     "irl_top8": 4,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 45,
+    "league_trophy_rank_yearly": 43,
     "league_trophy_rank_alltime": 39,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "RNicoF",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "0-2",
+      "final_rank": 27,
+      "source": "mtgo",
+      "type": "showcase"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-2512848203",
       "tournament": "Pauper Challenge 32",
@@ -98,6 +112,21 @@
       "player": "Ciri80",
       "colors": [
         "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-21",
+      "player": "Mirozel1",
+      "colors": [
+        "B",
+        "R",
         "U"
       ],
       "record": "5-0",
@@ -349,36 +378,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-04-1010405",
-      "tournament": "Pauper League",
-      "date": "2026-04-10",
-      "player": "GilbertoAntunes",
-      "colors": [
-        "B",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-0412838126",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-04",
-      "player": "Bunbuneru",
-      "colors": [
-        "B",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [

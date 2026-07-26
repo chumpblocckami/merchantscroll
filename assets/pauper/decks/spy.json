@@ -2,7 +2,7 @@
   "archetype": "Spy",
   "slug": "spy",
   "stats": {
-    "total_entries": 738,
+    "total_entries": 739,
     "league_entries": 466,
     "league_trophies": 466,
     "league_trophies_yearly": 188,
@@ -31,6 +31,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "asWerty",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "6-2",
+      "final_rank": 2,
+      "source": "mtgo",
+      "type": "showcase"
     },
     {
       "site_name": "pauper-league-2026-07-2510855",
@@ -378,21 +393,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-15",
-      "player": "AlessandroPiraccini",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -402,7 +402,7 @@
     },
     {
       "player": "asWerty",
-      "count": 26
+      "count": 27
     },
     {
       "player": "AlessandroPiraccini",
