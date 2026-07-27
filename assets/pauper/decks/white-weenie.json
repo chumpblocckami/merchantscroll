@@ -2,10 +2,10 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 639,
-    "league_entries": 360,
-    "league_trophies": 360,
-    "league_trophies_yearly": 170,
+    "total_entries": 640,
+    "league_entries": 361,
+    "league_trophies": 361,
+    "league_trophies_yearly": 171,
     "challenge_appearances": 249,
     "challenge_wins": 959,
     "challenge_losses": 630,
@@ -17,6 +17,19 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-26",
+      "player": "OweyD",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-2512848203",
       "tournament": "Pauper Challenge 32",
@@ -334,19 +347,6 @@
       ],
       "record": "6-2",
       "final_rank": 3,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1812847695",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-18",
-      "player": "GigaChadSigmaMale",
-      "colors": [
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
     }
