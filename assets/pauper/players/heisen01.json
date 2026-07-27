@@ -3,17 +3,17 @@
   "display_name": "Heisen01",
   "irl_name": null,
   "stats": {
-    "total_entries": 29,
+    "total_entries": 30,
     "league_trophies": 10,
     "league_trophies_yearly": 3,
-    "challenge_wins": 81,
-    "challenge_losses": 48,
+    "challenge_wins": 85,
+    "challenge_losses": 50,
     "irl_top8": 0,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 413,
-    "league_trophy_rank_alltime": 239,
-    "league_trophy_players_yearly": 1361,
-    "league_trophy_players_alltime": 2068
+    "league_trophy_rank_alltime": 240,
+    "league_trophy_players_yearly": 1363,
+    "league_trophy_players_alltime": 2070
   },
   "favorite_decks": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "archetype": "UG Fog",
-      "count": 5
+      "count": 6
     },
     {
       "archetype": "Flicker Tron",
@@ -54,6 +54,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2612848222",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-26",
+      "player": "Heisen01",
+      "archetype": "UG Fog",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845643",
       "tournament": "Pauper Challenge 32",
@@ -438,24 +454,6 @@
         "B",
         "G",
         "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-06-249366",
-      "tournament": "pauper-league-2025-06-249366",
-      "date": "2025-06-24",
-      "player": "Heisen01",
-      "archetype": "Flicker Tron",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
       ],
       "record": "5-0",
       "final_rank": null,

@@ -2,19 +2,19 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 640,
+    "total_entries": 641,
     "league_entries": 361,
     "league_trophies": 361,
     "league_trophies_yearly": 171,
-    "challenge_appearances": 249,
-    "challenge_wins": 959,
-    "challenge_losses": 630,
+    "challenge_appearances": 250,
+    "challenge_wins": 967,
+    "challenge_losses": 632,
     "irl_top8": 15,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 9,
     "league_trophy_rank_alltime": 9,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -29,6 +29,19 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-2612848222",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-26",
+      "player": "Niederschatten",
+      "colors": [
+        "W"
+      ],
+      "record": "8-2",
+      "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-2512848203",
@@ -336,19 +349,6 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1812847695",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-18",
-      "player": "ziofrancone",
-      "colors": [
-        "W"
-      ],
-      "record": "6-2",
-      "final_rank": 3,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -362,7 +362,7 @@
     },
     {
       "player": "Niederschatten",
-      "count": 23
+      "count": 24
     },
     {
       "player": "Deodato",

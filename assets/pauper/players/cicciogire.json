@@ -3,17 +3,17 @@
   "display_name": "cicciogire",
   "irl_name": null,
   "stats": {
-    "total_entries": 29,
+    "total_entries": 30,
     "league_trophies": 2,
     "league_trophies_yearly": 1,
-    "challenge_wins": 99,
-    "challenge_losses": 51,
+    "challenge_wins": 106,
+    "challenge_losses": 54,
     "irl_top8": 0,
     "challenge_win_pct": 66,
     "league_trophy_rank_yearly": 861,
     "league_trophy_rank_alltime": 954,
-    "league_trophy_players_yearly": 1361,
-    "league_trophy_players_alltime": 2068
+    "league_trophy_players_yearly": 1363,
+    "league_trophy_players_alltime": 2070
   },
   "favorite_decks": [
     {
@@ -39,9 +39,29 @@
     {
       "archetype": "Bogle",
       "count": 1
+    },
+    {
+      "archetype": "Jeskai",
+      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2612848222",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-26",
+      "player": "cicciogire",
+      "archetype": "Jeskai",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "7-3",
+      "final_rank": 2,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-last-chance-2026-07-1912847738",
       "tournament": "Pauper Last Chance",
@@ -416,24 +436,6 @@
       "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-12-039987",
-      "tournament": "pauper-league-2025-12-039987",
-      "date": "2025-12-03",
-      "player": "cicciogire",
-      "archetype": "Bogle",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

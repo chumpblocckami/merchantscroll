@@ -3,17 +3,17 @@
   "display_name": "Natalino_91",
   "irl_name": null,
   "stats": {
-    "total_entries": 36,
+    "total_entries": 37,
     "league_trophies": 12,
     "league_trophies_yearly": 7,
-    "challenge_wins": 82,
-    "challenge_losses": 65,
+    "challenge_wins": 87,
+    "challenge_losses": 68,
     "irl_top8": 0,
     "challenge_win_pct": 56,
     "league_trophy_rank_yearly": 158,
     "league_trophy_rank_alltime": 189,
-    "league_trophy_players_yearly": 1361,
-    "league_trophy_players_alltime": 2068
+    "league_trophy_players_yearly": 1363,
+    "league_trophy_players_alltime": 2070
   },
   "favorite_decks": [
     {
@@ -51,9 +51,28 @@
     {
       "archetype": "Affinity",
       "count": 2
+    },
+    {
+      "archetype": "Ponza",
+      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2612848222",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-26",
+      "player": "Natalino_91",
+      "archetype": "Ponza",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-3",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-0212846460",
       "tournament": "Pauper Challenge 32",
@@ -436,22 +455,6 @@
       "final_rank": 12,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-challenge-32-special-2025-11-1312824394",
-      "tournament": "Pauper Challenge 32 Special",
-      "date": "2025-11-13",
-      "player": "Natalino_91",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 26,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

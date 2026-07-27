@@ -2,21 +2,36 @@
   "archetype": "Jeskai",
   "slug": "jeskai",
   "stats": {
-    "total_entries": 369,
-    "league_entries": 208,
-    "league_trophies": 208,
-    "league_trophies_yearly": 144,
-    "challenge_appearances": 139,
-    "challenge_wins": 580,
-    "challenge_losses": 338,
+    "total_entries": 371,
+    "league_entries": 209,
+    "league_trophies": 209,
+    "league_trophies_yearly": 145,
+    "challenge_appearances": 140,
+    "challenge_wins": 587,
+    "challenge_losses": 341,
     "irl_top8": 9,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 12,
     "league_trophy_rank_alltime": 18,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-27",
+      "player": "Ben_Matocha",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-2610855",
       "tournament": "Pauper League",
@@ -61,6 +76,21 @@
       "final_rank": 11,
       "source": "mtgo",
       "type": "showcase"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-2612848222",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-26",
+      "player": "cicciogire",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "7-3",
+      "final_rank": 2,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-2512848203",
@@ -361,36 +391,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2112847730",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "pepeteam",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "1-1",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2012847724",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-20",
-      "player": "pepeteam",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "0-1",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
     }
   ],
   "top_pilots": [

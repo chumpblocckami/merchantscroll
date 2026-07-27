@@ -2,21 +2,36 @@
   "archetype": "Cycle Storm",
   "slug": "cycle-storm",
   "stats": {
-    "total_entries": 78,
+    "total_entries": 79,
     "league_entries": 51,
     "league_trophies": 51,
     "league_trophies_yearly": 31,
-    "challenge_appearances": 16,
-    "challenge_wins": 55,
-    "challenge_losses": 45,
+    "challenge_appearances": 17,
+    "challenge_wins": 59,
+    "challenge_losses": 48,
     "irl_top8": 4,
     "challenge_win_pct": 55,
     "league_trophy_rank_yearly": 34,
     "league_trophy_rank_alltime": 41,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2612848222",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-26",
+      "player": "StudentAnselmus",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "4-3",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-2510855",
       "tournament": "Pauper League",
@@ -379,26 +394,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-1412842464",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-14",
-      "player": "xfile",
-      "colors": [
-        "B",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "StudentAnselmus",
-      "count": 34
+      "count": 35
     },
     {
       "player": "Bryant_Cook",

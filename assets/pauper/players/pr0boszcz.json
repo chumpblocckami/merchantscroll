@@ -3,17 +3,17 @@
   "display_name": "PR0boszcz",
   "irl_name": null,
   "stats": {
-    "total_entries": 43,
+    "total_entries": 44,
     "league_trophies": 6,
     "league_trophies_yearly": 3,
-    "challenge_wins": 159,
-    "challenge_losses": 79,
+    "challenge_wins": 163,
+    "challenge_losses": 82,
     "irl_top8": 0,
     "challenge_win_pct": 67,
     "league_trophy_rank_yearly": 463,
     "league_trophy_rank_alltime": 450,
-    "league_trophy_players_yearly": 1361,
-    "league_trophy_players_alltime": 2068
+    "league_trophy_players_yearly": 1363,
+    "league_trophy_players_alltime": 2070
   },
   "favorite_decks": [
     {
@@ -25,6 +25,10 @@
       "count": 7
     },
     {
+      "archetype": "U Terror",
+      "count": 4
+    },
+    {
       "archetype": "Affinity",
       "count": 3
     },
@@ -34,10 +38,6 @@
     },
     {
       "archetype": "Jund",
-      "count": 3
-    },
-    {
-      "archetype": "U Terror",
       "count": 3
     },
     {
@@ -58,6 +58,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2612848222",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-26",
+      "player": "PR0boszcz",
+      "archetype": "U Terror",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1612847682",
       "tournament": "Pauper Challenge 32",
@@ -425,21 +441,6 @@
       ],
       "record": "3-3",
       "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-0912842086",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-09",
-      "player": "PR0boszcz",
-      "archetype": "Food Pestilence",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-2",
-      "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
     }
