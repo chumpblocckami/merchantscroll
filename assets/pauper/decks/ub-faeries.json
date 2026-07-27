@@ -2,10 +2,10 @@
   "archetype": "UB Faeries",
   "slug": "ub-faeries",
   "stats": {
-    "total_entries": 667,
-    "league_entries": 333,
-    "league_trophies": 333,
-    "league_trophies_yearly": 205,
+    "total_entries": 668,
+    "league_entries": 334,
+    "league_trophies": 334,
+    "league_trophies_yearly": 206,
     "challenge_appearances": 302,
     "challenge_wins": 1237,
     "challenge_losses": 770,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-27",
+      "player": "dannyground",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-2710855",
       "tournament": "Pauper League",
@@ -353,20 +367,6 @@
       "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1812847695",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-18",
-      "player": "Oscar_Franco",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -403,12 +403,12 @@
       "count": 12
     },
     {
-      "player": "bombaj",
+      "player": "dannyground",
       "count": 11
     },
     {
-      "player": "dannyground",
-      "count": 10
+      "player": "bombaj",
+      "count": 11
     }
   ]
 }

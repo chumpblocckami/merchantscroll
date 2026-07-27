@@ -2,10 +2,10 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1241,
-    "league_entries": 633,
-    "league_trophies": 633,
-    "league_trophies_yearly": 251,
+    "total_entries": 1243,
+    "league_entries": 635,
+    "league_trophies": 635,
+    "league_trophies_yearly": 253,
     "challenge_appearances": 543,
     "challenge_wins": 2174,
     "challenge_losses": 1366,
@@ -157,6 +157,38 @@
       "colors": [
         "B",
         "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-24",
+      "player": "KidRenan",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-24",
+      "player": "KidRenan",
+      "colors": [
+        "B",
+        "G",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -348,35 +380,6 @@
       ],
       "record": "3-3",
       "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-18",
-      "player": "KidRenan",
-      "colors": [
-        "B",
-        "G",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1612847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "Bawer",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-2",
-      "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
     }

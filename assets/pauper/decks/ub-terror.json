@@ -2,16 +2,16 @@
   "archetype": "UB Terror",
   "slug": "ub-terror",
   "stats": {
-    "total_entries": 590,
-    "league_entries": 300,
-    "league_trophies": 300,
-    "league_trophies_yearly": 158,
+    "total_entries": 592,
+    "league_entries": 302,
+    "league_trophies": 302,
+    "league_trophies_yearly": 160,
     "challenge_appearances": 251,
     "challenge_wins": 1058,
     "challenge_losses": 601,
     "irl_top8": 8,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 11,
+    "league_trophy_rank_yearly": 10,
     "league_trophy_rank_alltime": 13,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
@@ -22,6 +22,21 @@
       "tournament": "Pauper League",
       "date": "2026-07-27",
       "player": "OlavoJusMTM",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-26",
+      "player": "Essenza",
       "colors": [
         "B",
         "R",
@@ -198,6 +213,21 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-07-2210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-22",
+      "player": "Baro_94",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-2212848161",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-22",
@@ -358,36 +388,6 @@
         "U"
       ],
       "record": "1-1",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2112847738",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "TentacleFan",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "1-1",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2012847724",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-20",
-      "player": "karatedom",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "2-1",
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
