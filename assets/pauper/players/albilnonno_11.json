@@ -3,22 +3,26 @@
   "display_name": "Albilnonno_11",
   "irl_name": null,
   "stats": {
-    "total_entries": 27,
-    "league_trophies": 26,
-    "league_trophies_yearly": 7,
+    "total_entries": 28,
+    "league_trophies": 27,
+    "league_trophies_yearly": 8,
     "challenge_wins": 3,
     "challenge_losses": 3,
     "irl_top8": 0,
     "challenge_win_pct": 50,
-    "league_trophy_rank_yearly": 144,
-    "league_trophy_rank_alltime": 61,
-    "league_trophy_players_yearly": 1361,
-    "league_trophy_players_alltime": 2068
+    "league_trophy_rank_yearly": 125,
+    "league_trophy_rank_alltime": 58,
+    "league_trophy_players_yearly": 1368,
+    "league_trophy_players_alltime": 2074
   },
   "favorite_decks": [
     {
       "archetype": "R Madness",
       "count": 20
+    },
+    {
+      "archetype": "Affinity",
+      "count": 2
     },
     {
       "archetype": "U Faeries",
@@ -35,13 +39,25 @@
     {
       "archetype": "Pingers",
       "count": 1
-    },
-    {
-      "archetype": "Affinity",
-      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-27",
+      "player": "Albilnonno_11",
+      "archetype": "Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-1510636",
       "tournament": "Pauper League",
@@ -418,21 +434,6 @@
       "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-05-069081",
-      "tournament": "pauper-league-2025-05-069081",
-      "date": "2025-05-06",
-      "player": "Albilnonno_11",
-      "archetype": "Ponza",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

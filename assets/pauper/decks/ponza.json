@@ -2,10 +2,10 @@
   "archetype": "Ponza",
   "slug": "ponza",
   "stats": {
-    "total_entries": 216,
-    "league_entries": 87,
-    "league_trophies": 87,
-    "league_trophies_yearly": 59,
+    "total_entries": 217,
+    "league_entries": 88,
+    "league_trophies": 88,
+    "league_trophies_yearly": 60,
     "challenge_appearances": 115,
     "challenge_wins": 416,
     "challenge_losses": 288,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-28",
+      "player": "_Abijhavs_",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-2612848222",
       "tournament": "Pauper Challenge 32",
@@ -352,20 +366,6 @@
       "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1912847695",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-18",
-      "player": "mehanske",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "8-1",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -375,7 +375,7 @@
     },
     {
       "player": "_Abijhavs_",
-      "count": 11
+      "count": 12
     },
     {
       "player": "mehanske",
