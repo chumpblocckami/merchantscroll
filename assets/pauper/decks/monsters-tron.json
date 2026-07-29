@@ -2,10 +2,10 @@
   "archetype": "Monsters Tron",
   "slug": "monsters-tron",
   "stats": {
-    "total_entries": 149,
-    "league_entries": 95,
-    "league_trophies": 95,
-    "league_trophies_yearly": 89,
+    "total_entries": 150,
+    "league_entries": 96,
+    "league_trophies": 96,
+    "league_trophies_yearly": 90,
     "challenge_appearances": 44,
     "challenge_wins": 184,
     "challenge_losses": 112,
@@ -17,6 +17,22 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-29",
+      "player": "jadencamelot",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
       "tournament": "Pauper Showcase Qualifier",
@@ -374,31 +390,16 @@
       "final_rank": 19,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0410636",
-      "tournament": "Pauper League",
-      "date": "2026-06-04",
-      "player": "Casanova_13",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
-      "player": "Echanez",
+      "player": "jadencamelot",
       "count": 8
     },
     {
-      "player": "jadencamelot",
-      "count": 7
+      "player": "Echanez",
+      "count": 8
     },
     {
       "player": "giggimille",

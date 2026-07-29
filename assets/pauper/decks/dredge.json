@@ -2,21 +2,37 @@
   "archetype": "Dredge",
   "slug": "dredge",
   "stats": {
-    "total_entries": 203,
-    "league_entries": 93,
-    "league_trophies": 93,
-    "league_trophies_yearly": 30,
+    "total_entries": 204,
+    "league_entries": 94,
+    "league_trophies": 94,
+    "league_trophies_yearly": 31,
     "challenge_appearances": 96,
     "challenge_wins": 397,
     "challenge_losses": 229,
     "irl_top8": 8,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 36,
+    "league_trophy_rank_yearly": 35,
     "league_trophy_rank_alltime": 33,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-27",
+      "player": "Natalino_91",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1912847695",
       "tournament": "Pauper Challenge 32",
@@ -408,23 +424,6 @@
       "final_rank": 5,
       "source": "pauperwave",
       "type": "irl"
-    },
-    {
-      "site_name": "pauper-league-2026-03-0510405",
-      "tournament": "pauper-league-2026-03-0510405",
-      "date": "2026-03-05",
-      "player": "Bungi",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -438,7 +437,7 @@
     },
     {
       "player": "Natalino_91",
-      "count": 16
+      "count": 17
     },
     {
       "player": "AguaTonificada",
