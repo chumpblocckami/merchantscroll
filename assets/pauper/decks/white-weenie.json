@@ -2,13 +2,13 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 643,
-    "league_entries": 363,
-    "league_trophies": 363,
-    "league_trophies_yearly": 173,
-    "challenge_appearances": 250,
-    "challenge_wins": 967,
-    "challenge_losses": 632,
+    "total_entries": 644,
+    "league_entries": 362,
+    "league_trophies": 362,
+    "league_trophies_yearly": 172,
+    "challenge_appearances": 252,
+    "challenge_wins": 973,
+    "challenge_losses": 638,
     "irl_top8": 15,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 9,
@@ -18,23 +18,36 @@
   },
   "recent_entries": [
     {
+      "site_name": "pauper-challenge-32-2026-07-2912848254",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-29",
+      "player": "Niederschatten",
+      "colors": [
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 18,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-2912848254",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-29",
+      "player": "bafusVIII",
+      "colors": [
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 20,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-league-2026-07-2910855",
       "tournament": "Pauper League",
       "date": "2026-07-29",
       "player": "M_EMORIE_S",
-      "colors": [
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-28",
-      "player": "bafusVIII",
       "colors": [
         "W"
       ],
@@ -333,19 +346,6 @@
       "final_rank": 3,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1912847695",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-18",
-      "player": "GigaChadSigmaMale",
-      "colors": [
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -359,7 +359,7 @@
     },
     {
       "player": "Niederschatten",
-      "count": 24
+      "count": 25
     },
     {
       "player": "Deodato",

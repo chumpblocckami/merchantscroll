@@ -3,21 +3,25 @@
   "display_name": "Univerce",
   "irl_name": null,
   "stats": {
-    "total_entries": 4,
+    "total_entries": 5,
     "league_trophies": 0,
     "league_trophies_yearly": 0,
-    "challenge_wins": 0,
-    "challenge_losses": 0,
+    "challenge_wins": 4,
+    "challenge_losses": 2,
     "irl_top8": 0,
-    "challenge_win_pct": null,
+    "challenge_win_pct": 67,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": null,
-    "league_trophy_players_yearly": 1369,
-    "league_trophy_players_alltime": 2075
+    "league_trophy_players_yearly": 1366,
+    "league_trophy_players_alltime": 2072
   },
   "favorite_decks": [
     {
       "archetype": "UB Terror",
+      "count": 1
+    },
+    {
+      "archetype": "Jeskai",
       "count": 1
     },
     {
@@ -34,6 +38,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2912848254",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-29",
+      "player": "Univerce",
+      "archetype": "Jeskai",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 16,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-last-chance-2026-07-2212847741",
       "tournament": "Pauper Last Chance",
