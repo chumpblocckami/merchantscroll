@@ -2,10 +2,10 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 1206,
-    "league_entries": 643,
-    "league_trophies": 643,
-    "league_trophies_yearly": 303,
+    "total_entries": 1208,
+    "league_entries": 645,
+    "league_trophies": 645,
+    "league_trophies_yearly": 305,
     "challenge_appearances": 496,
     "challenge_wins": 1922,
     "challenge_losses": 1265,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 3,
     "league_trophy_rank_alltime": 3,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -50,6 +50,34 @@
       "date": "2026-07-29",
       "player": "SaculSueahtam",
       "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-28",
+      "player": "Marvepino",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-28",
+      "player": "Apselone",
+      "colors": [
+        "G",
         "R"
       ],
       "record": "5-0",
@@ -331,34 +359,6 @@
       ],
       "record": "4-2",
       "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-2312848178",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-23",
-      "player": "boom_bust",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-2312848178",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-23",
-      "player": "vini_torres",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "2-4",
-      "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
     }

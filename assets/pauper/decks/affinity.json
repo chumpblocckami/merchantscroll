@@ -2,10 +2,10 @@
   "archetype": "Affinity",
   "slug": "affinity",
   "stats": {
-    "total_entries": 1002,
-    "league_entries": 390,
-    "league_trophies": 390,
-    "league_trophies_yearly": 233,
+    "total_entries": 1003,
+    "league_entries": 391,
+    "league_trophies": 391,
+    "league_trophies_yearly": 234,
     "challenge_appearances": 532,
     "challenge_wins": 2201,
     "challenge_losses": 1334,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 6,
     "league_trophy_rank_alltime": 8,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 65,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -37,6 +37,21 @@
       "tournament": "Pauper League",
       "date": "2026-07-28",
       "player": "lindoso01",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-28",
+      "player": "Alex2109",
       "colors": [
         "B",
         "R",
@@ -369,21 +384,6 @@
       "player": "ShadowTitan1",
       "colors": [
         "B",
-        "U"
-      ],
-      "record": "3-2",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-1912847738",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "Pedrothedead",
-      "colors": [
-        "B",
-        "R",
         "U"
       ],
       "record": "3-2",
