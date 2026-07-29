@@ -1,3 +1,4 @@
+import gzip
 import json
 from pathlib import Path
 
@@ -6,7 +7,7 @@ import requests
 from .constants.crawler import HEADERS, TIMEOUT
 
 BULK_DATA_API = "https://api.scryfall.com/bulk-data"
-DEFAULT_CACHE_PATH = Path(".cache/oracle-cards.json")
+DEFAULT_CACHE_PATH = Path(".cache/oracle-cards.jsonl.gz")
 
 
 def _get_oracle_download_url() -> str:
@@ -16,22 +17,23 @@ def _get_oracle_download_url() -> str:
 
     for entry in resp.json().get("data", []):
         if entry.get("type") == "oracle_cards":
-            return entry["download_uri"]
+            # Scryfall retired the plain-JSON `download_uri`; only gzipped JSONL is served.
+            return entry["jsonl_download_uri"]
 
     raise RuntimeError("oracle_cards bulk data entry not found in Scryfall API")
 
 
 def download_oracle_cards(cache_path: Path = DEFAULT_CACHE_PATH) -> Path:
-    """Download Scryfall oracle-cards.json if not already cached.
+    """Download the Scryfall oracle-cards bulk file if not already cached.
 
-    Returns the path to the cached file.
+    Returns the path to the cached gzipped JSONL file.
     """
     cache_path = Path(cache_path)
     if cache_path.exists():
         return cache_path
 
     url = _get_oracle_download_url()
-    print(f"Downloading oracle-cards.json from Scryfall (~80 MB)...")
+    print("Downloading oracle-cards.jsonl.gz from Scryfall (~25 MB)...")
 
     resp = requests.get(url, timeout=300)
     resp.raise_for_status()
@@ -53,16 +55,19 @@ def build_color_lookup(cache_path: Path = DEFAULT_CACHE_PATH) -> dict[str, list[
             f"Oracle data not found at {cache_path}. Run download_oracle_cards() first."
         )
 
-    cards = json.loads(cache_path.read_text())
     lookup: dict[str, list[str]] = {}
-    for card in cards:
-        name = card.get("name", "")
-        color_identity = card.get("color_identity", [])
-        if " // " in name:
-            lookup[name] = color_identity
-            for face in name.split(" // "):
-                lookup.setdefault(face.strip(), color_identity)
-        else:
-            lookup[name] = color_identity
+    with gzip.open(cache_path, "rt", encoding="utf-8") as fh:
+        for line in fh:
+            if not line.strip():
+                continue
+            card = json.loads(line)
+            name = card.get("name", "")
+            color_identity = card.get("color_identity", [])
+            if " // " in name:
+                lookup[name] = color_identity
+                for face in name.split(" // "):
+                    lookup.setdefault(face.strip(), color_identity)
+            else:
+                lookup[name] = color_identity
 
     return lookup

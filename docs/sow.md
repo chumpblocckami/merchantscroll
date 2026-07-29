@@ -187,7 +187,7 @@ All data is scraped from `https://www.mtgo.com/decklists`. Tournament data is em
 
 The pipeline is orchestrated by `src/pipeline.py` and invoked via `crawl.py`. A single run performs:
 
-1. **Scryfall cache**: Download `oracle-cards.json` if not already cached (refreshed once per day)
+1. **Scryfall cache**: Download `oracle-cards.jsonl.gz` if not already cached (refreshed once per day)
 2. **Color lookup**: Build a `card_name → color_identity` mapping from the cached oracle data
 3. **Discovery**: Fetch the MTGO decklists page, extract all tournament URLs
 4. **Pauper filter**: Keep only URLs containing `/pauper-`
@@ -224,7 +224,7 @@ Decklists within a challenge are then sorted by `final_rank` ascending, so the b
 
 Deck color identity is derived using Scryfall's bulk data:
 
-1. Download `oracle-cards.json` from Scryfall's bulk data endpoint (refreshed once per day, cached at `.cache/oracle-cards.json`)
+1. Download `oracle-cards.jsonl.gz` from Scryfall's bulk data endpoint (refreshed once per day, cached at `.cache/oracle-cards.jsonl.gz`)
 2. Build a lookup table: `card_name → color_identity` (list of W/U/B/R/G). Split cards (e.g., "Fire // Ice") are indexed by both the full name and each face.
 3. For each deck, compute the union of all card color identities across main deck and sideboard, **excluding cards with card type LAND**
 4. Store the result as a `colors` array (e.g., `["U", "B"]`) on each decklist object
