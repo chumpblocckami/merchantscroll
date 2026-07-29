@@ -2,10 +2,10 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 1204,
-    "league_entries": 641,
-    "league_trophies": 641,
-    "league_trophies_yearly": 301,
+    "total_entries": 1206,
+    "league_entries": 643,
+    "league_trophies": 643,
+    "league_trophies_yearly": 303,
     "challenge_appearances": 496,
     "challenge_wins": 1922,
     "challenge_losses": 1265,
@@ -62,6 +62,20 @@
       "tournament": "Pauper League",
       "date": "2026-07-28",
       "player": "mugent",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-27",
+      "player": "GilbertoAntunes",
       "colors": [
         "G",
         "R"
@@ -283,6 +297,20 @@
       "site_name": "pauper-league-2026-07-2410855",
       "tournament": "Pauper League",
       "date": "2026-07-24",
+      "player": "Marvepino",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-24",
       "player": "Lincao",
       "colors": [
         "G",
@@ -333,34 +361,6 @@
       "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2212847741",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-22",
-      "player": "imthekiing",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "2-3",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2212847741",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-22",
-      "player": "Ashbrown",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "1-1",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
     }
   ],
   "top_pilots": [
@@ -378,7 +378,7 @@
     },
     {
       "player": "GilbertoAntunes",
-      "count": 38
+      "count": 39
     },
     {
       "player": "Niederschatten",
