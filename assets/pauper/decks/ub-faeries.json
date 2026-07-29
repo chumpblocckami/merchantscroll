@@ -2,10 +2,10 @@
   "archetype": "UB Faeries",
   "slug": "ub-faeries",
   "stats": {
-    "total_entries": 671,
-    "league_entries": 337,
-    "league_trophies": 337,
-    "league_trophies_yearly": 209,
+    "total_entries": 669,
+    "league_entries": 335,
+    "league_trophies": 335,
+    "league_trophies_yearly": 207,
     "challenge_appearances": 302,
     "challenge_wins": 1237,
     "challenge_losses": 770,
@@ -50,34 +50,6 @@
       "tournament": "Pauper League",
       "date": "2026-07-28",
       "player": "barff",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-27",
-      "player": "dannyground",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-27",
-      "player": "Shoryu_",
       "colors": [
         "B",
         "U"
@@ -367,6 +339,34 @@
       "final_rank": 19,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1912847695",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-18",
+      "player": "Beicodegeia",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1912847695",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-18",
+      "player": "Oscar_Franco",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 17,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -403,12 +403,12 @@
       "count": 12
     },
     {
-      "player": "dannyground",
+      "player": "bombaj",
       "count": 11
     },
     {
-      "player": "bombaj",
-      "count": 11
+      "player": "dannyground",
+      "count": 10
     }
   ]
 }
