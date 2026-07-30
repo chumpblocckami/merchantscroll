@@ -32,13 +32,18 @@ def main():
     )
     args = parser.parse_args()
 
-    crawled = run(refresh_scryfall=args.refresh_scryfall)
+    crawled, failed_sources = run(refresh_scryfall=args.refresh_scryfall)
     if crawled:
         print(f"\nDone. {len(crawled)} new tournament(s) added:")
         for name in crawled:
             print(f"  {name}")
     else:
         print("\nDone. No new data.")
+
+    if failed_sources:
+        # Whatever was crawled is already written; exit non-zero so a broken
+        # source shows up as a failed run instead of a quiet "no new data".
+        raise SystemExit(f"\nSource(s) failed: {', '.join(failed_sources)}")
 
 
 if __name__ == "__main__":

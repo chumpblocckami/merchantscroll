@@ -366,5 +366,114 @@ class TestDeckStats(unittest.TestCase):
             self.assertEqual(profile["stats"]["total_entries"], 2)
             self.assertFalse((out / "white-weennie.json").exists())
 
+PAUPERWAVE_LISTING = [
+    {"name": "2026-07-11-paupergeddon.md"},
+    {"name": "0000-template.md"},
+    {"name": "readme.txt"},
+]
+
+
+class TestPauperwaveTokenFallback(unittest.TestCase):
+    """A rejected token must not stop the listing of a public repo."""
+
+    def _fake_get(self, status_for_auth):
+        class FakeResponse:
+            def __init__(self, status_code, payload):
+                self.status_code = status_code
+                self._payload = payload
+
+            def json(self):
+                return self._payload
+
+            def raise_for_status(self):
+                if self.status_code >= 400:
+                    raise RuntimeError(f"{self.status_code} Client Error")
+
+        calls = []
+
+        def fake_get(url, headers=None, timeout=None):
+            authed = "Authorization" in (headers or {})
+            calls.append(headers.get("Authorization") if authed else None)
+            if authed and status_for_auth >= 400:
+                return FakeResponse(status_for_auth, {"message": "Bad credentials"})
+            return FakeResponse(200, PAUPERWAVE_LISTING)
+
+        return fake_get, calls
+
+    def test_falls_back_to_anonymous_on_401(self):
+        from unittest.mock import patch
+
+        from src import pauperwave_crawler
+
+        fake_get, calls = self._fake_get(401)
+        with patch.object(pauperwave_crawler.requests, "get", fake_get):
+            files = pauperwave_crawler.discover_pauperwave_files(token="expired")
+
+        self.assertEqual(calls, ["token expired", None])
+        self.assertEqual([f["name"] for f in files], ["2026-07-11-paupergeddon.md"])
+
+    def test_token_whitespace_is_stripped(self):
+        from unittest.mock import patch
+
+        from src import pauperwave_crawler
+
+        fake_get, calls = self._fake_get(200)
+        with patch.object(pauperwave_crawler.requests, "get", fake_get):
+            pauperwave_crawler.discover_pauperwave_files(token="  ghp_valid\n")
+
+        self.assertEqual(calls, ["token ghp_valid"])
+
+
+class TestMtgoDiscovery(unittest.TestCase):
+    """A listing without decklist links is a failure, not an empty schedule."""
+
+    LISTING_HTML = """
+    <html><body>
+      <a href="/decklist/pauper-league-2026-07-3010855">Pauper League</a>
+      <a href="/decklist/modern-league-2026-07-3010860">Modern League</a>
+      <a href="/decklist/pauper-league-2026-07-3010855">dup</a>
+      <a href="/about">About</a>
+    </body></html>
+    """
+
+    STUB_HTML = "<html><head><title>Access Denied</title></head><body></body></html>"
+
+    def _patch_get(self, html, status=200):
+        from unittest.mock import patch
+
+        from src import crawler
+
+        class FakeResponse:
+            status_code = status
+            text = html
+            content = html.encode()
+
+        return patch.object(crawler.requests, "get", lambda *a, **kw: FakeResponse())
+
+    def test_extracts_unique_absolute_urls(self):
+        from src.crawler import crawl_tournaments
+
+        with self._patch_get(self.LISTING_HTML):
+            urls = crawl_tournaments()
+
+        self.assertEqual(
+            urls,
+            [
+                "https://www.mtgo.com/decklist/modern-league-2026-07-3010860",
+                "https://www.mtgo.com/decklist/pauper-league-2026-07-3010855",
+            ],
+        )
+
+    def test_stub_page_raises_with_diagnostics(self):
+        from src.crawler import EmptyListingError, crawl_tournaments
+
+        with self._patch_get(self.STUB_HTML), self.assertRaises(EmptyListingError) as ctx:
+            crawl_tournaments(attempts=1)
+
+        message = str(ctx.exception)
+        self.assertIn("Access Denied", message)
+        self.assertIn("bytes", message)
+
+
 if __name__ == "__main__":
     unittest.main()

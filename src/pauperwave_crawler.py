@@ -93,17 +93,33 @@ class ParsedDecklist:
     sideboard_deck: list[dict] = field(default_factory=list)
 
 
+def _list_decklists_dir(token: str | None) -> requests.Response:
+    """GET the decklists directory listing, authenticating only if a token is given."""
+    headers = {**HEADERS}
+    if token:
+        headers["Authorization"] = f"token {token}"
+    return requests.get(GITHUB_API_BASE, headers=headers, timeout=TIMEOUT)
+
+
 def discover_pauperwave_files(token: str | None = None) -> list[dict]:
     """List tournament Markdown files in the Pauperwave decklists directory.
 
     Returns a list of dicts with ``name`` and ``download_url`` keys,
     excluding template files and non-Markdown files.
     """
-    headers = {**HEADERS}
-    if token:
-        headers["Authorization"] = f"token {token}"
+    token = token.strip() if token else None
 
-    resp = requests.get(GITHUB_API_BASE, headers=headers, timeout=TIMEOUT)
+    resp = _list_decklists_dir(token)
+    if token and resp.status_code in (401, 403, 404):
+        # The repo is public and a listing costs one request, so an expired or
+        # wrong-scoped token must not stall the import: retry anonymously
+        # (60 req/h unauthenticated, against one call per crawl).
+        print(
+            f"  GitHub rejected the token ({resp.status_code}); "
+            "retrying the listing without authentication."
+        )
+        resp = _list_decklists_dir(None)
+
     resp.raise_for_status()
 
     files = []

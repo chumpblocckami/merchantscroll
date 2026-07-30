@@ -12,8 +12,8 @@ from .player_stats import CURRENT_YEAR, _color_label, _is_league_trophy, _tourna
 from .utils import canonical_starttime
 
 RAW_DIR = Path("assets/pauper/raw")
-DECKS_INDEX_PATH = Path("assets/pauper/decks/index.json")
 PROFILES_DIR = Path("assets/pauper/decks")
+DECKS_INDEX_PATH = PROFILES_DIR / "index.json"
 
 
 def archetype_slug(name: str) -> str:
@@ -174,8 +174,8 @@ def rebuild_deck_profiles(
             path.unlink()
 
     index.sort(key=lambda item: (-item["entries"], item["archetype"].lower()))
-    DECKS_INDEX_PATH.parent.mkdir(parents=True, exist_ok=True)
-    DECKS_INDEX_PATH.write_text(json.dumps(index, indent=2, ensure_ascii=False) + "\n")
+    index_path = profiles_dir / "index.json"
+    index_path.write_text(json.dumps(index, indent=2, ensure_ascii=False) + "\n")
 
     print(f"Deck profiles updated: {written} archetypes.")
     return written

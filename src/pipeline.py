@@ -8,8 +8,11 @@ timestamp.
 
 import json
 import os
+import time
 from datetime import datetime, timezone
 from pathlib import Path
+
+import requests
 
 from .classifier import (
     classify_and_normalize_labels,
@@ -113,6 +116,10 @@ def crawl_new_tournaments(
             changed = True
         if deck_count > 0:
             saved.append(site_name)
+
+        # Bursting the tournament pages makes mtgo.com answer with a stub that
+        # carries no decklist JSON, so pace them as entrypoint.py already does.
+        time.sleep(1)
 
     print(f"\nCrawled {len(saved)} tournament(s) with decklists.")
     return saved, changed
@@ -329,8 +336,13 @@ def rebuild_derived_artifacts(
     }
 
 
-def run(refresh_scryfall: bool = False):
-    """Full pipeline: download scryfall data, crawl new tournaments, rebuild index."""
+def run(refresh_scryfall: bool = False) -> tuple[list[str], list[str]]:
+    """Full pipeline: download scryfall data, crawl new tournaments, rebuild index.
+
+    Returns:
+        ``(crawled_site_names, failed_sources)``. A failed source is reported
+        rather than raised so the remaining sources still crawl and commit.
+    """
     cache = download_oracle_cards()
     if refresh_scryfall and cache.exists():
         cache.unlink()
@@ -343,7 +355,15 @@ def run(refresh_scryfall: bool = False):
     rebuild_archetype_dictionary()
 
     token = os.environ.get("TOKEN") or os.environ.get("GITHUB_TOKEN")
-    crawled, mtgo_changed = crawl_new_tournaments(color_lookup)
+    failed_sources: list[str] = []
+
+    try:
+        crawled, mtgo_changed = crawl_new_tournaments(color_lookup)
+    except requests.exceptions.RequestException as e:
+        print(f"MTGO source unavailable: {e}")
+        crawled, mtgo_changed = [], False
+        failed_sources.append("mtgo")
+
     pw_crawled, pw_changed = crawl_pauperwave_tournaments(
         color_lookup, token=token
     )
@@ -360,4 +380,4 @@ def run(refresh_scryfall: bool = False):
         else:
             print("Nothing new — index unchanged.")
 
-    return all_crawled
+    return all_crawled, failed_sources

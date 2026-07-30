@@ -42,6 +42,7 @@ jobs:
         run: uv run python crawl.py
 
       - name: Commit and push crawl artifacts
+        if: always()
         run: |
           git add assets/ archetypes/ info.json
           if git diff --cached --quiet; then
