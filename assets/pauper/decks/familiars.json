@@ -2,10 +2,10 @@
   "archetype": "Familiars",
   "slug": "familiars",
   "stats": {
-    "total_entries": 307,
-    "league_entries": 173,
-    "league_trophies": 173,
-    "league_trophies_yearly": 86,
+    "total_entries": 306,
+    "league_entries": 172,
+    "league_trophies": 172,
+    "league_trophies_yearly": 85,
     "challenge_appearances": 107,
     "challenge_wins": 442,
     "challenge_losses": 268,
@@ -13,24 +13,10 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 21,
     "league_trophy_rank_alltime": 22,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-07-2710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-27",
-      "player": "Mikibairon96",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-league-2026-07-2610855",
       "tournament": "Pauper League",
@@ -370,6 +356,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0712846470",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-03",
+      "player": "ChaoticMTG",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "4-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -387,7 +387,7 @@
     },
     {
       "player": "Mikibairon96",
-      "count": 19
+      "count": 18
     },
     {
       "player": "Kampo",

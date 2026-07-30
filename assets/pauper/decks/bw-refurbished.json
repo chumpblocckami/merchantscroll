@@ -2,10 +2,10 @@
   "archetype": "BW Refurbished",
   "slug": "bw-refurbished",
   "stats": {
-    "total_entries": 370,
-    "league_entries": 207,
-    "league_trophies": 207,
-    "league_trophies_yearly": 94,
+    "total_entries": 371,
+    "league_entries": 208,
+    "league_trophies": 208,
+    "league_trophies_yearly": 95,
     "challenge_appearances": 156,
     "challenge_wins": 589,
     "challenge_losses": 405,
@@ -13,10 +13,24 @@
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 19,
     "league_trophy_rank_alltime": 19,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-29",
+      "player": "k1x",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-2610855",
       "tournament": "Pauper League",
@@ -368,20 +382,6 @@
       "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-04",
-      "player": "Frank_Bonaparte",
-      "colors": [
-        "B",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [

@@ -2,21 +2,51 @@
   "archetype": "Cycle Storm",
   "slug": "cycle-storm",
   "stats": {
-    "total_entries": 84,
-    "league_entries": 52,
-    "league_trophies": 52,
-    "league_trophies_yearly": 32,
+    "total_entries": 86,
+    "league_entries": 54,
+    "league_trophies": 54,
+    "league_trophies_yearly": 34,
     "challenge_appearances": 17,
     "challenge_wins": 59,
     "challenge_losses": 48,
     "irl_top8": 5,
     "challenge_win_pct": 55,
     "league_trophy_rank_yearly": 34,
-    "league_trophy_rank_alltime": 41,
-    "league_trophy_decks_yearly": 65,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_rank_alltime": 40,
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-29",
+      "player": "Vivarus",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2910855",
+      "tournament": "Pauper League",
+      "date": "2026-07-29",
+      "player": "StudentAnselmus",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-2710855",
       "tournament": "Pauper League",
@@ -365,42 +395,12 @@
       "final_rank": 3,
       "source": "pauperwave",
       "type": "irl"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1110636",
-      "tournament": "Pauper League",
-      "date": "2026-06-11",
-      "player": "StudentAnselmus",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1010636",
-      "tournament": "Pauper League",
-      "date": "2026-06-10",
-      "player": "StudentAnselmus",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "StudentAnselmus",
-      "count": 36
+      "count": 37
     },
     {
       "player": "Bryant_Cook",
