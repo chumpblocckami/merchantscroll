@@ -3,7 +3,7 @@
   "display_name": "Bawer",
   "irl_name": null,
   "stats": {
-    "total_entries": 31,
+    "total_entries": 32,
     "league_trophies": 4,
     "league_trophies_yearly": 0,
     "challenge_wins": 92,
@@ -11,9 +11,9 @@
     "irl_top8": 0,
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 579,
-    "league_trophy_players_yearly": 1375,
-    "league_trophy_players_alltime": 2080
+    "league_trophy_rank_alltime": 576,
+    "league_trophy_players_yearly": 1369,
+    "league_trophy_players_alltime": 2075
   },
   "favorite_decks": [
     {
@@ -33,12 +33,12 @@
       "count": 4
     },
     {
-      "archetype": "BR Madness",
+      "archetype": "Gardens",
       "count": 3
     },
     {
-      "archetype": "Gardens",
-      "count": 2
+      "archetype": "BR Madness",
+      "count": 3
     },
     {
       "archetype": "Pingers",
@@ -75,6 +75,21 @@
     },
     {
       "site_name": "pauper-last-chance-2026-07-2112847738",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "Bawer",
+      "archetype": "Gardens",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "1-1",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-0412847738",
       "tournament": "Pauper Last Chance",
       "date": "2026-07-21",
       "player": "Bawer",
@@ -425,20 +440,6 @@
       ],
       "record": "3-3",
       "final_rank": 30,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-09-0712813579",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-09-07",
-      "player": "Bawer",
-      "archetype": "B Sacrifice",
-      "colors": [
-        "B"
-      ],
-      "record": "4-2",
-      "final_rank": 14,
       "source": "mtgo",
       "type": "challenge"
     }

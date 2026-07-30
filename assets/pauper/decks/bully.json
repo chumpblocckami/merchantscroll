@@ -2,14 +2,14 @@
   "archetype": "Bully",
   "slug": "bully",
   "stats": {
-    "total_entries": 1,
+    "total_entries": 2,
     "league_entries": 0,
     "league_trophies": 0,
     "league_trophies_yearly": 0,
     "challenge_appearances": 0,
     "challenge_wins": 0,
     "challenge_losses": 0,
-    "irl_top8": 1,
+    "irl_top8": 2,
     "challenge_win_pct": null,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": null,
@@ -17,6 +17,22 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauperwave-2026-06-20-lp-gaeta-summer-2026",
+      "tournament": "LP Golfo di Gaeta Summer 2026 — Gaeta",
+      "date": "2026-06-20",
+      "player": "Fortunato Scarpellino",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
+    },
     {
       "site_name": "pauperwave-2026-03-01-firenze-winter-2025",
       "tournament": "LP Firenze Winter 2025 — Firenze",
@@ -35,6 +51,10 @@
   "top_pilots": [
     {
       "player": "Giovanni Bertelli",
+      "count": 1
+    },
+    {
+      "player": "Fortunato Scarpellino",
       "count": 1
     }
   ]

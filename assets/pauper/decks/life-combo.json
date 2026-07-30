@@ -2,14 +2,14 @@
   "archetype": "Life Combo",
   "slug": "life-combo",
   "stats": {
-    "total_entries": 1,
+    "total_entries": 2,
     "league_entries": 0,
     "league_trophies": 0,
     "league_trophies_yearly": 0,
     "challenge_appearances": 0,
     "challenge_wins": 0,
     "challenge_losses": 0,
-    "irl_top8": 1,
+    "irl_top8": 2,
     "challenge_win_pct": null,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": null,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauperwave-2026-06-21-the-sideral-wolf-3",
+      "tournament": "The Sideral Wolf Series: 3 — Milano",
+      "date": "2026-06-21",
+      "player": "Arturo Precioso",
+      "colors": [
+        "B",
+        "G",
+        "W"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
+    },
     {
       "site_name": "pauperwave-2026-05-03-wild-pauper",
       "tournament": "Wild Pauper — Roma",
@@ -36,6 +51,10 @@
   "top_pilots": [
     {
       "player": "Giorgio Venditti",
+      "count": 1
+    },
+    {
+      "player": "Arturo Precioso",
       "count": 1
     }
   ]

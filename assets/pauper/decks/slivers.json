@@ -2,7 +2,7 @@
   "archetype": "Slivers",
   "slug": "slivers",
   "stats": {
-    "total_entries": 5,
+    "total_entries": 6,
     "league_entries": 2,
     "league_trophies": 2,
     "league_trophies_yearly": 0,
@@ -17,6 +17,22 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauperwave-2026-06-28-summer-is-magic-2026",
+      "tournament": "Summer is Magic 2026 — Sarzana",
+      "date": "2026-06-28",
+      "player": "Cristian Bordigoni",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "",
+      "final_rank": null,
+      "source": "pauperwave",
+      "type": "irl"
+    },
     {
       "site_name": "pauperwave-2026-03-05-asti-winter-2025",
       "tournament": "LP Asti Winter 2025 — Asti",
@@ -115,6 +131,10 @@
     },
     {
       "player": "GandyHands",
+      "count": 1
+    },
+    {
+      "player": "Cristian Bordigoni",
       "count": 1
     }
   ]

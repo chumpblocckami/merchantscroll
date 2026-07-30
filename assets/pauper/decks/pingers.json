@@ -2,14 +2,14 @@
   "archetype": "Pingers",
   "slug": "pingers",
   "stats": {
-    "total_entries": 313,
+    "total_entries": 315,
     "league_entries": 189,
     "league_trophies": 189,
     "league_trophies_yearly": 21,
     "challenge_appearances": 107,
     "challenge_wins": 435,
     "challenge_losses": 288,
-    "irl_top8": 7,
+    "irl_top8": 8,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 40,
     "league_trophy_rank_alltime": 20,
@@ -303,6 +303,32 @@
       "type": "league"
     },
     {
+      "site_name": "pauperwave-2026-06-21-the-sideral-wolf-3",
+      "tournament": "The Sideral Wolf Series: 3 — Milano",
+      "date": "2026-06-21",
+      "player": "Demetrio Morselli",
+      "colors": [
+        "R"
+      ],
+      "record": "",
+      "final_rank": null,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
+      "site_name": "pauperwave-2026-06-18-milano-summer-2026",
+      "tournament": "LP Milano Summer 2026 — Milano",
+      "date": "2026-06-18",
+      "player": "Tommaso Cavallini",
+      "colors": [
+        "R"
+      ],
+      "record": "",
+      "final_rank": 1,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-06-2012844338",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-14",
@@ -325,32 +351,6 @@
       ],
       "record": "3-3",
       "final_rank": 21,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2012844338",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-14",
-      "player": "Kirblinxy",
-      "colors": [
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2012844338",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-14",
-      "player": "PR0boszcz",
-      "colors": [
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
     }

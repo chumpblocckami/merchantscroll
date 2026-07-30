@@ -3,13 +3,13 @@
   "slug": "ub-faeries",
   "stats": {
     "total_entries": 673,
-    "league_entries": 338,
-    "league_trophies": 338,
-    "league_trophies_yearly": 210,
+    "league_entries": 337,
+    "league_trophies": 337,
+    "league_trophies_yearly": 209,
     "challenge_appearances": 303,
     "challenge_wins": 1239,
     "challenge_losses": 774,
-    "irl_top8": 9,
+    "irl_top8": 10,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 7,
     "league_trophy_rank_alltime": 11,
@@ -30,20 +30,6 @@
       "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-29",
-      "player": "barff",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-2810855",
@@ -367,12 +353,26 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1912847712",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-19",
+      "player": "Blauwe_Smurf",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 15,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "barff",
-      "count": 116
+      "count": 115
     },
     {
       "player": "Purgatory_01",

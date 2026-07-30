@@ -2,10 +2,10 @@
   "archetype": "UB Control",
   "slug": "ub-control",
   "stats": {
-    "total_entries": 161,
-    "league_entries": 109,
-    "league_trophies": 109,
-    "league_trophies_yearly": 62,
+    "total_entries": 160,
+    "league_entries": 108,
+    "league_trophies": 108,
+    "league_trophies_yearly": 61,
     "challenge_appearances": 48,
     "challenge_wins": 162,
     "challenge_losses": 135,
@@ -17,20 +17,6 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-07-2910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-29",
-      "player": "Mikibairon96",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-league-2026-07-2510855",
       "tournament": "Pauper League",
@@ -372,6 +358,21 @@
       "final_rank": 3,
       "source": "pauperwave",
       "type": "irl"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-05-2112842891",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-05-21",
+      "player": "Cabz",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -392,10 +393,6 @@
       "count": 5
     },
     {
-      "player": "Mikibairon96",
-      "count": 5
-    },
-    {
       "player": "morpheus38",
       "count": 4
     },
@@ -409,6 +406,10 @@
     },
     {
       "player": "barff",
+      "count": 4
+    },
+    {
+      "player": "Mikibairon96",
       "count": 4
     },
     {

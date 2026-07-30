@@ -2,14 +2,14 @@
   "archetype": "Monsters",
   "slug": "monsters",
   "stats": {
-    "total_entries": 383,
+    "total_entries": 384,
     "league_entries": 218,
     "league_trophies": 218,
     "league_trophies_yearly": 73,
     "challenge_appearances": 140,
     "challenge_wins": 505,
     "challenge_losses": 371,
-    "irl_top8": 18,
+    "irl_top8": 19,
     "challenge_win_pct": 58,
     "league_trophy_rank_yearly": 24,
     "league_trophy_rank_alltime": 15,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauperwave-2026-07-25-trio-polesana-2025",
+      "tournament": "Un Po di Pauper Trio 2026 — Rovigo",
+      "date": "2026-07-25",
+      "player": "Andrea Aliprandi",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "",
+      "final_rank": 3,
+      "source": "pauperwave",
+      "type": "irl"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-2412848188",
       "tournament": "Pauper Challenge 32",
@@ -353,21 +367,6 @@
       "tournament": "Pauper League",
       "date": "2026-06-11",
       "player": "TheM_A_D",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0610636",
-      "tournament": "Pauper League",
-      "date": "2026-06-06",
-      "player": "olati",
       "colors": [
         "G",
         "R",

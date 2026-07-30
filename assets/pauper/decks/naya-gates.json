@@ -2,14 +2,14 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 296,
-    "league_entries": 112,
-    "league_trophies": 112,
-    "league_trophies_yearly": 105,
+    "total_entries": 309,
+    "league_entries": 111,
+    "league_trophies": 111,
+    "league_trophies_yearly": 104,
     "challenge_appearances": 145,
     "challenge_wins": 598,
     "challenge_losses": 346,
-    "irl_top8": 12,
+    "irl_top8": 19,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 17,
     "league_trophy_rank_alltime": 26,
@@ -17,23 +17,6 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-07-2910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-29",
-      "player": "lucotto",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-league-2026-07-2810855",
       "tournament": "Pauper League",
@@ -220,6 +203,23 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauperwave-2026-07-25-trio-polesana-2025",
+      "tournament": "Un Po di Pauper Trio 2026 — Rovigo",
+      "date": "2026-07-25",
+      "player": "Riccardo Sponchiado",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "",
+      "final_rank": 3,
+      "source": "pauperwave",
+      "type": "irl"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-2412848188",
@@ -445,7 +445,7 @@
   "top_pilots": [
     {
       "player": "seasonofmists",
-      "count": 19
+      "count": 20
     },
     {
       "player": "newbarola",

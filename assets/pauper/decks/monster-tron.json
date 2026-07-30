@@ -2,17 +2,17 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 83,
-    "league_entries": 26,
-    "league_trophies": 26,
-    "league_trophies_yearly": 26,
+    "total_entries": 84,
+    "league_entries": 23,
+    "league_trophies": 23,
+    "league_trophies_yearly": 23,
     "challenge_appearances": 49,
     "challenge_wins": 201,
     "challenge_losses": 129,
-    "irl_top8": 2,
+    "irl_top8": 5,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 38,
-    "league_trophy_rank_alltime": 45,
+    "league_trophy_rank_alltime": 46,
     "league_trophy_decks_yearly": 65,
     "league_trophy_decks_alltime": 71
   },
@@ -49,53 +49,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-07-2910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-29",
-      "player": "KnightLight57",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-29",
-      "player": "jadencamelot",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-29",
-      "player": "DobleP",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-07-2510855",
       "tournament": "Pauper League",
       "date": "2026-07-25",
@@ -110,6 +63,37 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauperwave-2026-07-25-trio-polesana-2025",
+      "tournament": "Un Po di Pauper Trio 2026 — Rovigo",
+      "date": "2026-07-25",
+      "player": "Bragioto Pietro",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "",
+      "final_rank": 1,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
+      "site_name": "pauperwave-2026-07-25-trio-polesana-2025",
+      "tournament": "Un Po di Pauper Trio 2026 — Rovigo",
+      "date": "2026-07-25",
+      "player": "Alessandro Moretti",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "",
+      "final_rank": 3,
+      "source": "pauperwave",
+      "type": "irl"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-2412848188",
@@ -321,6 +305,20 @@
       "type": "other"
     },
     {
+      "site_name": "pauper-last-chance-2026-07-0412847738",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "Syns",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "2-3",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
       "site_name": "pauper-last-chance-2026-07-2012847724",
       "tournament": "Pauper Last Chance",
       "date": "2026-07-20",
@@ -406,7 +404,7 @@
     },
     {
       "player": "Syns",
-      "count": 6
+      "count": 7
     },
     {
       "player": "giuliodice",

@@ -1,27 +1,65 @@
 {
   "username": "gabriele della longa",
-  "display_name": "Gabriele della Longa",
+  "display_name": "Gabriele Della Longa",
   "irl_name": null,
   "stats": {
-    "total_entries": 1,
+    "total_entries": 3,
     "league_trophies": 0,
     "league_trophies_yearly": 0,
     "challenge_wins": 0,
     "challenge_losses": 0,
-    "irl_top8": 1,
+    "irl_top8": 2,
     "challenge_win_pct": null,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": null,
-    "league_trophy_players_yearly": 1375,
-    "league_trophy_players_alltime": 2080
+    "league_trophy_players_yearly": 1369,
+    "league_trophy_players_alltime": 2075
   },
   "favorite_decks": [
     {
+      "archetype": "Familiar",
+      "count": 1
+    },
+    {
       "archetype": "Jund",
+      "count": 1
+    },
+    {
+      "archetype": "Gardens",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauperwave-2026-07-10-top-pauper-player-2026",
+      "tournament": "Top Pauper Player 2026 — Lucca",
+      "date": "2026-07-10",
+      "player": "Gabriele Della Longa",
+      "archetype": "Familiar",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "",
+      "final_rank": 1,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
+      "site_name": "pauperwave-2026-06-21-the-sideral-wolf-3",
+      "tournament": "The Sideral Wolf Series: 3 — Milano",
+      "date": "2026-06-21",
+      "player": "Gabriele Della Longa",
+      "archetype": "Gardens",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "",
+      "final_rank": null,
+      "source": "pauperwave",
+      "type": "irl"
+    },
     {
       "site_name": "pauperwave-2026-02-08-pauperzilla-2026",
       "tournament": "Pauperzilla 2026 (IPT Castellanza) — Castellanza",

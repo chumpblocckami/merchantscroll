@@ -2,14 +2,14 @@
   "archetype": "UG Fog",
   "slug": "ug-fog",
   "stats": {
-    "total_entries": 437,
+    "total_entries": 439,
     "league_entries": 213,
     "league_trophies": 213,
     "league_trophies_yearly": 15,
     "challenge_appearances": 194,
     "challenge_wins": 823,
     "challenge_losses": 464,
-    "irl_top8": 10,
+    "irl_top8": 11,
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 46,
     "league_trophy_rank_alltime": 17,
@@ -78,6 +78,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauperwave-2026-07-11-top32-geddon-summer-2026",
+      "tournament": "Paupergeddon Summer 2026 — Lucca",
+      "date": "2026-07-11",
+      "player": "Fabio Delli Compagni",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "record": "",
+      "final_rank": null,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-0512845719",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-01",
@@ -106,6 +121,21 @@
       "final_rank": 20,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauperwave-2026-06-28-summer-is-magic-2026",
+      "tournament": "Summer is Magic 2026 — Sarzana",
+      "date": "2026-06-28",
+      "player": "Fabio Delli Compagni",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2412845643",
@@ -361,39 +391,6 @@
         "B",
         "G",
         "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1010636",
-      "tournament": "Pauper League",
-      "date": "2026-06-10",
-      "player": "LydiaTheHuman",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0910636",
-      "tournament": "Pauper League",
-      "date": "2026-06-09",
-      "player": "Hype12232",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
       ],
       "record": "5-0",
       "final_rank": null,

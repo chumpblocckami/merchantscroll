@@ -2,14 +2,14 @@
   "archetype": "RG Monsters",
   "slug": "rg-monsters",
   "stats": {
-    "total_entries": 1,
+    "total_entries": 2,
     "league_entries": 0,
     "league_trophies": 0,
     "league_trophies_yearly": 0,
     "challenge_appearances": 0,
     "challenge_wins": 0,
     "challenge_losses": 0,
-    "irl_top8": 1,
+    "irl_top8": 2,
     "challenge_win_pct": null,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": null,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauperwave-2026-06-21-pauperustico-2026",
+      "tournament": "Pauperustico 2026 — Lecce",
+      "date": "2026-06-21",
+      "player": "Daniele Vallini",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
+    },
     {
       "site_name": "pauperwave-2026-06-12-lucca-summer-2026",
       "tournament": "LP Lucca Summer 2026 — Lucca",
@@ -35,6 +49,10 @@
   "top_pilots": [
     {
       "player": "Stanislao Davino",
+      "count": 1
+    },
+    {
+      "player": "Daniele Vallini",
       "count": 1
     }
   ]

@@ -2,14 +2,14 @@
   "archetype": "Rally",
   "slug": "rally",
   "stats": {
-    "total_entries": 1208,
-    "league_entries": 645,
-    "league_trophies": 645,
-    "league_trophies_yearly": 305,
+    "total_entries": 1217,
+    "league_entries": 644,
+    "league_trophies": 644,
+    "league_trophies_yearly": 304,
     "challenge_appearances": 496,
     "challenge_wins": 1922,
     "challenge_losses": 1265,
-    "irl_top8": 21,
+    "irl_top8": 26,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 3,
     "league_trophy_rank_alltime": 3,
@@ -43,19 +43,6 @@
       "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-29",
-      "player": "SaculSueahtam",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-2810855",
@@ -266,6 +253,20 @@
       "type": "league"
     },
     {
+      "site_name": "pauperwave-2026-07-25-trio-polesana-2025",
+      "tournament": "Un Po di Pauper Trio 2026 — Rovigo",
+      "date": "2026-07-25",
+      "player": "Niccolò Pezzuolo",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "",
+      "final_rank": 1,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-2412848188",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-24",
@@ -366,7 +367,7 @@
   "top_pilots": [
     {
       "player": "SaculSueahtam",
-      "count": 96
+      "count": 95
     },
     {
       "player": "vini_torres",
@@ -386,7 +387,7 @@
     },
     {
       "player": "PedraStone",
-      "count": 21
+      "count": 22
     },
     {
       "player": "NMT_Sco94",
