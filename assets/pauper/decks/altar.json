@@ -2,10 +2,10 @@
   "archetype": "Altar",
   "slug": "altar",
   "stats": {
-    "total_entries": 103,
-    "league_entries": 67,
-    "league_trophies": 67,
-    "league_trophies_yearly": 27,
+    "total_entries": 104,
+    "league_entries": 68,
+    "league_trophies": 68,
+    "league_trophies_yearly": 28,
     "challenge_appearances": 30,
     "challenge_wins": 114,
     "challenge_losses": 79,
@@ -22,6 +22,22 @@
       "tournament": "Pauper League",
       "date": "2026-07-30",
       "player": "Huskyman20035",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-28",
+      "player": "briera96",
       "colors": [
         "B",
         "G",
@@ -405,21 +421,6 @@
       "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauperwave-2026-05-24-pauper-focaccia-trio",
-      "tournament": "Pauper Focaccia Trio — Genova",
-      "date": "2026-05-24",
-      "player": "Simone Ledda",
-      "colors": [
-        "B",
-        "G",
-        "U"
-      ],
-      "record": "",
-      "final_rank": 3,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [
@@ -452,15 +453,15 @@
       "count": 3
     },
     {
+      "player": "briera96",
+      "count": 2
+    },
+    {
       "player": "3vildr4k3",
       "count": 2
     },
     {
       "player": "Loerien",
-      "count": 2
-    },
-    {
-      "player": "Gerry_Lo_Speziato",
       "count": 2
     }
   ]
