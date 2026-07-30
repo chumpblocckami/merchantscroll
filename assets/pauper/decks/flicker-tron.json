@@ -2,10 +2,10 @@
   "archetype": "Flicker Tron",
   "slug": "flicker-tron",
   "stats": {
-    "total_entries": 250,
-    "league_entries": 140,
-    "league_trophies": 140,
-    "league_trophies_yearly": 64,
+    "total_entries": 251,
+    "league_entries": 141,
+    "league_trophies": 141,
+    "league_trophies_yearly": 65,
     "challenge_appearances": 95,
     "challenge_wins": 388,
     "challenge_losses": 243,
@@ -17,6 +17,23 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-25",
+      "player": "Raptor56",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-2310855",
       "tournament": "Pauper League",
@@ -419,22 +436,6 @@
       "final_rank": 5,
       "source": "pauperwave",
       "type": "irl"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-03-1712844320",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-13",
-      "player": "LydiaTheHuman",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -452,7 +453,7 @@
     },
     {
       "player": "Raptor56",
-      "count": 12
+      "count": 13
     },
     {
       "player": "Hampuse1",
