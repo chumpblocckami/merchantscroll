@@ -2,10 +2,10 @@
   "archetype": "Jund",
   "slug": "jund",
   "stats": {
-    "total_entries": 1343,
-    "league_entries": 561,
-    "league_trophies": 561,
-    "league_trophies_yearly": 240,
+    "total_entries": 1342,
+    "league_entries": 560,
+    "league_trophies": 560,
+    "league_trophies_yearly": 239,
     "challenge_appearances": 653,
     "challenge_wins": 2627,
     "challenge_losses": 1650,
@@ -66,11 +66,12 @@
       "site_name": "pauper-league-2026-07-2810855",
       "tournament": "Pauper League",
       "date": "2026-07-28",
-      "player": "dftleonidasfr",
+      "player": "briera96",
       "colors": [
         "B",
         "G",
-        "R"
+        "R",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -93,14 +94,15 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-07-2710855",
+      "site_name": "pauper-league-2026-07-2610855",
       "tournament": "Pauper League",
-      "date": "2026-07-27",
-      "player": "_blaze66",
+      "date": "2026-07-26",
+      "player": "Sweeeeet",
       "colors": [
         "B",
         "G",
-        "R"
+        "R",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -273,21 +275,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-07-2510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-25",
-      "player": "_blaze66",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-07-2412848188",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-24",
@@ -392,12 +379,27 @@
       "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-23",
+      "player": "Schmerbert",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "_blaze66",
-      "count": 178
+      "count": 176
     },
     {
       "player": "Walker735",
