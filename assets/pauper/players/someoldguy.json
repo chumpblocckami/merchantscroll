@@ -3,17 +3,17 @@
   "display_name": "someoldguy",
   "irl_name": null,
   "stats": {
-    "total_entries": 21,
-    "league_trophies": 13,
-    "league_trophies_yearly": 8,
+    "total_entries": 22,
+    "league_trophies": 14,
+    "league_trophies_yearly": 9,
     "challenge_wins": 23,
     "challenge_losses": 19,
     "irl_top8": 0,
     "challenge_win_pct": 55,
-    "league_trophy_rank_yearly": 141,
-    "league_trophy_rank_alltime": 176,
-    "league_trophy_players_yearly": 1378,
-    "league_trophy_players_alltime": 2081
+    "league_trophy_rank_yearly": 124,
+    "league_trophy_rank_alltime": 162,
+    "league_trophy_players_yearly": 1380,
+    "league_trophy_players_alltime": 2083
   },
   "favorite_decks": [
     {
@@ -30,6 +30,10 @@
     },
     {
       "archetype": "Cawgate",
+      "count": 2
+    },
+    {
+      "archetype": "Mono White Heroic",
       "count": 2
     },
     {
@@ -51,13 +55,23 @@
     {
       "archetype": "Jund Wildfire",
       "count": 1
-    },
-    {
-      "archetype": "Mono White Heroic",
-      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-3110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-31",
+      "player": "someoldguy",
+      "archetype": "Mono White Heroic",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-03-2712836750",
       "tournament": "Pauper Challenge 32",
