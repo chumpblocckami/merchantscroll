@@ -1,4 +1,4 @@
-const CACHE_VERSION = "ms-v3";
+const CACHE_VERSION = "ms-v4";
 const SHELL_CACHE = `${CACHE_VERSION}-shell`;
 
 const SHELL_ASSETS = [
