@@ -2,13 +2,13 @@
   "archetype": "Spy Combo",
   "slug": "spy-combo",
   "stats": {
-    "total_entries": 760,
+    "total_entries": 763,
     "league_entries": 474,
     "league_trophies": 474,
     "league_trophies_yearly": 196,
-    "challenge_appearances": 227,
-    "challenge_wins": 916,
-    "challenge_losses": 573,
+    "challenge_appearances": 229,
+    "challenge_wins": 926,
+    "challenge_losses": 578,
     "irl_top8": 26,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 8,
@@ -214,6 +214,20 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-showcase-qualifier-2026-07-2212848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "asWerty",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "6-2",
+      "final_rank": 2,
+      "source": "mtgo",
+      "type": "showcase"
+    },
+    {
       "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
       "tournament": "Pauper Showcase Qualifier",
       "date": "2026-07-26",
@@ -300,6 +314,20 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-challenge-32-2026-07-1912848178",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-23",
+      "player": "OttoSaske",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-2",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-2312848178",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-23",
@@ -340,34 +368,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-0412847738",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "HaHaHa_",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "3-2",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-1912847738",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "HaHaHa_",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "3-2",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
     }
   ],
   "top_pilots": [
@@ -377,7 +377,7 @@
     },
     {
       "player": "asWerty",
-      "count": 27
+      "count": 28
     },
     {
       "player": "AlessandroPiraccini",

@@ -2,7 +2,7 @@
   "archetype": "Dimir Faeries",
   "slug": "dimir-faeries",
   "stats": {
-    "total_entries": 675,
+    "total_entries": 676,
     "league_entries": 338,
     "league_trophies": 338,
     "league_trophies_yearly": 210,
@@ -156,6 +156,20 @@
       "final_rank": 13,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-showcase-qualifier-2026-07-2212848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "barff",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-1",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "showcase"
     },
     {
       "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
@@ -353,26 +367,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-20",
-      "player": "maribves",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "barff",
-      "count": 117
+      "count": 118
     },
     {
       "player": "Purgatory_01",

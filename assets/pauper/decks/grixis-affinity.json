@@ -2,15 +2,15 @@
   "archetype": "Grixis Affinity",
   "slug": "grixis-affinity",
   "stats": {
-    "total_entries": 6,
+    "total_entries": 12,
     "league_entries": 6,
     "league_trophies": 6,
     "league_trophies_yearly": 6,
-    "challenge_appearances": 0,
-    "challenge_wins": 0,
-    "challenge_losses": 0,
+    "challenge_appearances": 3,
+    "challenge_wins": 13,
+    "challenge_losses": 7,
     "irl_top8": 0,
-    "challenge_win_pct": null,
+    "challenge_win_pct": 65,
     "league_trophy_rank_yearly": 49,
     "league_trophy_rank_alltime": 55,
     "league_trophy_decks_yearly": 66,
@@ -106,6 +106,96 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-showcase-qualifier-2026-07-2212848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "LuffyDoChapeuDePalha",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-2",
+      "final_rank": 14,
+      "source": "mtgo",
+      "type": "showcase"
+    },
+    {
+      "site_name": "pauper-showcase-qualifier-2026-07-2212848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "SpockVidaLoka",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 16,
+      "source": "mtgo",
+      "type": "showcase"
+    },
+    {
+      "site_name": "pauper-showcase-qualifier-2026-07-2212848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "gazmon48",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-2",
+      "final_rank": 12,
+      "source": "mtgo",
+      "type": "showcase"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1912848178",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-23",
+      "player": "Vhangar",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "7-2",
+      "final_rank": 2,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912847145",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-12",
+      "player": "Heterodox",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912847145",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-12",
+      "player": "MyongKong",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -122,7 +212,27 @@
       "count": 1
     },
     {
+      "player": "Heterodox",
+      "count": 1
+    },
+    {
+      "player": "LuffyDoChapeuDePalha",
+      "count": 1
+    },
+    {
+      "player": "MyongKong",
+      "count": 1
+    },
+    {
       "player": "SebaSTOno",
+      "count": 1
+    },
+    {
+      "player": "SpockVidaLoka",
+      "count": 1
+    },
+    {
+      "player": "Vhangar",
       "count": 1
     },
     {

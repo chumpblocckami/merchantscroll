@@ -3,11 +3,11 @@
   "display_name": "Ctian",
   "irl_name": null,
   "stats": {
-    "total_entries": 13,
+    "total_entries": 14,
     "league_trophies": 11,
     "league_trophies_yearly": 6,
-    "challenge_wins": 10,
-    "challenge_losses": 5,
+    "challenge_wins": 14,
+    "challenge_losses": 7,
     "irl_top8": 0,
     "challenge_win_pct": 67,
     "league_trophy_rank_yearly": 181,
@@ -34,6 +34,10 @@
     },
     {
       "archetype": "Altar Tron",
+      "count": 1
+    },
+    {
+      "archetype": "Blue Turbofog",
       "count": 1
     },
     {
@@ -65,6 +69,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912847145",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-12",
+      "player": "Ctian",
+      "archetype": "Blue Turbofog",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1212847145",

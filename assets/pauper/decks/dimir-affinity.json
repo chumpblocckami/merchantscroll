@@ -2,21 +2,35 @@
   "archetype": "Dimir Affinity",
   "slug": "dimir-affinity",
   "stats": {
-    "total_entries": 2,
+    "total_entries": 4,
     "league_entries": 0,
     "league_trophies": 0,
     "league_trophies_yearly": 0,
-    "challenge_appearances": 0,
-    "challenge_wins": 0,
-    "challenge_losses": 0,
+    "challenge_appearances": 1,
+    "challenge_wins": 4,
+    "challenge_losses": 2,
     "irl_top8": 2,
-    "challenge_win_pct": null,
+    "challenge_win_pct": 67,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": null,
     "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 70
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-showcase-qualifier-2026-07-2212848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "RNicoF",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "0-2",
+      "final_rank": 27,
+      "source": "mtgo",
+      "type": "showcase"
+    },
     {
       "site_name": "pauperwave-2026-07-25-trio-polesana-2025",
       "tournament": "Un Po di Pauper Trio 2026 — Rovigo",
@@ -30,6 +44,20 @@
       "final_rank": 3,
       "source": "pauperwave",
       "type": "irl"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912847145",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-12",
+      "player": "newbarola",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 12,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauperwave-2026-05-17-pauper-clash",
@@ -52,7 +80,15 @@
       "count": 1
     },
     {
+      "player": "RNicoF",
+      "count": 1
+    },
+    {
       "player": "Samuele Diso",
+      "count": 1
+    },
+    {
+      "player": "newbarola",
       "count": 1
     }
   ]

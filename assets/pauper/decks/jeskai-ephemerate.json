@@ -2,13 +2,13 @@
   "archetype": "Jeskai Ephemerate",
   "slug": "jeskai-ephemerate",
   "stats": {
-    "total_entries": 387,
+    "total_entries": 391,
     "league_entries": 212,
     "league_trophies": 212,
     "league_trophies_yearly": 148,
-    "challenge_appearances": 145,
-    "challenge_wins": 609,
-    "challenge_losses": 351,
+    "challenge_appearances": 148,
+    "challenge_wins": 619,
+    "challenge_losses": 359,
     "irl_top8": 13,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 12,
@@ -198,6 +198,21 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-showcase-qualifier-2026-07-2212848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "daifuku",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "showcase"
+    },
+    {
       "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
       "tournament": "Pauper Showcase Qualifier",
       "date": "2026-07-26",
@@ -333,6 +348,21 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-challenge-32-2026-07-1912848178",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-23",
+      "player": "GLSwadow",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-2312848178",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-23",
@@ -361,36 +391,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2310855",
-      "tournament": "Pauper League",
-      "date": "2026-07-23",
-      "player": "taravangian_",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-2212848161",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-22",
-      "player": "Denisevich",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "6-2",
-      "final_rank": 3,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -400,7 +400,7 @@
     },
     {
       "player": "daifuku",
-      "count": 26
+      "count": 27
     },
     {
       "player": "vikizin",

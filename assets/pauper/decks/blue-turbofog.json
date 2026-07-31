@@ -2,15 +2,15 @@
   "archetype": "Blue Turbofog",
   "slug": "blue-turbofog",
   "stats": {
-    "total_entries": 1,
+    "total_entries": 3,
     "league_entries": 1,
     "league_trophies": 1,
     "league_trophies_yearly": 1,
-    "challenge_appearances": 0,
-    "challenge_wins": 0,
-    "challenge_losses": 0,
+    "challenge_appearances": 1,
+    "challenge_wins": 4,
+    "challenge_losses": 2,
     "irl_top8": 0,
-    "challenge_win_pct": null,
+    "challenge_win_pct": 67,
     "league_trophy_rank_yearly": 57,
     "league_trophy_rank_alltime": 65,
     "league_trophy_decks_yearly": 66,
@@ -30,9 +30,45 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-showcase-qualifier-2026-07-2212848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "Bahsis",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "0-2",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "showcase"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912847145",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-12",
+      "player": "Ctian",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
+    {
+      "player": "Bahsis",
+      "count": 1
+    },
+    {
+      "player": "Ctian",
+      "count": 1
+    },
     {
       "player": "IvernOP",
       "count": 1

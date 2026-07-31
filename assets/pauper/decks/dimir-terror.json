@@ -2,13 +2,13 @@
   "archetype": "Dimir Terror",
   "slug": "dimir-terror",
   "stats": {
-    "total_entries": 603,
+    "total_entries": 608,
     "league_entries": 305,
     "league_trophies": 305,
     "league_trophies_yearly": 163,
-    "challenge_appearances": 251,
-    "challenge_wins": 1058,
-    "challenge_losses": 601,
+    "challenge_appearances": 254,
+    "challenge_wins": 1071,
+    "challenge_losses": 608,
     "irl_top8": 10,
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 10,
@@ -151,6 +151,36 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-showcase-qualifier-2026-07-2212848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "BERNASTORRES",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 3,
+      "source": "mtgo",
+      "type": "showcase"
+    },
+    {
+      "site_name": "pauper-showcase-qualifier-2026-07-2212848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "Drugo",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 17,
+      "source": "mtgo",
+      "type": "showcase"
+    },
+    {
       "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
       "tournament": "Pauper Showcase Qualifier",
       "date": "2026-07-26",
@@ -209,6 +239,36 @@
       "final_rank": 1,
       "source": "pauperwave",
       "type": "irl"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1912848178",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-23",
+      "player": "Lollopollo2001",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1912848178",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-23",
+      "player": "klien7",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-2312848178",
@@ -329,66 +389,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-0412847738",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "cicciogire",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "0-1",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-0412847738",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "gazmon48",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-1912847738",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "Oscar_Franco",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "1-1",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-1912847738",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "TentacleFan",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "1-1",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
     }
   ],
   "top_pilots": [
@@ -402,7 +402,7 @@
     },
     {
       "player": "Drugo",
-      "count": 19
+      "count": 20
     },
     {
       "player": "mehanske",
@@ -421,15 +421,15 @@
       "count": 12
     },
     {
+      "player": "Lollopollo2001",
+      "count": 11
+    },
+    {
       "player": "Prague",
       "count": 11
     },
     {
       "player": "hetare_ane",
-      "count": 11
-    },
-    {
-      "player": "sorayoltu",
       "count": 11
     }
   ]

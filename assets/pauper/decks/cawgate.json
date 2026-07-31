@@ -2,13 +2,13 @@
   "archetype": "Cawgate",
   "slug": "cawgate",
   "stats": {
-    "total_entries": 436,
+    "total_entries": 437,
     "league_entries": 258,
     "league_trophies": 258,
     "league_trophies_yearly": 138,
-    "challenge_appearances": 143,
-    "challenge_wins": 587,
-    "challenge_losses": 356,
+    "challenge_appearances": 144,
+    "challenge_wins": 592,
+    "challenge_losses": 358,
     "irl_top8": 11,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 13,
@@ -45,6 +45,21 @@
       ],
       "record": "2-3",
       "final_rank": 27,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1912848178",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-23",
+      "player": "bafusVIII",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -360,21 +375,6 @@
       ],
       "record": "7-2",
       "final_rank": 3,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0512843783",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-05",
-      "player": "Dskog",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
     }

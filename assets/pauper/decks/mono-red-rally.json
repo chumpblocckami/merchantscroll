@@ -2,13 +2,13 @@
   "archetype": "Mono Red Rally",
   "slug": "mono-red-rally",
   "stats": {
-    "total_entries": 1224,
+    "total_entries": 1231,
     "league_entries": 647,
     "league_trophies": 647,
     "league_trophies_yearly": 307,
-    "challenge_appearances": 500,
-    "challenge_wins": 1937,
-    "challenge_losses": 1274,
+    "challenge_appearances": 505,
+    "challenge_wins": 1952,
+    "challenge_losses": 1289,
     "irl_top8": 26,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 3,
@@ -241,6 +241,34 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-showcase-qualifier-2026-07-2212848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "boom_bust",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "1-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "showcase"
+    },
+    {
+      "site_name": "pauper-showcase-qualifier-2026-07-2212848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "vini_torres",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "showcase"
+    },
+    {
       "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
       "tournament": "Pauper Showcase Qualifier",
       "date": "2026-07-26",
@@ -335,48 +363,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-25",
-      "player": "vini_torres",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-07-25-trio-polesana-2025",
-      "tournament": "Un Po di Pauper Trio 2026 — Rovigo",
-      "date": "2026-07-25",
-      "player": "Niccolò Pezzuolo",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "",
-      "final_rank": 1,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [
+    {
+      "player": "vini_torres",
+      "count": 96
+    },
     {
       "player": "SaculSueahtam",
       "count": 95
     },
     {
-      "player": "vini_torres",
-      "count": 93
-    },
-    {
       "player": "boom_bust",
-      "count": 70
+      "count": 72
     },
     {
       "player": "GilbertoAntunes",

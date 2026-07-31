@@ -3,11 +3,11 @@
   "display_name": "SaculSueahtam",
   "irl_name": null,
   "stats": {
-    "total_entries": 101,
+    "total_entries": 103,
     "league_trophies": 10,
     "league_trophies_yearly": 7,
-    "challenge_wins": 362,
-    "challenge_losses": 217,
+    "challenge_wins": 366,
+    "challenge_losses": 219,
     "irl_top8": 0,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 167,
@@ -25,11 +25,11 @@
       "count": 4
     },
     {
-      "archetype": "Mono Red Kuldotha",
-      "count": 1
+      "archetype": "Mono Red Synth",
+      "count": 3
     },
     {
-      "archetype": "Mono Red Synth",
+      "archetype": "Mono Red Kuldotha",
       "count": 1
     }
   ],
@@ -63,6 +63,20 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-showcase-qualifier-2026-07-2212848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "SaculSueahtam",
+      "archetype": "Mono Red Synth",
+      "colors": [
+        "R"
+      ],
+      "record": "3-2",
+      "final_rank": 10,
+      "source": "mtgo",
+      "type": "showcase"
+    },
+    {
       "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
       "tournament": "Pauper Showcase Qualifier",
       "date": "2026-07-26",
@@ -87,6 +101,20 @@
       ],
       "record": "3-3",
       "final_rank": 16,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1912848178",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-23",
+      "player": "SaculSueahtam",
+      "archetype": "Mono Red Synth",
+      "colors": [
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -353,34 +381,6 @@
       ],
       "record": "5-2",
       "final_rank": 14,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1212844338",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-14",
-      "player": "SaculSueahtam",
-      "archetype": "Mono Red Rally",
-      "colors": [
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 19,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1412844338",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-14",
-      "player": "SaculSueahtam",
-      "archetype": "Mono Red Rally",
-      "colors": [
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 19,
       "source": "mtgo",
       "type": "challenge"
     }

@@ -3,19 +3,23 @@
   "display_name": "John1111",
   "irl_name": null,
   "stats": {
-    "total_entries": 29,
+    "total_entries": 30,
     "league_trophies": 1,
     "league_trophies_yearly": 1,
-    "challenge_wins": 101,
-    "challenge_losses": 70,
+    "challenge_wins": 107,
+    "challenge_losses": 72,
     "irl_top8": 0,
-    "challenge_win_pct": 59,
+    "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 1039,
     "league_trophy_rank_alltime": 1634,
     "league_trophy_players_yearly": 1380,
     "league_trophy_players_alltime": 2083
   },
   "favorite_decks": [
+    {
+      "archetype": "Naya Gates",
+      "count": 4
+    },
     {
       "archetype": "Gardens",
       "count": 3
@@ -30,10 +34,6 @@
     },
     {
       "archetype": "Mono Blue Terror",
-      "count": 3
-    },
-    {
-      "archetype": "Naya Gates",
       "count": 3
     },
     {
@@ -71,6 +71,22 @@
       ],
       "record": "8-2",
       "final_rank": 2,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912847145",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-12",
+      "player": "John1111",
+      "archetype": "Naya Gates",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "6-2",
+      "final_rank": 3,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -411,20 +427,6 @@
       ],
       "record": "3-3",
       "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-09-1412814292",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-09-14",
-      "player": "John1111",
-      "archetype": "Mono Blue Terror",
-      "colors": [
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
     }

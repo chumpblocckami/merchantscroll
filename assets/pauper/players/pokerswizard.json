@@ -3,11 +3,11 @@
   "display_name": "pokerswizard",
   "irl_name": null,
   "stats": {
-    "total_entries": 10,
+    "total_entries": 11,
     "league_trophies": 0,
     "league_trophies_yearly": 0,
-    "challenge_wins": 40,
-    "challenge_losses": 25,
+    "challenge_wins": 44,
+    "challenge_losses": 27,
     "irl_top8": 0,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": null,
@@ -17,12 +17,12 @@
   },
   "favorite_decks": [
     {
-      "archetype": "Mono Blue Terror",
+      "archetype": "Gruul Ponza",
       "count": 4
     },
     {
-      "archetype": "Gruul Ponza",
-      "count": 3
+      "archetype": "Mono Blue Terror",
+      "count": 4
     },
     {
       "archetype": "Mono Red Rally",
@@ -114,6 +114,21 @@
       "archetype": "Mono Blue Terror",
       "colors": [
         "U"
+      ],
+      "record": "4-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912847145",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-12",
+      "player": "pokerswizard",
+      "archetype": "Gruul Ponza",
+      "colors": [
+        "G",
+        "R"
       ],
       "record": "4-2",
       "final_rank": 11,

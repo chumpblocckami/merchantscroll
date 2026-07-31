@@ -2,15 +2,15 @@
   "archetype": "Boros Synth",
   "slug": "boros-synth",
   "stats": {
-    "total_entries": 13,
+    "total_entries": 14,
     "league_entries": 5,
     "league_trophies": 5,
     "league_trophies_yearly": 2,
-    "challenge_appearances": 4,
-    "challenge_wins": 13,
-    "challenge_losses": 11,
+    "challenge_appearances": 5,
+    "challenge_wins": 16,
+    "challenge_losses": 14,
     "irl_top8": 3,
-    "challenge_win_pct": 54,
+    "challenge_win_pct": 53,
     "league_trophy_rank_yearly": 54,
     "league_trophy_rank_alltime": 57,
     "league_trophy_decks_yearly": 66,
@@ -30,6 +30,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1912848178",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-23",
+      "player": "Capitano_CL",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1612847678",
@@ -221,6 +235,10 @@
       "count": 1
     },
     {
+      "player": "Capitano_CL",
+      "count": 1
+    },
+    {
       "player": "Emanuele Navarra",
       "count": 1
     },
@@ -242,10 +260,6 @@
     },
     {
       "player": "sai199orz",
-      "count": 1
-    },
-    {
-      "player": "viashinoperuano",
       "count": 1
     }
   ]

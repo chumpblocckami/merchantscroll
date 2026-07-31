@@ -2,13 +2,13 @@
   "archetype": "Azorius Familiars",
   "slug": "azorius-familiars",
   "stats": {
-    "total_entries": 310,
+    "total_entries": 311,
     "league_entries": 173,
     "league_trophies": 173,
     "league_trophies_yearly": 86,
-    "challenge_appearances": 107,
-    "challenge_wins": 442,
-    "challenge_losses": 268,
+    "challenge_appearances": 108,
+    "challenge_wins": 445,
+    "challenge_losses": 271,
     "irl_top8": 23,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 22,
@@ -58,6 +58,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1912848178",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-23",
+      "player": "Borbs",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 21,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-2312848178",
@@ -357,20 +372,6 @@
       "final_rank": 4,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0912846485",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-04",
-      "player": "ChaoticMTG",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "6-2",
-      "final_rank": 4,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -404,7 +405,7 @@
     },
     {
       "player": "Borbs",
-      "count": 7
+      "count": 8
     },
     {
       "player": "MichelBiro",

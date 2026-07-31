@@ -3,7 +3,7 @@
   "display_name": "LuffyDoChapeuDePalha",
   "irl_name": null,
   "stats": {
-    "total_entries": 222,
+    "total_entries": 223,
     "league_trophies": 13,
     "league_trophies_yearly": 4,
     "challenge_wins": 963,
@@ -26,6 +26,10 @@
     },
     {
       "archetype": "Gardens",
+      "count": 1
+    },
+    {
+      "archetype": "Grixis Affinity",
       "count": 1
     },
     {
@@ -81,6 +85,22 @@
       "final_rank": 6,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-showcase-qualifier-2026-07-2212848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "LuffyDoChapeuDePalha",
+      "archetype": "Grixis Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-2",
+      "final_rank": 14,
+      "source": "mtgo",
+      "type": "showcase"
     },
     {
       "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
@@ -415,22 +435,6 @@
       ],
       "record": "5-2",
       "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2412845643",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-25",
-      "player": "LuffyDoChapeuDePalha",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
     }
