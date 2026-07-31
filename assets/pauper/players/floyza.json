@@ -21,7 +21,7 @@
       "count": 3
     },
     {
-      "archetype": "Familiars",
+      "archetype": "Azorius Familiars",
       "count": 2
     }
   ],
@@ -33,7 +33,6 @@
       "player": "floyza",
       "archetype": "Cawgate",
       "colors": [
-        "R",
         "U",
         "W"
       ],
@@ -49,7 +48,6 @@
       "player": "floyza",
       "archetype": "Cawgate",
       "colors": [
-        "R",
         "U",
         "W"
       ],
@@ -65,22 +63,6 @@
       "player": "floyza",
       "archetype": "Cawgate",
       "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-01-019987",
-      "tournament": "pauper-league-2026-01-019987",
-      "date": "2026-01-01",
-      "player": "floyza",
-      "archetype": "Familiars",
-      "colors": [
         "U",
         "W"
       ],
@@ -94,7 +76,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-01",
       "player": "floyza",
-      "archetype": "Familiars",
+      "archetype": "Azorius Familiars",
       "colors": [
         "U",
         "W"
@@ -103,6 +85,21 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-01-019987",
+      "tournament": "pauper-league-2026-01-019987",
+      "date": "2026-01-01",
+      "player": "floyza",
+      "archetype": "Azorius Familiars",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ]
 }

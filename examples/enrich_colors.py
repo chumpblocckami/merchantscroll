@@ -65,7 +65,9 @@ def main():
         data = json.loads(path.read_text())
         enrich_challenge_results(data)
         enrich_deck_colors(data, lookup)
-        path.write_text(json.dumps(data, indent=2))
+        # ensure_ascii=False matches how the crawl pipeline writes these files;
+        # escaping here would rewrite every card name with a non-ASCII letter.
+        path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
         enriched += 1
 
     print(f"Enriched {enriched} tournament file(s).")

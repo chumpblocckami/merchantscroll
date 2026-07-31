@@ -1,17 +1,17 @@
 [
   {
-    "slug": "r-madness",
-    "archetype": "R Madness",
+    "slug": "mono-red-madness",
+    "archetype": "Mono Red Madness",
     "entries": 2076
   },
   {
-    "slug": "u-terror",
-    "archetype": "U Terror",
+    "slug": "mono-blue-terror",
+    "archetype": "Mono Blue Terror",
     "entries": 1835
   },
   {
-    "slug": "jund",
-    "archetype": "Jund",
+    "slug": "jund-wildfire",
+    "archetype": "Jund Wildfire",
     "entries": 1343
   },
   {
@@ -20,8 +20,8 @@
     "entries": 1255
   },
   {
-    "slug": "rally",
-    "archetype": "Rally",
+    "slug": "mono-red-rally",
+    "archetype": "Mono Red Rally",
     "entries": 1220
   },
   {
@@ -30,13 +30,13 @@
     "entries": 1014
   },
   {
-    "slug": "br-madness",
-    "archetype": "BR Madness",
+    "slug": "rakdos-madness",
+    "archetype": "Rakdos Madness",
     "entries": 825
   },
   {
-    "slug": "spy",
-    "archetype": "Spy",
+    "slug": "spy-combo",
+    "archetype": "Spy Combo",
     "entries": 755
   },
   {
@@ -45,8 +45,8 @@
     "entries": 708
   },
   {
-    "slug": "ub-faeries",
-    "archetype": "UB Faeries",
+    "slug": "dimir-faeries",
+    "archetype": "Dimir Faeries",
     "entries": 671
   },
   {
@@ -55,18 +55,18 @@
     "entries": 655
   },
   {
-    "slug": "ub-terror",
-    "archetype": "UB Terror",
+    "slug": "dimir-terror",
+    "archetype": "Dimir Terror",
     "entries": 600
   },
   {
-    "slug": "u-faeries",
-    "archetype": "U Faeries",
-    "entries": 576
+    "slug": "mono-blue-faeries",
+    "archetype": "Mono Blue Faeries",
+    "entries": 577
   },
   {
-    "slug": "ug-fog",
-    "archetype": "UG Fog",
+    "slug": "simic-fog",
+    "archetype": "Simic Fog",
     "entries": 438
   },
   {
@@ -75,23 +75,28 @@
     "entries": 436
   },
   {
-    "slug": "jeskai",
-    "archetype": "Jeskai",
+    "slug": "gruul-monsters",
+    "archetype": "Gruul Monsters",
+    "entries": 387
+  },
+  {
+    "slug": "jeskai-ephemerate",
+    "archetype": "Jeskai Ephemerate",
     "entries": 385
   },
   {
-    "slug": "monsters",
-    "archetype": "Monsters",
-    "entries": 384
-  },
-  {
-    "slug": "bw-refurbished",
-    "archetype": "BW Refurbished",
+    "slug": "orzhov-refurbished",
+    "archetype": "Orzhov Refurbished",
     "entries": 372
   },
   {
-    "slug": "b-sacrifice",
-    "archetype": "B Sacrifice",
+    "slug": "gruul-ponza",
+    "archetype": "Gruul Ponza",
+    "entries": 322
+  },
+  {
+    "slug": "mono-black-sacrifice",
+    "archetype": "Mono Black Sacrifice",
     "entries": 320
   },
   {
@@ -102,17 +107,17 @@
   {
     "slug": "naya-gates",
     "archetype": "Naya Gates",
-    "entries": 310
+    "entries": 311
   },
   {
-    "slug": "familiars",
-    "archetype": "Familiars",
-    "entries": 304
+    "slug": "azorius-familiars",
+    "archetype": "Azorius Familiars",
+    "entries": 309
   },
   {
-    "slug": "bogle",
-    "archetype": "Bogle",
-    "entries": 260
+    "slug": "bogles",
+    "archetype": "Bogles",
+    "entries": 261
   },
   {
     "slug": "flicker-tron",
@@ -125,18 +130,18 @@
     "entries": 248
   },
   {
-    "slug": "ponza",
-    "archetype": "Ponza",
-    "entries": 228
+    "slug": "monster-tron",
+    "archetype": "Monster Tron",
+    "entries": 237
   },
   {
-    "slug": "ur-control",
-    "archetype": "UR Control",
-    "entries": 206
+    "slug": "izzet-control",
+    "archetype": "Izzet Control",
+    "entries": 207
   },
   {
-    "slug": "rg-storm",
-    "archetype": "RG Storm",
+    "slug": "gruul-storm",
+    "archetype": "Gruul Storm",
     "entries": 205
   },
   {
@@ -145,29 +150,29 @@
     "entries": 203
   },
   {
-    "slug": "gw-gates",
-    "archetype": "GW Gates",
+    "slug": "altar-tron",
+    "archetype": "Altar Tron",
+    "entries": 199
+  },
+  {
+    "slug": "selesnya-gates",
+    "archetype": "Selesnya Gates",
     "entries": 183
   },
   {
     "slug": "walls",
     "archetype": "Walls",
-    "entries": 168
+    "entries": 170
   },
   {
-    "slug": "ub-control",
-    "archetype": "UB Control",
+    "slug": "dimir-control",
+    "archetype": "Dimir Control",
     "entries": 165
   },
   {
-    "slug": "w-heroic",
-    "archetype": "W Heroic",
-    "entries": 156
-  },
-  {
-    "slug": "monsters-tron",
-    "archetype": "Monsters Tron",
-    "entries": 148
+    "slug": "mono-white-heroic",
+    "archetype": "Mono White Heroic",
+    "entries": 157
   },
   {
     "slug": "boros-glitter",
@@ -175,29 +180,19 @@
     "entries": 144
   },
   {
-    "slug": "boros-tribe",
-    "archetype": "Boros Tribe",
-    "entries": 114
+    "slug": "tireless-tribe",
+    "archetype": "Tireless Tribe",
+    "entries": 115
   },
   {
-    "slug": "bg-fog",
-    "archetype": "BG Fog",
+    "slug": "golgari-fog",
+    "archetype": "Golgari Fog",
     "entries": 105
   },
   {
-    "slug": "altar",
-    "archetype": "Altar",
-    "entries": 103
-  },
-  {
-    "slug": "altar-tron",
-    "archetype": "Altar Tron",
-    "entries": 96
-  },
-  {
-    "slug": "rg-ponza",
-    "archetype": "RG Ponza",
-    "entries": 94
+    "slug": "mono-green-infect",
+    "archetype": "Mono Green Infect",
+    "entries": 95
   },
   {
     "slug": "esper-affinity",
@@ -205,49 +200,29 @@
     "entries": 92
   },
   {
-    "slug": "monster-tron",
-    "archetype": "Monster Tron",
-    "entries": 89
-  },
-  {
-    "slug": "cycle-storm",
-    "archetype": "Cycle Storm",
+    "slug": "cycling-storm",
+    "archetype": "Cycling Storm",
     "entries": 86
   },
   {
-    "slug": "bgru",
-    "archetype": "BGRU",
-    "entries": 57
+    "slug": "poison-storm",
+    "archetype": "Poison Storm",
+    "entries": 53
   },
   {
-    "slug": "uw-glitter",
-    "archetype": "UW Glitter",
+    "slug": "azorius-glitter",
+    "archetype": "Azorius Glitter",
     "entries": 40
   },
   {
-    "slug": "gr",
-    "archetype": "GR",
-    "entries": 38
-  },
-  {
-    "slug": "br-affinity",
-    "archetype": "BR Affinity",
+    "slug": "rakdos-affinity",
+    "archetype": "Rakdos Affinity",
     "entries": 35
-  },
-  {
-    "slug": "g",
-    "archetype": "G",
-    "entries": 30
   },
   {
     "slug": "jund-gardens",
     "archetype": "Jund Gardens",
     "entries": 28
-  },
-  {
-    "slug": "grw",
-    "archetype": "GRW",
-    "entries": 27
   },
   {
     "slug": "pizza-combo",
@@ -265,14 +240,14 @@
     "entries": 19
   },
   {
+    "slug": "petitioners",
+    "archetype": "Petitioners",
+    "entries": 19
+  },
+  {
     "slug": "jund-glee",
     "archetype": "Jund Glee",
     "entries": 17
-  },
-  {
-    "slug": "bgr",
-    "archetype": "BGR",
-    "entries": 16
   },
   {
     "slug": "temur-control",
@@ -280,39 +255,34 @@
     "entries": 14
   },
   {
+    "slug": "hot-dogs",
+    "archetype": "Hot Dogs",
+    "entries": 13
+  },
+  {
     "slug": "boros-synth",
     "archetype": "Boros Synth",
     "entries": 12
   },
   {
-    "slug": "gu",
-    "archetype": "GU",
-    "entries": 12
+    "slug": "gr",
+    "archetype": "GR",
+    "entries": 11
   },
   {
-    "slug": "gruw",
-    "archetype": "GRUW",
+    "slug": "g",
+    "archetype": "G",
     "entries": 9
   },
   {
-    "slug": "bgrw",
-    "archetype": "BGRW",
+    "slug": "r",
+    "archetype": "R",
     "entries": 8
   },
   {
-    "slug": "bg-glee",
-    "archetype": "BG Glee",
-    "entries": 6
-  },
-  {
-    "slug": "bgu",
-    "archetype": "BGU",
-    "entries": 6
-  },
-  {
-    "slug": "gru",
-    "archetype": "GRU",
-    "entries": 6
+    "slug": "golgari-glee",
+    "archetype": "Golgari Glee",
+    "entries": 7
   },
   {
     "slug": "slivers",
@@ -325,24 +295,9 @@
     "entries": 6
   },
   {
-    "slug": "br",
-    "archetype": "BR",
+    "slug": "mono-black-burn",
+    "archetype": "Mono Black Burn",
     "entries": 5
-  },
-  {
-    "slug": "bgw",
-    "archetype": "BGW",
-    "entries": 4
-  },
-  {
-    "slug": "familiar",
-    "archetype": "Familiar",
-    "entries": 4
-  },
-  {
-    "slug": "bg-ponza",
-    "archetype": "BG Ponza",
-    "entries": 3
   },
   {
     "slug": "bru",
@@ -350,13 +305,38 @@
     "entries": 3
   },
   {
-    "slug": "rg-monsters",
-    "archetype": "RG Monsters",
+    "slug": "golgari-ponza",
+    "archetype": "Golgari Ponza",
     "entries": 3
   },
   {
-    "slug": "bully",
-    "archetype": "Bully",
+    "slug": "gruw",
+    "archetype": "GRUW",
+    "entries": 3
+  },
+  {
+    "slug": "grw",
+    "archetype": "GRW",
+    "entries": 3
+  },
+  {
+    "slug": "bgr",
+    "archetype": "BGR",
+    "entries": 2
+  },
+  {
+    "slug": "boros-bully",
+    "archetype": "Boros Bully",
+    "entries": 2
+  },
+  {
+    "slug": "dimir-affinity",
+    "archetype": "Dimir Affinity",
+    "entries": 2
+  },
+  {
+    "slug": "goblin-combo",
+    "archetype": "Goblin Combo",
     "entries": 2
   },
   {
@@ -370,8 +350,8 @@
     "entries": 2
   },
   {
-    "slug": "walls-combo",
-    "archetype": "Walls Combo",
+    "slug": "turbo-emblems",
+    "archetype": "Turbo Emblems",
     "entries": 2
   },
   {
@@ -380,53 +360,18 @@
     "entries": 1
   },
   {
-    "slug": "b",
-    "archetype": "B",
+    "slug": "black-turbofog",
+    "archetype": "Black Turbofog",
     "entries": 1
   },
   {
-    "slug": "b-devotion",
-    "archetype": "B Devotion",
+    "slug": "dimir-refurbished",
+    "archetype": "Dimir Refurbished",
     "entries": 1
   },
   {
-    "slug": "b-pactoll",
-    "archetype": "B Pactoll",
-    "entries": 1
-  },
-  {
-    "slug": "bg-pestilence",
-    "archetype": "BG Pestilence",
-    "entries": 1
-  },
-  {
-    "slug": "bg-turbo-initiative",
-    "archetype": "BG Turbo Initiative",
-    "entries": 1
-  },
-  {
-    "slug": "bgr-glee",
-    "archetype": "BGr Glee",
-    "entries": 1
-  },
-  {
-    "slug": "black-fog",
-    "archetype": "Black Fog",
-    "entries": 1
-  },
-  {
-    "slug": "bogles",
-    "archetype": "Bogles",
-    "entries": 1
-  },
-  {
-    "slug": "bruw",
-    "archetype": "BRUW",
-    "entries": 1
-  },
-  {
-    "slug": "dimir-affinity",
-    "archetype": "Dimir Affinity",
+    "slug": "dimir-snacker",
+    "archetype": "Dimir Snacker",
     "entries": 1
   },
   {
@@ -440,33 +385,13 @@
     "entries": 1
   },
   {
-    "slug": "goblin-combo",
-    "archetype": "Goblin Combo",
+    "slug": "golgari-pestilence",
+    "archetype": "Golgari Pestilence",
     "entries": 1
   },
   {
-    "slug": "gw",
-    "archetype": "GW",
-    "entries": 1
-  },
-  {
-    "slug": "heroic",
-    "archetype": "Heroic",
-    "entries": 1
-  },
-  {
-    "slug": "hot-dogs",
-    "archetype": "Hot Dogs",
-    "entries": 1
-  },
-  {
-    "slug": "infect",
-    "archetype": "Infect",
-    "entries": 1
-  },
-  {
-    "slug": "izzet-control",
-    "archetype": "Izzet Control",
+    "slug": "golgari-turbo-initiative",
+    "archetype": "Golgari Turbo Initiative",
     "entries": 1
   },
   {
@@ -490,38 +415,33 @@
     "entries": 1
   },
   {
-    "slug": "mono-u-faeries",
-    "archetype": "Mono U Faeries",
+    "slug": "mono-black",
+    "archetype": "Mono Black",
     "entries": 1
   },
   {
-    "slug": "petitioners",
-    "archetype": "Petitioners",
+    "slug": "mono-black-devotion",
+    "archetype": "Mono Black Devotion",
+    "entries": 1
+  },
+  {
+    "slug": "mono-black-pactoll",
+    "archetype": "Mono Black Pactoll",
+    "entries": 1
+  },
+  {
+    "slug": "mono-red-burn",
+    "archetype": "Mono Red Burn",
+    "entries": 1
+  },
+  {
+    "slug": "mono-red-kiln",
+    "archetype": "Mono Red Kiln",
     "entries": 1
   },
   {
     "slug": "pingers-tron",
     "archetype": "Pingers Tron",
-    "entries": 1
-  },
-  {
-    "slug": "poison-storm",
-    "archetype": "Poison Storm",
-    "entries": 1
-  },
-  {
-    "slug": "r",
-    "archetype": "R",
-    "entries": 1
-  },
-  {
-    "slug": "r-kiln",
-    "archetype": "R Kiln",
-    "entries": 1
-  },
-  {
-    "slug": "red-deck-wins",
-    "archetype": "Red Deck Wins",
     "entries": 1
   },
   {
@@ -537,31 +457,6 @@
   {
     "slug": "tron",
     "archetype": "Tron",
-    "entries": 1
-  },
-  {
-    "slug": "ub-affinity",
-    "archetype": "UB Affinity",
-    "entries": 1
-  },
-  {
-    "slug": "ub-refurbished",
-    "archetype": "UB Refurbished",
-    "entries": 1
-  },
-  {
-    "slug": "ub-snacker",
-    "archetype": "UB Snacker",
-    "entries": 1
-  },
-  {
-    "slug": "uw-familiars",
-    "archetype": "UW Familiars",
-    "entries": 1
-  },
-  {
-    "slug": "uw-tribe",
-    "archetype": "UW Tribe",
     "entries": 1
   }
 ]

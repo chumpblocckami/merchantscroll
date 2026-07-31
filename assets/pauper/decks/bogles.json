@@ -2,30 +2,313 @@
   "archetype": "Bogles",
   "slug": "bogles",
   "stats": {
-    "total_entries": 1,
-    "league_entries": 0,
-    "league_trophies": 0,
-    "league_trophies_yearly": 0,
-    "challenge_appearances": 0,
-    "challenge_wins": 0,
-    "challenge_losses": 0,
-    "irl_top8": 0,
-    "challenge_win_pct": null,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": null,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "total_entries": 261,
+    "league_entries": 104,
+    "league_trophies": 104,
+    "league_trophies_yearly": 33,
+    "challenge_appearances": 148,
+    "challenge_wins": 583,
+    "challenge_losses": 383,
+    "irl_top8": 3,
+    "challenge_win_pct": 60,
+    "league_trophy_rank_yearly": 36,
+    "league_trophy_rank_alltime": 33,
+    "league_trophy_decks_yearly": 61,
+    "league_trophy_decks_alltime": 65
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-3012849439",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-30",
+      "player": "PedraStone",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "2-4",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-2612848222",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-26",
+      "player": "QueMario",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 14,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-2512848203",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-25",
+      "player": "RioMare85",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-23",
+      "player": "Regis_Hangar49",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-22",
+      "player": "wolf777",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2212847741",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-22",
+      "player": "COMBO-BOY",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-21",
+      "player": "Ixidor29",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-20",
+      "player": "SpikeYou",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1812847695",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-18",
+      "player": "ArtemisNix",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 18,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1912847695",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-18",
+      "player": "ArtemisNix",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 18,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-18",
+      "player": "Essenza",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-17",
+      "player": "Regis_Hangar49",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-17",
+      "player": "iLKor",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-16",
+      "player": "Regis_Hangar49",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-16",
+      "player": "iLKor",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-14",
+      "player": "ArtemisNix",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-13",
+      "player": "Essenza",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1310855",
+      "tournament": "Pauper League",
+      "date": "2026-07-13",
+      "player": "Essenza",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-1210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-12",
+      "player": "Essenza",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauperwave-2026-07-11-top16-geddon-summer-2026",
       "tournament": "Paupergeddon Summer 2026 — Lucca",
       "date": "2026-07-11",
       "player": "Michele Signoracci",
       "colors": [
-        "B",
         "G",
-        "R",
         "U",
         "W"
       ],
@@ -33,12 +316,123 @@
       "final_rank": null,
       "source": "pauperwave",
       "type": "irl"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912847103",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-09",
+      "player": "QueMario",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 18,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0812846623",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-08",
+      "player": "QueMario",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0612846623",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-08",
+      "player": "QueMario",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-06",
+      "player": "albana",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0512846504",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-05",
+      "player": "Kirblinxy",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "6-2",
+      "final_rank": 3,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
-      "player": "Michele Signoracci",
-      "count": 1
+      "player": "PedraStone",
+      "count": 31
+    },
+    {
+      "player": "QueMario",
+      "count": 12
+    },
+    {
+      "player": "AoFTW",
+      "count": 11
+    },
+    {
+      "player": "Ixidor29",
+      "count": 11
+    },
+    {
+      "player": "broers_",
+      "count": 7
+    },
+    {
+      "player": "JuaKi",
+      "count": 7
+    },
+    {
+      "player": "ChaoticMTG",
+      "count": 6
+    },
+    {
+      "player": "Mah_Alves",
+      "count": 6
+    },
+    {
+      "player": "MisterTwin",
+      "count": 6
+    },
+    {
+      "player": "hockeybro26",
+      "count": 6
     }
   ]
 }

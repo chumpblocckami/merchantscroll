@@ -17,7 +17,7 @@
   },
   "favorite_decks": [
     {
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "count": 4
     },
     {
@@ -25,23 +25,23 @@
       "count": 3
     },
     {
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "count": 2
     },
     {
-      "archetype": "Rally",
+      "archetype": "Mono Red Rally",
       "count": 2
     },
     {
-      "archetype": "BR Madness",
+      "archetype": "Orzhov Refurbished",
       "count": 1
     },
     {
-      "archetype": "BW Refurbished",
+      "archetype": "Spy Combo",
       "count": 1
     },
     {
-      "archetype": "Spy",
+      "archetype": "Rakdos Madness",
       "count": 1
     }
   ],
@@ -51,7 +51,7 @@
       "tournament": "Pauper League",
       "date": "2026-07-02",
       "player": "Protean_Hulk",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -69,10 +69,8 @@
       "player": "Protean_Hulk",
       "archetype": "Naya Gates",
       "colors": [
-        "B",
         "G",
         "R",
-        "U",
         "W"
       ],
       "record": "2-4",
@@ -87,10 +85,8 @@
       "player": "Protean_Hulk",
       "archetype": "Naya Gates",
       "colors": [
-        "B",
         "G",
         "R",
-        "U",
         "W"
       ],
       "record": "2-4",
@@ -105,10 +101,8 @@
       "player": "Protean_Hulk",
       "archetype": "Naya Gates",
       "colors": [
-        "B",
         "G",
         "R",
-        "U",
         "W"
       ],
       "record": "5-0",
@@ -121,7 +115,7 @@
       "tournament": "pauper-league-2026-03-2210405",
       "date": "2026-03-22",
       "player": "Protean_Hulk",
-      "archetype": "Rally",
+      "archetype": "Mono Red Rally",
       "colors": [
         "G",
         "R"
@@ -136,7 +130,7 @@
       "tournament": "pauper-league-2026-03-0410405",
       "date": "2026-03-04",
       "player": "Protean_Hulk",
-      "archetype": "BW Refurbished",
+      "archetype": "Orzhov Refurbished",
       "colors": [
         "B",
         "W"
@@ -151,7 +145,7 @@
       "tournament": "pauper-league-2025-12-019987",
       "date": "2025-12-01",
       "player": "Protean_Hulk",
-      "archetype": "Rally",
+      "archetype": "Mono Red Rally",
       "colors": [
         "G",
         "R"
@@ -166,7 +160,7 @@
       "tournament": "Pauper Challenge 32 Special",
       "date": "2025-11-11",
       "player": "Protean_Hulk",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -182,12 +176,10 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-08-01",
       "player": "Protean_Hulk",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
-        "G",
-        "R",
-        "U"
+        "G"
       ],
       "record": "4-3",
       "final_rank": 20,
@@ -199,11 +191,9 @@
       "tournament": "pauper-league-2025-07-069366",
       "date": "2025-07-06",
       "player": "Protean_Hulk",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -215,27 +205,9 @@
       "tournament": "pauper-league-2025-06-309366",
       "date": "2025-06-30",
       "player": "Protean_Hulk",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-06-299366",
-      "tournament": "pauper-league-2025-06-299366",
-      "date": "2025-06-29",
-      "player": "Protean_Hulk",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -247,11 +219,9 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-06-29",
       "player": "Protean_Hulk",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "3-3",
       "final_rank": 30,
@@ -259,15 +229,28 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2025-06-299366",
+      "tournament": "pauper-league-2025-06-299366",
+      "date": "2025-06-29",
+      "player": "Protean_Hulk",
+      "archetype": "Mono Red Madness",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2025-06-099081",
       "tournament": "pauper-league-2025-06-099081",
       "date": "2025-06-09",
       "player": "Protean_Hulk",
-      "archetype": "BR Madness",
+      "archetype": "Rakdos Madness",
       "colors": [
         "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,

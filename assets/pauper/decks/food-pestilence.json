@@ -13,8 +13,8 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 15,
     "league_trophy_rank_alltime": 21,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "league_trophy_decks_yearly": 61,
+    "league_trophy_decks_alltime": 65
   },
   "recent_entries": [
     {
@@ -88,20 +88,6 @@
       "type": "irl"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0512846504",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-05",
-      "player": "dftleonidasfr",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "3-3",
-      "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-showcase-challenge-2026-07-0512846446",
       "tournament": "Pauper Showcase Challenge",
       "date": "2026-07-05",
@@ -112,6 +98,20 @@
       ],
       "record": "6-3",
       "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0512846504",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-05",
+      "player": "dftleonidasfr",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "3-3",
+      "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -135,8 +135,7 @@
       "date": "2026-06-30",
       "player": "ivanguille",
       "colors": [
-        "B",
-        "G"
+        "B"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -270,6 +269,20 @@
       "type": "league"
     },
     {
+      "site_name": "pauperwave-2026-06-18-milano-summer-2026",
+      "tournament": "LP Milano Summer 2026 — Milano",
+      "date": "2026-06-18",
+      "player": "Matteo Strazzera",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
       "site_name": "pauper-league-2026-06-1810636",
       "tournament": "Pauper League",
       "date": "2026-06-18",
@@ -326,20 +339,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauperwave-2026-06-18-milano-summer-2026",
-      "tournament": "LP Milano Summer 2026 — Milano",
-      "date": "2026-06-18",
-      "player": "Matteo Strazzera",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "",
-      "final_rank": 5,
-      "source": "pauperwave",
-      "type": "irl"
-    },
-    {
       "site_name": "pauper-league-2026-06-1610636",
       "tournament": "Pauper League",
       "date": "2026-06-16",
@@ -390,19 +389,19 @@
       "count": 7
     },
     {
-      "player": "dftleonidasfr",
-      "count": 6
-    },
-    {
       "player": "Ahunter198",
       "count": 6
     },
     {
-      "player": "LucaAshok",
-      "count": 5
+      "player": "dftleonidasfr",
+      "count": 6
     },
     {
       "player": "adonis2k",
+      "count": 5
+    },
+    {
+      "player": "LucaAshok",
       "count": 5
     },
     {

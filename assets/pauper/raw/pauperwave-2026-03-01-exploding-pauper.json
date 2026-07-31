@@ -1,5 +1,5 @@
 {
-  "description": "Exploding Pauper 2026 (IPT Lodi) \u2014 Lodi",
+  "description": "Exploding Pauper 2026 (IPT Lodi) — Lodi",
   "starttime": "2026-03-03",
   "site_name": "pauperwave-2026-03-01-exploding-pauper",
   "source": "pauperwave",
@@ -96,7 +96,7 @@
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Troll of Khazad-d\u00fbm",
+            "card_name": "Troll of Khazad-dûm",
             "card_type": "ISCREA"
           }
         },
@@ -215,7 +215,7 @@
           }
         }
       ],
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "final_rank": 1,
       "colors": [
         "B",
@@ -393,7 +393,8 @@
       "final_rank": 2,
       "colors": [
         "B",
-        "G"
+        "G",
+        "R"
       ]
     },
     {
@@ -563,7 +564,7 @@
           }
         }
       ],
-      "archetype": "BR Madness",
+      "archetype": "Rakdos Madness",
       "final_rank": 3,
       "colors": [
         "B",
@@ -702,7 +703,7 @@
           }
         }
       ],
-      "archetype": "Monsters",
+      "archetype": "Gruul Monsters",
       "final_rank": 3,
       "colors": [
         "G",
@@ -820,7 +821,7 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "L\u00f3rien Revealed",
+            "card_name": "Lórien Revealed",
             "card_type": "SORCRY"
           }
         },
@@ -918,7 +919,7 @@
           }
         }
       ],
-      "archetype": "UB Faeries",
+      "archetype": "Dimir Faeries",
       "final_rank": 5,
       "colors": [
         "B",
@@ -1050,7 +1051,7 @@
           }
         }
       ],
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "final_rank": 5,
       "colors": [
         "R"
@@ -1188,7 +1189,7 @@
           }
         }
       ],
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "final_rank": 5,
       "colors": [
         "R"
@@ -1429,6 +1430,7 @@
       "colors": [
         "B",
         "R",
+        "U",
         "W"
       ]
     }

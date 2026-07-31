@@ -17,19 +17,15 @@
   },
   "favorite_decks": [
     {
+      "archetype": "Altar Tron",
+      "count": 2
+    },
+    {
       "archetype": "Affinity",
       "count": 1
     },
     {
       "archetype": "Walls",
-      "count": 1
-    },
-    {
-      "archetype": "Altar",
-      "count": 1
-    },
-    {
-      "archetype": "Altar Tron",
       "count": 1
     }
   ],
@@ -55,11 +51,10 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-05-23",
       "player": "Veiler01",
-      "archetype": "Altar",
+      "archetype": "Altar Tron",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
       ],
       "record": "3-3",
       "final_rank": 24,
@@ -74,8 +69,7 @@
       "archetype": "Altar Tron",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
       ],
       "record": "5-0",
       "final_rank": null,

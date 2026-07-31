@@ -21,15 +21,15 @@
       "count": 28
     },
     {
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "count": 18
     },
     {
-      "archetype": "UG Fog",
+      "archetype": "Simic Fog",
       "count": 15
     },
     {
-      "archetype": "W Heroic",
+      "archetype": "Mono White Heroic",
       "count": 10
     },
     {
@@ -37,23 +37,23 @@
       "count": 9
     },
     {
-      "archetype": "U Terror",
+      "archetype": "Mono Red Rally",
       "count": 7
     },
     {
-      "archetype": "Rally",
+      "archetype": "Mono Blue Terror",
       "count": 7
     },
     {
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "count": 6
     },
     {
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "count": 5
     },
     {
-      "archetype": "Monsters Tron",
+      "archetype": "White Weenie",
       "count": 3
     }
   ],
@@ -65,7 +65,6 @@
       "player": "wolf777",
       "archetype": "Elves",
       "colors": [
-        "B",
         "G"
       ],
       "record": "5-0",
@@ -78,11 +77,9 @@
       "tournament": "Pauper League",
       "date": "2026-07-22",
       "player": "wolf777",
-      "archetype": "Bogle",
+      "archetype": "Bogles",
       "colors": [
-        "B",
         "G",
-        "R",
         "U",
         "W"
       ],
@@ -96,11 +93,10 @@
       "tournament": "Pauper League",
       "date": "2026-07-17",
       "player": "wolf777",
-      "archetype": "RG Storm",
+      "archetype": "Gruul Storm",
       "colors": [
         "G",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -112,11 +108,10 @@
       "tournament": "Pauper League",
       "date": "2026-07-16",
       "player": "wolf777",
-      "archetype": "RG Storm",
+      "archetype": "Gruul Storm",
       "colors": [
         "G",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -128,7 +123,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-15",
       "player": "wolf777",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
         "G",
@@ -144,7 +139,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-15",
       "player": "wolf777",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
         "G",
@@ -162,10 +157,8 @@
       "player": "wolf777",
       "archetype": "Naya Gates",
       "colors": [
-        "B",
         "G",
         "R",
-        "U",
         "W"
       ],
       "record": "8-1",
@@ -178,12 +171,10 @@
       "tournament": "Pauper League",
       "date": "2026-07-09",
       "player": "wolf777",
-      "archetype": "GW Gates",
+      "archetype": "Selesnya Gates",
       "colors": [
-        "B",
         "G",
         "R",
-        "U",
         "W"
       ],
       "record": "5-0",
@@ -196,7 +187,7 @@
       "tournament": "Pauper League",
       "date": "2026-07-07",
       "player": "wolf777",
-      "archetype": "UB Faeries",
+      "archetype": "Dimir Faeries",
       "colors": [
         "B",
         "U"
@@ -211,7 +202,7 @@
       "tournament": "Pauper League",
       "date": "2026-07-07",
       "player": "wolf777",
-      "archetype": "Jeskai",
+      "archetype": "Jeskai Ephemerate",
       "colors": [
         "R",
         "U",
@@ -227,7 +218,7 @@
       "tournament": "Pauper Showcase Challenge",
       "date": "2026-07-05",
       "player": "wolf777",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -239,11 +230,11 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
+      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
       "tournament": "Pauper RC Super Qualifier",
       "date": "2026-06-27",
       "player": "wolf777",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -255,11 +246,11 @@
       "type": "other"
     },
     {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
+      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
       "tournament": "Pauper RC Super Qualifier",
       "date": "2026-06-27",
       "player": "wolf777",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -275,30 +266,12 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-26",
       "player": "wolf777",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "4-3",
       "final_rank": 21,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2412845631",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "wolf777",
-      "archetype": "Jund",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-2",
-      "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -307,7 +280,23 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "wolf777",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-2",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2412845631",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "wolf777",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -323,7 +312,7 @@
       "tournament": "Pauper League",
       "date": "2026-05-15",
       "player": "wolf777",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -339,7 +328,7 @@
       "tournament": "Pauper League",
       "date": "2026-05-15",
       "player": "wolf777",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -355,7 +344,7 @@
       "tournament": "Pauper League",
       "date": "2026-05-15",
       "player": "wolf777",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -371,12 +360,10 @@
       "tournament": "Pauper League",
       "date": "2026-05-14",
       "player": "wolf777",
-      "archetype": "RG Storm",
+      "archetype": "Gruul Storm",
       "colors": [
-        "B",
         "G",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -393,8 +380,7 @@
         "B",
         "G",
         "R",
-        "U",
-        "W"
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -406,10 +392,9 @@
       "tournament": "Pauper League",
       "date": "2026-05-12",
       "player": "wolf777",
-      "archetype": "GW Gates",
+      "archetype": "Selesnya Gates",
       "colors": [
         "G",
-        "R",
         "W"
       ],
       "record": "5-0",
@@ -453,7 +438,7 @@
       "tournament": "Pauper League",
       "date": "2026-04-20",
       "player": "wolf777",
-      "archetype": "U Terror",
+      "archetype": "Mono Blue Terror",
       "colors": [
         "B",
         "U"

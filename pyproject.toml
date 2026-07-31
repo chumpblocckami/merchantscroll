@@ -19,5 +19,6 @@ dependencies = [
 [dependency-groups]
 dev = [
     "playwright>=1.60.0",
+    "pyarrow>=25.0.0",
     "pytest>=9.0.3",
 ]

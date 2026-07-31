@@ -2,19 +2,19 @@
   "archetype": "Petitioners",
   "slug": "petitioners",
   "stats": {
-    "total_entries": 1,
-    "league_entries": 0,
-    "league_trophies": 0,
-    "league_trophies_yearly": 0,
-    "challenge_appearances": 0,
-    "challenge_wins": 0,
-    "challenge_losses": 0,
+    "total_entries": 19,
+    "league_entries": 16,
+    "league_trophies": 16,
+    "league_trophies_yearly": 5,
+    "challenge_appearances": 2,
+    "challenge_wins": 9,
+    "challenge_losses": 4,
     "irl_top8": 1,
-    "challenge_win_pct": null,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": null,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "challenge_win_pct": 69,
+    "league_trophy_rank_yearly": 49,
+    "league_trophy_rank_alltime": 45,
+    "league_trophy_decks_yearly": 61,
+    "league_trophy_decks_alltime": 65
   },
   "recent_entries": [
     {
@@ -30,11 +30,291 @@
       "final_rank": 2,
       "source": "pauperwave",
       "type": "irl"
+    },
+    {
+      "site_name": "pauper-league-2026-06-0310636",
+      "tournament": "Pauper League",
+      "date": "2026-06-03",
+      "player": "RaoniOchoa",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-04-3010636",
+      "tournament": "Pauper League",
+      "date": "2026-04-30",
+      "player": "MrMagongus",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-04-0510405",
+      "tournament": "Pauper League",
+      "date": "2026-04-05",
+      "player": "RaoniOchoa",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-03-2510405",
+      "tournament": "Pauper League",
+      "date": "2026-03-25",
+      "player": "RaoniOchoa",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-03-2110405",
+      "tournament": "pauper-league-2026-03-2110405",
+      "date": "2026-03-21",
+      "player": "RaoniOchoa",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-02-2612834047",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-02-26",
+      "player": "DiabeticMerman",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-12-2612828069",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-12-26",
+      "player": "clamego",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 15,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-11-159750",
+      "tournament": "pauper-league-2025-11-159750",
+      "date": "2025-11-15",
+      "player": "RaoniOchoa",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-10-319750",
+      "tournament": "pauper-league-2025-10-319750",
+      "date": "2025-10-31",
+      "player": "RaoniOchoa",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-07-059366",
+      "tournament": "pauper-league-2025-07-059366",
+      "date": "2025-07-05",
+      "player": "EntroPete",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-07-039366",
+      "tournament": "pauper-league-2025-07-039366",
+      "date": "2025-07-03",
+      "player": "BoJyB",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-06-269366",
+      "tournament": "pauper-league-2025-06-269366",
+      "date": "2025-06-26",
+      "player": "BoJyB",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-06-069081",
+      "tournament": "pauper-league-2025-06-069081",
+      "date": "2025-06-06",
+      "player": "MrMagongus",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-06-049081",
+      "tournament": "pauper-league-2025-06-049081",
+      "date": "2025-06-04",
+      "player": "MrMagongus",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-06-029081",
+      "tournament": "pauper-league-2025-06-029081",
+      "date": "2025-06-02",
+      "player": "MrMagongus",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-05-169081",
+      "tournament": "pauper-league-2025-05-169081",
+      "date": "2025-05-16",
+      "player": "MrMagongus",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-05-079081",
+      "tournament": "pauper-league-2025-05-079081",
+      "date": "2025-05-07",
+      "player": "MrMagongus",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-05-069081",
+      "tournament": "pauper-league-2025-05-069081",
+      "date": "2025-05-06",
+      "player": "Azaghal1",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
     {
+      "player": "RaoniOchoa",
+      "count": 6
+    },
+    {
+      "player": "MrMagongus",
+      "count": 6
+    },
+    {
+      "player": "BoJyB",
+      "count": 2
+    },
+    {
+      "player": "Azaghal1",
+      "count": 1
+    },
+    {
+      "player": "EntroPete",
+      "count": 1
+    },
+    {
       "player": "Andrea Forti",
+      "count": 1
+    },
+    {
+      "player": "clamego",
+      "count": 1
+    },
+    {
+      "player": "DiabeticMerman",
       "count": 1
     }
   ]

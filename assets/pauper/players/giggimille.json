@@ -17,7 +17,7 @@
   },
   "favorite_decks": [
     {
-      "archetype": "Monsters Tron",
+      "archetype": "Monster Tron",
       "count": 6
     },
     {
@@ -29,15 +29,7 @@
       "count": 3
     },
     {
-      "archetype": "Jund",
-      "count": 2
-    },
-    {
       "archetype": "Naya Gates",
-      "count": 2
-    },
-    {
-      "archetype": "R Madness",
       "count": 2
     },
     {
@@ -45,15 +37,23 @@
       "count": 2
     },
     {
-      "archetype": "UB Faeries",
+      "archetype": "Jund Wildfire",
+      "count": 2
+    },
+    {
+      "archetype": "Mono Red Madness",
+      "count": 2
+    },
+    {
+      "archetype": "Spy Combo",
       "count": 1
     },
     {
-      "archetype": "BR Madness",
+      "archetype": "Food Pestilence",
       "count": 1
     },
     {
-      "archetype": "Spy",
+      "archetype": "Rakdos Madness",
       "count": 1
     }
   ],
@@ -65,10 +65,8 @@
       "player": "giggimille",
       "archetype": "Naya Gates",
       "colors": [
-        "B",
         "G",
         "R",
-        "U",
         "W"
       ],
       "record": "3-3",
@@ -81,7 +79,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-25",
       "player": "giggimille",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -97,7 +95,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-25",
       "player": "giggimille",
-      "archetype": "BR Affinity",
+      "archetype": "Rakdos Affinity",
       "colors": [
         "B",
         "G",
@@ -118,8 +116,7 @@
         "B",
         "G",
         "R",
-        "U",
-        "W"
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -131,11 +128,9 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-04-10",
       "player": "giggimille",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "2-3",
       "final_rank": 25,
@@ -163,12 +158,11 @@
       "tournament": "pauper-league-2026-03-0310196",
       "date": "2026-03-03",
       "player": "giggimille",
-      "archetype": "Monsters Tron",
+      "archetype": "Monster Tron",
       "colors": [
         "G",
         "R",
-        "U",
-        "W"
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -180,7 +174,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-02-26",
       "player": "giggimille",
-      "archetype": "Monsters Tron",
+      "archetype": "Monster Tron",
       "colors": [
         "G",
         "R",
@@ -196,7 +190,7 @@
       "tournament": "pauper-league-2026-02-2310196",
       "date": "2026-02-23",
       "player": "giggimille",
-      "archetype": "Monsters Tron",
+      "archetype": "Monster Tron",
       "colors": [
         "G",
         "R",
@@ -212,7 +206,7 @@
       "tournament": "Pauper RC Qualifier",
       "date": "2026-02-22",
       "player": "giggimille",
-      "archetype": "Monsters Tron",
+      "archetype": "Monster Tron",
       "colors": [
         "G",
         "R",
@@ -228,12 +222,9 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-02-20",
       "player": "giggimille",
-      "archetype": "Monsters Tron",
+      "archetype": "Monster Tron",
       "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
+        "G"
       ],
       "record": "3-3",
       "final_rank": 25,
@@ -261,7 +252,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-02-12",
       "player": "giggimille",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -325,7 +316,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-11-27",
       "player": "giggimille",
-      "archetype": "UB Faeries",
+      "archetype": "Dimir Faeries",
       "colors": [
         "B",
         "U"
@@ -334,22 +325,6 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-11-209987",
-      "tournament": "pauper-league-2025-11-209987",
-      "date": "2025-11-20",
-      "player": "giggimille",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-11-2012824768",
@@ -366,6 +341,20 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-11-209987",
+      "tournament": "pauper-league-2025-11-209987",
+      "date": "2025-11-20",
+      "player": "giggimille",
+      "archetype": "Mono Red Madness",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2025-11-159750",
@@ -406,7 +395,6 @@
       "player": "giggimille",
       "archetype": "Naya Gates",
       "colors": [
-        "B",
         "R",
         "U",
         "W"
@@ -421,12 +409,11 @@
       "tournament": "pauper-league-2025-09-0710196",
       "date": "2025-09-07",
       "player": "giggimille",
-      "archetype": "Monsters Tron",
+      "archetype": "Monster Tron",
       "colors": [
         "G",
         "R",
-        "U",
-        "W"
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -438,11 +425,10 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-09-05",
       "player": "giggimille",
-      "archetype": "BR Madness",
+      "archetype": "Rakdos Madness",
       "colors": [
         "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "2-4",
       "final_rank": 31,
@@ -454,11 +440,10 @@
       "tournament": "pauper-league-2025-07-069366",
       "date": "2025-07-06",
       "player": "giggimille",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
-        "G",
-        "U"
+        "G"
       ],
       "record": "5-0",
       "final_rank": null,

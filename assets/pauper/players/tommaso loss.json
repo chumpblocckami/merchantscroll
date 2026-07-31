@@ -17,6 +17,10 @@
   },
   "favorite_decks": [
     {
+      "archetype": "Cawgate",
+      "count": 2
+    },
+    {
       "archetype": "Naya Gates",
       "count": 2
     },
@@ -25,15 +29,15 @@
       "count": 2
     },
     {
-      "archetype": "Jeskai",
+      "archetype": "Jeskai Ephemerate",
       "count": 2
     },
     {
-      "archetype": "Cawgate",
+      "archetype": "Azorius Familiars",
       "count": 2
     },
     {
-      "archetype": "Familiars",
+      "archetype": "Flicker Tron",
       "count": 1
     },
     {
@@ -41,19 +45,11 @@
       "count": 1
     },
     {
-      "archetype": "Jund",
-      "count": 1
-    },
-    {
       "archetype": "Jund Gardens",
       "count": 1
     },
     {
-      "archetype": "Flicker Tron",
-      "count": 1
-    },
-    {
-      "archetype": "Familiar",
+      "archetype": "Jund Wildfire",
       "count": 1
     }
   ],
@@ -63,7 +59,7 @@
       "tournament": "Paupergeddon Summer 2026 — Lucca",
       "date": "2026-07-11",
       "player": "Tommaso Loss",
-      "archetype": "Familiar",
+      "archetype": "Azorius Familiars",
       "colors": [
         "R",
         "U",
@@ -79,7 +75,7 @@
       "tournament": "Top Pauper Player 2026 — Lucca",
       "date": "2026-07-10",
       "player": "Tommaso Loss",
-      "archetype": "Jeskai",
+      "archetype": "Jeskai Ephemerate",
       "colors": [
         "R",
         "U",
@@ -95,7 +91,7 @@
       "tournament": "Summer is Magic 2026 — Sarzana",
       "date": "2026-06-28",
       "player": "Tommaso Loss",
-      "archetype": "Jeskai",
+      "archetype": "Jeskai Ephemerate",
       "colors": [
         "R",
         "U",
@@ -113,10 +109,8 @@
       "player": "Tommaso Loss",
       "archetype": "Naya Gates",
       "colors": [
-        "B",
         "G",
         "R",
-        "U",
         "W"
       ],
       "record": "",
@@ -132,8 +126,7 @@
       "archetype": "Altar Tron",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
       ],
       "record": "",
       "final_rank": 3,
@@ -145,8 +138,9 @@
       "tournament": "Pauper Focaccia Trio — Genova",
       "date": "2026-05-24",
       "player": "Tommaso Loss",
-      "archetype": "Familiars",
+      "archetype": "Azorius Familiars",
       "colors": [
+        "R",
         "U",
         "W"
       ],
@@ -164,7 +158,8 @@
       "colors": [
         "G",
         "R",
-        "U"
+        "U",
+        "W"
       ],
       "record": "",
       "final_rank": 3,
@@ -207,7 +202,7 @@
       "tournament": "Team Trio Pauperfest 3 2026 — Milano",
       "date": "2026-02-22",
       "player": "Tommaso Loss",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -270,7 +265,12 @@
       "date": "2023-06-19",
       "player": "Tommaso Loss",
       "archetype": "Altar Tron",
-      "colors": [],
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
       "record": "",
       "final_rank": 2,
       "source": "pauperwave",

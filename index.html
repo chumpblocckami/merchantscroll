@@ -171,15 +171,33 @@
       C: { label: "Colorless", hex: "#9e9e9e" },
     };
 
-    /* ── Deck classification ── */
+    /* ── Deck classification ──
+       Mirrors src/classifier.py: MTGO spells double-faced cards with the front
+       face alone while the dictionary uses the full "Front // Back" name, and
+       basics carry no archetype signal. archetypeMap is ordered by how often
+       each archetype is played, so taking the first of several equal scores
+       hands ties to the more common deck. */
+    const BASIC_LANDS = new Set(
+      ["Plains", "Island", "Swamp", "Mountain", "Forest", "Wastes"]
+        .flatMap(n => [n, `Snow-Covered ${n}`])
+    );
+
+    function frontFace(name) {
+      return name.split(" // ")[0].trim();
+    }
+
     function classifyDeck(deck) {
       if (deck.archetype) return deck.archetype;
       if (!Object.keys(archetypeMap).length) return "";
       const cardNames = new Set();
-      for (const c of (deck.main_deck || [])) cardNames.add(c.card_attributes.card_name);
+      for (const c of (deck.main_deck || [])) {
+        const name = frontFace(c.card_attributes.card_name);
+        if (!BASIC_LANDS.has(name)) cardNames.add(name);
+      }
       let bestName = "", bestScore = 0;
       for (const [archetype, signatures] of Object.entries(archetypeMap)) {
-        const matched = signatures.filter(s => cardNames.has(s)).length;
+        if (!signatures.length) continue;
+        const matched = signatures.filter(s => cardNames.has(frontFace(s))).length;
         const score = matched / signatures.length;
         if (score > bestScore) { bestScore = score; bestName = archetype; }
       }

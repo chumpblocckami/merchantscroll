@@ -21,11 +21,11 @@
       "count": 4
     },
     {
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "count": 4
     },
     {
-      "archetype": "BR Affinity",
+      "archetype": "Rakdos Affinity",
       "count": 3
     },
     {
@@ -33,7 +33,7 @@
       "count": 2
     },
     {
-      "archetype": "UG Fog",
+      "archetype": "Simic Fog",
       "count": 1
     }
   ],
@@ -43,7 +43,7 @@
       "tournament": "Pauper Last Chance",
       "date": "2026-07-21",
       "player": "manohito",
-      "archetype": "BR Affinity",
+      "archetype": "Rakdos Affinity",
       "colors": [
         "B",
         "G",
@@ -59,7 +59,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-16",
       "player": "manohito",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -71,11 +71,27 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
+      "tournament": "Pauper RC Super Qualifier",
+      "date": "2026-06-27",
+      "player": "manohito",
+      "archetype": "Jund Wildfire",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "7-3",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-06-2712845668",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-27",
       "player": "manohito",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -91,23 +107,7 @@
       "tournament": "Pauper RC Super Qualifier",
       "date": "2026-06-27",
       "player": "manohito",
-      "archetype": "BR Affinity",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "7-3",
-      "final_rank": 8,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
-      "tournament": "Pauper RC Super Qualifier",
-      "date": "2026-06-27",
-      "player": "manohito",
-      "archetype": "Jund",
+      "archetype": "Rakdos Affinity",
       "colors": [
         "B",
         "G",
@@ -123,7 +123,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-27",
       "player": "manohito",
-      "archetype": "BR Affinity",
+      "archetype": "Rakdos Affinity",
       "colors": [
         "B",
         "G",
@@ -139,7 +139,7 @@
       "tournament": "Pauper League",
       "date": "2026-05-28",
       "player": "manohito",
-      "archetype": "UG Fog",
+      "archetype": "Simic Fog",
       "colors": [
         "B",
         "G",
@@ -156,7 +156,7 @@
       "tournament": "Pauper League",
       "date": "2026-04-28",
       "player": "manohito",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -174,10 +174,8 @@
       "player": "manohito",
       "archetype": "Naya Gates",
       "colors": [
-        "B",
         "G",
         "R",
-        "U",
         "W"
       ],
       "record": "2-4",
@@ -224,7 +222,6 @@
       "player": "manohito",
       "archetype": "Naya Gates",
       "colors": [
-        "B",
         "G",
         "U",
         "W"
@@ -241,9 +238,7 @@
       "player": "manohito",
       "archetype": "Naya Gates",
       "colors": [
-        "B",
         "G",
-        "R",
         "U",
         "W"
       ],
@@ -259,9 +254,7 @@
       "player": "manohito",
       "archetype": "Naya Gates",
       "colors": [
-        "B",
         "G",
-        "R",
         "U",
         "W"
       ],

@@ -17,23 +17,19 @@
   },
   "favorite_decks": [
     {
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "count": 22
     },
     {
-      "archetype": "Rally",
+      "archetype": "Mono Red Rally",
       "count": 6
     },
     {
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "count": 3
     },
     {
-      "archetype": "Monsters",
-      "count": 1
-    },
-    {
-      "archetype": "Dredge",
+      "archetype": "Mono Blue Terror",
       "count": 1
     },
     {
@@ -41,15 +37,19 @@
       "count": 1
     },
     {
+      "archetype": "Spy Combo",
+      "count": 1
+    },
+    {
+      "archetype": "Dredge",
+      "count": 1
+    },
+    {
       "archetype": "Elves",
       "count": 1
     },
     {
-      "archetype": "Spy",
-      "count": 1
-    },
-    {
-      "archetype": "U Terror",
+      "archetype": "Gruul Monsters",
       "count": 1
     }
   ],
@@ -59,7 +59,7 @@
       "tournament": "pauper-league-2026-03-1610405",
       "date": "2026-03-16",
       "player": "Blvcky",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -75,7 +75,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-03-15",
       "player": "Blvcky",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -91,7 +91,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-03-14",
       "player": "Blvcky",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -107,7 +107,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-03-05",
       "player": "Blvcky",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
         "G"
@@ -141,7 +141,6 @@
         "B",
         "G",
         "R",
-        "U",
         "W"
       ],
       "record": "4-2",
@@ -154,7 +153,7 @@
       "tournament": "pauper-league-2025-12-129987",
       "date": "2025-12-12",
       "player": "Blvcky",
-      "archetype": "Rally",
+      "archetype": "Mono Red Rally",
       "colors": [
         "G",
         "R"
@@ -169,7 +168,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-12-05",
       "player": "Blvcky",
-      "archetype": "Rally",
+      "archetype": "Mono Red Rally",
       "colors": [
         "G",
         "R"
@@ -184,7 +183,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-11-30",
       "player": "Blvcky",
-      "archetype": "Rally",
+      "archetype": "Mono Red Rally",
       "colors": [
         "G",
         "R"
@@ -199,7 +198,7 @@
       "tournament": "pauper-league-2025-11-249987",
       "date": "2025-11-24",
       "player": "Blvcky",
-      "archetype": "Rally",
+      "archetype": "Mono Red Rally",
       "colors": [
         "G",
         "R"
@@ -214,7 +213,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-11-23",
       "player": "Blvcky",
-      "archetype": "Rally",
+      "archetype": "Mono Red Rally",
       "colors": [
         "G",
         "R"
@@ -229,11 +228,9 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-11-22",
       "player": "Blvcky",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "4-3",
       "final_rank": 8,
@@ -245,11 +242,9 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-11-21",
       "player": "Blvcky",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "3-3",
       "final_rank": 30,
@@ -261,11 +256,9 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-11-20",
       "player": "Blvcky",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "2-4",
       "final_rank": 30,
@@ -277,30 +270,12 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-11-16",
       "player": "Blvcky",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-2",
       "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-special-2025-11-1312824394",
-      "tournament": "Pauper Challenge 32 Special",
-      "date": "2025-11-13",
-      "player": "Blvcky",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -309,14 +284,40 @@
       "tournament": "Pauper Challenge 32 Special",
       "date": "2025-11-13",
       "player": "Blvcky",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "3-3",
       "final_rank": 27,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-special-2025-11-1312824394",
+      "tournament": "Pauper Challenge 32 Special",
+      "date": "2025-11-13",
+      "player": "Blvcky",
+      "archetype": "Mono Red Madness",
+      "colors": [
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 27,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-11-0912823590",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-11-09",
+      "player": "Blvcky",
+      "archetype": "Mono Red Madness",
+      "colors": [
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 22,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -325,11 +326,9 @@
       "tournament": "Pauper RC Super Qualifier",
       "date": "2025-11-09",
       "player": "Blvcky",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "6-3",
       "final_rank": 29,
@@ -337,31 +336,13 @@
       "type": "other"
     },
     {
-      "site_name": "pauper-challenge-32-2025-11-0912823590",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-11-09",
-      "player": "Blvcky",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 22,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-challenge-32-2025-10-2512821688",
       "tournament": "Pauper Challenge 32",
       "date": "2025-10-25",
       "player": "Blvcky",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "3-3",
       "final_rank": 22,
@@ -373,9 +354,8 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-09-20",
       "player": "Blvcky",
-      "archetype": "U Terror",
+      "archetype": "Mono Blue Terror",
       "colors": [
-        "R",
         "U"
       ],
       "record": "3-3",
@@ -388,14 +368,26 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-08-22",
       "player": "Blvcky",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-3",
       "final_rank": 3,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-08-1612810059",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-08-16",
+      "player": "Blvcky",
+      "archetype": "Mono Red Madness",
+      "colors": [
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -404,11 +396,9 @@
       "tournament": "Pauper Showcase Qualifier",
       "date": "2025-08-16",
       "player": "Blvcky",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "",
       "final_rank": null,
@@ -416,31 +406,13 @@
       "type": "showcase"
     },
     {
-      "site_name": "pauper-challenge-32-2025-08-1612810059",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-08-16",
-      "player": "Blvcky",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-challenge-32-2025-08-1512810045",
       "tournament": "Pauper Challenge 32",
       "date": "2025-08-15",
       "player": "Blvcky",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "3-2",
       "final_rank": 18,

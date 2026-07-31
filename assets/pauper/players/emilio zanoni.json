@@ -17,15 +17,15 @@
   },
   "favorite_decks": [
     {
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
+      "count": 1
+    },
+    {
+      "archetype": "Golgari Fog",
       "count": 1
     },
     {
       "archetype": "Naya Gates",
-      "count": 1
-    },
-    {
-      "archetype": "BG Fog",
       "count": 1
     }
   ],
@@ -35,11 +35,10 @@
       "tournament": "LP Piacenza Summer 2026 — Piacenza",
       "date": "2026-06-14",
       "player": "Emilio Zanoni",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
       ],
       "record": "",
       "final_rank": 5,
@@ -67,10 +66,11 @@
       "tournament": "LP Piacenza Cremona Winter 2025 — Piacenza",
       "date": "2026-03-01",
       "player": "Emilio Zanoni",
-      "archetype": "BG Fog",
+      "archetype": "Golgari Fog",
       "colors": [
         "B",
-        "G"
+        "G",
+        "U"
       ],
       "record": "",
       "final_rank": 5,

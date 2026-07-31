@@ -21,15 +21,15 @@
       "count": 14
     },
     {
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "count": 7
     },
     {
-      "archetype": "U Faeries",
+      "archetype": "Mono Blue Faeries",
       "count": 5
     },
     {
-      "archetype": "Boros Tribe",
+      "archetype": "Tireless Tribe",
       "count": 3
     },
     {
@@ -41,19 +41,19 @@
       "count": 2
     },
     {
-      "archetype": "Spy",
+      "archetype": "Jund Wildfire",
       "count": 1
     },
     {
-      "archetype": "Altar",
+      "archetype": "Dimir Faeries",
       "count": 1
     },
     {
-      "archetype": "Jund",
+      "archetype": "Altar Tron",
       "count": 1
     },
     {
-      "archetype": "UB Faeries",
+      "archetype": "Spy Combo",
       "count": 1
     }
   ],
@@ -63,7 +63,7 @@
       "tournament": "Pauper League",
       "date": "2026-07-20",
       "player": "Enz091",
-      "archetype": "Altar",
+      "archetype": "Altar Tron",
       "colors": [
         "B",
         "G",
@@ -82,7 +82,6 @@
       "player": "Enz091",
       "archetype": "Elves",
       "colors": [
-        "B",
         "G"
       ],
       "record": "3-4",
@@ -97,7 +96,6 @@
       "player": "Enz091",
       "archetype": "Elves",
       "colors": [
-        "B",
         "G"
       ],
       "record": "3-4",
@@ -112,7 +110,6 @@
       "player": "Enz091",
       "archetype": "Elves",
       "colors": [
-        "B",
         "G"
       ],
       "record": "5-0",
@@ -127,7 +124,6 @@
       "player": "Enz091",
       "archetype": "Elves",
       "colors": [
-        "B",
         "G"
       ],
       "record": "5-0",
@@ -142,7 +138,6 @@
       "player": "Enz091",
       "archetype": "Elves",
       "colors": [
-        "B",
         "G"
       ],
       "record": "4-2",
@@ -157,7 +152,6 @@
       "player": "Enz091",
       "archetype": "Elves",
       "colors": [
-        "B",
         "G"
       ],
       "record": "7-2",
@@ -166,13 +160,28 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-06-0412843773",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-04",
+      "player": "Enz091",
+      "archetype": "Tireless Tribe",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 12,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-06-0612843773",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-04",
       "player": "Enz091",
-      "archetype": "Boros Tribe",
+      "archetype": "Tireless Tribe",
       "colors": [
-        "B",
         "R",
         "U",
         "W"
@@ -187,26 +196,8 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-04",
       "player": "Enz091",
-      "archetype": "Boros Tribe",
+      "archetype": "Tireless Tribe",
       "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0412843773",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-04",
-      "player": "Enz091",
-      "archetype": "Boros Tribe",
-      "colors": [
-        "B",
         "R",
         "U",
         "W"
@@ -223,7 +214,6 @@
       "player": "Enz091",
       "archetype": "Elves",
       "colors": [
-        "B",
         "G"
       ],
       "record": "3-3",
@@ -238,7 +228,6 @@
       "player": "Enz091",
       "archetype": "Elves",
       "colors": [
-        "B",
         "G"
       ],
       "record": "",
@@ -253,7 +242,6 @@
       "player": "Enz091",
       "archetype": "Elves",
       "colors": [
-        "B",
         "G"
       ],
       "record": "5-2",
@@ -268,7 +256,6 @@
       "player": "Enz091",
       "archetype": "Elves",
       "colors": [
-        "B",
         "G"
       ],
       "record": "4-2",
@@ -283,7 +270,6 @@
       "player": "Enz091",
       "archetype": "Elves",
       "colors": [
-        "B",
         "G"
       ],
       "record": "4-2",
@@ -298,7 +284,6 @@
       "player": "Enz091",
       "archetype": "Elves",
       "colors": [
-        "B",
         "G"
       ],
       "record": "5-0",
@@ -313,7 +298,6 @@
       "player": "Enz091",
       "archetype": "Elves",
       "colors": [
-        "B",
         "G"
       ],
       "record": "",
@@ -328,7 +312,6 @@
       "player": "Enz091",
       "archetype": "Elves",
       "colors": [
-        "B",
         "G"
       ],
       "record": "4-2",
@@ -341,11 +324,9 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-03-15",
       "player": "Enz091",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "7-3",
       "final_rank": 2,
@@ -357,11 +338,9 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-03-12",
       "player": "Enz091",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "6-2",
       "final_rank": 3,
@@ -373,7 +352,7 @@
       "tournament": "pauper-league-2026-03-1110405",
       "date": "2026-03-11",
       "player": "Enz091",
-      "archetype": "UB Faeries",
+      "archetype": "Dimir Faeries",
       "colors": [
         "B",
         "U"
@@ -403,11 +382,9 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-30",
       "player": "Enz091",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-3",
       "final_rank": 4,
@@ -419,11 +396,9 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-29",
       "player": "Enz091",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "3-3",
       "final_rank": 28,
@@ -435,11 +410,9 @@
       "tournament": "pauper-league-2025-12-199987",
       "date": "2025-12-19",
       "player": "Enz091",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,

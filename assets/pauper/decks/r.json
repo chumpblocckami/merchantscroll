@@ -2,26 +2,117 @@
   "archetype": "R",
   "slug": "r",
   "stats": {
-    "total_entries": 1,
-    "league_entries": 1,
-    "league_trophies": 1,
-    "league_trophies_yearly": 0,
-    "challenge_appearances": 0,
-    "challenge_wins": 0,
-    "challenge_losses": 0,
+    "total_entries": 8,
+    "league_entries": 7,
+    "league_trophies": 7,
+    "league_trophies_yearly": 3,
+    "challenge_appearances": 1,
+    "challenge_wins": 4,
+    "challenge_losses": 3,
     "irl_top8": 0,
-    "challenge_win_pct": null,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 72,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "challenge_win_pct": 57,
+    "league_trophy_rank_yearly": 52,
+    "league_trophy_rank_alltime": 54,
+    "league_trophy_decks_yearly": 61,
+    "league_trophy_decks_alltime": 65
   },
   "recent_entries": [
     {
-      "site_name": "pauper-league-2025-10-189750",
-      "tournament": "pauper-league-2025-10-189750",
-      "date": "2025-10-18",
-      "player": "_against_",
+      "site_name": "pauper-league-2026-04-2610636",
+      "tournament": "Pauper League",
+      "date": "2026-04-26",
+      "player": "Jordanescu",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-02-2710636",
+      "tournament": "Pauper League",
+      "date": "2026-02-27",
+      "player": "Jordanescu",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-01-2512830664",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-01-25",
+      "player": "ermakk",
+      "colors": [
+        "R"
+      ],
+      "record": "4-3",
+      "final_rank": 18,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-01-039987",
+      "tournament": "pauper-league-2026-01-039987",
+      "date": "2026-01-03",
+      "player": "Jordanescu",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-09-159535",
+      "tournament": "pauper-league-2025-09-159535",
+      "date": "2025-09-15",
+      "player": "Jordanescu",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-08-169535",
+      "tournament": "pauper-league-2025-08-169535",
+      "date": "2025-08-16",
+      "player": "Jordanescu",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-07-139366",
+      "tournament": "pauper-league-2025-07-139366",
+      "date": "2025-07-13",
+      "player": "Jordanescu",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-05-209081",
+      "tournament": "pauper-league-2025-05-209081",
+      "date": "2025-05-20",
+      "player": "Jordanescu",
       "colors": [
         "R"
       ],
@@ -33,7 +124,11 @@
   ],
   "top_pilots": [
     {
-      "player": "_against_",
+      "player": "Jordanescu",
+      "count": 7
+    },
+    {
+      "player": "ermakk",
       "count": 1
     }
   ]

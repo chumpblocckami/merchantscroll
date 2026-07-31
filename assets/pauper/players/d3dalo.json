@@ -21,7 +21,7 @@
       "count": 7
     },
     {
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "count": 1
     }
   ],
@@ -31,11 +31,9 @@
       "tournament": "Pauper League",
       "date": "2026-04-16",
       "player": "D3dalo",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -49,7 +47,6 @@
       "player": "D3dalo",
       "archetype": "Elves",
       "colors": [
-        "B",
         "G"
       ],
       "record": "3-3",
@@ -64,7 +61,6 @@
       "player": "D3dalo",
       "archetype": "Elves",
       "colors": [
-        "B",
         "G"
       ],
       "record": "4-2",
@@ -93,9 +89,7 @@
       "player": "D3dalo",
       "archetype": "Elves",
       "colors": [
-        "G",
-        "R",
-        "U"
+        "G"
       ],
       "record": "4-2",
       "final_rank": 21,
@@ -109,25 +103,7 @@
       "player": "D3dalo",
       "archetype": "Elves",
       "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-06-279366",
-      "tournament": "pauper-league-2025-06-279366",
-      "date": "2025-06-27",
-      "player": "D3dalo",
-      "archetype": "Elves",
-      "colors": [
-        "G",
-        "R",
-        "U"
+        "G"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -142,13 +118,27 @@
       "archetype": "Elves",
       "colors": [
         "G",
-        "R",
         "U"
       ],
       "record": "6-2",
       "final_rank": 4,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-06-279366",
+      "tournament": "pauper-league-2025-06-279366",
+      "date": "2025-06-27",
+      "player": "D3dalo",
+      "archetype": "Elves",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ]
 }

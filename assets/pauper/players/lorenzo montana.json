@@ -17,15 +17,19 @@
   },
   "favorite_decks": [
     {
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "count": 2
+    },
+    {
+      "archetype": "Mono Black Pactoll",
+      "count": 1
     },
     {
       "archetype": "Naya Gates",
       "count": 1
     },
     {
-      "archetype": "Monster Tron",
+      "archetype": "Mono Red Madness",
       "count": 1
     },
     {
@@ -33,15 +37,11 @@
       "count": 1
     },
     {
-      "archetype": "B Pactoll",
-      "count": 1
-    },
-    {
-      "archetype": "R Madness",
-      "count": 1
-    },
-    {
       "archetype": "Flicker Tron",
+      "count": 1
+    },
+    {
+      "archetype": "Monster Tron",
       "count": 1
     }
   ],
@@ -51,9 +51,8 @@
       "tournament": "LP Pisa Summer 2026 — Pisa",
       "date": "2026-06-11",
       "player": "Lorenzo Montana",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
         "R",
         "U"
       ],
@@ -83,9 +82,11 @@
       "player": "Lorenzo Montana",
       "archetype": "Flicker Tron",
       "colors": [
+        "B",
         "G",
         "R",
-        "U"
+        "U",
+        "W"
       ],
       "record": "",
       "final_rank": 2,
@@ -128,7 +129,7 @@
       "tournament": "Damnation Team Trio 2026 — Lucca",
       "date": "2026-02-01",
       "player": "Lorenzo Montana",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -144,7 +145,7 @@
       "tournament": "Damnation SuperIPT 2026 — Lucca",
       "date": "2026-01-26",
       "player": "Lorenzo Montana",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -160,10 +161,9 @@
       "tournament": "Paupergeddon Lucca 2025 — Lecco",
       "date": "2025-03-23",
       "player": "Lorenzo Montana",
-      "archetype": "B Pactoll",
+      "archetype": "Mono Black Pactoll",
       "colors": [
-        "B",
-        "G"
+        "B"
       ],
       "record": "",
       "final_rank": 1,

@@ -2,19 +2,19 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 89,
-    "league_entries": 26,
-    "league_trophies": 26,
-    "league_trophies_yearly": 26,
-    "challenge_appearances": 51,
-    "challenge_wins": 212,
-    "challenge_losses": 133,
-    "irl_top8": 5,
-    "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 38,
-    "league_trophy_rank_alltime": 45,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "total_entries": 237,
+    "league_entries": 119,
+    "league_trophies": 119,
+    "league_trophies_yearly": 113,
+    "challenge_appearances": 95,
+    "challenge_wins": 396,
+    "challenge_losses": 245,
+    "irl_top8": 12,
+    "challenge_win_pct": 62,
+    "league_trophy_rank_yearly": 17,
+    "league_trophy_rank_alltime": 28,
+    "league_trophy_decks_yearly": 61,
+    "league_trophy_decks_alltime": 65
   },
   "recent_entries": [
     {
@@ -39,42 +39,10 @@
       "player": "A_AdeptoTerra",
       "colors": [
         "G",
-        "R",
         "U"
       ],
       "record": "4-2",
       "final_rank": 19,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-2912848254",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-29",
-      "player": "Pilot83",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "3-2",
-      "final_rank": 19,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-2912848254",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-29",
-      "player": "ABCD_1234",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -100,9 +68,7 @@
       "player": "jadencamelot",
       "colors": [
         "G",
-        "R",
-        "U",
-        "W"
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -115,7 +81,6 @@
       "date": "2026-07-29",
       "player": "DobleP",
       "colors": [
-        "B",
         "G",
         "R",
         "U"
@@ -126,20 +91,61 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-07-2510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-25",
-      "player": "Syns",
+      "site_name": "pauper-challenge-32-2026-07-2912848254",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-29",
+      "player": "Pilot83",
       "colors": [
-        "B",
+        "G",
+        "U"
+      ],
+      "record": "3-2",
+      "final_rank": 19,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-2912848254",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-29",
+      "player": "ABCD_1234",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "PLads_Echanez",
+      "colors": [
         "G",
         "R",
         "U"
       ],
-      "record": "5-0",
-      "final_rank": null,
+      "record": "4-2",
+      "final_rank": 7,
       "source": "mtgo",
-      "type": "league"
+      "type": "showcase"
+    },
+    {
+      "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "A_AdeptoTerra",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "1-3",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "showcase"
     },
     {
       "site_name": "pauperwave-2026-07-25-trio-polesana-2025",
@@ -148,7 +154,6 @@
       "player": "Bragioto Pietro",
       "colors": [
         "G",
-        "R",
         "U"
       ],
       "record": "",
@@ -162,9 +167,7 @@
       "date": "2026-07-25",
       "player": "Alessandro Moretti",
       "colors": [
-        "B",
         "G",
-        "R",
         "U"
       ],
       "record": "",
@@ -173,14 +176,28 @@
       "type": "irl"
     },
     {
+      "site_name": "pauper-league-2026-07-2510855",
+      "tournament": "Pauper League",
+      "date": "2026-07-25",
+      "player": "Syns",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-2412848188",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-24",
       "player": "Valimoth",
       "colors": [
         "G",
-        "R",
-        "W"
+        "R"
       ],
       "record": "4-2",
       "final_rank": 10,
@@ -194,9 +211,7 @@
       "player": "Echanez",
       "colors": [
         "G",
-        "R",
-        "U",
-        "W"
+        "U"
       ],
       "record": "3-3",
       "final_rank": 29,
@@ -218,14 +233,55 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-challenge-32-2026-07-2212848161",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-22",
+      "player": "A_AdeptoTerra",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "8-1",
+      "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-22",
+      "player": "Syns",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-22",
+      "player": "ovelha_aL",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-last-chance-2026-07-2212847741",
       "tournament": "Pauper Last Chance",
       "date": "2026-07-22",
       "player": "Sharkcaster_Mage",
       "colors": [
-        "B",
         "G",
-        "R",
         "U"
       ],
       "record": "1-4",
@@ -248,50 +304,18 @@
       "type": "other"
     },
     {
-      "site_name": "pauper-league-2026-07-2210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-22",
-      "player": "Syns",
+      "site_name": "pauper-last-chance-2026-07-2112847730",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "Valimoth",
       "colors": [
         "G",
         "R"
       ],
-      "record": "5-0",
+      "record": "2-2",
       "final_rank": null,
       "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-22",
-      "player": "ovelha_aL",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-2212848161",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-22",
-      "player": "A_AdeptoTerra",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "8-1",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
+      "type": "other"
     },
     {
       "site_name": "pauper-last-chance-2026-07-1912847738",
@@ -315,8 +339,7 @@
       "colors": [
         "G",
         "R",
-        "U",
-        "W"
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -330,9 +353,7 @@
       "player": "brick_",
       "colors": [
         "G",
-        "R",
-        "U",
-        "W"
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -352,57 +373,23 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2112847730",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "Valimoth",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "2-2",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2112847738",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "Syns",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "2-3",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-0412847738",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "Syns",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "2-3",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
     }
   ],
   "top_pilots": [
     {
-      "player": "Valimoth",
-      "count": 13
+      "player": "Echanez",
+      "count": 16
     },
     {
-      "player": "Echanez",
+      "player": "Valimoth",
+      "count": 14
+    },
+    {
+      "player": "brick_",
+      "count": 8
+    },
+    {
+      "player": "jadencamelot",
       "count": 8
     },
     {
@@ -410,32 +397,24 @@
       "count": 7
     },
     {
+      "player": "Casanova_13",
+      "count": 6
+    },
+    {
+      "player": "giggimille",
+      "count": 6
+    },
+    {
+      "player": "_titoWii_96",
+      "count": 5
+    },
+    {
       "player": "giuliodice",
+      "count": 5
+    },
+    {
+      "player": "HornsOfTheRabbit",
       "count": 4
-    },
-    {
-      "player": "SorryImSoTilted",
-      "count": 3
-    },
-    {
-      "player": "AFitzsimmons",
-      "count": 3
-    },
-    {
-      "player": "Cr0memox",
-      "count": 3
-    },
-    {
-      "player": "Undertakerpauper",
-      "count": 2
-    },
-    {
-      "player": "Abisd94",
-      "count": 2
-    },
-    {
-      "player": "brick_",
-      "count": 2
     }
   ]
 }

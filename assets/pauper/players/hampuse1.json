@@ -25,19 +25,19 @@
       "count": 3
     },
     {
-      "archetype": "UG Fog",
+      "archetype": "Simic Fog",
       "count": 2
     },
     {
+      "archetype": "Golgari Fog",
+      "count": 1
+    },
+    {
+      "archetype": "Dimir Control",
+      "count": 1
+    },
+    {
       "archetype": "Food Pestilence",
-      "count": 1
-    },
-    {
-      "archetype": "BG Fog",
-      "count": 1
-    },
-    {
-      "archetype": "UB Control",
       "count": 1
     }
   ],
@@ -49,7 +49,6 @@
       "player": "Hampuse1",
       "archetype": "Flicker Tron",
       "colors": [
-        "B",
         "G",
         "R",
         "U",
@@ -82,7 +81,6 @@
       "player": "Hampuse1",
       "archetype": "Flicker Tron",
       "colors": [
-        "B",
         "G",
         "R",
         "U",
@@ -100,7 +98,6 @@
       "player": "Hampuse1",
       "archetype": "Flicker Tron",
       "colors": [
-        "B",
         "G",
         "R",
         "U",
@@ -116,11 +113,10 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-03-14",
       "player": "Hampuse1",
-      "archetype": "BG Fog",
+      "archetype": "Golgari Fog",
       "colors": [
         "B",
         "G",
-        "R",
         "U"
       ],
       "record": "3-3",
@@ -133,9 +129,8 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-10-25",
       "player": "Hampuse1",
-      "archetype": "UG Fog",
+      "archetype": "Simic Fog",
       "colors": [
-        "B",
         "G",
         "U"
       ],
@@ -149,9 +144,8 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-10-11",
       "player": "Hampuse1",
-      "archetype": "UG Fog",
+      "archetype": "Simic Fog",
       "colors": [
-        "B",
         "G",
         "U"
       ],
@@ -165,7 +159,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-09-13",
       "player": "Hampuse1",
-      "archetype": "UB Control",
+      "archetype": "Dimir Control",
       "colors": [
         "B",
         "U"
@@ -191,24 +185,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-last-chance-2025-08-1212807516",
-      "tournament": "Pauper Last Chance",
-      "date": "2025-08-12",
-      "player": "Hampuse1",
-      "archetype": "Flicker Tron",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "1-3",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
       "site_name": "pauper-last-chance-2025-08-1212807514",
       "tournament": "Pauper Last Chance",
       "date": "2025-08-12",
@@ -218,10 +194,25 @@
         "B",
         "G",
         "R",
-        "U",
-        "W"
+        "U"
       ],
       "record": "3-2",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2025-08-1212807516",
+      "tournament": "Pauper Last Chance",
+      "date": "2025-08-12",
+      "player": "Hampuse1",
+      "archetype": "Flicker Tron",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "1-3",
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
@@ -233,11 +224,9 @@
       "player": "Hampuse1",
       "archetype": "Flicker Tron",
       "colors": [
-        "B",
         "G",
         "R",
-        "U",
-        "W"
+        "U"
       ],
       "record": "4-2",
       "final_rank": 11,
@@ -251,11 +240,9 @@
       "player": "Hampuse1",
       "archetype": "Flicker Tron",
       "colors": [
-        "B",
         "G",
         "R",
-        "U",
-        "W"
+        "U"
       ],
       "record": "3-3",
       "final_rank": 22,
@@ -288,7 +275,6 @@
       "colors": [
         "B",
         "G",
-        "R",
         "U",
         "W"
       ],
@@ -321,7 +307,6 @@
       "player": "Hampuse1",
       "archetype": "Flicker Tron",
       "colors": [
-        "B",
         "G",
         "R",
         "U",

@@ -17,43 +17,43 @@
   },
   "favorite_decks": [
     {
-      "archetype": "RG Storm",
+      "archetype": "Gruul Storm",
       "count": 44
     },
     {
-      "archetype": "UG Fog",
+      "archetype": "Simic Fog",
       "count": 32
     },
     {
-      "archetype": "Familiars",
+      "archetype": "Azorius Familiars",
       "count": 30
     },
     {
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "count": 13
     },
     {
-      "archetype": "Altar",
-      "count": 10
+      "archetype": "Altar Tron",
+      "count": 13
     },
     {
-      "archetype": "Cycle Storm",
+      "archetype": "Cycling Storm",
       "count": 6
     },
     {
-      "archetype": "Altar Tron",
+      "archetype": "Poison Storm",
       "count": 3
     },
     {
-      "archetype": "BGRU",
-      "count": 3
-    },
-    {
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "count": 2
     },
     {
-      "archetype": "Affinity",
+      "archetype": "Flicker Tron",
+      "count": 1
+    },
+    {
+      "archetype": "Golgari Glee",
       "count": 1
     }
   ],
@@ -63,11 +63,10 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-29",
       "player": "saidin.raken",
-      "archetype": "RG Storm",
+      "archetype": "Gruul Storm",
       "colors": [
         "G",
-        "R",
-        "U"
+        "R"
       ],
       "record": "3-3",
       "final_rank": 24,
@@ -79,11 +78,10 @@
       "tournament": "Pauper League",
       "date": "2026-07-26",
       "player": "saidin.raken",
-      "archetype": "RG Storm",
+      "archetype": "Gruul Storm",
       "colors": [
         "G",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -95,7 +93,7 @@
       "tournament": "Pauper League",
       "date": "2026-07-23",
       "player": "saidin.raken",
-      "archetype": "Familiars",
+      "archetype": "Azorius Familiars",
       "colors": [
         "U",
         "W"
@@ -110,11 +108,10 @@
       "tournament": "Pauper League",
       "date": "2026-07-23",
       "player": "saidin.raken",
-      "archetype": "RG Storm",
+      "archetype": "Gruul Storm",
       "colors": [
         "G",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -126,11 +123,10 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-22",
       "player": "saidin.raken",
-      "archetype": "RG Storm",
+      "archetype": "Gruul Storm",
       "colors": [
         "G",
-        "R",
-        "U"
+        "R"
       ],
       "record": "4-2",
       "final_rank": 12,
@@ -142,23 +138,7 @@
       "tournament": "Pauper Last Chance",
       "date": "2026-07-21",
       "player": "saidin.raken",
-      "archetype": "Cycle Storm",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "1-1",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2112847738",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "saidin.raken",
-      "archetype": "Cycle Storm",
+      "archetype": "Cycling Storm",
       "colors": [
         "B",
         "R",
@@ -174,7 +154,23 @@
       "tournament": "Pauper Last Chance",
       "date": "2026-07-21",
       "player": "saidin.raken",
-      "archetype": "Cycle Storm",
+      "archetype": "Cycling Storm",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "1-1",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2112847738",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "saidin.raken",
+      "archetype": "Cycling Storm",
       "colors": [
         "B",
         "R",
@@ -190,11 +186,10 @@
       "tournament": "Pauper League",
       "date": "2026-07-15",
       "player": "saidin.raken",
-      "archetype": "RG Storm",
+      "archetype": "Gruul Storm",
       "colors": [
         "G",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -206,11 +201,10 @@
       "tournament": "Pauper League",
       "date": "2026-07-14",
       "player": "saidin.raken",
-      "archetype": "RG Storm",
+      "archetype": "Gruul Storm",
       "colors": [
         "G",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -218,11 +212,41 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-challenge-32-2026-07-0812846623",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-08",
+      "player": "saidin.raken",
+      "archetype": "Gruul Storm",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0612846623",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-08",
+      "player": "saidin.raken",
+      "archetype": "Gruul Storm",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-league-2026-07-0810855",
       "tournament": "Pauper League",
       "date": "2026-07-08",
       "player": "saidin.raken",
-      "archetype": "Familiars",
+      "archetype": "Azorius Familiars",
       "colors": [
         "U",
         "W"
@@ -233,47 +257,14 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0612846623",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-08",
-      "player": "saidin.raken",
-      "archetype": "RG Storm",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 9,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0812846623",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-08",
-      "player": "saidin.raken",
-      "archetype": "RG Storm",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 9,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-07-0710855",
       "tournament": "Pauper League",
       "date": "2026-07-07",
       "player": "saidin.raken",
-      "archetype": "RG Storm",
+      "archetype": "Gruul Storm",
       "colors": [
         "G",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -285,11 +276,10 @@
       "tournament": "Pauper League",
       "date": "2026-07-06",
       "player": "saidin.raken",
-      "archetype": "RG Storm",
+      "archetype": "Gruul Storm",
       "colors": [
         "G",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -301,11 +291,10 @@
       "tournament": "Pauper League",
       "date": "2026-06-30",
       "player": "saidin.raken",
-      "archetype": "RG Storm",
+      "archetype": "Gruul Storm",
       "colors": [
         "G",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -313,15 +302,14 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2512845625",
+      "site_name": "pauper-challenge-32-2026-06-2412845625",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "saidin.raken",
-      "archetype": "RG Storm",
+      "archetype": "Gruul Storm",
       "colors": [
         "G",
-        "R",
-        "U"
+        "R"
       ],
       "record": "4-2",
       "final_rank": 9,
@@ -329,15 +317,29 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2412845625",
+      "site_name": "pauper-challenge-32-2026-06-2512845631",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "saidin.raken",
-      "archetype": "RG Storm",
+      "archetype": "Gruul Storm",
       "colors": [
         "G",
-        "R",
-        "U"
+        "R"
+      ],
+      "record": "0-1",
+      "final_rank": 31,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "saidin.raken",
+      "archetype": "Gruul Storm",
+      "colors": [
+        "G",
+        "R"
       ],
       "record": "4-2",
       "final_rank": 9,
@@ -349,27 +351,10 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "saidin.raken",
-      "archetype": "RG Storm",
+      "archetype": "Gruul Storm",
       "colors": [
         "G",
-        "R",
-        "U"
-      ],
-      "record": "0-1",
-      "final_rank": 31,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2512845631",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "saidin.raken",
-      "archetype": "RG Storm",
-      "colors": [
-        "G",
-        "R",
-        "U"
+        "R"
       ],
       "record": "0-1",
       "final_rank": 31,
@@ -381,7 +366,7 @@
       "tournament": "Pauper League",
       "date": "2026-06-16",
       "player": "saidin.raken",
-      "archetype": "Familiars",
+      "archetype": "Azorius Familiars",
       "colors": [
         "U",
         "W"
@@ -396,11 +381,10 @@
       "tournament": "Pauper League",
       "date": "2026-06-16",
       "player": "saidin.raken",
-      "archetype": "RG Storm",
+      "archetype": "Gruul Storm",
       "colors": [
         "G",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -428,11 +412,10 @@
       "tournament": "Pauper League",
       "date": "2026-06-10",
       "player": "saidin.raken",
-      "archetype": "RG Storm",
+      "archetype": "Gruul Storm",
       "colors": [
         "G",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -444,11 +427,10 @@
       "tournament": "Pauper League",
       "date": "2026-06-04",
       "player": "saidin.raken",
-      "archetype": "RG Storm",
+      "archetype": "Gruul Storm",
       "colors": [
         "G",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,

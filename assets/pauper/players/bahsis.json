@@ -17,12 +17,8 @@
   },
   "favorite_decks": [
     {
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "count": 7
-    },
-    {
-      "archetype": "GW Gates",
-      "count": 2
     },
     {
       "archetype": "Cawgate",
@@ -33,11 +29,15 @@
       "count": 2
     },
     {
-      "archetype": "U Terror",
+      "archetype": "Selesnya Gates",
+      "count": 2
+    },
+    {
+      "archetype": "Orzhov Refurbished",
       "count": 1
     },
     {
-      "archetype": "Walls",
+      "archetype": "Simic Fog",
       "count": 1
     },
     {
@@ -45,15 +45,15 @@
       "count": 1
     },
     {
-      "archetype": "BW Refurbished",
-      "count": 1
-    },
-    {
-      "archetype": "UG Fog",
-      "count": 1
-    },
-    {
       "archetype": "Naya Gates",
+      "count": 1
+    },
+    {
+      "archetype": "Mono Blue Terror",
+      "count": 1
+    },
+    {
+      "archetype": "Walls",
       "count": 1
     }
   ],
@@ -63,9 +63,8 @@
       "tournament": "Pauper Showcase Qualifier",
       "date": "2026-07-26",
       "player": "Bahsis",
-      "archetype": "UG Fog",
+      "archetype": "Simic Fog",
       "colors": [
-        "B",
         "G",
         "U"
       ],
@@ -81,30 +80,12 @@
       "player": "Bahsis",
       "archetype": "Naya Gates",
       "colors": [
-        "B",
         "G",
         "R",
-        "U",
         "W"
       ],
       "record": "9-2",
       "final_rank": 4,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2412845631",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "Bahsis",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -125,19 +106,18 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2312844831",
+      "site_name": "pauper-challenge-32-2026-06-2412845631",
       "tournament": "Pauper Challenge 32",
-      "date": "2026-06-18",
+      "date": "2026-06-24",
       "player": "Bahsis",
-      "archetype": "GW Gates",
+      "archetype": "Affinity",
       "colors": [
         "B",
-        "G",
         "R",
-        "W"
+        "U"
       ],
-      "record": "4-2",
-      "final_rank": 20,
+      "record": "3-3",
+      "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -146,11 +126,24 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-18",
       "player": "Bahsis",
-      "archetype": "GW Gates",
+      "archetype": "Selesnya Gates",
       "colors": [
-        "B",
         "G",
-        "R",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 20,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2312844831",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-18",
+      "player": "Bahsis",
+      "archetype": "Selesnya Gates",
+      "colors": [
+        "G",
         "W"
       ],
       "record": "4-2",
@@ -177,9 +170,8 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-05-22",
       "player": "Bahsis",
-      "archetype": "U Terror",
+      "archetype": "Mono Blue Terror",
       "colors": [
-        "R",
         "U"
       ],
       "record": "4-2",
@@ -192,10 +184,9 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-05-21",
       "player": "Bahsis",
-      "archetype": "UB Faeries",
+      "archetype": "Dimir Faeries",
       "colors": [
         "B",
-        "G",
         "U"
       ],
       "record": "4-3",
@@ -213,8 +204,7 @@
         "B",
         "G",
         "R",
-        "U",
-        "W"
+        "U"
       ],
       "record": "4-2",
       "final_rank": 11,
@@ -229,7 +219,6 @@
       "archetype": "Cawgate",
       "colors": [
         "G",
-        "R",
         "U",
         "W"
       ],
@@ -246,7 +235,6 @@
       "archetype": "Cawgate",
       "colors": [
         "G",
-        "R",
         "U",
         "W"
       ],
@@ -260,11 +248,9 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-12-14",
       "player": "Bahsis",
-      "archetype": "BW Refurbished",
+      "archetype": "Orzhov Refurbished",
       "colors": [
-        "B",
         "R",
-        "U",
         "W"
       ],
       "record": "3-3",
@@ -277,7 +263,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-12-07",
       "player": "Bahsis",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -293,7 +279,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-11-30",
       "player": "Bahsis",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -309,7 +295,7 @@
       "tournament": "pauper-league-2025-11-199987",
       "date": "2025-11-19",
       "player": "Bahsis",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -325,7 +311,7 @@
       "tournament": "pauper-league-2025-08-129535",
       "date": "2025-08-12",
       "player": "Bahsis",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -341,7 +327,7 @@
       "tournament": "pauper-league-2025-08-049535",
       "date": "2025-08-04",
       "player": "Bahsis",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -357,7 +343,7 @@
       "tournament": "pauper-league-2025-07-259366",
       "date": "2025-07-25",
       "player": "Bahsis",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -373,7 +359,7 @@
       "tournament": "pauper-league-2025-07-249366",
       "date": "2025-07-24",
       "player": "Bahsis",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",

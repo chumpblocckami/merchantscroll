@@ -133,7 +133,7 @@ Each deck view shows:
 
 ### 6.5 Deck Color Indicators
 
-Each decklist displays a set of large colored pips (20px desktop, 24px mobile) representing the deck's color identity as the primary visual element, derived from the union of all card color identities across main deck and sideboard, **excluding lands**:
+Each decklist displays a set of large colored pips (20px desktop, 24px mobile) representing the deck's colors as the primary visual element, derived from the colors its **main deck** has to be able to produce, **excluding lands**:
 
 | Symbol | Color     | Display color |
 |--------|-----------|---------------|
@@ -146,7 +146,9 @@ Each decklist displays a set of large colored pips (20px desktop, 24px mobile) r
 
 A mono-red deck shows a single red pip. A three-color deck (e.g., Esper: WUB) shows yellow, blue, and black pips. The colorless (C) pip is shown only if the deck contains zero colored non-land cards.
 
-Lands are excluded from color computation entirely. Cards that produce mana of various colors (e.g., Prophetic Prism) do not contribute those colors — only the card's own `color_identity` as defined by Scryfall is used.
+Lands are excluded from color computation entirely, and so is the sideboard: those cards come in against specific matchups, and one of them should not recolor the whole deck. Cards that produce mana of various colors (e.g., Prophetic Prism) do not contribute those colors.
+
+A card contributes a color only if you have to produce that colored mana to play it (see 7.4). This is narrower than Scryfall's `color_identity`, which counts colored mana in abilities too and used to paint decks with colors they never cast.
 
 Color data is computed during the crawl/enrichment step and stored in each decklist's JSON.
 
@@ -222,12 +224,21 @@ Decklists within a challenge are then sorted by `final_rank` ascending, so the b
 
 ### 7.4 Color Enrichment
 
-Deck color identity is derived using Scryfall's bulk data:
+Deck colors are derived using Scryfall's bulk data:
 
 1. Download `oracle-cards.jsonl.gz` from Scryfall's bulk data endpoint (refreshed once per day, cached at `.cache/oracle-cards.jsonl.gz`)
-2. Build a lookup table: `card_name → color_identity` (list of W/U/B/R/G). Split cards (e.g., "Fire // Ice") are indexed by both the full name and each face.
-3. For each deck, compute the union of all card color identities across main deck and sideboard, **excluding cards with card type LAND**
+2. Build a lookup table: `card_name → required colors` (list of W/U/B/R/G)
+3. For each deck, compute the union across the **main deck only**, **excluding cards with card type LAND**
 4. Store the result as a `colors` array (e.g., `["U", "B"]`) on each decklist object
+
+**Required colors** come from the mana cost rather than Scryfall's `color_identity`, which also counts colored mana appearing in abilities — Nihil Spellbomb costs `{1}` and only asks for `{B}` in an optional draw trigger, yet its identity is black, which used to paint thousands of colorless decks black. Symbols payable without their color are skipped: Phyrexian mana (`{R/P}` on Gut Shot) takes 2 life instead, and monocolored hybrid (`{2/W}`) takes generic mana. Note this reads the cost, not the printed color: Writhing Chrysalis prints as colorless but costs `{2}{R}{G}` and counts as red-green.
+
+Two cases the card data cannot express are handled separately:
+
+- Cards a deck never pays for at all are listed in `FREE_TO_PLAY_CARDS` in `src/scryfall.py`. Sneaky Snacker costs `{U}{B}` but is discarded and returns itself from the graveyard, so mono-red decks play it without a blue or black source.
+- Oracle data also carries art series and playtest cards, which reuse real card names and are legal nowhere. They are filtered by legality, otherwise the "Delver of Secrets // Delver of Secrets" art card claims the name and every Delver deck reads as colorless.
+
+Name spellings are reconciled in the lookup, since MTGO writes split cards without spaces (`Fire/Ice`), names a double-faced card by its front face, and serves some names as UTF-8 bytes reread as Latin-1 (`Troll of Khazad-dÃ»m`). A card the lookup does not know at all — typically one printed after the cached snapshot — falls back to MTGO's own color field.
 
 ### 7.5 Storage Format
 

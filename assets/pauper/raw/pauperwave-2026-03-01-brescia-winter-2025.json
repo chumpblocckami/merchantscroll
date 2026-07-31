@@ -159,7 +159,7 @@
           }
         }
       ],
-      "archetype": "U Terror",
+      "archetype": "Mono Blue Terror",
       "final_rank": 1,
       "colors": [
         "U"
@@ -367,11 +367,12 @@
           }
         }
       ],
-      "archetype": "Monsters Tron",
+      "archetype": "Monster Tron",
       "final_rank": 2,
       "colors": [
         "G",
-        "R"
+        "R",
+        "U"
       ]
     },
     {
@@ -499,7 +500,7 @@
           }
         }
       ],
-      "archetype": "Monsters",
+      "archetype": "Gruul Monsters",
       "final_rank": 3,
       "colors": [
         "G",
@@ -1234,8 +1235,9 @@
       "archetype": "Slivers",
       "final_rank": 5,
       "colors": [
+        "B",
         "G",
-        "R",
+        "U",
         "W"
       ]
     },

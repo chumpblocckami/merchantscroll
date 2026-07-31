@@ -1,5 +1,5 @@
 {
-  "description": "Wild Pauper \u2014 Roma",
+  "description": "Wild Pauper — Roma",
   "starttime": "2026-05-03",
   "site_name": "pauperwave-2026-05-03-wild-pauper",
   "source": "pauperwave",
@@ -173,11 +173,12 @@
           }
         }
       ],
-      "archetype": "Cycle Storm",
+      "archetype": "Cycling Storm",
       "final_rank": 1,
       "colors": [
         "B",
-        "R"
+        "R",
+        "W"
       ]
     },
     {
@@ -263,7 +264,7 @@
         {
           "qty": "1",
           "card_attributes": {
-            "card_name": "Troll of Khazad-d\u00fbm",
+            "card_name": "Troll of Khazad-dûm",
             "card_type": "ISCREA"
           }
         },
@@ -382,7 +383,7 @@
           }
         }
       ],
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "final_rank": 2,
       "colors": [
         "B",
@@ -577,7 +578,7 @@
           }
         }
       ],
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "final_rank": 3,
       "colors": [
         "B",
@@ -943,7 +944,7 @@
       ]
     },
     {
-      "player": "Simone Villiv\u00e0",
+      "player": "Simone Villivà",
       "main_deck": [
         {
           "qty": "2",
@@ -983,7 +984,7 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "Troll of Khazad-d\u00fbm",
+            "card_name": "Troll of Khazad-dûm",
             "card_type": "ISCREA"
           }
         },
@@ -1333,7 +1334,7 @@
           }
         }
       ],
-      "archetype": "B Devotion",
+      "archetype": "Mono Black Devotion",
       "final_rank": 5,
       "colors": [
         "B"
@@ -1429,7 +1430,7 @@
         {
           "qty": "4",
           "card_attributes": {
-            "card_name": "L\u00f3rien Revealed",
+            "card_name": "Lórien Revealed",
             "card_type": "SORCRY"
           }
         },
@@ -1499,10 +1500,11 @@
           }
         }
       ],
-      "archetype": "UB Terror",
+      "archetype": "Dimir Terror",
       "final_rank": 5,
       "colors": [
         "B",
+        "R",
         "U"
       ]
     }

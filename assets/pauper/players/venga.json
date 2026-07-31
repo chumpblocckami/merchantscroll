@@ -17,23 +17,23 @@
   },
   "favorite_decks": [
     {
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "count": 3
     },
     {
-      "archetype": "Ponza",
+      "archetype": "Gruul Ponza",
       "count": 3
+    },
+    {
+      "archetype": "Selesnya Gates",
+      "count": 1
+    },
+    {
+      "archetype": "Gruul Monsters",
+      "count": 1
     },
     {
       "archetype": "Gardens",
-      "count": 1
-    },
-    {
-      "archetype": "GW Gates",
-      "count": 1
-    },
-    {
-      "archetype": "Monsters",
       "count": 1
     }
   ],
@@ -43,7 +43,7 @@
       "tournament": "Pauper League",
       "date": "2026-07-15",
       "player": "Venga",
-      "archetype": "Monsters",
+      "archetype": "Gruul Monsters",
       "colors": [
         "G",
         "R"
@@ -58,7 +58,7 @@
       "tournament": "Pauper Showcase Challenge",
       "date": "2026-07-05",
       "player": "Venga",
-      "archetype": "Ponza",
+      "archetype": "Gruul Ponza",
       "colors": [
         "G",
         "R"
@@ -69,11 +69,11 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
+      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
       "tournament": "Pauper RC Super Qualifier",
       "date": "2026-06-27",
       "player": "Venga",
-      "archetype": "Ponza",
+      "archetype": "Gruul Ponza",
       "colors": [
         "G",
         "R"
@@ -84,11 +84,11 @@
       "type": "other"
     },
     {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
+      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
       "tournament": "Pauper RC Super Qualifier",
       "date": "2026-06-27",
       "player": "Venga",
-      "archetype": "Ponza",
+      "archetype": "Gruul Ponza",
       "colors": [
         "G",
         "R"
@@ -103,9 +103,8 @@
       "tournament": "Pauper League",
       "date": "2026-06-04",
       "player": "Venga",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
         "R",
         "U"
       ],
@@ -119,9 +118,8 @@
       "tournament": "Pauper League",
       "date": "2026-05-29",
       "player": "Venga",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
         "R",
         "U"
       ],
@@ -135,9 +133,8 @@
       "tournament": "Pauper League",
       "date": "2026-05-29",
       "player": "Venga",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
         "R",
         "U"
       ],
@@ -151,11 +148,9 @@
       "tournament": "Pauper League",
       "date": "2026-04-24",
       "player": "Venga",
-      "archetype": "GW Gates",
+      "archetype": "Selesnya Gates",
       "colors": [
-        "B",
         "G",
-        "R",
         "W"
       ],
       "record": "5-0",
@@ -170,8 +165,7 @@
       "player": "Venga",
       "archetype": "Gardens",
       "colors": [
-        "B",
-        "G"
+        "B"
       ],
       "record": "5-0",
       "final_rank": null,

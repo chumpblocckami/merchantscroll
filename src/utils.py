@@ -127,24 +127,46 @@ def minify_tournament_data(data: dict) -> dict:
     return minified
 
 
+MTGO_COLOR_LETTERS = {
+    "COLOR_WHITE": "W",
+    "COLOR_BLUE": "U",
+    "COLOR_BLACK": "B",
+    "COLOR_RED": "R",
+    "COLOR_GREEN": "G",
+}
+
+
+def _mtgo_colors(attributes: dict) -> list[str]:
+    """Read colors off MTGO's own card attributes."""
+    return [
+        MTGO_COLOR_LETTERS[color]
+        for color in attributes.get("colors") or []
+        if color in MTGO_COLOR_LETTERS
+    ]
+
+
 def enrich_deck_colors(
     tournament_data: dict, color_lookup: dict[str, list[str]]
 ) -> dict:
     """Add a ``colors`` array to each decklist in a tournament.
 
-    Color identity is the union of all non-land card color identities.
-    Lands are excluded. A deck with no colored non-land cards gets ``["C"]``.
+    A deck's colors are the colors its main deck has to be able to produce.
+    Lands are excluded, and so is the sideboard: those cards come in against
+    specific matchups, and one of them should not recolor the whole deck the
+    way a single sideboard Gut Shot used to make Mono Blue Terror blue-red.
+    A deck with no colored main-deck cards gets ``["C"]``.
     Mutates and returns *tournament_data*.
     """
     for deck in tournament_data.get("decklists", []):
         colors: set[str] = set()
-        for card in deck.get("main_deck", []) + deck.get("sideboard_deck", []):
-            card_type = (card.get("card_attributes", {}).get("card_type", "")).strip()
-            if card_type == "LAND":
+        for card in deck.get("main_deck", []):
+            attributes = card.get("card_attributes", {})
+            if attributes.get("card_type", "").strip() == "LAND":
                 continue
-            card_name = card.get("card_attributes", {}).get("card_name", "")
-            identity = color_lookup.get(card_name, [])
-            colors.update(identity)
+            # A card Scryfall has no entry for falls back to MTGO's own colors;
+            # a known card that needs no colored mana maps to [] and must not.
+            required = color_lookup.get(attributes.get("card_name", ""))
+            colors.update(_mtgo_colors(attributes) if required is None else required)
 
         deck["colors"] = sorted(colors) if colors else ["C"]
 

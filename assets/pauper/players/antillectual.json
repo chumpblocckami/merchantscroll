@@ -17,27 +17,31 @@
   },
   "favorite_decks": [
     {
+      "archetype": "Dimir Terror",
+      "count": 5
+    },
+    {
       "archetype": "Flicker Tron",
       "count": 5
     },
     {
-      "archetype": "UB Terror",
-      "count": 5
-    },
-    {
-      "archetype": "UB Faeries",
+      "archetype": "Dimir Faeries",
       "count": 4
     },
     {
-      "archetype": "Jund",
+      "archetype": "Mono Red Rally",
       "count": 2
     },
     {
-      "archetype": "Familiars",
+      "archetype": "Jeskai Ephemerate",
       "count": 2
     },
     {
-      "archetype": "Jeskai",
+      "archetype": "Jund Wildfire",
+      "count": 2
+    },
+    {
+      "archetype": "Azorius Familiars",
       "count": 2
     },
     {
@@ -45,15 +49,11 @@
       "count": 2
     },
     {
-      "archetype": "Rally",
-      "count": 2
-    },
-    {
-      "archetype": "UR Control",
+      "archetype": "Dimir Control",
       "count": 1
     },
     {
-      "archetype": "R Madness",
+      "archetype": "Orzhov Refurbished",
       "count": 1
     }
   ],
@@ -63,7 +63,7 @@
       "tournament": "Pauper League",
       "date": "2026-07-21",
       "player": "Antillectual",
-      "archetype": "Familiars",
+      "archetype": "Azorius Familiars",
       "colors": [
         "U",
         "W"
@@ -80,7 +80,6 @@
       "player": "Antillectual",
       "archetype": "Flicker Tron",
       "colors": [
-        "B",
         "G",
         "R",
         "U",
@@ -96,11 +95,10 @@
       "tournament": "Pauper League",
       "date": "2026-05-27",
       "player": "Antillectual",
-      "archetype": "UB Faeries",
+      "archetype": "Dimir Faeries",
       "colors": [
         "B",
-        "U",
-        "W"
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -130,9 +128,8 @@
       "tournament": "Pauper League",
       "date": "2026-05-21",
       "player": "Antillectual",
-      "archetype": "Familiars",
+      "archetype": "Azorius Familiars",
       "colors": [
-        "B",
         "U",
         "W"
       ],
@@ -148,7 +145,6 @@
       "player": "Antillectual",
       "archetype": "Flicker Tron",
       "colors": [
-        "B",
         "G",
         "R",
         "U",
@@ -164,11 +160,10 @@
       "tournament": "Pauper League",
       "date": "2026-04-21",
       "player": "Antillectual",
-      "archetype": "UB Control",
+      "archetype": "Dimir Control",
       "colors": [
         "B",
-        "U",
-        "W"
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -180,7 +175,7 @@
       "tournament": "Pauper League",
       "date": "2026-04-17",
       "player": "Antillectual",
-      "archetype": "Jeskai",
+      "archetype": "Jeskai Ephemerate",
       "colors": [
         "R",
         "U",
@@ -196,7 +191,7 @@
       "tournament": "Pauper League",
       "date": "2026-04-07",
       "player": "Antillectual",
-      "archetype": "Jeskai",
+      "archetype": "Jeskai Ephemerate",
       "colors": [
         "R",
         "U",
@@ -212,7 +207,7 @@
       "tournament": "pauper-league-2026-02-2810196",
       "date": "2026-02-28",
       "player": "Antillectual",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -228,9 +223,8 @@
       "tournament": "pauper-league-2026-02-1610196",
       "date": "2026-02-16",
       "player": "Antillectual",
-      "archetype": "U Terror",
+      "archetype": "Mono Blue Terror",
       "colors": [
-        "R",
         "U"
       ],
       "record": "5-0",
@@ -243,7 +237,7 @@
       "tournament": "pauper-league-2026-02-0110196",
       "date": "2026-02-01",
       "player": "Antillectual",
-      "archetype": "Rally",
+      "archetype": "Mono Red Rally",
       "colors": [
         "G",
         "R"
@@ -258,7 +252,7 @@
       "tournament": "pauper-league-2026-01-209987",
       "date": "2026-01-20",
       "player": "Antillectual",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -274,7 +268,7 @@
       "tournament": "pauper-league-2025-09-229535",
       "date": "2025-09-22",
       "player": "Antillectual",
-      "archetype": "UB Terror",
+      "archetype": "Dimir Terror",
       "colors": [
         "B",
         "U"
@@ -289,7 +283,7 @@
       "tournament": "pauper-league-2025-09-149535",
       "date": "2025-09-14",
       "player": "Antillectual",
-      "archetype": "UB Terror",
+      "archetype": "Dimir Terror",
       "colors": [
         "B",
         "U"
@@ -304,7 +298,7 @@
       "tournament": "pauper-league-2025-07-289366",
       "date": "2025-07-28",
       "player": "Antillectual",
-      "archetype": "UB Terror",
+      "archetype": "Dimir Terror",
       "colors": [
         "B",
         "U"
@@ -323,9 +317,7 @@
       "colors": [
         "B",
         "G",
-        "R",
-        "U",
-        "W"
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -341,9 +333,7 @@
       "colors": [
         "B",
         "G",
-        "R",
-        "U",
-        "W"
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -355,11 +345,9 @@
       "tournament": "pauper-league-2025-07-099366",
       "date": "2025-07-09",
       "player": "Antillectual",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -373,7 +361,6 @@
       "player": "Antillectual",
       "archetype": "Flicker Tron",
       "colors": [
-        "B",
         "G",
         "R",
         "U",
@@ -391,7 +378,6 @@
       "player": "Antillectual",
       "archetype": "Flicker Tron",
       "colors": [
-        "B",
         "G",
         "R",
         "U",
@@ -407,7 +393,7 @@
       "tournament": "pauper-league-2025-06-259366",
       "date": "2025-06-25",
       "player": "Antillectual",
-      "archetype": "UR Control",
+      "archetype": "Izzet Control",
       "colors": [
         "R",
         "U"
@@ -422,7 +408,7 @@
       "tournament": "pauper-league-2025-06-209366",
       "date": "2025-06-20",
       "player": "Antillectual",
-      "archetype": "UB Terror",
+      "archetype": "Dimir Terror",
       "colors": [
         "B",
         "U"
@@ -437,7 +423,7 @@
       "tournament": "pauper-league-2025-05-289081",
       "date": "2025-05-28",
       "player": "Antillectual",
-      "archetype": "UB Terror",
+      "archetype": "Dimir Terror",
       "colors": [
         "B",
         "U"
@@ -452,7 +438,7 @@
       "tournament": "Pauper Qualifier",
       "date": "2025-05-16",
       "player": "Antillectual",
-      "archetype": "UB Faeries",
+      "archetype": "Dimir Faeries",
       "colors": [
         "B",
         "U"

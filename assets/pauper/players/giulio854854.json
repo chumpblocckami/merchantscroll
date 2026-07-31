@@ -17,11 +17,11 @@
   },
   "favorite_decks": [
     {
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "count": 8
     },
     {
-      "archetype": "Jeskai",
+      "archetype": "Jeskai Ephemerate",
       "count": 4
     },
     {
@@ -29,15 +29,15 @@
       "count": 3
     },
     {
-      "archetype": "UB Terror",
+      "archetype": "Izzet Control",
+      "count": 1
+    },
+    {
+      "archetype": "Dimir Terror",
       "count": 1
     },
     {
       "archetype": "Boros Glitter",
-      "count": 1
-    },
-    {
-      "archetype": "UR Control",
       "count": 1
     }
   ],
@@ -47,7 +47,7 @@
       "tournament": "Pauper Last Chance",
       "date": "2026-07-21",
       "player": "giulio854854",
-      "archetype": "UB Terror",
+      "archetype": "Dimir Terror",
       "colors": [
         "B",
         "R",
@@ -59,11 +59,11 @@
       "type": "other"
     },
     {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
+      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
       "tournament": "Pauper RC Super Qualifier",
       "date": "2026-06-27",
       "player": "giulio854854",
-      "archetype": "Jeskai",
+      "archetype": "Jeskai Ephemerate",
       "colors": [
         "R",
         "U",
@@ -75,11 +75,11 @@
       "type": "other"
     },
     {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
+      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
       "tournament": "Pauper RC Super Qualifier",
       "date": "2026-06-27",
       "player": "giulio854854",
-      "archetype": "Jeskai",
+      "archetype": "Jeskai Ephemerate",
       "colors": [
         "R",
         "U",
@@ -95,30 +95,12 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-20",
       "player": "giulio854854",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "3-3",
       "final_rank": 28,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2312844831",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-18",
-      "player": "giulio854854",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 13,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -127,11 +109,23 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-18",
       "player": "giulio854854",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2312844831",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-18",
+      "player": "giulio854854",
+      "archetype": "Mono Red Madness",
+      "colors": [
+        "R"
       ],
       "record": "4-2",
       "final_rank": 13,
@@ -143,11 +137,9 @@
       "tournament": "Pauper League",
       "date": "2026-06-17",
       "player": "giulio854854",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -159,7 +151,7 @@
       "tournament": "Pauper League",
       "date": "2026-05-30",
       "player": "giulio854854",
-      "archetype": "Jeskai",
+      "archetype": "Jeskai Ephemerate",
       "colors": [
         "R",
         "U",
@@ -175,11 +167,9 @@
       "tournament": "Pauper League",
       "date": "2026-05-28",
       "player": "giulio854854",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -191,7 +181,7 @@
       "tournament": "Pauper League",
       "date": "2026-05-28",
       "player": "giulio854854",
-      "archetype": "Jeskai",
+      "archetype": "Jeskai Ephemerate",
       "colors": [
         "R",
         "U",
@@ -207,11 +197,9 @@
       "tournament": "Pauper League",
       "date": "2026-05-14",
       "player": "giulio854854",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -223,11 +211,9 @@
       "tournament": "Pauper League",
       "date": "2026-04-13",
       "player": "giulio854854",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -241,9 +227,7 @@
       "player": "giulio854854",
       "archetype": "Boros Glitter",
       "colors": [
-        "B",
         "R",
-        "U",
         "W"
       ],
       "record": "5-0",
@@ -256,11 +240,10 @@
       "tournament": "Pauper League",
       "date": "2026-03-27",
       "player": "giulio854854",
-      "archetype": "UR Control",
+      "archetype": "Izzet Control",
       "colors": [
         "R",
-        "U",
-        "W"
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -320,11 +303,9 @@
       "tournament": "Pauper League",
       "date": "2025-11-23",
       "player": "giulio854854",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,

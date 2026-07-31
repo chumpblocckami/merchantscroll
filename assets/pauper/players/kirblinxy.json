@@ -17,27 +17,23 @@
   },
   "favorite_decks": [
     {
-      "archetype": "BG Fog",
+      "archetype": "Golgari Fog",
       "count": 12
     },
     {
-      "archetype": "BW Refurbished",
+      "archetype": "Orzhov Refurbished",
       "count": 5
     },
     {
-      "archetype": "B Sacrifice",
+      "archetype": "Simic Fog",
       "count": 4
     },
     {
-      "archetype": "UG Fog",
+      "archetype": "Mono Black Sacrifice",
       "count": 4
     },
     {
-      "archetype": "Food Pestilence",
-      "count": 3
-    },
-    {
-      "archetype": "UR Control",
+      "archetype": "Boros Glitter",
       "count": 3
     },
     {
@@ -45,15 +41,19 @@
       "count": 3
     },
     {
-      "archetype": "Boros Glitter",
+      "archetype": "Izzet Control",
       "count": 3
     },
     {
-      "archetype": "Rally",
-      "count": 2
+      "archetype": "Food Pestilence",
+      "count": 3
     },
     {
       "archetype": "Cawgate",
+      "count": 2
+    },
+    {
+      "archetype": "Mono Red Rally",
       "count": 2
     }
   ],
@@ -63,10 +63,9 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-05",
       "player": "Kirblinxy",
-      "archetype": "Bogle",
+      "archetype": "Bogles",
       "colors": [
         "G",
-        "R",
         "U",
         "W"
       ],
@@ -80,7 +79,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-27",
       "player": "Kirblinxy",
-      "archetype": "UR Control",
+      "archetype": "Izzet Control",
       "colors": [
         "R",
         "U"
@@ -95,7 +94,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-27",
       "player": "Kirblinxy",
-      "archetype": "UR Control",
+      "archetype": "Izzet Control",
       "colors": [
         "R",
         "U"
@@ -106,16 +105,14 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2512845625",
+      "site_name": "pauper-challenge-32-2026-06-2412845625",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "Kirblinxy",
-      "archetype": "GW Gates",
+      "archetype": "Naya Gates",
       "colors": [
-        "B",
         "G",
         "R",
-        "U",
         "W"
       ],
       "record": "2-2",
@@ -124,16 +121,14 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2412845625",
+      "site_name": "pauper-challenge-32-2026-06-2512845625",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "Kirblinxy",
-      "archetype": "Naya Gates",
+      "archetype": "Selesnya Gates",
       "colors": [
-        "B",
         "G",
         "R",
-        "U",
         "W"
       ],
       "record": "2-2",
@@ -146,9 +141,8 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-20",
       "player": "Kirblinxy",
-      "archetype": "UG Fog",
+      "archetype": "Simic Fog",
       "colors": [
-        "B",
         "G",
         "U"
       ],
@@ -162,21 +156,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-14",
       "player": "Kirblinxy",
-      "archetype": "Rally",
-      "colors": [
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1212844338",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-14",
-      "player": "Kirblinxy",
-      "archetype": "Rally",
+      "archetype": "Mono Red Rally",
       "colors": [
         "R"
       ],
@@ -190,9 +170,8 @@
       "tournament": "Pauper Showcase Challenge",
       "date": "2026-06-14",
       "player": "Kirblinxy",
-      "archetype": "UG Fog",
+      "archetype": "Simic Fog",
       "colors": [
-        "B",
         "G",
         "U"
       ],
@@ -206,14 +185,27 @@
       "tournament": "Pauper Showcase Challenge",
       "date": "2026-06-14",
       "player": "Kirblinxy",
-      "archetype": "UG Fog",
+      "archetype": "Simic Fog",
       "colors": [
-        "B",
         "G",
         "U"
       ],
       "record": "6-3",
       "final_rank": 22,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1212844338",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-14",
+      "player": "Kirblinxy",
+      "archetype": "Mono Red Rally",
+      "colors": [
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -250,7 +242,7 @@
       "tournament": "Pauper League",
       "date": "2026-06-10",
       "player": "Kirblinxy",
-      "archetype": "UR Control",
+      "archetype": "Izzet Control",
       "colors": [
         "G",
         "R",
@@ -271,8 +263,7 @@
         "B",
         "G",
         "R",
-        "U",
-        "W"
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -284,9 +275,8 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-05-09",
       "player": "Kirblinxy",
-      "archetype": "UG Fog",
+      "archetype": "Simic Fog",
       "colors": [
-        "B",
         "G",
         "U"
       ],
@@ -303,7 +293,6 @@
       "archetype": "Cawgate",
       "colors": [
         "G",
-        "R",
         "U",
         "W"
       ],
@@ -317,11 +306,10 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-04-18",
       "player": "Kirblinxy",
-      "archetype": "BG Fog",
+      "archetype": "Golgari Fog",
       "colors": [
         "B",
         "G",
-        "R",
         "U"
       ],
       "record": "4-2",
@@ -334,7 +322,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-04-04",
       "player": "Kirblinxy",
-      "archetype": "BW Refurbished",
+      "archetype": "Orzhov Refurbished",
       "colors": [
         "B",
         "W"
@@ -349,11 +337,10 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-04-02",
       "player": "Kirblinxy",
-      "archetype": "BG Fog",
+      "archetype": "Golgari Fog",
       "colors": [
         "B",
         "G",
-        "R",
         "U"
       ],
       "record": "3-3",
@@ -366,7 +353,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-03-21",
       "player": "Kirblinxy",
-      "archetype": "BW Refurbished",
+      "archetype": "Orzhov Refurbished",
       "colors": [
         "B",
         "G",
@@ -399,11 +386,10 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-03-07",
       "player": "Kirblinxy",
-      "archetype": "BG Fog",
+      "archetype": "Golgari Fog",
       "colors": [
         "B",
         "G",
-        "R",
         "U"
       ],
       "record": "6-2",
@@ -436,8 +422,7 @@
         "B",
         "G",
         "R",
-        "U",
-        "W"
+        "U"
       ],
       "record": "4-3",
       "final_rank": 7,
@@ -449,11 +434,10 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-10",
       "player": "Kirblinxy",
-      "archetype": "BG Fog",
+      "archetype": "Golgari Fog",
       "colors": [
         "B",
         "G",
-        "R",
         "U"
       ],
       "record": "3-3",

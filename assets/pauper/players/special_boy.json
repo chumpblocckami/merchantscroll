@@ -21,19 +21,19 @@
       "count": 5
     },
     {
-      "archetype": "U Terror",
+      "archetype": "Mono Blue Terror",
       "count": 3
     },
     {
-      "archetype": "Rally",
-      "count": 1
-    },
-    {
-      "archetype": "UR Control",
-      "count": 1
-    },
-    {
       "archetype": "Pingers",
+      "count": 1
+    },
+    {
+      "archetype": "Izzet Control",
+      "count": 1
+    },
+    {
+      "archetype": "Mono Red Rally",
       "count": 1
     }
   ],
@@ -43,7 +43,7 @@
       "tournament": "Pauper League",
       "date": "2026-06-06",
       "player": "Special_Boy",
-      "archetype": "Rally",
+      "archetype": "Mono Red Rally",
       "colors": [
         "G",
         "R"
@@ -54,13 +54,26 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-challenge-32-2026-06-0412843773",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-04",
+      "player": "Special_Boy",
+      "archetype": "Mono Blue Terror",
+      "colors": [
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 21,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-06-0612843773",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-04",
       "player": "Special_Boy",
-      "archetype": "U Terror",
+      "archetype": "Mono Blue Terror",
       "colors": [
-        "R",
         "U"
       ],
       "record": "3-3",
@@ -73,24 +86,8 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-04",
       "player": "Special_Boy",
-      "archetype": "U Terror",
+      "archetype": "Mono Blue Terror",
       "colors": [
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 21,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0412843773",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-04",
-      "player": "Special_Boy",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
         "U"
       ],
       "record": "3-3",
@@ -105,7 +102,6 @@
       "player": "Special_Boy",
       "archetype": "White Weenie",
       "colors": [
-        "B",
         "R",
         "W"
       ],
@@ -121,7 +117,6 @@
       "player": "Special_Boy",
       "archetype": "White Weenie",
       "colors": [
-        "B",
         "R",
         "W"
       ],
@@ -137,7 +132,6 @@
       "player": "Special_Boy",
       "archetype": "White Weenie",
       "colors": [
-        "B",
         "R",
         "W"
       ],
@@ -193,7 +187,7 @@
       "tournament": "pauper-league-2025-07-239366",
       "date": "2025-07-23",
       "player": "Special_Boy",
-      "archetype": "UR Control",
+      "archetype": "Izzet Control",
       "colors": [
         "R",
         "U"

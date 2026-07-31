@@ -18,14 +18,10 @@
   "favorite_decks": [
     {
       "archetype": "Altar Tron",
-      "count": 3
+      "count": 4
     },
     {
-      "archetype": "R Madness",
-      "count": 2
-    },
-    {
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "count": 2
     },
     {
@@ -33,8 +29,8 @@
       "count": 2
     },
     {
-      "archetype": "Altar",
-      "count": 1
+      "archetype": "Mono Red Madness",
+      "count": 2
     },
     {
       "archetype": "Cawgate",
@@ -45,15 +41,15 @@
       "count": 1
     },
     {
-      "archetype": "UB Terror",
-      "count": 1
-    },
-    {
-      "archetype": "U Faeries",
-      "count": 1
-    },
-    {
       "archetype": "Elves",
+      "count": 1
+    },
+    {
+      "archetype": "Dimir Terror",
+      "count": 1
+    },
+    {
+      "archetype": "Mono Blue Faeries",
       "count": 1
     }
   ],
@@ -82,12 +78,26 @@
       "archetype": "Cawgate",
       "colors": [
         "B",
-        "R",
         "U",
         "W"
       ],
       "record": "2-3",
       "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-12-2512828058",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-12-25",
+      "player": "Daikal21",
+      "archetype": "Altar Tron",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-2",
+      "final_rank": 6,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -99,8 +109,7 @@
       "archetype": "Altar Tron",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -108,31 +117,13 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2025-12-2512828058",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-12-25",
-      "player": "Daikal21",
-      "archetype": "Altar Tron",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-2",
-      "final_rank": 6,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-rc-super-qualifier-2025-11-0912823531",
       "tournament": "Pauper RC Super Qualifier",
       "date": "2025-11-09",
       "player": "Daikal21",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "6-3",
       "final_rank": 24,
@@ -144,7 +135,7 @@
       "tournament": "pauper-league-2025-09-229535",
       "date": "2025-09-22",
       "player": "Daikal21",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -162,8 +153,7 @@
       "player": "Daikal21",
       "archetype": "Food Pestilence",
       "colors": [
-        "B",
-        "G"
+        "B"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -206,11 +196,10 @@
       "tournament": "pauper-league-2025-06-189366",
       "date": "2025-06-18",
       "player": "Daikal21",
-      "archetype": "Altar",
+      "archetype": "Altar Tron",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -222,7 +211,7 @@
       "tournament": "pauper-league-2025-06-119366",
       "date": "2025-06-11",
       "player": "Daikal21",
-      "archetype": "U Faeries",
+      "archetype": "Mono Blue Faeries",
       "colors": [
         "U"
       ],
@@ -236,11 +225,9 @@
       "tournament": "pauper-league-2025-06-039081",
       "date": "2025-06-03",
       "player": "Daikal21",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -252,7 +239,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-05-17",
       "player": "Daikal21",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -271,8 +258,7 @@
       "archetype": "Altar Tron",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -284,9 +270,8 @@
       "tournament": "pauper-league-2025-05-059081",
       "date": "2025-05-05",
       "player": "Daikal21",
-      "archetype": "UB Terror",
+      "archetype": "Dimir Terror",
       "colors": [
-        "R",
         "U"
       ],
       "record": "5-0",

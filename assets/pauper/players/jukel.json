@@ -17,7 +17,7 @@
   },
   "favorite_decks": [
     {
-      "archetype": "BR Madness",
+      "archetype": "Rakdos Madness",
       "count": 3
     }
   ],
@@ -27,14 +27,28 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-07-05",
       "player": "Jukel",
-      "archetype": "BR Madness",
+      "archetype": "Rakdos Madness",
       "colors": [
         "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "2-3",
       "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-07-0412801643",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-07-04",
+      "player": "Jukel",
+      "archetype": "Rakdos Madness",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -43,32 +57,15 @@
       "tournament": "pauper-league-2025-07-049366",
       "date": "2025-07-04",
       "player": "Jukel",
-      "archetype": "BR Madness",
+      "archetype": "Rakdos Madness",
       "colors": [
         "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-07-0412801643",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-07-04",
-      "player": "Jukel",
-      "archetype": "BR Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 26,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

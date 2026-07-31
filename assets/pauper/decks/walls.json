@@ -2,19 +2,19 @@
   "archetype": "Walls",
   "slug": "walls",
   "stats": {
-    "total_entries": 168,
+    "total_entries": 170,
     "league_entries": 105,
     "league_trophies": 105,
     "league_trophies_yearly": 36,
     "challenge_appearances": 55,
     "challenge_wins": 207,
     "challenge_losses": 148,
-    "irl_top8": 4,
+    "irl_top8": 5,
     "challenge_win_pct": 58,
     "league_trophy_rank_yearly": 32,
-    "league_trophy_rank_alltime": 29,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "league_trophy_rank_alltime": 32,
+    "league_trophy_decks_yearly": 61,
+    "league_trophy_decks_alltime": 65
   },
   "recent_entries": [
     {
@@ -23,7 +23,6 @@
       "date": "2026-07-29",
       "player": "Takemikazuchi",
       "colors": [
-        "B",
         "G",
         "R"
       ],
@@ -38,10 +37,8 @@
       "date": "2026-07-24",
       "player": "IvernOP",
       "colors": [
-        "B",
         "G",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-2",
       "final_rank": 5,
@@ -54,10 +51,8 @@
       "date": "2026-07-18",
       "player": "PNascimento",
       "colors": [
-        "B",
         "G",
-        "R",
-        "W"
+        "R"
       ],
       "record": "3-3",
       "final_rank": 22,
@@ -79,6 +74,22 @@
       "final_rank": 19,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauperwave-2026-07-10-top-pauper-player-2026",
+      "tournament": "Top Pauper Player 2026 — Lucca",
+      "date": "2026-07-10",
+      "player": "Alberto Ricciardi",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "",
+      "final_rank": null,
+      "source": "pauperwave",
+      "type": "irl"
     },
     {
       "site_name": "pauper-league-2026-07-0410855",
@@ -151,7 +162,6 @@
       "date": "2026-06-20",
       "player": "Andrea Guerreri",
       "colors": [
-        "B",
         "G",
         "R",
         "W"
@@ -221,8 +231,7 @@
         "B",
         "G",
         "R",
-        "U",
-        "W"
+        "U"
       ],
       "record": "4-2",
       "final_rank": 15,
@@ -238,8 +247,7 @@
         "B",
         "G",
         "R",
-        "U",
-        "W"
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -255,8 +263,7 @@
         "B",
         "G",
         "R",
-        "U",
-        "W"
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -272,8 +279,7 @@
         "B",
         "G",
         "R",
-        "U",
-        "W"
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -305,8 +311,7 @@
         "B",
         "G",
         "R",
-        "U",
-        "W"
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -386,8 +391,7 @@
         "B",
         "G",
         "R",
-        "U",
-        "W"
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -403,30 +407,12 @@
         "B",
         "G",
         "R",
-        "U",
-        "W"
+        "U"
       ],
       "record": "4-2",
       "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-05-1310636",
-      "tournament": "Pauper League",
-      "date": "2026-05-13",
-      "player": "wolf777",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -443,6 +429,18 @@
       "count": 9
     },
     {
+      "player": "Otifex",
+      "count": 5
+    },
+    {
+      "player": "Stamford",
+      "count": 5
+    },
+    {
+      "player": "PNascimento",
+      "count": 5
+    },
+    {
       "player": "zimooo2",
       "count": 5
     },
@@ -451,23 +449,11 @@
       "count": 5
     },
     {
-      "player": "Otifex",
-      "count": 5
-    },
-    {
-      "player": "PNascimento",
-      "count": 5
-    },
-    {
-      "player": "Stamford",
-      "count": 5
-    },
-    {
-      "player": "Now1770",
+      "player": "Taute",
       "count": 4
     },
     {
-      "player": "Taute",
+      "player": "Now1770",
       "count": 4
     }
   ]

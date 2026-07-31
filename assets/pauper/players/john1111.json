@@ -17,23 +17,11 @@
   },
   "favorite_decks": [
     {
-      "archetype": "RG Storm",
+      "archetype": "Gruul Storm",
       "count": 3
     },
     {
-      "archetype": "Ponza",
-      "count": 3
-    },
-    {
-      "archetype": "Naya Gates",
-      "count": 3
-    },
-    {
-      "archetype": "U Terror",
-      "count": 3
-    },
-    {
-      "archetype": "BR Madness",
+      "archetype": "Gruul Ponza",
       "count": 3
     },
     {
@@ -41,15 +29,27 @@
       "count": 3
     },
     {
-      "archetype": "R Madness",
-      "count": 2
+      "archetype": "Mono Blue Terror",
+      "count": 3
     },
     {
-      "archetype": "Rally",
-      "count": 2
+      "archetype": "Rakdos Madness",
+      "count": 3
+    },
+    {
+      "archetype": "Naya Gates",
+      "count": 3
     },
     {
       "archetype": "Elves",
+      "count": 2
+    },
+    {
+      "archetype": "Mono Red Rally",
+      "count": 2
+    },
+    {
+      "archetype": "Mono Red Madness",
       "count": 2
     },
     {
@@ -65,10 +65,8 @@
       "player": "John1111",
       "archetype": "Naya Gates",
       "colors": [
-        "B",
         "G",
         "R",
-        "U",
         "W"
       ],
       "record": "8-2",
@@ -83,10 +81,8 @@
       "player": "John1111",
       "archetype": "Naya Gates",
       "colors": [
-        "B",
         "G",
         "R",
-        "U",
         "W"
       ],
       "record": "6-2",
@@ -99,27 +95,10 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-04",
       "player": "John1111",
-      "archetype": "RG Storm",
+      "archetype": "Gruul Storm",
       "colors": [
         "G",
-        "R",
-        "U"
-      ],
-      "record": "2-3",
-      "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0312846485",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-04",
-      "player": "John1111",
-      "archetype": "RG Storm",
-      "colors": [
-        "G",
-        "R",
-        "U"
+        "R"
       ],
       "record": "2-3",
       "final_rank": 29,
@@ -131,11 +110,25 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-04",
       "player": "John1111",
-      "archetype": "RG Storm",
+      "archetype": "Gruul Storm",
       "colors": [
         "G",
-        "R",
-        "U"
+        "R"
+      ],
+      "record": "2-3",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0312846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "John1111",
+      "archetype": "Gruul Storm",
+      "colors": [
+        "G",
+        "R"
       ],
       "record": "2-3",
       "final_rank": 29,
@@ -149,8 +142,7 @@
       "player": "John1111",
       "archetype": "Gardens",
       "colors": [
-        "B",
-        "G"
+        "B"
       ],
       "record": "2-3",
       "final_rank": 28,
@@ -164,8 +156,7 @@
       "player": "John1111",
       "archetype": "Gardens",
       "colors": [
-        "B",
-        "G"
+        "B"
       ],
       "record": "2-3",
       "final_rank": 28,
@@ -177,7 +168,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-14",
       "player": "John1111",
-      "archetype": "Ponza",
+      "archetype": "Gruul Ponza",
       "colors": [
         "G",
         "R"
@@ -192,7 +183,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-14",
       "player": "John1111",
-      "archetype": "Ponza",
+      "archetype": "Gruul Ponza",
       "colors": [
         "G",
         "R"
@@ -207,7 +198,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-14",
       "player": "John1111",
-      "archetype": "Ponza",
+      "archetype": "Gruul Ponza",
       "colors": [
         "G",
         "R"
@@ -232,11 +223,11 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-0212844295",
+      "site_name": "pauper-challenge-32-2026-06-1112844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
       "player": "John1111",
-      "archetype": "Rally",
+      "archetype": "Mono Red Rally",
       "colors": [
         "R"
       ],
@@ -246,11 +237,11 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1112844295",
+      "site_name": "pauper-challenge-32-2026-06-0212844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
       "player": "John1111",
-      "archetype": "Rally",
+      "archetype": "Mono Red Rally",
       "colors": [
         "R"
       ],
@@ -279,11 +270,9 @@
       "tournament": "Pauper League",
       "date": "2026-04-24",
       "player": "John1111",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -295,9 +284,8 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-04-11",
       "player": "John1111",
-      "archetype": "Familiars",
+      "archetype": "Azorius Familiars",
       "colors": [
-        "B",
         "U",
         "W"
       ],
@@ -311,11 +299,9 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-02-22",
       "player": "John1111",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "1-2",
       "final_rank": 31,
@@ -330,7 +316,6 @@
       "archetype": "Naya Gates",
       "colors": [
         "B",
-        "R",
         "U",
         "W"
       ],
@@ -358,11 +343,10 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-12-28",
       "player": "John1111",
-      "archetype": "BR Madness",
+      "archetype": "Rakdos Madness",
       "colors": [
         "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "2-3",
       "final_rank": 31,
@@ -374,11 +358,10 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-12-13",
       "player": "John1111",
-      "archetype": "BR Madness",
+      "archetype": "Rakdos Madness",
       "colors": [
         "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "4-2",
       "final_rank": 10,
@@ -390,11 +373,10 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-12-07",
       "player": "John1111",
-      "archetype": "BR Madness",
+      "archetype": "Rakdos Madness",
       "colors": [
         "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-2",
       "final_rank": 10,
@@ -406,7 +388,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-11-09",
       "player": "John1111",
-      "archetype": "UB Faeries",
+      "archetype": "Dimir Faeries",
       "colors": [
         "B",
         "U"
@@ -421,7 +403,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-10-04",
       "player": "John1111",
-      "archetype": "Jund",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "G",
@@ -437,9 +419,8 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-09-14",
       "player": "John1111",
-      "archetype": "U Terror",
+      "archetype": "Mono Blue Terror",
       "colors": [
-        "R",
         "U"
       ],
       "record": "3-3",

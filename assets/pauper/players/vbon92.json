@@ -17,7 +17,7 @@
   },
   "favorite_decks": [
     {
-      "archetype": "UB Terror",
+      "archetype": "Dimir Terror",
       "count": 3
     },
     {
@@ -25,19 +25,19 @@
       "count": 3
     },
     {
-      "archetype": "U Terror",
+      "archetype": "Mono Blue Terror",
       "count": 2
     },
     {
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "count": 1
     },
     {
-      "archetype": "UB Faeries",
+      "archetype": "Dimir Faeries",
       "count": 1
     },
     {
-      "archetype": "U Faeries",
+      "archetype": "Mono Blue Faeries",
       "count": 1
     }
   ],
@@ -47,7 +47,21 @@
       "tournament": "Pauper League",
       "date": "2026-05-21",
       "player": "Vbon92",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-05-0810636",
+      "tournament": "Pauper League",
+      "date": "2026-05-08",
+      "player": "Vbon92",
+      "archetype": "Dimir Terror",
       "colors": [
         "B",
         "R",
@@ -63,23 +77,7 @@
       "tournament": "Pauper League",
       "date": "2026-05-08",
       "player": "Vbon92",
-      "archetype": "UB Terror",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-05-0810636",
-      "tournament": "Pauper League",
-      "date": "2026-05-08",
-      "player": "Vbon92",
-      "archetype": "UB Terror",
+      "archetype": "Dimir Terror",
       "colors": [
         "B",
         "R",
@@ -143,7 +141,7 @@
       "tournament": "pauper-league-2025-10-179750",
       "date": "2025-10-17",
       "player": "Vbon92",
-      "archetype": "UB Faeries",
+      "archetype": "Dimir Faeries",
       "colors": [
         "B",
         "U"
@@ -158,7 +156,7 @@
       "tournament": "pauper-league-2025-09-039535",
       "date": "2025-09-03",
       "player": "Vbon92",
-      "archetype": "UB Terror",
+      "archetype": "Dimir Terror",
       "colors": [
         "B",
         "U"
@@ -173,9 +171,8 @@
       "tournament": "pauper-league-2025-07-189366",
       "date": "2025-07-18",
       "player": "Vbon92",
-      "archetype": "U Terror",
+      "archetype": "Mono Blue Terror",
       "colors": [
-        "R",
         "U"
       ],
       "record": "5-0",
@@ -188,7 +185,7 @@
       "tournament": "pauper-league-2025-05-199081",
       "date": "2025-05-19",
       "player": "Vbon92",
-      "archetype": "U Terror",
+      "archetype": "Mono Blue Terror",
       "colors": [
         "U"
       ],
@@ -202,7 +199,7 @@
       "tournament": "pauper-league-2025-05-149081",
       "date": "2025-05-14",
       "player": "Vbon92",
-      "archetype": "U Faeries",
+      "archetype": "Mono Blue Faeries",
       "colors": [
         "U"
       ],

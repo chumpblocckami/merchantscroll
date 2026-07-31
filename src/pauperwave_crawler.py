@@ -278,8 +278,9 @@ def parse_tournament_file(
             deck["final_rank"] = rank
 
         if color_lookup:
+            # Main deck only, matching enrich_deck_colors on the MTGO side.
             colors: set[str] = set()
-            for card in parsed.main_deck + parsed.sideboard_deck:
+            for card in parsed.main_deck:
                 ct = card["card_attributes"].get("card_type", "").strip()
                 if ct == "LAND":
                     continue

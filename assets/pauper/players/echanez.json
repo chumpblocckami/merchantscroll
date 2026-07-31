@@ -18,11 +18,7 @@
   "favorite_decks": [
     {
       "archetype": "Monster Tron",
-      "count": 8
-    },
-    {
-      "archetype": "Monsters Tron",
-      "count": 8
+      "count": 16
     },
     {
       "archetype": "Gardens",
@@ -33,19 +29,11 @@
       "count": 4
     },
     {
-      "archetype": "Rally",
+      "archetype": "Mono Red Rally",
       "count": 3
     },
     {
-      "archetype": "R Madness",
-      "count": 2
-    },
-    {
-      "archetype": "Monsters",
-      "count": 2
-    },
-    {
-      "archetype": "U Terror",
+      "archetype": "Mono Blue Terror",
       "count": 2
     },
     {
@@ -53,7 +41,19 @@
       "count": 2
     },
     {
-      "archetype": "White Weenie",
+      "archetype": "Mono Red Madness",
+      "count": 2
+    },
+    {
+      "archetype": "Gruul Monsters",
+      "count": 2
+    },
+    {
+      "archetype": "Walls",
+      "count": 1
+    },
+    {
+      "archetype": "Jund Wildfire",
       "count": 1
     }
   ],
@@ -66,9 +66,7 @@
       "archetype": "Monster Tron",
       "colors": [
         "G",
-        "R",
-        "U",
-        "W"
+        "U"
       ],
       "record": "3-3",
       "final_rank": 29,
@@ -80,9 +78,8 @@
       "tournament": "Pauper League",
       "date": "2026-07-16",
       "player": "Echanez",
-      "archetype": "U Terror",
+      "archetype": "Mono Blue Terror",
       "colors": [
-        "R",
         "U"
       ],
       "record": "5-0",
@@ -97,9 +94,7 @@
       "player": "Echanez",
       "archetype": "Pingers",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -113,9 +108,7 @@
       "player": "Echanez",
       "archetype": "Pingers",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -189,7 +182,6 @@
       "player": "Echanez",
       "archetype": "Monster Tron",
       "colors": [
-        "B",
         "G",
         "R",
         "U"
@@ -204,7 +196,7 @@
       "tournament": "Pauper Showcase Challenge",
       "date": "2026-06-14",
       "player": "Echanez",
-      "archetype": "Monsters Tron",
+      "archetype": "Monster Tron",
       "colors": [
         "G",
         "R",
@@ -232,11 +224,11 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1312844320",
+      "site_name": "pauper-challenge-32-2025-03-1712844320",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-13",
       "player": "Echanez",
-      "archetype": "Monsters Tron",
+      "archetype": "Monster Tron",
       "colors": [
         "G",
         "R"
@@ -247,7 +239,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2025-03-1712844320",
+      "site_name": "pauper-challenge-32-2026-06-1312844320",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-13",
       "player": "Echanez",
@@ -266,11 +258,9 @@
       "tournament": "Pauper League",
       "date": "2026-06-01",
       "player": "Echanez",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -286,7 +276,6 @@
       "colors": [
         "B",
         "G",
-        "R",
         "U"
       ],
       "record": "5-0",
@@ -299,9 +288,8 @@
       "tournament": "Pauper RC Qualifier",
       "date": "2026-05-17",
       "player": "Echanez",
-      "archetype": "Monsters Tron",
+      "archetype": "Monster Tron",
       "colors": [
-        "B",
         "G",
         "R",
         "U"
@@ -316,9 +304,8 @@
       "tournament": "Pauper League",
       "date": "2026-05-16",
       "player": "Echanez",
-      "archetype": "Monsters Tron",
+      "archetype": "Monster Tron",
       "colors": [
-        "B",
         "G",
         "R",
         "U"
@@ -333,9 +320,8 @@
       "tournament": "Pauper League",
       "date": "2026-05-15",
       "player": "Echanez",
-      "archetype": "Monsters Tron",
+      "archetype": "Monster Tron",
       "colors": [
-        "B",
         "G",
         "R",
         "U"
@@ -350,9 +336,8 @@
       "tournament": "Pauper League",
       "date": "2026-05-13",
       "player": "Echanez",
-      "archetype": "Monsters Tron",
+      "archetype": "Monster Tron",
       "colors": [
-        "B",
         "G",
         "R",
         "U"
@@ -367,9 +352,8 @@
       "tournament": "Pauper League",
       "date": "2026-05-06",
       "player": "Echanez",
-      "archetype": "Monsters Tron",
+      "archetype": "Monster Tron",
       "colors": [
-        "B",
         "G",
         "R",
         "U"
@@ -384,11 +368,9 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-05-02",
       "player": "Echanez",
-      "archetype": "R Madness",
+      "archetype": "Mono Red Madness",
       "colors": [
-        "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "3-3",
       "final_rank": 28,
@@ -401,23 +383,6 @@
       "date": "2026-04-30",
       "player": "Echanez",
       "archetype": "Walls",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-04-1810405",
-      "tournament": "Pauper League",
-      "date": "2026-04-18",
-      "player": "Echanez",
-      "archetype": "Monsters Tron",
       "colors": [
         "B",
         "G",
@@ -446,11 +411,27 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-04-1810405",
+      "tournament": "Pauper League",
+      "date": "2026-04-18",
+      "player": "Echanez",
+      "archetype": "Monster Tron",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2026-03-1710405",
       "tournament": "pauper-league-2026-03-1710405",
       "date": "2026-03-17",
       "player": "Echanez",
-      "archetype": "Monsters",
+      "archetype": "Gruul Monsters",
       "colors": [
         "G",
         "R"

@@ -2,21 +2,35 @@
   "archetype": "Goblin Combo",
   "slug": "goblin-combo",
   "stats": {
-    "total_entries": 1,
+    "total_entries": 2,
     "league_entries": 0,
     "league_trophies": 0,
     "league_trophies_yearly": 0,
-    "challenge_appearances": 0,
-    "challenge_wins": 0,
-    "challenge_losses": 0,
+    "challenge_appearances": 1,
+    "challenge_wins": 2,
+    "challenge_losses": 2,
     "irl_top8": 1,
-    "challenge_win_pct": null,
+    "challenge_win_pct": 50,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": null,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 73
+    "league_trophy_decks_yearly": 61,
+    "league_trophy_decks_alltime": 65
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2412848188",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-24",
+      "player": "DB_Teasdale",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "record": "2-2",
+      "final_rank": 31,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauperwave-2024-06-23-paupergeddon-pisa-2024",
       "tournament": "Paupergeddon Pisa 2024 — Pisa",
@@ -35,6 +49,10 @@
   "top_pilots": [
     {
       "player": "Lorenzo Aldegheri",
+      "count": 1
+    },
+    {
+      "player": "DB_Teasdale",
       "count": 1
     }
   ]

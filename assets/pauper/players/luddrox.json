@@ -17,7 +17,7 @@
   },
   "favorite_decks": [
     {
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "count": 13
     },
     {
@@ -25,15 +25,15 @@
       "count": 3
     },
     {
-      "archetype": "U Terror",
+      "archetype": "Mono Blue Terror",
       "count": 2
     },
     {
-      "archetype": "UG Fog",
+      "archetype": "Mono Red Rally",
       "count": 1
     },
     {
-      "archetype": "Rally",
+      "archetype": "Simic Fog",
       "count": 1
     },
     {
@@ -47,7 +47,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-08-15",
       "player": "Luddrox",
-      "archetype": "UG Fog",
+      "archetype": "Simic Fog",
       "colors": [
         "U"
       ],
@@ -61,7 +61,7 @@
       "tournament": "pauper-league-2025-07-299366",
       "date": "2025-07-29",
       "player": "Luddrox",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
         "G"
@@ -76,7 +76,7 @@
       "tournament": "pauper-league-2025-07-289366",
       "date": "2025-07-28",
       "player": "Luddrox",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
         "G"
@@ -91,7 +91,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-07-27",
       "player": "Luddrox",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
         "G"
@@ -106,7 +106,7 @@
       "tournament": "pauper-league-2025-07-239366",
       "date": "2025-07-23",
       "player": "Luddrox",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
         "G"
@@ -121,7 +121,7 @@
       "tournament": "pauper-league-2025-07-229366",
       "date": "2025-07-22",
       "player": "Luddrox",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
         "G"
@@ -136,11 +136,10 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-07-20",
       "player": "Luddrox",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
       ],
       "record": "6-2",
       "final_rank": 6,
@@ -152,11 +151,10 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-07-19",
       "player": "Luddrox",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
       ],
       "record": "4-2",
       "final_rank": 19,
@@ -168,11 +166,40 @@
       "tournament": "pauper-league-2025-07-199366",
       "date": "2025-07-19",
       "player": "Luddrox",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-07-189366",
+      "tournament": "pauper-league-2025-07-189366",
+      "date": "2025-07-18",
+      "player": "Luddrox",
+      "archetype": "Spy Combo",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2025-07-189366",
+      "tournament": "pauper-league-2025-07-189366",
+      "date": "2025-07-18",
+      "player": "Luddrox",
+      "archetype": "Spy Combo",
+      "colors": [
+        "B",
+        "G"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -184,11 +211,10 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-07-18",
       "player": "Luddrox",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
       ],
       "record": "3-3",
       "final_rank": 26,
@@ -196,43 +222,11 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2025-07-189366",
-      "tournament": "pauper-league-2025-07-189366",
-      "date": "2025-07-18",
-      "player": "Luddrox",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-07-189366",
-      "tournament": "pauper-league-2025-07-189366",
-      "date": "2025-07-18",
-      "player": "Luddrox",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2025-07-159366",
       "tournament": "pauper-league-2025-07-159366",
       "date": "2025-07-15",
       "player": "Luddrox",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
         "G"
@@ -247,7 +241,7 @@
       "tournament": "pauper-league-2025-07-159366",
       "date": "2025-07-15",
       "player": "Luddrox",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
         "G"
@@ -262,9 +256,8 @@
       "tournament": "Pauper Showcase Challenge",
       "date": "2025-07-12",
       "player": "Luddrox",
-      "archetype": "U Terror",
+      "archetype": "Mono Blue Terror",
       "colors": [
-        "R",
         "U"
       ],
       "record": "6-3",
@@ -277,7 +270,7 @@
       "tournament": "pauper-league-2025-07-119366",
       "date": "2025-07-11",
       "player": "Luddrox",
-      "archetype": "Rally",
+      "archetype": "Mono Red Rally",
       "colors": [
         "G",
         "R"
@@ -286,6 +279,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-showcase-challenge-2025-06-0712792651",
+      "tournament": "Pauper Showcase Challenge",
+      "date": "2025-06-07",
+      "player": "Luddrox",
+      "archetype": "Mono Blue Terror",
+      "colors": [
+        "U"
+      ],
+      "record": "6-3",
+      "final_rank": 28,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2025-06-0712792692",
@@ -301,21 +308,6 @@
       ],
       "record": "3-3",
       "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-showcase-challenge-2025-06-0712792651",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2025-06-07",
-      "player": "Luddrox",
-      "archetype": "U Terror",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "6-3",
-      "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -346,8 +338,7 @@
         "B",
         "G",
         "R",
-        "U",
-        "W"
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,

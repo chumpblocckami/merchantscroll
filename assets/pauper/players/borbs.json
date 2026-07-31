@@ -17,27 +17,27 @@
   },
   "favorite_decks": [
     {
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "count": 11
     },
     {
-      "archetype": "Familiars",
+      "archetype": "Azorius Familiars",
       "count": 7
     },
     {
-      "archetype": "BW Refurbished",
+      "archetype": "Selesnya Gates",
       "count": 1
     },
     {
-      "archetype": "BR Affinity",
+      "archetype": "Orzhov Refurbished",
+      "count": 1
+    },
+    {
+      "archetype": "Rakdos Affinity",
       "count": 1
     },
     {
       "archetype": "Boros Glitter",
-      "count": 1
-    },
-    {
-      "archetype": "GW Gates",
       "count": 1
     }
   ],
@@ -47,7 +47,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-23",
       "player": "Borbs",
-      "archetype": "Familiars",
+      "archetype": "Azorius Familiars",
       "colors": [
         "R",
         "U",
@@ -63,7 +63,7 @@
       "tournament": "Pauper Last Chance",
       "date": "2026-07-21",
       "player": "Borbs",
-      "archetype": "Familiars",
+      "archetype": "Azorius Familiars",
       "colors": [
         "U",
         "W"
@@ -78,7 +78,7 @@
       "tournament": "Pauper League",
       "date": "2026-07-13",
       "player": "Borbs",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
         "G",
@@ -94,11 +94,10 @@
       "tournament": "Pauper League",
       "date": "2026-07-12",
       "player": "Borbs",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -110,7 +109,7 @@
       "tournament": "Pauper League",
       "date": "2026-07-03",
       "player": "Borbs",
-      "archetype": "BR Affinity",
+      "archetype": "Rakdos Affinity",
       "colors": [
         "B",
         "R",
@@ -126,7 +125,7 @@
       "tournament": "Pauper League",
       "date": "2026-06-17",
       "player": "Borbs",
-      "archetype": "BW Refurbished",
+      "archetype": "Orzhov Refurbished",
       "colors": [
         "B",
         "W"
@@ -141,11 +140,9 @@
       "tournament": "Pauper League",
       "date": "2026-05-14",
       "player": "Borbs",
-      "archetype": "GW Gates",
+      "archetype": "Selesnya Gates",
       "colors": [
-        "B",
         "G",
-        "R",
         "W"
       ],
       "record": "5-0",
@@ -158,9 +155,8 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-03-22",
       "player": "Borbs",
-      "archetype": "Familiars",
+      "archetype": "Azorius Familiars",
       "colors": [
-        "B",
         "U",
         "W"
       ],
@@ -174,7 +170,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-03-05",
       "player": "Borbs",
-      "archetype": "Familiars",
+      "archetype": "Azorius Familiars",
       "colors": [
         "U",
         "W"
@@ -189,30 +185,13 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-23",
       "player": "Borbs",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
       ],
       "record": "3-3",
       "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-01-1512830022",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-15",
-      "player": "Borbs",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 16,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -221,11 +200,10 @@
       "tournament": "pauper-league-2026-01-159987",
       "date": "2026-01-15",
       "player": "Borbs",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -233,15 +211,29 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-challenge-32-2026-01-1512830022",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-01-15",
+      "player": "Borbs",
+      "archetype": "Spy Combo",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "4-2",
+      "final_rank": 16,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-01-0812829339",
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-08",
       "player": "Borbs",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
       ],
       "record": "3-3",
       "final_rank": 30,
@@ -253,11 +245,10 @@
       "tournament": "pauper-league-2026-01-069987",
       "date": "2026-01-06",
       "player": "Borbs",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -269,11 +260,10 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-04",
       "player": "Borbs",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
       ],
       "record": "7-3",
       "final_rank": 2,
@@ -285,11 +275,10 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-12-27",
       "player": "Borbs",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
       ],
       "record": "4-2",
       "final_rank": null,
@@ -301,7 +290,7 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-12-18",
       "player": "Borbs",
-      "archetype": "Familiars",
+      "archetype": "Azorius Familiars",
       "colors": [
         "U",
         "W"
@@ -316,11 +305,10 @@
       "tournament": "pauper-league-2025-12-169987",
       "date": "2025-12-16",
       "player": "Borbs",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -332,7 +320,7 @@
       "tournament": "Pauper Challenge 32 Special",
       "date": "2025-11-11",
       "player": "Borbs",
-      "archetype": "Familiars",
+      "archetype": "Azorius Familiars",
       "colors": [
         "U",
         "W"
@@ -347,7 +335,7 @@
       "tournament": "pauper-league-2025-11-069750",
       "date": "2025-11-06",
       "player": "Borbs",
-      "archetype": "Familiars",
+      "archetype": "Azorius Familiars",
       "colors": [
         "U",
         "W"
@@ -362,7 +350,7 @@
       "tournament": "pauper-league-2025-08-029535",
       "date": "2025-08-02",
       "player": "Borbs",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
         "G",

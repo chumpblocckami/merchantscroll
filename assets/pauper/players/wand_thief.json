@@ -17,15 +17,15 @@
   },
   "favorite_decks": [
     {
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "count": 10
     },
     {
-      "archetype": "Cawgate",
+      "archetype": "Naya Gates",
       "count": 3
     },
     {
-      "archetype": "Naya Gates",
+      "archetype": "Cawgate",
       "count": 3
     },
     {
@@ -33,27 +33,27 @@
       "count": 2
     },
     {
+      "archetype": "Gruul Monsters",
+      "count": 1
+    },
+    {
+      "archetype": "Bogles",
+      "count": 1
+    },
+    {
+      "archetype": "Selesnya Gates",
+      "count": 1
+    },
+    {
       "archetype": "Boros Glitter",
       "count": 1
     },
     {
-      "archetype": "GW Gates",
-      "count": 1
-    },
-    {
-      "archetype": "Bogle",
+      "archetype": "Rakdos Madness",
       "count": 1
     },
     {
       "archetype": "Elves",
-      "count": 1
-    },
-    {
-      "archetype": "BR Madness",
-      "count": 1
-    },
-    {
-      "archetype": "Monsters",
       "count": 1
     }
   ],
@@ -65,10 +65,8 @@
       "player": "wand_thief",
       "archetype": "Naya Gates",
       "colors": [
-        "B",
         "G",
         "R",
-        "U",
         "W"
       ],
       "record": "3-3",
@@ -83,10 +81,8 @@
       "player": "wand_thief",
       "archetype": "Naya Gates",
       "colors": [
-        "B",
         "G",
         "R",
-        "U",
         "W"
       ],
       "record": "5-0",
@@ -101,10 +97,8 @@
       "player": "wand_thief",
       "archetype": "Naya Gates",
       "colors": [
-        "B",
         "G",
         "R",
-        "U",
         "W"
       ],
       "record": "5-0",
@@ -117,27 +111,10 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
       "player": "wand_thief",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
-        "G",
-        "R"
-      ],
-      "record": "5-2",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0212844295",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-11",
-      "player": "wand_thief",
-      "archetype": "Spy",
-      "colors": [
-        "B",
-        "G",
-        "R"
+        "G"
       ],
       "record": "5-2",
       "final_rank": 5,
@@ -149,11 +126,25 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
       "player": "wand_thief",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
+      ],
+      "record": "5-2",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0212844295",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-11",
+      "player": "wand_thief",
+      "archetype": "Spy Combo",
+      "colors": [
+        "B",
+        "G"
       ],
       "record": "5-2",
       "final_rank": 5,
@@ -165,7 +156,7 @@
       "tournament": "Pauper League",
       "date": "2026-05-23",
       "player": "wand_thief",
-      "archetype": "Monsters",
+      "archetype": "Gruul Monsters",
       "colors": [
         "G",
         "R"
@@ -180,9 +171,8 @@
       "tournament": "Pauper Challenge 32",
       "date": "2026-04-24",
       "player": "wand_thief",
-      "archetype": "GW Gates",
+      "archetype": "Selesnya Gates",
       "colors": [
-        "B",
         "G",
         "R",
         "W"
@@ -199,7 +189,6 @@
       "player": "wand_thief",
       "archetype": "Elves",
       "colors": [
-        "B",
         "G",
         "R"
       ],
@@ -229,7 +218,7 @@
       "tournament": "pauper-league-2025-12-319987",
       "date": "2025-12-31",
       "player": "wand_thief",
-      "archetype": "Bogle",
+      "archetype": "Bogles",
       "colors": [
         "G",
         "R",
@@ -273,15 +262,14 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-special-2025-11-1312824394",
+      "site_name": "pauper-challenge-32-special-2025-11-1212824394",
       "tournament": "Pauper Challenge 32 Special",
       "date": "2025-11-13",
       "player": "wand_thief",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
       ],
       "record": "4-3",
       "final_rank": 7,
@@ -289,15 +277,14 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-special-2025-11-1212824394",
+      "site_name": "pauper-challenge-32-special-2025-11-1312824394",
       "tournament": "Pauper Challenge 32 Special",
       "date": "2025-11-13",
       "player": "wand_thief",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
       ],
       "record": "4-3",
       "final_rank": 7,
@@ -309,11 +296,10 @@
       "tournament": "pauper-league-2025-11-089750",
       "date": "2025-11-08",
       "player": "wand_thief",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -327,7 +313,6 @@
       "player": "wand_thief",
       "archetype": "Cawgate",
       "colors": [
-        "R",
         "U",
         "W"
       ],
@@ -343,7 +328,6 @@
       "player": "wand_thief",
       "archetype": "Cawgate",
       "colors": [
-        "R",
         "U",
         "W"
       ],
@@ -357,11 +341,10 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-10-03",
       "player": "wand_thief",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
       ],
       "record": "6-2",
       "final_rank": 3,
@@ -373,11 +356,10 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-07-27",
       "player": "wand_thief",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
       ],
       "record": "5-2",
       "final_rank": 9,
@@ -389,11 +371,10 @@
       "tournament": "pauper-league-2025-07-229366",
       "date": "2025-07-22",
       "player": "wand_thief",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -405,12 +386,10 @@
       "tournament": "Pauper Challenge 32",
       "date": "2025-07-13",
       "player": "wand_thief",
-      "archetype": "Spy",
+      "archetype": "Spy Combo",
       "colors": [
         "B",
-        "G",
-        "R",
-        "U"
+        "G"
       ],
       "record": "4-2",
       "final_rank": 10,
@@ -422,11 +401,10 @@
       "tournament": "pauper-league-2025-05-199081",
       "date": "2025-05-19",
       "player": "wand_thief",
-      "archetype": "BR Madness",
+      "archetype": "Rakdos Madness",
       "colors": [
         "B",
-        "R",
-        "U"
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -440,7 +418,6 @@
       "player": "wand_thief",
       "archetype": "Cawgate",
       "colors": [
-        "R",
         "U",
         "W"
       ],

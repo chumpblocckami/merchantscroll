@@ -3,3 +3,6 @@ __pycache__/
 *.pyc
 
 tests/screenshots/mobile/*.png
+
+# Local secrets - never commit
+.env

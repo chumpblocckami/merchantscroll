@@ -17,23 +17,19 @@
   },
   "favorite_decks": [
     {
+      "archetype": "Azorius Familiars",
+      "count": 2
+    },
+    {
       "archetype": "Dredge",
       "count": 2
     },
     {
-      "archetype": "Familiars",
-      "count": 2
-    },
-    {
-      "archetype": "U Faeries",
+      "archetype": "Jund Gardens",
       "count": 1
     },
     {
-      "archetype": "Affinity",
-      "count": 1
-    },
-    {
-      "archetype": "UR Control",
+      "archetype": "Izzet Control",
       "count": 1
     },
     {
@@ -41,7 +37,11 @@
       "count": 1
     },
     {
-      "archetype": "Jund Gardens",
+      "archetype": "Mono Blue Faeries",
+      "count": 1
+    },
+    {
+      "archetype": "Affinity",
       "count": 1
     }
   ],
@@ -67,7 +67,7 @@
       "tournament": "pauper-league-2025-12-239987",
       "date": "2025-12-23",
       "player": "ragnarok1997",
-      "archetype": "U Faeries",
+      "archetype": "Mono Blue Faeries",
       "colors": [
         "B",
         "U"
@@ -82,7 +82,7 @@
       "tournament": "pauper-league-2025-11-229987",
       "date": "2025-11-22",
       "player": "ragnarok1997",
-      "archetype": "UR Control",
+      "archetype": "Izzet Control",
       "colors": [
         "R",
         "U"
@@ -113,7 +113,7 @@
       "tournament": "pauper-league-2025-07-019366",
       "date": "2025-07-01",
       "player": "ragnarok1997",
-      "archetype": "Familiars",
+      "archetype": "Azorius Familiars",
       "colors": [
         "U",
         "W"
@@ -128,7 +128,7 @@
       "tournament": "pauper-league-2025-06-239366",
       "date": "2025-06-23",
       "player": "ragnarok1997",
-      "archetype": "Familiars",
+      "archetype": "Azorius Familiars",
       "colors": [
         "U",
         "W"
@@ -147,8 +147,6 @@
       "colors": [
         "B",
         "G",
-        "R",
-        "U",
         "W"
       ],
       "record": "5-0",
@@ -165,8 +163,6 @@
       "colors": [
         "B",
         "G",
-        "R",
-        "U",
         "W"
       ],
       "record": "5-0",
@@ -182,8 +178,7 @@
       "archetype": "Altar Tron",
       "colors": [
         "B",
-        "G",
-        "R"
+        "G"
       ],
       "record": "5-0",
       "final_rank": null,
