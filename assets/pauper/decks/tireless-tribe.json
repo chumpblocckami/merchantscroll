@@ -2,10 +2,10 @@
   "archetype": "Tireless Tribe",
   "slug": "tireless-tribe",
   "stats": {
-    "total_entries": 115,
-    "league_entries": 62,
-    "league_trophies": 62,
-    "league_trophies_yearly": 62,
+    "total_entries": 116,
+    "league_entries": 63,
+    "league_trophies": 63,
+    "league_trophies_yearly": 63,
     "challenge_appearances": 45,
     "challenge_wins": 170,
     "challenge_losses": 118,
@@ -13,10 +13,25 @@
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 28,
     "league_trophy_rank_alltime": 38,
-    "league_trophy_decks_yearly": 61,
-    "league_trophy_decks_alltime": 65
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 70
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-2912848254",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-29",
+      "player": "grymn",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-2910855",
       "tournament": "Pauper League",
@@ -33,19 +48,19 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-2912848254",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-29",
-      "player": "grymn",
+      "site_name": "pauper-league-2026-07-2810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-28",
+      "player": "makoeyesX",
       "colors": [
         "R",
         "U",
         "W"
       ],
-      "record": "4-2",
-      "final_rank": 11,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-2210855",
@@ -63,7 +78,7 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1812847695",
+      "site_name": "pauper-challenge-32-2026-07-1912847695",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-18",
       "player": "Emogoblin",
@@ -78,7 +93,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1912847695",
+      "site_name": "pauper-challenge-32-2026-07-1812847695",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-18",
       "player": "Emogoblin",
@@ -108,7 +123,7 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1812847682",
+      "site_name": "pauper-challenge-32-2026-07-1612847682",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-17",
       "player": "Sandokan92",
@@ -153,7 +168,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1612847682",
+      "site_name": "pauper-challenge-32-2026-07-1812847682",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-17",
       "player": "Sandokan92",
@@ -348,22 +363,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0412846485",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-04",
-      "player": "PNascimento",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-07-0312846485",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-04",
@@ -380,19 +379,20 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-07-0310855",
-      "tournament": "Pauper League",
-      "date": "2026-07-03",
-      "player": "NMT_Sco94",
+      "site_name": "pauper-challenge-32-2026-07-0412846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "PNascimento",
       "colors": [
+        "G",
         "R",
         "U",
         "W"
       ],
-      "record": "5-0",
-      "final_rank": null,
+      "record": "3-3",
+      "final_rank": 24,
       "source": "mtgo",
-      "type": "league"
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -417,23 +417,23 @@
       "count": 6
     },
     {
+      "player": "NMT_Sco94",
+      "count": 4
+    },
+    {
       "player": "Lee_Sang",
       "count": 4
     },
     {
-      "player": "NMT_Sco94",
-      "count": 4
+      "player": "Enz091",
+      "count": 3
     },
     {
       "player": "Aldreen",
       "count": 3
     },
     {
-      "player": "RubensNetto",
-      "count": 3
-    },
-    {
-      "player": "Enz091",
+      "player": "Kiyocore",
       "count": 3
     }
   ]

@@ -2,21 +2,36 @@
   "archetype": "Rakdos Affinity",
   "slug": "rakdos-affinity",
   "stats": {
-    "total_entries": 35,
-    "league_entries": 10,
-    "league_trophies": 10,
-    "league_trophies_yearly": 10,
+    "total_entries": 36,
+    "league_entries": 11,
+    "league_trophies": 11,
+    "league_trophies_yearly": 11,
     "challenge_appearances": 20,
     "challenge_wins": 67,
     "challenge_losses": 58,
     "irl_top8": 2,
     "challenge_win_pct": 54,
-    "league_trophy_rank_yearly": 47,
-    "league_trophy_rank_alltime": 50,
-    "league_trophy_decks_yearly": 61,
-    "league_trophy_decks_alltime": 65
+    "league_trophy_rank_yearly": 46,
+    "league_trophy_rank_alltime": 49,
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 70
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-28",
+      "player": "lindoso01",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
       "tournament": "Pauper Showcase Qualifier",
@@ -33,6 +48,20 @@
       "type": "showcase"
     },
     {
+      "site_name": "pauper-league-2026-07-2110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-21",
+      "player": "qbturtle15",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-last-chance-2026-07-2112847730",
       "tournament": "Pauper Last Chance",
       "date": "2026-07-21",
@@ -46,20 +75,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-21",
-      "player": "qbturtle15",
-      "colors": [
-        "B",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-1310855",
@@ -332,20 +347,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2412845625",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "s8shock",
-      "colors": [
-        "B",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-06-2512845625",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
@@ -375,17 +376,16 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2112844875",
+      "site_name": "pauper-challenge-32-2026-06-2412845625",
       "tournament": "Pauper Challenge 32",
-      "date": "2026-06-21",
-      "player": "AlessandroPiraccini",
+      "date": "2026-06-24",
+      "player": "s8shock",
       "colors": [
         "B",
-        "R",
-        "U"
+        "R"
       ],
-      "record": "4-3",
-      "final_rank": 24,
+      "record": "3-3",
+      "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
     }
@@ -396,15 +396,7 @@
       "count": 4
     },
     {
-      "player": "3draw_TANO",
-      "count": 3
-    },
-    {
-      "player": "manohito",
-      "count": 3
-    },
-    {
-      "player": "Pafru",
+      "player": "Brasatore",
       "count": 3
     },
     {
@@ -412,12 +404,24 @@
       "count": 3
     },
     {
+      "player": "Pafru",
+      "count": 3
+    },
+    {
       "player": "_blaze66",
       "count": 3
     },
     {
-      "player": "Brasatore",
+      "player": "manohito",
       "count": 3
+    },
+    {
+      "player": "3draw_TANO",
+      "count": 3
+    },
+    {
+      "player": "s8shock",
+      "count": 2
     },
     {
       "player": "Pilot83",
@@ -425,10 +429,6 @@
     },
     {
       "player": "Thn",
-      "count": 2
-    },
-    {
-      "player": "s8shock",
       "count": 2
     }
   ]

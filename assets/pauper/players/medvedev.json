@@ -11,9 +11,9 @@
     "irl_top8": 0,
     "challenge_win_pct": 51,
     "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 1103,
-    "league_trophy_players_yearly": 1371,
-    "league_trophy_players_alltime": 2075
+    "league_trophy_rank_alltime": 1106,
+    "league_trophy_players_yearly": 1378,
+    "league_trophy_players_alltime": 2081
   },
   "favorite_decks": [
     {
@@ -21,15 +21,15 @@
       "count": 5
     },
     {
-      "archetype": "Cawgate",
-      "count": 4
-    },
-    {
       "archetype": "Spy Combo",
       "count": 4
     },
     {
-      "archetype": "Mono Blue Terror",
+      "archetype": "Cawgate",
+      "count": 4
+    },
+    {
+      "archetype": "Mono Blue Faeries",
       "count": 3
     },
     {
@@ -37,11 +37,11 @@
       "count": 3
     },
     {
-      "archetype": "Mono Blue Faeries",
+      "archetype": "Mono Blue Terror",
       "count": 3
     },
     {
-      "archetype": "Dimir Terror",
+      "archetype": "Tireless Tribe",
       "count": 1
     },
     {
@@ -53,7 +53,7 @@
       "count": 1
     },
     {
-      "archetype": "Tireless Tribe",
+      "archetype": "Dimir Terror",
       "count": 1
     }
   ],
@@ -75,7 +75,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0812846623",
+      "site_name": "pauper-challenge-32-2026-07-0612846623",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-08",
       "player": "medvedev",
@@ -90,7 +90,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0612846623",
+      "site_name": "pauper-challenge-32-2026-07-0812846623",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-08",
       "player": "medvedev",
@@ -300,20 +300,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-last-chance-2025-08-1212807514",
-      "tournament": "Pauper Last Chance",
-      "date": "2025-08-12",
-      "player": "medvedev",
-      "archetype": "Mono Blue Terror",
-      "colors": [
-        "U"
-      ],
-      "record": "3-2",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
       "site_name": "pauper-last-chance-2025-08-1212807516",
       "tournament": "Pauper Last Chance",
       "date": "2025-08-12",
@@ -323,6 +309,20 @@
         "U"
       ],
       "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2025-08-1212807514",
+      "tournament": "Pauper Last Chance",
+      "date": "2025-08-12",
+      "player": "medvedev",
+      "archetype": "Mono Blue Terror",
+      "colors": [
+        "U"
+      ],
+      "record": "3-2",
       "final_rank": null,
       "source": "mtgo",
       "type": "other"

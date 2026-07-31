@@ -10,10 +10,10 @@
     "challenge_losses": 15,
     "irl_top8": 0,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 393,
-    "league_trophy_rank_alltime": 306,
-    "league_trophy_players_yearly": 1371,
-    "league_trophy_players_alltime": 2075
+    "league_trophy_rank_yearly": 395,
+    "league_trophy_rank_alltime": 309,
+    "league_trophy_players_yearly": 1378,
+    "league_trophy_players_alltime": 2081
   },
   "favorite_decks": [
     {
@@ -37,15 +37,15 @@
       "count": 1
     },
     {
+      "archetype": "Rakdos Madness",
+      "count": 1
+    },
+    {
       "archetype": "Dimir Control",
       "count": 1
     },
     {
       "archetype": "Elves",
-      "count": 1
-    },
-    {
-      "archetype": "Rakdos Madness",
       "count": 1
     }
   ],
@@ -83,21 +83,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-05-0710636",
-      "tournament": "Pauper League",
-      "date": "2026-05-07",
-      "player": "Cabz",
-      "archetype": "Mono Red Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-05-0712842061",
       "tournament": "Pauper Challenge 32",
       "date": "2026-05-07",
@@ -113,19 +98,19 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-05-0312841375",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-03",
+      "site_name": "pauper-league-2026-05-0710636",
+      "tournament": "Pauper League",
+      "date": "2026-05-07",
       "player": "Cabz",
       "archetype": "Mono Red Rally",
       "colors": [
         "G",
         "R"
       ],
-      "record": "9-0",
-      "final_rank": 1,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-05-0310636",
@@ -141,6 +126,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-05-0312841375",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-05-03",
+      "player": "Cabz",
+      "archetype": "Mono Red Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "9-0",
+      "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-league-2025-11-139750",

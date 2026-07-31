@@ -2,37 +2,21 @@
   "archetype": "Altar Tron",
   "slug": "altar-tron",
   "stats": {
-    "total_entries": 199,
-    "league_entries": 131,
-    "league_trophies": 131,
-    "league_trophies_yearly": 34,
+    "total_entries": 198,
+    "league_entries": 130,
+    "league_trophies": 130,
+    "league_trophies_yearly": 33,
     "challenge_appearances": 50,
     "challenge_wins": 191,
     "challenge_losses": 129,
     "irl_top8": 10,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 34,
+    "league_trophy_rank_yearly": 36,
     "league_trophy_rank_alltime": 26,
-    "league_trophy_decks_yearly": 61,
-    "league_trophy_decks_alltime": 65
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 70
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-07-3010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-30",
-      "player": "Huskyman20035",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-league-2026-07-2310855",
       "tournament": "Pauper League",
@@ -80,6 +64,22 @@
       "type": "other"
     },
     {
+      "site_name": "pauper-last-chance-2026-07-2012847724",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-20",
+      "player": "Fragoel2",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "2-2",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
       "site_name": "pauper-league-2026-07-2010855",
       "tournament": "Pauper League",
       "date": "2026-07-20",
@@ -110,22 +110,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2012847724",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-20",
-      "player": "Fragoel2",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "2-2",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
     },
     {
       "site_name": "pauper-league-2026-07-1910855",
@@ -236,20 +220,6 @@
       "type": "irl"
     },
     {
-      "site_name": "pauperwave-2026-06-21-pauperustico-2026",
-      "tournament": "Pauperustico 2026 — Lecce",
-      "date": "2026-06-21",
-      "player": "Simone Caschetta",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "",
-      "final_rank": 5,
-      "source": "pauperwave",
-      "type": "irl"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-06-2112844875",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-21",
@@ -276,6 +246,20 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauperwave-2026-06-21-pauperustico-2026",
+      "tournament": "Pauperustico 2026 — Lecce",
+      "date": "2026-06-21",
+      "player": "Simone Caschetta",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
     },
     {
       "site_name": "pauper-league-2026-06-2010636",
@@ -335,7 +319,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1112844295",
+      "site_name": "pauper-challenge-32-2026-06-0212844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
       "player": "Entropy263",
@@ -350,7 +334,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-0212844295",
+      "site_name": "pauper-challenge-32-2026-06-1112844295",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-11",
       "player": "Entropy263",
@@ -392,6 +376,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-06-0510636",
+      "tournament": "Pauper League",
+      "date": "2026-06-05",
+      "player": "Entropy263",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -420,11 +419,11 @@
       "count": 8
     },
     {
-      "player": "3vildr4k3",
+      "player": "BERNASTORRES",
       "count": 7
     },
     {
-      "player": "BERNASTORRES",
+      "player": "3vildr4k3",
       "count": 7
     },
     {

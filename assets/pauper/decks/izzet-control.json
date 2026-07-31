@@ -2,10 +2,10 @@
   "archetype": "Izzet Control",
   "slug": "izzet-control",
   "stats": {
-    "total_entries": 207,
-    "league_entries": 126,
-    "league_trophies": 126,
-    "league_trophies_yearly": 51,
+    "total_entries": 210,
+    "league_entries": 129,
+    "league_trophies": 129,
+    "league_trophies_yearly": 54,
     "challenge_appearances": 70,
     "challenge_wins": 290,
     "challenge_losses": 173,
@@ -13,10 +13,53 @@
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 29,
     "league_trophy_rank_alltime": 27,
-    "league_trophy_decks_yearly": 61,
-    "league_trophy_decks_alltime": 65
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 70
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-3110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-31",
+      "player": "Loerien",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-28",
+      "player": "roger__estrada",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-27",
+      "player": "roger__estrada",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-2210855",
       "tournament": "Pauper League",
@@ -246,21 +289,6 @@
       "type": "irl"
     },
     {
-      "site_name": "pauper-showcase-challenge-2026-06-2012844285",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2026-06-14",
-      "player": "SpockVidaLoka",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "6-3",
-      "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-06-1212844338",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-14",
@@ -272,6 +300,21 @@
       ],
       "record": "4-2",
       "final_rank": 15,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-showcase-challenge-2026-06-2012844285",
+      "tournament": "Pauper Showcase Challenge",
+      "date": "2026-06-14",
+      "player": "SpockVidaLoka",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "6-3",
+      "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -332,50 +375,6 @@
       "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1112844295",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-11",
-      "player": "kuszlik",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1110636",
-      "tournament": "Pauper League",
-      "date": "2026-06-11",
-      "player": "ZobLeBerger",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1010636",
-      "tournament": "Pauper League",
-      "date": "2026-06-10",
-      "player": "Brvnx",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -384,11 +383,11 @@
       "count": 31
     },
     {
-      "player": "vikizin",
-      "count": 16
+      "player": "roger__estrada",
+      "count": 18
     },
     {
-      "player": "roger__estrada",
+      "player": "vikizin",
       "count": 16
     },
     {
@@ -412,11 +411,11 @@
       "count": 5
     },
     {
-      "player": "TSPJendrek",
+      "player": "andredoriaa",
       "count": 4
     },
     {
-      "player": "Al_bertoR",
+      "player": "TSPJendrek",
       "count": 4
     }
   ]

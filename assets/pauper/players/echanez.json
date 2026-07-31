@@ -10,10 +10,10 @@
     "challenge_losses": 43,
     "irl_top8": 0,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 73,
+    "league_trophy_rank_yearly": 74,
     "league_trophy_rank_alltime": 68,
-    "league_trophy_players_yearly": 1371,
-    "league_trophy_players_alltime": 2075
+    "league_trophy_players_yearly": 1378,
+    "league_trophy_players_alltime": 2081
   },
   "favorite_decks": [
     {
@@ -33,14 +33,6 @@
       "count": 3
     },
     {
-      "archetype": "Mono Blue Terror",
-      "count": 2
-    },
-    {
-      "archetype": "Food Pestilence",
-      "count": 2
-    },
-    {
       "archetype": "Mono Red Madness",
       "count": 2
     },
@@ -49,11 +41,19 @@
       "count": 2
     },
     {
-      "archetype": "Walls",
+      "archetype": "Mono Blue Terror",
+      "count": 2
+    },
+    {
+      "archetype": "Food Pestilence",
+      "count": 2
+    },
+    {
+      "archetype": "White Weenie",
       "count": 1
     },
     {
-      "archetype": "Jund Wildfire",
+      "archetype": "Orzhov Refurbished",
       "count": 1
     }
   ],
@@ -224,7 +224,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2025-03-1712844320",
+      "site_name": "pauper-challenge-32-2026-06-1312844320",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-13",
       "player": "Echanez",
@@ -239,7 +239,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1312844320",
+      "site_name": "pauper-challenge-32-2025-03-1712844320",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-13",
       "player": "Echanez",
@@ -395,22 +395,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-04-1812839685",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-18",
-      "player": "Echanez",
-      "archetype": "Food Pestilence",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-04-1810405",
       "tournament": "Pauper League",
       "date": "2026-04-18",
@@ -425,6 +409,22 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-04-1812839685",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-04-18",
+      "player": "Echanez",
+      "archetype": "Food Pestilence",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 15,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-league-2026-03-1710405",

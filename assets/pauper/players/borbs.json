@@ -10,10 +10,10 @@
     "challenge_losses": 27,
     "irl_top8": 0,
     "challenge_win_pct": 59,
-    "league_trophy_rank_yearly": 148,
-    "league_trophy_rank_alltime": 198,
-    "league_trophy_players_yearly": 1371,
-    "league_trophy_players_alltime": 2075
+    "league_trophy_rank_yearly": 150,
+    "league_trophy_rank_alltime": 199,
+    "league_trophy_players_yearly": 1378,
+    "league_trophy_players_alltime": 2081
   },
   "favorite_decks": [
     {
@@ -25,10 +25,6 @@
       "count": 7
     },
     {
-      "archetype": "Selesnya Gates",
-      "count": 1
-    },
-    {
       "archetype": "Orzhov Refurbished",
       "count": 1
     },
@@ -38,6 +34,10 @@
     },
     {
       "archetype": "Boros Glitter",
+      "count": 1
+    },
+    {
+      "archetype": "Selesnya Gates",
       "count": 1
     }
   ],
@@ -196,21 +196,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-01-159987",
-      "tournament": "pauper-league-2026-01-159987",
-      "date": "2026-01-15",
-      "player": "Borbs",
-      "archetype": "Spy Combo",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-01-1512830022",
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-15",
@@ -224,6 +209,21 @@
       "final_rank": 16,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-01-159987",
+      "tournament": "pauper-league-2026-01-159987",
+      "date": "2026-01-15",
+      "player": "Borbs",
+      "archetype": "Spy Combo",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-01-0812829339",

@@ -2,10 +2,10 @@
   "archetype": "Orzhov Refurbished",
   "slug": "orzhov-refurbished",
   "stats": {
-    "total_entries": 372,
-    "league_entries": 208,
-    "league_trophies": 208,
-    "league_trophies_yearly": 95,
+    "total_entries": 370,
+    "league_entries": 206,
+    "league_trophies": 206,
+    "league_trophies_yearly": 93,
     "challenge_appearances": 157,
     "challenge_wins": 592,
     "challenge_losses": 408,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 20,
     "league_trophy_rank_alltime": 19,
-    "league_trophy_decks_yearly": 61,
-    "league_trophy_decks_alltime": 65
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 70
   },
   "recent_entries": [
     {
@@ -30,34 +30,6 @@
       "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-29",
-      "player": "k1x",
-      "colors": [
-        "B",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2610855",
-      "tournament": "Pauper League",
-      "date": "2026-07-26",
-      "player": "Vaan_3",
-      "colors": [
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-2412848188",
@@ -102,6 +74,20 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-league-2026-07-2210855",
+      "tournament": "Pauper League",
+      "date": "2026-07-22",
+      "player": "mariogomes097",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-2212848161",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-22",
@@ -130,18 +116,18 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-07-2210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-22",
-      "player": "mariogomes097",
+      "site_name": "pauper-last-chance-2026-07-2012847724",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-20",
+      "player": "Mankeke",
       "colors": [
         "B",
         "W"
       ],
-      "record": "5-0",
+      "record": "3-2",
       "final_rank": null,
       "source": "mtgo",
-      "type": "league"
+      "type": "other"
     },
     {
       "site_name": "pauper-league-2026-07-2010855",
@@ -156,20 +142,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2012847724",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-20",
-      "player": "Mankeke",
-      "colors": [
-        "B",
-        "W"
-      ],
-      "record": "3-2",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
     },
     {
       "site_name": "pauper-league-2026-07-1910855",
@@ -371,6 +343,34 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0512846504",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-05",
+      "player": "viashinoperuano",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 21,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0410855",
+      "tournament": "Pauper League",
+      "date": "2026-07-04",
+      "player": "Frank_Bonaparte",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -403,15 +403,15 @@
       "count": 9
     },
     {
+      "player": "Hoarse_Duck",
+      "count": 8
+    },
+    {
       "player": "gasimpar",
       "count": 8
     },
     {
       "player": "T-Wilder",
-      "count": 8
-    },
-    {
-      "player": "Hoarse_Duck",
       "count": 8
     }
   ]

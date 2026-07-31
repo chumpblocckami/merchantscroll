@@ -2,10 +2,10 @@
   "archetype": "Dredge",
   "slug": "dredge",
   "stats": {
-    "total_entries": 203,
-    "league_entries": 93,
-    "league_trophies": 93,
-    "league_trophies_yearly": 30,
+    "total_entries": 204,
+    "league_entries": 94,
+    "league_trophies": 94,
+    "league_trophies_yearly": 31,
     "challenge_appearances": 96,
     "challenge_wins": 397,
     "challenge_losses": 229,
@@ -13,12 +13,27 @@
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 37,
     "league_trophy_rank_alltime": 35,
-    "league_trophy_decks_yearly": 61,
-    "league_trophy_decks_alltime": 65
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 70
   },
   "recent_entries": [
     {
-      "site_name": "pauper-challenge-32-2026-07-1812847695",
+      "site_name": "pauper-league-2026-07-2710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-27",
+      "player": "Natalino_91",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1912847695",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-18",
       "player": "Yagu",
@@ -32,7 +47,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1912847695",
+      "site_name": "pauper-challenge-32-2026-07-1812847695",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-18",
       "player": "Yagu",
@@ -377,21 +392,6 @@
       "final_rank": 5,
       "source": "pauperwave",
       "type": "irl"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-0512834483",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-05",
-      "player": "seasonofmists",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-2",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -405,7 +405,7 @@
     },
     {
       "player": "Natalino_91",
-      "count": 16
+      "count": 17
     },
     {
       "player": "AguaTonificada",
@@ -432,7 +432,7 @@
       "count": 4
     },
     {
-      "player": "Casanova_13",
+      "player": "Mansueto",
       "count": 3
     }
   ]

@@ -2,10 +2,10 @@
   "archetype": "Mono Black Sacrifice",
   "slug": "mono-black-sacrifice",
   "stats": {
-    "total_entries": 320,
-    "league_entries": 216,
-    "league_trophies": 216,
-    "league_trophies_yearly": 96,
+    "total_entries": 321,
+    "league_entries": 217,
+    "league_trophies": 217,
+    "league_trophies_yearly": 97,
     "challenge_appearances": 91,
     "challenge_wins": 378,
     "challenge_losses": 225,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 19,
     "league_trophy_rank_alltime": 16,
-    "league_trophy_decks_yearly": 61,
-    "league_trophy_decks_alltime": 65
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 70
   },
   "recent_entries": [
     {
@@ -22,6 +22,19 @@
       "tournament": "Pauper League",
       "date": "2026-07-31",
       "player": "Cryomanc3r",
+      "colors": [
+        "B"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-28",
+      "player": "airplay",
       "colors": [
         "B"
       ],
@@ -70,17 +83,17 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-2212848161",
-      "tournament": "Pauper Challenge 32",
+      "site_name": "pauper-last-chance-2026-07-2212847741",
+      "tournament": "Pauper Last Chance",
       "date": "2026-07-22",
       "player": "airplay",
       "colors": [
         "B"
       ],
-      "record": "2-4",
-      "final_rank": 25,
+      "record": "3-2",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "other"
     },
     {
       "site_name": "pauper-league-2026-07-2210855",
@@ -96,17 +109,17 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-last-chance-2026-07-2212847741",
-      "tournament": "Pauper Last Chance",
+      "site_name": "pauper-challenge-32-2026-07-2212848161",
+      "tournament": "Pauper Challenge 32",
       "date": "2026-07-22",
       "player": "airplay",
       "colors": [
         "B"
       ],
-      "record": "3-2",
-      "final_rank": null,
+      "record": "2-4",
+      "final_rank": 25,
       "source": "mtgo",
-      "type": "other"
+      "type": "challenge"
     },
     {
       "site_name": "pauper-league-2026-07-2010855",
@@ -187,7 +200,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1412847113",
+      "site_name": "pauper-challenge-32-2026-07-0912847113",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-10",
       "player": "airplay",
@@ -200,7 +213,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0912847113",
+      "site_name": "pauper-challenge-32-2026-07-1412847113",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-10",
       "player": "airplay",
@@ -226,7 +239,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0812846623",
+      "site_name": "pauper-challenge-32-2026-07-0612846623",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-08",
       "player": "airplay",
@@ -239,7 +252,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0612846623",
+      "site_name": "pauper-challenge-32-2026-07-0812846623",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-08",
       "player": "airplay",
@@ -328,19 +341,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0310855",
-      "tournament": "Pauper League",
-      "date": "2026-07-03",
-      "player": "Regis_Hangar49",
-      "colors": [
-        "B"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -350,7 +350,7 @@
     },
     {
       "player": "airplay",
-      "count": 44
+      "count": 45
     },
     {
       "player": "Cryomanc3r",
@@ -377,11 +377,11 @@
       "count": 7
     },
     {
-      "player": "dannyground",
+      "player": "SavSave",
       "count": 4
     },
     {
-      "player": "SavSave",
+      "player": "dannyground",
       "count": 4
     }
   ]

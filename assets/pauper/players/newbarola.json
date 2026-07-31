@@ -12,8 +12,8 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 1,
     "league_trophy_rank_alltime": 8,
-    "league_trophy_players_yearly": 1371,
-    "league_trophy_players_alltime": 2075
+    "league_trophy_players_yearly": 1378,
+    "league_trophy_players_alltime": 2081
   },
   "favorite_decks": [
     {
@@ -49,17 +49,17 @@
       "count": 3
     },
     {
-      "archetype": "Mono White Heroic",
+      "archetype": "Jeskai Ephemerate",
       "count": 2
     },
     {
-      "archetype": "Gruul Monsters",
+      "archetype": "Mono White Heroic",
       "count": 2
     }
   ],
   "recent_entries": [
     {
-      "site_name": "pauper-challenge-32-2026-07-1812847695",
+      "site_name": "pauper-challenge-32-2026-07-1912847695",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-18",
       "player": "newbarola",
@@ -75,7 +75,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1912847695",
+      "site_name": "pauper-challenge-32-2026-07-1812847695",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-18",
       "player": "newbarola",
@@ -136,11 +136,11 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1412847113",
+      "site_name": "pauper-challenge-32-2026-07-0912847113",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-10",
       "player": "newbarola",
-      "archetype": "Esper Affinity",
+      "archetype": "Affinity",
       "colors": [
         "B",
         "U"
@@ -151,11 +151,11 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0912847113",
+      "site_name": "pauper-challenge-32-2026-07-1412847113",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-10",
       "player": "newbarola",
-      "archetype": "Affinity",
+      "archetype": "Esper Affinity",
       "colors": [
         "B",
         "U"
@@ -228,8 +228,8 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-07-0410855",
-      "tournament": "Pauper League",
+      "site_name": "pauper-challenge-32-2026-07-0912846485",
+      "tournament": "Pauper Challenge 32",
       "date": "2026-07-04",
       "player": "newbarola",
       "archetype": "Naya Gates",
@@ -238,13 +238,13 @@
         "R",
         "W"
       ],
-      "record": "5-0",
-      "final_rank": null,
+      "record": "5-2",
+      "final_rank": 5,
       "source": "mtgo",
-      "type": "league"
+      "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0912846485",
+      "site_name": "pauper-challenge-32-2026-07-0312846485",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-04",
       "player": "newbarola",
@@ -276,8 +276,8 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0312846485",
-      "tournament": "Pauper Challenge 32",
+      "site_name": "pauper-league-2026-07-0410855",
+      "tournament": "Pauper League",
       "date": "2026-07-04",
       "player": "newbarola",
       "archetype": "Naya Gates",
@@ -286,10 +286,10 @@
         "R",
         "W"
       ],
-      "record": "5-2",
-      "final_rank": 5,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0712846470",
@@ -404,22 +404,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-06-2810855",
-      "tournament": "Pauper League",
-      "date": "2026-06-28",
-      "player": "newbarola",
-      "archetype": "Naya Gates",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-06-2812845687",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-28",
@@ -434,6 +418,22 @@
       "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-06-2810855",
+      "tournament": "Pauper League",
+      "date": "2026-06-28",
+      "player": "newbarola",
+      "archetype": "Naya Gates",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-06-2712845668",
