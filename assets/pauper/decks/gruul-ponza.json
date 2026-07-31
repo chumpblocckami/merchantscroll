@@ -2,13 +2,13 @@
   "archetype": "Gruul Ponza",
   "slug": "gruul-ponza",
   "stats": {
-    "total_entries": 331,
-    "league_entries": 136,
-    "league_trophies": 136,
-    "league_trophies_yearly": 83,
-    "challenge_appearances": 172,
-    "challenge_wins": 626,
-    "challenge_losses": 444,
+    "total_entries": 330,
+    "league_entries": 137,
+    "league_trophies": 137,
+    "league_trophies_yearly": 84,
+    "challenge_appearances": 170,
+    "challenge_wins": 619,
+    "challenge_losses": 439,
     "irl_top8": 11,
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 23,
@@ -18,32 +18,18 @@
   },
   "recent_entries": [
     {
-      "site_name": "pauper-challenge-32-2026-07-3112849449",
-      "tournament": "Pauper Challenge 32",
+      "site_name": "pauper-league-2026-07-3110855",
+      "tournament": "Pauper League",
       "date": "2026-07-31",
-      "player": "Ixidor29",
+      "player": "Ankylosaur",
       "colors": [
         "G",
         "R"
       ],
-      "record": "3-3",
-      "final_rank": 24,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-3112849449",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-31",
-      "player": "JuaKi",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-3012849439",
@@ -366,12 +352,26 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1912848178",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-23",
+      "player": "JuaKi",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "Ixidor29",
-      "count": 83
+      "count": 82
     },
     {
       "player": "_Abijhavs_",
@@ -402,11 +402,11 @@
       "count": 6
     },
     {
-      "player": "JuaKi",
+      "player": "QueMario",
       "count": 5
     },
     {
-      "player": "QueMario",
+      "player": "SidRocha",
       "count": 5
     }
   ]

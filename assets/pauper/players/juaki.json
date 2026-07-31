@@ -3,17 +3,17 @@
   "display_name": "JuaKi",
   "irl_name": null,
   "stats": {
-    "total_entries": 27,
+    "total_entries": 26,
     "league_trophies": 7,
     "league_trophies_yearly": 5,
-    "challenge_wins": 81,
-    "challenge_losses": 49,
+    "challenge_wins": 77,
+    "challenge_losses": 47,
     "irl_top8": 0,
     "challenge_win_pct": 62,
-    "league_trophy_rank_yearly": 255,
-    "league_trophy_rank_alltime": 382,
-    "league_trophy_players_yearly": 1381,
-    "league_trophy_players_alltime": 2083
+    "league_trophy_rank_yearly": 253,
+    "league_trophy_rank_alltime": 381,
+    "league_trophy_players_yearly": 1378,
+    "league_trophy_players_alltime": 2082
   },
   "favorite_decks": [
     {
@@ -21,12 +21,12 @@
       "count": 7
     },
     {
-      "archetype": "Gruul Ponza",
+      "archetype": "Mono Red Rally",
       "count": 5
     },
     {
-      "archetype": "Mono Red Rally",
-      "count": 5
+      "archetype": "Gruul Ponza",
+      "count": 4
     },
     {
       "archetype": "Mono Blue Terror",
@@ -50,21 +50,6 @@
     }
   ],
   "recent_entries": [
-    {
-      "site_name": "pauper-challenge-32-2026-07-3112849449",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-31",
-      "player": "JuaKi",
-      "archetype": "Gruul Ponza",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
-    },
     {
       "site_name": "pauper-challenge-32-2026-07-3012849439",
       "tournament": "Pauper Challenge 32",
@@ -429,6 +414,22 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-06-0112782673",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-06-01",
+      "player": "JuaKi",
+      "archetype": "Bogles",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "4-3",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ]
 }
