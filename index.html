@@ -359,7 +359,7 @@
 
     function attachCardPreview(node, name) {
       node.addEventListener("click", (e) => {
-        if (suppressDeckCardClick) return;
+        if (suppressDeckClick) return;
         e.stopPropagation();
         openCardPreview(name);
       });
@@ -569,6 +569,7 @@
       const btn = el("button", "player-link", name || "Unknown");
       btn.type = "button";
       btn.addEventListener("click", (e) => {
+        if (suppressDeckClick) return;
         e.stopPropagation();
         openPlayerProfile(name);
       });
@@ -588,6 +589,7 @@
       const btn = el("button", "deck-link player-name", name || "Unknown");
       btn.type = "button";
       btn.addEventListener("click", (e) => {
+        if (suppressDeckClick) return;
         e.stopPropagation();
         openDeckProfile(name);
       });
@@ -1612,7 +1614,7 @@
 
     /* ── Input handling ── */
     let throttle = false;
-    let suppressDeckCardClick = false;
+    let suppressDeckClick = false;
 
     function getTextDecklistScroller(target) {
       if (deckViewMode === "visual") return null;
@@ -1688,24 +1690,23 @@
     let touchStartX = 0;
     let touchStartY = 0;
     let touchStartTarget = null;
+    let touchStartScroller = null;
+    let touchStartScrollTop = 0;
 
+    // Only real controls block a swipe. Links are not listed: a swipe needs 50px
+    // of travel so it cannot be mistaken for a tap, and their click handlers bail
+    // out on suppressDeckClick, which would otherwise make the header a dead zone.
     function shouldBlockDeckSwipe(target) {
       if (!target?.closest) return false;
-      if (target.closest(
-        ".deck-actions, .player-link, .deck-link, .deck-action-btn, .bc-trigger, .bc-dropdown"
-      )) {
-        return true;
-      }
-      if (deckViewMode !== "visual" && target.closest(".decklist-columns, .card-name")) {
-        return true;
-      }
-      return false;
+      return !!target.closest(
+        ".deck-actions, .deck-action-btn, .bc-trigger, .bc-dropdown"
+      );
     }
 
     function markDeckSwipeHandled() {
-      suppressDeckCardClick = true;
+      suppressDeckClick = true;
       setTimeout(() => {
-        suppressDeckCardClick = false;
+        suppressDeckClick = false;
       }, 350);
     }
 
@@ -1715,6 +1716,8 @@
       touchStartX = touch.screenX;
       touchStartY = touch.screenY;
       touchStartTarget = e.target;
+      touchStartScroller = getTextDecklistScroller(e.target);
+      touchStartScrollTop = touchStartScroller ? touchStartScroller.scrollTop : 0;
     }, { passive: true });
     content.addEventListener("touchend", (e) => {
       if (shouldBlockDeckSwipe(touchStartTarget) || shouldBlockDeckSwipe(e.target)) {
@@ -1738,6 +1741,13 @@
         return;
       }
       if (Math.abs(deltaY) > Math.abs(deltaX) && Math.abs(deltaY) > 50) {
+        // If the text decklist scrolled under the finger, that was the intent.
+        // When it cannot scroll -- which is most decks, since the list usually
+        // fits -- fall through and change deck, matching the wheel behaviour.
+        if (touchStartScroller && touchStartScroller.scrollTop !== touchStartScrollTop) {
+          touchStartTarget = null;
+          return;
+        }
         markDeckSwipeHandled();
         throttledGo(deltaY > 0 ? 1 : -1);
         touchStartTarget = null;

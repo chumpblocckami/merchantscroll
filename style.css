@@ -1119,6 +1119,8 @@ a.player-name:hover {
 }
 
 .action-toast {
+  /* Status text only, so it must not swallow swipes over the deck view. */
+  pointer-events: none;
   position: fixed;
   bottom: 24px;
   left: 50%;
@@ -1145,6 +1147,9 @@ a.player-name:hover {
 }
 
 .install-banner {
+  /* Transparent to touch so swipes reach the deck view underneath; the buttons
+     opt back in below. Without this the banner is a dead zone over the list. */
+  pointer-events: none;
   position: fixed;
   bottom: 24px;
   left: 50%;
@@ -1176,6 +1181,7 @@ a.player-name:hover {
 }
 
 .install-banner-actions {
+  pointer-events: auto;
   display: flex;
   align-items: center;
   gap: 6px;
