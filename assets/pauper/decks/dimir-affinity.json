@@ -2,21 +2,35 @@
   "archetype": "Dimir Affinity",
   "slug": "dimir-affinity",
   "stats": {
-    "total_entries": 4,
-    "league_entries": 0,
-    "league_trophies": 0,
-    "league_trophies_yearly": 0,
+    "total_entries": 5,
+    "league_entries": 1,
+    "league_trophies": 1,
+    "league_trophies_yearly": 1,
     "challenge_appearances": 1,
     "challenge_wins": 4,
     "challenge_losses": 2,
     "irl_top8": 2,
     "challenge_win_pct": 67,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": null,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 70
+    "league_trophy_rank_yearly": 58,
+    "league_trophy_rank_alltime": 67,
+    "league_trophy_decks_yearly": 67,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-3110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-31",
+      "player": "HankMoody95",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-showcase-qualifier-2026-07-2212848160",
       "tournament": "Pauper Showcase Qualifier",
@@ -75,6 +89,10 @@
     }
   ],
   "top_pilots": [
+    {
+      "player": "HankMoody95",
+      "count": 1
+    },
     {
       "player": "Luca Foltran",
       "count": 1
