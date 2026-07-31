@@ -3,22 +3,26 @@
   "display_name": "lucotto",
   "irl_name": null,
   "stats": {
-    "total_entries": 5,
-    "league_trophies": 5,
-    "league_trophies_yearly": 5,
-    "challenge_wins": 0,
-    "challenge_losses": 0,
+    "total_entries": 7,
+    "league_trophies": 6,
+    "league_trophies_yearly": 6,
+    "challenge_wins": 4,
+    "challenge_losses": 3,
     "irl_top8": 0,
-    "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 257,
-    "league_trophy_rank_alltime": 514,
-    "league_trophy_players_yearly": 1372,
-    "league_trophy_players_alltime": 2077
+    "challenge_win_pct": 57,
+    "league_trophy_rank_yearly": 192,
+    "league_trophy_rank_alltime": 445,
+    "league_trophy_players_yearly": 1375,
+    "league_trophy_players_alltime": 2078
   },
   "favorite_decks": [
     {
       "archetype": "Jund",
       "count": 3
+    },
+    {
+      "archetype": "U Terror",
+      "count": 2
     },
     {
       "archetype": "Monster Tron",
@@ -30,6 +34,36 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-3010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-30",
+      "player": "lucotto",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-3012849439",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-30",
+      "player": "lucotto",
+      "archetype": "U Terror",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-2910855",
       "tournament": "Pauper League",

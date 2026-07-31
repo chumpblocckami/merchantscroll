@@ -2,21 +2,66 @@
   "archetype": "UB Control",
   "slug": "ub-control",
   "stats": {
-    "total_entries": 162,
-    "league_entries": 110,
-    "league_trophies": 110,
-    "league_trophies_yearly": 63,
-    "challenge_appearances": 48,
-    "challenge_wins": 162,
-    "challenge_losses": 135,
+    "total_entries": 165,
+    "league_entries": 112,
+    "league_trophies": 112,
+    "league_trophies_yearly": 65,
+    "challenge_appearances": 49,
+    "challenge_wins": 165,
+    "challenge_losses": 138,
     "irl_top8": 3,
-    "challenge_win_pct": 55,
-    "league_trophy_rank_yearly": 27,
-    "league_trophy_rank_alltime": 27,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "challenge_win_pct": 54,
+    "league_trophy_rank_yearly": 26,
+    "league_trophy_rank_alltime": 26,
+    "league_trophy_decks_yearly": 67,
+    "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-3110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-31",
+      "player": "Loerien",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-3010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-30",
+      "player": "Corzalan",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-3012849439",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-30",
+      "player": "Moe12",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 21,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-2910855",
       "tournament": "Pauper League",
@@ -330,49 +375,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-3012843407",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-30",
-      "player": "hetare_ane",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "2-3",
-      "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2412842933",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-24",
-      "player": "morpheus38",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "2-3",
-      "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauperwave-2026-05-24-pauperagù",
-      "tournament": "Pauperagù 2026 — Bologna",
-      "date": "2026-05-24",
-      "player": "Filippo Onoranti",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "",
-      "final_rank": 5,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [

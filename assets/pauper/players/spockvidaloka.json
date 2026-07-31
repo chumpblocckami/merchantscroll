@@ -3,17 +3,17 @@
   "display_name": "SpockVidaLoka",
   "irl_name": null,
   "stats": {
-    "total_entries": 62,
+    "total_entries": 63,
     "league_trophies": 1,
     "league_trophies_yearly": 0,
-    "challenge_wins": 230,
-    "challenge_losses": 147,
+    "challenge_wins": 237,
+    "challenge_losses": 149,
     "irl_top8": 0,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 1934,
-    "league_trophy_players_yearly": 1372,
-    "league_trophy_players_alltime": 2077
+    "league_trophy_rank_alltime": 1935,
+    "league_trophy_players_yearly": 1375,
+    "league_trophy_players_alltime": 2078
   },
   "favorite_decks": [
     {
@@ -49,11 +49,31 @@
       "count": 2
     },
     {
+      "archetype": "Monster Tron",
+      "count": 1
+    },
+    {
       "archetype": "White Weenie",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-3012849439",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-30",
+      "player": "SpockVidaLoka",
+      "archetype": "Monster Tron",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "7-2",
+      "final_rank": 2,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
       "tournament": "Pauper Showcase Qualifier",
@@ -437,22 +457,6 @@
       ],
       "record": "3-3",
       "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-01-1512830022",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-15",
-      "player": "SpockVidaLoka",
-      "archetype": "R Madness",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
     }

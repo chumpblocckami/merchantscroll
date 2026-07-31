@@ -2,21 +2,49 @@
   "archetype": "UB Faeries",
   "slug": "ub-faeries",
   "stats": {
-    "total_entries": 671,
-    "league_entries": 335,
-    "league_trophies": 335,
-    "league_trophies_yearly": 207,
-    "challenge_appearances": 303,
-    "challenge_wins": 1239,
-    "challenge_losses": 774,
+    "total_entries": 673,
+    "league_entries": 336,
+    "league_trophies": 336,
+    "league_trophies_yearly": 208,
+    "challenge_appearances": 304,
+    "challenge_wins": 1242,
+    "challenge_losses": 777,
     "irl_top8": 10,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 7,
     "league_trophy_rank_alltime": 11,
-    "league_trophy_decks_yearly": 66,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 67,
+    "league_trophy_decks_alltime": 73
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-3010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-30",
+      "player": "polarrobin",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-3012849439",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-30",
+      "player": "barff",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-2912848254",
       "tournament": "Pauper Challenge 32",
@@ -339,40 +367,12 @@
       "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1912847712",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-19",
-      "player": "seasonofmists",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 19,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1912847695",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-18",
-      "player": "Beicodegeia",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "barff",
-      "count": 114
+      "count": 115
     },
     {
       "player": "Purgatory_01",

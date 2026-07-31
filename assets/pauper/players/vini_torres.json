@@ -3,22 +3,22 @@
   "display_name": "vini_torres",
   "irl_name": null,
   "stats": {
-    "total_entries": 123,
-    "league_trophies": 63,
-    "league_trophies_yearly": 36,
-    "challenge_wins": 243,
-    "challenge_losses": 131,
+    "total_entries": 125,
+    "league_trophies": 64,
+    "league_trophies_yearly": 37,
+    "challenge_wins": 247,
+    "challenge_losses": 133,
     "irl_top8": 0,
     "challenge_win_pct": 65,
     "league_trophy_rank_yearly": 7,
-    "league_trophy_rank_alltime": 13,
-    "league_trophy_players_yearly": 1372,
-    "league_trophy_players_alltime": 2077
+    "league_trophy_rank_alltime": 12,
+    "league_trophy_players_yearly": 1375,
+    "league_trophy_players_alltime": 2078
   },
   "favorite_decks": [
     {
       "archetype": "Rally",
-      "count": 91
+      "count": 93
     },
     {
       "archetype": "Pingers",
@@ -34,6 +34,36 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-3110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-31",
+      "player": "vini_torres",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-3012849439",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-30",
+      "player": "vini_torres",
+      "archetype": "Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
       "tournament": "Pauper Showcase Qualifier",
@@ -378,36 +408,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2412845643",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-25",
-      "player": "vini_torres",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "7-2",
-      "final_rank": 2,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2512845643",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-25",
-      "player": "vini_torres",
-      "archetype": "Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "7-2",
-      "final_rank": 2,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }
