@@ -2,21 +2,66 @@
   "archetype": "Grixis Affinity",
   "slug": "grixis-affinity",
   "stats": {
-    "total_entries": 12,
+    "total_entries": 15,
     "league_entries": 6,
     "league_trophies": 6,
     "league_trophies_yearly": 6,
-    "challenge_appearances": 3,
-    "challenge_wins": 13,
-    "challenge_losses": 7,
+    "challenge_appearances": 6,
+    "challenge_wins": 27,
+    "challenge_losses": 14,
     "irl_top8": 0,
-    "challenge_win_pct": 65,
+    "challenge_win_pct": 66,
     "league_trophy_rank_yearly": 49,
     "league_trophy_rank_alltime": 55,
     "league_trophy_decks_yearly": 66,
     "league_trophy_decks_alltime": 70
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-3112849449",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-31",
+      "player": "Mark_Confidant",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-3112849449",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-31",
+      "player": "VitorCarvalho01",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-3112849449",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-31",
+      "player": "seasonofmists",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "6-2",
+      "final_rank": 2,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-3110855",
       "tournament": "Pauper League",
@@ -220,6 +265,10 @@
       "count": 1
     },
     {
+      "player": "Mark_Confidant",
+      "count": 1
+    },
+    {
       "player": "MyongKong",
       "count": 1
     },
@@ -233,10 +282,6 @@
     },
     {
       "player": "Vhangar",
-      "count": 1
-    },
-    {
-      "player": "davsav98898",
       "count": 1
     }
   ]

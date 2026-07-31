@@ -3,11 +3,11 @@
   "display_name": "TheManji",
   "irl_name": null,
   "stats": {
-    "total_entries": 25,
+    "total_entries": 26,
     "league_trophies": 14,
     "league_trophies_yearly": 7,
-    "challenge_wins": 40,
-    "challenge_losses": 26,
+    "challenge_wins": 45,
+    "challenge_losses": 29,
     "irl_top8": 0,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 168,
@@ -27,9 +27,27 @@
     {
       "archetype": "Azorius Familiars",
       "count": 1
+    },
+    {
+      "archetype": "Mono Blue Terror",
+      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-3112849449",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-31",
+      "player": "TheManji",
+      "archetype": "Mono Blue Terror",
+      "colors": [
+        "U"
+      ],
+      "record": "5-3",
+      "final_rank": 4,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-0410855",
       "tournament": "Pauper League",
@@ -374,20 +392,6 @@
       "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2024-06-0210405",
-      "tournament": "pauper-league-2024-06-0210405",
-      "date": "2024-06-02",
-      "player": "TheManji",
-      "archetype": "Mono Red Madness",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }
