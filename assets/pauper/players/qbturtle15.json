@@ -10,10 +10,10 @@
     "challenge_losses": 12,
     "irl_top8": 0,
     "challenge_win_pct": 59,
-    "league_trophy_rank_yearly": 162,
-    "league_trophy_rank_alltime": 61,
-    "league_trophy_players_yearly": 1371,
-    "league_trophy_players_alltime": 2075
+    "league_trophy_rank_yearly": 164,
+    "league_trophy_rank_alltime": 63,
+    "league_trophy_players_yearly": 1378,
+    "league_trophy_players_alltime": 2081
   },
   "favorite_decks": [
     {
@@ -29,11 +29,11 @@
       "count": 4
     },
     {
-      "archetype": "Jund Wildfire",
+      "archetype": "Rakdos Affinity",
       "count": 3
     },
     {
-      "archetype": "Rakdos Affinity",
+      "archetype": "Jund Wildfire",
       "count": 3
     },
     {
@@ -62,22 +62,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-06-2810855",
-      "tournament": "Pauper League",
-      "date": "2026-06-28",
-      "player": "qbturtle15",
-      "archetype": "Dimir Terror",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-06-2812845687",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-28",
@@ -94,7 +78,23 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
+      "site_name": "pauper-league-2026-06-2810855",
+      "tournament": "Pauper League",
+      "date": "2026-06-28",
+      "player": "qbturtle15",
+      "archetype": "Dimir Terror",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
       "tournament": "Pauper RC Super Qualifier",
       "date": "2026-06-27",
       "player": "qbturtle15",
@@ -110,7 +110,7 @@
       "type": "other"
     },
     {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
+      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
       "tournament": "Pauper RC Super Qualifier",
       "date": "2026-06-27",
       "player": "qbturtle15",
@@ -299,20 +299,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2025-07-1312802837",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-07-13",
-      "player": "qbturtle15",
-      "archetype": "White Weenie",
-      "colors": [
-        "W"
-      ],
-      "record": "2-4",
-      "final_rank": 31,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2025-07-139366",
       "tournament": "pauper-league-2025-07-139366",
       "date": "2025-07-13",
@@ -325,6 +311,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-07-1312802837",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-07-13",
+      "player": "qbturtle15",
+      "archetype": "White Weenie",
+      "colors": [
+        "W"
+      ],
+      "record": "2-4",
+      "final_rank": 31,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-league-2025-07-119366",

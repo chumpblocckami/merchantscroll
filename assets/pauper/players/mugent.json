@@ -3,17 +3,17 @@
   "display_name": "mugent",
   "irl_name": null,
   "stats": {
-    "total_entries": 45,
-    "league_trophies": 24,
-    "league_trophies_yearly": 14,
+    "total_entries": 46,
+    "league_trophies": 25,
+    "league_trophies_yearly": 15,
     "challenge_wins": 72,
     "challenge_losses": 55,
     "irl_top8": 0,
     "challenge_win_pct": 57,
-    "league_trophy_rank_yearly": 59,
-    "league_trophy_rank_alltime": 73,
-    "league_trophy_players_yearly": 1371,
-    "league_trophy_players_alltime": 2075
+    "league_trophy_rank_yearly": 55,
+    "league_trophy_rank_alltime": 71,
+    "league_trophy_players_yearly": 1378,
+    "league_trophy_players_alltime": 2081
   },
   "favorite_decks": [
     {
@@ -29,7 +29,7 @@
       "count": 4
     },
     {
-      "archetype": "Elves",
+      "archetype": "Mono Red Rally",
       "count": 3
     },
     {
@@ -37,12 +37,8 @@
       "count": 3
     },
     {
-      "archetype": "Mono Red Rally",
-      "count": 2
-    },
-    {
-      "archetype": "Bogles",
-      "count": 2
+      "archetype": "Elves",
+      "count": 3
     },
     {
       "archetype": "Rakdos Madness",
@@ -53,11 +49,30 @@
       "count": 2
     },
     {
-      "archetype": "Dredge",
+      "archetype": "Bogles",
+      "count": 2
+    },
+    {
+      "archetype": "White Weenie",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-2810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-28",
+      "player": "mugent",
+      "archetype": "Mono Red Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-0410855",
       "tournament": "Pauper League",
@@ -406,21 +421,6 @@
       ],
       "record": "4-2",
       "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-12-1412826893",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-12-14",
-      "player": "mugent",
-      "archetype": "Mono Red Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-2",
-      "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
     }

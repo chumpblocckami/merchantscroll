@@ -2,10 +2,10 @@
   "archetype": "Dimir Terror",
   "slug": "dimir-terror",
   "stats": {
-    "total_entries": 600,
-    "league_entries": 302,
-    "league_trophies": 302,
-    "league_trophies_yearly": 160,
+    "total_entries": 603,
+    "league_entries": 305,
+    "league_trophies": 305,
+    "league_trophies_yearly": 163,
     "challenge_appearances": 251,
     "challenge_wins": 1058,
     "challenge_losses": 601,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 10,
     "league_trophy_rank_alltime": 13,
-    "league_trophy_decks_yearly": 61,
-    "league_trophy_decks_alltime": 65
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 70
   },
   "recent_entries": [
     {
@@ -77,34 +77,48 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
-      "tournament": "Pauper Showcase Qualifier",
-      "date": "2026-07-26",
-      "player": "BERNASTORRES",
+      "site_name": "pauper-league-2026-07-2810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-28",
+      "player": "alicodendrochit",
       "colors": [
         "B",
-        "R",
         "U"
       ],
-      "record": "4-3",
-      "final_rank": 3,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "showcase"
+      "type": "league"
     },
     {
-      "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
-      "tournament": "Pauper Showcase Qualifier",
-      "date": "2026-07-26",
-      "player": "Drugo",
+      "site_name": "pauper-league-2026-07-2710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-27",
+      "player": "OlavoJusMTM",
       "colors": [
         "B",
         "R",
         "U"
       ],
-      "record": "2-3",
-      "final_rank": 17,
+      "record": "5-0",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "showcase"
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-26",
+      "player": "Essenza",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-2610855",
@@ -137,19 +151,34 @@
       "type": "league"
     },
     {
-      "site_name": "pauperwave-2026-07-25-trio-polesana-2025",
-      "tournament": "Un Po di Pauper Trio 2026 — Rovigo",
-      "date": "2026-07-25",
-      "player": "Francesco Cecchetti",
+      "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "BERNASTORRES",
       "colors": [
         "B",
         "R",
         "U"
       ],
-      "record": "",
-      "final_rank": 1,
-      "source": "pauperwave",
-      "type": "irl"
+      "record": "4-3",
+      "final_rank": 3,
+      "source": "mtgo",
+      "type": "showcase"
+    },
+    {
+      "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "Drugo",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 17,
+      "source": "mtgo",
+      "type": "showcase"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-2512848203",
@@ -165,6 +194,21 @@
       "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauperwave-2026-07-25-trio-polesana-2025",
+      "tournament": "Un Po di Pauper Trio 2026 — Rovigo",
+      "date": "2026-07-25",
+      "player": "Francesco Cecchetti",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "",
+      "final_rank": 1,
+      "source": "pauperwave",
+      "type": "irl"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-2312848178",
@@ -197,19 +241,19 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-2212848161",
-      "tournament": "Pauper Challenge 32",
+      "site_name": "pauper-last-chance-2026-07-2212847741",
+      "tournament": "Pauper Last Chance",
       "date": "2026-07-22",
-      "player": "medvedev",
+      "player": "Univerce",
       "colors": [
         "B",
         "R",
         "U"
       ],
-      "record": "3-3",
-      "final_rank": 21,
+      "record": "3-2",
+      "final_rank": null,
       "source": "mtgo",
-      "type": "challenge"
+      "type": "other"
     },
     {
       "site_name": "pauper-league-2026-07-2210855",
@@ -242,64 +286,19 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-last-chance-2026-07-2212847741",
-      "tournament": "Pauper Last Chance",
+      "site_name": "pauper-challenge-32-2026-07-2212848161",
+      "tournament": "Pauper Challenge 32",
       "date": "2026-07-22",
-      "player": "Univerce",
+      "player": "medvedev",
       "colors": [
         "B",
         "R",
         "U"
       ],
-      "record": "3-2",
-      "final_rank": null,
+      "record": "3-3",
+      "final_rank": 21,
       "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2112847730",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "Oscar_Franco",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-1",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2112847730",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "Drugo",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2112847730",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "giulio854854",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "2-3",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
+      "type": "challenge"
     },
     {
       "site_name": "pauper-last-chance-2026-07-1912847738",
@@ -362,31 +361,31 @@
       "type": "other"
     },
     {
-      "site_name": "pauper-last-chance-2026-07-0412847738",
+      "site_name": "pauper-last-chance-2026-07-2112847730",
       "tournament": "Pauper Last Chance",
       "date": "2026-07-21",
-      "player": "gazmon48",
+      "player": "Oscar_Franco",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-1",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2112847730",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "Drugo",
       "colors": [
         "B",
         "R",
         "U"
       ],
       "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-0412847738",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "cicciogire",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "0-1",
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
@@ -422,11 +421,11 @@
       "count": 12
     },
     {
-      "player": "sorayoltu",
+      "player": "hetare_ane",
       "count": 11
     },
     {
-      "player": "hetare_ane",
+      "player": "sorayoltu",
       "count": 11
     },
     {

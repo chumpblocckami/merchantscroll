@@ -10,10 +10,10 @@
     "challenge_losses": 19,
     "irl_top8": 0,
     "challenge_win_pct": 56,
-    "league_trophy_rank_yearly": 1151,
-    "league_trophy_rank_alltime": 384,
-    "league_trophy_players_yearly": 1371,
-    "league_trophy_players_alltime": 2075
+    "league_trophy_rank_yearly": 1159,
+    "league_trophy_rank_alltime": 388,
+    "league_trophy_players_yearly": 1378,
+    "league_trophy_players_alltime": 2081
   },
   "favorite_decks": [
     {
@@ -21,12 +21,20 @@
       "count": 3
     },
     {
+      "archetype": "Mono Red Rally",
+      "count": 2
+    },
+    {
       "archetype": "Gardens",
       "count": 2
     },
     {
-      "archetype": "Mono Red Rally",
-      "count": 2
+      "archetype": "Dimir Terror",
+      "count": 1
+    },
+    {
+      "archetype": "Esper Affinity",
+      "count": 1
     },
     {
       "archetype": "Gruul Ponza",
@@ -37,25 +45,17 @@
       "count": 1
     },
     {
-      "archetype": "Mono Blue Faeries",
-      "count": 1
-    },
-    {
-      "archetype": "Esper Affinity",
-      "count": 1
-    },
-    {
       "archetype": "Spy Combo",
       "count": 1
     },
     {
-      "archetype": "Dimir Terror",
+      "archetype": "Mono Blue Faeries",
       "count": 1
     }
   ],
   "recent_entries": [
     {
-      "site_name": "pauper-challenge-32-2026-07-1412847113",
+      "site_name": "pauper-challenge-32-2026-07-0912847113",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-10",
       "player": "NattaZan79",
@@ -71,7 +71,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0912847113",
+      "site_name": "pauper-challenge-32-2026-07-1412847113",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-10",
       "player": "NattaZan79",
@@ -132,21 +132,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2025-10-189750",
-      "tournament": "pauper-league-2025-10-189750",
-      "date": "2025-10-18",
-      "player": "NattaZan79",
-      "archetype": "Mono Red Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2025-10-1812820716",
       "tournament": "Pauper Challenge 32",
       "date": "2025-10-18",
@@ -160,6 +145,21 @@
       "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-10-189750",
+      "tournament": "pauper-league-2025-10-189750",
+      "date": "2025-10-18",
+      "player": "NattaZan79",
+      "archetype": "Mono Red Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2025-09-219535",

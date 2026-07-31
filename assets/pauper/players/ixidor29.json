@@ -12,8 +12,8 @@
     "challenge_win_pct": 57,
     "league_trophy_rank_yearly": 42,
     "league_trophy_rank_alltime": 79,
-    "league_trophy_players_yearly": 1371,
-    "league_trophy_players_alltime": 2075
+    "league_trophy_players_yearly": 1378,
+    "league_trophy_players_alltime": 2081
   },
   "favorite_decks": [
     {
@@ -33,19 +33,19 @@
       "count": 11
     },
     {
-      "archetype": "Mono Blue Faeries",
-      "count": 5
-    },
-    {
       "archetype": "Dimir Terror",
       "count": 5
     },
     {
-      "archetype": "Dimir Control",
-      "count": 2
+      "archetype": "Mono Blue Faeries",
+      "count": 5
     },
     {
       "archetype": "Mono Red Madness",
+      "count": 2
+    },
+    {
+      "archetype": "Dimir Control",
       "count": 2
     },
     {
@@ -53,7 +53,7 @@
       "count": 1
     },
     {
-      "archetype": "Mono Blue Terror",
+      "archetype": "Monster Tron",
       "count": 1
     }
   ],
@@ -179,21 +179,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-last-chance-2026-07-2112847730",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "Ixidor29",
-      "archetype": "Gruul Ponza",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-2",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
       "site_name": "pauper-league-2026-07-2110855",
       "tournament": "Pauper League",
       "date": "2026-07-21",
@@ -208,6 +193,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2112847730",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "Ixidor29",
+      "archetype": "Gruul Ponza",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-2",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
     },
     {
       "site_name": "pauper-last-chance-2026-07-2012847724",
@@ -330,11 +330,11 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0412846485",
+      "site_name": "pauper-challenge-32-2026-07-0312846485",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-04",
       "player": "Ixidor29",
-      "archetype": "Golgari Ponza",
+      "archetype": "Gruul Ponza",
       "colors": [
         "G",
         "R"
@@ -345,11 +345,11 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0312846485",
+      "site_name": "pauper-challenge-32-2026-07-0412846485",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-04",
       "player": "Ixidor29",
-      "archetype": "Gruul Ponza",
+      "archetype": "Golgari Ponza",
       "colors": [
         "G",
         "R"

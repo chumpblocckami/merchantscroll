@@ -10,10 +10,10 @@
     "challenge_losses": 48,
     "irl_top8": 0,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 190,
+    "league_trophy_rank_yearly": 193,
     "league_trophy_rank_alltime": 80,
-    "league_trophy_players_yearly": 1371,
-    "league_trophy_players_alltime": 2075
+    "league_trophy_players_yearly": 1378,
+    "league_trophy_players_alltime": 2081
   },
   "favorite_decks": [
     {
@@ -33,19 +33,15 @@
       "count": 4
     },
     {
-      "archetype": "Rakdos Madness",
-      "count": 2
-    },
-    {
       "archetype": "Jeskai Ephemerate",
       "count": 2
     },
     {
-      "archetype": "Bogles",
-      "count": 1
+      "archetype": "Rakdos Madness",
+      "count": 2
     },
     {
-      "archetype": "Golgari Fog",
+      "archetype": "Elves",
       "count": 1
     },
     {
@@ -54,6 +50,10 @@
     },
     {
       "archetype": "Gardens",
+      "count": 1
+    },
+    {
+      "archetype": "Golgari Fog",
       "count": 1
     }
   ],
@@ -149,21 +149,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-02-0110196",
-      "tournament": "pauper-league-2026-02-0110196",
-      "date": "2026-02-01",
-      "player": "LikeAFerro",
-      "archetype": "Spy Combo",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-02-0112831750",
       "tournament": "Pauper Challenge 32",
       "date": "2026-02-01",
@@ -177,6 +162,21 @@
       "final_rank": 6,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-02-0110196",
+      "tournament": "pauper-league-2026-02-0110196",
+      "date": "2026-02-01",
+      "player": "LikeAFerro",
+      "archetype": "Spy Combo",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-01-2610196",

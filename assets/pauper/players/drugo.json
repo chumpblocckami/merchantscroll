@@ -12,8 +12,8 @@
     "challenge_win_pct": 66,
     "league_trophy_rank_yearly": 106,
     "league_trophy_rank_alltime": 204,
-    "league_trophy_players_yearly": 1371,
-    "league_trophy_players_alltime": 2075
+    "league_trophy_players_yearly": 1378,
+    "league_trophy_players_alltime": 2081
   },
   "favorite_decks": [
     {
@@ -33,19 +33,15 @@
       "count": 2
     },
     {
-      "archetype": "Mono Blue Faeries",
+      "archetype": "Affinity",
       "count": 1
     },
     {
-      "archetype": "Dredge",
+      "archetype": "Gruul Ponza",
       "count": 1
     },
     {
-      "archetype": "Mono Blue Terror",
-      "count": 1
-    },
-    {
-      "archetype": "Elves",
+      "archetype": "Mono Red Rally",
       "count": 1
     },
     {
@@ -53,7 +49,11 @@
       "count": 1
     },
     {
-      "archetype": "Dimir Faeries",
+      "archetype": "Elves",
+      "count": 1
+    },
+    {
+      "archetype": "Mono Blue Faeries",
       "count": 1
     }
   ],
@@ -107,22 +107,6 @@
       "type": "other"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1912847712",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-19",
-      "player": "Drugo",
-      "archetype": "Dimir Terror",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-3",
-      "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-07-1910855",
       "tournament": "Pauper League",
       "date": "2026-07-19",
@@ -139,7 +123,23 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1812847695",
+      "site_name": "pauper-challenge-32-2026-07-1912847712",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-19",
+      "player": "Drugo",
+      "archetype": "Dimir Terror",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-3",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-1912847695",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-18",
       "player": "Drugo",
@@ -155,7 +155,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1912847695",
+      "site_name": "pauper-challenge-32-2026-07-1812847695",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-18",
       "player": "Drugo",
@@ -218,7 +218,7 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1312843817",
+      "site_name": "pauper-challenge-32-2026-06-0712843817",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-07",
       "player": "Drugo",
@@ -233,7 +233,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-0712843817",
+      "site_name": "pauper-challenge-32-2026-06-1312843817",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-07",
       "player": "Drugo",

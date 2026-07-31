@@ -2,10 +2,10 @@
   "archetype": "Walls",
   "slug": "walls",
   "stats": {
-    "total_entries": 170,
-    "league_entries": 105,
-    "league_trophies": 105,
-    "league_trophies_yearly": 36,
+    "total_entries": 171,
+    "league_entries": 106,
+    "league_trophies": 106,
+    "league_trophies_yearly": 37,
     "challenge_appearances": 55,
     "challenge_wins": 207,
     "challenge_losses": 148,
@@ -13,10 +13,26 @@
     "challenge_win_pct": 58,
     "league_trophy_rank_yearly": 32,
     "league_trophy_rank_alltime": 32,
-    "league_trophy_decks_yearly": 61,
-    "league_trophy_decks_alltime": 65
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 70
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-07-3110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-31",
+      "player": "apas72",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-2912848254",
       "tournament": "Pauper Challenge 32",
@@ -397,28 +413,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-1412842464",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-14",
-      "player": "Bahsis",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "apas72",
-      "count": 42
+      "count": 43
     },
     {
       "player": "Terminus0",
@@ -429,18 +429,6 @@
       "count": 9
     },
     {
-      "player": "Otifex",
-      "count": 5
-    },
-    {
-      "player": "Stamford",
-      "count": 5
-    },
-    {
-      "player": "PNascimento",
-      "count": 5
-    },
-    {
       "player": "zimooo2",
       "count": 5
     },
@@ -449,11 +437,23 @@
       "count": 5
     },
     {
-      "player": "Taute",
-      "count": 4
+      "player": "Otifex",
+      "count": 5
+    },
+    {
+      "player": "PNascimento",
+      "count": 5
+    },
+    {
+      "player": "Stamford",
+      "count": 5
     },
     {
       "player": "Now1770",
+      "count": 4
+    },
+    {
+      "player": "Taute",
       "count": 4
     }
   ]

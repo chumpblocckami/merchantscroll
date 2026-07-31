@@ -13,8 +13,8 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 14,
     "league_trophy_rank_alltime": 7,
-    "league_trophy_decks_yearly": 61,
-    "league_trophy_decks_alltime": 65
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 70
   },
   "recent_entries": [
     {
@@ -88,6 +88,20 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-last-chance-2026-07-2212847741",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-22",
+      "player": "Syns",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "record": "4-1",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-2212848161",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-22",
@@ -102,15 +116,16 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-last-chance-2026-07-2212847741",
+      "site_name": "pauper-last-chance-2026-07-2012847724",
       "tournament": "Pauper Last Chance",
-      "date": "2026-07-22",
-      "player": "Syns",
+      "date": "2026-07-20",
+      "player": "grajtow",
       "colors": [
         "B",
+        "G",
         "R"
       ],
-      "record": "4-1",
+      "record": "2-2",
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
@@ -128,21 +143,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2012847724",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-20",
-      "player": "grajtow",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "2-2",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1612847678",
@@ -216,7 +216,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1412847113",
+      "site_name": "pauper-challenge-32-2026-07-0912847113",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-10",
       "player": "Irenicus_Mfs",
@@ -230,7 +230,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1412847113",
+      "site_name": "pauper-challenge-32-2026-07-0912847113",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-10",
       "player": "mehanske",
@@ -244,7 +244,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0912847113",
+      "site_name": "pauper-challenge-32-2026-07-1412847113",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-10",
       "player": "Irenicus_Mfs",
@@ -258,7 +258,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0912847113",
+      "site_name": "pauper-challenge-32-2026-07-1412847113",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-10",
       "player": "mehanske",
@@ -404,11 +404,11 @@
       "count": 15
     },
     {
-      "player": "Niederschatten",
+      "player": "Than",
       "count": 14
     },
     {
-      "player": "Than",
+      "player": "Niederschatten",
       "count": 14
     }
   ]

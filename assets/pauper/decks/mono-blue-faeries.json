@@ -2,19 +2,19 @@
   "archetype": "Mono Blue Faeries",
   "slug": "mono-blue-faeries",
   "stats": {
-    "total_entries": 577,
-    "league_entries": 311,
-    "league_trophies": 311,
-    "league_trophies_yearly": 85,
+    "total_entries": 581,
+    "league_entries": 315,
+    "league_trophies": 315,
+    "league_trophies_yearly": 89,
     "challenge_appearances": 236,
     "challenge_wins": 971,
     "challenge_losses": 596,
     "irl_top8": 14,
     "challenge_win_pct": 62,
-    "league_trophy_rank_yearly": 22,
+    "league_trophy_rank_yearly": 21,
     "league_trophy_rank_alltime": 12,
-    "league_trophy_decks_yearly": 61,
-    "league_trophy_decks_alltime": 65
+    "league_trophy_decks_yearly": 66,
+    "league_trophy_decks_alltime": 70
   },
   "recent_entries": [
     {
@@ -22,6 +22,19 @@
       "tournament": "Pauper League",
       "date": "2026-07-31",
       "player": "Fink64",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-3110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-31",
+      "player": "DB_Skura",
       "colors": [
         "U"
       ],
@@ -68,6 +81,45 @@
       "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-28",
+      "player": "Fink64",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-28",
+      "player": "Norbez92",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-28",
+      "player": "Suful",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-2612848222",
@@ -200,6 +252,19 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-challenge-32-2026-07-1612847678",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-16",
+      "player": "Beicodegeia",
+      "colors": [
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-league-2026-07-1610855",
       "tournament": "Pauper League",
       "date": "2026-07-16",
@@ -224,19 +289,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1612847678",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-16",
-      "player": "Beicodegeia",
-      "colors": [
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 26,
-      "source": "mtgo",
-      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1212847145",
@@ -278,19 +330,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-showcase-challenge-2026-07-0512846446",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2026-07-05",
-      "player": "Beicodegeia",
-      "colors": [
-        "U"
-      ],
-      "record": "6-3",
-      "final_rank": 22,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-league-2026-07-0510855",
       "tournament": "Pauper League",
       "date": "2026-07-05",
@@ -302,45 +341,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0512846504",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-05",
-      "player": "Beicodegeia",
-      "colors": [
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-04",
-      "player": "Oscar_Franco",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0712846470",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-03",
-      "player": "Beicodegeia",
-      "colors": [
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -365,7 +365,7 @@
       "count": 13
     },
     {
-      "player": "PhyrexianWeeb",
+      "player": "Denisevich",
       "count": 10
     },
     {
@@ -373,7 +373,7 @@
       "count": 10
     },
     {
-      "player": "Denisevich",
+      "player": "PhyrexianWeeb",
       "count": 10
     },
     {
@@ -381,7 +381,7 @@
       "count": 10
     },
     {
-      "player": "hetare_ane",
+      "player": "Purgatory_01",
       "count": 8
     }
   ]

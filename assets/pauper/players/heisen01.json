@@ -10,10 +10,10 @@
     "challenge_losses": 50,
     "irl_top8": 0,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 422,
-    "league_trophy_rank_alltime": 241,
-    "league_trophy_players_yearly": 1371,
-    "league_trophy_players_alltime": 2075
+    "league_trophy_rank_yearly": 424,
+    "league_trophy_rank_alltime": 242,
+    "league_trophy_players_yearly": 1378,
+    "league_trophy_players_alltime": 2081
   },
   "favorite_decks": [
     {
@@ -25,6 +25,10 @@
       "count": 6
     },
     {
+      "archetype": "Flicker Tron",
+      "count": 3
+    },
+    {
       "archetype": "Gardens",
       "count": 3
     },
@@ -33,15 +37,7 @@
       "count": 3
     },
     {
-      "archetype": "Flicker Tron",
-      "count": 3
-    },
-    {
-      "archetype": "Jeskai Ephemerate",
-      "count": 1
-    },
-    {
-      "archetype": "Boros Glitter",
+      "archetype": "Golgari Fog",
       "count": 1
     },
     {
@@ -49,7 +45,11 @@
       "count": 1
     },
     {
-      "archetype": "Golgari Fog",
+      "archetype": "Boros Glitter",
+      "count": 1
+    },
+    {
+      "archetype": "Jeskai Ephemerate",
       "count": 1
     }
   ],
@@ -102,21 +102,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-0412843773",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-04",
-      "player": "Heisen01",
-      "archetype": "Simic Fog",
-      "colors": [
-        "G",
-        "U"
-      ],
-      "record": "5-2",
-      "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-06-0612843773",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-04",
@@ -133,6 +118,21 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-0112843773",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-04",
+      "player": "Heisen01",
+      "archetype": "Simic Fog",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-0412843773",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-04",
       "player": "Heisen01",
