@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import json
-from collections import Counter, defaultdict
+from collections import Counter
 from pathlib import Path
 
 from .classifier import canonical_archetype
@@ -85,7 +85,9 @@ def rebuild_player_profiles(
     trophy_counts_yearly: Counter[str] = Counter()
     trophy_counts_alltime: Counter[str] = Counter()
 
-    for path in raw_dir.glob("*.json"):
+    # Sorted, not raw directory order: display names and any tie broken by
+    # insertion order would otherwise differ from machine to machine.
+    for path in sorted(raw_dir.glob("*.json")):
         try:
             data = json.loads(path.read_text())
         except (json.JSONDecodeError, OSError):
@@ -200,8 +202,17 @@ def rebuild_player_profiles(
         profile["irl_name"] = identities.get(username, {}).get("irl_name")
         profile["favorite_decks"] = [
             {"archetype": name, "count": count}
-            for name, count in profile["favorite_decks"].most_common(10)
+            for name, count in sorted(
+                profile["favorite_decks"].items(), key=lambda item: (-item[1], item[0])
+            )[:10]
         ]
+        # Date alone is not a total order -- several events share a date, and
+        # leagues share one with every other league that week. Two stable
+        # passes so the tie breaks ascending while the date stays descending:
+        # that keeps challenges ahead of leagues on a shared date, and the cut
+        # below would otherwise drop a ranked challenge finish in favour of a
+        # league 5-0, of which one player can hold several in a week.
+        profile["recent_entries"].sort(key=lambda e: (e["site_name"], e["player"]))
         profile["recent_entries"].sort(key=lambda e: e["date"], reverse=True)
         profile["recent_entries"] = profile["recent_entries"][:25]
 

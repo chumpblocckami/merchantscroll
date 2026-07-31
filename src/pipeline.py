@@ -22,6 +22,7 @@ from .classifier import (
 )
 from .crawler import crawl_decks, crawl_tournaments
 from .deck_stats import rebuild_deck_profiles
+from .meta_stats import rebuild_metagame_timeline
 from .player_stats import rebuild_player_profiles
 from .pauperwave_crawler import (
     discover_pauperwave_files,
@@ -232,7 +233,7 @@ def rebuild_index() -> bool:
     prune_empty_raw_files(RAW_DIR)
 
     index = []
-    for path in RAW_DIR.glob("*.json"):
+    for path in sorted(RAW_DIR.glob("*.json")):
         try:
             data = json.loads(path.read_text())
         except (json.JSONDecodeError, OSError):
@@ -247,7 +248,8 @@ def rebuild_index() -> bool:
             "deck_count": deck_count,
         })
 
-    index.sort(key=lambda x: x["starttime"], reverse=True)
+    # Every league in a week shares a starttime, so site_name breaks the tie.
+    index.sort(key=lambda x: (x["starttime"], x["site_name"]), reverse=True)
     INDEX_PATH.parent.mkdir(parents=True, exist_ok=True)
     new_text = json.dumps(index, indent=2) + "\n"
     previous = INDEX_PATH.read_text() if INDEX_PATH.exists() else ""
@@ -267,7 +269,7 @@ def rebuild_players_index():
         return
 
     players: dict[str, list[str]] = {}
-    for path in RAW_DIR.glob("*.json"):
+    for path in sorted(RAW_DIR.glob("*.json")):
         try:
             data = json.loads(path.read_text())
         except (json.JSONDecodeError, OSError):
@@ -305,6 +307,7 @@ def rebuild_derived_artifacts(
     2. Classify unlabeled MTGO decks and normalize aliases
     3. Rebuild tournament and player indexes
     4. Rebuild player and deck (meta) profiles
+    5. Rebuild the metagame timeline
 
     Returns a summary dict with ``classified``, ``normalized``, and
     ``index_changed`` keys.
@@ -325,6 +328,7 @@ def rebuild_derived_artifacts(
     rebuild_players_index()
     rebuild_player_profiles(raw_dir=raw_dir)
     rebuild_deck_profiles(raw_dir=raw_dir)
+    rebuild_metagame_timeline(raw_dir=raw_dir)
 
     if write_timestamp:
         write_info()

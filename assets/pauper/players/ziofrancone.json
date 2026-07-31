@@ -25,15 +25,7 @@
       "count": 18
     },
     {
-      "archetype": "Mono Red Rally",
-      "count": 3
-    },
-    {
-      "archetype": "Gruul Monsters",
-      "count": 3
-    },
-    {
-      "archetype": "Elves",
+      "archetype": "Altar Tron",
       "count": 3
     },
     {
@@ -41,7 +33,15 @@
       "count": 3
     },
     {
-      "archetype": "Altar Tron",
+      "archetype": "Elves",
+      "count": 3
+    },
+    {
+      "archetype": "Gruul Monsters",
+      "count": 3
+    },
+    {
+      "archetype": "Mono Red Rally",
       "count": 3
     },
     {
@@ -49,11 +49,11 @@
       "count": 2
     },
     {
-      "archetype": "White Weenie",
+      "archetype": "Walls",
       "count": 2
     },
     {
-      "archetype": "Walls",
+      "archetype": "White Weenie",
       "count": 2
     }
   ],
@@ -154,7 +154,7 @@
       "type": "other"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1912847695",
+      "site_name": "pauper-challenge-32-2026-07-1812847695",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-18",
       "player": "ziofrancone",
@@ -168,7 +168,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1812847695",
+      "site_name": "pauper-challenge-32-2026-07-1912847695",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-18",
       "player": "ziofrancone",
@@ -198,7 +198,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0712846470",
+      "site_name": "pauper-challenge-32-2026-07-0312846470",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-03",
       "player": "ziofrancone",
@@ -212,7 +212,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0312846470",
+      "site_name": "pauper-challenge-32-2026-07-0712846470",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-03",
       "player": "ziofrancone",
@@ -258,7 +258,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
+      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
       "tournament": "Pauper RC Super Qualifier",
       "date": "2026-06-27",
       "player": "ziofrancone",
@@ -274,7 +274,7 @@
       "type": "other"
     },
     {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
+      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
       "tournament": "Pauper RC Super Qualifier",
       "date": "2026-06-27",
       "player": "ziofrancone",
@@ -339,22 +339,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2512845625",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "ziofrancone",
-      "archetype": "Jund Wildfire",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "6-1",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-06-2412845625",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
@@ -383,6 +367,22 @@
       ],
       "record": "0-2",
       "final_rank": 30,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "ziofrancone",
+      "archetype": "Jund Wildfire",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "6-1",
+      "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
     },

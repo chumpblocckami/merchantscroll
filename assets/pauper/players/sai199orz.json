@@ -37,6 +37,14 @@
       "count": 4
     },
     {
+      "archetype": "Boros Synth",
+      "count": 1
+    },
+    {
+      "archetype": "Gruul Monsters",
+      "count": 1
+    },
+    {
       "archetype": "Mono Green Infect",
       "count": 1
     },
@@ -45,15 +53,7 @@
       "count": 1
     },
     {
-      "archetype": "Boros Synth",
-      "count": 1
-    },
-    {
       "archetype": "Rakdos Madness",
-      "count": 1
-    },
-    {
-      "archetype": "Gruul Monsters",
       "count": 1
     }
   ],
@@ -90,11 +90,11 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0512845719",
+      "site_name": "pauper-challenge-32-2026-07-0112845719",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-01",
       "player": "sai199orz",
-      "archetype": "Jund Wildfire",
+      "archetype": "Boros Synth",
       "colors": [
         "B",
         "R",
@@ -106,11 +106,11 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0112845719",
+      "site_name": "pauper-challenge-32-2026-07-0512845719",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-01",
       "player": "sai199orz",
-      "archetype": "Boros Synth",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
         "R",
@@ -186,7 +186,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2312844831",
+      "site_name": "pauper-challenge-32-2026-06-1812844831",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-18",
       "player": "sai199orz",
@@ -200,7 +200,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-1812844831",
+      "site_name": "pauper-challenge-32-2026-06-2312844831",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-18",
       "player": "sai199orz",
@@ -347,21 +347,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2025-11-149750",
-      "tournament": "pauper-league-2025-11-149750",
-      "date": "2025-11-14",
-      "player": "sai199orz",
-      "archetype": "Elves",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-special-2025-11-1412824408",
       "tournament": "Pauper Challenge 32 Special",
       "date": "2025-11-14",
@@ -377,14 +362,14 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2025-10-179750",
-      "tournament": "pauper-league-2025-10-179750",
-      "date": "2025-10-17",
+      "site_name": "pauper-league-2025-11-149750",
+      "tournament": "pauper-league-2025-11-149750",
+      "date": "2025-11-14",
       "player": "sai199orz",
-      "archetype": "Gruul Ponza",
+      "archetype": "Elves",
       "colors": [
-        "G",
-        "R"
+        "B",
+        "G"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -404,6 +389,21 @@
       "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-10-179750",
+      "tournament": "pauper-league-2025-10-179750",
+      "date": "2025-10-17",
+      "player": "sai199orz",
+      "archetype": "Gruul Ponza",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2025-10-0412818128",

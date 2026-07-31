@@ -120,6 +120,17 @@ Fix by regenerating the secret. To check whether it is happening:
 gh run view <run-id> --log | grep "rejected the token"
 ```
 
+**A crawl commit touching hundreds of profile files.** Derived artifacts —
+`assets/pauper/index.json`, `players.json`, the per-player and per-archetype
+profiles, and `meta/timeline.json` — are deterministic: rebuilding them from
+unchanged raw data must produce byte-identical files. If a commit rewrites
+hundreds of profiles while adding one tournament, something has started leaking
+iteration order into output. The usual causes are reading `Path.glob` without
+sorting it (directory order differs between machines) and sorting by a key that
+is not a total order, such as `date` alone when a whole league week shares one.
+`TestDerivedArtifactDeterminism` in `tests/test_unit.py` guards this by
+rebuilding under a reversed file order and comparing the results.
+
 **Node 20 deprecation warnings.** `actions/checkout@v4` and
 `astral-sh/setup-uv@v5` target Node 20, which GitHub has deprecated and now
 force-runs on Node 24. Harmless today; clears by bumping to `checkout@v5` and

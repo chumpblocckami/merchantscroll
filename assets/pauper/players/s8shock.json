@@ -25,10 +25,6 @@
       "count": 4
     },
     {
-      "archetype": "Rakdos Affinity",
-      "count": 2
-    },
-    {
       "archetype": "Grixis Affinity",
       "count": 2
     },
@@ -37,15 +33,19 @@
       "count": 2
     },
     {
+      "archetype": "Rakdos Affinity",
+      "count": 2
+    },
+    {
+      "archetype": "Gardens",
+      "count": 1
+    },
+    {
       "archetype": "Golgari Glee",
       "count": 1
     },
     {
       "archetype": "Jund Wildfire",
-      "count": 1
-    },
-    {
-      "archetype": "Gardens",
       "count": 1
     }
   ],
@@ -99,7 +99,7 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2512845625",
+      "site_name": "pauper-challenge-32-2026-06-2412845625",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "s8shock",
@@ -114,7 +114,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2412845625",
+      "site_name": "pauper-challenge-32-2026-06-2512845625",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
       "player": "s8shock",
@@ -265,20 +265,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2025-07-119366",
-      "tournament": "pauper-league-2025-07-119366",
-      "date": "2025-07-11",
-      "player": "s8shock",
-      "archetype": "Mono Blue Terror",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2025-07-1112802796",
       "tournament": "Pauper Challenge 32",
       "date": "2025-07-11",
@@ -291,6 +277,20 @@
       "final_rank": 4,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-07-119366",
+      "tournament": "pauper-league-2025-07-119366",
+      "date": "2025-07-11",
+      "player": "s8shock",
+      "archetype": "Mono Blue Terror",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2025-05-099081",

@@ -29,11 +29,11 @@
       "count": 3
     },
     {
-      "archetype": "White Weenie",
+      "archetype": "Gruul Monsters",
       "count": 3
     },
     {
-      "archetype": "Gruul Monsters",
+      "archetype": "White Weenie",
       "count": 3
     },
     {
@@ -41,15 +41,15 @@
       "count": 2
     },
     {
-      "archetype": "Mono Red Rally",
-      "count": 1
-    },
-    {
       "archetype": "Bogles",
       "count": 1
     },
     {
       "archetype": "Mono Black Sacrifice",
+      "count": 1
+    },
+    {
+      "archetype": "Mono Red Rally",
       "count": 1
     }
   ],
@@ -334,21 +334,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-01-179987",
-      "tournament": "pauper-league-2026-01-179987",
-      "date": "2026-01-17",
-      "player": "Miaycle",
-      "archetype": "Gruul Monsters",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-01-1712830048",
       "tournament": "Pauper Challenge 32",
       "date": "2026-01-17",
@@ -362,6 +347,21 @@
       "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-01-179987",
+      "tournament": "pauper-league-2026-01-179987",
+      "date": "2026-01-17",
+      "player": "Miaycle",
+      "archetype": "Gruul Monsters",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-01-109987",
@@ -392,20 +392,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2025-10-259750",
-      "tournament": "pauper-league-2025-10-259750",
-      "date": "2025-10-25",
-      "player": "Miaycle",
-      "archetype": "Pingers",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2025-10-2512821688",
       "tournament": "Pauper Challenge 32",
       "date": "2025-10-25",
@@ -418,6 +404,20 @@
       "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-10-259750",
+      "tournament": "pauper-league-2025-10-259750",
+      "date": "2025-10-25",
+      "player": "Miaycle",
+      "archetype": "Pingers",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ]
 }

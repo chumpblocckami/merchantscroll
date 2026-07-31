@@ -25,10 +25,6 @@
       "count": 6
     },
     {
-      "archetype": "Naya Gates",
-      "count": 2
-    },
-    {
       "archetype": "Dimir Faeries",
       "count": 2
     },
@@ -37,19 +33,23 @@
       "count": 2
     },
     {
+      "archetype": "Naya Gates",
+      "count": 2
+    },
+    {
+      "archetype": "Affinity",
+      "count": 1
+    },
+    {
+      "archetype": "Altar Tron",
+      "count": 1
+    },
+    {
       "archetype": "Cawgate",
       "count": 1
     },
     {
-      "archetype": "Izzet Control",
-      "count": 1
-    },
-    {
       "archetype": "Elves",
-      "count": 1
-    },
-    {
-      "archetype": "Gruul Monsters",
       "count": 1
     },
     {
@@ -138,7 +138,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1412847113",
+      "site_name": "pauper-challenge-32-2026-07-1012847113",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-10",
       "player": "TuggaNaxos",
@@ -153,7 +153,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1012847113",
+      "site_name": "pauper-challenge-32-2026-07-1412847113",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-10",
       "player": "TuggaNaxos",
@@ -183,7 +183,7 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
+      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
       "tournament": "Pauper RC Super Qualifier",
       "date": "2026-06-27",
       "player": "TuggaNaxos",
@@ -197,7 +197,7 @@
       "type": "other"
     },
     {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
+      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
       "tournament": "Pauper RC Super Qualifier",
       "date": "2026-06-27",
       "player": "TuggaNaxos",
@@ -240,20 +240,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-05-0810636",
-      "tournament": "Pauper League",
-      "date": "2026-05-08",
-      "player": "TuggaNaxos",
-      "archetype": "Mono Red Madness",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-05-0812842071",
       "tournament": "Pauper Challenge 32",
       "date": "2026-05-08",
@@ -266,6 +252,20 @@
       "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-05-0810636",
+      "tournament": "Pauper League",
+      "date": "2026-05-08",
+      "player": "TuggaNaxos",
+      "archetype": "Mono Red Madness",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-05-0410636",

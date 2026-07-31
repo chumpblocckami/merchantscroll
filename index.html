@@ -71,6 +71,8 @@
         <span class="header-deck-count info" id="deck-count"></span>
       </div>
       <div class="header-actions">
+        <button class="header-icon-btn metagame-btn" id="metagame-btn" type="button"
+          title="Metagame breakdown (M)" aria-label="Metagame breakdown">&#9776;</button>
         <button class="header-icon-btn install-app-btn" id="install-app-btn" type="button"
           title="Install app" aria-label="Install app" hidden>&#8681;</button>
         <a class="header-icon-btn contact-mail" href="mailto:contact.matteomazzola@gmail.com" aria-label="Contact" title="Contact">&#9993;</a>
@@ -89,6 +91,13 @@
     <div class="player-modal-panel" role="dialog" aria-modal="true" aria-labelledby="player-modal-title">
       <button type="button" class="player-modal-close" id="player-modal-close" aria-label="Close profile">&#10005;</button>
       <div id="player-modal-body" class="player-modal-body"></div>
+    </div>
+  </div>
+
+  <div id="meta-modal" class="meta-modal" hidden aria-hidden="true">
+    <div class="meta-modal-panel" role="dialog" aria-modal="true" aria-labelledby="meta-modal-title">
+      <button type="button" class="player-modal-close" id="meta-modal-close" aria-label="Close metagame">&#10005;</button>
+      <div id="meta-modal-body" class="meta-modal-body"></div>
     </div>
   </div>
 
@@ -916,6 +925,655 @@
 
     $("player-modal-close").addEventListener("click", closePlayerModal);
 
+    /* ── Metagame overview ── */
+    const META_TOP_ROWS = 12;
+    const META_SERIES = 8;
+    // A single league day is ~12 decks, where one extra copy of a deck moves its
+    // share by 8 points. Below this sample size a trend arrow is just noise.
+    const META_MIN_TREND_DECKS = 50;
+    const META_PALETTE = [
+      "#4a9eff", "#e5645c", "#4caf72", "#f0b429",
+      "#a97bd6", "#3fbfbf", "#e8804a", "#d46a9f",
+    ];
+    const META_OTHER_COLOR = "#8a94a6";
+    const META_SCOPES = [
+      { id: "tournament", label: "This tournament", needsDeck: true },
+      { id: "day", label: "This day", needsDeck: true },
+      { id: "d7", label: "7 days", days: 7 },
+      { id: "d30", label: "30 days", days: 30 },
+      { id: "d90", label: "90 days", days: 90 },
+      { id: "year", label: currentYear },
+      { id: "all", label: "All time" },
+    ];
+    const META_TYPES = [
+      { id: "all", label: "All events", noun: "event", nouns: "events" },
+      { id: "league", label: "Leagues", noun: "league", nouns: "leagues" },
+      { id: "challenge", label: "Challenges", noun: "challenge", nouns: "challenges" },
+      { id: "irl", label: "IRL", noun: "IRL event", nouns: "IRL events" },
+    ];
+    const META_TYPE_NOTES = {
+      all: "Leagues publish 5-0 decks, challenges the top 32, IRL events the top 8 — this is share of winning decks, not raw metagame share.",
+      league: "Leagues only publish 5-0 decks, so this is trophy share.",
+      challenge: "Challenges only publish the top 32, so this is share of high finishes.",
+      irl: "IRL events only publish the top 8, so this is share of top-8 decks.",
+    };
+
+    const metaModal = $("meta-modal");
+    const metaModalBody = $("meta-modal-body");
+    let metaModalOpen = false;
+    let metaTimeline = null;
+    let metaTimelinePromise = null;
+    let metaScopeId = "d30";
+    let metaTypeId = "all";
+    let metaTailOpen = false;
+
+    function isMetaModalOpen() {
+      return metaModalOpen;
+    }
+
+    function loadMetaTimeline() {
+      if (metaTimeline) return Promise.resolve(metaTimeline);
+      if (!metaTimelinePromise) {
+        metaTimelinePromise = fetch("assets/pauper/meta/timeline.json", { cache: "no-store" })
+          .then((res) => {
+            if (!res.ok) throw new Error("timeline unavailable");
+            return res.json();
+          })
+          .then((data) => {
+            metaTimeline = data;
+            return data;
+          })
+          .catch((err) => {
+            metaTimelinePromise = null;
+            throw err;
+          });
+      }
+      return metaTimelinePromise;
+    }
+
+    function metaScopeById(id) {
+      return META_SCOPES.find((s) => s.id === id) || META_SCOPES[3];
+    }
+
+    /* Windows are anchored on the newest event in the data, not the wall
+       clock, so a stale crawl never renders an empty "last 7 days". */
+    function metaAnchorDate() {
+      return metaTimeline?.events?.[0]?.d || "";
+    }
+
+    function shiftDays(dateStr, delta) {
+      const d = new Date(`${dateStr}T00:00:00Z`);
+      if (isNaN(d)) return dateStr;
+      d.setUTCDate(d.getUTCDate() + delta);
+      return d.toISOString().slice(0, 10);
+    }
+
+    function metaRange(scopeId, previous = false) {
+      const scope = metaScopeById(scopeId);
+      if (scope.days) {
+        const anchor = metaAnchorDate();
+        if (!anchor) return null;
+        const to = previous ? shiftDays(anchor, -scope.days) : anchor;
+        return { from: shiftDays(to, -(scope.days - 1)), to };
+      }
+      if (scopeId === "year") {
+        const year = Number(currentYear) - (previous ? 1 : 0);
+        return { from: `${year}-01-01`, to: `${year}-12-31` };
+      }
+      return null;
+    }
+
+    function metaCurrentEntry() {
+      return filteredDecks[deckIdx] || null;
+    }
+
+    function metaMatchesType(event) {
+      return metaTypeId === "all" || event.t === metaTypeId;
+    }
+
+    function metaEventsForScope(scopeId, previous = false) {
+      const events = metaTimeline?.events || [];
+      if (scopeId === "tournament") {
+        if (previous) return [];
+        const siteName = metaCurrentEntry()?.siteName;
+        return events.filter((e) => e.s === siteName);
+      }
+      if (scopeId === "day") {
+        const entry = metaCurrentEntry();
+        const day = dateKey(entry?.tournamentDate);
+        if (!day) return [];
+        const target = previous ? metaPreviousDay(day) : day;
+        return events.filter((e) => e.d === target && metaMatchesType(e));
+      }
+      if (scopeId === "all") {
+        return previous ? [] : events.filter(metaMatchesType);
+      }
+      const range = metaRange(scopeId, previous);
+      if (!range) return [];
+      return events.filter(
+        (e) => e.d >= range.from && e.d <= range.to && metaMatchesType(e)
+      );
+    }
+
+    function metaPreviousDay(day) {
+      const earlier = (metaTimeline?.events || [])
+        .filter((e) => e.d < day && metaMatchesType(e))
+        .map((e) => e.d);
+      return earlier.length ? earlier[0] : "";
+    }
+
+    function metaAggregate(events) {
+      const names = metaTimeline?.archetypes || [];
+      const slugs = metaTimeline?.slugs || [];
+      const totals = new Map();
+      let total = 0;
+      for (const event of events) {
+        for (const [idx, count] of event.c) {
+          totals.set(idx, (totals.get(idx) || 0) + count);
+          total += count;
+        }
+      }
+      const rows = [...totals.entries()]
+        .map(([idx, count]) => ({
+          idx,
+          name: names[idx] || "Unknown",
+          slug: slugs[idx] || archetypeSlug(names[idx]),
+          count,
+          share: total ? (100 * count) / total : 0,
+        }))
+        .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name));
+      return { rows, total, eventCount: events.length };
+    }
+
+    function metaShareMap(events) {
+      const shares = new Map();
+      const agg = metaAggregate(events);
+      if (agg.total < META_MIN_TREND_DECKS) return null;
+      for (const row of agg.rows) shares.set(row.idx, row.share);
+      return shares;
+    }
+
+    function metaGranularity(scopeId) {
+      if (scopeId === "d7" || scopeId === "d30") return "day";
+      if (scopeId === "d90") return "week";
+      return "month";
+    }
+
+    function metaBucketKey(date, granularity) {
+      if (granularity === "month") return date.slice(0, 7);
+      if (granularity === "week") {
+        const d = new Date(`${date}T00:00:00Z`);
+        if (isNaN(d)) return date;
+        d.setUTCDate(d.getUTCDate() - ((d.getUTCDay() + 6) % 7));
+        return d.toISOString().slice(0, 10);
+      }
+      return date;
+    }
+
+    function metaBucketLabel(key, granularity) {
+      if (granularity === "month") {
+        const d = new Date(`${key}-01T00:00:00Z`);
+        if (isNaN(d)) return key;
+        return d.toLocaleDateString("en-US", { month: "short", year: "2-digit", timeZone: "UTC" });
+      }
+      const d = new Date(`${key}T00:00:00Z`);
+      if (isNaN(d)) return key;
+      return d.toLocaleDateString("en-US", { month: "short", day: "numeric", timeZone: "UTC" });
+    }
+
+    /* Only buckets that actually hold events become columns, so a quiet
+       week narrows the chart instead of flatlining it to zero. */
+    function metaBuckets(events, granularity) {
+      const byKey = new Map();
+      for (const event of events) {
+        const key = metaBucketKey(event.d, granularity);
+        if (!byKey.has(key)) byKey.set(key, { key, total: 0, counts: new Map() });
+        const bucket = byKey.get(key);
+        for (const [idx, count] of event.c) {
+          bucket.counts.set(idx, (bucket.counts.get(idx) || 0) + count);
+          bucket.total += count;
+        }
+      }
+      return [...byKey.values()].sort((a, b) => (a.key < b.key ? -1 : 1));
+    }
+
+    /* Columns are spaced evenly, so a month holding 8 decks would occupy the
+       same width as one holding 600 and spike to 100% on a single deck. Drop
+       buckets far below the typical sample rather than draw that noise. The
+       threshold is relative, so it prunes sparse 2019 months without emptying
+       a 7-day view where every bucket is small. */
+    function metaPlottableBuckets(buckets) {
+      if (buckets.length < 3) return { plotted: buckets, omitted: 0 };
+      const totals = buckets.map((b) => b.total).sort((a, b) => a - b);
+      const median = totals[Math.floor(totals.length / 2)];
+      const floor = Math.max(3, median * 0.15);
+      const plotted = buckets.filter((b) => b.total >= floor);
+      if (plotted.length < 2) return { plotted: buckets, omitted: 0 };
+      return { plotted, omitted: buckets.length - plotted.length };
+    }
+
+    function svgEl(tag, cls, attrs) {
+      const node = document.createElementNS("http://www.w3.org/2000/svg", tag);
+      if (cls) node.setAttribute("class", cls);
+      for (const [key, value] of Object.entries(attrs || {})) {
+        node.setAttribute(key, value);
+      }
+      return node;
+    }
+
+    function metaSeriesColor(i, isOther) {
+      return isOther ? META_OTHER_COLOR : META_PALETTE[i % META_PALETTE.length];
+    }
+
+    function buildMetaChart(view) {
+      const granularity = metaGranularity(view.scopeId);
+      const { plotted: buckets, omitted } = metaPlottableBuckets(
+        metaBuckets(view.events, granularity)
+      );
+      if (buckets.length < 2) return null;
+
+      const top = view.agg.rows.slice(0, META_SERIES);
+      const topIdx = top.map((row) => row.idx);
+      const series = top.map((row, i) => ({
+        name: row.name,
+        color: metaSeriesColor(i, false),
+        idx: row.idx,
+      }));
+      const hasOther = view.agg.rows.length > META_SERIES;
+      if (hasOther) {
+        series.push({ name: "Other", color: META_OTHER_COLOR, idx: null });
+      }
+
+      const shares = buckets.map((bucket) => {
+        const row = series.map((s) =>
+          s.idx == null
+            ? 0
+            : bucket.total
+              ? (100 * (bucket.counts.get(s.idx) || 0)) / bucket.total
+              : 0
+        );
+        if (hasOther) {
+          row[row.length - 1] = Math.max(0, 100 - row.reduce((a, b) => a + b, 0));
+        }
+        return row;
+      });
+
+      const W = 640;
+      const H = 200;
+      const padL = 38;
+      const padR = 6;
+      const padT = 8;
+      const padB = 20;
+      const plotW = W - padL - padR;
+      const plotH = H - padT - padB;
+      const x = (i) =>
+        padL + (buckets.length === 1 ? plotW / 2 : (plotW * i) / (buckets.length - 1));
+      const y = (pct) => padT + plotH - (plotH * pct) / 100;
+
+      const svg = svgEl("svg", "meta-chart-svg", {
+        viewBox: `0 0 ${W} ${H}`,
+        role: "img",
+        "aria-label": "Archetype share over time",
+      });
+
+      for (const pct of [0, 25, 50, 75, 100]) {
+        svg.appendChild(
+          svgEl("line", "meta-chart-grid", {
+            x1: padL, x2: W - padR, y1: y(pct), y2: y(pct),
+          })
+        );
+        const label = svgEl("text", "meta-chart-axis", {
+          x: padL - 5, y: y(pct) + 3.5, "text-anchor": "end",
+        });
+        label.textContent = `${pct}%`;
+        svg.appendChild(label);
+      }
+
+      const cumulative = new Array(buckets.length).fill(0);
+      series.forEach((s, si) => {
+        const lower = cumulative.slice();
+        const upper = cumulative.map((base, bi) => base + shares[bi][si]);
+        const forward = upper.map((pct, bi) => `${bi ? "L" : "M"}${x(bi)} ${y(pct)}`);
+        const back = lower
+          .map((pct, bi) => ({ pct, bi }))
+          .reverse()
+          .map(({ pct, bi }) => `L${x(bi)} ${y(pct)}`);
+        svg.appendChild(
+          svgEl("path", null, {
+            d: `${forward.join(" ")} ${back.join(" ")} Z`,
+            fill: s.color,
+            "fill-opacity": "0.72",
+            stroke: s.color,
+            "stroke-width": "0.75",
+          })
+        );
+        upper.forEach((pct, bi) => (cumulative[bi] = pct));
+      });
+
+      const tickCount = Math.min(5, buckets.length);
+      for (let t = 0; t < tickCount; t++) {
+        const bi = Math.round((t * (buckets.length - 1)) / Math.max(1, tickCount - 1));
+        const anchor = bi === 0 ? "start" : bi === buckets.length - 1 ? "end" : "middle";
+        const label = svgEl("text", "meta-chart-axis", {
+          x: x(bi), y: H - 6, "text-anchor": anchor,
+        });
+        label.textContent = metaBucketLabel(buckets[bi].key, granularity);
+        svg.appendChild(label);
+      }
+
+      const cursor = svgEl("line", "meta-chart-cursor", {
+        x1: 0, x2: 0, y1: padT, y2: padT + plotH, opacity: "0",
+      });
+      svg.appendChild(cursor);
+
+      const chart = el("div", "meta-chart");
+      chart.appendChild(svg);
+
+      const legend = el("ul", "meta-legend");
+      for (const s of series) {
+        const item = el("li", "meta-legend-item");
+        const swatch = el("span", "meta-legend-swatch");
+        swatch.style.background = s.color;
+        item.appendChild(swatch);
+        item.appendChild(document.createTextNode(s.name));
+        legend.appendChild(item);
+      }
+      chart.appendChild(legend);
+
+      const unit = granularity === "day" ? "days" : granularity === "week" ? "weeks" : "months";
+      const captionParts = [
+        `${buckets.length} ${unit}`,
+        `${metaBucketLabel(buckets[0].key, granularity)} to ${metaBucketLabel(buckets[buckets.length - 1].key, granularity)}`,
+      ];
+      if (omitted) {
+        captionParts.push(`${omitted} sparse ${omitted === 1 ? unit.replace(/s$/, "") : unit} not plotted`);
+      }
+      const caption = el("p", "meta-chart-caption");
+      const defaultCaption = captionParts.join(" · ");
+      caption.textContent = defaultCaption;
+      chart.appendChild(caption);
+
+      function describeBucket(bi) {
+        const bucket = buckets[bi];
+        const parts = series
+          .map((s, si) => ({ name: s.name, pct: shares[bi][si] }))
+          .filter((p) => p.pct > 0)
+          .sort((a, b) => b.pct - a.pct)
+          .slice(0, 3)
+          .map((p) => `${p.name} ${p.pct.toFixed(0)}%`);
+        return `${metaBucketLabel(bucket.key, granularity)} · ${bucket.total} decks · ${parts.join(", ")}`;
+      }
+
+      function trackPointer(event) {
+        const box = svg.getBoundingClientRect();
+        if (!box.width) return;
+        const px = ((event.clientX - box.left) / box.width) * W;
+        const ratio = (px - padL) / plotW;
+        const bi = Math.max(
+          0,
+          Math.min(buckets.length - 1, Math.round(ratio * (buckets.length - 1)))
+        );
+        cursor.setAttribute("x1", x(bi));
+        cursor.setAttribute("x2", x(bi));
+        cursor.setAttribute("opacity", "1");
+        caption.textContent = describeBucket(bi);
+      }
+
+      svg.addEventListener("pointermove", trackPointer);
+      svg.addEventListener("pointerdown", trackPointer);
+      svg.addEventListener("pointerleave", () => {
+        cursor.setAttribute("opacity", "0");
+        caption.textContent = defaultCaption;
+      });
+
+      return chart;
+    }
+
+    function metaRowNameNode(row) {
+      if (row.name === "Unclassified") {
+        return el("span", "meta-row-name", row.name);
+      }
+      const btn = el("button", "deck-link meta-row-name", row.name);
+      btn.type = "button";
+      btn.addEventListener("click", () => {
+        closeMetaModal();
+        openDeckProfile(row.name);
+      });
+      return btn;
+    }
+
+    function buildMetaRow(row, rank, maxShare, delta) {
+      const item = el("li", "meta-row");
+      item.appendChild(el("span", "meta-row-rank", String(rank)));
+
+      const label = el("div", "meta-row-label");
+      label.appendChild(metaRowNameNode(row));
+      const bar = el("div", "meta-row-bar");
+      bar.style.width = `${maxShare ? Math.max(1, (100 * row.share) / maxShare) : 0}%`;
+      label.appendChild(bar);
+      item.appendChild(label);
+
+      item.appendChild(el("span", "meta-row-share", `${row.share.toFixed(1)}%`));
+      item.appendChild(el("span", "meta-row-count", String(row.count)));
+
+      if (delta == null) {
+        item.appendChild(el("span", "meta-row-delta", ""));
+      } else {
+        const dir = delta > 0 ? "up" : delta < 0 ? "down" : "flat";
+        const node = el(
+          "span",
+          `meta-row-delta meta-row-delta--${dir}`,
+          `${delta > 0 ? "+" : ""}${delta.toFixed(1)}`
+        );
+        node.title = "Change in share (percentage points) vs the previous period";
+        item.appendChild(node);
+      }
+      return item;
+    }
+
+    function buildMetaRows(view) {
+      const { rows } = view.agg;
+      const maxShare = rows[0]?.share || 0;
+      const section = el("section", "meta-section");
+      const list = el("ul", "meta-rows");
+
+      const head = rows.slice(0, META_TOP_ROWS);
+      const tail = rows.slice(META_TOP_ROWS);
+
+      const deltaFor = (row) => {
+        if (!view.prevShares) return null;
+        return row.share - (view.prevShares.get(row.idx) || 0);
+      };
+
+      head.forEach((row, i) => {
+        list.appendChild(buildMetaRow(row, i + 1, maxShare, deltaFor(row)));
+      });
+
+      if (tail.length && metaTailOpen) {
+        tail.forEach((row, i) => {
+          list.appendChild(
+            buildMetaRow(row, META_TOP_ROWS + i + 1, maxShare, deltaFor(row))
+          );
+        });
+      }
+      section.appendChild(list);
+
+      if (tail.length) {
+        const tailDecks = tail.reduce((sum, row) => sum + row.count, 0);
+        const toggle = el(
+          "button",
+          "meta-tail-toggle",
+          metaTailOpen
+            ? "Hide the tail"
+            : `Show ${tail.length} more (${tailDecks} ${tailDecks === 1 ? "deck" : "decks"})`
+        );
+        toggle.type = "button";
+        toggle.addEventListener("click", () => {
+          metaTailOpen = !metaTailOpen;
+          renderMetaModal();
+        });
+        section.appendChild(toggle);
+      }
+
+      return section;
+    }
+
+    function metaScopeCaption(view) {
+      if (view.scopeId === "tournament") {
+        const entry = metaCurrentEntry();
+        return entry?.tournamentName || "This tournament";
+      }
+      if (view.scopeId === "day") {
+        return formatDateBreadcrumb(dateKey(metaCurrentEntry()?.tournamentDate));
+      }
+      if (view.scopeId === "all") return "All time";
+      if (view.scopeId === "year") return currentYear;
+      const range = metaRange(view.scopeId);
+      if (!range) return "";
+      return `${formatDateBreadcrumb(range.from)} – ${formatDateBreadcrumb(range.to)}`;
+    }
+
+    function buildMetaHeader(view) {
+      const head = el("header", "meta-header");
+      const title = el("h2", "player-modal-title", "Metagame");
+      title.id = "meta-modal-title";
+      head.appendChild(title);
+
+      const type = META_TYPES.find((t) => t.id === metaTypeId) || META_TYPES[0];
+      const events = view.agg.eventCount;
+      const archetypes = view.agg.rows.length;
+      const parts = [
+        `${view.agg.total.toLocaleString()} ${view.agg.total === 1 ? "deck" : "decks"}`,
+        `${events.toLocaleString()} ${events === 1 ? type.noun : type.nouns}`,
+        `${archetypes} ${archetypes === 1 ? "archetype" : "archetypes"}`,
+      ];
+      const caption = metaScopeCaption(view);
+      if (caption) parts.push(caption);
+      head.appendChild(el("p", "meta-summary", parts.join(" · ")));
+      head.appendChild(el("p", "meta-note", META_TYPE_NOTES[metaTypeId]));
+      return head;
+    }
+
+    function buildMetaControls() {
+      const controls = el("div", "meta-controls");
+      const hasDeck = Boolean(metaCurrentEntry());
+
+      const scopeRow = el("div", "meta-chip-row");
+      scopeRow.setAttribute("role", "group");
+      scopeRow.setAttribute("aria-label", "Timespan");
+      for (const scope of META_SCOPES) {
+        const chip = el("button", "meta-chip", scope.label);
+        chip.type = "button";
+        chip.setAttribute("aria-pressed", scope.id === metaScopeId ? "true" : "false");
+        if (scope.needsDeck && !hasDeck) chip.disabled = true;
+        chip.addEventListener("click", () => {
+          if (metaScopeId === scope.id) return;
+          metaScopeId = scope.id;
+          metaTailOpen = false;
+          renderMetaModal();
+        });
+        scopeRow.appendChild(chip);
+      }
+      controls.appendChild(scopeRow);
+
+      const typeRow = el("div", "meta-chip-row");
+      typeRow.setAttribute("role", "group");
+      typeRow.setAttribute("aria-label", "Event type");
+      for (const type of META_TYPES) {
+        const chip = el("button", "meta-chip", type.label);
+        chip.type = "button";
+        chip.setAttribute("aria-pressed", type.id === metaTypeId ? "true" : "false");
+        // A single tournament has exactly one type; filtering it is a no-op.
+        if (metaScopeId === "tournament") chip.disabled = true;
+        chip.addEventListener("click", () => {
+          if (metaTypeId === type.id) return;
+          metaTypeId = type.id;
+          metaTailOpen = false;
+          renderMetaModal();
+        });
+        typeRow.appendChild(chip);
+      }
+      controls.appendChild(typeRow);
+
+      return controls;
+    }
+
+    function metaView() {
+      const events = metaEventsForScope(metaScopeId);
+      const agg = metaAggregate(events);
+      const prevEvents = metaEventsForScope(metaScopeId, true);
+      const comparable = prevEvents.length && agg.total >= META_MIN_TREND_DECKS;
+      return {
+        scopeId: metaScopeId,
+        events,
+        agg,
+        prevShares: comparable ? metaShareMap(prevEvents) : null,
+      };
+    }
+
+    function renderMetaModal() {
+      const view = metaView();
+      metaModalBody.innerHTML = "";
+      const wrap = el("div", "meta-modal-content");
+      wrap.appendChild(buildMetaHeader(view));
+      wrap.appendChild(buildMetaControls());
+
+      if (!view.agg.total) {
+        wrap.appendChild(el("p", "meta-empty", "No decks in this range."));
+        metaModalBody.appendChild(wrap);
+        return;
+      }
+
+      const chart = buildMetaChart(view);
+      if (chart) wrap.appendChild(chart);
+      wrap.appendChild(buildMetaRows(view));
+      metaModalBody.appendChild(wrap);
+    }
+
+    async function openMetagame() {
+      if (metaModalOpen) return;
+      closeDropdown();
+      hidePreview();
+      metaTailOpen = false;
+      // A scope carried over from a previous session needs a deck on screen.
+      if (metaScopeById(metaScopeId).needsDeck && !metaCurrentEntry()) {
+        metaScopeId = "d30";
+      }
+      metaModalBody.innerHTML = '<div class="loader">Loading metagame...</div>';
+      syncHeaderHeight();
+      metaModal.hidden = false;
+      metaModal.setAttribute("aria-hidden", "false");
+      requestAnimationFrame(() => {
+        metaModal.classList.add("open");
+        metaModalOpen = true;
+      });
+
+      try {
+        await loadMetaTimeline();
+        if (!metaModal.hidden) renderMetaModal();
+      } catch (_) {
+        metaModalBody.innerHTML =
+          '<p class="player-modal-error">Metagame data is unavailable right now.</p>';
+      }
+    }
+
+    function closeMetaModal() {
+      if (!metaModalOpen) return;
+      metaModal.classList.remove("open");
+      metaModal.setAttribute("aria-hidden", "true");
+      metaModalOpen = false;
+      setTimeout(() => {
+        metaModal.hidden = true;
+        metaModalBody.innerHTML = "";
+      }, 220);
+    }
+
+    $("meta-modal-close").addEventListener("click", closeMetaModal);
+    $("metagame-btn").addEventListener("click", openMetagame);
+    metaModal.addEventListener("click", (e) => {
+      if (e.target === metaModal) closeMetaModal();
+    });
+
     /* ── Deck export ── */
     function formatDeckColors(colors) {
       if (!colors?.length) return "";
@@ -1656,6 +2314,13 @@
 
     document.addEventListener("keydown", (e) => {
       if (document.activeElement?.tagName === "INPUT") return;
+      if (isMetaModalOpen()) {
+        if (e.key === "Escape" || e.key === "m" || e.key === "M") {
+          e.preventDefault();
+          closeMetaModal();
+        }
+        return;
+      }
       if (isPlayerModalOpen()) {
         if (e.key === "Escape" || e.key === "ArrowLeft" || e.key === "ArrowRight") {
           e.preventDefault();
@@ -1663,6 +2328,7 @@
         }
         return;
       }
+      if (e.key === "m" || e.key === "M") { e.preventDefault(); openMetagame(); }
       if (e.key === "ArrowDown") { e.preventDefault(); throttledGo(1); }
       if (e.key === "ArrowUp") { e.preventDefault(); throttledGo(-1); }
       if (e.key === "ArrowRight") { e.preventDefault(); openPlayerProfileFromDeck(); }

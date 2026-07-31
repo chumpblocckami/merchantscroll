@@ -37,11 +37,11 @@
       "count": 2
     },
     {
-      "archetype": "Mono Red Rally",
+      "archetype": "GRW",
       "count": 2
     },
     {
-      "archetype": "GRW",
+      "archetype": "Mono Red Rally",
       "count": 2
     },
     {
@@ -49,11 +49,11 @@
       "count": 1
     },
     {
-      "archetype": "Selesnya Gates",
+      "archetype": "Bogles",
       "count": 1
     },
     {
-      "archetype": "Bogles",
+      "archetype": "Naya Gates",
       "count": 1
     }
   ],
@@ -75,7 +75,7 @@
       "type": "showcase"
     },
     {
-      "site_name": "pauper-last-chance-2026-07-1912847738",
+      "site_name": "pauper-last-chance-2026-07-0412847738",
       "tournament": "Pauper Last Chance",
       "date": "2026-07-21",
       "player": "Walker735",
@@ -91,20 +91,20 @@
       "type": "other"
     },
     {
-      "site_name": "pauper-league-2026-07-2110855",
-      "tournament": "Pauper League",
+      "site_name": "pauper-last-chance-2026-07-1912847738",
+      "tournament": "Pauper Last Chance",
       "date": "2026-07-21",
       "player": "Walker735",
-      "archetype": "Affinity",
+      "archetype": "Jund Wildfire",
       "colors": [
         "B",
-        "R",
-        "U"
+        "G",
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
       "source": "mtgo",
-      "type": "league"
+      "type": "other"
     },
     {
       "site_name": "pauper-last-chance-2026-07-2112847730",
@@ -137,23 +137,23 @@
       "type": "other"
     },
     {
-      "site_name": "pauper-last-chance-2026-07-0412847738",
-      "tournament": "Pauper Last Chance",
+      "site_name": "pauper-league-2026-07-2110855",
+      "tournament": "Pauper League",
       "date": "2026-07-21",
       "player": "Walker735",
-      "archetype": "Jund Wildfire",
+      "archetype": "Affinity",
       "colors": [
         "B",
-        "G",
-        "R"
+        "R",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
       "source": "mtgo",
-      "type": "other"
+      "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1912847695",
+      "site_name": "pauper-challenge-32-2026-07-1812847695",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-18",
       "player": "Walker735",
@@ -167,7 +167,7 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-1812847695",
+      "site_name": "pauper-challenge-32-2026-07-1912847695",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-18",
       "player": "Walker735",
@@ -267,22 +267,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-07-0912846485",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-04",
-      "player": "Walker735",
-      "archetype": "Jund Wildfire",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-2",
-      "final_rank": 6,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-07-0312846485",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-04",
@@ -300,6 +284,22 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-07-0412846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "Walker735",
+      "archetype": "Jund Wildfire",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-2",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912846485",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-04",
       "player": "Walker735",
@@ -425,7 +425,7 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2312844831",
+      "site_name": "pauper-challenge-32-2026-06-1812844831",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-18",
       "player": "Walker735",

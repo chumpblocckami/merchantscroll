@@ -29,11 +29,11 @@
       "count": 30
     },
     {
-      "archetype": "Mono Red Madness",
+      "archetype": "Altar Tron",
       "count": 13
     },
     {
-      "archetype": "Altar Tron",
+      "archetype": "Mono Red Madness",
       "count": 13
     },
     {
@@ -53,7 +53,7 @@
       "count": 1
     },
     {
-      "archetype": "Golgari Glee",
+      "archetype": "Flicker Tron",
       "count": 1
     }
   ],
@@ -149,6 +149,22 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-last-chance-2026-07-0412847738",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "saidin.raken",
+      "archetype": "Cycling Storm",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "1-1",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
       "site_name": "pauper-last-chance-2026-07-1912847738",
       "tournament": "Pauper Last Chance",
       "date": "2026-07-21",
@@ -166,22 +182,6 @@
     },
     {
       "site_name": "pauper-last-chance-2026-07-2112847738",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "saidin.raken",
-      "archetype": "Cycling Storm",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "1-1",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-0412847738",
       "tournament": "Pauper Last Chance",
       "date": "2026-07-21",
       "player": "saidin.raken",
@@ -227,21 +227,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-07-0810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-08",
-      "player": "saidin.raken",
-      "archetype": "Azorius Familiars",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-07-0612846623",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-08",
@@ -270,6 +255,21 @@
       "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0810855",
+      "tournament": "Pauper League",
+      "date": "2026-07-08",
+      "player": "saidin.raken",
+      "archetype": "Azorius Familiars",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-0710855",
@@ -317,21 +317,6 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-06-2512845625",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "saidin.raken",
-      "archetype": "Gruul Storm",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 9,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-06-2412845625",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-24",
@@ -358,6 +343,21 @@
       ],
       "record": "0-1",
       "final_rank": 31,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "saidin.raken",
+      "archetype": "Gruul Storm",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
     },

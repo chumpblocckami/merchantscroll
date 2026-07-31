@@ -13,6 +13,7 @@ Status tracker for Merchant Scroll features.
 | 7 | Installable web app (PWA) | Done | [installable-webapp.md](installable-webapp.md) |
 | 8 | Visual decklist view | Done | [visual-decklist.md](visual-decklist.md) |
 | 9 | Deck profile | Done | [deck-profile.md](deck-profile.md) |
+| 10 | Metagame overview | Done | [metagame-overview.md](metagame-overview.md) |
 
 ### Statuses
 

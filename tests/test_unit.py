@@ -693,6 +693,415 @@ class TestDeckStats(unittest.TestCase):
             self.assertEqual(profile["stats"]["total_entries"], 2)
             self.assertFalse((out / "white-weennie.json").exists())
 
+class TestMetaStats(unittest.TestCase):
+    """The metagame timeline must stay a faithful, compact census of raw data."""
+
+    def _build(self, tmp):
+        from pathlib import Path
+
+        from src.meta_stats import rebuild_metagame_timeline
+
+        raw = Path(tmp) / "raw"
+        raw.mkdir()
+        out = Path(tmp) / "timeline.json"
+
+        league = {
+            "description": "Pauper League",
+            "starttime": "2026-06-19",
+            "site_name": "pauper-league-2026-06-0510636",
+            "decklists": [
+                {"player": "alice", "archetype": "Mono Blue Terror"},
+                {"player": "bob", "archetype": "Mono Blue Terror"},
+                {"player": "carol", "archetype": "Elves"},
+                {"player": "dave", "colors": ["U", "B", "R"]},
+            ],
+        }
+        challenge = {
+            "description": "Pauper Challenge",
+            "starttime": "2026-06-14 17:00:00.0",
+            "site_name": "pauper-challenge-32-2026-06-1412844338",
+            "decklists": [{"player": "alice", "archetype": "White Weennie"}],
+        }
+        irl = {
+            "description": "Paupergeddon Milano",
+            "starttime": "2026-05-01",
+            "site_name": "pauperwave-2026-05-01-paupergeddon-milano",
+            "decklists": [{"player": "Enrico Rossi", "archetype": "Elves"}],
+        }
+        empty = {
+            "description": "Pauper League",
+            "starttime": "2026-06-20",
+            "site_name": "pauper-league-2026-06-2010636",
+            "decklists": [],
+        }
+        for name, data in (
+            ("league", league),
+            ("challenge", challenge),
+            ("irl", irl),
+            ("empty", empty),
+        ):
+            (raw / f"{name}.json").write_text(json.dumps(data))
+
+        written = rebuild_metagame_timeline(raw_dir=raw, out_path=out)
+        return written, json.loads(out.read_text())
+
+    def test_name_table_is_deduplicated_and_indexed(self):
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as tmp:
+            _, payload = self._build(tmp)
+
+        names = payload["archetypes"]
+        self.assertEqual(len(names), len(set(names)))
+        self.assertEqual(
+            sorted(names),
+            ["Elves", "Mono Blue Terror", "Unclassified", "White Weenie"],
+        )
+        self.assertEqual(len(payload["slugs"]), len(names))
+        self.assertEqual(payload["slugs"][names.index("Mono Blue Terror")], "mono-blue-terror")
+
+    def test_per_event_counts(self):
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as tmp:
+            written, payload = self._build(tmp)
+
+        self.assertEqual(written, 3)
+        names = payload["archetypes"]
+        events = {event["s"]: event for event in payload["events"]}
+
+        league = dict(
+            (names[idx], count) for idx, count in events["league"]["c"]
+        )
+        self.assertEqual(league, {"Mono Blue Terror": 2, "Elves": 1, "Unclassified": 1})
+
+    def test_counts_are_sorted_by_descending_count(self):
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as tmp:
+            _, payload = self._build(tmp)
+
+        counts = [count for _, count in next(
+            event for event in payload["events"] if event["s"] == "league"
+        )["c"]]
+        self.assertEqual(counts, sorted(counts, reverse=True))
+
+    def test_event_type_tagging(self):
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as tmp:
+            _, payload = self._build(tmp)
+
+        types = {event["s"]: event["t"] for event in payload["events"]}
+        self.assertEqual(types["league"], "league")
+        self.assertEqual(types["challenge"], "challenge")
+        self.assertEqual(types["irl"], "irl")
+
+    def test_league_date_comes_from_site_name(self):
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as tmp:
+            _, payload = self._build(tmp)
+
+        dates = {event["s"]: event["d"] for event in payload["events"]}
+        # starttime says 2026-06-19, but the league week in site_name wins.
+        self.assertEqual(dates["league"], "2026-06-05")
+        self.assertEqual(dates["challenge"], "2026-06-14")
+
+    def test_events_sorted_newest_first(self):
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as tmp:
+            _, payload = self._build(tmp)
+
+        dates = [event["d"] for event in payload["events"]]
+        self.assertEqual(dates, sorted(dates, reverse=True))
+
+    def test_unlabeled_deck_is_unclassified_not_a_color_string(self):
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as tmp:
+            _, payload = self._build(tmp)
+
+        self.assertIn("Unclassified", payload["archetypes"])
+        self.assertNotIn("UBR", payload["archetypes"])
+
+    def test_aliases_are_canonicalized(self):
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as tmp:
+            _, payload = self._build(tmp)
+
+        self.assertIn("White Weenie", payload["archetypes"])
+        self.assertNotIn("White Weennie", payload["archetypes"])
+
+    def test_empty_tournaments_are_skipped(self):
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as tmp:
+            _, payload = self._build(tmp)
+
+        self.assertNotIn("empty", {event["s"] for event in payload["events"]})
+
+    def test_missing_raw_dir_is_not_fatal(self):
+        import tempfile
+        from pathlib import Path
+
+        from src.meta_stats import rebuild_metagame_timeline
+
+        with tempfile.TemporaryDirectory() as tmp:
+            out = Path(tmp) / "timeline.json"
+            self.assertEqual(
+                rebuild_metagame_timeline(raw_dir=Path(tmp) / "absent", out_path=out), 0
+            )
+            self.assertFalse(out.exists())
+
+
+class TestDerivedArtifactDeterminism(unittest.TestCase):
+    """Rebuilds must not depend on the order the filesystem hands back files.
+
+    ``Path.glob`` yields directory order, which differs between machines and
+    after a checkout. Any output that leaks that order rewrites hundreds of
+    committed files on every crawl with no change in meaning.
+    """
+
+    # Same date on purpose: ties are where insertion order leaks into output.
+    TOURNAMENTS = {
+        "league-a": {
+            "description": "Pauper League",
+            "starttime": "2026-06-05",
+            "site_name": "pauper-league-2026-06-0510636",
+            "decklists": [
+                {"player": "alice", "archetype": "Elves", "wins": {"wins": "5", "losses": "0"}},
+                {"player": "bob", "archetype": "Affinity", "wins": {"wins": "5", "losses": "0"}},
+            ],
+        },
+        "challenge-b": {
+            "description": "Pauper Challenge",
+            "starttime": "2026-06-05 17:00:00.0",
+            "site_name": "pauper-challenge-32-2026-06-0512844338",
+            "decklists": [
+                {"player": "alice", "archetype": "Affinity", "wins": {"wins": "3", "losses": "2"}},
+                {"player": "carol", "archetype": "Elves", "wins": {"wins": "6", "losses": "1"}},
+            ],
+        },
+        "challenge-c": {
+            "description": "Pauper Challenge",
+            "starttime": "2026-06-05 21:00:00.0",
+            "site_name": "pauper-challenge-32-2026-06-0512844339",
+            "decklists": [
+                {"player": "alice", "archetype": "Elves", "wins": {"wins": "4", "losses": "3"}},
+                {"player": "bob", "archetype": "Elves", "wins": {"wins": "2", "losses": "4"}},
+            ],
+        },
+        # A second league in the same week: leagues take their date from the
+        # site_name, so this ties with league-a on starttime exactly.
+        "league-d": {
+            "description": "Pauper League",
+            "starttime": "2026-06-05",
+            "site_name": "pauper-league-2026-06-0510637",
+            "decklists": [
+                {"player": "carol", "archetype": "Affinity", "wins": {"wins": "5", "losses": "0"}},
+            ],
+        },
+    }
+
+    def _raw_dir(self, tmp):
+        from pathlib import Path
+
+        raw = Path(tmp) / "raw"
+        raw.mkdir()
+        for name, data in self.TOURNAMENTS.items():
+            (raw / f"{name}.json").write_text(json.dumps(data))
+        return raw
+
+    @staticmethod
+    def _reversed_glob():
+        """Patch Path.glob to hand back files in the opposite order."""
+        from pathlib import Path
+        from unittest.mock import patch
+
+        original = Path.glob
+
+        def glob(self, pattern, *args, **kwargs):
+            return iter(sorted(original(self, pattern, *args, **kwargs), reverse=True))
+
+        return patch.object(Path, "glob", glob)
+
+    def _twice(self, build):
+        """Run *build* under both file orders and return the two outputs."""
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as tmp:
+            forward = build(tmp)
+        with tempfile.TemporaryDirectory() as tmp:
+            with self._reversed_glob():
+                reverse = build(tmp)
+        return forward, reverse
+
+    def test_deck_profiles_ignore_file_order(self):
+        from pathlib import Path
+
+        from src.deck_stats import rebuild_deck_profiles
+
+        def build(tmp):
+            out = Path(tmp) / "decks"
+            rebuild_deck_profiles(raw_dir=self._raw_dir(tmp), profiles_dir=out)
+            return {p.name: p.read_text() for p in sorted(out.glob("*.json"))}
+
+        forward, reverse = self._twice(build)
+        self.assertEqual(sorted(forward), sorted(reverse))
+        for name in forward:
+            self.assertEqual(forward[name], reverse[name], f"{name} depends on file order")
+
+    def test_player_profiles_ignore_file_order(self):
+        from pathlib import Path
+
+        from src.player_stats import rebuild_player_profiles
+
+        def build(tmp):
+            out = Path(tmp) / "players"
+            rebuild_player_profiles(raw_dir=self._raw_dir(tmp), profiles_dir=out)
+            return {p.name: p.read_text() for p in sorted(out.glob("*.json"))}
+
+        forward, reverse = self._twice(build)
+        self.assertEqual(sorted(forward), sorted(reverse))
+        for name in forward:
+            self.assertEqual(forward[name], reverse[name], f"{name} depends on file order")
+
+    def test_metagame_timeline_ignores_file_order(self):
+        from pathlib import Path
+
+        from src.meta_stats import rebuild_metagame_timeline
+
+        def build(tmp):
+            out = Path(tmp) / "timeline.json"
+            rebuild_metagame_timeline(raw_dir=self._raw_dir(tmp), out_path=out)
+            return out.read_text()
+
+        forward, reverse = self._twice(build)
+        self.assertEqual(forward, reverse)
+
+    def test_players_index_ignores_file_order(self):
+        from pathlib import Path
+        from unittest.mock import patch
+
+        from src import pipeline
+
+        def build(tmp):
+            raw = self._raw_dir(tmp)
+            out = Path(tmp) / "players.json"
+            with patch.object(pipeline, "RAW_DIR", raw), patch.object(
+                pipeline, "PLAYERS_PATH", out
+            ):
+                pipeline.rebuild_players_index()
+            return out.read_text()
+
+        forward, reverse = self._twice(build)
+        self.assertEqual(forward, reverse)
+
+    def test_tournament_index_ignores_file_order(self):
+        from pathlib import Path
+        from unittest.mock import patch
+
+        from src import pipeline
+
+        def build(tmp):
+            raw = self._raw_dir(tmp)
+            out = Path(tmp) / "index.json"
+            with patch.object(pipeline, "RAW_DIR", raw), patch.object(
+                pipeline, "INDEX_PATH", out
+            ):
+                pipeline.rebuild_index()
+            return out.read_text()
+
+        forward, reverse = self._twice(build)
+        self.assertEqual(forward, reverse)
+
+    def test_truncation_keeps_challenges_over_league_trophies(self):
+        """The 25-entry cut must not spend its last slots on league 5-0s.
+
+        A player can trophy the same deck several times in one league week, so
+        a date's league rows are both numerous and duplicable, while a
+        challenge row carries a rank and a real match record. When a shared
+        date straddles the cut, the challenge entries have to survive.
+        """
+        import tempfile
+        from pathlib import Path
+
+        from src.deck_stats import rebuild_deck_profiles
+
+        date = "2026-07-23"
+        league = {
+            "description": "Pauper League",
+            "starttime": date,
+            "site_name": f"pauper-league-{date.replace('-', '-')}10855",
+            # Same pilot twice, as MTGO really publishes it.
+            "decklists": [
+                {"player": "duplicate_pilot", "archetype": "Gruul Ponza",
+                 "wins": {"wins": "5", "losses": "0"}}
+                for _ in range(30)
+            ],
+        }
+        challenge = {
+            "description": "Pauper Challenge 32",
+            "starttime": f"{date} 17:00:00.0",
+            "site_name": f"pauper-challenge-32-{date}12848178",
+            "decklists": [
+                {"player": "winner", "archetype": "Gruul Ponza",
+                 "wins": {"wins": "9", "losses": "0"}, "final_rank": 1}
+            ],
+        }
+
+        with tempfile.TemporaryDirectory() as tmp:
+            raw = Path(tmp) / "raw"
+            raw.mkdir()
+            (raw / "league.json").write_text(json.dumps(league))
+            (raw / "challenge.json").write_text(json.dumps(challenge))
+            out = Path(tmp) / "decks"
+            rebuild_deck_profiles(raw_dir=raw, profiles_dir=out)
+            profile = json.loads((out / "gruul-ponza.json").read_text())
+
+        entries = profile["recent_entries"]
+        self.assertEqual(len(entries), 25)
+        self.assertEqual(
+            entries[0]["player"], "winner",
+            "the ranked challenge finish must survive the cut",
+        )
+        self.assertEqual(entries[0]["final_rank"], 1)
+        # Every entry is still counted, only the displayed list is trimmed.
+        self.assertEqual(profile["stats"]["total_entries"], 31)
+
+    def test_rebuild_is_idempotent(self):
+        """A second rebuild over unchanged raw data must not rewrite anything."""
+        import tempfile
+        from pathlib import Path
+
+        from src.deck_stats import rebuild_deck_profiles
+        from src.player_stats import rebuild_player_profiles
+
+        with tempfile.TemporaryDirectory() as tmp:
+            raw = self._raw_dir(tmp)
+            decks = Path(tmp) / "decks"
+            players = Path(tmp) / "players"
+
+            rebuild_deck_profiles(raw_dir=raw, profiles_dir=decks)
+            rebuild_player_profiles(raw_dir=raw, profiles_dir=players)
+            first = {
+                p.relative_to(tmp).as_posix(): p.read_text()
+                for p in sorted([*decks.glob("*.json"), *players.glob("*.json")])
+            }
+
+            rebuild_deck_profiles(raw_dir=raw, profiles_dir=decks)
+            rebuild_player_profiles(raw_dir=raw, profiles_dir=players)
+            second = {
+                p.relative_to(tmp).as_posix(): p.read_text()
+                for p in sorted([*decks.glob("*.json"), *players.glob("*.json")])
+            }
+
+        self.assertEqual(first, second)
+
+
 PAUPERWAVE_LISTING = [
     {"name": "2026-07-11-paupergeddon.md"},
     {"name": "0000-template.md"},

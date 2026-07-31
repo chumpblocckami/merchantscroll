@@ -38,7 +38,9 @@ def rebuild_deck_profiles(
     trophy_counts_yearly: Counter[str] = Counter()
     trophy_counts_alltime: Counter[str] = Counter()
 
-    for path in raw_dir.glob("*.json"):
+    # Sorted, not raw directory order: anything below that breaks a tie by
+    # insertion order would otherwise differ from machine to machine.
+    for path in sorted(raw_dir.glob("*.json")):
         try:
             data = json.loads(path.read_text())
         except (json.JSONDecodeError, OSError):
@@ -152,9 +154,18 @@ def rebuild_deck_profiles(
 
         profile["top_pilots"] = [
             {"player": player, "count": count}
-            for player, count in pilot_counts[slug].most_common(10)
+            for player, count in sorted(
+                pilot_counts[slug].items(), key=lambda item: (-item[1], item[0])
+            )[:10]
         ]
 
+        # Date alone is not a total order -- several events share a date, and
+        # leagues share one with every other league that week. Two stable
+        # passes so the tie breaks ascending while the date stays descending:
+        # that keeps challenges ahead of leagues on a shared date, and the cut
+        # below would otherwise drop a ranked challenge finish in favour of a
+        # league 5-0, of which one player can hold several in a week.
+        profile["recent_entries"].sort(key=lambda e: (e["site_name"], e["player"]))
         profile["recent_entries"].sort(key=lambda e: e["date"], reverse=True)
         profile["recent_entries"] = profile["recent_entries"][:25]
 

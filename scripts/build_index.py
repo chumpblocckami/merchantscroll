@@ -42,7 +42,8 @@ def build_index(fmt: str) -> list[dict]:
         }
         index.append(entry)
 
-    index.sort(key=lambda e: e["starttime"], reverse=True)
+    # Every league in a week shares a starttime, so site_name breaks the tie.
+    index.sort(key=lambda e: (e["starttime"], e["site_name"]), reverse=True)
     return index
 
 
