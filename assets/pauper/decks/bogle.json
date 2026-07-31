@@ -2,17 +2,17 @@
   "archetype": "Bogle",
   "slug": "bogle",
   "stats": {
-    "total_entries": 261,
-    "league_entries": 105,
-    "league_trophies": 105,
-    "league_trophies_yearly": 34,
+    "total_entries": 260,
+    "league_entries": 104,
+    "league_trophies": 104,
+    "league_trophies_yearly": 33,
     "challenge_appearances": 148,
     "challenge_wins": 583,
     "challenge_losses": 383,
     "irl_top8": 3,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 34,
-    "league_trophy_rank_alltime": 29,
+    "league_trophy_rank_alltime": 30,
     "league_trophy_decks_yearly": 67,
     "league_trophy_decks_alltime": 73
   },
@@ -32,22 +32,6 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-27",
-      "player": "RogueUrmel1",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-2612848222",
@@ -426,6 +410,22 @@
       ],
       "record": "6-2",
       "final_rank": 3,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-0912846485",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-04",
+      "player": "AoFTW",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "2-3",
+      "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
     }
