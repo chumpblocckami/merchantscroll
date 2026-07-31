@@ -2,10 +2,10 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 311,
-    "league_entries": 113,
-    "league_trophies": 113,
-    "league_trophies_yearly": 106,
+    "total_entries": 308,
+    "league_entries": 110,
+    "league_trophies": 110,
+    "league_trophies_yearly": 103,
     "challenge_appearances": 145,
     "challenge_wins": 598,
     "challenge_losses": 346,
@@ -18,61 +18,10 @@
   },
   "recent_entries": [
     {
-      "site_name": "pauper-league-2026-07-3010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-30",
-      "player": "Rusherlol",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-07-2910855",
       "tournament": "Pauper League",
       "date": "2026-07-29",
       "player": "lucotto",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-28",
-      "player": "reto_mtg",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-28",
-      "player": "TuggaNaxos",
       "colors": [
         "B",
         "G",
@@ -440,6 +389,57 @@
       "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-1912847738",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "_IlNano_",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-1",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-1912847738",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "seasonofmists",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "1-1",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-1912847738",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-21",
+      "player": "CliffBoyardee",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "1-2",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
     }
   ],
   "top_pilots": [
@@ -472,15 +472,15 @@
       "count": 5
     },
     {
-      "player": "reto_mtg",
-      "count": 4
-    },
-    {
       "player": "Digital_Fiakka",
       "count": 4
     },
     {
       "player": "Carlinhos_Jund",
+      "count": 4
+    },
+    {
+      "player": "manohito",
       "count": 4
     }
   ]
