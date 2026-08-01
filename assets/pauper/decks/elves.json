@@ -2,10 +2,10 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1265,
-    "league_entries": 643,
-    "league_trophies": 643,
-    "league_trophies_yearly": 261,
+    "total_entries": 1266,
+    "league_entries": 644,
+    "league_trophies": 644,
+    "league_trophies_yearly": 262,
     "challenge_appearances": 550,
     "challenge_wins": 2206,
     "challenge_losses": 1384,
@@ -29,6 +29,19 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-08-01",
+      "player": "CarrodaPolicia",
+      "colors": [
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-3112849449",
@@ -332,19 +345,6 @@
       ],
       "record": "",
       "final_rank": 2,
-      "source": "pauperwave",
-      "type": "irl"
-    },
-    {
-      "site_name": "pauperwave-2026-07-25-trio-polesana-2025",
-      "tournament": "Un Po di Pauper Trio 2026 — Rovigo",
-      "date": "2026-07-25",
-      "player": "Riccardo Butticè",
-      "colors": [
-        "G"
-      ],
-      "record": "",
-      "final_rank": 3,
       "source": "pauperwave",
       "type": "irl"
     }
