@@ -2,21 +2,34 @@
   "archetype": "Mono Red Synth",
   "slug": "mono-red-synth",
   "stats": {
-    "total_entries": 3,
+    "total_entries": 4,
     "league_entries": 1,
     "league_trophies": 1,
     "league_trophies_yearly": 1,
-    "challenge_appearances": 1,
-    "challenge_wins": 4,
-    "challenge_losses": 2,
+    "challenge_appearances": 2,
+    "challenge_wins": 7,
+    "challenge_losses": 5,
     "irl_top8": 0,
-    "challenge_win_pct": 67,
+    "challenge_win_pct": 58,
     "league_trophy_rank_yearly": 64,
     "league_trophy_rank_alltime": 70,
     "league_trophy_decks_yearly": 67,
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-3112849449",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-31",
+      "player": "SaculSueahtam",
+      "colors": [
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-2910855",
       "tournament": "Pauper League",
@@ -60,7 +73,7 @@
   "top_pilots": [
     {
       "player": "SaculSueahtam",
-      "count": 3
+      "count": 4
     }
   ]
 }

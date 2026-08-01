@@ -2,13 +2,13 @@
   "archetype": "Jund Wildfire",
   "slug": "jund-wildfire",
   "stats": {
-    "total_entries": 1350,
-    "league_entries": 559,
-    "league_trophies": 559,
-    "league_trophies_yearly": 238,
-    "challenge_appearances": 658,
-    "challenge_wins": 2643,
-    "challenge_losses": 1664,
+    "total_entries": 1354,
+    "league_entries": 562,
+    "league_trophies": 562,
+    "league_trophies_yearly": 241,
+    "challenge_appearances": 659,
+    "challenge_wins": 2646,
+    "challenge_losses": 1667,
     "irl_top8": 61,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 5,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-07-3112849449",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-31",
+      "player": "3draw_TANO",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-3012849439",
       "tournament": "Pauper Challenge 32",
@@ -31,6 +46,51 @@
       "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-3010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-30",
+      "player": "Erostratus",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-3010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-30",
+      "player": "SpikeYou",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-3010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-30",
+      "player": "_blaze66",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-2912848254",
@@ -330,72 +390,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-2412848188",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-24",
-      "player": "FerMTG",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "2-3",
-      "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-2412848188",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-24",
-      "player": "PNascimento",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-24",
-      "player": "Navier_Stokes",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1912848178",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-23",
-      "player": "GLAM_",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "_blaze66",
-      "count": 179
+      "count": 180
     },
     {
       "player": "Walker735",
@@ -414,12 +414,12 @@
       "count": 24
     },
     {
-      "player": "ziofrancone",
+      "player": "SpikeYou",
       "count": 19
     },
     {
-      "player": "SpikeYou",
-      "count": 18
+      "player": "ziofrancone",
+      "count": 19
     },
     {
       "player": "outZEROo",

@@ -2,10 +2,10 @@
   "archetype": "Dimir Control",
   "slug": "dimir-control",
   "stats": {
-    "total_entries": 163,
-    "league_entries": 110,
-    "league_trophies": 110,
-    "league_trophies_yearly": 63,
+    "total_entries": 164,
+    "league_entries": 111,
+    "league_trophies": 111,
+    "league_trophies_yearly": 64,
     "challenge_appearances": 49,
     "challenge_wins": 165,
     "challenge_losses": 138,
@@ -31,6 +31,21 @@
       "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-3010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-30",
+      "player": "Corzalan",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-2910855",
@@ -357,20 +372,6 @@
       ],
       "record": "2-3",
       "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2412842933",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-24",
-      "player": "morpheus38",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "2-3",
-      "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
     }
