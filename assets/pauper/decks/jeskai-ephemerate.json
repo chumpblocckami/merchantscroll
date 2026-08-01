@@ -2,13 +2,13 @@
   "archetype": "Jeskai Ephemerate",
   "slug": "jeskai-ephemerate",
   "stats": {
-    "total_entries": 397,
+    "total_entries": 400,
     "league_entries": 215,
     "league_trophies": 215,
     "league_trophies_yearly": 151,
-    "challenge_appearances": 151,
-    "challenge_wins": 630,
-    "challenge_losses": 366,
+    "challenge_appearances": 154,
+    "challenge_wins": 643,
+    "challenge_losses": 374,
     "irl_top8": 13,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 12,
@@ -17,6 +17,51 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-0112849464",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-01",
+      "player": "Banduz",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0112849464",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-01",
+      "player": "daifuku",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "6-2",
+      "final_rank": 4,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0112849464",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-01",
+      "player": "pepeteam",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-3",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-0110855",
       "tournament": "Pauper League",
@@ -346,51 +391,6 @@
       "final_rank": 6,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-25",
-      "player": "Ctian",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-25",
-      "player": "Jinjaa",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-25",
-      "player": "_ratchet_",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -400,7 +400,7 @@
     },
     {
       "player": "daifuku",
-      "count": 28
+      "count": 29
     },
     {
       "player": "vikizin",
@@ -431,8 +431,8 @@
       "count": 8
     },
     {
-      "player": "TentacleFan",
-      "count": 7
+      "player": "pepeteam",
+      "count": 8
     }
   ]
 }

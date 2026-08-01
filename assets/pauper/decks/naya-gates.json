@@ -2,13 +2,13 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 318,
+    "total_entries": 321,
     "league_entries": 113,
     "league_trophies": 113,
     "league_trophies_yearly": 106,
-    "challenge_appearances": 148,
-    "challenge_wins": 610,
-    "challenge_losses": 354,
+    "challenge_appearances": 151,
+    "challenge_wins": 622,
+    "challenge_losses": 362,
     "irl_top8": 19,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 18,
@@ -17,6 +17,51 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-0112849464",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-01",
+      "player": "GigaChadSigmaMale",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "4-3",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0112849464",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-01",
+      "player": "brina",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0112849464",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-01",
+      "player": "reto_mtg",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-3012849439",
       "tournament": "Pauper Challenge 32",
@@ -346,51 +391,6 @@
       "final_rank": 3,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2310855",
-      "tournament": "Pauper League",
-      "date": "2026-07-23",
-      "player": "delverihardlyknowher",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2310855",
-      "tournament": "Pauper League",
-      "date": "2026-07-23",
-      "player": "reto_mtg",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-2212848161",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-22",
-      "player": "GzusReturned",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "2-3",
-      "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -423,15 +423,15 @@
       "count": 6
     },
     {
+      "player": "reto_mtg",
+      "count": 5
+    },
+    {
       "player": "Carlinhos_Jund",
       "count": 4
     },
     {
       "player": "Digital_Fiakka",
-      "count": 4
-    },
-    {
-      "player": "John1111",
       "count": 4
     }
   ]

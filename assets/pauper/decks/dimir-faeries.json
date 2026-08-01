@@ -2,13 +2,13 @@
   "archetype": "Dimir Faeries",
   "slug": "dimir-faeries",
   "stats": {
-    "total_entries": 676,
+    "total_entries": 678,
     "league_entries": 338,
     "league_trophies": 338,
     "league_trophies_yearly": 210,
-    "challenge_appearances": 304,
-    "challenge_wins": 1242,
-    "challenge_losses": 777,
+    "challenge_appearances": 306,
+    "challenge_wins": 1254,
+    "challenge_losses": 780,
     "irl_top8": 10,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 7,
@@ -17,6 +17,34 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-0112849464",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-01",
+      "player": "Brvnx",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "8-1",
+      "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0112849464",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-01",
+      "player": "Purgatory_01",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 15,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-3012849439",
       "tournament": "Pauper Challenge 32",
@@ -338,35 +366,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-20",
-      "player": "Brvnx",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-20",
-      "player": "Kakaroto86",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -376,11 +375,11 @@
     },
     {
       "player": "Purgatory_01",
-      "count": 29
+      "count": 30
     },
     {
       "player": "Brvnx",
-      "count": 24
+      "count": 25
     },
     {
       "player": "Beicodegeia",

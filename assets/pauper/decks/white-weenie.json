@@ -2,13 +2,13 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 661,
+    "total_entries": 662,
     "league_entries": 366,
     "league_trophies": 366,
     "league_trophies_yearly": 176,
-    "challenge_appearances": 257,
-    "challenge_wins": 989,
-    "challenge_losses": 653,
+    "challenge_appearances": 258,
+    "challenge_wins": 993,
+    "challenge_losses": 655,
     "irl_top8": 22,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 9,
@@ -17,6 +17,19 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-0112849464",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-01",
+      "player": "Niederschatten",
+      "colors": [
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 12,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-3110855",
       "tournament": "Pauper League",
@@ -329,19 +342,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2112847730",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "oskiyaa",
-      "colors": [
-        "W"
-      ],
-      "record": "3-2",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
     }
   ],
   "top_pilots": [
@@ -355,7 +355,7 @@
     },
     {
       "player": "Niederschatten",
-      "count": 25
+      "count": 26
     },
     {
       "player": "Deodato",

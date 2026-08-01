@@ -3,13 +3,13 @@
   "display_name": "Taute",
   "irl_name": null,
   "stats": {
-    "total_entries": 7,
+    "total_entries": 8,
     "league_trophies": 5,
     "league_trophies_yearly": 5,
-    "challenge_wins": 8,
-    "challenge_losses": 5,
+    "challenge_wins": 11,
+    "challenge_losses": 8,
     "irl_top8": 0,
-    "challenge_win_pct": 62,
+    "challenge_win_pct": 58,
     "league_trophy_rank_yearly": 284,
     "league_trophy_rank_alltime": 554,
     "league_trophy_players_yearly": 1386,
@@ -25,6 +25,10 @@
       "count": 1
     },
     {
+      "archetype": "GU",
+      "count": 1
+    },
+    {
       "archetype": "Mono Red Rally",
       "count": 1
     },
@@ -34,6 +38,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-0112849464",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-01",
+      "player": "Taute",
+      "archetype": "",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 30,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-3110855",
       "tournament": "Pauper League",

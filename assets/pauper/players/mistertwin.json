@@ -3,11 +3,11 @@
   "display_name": "MisterTwin",
   "irl_name": null,
   "stats": {
-    "total_entries": 180,
+    "total_entries": 181,
     "league_trophies": 73,
     "league_trophies_yearly": 18,
-    "challenge_wins": 436,
-    "challenge_losses": 261,
+    "challenge_wins": 440,
+    "challenge_losses": 263,
     "irl_top8": 0,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 44,
@@ -18,7 +18,7 @@
   "favorite_decks": [
     {
       "archetype": "Mono Red Madness",
-      "count": 101
+      "count": 102
     },
     {
       "archetype": "Rakdos Madness",
@@ -58,6 +58,20 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-0112849464",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-01",
+      "player": "MisterTwin",
+      "archetype": "Mono Red Madness",
+      "colors": [
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-3112849449",
       "tournament": "Pauper Challenge 32",
@@ -397,20 +411,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2112844875",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-21",
-      "player": "MisterTwin",
-      "archetype": "Mono Red Madness",
-      "colors": [
-        "R"
-      ],
-      "record": "5-3",
-      "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

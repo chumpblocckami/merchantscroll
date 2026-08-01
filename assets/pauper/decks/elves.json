@@ -2,13 +2,13 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1264,
+    "total_entries": 1265,
     "league_entries": 643,
     "league_trophies": 643,
     "league_trophies_yearly": 261,
-    "challenge_appearances": 549,
-    "challenge_wins": 2203,
-    "challenge_losses": 1381,
+    "challenge_appearances": 550,
+    "challenge_wins": 2206,
+    "challenge_losses": 1384,
     "irl_top8": 35,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 4,
@@ -17,6 +17,19 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-0112849464",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-01",
+      "player": "boytriton",
+      "colors": [
+        "G"
+      ],
+      "record": "3-3",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-3112849449",
       "tournament": "Pauper Challenge 32",
@@ -334,21 +347,6 @@
       "final_rank": 3,
       "source": "pauperwave",
       "type": "irl"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-24",
-      "player": "KidRenan",
-      "colors": [
-        "G",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
