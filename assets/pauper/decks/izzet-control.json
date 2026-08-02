@@ -2,10 +2,10 @@
   "archetype": "Izzet Control",
   "slug": "izzet-control",
   "stats": {
-    "total_entries": 212,
-    "league_entries": 129,
-    "league_trophies": 129,
-    "league_trophies_yearly": 54,
+    "total_entries": 213,
+    "league_entries": 130,
+    "league_trophies": 130,
+    "league_trophies_yearly": 55,
     "challenge_appearances": 72,
     "challenge_wins": 296,
     "challenge_losses": 179,
@@ -13,10 +13,24 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 29,
     "league_trophy_rank_alltime": 27,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 68,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-08-02",
+      "player": "GrimFlayerBR",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-0112849464",
       "tournament": "Pauper Challenge 32",
@@ -360,20 +374,6 @@
       "final_rank": 1,
       "source": "pauperwave",
       "type": "irl"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-1712844295",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-11",
-      "player": "Brvnx",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
