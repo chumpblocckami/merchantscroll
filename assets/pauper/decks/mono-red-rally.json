@@ -2,10 +2,10 @@
   "archetype": "Mono Red Rally",
   "slug": "mono-red-rally",
   "stats": {
-    "total_entries": 1235,
-    "league_entries": 647,
-    "league_trophies": 647,
-    "league_trophies_yearly": 307,
+    "total_entries": 1237,
+    "league_entries": 649,
+    "league_trophies": 649,
+    "league_trophies_yearly": 309,
     "challenge_appearances": 509,
     "challenge_wins": 1969,
     "challenge_losses": 1297,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 3,
     "league_trophy_rank_alltime": 3,
-    "league_trophy_decks_yearly": 67,
-    "league_trophy_decks_alltime": 71
+    "league_trophy_decks_yearly": 68,
+    "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
     {
@@ -30,6 +30,34 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-08-01",
+      "player": "Sorceress-Queen",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-08-01",
+      "player": "vini_torres",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-3112849449",
@@ -336,40 +364,12 @@
       "final_rank": 10,
       "source": "mtgo",
       "type": "showcase"
-    },
-    {
-      "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
-      "tournament": "Pauper Showcase Qualifier",
-      "date": "2026-07-26",
-      "player": "boom_bust",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "1-3",
-      "final_rank": 23,
-      "source": "mtgo",
-      "type": "showcase"
-    },
-    {
-      "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
-      "tournament": "Pauper Showcase Qualifier",
-      "date": "2026-07-26",
-      "player": "vini_torres",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 8,
-      "source": "mtgo",
-      "type": "showcase"
     }
   ],
   "top_pilots": [
     {
       "player": "vini_torres",
-      "count": 97
+      "count": 98
     },
     {
       "player": "SaculSueahtam",
