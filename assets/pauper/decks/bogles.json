@@ -2,19 +2,19 @@
   "archetype": "Bogles",
   "slug": "bogles",
   "stats": {
-    "total_entries": 266,
-    "league_entries": 106,
-    "league_trophies": 106,
-    "league_trophies_yearly": 35,
+    "total_entries": 267,
+    "league_entries": 107,
+    "league_trophies": 107,
+    "league_trophies_yearly": 36,
     "challenge_appearances": 151,
     "challenge_wins": 595,
     "challenge_losses": 390,
     "irl_top8": 3,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 34,
+    "league_trophy_rank_yearly": 33,
     "league_trophy_rank_alltime": 32,
-    "league_trophy_decks_yearly": 68,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 67,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -22,6 +22,21 @@
       "tournament": "Pauper League",
       "date": "2026-08-02",
       "player": "Ankylosaur",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-08-02",
+      "player": "cruzado_acrosano",
       "colors": [
         "G",
         "U",
@@ -376,21 +391,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-07-11-top16-geddon-summer-2026",
-      "tournament": "Paupergeddon Summer 2026 — Lucca",
-      "date": "2026-07-11",
-      "player": "Michele Signoracci",
-      "colors": [
-        "G",
-        "U",
-        "W"
-      ],
-      "record": "",
-      "final_rank": null,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [
