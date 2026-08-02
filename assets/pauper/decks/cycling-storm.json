@@ -2,21 +2,36 @@
   "archetype": "Cycling Storm",
   "slug": "cycling-storm",
   "stats": {
-    "total_entries": 87,
-    "league_entries": 55,
-    "league_trophies": 55,
-    "league_trophies_yearly": 35,
+    "total_entries": 88,
+    "league_entries": 56,
+    "league_trophies": 56,
+    "league_trophies_yearly": 36,
     "challenge_appearances": 17,
     "challenge_wins": 59,
     "challenge_losses": 48,
     "irl_top8": 5,
     "challenge_win_pct": 55,
-    "league_trophy_rank_yearly": 34,
+    "league_trophy_rank_yearly": 33,
     "league_trophy_rank_alltime": 40,
     "league_trophy_decks_yearly": 68,
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-08-02",
+      "player": "StudentAnselmus",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-3010855",
       "tournament": "Pauper League",
@@ -378,27 +393,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-06-13-aquila-summer-2026",
-      "tournament": "LP L'Aquila Summer 2026 — L'Aquila",
-      "date": "2026-06-13",
-      "player": "Francesco Redaelli",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "",
-      "final_rank": 3,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [
     {
       "player": "StudentAnselmus",
-      "count": 38
+      "count": 39
     },
     {
       "player": "Bryant_Cook",
