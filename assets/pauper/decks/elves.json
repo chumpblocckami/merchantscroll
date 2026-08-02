@@ -2,10 +2,10 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1267,
-    "league_entries": 645,
-    "league_trophies": 645,
-    "league_trophies_yearly": 263,
+    "total_entries": 1265,
+    "league_entries": 643,
+    "league_trophies": 643,
+    "league_trophies_yearly": 261,
     "challenge_appearances": 550,
     "challenge_wins": 2206,
     "challenge_losses": 1384,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 4,
     "league_trophy_rank_alltime": 4,
-    "league_trophy_decks_yearly": 68,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 67,
+    "league_trophy_decks_alltime": 71
   },
   "recent_entries": [
     {
@@ -29,34 +29,6 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0110855",
-      "tournament": "Pauper League",
-      "date": "2026-08-01",
-      "player": "Boquinha",
-      "colors": [
-        "G",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0110855",
-      "tournament": "Pauper League",
-      "date": "2026-08-01",
-      "player": "CarrodaPolicia",
-      "colors": [
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-3112849449",
@@ -349,6 +321,32 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauperwave-2026-07-25-trio-polesana-2025",
+      "tournament": "Un Po di Pauper Trio 2026 — Rovigo",
+      "date": "2026-07-25",
+      "player": "Giacomo Stefanello",
+      "colors": [
+        "G"
+      ],
+      "record": "",
+      "final_rank": 2,
+      "source": "pauperwave",
+      "type": "irl"
+    },
+    {
+      "site_name": "pauperwave-2026-07-25-trio-polesana-2025",
+      "tournament": "Un Po di Pauper Trio 2026 — Rovigo",
+      "date": "2026-07-25",
+      "player": "Riccardo Butticè",
+      "colors": [
+        "G"
+      ],
+      "record": "",
+      "final_rank": 3,
+      "source": "pauperwave",
+      "type": "irl"
     }
   ],
   "top_pilots": [
@@ -358,7 +356,7 @@
     },
     {
       "player": "Boquinha",
-      "count": 82
+      "count": 81
     },
     {
       "player": "newbarola",

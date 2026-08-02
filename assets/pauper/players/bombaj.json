@@ -3,17 +3,17 @@
   "display_name": "bombaj",
   "irl_name": null,
   "stats": {
-    "total_entries": 50,
-    "league_trophies": 46,
-    "league_trophies_yearly": 22,
+    "total_entries": 49,
+    "league_trophies": 45,
+    "league_trophies_yearly": 21,
     "challenge_wins": 15,
     "challenge_losses": 10,
     "irl_top8": 0,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 30,
     "league_trophy_rank_alltime": 24,
-    "league_trophy_players_yearly": 1391,
-    "league_trophy_players_alltime": 2091
+    "league_trophy_players_yearly": 1385,
+    "league_trophy_players_alltime": 2086
   },
   "favorite_decks": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "archetype": "Azorius Familiars",
-      "count": 5
+      "count": 4
     },
     {
       "archetype": "Cawgate",
@@ -46,21 +46,6 @@
     }
   ],
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-08-0110855",
-      "tournament": "Pauper League",
-      "date": "2026-08-01",
-      "player": "bombaj",
-      "archetype": "Azorius Familiars",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-league-2026-07-2610855",
       "tournament": "Pauper League",
@@ -443,6 +428,23 @@
       "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2025-11-239987",
+      "tournament": "pauper-league-2025-11-239987",
+      "date": "2025-11-23",
+      "player": "bombaj",
+      "archetype": "Flicker Tron",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ]
 }
