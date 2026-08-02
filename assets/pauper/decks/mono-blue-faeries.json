@@ -2,10 +2,10 @@
   "archetype": "Mono Blue Faeries",
   "slug": "mono-blue-faeries",
   "stats": {
-    "total_entries": 583,
-    "league_entries": 316,
-    "league_trophies": 316,
-    "league_trophies_yearly": 90,
+    "total_entries": 584,
+    "league_entries": 317,
+    "league_trophies": 317,
+    "league_trophies_yearly": 91,
     "challenge_appearances": 237,
     "challenge_wins": 976,
     "challenge_losses": 598,
@@ -17,6 +17,19 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-08-01",
+      "player": "barff",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-0110855",
       "tournament": "Pauper League",
@@ -328,25 +341,12 @@
       "final_rank": 6,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauperwave-2026-07-10-top-pauper-player-2026",
-      "tournament": "Top Pauper Player 2026 — Lucca",
-      "date": "2026-07-10",
-      "player": "Filip Skornicki",
-      "colors": [
-        "U"
-      ],
-      "record": "",
-      "final_rank": null,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [
     {
       "player": "barff",
-      "count": 86
+      "count": 87
     },
     {
       "player": "Guii_Machado",
