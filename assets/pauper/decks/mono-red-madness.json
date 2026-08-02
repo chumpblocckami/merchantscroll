@@ -2,10 +2,10 @@
   "archetype": "Mono Red Madness",
   "slug": "mono-red-madness",
   "stats": {
-    "total_entries": 2102,
-    "league_entries": 1147,
-    "league_trophies": 1147,
-    "league_trophies_yearly": 575,
+    "total_entries": 2103,
+    "league_entries": 1148,
+    "league_trophies": 1148,
+    "league_trophies_yearly": 576,
     "challenge_appearances": 814,
     "challenge_wins": 3215,
     "challenge_losses": 2055,
@@ -17,6 +17,19 @@
     "league_trophy_decks_alltime": 72
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-08-02",
+      "player": "MisterTwin",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-0210855",
       "tournament": "Pauper League",
@@ -328,25 +341,12 @@
       "final_rank": 3,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-2612848222",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-26",
-      "player": "Hamuda",
-      "colors": [
-        "R"
-      ],
-      "record": "7-2",
-      "final_rank": 4,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "MisterTwin",
-      "count": 103
+      "count": 104
     },
     {
       "player": "boom_bust",

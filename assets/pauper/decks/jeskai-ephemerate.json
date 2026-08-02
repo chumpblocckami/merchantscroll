@@ -2,10 +2,10 @@
   "archetype": "Jeskai Ephemerate",
   "slug": "jeskai-ephemerate",
   "stats": {
-    "total_entries": 401,
-    "league_entries": 216,
-    "league_trophies": 216,
-    "league_trophies_yearly": 152,
+    "total_entries": 402,
+    "league_entries": 217,
+    "league_trophies": 217,
+    "league_trophies_yearly": 153,
     "challenge_appearances": 154,
     "challenge_wins": 643,
     "challenge_losses": 374,
@@ -22,6 +22,21 @@
       "tournament": "Pauper League",
       "date": "2026-08-02",
       "player": "Edraros3",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-08-02",
+      "player": "pewpew444",
       "colors": [
         "R",
         "U",
@@ -376,21 +391,6 @@
       "final_rank": 11,
       "source": "mtgo",
       "type": "showcase"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-2512848203",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-25",
-      "player": "ChaoticMTG",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
