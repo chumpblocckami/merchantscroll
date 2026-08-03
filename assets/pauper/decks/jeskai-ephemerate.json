@@ -2,10 +2,10 @@
   "archetype": "Jeskai Ephemerate",
   "slug": "jeskai-ephemerate",
   "stats": {
-    "total_entries": 406,
-    "league_entries": 220,
-    "league_trophies": 220,
-    "league_trophies_yearly": 156,
+    "total_entries": 407,
+    "league_entries": 221,
+    "league_trophies": 221,
+    "league_trophies_yearly": 157,
     "challenge_appearances": 155,
     "challenge_wins": 648,
     "challenge_losses": 376,
@@ -22,6 +22,21 @@
       "tournament": "Pauper League",
       "date": "2026-08-03",
       "player": "Ben_Matocha",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0310855",
+      "tournament": "Pauper League",
+      "date": "2026-08-03",
+      "player": "MarkG555",
       "colors": [
         "R",
         "U",
@@ -376,21 +391,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-2612848222",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-26",
-      "player": "cicciogire",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "7-3",
-      "final_rank": 2,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
