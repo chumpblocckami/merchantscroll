@@ -2,21 +2,36 @@
   "archetype": "Jeskai Ephemerate",
   "slug": "jeskai-ephemerate",
   "stats": {
-    "total_entries": 405,
-    "league_entries": 219,
-    "league_trophies": 219,
-    "league_trophies_yearly": 155,
+    "total_entries": 406,
+    "league_entries": 220,
+    "league_trophies": 220,
+    "league_trophies_yearly": 156,
     "challenge_appearances": 155,
     "challenge_wins": 648,
     "challenge_losses": 376,
     "irl_top8": 13,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 12,
-    "league_trophy_rank_alltime": 17,
+    "league_trophy_rank_alltime": 15,
     "league_trophy_decks_yearly": 70,
     "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-0310855",
+      "tournament": "Pauper League",
+      "date": "2026-08-03",
+      "player": "Ben_Matocha",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-0212849483",
       "tournament": "Pauper Challenge 32",
@@ -376,21 +391,6 @@
       "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2610855",
-      "tournament": "Pauper League",
-      "date": "2026-07-26",
-      "player": "DarkPattaman",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -419,16 +419,16 @@
       "count": 9
     },
     {
+      "player": "Ben_Matocha",
+      "count": 9
+    },
+    {
       "player": "DarkPattaman",
       "count": 9
     },
     {
       "player": "Jace_MTG",
       "count": 9
-    },
-    {
-      "player": "Ben_Matocha",
-      "count": 8
     },
     {
       "player": "pepeteam",
