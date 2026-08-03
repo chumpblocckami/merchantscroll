@@ -2,10 +2,10 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 716,
-    "league_entries": 357,
-    "league_trophies": 357,
-    "league_trophies_yearly": 163,
+    "total_entries": 717,
+    "league_entries": 358,
+    "league_trophies": 358,
+    "league_trophies_yearly": 164,
     "challenge_appearances": 308,
     "challenge_wins": 1254,
     "challenge_losses": 754,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-0310855",
+      "tournament": "Pauper League",
+      "date": "2026-08-03",
+      "player": "Kwojn",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-0310855",
       "tournament": "Pauper League",
@@ -351,20 +365,6 @@
       ],
       "record": "4-3",
       "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1812847695",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-18",
-      "player": "__Noob__",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "2-3",
-      "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
     }
