@@ -3,25 +3,45 @@
   "display_name": "Nammersquats",
   "irl_name": null,
   "stats": {
-    "total_entries": 1,
+    "total_entries": 2,
     "league_trophies": 0,
     "league_trophies_yearly": 0,
-    "challenge_wins": 0,
-    "challenge_losses": 0,
+    "challenge_wins": 6,
+    "challenge_losses": 2,
     "irl_top8": 0,
-    "challenge_win_pct": null,
+    "challenge_win_pct": 75,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": null,
-    "league_trophy_players_yearly": 1394,
-    "league_trophy_players_alltime": 2094
+    "league_trophy_players_yearly": 1396,
+    "league_trophy_players_alltime": 2095
   },
   "favorite_decks": [
+    {
+      "archetype": "Dimir Terror",
+      "count": 1
+    },
     {
       "archetype": "Spy Combo",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-0212849483",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-02",
+      "player": "Nammersquats",
+      "archetype": "Dimir Terror",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "6-2",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-last-chance-2025-08-1112807503",
       "tournament": "Pauper Last Chance",

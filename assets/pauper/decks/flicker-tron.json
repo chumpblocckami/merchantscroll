@@ -2,21 +2,37 @@
   "archetype": "Flicker Tron",
   "slug": "flicker-tron",
   "stats": {
-    "total_entries": 259,
+    "total_entries": 260,
     "league_entries": 147,
     "league_trophies": 147,
     "league_trophies_yearly": 71,
-    "challenge_appearances": 97,
-    "challenge_wins": 394,
-    "challenge_losses": 249,
+    "challenge_appearances": 98,
+    "challenge_wins": 400,
+    "challenge_losses": 251,
     "irl_top8": 7,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 26,
     "league_trophy_rank_alltime": 23,
-    "league_trophy_decks_yearly": 68,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 70,
+    "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-0212849483",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-02",
+      "player": "Raptor56",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "6-2",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-0110855",
       "tournament": "Pauper League",
@@ -393,22 +409,6 @@
       "final_rank": 5,
       "source": "pauperwave",
       "type": "irl"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2010636",
-      "tournament": "Pauper League",
-      "date": "2026-06-20",
-      "player": "Abisd94",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -422,7 +422,7 @@
     },
     {
       "player": "Raptor56",
-      "count": 15
+      "count": 16
     },
     {
       "player": "bombaj",

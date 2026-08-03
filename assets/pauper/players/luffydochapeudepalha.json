@@ -3,22 +3,26 @@
   "display_name": "LuffyDoChapeuDePalha",
   "irl_name": null,
   "stats": {
-    "total_entries": 223,
+    "total_entries": 224,
     "league_trophies": 13,
     "league_trophies_yearly": 4,
-    "challenge_wins": 963,
-    "challenge_losses": 464,
+    "challenge_wins": 968,
+    "challenge_losses": 466,
     "irl_top8": 0,
-    "challenge_win_pct": 67,
+    "challenge_win_pct": 68,
     "league_trophy_rank_yearly": 352,
     "league_trophy_rank_alltime": 172,
-    "league_trophy_players_yearly": 1394,
-    "league_trophy_players_alltime": 2094
+    "league_trophy_players_yearly": 1396,
+    "league_trophy_players_alltime": 2095
   },
   "favorite_decks": [
     {
       "archetype": "Affinity",
       "count": 219
+    },
+    {
+      "archetype": "Grixis Affinity",
+      "count": 2
     },
     {
       "archetype": "Bogles",
@@ -29,15 +33,27 @@
       "count": 1
     },
     {
-      "archetype": "Grixis Affinity",
-      "count": 1
-    },
-    {
       "archetype": "Jund Wildfire",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-0212849483",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-02",
+      "player": "LuffyDoChapeuDePalha",
+      "archetype": "Grixis Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 15,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-3012849439",
       "tournament": "Pauper Challenge 32",
@@ -421,22 +437,6 @@
       "final_rank": 21,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2612845653",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-26",
-      "player": "LuffyDoChapeuDePalha",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-2",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }
