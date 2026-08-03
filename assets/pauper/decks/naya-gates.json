@@ -2,10 +2,10 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 324,
-    "league_entries": 115,
-    "league_trophies": 115,
-    "league_trophies_yearly": 108,
+    "total_entries": 325,
+    "league_entries": 116,
+    "league_trophies": 116,
+    "league_trophies_yearly": 109,
     "challenge_appearances": 152,
     "challenge_wins": 627,
     "challenge_losses": 364,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-0310855",
+      "tournament": "Pauper League",
+      "date": "2026-08-03",
+      "player": "Rusherlol",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-0212849483",
       "tournament": "Pauper Challenge 32",
@@ -376,21 +391,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-07-25-trio-polesana-2025",
-      "tournament": "Un Po di Pauper Trio 2026 — Rovigo",
-      "date": "2026-07-25",
-      "player": "Riccardo Sponchiado",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "",
-      "final_rank": 3,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [
@@ -423,15 +423,15 @@
       "count": 6
     },
     {
+      "player": "Rusherlol",
+      "count": 5
+    },
+    {
       "player": "reto_mtg",
       "count": 5
     },
     {
       "player": "Carlinhos_Jund",
-      "count": 4
-    },
-    {
-      "player": "Digital_Fiakka",
       "count": 4
     }
   ]
