@@ -2,10 +2,10 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 665,
-    "league_entries": 367,
-    "league_trophies": 367,
-    "league_trophies_yearly": 177,
+    "total_entries": 666,
+    "league_entries": 368,
+    "league_trophies": 368,
+    "league_trophies_yearly": 178,
     "challenge_appearances": 260,
     "challenge_wins": 1002,
     "challenge_losses": 660,
@@ -17,6 +17,19 @@
     "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-0410855",
+      "tournament": "Pauper League",
+      "date": "2026-08-04",
+      "player": "Deodato",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-0212849483",
       "tournament": "Pauper Challenge 32",
@@ -329,19 +342,6 @@
       "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-2312848178",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-23",
-      "player": "Uagli1",
-      "colors": [
-        "W"
-      ],
-      "record": "2-4",
-      "final_rank": 31,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -359,7 +359,7 @@
     },
     {
       "player": "Deodato",
-      "count": 23
+      "count": 24
     },
     {
       "player": "Denisevich",
