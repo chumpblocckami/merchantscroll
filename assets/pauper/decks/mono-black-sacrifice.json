@@ -2,10 +2,10 @@
   "archetype": "Mono Black Sacrifice",
   "slug": "mono-black-sacrifice",
   "stats": {
-    "total_entries": 325,
-    "league_entries": 220,
-    "league_trophies": 220,
-    "league_trophies_yearly": 100,
+    "total_entries": 326,
+    "league_entries": 221,
+    "league_trophies": 221,
+    "league_trophies_yearly": 101,
     "challenge_appearances": 92,
     "challenge_wins": 382,
     "challenge_losses": 227,
@@ -17,6 +17,19 @@
     "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-0310855",
+      "tournament": "Pauper League",
+      "date": "2026-08-03",
+      "player": "laml",
+      "colors": [
+        "B"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-0210855",
       "tournament": "Pauper League",
@@ -328,19 +341,6 @@
       "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-05",
-      "player": "EntroPete",
-      "colors": [
-        "B"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -377,11 +377,11 @@
       "count": 7
     },
     {
-      "player": "Kirblinxy",
-      "count": 4
+      "player": "laml",
+      "count": 5
     },
     {
-      "player": "SavSave",
+      "player": "Kirblinxy",
       "count": 4
     }
   ]

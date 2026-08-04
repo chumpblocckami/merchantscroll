@@ -2,21 +2,35 @@
   "archetype": "Azorius Familiars",
   "slug": "azorius-familiars",
   "stats": {
-    "total_entries": 316,
-    "league_entries": 174,
-    "league_trophies": 174,
-    "league_trophies_yearly": 87,
+    "total_entries": 317,
+    "league_entries": 175,
+    "league_trophies": 175,
+    "league_trophies_yearly": 88,
     "challenge_appearances": 112,
     "challenge_wins": 464,
     "challenge_losses": 279,
     "irl_top8": 23,
     "challenge_win_pct": 62,
-    "league_trophy_rank_yearly": 23,
+    "league_trophy_rank_yearly": 22,
     "league_trophy_rank_alltime": 22,
     "league_trophy_decks_yearly": 70,
     "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-0310855",
+      "tournament": "Pauper League",
+      "date": "2026-08-03",
+      "player": "bombaj",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-0212849483",
       "tournament": "Pauper Challenge 32",
@@ -360,20 +374,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-07",
-      "player": "easymoneymarksman",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -414,8 +414,8 @@
       "count": 6
     },
     {
-      "player": "BERNASTORRES",
-      "count": 5
+      "player": "bombaj",
+      "count": 6
     }
   ]
 }
