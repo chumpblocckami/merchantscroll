@@ -2,21 +2,34 @@
   "archetype": "Mono Black Sacrifice",
   "slug": "mono-black-sacrifice",
   "stats": {
-    "total_entries": 326,
-    "league_entries": 221,
-    "league_trophies": 221,
-    "league_trophies_yearly": 101,
+    "total_entries": 327,
+    "league_entries": 222,
+    "league_trophies": 222,
+    "league_trophies_yearly": 102,
     "challenge_appearances": 92,
     "challenge_wins": 382,
     "challenge_losses": 227,
     "irl_top8": 4,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 19,
-    "league_trophy_rank_alltime": 16,
+    "league_trophy_rank_alltime": 15,
     "league_trophy_decks_yearly": 70,
     "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-0410855",
+      "tournament": "Pauper League",
+      "date": "2026-08-04",
+      "player": "EntroPete",
+      "colors": [
+        "B"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-0310855",
       "tournament": "Pauper League",
@@ -328,25 +341,12 @@
       "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0512846504",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-05",
-      "player": "Cryomanc3r",
-      "colors": [
-        "B"
-      ],
-      "record": "3-3",
-      "final_rank": 26,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "EntroPete",
-      "count": 51
+      "count": 52
     },
     {
       "player": "airplay",
