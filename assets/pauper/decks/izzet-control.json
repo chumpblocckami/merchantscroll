@@ -2,10 +2,10 @@
   "archetype": "Izzet Control",
   "slug": "izzet-control",
   "stats": {
-    "total_entries": 214,
-    "league_entries": 131,
-    "league_trophies": 131,
-    "league_trophies_yearly": 56,
+    "total_entries": 215,
+    "league_entries": 132,
+    "league_trophies": 132,
+    "league_trophies_yearly": 57,
     "challenge_appearances": 72,
     "challenge_wins": 296,
     "challenge_losses": 179,
@@ -36,6 +36,20 @@
       "tournament": "Pauper League",
       "date": "2026-08-03",
       "player": "yasiu86",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-08-02",
+      "player": "GrimFlayerBR",
       "colors": [
         "R",
         "U"
@@ -357,21 +371,6 @@
       ],
       "record": "4-2",
       "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-showcase-challenge-2026-06-2012844285",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2026-06-14",
-      "player": "SpockVidaLoka",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "6-3",
-      "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
     }

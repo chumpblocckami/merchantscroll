@@ -2,10 +2,10 @@
   "archetype": "Spy Combo",
   "slug": "spy-combo",
   "stats": {
-    "total_entries": 776,
-    "league_entries": 483,
-    "league_trophies": 483,
-    "league_trophies_yearly": 205,
+    "total_entries": 778,
+    "league_entries": 485,
+    "league_trophies": 485,
+    "league_trophies_yearly": 207,
     "challenge_appearances": 233,
     "challenge_wins": 946,
     "challenge_losses": 587,
@@ -35,7 +35,35 @@
       "site_name": "pauper-league-2026-08-0510855",
       "tournament": "Pauper League",
       "date": "2026-08-05",
+      "player": "Frecuenza12",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0510855",
+      "tournament": "Pauper League",
+      "date": "2026-08-05",
       "player": "StonyHandz",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0510855",
+      "tournament": "Pauper League",
+      "date": "2026-08-05",
+      "player": "kokoko098",
       "colors": [
         "B",
         "G"
@@ -340,34 +368,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-27",
-      "player": "SambucoDeCulo",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-2612848222",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-26",
-      "player": "Cachorrowo",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-3",
-      "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -408,8 +408,8 @@
       "count": 11
     },
     {
-      "player": "Regis_Hangar49",
-      "count": 10
+      "player": "kokoko098",
+      "count": 11
     }
   ]
 }

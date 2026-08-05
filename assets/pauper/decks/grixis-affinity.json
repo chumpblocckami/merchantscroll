@@ -2,10 +2,10 @@
   "archetype": "Grixis Affinity",
   "slug": "grixis-affinity",
   "stats": {
-    "total_entries": 24,
-    "league_entries": 11,
-    "league_trophies": 11,
-    "league_trophies_yearly": 11,
+    "total_entries": 26,
+    "league_entries": 13,
+    "league_trophies": 13,
+    "league_trophies_yearly": 13,
     "challenge_appearances": 10,
     "challenge_wins": 45,
     "challenge_losses": 23,
@@ -22,6 +22,21 @@
       "tournament": "Pauper League",
       "date": "2026-08-05",
       "player": "Goyoman",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0510855",
+      "tournament": "Pauper League",
+      "date": "2026-08-05",
+      "player": "IAmCrayCray661",
       "colors": [
         "B",
         "R",
@@ -106,6 +121,21 @@
       "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-08-02",
+      "player": "s8shock",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-0112849464",
@@ -361,30 +391,15 @@
       "final_rank": 13,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0912847145",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-12",
-      "player": "MyongKong",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 26,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
-      "player": "LuffyDoChapeuDePalha",
-      "count": 2
+      "player": "s8shock",
+      "count": 3
     },
     {
-      "player": "s8shock",
+      "player": "LuffyDoChapeuDePalha",
       "count": 2
     },
     {
@@ -412,11 +427,11 @@
       "count": 1
     },
     {
-      "player": "Mark_Confidant",
+      "player": "IAmCrayCray661",
       "count": 1
     },
     {
-      "player": "MyongKong",
+      "player": "Mark_Confidant",
       "count": 1
     }
   ]

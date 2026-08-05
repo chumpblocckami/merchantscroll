@@ -2,17 +2,17 @@
   "archetype": "Blue Turbofog",
   "slug": "blue-turbofog",
   "stats": {
-    "total_entries": 5,
-    "league_entries": 2,
-    "league_trophies": 2,
-    "league_trophies_yearly": 2,
+    "total_entries": 7,
+    "league_entries": 4,
+    "league_trophies": 4,
+    "league_trophies_yearly": 4,
     "challenge_appearances": 2,
     "challenge_wins": 8,
     "challenge_losses": 5,
     "irl_top8": 0,
     "challenge_win_pct": 62,
-    "league_trophy_rank_yearly": 55,
-    "league_trophy_rank_alltime": 62,
+    "league_trophy_rank_yearly": 52,
+    "league_trophy_rank_alltime": 59,
     "league_trophy_decks_yearly": 70,
     "league_trophy_decks_alltime": 74
   },
@@ -44,6 +44,34 @@
       "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-08-02",
+      "player": "RitualSinkhole",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0210855",
+      "tournament": "Pauper League",
+      "date": "2026-08-02",
+      "player": "RitualSinkhole",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-07-2810855",
@@ -90,6 +118,10 @@
   ],
   "top_pilots": [
     {
+      "player": "RitualSinkhole",
+      "count": 3
+    },
+    {
       "player": "Bahsis",
       "count": 1
     },
@@ -103,10 +135,6 @@
     },
     {
       "player": "IvernOP",
-      "count": 1
-    },
-    {
-      "player": "RitualSinkhole",
       "count": 1
     }
   ]
