@@ -2,10 +2,10 @@
   "archetype": "Mono Red Madness",
   "slug": "mono-red-madness",
   "stats": {
-    "total_entries": 2115,
-    "league_entries": 1156,
-    "league_trophies": 1156,
-    "league_trophies_yearly": 584,
+    "total_entries": 2113,
+    "league_entries": 1154,
+    "league_trophies": 1154,
+    "league_trophies_yearly": 582,
     "challenge_appearances": 818,
     "challenge_wins": 3233,
     "challenge_losses": 2065,
@@ -22,6 +22,19 @@
       "tournament": "Pauper League",
       "date": "2026-08-05",
       "player": "Maxipk",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0510855",
+      "tournament": "Pauper League",
+      "date": "2026-08-05",
+      "player": "Vins91",
       "colors": [
         "R"
       ],
@@ -159,45 +172,6 @@
       "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0210855",
-      "tournament": "Pauper League",
-      "date": "2026-08-02",
-      "player": "Kampo",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0210855",
-      "tournament": "Pauper League",
-      "date": "2026-08-02",
-      "player": "MisterTwin",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0210855",
-      "tournament": "Pauper League",
-      "date": "2026-08-02",
-      "player": "MisterTwin",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-0112849464",
@@ -341,12 +315,38 @@
       "final_rank": 7,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-07-3010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-30",
+      "player": "Altart",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-3010855",
+      "tournament": "Pauper League",
+      "date": "2026-07-30",
+      "player": "Kakaroto86",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "MisterTwin",
-      "count": 105
+      "count": 103
     },
     {
       "player": "boom_bust",
