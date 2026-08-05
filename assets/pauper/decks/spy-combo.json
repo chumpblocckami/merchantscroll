@@ -2,10 +2,10 @@
   "archetype": "Spy Combo",
   "slug": "spy-combo",
   "stats": {
-    "total_entries": 775,
-    "league_entries": 482,
-    "league_trophies": 482,
-    "league_trophies_yearly": 204,
+    "total_entries": 776,
+    "league_entries": 483,
+    "league_trophies": 483,
+    "league_trophies_yearly": 205,
     "challenge_appearances": 233,
     "challenge_wins": 946,
     "challenge_losses": 587,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-0510855",
+      "tournament": "Pauper League",
+      "date": "2026-08-05",
+      "player": "Frecuenza12",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-0510855",
       "tournament": "Pauper League",
@@ -352,20 +366,6 @@
       ],
       "record": "4-3",
       "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-2612848222",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-26",
-      "player": "pablok5",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-2",
-      "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
     }
