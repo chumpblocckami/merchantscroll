@@ -2,10 +2,10 @@
   "archetype": "Dimir Faeries",
   "slug": "dimir-faeries",
   "stats": {
-    "total_entries": 683,
-    "league_entries": 340,
-    "league_trophies": 340,
-    "league_trophies_yearly": 212,
+    "total_entries": 682,
+    "league_entries": 339,
+    "league_trophies": 339,
+    "league_trophies_yearly": 211,
     "challenge_appearances": 309,
     "challenge_wins": 1266,
     "challenge_losses": 789,
@@ -72,20 +72,6 @@
       "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0210855",
-      "tournament": "Pauper League",
-      "date": "2026-08-02",
-      "player": "Niederschatten",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-0112849464",
@@ -366,6 +352,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2026-07-2212847741",
+      "tournament": "Pauper Last Chance",
+      "date": "2026-07-22",
+      "player": "discoverN",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "0-1",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
     }
   ],
   "top_pilots": [
@@ -399,7 +399,7 @@
     },
     {
       "player": "Niederschatten",
-      "count": 13
+      "count": 12
     },
     {
       "player": "bombaj",
