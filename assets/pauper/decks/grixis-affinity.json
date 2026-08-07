@@ -2,21 +2,66 @@
   "archetype": "Grixis Affinity",
   "slug": "grixis-affinity",
   "stats": {
-    "total_entries": 31,
+    "total_entries": 34,
     "league_entries": 16,
     "league_trophies": 16,
     "league_trophies_yearly": 16,
-    "challenge_appearances": 12,
-    "challenge_wins": 51,
-    "challenge_losses": 30,
+    "challenge_appearances": 15,
+    "challenge_wins": 67,
+    "challenge_losses": 35,
     "irl_top8": 0,
-    "challenge_win_pct": 63,
+    "challenge_win_pct": 66,
     "league_trophy_rank_yearly": 43,
     "league_trophy_rank_alltime": 45,
     "league_trophy_decks_yearly": 70,
     "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-0712850811",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-07",
+      "player": "JulioP1985",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 16,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0712850811",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-07",
+      "player": "LuffyDoChapeuDePalha",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0712850811",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-07",
+      "player": "seasonofmists",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "7-1",
+      "final_rank": 3,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-0710855",
       "tournament": "Pauper League",
@@ -346,64 +391,23 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-27",
-      "player": "Albilnonno_11",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-27",
-      "player": "s8shock",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2610855",
-      "tournament": "Pauper League",
-      "date": "2026-07-26",
-      "player": "SebaSTOno",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
+    {
+      "player": "LuffyDoChapeuDePalha",
+      "count": 3
+    },
     {
       "player": "s8shock",
       "count": 3
     },
     {
-      "player": "LuffyDoChapeuDePalha",
+      "player": "VitorCarvalho01",
       "count": 2
     },
     {
-      "player": "VitorCarvalho01",
+      "player": "seasonofmists",
       "count": 2
     },
     {
@@ -428,10 +432,6 @@
     },
     {
       "player": "DataPusher",
-      "count": 1
-    },
-    {
-      "player": "Goyoman",
       "count": 1
     }
   ]
