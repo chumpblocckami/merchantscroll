@@ -2,21 +2,51 @@
   "archetype": "Grixis Affinity",
   "slug": "grixis-affinity",
   "stats": {
-    "total_entries": 27,
+    "total_entries": 29,
     "league_entries": 14,
     "league_trophies": 14,
     "league_trophies_yearly": 14,
-    "challenge_appearances": 10,
-    "challenge_wins": 45,
-    "challenge_losses": 23,
+    "challenge_appearances": 12,
+    "challenge_wins": 51,
+    "challenge_losses": 30,
     "irl_top8": 0,
-    "challenge_win_pct": 66,
+    "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 44,
     "league_trophy_rank_alltime": 46,
     "league_trophy_decks_yearly": 70,
     "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-0612850801",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-06",
+      "player": "ChuChuMTFKR",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0612850801",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-06",
+      "player": "VitorCarvalho01",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "2-4",
+      "final_rank": 30,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-0610855",
       "tournament": "Pauper League",
@@ -361,36 +391,6 @@
       "final_rank": 16,
       "source": "mtgo",
       "type": "showcase"
-    },
-    {
-      "site_name": "pauper-showcase-qualifier-2026-07-2212848160",
-      "tournament": "Pauper Showcase Qualifier",
-      "date": "2026-07-26",
-      "player": "gazmon48",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "showcase"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1912848178",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-23",
-      "player": "Vhangar",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "7-2",
-      "final_rank": 2,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -400,6 +400,10 @@
     },
     {
       "player": "LuffyDoChapeuDePalha",
+      "count": 2
+    },
+    {
+      "player": "VitorCarvalho01",
       "count": 2
     },
     {
@@ -415,6 +419,10 @@
       "count": 1
     },
     {
+      "player": "ChuChuMTFKR",
+      "count": 1
+    },
+    {
       "player": "DataPusher",
       "count": 1
     },
@@ -424,14 +432,6 @@
     },
     {
       "player": "Heterodox",
-      "count": 1
-    },
-    {
-      "player": "IAmCrayCray661",
-      "count": 1
-    },
-    {
-      "player": "Mark_Confidant",
       "count": 1
     }
   ]
