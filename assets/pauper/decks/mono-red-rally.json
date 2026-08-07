@@ -2,10 +2,10 @@
   "archetype": "Mono Red Rally",
   "slug": "mono-red-rally",
   "stats": {
-    "total_entries": 1252,
-    "league_entries": 659,
-    "league_trophies": 659,
-    "league_trophies_yearly": 319,
+    "total_entries": 1253,
+    "league_entries": 660,
+    "league_trophies": 660,
+    "league_trophies_yearly": 320,
     "challenge_appearances": 514,
     "challenge_wins": 1988,
     "challenge_losses": 1312,
@@ -22,6 +22,20 @@
       "tournament": "Pauper League",
       "date": "2026-08-07",
       "player": "Ixidor29",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0710855",
+      "tournament": "Pauper League",
+      "date": "2026-08-07",
+      "player": "ewerb123",
       "colors": [
         "G",
         "R"
@@ -350,20 +364,6 @@
       ],
       "record": "4-2",
       "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-3012849439",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-30",
-      "player": "vini_torres",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
     }

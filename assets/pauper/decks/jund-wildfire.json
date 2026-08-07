@@ -2,10 +2,10 @@
   "archetype": "Jund Wildfire",
   "slug": "jund-wildfire",
   "stats": {
-    "total_entries": 1367,
-    "league_entries": 571,
-    "league_trophies": 571,
-    "league_trophies_yearly": 250,
+    "total_entries": 1368,
+    "league_entries": 572,
+    "league_trophies": 572,
+    "league_trophies_yearly": 251,
     "challenge_appearances": 661,
     "challenge_wins": 2651,
     "challenge_losses": 1673,
@@ -22,6 +22,21 @@
       "tournament": "Pauper League",
       "date": "2026-08-07",
       "player": "ABCD_1234",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0710855",
+      "tournament": "Pauper League",
+      "date": "2026-08-07",
+      "player": "wolf777",
       "colors": [
         "B",
         "G",
@@ -376,21 +391,6 @@
       "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-2612848222",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-26",
-      "player": "_blaze66",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -419,15 +419,15 @@
       "count": 19
     },
     {
+      "player": "wolf777",
+      "count": 19
+    },
+    {
       "player": "ziofrancone",
       "count": 19
     },
     {
       "player": "outZEROo",
-      "count": 18
-    },
-    {
-      "player": "wolf777",
       "count": 18
     },
     {
