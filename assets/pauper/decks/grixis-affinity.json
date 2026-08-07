@@ -2,16 +2,16 @@
   "archetype": "Grixis Affinity",
   "slug": "grixis-affinity",
   "stats": {
-    "total_entries": 29,
-    "league_entries": 14,
-    "league_trophies": 14,
-    "league_trophies_yearly": 14,
+    "total_entries": 28,
+    "league_entries": 13,
+    "league_trophies": 13,
+    "league_trophies_yearly": 13,
     "challenge_appearances": 12,
     "challenge_wins": 51,
     "challenge_losses": 30,
     "irl_top8": 0,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 44,
+    "league_trophy_rank_yearly": 45,
     "league_trophy_rank_alltime": 46,
     "league_trophy_decks_yearly": 70,
     "league_trophy_decks_alltime": 74
@@ -46,21 +46,6 @@
       "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0610855",
-      "tournament": "Pauper League",
-      "date": "2026-08-06",
-      "player": "NMT_Sco94",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-08-0510855",
@@ -389,6 +374,21 @@
       ],
       "record": "2-3",
       "final_rank": 16,
+      "source": "mtgo",
+      "type": "showcase"
+    },
+    {
+      "site_name": "pauper-showcase-qualifier-2026-07-2212848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "gazmon48",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-2",
+      "final_rank": 12,
       "source": "mtgo",
       "type": "showcase"
     }
