@@ -3,17 +3,17 @@
   "display_name": "barff",
   "irl_name": null,
   "stats": {
-    "total_entries": 227,
-    "league_trophies": 143,
-    "league_trophies_yearly": 60,
+    "total_entries": 228,
+    "league_trophies": 144,
+    "league_trophies_yearly": 61,
     "challenge_wins": 410,
     "challenge_losses": 147,
     "irl_top8": 0,
     "challenge_win_pct": 74,
     "league_trophy_rank_yearly": 2,
     "league_trophy_rank_alltime": 1,
-    "league_trophy_players_yearly": 1412,
-    "league_trophy_players_alltime": 2108
+    "league_trophy_players_yearly": 1413,
+    "league_trophy_players_alltime": 2109
   },
   "favorite_decks": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "archetype": "Mono Blue Faeries",
-      "count": 89
+      "count": 90
     },
     {
       "archetype": "Mono Blue Terror",
@@ -54,6 +54,20 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-0610855",
+      "tournament": "Pauper League",
+      "date": "2026-08-06",
+      "player": "barff",
+      "archetype": "Mono Blue Faeries",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-0410855",
       "tournament": "Pauper League",
@@ -410,21 +424,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-showcase-challenge-2026-07-0512846446",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2026-07-05",
-      "player": "barff",
-      "archetype": "Dimir Faeries",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "7-3",
-      "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

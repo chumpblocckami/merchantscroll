@@ -2,14 +2,14 @@
   "archetype": "Altar Tron",
   "slug": "altar-tron",
   "stats": {
-    "total_entries": 198,
+    "total_entries": 199,
     "league_entries": 130,
     "league_trophies": 130,
     "league_trophies_yearly": 33,
     "challenge_appearances": 50,
     "challenge_wins": 191,
     "challenge_losses": 129,
-    "irl_top8": 10,
+    "irl_top8": 11,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 36,
     "league_trophy_rank_alltime": 27,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
+    {
+      "site_name": "pauperwave-2026-08-05-colonia-summer-2026",
+      "tournament": "LP Colonia Summer 2026 — Colonia",
+      "date": "2026-08-05",
+      "player": "Jasper Ries-Viherjuuri",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "",
+      "final_rank": 2,
+      "source": "pauperwave",
+      "type": "irl"
+    },
     {
       "site_name": "pauper-league-2026-07-2310855",
       "tournament": "Pauper League",
@@ -371,21 +385,6 @@
         "B",
         "G",
         "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0510636",
-      "tournament": "Pauper League",
-      "date": "2026-06-05",
-      "player": "Entropy263",
-      "colors": [
-        "G",
-        "U",
-        "W"
       ],
       "record": "5-0",
       "final_rank": null,

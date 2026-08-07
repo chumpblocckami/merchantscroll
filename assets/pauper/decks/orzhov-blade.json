@@ -2,17 +2,17 @@
   "archetype": "Orzhov Blade",
   "slug": "orzhov-blade",
   "stats": {
-    "total_entries": 4,
-    "league_entries": 3,
-    "league_trophies": 3,
-    "league_trophies_yearly": 3,
+    "total_entries": 5,
+    "league_entries": 4,
+    "league_trophies": 4,
+    "league_trophies_yearly": 4,
     "challenge_appearances": 1,
     "challenge_wins": 3,
     "challenge_losses": 3,
     "irl_top8": 0,
     "challenge_win_pct": 50,
-    "league_trophy_rank_yearly": 55,
-    "league_trophy_rank_alltime": 63,
+    "league_trophy_rank_yearly": 53,
+    "league_trophy_rank_alltime": 60,
     "league_trophy_decks_yearly": 70,
     "league_trophy_decks_alltime": 74
   },
@@ -22,6 +22,20 @@
       "tournament": "Pauper League",
       "date": "2026-08-06",
       "player": "Kiki-Gigi",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0610855",
+      "tournament": "Pauper League",
+      "date": "2026-08-06",
+      "player": "ThieresTMS",
       "colors": [
         "B",
         "W"
@@ -81,6 +95,10 @@
     },
     {
       "player": "Kiki-Gigi",
+      "count": 1
+    },
+    {
+      "player": "ThieresTMS",
       "count": 1
     },
     {

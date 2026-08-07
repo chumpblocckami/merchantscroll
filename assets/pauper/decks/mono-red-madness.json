@@ -2,10 +2,10 @@
   "archetype": "Mono Red Madness",
   "slug": "mono-red-madness",
   "stats": {
-    "total_entries": 2119,
-    "league_entries": 1160,
-    "league_trophies": 1160,
-    "league_trophies_yearly": 588,
+    "total_entries": 2120,
+    "league_entries": 1161,
+    "league_trophies": 1161,
+    "league_trophies_yearly": 589,
     "challenge_appearances": 818,
     "challenge_wins": 3233,
     "challenge_losses": 2065,
@@ -17,6 +17,19 @@
     "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-0610855",
+      "tournament": "Pauper League",
+      "date": "2026-08-06",
+      "player": "GilbertoAntunes",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-0610855",
       "tournament": "Pauper League",
@@ -328,19 +341,6 @@
       "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-3112849449",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-31",
-      "player": "ziofrancone",
-      "colors": [
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -377,12 +377,12 @@
       "count": 27
     },
     {
-      "player": "carvs",
+      "player": "GilbertoAntunes",
       "count": 25
     },
     {
-      "player": "GilbertoAntunes",
-      "count": 24
+      "player": "carvs",
+      "count": 25
     }
   ]
 }
