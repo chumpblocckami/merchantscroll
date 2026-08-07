@@ -2,13 +2,13 @@
   "archetype": "Jund Wildfire",
   "slug": "jund-wildfire",
   "stats": {
-    "total_entries": 1371,
+    "total_entries": 1369,
     "league_entries": 573,
     "league_trophies": 573,
     "league_trophies_yearly": 252,
-    "challenge_appearances": 663,
-    "challenge_wins": 2659,
-    "challenge_losses": 1678,
+    "challenge_appearances": 661,
+    "challenge_wins": 2651,
+    "challenge_losses": 1673,
     "irl_top8": 63,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 5,
@@ -17,36 +17,6 @@
     "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-challenge-32-2026-08-0712850811",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-07",
-      "player": "ABCD_1234",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-2",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0712850811",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-07",
-      "player": "_blaze66",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 22,
-      "source": "mtgo",
-      "type": "challenge"
-    },
     {
       "site_name": "pauper-league-2026-08-0710855",
       "tournament": "Pauper League",
@@ -391,12 +361,42 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-27",
+      "player": "_blaze66",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-2612848222",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-26",
+      "player": "Lord_Depa",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-4",
+      "final_rank": 31,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "_blaze66",
-      "count": 183
+      "count": 182
     },
     {
       "player": "Walker735",

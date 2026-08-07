@@ -2,13 +2,13 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 330,
+    "total_entries": 328,
     "league_entries": 117,
     "league_trophies": 117,
     "league_trophies_yearly": 110,
-    "challenge_appearances": 156,
-    "challenge_wins": 641,
-    "challenge_losses": 374,
+    "challenge_appearances": 154,
+    "challenge_wins": 634,
+    "challenge_losses": 369,
     "irl_top8": 19,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 18,
@@ -17,36 +17,6 @@
     "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-challenge-32-2026-08-0712850811",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-07",
-      "player": "Patrimattone",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0712850811",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-07",
-      "player": "wand_thief",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
-    },
     {
       "site_name": "pauper-challenge-32-2026-08-0612850801",
       "tournament": "Pauper Challenge 32",
@@ -391,6 +361,36 @@
       "final_rank": 20,
       "source": "mtgo",
       "type": "showcase"
+    },
+    {
+      "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "duke12",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "3-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "showcase"
+    },
+    {
+      "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
+      "tournament": "Pauper Showcase Qualifier",
+      "date": "2026-07-26",
+      "player": "lostonkato",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "2-3",
+      "final_rank": 21,
+      "source": "mtgo",
+      "type": "showcase"
     }
   ],
   "top_pilots": [
@@ -431,8 +431,8 @@
       "count": 5
     },
     {
-      "player": "wand_thief",
-      "count": 5
+      "player": "Carlinhos_Jund",
+      "count": 4
     }
   ]
 }
