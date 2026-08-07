@@ -3,17 +3,17 @@
   "display_name": "Ed_Elric",
   "irl_name": null,
   "stats": {
-    "total_entries": 31,
-    "league_trophies": 12,
-    "league_trophies_yearly": 5,
+    "total_entries": 32,
+    "league_trophies": 13,
+    "league_trophies_yearly": 6,
     "challenge_wins": 73,
     "challenge_losses": 39,
     "irl_top8": 0,
     "challenge_win_pct": 65,
-    "league_trophy_rank_yearly": 245,
-    "league_trophy_rank_alltime": 184,
-    "league_trophy_players_yearly": 1409,
-    "league_trophy_players_alltime": 2105
+    "league_trophy_rank_yearly": 188,
+    "league_trophy_rank_alltime": 173,
+    "league_trophy_players_yearly": 1413,
+    "league_trophy_players_alltime": 2109
   },
   "favorite_decks": [
     {
@@ -27,9 +27,28 @@
     {
       "archetype": "Affinity",
       "count": 1
+    },
+    {
+      "archetype": "Mono Red Rally",
+      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-0610855",
+      "tournament": "Pauper League",
+      "date": "2026-08-06",
+      "player": "Ed_Elric",
+      "archetype": "Mono Red Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-2310855",
       "tournament": "Pauper League",
@@ -387,21 +406,6 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-06-269366",
-      "tournament": "pauper-league-2025-06-269366",
-      "date": "2025-06-26",
-      "player": "Ed_Elric",
-      "archetype": "Rakdos Madness",
-      "colors": [
-        "B",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

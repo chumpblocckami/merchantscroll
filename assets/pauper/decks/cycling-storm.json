@@ -2,10 +2,10 @@
   "archetype": "Cycling Storm",
   "slug": "cycling-storm",
   "stats": {
-    "total_entries": 90,
-    "league_entries": 58,
-    "league_trophies": 58,
-    "league_trophies_yearly": 38,
+    "total_entries": 91,
+    "league_entries": 59,
+    "league_trophies": 59,
+    "league_trophies_yearly": 39,
     "challenge_appearances": 17,
     "challenge_wins": 59,
     "challenge_losses": 48,
@@ -17,6 +17,22 @@
     "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-0610855",
+      "tournament": "Pauper League",
+      "date": "2026-08-06",
+      "player": "StudentAnselmus",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-0510855",
       "tournament": "Pauper League",
@@ -378,27 +394,12 @@
       "final_rank": 1,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-rc-super-qualifier-2026-06-2812845612",
-      "tournament": "Pauper RC Super Qualifier",
-      "date": "2026-06-27",
-      "player": "StudentAnselmus",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "10-2",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "other"
     }
   ],
   "top_pilots": [
     {
       "player": "StudentAnselmus",
-      "count": 41
+      "count": 42
     },
     {
       "player": "Bryant_Cook",
