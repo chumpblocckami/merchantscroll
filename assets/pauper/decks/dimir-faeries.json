@@ -2,10 +2,10 @@
   "archetype": "Dimir Faeries",
   "slug": "dimir-faeries",
   "stats": {
-    "total_entries": 687,
-    "league_entries": 341,
-    "league_trophies": 341,
-    "league_trophies_yearly": 213,
+    "total_entries": 688,
+    "league_entries": 342,
+    "league_trophies": 342,
+    "league_trophies_yearly": 214,
     "challenge_appearances": 312,
     "challenge_wins": 1276,
     "challenge_losses": 795,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 7,
     "league_trophy_rank_alltime": 11,
-    "league_trophy_decks_yearly": 68,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 70,
+    "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
     {
@@ -78,6 +78,20 @@
       "tournament": "Pauper League",
       "date": "2026-08-06",
       "player": "Madamix",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0310855",
+      "tournament": "Pauper League",
+      "date": "2026-08-03",
+      "player": "ColbiasTicklebush",
       "colors": [
         "B",
         "U"
@@ -350,20 +364,6 @@
       ],
       "record": "4-2",
       "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-2412848188",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-24",
-      "player": "barff",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 20,
       "source": "mtgo",
       "type": "challenge"
     }

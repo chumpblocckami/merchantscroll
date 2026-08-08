@@ -2,10 +2,10 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 329,
-    "league_entries": 116,
-    "league_trophies": 116,
-    "league_trophies_yearly": 109,
+    "total_entries": 330,
+    "league_entries": 117,
+    "league_trophies": 117,
+    "league_trophies_yearly": 110,
     "challenge_appearances": 156,
     "challenge_wins": 641,
     "challenge_losses": 374,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 18,
     "league_trophy_rank_alltime": 29,
-    "league_trophy_decks_yearly": 68,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 70,
+    "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
     {
@@ -82,6 +82,21 @@
       "tournament": "Pauper League",
       "date": "2026-08-05",
       "player": "Malpyrocky",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0310855",
+      "tournament": "Pauper League",
+      "date": "2026-08-03",
+      "player": "Rusherlol",
       "colors": [
         "G",
         "R",
@@ -376,21 +391,6 @@
       "final_rank": 20,
       "source": "mtgo",
       "type": "showcase"
-    },
-    {
-      "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
-      "tournament": "Pauper Showcase Qualifier",
-      "date": "2026-07-26",
-      "player": "duke12",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "3-2",
-      "final_rank": 9,
-      "source": "mtgo",
-      "type": "showcase"
     }
   ],
   "top_pilots": [
@@ -423,16 +423,16 @@
       "count": 6
     },
     {
+      "player": "Rusherlol",
+      "count": 5
+    },
+    {
       "player": "reto_mtg",
       "count": 5
     },
     {
       "player": "wand_thief",
       "count": 5
-    },
-    {
-      "player": "Carlinhos_Jund",
-      "count": 4
     }
   ]
 }

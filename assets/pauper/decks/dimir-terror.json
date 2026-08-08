@@ -2,10 +2,10 @@
   "archetype": "Dimir Terror",
   "slug": "dimir-terror",
   "stats": {
-    "total_entries": 616,
-    "league_entries": 309,
-    "league_trophies": 309,
-    "league_trophies_yearly": 167,
+    "total_entries": 617,
+    "league_entries": 310,
+    "league_trophies": 310,
+    "league_trophies_yearly": 168,
     "challenge_appearances": 257,
     "challenge_wins": 1089,
     "challenge_losses": 613,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 10,
     "league_trophy_rank_alltime": 13,
-    "league_trophy_decks_yearly": 68,
-    "league_trophy_decks_alltime": 72
+    "league_trophy_decks_yearly": 70,
+    "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
     {
@@ -97,6 +97,21 @@
       "tournament": "Pauper League",
       "date": "2026-08-04",
       "player": "Valimoth",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0310855",
+      "tournament": "Pauper League",
+      "date": "2026-08-03",
+      "player": "Antillectual",
       "colors": [
         "B",
         "R",
@@ -372,21 +387,6 @@
       ],
       "record": "4-2",
       "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1912848178",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-23",
-      "player": "klien7",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 7,
       "source": "mtgo",
       "type": "challenge"
     }
