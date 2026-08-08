@@ -2,16 +2,16 @@
   "archetype": "Grixis Affinity",
   "slug": "grixis-affinity",
   "stats": {
-    "total_entries": 34,
-    "league_entries": 16,
-    "league_trophies": 16,
-    "league_trophies_yearly": 16,
+    "total_entries": 35,
+    "league_entries": 17,
+    "league_trophies": 17,
+    "league_trophies_yearly": 17,
     "challenge_appearances": 15,
     "challenge_wins": 67,
     "challenge_losses": 35,
     "irl_top8": 0,
     "challenge_win_pct": 66,
-    "league_trophy_rank_yearly": 43,
+    "league_trophy_rank_yearly": 42,
     "league_trophy_rank_alltime": 45,
     "league_trophy_decks_yearly": 70,
     "league_trophy_decks_alltime": 74
@@ -288,6 +288,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-08-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-08-01",
+      "player": "AndreaEnigma9",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-3112849449",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-31",
@@ -376,21 +391,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-28",
-      "player": "Alex2109",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -423,15 +423,15 @@
       "count": 1
     },
     {
+      "player": "AndreaEnigma9",
+      "count": 1
+    },
+    {
       "player": "ChuChuMTFKR",
       "count": 1
     },
     {
       "player": "DataPusher",
-      "count": 1
-    },
-    {
-      "player": "Goyoman",
       "count": 1
     }
   ]

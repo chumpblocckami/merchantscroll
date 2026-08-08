@@ -2,10 +2,10 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1279,
-    "league_entries": 651,
-    "league_trophies": 651,
-    "league_trophies_yearly": 269,
+    "total_entries": 1281,
+    "league_entries": 653,
+    "league_trophies": 653,
+    "league_trophies_yearly": 271,
     "challenge_appearances": 556,
     "challenge_wins": 2228,
     "challenge_losses": 1402,
@@ -215,6 +215,34 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-08-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-08-01",
+      "player": "Boquinha",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-08-01",
+      "player": "CarrodaPolicia",
+      "colors": [
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-07-3112849449",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-31",
@@ -317,32 +345,6 @@
       "final_rank": 4,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-29",
-      "player": "Keez",
-      "colors": [
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-29",
-      "player": "Lincao",
-      "colors": [
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -352,7 +354,7 @@
     },
     {
       "player": "Boquinha",
-      "count": 81
+      "count": 82
     },
     {
       "player": "newbarola",

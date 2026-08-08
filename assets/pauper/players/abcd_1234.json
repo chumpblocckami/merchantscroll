@@ -3,17 +3,17 @@
   "display_name": "ABCD_1234",
   "irl_name": null,
   "stats": {
-    "total_entries": 15,
-    "league_trophies": 1,
-    "league_trophies_yearly": 1,
+    "total_entries": 16,
+    "league_trophies": 2,
+    "league_trophies_yearly": 2,
     "challenge_wins": 44,
     "challenge_losses": 41,
     "irl_top8": 0,
     "challenge_win_pct": 52,
-    "league_trophy_rank_yearly": 799,
-    "league_trophy_rank_alltime": 1290,
-    "league_trophy_players_yearly": 1411,
-    "league_trophy_players_alltime": 2107
+    "league_trophy_rank_yearly": 540,
+    "league_trophy_rank_alltime": 921,
+    "league_trophy_players_yearly": 1415,
+    "league_trophy_players_alltime": 2110
   },
   "favorite_decks": [
     {
@@ -25,11 +25,11 @@
       "count": 4
     },
     {
-      "archetype": "Jund Wildfire",
-      "count": 2
+      "archetype": "Monster Tron",
+      "count": 3
     },
     {
-      "archetype": "Monster Tron",
+      "archetype": "Jund Wildfire",
       "count": 2
     }
   ],
@@ -81,6 +81,22 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-08-01",
+      "player": "ABCD_1234",
+      "archetype": "Monster Tron",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-07-2912848254",
