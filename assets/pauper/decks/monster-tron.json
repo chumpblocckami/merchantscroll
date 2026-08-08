@@ -2,10 +2,10 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 252,
-    "league_entries": 124,
-    "league_trophies": 124,
-    "league_trophies_yearly": 118,
+    "total_entries": 254,
+    "league_entries": 126,
+    "league_trophies": 126,
+    "league_trophies_yearly": 120,
     "challenge_appearances": 103,
     "challenge_wins": 426,
     "challenge_losses": 264,
@@ -30,6 +30,35 @@
       "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0710855",
+      "tournament": "Pauper League",
+      "date": "2026-08-07",
+      "player": "Pilot83",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0710855",
+      "tournament": "Pauper League",
+      "date": "2026-08-07",
+      "player": "Vojbe",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-0612850801",
@@ -351,36 +380,6 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "showcase"
-    },
-    {
-      "site_name": "pauper-showcase-qualifier-2026-07-2612848160",
-      "tournament": "Pauper Showcase Qualifier",
-      "date": "2026-07-26",
-      "player": "PLads_Echanez",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 7,
-      "source": "mtgo",
-      "type": "showcase"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2510855",
-      "tournament": "Pauper League",
-      "date": "2026-07-25",
-      "player": "Syns",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [

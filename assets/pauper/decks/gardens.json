@@ -2,10 +2,10 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 722,
-    "league_entries": 359,
-    "league_trophies": 359,
-    "league_trophies_yearly": 165,
+    "total_entries": 723,
+    "league_entries": 360,
+    "league_trophies": 360,
+    "league_trophies_yearly": 166,
     "challenge_appearances": 312,
     "challenge_wins": 1269,
     "challenge_losses": 763,
@@ -59,6 +59,20 @@
       "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0710855",
+      "tournament": "Pauper League",
+      "date": "2026-08-07",
+      "player": "G-Monteiro",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-0612850801",
@@ -353,20 +367,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2112847730",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "__Noob__",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-1",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
     }
   ],
   "top_pilots": [
@@ -395,12 +395,12 @@
       "count": 16
     },
     {
-      "player": "orbuletto",
+      "player": "G-Monteiro",
       "count": 15
     },
     {
-      "player": "G-Monteiro",
-      "count": 14
+      "player": "orbuletto",
+      "count": 15
     },
     {
       "player": "KingZiggy",
