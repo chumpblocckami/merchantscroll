@@ -2,10 +2,10 @@
   "archetype": "Mono Blue Terror",
   "slug": "mono-blue-terror",
   "stats": {
-    "total_entries": 1875,
-    "league_entries": 848,
-    "league_trophies": 848,
-    "league_trophies_yearly": 373,
+    "total_entries": 1873,
+    "league_entries": 846,
+    "league_trophies": 846,
+    "league_trophies_yearly": 371,
     "challenge_appearances": 904,
     "challenge_wins": 3727,
     "challenge_losses": 2236,
@@ -42,32 +42,6 @@
       "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0710855",
-      "tournament": "Pauper League",
-      "date": "2026-08-07",
-      "player": "Jinjaa",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0710855",
-      "tournament": "Pauper League",
-      "date": "2026-08-07",
-      "player": "Luminati",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-0612850801",
@@ -343,12 +317,38 @@
       "final_rank": 4,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-3112849449",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-31",
+      "player": "carvs",
+      "colors": [
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 14,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-3112849449",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-31",
+      "player": "pokerswizard",
+      "colors": [
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 28,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "Luminati",
-      "count": 295
+      "count": 294
     },
     {
       "player": "discoverN",

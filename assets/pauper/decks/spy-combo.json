@@ -2,10 +2,10 @@
   "archetype": "Spy Combo",
   "slug": "spy-combo",
   "stats": {
-    "total_entries": 787,
-    "league_entries": 489,
-    "league_trophies": 489,
-    "league_trophies_yearly": 211,
+    "total_entries": 786,
+    "league_entries": 488,
+    "league_trophies": 488,
+    "league_trophies_yearly": 210,
     "challenge_appearances": 238,
     "challenge_wins": 962,
     "challenge_losses": 602,
@@ -30,20 +30,6 @@
       "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0710855",
-      "tournament": "Pauper League",
-      "date": "2026-08-07",
-      "player": "Borbs",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-0612850801",
@@ -370,6 +356,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-3110855",
+      "tournament": "Pauper League",
+      "date": "2026-07-31",
+      "player": "kokoko098",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -398,16 +398,16 @@
       "count": 13
     },
     {
-      "player": "Borbs",
-      "count": 12
-    },
-    {
       "player": "SambucoDeCulo",
       "count": 12
     },
     {
       "player": "kokoko098",
       "count": 12
+    },
+    {
+      "player": "Borbs",
+      "count": 11
     },
     {
       "player": "Pauperformance",
