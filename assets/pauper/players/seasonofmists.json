@@ -3,16 +3,16 @@
   "display_name": "seasonofmists",
   "irl_name": null,
   "stats": {
-    "total_entries": 82,
+    "total_entries": 83,
     "league_trophies": 4,
     "league_trophies_yearly": 0,
-    "challenge_wins": 355,
-    "challenge_losses": 150,
+    "challenge_wins": 362,
+    "challenge_losses": 151,
     "irl_top8": 0,
-    "challenge_win_pct": 70,
+    "challenge_win_pct": 71,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": 676,
-    "league_trophy_players_yearly": 1410,
+    "league_trophy_players_yearly": 1411,
     "league_trophy_players_alltime": 2107
   },
   "favorite_decks": [
@@ -33,6 +33,10 @@
       "count": 2
     },
     {
+      "archetype": "Grixis Affinity",
+      "count": 2
+    },
+    {
       "archetype": "Pingers",
       "count": 2
     },
@@ -43,13 +47,25 @@
     {
       "archetype": "Dimir Faeries",
       "count": 1
-    },
-    {
-      "archetype": "Grixis Affinity",
-      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-0712850811",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-07",
+      "player": "seasonofmists",
+      "archetype": "Grixis Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "7-1",
+      "final_rank": 3,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-3112849449",
       "tournament": "Pauper Challenge 32",
@@ -426,22 +442,6 @@
       ],
       "record": "4-3",
       "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-0212841356",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-02",
-      "player": "seasonofmists",
-      "archetype": "Jund Wildfire",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "7-2",
-      "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
     }
