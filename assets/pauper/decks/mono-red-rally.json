@@ -2,10 +2,10 @@
   "archetype": "Mono Red Rally",
   "slug": "mono-red-rally",
   "stats": {
-    "total_entries": 1253,
-    "league_entries": 660,
-    "league_trophies": 660,
-    "league_trophies_yearly": 320,
+    "total_entries": 1254,
+    "league_entries": 661,
+    "league_trophies": 661,
+    "league_trophies_yearly": 321,
     "challenge_appearances": 514,
     "challenge_wins": 1988,
     "challenge_losses": 1312,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-08-09",
+      "player": "PedroStark",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-0710855",
       "tournament": "Pauper League",
@@ -350,20 +364,6 @@
       ],
       "record": "3-3",
       "final_rank": 31,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-3012849439",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-30",
-      "player": "boom_bust",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
     }
