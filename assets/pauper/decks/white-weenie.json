@@ -2,13 +2,13 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 668,
+    "total_entries": 669,
     "league_entries": 368,
     "league_trophies": 368,
     "league_trophies_yearly": 178,
-    "challenge_appearances": 262,
-    "challenge_wins": 1013,
-    "challenge_losses": 664,
+    "challenge_appearances": 263,
+    "challenge_wins": 1017,
+    "challenge_losses": 666,
     "irl_top8": 22,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 9,
@@ -27,6 +27,19 @@
       ],
       "record": "7-2",
       "final_rank": 2,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0512850801",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-06",
+      "player": "bafusVIII",
+      "colors": [
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 14,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -329,19 +342,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1912848178",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-23",
-      "player": "M_EMORIE_S",
-      "colors": [
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 28,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [

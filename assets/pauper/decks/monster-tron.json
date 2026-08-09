@@ -2,13 +2,13 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 255,
+    "total_entries": 256,
     "league_entries": 127,
     "league_trophies": 127,
     "league_trophies_yearly": 121,
-    "challenge_appearances": 103,
-    "challenge_wins": 426,
-    "challenge_losses": 264,
+    "challenge_appearances": 104,
+    "challenge_wins": 431,
+    "challenge_losses": 266,
     "irl_top8": 12,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 17,
@@ -74,6 +74,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0512850801",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-06",
+      "player": "A_AdeptoTerra",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 4,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-0612850801",
@@ -366,21 +380,6 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "showcase"
-    },
-    {
-      "site_name": "pauper-showcase-qualifier-2026-07-2212848160",
-      "tournament": "Pauper Showcase Qualifier",
-      "date": "2026-07-26",
-      "player": "PLads_Echanez",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 7,
-      "source": "mtgo",
-      "type": "showcase"
     }
   ],
   "top_pilots": [
@@ -401,12 +400,12 @@
       "count": 8
     },
     {
-      "player": "Syns",
+      "player": "A_AdeptoTerra",
       "count": 7
     },
     {
-      "player": "A_AdeptoTerra",
-      "count": 6
+      "player": "Syns",
+      "count": 7
     },
     {
       "player": "Casanova_13",

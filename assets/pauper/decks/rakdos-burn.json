@@ -2,13 +2,13 @@
   "archetype": "Rakdos Burn",
   "slug": "rakdos-burn",
   "stats": {
-    "total_entries": 4,
+    "total_entries": 5,
     "league_entries": 3,
     "league_trophies": 3,
     "league_trophies_yearly": 3,
-    "challenge_appearances": 1,
-    "challenge_wins": 4,
-    "challenge_losses": 2,
+    "challenge_appearances": 2,
+    "challenge_wins": 8,
+    "challenge_losses": 4,
     "irl_top8": 0,
     "challenge_win_pct": 67,
     "league_trophy_rank_yearly": 56,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-0512850801",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-06",
+      "player": "grajtow",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-0612850801",
       "tournament": "Pauper Challenge 32",
@@ -77,11 +92,11 @@
   ],
   "top_pilots": [
     {
-      "player": "Morimox",
-      "count": 1
+      "player": "grajtow",
+      "count": 2
     },
     {
-      "player": "grajtow",
+      "player": "Morimox",
       "count": 1
     },
     {

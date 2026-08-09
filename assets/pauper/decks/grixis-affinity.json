@@ -2,15 +2,15 @@
   "archetype": "Grixis Affinity",
   "slug": "grixis-affinity",
   "stats": {
-    "total_entries": 31,
+    "total_entries": 33,
     "league_entries": 13,
     "league_trophies": 13,
     "league_trophies_yearly": 13,
-    "challenge_appearances": 15,
-    "challenge_wins": 67,
-    "challenge_losses": 35,
+    "challenge_appearances": 17,
+    "challenge_wins": 73,
+    "challenge_losses": 42,
     "irl_top8": 0,
-    "challenge_win_pct": 66,
+    "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 45,
     "league_trophy_rank_alltime": 46,
     "league_trophy_decks_yearly": 70,
@@ -91,6 +91,36 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0512850801",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-06",
+      "player": "ChuChuMTFKR",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0512850801",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-06",
+      "player": "VitorCarvalho01",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "2-4",
+      "final_rank": 30,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-0612850801",
@@ -361,36 +391,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-27",
-      "player": "s8shock",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2610855",
-      "tournament": "Pauper League",
-      "date": "2026-07-26",
-      "player": "SebaSTOno",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -399,11 +399,15 @@
       "count": 3
     },
     {
+      "player": "VitorCarvalho01",
+      "count": 3
+    },
+    {
       "player": "s8shock",
       "count": 3
     },
     {
-      "player": "VitorCarvalho01",
+      "player": "ChuChuMTFKR",
       "count": 2
     },
     {
@@ -424,10 +428,6 @@
     },
     {
       "player": "AndreaEnigma9",
-      "count": 1
-    },
-    {
-      "player": "ChuChuMTFKR",
       "count": 1
     },
     {

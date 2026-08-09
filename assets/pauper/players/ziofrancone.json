@@ -3,11 +3,11 @@
   "display_name": "ziofrancone",
   "irl_name": null,
   "stats": {
-    "total_entries": 73,
+    "total_entries": 74,
     "league_trophies": 10,
     "league_trophies_yearly": 3,
-    "challenge_wins": 228,
-    "challenge_losses": 126,
+    "challenge_wins": 231,
+    "challenge_losses": 129,
     "irl_top8": 0,
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 530,
@@ -23,6 +23,10 @@
     {
       "archetype": "Jund Wildfire",
       "count": 19
+    },
+    {
+      "archetype": "Spy Combo",
+      "count": 4
     },
     {
       "archetype": "Altar Tron",
@@ -45,10 +49,6 @@
       "count": 3
     },
     {
-      "archetype": "Spy Combo",
-      "count": 3
-    },
-    {
       "archetype": "Mono Red Madness",
       "count": 2
     },
@@ -58,6 +58,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-0512850801",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-06",
+      "player": "ziofrancone",
+      "archetype": "Spy Combo",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 20,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-0612850801",
       "tournament": "Pauper Challenge 32",
@@ -429,22 +445,6 @@
       ],
       "record": "6-1",
       "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2412845631",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "ziofrancone",
-      "archetype": "Jund Wildfire",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "0-2",
-      "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
     }

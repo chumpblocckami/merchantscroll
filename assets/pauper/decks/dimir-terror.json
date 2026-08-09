@@ -2,13 +2,13 @@
   "archetype": "Dimir Terror",
   "slug": "dimir-terror",
   "stats": {
-    "total_entries": 616,
+    "total_entries": 617,
     "league_entries": 309,
     "league_trophies": 309,
     "league_trophies_yearly": 167,
-    "challenge_appearances": 257,
-    "challenge_wins": 1089,
-    "challenge_losses": 613,
+    "challenge_appearances": 258,
+    "challenge_wins": 1097,
+    "challenge_losses": 614,
     "irl_top8": 11,
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 10,
@@ -46,6 +46,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0512850801",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-06",
+      "player": "Lollopollo2001",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "8-1",
+      "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-0612850801",
@@ -374,21 +389,6 @@
       "final_rank": 13,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1912848178",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-23",
-      "player": "klien7",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -418,7 +418,7 @@
     },
     {
       "player": "Lollopollo2001",
-      "count": 12
+      "count": 13
     },
     {
       "player": "cicciogire",
