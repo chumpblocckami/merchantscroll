@@ -3,17 +3,17 @@
   "display_name": "Brvnx",
   "irl_name": null,
   "stats": {
-    "total_entries": 71,
-    "league_trophies": 18,
-    "league_trophies_yearly": 9,
+    "total_entries": 70,
+    "league_trophies": 17,
+    "league_trophies_yearly": 8,
     "challenge_wins": 219,
     "challenge_losses": 121,
     "irl_top8": 0,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 110,
-    "league_trophy_rank_alltime": 115,
-    "league_trophy_players_yearly": 1419,
-    "league_trophy_players_alltime": 2113
+    "league_trophy_rank_yearly": 130,
+    "league_trophy_rank_alltime": 127,
+    "league_trophy_players_yearly": 1409,
+    "league_trophy_players_alltime": 2105
   },
   "favorite_decks": [
     {
@@ -26,7 +26,7 @@
     },
     {
       "archetype": "Mono Blue Faeries",
-      "count": 14
+      "count": 13
     },
     {
       "archetype": "Cawgate",
@@ -60,20 +60,6 @@
       "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0510855",
-      "tournament": "Pauper League",
-      "date": "2026-08-05",
-      "player": "Brvnx",
-      "archetype": "Mono Blue Faeries",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-0112849464",
@@ -424,6 +410,22 @@
       "final_rank": 7,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-05-2210636",
+      "tournament": "Pauper League",
+      "date": "2026-05-22",
+      "player": "Brvnx",
+      "archetype": "Dimir Faeries",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ]
 }
