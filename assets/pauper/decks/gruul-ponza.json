@@ -2,16 +2,16 @@
   "archetype": "Gruul Ponza",
   "slug": "gruul-ponza",
   "stats": {
-    "total_entries": 341,
-    "league_entries": 141,
-    "league_trophies": 141,
-    "league_trophies_yearly": 88,
+    "total_entries": 343,
+    "league_entries": 143,
+    "league_trophies": 143,
+    "league_trophies_yearly": 90,
     "challenge_appearances": 177,
     "challenge_wins": 645,
     "challenge_losses": 457,
     "irl_top8": 11,
     "challenge_win_pct": 59,
-    "league_trophy_rank_yearly": 23,
+    "league_trophy_rank_yearly": 22,
     "league_trophy_rank_alltime": 24,
     "league_trophy_decks_yearly": 70,
     "league_trophy_decks_alltime": 74
@@ -58,6 +58,34 @@
       "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0410855",
+      "tournament": "Pauper League",
+      "date": "2026-08-04",
+      "player": "Niederschatten",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0410855",
+      "tournament": "Pauper League",
+      "date": "2026-08-04",
+      "player": "ccezar",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-0212849483",
@@ -338,34 +366,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-28",
-      "player": "_Abijhavs_",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-2612848222",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-26",
-      "player": "Ixidor29",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-3",
-      "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -378,12 +378,12 @@
       "count": 18
     },
     {
-      "player": "mehanske",
+      "player": "Niederschatten",
       "count": 11
     },
     {
-      "player": "Niederschatten",
-      "count": 10
+      "player": "mehanske",
+      "count": 11
     },
     {
       "player": "_Luvi_",

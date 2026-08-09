@@ -2,10 +2,10 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 670,
-    "league_entries": 370,
-    "league_trophies": 370,
-    "league_trophies_yearly": 180,
+    "total_entries": 671,
+    "league_entries": 371,
+    "league_trophies": 371,
+    "league_trophies_yearly": 181,
     "challenge_appearances": 262,
     "challenge_wins": 1013,
     "challenge_losses": 664,
@@ -74,6 +74,19 @@
       "tournament": "Pauper League",
       "date": "2026-08-05",
       "player": "bnpbnp",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0410855",
+      "tournament": "Pauper League",
+      "date": "2026-08-04",
+      "player": "Deodato",
       "colors": [
         "W"
       ],
@@ -329,19 +342,6 @@
       "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-24",
-      "player": "EthanGZA",
-      "colors": [
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -359,7 +359,7 @@
     },
     {
       "player": "Deodato",
-      "count": 23
+      "count": 24
     },
     {
       "player": "Denisevich",

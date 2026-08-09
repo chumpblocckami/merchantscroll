@@ -2,17 +2,17 @@
   "archetype": "Grixis Affinity",
   "slug": "grixis-affinity",
   "stats": {
-    "total_entries": 33,
-    "league_entries": 15,
-    "league_trophies": 15,
-    "league_trophies_yearly": 15,
+    "total_entries": 35,
+    "league_entries": 17,
+    "league_trophies": 17,
+    "league_trophies_yearly": 17,
     "challenge_appearances": 15,
     "challenge_wins": 67,
     "challenge_losses": 35,
     "irl_top8": 0,
     "challenge_win_pct": 66,
-    "league_trophy_rank_yearly": 44,
-    "league_trophy_rank_alltime": 46,
+    "league_trophy_rank_yearly": 42,
+    "league_trophy_rank_alltime": 45,
     "league_trophy_decks_yearly": 70,
     "league_trophy_decks_alltime": 74
   },
@@ -172,6 +172,36 @@
       "tournament": "Pauper League",
       "date": "2026-08-05",
       "player": "IAmCrayCray661",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0410855",
+      "tournament": "Pauper League",
+      "date": "2026-08-04",
+      "player": "TheBigElegantOwl",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0410855",
+      "tournament": "Pauper League",
+      "date": "2026-08-04",
+      "player": "softcastles",
       "colors": [
         "B",
         "R",
@@ -361,36 +391,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-28",
-      "player": "Alex2109",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-27",
-      "player": "Albilnonno_11",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -411,6 +411,10 @@
       "count": 2
     },
     {
+      "player": "softcastles",
+      "count": 2
+    },
+    {
       "player": "Albilnonno_11",
       "count": 1
     },
@@ -428,10 +432,6 @@
     },
     {
       "player": "DataPusher",
-      "count": 1
-    },
-    {
-      "player": "Goyoman",
       "count": 1
     }
   ]
