@@ -2,10 +2,10 @@
   "archetype": "Jeskai Ephemerate",
   "slug": "jeskai-ephemerate",
   "stats": {
-    "total_entries": 414,
-    "league_entries": 226,
-    "league_trophies": 226,
-    "league_trophies_yearly": 162,
+    "total_entries": 415,
+    "league_entries": 227,
+    "league_trophies": 227,
+    "league_trophies_yearly": 163,
     "challenge_appearances": 157,
     "challenge_wins": 658,
     "challenge_losses": 380,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-08-09",
+      "player": "Bolllll",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-0810855",
       "tournament": "Pauper League",
@@ -374,21 +389,6 @@
       ],
       "record": "6-1",
       "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-3012849439",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-30",
-      "player": "ziofrancone",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "6-2",
-      "final_rank": 3,
       "source": "mtgo",
       "type": "challenge"
     }
