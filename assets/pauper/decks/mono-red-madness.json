@@ -2,10 +2,10 @@
   "archetype": "Mono Red Madness",
   "slug": "mono-red-madness",
   "stats": {
-    "total_entries": 2143,
-    "league_entries": 1167,
-    "league_trophies": 1167,
-    "league_trophies_yearly": 595,
+    "total_entries": 2144,
+    "league_entries": 1168,
+    "league_trophies": 1168,
+    "league_trophies_yearly": 596,
     "challenge_appearances": 835,
     "challenge_wins": 3303,
     "challenge_losses": 2108,
@@ -22,6 +22,19 @@
       "tournament": "Pauper League",
       "date": "2026-08-10",
       "player": "murilobds",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-08-10",
+      "player": "vikizin",
       "colors": [
         "R"
       ],
@@ -328,19 +341,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0610855",
-      "tournament": "Pauper League",
-      "date": "2026-08-06",
-      "player": "Kampo",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -358,7 +358,7 @@
     },
     {
       "player": "vikizin",
-      "count": 47
+      "count": 48
     },
     {
       "player": "Bong0411",
