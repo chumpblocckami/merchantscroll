@@ -3,13 +3,13 @@
   "display_name": "A_AdeptoTerra",
   "irl_name": null,
   "stats": {
-    "total_entries": 73,
+    "total_entries": 74,
     "league_trophies": 14,
     "league_trophies_yearly": 4,
-    "challenge_wins": 225,
-    "challenge_losses": 119,
+    "challenge_wins": 230,
+    "challenge_losses": 121,
     "irl_top8": 0,
-    "challenge_win_pct": 65,
+    "challenge_win_pct": 66,
     "league_trophy_rank_yearly": 314,
     "league_trophy_rank_alltime": 156,
     "league_trophy_players_yearly": 1419,
@@ -30,7 +30,7 @@
     },
     {
       "archetype": "Monster Tron",
-      "count": 7
+      "count": 8
     },
     {
       "archetype": "Elves",
@@ -58,6 +58,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-0912851113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-09",
+      "player": "A_AdeptoTerra",
+      "archetype": "Monster Tron",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 15,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-0512850801",
       "tournament": "Pauper Challenge 32",
@@ -413,21 +428,6 @@
       ],
       "record": "5-2",
       "final_rank": 6,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-1712842508",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-17",
-      "player": "A_AdeptoTerra",
-      "archetype": "Simic Fog",
-      "colors": [
-        "G",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
     }

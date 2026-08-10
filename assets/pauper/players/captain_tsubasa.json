@@ -3,11 +3,11 @@
   "display_name": "Captain_Tsubasa",
   "irl_name": null,
   "stats": {
-    "total_entries": 59,
+    "total_entries": 60,
     "league_trophies": 7,
     "league_trophies_yearly": 1,
-    "challenge_wins": 191,
-    "challenge_losses": 140,
+    "challenge_wins": 196,
+    "challenge_losses": 142,
     "irl_top8": 0,
     "challenge_win_pct": 58,
     "league_trophy_rank_yearly": 884,
@@ -35,9 +35,28 @@
     {
       "archetype": "Jund Wildfire",
       "count": 1
+    },
+    {
+      "archetype": "Rakdos Burn",
+      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-0912851113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-09",
+      "player": "Captain_Tsubasa",
+      "archetype": "Rakdos Burn",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "record": "5-2",
+      "final_rank": 17,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-2912848254",
       "tournament": "Pauper Challenge 32",
@@ -390,21 +409,6 @@
       "final_rank": 3,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-12-099987",
-      "tournament": "pauper-league-2025-12-099987",
-      "date": "2025-12-09",
-      "player": "Captain_Tsubasa",
-      "archetype": "Mono Red Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

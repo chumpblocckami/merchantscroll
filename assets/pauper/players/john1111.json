@@ -3,11 +3,11 @@
   "display_name": "John1111",
   "irl_name": null,
   "stats": {
-    "total_entries": 30,
+    "total_entries": 31,
     "league_trophies": 1,
     "league_trophies_yearly": 1,
-    "challenge_wins": 107,
-    "challenge_losses": 72,
+    "challenge_wins": 111,
+    "challenge_losses": 75,
     "irl_top8": 0,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 1065,
@@ -18,7 +18,7 @@
   "favorite_decks": [
     {
       "archetype": "Naya Gates",
-      "count": 4
+      "count": 5
     },
     {
       "archetype": "Gardens",
@@ -58,6 +58,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-0912851113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-09",
+      "player": "John1111",
+      "archetype": "Naya Gates",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "4-3",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-1912847712",
       "tournament": "Pauper Challenge 32",
@@ -411,22 +427,6 @@
       ],
       "record": "4-2",
       "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-10-0412818128",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-10-04",
-      "player": "John1111",
-      "archetype": "Jund Wildfire",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
     }
