@@ -2,10 +2,10 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1285,
-    "league_entries": 656,
-    "league_trophies": 656,
-    "league_trophies_yearly": 274,
+    "total_entries": 1286,
+    "league_entries": 657,
+    "league_trophies": 657,
+    "league_trophies_yearly": 275,
     "challenge_appearances": 557,
     "challenge_wins": 2230,
     "challenge_losses": 1406,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 75
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-08-10",
+      "player": "KidRenan",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-0910855",
       "tournament": "Pauper League",
@@ -332,19 +347,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-3110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-31",
-      "player": "Taute",
-      "colors": [
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -381,12 +383,12 @@
       "count": 20
     },
     {
-      "player": "pepeteam",
+      "player": "KidRenan",
       "count": 17
     },
     {
-      "player": "KidRenan",
-      "count": 16
+      "player": "pepeteam",
+      "count": 17
     }
   ]
 }

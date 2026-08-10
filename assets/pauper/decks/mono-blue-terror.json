@@ -2,10 +2,10 @@
   "archetype": "Mono Blue Terror",
   "slug": "mono-blue-terror",
   "stats": {
-    "total_entries": 1886,
-    "league_entries": 853,
-    "league_trophies": 853,
-    "league_trophies_yearly": 378,
+    "total_entries": 1887,
+    "league_entries": 854,
+    "league_trophies": 854,
+    "league_trophies_yearly": 379,
     "challenge_appearances": 910,
     "challenge_wins": 3757,
     "challenge_losses": 2252,
@@ -22,6 +22,19 @@
       "tournament": "Pauper League",
       "date": "2026-08-10",
       "player": "Coachinho",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-08-10",
+      "player": "Luminati",
       "colors": [
         "U"
       ],
@@ -328,25 +341,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0310855",
-      "tournament": "Pauper League",
-      "date": "2026-08-03",
-      "player": "Luminati",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "Luminati",
-      "count": 296
+      "count": 297
     },
     {
       "player": "discoverN",
