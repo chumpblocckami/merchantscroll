@@ -2,10 +2,10 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1290,
-    "league_entries": 661,
-    "league_trophies": 661,
-    "league_trophies_yearly": 279,
+    "total_entries": 1291,
+    "league_entries": 662,
+    "league_trophies": 662,
+    "league_trophies_yearly": 280,
     "challenge_appearances": 557,
     "challenge_wins": 2230,
     "challenge_losses": 1406,
@@ -24,6 +24,21 @@
       "player": "CarrodaPolicia",
       "colors": [
         "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-08-10",
+      "player": "KidRenan",
+      "colors": [
+        "G",
+        "U",
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -333,21 +348,6 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0110855",
-      "tournament": "Pauper League",
-      "date": "2026-08-01",
-      "player": "Boquinha",
-      "colors": [
-        "G",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -385,7 +385,7 @@
     },
     {
       "player": "KidRenan",
-      "count": 17
+      "count": 18
     },
     {
       "player": "pepeteam",
