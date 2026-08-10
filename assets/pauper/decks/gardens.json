@@ -2,10 +2,10 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 725,
-    "league_entries": 360,
-    "league_trophies": 360,
-    "league_trophies_yearly": 166,
+    "total_entries": 726,
+    "league_entries": 361,
+    "league_trophies": 361,
+    "league_trophies_yearly": 167,
     "challenge_appearances": 314,
     "challenge_wins": 1283,
     "challenge_losses": 765,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 75
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-08-10",
+      "player": "HellMonkey",
+      "colors": [
+        "B",
+        "G",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-0912851113",
       "tournament": "Pauper Challenge 32",
@@ -350,20 +365,6 @@
         "G"
       ],
       "record": "1-1",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-0412847738",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "MarcoBelacca95",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "1-2",
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
