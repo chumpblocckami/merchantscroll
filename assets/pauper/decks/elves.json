@@ -2,10 +2,10 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1287,
-    "league_entries": 658,
-    "league_trophies": 658,
-    "league_trophies_yearly": 276,
+    "total_entries": 1288,
+    "league_entries": 659,
+    "league_trophies": 659,
+    "league_trophies_yearly": 277,
     "challenge_appearances": 557,
     "challenge_wins": 2230,
     "challenge_losses": 1406,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 4,
     "league_trophy_rank_alltime": 4,
-    "league_trophy_decks_yearly": 71,
-    "league_trophy_decks_alltime": 75
+    "league_trophy_decks_yearly": 72,
+    "league_trophy_decks_alltime": 76
   },
   "recent_entries": [
     {
@@ -26,6 +26,19 @@
         "G",
         "U",
         "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-08-10",
+      "player": "ganjadejanga",
+      "colors": [
+        "G"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -334,19 +347,6 @@
       "final_rank": 22,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-3112849449",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-31",
-      "player": "TiagoFuguete",
-      "colors": [
-        "G"
-      ],
-      "record": "4-2",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -364,7 +364,7 @@
     },
     {
       "player": "ganjadejanga",
-      "count": 36
+      "count": 37
     },
     {
       "player": "QueMario",
