@@ -2,10 +2,10 @@
   "archetype": "Mono Blue Terror",
   "slug": "mono-blue-terror",
   "stats": {
-    "total_entries": 1895,
-    "league_entries": 862,
-    "league_trophies": 862,
-    "league_trophies_yearly": 387,
+    "total_entries": 1896,
+    "league_entries": 863,
+    "league_trophies": 863,
+    "league_trophies_yearly": 388,
     "challenge_appearances": 910,
     "challenge_wins": 3757,
     "challenge_losses": 2252,
@@ -74,6 +74,19 @@
       "tournament": "Pauper League",
       "date": "2026-08-11",
       "player": "flower270",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1110991",
+      "tournament": "Pauper League",
+      "date": "2026-08-11",
+      "player": "Sciacallo_Rosso",
       "colors": [
         "U"
       ],
@@ -326,19 +339,6 @@
       ],
       "record": "3-3",
       "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0612850801",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-06",
-      "player": "FoxMTG",
-      "colors": [
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
     }
