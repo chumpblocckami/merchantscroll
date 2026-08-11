@@ -2,10 +2,10 @@
   "archetype": "Walls",
   "slug": "walls",
   "stats": {
-    "total_entries": 175,
-    "league_entries": 108,
-    "league_trophies": 108,
-    "league_trophies_yearly": 39,
+    "total_entries": 174,
+    "league_entries": 107,
+    "league_trophies": 107,
+    "league_trophies_yearly": 38,
     "challenge_appearances": 57,
     "challenge_wins": 218,
     "challenge_losses": 152,
@@ -17,22 +17,6 @@
     "league_trophy_decks_alltime": 76
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-08-0910855",
-      "tournament": "Pauper League",
-      "date": "2026-08-09",
-      "player": "apas72",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-league-2026-08-0510855",
       "tournament": "Pauper League",
@@ -413,12 +397,28 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-05-2110636",
+      "tournament": "Pauper League",
+      "date": "2026-05-21",
+      "player": "SteponMe",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "apas72",
-      "count": 44
+      "count": 43
     },
     {
       "player": "Terminus0",
