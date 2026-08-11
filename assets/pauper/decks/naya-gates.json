@@ -2,21 +2,36 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 335,
-    "league_entries": 117,
-    "league_trophies": 117,
-    "league_trophies_yearly": 110,
+    "total_entries": 336,
+    "league_entries": 118,
+    "league_trophies": 118,
+    "league_trophies_yearly": 111,
     "challenge_appearances": 161,
     "challenge_wins": 661,
     "challenge_losses": 387,
     "irl_top8": 19,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 19,
+    "league_trophy_rank_yearly": 18,
     "league_trophy_rank_alltime": 29,
     "league_trophy_decks_yearly": 72,
     "league_trophy_decks_alltime": 76
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-1110855",
+      "tournament": "Pauper League",
+      "date": "2026-08-11",
+      "player": "reto_mtg",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-0912851113",
       "tournament": "Pauper Challenge 32",
@@ -376,21 +391,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-showcase-qualifier-2026-07-2212848160",
-      "tournament": "Pauper Showcase Qualifier",
-      "date": "2026-07-26",
-      "player": "McWinSauce",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "4-3",
-      "final_rank": 4,
-      "source": "mtgo",
-      "type": "showcase"
     }
   ],
   "top_pilots": [
@@ -423,15 +423,15 @@
       "count": 6
     },
     {
+      "player": "reto_mtg",
+      "count": 6
+    },
+    {
       "player": "John1111",
       "count": 5
     },
     {
       "player": "Rusherlol",
-      "count": 5
-    },
-    {
-      "player": "reto_mtg",
       "count": 5
     }
   ]
