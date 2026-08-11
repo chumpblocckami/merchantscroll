@@ -2,19 +2,19 @@
   "archetype": "Grixis Affinity",
   "slug": "grixis-affinity",
   "stats": {
-    "total_entries": 42,
-    "league_entries": 19,
-    "league_trophies": 19,
-    "league_trophies_yearly": 19,
+    "total_entries": 39,
+    "league_entries": 16,
+    "league_trophies": 16,
+    "league_trophies_yearly": 16,
     "challenge_appearances": 20,
     "challenge_wins": 88,
     "challenge_losses": 49,
     "irl_top8": 0,
     "challenge_win_pct": 64,
-    "league_trophy_rank_yearly": 41,
-    "league_trophy_rank_alltime": 44,
-    "league_trophy_decks_yearly": 72,
-    "league_trophy_decks_alltime": 76
+    "league_trophy_rank_yearly": 43,
+    "league_trophy_rank_alltime": 45,
+    "league_trophy_decks_yearly": 70,
+    "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
     {
@@ -22,21 +22,6 @@
       "tournament": "Pauper League",
       "date": "2026-08-11",
       "player": "Plutarco",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1010855",
-      "tournament": "Pauper League",
-      "date": "2026-08-10",
-      "player": "Inafuco",
       "colors": [
         "B",
         "R",
@@ -151,36 +136,6 @@
       "final_rank": 3,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0710855",
-      "tournament": "Pauper League",
-      "date": "2026-08-07",
-      "player": "TuggaNaxos",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0710855",
-      "tournament": "Pauper League",
-      "date": "2026-08-07",
-      "player": "softcastles",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-0512850801",
@@ -391,6 +346,51 @@
       "final_rank": 16,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-08-01",
+      "player": "AndreaEnigma9",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-3112849449",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-31",
+      "player": "Mark_Confidant",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-3112849449",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-31",
+      "player": "VitorCarvalho01",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -415,10 +415,6 @@
       "count": 2
     },
     {
-      "player": "softcastles",
-      "count": 2
-    },
-    {
       "player": "Albilnonno_11",
       "count": 1
     },
@@ -432,6 +428,10 @@
     },
     {
       "player": "DataPusher",
+      "count": 1
+    },
+    {
+      "player": "Goyoman",
       "count": 1
     }
   ]

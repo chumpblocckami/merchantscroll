@@ -2,10 +2,10 @@
   "archetype": "Cycling Storm",
   "slug": "cycling-storm",
   "stats": {
-    "total_entries": 92,
-    "league_entries": 60,
-    "league_trophies": 60,
-    "league_trophies_yearly": 40,
+    "total_entries": 91,
+    "league_entries": 59,
+    "league_trophies": 59,
+    "league_trophies_yearly": 39,
     "challenge_appearances": 17,
     "challenge_wins": 59,
     "challenge_losses": 48,
@@ -13,25 +13,10 @@
     "challenge_win_pct": 55,
     "league_trophy_rank_yearly": 31,
     "league_trophy_rank_alltime": 39,
-    "league_trophy_decks_yearly": 72,
-    "league_trophy_decks_alltime": 76
+    "league_trophy_decks_yearly": 70,
+    "league_trophy_decks_alltime": 74
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-08-1010855",
-      "tournament": "Pauper League",
-      "date": "2026-08-10",
-      "player": "saidin.raken",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-league-2026-08-0610855",
       "tournament": "Pauper League",
@@ -394,6 +379,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-rc-super-qualifier-2026-06-2712845612",
+      "tournament": "Pauper RC Super Qualifier",
+      "date": "2026-06-27",
+      "player": "StudentAnselmus",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "10-2",
+      "final_rank": 1,
+      "source": "mtgo",
+      "type": "other"
     }
   ],
   "top_pilots": [
@@ -407,7 +407,7 @@
     },
     {
       "player": "saidin.raken",
-      "count": 7
+      "count": 6
     },
     {
       "player": "Francesco Redaelli",
