@@ -2,10 +2,10 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1293,
-    "league_entries": 663,
-    "league_trophies": 663,
-    "league_trophies_yearly": 281,
+    "total_entries": 1294,
+    "league_entries": 664,
+    "league_trophies": 664,
+    "league_trophies_yearly": 282,
     "challenge_appearances": 558,
     "challenge_wins": 2234,
     "challenge_losses": 1408,
@@ -35,6 +35,19 @@
       "tournament": "Pauper League",
       "date": "2026-08-12",
       "player": "TorinikuJP",
+      "colors": [
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1210991",
+      "tournament": "Pauper League",
+      "date": "2026-08-12",
+      "player": "wolf777",
       "colors": [
         "G"
       ],
@@ -335,19 +348,6 @@
       "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0212849483",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-02",
-      "player": "Scooby_Snacks",
-      "colors": [
-        "G"
-      ],
-      "record": "6-3",
-      "final_rank": 4,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -373,7 +373,7 @@
     },
     {
       "player": "wolf777",
-      "count": 29
+      "count": 30
     },
     {
       "player": "Mokemi",
