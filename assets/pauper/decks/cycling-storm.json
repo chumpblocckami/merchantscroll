@@ -2,10 +2,10 @@
   "archetype": "Cycling Storm",
   "slug": "cycling-storm",
   "stats": {
-    "total_entries": 94,
-    "league_entries": 61,
-    "league_trophies": 61,
-    "league_trophies_yearly": 41,
+    "total_entries": 92,
+    "league_entries": 59,
+    "league_trophies": 59,
+    "league_trophies_yearly": 39,
     "challenge_appearances": 18,
     "challenge_wins": 62,
     "challenge_losses": 51,
@@ -33,21 +33,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-08-1210991",
-      "tournament": "Pauper League",
-      "date": "2026-08-12",
-      "player": "LydiaTheHuman",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-08-0910855",
       "tournament": "Pauper League",
       "date": "2026-08-09",
@@ -55,22 +40,6 @@
       "colors": [
         "B",
         "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0610855",
-      "tournament": "Pauper League",
-      "date": "2026-08-06",
-      "player": "StudentAnselmus",
-      "colors": [
-        "B",
-        "R",
-        "U",
         "W"
       ],
       "record": "5-0",
@@ -393,12 +362,43 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0710855",
+      "tournament": "Pauper League",
+      "date": "2026-07-07",
+      "player": "Taddy_99",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-0610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-06",
+      "player": "PedroRocha",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "StudentAnselmus",
-      "count": 43
+      "count": 42
     },
     {
       "player": "Bryant_Cook",

@@ -2,16 +2,16 @@
   "archetype": "Jeskai Ephemerate",
   "slug": "jeskai-ephemerate",
   "stats": {
-    "total_entries": 424,
-    "league_entries": 231,
-    "league_trophies": 231,
-    "league_trophies_yearly": 167,
+    "total_entries": 420,
+    "league_entries": 227,
+    "league_trophies": 227,
+    "league_trophies_yearly": 163,
     "challenge_appearances": 162,
     "challenge_wins": 675,
     "challenge_losses": 393,
     "irl_top8": 13,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 11,
+    "league_trophy_rank_yearly": 12,
     "league_trophy_rank_alltime": 15,
     "league_trophy_decks_yearly": 70,
     "league_trophy_decks_alltime": 74
@@ -61,37 +61,6 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1210991",
-      "tournament": "Pauper League",
-      "date": "2026-08-12",
-      "player": "ChaoticMTG",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1210991",
-      "tournament": "Pauper League",
-      "date": "2026-08-12",
-      "player": "PellX18",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-08-1110855",
@@ -229,36 +198,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-08-0610855",
-      "tournament": "Pauper League",
-      "date": "2026-08-06",
-      "player": "mariogomes097",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0610855",
-      "tournament": "Pauper League",
-      "date": "2026-08-06",
-      "player": "taravangian_",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-league-2026-08-0510855",
       "tournament": "Pauper League",
       "date": "2026-08-05",
@@ -392,12 +331,72 @@
       "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0112849464",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-01",
+      "player": "daifuku",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "6-2",
+      "final_rank": 4,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0112849464",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-01",
+      "player": "pepeteam",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-3",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-08-01",
+      "player": "MenosGrande",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-08-01",
+      "player": "TheDuckThatQuacks",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "ChaoticMTG",
-      "count": 42
+      "count": 41
     },
     {
       "player": "daifuku",

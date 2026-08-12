@@ -3,17 +3,17 @@
   "display_name": "Kampo",
   "irl_name": null,
   "stats": {
-    "total_entries": 32,
-    "league_trophies": 6,
-    "league_trophies_yearly": 3,
+    "total_entries": 31,
+    "league_trophies": 5,
+    "league_trophies_yearly": 2,
     "challenge_wins": 110,
     "challenge_losses": 54,
     "irl_top8": 0,
     "challenge_win_pct": 67,
-    "league_trophy_rank_yearly": 458,
-    "league_trophy_rank_alltime": 458,
-    "league_trophy_players_yearly": 1425,
-    "league_trophy_players_alltime": 2118
+    "league_trophy_rank_yearly": 659,
+    "league_trophy_rank_alltime": 524,
+    "league_trophy_players_yearly": 1420,
+    "league_trophy_players_alltime": 2113
   },
   "favorite_decks": [
     {
@@ -33,10 +33,6 @@
       "count": 2
     },
     {
-      "archetype": "Mono Red Madness",
-      "count": 2
-    },
-    {
       "archetype": "Elves",
       "count": 1
     },
@@ -49,25 +45,15 @@
       "count": 1
     },
     {
+      "archetype": "Mono Red Madness",
+      "count": 1
+    },
+    {
       "archetype": "Simic Fog",
       "count": 1
     }
   ],
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-08-0610855",
-      "tournament": "Pauper League",
-      "date": "2026-08-06",
-      "player": "Kampo",
-      "archetype": "Mono Red Madness",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-league-2026-08-0210855",
       "tournament": "Pauper League",
@@ -421,6 +407,22 @@
         "U"
       ],
       "record": "0-2",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "other"
+    },
+    {
+      "site_name": "pauper-last-chance-2025-08-1012807483",
+      "tournament": "Pauper Last Chance",
+      "date": "2025-08-10",
+      "player": "Kampo",
+      "archetype": "Flicker Tron",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "1-2",
       "final_rank": null,
       "source": "mtgo",
       "type": "other"

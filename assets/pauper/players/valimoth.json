@@ -3,17 +3,17 @@
   "display_name": "Valimoth",
   "irl_name": null,
   "stats": {
-    "total_entries": 42,
-    "league_trophies": 18,
-    "league_trophies_yearly": 8,
+    "total_entries": 41,
+    "league_trophies": 17,
+    "league_trophies_yearly": 7,
     "challenge_wins": 98,
     "challenge_losses": 48,
     "irl_top8": 0,
     "challenge_win_pct": 67,
-    "league_trophy_rank_yearly": 152,
-    "league_trophy_rank_alltime": 128,
-    "league_trophy_players_yearly": 1425,
-    "league_trophy_players_alltime": 2118
+    "league_trophy_rank_yearly": 178,
+    "league_trophy_rank_alltime": 137,
+    "league_trophy_players_yearly": 1420,
+    "league_trophy_players_alltime": 2113
   },
   "favorite_decks": [
     {
@@ -37,12 +37,12 @@
       "count": 4
     },
     {
-      "archetype": "Dimir Terror",
+      "archetype": "Rakdos Madness",
       "count": 3
     },
     {
-      "archetype": "Rakdos Madness",
-      "count": 3
+      "archetype": "Dimir Terror",
+      "count": 2
     },
     {
       "archetype": "Mono Blue Faeries",
@@ -58,22 +58,6 @@
     }
   ],
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-08-1210991",
-      "tournament": "Pauper League",
-      "date": "2026-08-12",
-      "player": "Valimoth",
-      "archetype": "Dimir Terror",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-league-2026-08-0710855",
       "tournament": "Pauper League",
@@ -437,6 +421,20 @@
       "final_rank": 13,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-03-3110405",
+      "tournament": "Pauper League",
+      "date": "2026-03-31",
+      "player": "Valimoth",
+      "archetype": "Mono Red Madness",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ]
 }
