@@ -3,17 +3,17 @@
   "display_name": "SpockVidaLoka",
   "irl_name": null,
   "stats": {
-    "total_entries": 64,
+    "total_entries": 65,
     "league_trophies": 1,
     "league_trophies_yearly": 0,
-    "challenge_wins": 237,
-    "challenge_losses": 149,
+    "challenge_wins": 238,
+    "challenge_losses": 153,
     "irl_top8": 0,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 1973,
-    "league_trophy_players_yearly": 1429,
-    "league_trophy_players_alltime": 2122
+    "league_trophy_rank_alltime": 1970,
+    "league_trophy_players_yearly": 1427,
+    "league_trophy_players_alltime": 2120
   },
   "favorite_decks": [
     {
@@ -49,15 +49,31 @@
       "count": 2
     },
     {
-      "archetype": "Grixis Affinity",
-      "count": 1
+      "archetype": "Monster Tron",
+      "count": 2
     },
     {
-      "archetype": "Monster Tron",
+      "archetype": "Grixis Affinity",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-1212851620",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-12",
+      "player": "SpockVidaLoka",
+      "archetype": "Monster Tron",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "1-4",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-3012849439",
       "tournament": "Pauper Challenge 32",
@@ -431,20 +447,6 @@
       ],
       "record": "4-2",
       "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-02-2212833562",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-02-22",
-      "player": "SpockVidaLoka",
-      "archetype": "Mono Red Madness",
-      "colors": [
-        "R"
-      ],
-      "record": "2-4",
-      "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
     }

@@ -2,13 +2,13 @@
   "archetype": "Mono Red Rally",
   "slug": "mono-red-rally",
   "stats": {
-    "total_entries": 1261,
-    "league_entries": 664,
-    "league_trophies": 664,
-    "league_trophies_yearly": 324,
-    "challenge_appearances": 518,
-    "challenge_wins": 1999,
-    "challenge_losses": 1325,
+    "total_entries": 1260,
+    "league_entries": 662,
+    "league_trophies": 662,
+    "league_trophies_yearly": 322,
+    "challenge_appearances": 519,
+    "challenge_wins": 2006,
+    "challenge_losses": 1327,
     "irl_top8": 26,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 3,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 76
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-1212851620",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-12",
+      "player": "boom_bust",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "7-2",
+      "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-1110855",
       "tournament": "Pauper League",
@@ -58,34 +72,6 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0910855",
-      "tournament": "Pauper League",
-      "date": "2026-08-09",
-      "player": "PedroStark",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0910855",
-      "tournament": "Pauper League",
-      "date": "2026-08-09",
-      "player": "Tkalac",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-08-0710855",
@@ -366,6 +352,20 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-08-01",
+      "player": "Sorceress-Queen",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -379,7 +379,7 @@
     },
     {
       "player": "boom_bust",
-      "count": 75
+      "count": 76
     },
     {
       "player": "GilbertoAntunes",

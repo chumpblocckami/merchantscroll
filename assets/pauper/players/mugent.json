@@ -3,17 +3,17 @@
   "display_name": "mugent",
   "irl_name": null,
   "stats": {
-    "total_entries": 48,
+    "total_entries": 49,
     "league_trophies": 25,
     "league_trophies_yearly": 15,
-    "challenge_wins": 78,
-    "challenge_losses": 61,
+    "challenge_wins": 82,
+    "challenge_losses": 64,
     "irl_top8": 0,
     "challenge_win_pct": 56,
     "league_trophy_rank_yearly": 58,
     "league_trophy_rank_alltime": 75,
-    "league_trophy_players_yearly": 1429,
-    "league_trophy_players_alltime": 2122
+    "league_trophy_players_yearly": 1427,
+    "league_trophy_players_alltime": 2120
   },
   "favorite_decks": [
     {
@@ -45,19 +45,35 @@
       "count": 2
     },
     {
+      "archetype": "Jund Wildfire",
+      "count": 2
+    },
+    {
       "archetype": "Mono Blue Terror",
       "count": 2
     },
     {
       "archetype": "Rakdos Madness",
       "count": 2
-    },
-    {
-      "archetype": "Dredge",
-      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-1212851620",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-12",
+      "player": "mugent",
+      "archetype": "Jund Wildfire",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "4-3",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-0512850801",
       "tournament": "Pauper Challenge 32",
@@ -406,21 +422,6 @@
       "final_rank": 13,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-12-309987",
-      "tournament": "pauper-league-2025-12-309987",
-      "date": "2025-12-30",
-      "player": "mugent",
-      "archetype": "Rakdos Madness",
-      "colors": [
-        "B",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

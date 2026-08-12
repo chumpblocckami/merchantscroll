@@ -2,13 +2,13 @@
   "archetype": "Dredge",
   "slug": "dredge",
   "stats": {
-    "total_entries": 204,
+    "total_entries": 205,
     "league_entries": 94,
     "league_trophies": 94,
     "league_trophies_yearly": 31,
-    "challenge_appearances": 96,
+    "challenge_appearances": 97,
     "challenge_wins": 397,
-    "challenge_losses": 229,
+    "challenge_losses": 232,
     "irl_top8": 8,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 37,
@@ -17,6 +17,22 @@
     "league_trophy_decks_alltime": 76
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-1212851620",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-12",
+      "player": "Slamminkid",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "0-3",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-2710855",
       "tournament": "Pauper League",
@@ -377,21 +393,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-03-06-vittorio-veneto-winter-2025",
-      "tournament": "LP Vittorio Veneto Winter 2025 — Vittorio Veneto",
-      "date": "2026-03-06",
-      "player": "Luca Foltran",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "",
-      "final_rank": 5,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [
