@@ -2,21 +2,51 @@
   "archetype": "Grixis Affinity",
   "slug": "grixis-affinity",
   "stats": {
-    "total_entries": 41,
-    "league_entries": 17,
-    "league_trophies": 17,
-    "league_trophies_yearly": 17,
+    "total_entries": 46,
+    "league_entries": 22,
+    "league_trophies": 22,
+    "league_trophies_yearly": 22,
     "challenge_appearances": 21,
     "challenge_wins": 93,
     "challenge_losses": 51,
     "irl_top8": 0,
     "challenge_win_pct": 65,
-    "league_trophy_rank_yearly": 42,
-    "league_trophy_rank_alltime": 45,
+    "league_trophy_rank_yearly": 39,
+    "league_trophy_rank_alltime": 44,
     "league_trophy_decks_yearly": 72,
     "league_trophy_decks_alltime": 76
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-1310991",
+      "tournament": "Pauper League",
+      "date": "2026-08-13",
+      "player": "Ben_Matocha",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1310991",
+      "tournament": "Pauper League",
+      "date": "2026-08-13",
+      "player": "__JankyMerc__",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-1212851620",
       "tournament": "Pauper Challenge 32",
@@ -31,6 +61,36 @@
       "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1110855",
+      "tournament": "Pauper League",
+      "date": "2026-08-11",
+      "player": "CrouchingPig",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1110855",
+      "tournament": "Pauper League",
+      "date": "2026-08-11",
+      "player": "Plutarco",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-08-1010855",
@@ -243,6 +303,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-08-0610855",
+      "tournament": "Pauper League",
+      "date": "2026-08-06",
+      "player": "NMT_Sco94",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-league-2026-08-0510855",
       "tournament": "Pauper League",
       "date": "2026-08-05",
@@ -316,81 +391,6 @@
       "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0212849483",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-02",
-      "player": "LuffyDoChapeuDePalha",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-2",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0212849483",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-02",
-      "player": "kille",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 30,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0210855",
-      "tournament": "Pauper League",
-      "date": "2026-08-02",
-      "player": "s8shock",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0112849464",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-01",
-      "player": "kuldothared",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 16,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0110855",
-      "tournament": "Pauper League",
-      "date": "2026-08-01",
-      "player": "AndreaEnigma9",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -431,7 +431,7 @@
       "count": 1
     },
     {
-      "player": "DataPusher",
+      "player": "Ben_Matocha",
       "count": 1
     }
   ]

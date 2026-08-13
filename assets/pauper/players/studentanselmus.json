@@ -3,25 +3,42 @@
   "display_name": "StudentAnselmus",
   "irl_name": null,
   "stats": {
-    "total_entries": 41,
-    "league_trophies": 32,
-    "league_trophies_yearly": 23,
+    "total_entries": 42,
+    "league_trophies": 33,
+    "league_trophies_yearly": 24,
     "challenge_wins": 27,
     "challenge_losses": 19,
     "irl_top8": 0,
     "challenge_win_pct": 59,
-    "league_trophy_rank_yearly": 30,
-    "league_trophy_rank_alltime": 52,
-    "league_trophy_players_yearly": 1421,
-    "league_trophy_players_alltime": 2115
+    "league_trophy_rank_yearly": 29,
+    "league_trophy_rank_alltime": 45,
+    "league_trophy_players_yearly": 1428,
+    "league_trophy_players_alltime": 2121
   },
   "favorite_decks": [
     {
       "archetype": "Cycling Storm",
-      "count": 41
+      "count": 42
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-0610855",
+      "tournament": "Pauper League",
+      "date": "2026-08-06",
+      "player": "StudentAnselmus",
+      "archetype": "Cycling Storm",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-0510855",
       "tournament": "Pauper League",
@@ -405,22 +422,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-1212838904",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-12",
-      "player": "StudentAnselmus",
-      "archetype": "Cycling Storm",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "4-3",
-      "final_rank": 28,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }
