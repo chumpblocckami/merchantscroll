@@ -2,10 +2,10 @@
   "archetype": "Gruul Ponza",
   "slug": "gruul-ponza",
   "stats": {
-    "total_entries": 348,
-    "league_entries": 143,
-    "league_trophies": 143,
-    "league_trophies_yearly": 90,
+    "total_entries": 349,
+    "league_entries": 144,
+    "league_trophies": 144,
+    "league_trophies_yearly": 91,
     "challenge_appearances": 182,
     "challenge_wins": 665,
     "challenge_losses": 470,
@@ -58,6 +58,20 @@
       "final_rank": 14,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1210991",
+      "tournament": "Pauper League",
+      "date": "2026-08-12",
+      "player": "_Abijhavs_",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-0912851113",
@@ -352,20 +366,6 @@
       "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-2912848254",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-29",
-      "player": "klien7",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -375,7 +375,7 @@
     },
     {
       "player": "_Abijhavs_",
-      "count": 19
+      "count": 20
     },
     {
       "player": "Niederschatten",

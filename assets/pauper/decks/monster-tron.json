@@ -2,10 +2,10 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 262,
-    "league_entries": 127,
-    "league_trophies": 127,
-    "league_trophies_yearly": 121,
+    "total_entries": 263,
+    "league_entries": 128,
+    "league_trophies": 128,
+    "league_trophies_yearly": 122,
     "challenge_appearances": 110,
     "challenge_wins": 449,
     "challenge_losses": 284,
@@ -73,6 +73,21 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1210991",
+      "tournament": "Pauper League",
+      "date": "2026-08-12",
+      "player": "M-AX",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-0912851113",
@@ -362,21 +377,6 @@
       ],
       "record": "4-2",
       "final_rank": 19,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-3012849439",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-30",
-      "player": "SpockVidaLoka",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "7-2",
-      "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
     }

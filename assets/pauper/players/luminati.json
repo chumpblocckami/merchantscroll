@@ -3,22 +3,22 @@
   "display_name": "Luminati",
   "irl_name": null,
   "stats": {
-    "total_entries": 299,
-    "league_trophies": 85,
-    "league_trophies_yearly": 43,
+    "total_entries": 301,
+    "league_trophies": 87,
+    "league_trophies_yearly": 45,
     "challenge_wins": 912,
     "challenge_losses": 506,
     "irl_top8": 0,
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 6,
     "league_trophy_rank_alltime": 7,
-    "league_trophy_players_yearly": 1420,
-    "league_trophy_players_alltime": 2113
+    "league_trophy_players_yearly": 1423,
+    "league_trophy_players_alltime": 2116
   },
   "favorite_decks": [
     {
       "archetype": "Mono Blue Terror",
-      "count": 297
+      "count": 299
     },
     {
       "archetype": "Dredge",
@@ -26,6 +26,20 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-1310991",
+      "tournament": "Pauper League",
+      "date": "2026-08-13",
+      "player": "Luminati",
+      "archetype": "Mono Blue Terror",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-1212851620",
       "tournament": "Pauper Challenge 32",
@@ -39,6 +53,20 @@
       "final_rank": 7,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1110991",
+      "tournament": "Pauper League",
+      "date": "2026-08-11",
+      "player": "Luminati",
+      "archetype": "Mono Blue Terror",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-0712850811",
@@ -347,34 +375,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0612846623",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-08",
-      "player": "Luminati",
-      "archetype": "Mono Blue Terror",
-      "colors": [
-        "U"
-      ],
-      "record": "7-2",
-      "final_rank": 2,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0812846623",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-08",
-      "player": "Luminati",
-      "archetype": "Mono Blue Terror",
-      "colors": [
-        "U"
-      ],
-      "record": "7-2",
-      "final_rank": 2,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

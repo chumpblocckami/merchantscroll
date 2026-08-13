@@ -3,17 +3,17 @@
   "display_name": "grajtow",
   "irl_name": null,
   "stats": {
-    "total_entries": 37,
-    "league_trophies": 8,
-    "league_trophies_yearly": 6,
+    "total_entries": 38,
+    "league_trophies": 9,
+    "league_trophies_yearly": 7,
     "challenge_wins": 131,
     "challenge_losses": 58,
     "irl_top8": 0,
     "challenge_win_pct": 69,
-    "league_trophy_rank_yearly": 194,
-    "league_trophy_rank_alltime": 326,
-    "league_trophy_players_yearly": 1420,
-    "league_trophy_players_alltime": 2113
+    "league_trophy_rank_yearly": 163,
+    "league_trophy_rank_alltime": 285,
+    "league_trophy_players_yearly": 1423,
+    "league_trophy_players_alltime": 2116
   },
   "favorite_decks": [
     {
@@ -25,6 +25,10 @@
       "count": 6
     },
     {
+      "archetype": "Izzet Control",
+      "count": 2
+    },
+    {
       "archetype": "Rakdos Burn",
       "count": 2
     },
@@ -33,15 +37,26 @@
       "count": 1
     },
     {
-      "archetype": "Izzet Control",
-      "count": 1
-    },
-    {
       "archetype": "Mono Red Madness",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-1110991",
+      "tournament": "Pauper League",
+      "date": "2026-08-11",
+      "player": "grajtow",
+      "archetype": "Izzet Control",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-0810855",
       "tournament": "Pauper League",
@@ -402,20 +417,6 @@
       "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-01-2910196",
-      "tournament": "pauper-league-2026-01-2910196",
-      "date": "2026-01-29",
-      "player": "grajtow",
-      "archetype": "Mono Blue Terror",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }
