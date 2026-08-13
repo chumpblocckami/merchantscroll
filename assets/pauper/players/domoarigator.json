@@ -3,17 +3,17 @@
   "display_name": "DomoArigatoR",
   "irl_name": null,
   "stats": {
-    "total_entries": 28,
-    "league_trophies": 10,
-    "league_trophies_yearly": 2,
+    "total_entries": 27,
+    "league_trophies": 9,
+    "league_trophies_yearly": 1,
     "challenge_wins": 63,
     "challenge_losses": 48,
     "irl_top8": 0,
     "challenge_win_pct": 57,
-    "league_trophy_rank_yearly": 621,
-    "league_trophy_rank_alltime": 243,
-    "league_trophy_players_yearly": 1433,
-    "league_trophy_players_alltime": 2125
+    "league_trophy_rank_yearly": 951,
+    "league_trophy_rank_alltime": 278,
+    "league_trophy_players_yearly": 1430,
+    "league_trophy_players_alltime": 2123
   },
   "favorite_decks": [
     {
@@ -23,10 +23,6 @@
     {
       "archetype": "Dimir Faeries",
       "count": 4
-    },
-    {
-      "archetype": "Mono Blue Faeries",
-      "count": 2
     },
     {
       "archetype": "White Weenie",
@@ -39,23 +35,13 @@
     {
       "archetype": "Esper Affinity",
       "count": 1
+    },
+    {
+      "archetype": "Mono Blue Faeries",
+      "count": 1
     }
   ],
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-08-1310991",
-      "tournament": "Pauper League",
-      "date": "2026-08-13",
-      "player": "DomoArigatoR",
-      "archetype": "Mono Blue Faeries",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-challenge-32-2026-07-0312846470",
       "tournament": "Pauper Challenge 32",
@@ -399,6 +385,21 @@
       "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-qualifier-2025-05-1612780097",
+      "tournament": "Pauper Qualifier",
+      "date": "2025-05-16",
+      "player": "DomoArigatoR",
+      "archetype": "Dimir Faeries",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "7-2",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "other"
     }
   ]
 }
