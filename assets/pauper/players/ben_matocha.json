@@ -3,17 +3,17 @@
   "display_name": "Ben_Matocha",
   "irl_name": null,
   "stats": {
-    "total_entries": 26,
-    "league_trophies": 22,
-    "league_trophies_yearly": 20,
+    "total_entries": 27,
+    "league_trophies": 23,
+    "league_trophies_yearly": 21,
     "challenge_wins": 19,
     "challenge_losses": 9,
     "irl_top8": 0,
     "challenge_win_pct": 68,
-    "league_trophy_rank_yearly": 37,
-    "league_trophy_rank_alltime": 85,
-    "league_trophy_players_yearly": 1430,
-    "league_trophy_players_alltime": 2123
+    "league_trophy_rank_yearly": 35,
+    "league_trophy_rank_alltime": 79,
+    "league_trophy_players_yearly": 1433,
+    "league_trophy_players_alltime": 2125
   },
   "favorite_decks": [
     {
@@ -29,11 +29,31 @@
       "count": 2
     },
     {
+      "archetype": "Grixis Affinity",
+      "count": 1
+    },
+    {
       "archetype": "Izzet Control",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-1310991",
+      "tournament": "Pauper League",
+      "date": "2026-08-13",
+      "player": "Ben_Matocha",
+      "archetype": "Grixis Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-1110855",
       "tournament": "Pauper League",
@@ -415,21 +435,6 @@
       "final_rank": 6,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-12-259987",
-      "tournament": "pauper-league-2025-12-259987",
-      "date": "2025-12-25",
-      "player": "Ben_Matocha",
-      "archetype": "Izzet Control",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }
