@@ -2,16 +2,16 @@
   "archetype": "Grixis Affinity",
   "slug": "grixis-affinity",
   "stats": {
-    "total_entries": 46,
-    "league_entries": 22,
-    "league_trophies": 22,
-    "league_trophies_yearly": 22,
+    "total_entries": 44,
+    "league_entries": 20,
+    "league_trophies": 20,
+    "league_trophies_yearly": 20,
     "challenge_appearances": 21,
     "challenge_wins": 93,
     "challenge_losses": 51,
     "irl_top8": 0,
     "challenge_win_pct": 65,
-    "league_trophy_rank_yearly": 39,
+    "league_trophy_rank_yearly": 41,
     "league_trophy_rank_alltime": 44,
     "league_trophy_decks_yearly": 72,
     "league_trophy_decks_alltime": 76
@@ -213,36 +213,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-08-0710855",
-      "tournament": "Pauper League",
-      "date": "2026-08-07",
-      "player": "TuggaNaxos",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0710855",
-      "tournament": "Pauper League",
-      "date": "2026-08-07",
-      "player": "softcastles",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-08-0512850801",
       "tournament": "Pauper Challenge 32",
       "date": "2026-08-06",
@@ -391,6 +361,36 @@
       "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0212849483",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-02",
+      "player": "LuffyDoChapeuDePalha",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 15,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0212849483",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-02",
+      "player": "kille",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 30,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -415,10 +415,6 @@
       "count": 2
     },
     {
-      "player": "softcastles",
-      "count": 2
-    },
-    {
       "player": "Albilnonno_11",
       "count": 1
     },
@@ -432,6 +428,10 @@
     },
     {
       "player": "Ben_Matocha",
+      "count": 1
+    },
+    {
+      "player": "CrouchingPig",
       "count": 1
     }
   ]
