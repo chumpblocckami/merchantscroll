@@ -2,10 +2,10 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1292,
-    "league_entries": 662,
-    "league_trophies": 662,
-    "league_trophies_yearly": 280,
+    "total_entries": 1290,
+    "league_entries": 660,
+    "league_trophies": 660,
+    "league_trophies_yearly": 278,
     "challenge_appearances": 558,
     "challenge_wins": 2234,
     "challenge_losses": 1408,
@@ -42,32 +42,6 @@
       "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1210991",
-      "tournament": "Pauper League",
-      "date": "2026-08-12",
-      "player": "TorinikuJP",
-      "colors": [
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1210991",
-      "tournament": "Pauper League",
-      "date": "2026-08-12",
-      "player": "wolf777",
-      "colors": [
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-08-1010855",
@@ -348,6 +322,34 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0112849464",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-01",
+      "player": "boytriton",
+      "colors": [
+        "G"
+      ],
+      "record": "3-3",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-08-01",
+      "player": "Boquinha",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -373,7 +375,7 @@
     },
     {
       "player": "wolf777",
-      "count": 30
+      "count": 29
     },
     {
       "player": "Mokemi",
