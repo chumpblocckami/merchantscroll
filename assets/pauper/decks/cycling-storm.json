@@ -2,10 +2,10 @@
   "archetype": "Cycling Storm",
   "slug": "cycling-storm",
   "stats": {
-    "total_entries": 92,
-    "league_entries": 59,
-    "league_trophies": 59,
-    "league_trophies_yearly": 39,
+    "total_entries": 94,
+    "league_entries": 61,
+    "league_trophies": 61,
+    "league_trophies_yearly": 41,
     "challenge_appearances": 18,
     "challenge_wins": 62,
     "challenge_losses": 51,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 55,
     "league_trophy_rank_yearly": 31,
     "league_trophy_rank_alltime": 39,
-    "league_trophy_decks_yearly": 70,
-    "league_trophy_decks_alltime": 74
+    "league_trophy_decks_yearly": 72,
+    "league_trophy_decks_alltime": 76
   },
   "recent_entries": [
     {
@@ -31,6 +31,36 @@
       "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1210991",
+      "tournament": "Pauper League",
+      "date": "2026-08-12",
+      "player": "LydiaTheHuman",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-08-10",
+      "player": "saidin.raken",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-08-0610855",
@@ -363,37 +393,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-07",
-      "player": "Taddy_99",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0610855",
-      "tournament": "Pauper League",
-      "date": "2026-07-06",
-      "player": "PedroRocha",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -407,7 +406,7 @@
     },
     {
       "player": "saidin.raken",
-      "count": 6
+      "count": 7
     },
     {
       "player": "Francesco Redaelli",
