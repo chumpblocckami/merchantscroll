@@ -2,10 +2,10 @@
   "archetype": "Flicker Tron",
   "slug": "flicker-tron",
   "stats": {
-    "total_entries": 264,
-    "league_entries": 150,
-    "league_trophies": 150,
-    "league_trophies_yearly": 74,
+    "total_entries": 265,
+    "league_entries": 151,
+    "league_trophies": 151,
+    "league_trophies_yearly": 75,
     "challenge_appearances": 99,
     "challenge_wins": 402,
     "challenge_losses": 255,
@@ -50,6 +50,23 @@
       "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1210991",
+      "tournament": "Pauper League",
+      "date": "2026-08-12",
+      "player": "A_AdeptoTerra",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-08-1110991",
@@ -396,22 +413,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-02",
-      "player": "Winthrowlose",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -444,16 +445,16 @@
       "count": 8
     },
     {
+      "player": "A_AdeptoTerra",
+      "count": 6
+    },
+    {
       "player": "EhDM",
       "count": 6
     },
     {
       "player": "qwertyelmer",
       "count": 6
-    },
-    {
-      "player": "A_AdeptoTerra",
-      "count": 5
     }
   ]
 }
