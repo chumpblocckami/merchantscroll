@@ -2,10 +2,10 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1287,
-    "league_entries": 657,
-    "league_trophies": 657,
-    "league_trophies_yearly": 275,
+    "total_entries": 1290,
+    "league_entries": 660,
+    "league_trophies": 660,
+    "league_trophies_yearly": 278,
     "challenge_appearances": 558,
     "challenge_wins": 2234,
     "challenge_losses": 1408,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 4,
     "league_trophy_rank_alltime": 4,
-    "league_trophy_decks_yearly": 70,
-    "league_trophy_decks_alltime": 74
+    "league_trophy_decks_yearly": 72,
+    "league_trophy_decks_alltime": 76
   },
   "recent_entries": [
     {
@@ -57,10 +57,10 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-08-0910855",
+      "site_name": "pauper-league-2026-08-1010855",
       "tournament": "Pauper League",
-      "date": "2026-08-09",
-      "player": "Berga_",
+      "date": "2026-08-10",
+      "player": "CarrodaPolicia",
       "colors": [
         "G"
       ],
@@ -70,10 +70,40 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-08-0910855",
+      "site_name": "pauper-league-2026-08-1010855",
       "tournament": "Pauper League",
-      "date": "2026-08-09",
-      "player": "DB_LucianoGuma",
+      "date": "2026-08-10",
+      "player": "KidRenan",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-08-10",
+      "player": "KidRenan",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-08-10",
+      "player": "ganjadejanga",
       "colors": [
         "G"
       ],
@@ -83,11 +113,25 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-08-0910855",
+      "site_name": "pauper-league-2026-08-1010855",
       "tournament": "Pauper League",
-      "date": "2026-08-09",
-      "player": "Ettore099",
+      "date": "2026-08-10",
+      "player": "toph4",
       "colors": [
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-08-10",
+      "player": "wolf777",
+      "colors": [
+        "B",
         "G"
       ],
       "record": "5-0",
@@ -306,45 +350,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0110855",
-      "tournament": "Pauper League",
-      "date": "2026-08-01",
-      "player": "CarrodaPolicia",
-      "colors": [
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-3112849449",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-31",
-      "player": "Shiib",
-      "colors": [
-        "G"
-      ],
-      "record": "3-3",
-      "final_rank": 22,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-3112849449",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-31",
-      "player": "TiagoFuguete",
-      "colors": [
-        "G"
-      ],
-      "record": "4-2",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -362,7 +367,7 @@
     },
     {
       "player": "ganjadejanga",
-      "count": 36
+      "count": 37
     },
     {
       "player": "QueMario",
@@ -370,7 +375,7 @@
     },
     {
       "player": "wolf777",
-      "count": 29
+      "count": 30
     },
     {
       "player": "Mokemi",
@@ -381,12 +386,12 @@
       "count": 20
     },
     {
-      "player": "pepeteam",
-      "count": 17
+      "player": "KidRenan",
+      "count": 18
     },
     {
-      "player": "KidRenan",
-      "count": 16
+      "player": "pepeteam",
+      "count": 17
     }
   ]
 }

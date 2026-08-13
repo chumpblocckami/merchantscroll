@@ -2,10 +2,10 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 675,
-    "league_entries": 372,
-    "league_trophies": 372,
-    "league_trophies_yearly": 182,
+    "total_entries": 676,
+    "league_entries": 373,
+    "league_trophies": 373,
+    "league_trophies_yearly": 183,
     "challenge_appearances": 265,
     "challenge_wins": 1025,
     "challenge_losses": 672,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 9,
     "league_trophy_rank_alltime": 9,
-    "league_trophy_decks_yearly": 70,
-    "league_trophy_decks_alltime": 74
+    "league_trophy_decks_yearly": 72,
+    "league_trophy_decks_alltime": 76
   },
   "recent_entries": [
     {
@@ -48,6 +48,19 @@
       "tournament": "Pauper League",
       "date": "2026-08-12",
       "player": "FabrizioDeMola",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-08-10",
+      "player": "W8_4_it23",
       "colors": [
         "W"
       ],
@@ -328,19 +341,6 @@
       "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2610855",
-      "tournament": "Pauper League",
-      "date": "2026-07-26",
-      "player": "OweyD",
-      "colors": [
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
