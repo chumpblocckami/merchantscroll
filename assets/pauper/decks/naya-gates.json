@@ -2,16 +2,16 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 337,
-    "league_entries": 118,
-    "league_trophies": 118,
-    "league_trophies_yearly": 111,
+    "total_entries": 336,
+    "league_entries": 117,
+    "league_trophies": 117,
+    "league_trophies_yearly": 110,
     "challenge_appearances": 162,
     "challenge_wins": 664,
     "challenge_losses": 390,
     "irl_top8": 19,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 19,
+    "league_trophy_rank_yearly": 18,
     "league_trophy_rank_alltime": 29,
     "league_trophy_decks_yearly": 70,
     "league_trophy_decks_alltime": 74
@@ -31,21 +31,6 @@
       "final_rank": 16,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1110855",
-      "tournament": "Pauper League",
-      "date": "2026-08-11",
-      "player": "reto_mtg",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-0912851113",
@@ -391,6 +376,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-07-2610855",
+      "tournament": "Pauper League",
+      "date": "2026-07-26",
+      "player": "neomagus",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -423,15 +423,15 @@
       "count": 6
     },
     {
-      "player": "reto_mtg",
-      "count": 6
-    },
-    {
       "player": "John1111",
       "count": 5
     },
     {
       "player": "Rusherlol",
+      "count": 5
+    },
+    {
+      "player": "reto_mtg",
       "count": 5
     }
   ]

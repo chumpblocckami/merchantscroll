@@ -2,17 +2,17 @@
   "archetype": "Grixis Affinity",
   "slug": "grixis-affinity",
   "stats": {
-    "total_entries": 42,
-    "league_entries": 18,
-    "league_trophies": 18,
-    "league_trophies_yearly": 18,
+    "total_entries": 40,
+    "league_entries": 16,
+    "league_trophies": 16,
+    "league_trophies_yearly": 16,
     "challenge_appearances": 21,
     "challenge_wins": 93,
     "challenge_losses": 51,
     "irl_top8": 0,
     "challenge_win_pct": 65,
-    "league_trophy_rank_yearly": 42,
-    "league_trophy_rank_alltime": 44,
+    "league_trophy_rank_yearly": 43,
+    "league_trophy_rank_alltime": 46,
     "league_trophy_decks_yearly": 70,
     "league_trophy_decks_alltime": 74
   },
@@ -31,36 +31,6 @@
       "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1110855",
-      "tournament": "Pauper League",
-      "date": "2026-08-11",
-      "player": "CrouchingPig",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1110855",
-      "tournament": "Pauper League",
-      "date": "2026-08-11",
-      "player": "Plutarco",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-0912851113",
@@ -391,6 +361,36 @@
       "final_rank": 16,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-0110855",
+      "tournament": "Pauper League",
+      "date": "2026-08-01",
+      "player": "AndreaEnigma9",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-07-3112849449",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-07-31",
+      "player": "Mark_Confidant",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -431,7 +431,7 @@
       "count": 1
     },
     {
-      "player": "CrouchingPig",
+      "player": "DataPusher",
       "count": 1
     }
   ]
