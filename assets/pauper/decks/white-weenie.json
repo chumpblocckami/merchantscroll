@@ -2,10 +2,10 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 680,
-    "league_entries": 375,
-    "league_trophies": 375,
-    "league_trophies_yearly": 185,
+    "total_entries": 681,
+    "league_entries": 376,
+    "league_trophies": 376,
+    "league_trophies_yearly": 186,
     "challenge_appearances": 267,
     "challenge_wins": 1031,
     "challenge_losses": 677,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 9,
     "league_trophy_rank_alltime": 9,
-    "league_trophy_decks_yearly": 72,
-    "league_trophy_decks_alltime": 76
+    "league_trophy_decks_yearly": 73,
+    "league_trophy_decks_alltime": 77
   },
   "recent_entries": [
     {
@@ -22,6 +22,19 @@
       "tournament": "Pauper League",
       "date": "2026-08-14",
       "player": "Lynx33",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1410991",
+      "tournament": "Pauper League",
+      "date": "2026-08-14",
+      "player": "Triso",
       "colors": [
         "W"
       ],
@@ -328,19 +341,6 @@
       "final_rank": 20,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-29",
-      "player": "M_EMORIE_S",
-      "colors": [
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
