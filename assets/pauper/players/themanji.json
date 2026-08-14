@@ -3,17 +3,17 @@
   "display_name": "TheManji",
   "irl_name": null,
   "stats": {
-    "total_entries": 26,
+    "total_entries": 27,
     "league_trophies": 14,
     "league_trophies_yearly": 7,
-    "challenge_wins": 45,
-    "challenge_losses": 29,
+    "challenge_wins": 51,
+    "challenge_losses": 30,
     "irl_top8": 0,
-    "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 178,
+    "challenge_win_pct": 63,
+    "league_trophy_rank_yearly": 177,
     "league_trophy_rank_alltime": 169,
-    "league_trophy_players_yearly": 1433,
-    "league_trophy_players_alltime": 2125
+    "league_trophy_players_yearly": 1430,
+    "league_trophy_players_alltime": 2123
   },
   "favorite_decks": [
     {
@@ -31,9 +31,28 @@
     {
       "archetype": "Mono Blue Terror",
       "count": 1
+    },
+    {
+      "archetype": "Spy Combo",
+      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-1312851637",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-13",
+      "player": "TheManji",
+      "archetype": "Spy Combo",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "6-1",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-07-3112849449",
       "tournament": "Pauper Challenge 32",
@@ -375,21 +394,6 @@
       ],
       "record": "2-4",
       "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-08-0812807460",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-08-08",
-      "player": "TheManji",
-      "archetype": "Rakdos Madness",
-      "colors": [
-        "B",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
     }

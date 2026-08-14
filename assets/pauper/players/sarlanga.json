@@ -3,25 +3,39 @@
   "display_name": "Sarlanga",
   "irl_name": null,
   "stats": {
-    "total_entries": 26,
+    "total_entries": 27,
     "league_trophies": 2,
     "league_trophies_yearly": 0,
-    "challenge_wins": 87,
-    "challenge_losses": 66,
+    "challenge_wins": 91,
+    "challenge_losses": 68,
     "irl_top8": 0,
     "challenge_win_pct": 57,
     "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": 1203,
-    "league_trophy_players_yearly": 1433,
-    "league_trophy_players_alltime": 2125
+    "league_trophy_rank_alltime": 1201,
+    "league_trophy_players_yearly": 1430,
+    "league_trophy_players_alltime": 2123
   },
   "favorite_decks": [
     {
       "archetype": "Mono Blue Terror",
-      "count": 26
+      "count": 27
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-1312851637",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-13",
+      "player": "Sarlanga",
+      "archetype": "Mono Blue Terror",
+      "colors": [
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 14,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-0112849464",
       "tournament": "Pauper Challenge 32",
@@ -355,20 +369,6 @@
       ],
       "record": "3-3",
       "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-12-1812827476",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-12-18",
-      "player": "Sarlanga",
-      "archetype": "Mono Blue Terror",
-      "colors": [
-        "U"
-      ],
-      "record": "5-3",
-      "final_rank": 4,
       "source": "mtgo",
       "type": "challenge"
     }

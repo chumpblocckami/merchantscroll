@@ -3,17 +3,17 @@
   "display_name": "grajtow",
   "irl_name": null,
   "stats": {
-    "total_entries": 39,
+    "total_entries": 40,
     "league_trophies": 10,
     "league_trophies_yearly": 8,
-    "challenge_wins": 131,
-    "challenge_losses": 58,
+    "challenge_wins": 134,
+    "challenge_losses": 61,
     "irl_top8": 0,
     "challenge_win_pct": 69,
     "league_trophy_rank_yearly": 138,
-    "league_trophy_rank_alltime": 247,
-    "league_trophy_players_yearly": 1433,
-    "league_trophy_players_alltime": 2125
+    "league_trophy_rank_alltime": 246,
+    "league_trophy_players_yearly": 1430,
+    "league_trophy_players_alltime": 2123
   },
   "favorite_decks": [
     {
@@ -25,11 +25,11 @@
       "count": 6
     },
     {
-      "archetype": "Izzet Control",
-      "count": 2
+      "archetype": "Rakdos Burn",
+      "count": 3
     },
     {
-      "archetype": "Rakdos Burn",
+      "archetype": "Izzet Control",
       "count": 2
     },
     {
@@ -46,6 +46,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-1312851637",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-13",
+      "player": "grajtow",
+      "archetype": "Rakdos Burn",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-1110991",
       "tournament": "Pauper League",
@@ -407,20 +423,6 @@
       ],
       "record": "4-2",
       "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-02-0612832511",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-02-06",
-      "player": "grajtow",
-      "archetype": "Mono Blue Terror",
-      "colors": [
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
     }

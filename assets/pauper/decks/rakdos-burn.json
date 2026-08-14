@@ -2,21 +2,36 @@
   "archetype": "Rakdos Burn",
   "slug": "rakdos-burn",
   "stats": {
-    "total_entries": 10,
+    "total_entries": 11,
     "league_entries": 7,
     "league_trophies": 7,
     "league_trophies_yearly": 7,
-    "challenge_appearances": 3,
-    "challenge_wins": 13,
-    "challenge_losses": 6,
+    "challenge_appearances": 4,
+    "challenge_wins": 16,
+    "challenge_losses": 9,
     "irl_top8": 0,
-    "challenge_win_pct": 68,
-    "league_trophy_rank_yearly": 51,
-    "league_trophy_rank_alltime": 57,
-    "league_trophy_decks_yearly": 73,
-    "league_trophy_decks_alltime": 77
+    "challenge_win_pct": 64,
+    "league_trophy_rank_yearly": 50,
+    "league_trophy_rank_alltime": 56,
+    "league_trophy_decks_yearly": 72,
+    "league_trophy_decks_alltime": 76
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-1312851637",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-13",
+      "player": "grajtow",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-1110855",
       "tournament": "Pauper League",
@@ -163,7 +178,7 @@
   "top_pilots": [
     {
       "player": "grajtow",
-      "count": 2
+      "count": 3
     },
     {
       "player": "wabodabo",
