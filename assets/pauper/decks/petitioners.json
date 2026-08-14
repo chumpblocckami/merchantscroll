@@ -2,10 +2,10 @@
   "archetype": "Petitioners",
   "slug": "petitioners",
   "stats": {
-    "total_entries": 19,
-    "league_entries": 16,
-    "league_trophies": 16,
-    "league_trophies_yearly": 5,
+    "total_entries": 20,
+    "league_entries": 17,
+    "league_trophies": 17,
+    "league_trophies_yearly": 6,
     "challenge_appearances": 2,
     "challenge_wins": 9,
     "challenge_losses": 4,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 77
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-08-09",
+      "player": "cruzado_acrosano",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauperwave-2026-06-18-milano-summer-2026",
       "tournament": "LP Milano Summer 2026 — Milano",
@@ -315,6 +329,10 @@
     },
     {
       "player": "clamego",
+      "count": 1
+    },
+    {
+      "player": "cruzado_acrosano",
       "count": 1
     }
   ]
