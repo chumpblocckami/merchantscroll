@@ -2,13 +2,13 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 727,
+    "total_entries": 728,
     "league_entries": 361,
     "league_trophies": 361,
     "league_trophies_yearly": 167,
-    "challenge_appearances": 315,
-    "challenge_wins": 1287,
-    "challenge_losses": 767,
+    "challenge_appearances": 316,
+    "challenge_wins": 1290,
+    "challenge_losses": 770,
     "irl_top8": 22,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 12,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 77
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-1412851647",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-14",
+      "player": "True-Name-Nemesis",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "3-3",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-1212851620",
       "tournament": "Pauper Challenge 32",
@@ -353,20 +367,6 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2212847741",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-22",
-      "player": "__Noob__",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "1-2",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
     }
   ],
   "top_pilots": [
@@ -388,7 +388,7 @@
     },
     {
       "player": "True-Name-Nemesis",
-      "count": 20
+      "count": 21
     },
     {
       "player": "Jace_MTG",

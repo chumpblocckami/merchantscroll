@@ -3,17 +3,17 @@
   "display_name": "Brasatore",
   "irl_name": null,
   "stats": {
-    "total_entries": 35,
+    "total_entries": 36,
     "league_trophies": 0,
     "league_trophies_yearly": 0,
-    "challenge_wins": 111,
-    "challenge_losses": 98,
+    "challenge_wins": 113,
+    "challenge_losses": 102,
     "irl_top8": 0,
     "challenge_win_pct": 53,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": null,
-    "league_trophy_players_yearly": 1435,
-    "league_trophy_players_alltime": 2127
+    "league_trophy_players_yearly": 1437,
+    "league_trophy_players_alltime": 2129
   },
   "favorite_decks": [
     {
@@ -27,6 +27,10 @@
     {
       "archetype": "Affinity",
       "count": 4
+    },
+    {
+      "archetype": "Mono Red Madness",
+      "count": 3
     },
     {
       "archetype": "Rakdos Affinity",
@@ -45,10 +49,6 @@
       "count": 2
     },
     {
-      "archetype": "Mono Red Madness",
-      "count": 2
-    },
-    {
       "archetype": "Dimir Control",
       "count": 1
     },
@@ -58,6 +58,20 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-1412851647",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-14",
+      "player": "Brasatore",
+      "archetype": "Mono Red Madness",
+      "colors": [
+        "R"
+      ],
+      "record": "2-4",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-1312851637",
       "tournament": "Pauper Challenge 32",
@@ -426,21 +440,6 @@
       ],
       "record": "4-2",
       "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-11-0912823590",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-11-09",
-      "player": "Brasatore",
-      "archetype": "Rakdos Madness",
-      "colors": [
-        "B",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
     }

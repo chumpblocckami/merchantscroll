@@ -2,13 +2,13 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 681,
+    "total_entries": 683,
     "league_entries": 376,
     "league_trophies": 376,
     "league_trophies_yearly": 186,
-    "challenge_appearances": 267,
-    "challenge_wins": 1031,
-    "challenge_losses": 677,
+    "challenge_appearances": 269,
+    "challenge_wins": 1038,
+    "challenge_losses": 682,
     "irl_top8": 22,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 9,
@@ -17,6 +17,33 @@
     "league_trophy_decks_alltime": 77
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-1412851647",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-14",
+      "player": "Niederschatten",
+      "colors": [
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-1412851647",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-14",
+      "player": "_against_",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-1410991",
       "tournament": "Pauper League",
@@ -315,32 +342,6 @@
       "final_rank": 4,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-2912848254",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-29",
-      "player": "Niederschatten",
-      "colors": [
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-2912848254",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-29",
-      "player": "bafusVIII",
-      "colors": [
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -354,7 +355,7 @@
     },
     {
       "player": "Niederschatten",
-      "count": 26
+      "count": 27
     },
     {
       "player": "Deodato",

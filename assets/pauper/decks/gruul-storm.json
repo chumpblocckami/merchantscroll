@@ -2,13 +2,13 @@
   "archetype": "Gruul Storm",
   "slug": "gruul-storm",
   "stats": {
-    "total_entries": 215,
+    "total_entries": 216,
     "league_entries": 141,
     "league_trophies": 141,
     "league_trophies_yearly": 128,
-    "challenge_appearances": 53,
-    "challenge_wins": 197,
-    "challenge_losses": 136,
+    "challenge_appearances": 54,
+    "challenge_wins": 200,
+    "challenge_losses": 139,
     "irl_top8": 12,
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 14,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 77
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-1412851647",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-14",
+      "player": "Aldreen",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 28,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-1010855",
       "tournament": "Pauper League",
@@ -349,20 +363,6 @@
         "R"
       ],
       "record": "4-1",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-0412847738",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "slaxx",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "1-1",
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
