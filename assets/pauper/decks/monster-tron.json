@@ -2,10 +2,10 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 263,
-    "league_entries": 127,
-    "league_trophies": 127,
-    "league_trophies_yearly": 121,
+    "total_entries": 266,
+    "league_entries": 130,
+    "league_trophies": 130,
+    "league_trophies_yearly": 124,
     "challenge_appearances": 111,
     "challenge_wins": 452,
     "challenge_losses": 287,
@@ -13,10 +13,25 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 17,
     "league_trophy_rank_alltime": 28,
-    "league_trophy_decks_yearly": 72,
-    "league_trophy_decks_alltime": 76
+    "league_trophy_decks_yearly": 73,
+    "league_trophy_decks_alltime": 77
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-1410991",
+      "tournament": "Pauper League",
+      "date": "2026-08-14",
+      "player": "Valimoth",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-1312851637",
       "tournament": "Pauper Challenge 32",
@@ -31,6 +46,21 @@
       "final_rank": 22,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1310991",
+      "tournament": "Pauper League",
+      "date": "2026-08-13",
+      "player": "Vojbe",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-1212851620",
@@ -88,6 +118,21 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1210991",
+      "tournament": "Pauper League",
+      "date": "2026-08-12",
+      "player": "M-AX",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-0912851113",
@@ -335,50 +380,6 @@
       "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-3110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-31",
-      "player": "Ceius",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-3110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-31",
-      "player": "DobleP",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-3012849439",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-30",
-      "player": "A_AdeptoTerra",
-      "colors": [
-        "G",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 19,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -388,7 +389,7 @@
     },
     {
       "player": "Valimoth",
-      "count": 14
+      "count": 15
     },
     {
       "player": "A_AdeptoTerra",
