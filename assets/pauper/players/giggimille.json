@@ -3,17 +3,17 @@
   "display_name": "giggimille",
   "irl_name": null,
   "stats": {
-    "total_entries": 28,
-    "league_trophies": 12,
-    "league_trophies_yearly": 6,
+    "total_entries": 27,
+    "league_trophies": 11,
+    "league_trophies_yearly": 5,
     "challenge_wins": 42,
     "challenge_losses": 47,
     "irl_top8": 0,
     "challenge_win_pct": 47,
-    "league_trophy_rank_yearly": 201,
-    "league_trophy_rank_alltime": 195,
-    "league_trophy_players_yearly": 1438,
-    "league_trophy_players_alltime": 2130
+    "league_trophy_rank_yearly": 259,
+    "league_trophy_rank_alltime": 215,
+    "league_trophy_players_yearly": 1434,
+    "league_trophy_players_alltime": 2126
   },
   "favorite_decks": [
     {
@@ -25,11 +25,11 @@
       "count": 4
     },
     {
-      "archetype": "Jund Wildfire",
-      "count": 4
+      "archetype": "Gardens",
+      "count": 3
     },
     {
-      "archetype": "Gardens",
+      "archetype": "Jund Wildfire",
       "count": 3
     },
     {
@@ -58,22 +58,6 @@
     }
   ],
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-08-1410991",
-      "tournament": "Pauper League",
-      "date": "2026-08-14",
-      "player": "giggimille",
-      "archetype": "Jund Wildfire",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-league-2026-08-0410855",
       "tournament": "Pauper League",
@@ -451,6 +435,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-09-0512813547",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-09-05",
+      "player": "giggimille",
+      "archetype": "Rakdos Madness",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "record": "2-4",
+      "final_rank": 31,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ]
 }
