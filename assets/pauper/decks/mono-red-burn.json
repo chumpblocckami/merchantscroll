@@ -2,21 +2,34 @@
   "archetype": "Mono Red Burn",
   "slug": "mono-red-burn",
   "stats": {
-    "total_entries": 1,
-    "league_entries": 0,
-    "league_trophies": 0,
-    "league_trophies_yearly": 0,
+    "total_entries": 2,
+    "league_entries": 1,
+    "league_trophies": 1,
+    "league_trophies_yearly": 1,
     "challenge_appearances": 0,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 1,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": null,
-    "league_trophy_decks_yearly": 70,
-    "league_trophy_decks_alltime": 74
+    "league_trophy_rank_yearly": 69,
+    "league_trophy_rank_alltime": 75,
+    "league_trophy_decks_yearly": 73,
+    "league_trophy_decks_alltime": 77
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-08-10",
+      "player": "Keez",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauperwave-2026-06-18-milano-summer-2026",
       "tournament": "LP Milano Summer 2026 — Milano",
@@ -32,6 +45,10 @@
     }
   ],
   "top_pilots": [
+    {
+      "player": "Keez",
+      "count": 1
+    },
     {
       "player": "Luca Micheletto",
       "count": 1

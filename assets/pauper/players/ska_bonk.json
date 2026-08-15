@@ -3,22 +3,26 @@
   "display_name": "Ska_Bonk",
   "irl_name": null,
   "stats": {
-    "total_entries": 4,
-    "league_trophies": 4,
-    "league_trophies_yearly": 4,
+    "total_entries": 5,
+    "league_trophies": 5,
+    "league_trophies_yearly": 5,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 397,
-    "league_trophy_rank_alltime": 692,
-    "league_trophy_players_yearly": 1434,
-    "league_trophy_players_alltime": 2127
+    "league_trophy_rank_yearly": 305,
+    "league_trophy_rank_alltime": 564,
+    "league_trophy_players_yearly": 1438,
+    "league_trophy_players_alltime": 2130
   },
   "favorite_decks": [
     {
       "archetype": "Mono Blue Terror",
       "count": 4
+    },
+    {
+      "archetype": "Dimir Terror",
+      "count": 1
     }
   ],
   "recent_entries": [
@@ -29,6 +33,22 @@
       "player": "Ska_Bonk",
       "archetype": "Mono Blue Terror",
       "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-08-10",
+      "player": "Ska_Bonk",
+      "archetype": "Dimir Terror",
+      "colors": [
+        "B",
+        "R",
         "U"
       ],
       "record": "5-0",

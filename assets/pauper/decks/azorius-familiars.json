@@ -2,10 +2,10 @@
   "archetype": "Azorius Familiars",
   "slug": "azorius-familiars",
   "stats": {
-    "total_entries": 323,
-    "league_entries": 176,
-    "league_trophies": 176,
-    "league_trophies_yearly": 89,
+    "total_entries": 324,
+    "league_entries": 177,
+    "league_trophies": 177,
+    "league_trophies_yearly": 90,
     "challenge_appearances": 117,
     "challenge_wins": 486,
     "challenge_losses": 292,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 23,
     "league_trophy_rank_alltime": 22,
-    "league_trophy_decks_yearly": 70,
-    "league_trophy_decks_alltime": 74
+    "league_trophy_decks_yearly": 73,
+    "league_trophy_decks_alltime": 77
   },
   "recent_entries": [
     {
@@ -30,6 +30,20 @@
       "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1010855",
+      "tournament": "Pauper League",
+      "date": "2026-08-10",
+      "player": "TrivoTheGreat",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-0812851113",
@@ -352,21 +366,6 @@
       "date": "2026-07-19",
       "player": "bombaj",
       "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1610855",
-      "tournament": "Pauper League",
-      "date": "2026-07-16",
-      "player": "ChaoticMTG",
-      "colors": [
-        "R",
         "U",
         "W"
       ],
