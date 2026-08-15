@@ -2,10 +2,10 @@
   "archetype": "Cycling Storm",
   "slug": "cycling-storm",
   "stats": {
-    "total_entries": 96,
-    "league_entries": 62,
-    "league_trophies": 62,
-    "league_trophies_yearly": 42,
+    "total_entries": 95,
+    "league_entries": 61,
+    "league_trophies": 61,
+    "league_trophies_yearly": 41,
     "challenge_appearances": 19,
     "challenge_wins": 64,
     "challenge_losses": 54,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 54,
     "league_trophy_rank_yearly": 31,
     "league_trophy_rank_alltime": 39,
-    "league_trophy_decks_yearly": 73,
-    "league_trophy_decks_alltime": 77
+    "league_trophy_decks_yearly": 71,
+    "league_trophy_decks_alltime": 75
   },
   "recent_entries": [
     {
@@ -52,21 +52,6 @@
       "tournament": "Pauper League",
       "date": "2026-08-12",
       "player": "LydiaTheHuman",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1010855",
-      "tournament": "Pauper League",
-      "date": "2026-08-10",
-      "player": "saidin.raken",
       "colors": [
         "B",
         "R",
@@ -392,6 +377,21 @@
       "final_rank": 5,
       "source": "pauperwave",
       "type": "irl"
+    },
+    {
+      "site_name": "pauperwave-2026-07-10-top-pauper-player-2026",
+      "tournament": "Top Pauper Player 2026 — Lucca",
+      "date": "2026-07-10",
+      "player": "Francesco Redaelli",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "",
+      "final_rank": null,
+      "source": "pauperwave",
+      "type": "irl"
     }
   ],
   "top_pilots": [
@@ -405,7 +405,7 @@
     },
     {
       "player": "saidin.raken",
-      "count": 7
+      "count": 6
     },
     {
       "player": "Francesco Redaelli",

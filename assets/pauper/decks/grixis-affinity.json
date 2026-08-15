@@ -2,10 +2,10 @@
   "archetype": "Grixis Affinity",
   "slug": "grixis-affinity",
   "stats": {
-    "total_entries": 56,
-    "league_entries": 24,
-    "league_trophies": 24,
-    "league_trophies_yearly": 24,
+    "total_entries": 55,
+    "league_entries": 23,
+    "league_trophies": 23,
+    "league_trophies_yearly": 23,
     "challenge_appearances": 29,
     "challenge_wins": 125,
     "challenge_losses": 70,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 39,
     "league_trophy_rank_alltime": 44,
-    "league_trophy_decks_yearly": 73,
-    "league_trophy_decks_alltime": 77
+    "league_trophy_decks_yearly": 71,
+    "league_trophy_decks_alltime": 75
   },
   "recent_entries": [
     {
@@ -187,21 +187,6 @@
       "tournament": "Pauper League",
       "date": "2026-08-11",
       "player": "Plutarco",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1010855",
-      "tournament": "Pauper League",
-      "date": "2026-08-10",
-      "player": "Inafuco",
       "colors": [
         "B",
         "R",
@@ -391,6 +376,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0512850801",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-06",
+      "player": "ChuChuMTFKR",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
