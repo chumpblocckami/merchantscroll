@@ -2,10 +2,10 @@
   "archetype": "Gruul Monsters",
   "slug": "gruul-monsters",
   "stats": {
-    "total_entries": 390,
-    "league_entries": 221,
-    "league_trophies": 221,
-    "league_trophies_yearly": 76,
+    "total_entries": 389,
+    "league_entries": 220,
+    "league_trophies": 220,
+    "league_trophies_yearly": 75,
     "challenge_appearances": 141,
     "challenge_wins": 510,
     "challenge_losses": 373,
@@ -30,20 +30,6 @@
       "final_rank": 7,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0910855",
-      "tournament": "Pauper League",
-      "date": "2026-08-09",
-      "player": "OttoSaske",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-08-0510855",
@@ -368,6 +354,20 @@
       ],
       "record": "4-3",
       "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-1212844338",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-14",
+      "player": "Ipnotico86",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "2-3",
+      "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
     }
