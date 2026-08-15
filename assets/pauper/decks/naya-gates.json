@@ -2,13 +2,13 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 339,
+    "total_entries": 342,
     "league_entries": 119,
     "league_trophies": 119,
     "league_trophies_yearly": 112,
-    "challenge_appearances": 163,
-    "challenge_wins": 670,
-    "challenge_losses": 392,
+    "challenge_appearances": 166,
+    "challenge_wins": 683,
+    "challenge_losses": 400,
     "irl_top8": 19,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 19,
@@ -75,6 +75,51 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0812851113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-09",
+      "player": "CAM_13",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "4-3",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0812851113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-09",
+      "player": "John1111",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "4-3",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0812851113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-09",
+      "player": "Malpyrocky",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 14,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-0912851113",
@@ -345,51 +390,6 @@
       "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-3010855",
-      "tournament": "Pauper League",
-      "date": "2026-07-30",
-      "player": "Rusherlol",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2910855",
-      "tournament": "Pauper League",
-      "date": "2026-07-29",
-      "player": "lucotto",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-28",
-      "player": "TuggaNaxos",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -410,6 +410,10 @@
       "count": 12
     },
     {
+      "player": "John1111",
+      "count": 6
+    },
+    {
       "player": "LabroNico",
       "count": 6
     },
@@ -426,11 +430,7 @@
       "count": 6
     },
     {
-      "player": "John1111",
-      "count": 5
-    },
-    {
-      "player": "Rusherlol",
+      "player": "Malpyrocky",
       "count": 5
     }
   ]

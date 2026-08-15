@@ -2,13 +2,13 @@
   "archetype": "Gruul Ponza",
   "slug": "gruul-ponza",
   "stats": {
-    "total_entries": 358,
+    "total_entries": 359,
     "league_entries": 148,
     "league_trophies": 148,
     "league_trophies_yearly": 95,
-    "challenge_appearances": 187,
-    "challenge_wins": 684,
-    "challenge_losses": 483,
+    "challenge_appearances": 188,
+    "challenge_wins": 688,
+    "challenge_losses": 486,
     "irl_top8": 11,
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 21,
@@ -200,6 +200,20 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-challenge-32-2026-08-0812851113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-09",
+      "player": "Ixidor29",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-3",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-08-0912851113",
       "tournament": "Pauper Challenge 32",
       "date": "2026-08-09",
@@ -352,26 +366,12 @@
       "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0110855",
-      "tournament": "Pauper League",
-      "date": "2026-08-01",
-      "player": "Broa",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "Ixidor29",
-      "count": 88
+      "count": 89
     },
     {
       "player": "_Abijhavs_",

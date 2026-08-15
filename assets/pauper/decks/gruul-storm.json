@@ -2,13 +2,13 @@
   "archetype": "Gruul Storm",
   "slug": "gruul-storm",
   "stats": {
-    "total_entries": 216,
+    "total_entries": 217,
     "league_entries": 141,
     "league_trophies": 141,
     "league_trophies_yearly": 128,
-    "challenge_appearances": 54,
-    "challenge_wins": 200,
-    "challenge_losses": 139,
+    "challenge_appearances": 55,
+    "challenge_wins": 204,
+    "challenge_losses": 142,
     "irl_top8": 12,
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 14,
@@ -44,6 +44,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0812851113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-09",
+      "player": "Loco99",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-3",
+      "final_rank": 28,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-0912851113",
@@ -349,20 +363,6 @@
         "R"
       ],
       "record": "0-1",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-0412847738",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "Cachorrowo",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-1",
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
