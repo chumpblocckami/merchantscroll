@@ -2,10 +2,10 @@
   "archetype": "Izzet Control",
   "slug": "izzet-control",
   "stats": {
-    "total_entries": 219,
-    "league_entries": 134,
-    "league_trophies": 134,
-    "league_trophies_yearly": 59,
+    "total_entries": 220,
+    "league_entries": 135,
+    "league_trophies": 135,
+    "league_trophies_yearly": 60,
     "challenge_appearances": 74,
     "challenge_wins": 301,
     "challenge_losses": 186,
@@ -30,6 +30,20 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1510991",
+      "tournament": "Pauper League",
+      "date": "2026-08-15",
+      "player": "roger__estrada",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-08-1110991",
@@ -356,21 +370,6 @@
       "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-2210636",
-      "tournament": "Pauper League",
-      "date": "2026-06-22",
-      "player": "ZobLeBerger",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -380,7 +379,7 @@
     },
     {
       "player": "roger__estrada",
-      "count": 19
+      "count": 20
     },
     {
       "player": "Brvnx",

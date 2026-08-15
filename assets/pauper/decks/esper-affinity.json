@@ -2,10 +2,10 @@
   "archetype": "Esper Affinity",
   "slug": "esper-affinity",
   "stats": {
-    "total_entries": 93,
-    "league_entries": 58,
-    "league_trophies": 58,
-    "league_trophies_yearly": 15,
+    "total_entries": 94,
+    "league_entries": 59,
+    "league_trophies": 59,
+    "league_trophies_yearly": 16,
     "challenge_appearances": 26,
     "challenge_wins": 92,
     "challenge_losses": 61,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 77
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-1510991",
+      "tournament": "Pauper League",
+      "date": "2026-08-15",
+      "player": "someoldguy",
+      "colors": [
+        "B",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-1312851637",
       "tournament": "Pauper Challenge 32",
@@ -365,21 +380,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2212842901",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-22",
-      "player": "lethargicarcher",
-      "colors": [
-        "B",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [

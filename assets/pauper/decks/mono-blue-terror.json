@@ -2,10 +2,10 @@
   "archetype": "Mono Blue Terror",
   "slug": "mono-blue-terror",
   "stats": {
-    "total_entries": 1929,
-    "league_entries": 873,
-    "league_trophies": 873,
-    "league_trophies_yearly": 398,
+    "total_entries": 1930,
+    "league_entries": 874,
+    "league_trophies": 874,
+    "league_trophies_yearly": 399,
     "challenge_appearances": 933,
     "challenge_wins": 3846,
     "challenge_losses": 2314,
@@ -69,6 +69,19 @@
       "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1510991",
+      "tournament": "Pauper League",
+      "date": "2026-08-15",
+      "player": "Murcrid",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-1412851647",
@@ -328,19 +341,6 @@
       ],
       "record": "3-3",
       "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1212851620",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-12",
-      "player": "ejk",
-      "colors": [
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
     }
