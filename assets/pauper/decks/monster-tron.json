@@ -2,10 +2,10 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 268,
-    "league_entries": 129,
-    "league_trophies": 129,
-    "league_trophies_yearly": 123,
+    "total_entries": 269,
+    "league_entries": 130,
+    "league_trophies": 130,
+    "league_trophies_yearly": 124,
     "challenge_appearances": 114,
     "challenge_wins": 470,
     "challenge_losses": 292,
@@ -206,6 +206,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-08-0910855",
+      "tournament": "Pauper League",
+      "date": "2026-08-09",
+      "player": "ThiagoCagao",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-08-0712850811",
       "tournament": "Pauper Challenge 32",
       "date": "2026-08-07",
@@ -364,20 +379,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-3112849449",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-31",
-      "player": "Goblin_Player",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "6-1",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
