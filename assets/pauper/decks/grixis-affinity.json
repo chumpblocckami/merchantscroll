@@ -2,19 +2,19 @@
   "archetype": "Grixis Affinity",
   "slug": "grixis-affinity",
   "stats": {
-    "total_entries": 49,
-    "league_entries": 20,
-    "league_trophies": 20,
-    "league_trophies_yearly": 20,
+    "total_entries": 53,
+    "league_entries": 24,
+    "league_trophies": 24,
+    "league_trophies_yearly": 24,
     "challenge_appearances": 26,
     "challenge_wins": 116,
     "challenge_losses": 62,
     "irl_top8": 0,
     "challenge_win_pct": 65,
-    "league_trophy_rank_yearly": 41,
+    "league_trophy_rank_yearly": 39,
     "league_trophy_rank_alltime": 44,
-    "league_trophy_decks_yearly": 72,
-    "league_trophy_decks_alltime": 76
+    "league_trophy_decks_yearly": 73,
+    "league_trophy_decks_alltime": 77
   },
   "recent_entries": [
     {
@@ -46,6 +46,66 @@
       "final_rank": 13,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1310991",
+      "tournament": "Pauper League",
+      "date": "2026-08-13",
+      "player": "AleCecco",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1310991",
+      "tournament": "Pauper League",
+      "date": "2026-08-13",
+      "player": "Ben_Matocha",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1310991",
+      "tournament": "Pauper League",
+      "date": "2026-08-13",
+      "player": "TuggaNaxos",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1310991",
+      "tournament": "Pauper League",
+      "date": "2026-08-13",
+      "player": "__JankyMerc__",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-1212851620",
@@ -331,66 +391,6 @@
       "final_rank": 7,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0612850801",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-06",
-      "player": "VitorCarvalho01",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "2-4",
-      "final_rank": 30,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0610855",
-      "tournament": "Pauper League",
-      "date": "2026-08-06",
-      "player": "NMT_Sco94",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0510855",
-      "tournament": "Pauper League",
-      "date": "2026-08-05",
-      "player": "Goyoman",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0510855",
-      "tournament": "Pauper League",
-      "date": "2026-08-05",
-      "player": "IAmCrayCray661",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -419,6 +419,10 @@
       "count": 2
     },
     {
+      "player": "TuggaNaxos",
+      "count": 2
+    },
+    {
       "player": "softcastles",
       "count": 2
     },
@@ -427,11 +431,7 @@
       "count": 1
     },
     {
-      "player": "Alex2109",
-      "count": 1
-    },
-    {
-      "player": "AndreaEnigma9",
+      "player": "AleCecco",
       "count": 1
     }
   ]
