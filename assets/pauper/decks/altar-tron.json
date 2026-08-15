@@ -2,13 +2,13 @@
   "archetype": "Altar Tron",
   "slug": "altar-tron",
   "stats": {
-    "total_entries": 200,
+    "total_entries": 201,
     "league_entries": 131,
     "league_trophies": 131,
     "league_trophies_yearly": 34,
-    "challenge_appearances": 50,
-    "challenge_wins": 191,
-    "challenge_losses": 129,
+    "challenge_appearances": 51,
+    "challenge_wins": 194,
+    "challenge_losses": 132,
     "irl_top8": 11,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 36,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 77
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-1512851662",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-15",
+      "player": "ziofrancone",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 16,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-1310991",
       "tournament": "Pauper League",
@@ -376,20 +391,6 @@
       "final_rank": 14,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauperwave-2026-06-11-pisa-summer-2026",
-      "tournament": "LP Pisa Summer 2026 — Pisa",
-      "date": "2026-06-11",
-      "player": "Tommaso Loss",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "",
-      "final_rank": 3,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [

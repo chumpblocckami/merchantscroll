@@ -2,13 +2,13 @@
   "archetype": "Flicker Tron",
   "slug": "flicker-tron",
   "stats": {
-    "total_entries": 265,
+    "total_entries": 266,
     "league_entries": 151,
     "league_trophies": 151,
     "league_trophies_yearly": 75,
-    "challenge_appearances": 99,
-    "challenge_wins": 402,
-    "challenge_losses": 255,
+    "challenge_appearances": 100,
+    "challenge_wins": 406,
+    "challenge_losses": 257,
     "irl_top8": 7,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 26,
@@ -17,6 +17,23 @@
     "league_trophy_decks_alltime": 77
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-1512851662",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-15",
+      "player": "Hampuse1",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 12,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-1310991",
       "tournament": "Pauper League",
@@ -397,22 +414,6 @@
       "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0210855",
-      "tournament": "Pauper League",
-      "date": "2026-07-02",
-      "player": "Ankylosaur",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -434,7 +435,7 @@
     },
     {
       "player": "Hampuse1",
-      "count": 9
+      "count": 10
     },
     {
       "player": "NMT_Sco94",

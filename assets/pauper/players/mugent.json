@@ -3,11 +3,11 @@
   "display_name": "mugent",
   "irl_name": null,
   "stats": {
-    "total_entries": 49,
+    "total_entries": 50,
     "league_trophies": 25,
     "league_trophies_yearly": 15,
-    "challenge_wins": 82,
-    "challenge_losses": 64,
+    "challenge_wins": 85,
+    "challenge_losses": 67,
     "irl_top8": 0,
     "challenge_win_pct": 56,
     "league_trophy_rank_yearly": 60,
@@ -18,7 +18,7 @@
   "favorite_decks": [
     {
       "archetype": "Mono Red Madness",
-      "count": 17
+      "count": 18
     },
     {
       "archetype": "Pingers",
@@ -58,6 +58,20 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-1512851662",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-15",
+      "player": "mugent",
+      "archetype": "Mono Red Madness",
+      "colors": [
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-1212851620",
       "tournament": "Pauper Challenge 32",
@@ -408,20 +422,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-01-0112828151",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-01",
-      "player": "mugent",
-      "archetype": "Elves",
-      "colors": [
-        "G"
-      ],
-      "record": "5-2",
-      "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }
