@@ -2,10 +2,10 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 277,
-    "league_entries": 134,
-    "league_trophies": 134,
-    "league_trophies_yearly": 128,
+    "total_entries": 278,
+    "league_entries": 135,
+    "league_trophies": 135,
+    "league_trophies_yearly": 129,
     "challenge_appearances": 118,
     "challenge_wins": 485,
     "challenge_losses": 303,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 77
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-1610991",
+      "tournament": "Pauper League",
+      "date": "2026-08-16",
+      "player": "ABCD_1234",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-1610991",
       "tournament": "Pauper League",
@@ -363,21 +377,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0710855",
-      "tournament": "Pauper League",
-      "date": "2026-08-07",
-      "player": "Vojbe",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -414,11 +413,11 @@
       "count": 6
     },
     {
-      "player": "_titoWii_96",
+      "player": "ABCD_1234",
       "count": 5
     },
     {
-      "player": "giuliodice",
+      "player": "_titoWii_96",
       "count": 5
     }
   ]
