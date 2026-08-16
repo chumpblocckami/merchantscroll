@@ -3,9 +3,9 @@
   "display_name": "carvs",
   "irl_name": null,
   "stats": {
-    "total_entries": 170,
-    "league_trophies": 114,
-    "league_trophies_yearly": 51,
+    "total_entries": 171,
+    "league_trophies": 115,
+    "league_trophies_yearly": 52,
     "challenge_wins": 212,
     "challenge_losses": 144,
     "irl_top8": 0,
@@ -18,7 +18,7 @@
   "favorite_decks": [
     {
       "archetype": "Mono Blue Terror",
-      "count": 76
+      "count": 77
     },
     {
       "archetype": "Dimir Terror",
@@ -50,6 +50,20 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-1610991",
+      "tournament": "Pauper League",
+      "date": "2026-08-16",
+      "player": "carvs",
+      "archetype": "Mono Blue Terror",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-1312851637",
       "tournament": "Pauper Challenge 32",
@@ -395,22 +409,6 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0910636",
-      "tournament": "Pauper League",
-      "date": "2026-06-09",
-      "player": "carvs",
-      "archetype": "Jund Wildfire",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }
