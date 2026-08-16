@@ -2,10 +2,10 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1302,
-    "league_entries": 671,
-    "league_trophies": 671,
-    "league_trophies_yearly": 289,
+    "total_entries": 1303,
+    "league_entries": 672,
+    "league_trophies": 672,
+    "league_trophies_yearly": 290,
     "challenge_appearances": 559,
     "challenge_wins": 2240,
     "challenge_losses": 1409,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 77
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-1610991",
+      "tournament": "Pauper League",
+      "date": "2026-08-16",
+      "player": "Boquinha",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-1510991",
       "tournament": "Pauper League",
@@ -336,19 +351,6 @@
       "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0612850801",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-06",
-      "player": "Zabots",
-      "colors": [
-        "G"
-      ],
-      "record": "2-4",
-      "final_rank": 28,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -358,7 +360,7 @@
     },
     {
       "player": "Boquinha",
-      "count": 82
+      "count": 83
     },
     {
       "player": "newbarola",
