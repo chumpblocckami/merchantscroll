@@ -2,21 +2,35 @@
   "archetype": "Mono Red Rally",
   "slug": "mono-red-rally",
   "stats": {
-    "total_entries": 1273,
-    "league_entries": 668,
-    "league_trophies": 668,
-    "league_trophies_yearly": 328,
+    "total_entries": 1274,
+    "league_entries": 669,
+    "league_trophies": 669,
+    "league_trophies_yearly": 329,
     "challenge_appearances": 526,
     "challenge_wins": 2029,
     "challenge_losses": 1347,
     "irl_top8": 26,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 3,
-    "league_trophy_rank_alltime": 4,
-    "league_trophy_decks_yearly": 73,
-    "league_trophy_decks_alltime": 77
+    "league_trophy_rank_alltime": 3,
+    "league_trophy_decks_yearly": 72,
+    "league_trophy_decks_alltime": 76
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-1710991",
+      "tournament": "Pauper League",
+      "date": "2026-08-17",
+      "player": "Elios33_",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-1612851681",
       "tournament": "Pauper Challenge 32",
@@ -351,20 +365,6 @@
       ],
       "record": "1-4",
       "final_rank": 31,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0612850801",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-06",
-      "player": "tomwolf",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 22,
       "source": "mtgo",
       "type": "challenge"
     }

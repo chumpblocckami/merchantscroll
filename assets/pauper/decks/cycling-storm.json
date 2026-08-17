@@ -2,10 +2,10 @@
   "archetype": "Cycling Storm",
   "slug": "cycling-storm",
   "stats": {
-    "total_entries": 96,
-    "league_entries": 62,
-    "league_trophies": 62,
-    "league_trophies_yearly": 42,
+    "total_entries": 97,
+    "league_entries": 63,
+    "league_trophies": 63,
+    "league_trophies_yearly": 43,
     "challenge_appearances": 19,
     "challenge_wins": 64,
     "challenge_losses": 54,
@@ -13,10 +13,25 @@
     "challenge_win_pct": 54,
     "league_trophy_rank_yearly": 31,
     "league_trophy_rank_alltime": 39,
-    "league_trophy_decks_yearly": 73,
-    "league_trophy_decks_alltime": 77
+    "league_trophy_decks_yearly": 72,
+    "league_trophy_decks_alltime": 76
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-1710991",
+      "tournament": "Pauper League",
+      "date": "2026-08-17",
+      "player": "Ghnami",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-1512851662",
       "tournament": "Pauper Challenge 32",
@@ -377,21 +392,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-07-11-paupergeddon-summer-2026",
-      "tournament": "Paupergeddon Summer 2026 — Lucca",
-      "date": "2026-07-11",
-      "player": "Francesco Redaelli",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "",
-      "final_rank": 5,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [
