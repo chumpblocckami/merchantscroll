@@ -3,13 +3,13 @@
   "display_name": "lumely",
   "irl_name": null,
   "stats": {
-    "total_entries": 16,
+    "total_entries": 17,
     "league_trophies": 16,
     "league_trophies_yearly": 13,
-    "challenge_wins": 0,
-    "challenge_losses": 0,
+    "challenge_wins": 6,
+    "challenge_losses": 3,
     "irl_top8": 0,
-    "challenge_win_pct": null,
+    "challenge_win_pct": 67,
     "league_trophy_rank_yearly": 86,
     "league_trophy_rank_alltime": 144,
     "league_trophy_players_yearly": 1446,
@@ -27,9 +27,30 @@
     {
       "archetype": "Elves",
       "count": 1
+    },
+    {
+      "archetype": "Flicker Tron",
+      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-1612851681",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-16",
+      "player": "lumely",
+      "archetype": "Flicker Tron",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "6-3",
+      "final_rank": 2,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-1110855",
       "tournament": "Pauper League",

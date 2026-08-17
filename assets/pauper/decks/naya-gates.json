@@ -2,13 +2,13 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 342,
+    "total_entries": 343,
     "league_entries": 119,
     "league_trophies": 119,
     "league_trophies_yearly": 112,
-    "challenge_appearances": 166,
-    "challenge_wins": 683,
-    "challenge_losses": 400,
+    "challenge_appearances": 167,
+    "challenge_wins": 687,
+    "challenge_losses": 403,
     "irl_top8": 19,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 19,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 77
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-1612851681",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-16",
+      "player": "Kalggot",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "4-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-1510991",
       "tournament": "Pauper League",
@@ -373,21 +388,6 @@
       ],
       "record": "3-3",
       "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-3012849439",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-30",
-      "player": "wand_thief",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
     }

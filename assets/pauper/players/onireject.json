@@ -3,13 +3,13 @@
   "display_name": "OniReject",
   "irl_name": null,
   "stats": {
-    "total_entries": 23,
+    "total_entries": 24,
     "league_trophies": 17,
     "league_trophies_yearly": 8,
-    "challenge_wins": 26,
-    "challenge_losses": 11,
+    "challenge_wins": 30,
+    "challenge_losses": 14,
     "irl_top8": 0,
-    "challenge_win_pct": 70,
+    "challenge_win_pct": 68,
     "league_trophy_rank_yearly": 146,
     "league_trophy_rank_alltime": 137,
     "league_trophy_players_yearly": 1446,
@@ -23,6 +23,10 @@
     {
       "archetype": "Mono Red Rally",
       "count": 3
+    },
+    {
+      "archetype": "Gruul Ponza",
+      "count": 1
     },
     {
       "archetype": "Jund Wildfire",
@@ -42,6 +46,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-1612851681",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-16",
+      "player": "OniReject",
+      "archetype": "Gruul Ponza",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-3",
+      "final_rank": 31,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-0710855",
       "tournament": "Pauper League",

@@ -2,13 +2,13 @@
   "archetype": "Flicker Tron",
   "slug": "flicker-tron",
   "stats": {
-    "total_entries": 266,
+    "total_entries": 268,
     "league_entries": 151,
     "league_trophies": 151,
     "league_trophies_yearly": 75,
-    "challenge_appearances": 100,
-    "challenge_wins": 406,
-    "challenge_losses": 257,
+    "challenge_appearances": 102,
+    "challenge_wins": 417,
+    "challenge_losses": 263,
     "irl_top8": 7,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 26,
@@ -17,6 +17,37 @@
     "league_trophy_decks_alltime": 77
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-1612851681",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-16",
+      "player": "lumely",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "6-3",
+      "final_rank": 2,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-1612851681",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-16",
+      "player": "ziofrancone",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-3",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-1512851662",
       "tournament": "Pauper Challenge 32",
@@ -385,35 +416,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0310855",
-      "tournament": "Pauper League",
-      "date": "2026-07-03",
-      "player": "Hype12232",
-      "colors": [
-        "G",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0212846460",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-02",
-      "player": "LydiaTheHuman",
-      "colors": [
-        "G",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -423,7 +425,7 @@
     },
     {
       "player": "ziofrancone",
-      "count": 22
+      "count": 23
     },
     {
       "player": "Raptor56",
