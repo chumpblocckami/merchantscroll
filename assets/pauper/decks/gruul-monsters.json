@@ -2,21 +2,35 @@
   "archetype": "Gruul Monsters",
   "slug": "gruul-monsters",
   "stats": {
-    "total_entries": 391,
-    "league_entries": 222,
-    "league_trophies": 222,
-    "league_trophies_yearly": 77,
+    "total_entries": 392,
+    "league_entries": 223,
+    "league_trophies": 223,
+    "league_trophies_yearly": 78,
     "challenge_appearances": 141,
     "challenge_wins": 510,
     "challenge_losses": 373,
     "irl_top8": 21,
     "challenge_win_pct": 58,
-    "league_trophy_rank_yearly": 25,
+    "league_trophy_rank_yearly": 24,
     "league_trophy_rank_alltime": 17,
-    "league_trophy_decks_yearly": 72,
-    "league_trophy_decks_alltime": 76
+    "league_trophy_decks_yearly": 73,
+    "league_trophy_decks_alltime": 77
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-1710991",
+      "tournament": "Pauper League",
+      "date": "2026-08-17",
+      "player": "benjamin13",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-1710991",
       "tournament": "Pauper League",
@@ -356,20 +370,6 @@
       "final_rank": 5,
       "source": "pauperwave",
       "type": "irl"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1012844841",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-19",
-      "player": "PrimoShow1",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-3",
-      "final_rank": 25,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -402,11 +402,11 @@
       "count": 8
     },
     {
-      "player": "Vesuvan_Doppelganger",
-      "count": 6
+      "player": "benjamin13",
+      "count": 7
     },
     {
-      "player": "benjamin13",
+      "player": "Vesuvan_Doppelganger",
       "count": 6
     },
     {
