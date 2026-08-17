@@ -3,12 +3,12 @@
   "slug": "naya-gates",
   "stats": {
     "total_entries": 343,
-    "league_entries": 119,
-    "league_trophies": 119,
-    "league_trophies_yearly": 112,
-    "challenge_appearances": 167,
-    "challenge_wins": 687,
-    "challenge_losses": 403,
+    "league_entries": 118,
+    "league_trophies": 118,
+    "league_trophies_yearly": 111,
+    "challenge_appearances": 168,
+    "challenge_wins": 692,
+    "challenge_losses": 405,
     "irl_top8": 19,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 19,
@@ -31,20 +31,6 @@
       "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1510991",
-      "tournament": "Pauper League",
-      "date": "2026-08-15",
-      "player": "ABAC0",
-      "colors": [
-        "G",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-1412851647",
@@ -302,6 +288,21 @@
       "type": "league"
     },
     {
+      "site_name": "pauper-challenge-32-2026-08-0112849483",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-02",
+      "player": "wand_thief",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 17,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-08-0212849483",
       "tournament": "Pauper Challenge 32",
       "date": "2026-08-02",
@@ -430,8 +431,8 @@
       "count": 6
     },
     {
-      "player": "Malpyrocky",
-      "count": 5
+      "player": "wand_thief",
+      "count": 6
     }
   ]
 }

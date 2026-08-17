@@ -2,13 +2,13 @@
   "archetype": "Mono Blue Terror",
   "slug": "mono-blue-terror",
   "stats": {
-    "total_entries": 1939,
-    "league_entries": 878,
-    "league_trophies": 878,
-    "league_trophies_yearly": 403,
-    "challenge_appearances": 938,
-    "challenge_wins": 3869,
-    "challenge_losses": 2327,
+    "total_entries": 1942,
+    "league_entries": 877,
+    "league_trophies": 877,
+    "league_trophies_yearly": 402,
+    "challenge_appearances": 942,
+    "challenge_wins": 3888,
+    "challenge_losses": 2338,
     "irl_top8": 42,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 2,
@@ -189,19 +189,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-08-1510991",
-      "tournament": "Pauper League",
-      "date": "2026-08-15",
-      "player": "Murcrid",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-08-1412851647",
       "tournament": "Pauper Challenge 32",
       "date": "2026-08-14",
@@ -344,12 +331,25 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1310991",
+      "tournament": "Pauper League",
+      "date": "2026-08-13",
+      "player": "Luminati",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "Luminati",
-      "count": 303
+      "count": 304
     },
     {
       "player": "discoverN",
@@ -385,7 +385,7 @@
     },
     {
       "player": "Oceansoul92",
-      "count": 23
+      "count": 24
     }
   ]
 }

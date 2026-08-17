@@ -2,15 +2,15 @@
   "archetype": "Blue Turbofog",
   "slug": "blue-turbofog",
   "stats": {
-    "total_entries": 7,
+    "total_entries": 8,
     "league_entries": 4,
     "league_trophies": 4,
     "league_trophies_yearly": 4,
-    "challenge_appearances": 2,
-    "challenge_wins": 8,
-    "challenge_losses": 5,
+    "challenge_appearances": 3,
+    "challenge_wins": 12,
+    "challenge_losses": 8,
     "irl_top8": 0,
-    "challenge_win_pct": 62,
+    "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 53,
     "league_trophy_rank_alltime": 60,
     "league_trophy_decks_yearly": 73,
@@ -30,6 +30,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0112849483",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-02",
+      "player": "Heisen01",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 21,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-0212849483",
@@ -122,15 +136,15 @@
       "count": 3
     },
     {
+      "player": "Heisen01",
+      "count": 2
+    },
+    {
       "player": "Bahsis",
       "count": 1
     },
     {
       "player": "Ctian",
-      "count": 1
-    },
-    {
-      "player": "Heisen01",
       "count": 1
     },
     {
