@@ -2,10 +2,10 @@
   "archetype": "Spy Combo",
   "slug": "spy-combo",
   "stats": {
-    "total_entries": 808,
-    "league_entries": 496,
-    "league_trophies": 496,
-    "league_trophies_yearly": 218,
+    "total_entries": 809,
+    "league_entries": 497,
+    "league_trophies": 497,
+    "league_trophies_yearly": 219,
     "challenge_appearances": 252,
     "challenge_wins": 1024,
     "challenge_losses": 637,
@@ -86,6 +86,20 @@
       "final_rank": 14,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1610991",
+      "tournament": "Pauper League",
+      "date": "2026-08-16",
+      "player": "Octarium_",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-1412851647",
@@ -354,20 +368,6 @@
       ],
       "record": "4-3",
       "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0612850801",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-06",
-      "player": "ResponsiblyStupid",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "2-4",
-      "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
     }
