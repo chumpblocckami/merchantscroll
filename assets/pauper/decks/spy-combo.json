@@ -2,10 +2,10 @@
   "archetype": "Spy Combo",
   "slug": "spy-combo",
   "stats": {
-    "total_entries": 809,
-    "league_entries": 497,
-    "league_trophies": 497,
-    "league_trophies_yearly": 219,
+    "total_entries": 810,
+    "league_entries": 498,
+    "league_trophies": 498,
+    "league_trophies_yearly": 220,
     "challenge_appearances": 252,
     "challenge_wins": 1024,
     "challenge_losses": 637,
@@ -22,6 +22,20 @@
       "tournament": "Pauper League",
       "date": "2026-08-17",
       "player": "Kuriboh",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1710991",
+      "tournament": "Pauper League",
+      "date": "2026-08-17",
+      "player": "Octarium_",
       "colors": [
         "B",
         "G"
@@ -353,21 +367,6 @@
       ],
       "record": "3-3",
       "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0612850801",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-06",
-      "player": "Dr_dej96",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "4-3",
-      "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
     }
