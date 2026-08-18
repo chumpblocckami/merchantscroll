@@ -2,10 +2,10 @@
   "archetype": "Jund Wildfire",
   "slug": "jund-wildfire",
   "stats": {
-    "total_entries": 1399,
-    "league_entries": 581,
-    "league_trophies": 581,
-    "league_trophies_yearly": 260,
+    "total_entries": 1400,
+    "league_entries": 582,
+    "league_trophies": 582,
+    "league_trophies_yearly": 261,
     "challenge_appearances": 683,
     "challenge_wins": 2746,
     "challenge_losses": 1730,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 5,
     "league_trophy_rank_alltime": 5,
-    "league_trophy_decks_yearly": 73,
-    "league_trophy_decks_alltime": 77
+    "league_trophy_decks_yearly": 74,
+    "league_trophy_decks_alltime": 78
   },
   "recent_entries": [
     {
@@ -76,6 +76,21 @@
       "final_rank": 20,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1610991",
+      "tournament": "Pauper League",
+      "date": "2026-08-16",
+      "player": "shoeonthemoon",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-1512851662",
@@ -374,21 +389,6 @@
       ],
       "record": "4-3",
       "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0812851113",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-09",
-      "player": "Walker735",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "6-3",
-      "final_rank": 4,
       "source": "mtgo",
       "type": "challenge"
     }
