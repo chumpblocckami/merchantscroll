@@ -3,17 +3,17 @@
   "display_name": "Valimoth",
   "irl_name": null,
   "stats": {
-    "total_entries": 43,
-    "league_trophies": 19,
-    "league_trophies_yearly": 9,
+    "total_entries": 44,
+    "league_trophies": 20,
+    "league_trophies_yearly": 10,
     "challenge_wins": 98,
     "challenge_losses": 48,
     "irl_top8": 0,
     "challenge_win_pct": 67,
-    "league_trophy_rank_yearly": 134,
-    "league_trophy_rank_alltime": 115,
-    "league_trophy_players_yearly": 1458,
-    "league_trophy_players_alltime": 2148
+    "league_trophy_rank_yearly": 115,
+    "league_trophy_rank_alltime": 107,
+    "league_trophy_players_yearly": 1460,
+    "league_trophy_players_alltime": 2150
   },
   "favorite_decks": [
     {
@@ -37,12 +37,12 @@
       "count": 4
     },
     {
-      "archetype": "Rakdos Madness",
+      "archetype": "Dimir Terror",
       "count": 3
     },
     {
-      "archetype": "Dimir Terror",
-      "count": 2
+      "archetype": "Rakdos Madness",
+      "count": 3
     },
     {
       "archetype": "Mono Blue Faeries",
@@ -80,6 +80,22 @@
       "archetype": "Monster Tron",
       "colors": [
         "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1210991",
+      "tournament": "Pauper League",
+      "date": "2026-08-12",
+      "player": "Valimoth",
+      "archetype": "Dimir Terror",
+      "colors": [
+        "B",
         "R",
         "U"
       ],
@@ -419,21 +435,6 @@
       ],
       "record": "4-2",
       "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-0212841356",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-02",
-      "player": "Valimoth",
-      "archetype": "Mono Red Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "2-3",
-      "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
     }
