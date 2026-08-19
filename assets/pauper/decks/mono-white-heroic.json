@@ -2,10 +2,10 @@
   "archetype": "Mono White Heroic",
   "slug": "mono-white-heroic",
   "stats": {
-    "total_entries": 161,
-    "league_entries": 111,
-    "league_trophies": 111,
-    "league_trophies_yearly": 45,
+    "total_entries": 162,
+    "league_entries": 112,
+    "league_trophies": 112,
+    "league_trophies_yearly": 46,
     "challenge_appearances": 45,
     "challenge_wins": 180,
     "challenge_losses": 119,
@@ -13,10 +13,23 @@
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 30,
     "league_trophy_rank_alltime": 31,
-    "league_trophy_decks_yearly": 74,
-    "league_trophy_decks_alltime": 78
+    "league_trophy_decks_yearly": 73,
+    "league_trophy_decks_alltime": 77
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-1510991",
+      "tournament": "Pauper League",
+      "date": "2026-08-15",
+      "player": "williami1986",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-0610855",
       "tournament": "Pauper League",
@@ -335,29 +348,15 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-03-1710405",
-      "tournament": "pauper-league-2026-03-1710405",
-      "date": "2026-03-17",
-      "player": "TheJunkDog",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
-      "player": "Sodeq",
-      "count": 12
+      "player": "williami1986",
+      "count": 13
     },
     {
-      "player": "williami1986",
+      "player": "Sodeq",
       "count": 12
     },
     {
