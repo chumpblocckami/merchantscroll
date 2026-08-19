@@ -2,13 +2,13 @@
   "archetype": "Jeskai Ephemerate",
   "slug": "jeskai-ephemerate",
   "stats": {
-    "total_entries": 445,
+    "total_entries": 446,
     "league_entries": 246,
     "league_trophies": 246,
     "league_trophies_yearly": 182,
-    "challenge_appearances": 168,
-    "challenge_wins": 698,
-    "challenge_losses": 408,
+    "challenge_appearances": 169,
+    "challenge_wins": 703,
+    "challenge_losses": 410,
     "irl_top8": 13,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 10,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 78
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-1912851713",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-19",
+      "player": "pepeteam",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-1810991",
       "tournament": "Pauper League",
@@ -385,21 +400,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1010855",
-      "tournament": "Pauper League",
-      "date": "2026-08-10",
-      "player": "mariogomes097",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -432,15 +432,15 @@
       "count": 10
     },
     {
+      "player": "pepeteam",
+      "count": 10
+    },
+    {
       "player": "Al_bertoR",
       "count": 9
     },
     {
       "player": "Jace_MTG",
-      "count": 9
-    },
-    {
-      "player": "pepeteam",
       "count": 9
     }
   ]

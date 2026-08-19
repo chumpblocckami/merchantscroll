@@ -2,13 +2,13 @@
   "archetype": "Mono Red Rally",
   "slug": "mono-red-rally",
   "stats": {
-    "total_entries": 1278,
+    "total_entries": 1279,
     "league_entries": 671,
     "league_trophies": 671,
     "league_trophies_yearly": 331,
-    "challenge_appearances": 528,
-    "challenge_wins": 2041,
-    "challenge_losses": 1352,
+    "challenge_appearances": 529,
+    "challenge_wins": 2045,
+    "challenge_losses": 1354,
     "irl_top8": 26,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 3,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 78
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-1912851713",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-19",
+      "player": "boshfred",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 19,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-1810991",
       "tournament": "Pauper League",
@@ -351,20 +365,6 @@
       ],
       "record": "1-4",
       "final_rank": 31,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0512850801",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-06",
-      "player": "tomwolf",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 22,
       "source": "mtgo",
       "type": "challenge"
     }

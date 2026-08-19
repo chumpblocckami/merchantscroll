@@ -2,13 +2,13 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 691,
+    "total_entries": 692,
     "league_entries": 380,
     "league_trophies": 380,
     "league_trophies_yearly": 190,
-    "challenge_appearances": 273,
-    "challenge_wins": 1054,
-    "challenge_losses": 693,
+    "challenge_appearances": 274,
+    "challenge_wins": 1057,
+    "challenge_losses": 696,
     "irl_top8": 22,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 9,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 78
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-1912851713",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-19",
+      "player": "Brasatore",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-1810991",
       "tournament": "Pauper League",
@@ -329,19 +343,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0112849483",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-02",
-      "player": "M_EMORIE_S",
-      "colors": [
-        "W"
-      ],
-      "record": "4-3",
-      "final_rank": 28,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [

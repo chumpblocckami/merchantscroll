@@ -2,13 +2,13 @@
   "archetype": "Flicker Tron",
   "slug": "flicker-tron",
   "stats": {
-    "total_entries": 271,
+    "total_entries": 273,
     "league_entries": 153,
     "league_trophies": 153,
     "league_trophies_yearly": 77,
-    "challenge_appearances": 103,
-    "challenge_wins": 423,
-    "challenge_losses": 265,
+    "challenge_appearances": 105,
+    "challenge_wins": 430,
+    "challenge_losses": 270,
     "irl_top8": 7,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 26,
@@ -17,6 +17,37 @@
     "league_trophy_decks_alltime": 78
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-1912851713",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-19",
+      "player": "haveaboavida",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-1912851713",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-19",
+      "player": "ziofrancone",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-1710991",
       "tournament": "Pauper League",
@@ -389,36 +420,6 @@
       "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-08",
-      "player": "Kampo",
-      "colors": [
-        "G",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-0710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-07",
-      "player": "Ryniel",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -428,7 +429,7 @@
     },
     {
       "player": "ziofrancone",
-      "count": 23
+      "count": 24
     },
     {
       "player": "Raptor56",

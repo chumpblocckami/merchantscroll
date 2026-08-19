@@ -3,13 +3,13 @@
   "display_name": "boshfred",
   "irl_name": null,
   "stats": {
-    "total_entries": 3,
+    "total_entries": 4,
     "league_trophies": 3,
     "league_trophies_yearly": 1,
-    "challenge_wins": 0,
-    "challenge_losses": 0,
+    "challenge_wins": 4,
+    "challenge_losses": 2,
     "irl_top8": 0,
-    "challenge_win_pct": null,
+    "challenge_win_pct": 67,
     "league_trophy_rank_yearly": 888,
     "league_trophy_rank_alltime": 757,
     "league_trophy_players_yearly": 1466,
@@ -25,11 +25,30 @@
       "count": 1
     },
     {
+      "archetype": "Mono Red Rally",
+      "count": 1
+    },
+    {
       "archetype": "White Weenie",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-1912851713",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-19",
+      "player": "boshfred",
+      "archetype": "Mono Red Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 19,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-0210636",
       "tournament": "Pauper League",
