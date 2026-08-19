@@ -2,25 +2,53 @@
   "archetype": "Orzhov Blade",
   "slug": "orzhov-blade",
   "stats": {
-    "total_entries": 9,
-    "league_entries": 6,
-    "league_trophies": 6,
-    "league_trophies_yearly": 6,
+    "total_entries": 11,
+    "league_entries": 8,
+    "league_trophies": 8,
+    "league_trophies_yearly": 8,
     "challenge_appearances": 3,
     "challenge_wins": 11,
     "challenge_losses": 9,
     "irl_top8": 0,
     "challenge_win_pct": 55,
-    "league_trophy_rank_yearly": 51,
-    "league_trophy_rank_alltime": 57,
-    "league_trophy_decks_yearly": 73,
-    "league_trophy_decks_alltime": 77
+    "league_trophy_rank_yearly": 50,
+    "league_trophy_rank_alltime": 54,
+    "league_trophy_decks_yearly": 74,
+    "league_trophy_decks_alltime": 78
   },
   "recent_entries": [
     {
       "site_name": "pauper-league-2026-08-1810991",
       "tournament": "Pauper League",
       "date": "2026-08-18",
+      "player": "Frank_Bonaparte",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1310991",
+      "tournament": "Pauper League",
+      "date": "2026-08-13",
+      "player": "AchoElOjcah",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1310991",
+      "tournament": "Pauper League",
+      "date": "2026-08-13",
       "player": "Frank_Bonaparte",
       "colors": [
         "B",
@@ -155,6 +183,10 @@
     },
     {
       "player": "Frank_Bonaparte",
+      "count": 2
+    },
+    {
+      "player": "AchoElOjcah",
       "count": 1
     },
     {
