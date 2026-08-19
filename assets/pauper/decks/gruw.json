@@ -2,21 +2,37 @@
   "archetype": "GRUW",
   "slug": "gruw",
   "stats": {
-    "total_entries": 3,
-    "league_entries": 2,
-    "league_trophies": 2,
-    "league_trophies_yearly": 1,
+    "total_entries": 4,
+    "league_entries": 3,
+    "league_trophies": 3,
+    "league_trophies_yearly": 2,
     "challenge_appearances": 1,
     "challenge_wins": 4,
     "challenge_losses": 3,
     "irl_top8": 0,
     "challenge_win_pct": 57,
-    "league_trophy_rank_yearly": 65,
-    "league_trophy_rank_alltime": 67,
-    "league_trophy_decks_yearly": 73,
-    "league_trophy_decks_alltime": 77
+    "league_trophy_rank_yearly": 62,
+    "league_trophy_rank_alltime": 64,
+    "league_trophy_decks_yearly": 74,
+    "league_trophy_decks_alltime": 78
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-1810991",
+      "tournament": "Pauper League",
+      "date": "2026-08-18",
+      "player": "carvs",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-03-1510405",
       "tournament": "pauper-league-2026-03-1510405",
@@ -70,6 +86,10 @@
     {
       "player": "FILLER101",
       "count": 3
+    },
+    {
+      "player": "carvs",
+      "count": 1
     }
   ]
 }
