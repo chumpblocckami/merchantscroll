@@ -2,10 +2,10 @@
   "archetype": "Mono Black Sacrifice",
   "slug": "mono-black-sacrifice",
   "stats": {
-    "total_entries": 335,
-    "league_entries": 229,
-    "league_trophies": 229,
-    "league_trophies_yearly": 109,
+    "total_entries": 336,
+    "league_entries": 230,
+    "league_trophies": 230,
+    "league_trophies_yearly": 110,
     "challenge_appearances": 93,
     "challenge_wins": 387,
     "challenge_losses": 229,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 20,
     "league_trophy_rank_alltime": 16,
-    "league_trophy_decks_yearly": 72,
-    "league_trophy_decks_alltime": 76
+    "league_trophy_decks_yearly": 73,
+    "league_trophy_decks_alltime": 77
   },
   "recent_entries": [
     {
@@ -22,6 +22,19 @@
       "tournament": "Pauper League",
       "date": "2026-08-19",
       "player": "Cryomanc3r",
+      "colors": [
+        "B"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1810991",
+      "tournament": "Pauper League",
+      "date": "2026-08-18",
+      "player": "airplay",
       "colors": [
         "B"
       ],
@@ -328,19 +341,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1410855",
-      "tournament": "Pauper League",
-      "date": "2026-07-14",
-      "player": "airplay",
-      "colors": [
-        "B"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -350,7 +350,7 @@
     },
     {
       "player": "airplay",
-      "count": 46
+      "count": 47
     },
     {
       "player": "Cryomanc3r",

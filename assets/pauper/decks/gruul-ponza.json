@@ -2,10 +2,10 @@
   "archetype": "Gruul Ponza",
   "slug": "gruul-ponza",
   "stats": {
-    "total_entries": 371,
-    "league_entries": 153,
-    "league_trophies": 153,
-    "league_trophies_yearly": 100,
+    "total_entries": 372,
+    "league_entries": 154,
+    "league_trophies": 154,
+    "league_trophies_yearly": 101,
     "challenge_appearances": 195,
     "challenge_wins": 717,
     "challenge_losses": 504,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 21,
     "league_trophy_rank_alltime": 23,
-    "league_trophy_decks_yearly": 72,
-    "league_trophy_decks_alltime": 76
+    "league_trophy_decks_yearly": 73,
+    "league_trophy_decks_alltime": 77
   },
   "recent_entries": [
     {
@@ -22,6 +22,20 @@
       "tournament": "Pauper League",
       "date": "2026-08-19",
       "player": "MahThor",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1810991",
+      "tournament": "Pauper League",
+      "date": "2026-08-18",
+      "player": "roger__estrada",
       "colors": [
         "G",
         "R"
@@ -352,20 +366,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0812851113",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-09",
-      "player": "Ixidor29",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-3",
-      "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
