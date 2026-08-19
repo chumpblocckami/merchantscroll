@@ -2,10 +2,10 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 344,
-    "league_entries": 119,
-    "league_trophies": 119,
-    "league_trophies_yearly": 112,
+    "total_entries": 343,
+    "league_entries": 118,
+    "league_trophies": 118,
+    "league_trophies_yearly": 111,
     "challenge_appearances": 168,
     "challenge_wins": 692,
     "challenge_losses": 405,
@@ -31,20 +31,6 @@
       "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1510991",
-      "tournament": "Pauper League",
-      "date": "2026-08-15",
-      "player": "ABAC0",
-      "colors": [
-        "G",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-1412851647",
@@ -388,6 +374,21 @@
       ],
       "record": "5-2",
       "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0112849464",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-01",
+      "player": "reto_mtg",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
     }
