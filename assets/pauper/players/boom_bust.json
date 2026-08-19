@@ -3,15 +3,15 @@
   "display_name": "boom_bust",
   "irl_name": null,
   "stats": {
-    "total_entries": 146,
-    "league_trophies": 40,
-    "league_trophies_yearly": 15,
+    "total_entries": 147,
+    "league_trophies": 41,
+    "league_trophies_yearly": 16,
     "challenge_wins": 400,
     "challenge_losses": 252,
     "irl_top8": 0,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 59,
-    "league_trophy_rank_alltime": 35,
+    "league_trophy_rank_yearly": 52,
+    "league_trophy_rank_alltime": 32,
     "league_trophy_players_yearly": 1468,
     "league_trophy_players_alltime": 2157
   },
@@ -22,7 +22,7 @@
     },
     {
       "archetype": "Mono Red Madness",
-      "count": 52
+      "count": 53
     },
     {
       "archetype": "Pingers",
@@ -47,6 +47,20 @@
       "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1910991",
+      "tournament": "Pauper League",
+      "date": "2026-08-19",
+      "player": "boom_bust",
+      "archetype": "Mono Red Madness",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-08-1710991",
@@ -390,21 +404,6 @@
       "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1610855",
-      "tournament": "Pauper League",
-      "date": "2026-07-16",
-      "player": "boom_bust",
-      "archetype": "Mono Red Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }
