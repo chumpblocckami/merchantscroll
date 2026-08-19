@@ -2,10 +2,10 @@
   "archetype": "Mono Blue Terror",
   "slug": "mono-blue-terror",
   "stats": {
-    "total_entries": 1945,
-    "league_entries": 880,
-    "league_trophies": 880,
-    "league_trophies_yearly": 405,
+    "total_entries": 1939,
+    "league_entries": 874,
+    "league_trophies": 874,
+    "league_trophies_yearly": 399,
     "challenge_appearances": 942,
     "challenge_wins": 3888,
     "challenge_losses": 2338,
@@ -13,10 +13,23 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 2,
     "league_trophy_rank_alltime": 2,
-    "league_trophy_decks_yearly": 74,
-    "league_trophy_decks_alltime": 78
+    "league_trophy_decks_yearly": 73,
+    "league_trophy_decks_alltime": 77
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-1910991",
+      "tournament": "Pauper League",
+      "date": "2026-08-19",
+      "player": "carvs",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-1810991",
       "tournament": "Pauper League",
@@ -160,32 +173,6 @@
       "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1610991",
-      "tournament": "Pauper League",
-      "date": "2026-08-16",
-      "player": "brina",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1610991",
-      "tournament": "Pauper League",
-      "date": "2026-08-16",
-      "player": "carvs",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-1512851662",
@@ -344,12 +331,25 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-1312851637",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-13",
+      "player": "Sarlanga",
+      "colors": [
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 14,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "Luminati",
-      "count": 305
+      "count": 304
     },
     {
       "player": "discoverN",
@@ -369,7 +369,7 @@
     },
     {
       "player": "flower270",
-      "count": 36
+      "count": 35
     },
     {
       "player": "Xto2",
