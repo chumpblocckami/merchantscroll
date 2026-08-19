@@ -3,22 +3,22 @@
   "display_name": "carvs",
   "irl_name": null,
   "stats": {
-    "total_entries": 174,
-    "league_trophies": 117,
-    "league_trophies_yearly": 54,
+    "total_entries": 175,
+    "league_trophies": 118,
+    "league_trophies_yearly": 55,
     "challenge_wins": 216,
     "challenge_losses": 147,
     "irl_top8": 0,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 4,
-    "league_trophy_rank_alltime": 4,
-    "league_trophy_players_yearly": 1465,
-    "league_trophy_players_alltime": 2154
+    "league_trophy_rank_alltime": 3,
+    "league_trophy_players_yearly": 1466,
+    "league_trophy_players_alltime": 2155
   },
   "favorite_decks": [
     {
       "archetype": "Mono Blue Terror",
-      "count": 79
+      "count": 80
     },
     {
       "archetype": "Dimir Terror",
@@ -54,6 +54,20 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-1910991",
+      "tournament": "Pauper League",
+      "date": "2026-08-19",
+      "player": "carvs",
+      "archetype": "Mono Blue Terror",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-1910991",
       "tournament": "Pauper League",
@@ -396,20 +410,6 @@
       "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1210636",
-      "tournament": "Pauper League",
-      "date": "2026-06-12",
-      "player": "carvs",
-      "archetype": "Mono Blue Terror",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

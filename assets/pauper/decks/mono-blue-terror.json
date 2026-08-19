@@ -2,10 +2,10 @@
   "archetype": "Mono Blue Terror",
   "slug": "mono-blue-terror",
   "stats": {
-    "total_entries": 1950,
-    "league_entries": 885,
-    "league_trophies": 885,
-    "league_trophies_yearly": 410,
+    "total_entries": 1951,
+    "league_entries": 886,
+    "league_trophies": 886,
+    "league_trophies_yearly": 411,
     "challenge_appearances": 942,
     "challenge_wins": 3888,
     "challenge_losses": 2338,
@@ -37,6 +37,19 @@
       "player": "Purgatory_01",
       "colors": [
         "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1910991",
+      "tournament": "Pauper League",
+      "date": "2026-08-19",
+      "player": "carvs",
+      "colors": [
         "U"
       ],
       "record": "5-0",
@@ -332,19 +345,6 @@
       "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1412851647",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-14",
-      "player": "morenoHARDCORE",
-      "colors": [
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 19,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -358,7 +358,7 @@
     },
     {
       "player": "carvs",
-      "count": 79
+      "count": 80
     },
     {
       "player": "Purgatory_01",
