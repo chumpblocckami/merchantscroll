@@ -2,19 +2,19 @@
   "archetype": "Rakdos Burn",
   "slug": "rakdos-burn",
   "stats": {
-    "total_entries": 13,
-    "league_entries": 7,
-    "league_trophies": 7,
-    "league_trophies_yearly": 7,
+    "total_entries": 14,
+    "league_entries": 8,
+    "league_trophies": 8,
+    "league_trophies_yearly": 8,
     "challenge_appearances": 6,
     "challenge_wins": 24,
     "challenge_losses": 14,
     "irl_top8": 0,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 50,
-    "league_trophy_rank_alltime": 56,
-    "league_trophy_decks_yearly": 73,
-    "league_trophy_decks_alltime": 77
+    "league_trophy_rank_yearly": 51,
+    "league_trophy_rank_alltime": 55,
+    "league_trophy_decks_yearly": 74,
+    "league_trophy_decks_alltime": 78
   },
   "recent_entries": [
     {
@@ -45,6 +45,20 @@
       "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1210991",
+      "tournament": "Pauper League",
+      "date": "2026-08-12",
+      "player": "eggBR",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-08-1110855",
@@ -226,6 +240,10 @@
     },
     {
       "player": "bubu22383",
+      "count": 1
+    },
+    {
+      "player": "eggBR",
       "count": 1
     },
     {

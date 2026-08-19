@@ -3,17 +3,17 @@
   "display_name": "Ben_Matocha",
   "irl_name": null,
   "stats": {
-    "total_entries": 27,
-    "league_trophies": 23,
-    "league_trophies_yearly": 21,
+    "total_entries": 28,
+    "league_trophies": 24,
+    "league_trophies_yearly": 22,
     "challenge_wins": 19,
     "challenge_losses": 9,
     "irl_top8": 0,
     "challenge_win_pct": 68,
-    "league_trophy_rank_yearly": 36,
-    "league_trophy_rank_alltime": 80,
-    "league_trophy_players_yearly": 1458,
-    "league_trophy_players_alltime": 2148
+    "league_trophy_rank_yearly": 33,
+    "league_trophy_rank_alltime": 76,
+    "league_trophy_players_yearly": 1465,
+    "league_trophy_players_alltime": 2154
   },
   "favorite_decks": [
     {
@@ -27,6 +27,10 @@
     {
       "archetype": "Food Pestilence",
       "count": 2
+    },
+    {
+      "archetype": "Grixis Affinity",
+      "count": 1
     },
     {
       "archetype": "Izzet Control",
@@ -44,6 +48,22 @@
         "R",
         "U",
         "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1310991",
+      "tournament": "Pauper League",
+      "date": "2026-08-13",
+      "player": "Ben_Matocha",
+      "archetype": "Grixis Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -415,22 +435,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-2112835994",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-21",
-      "player": "Ben_Matocha",
-      "archetype": "Dimir Terror",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-2",
-      "final_rank": 6,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }
