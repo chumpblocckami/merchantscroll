@@ -2,10 +2,10 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 287,
-    "league_entries": 138,
-    "league_trophies": 138,
-    "league_trophies_yearly": 132,
+    "total_entries": 286,
+    "league_entries": 137,
+    "league_trophies": 137,
+    "league_trophies_yearly": 131,
     "challenge_appearances": 124,
     "challenge_wins": 507,
     "challenge_losses": 319,
@@ -13,25 +13,10 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 14,
     "league_trophy_rank_alltime": 26,
-    "league_trophy_decks_yearly": 75,
-    "league_trophy_decks_alltime": 79
+    "league_trophy_decks_yearly": 74,
+    "league_trophy_decks_alltime": 78
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-08-2010991",
-      "tournament": "Pauper League",
-      "date": "2026-08-20",
-      "player": "forse",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-challenge-32-2026-08-1912851713",
       "tournament": "Pauper Challenge 32",
@@ -379,6 +364,20 @@
       ],
       "record": "3-3",
       "final_rank": 20,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-1212851620",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-12",
+      "player": "ziofrancone",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
     }
