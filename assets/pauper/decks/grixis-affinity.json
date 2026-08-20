@@ -2,10 +2,10 @@
   "archetype": "Grixis Affinity",
   "slug": "grixis-affinity",
   "stats": {
-    "total_entries": 67,
-    "league_entries": 28,
-    "league_trophies": 28,
-    "league_trophies_yearly": 28,
+    "total_entries": 68,
+    "league_entries": 29,
+    "league_trophies": 29,
+    "league_trophies_yearly": 29,
     "challenge_appearances": 36,
     "challenge_wins": 161,
     "challenge_losses": 86,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 65,
     "league_trophy_rank_yearly": 39,
     "league_trophy_rank_alltime": 43,
-    "league_trophy_decks_yearly": 74,
-    "league_trophy_decks_alltime": 78
+    "league_trophy_decks_yearly": 75,
+    "league_trophy_decks_alltime": 79
   },
   "recent_entries": [
     {
@@ -67,6 +67,21 @@
       "tournament": "Pauper League",
       "date": "2026-08-19",
       "player": "Pedrothedead",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1810991",
+      "tournament": "Pauper League",
+      "date": "2026-08-18",
+      "player": "Elfu",
       "colors": [
         "B",
         "R",
@@ -376,21 +391,6 @@
       "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0912851113",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-09",
-      "player": "Justsome_guy",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 19,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -419,6 +419,10 @@
       "count": 2
     },
     {
+      "player": "Elfu",
+      "count": 2
+    },
+    {
       "player": "FishCombatant",
       "count": 2
     },
@@ -428,10 +432,6 @@
     },
     {
       "player": "TuggaNaxos",
-      "count": 2
-    },
-    {
-      "player": "kille",
       "count": 2
     }
   ]
