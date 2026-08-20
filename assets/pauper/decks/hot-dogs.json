@@ -2,10 +2,10 @@
   "archetype": "Hot Dogs",
   "slug": "hot-dogs",
   "stats": {
-    "total_entries": 13,
-    "league_entries": 11,
-    "league_trophies": 11,
-    "league_trophies_yearly": 8,
+    "total_entries": 14,
+    "league_entries": 12,
+    "league_trophies": 12,
+    "league_trophies_yearly": 9,
     "challenge_appearances": 1,
     "challenge_wins": 3,
     "challenge_losses": 3,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 78
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-2010991",
+      "tournament": "Pauper League",
+      "date": "2026-08-20",
+      "player": "_against_",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2810855",
       "tournament": "Pauper League",
@@ -232,6 +246,10 @@
     },
     {
       "player": "PinoIo_Cosmico",
+      "count": 1
+    },
+    {
+      "player": "_against_",
       "count": 1
     }
   ]
