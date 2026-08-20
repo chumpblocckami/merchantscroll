@@ -2,10 +2,10 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 289,
-    "league_entries": 140,
-    "league_trophies": 140,
-    "league_trophies_yearly": 134,
+    "total_entries": 288,
+    "league_entries": 139,
+    "league_trophies": 139,
+    "league_trophies_yearly": 133,
     "challenge_appearances": 124,
     "challenge_wins": 507,
     "challenge_losses": 319,
@@ -323,21 +323,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-08-1410991",
-      "tournament": "Pauper League",
-      "date": "2026-08-14",
-      "player": "Valimoth",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-08-1312851637",
       "tournament": "Pauper Challenge 32",
       "date": "2026-08-13",
@@ -380,6 +365,21 @@
       "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-1212851620",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-12",
+      "player": "SpockVidaLoka",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "1-4",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -389,7 +389,7 @@
     },
     {
       "player": "Valimoth",
-      "count": 15
+      "count": 14
     },
     {
       "player": "A_AdeptoTerra",
