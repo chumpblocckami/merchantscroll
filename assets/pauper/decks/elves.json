@@ -2,10 +2,10 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1309,
-    "league_entries": 673,
-    "league_trophies": 673,
-    "league_trophies_yearly": 291,
+    "total_entries": 1311,
+    "league_entries": 675,
+    "league_trophies": 675,
+    "league_trophies_yearly": 293,
     "challenge_appearances": 564,
     "challenge_wins": 2266,
     "challenge_losses": 1421,
@@ -83,6 +83,35 @@
       "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1610991",
+      "tournament": "Pauper League",
+      "date": "2026-08-16",
+      "player": "Boquinha",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1610991",
+      "tournament": "Pauper League",
+      "date": "2026-08-16",
+      "player": "Raketa",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-08-1510991",
@@ -325,32 +354,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0910855",
-      "tournament": "Pauper League",
-      "date": "2026-08-09",
-      "player": "DB_LucianoGuma",
-      "colors": [
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0910855",
-      "tournament": "Pauper League",
-      "date": "2026-08-09",
-      "player": "Ettore099",
-      "colors": [
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -360,7 +363,7 @@
     },
     {
       "player": "Boquinha",
-      "count": 83
+      "count": 84
     },
     {
       "player": "newbarola",
@@ -384,7 +387,7 @@
     },
     {
       "player": "Raketa",
-      "count": 20
+      "count": 21
     },
     {
       "player": "KidRenan",

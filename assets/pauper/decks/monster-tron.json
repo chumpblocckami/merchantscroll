@@ -2,17 +2,17 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 284,
-    "league_entries": 135,
-    "league_trophies": 135,
-    "league_trophies_yearly": 129,
+    "total_entries": 287,
+    "league_entries": 138,
+    "league_trophies": 138,
+    "league_trophies_yearly": 132,
     "challenge_appearances": 124,
     "challenge_wins": 507,
     "challenge_losses": 319,
     "irl_top8": 12,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 15,
-    "league_trophy_rank_alltime": 27,
+    "league_trophy_rank_yearly": 14,
+    "league_trophy_rank_alltime": 26,
     "league_trophy_decks_yearly": 74,
     "league_trophy_decks_alltime": 78
   },
@@ -147,6 +147,49 @@
       "final_rank": 22,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1610991",
+      "tournament": "Pauper League",
+      "date": "2026-08-16",
+      "player": "ABCD_1234",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1610991",
+      "tournament": "Pauper League",
+      "date": "2026-08-16",
+      "player": "AlessandroPiraccini",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1610991",
+      "tournament": "Pauper League",
+      "date": "2026-08-16",
+      "player": "ProggyBoog",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-1512851662",
@@ -337,49 +380,6 @@
       "final_rank": 20,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1212851620",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-12",
-      "player": "ziofrancone",
-      "colors": [
-        "G",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1210991",
-      "tournament": "Pauper League",
-      "date": "2026-08-12",
-      "player": "M-AX",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0812851113",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-09",
-      "player": "A_AdeptoTerra",
-      "colors": [
-        "G",
-        "U"
-      ],
-      "record": "5-2",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -416,11 +416,11 @@
       "count": 6
     },
     {
-      "player": "_titoWii_96",
+      "player": "ABCD_1234",
       "count": 5
     },
     {
-      "player": "giuliodice",
+      "player": "_titoWii_96",
       "count": 5
     }
   ]
