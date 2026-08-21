@@ -2,10 +2,10 @@
   "archetype": "Grixis Affinity",
   "slug": "grixis-affinity",
   "stats": {
-    "total_entries": 69,
-    "league_entries": 29,
-    "league_trophies": 29,
-    "league_trophies_yearly": 29,
+    "total_entries": 67,
+    "league_entries": 27,
+    "league_trophies": 27,
+    "league_trophies_yearly": 27,
     "challenge_appearances": 37,
     "challenge_wins": 165,
     "challenge_losses": 88,
@@ -97,36 +97,6 @@
       "tournament": "Pauper League",
       "date": "2026-08-18",
       "player": "Elfu",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1710991",
-      "tournament": "Pauper League",
-      "date": "2026-08-17",
-      "player": "BSMFortyFive",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1710991",
-      "tournament": "Pauper League",
-      "date": "2026-08-17",
-      "player": "FishCombatant",
       "colors": [
         "B",
         "R",
@@ -391,6 +361,36 @@
       "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0812851113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-09",
+      "player": "seasonofmists",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0912851113",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-09",
+      "player": "Justsome_guy",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 19,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -423,15 +423,15 @@
       "count": 2
     },
     {
-      "player": "FishCombatant",
-      "count": 2
-    },
-    {
       "player": "Justsome_guy",
       "count": 2
     },
     {
       "player": "TuggaNaxos",
+      "count": 2
+    },
+    {
+      "player": "kille",
       "count": 2
     }
   ]
