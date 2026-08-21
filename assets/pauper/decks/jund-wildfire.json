@@ -2,10 +2,10 @@
   "archetype": "Jund Wildfire",
   "slug": "jund-wildfire",
   "stats": {
-    "total_entries": 1410,
-    "league_entries": 586,
-    "league_trophies": 586,
-    "league_trophies_yearly": 265,
+    "total_entries": 1411,
+    "league_entries": 587,
+    "league_trophies": 587,
+    "league_trophies_yearly": 266,
     "challenge_appearances": 689,
     "challenge_wins": 2765,
     "challenge_losses": 1747,
@@ -61,6 +61,21 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2110991",
+      "tournament": "Pauper League",
+      "date": "2026-08-21",
+      "player": "BlueMatthew",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-08-2110991",
@@ -374,21 +389,6 @@
       ],
       "record": "3-3",
       "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1312851637",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-13",
-      "player": "seasonofmists",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "6-2",
-      "final_rank": 3,
       "source": "mtgo",
       "type": "challenge"
     }
