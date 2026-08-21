@@ -3,9 +3,9 @@
   "display_name": "saidin.raken",
   "irl_name": null,
   "stats": {
-    "total_entries": 154,
-    "league_trophies": 139,
-    "league_trophies_yearly": 60,
+    "total_entries": 155,
+    "league_trophies": 140,
+    "league_trophies_yearly": 61,
     "challenge_wins": 27,
     "challenge_losses": 17,
     "irl_top8": 0,
@@ -42,7 +42,7 @@
     },
     {
       "archetype": "Poison Storm",
-      "count": 3
+      "count": 4
     },
     {
       "archetype": "Spy Combo",
@@ -67,6 +67,23 @@
       "colors": [
         "U",
         "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2110991",
+      "tournament": "Pauper League",
+      "date": "2026-08-21",
+      "player": "saidin.raken",
+      "archetype": "Poison Storm",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -420,21 +437,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2412845625",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "saidin.raken",
-      "archetype": "Gruul Storm",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 9,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }
