@@ -2,21 +2,35 @@
   "archetype": "Orzhov Blade",
   "slug": "orzhov-blade",
   "stats": {
-    "total_entries": 11,
+    "total_entries": 12,
     "league_entries": 8,
     "league_trophies": 8,
     "league_trophies_yearly": 8,
-    "challenge_appearances": 3,
-    "challenge_wins": 11,
-    "challenge_losses": 9,
+    "challenge_appearances": 4,
+    "challenge_wins": 13,
+    "challenge_losses": 12,
     "irl_top8": 0,
-    "challenge_win_pct": 55,
+    "challenge_win_pct": 52,
     "league_trophy_rank_yearly": 50,
     "league_trophy_rank_alltime": 54,
-    "league_trophy_decks_yearly": 74,
-    "league_trophy_decks_alltime": 78
+    "league_trophy_decks_yearly": 75,
+    "league_trophy_decks_alltime": 79
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-2012852725",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-20",
+      "player": "ThiagoGuerra",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "2-3",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-1810991",
       "tournament": "Pauper League",
@@ -187,6 +201,10 @@
     },
     {
       "player": "AchoElOjcah",
+      "count": 1
+    },
+    {
+      "player": "ThiagoGuerra",
       "count": 1
     },
     {

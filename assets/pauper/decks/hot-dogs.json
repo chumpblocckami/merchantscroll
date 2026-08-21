@@ -2,21 +2,63 @@
   "archetype": "Hot Dogs",
   "slug": "hot-dogs",
   "stats": {
-    "total_entries": 13,
-    "league_entries": 11,
-    "league_trophies": 11,
-    "league_trophies_yearly": 8,
-    "challenge_appearances": 1,
-    "challenge_wins": 3,
-    "challenge_losses": 3,
+    "total_entries": 16,
+    "league_entries": 12,
+    "league_trophies": 12,
+    "league_trophies_yearly": 9,
+    "challenge_appearances": 3,
+    "challenge_wins": 8,
+    "challenge_losses": 9,
     "irl_top8": 1,
-    "challenge_win_pct": 50,
+    "challenge_win_pct": 47,
     "league_trophy_rank_yearly": 49,
     "league_trophy_rank_alltime": 47,
-    "league_trophy_decks_yearly": 74,
-    "league_trophy_decks_alltime": 78
+    "league_trophy_decks_yearly": 75,
+    "league_trophy_decks_alltime": 79
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-2012852725",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-20",
+      "player": "LBBL",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "2-3",
+      "final_rank": 28,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-2012852725",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-20",
+      "player": "xmelanx",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 27,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2010991",
+      "tournament": "Pauper League",
+      "date": "2026-08-20",
+      "player": "_against_",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-2810855",
       "tournament": "Pauper League",
@@ -220,6 +262,10 @@
     },
     {
       "player": "FAFUS",
+      "count": 1
+    },
+    {
+      "player": "LBBL",
       "count": 1
     },
     {

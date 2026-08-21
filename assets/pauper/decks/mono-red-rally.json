@@ -2,10 +2,10 @@
   "archetype": "Mono Red Rally",
   "slug": "mono-red-rally",
   "stats": {
-    "total_entries": 1280,
-    "league_entries": 672,
-    "league_trophies": 672,
-    "league_trophies_yearly": 332,
+    "total_entries": 1282,
+    "league_entries": 674,
+    "league_trophies": 674,
+    "league_trophies_yearly": 334,
     "challenge_appearances": 529,
     "challenge_wins": 2045,
     "challenge_losses": 1354,
@@ -13,10 +13,24 @@
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 3,
     "league_trophy_rank_alltime": 4,
-    "league_trophy_decks_yearly": 74,
-    "league_trophy_decks_alltime": 78
+    "league_trophy_decks_yearly": 75,
+    "league_trophy_decks_alltime": 79
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-2010991",
+      "tournament": "Pauper League",
+      "date": "2026-08-20",
+      "player": "vini_torres",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-1912851713",
       "tournament": "Pauper Challenge 32",
@@ -114,6 +128,20 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1610991",
+      "tournament": "Pauper League",
+      "date": "2026-08-16",
+      "player": "Poily",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-1512851662",
@@ -339,40 +367,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0710855",
-      "tournament": "Pauper League",
-      "date": "2026-08-07",
-      "player": "ewerb123",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0512850801",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-06",
-      "player": "Watchwolf92",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "vini_torres",
-      "count": 100
+      "count": 101
     },
     {
       "player": "SaculSueahtam",

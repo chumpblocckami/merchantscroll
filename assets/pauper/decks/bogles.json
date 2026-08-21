@@ -2,21 +2,51 @@
   "archetype": "Bogles",
   "slug": "bogles",
   "stats": {
-    "total_entries": 274,
+    "total_entries": 276,
     "league_entries": 108,
     "league_trophies": 108,
     "league_trophies_yearly": 37,
-    "challenge_appearances": 157,
-    "challenge_wins": 613,
-    "challenge_losses": 410,
+    "challenge_appearances": 159,
+    "challenge_wins": 618,
+    "challenge_losses": 416,
     "irl_top8": 3,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 33,
     "league_trophy_rank_alltime": 33,
-    "league_trophy_decks_yearly": 74,
-    "league_trophy_decks_alltime": 78
+    "league_trophy_decks_yearly": 75,
+    "league_trophy_decks_alltime": 79
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-2012852725",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-20",
+      "player": "JuaKi",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "3-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-2012852725",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-20",
+      "player": "jade-venus",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "2-4",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-1212851620",
       "tournament": "Pauper Challenge 32",
@@ -361,36 +391,6 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1810855",
-      "tournament": "Pauper League",
-      "date": "2026-07-18",
-      "player": "Essenza",
-      "colors": [
-        "G",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-07-1710855",
-      "tournament": "Pauper League",
-      "date": "2026-07-17",
-      "player": "Regis_Hangar49",
-      "colors": [
-        "G",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -411,12 +411,12 @@
       "count": 11
     },
     {
-      "player": "hockeybro26",
+      "player": "JuaKi",
       "count": 8
     },
     {
-      "player": "JuaKi",
-      "count": 7
+      "player": "hockeybro26",
+      "count": 8
     },
     {
       "player": "broers_",

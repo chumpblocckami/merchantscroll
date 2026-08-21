@@ -2,21 +2,35 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 691,
-    "league_entries": 379,
-    "league_trophies": 379,
-    "league_trophies_yearly": 189,
-    "challenge_appearances": 274,
-    "challenge_wins": 1057,
-    "challenge_losses": 696,
+    "total_entries": 693,
+    "league_entries": 380,
+    "league_trophies": 380,
+    "league_trophies_yearly": 190,
+    "challenge_appearances": 275,
+    "challenge_wins": 1060,
+    "challenge_losses": 699,
     "irl_top8": 22,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 9,
     "league_trophy_rank_alltime": 9,
-    "league_trophy_decks_yearly": 74,
-    "league_trophy_decks_alltime": 78
+    "league_trophy_decks_yearly": 75,
+    "league_trophy_decks_alltime": 79
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-2012852725",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-20",
+      "player": "CAM_13",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 19,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-1912851713",
       "tournament": "Pauper Challenge 32",
@@ -36,6 +50,19 @@
       "tournament": "Pauper League",
       "date": "2026-08-18",
       "player": "Picomerd",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1610991",
+      "tournament": "Pauper League",
+      "date": "2026-08-16",
+      "player": "PrezKoumori",
       "colors": [
         "W"
       ],
@@ -317,32 +344,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0410855",
-      "tournament": "Pauper League",
-      "date": "2026-08-04",
-      "player": "Deodato",
-      "colors": [
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0112849483",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-02",
-      "player": "M_EMORIE_S",
-      "colors": [
-        "W"
-      ],
-      "record": "4-3",
-      "final_rank": 28,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -367,12 +368,12 @@
       "count": 19
     },
     {
-      "player": "qbturtle15",
+      "player": "CAM_13",
       "count": 15
     },
     {
-      "player": "CAM_13",
-      "count": 14
+      "player": "qbturtle15",
+      "count": 15
     },
     {
       "player": "RUCetFort",

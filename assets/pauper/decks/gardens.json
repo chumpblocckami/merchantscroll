@@ -2,21 +2,36 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 732,
+    "total_entries": 733,
     "league_entries": 363,
     "league_trophies": 363,
     "league_trophies_yearly": 169,
-    "challenge_appearances": 318,
-    "challenge_wins": 1308,
-    "challenge_losses": 771,
+    "challenge_appearances": 319,
+    "challenge_wins": 1312,
+    "challenge_losses": 773,
     "irl_top8": 22,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 12,
     "league_trophy_rank_alltime": 10,
-    "league_trophy_decks_yearly": 74,
-    "league_trophy_decks_alltime": 78
+    "league_trophy_decks_yearly": 75,
+    "league_trophy_decks_alltime": 79
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-2012852725",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-20",
+      "player": "mechrataal",
+      "colors": [
+        "B",
+        "G",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-1710991",
       "tournament": "Pauper League",
@@ -353,20 +368,6 @@
       ],
       "record": "4-2",
       "final_rank": 9,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-2512848203",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-25",
-      "player": "yuxiaoyu",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "3-3",
-      "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
     }
