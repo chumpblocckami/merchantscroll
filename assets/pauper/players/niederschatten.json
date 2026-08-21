@@ -3,11 +3,11 @@
   "display_name": "Niederschatten",
   "irl_name": null,
   "stats": {
-    "total_entries": 118,
+    "total_entries": 119,
     "league_trophies": 51,
     "league_trophies_yearly": 28,
-    "challenge_wins": 299,
-    "challenge_losses": 147,
+    "challenge_wins": 303,
+    "challenge_losses": 149,
     "irl_top8": 0,
     "challenge_win_pct": 67,
     "league_trophy_rank_yearly": 22,
@@ -54,10 +54,25 @@
     },
     {
       "archetype": "Gruul Monsters",
-      "count": 1
+      "count": 2
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-2112852730",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-21",
+      "player": "Niederschatten",
+      "archetype": "Gruul Monsters",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 17,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-1912851713",
       "tournament": "Pauper Challenge 32",
@@ -410,21 +425,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2412845625",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-24",
-      "player": "Niederschatten",
-      "archetype": "Dimir Faeries",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "6-2",
-      "final_rank": 3,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

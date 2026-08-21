@@ -2,13 +2,13 @@
   "archetype": "Spy Combo",
   "slug": "spy-combo",
   "stats": {
-    "total_entries": 825,
+    "total_entries": 826,
     "league_entries": 505,
     "league_trophies": 505,
     "league_trophies_yearly": 227,
-    "challenge_appearances": 260,
-    "challenge_wins": 1057,
-    "challenge_losses": 658,
+    "challenge_appearances": 261,
+    "challenge_wins": 1061,
+    "challenge_losses": 660,
     "irl_top8": 26,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 7,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 79
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-2112852730",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-21",
+      "player": "MyDeckStats",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "4-2",
+      "final_rank": 18,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-2110991",
       "tournament": "Pauper League",
@@ -351,20 +365,6 @@
       ],
       "record": "5-2",
       "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0912851113",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-09",
-      "player": "SilverK1",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-3",
-      "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
     }

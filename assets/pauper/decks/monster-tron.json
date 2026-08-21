@@ -2,13 +2,13 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 294,
+    "total_entries": 295,
     "league_entries": 142,
     "league_trophies": 142,
     "league_trophies_yearly": 136,
-    "challenge_appearances": 127,
-    "challenge_wins": 519,
-    "challenge_losses": 327,
+    "challenge_appearances": 128,
+    "challenge_wins": 523,
+    "challenge_losses": 329,
     "irl_top8": 12,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 14,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 79
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-2112852730",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-21",
+      "player": "ABCD_1234",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-2110991",
       "tournament": "Pauper League",
@@ -365,21 +379,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1412851647",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-14",
-      "player": "Samueland03",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "8-1",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -408,16 +407,16 @@
       "count": 7
     },
     {
+      "player": "ABCD_1234",
+      "count": 6
+    },
+    {
       "player": "Casanova_13",
       "count": 6
     },
     {
       "player": "giggimille",
       "count": 6
-    },
-    {
-      "player": "ABCD_1234",
-      "count": 5
     },
     {
       "player": "Samueland03",

@@ -2,13 +2,13 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1318,
+    "total_entries": 1319,
     "league_entries": 681,
     "league_trophies": 681,
     "league_trophies_yearly": 299,
-    "challenge_appearances": 565,
-    "challenge_wins": 2268,
-    "challenge_losses": 1425,
+    "challenge_appearances": 566,
+    "challenge_wins": 2272,
+    "challenge_losses": 1427,
     "irl_top8": 35,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 4,
@@ -17,6 +17,19 @@
     "league_trophy_decks_alltime": 79
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-2112852730",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-21",
+      "player": "QueMario",
+      "colors": [
+        "G"
+      ],
+      "record": "4-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-2110991",
       "tournament": "Pauper League",
@@ -340,19 +353,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1010855",
-      "tournament": "Pauper League",
-      "date": "2026-08-10",
-      "player": "CarrodaPolicia",
-      "colors": [
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -374,7 +374,7 @@
     },
     {
       "player": "QueMario",
-      "count": 30
+      "count": 31
     },
     {
       "player": "wolf777",

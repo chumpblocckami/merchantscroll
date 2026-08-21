@@ -3,13 +3,13 @@
   "display_name": "GASTyR",
   "irl_name": null,
   "stats": {
-    "total_entries": 2,
+    "total_entries": 3,
     "league_trophies": 2,
     "league_trophies_yearly": 2,
-    "challenge_wins": 0,
-    "challenge_losses": 0,
+    "challenge_wins": 4,
+    "challenge_losses": 2,
     "irl_top8": 0,
-    "challenge_win_pct": null,
+    "challenge_win_pct": 67,
     "league_trophy_rank_yearly": 658,
     "league_trophy_rank_alltime": 1055,
     "league_trophy_players_yearly": 1475,
@@ -19,9 +19,28 @@
     {
       "archetype": "Orzhov Refurbished",
       "count": 2
+    },
+    {
+      "archetype": "Mono Red Rally",
+      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-2112852730",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-21",
+      "player": "GASTyR",
+      "archetype": "Mono Red Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 15,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-07-0810855",
       "tournament": "Pauper League",

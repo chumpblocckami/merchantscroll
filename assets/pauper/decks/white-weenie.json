@@ -2,13 +2,13 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 696,
+    "total_entries": 698,
     "league_entries": 382,
     "league_trophies": 382,
     "league_trophies_yearly": 192,
-    "challenge_appearances": 276,
-    "challenge_wins": 1064,
-    "challenge_losses": 701,
+    "challenge_appearances": 278,
+    "challenge_wins": 1071,
+    "challenge_losses": 706,
     "irl_top8": 22,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 9,
@@ -17,6 +17,33 @@
     "league_trophy_decks_alltime": 79
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-2112852730",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-21",
+      "player": "dragtar",
+      "colors": [
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 19,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-2112852730",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-21",
+      "player": "oskiyaa",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-2110991",
       "tournament": "Pauper League",
@@ -319,32 +346,6 @@
       "final_rank": 14,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0512850801",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-06",
-      "player": "bafusVIII",
-      "colors": [
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 14,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0612850801",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-06",
-      "player": "bafusVIII",
-      "colors": [
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 14,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -381,11 +382,11 @@
       "count": 14
     },
     {
-      "player": "Huskyman20035",
-      "count": 13
+      "player": "dragtar",
+      "count": 14
     },
     {
-      "player": "dragtar",
+      "player": "Huskyman20035",
       "count": 13
     }
   ]
