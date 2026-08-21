@@ -2,21 +2,35 @@
   "archetype": "Gruul Storm",
   "slug": "gruul-storm",
   "stats": {
-    "total_entries": 219,
-    "league_entries": 143,
-    "league_trophies": 143,
-    "league_trophies_yearly": 130,
+    "total_entries": 220,
+    "league_entries": 144,
+    "league_trophies": 144,
+    "league_trophies_yearly": 131,
     "challenge_appearances": 55,
     "challenge_wins": 204,
     "challenge_losses": 142,
     "irl_top8": 12,
     "challenge_win_pct": 59,
-    "league_trophy_rank_yearly": 15,
+    "league_trophy_rank_yearly": 16,
     "league_trophy_rank_alltime": 25,
     "league_trophy_decks_yearly": 75,
     "league_trophy_decks_alltime": 79
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-2110991",
+      "tournament": "Pauper League",
+      "date": "2026-08-21",
+      "player": "TomatoCheese",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-1910991",
       "tournament": "Pauper League",
@@ -350,20 +364,6 @@
       ],
       "record": "1-4",
       "final_rank": 30,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-2212848161",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-22",
-      "player": "saidin.raken",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
     }

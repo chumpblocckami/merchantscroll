@@ -2,10 +2,10 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 291,
-    "league_entries": 140,
-    "league_trophies": 140,
-    "league_trophies_yearly": 134,
+    "total_entries": 293,
+    "league_entries": 142,
+    "league_trophies": 142,
+    "league_trophies_yearly": 136,
     "challenge_appearances": 126,
     "challenge_wins": 514,
     "challenge_losses": 325,
@@ -337,25 +337,10 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-challenge-32-2026-08-1412851647",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-14",
-      "player": "Samueland03",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "8-1",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1410991",
+      "site_name": "pauper-league-2026-08-1510991",
       "tournament": "Pauper League",
-      "date": "2026-08-14",
-      "player": "Valimoth",
+      "date": "2026-08-15",
+      "player": "Scherben",
       "colors": [
         "G",
         "R",
@@ -367,17 +352,32 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-challenge-32-2026-08-1312851637",
+      "site_name": "pauper-league-2026-08-1510991",
+      "tournament": "Pauper League",
+      "date": "2026-08-15",
+      "player": "Scherben",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-1412851647",
       "tournament": "Pauper Challenge 32",
-      "date": "2026-08-13",
+      "date": "2026-08-14",
       "player": "Samueland03",
       "colors": [
         "G",
         "R",
         "U"
       ],
-      "record": "3-3",
-      "final_rank": 22,
+      "record": "8-1",
+      "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
     }
