@@ -2,19 +2,19 @@
   "archetype": "Bogles",
   "slug": "bogles",
   "stats": {
-    "total_entries": 276,
+    "total_entries": 277,
     "league_entries": 108,
     "league_trophies": 108,
     "league_trophies_yearly": 37,
-    "challenge_appearances": 159,
-    "challenge_wins": 618,
-    "challenge_losses": 416,
+    "challenge_appearances": 160,
+    "challenge_wins": 620,
+    "challenge_losses": 420,
     "irl_top8": 3,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 33,
     "league_trophy_rank_alltime": 33,
-    "league_trophy_decks_yearly": 74,
-    "league_trophy_decks_alltime": 78
+    "league_trophy_decks_yearly": 75,
+    "league_trophy_decks_alltime": 79
   },
   "recent_entries": [
     {
@@ -74,6 +74,21 @@
       ],
       "record": "3-3",
       "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0312850801",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-06",
+      "player": "hockeybro26",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "2-4",
+      "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -376,21 +391,6 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1912847695",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-18",
-      "player": "ArtemisNix",
-      "colors": [
-        "G",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -411,11 +411,11 @@
       "count": 11
     },
     {
-      "player": "JuaKi",
-      "count": 8
+      "player": "hockeybro26",
+      "count": 9
     },
     {
-      "player": "hockeybro26",
+      "player": "JuaKi",
       "count": 8
     },
     {

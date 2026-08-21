@@ -2,19 +2,19 @@
   "archetype": "Dimir Control",
   "slug": "dimir-control",
   "stats": {
-    "total_entries": 170,
+    "total_entries": 171,
     "league_entries": 114,
     "league_trophies": 114,
     "league_trophies_yearly": 67,
-    "challenge_appearances": 52,
-    "challenge_wins": 174,
-    "challenge_losses": 147,
+    "challenge_appearances": 53,
+    "challenge_wins": 177,
+    "challenge_losses": 150,
     "irl_top8": 3,
     "challenge_win_pct": 54,
     "league_trophy_rank_yearly": 27,
     "league_trophy_rank_alltime": 30,
-    "league_trophy_decks_yearly": 74,
-    "league_trophy_decks_alltime": 78
+    "league_trophy_decks_yearly": 75,
+    "league_trophy_decks_alltime": 79
   },
   "recent_entries": [
     {
@@ -73,6 +73,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0312850801",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-06",
+      "player": "_Abijhavs_",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 16,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-0512850801",
@@ -359,27 +373,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1112844295",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-11",
-      "player": "SpockVidaLoka",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 21,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "_Abijhavs_",
-      "count": 47
+      "count": 48
     },
     {
       "player": "andredoriaa",

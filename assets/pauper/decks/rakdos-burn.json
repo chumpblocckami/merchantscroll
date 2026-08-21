@@ -2,19 +2,19 @@
   "archetype": "Rakdos Burn",
   "slug": "rakdos-burn",
   "stats": {
-    "total_entries": 14,
+    "total_entries": 15,
     "league_entries": 8,
     "league_trophies": 8,
     "league_trophies_yearly": 8,
-    "challenge_appearances": 6,
-    "challenge_wins": 24,
-    "challenge_losses": 14,
+    "challenge_appearances": 7,
+    "challenge_wins": 28,
+    "challenge_losses": 16,
     "irl_top8": 0,
-    "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 50,
-    "league_trophy_rank_alltime": 54,
-    "league_trophy_decks_yearly": 74,
-    "league_trophy_decks_alltime": 78
+    "challenge_win_pct": 64,
+    "league_trophy_rank_yearly": 51,
+    "league_trophy_rank_alltime": 55,
+    "league_trophy_decks_yearly": 75,
+    "league_trophy_decks_alltime": 79
   },
   "recent_entries": [
     {
@@ -113,6 +113,21 @@
       ],
       "record": "5-2",
       "final_rank": 17,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0312850801",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-06",
+      "player": "grajtow",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 13,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -220,7 +235,7 @@
   "top_pilots": [
     {
       "player": "grajtow",
-      "count": 3
+      "count": 4
     },
     {
       "player": "Captain_Tsubasa",

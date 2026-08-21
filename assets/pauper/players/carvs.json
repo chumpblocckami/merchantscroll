@@ -3,17 +3,17 @@
   "display_name": "carvs",
   "irl_name": null,
   "stats": {
-    "total_entries": 175,
-    "league_trophies": 117,
-    "league_trophies_yearly": 54,
+    "total_entries": 176,
+    "league_trophies": 118,
+    "league_trophies_yearly": 55,
     "challenge_wins": 219,
     "challenge_losses": 150,
     "irl_top8": 0,
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 4,
-    "league_trophy_rank_alltime": 4,
-    "league_trophy_players_yearly": 1458,
-    "league_trophy_players_alltime": 2147
+    "league_trophy_rank_alltime": 3,
+    "league_trophy_players_yearly": 1475,
+    "league_trophy_players_alltime": 2162
   },
   "favorite_decks": [
     {
@@ -39,6 +39,10 @@
     {
       "archetype": "Mono Blue Faeries",
       "count": 2
+    },
+    {
+      "archetype": "GRUW",
+      "count": 1
     },
     {
       "archetype": "Pingers",
@@ -86,6 +90,23 @@
       "archetype": "Mono Blue Terror",
       "colors": [
         "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1810991",
+      "tournament": "Pauper League",
+      "date": "2026-08-18",
+      "player": "carvs",
+      "archetype": "",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -378,20 +399,6 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-06-1812844831",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-18",
-      "player": "carvs",
-      "archetype": "Mono Blue Terror",
-      "colors": [
-        "U"
-      ],
-      "record": "6-1",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2312844831",
       "tournament": "Pauper Challenge 32",
       "date": "2026-06-18",
       "player": "carvs",
