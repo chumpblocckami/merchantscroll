@@ -2,10 +2,10 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 698,
-    "league_entries": 381,
-    "league_trophies": 381,
-    "league_trophies_yearly": 191,
+    "total_entries": 700,
+    "league_entries": 383,
+    "league_trophies": 383,
+    "league_trophies_yearly": 193,
     "challenge_appearances": 279,
     "challenge_wins": 1074,
     "challenge_losses": 709,
@@ -56,6 +56,33 @@
       "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2110991",
+      "tournament": "Pauper League",
+      "date": "2026-08-21",
+      "player": "DB_MurkPie",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2110991",
+      "tournament": "Pauper League",
+      "date": "2026-08-21",
+      "player": "JackDimir",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-2012852725",
@@ -318,32 +345,6 @@
       ],
       "record": "3-4",
       "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0712850811",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-07",
-      "player": "bafusVIII",
-      "colors": [
-        "W"
-      ],
-      "record": "7-2",
-      "final_rank": 2,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0312850801",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-06",
-      "player": "bafusVIII",
-      "colors": [
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 14,
       "source": "mtgo",
       "type": "challenge"
     }
