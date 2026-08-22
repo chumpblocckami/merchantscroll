@@ -2,19 +2,19 @@
   "archetype": "Mono Blue Faeries",
   "slug": "mono-blue-faeries",
   "stats": {
-    "total_entries": 643,
+    "total_entries": 645,
     "league_entries": 360,
     "league_trophies": 360,
     "league_trophies_yearly": 134,
-    "challenge_appearances": 253,
-    "challenge_wins": 1050,
-    "challenge_losses": 637,
+    "challenge_appearances": 255,
+    "challenge_wins": 1061,
+    "challenge_losses": 642,
     "irl_top8": 14,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 15,
     "league_trophy_rank_alltime": 11,
-    "league_trophy_decks_yearly": 74,
-    "league_trophy_decks_alltime": 78
+    "league_trophy_decks_yearly": 75,
+    "league_trophy_decks_alltime": 79
   },
   "recent_entries": [
     {
@@ -118,6 +118,32 @@
       ],
       "record": "9-0",
       "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-1612851713",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-19",
+      "player": "barff",
+      "colors": [
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-1612851713",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-19",
+      "player": "yuxiaoyu",
+      "colors": [
+        "U"
+      ],
+      "record": "6-3",
+      "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -315,38 +341,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1510991",
-      "tournament": "Pauper League",
-      "date": "2026-08-15",
-      "player": "barff",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1412851647",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-14",
-      "player": "DomoArigatoR",
-      "colors": [
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "barff",
-      "count": 102
+      "count": 103
     },
     {
       "player": "Guii_Machado",

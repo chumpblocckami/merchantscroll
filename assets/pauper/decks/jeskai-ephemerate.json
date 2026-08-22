@@ -2,19 +2,19 @@
   "archetype": "Jeskai Ephemerate",
   "slug": "jeskai-ephemerate",
   "stats": {
-    "total_entries": 452,
+    "total_entries": 453,
     "league_entries": 250,
     "league_trophies": 250,
     "league_trophies_yearly": 186,
-    "challenge_appearances": 171,
-    "challenge_wins": 716,
-    "challenge_losses": 412,
+    "challenge_appearances": 172,
+    "challenge_wins": 721,
+    "challenge_losses": 414,
     "irl_top8": 13,
-    "challenge_win_pct": 63,
+    "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 10,
     "league_trophy_rank_alltime": 15,
-    "league_trophy_decks_yearly": 74,
-    "league_trophy_decks_alltime": 78
+    "league_trophy_decks_yearly": 75,
+    "league_trophy_decks_alltime": 79
   },
   "recent_entries": [
     {
@@ -76,6 +76,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-1612851713",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-19",
+      "player": "pepeteam",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-1912851713",
@@ -384,21 +399,6 @@
       "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1212851620",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-12",
-      "player": "pepeteam",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "1-2",
-      "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -427,11 +427,11 @@
       "count": 11
     },
     {
-      "player": "DarkPattaman",
-      "count": 10
+      "player": "pepeteam",
+      "count": 11
     },
     {
-      "player": "pepeteam",
+      "player": "DarkPattaman",
       "count": 10
     },
     {

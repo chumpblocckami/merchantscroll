@@ -2,19 +2,19 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 294,
-    "league_entries": 141,
-    "league_trophies": 141,
-    "league_trophies_yearly": 135,
-    "challenge_appearances": 128,
-    "challenge_wins": 523,
-    "challenge_losses": 329,
+    "total_entries": 299,
+    "league_entries": 142,
+    "league_trophies": 142,
+    "league_trophies_yearly": 136,
+    "challenge_appearances": 132,
+    "challenge_wins": 537,
+    "challenge_losses": 339,
     "irl_top8": 12,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 14,
     "league_trophy_rank_alltime": 26,
-    "league_trophy_decks_yearly": 74,
-    "league_trophy_decks_alltime": 78
+    "league_trophy_decks_yearly": 75,
+    "league_trophy_decks_alltime": 79
   },
   "recent_entries": [
     {
@@ -72,6 +72,80 @@
       ],
       "record": "4-3",
       "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2010991",
+      "tournament": "Pauper League",
+      "date": "2026-08-20",
+      "player": "forse",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-1612851713",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-19",
+      "player": "GzusReturned",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 20,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-1612851713",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-19",
+      "player": "Samueland03",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 12,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-1612851713",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-19",
+      "player": "discoverN",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-1612851713",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-19",
+      "player": "k9inthetardis",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -306,79 +380,6 @@
       "final_rank": 4,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1512851662",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-15",
-      "player": "kuldothared",
-      "colors": [
-        "G"
-      ],
-      "record": "2-3",
-      "final_rank": 28,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1512851662",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-15",
-      "player": "mehanske",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1510991",
-      "tournament": "Pauper League",
-      "date": "2026-08-15",
-      "player": "Scherben",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1510991",
-      "tournament": "Pauper League",
-      "date": "2026-08-15",
-      "player": "Scherben",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1412851647",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-14",
-      "player": "Samueland03",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "8-1",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -415,12 +416,12 @@
       "count": 6
     },
     {
-      "player": "giggimille",
+      "player": "Samueland03",
       "count": 6
     },
     {
-      "player": "Samueland03",
-      "count": 5
+      "player": "giggimille",
+      "count": 6
     }
   ]
 }
