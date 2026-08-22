@@ -2,21 +2,34 @@
   "archetype": "Mono Black",
   "slug": "mono-black",
   "stats": {
-    "total_entries": 2,
+    "total_entries": 3,
     "league_entries": 1,
     "league_trophies": 1,
     "league_trophies_yearly": 1,
-    "challenge_appearances": 1,
-    "challenge_wins": 5,
-    "challenge_losses": 2,
+    "challenge_appearances": 2,
+    "challenge_wins": 7,
+    "challenge_losses": 6,
     "irl_top8": 0,
-    "challenge_win_pct": 71,
+    "challenge_win_pct": 54,
     "league_trophy_rank_yearly": 69,
     "league_trophy_rank_alltime": 76,
     "league_trophy_decks_yearly": 75,
     "league_trophy_decks_alltime": 79
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-2212852738",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-22",
+      "player": "Frabarza",
+      "colors": [
+        "B"
+      ],
+      "record": "2-4",
+      "final_rank": 30,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-1612851681",
       "tournament": "Pauper Challenge 32",
@@ -48,7 +61,7 @@
   "top_pilots": [
     {
       "player": "Frabarza",
-      "count": 1
+      "count": 2
     },
     {
       "player": "sirhempsalot",
