@@ -2,10 +2,10 @@
   "archetype": "Jund Wildfire",
   "slug": "jund-wildfire",
   "stats": {
-    "total_entries": 1412,
-    "league_entries": 587,
-    "league_trophies": 587,
-    "league_trophies_yearly": 266,
+    "total_entries": 1413,
+    "league_entries": 588,
+    "league_trophies": 588,
+    "league_trophies_yearly": 267,
     "challenge_appearances": 690,
     "challenge_wins": 2769,
     "challenge_losses": 1749,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 79
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-2210991",
+      "tournament": "Pauper League",
+      "date": "2026-08-22",
+      "player": "Kingcreeper",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-2112852730",
       "tournament": "Pauper Challenge 32",
@@ -374,21 +389,6 @@
       ],
       "record": "5-2",
       "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1312851637",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-13",
-      "player": "_blaze66",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 16,
       "source": "mtgo",
       "type": "challenge"
     }
