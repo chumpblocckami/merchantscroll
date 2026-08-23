@@ -3,11 +3,11 @@
   "display_name": "discoverN",
   "irl_name": null,
   "stats": {
-    "total_entries": 119,
+    "total_entries": 120,
     "league_trophies": 4,
     "league_trophies_yearly": 0,
-    "challenge_wins": 512,
-    "challenge_losses": 230,
+    "challenge_wins": 516,
+    "challenge_losses": 232,
     "irl_top8": 0,
     "challenge_win_pct": 69,
     "league_trophy_rank_yearly": null,
@@ -30,7 +30,7 @@
     },
     {
       "archetype": "Monster Tron",
-      "count": 3
+      "count": 4
     }
   ],
   "recent_entries": [
@@ -46,6 +46,21 @@
       ],
       "record": "4-2",
       "final_rank": 15,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-1312851713",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-19",
+      "player": "discoverN",
+      "archetype": "Monster Tron",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -375,20 +390,6 @@
       ],
       "record": "5-2",
       "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1012844841",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-19",
-      "player": "discoverN",
-      "archetype": "Mono Blue Terror",
-      "colors": [
-        "U"
-      ],
-      "record": "5-3",
-      "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
     }

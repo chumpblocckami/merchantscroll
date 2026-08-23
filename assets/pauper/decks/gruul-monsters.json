@@ -2,12 +2,12 @@
   "archetype": "Gruul Monsters",
   "slug": "gruul-monsters",
   "stats": {
-    "total_entries": 402,
+    "total_entries": 403,
     "league_entries": 225,
     "league_trophies": 225,
     "league_trophies_yearly": 80,
-    "challenge_appearances": 149,
-    "challenge_wins": 550,
+    "challenge_appearances": 150,
+    "challenge_wins": 559,
     "challenge_losses": 387,
     "irl_top8": 21,
     "challenge_win_pct": 59,
@@ -115,6 +115,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-1312851713",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-19",
+      "player": "Niederschatten",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "9-0",
+      "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-1612851713",
@@ -344,20 +358,6 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-07-1612847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "PrimoShow1",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-3",
-      "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1712847682",
       "tournament": "Pauper Challenge 32",
       "date": "2026-07-17",
       "player": "PrimoShow1",

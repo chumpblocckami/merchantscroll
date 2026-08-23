@@ -2,13 +2,13 @@
   "archetype": "Jeskai Ephemerate",
   "slug": "jeskai-ephemerate",
   "stats": {
-    "total_entries": 456,
+    "total_entries": 457,
     "league_entries": 251,
     "league_trophies": 251,
     "league_trophies_yearly": 187,
-    "challenge_appearances": 174,
-    "challenge_wins": 727,
-    "challenge_losses": 420,
+    "challenge_appearances": 175,
+    "challenge_wins": 732,
+    "challenge_losses": 422,
     "irl_top8": 13,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 10,
@@ -121,6 +121,21 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-1312851713",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-19",
+      "player": "pepeteam",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-1612851713",
@@ -382,22 +397,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1312851637",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-13",
-      "player": "Univerce",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-2",
-      "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -423,7 +422,7 @@
     },
     {
       "player": "pepeteam",
-      "count": 12
+      "count": 13
     },
     {
       "player": "Mikhathara1994",
