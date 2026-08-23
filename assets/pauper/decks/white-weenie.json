@@ -2,10 +2,10 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 701,
-    "league_entries": 383,
-    "league_trophies": 383,
-    "league_trophies_yearly": 193,
+    "total_entries": 703,
+    "league_entries": 385,
+    "league_trophies": 385,
+    "league_trophies_yearly": 195,
     "challenge_appearances": 280,
     "challenge_wins": 1077,
     "challenge_losses": 712,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 9,
     "league_trophy_rank_alltime": 9,
-    "league_trophy_decks_yearly": 75,
-    "league_trophy_decks_alltime": 79
+    "league_trophy_decks_yearly": 76,
+    "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
     {
@@ -22,6 +22,33 @@
       "tournament": "Pauper League",
       "date": "2026-08-23",
       "player": "LucasKet",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2210991",
+      "tournament": "Pauper League",
+      "date": "2026-08-22",
+      "player": "pavesito",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2210991",
+      "tournament": "Pauper League",
+      "date": "2026-08-22",
+      "player": "wolf777",
       "colors": [
         "W"
       ],
@@ -322,32 +349,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1010855",
-      "tournament": "Pauper League",
-      "date": "2026-08-10",
-      "player": "W8_4_it23",
-      "colors": [
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0812851113",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-09",
-      "player": "MichaelArmando",
-      "colors": [
-        "W"
-      ],
-      "record": "3-4",
-      "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
