@@ -2,10 +2,10 @@
   "archetype": "Mono Red Madness",
   "slug": "mono-red-madness",
   "stats": {
-    "total_entries": 2223,
-    "league_entries": 1195,
-    "league_trophies": 1195,
-    "league_trophies_yearly": 623,
+    "total_entries": 2231,
+    "league_entries": 1203,
+    "league_trophies": 1203,
+    "league_trophies_yearly": 631,
     "challenge_appearances": 887,
     "challenge_wins": 3517,
     "challenge_losses": 2248,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 1,
     "league_trophy_rank_alltime": 1,
-    "league_trophy_decks_yearly": 75,
-    "league_trophy_decks_alltime": 79
+    "league_trophy_decks_yearly": 76,
+    "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
     {
@@ -213,6 +213,32 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-08-2110991",
+      "tournament": "Pauper League",
+      "date": "2026-08-21",
+      "player": "GilbertoAntunes",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2110991",
+      "tournament": "Pauper League",
+      "date": "2026-08-21",
+      "player": "Hatsunelol",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-08-2012852725",
       "tournament": "Pauper Challenge 32",
       "date": "2026-08-20",
@@ -315,32 +341,6 @@
       "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1312851713",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-19",
-      "player": "boom_bust",
-      "colors": [
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1612851713",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-19",
-      "player": "Tamarindo",
-      "colors": [
-        "R"
-      ],
-      "record": "5-2",
-      "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -350,7 +350,7 @@
     },
     {
       "player": "boom_bust",
-      "count": 56
+      "count": 57
     },
     {
       "player": "Syns",
@@ -374,11 +374,11 @@
     },
     {
       "player": "hyuma",
-      "count": 30
+      "count": 31
     },
     {
       "player": "GilbertoAntunes",
-      "count": 28
+      "count": 30
     },
     {
       "player": "carvs",

@@ -2,19 +2,19 @@
   "archetype": "Azorius Familiars",
   "slug": "azorius-familiars",
   "stats": {
-    "total_entries": 326,
-    "league_entries": 178,
-    "league_trophies": 178,
-    "league_trophies_yearly": 91,
+    "total_entries": 328,
+    "league_entries": 180,
+    "league_trophies": 180,
+    "league_trophies_yearly": 93,
     "challenge_appearances": 118,
     "challenge_wins": 491,
     "challenge_losses": 294,
     "irl_top8": 23,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 23,
-    "league_trophy_rank_alltime": 22,
-    "league_trophy_decks_yearly": 75,
-    "league_trophy_decks_alltime": 79
+    "league_trophy_rank_yearly": 22,
+    "league_trophy_rank_alltime": 21,
+    "league_trophy_decks_yearly": 76,
+    "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
     {
@@ -22,6 +22,34 @@
       "tournament": "Pauper League",
       "date": "2026-08-22",
       "player": "Mikibairon96",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2110991",
+      "tournament": "Pauper League",
+      "date": "2026-08-21",
+      "player": "saidin.raken",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1710991",
+      "tournament": "Pauper League",
+      "date": "2026-08-17",
+      "player": "saidin.raken",
       "colors": [
         "U",
         "W"
@@ -346,34 +374,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2112847730",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "Borbs",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "3-2",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2110855",
-      "tournament": "Pauper League",
-      "date": "2026-07-21",
-      "player": "Antillectual",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -383,7 +383,7 @@
     },
     {
       "player": "saidin.raken",
-      "count": 30
+      "count": 32
     },
     {
       "player": "TSPJendrek",
