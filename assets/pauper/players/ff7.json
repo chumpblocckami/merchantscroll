@@ -3,17 +3,17 @@
   "display_name": "ff7",
   "irl_name": null,
   "stats": {
-    "total_entries": 39,
-    "league_trophies": 34,
-    "league_trophies_yearly": 19,
+    "total_entries": 40,
+    "league_trophies": 35,
+    "league_trophies_yearly": 20,
     "challenge_wins": 18,
     "challenge_losses": 9,
     "irl_top8": 0,
     "challenge_win_pct": 67,
-    "league_trophy_rank_yearly": 42,
-    "league_trophy_rank_alltime": 42,
-    "league_trophy_players_yearly": 1469,
-    "league_trophy_players_alltime": 2156
+    "league_trophy_rank_yearly": 39,
+    "league_trophy_rank_alltime": 40,
+    "league_trophy_players_yearly": 1481,
+    "league_trophy_players_alltime": 2167
   },
   "favorite_decks": [
     {
@@ -45,6 +45,10 @@
       "count": 2
     },
     {
+      "archetype": "Flicker Tron",
+      "count": 1
+    },
+    {
       "archetype": "Mono Red Madness",
       "count": 1
     },
@@ -54,6 +58,23 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-1710991",
+      "tournament": "Pauper League",
+      "date": "2026-08-17",
+      "player": "ff7",
+      "archetype": "Flicker Tron",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-2510855",
       "tournament": "Pauper League",
@@ -412,22 +433,6 @@
       "final_rank": 14,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-league-2025-10-199750",
-      "tournament": "pauper-league-2025-10-199750",
-      "date": "2025-10-19",
-      "player": "ff7",
-      "archetype": "Selesnya Gates",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

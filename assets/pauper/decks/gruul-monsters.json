@@ -2,10 +2,10 @@
   "archetype": "Gruul Monsters",
   "slug": "gruul-monsters",
   "stats": {
-    "total_entries": 401,
-    "league_entries": 223,
-    "league_trophies": 223,
-    "league_trophies_yearly": 78,
+    "total_entries": 403,
+    "league_entries": 225,
+    "league_trophies": 225,
+    "league_trophies_yearly": 80,
     "challenge_appearances": 150,
     "challenge_wins": 559,
     "challenge_losses": 387,
@@ -163,6 +163,34 @@
       "tournament": "Pauper League",
       "date": "2026-08-18",
       "player": "AndradeRJ",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1710991",
+      "tournament": "Pauper League",
+      "date": "2026-08-17",
+      "player": "benjamin13",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1710991",
+      "tournament": "Pauper League",
+      "date": "2026-08-17",
+      "player": "benjamin13",
       "colors": [
         "G",
         "R"
@@ -341,34 +369,6 @@
       "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1712847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "PrimoShow1",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-3",
-      "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1812847682",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-17",
-      "player": "PrimoShow1",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-3",
-      "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -401,11 +401,11 @@
       "count": 8
     },
     {
-      "player": "Vesuvan_Doppelganger",
-      "count": 6
+      "player": "benjamin13",
+      "count": 8
     },
     {
-      "player": "benjamin13",
+      "player": "Vesuvan_Doppelganger",
       "count": 6
     },
     {
