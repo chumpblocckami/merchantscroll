@@ -3,11 +3,11 @@
   "display_name": "TheJunkDog",
   "irl_name": null,
   "stats": {
-    "total_entries": 5,
+    "total_entries": 6,
     "league_trophies": 4,
     "league_trophies_yearly": 4,
-    "challenge_wins": 5,
-    "challenge_losses": 2,
+    "challenge_wins": 10,
+    "challenge_losses": 4,
     "irl_top8": 0,
     "challenge_win_pct": 71,
     "league_trophy_rank_yearly": 422,
@@ -17,21 +17,38 @@
   },
   "favorite_decks": [
     {
+      "archetype": "Grixis Affinity",
+      "count": 2
+    },
+    {
       "archetype": "Jund Wildfire",
       "count": 2
     },
     {
       "archetype": "Mono White Heroic",
       "count": 2
-    },
-    {
-      "archetype": "Grixis Affinity",
-      "count": 1
     }
   ],
   "recent_entries": [
     {
       "site_name": "pauper-challenge-32-2026-08-2312852755",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-23",
+      "player": "TheJunkDog",
+      "archetype": "Grixis Affinity",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-2412852755",
       "tournament": "Pauper Challenge 32",
       "date": "2026-08-23",
       "player": "TheJunkDog",

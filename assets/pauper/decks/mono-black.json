@@ -2,15 +2,15 @@
   "archetype": "Mono Black",
   "slug": "mono-black",
   "stats": {
-    "total_entries": 3,
+    "total_entries": 4,
     "league_entries": 1,
     "league_trophies": 1,
     "league_trophies_yearly": 1,
-    "challenge_appearances": 2,
-    "challenge_wins": 7,
-    "challenge_losses": 6,
+    "challenge_appearances": 3,
+    "challenge_wins": 12,
+    "challenge_losses": 8,
     "irl_top8": 0,
-    "challenge_win_pct": 54,
+    "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 70,
     "league_trophy_rank_alltime": 77,
     "league_trophy_decks_yearly": 76,
@@ -27,6 +27,20 @@
       ],
       "record": "2-4",
       "final_rank": 30,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0612851681",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-16",
+      "player": "sirhempsalot",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -65,7 +79,7 @@
     },
     {
       "player": "sirhempsalot",
-      "count": 1
+      "count": 2
     }
   ]
 }

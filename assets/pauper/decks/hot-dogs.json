@@ -2,15 +2,15 @@
   "archetype": "Hot Dogs",
   "slug": "hot-dogs",
   "stats": {
-    "total_entries": 17,
+    "total_entries": 19,
     "league_entries": 13,
     "league_trophies": 13,
     "league_trophies_yearly": 10,
-    "challenge_appearances": 3,
-    "challenge_wins": 8,
-    "challenge_losses": 9,
+    "challenge_appearances": 5,
+    "challenge_wins": 13,
+    "challenge_losses": 15,
     "irl_top8": 1,
-    "challenge_win_pct": 47,
+    "challenge_win_pct": 46,
     "league_trophy_rank_yearly": 48,
     "league_trophy_rank_alltime": 47,
     "league_trophy_decks_yearly": 76,
@@ -47,6 +47,34 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-08-2012852725",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-20",
+      "player": "xmelanx",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 27,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-2112852725",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-20",
+      "player": "LBBL",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "2-3",
+      "final_rank": 28,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-2112852725",
       "tournament": "Pauper Challenge 32",
       "date": "2026-08-20",
       "player": "xmelanx",
@@ -263,11 +291,19 @@
       "count": 2
     },
     {
+      "player": "LBBL",
+      "count": 2
+    },
+    {
       "player": "Poily",
       "count": 2
     },
     {
       "player": "TooTallTim",
+      "count": 2
+    },
+    {
+      "player": "xmelanx",
       "count": 2
     },
     {
@@ -279,19 +315,11 @@
       "count": 1
     },
     {
-      "player": "LBBL",
-      "count": 1
-    },
-    {
       "player": "Nadachi Shinji",
       "count": 1
     },
     {
       "player": "PR0boszcz",
-      "count": 1
-    },
-    {
-      "player": "PinoIo_Cosmico",
       "count": 1
     }
   ]

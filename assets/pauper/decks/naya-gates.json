@@ -2,13 +2,13 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 347,
+    "total_entries": 349,
     "league_entries": 119,
     "league_trophies": 119,
     "league_trophies_yearly": 112,
-    "challenge_appearances": 171,
-    "challenge_wins": 703,
-    "challenge_losses": 412,
+    "challenge_appearances": 173,
+    "challenge_wins": 711,
+    "challenge_losses": 417,
     "irl_top8": 19,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 20,
@@ -29,6 +29,36 @@
       ],
       "record": "4-2",
       "final_rank": 15,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-2112852725",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-20",
+      "player": "Malpyrocky",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 15,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0612851681",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-16",
+      "player": "Kalggot",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "4-3",
+      "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
     },
@@ -360,36 +390,6 @@
       "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0212849483",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-02",
-      "player": "wand_thief",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0210855",
-      "tournament": "Pauper League",
-      "date": "2026-08-02",
-      "player": "Shika",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -411,7 +411,7 @@
     },
     {
       "player": "Malpyrocky",
-      "count": 7
+      "count": 8
     },
     {
       "player": "John1111",

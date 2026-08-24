@@ -3,10 +3,10 @@
   "display_name": "barff",
   "irl_name": null,
   "stats": {
-    "total_entries": 242,
+    "total_entries": 243,
     "league_trophies": 151,
     "league_trophies_yearly": 68,
-    "challenge_wins": 447,
+    "challenge_wins": 456,
     "challenge_losses": 160,
     "irl_top8": 0,
     "challenge_win_pct": 74,
@@ -22,7 +22,7 @@
     },
     {
       "archetype": "Mono Blue Faeries",
-      "count": 104
+      "count": 105
     },
     {
       "archetype": "Mono Blue Terror",
@@ -70,6 +70,20 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-08-2012852725",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-20",
+      "player": "barff",
+      "archetype": "Mono Blue Faeries",
+      "colors": [
+        "U"
+      ],
+      "record": "9-0",
+      "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-2112852725",
       "tournament": "Pauper Challenge 32",
       "date": "2026-08-20",
       "player": "barff",
@@ -395,21 +409,6 @@
       "final_rank": 5,
       "source": "mtgo",
       "type": "showcase"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-2412848188",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-24",
-      "player": "barff",
-      "archetype": "Dimir Faeries",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

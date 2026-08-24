@@ -3,11 +3,11 @@
   "display_name": "Pafru",
   "irl_name": null,
   "stats": {
-    "total_entries": 48,
+    "total_entries": 50,
     "league_trophies": 15,
     "league_trophies_yearly": 4,
-    "challenge_wins": 125,
-    "challenge_losses": 83,
+    "challenge_wins": 132,
+    "challenge_losses": 88,
     "irl_top8": 0,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 407,
@@ -37,11 +37,15 @@
       "count": 4
     },
     {
+      "archetype": "White Weenie",
+      "count": 4
+    },
+    {
       "archetype": "Rakdos Affinity",
       "count": 3
     },
     {
-      "archetype": "White Weenie",
+      "archetype": "Spy Combo",
       "count": 3
     },
     {
@@ -50,10 +54,6 @@
     },
     {
       "archetype": "Dimir Control",
-      "count": 2
-    },
-    {
-      "archetype": "Gardens",
       "count": 2
     }
   ],
@@ -74,7 +74,37 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-08-2412852755",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-23",
+      "player": "Pafru",
+      "archetype": "White Weenie",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 27,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-08-2012852725",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-20",
+      "player": "Pafru",
+      "archetype": "Spy Combo",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "4-2",
+      "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-2112852725",
       "tournament": "Pauper Challenge 32",
       "date": "2026-08-20",
       "player": "Pafru",
@@ -408,37 +438,6 @@
       ],
       "record": "4-2",
       "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-10-0512818146",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-10-05",
-      "player": "Pafru",
-      "archetype": "Esper Affinity",
-      "colors": [
-        "B",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-09-2812816552",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-09-28",
-      "player": "Pafru",
-      "archetype": "Elves",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "3-2",
-      "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
     }
