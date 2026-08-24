@@ -2,10 +2,10 @@
   "archetype": "Spy Combo",
   "slug": "spy-combo",
   "stats": {
-    "total_entries": 835,
-    "league_entries": 505,
-    "league_trophies": 505,
-    "league_trophies_yearly": 227,
+    "total_entries": 836,
+    "league_entries": 506,
+    "league_trophies": 506,
+    "league_trophies_yearly": 228,
     "challenge_appearances": 270,
     "challenge_wins": 1101,
     "challenge_losses": 683,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 79
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-2410991",
+      "tournament": "Pauper League",
+      "date": "2026-08-24",
+      "player": "Gradki",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-2312852755",
       "tournament": "Pauper Challenge 32",
@@ -350,20 +364,6 @@
       ],
       "record": "6-2",
       "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1612851681",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-16",
-      "player": "nkanz",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-2",
-      "final_rank": 14,
       "source": "mtgo",
       "type": "challenge"
     }
