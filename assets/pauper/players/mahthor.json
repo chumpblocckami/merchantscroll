@@ -3,17 +3,17 @@
   "display_name": "MahThor",
   "irl_name": null,
   "stats": {
-    "total_entries": 26,
-    "league_trophies": 9,
-    "league_trophies_yearly": 3,
+    "total_entries": 25,
+    "league_trophies": 8,
+    "league_trophies_yearly": 2,
     "challenge_wins": 50,
     "challenge_losses": 40,
     "irl_top8": 0,
     "challenge_win_pct": 56,
-    "league_trophy_rank_yearly": 503,
-    "league_trophy_rank_alltime": 296,
-    "league_trophy_players_yearly": 1479,
-    "league_trophy_players_alltime": 2165
+    "league_trophy_rank_yearly": 715,
+    "league_trophy_rank_alltime": 343,
+    "league_trophy_players_yearly": 1476,
+    "league_trophy_players_alltime": 2162
   },
   "favorite_decks": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "archetype": "Gruul Ponza",
-      "count": 4
+      "count": 3
     },
     {
       "archetype": "Rakdos Madness",
@@ -73,21 +73,6 @@
       "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1910991",
-      "tournament": "Pauper League",
-      "date": "2026-08-19",
-      "player": "MahThor",
-      "archetype": "Gruul Ponza",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-08-1610991",
@@ -382,6 +367,20 @@
       ],
       "record": "4-2",
       "final_rank": 15,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2025-09-2012815135",
+      "tournament": "Pauper Challenge 32",
+      "date": "2025-09-20",
+      "player": "MahThor",
+      "archetype": "Mono Red Madness",
+      "colors": [
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 7,
       "source": "mtgo",
       "type": "challenge"
     }
