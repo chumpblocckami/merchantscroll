@@ -2,10 +2,10 @@
   "archetype": "Spy Combo",
   "slug": "spy-combo",
   "stats": {
-    "total_entries": 838,
-    "league_entries": 508,
-    "league_trophies": 508,
-    "league_trophies_yearly": 230,
+    "total_entries": 839,
+    "league_entries": 509,
+    "league_trophies": 509,
+    "league_trophies_yearly": 231,
     "challenge_appearances": 270,
     "challenge_wins": 1101,
     "challenge_losses": 683,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-2410991",
+      "tournament": "Pauper League",
+      "date": "2026-08-24",
+      "player": "Gradki",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-2410991",
       "tournament": "Pauper League",
@@ -350,20 +364,6 @@
       ],
       "record": "5-2",
       "final_rank": 14,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1612851681",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-16",
-      "player": "SambucoDeCulo",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "6-3",
-      "final_rank": 4,
       "source": "mtgo",
       "type": "challenge"
     }
