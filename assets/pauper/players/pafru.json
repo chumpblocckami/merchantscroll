@@ -3,11 +3,11 @@
   "display_name": "Pafru",
   "irl_name": null,
   "stats": {
-    "total_entries": 47,
+    "total_entries": 48,
     "league_trophies": 15,
     "league_trophies_yearly": 4,
-    "challenge_wins": 122,
-    "challenge_losses": 80,
+    "challenge_wins": 125,
+    "challenge_losses": 83,
     "irl_top8": 0,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 407,
@@ -41,6 +41,10 @@
       "count": 3
     },
     {
+      "archetype": "White Weenie",
+      "count": 3
+    },
+    {
       "archetype": "Boros Synth",
       "count": 2
     },
@@ -51,13 +55,24 @@
     {
       "archetype": "Gardens",
       "count": 2
-    },
-    {
-      "archetype": "Orzhov Refurbished",
-      "count": 2
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-2312852755",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-23",
+      "player": "Pafru",
+      "archetype": "White Weenie",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 27,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-2012852725",
       "tournament": "Pauper Challenge 32",
@@ -424,20 +439,6 @@
       ],
       "record": "3-2",
       "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-09-2612816520",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-09-26",
-      "player": "Pafru",
-      "archetype": "Mono Blue Faeries",
-      "colors": [
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
     }

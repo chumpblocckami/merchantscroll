@@ -2,21 +2,35 @@
   "archetype": "Blue Turbofog",
   "slug": "blue-turbofog",
   "stats": {
-    "total_entries": 8,
+    "total_entries": 9,
     "league_entries": 4,
     "league_trophies": 4,
     "league_trophies_yearly": 4,
-    "challenge_appearances": 3,
-    "challenge_wins": 12,
-    "challenge_losses": 8,
+    "challenge_appearances": 4,
+    "challenge_wins": 17,
+    "challenge_losses": 10,
     "irl_top8": 0,
-    "challenge_win_pct": 60,
+    "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 53,
     "league_trophy_rank_alltime": 60,
     "league_trophy_decks_yearly": 76,
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-2312852755",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-23",
+      "player": "WizardHat",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-0410855",
       "tournament": "Pauper League",
@@ -149,6 +163,10 @@
     },
     {
       "player": "IvernOP",
+      "count": 1
+    },
+    {
+      "player": "WizardHat",
       "count": 1
     }
   ]

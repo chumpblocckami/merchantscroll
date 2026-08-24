@@ -3,13 +3,13 @@
   "display_name": "WizardHat",
   "irl_name": null,
   "stats": {
-    "total_entries": 1,
+    "total_entries": 2,
     "league_trophies": 1,
     "league_trophies_yearly": 0,
-    "challenge_wins": 0,
-    "challenge_losses": 0,
+    "challenge_wins": 5,
+    "challenge_losses": 2,
     "irl_top8": 0,
-    "challenge_win_pct": null,
+    "challenge_win_pct": 71,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": 2134,
     "league_trophy_players_yearly": 1484,
@@ -17,11 +17,30 @@
   },
   "favorite_decks": [
     {
+      "archetype": "Blue Turbofog",
+      "count": 1
+    },
+    {
       "archetype": "Simic Fog",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-2312852755",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-23",
+      "player": "WizardHat",
+      "archetype": "Blue Turbofog",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2025-05-029081",
       "tournament": "pauper-league-2025-05-029081",
