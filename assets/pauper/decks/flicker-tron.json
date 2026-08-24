@@ -2,10 +2,10 @@
   "archetype": "Flicker Tron",
   "slug": "flicker-tron",
   "stats": {
-    "total_entries": 294,
-    "league_entries": 160,
-    "league_trophies": 160,
-    "league_trophies_yearly": 84,
+    "total_entries": 296,
+    "league_entries": 162,
+    "league_trophies": 162,
+    "league_trophies_yearly": 86,
     "challenge_appearances": 119,
     "challenge_wins": 488,
     "challenge_losses": 307,
@@ -18,6 +18,23 @@
   },
   "recent_entries": [
     {
+      "site_name": "pauper-league-2026-08-2410991",
+      "tournament": "Pauper League",
+      "date": "2026-08-24",
+      "player": "Alleyezonme",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-08-2312852755",
       "tournament": "Pauper Challenge 32",
       "date": "2026-08-23",
@@ -78,6 +95,21 @@
       "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2310991",
+      "tournament": "Pauper League",
+      "date": "2026-08-23",
+      "player": "magnetic",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-2212852738",
@@ -372,43 +404,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0612851681",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-16",
-      "player": "lumely",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "6-3",
-      "final_rank": 2,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0612851681",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-16",
-      "player": "ziofrancone",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-3",
-      "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "Alleyezonme",
-      "count": 67
+      "count": 68
     },
     {
       "player": "ziofrancone",
