@@ -2,10 +2,10 @@
   "archetype": "Izzet Control",
   "slug": "izzet-control",
   "stats": {
-    "total_entries": 223,
-    "league_entries": 138,
-    "league_trophies": 138,
-    "league_trophies_yearly": 63,
+    "total_entries": 224,
+    "league_entries": 139,
+    "league_trophies": 139,
+    "league_trophies_yearly": 64,
     "challenge_appearances": 74,
     "challenge_wins": 301,
     "challenge_losses": 186,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 29,
     "league_trophy_rank_alltime": 27,
-    "league_trophy_decks_yearly": 75,
-    "league_trophy_decks_alltime": 79
+    "league_trophy_decks_yearly": 76,
+    "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
     {
@@ -35,6 +35,20 @@
       "site_name": "pauper-league-2026-08-2110991",
       "tournament": "Pauper League",
       "date": "2026-08-21",
+      "player": "roger__estrada",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1810991",
+      "tournament": "Pauper League",
+      "date": "2026-08-18",
       "player": "roger__estrada",
       "colors": [
         "R",
@@ -354,20 +368,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2712845668",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-27",
-      "player": "Kirblinxy",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -377,7 +377,7 @@
     },
     {
       "player": "roger__estrada",
-      "count": 22
+      "count": 23
     },
     {
       "player": "Brvnx",
