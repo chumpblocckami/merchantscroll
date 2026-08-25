@@ -2,16 +2,16 @@
   "archetype": "Azorius Familiars",
   "slug": "azorius-familiars",
   "stats": {
-    "total_entries": 330,
-    "league_entries": 179,
-    "league_trophies": 179,
-    "league_trophies_yearly": 92,
+    "total_entries": 331,
+    "league_entries": 180,
+    "league_trophies": 180,
+    "league_trophies_yearly": 93,
     "challenge_appearances": 121,
     "challenge_wins": 506,
     "challenge_losses": 302,
     "irl_top8": 23,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 23,
+    "league_trophy_rank_yearly": 22,
     "league_trophy_rank_alltime": 21,
     "league_trophy_decks_yearly": 76,
     "league_trophy_decks_alltime": 80
@@ -31,6 +31,20 @@
       "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2410991",
+      "tournament": "Pauper League",
+      "date": "2026-08-24",
+      "player": "Gn42",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-2312852755",
@@ -362,20 +376,6 @@
       "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-07-2310855",
-      "tournament": "Pauper League",
-      "date": "2026-07-23",
-      "player": "saidin.raken",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
