@@ -3,17 +3,17 @@
   "display_name": "forse",
   "irl_name": null,
   "stats": {
-    "total_entries": 7,
-    "league_trophies": 4,
-    "league_trophies_yearly": 4,
+    "total_entries": 8,
+    "league_trophies": 5,
+    "league_trophies_yearly": 5,
     "challenge_wins": 14,
     "challenge_losses": 6,
     "irl_top8": 0,
     "challenge_win_pct": 70,
-    "league_trophy_rank_yearly": 366,
-    "league_trophy_rank_alltime": 649,
+    "league_trophy_rank_yearly": 269,
+    "league_trophy_rank_alltime": 534,
     "league_trophy_players_yearly": 1484,
-    "league_trophy_players_alltime": 2168
+    "league_trophy_players_alltime": 2169
   },
   "favorite_decks": [
     {
@@ -30,6 +30,10 @@
     },
     {
       "archetype": "Dimir Faeries",
+      "count": 1
+    },
+    {
+      "archetype": "Monster Tron",
       "count": 1
     }
   ],
@@ -65,6 +69,22 @@
       "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2010991",
+      "tournament": "Pauper League",
+      "date": "2026-08-20",
+      "player": "forse",
+      "archetype": "Monster Tron",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-06-1310636",
