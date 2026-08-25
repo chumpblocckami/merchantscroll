@@ -3,17 +3,17 @@
   "display_name": "sai199orz",
   "irl_name": null,
   "stats": {
-    "total_entries": 48,
-    "league_trophies": 24,
-    "league_trophies_yearly": 11,
+    "total_entries": 49,
+    "league_trophies": 25,
+    "league_trophies_yearly": 12,
     "challenge_wins": 102,
     "challenge_losses": 61,
     "irl_top8": 0,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 103,
-    "league_trophy_rank_alltime": 82,
-    "league_trophy_players_yearly": 1489,
-    "league_trophy_players_alltime": 2173
+    "league_trophy_rank_yearly": 97,
+    "league_trophy_rank_alltime": 78,
+    "league_trophy_players_yearly": 1490,
+    "league_trophy_players_alltime": 2174
   },
   "favorite_decks": [
     {
@@ -41,6 +41,10 @@
       "count": 1
     },
     {
+      "archetype": "Flicker Tron",
+      "count": 1
+    },
+    {
       "archetype": "Gruul Monsters",
       "count": 1
     },
@@ -51,13 +55,26 @@
     {
       "archetype": "Orzhov Refurbished",
       "count": 1
-    },
-    {
-      "archetype": "Rakdos Madness",
-      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-2510991",
+      "tournament": "Pauper League",
+      "date": "2026-08-25",
+      "player": "sai199orz",
+      "archetype": "Flicker Tron",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-1710991",
       "tournament": "Pauper League",
@@ -420,21 +437,6 @@
       "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-10-179750",
-      "tournament": "pauper-league-2025-10-179750",
-      "date": "2025-10-17",
-      "player": "sai199orz",
-      "archetype": "Gruul Ponza",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }
