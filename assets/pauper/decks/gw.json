@@ -2,21 +2,35 @@
   "archetype": "GW",
   "slug": "gw",
   "stats": {
-    "total_entries": 1,
-    "league_entries": 1,
-    "league_trophies": 1,
-    "league_trophies_yearly": 1,
+    "total_entries": 2,
+    "league_entries": 2,
+    "league_trophies": 2,
+    "league_trophies_yearly": 2,
     "challenge_appearances": 0,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 69,
-    "league_trophy_rank_alltime": 76,
+    "league_trophy_rank_yearly": 63,
+    "league_trophy_rank_alltime": 68,
     "league_trophy_decks_yearly": 76,
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-2510991",
+      "tournament": "Pauper League",
+      "date": "2026-08-25",
+      "player": "dbagan13",
+      "colors": [
+        "G",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-2210991",
       "tournament": "Pauper League",
@@ -35,7 +49,7 @@
   "top_pilots": [
     {
       "player": "dbagan13",
-      "count": 1
+      "count": 2
     }
   ]
 }
