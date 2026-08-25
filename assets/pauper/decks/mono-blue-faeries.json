@@ -2,10 +2,10 @@
   "archetype": "Mono Blue Faeries",
   "slug": "mono-blue-faeries",
   "stats": {
-    "total_entries": 661,
-    "league_entries": 365,
-    "league_trophies": 365,
-    "league_trophies_yearly": 139,
+    "total_entries": 662,
+    "league_entries": 366,
+    "league_trophies": 366,
+    "league_trophies_yearly": 140,
     "challenge_appearances": 266,
     "challenge_wins": 1112,
     "challenge_losses": 668,
@@ -22,6 +22,19 @@
       "tournament": "Pauper League",
       "date": "2026-08-25",
       "player": "LucasACR",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2510991",
+      "tournament": "Pauper League",
+      "date": "2026-08-25",
+      "player": "ZoooK",
       "colors": [
         "U"
       ],
@@ -326,19 +339,6 @@
       ],
       "record": "5-2",
       "final_rank": 6,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1612851713",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-19",
-      "player": "yuxiaoyu",
-      "colors": [
-        "U"
-      ],
-      "record": "6-3",
-      "final_rank": 2,
       "source": "mtgo",
       "type": "challenge"
     }
