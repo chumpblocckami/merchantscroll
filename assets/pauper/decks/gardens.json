@@ -2,10 +2,10 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 745,
-    "league_entries": 363,
-    "league_trophies": 363,
-    "league_trophies_yearly": 169,
+    "total_entries": 746,
+    "league_entries": 364,
+    "league_trophies": 364,
+    "league_trophies_yearly": 170,
     "challenge_appearances": 331,
     "challenge_wins": 1365,
     "challenge_losses": 803,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-2510991",
+      "tournament": "Pauper League",
+      "date": "2026-08-25",
+      "player": "Aster17",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-2412852764",
       "tournament": "Pauper Challenge 32",
@@ -363,19 +377,6 @@
       "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0512850801",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-06",
-      "player": "__Noob__",
-      "colors": [
-        "B"
-      ],
-      "record": "4-2",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -393,7 +394,7 @@
     },
     {
       "player": "Aster17",
-      "count": 24
+      "count": 25
     },
     {
       "player": "True-Name-Nemesis",

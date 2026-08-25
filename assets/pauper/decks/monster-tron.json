@@ -2,10 +2,10 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 313,
-    "league_entries": 143,
-    "league_trophies": 143,
-    "league_trophies_yearly": 137,
+    "total_entries": 314,
+    "league_entries": 144,
+    "league_trophies": 144,
+    "league_trophies_yearly": 138,
     "challenge_appearances": 145,
     "challenge_wins": 582,
     "challenge_losses": 375,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-2510991",
+      "tournament": "Pauper League",
+      "date": "2026-08-25",
+      "player": "MedeirosFT",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-2412852764",
       "tournament": "Pauper Challenge 32",
@@ -364,21 +379,6 @@
       ],
       "record": "4-2",
       "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1912851713",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-19",
-      "player": "k9inthetardis",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
     }
