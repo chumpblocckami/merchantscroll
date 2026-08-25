@@ -2,10 +2,10 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 312,
-    "league_entries": 142,
-    "league_trophies": 142,
-    "league_trophies_yearly": 136,
+    "total_entries": 311,
+    "league_entries": 141,
+    "league_trophies": 141,
+    "league_trophies_yearly": 135,
     "challenge_appearances": 145,
     "challenge_wins": 582,
     "challenge_losses": 375,
@@ -31,21 +31,6 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2410991",
-      "tournament": "Pauper League",
-      "date": "2026-08-24",
-      "player": "Syns",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-2312852755",
@@ -381,6 +366,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-1810991",
+      "tournament": "Pauper League",
+      "date": "2026-08-18",
+      "player": "LydiaTheHuman",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -397,10 +396,6 @@
       "count": 10
     },
     {
-      "player": "Syns",
-      "count": 8
-    },
-    {
       "player": "brick_",
       "count": 8
     },
@@ -410,6 +405,10 @@
     },
     {
       "player": "Samueland03",
+      "count": 7
+    },
+    {
+      "player": "Syns",
       "count": 7
     },
     {
