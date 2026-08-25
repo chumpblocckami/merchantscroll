@@ -2,13 +2,13 @@
   "archetype": "Jund Wildfire",
   "slug": "jund-wildfire",
   "stats": {
-    "total_entries": 1425,
-    "league_entries": 589,
-    "league_trophies": 589,
-    "league_trophies_yearly": 268,
-    "challenge_appearances": 701,
-    "challenge_wins": 2813,
-    "challenge_losses": 1778,
+    "total_entries": 1423,
+    "league_entries": 586,
+    "league_trophies": 586,
+    "league_trophies_yearly": 265,
+    "challenge_appearances": 702,
+    "challenge_wins": 2817,
+    "challenge_losses": 1780,
     "irl_top8": 63,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 5,
@@ -18,6 +18,21 @@
   },
   "recent_entries": [
     {
+      "site_name": "pauper-challenge-32-2026-08-2412852764",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-24",
+      "player": "Pilot83",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-08-2312852755",
       "tournament": "Pauper Challenge 32",
       "date": "2026-08-23",
@@ -76,21 +91,6 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2310991",
-      "tournament": "Pauper League",
-      "date": "2026-08-23",
-      "player": "ffijalkowski",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-2212852738",
@@ -196,36 +196,6 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2110991",
-      "tournament": "Pauper League",
-      "date": "2026-08-21",
-      "player": "BlueMatthew",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2110991",
-      "tournament": "Pauper League",
-      "date": "2026-08-21",
-      "player": "Ruthison",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-2012852725",
@@ -391,6 +361,36 @@
       "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0612851681",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-16",
+      "player": "_blaze66",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "4-3",
+      "final_rank": 20,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-1612851681",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-16",
+      "player": "Pilot83",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -423,12 +423,12 @@
       "count": 20
     },
     {
-      "player": "wolf777",
+      "player": "Pilot83",
       "count": 19
     },
     {
-      "player": "Pilot83",
-      "count": 18
+      "player": "wolf777",
+      "count": 19
     },
     {
       "player": "outZEROo",

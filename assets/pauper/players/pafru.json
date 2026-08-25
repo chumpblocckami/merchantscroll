@@ -3,17 +3,17 @@
   "display_name": "Pafru",
   "irl_name": null,
   "stats": {
-    "total_entries": 50,
+    "total_entries": 51,
     "league_trophies": 15,
     "league_trophies_yearly": 4,
-    "challenge_wins": 132,
-    "challenge_losses": 88,
+    "challenge_wins": 134,
+    "challenge_losses": 92,
     "irl_top8": 0,
-    "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 407,
+    "challenge_win_pct": 59,
+    "league_trophy_rank_yearly": 404,
     "league_trophy_rank_alltime": 157,
-    "league_trophy_players_yearly": 1484,
-    "league_trophy_players_alltime": 2169
+    "league_trophy_players_yearly": 1476,
+    "league_trophy_players_alltime": 2163
   },
   "favorite_decks": [
     {
@@ -41,6 +41,10 @@
       "count": 4
     },
     {
+      "archetype": "Boros Synth",
+      "count": 3
+    },
+    {
       "archetype": "Rakdos Affinity",
       "count": 3
     },
@@ -49,15 +53,26 @@
       "count": 3
     },
     {
-      "archetype": "Boros Synth",
-      "count": 2
-    },
-    {
       "archetype": "Dimir Control",
       "count": 2
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-2412852764",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-24",
+      "player": "Pafru",
+      "archetype": "Boros Synth",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "record": "2-4",
+      "final_rank": 28,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-2312852755",
       "tournament": "Pauper Challenge 32",
@@ -422,22 +437,6 @@
       ],
       "record": "3-3",
       "final_rank": 21,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-10-1012819509",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-10-10",
-      "player": "Pafru",
-      "archetype": "Esper Affinity",
-      "colors": [
-        "B",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
     }
