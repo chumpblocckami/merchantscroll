@@ -2,10 +2,10 @@
   "archetype": "Flicker Tron",
   "slug": "flicker-tron",
   "stats": {
-    "total_entries": 295,
-    "league_entries": 160,
-    "league_trophies": 160,
-    "league_trophies_yearly": 84,
+    "total_entries": 294,
+    "league_entries": 159,
+    "league_trophies": 159,
+    "league_trophies_yearly": 83,
     "challenge_appearances": 120,
     "challenge_wins": 491,
     "challenge_losses": 310,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 24,
     "league_trophy_rank_alltime": 24,
-    "league_trophy_decks_yearly": 76,
-    "league_trophy_decks_alltime": 80
+    "league_trophy_decks_yearly": 75,
+    "league_trophy_decks_alltime": 79
   },
   "recent_entries": [
     {
@@ -126,36 +126,6 @@
       "type": "challenge"
     },
     {
-      "site_name": "pauper-league-2026-08-2210991",
-      "tournament": "Pauper League",
-      "date": "2026-08-22",
-      "player": "Garibaby",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2210991",
-      "tournament": "Pauper League",
-      "date": "2026-08-22",
-      "player": "ILCAMPO2",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
       "site_name": "pauper-challenge-32-2026-08-2112852730",
       "tournament": "Pauper Challenge 32",
       "date": "2026-08-21",
@@ -169,6 +139,23 @@
       "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2110991",
+      "tournament": "Pauper League",
+      "date": "2026-08-21",
+      "player": "ovelha_aL",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-2012852725",
@@ -400,6 +387,21 @@
       ],
       "record": "6-3",
       "final_rank": 2,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0612851681",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-16",
+      "player": "ziofrancone",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-3",
+      "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
     }

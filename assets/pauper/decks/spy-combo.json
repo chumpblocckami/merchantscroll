@@ -2,10 +2,10 @@
   "archetype": "Spy Combo",
   "slug": "spy-combo",
   "stats": {
-    "total_entries": 838,
-    "league_entries": 506,
-    "league_trophies": 506,
-    "league_trophies_yearly": 228,
+    "total_entries": 839,
+    "league_entries": 507,
+    "league_trophies": 507,
+    "league_trophies_yearly": 229,
     "challenge_appearances": 272,
     "challenge_wins": 1106,
     "challenge_losses": 690,
@@ -13,8 +13,8 @@
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 7,
     "league_trophy_rank_alltime": 6,
-    "league_trophy_decks_yearly": 76,
-    "league_trophy_decks_alltime": 80
+    "league_trophy_decks_yearly": 75,
+    "league_trophy_decks_alltime": 79
   },
   "recent_entries": [
     {
@@ -115,6 +115,20 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2110991",
+      "tournament": "Pauper League",
+      "date": "2026-08-21",
+      "player": "PabloRR",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-2012852725",
@@ -351,20 +365,6 @@
       ],
       "record": "5-2",
       "final_rank": 14,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1612851681",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-16",
-      "player": "SambucoDeCulo",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "6-3",
-      "final_rank": 4,
       "source": "mtgo",
       "type": "challenge"
     }
