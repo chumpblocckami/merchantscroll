@@ -3,17 +3,17 @@
   "display_name": "Jinjaa",
   "irl_name": null,
   "stats": {
-    "total_entries": 37,
-    "league_trophies": 9,
-    "league_trophies_yearly": 7,
+    "total_entries": 36,
+    "league_trophies": 8,
+    "league_trophies_yearly": 6,
     "challenge_wins": 104,
     "challenge_losses": 76,
     "irl_top8": 0,
     "challenge_win_pct": 58,
-    "league_trophy_rank_yearly": 175,
-    "league_trophy_rank_alltime": 294,
-    "league_trophy_players_yearly": 1494,
-    "league_trophy_players_alltime": 2177
+    "league_trophy_rank_yearly": 214,
+    "league_trophy_rank_alltime": 337,
+    "league_trophy_players_yearly": 1487,
+    "league_trophy_players_alltime": 2171
   },
   "favorite_decks": [
     {
@@ -49,10 +49,6 @@
       "count": 1
     },
     {
-      "archetype": "Mono Red Madness",
-      "count": 1
-    },
-    {
       "archetype": "White Weenie",
       "count": 1
     }
@@ -68,20 +64,6 @@
         "R",
         "U",
         "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2310991",
-      "tournament": "Pauper League",
-      "date": "2026-08-23",
-      "player": "Jinjaa",
-      "archetype": "Mono Red Madness",
-      "colors": [
-        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -437,6 +419,21 @@
       ],
       "record": "4-2",
       "final_rank": 17,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-01-0312828177",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-01-03",
+      "player": "Jinjaa",
+      "archetype": "Mono Red Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
     }
