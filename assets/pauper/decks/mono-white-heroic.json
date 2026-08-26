@@ -2,10 +2,10 @@
   "archetype": "Mono White Heroic",
   "slug": "mono-white-heroic",
   "stats": {
-    "total_entries": 162,
-    "league_entries": 112,
-    "league_trophies": 112,
-    "league_trophies_yearly": 46,
+    "total_entries": 163,
+    "league_entries": 113,
+    "league_trophies": 113,
+    "league_trophies_yearly": 47,
     "challenge_appearances": 45,
     "challenge_wins": 180,
     "challenge_losses": 119,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-2110991",
+      "tournament": "Pauper League",
+      "date": "2026-08-21",
+      "player": "yombonski",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-1510991",
       "tournament": "Pauper League",
@@ -333,19 +347,6 @@
       ],
       "record": "7-2",
       "final_rank": 4,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-2612836740",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-26",
-      "player": "Keez",
-      "colors": [
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
     }
