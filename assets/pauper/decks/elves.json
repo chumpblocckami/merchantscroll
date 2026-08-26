@@ -2,10 +2,10 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1334,
-    "league_entries": 685,
-    "league_trophies": 685,
-    "league_trophies_yearly": 303,
+    "total_entries": 1333,
+    "league_entries": 684,
+    "league_trophies": 684,
+    "league_trophies_yearly": 302,
     "challenge_appearances": 577,
     "challenge_wins": 2324,
     "challenge_losses": 1455,
@@ -35,19 +35,6 @@
       "tournament": "Pauper League",
       "date": "2026-08-25",
       "player": "Khann",
-      "colors": [
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2410991",
-      "tournament": "Pauper League",
-      "date": "2026-08-24",
-      "player": "Huskyman20035",
       "colors": [
         "G"
       ],
@@ -345,6 +332,19 @@
       ],
       "record": "5-2",
       "final_rank": 17,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-1612851681",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-16",
+      "player": "CarrodaPolicia",
+      "colors": [
+        "G"
+      ],
+      "record": "5-2",
+      "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
     }
