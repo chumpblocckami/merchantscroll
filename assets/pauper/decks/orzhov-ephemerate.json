@@ -2,21 +2,35 @@
   "archetype": "Orzhov Ephemerate",
   "slug": "orzhov-ephemerate",
   "stats": {
-    "total_entries": 1,
-    "league_entries": 1,
-    "league_trophies": 1,
-    "league_trophies_yearly": 1,
+    "total_entries": 2,
+    "league_entries": 2,
+    "league_trophies": 2,
+    "league_trophies_yearly": 2,
     "challenge_appearances": 0,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 73,
-    "league_trophy_rank_alltime": 79,
+    "league_trophy_rank_yearly": 65,
+    "league_trophy_rank_alltime": 70,
     "league_trophy_decks_yearly": 76,
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-2610991",
+      "tournament": "Pauper League",
+      "date": "2026-08-26",
+      "player": "elle992",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-1010855",
       "tournament": "Pauper League",
@@ -34,6 +48,10 @@
     }
   ],
   "top_pilots": [
+    {
+      "player": "elle992",
+      "count": 1
+    },
     {
       "player": "wolf777",
       "count": 1
