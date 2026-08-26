@@ -2,13 +2,13 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 314,
+    "total_entries": 316,
     "league_entries": 144,
     "league_trophies": 144,
     "league_trophies_yearly": 138,
-    "challenge_appearances": 145,
-    "challenge_wins": 582,
-    "challenge_losses": 375,
+    "challenge_appearances": 147,
+    "challenge_wins": 590,
+    "challenge_losses": 380,
     "irl_top8": 12,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 15,
@@ -17,6 +17,35 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-2612853162",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-26",
+      "player": "ABCD_1234",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-2612853162",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-26",
+      "player": "discoverN",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-2510991",
       "tournament": "Pauper League",
@@ -352,35 +381,6 @@
       "final_rank": 20,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1912851713",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-19",
-      "player": "Samueland03",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1912851713",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-19",
-      "player": "discoverN",
-      "colors": [
-        "G",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -409,12 +409,12 @@
       "count": 8
     },
     {
-      "player": "Samueland03",
+      "player": "ABCD_1234",
       "count": 7
     },
     {
-      "player": "ABCD_1234",
-      "count": 6
+      "player": "Samueland03",
+      "count": 7
     },
     {
       "player": "Casanova_13",

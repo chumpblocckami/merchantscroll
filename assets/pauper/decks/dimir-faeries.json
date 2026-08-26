@@ -2,13 +2,13 @@
   "archetype": "Dimir Faeries",
   "slug": "dimir-faeries",
   "stats": {
-    "total_entries": 713,
+    "total_entries": 715,
     "league_entries": 352,
     "league_trophies": 352,
     "league_trophies_yearly": 224,
-    "challenge_appearances": 327,
-    "challenge_wins": 1329,
-    "challenge_losses": 838,
+    "challenge_appearances": 329,
+    "challenge_wins": 1337,
+    "challenge_losses": 844,
     "irl_top8": 10,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 8,
@@ -17,6 +17,34 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-2612853162",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-26",
+      "player": "Beicodegeia",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-3",
+      "final_rank": 4,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-2612853162",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-26",
+      "player": "yuxiaoyu",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 21,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-2610991",
       "tournament": "Pauper League",
@@ -338,34 +366,6 @@
       "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0512850801",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-06",
-      "player": "yuxiaoyu",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0612850801",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-06",
-      "player": "yuxiaoyu",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -379,7 +379,7 @@
     },
     {
       "player": "Beicodegeia",
-      "count": 26
+      "count": 27
     },
     {
       "player": "Brvnx",
@@ -406,8 +406,8 @@
       "count": 11
     },
     {
-      "player": "andredoriaa",
-      "count": 10
+      "player": "yuxiaoyu",
+      "count": 11
     }
   ]
 }
