@@ -2,10 +2,10 @@
   "archetype": "Dimir Control",
   "slug": "dimir-control",
   "stats": {
-    "total_entries": 173,
-    "league_entries": 116,
-    "league_trophies": 116,
-    "league_trophies_yearly": 69,
+    "total_entries": 174,
+    "league_entries": 117,
+    "league_trophies": 117,
+    "league_trophies_yearly": 70,
     "challenge_appearances": 53,
     "challenge_wins": 177,
     "challenge_losses": 150,
@@ -22,6 +22,20 @@
       "tournament": "Pauper League",
       "date": "2026-08-26",
       "player": "_Abijhavs_",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2610991",
+      "tournament": "Pauper League",
+      "date": "2026-08-26",
+      "player": "yuxiaoyu",
       "colors": [
         "B",
         "U"
@@ -357,20 +371,6 @@
       ],
       "record": "6-3",
       "final_rank": 23,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1312844320",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-13",
-      "player": "True-Name-Nemesis",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 13,
       "source": "mtgo",
       "type": "challenge"
     }
