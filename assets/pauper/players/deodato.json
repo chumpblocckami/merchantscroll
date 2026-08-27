@@ -3,17 +3,17 @@
   "display_name": "Deodato",
   "irl_name": null,
   "stats": {
-    "total_entries": 26,
-    "league_trophies": 8,
-    "league_trophies_yearly": 4,
+    "total_entries": 27,
+    "league_trophies": 9,
+    "league_trophies_yearly": 5,
     "challenge_wins": 63,
     "challenge_losses": 41,
     "irl_top8": 0,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 360,
-    "league_trophy_rank_alltime": 330,
-    "league_trophy_players_yearly": 1496,
-    "league_trophy_players_alltime": 2179
+    "league_trophy_rank_yearly": 268,
+    "league_trophy_rank_alltime": 286,
+    "league_trophy_players_yearly": 1484,
+    "league_trophy_players_alltime": 2170
   },
   "favorite_decks": [
     {
@@ -27,9 +27,28 @@
     {
       "archetype": "Mono Red Madness",
       "count": 1
+    },
+    {
+      "archetype": "Mono Red Rally",
+      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-2710991",
+      "tournament": "Pauper League",
+      "date": "2026-08-27",
+      "player": "Deodato",
+      "archetype": "Mono Red Rally",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-0410855",
       "tournament": "Pauper League",
@@ -366,20 +385,6 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-05-209081",
-      "tournament": "pauper-league-2025-05-209081",
-      "date": "2025-05-20",
-      "player": "Deodato",
-      "archetype": "White Weenie",
-      "colors": [
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

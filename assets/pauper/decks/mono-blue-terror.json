@@ -2,10 +2,10 @@
   "archetype": "Mono Blue Terror",
   "slug": "mono-blue-terror",
   "stats": {
-    "total_entries": 2042,
-    "league_entries": 908,
-    "league_trophies": 908,
-    "league_trophies_yearly": 433,
+    "total_entries": 2035,
+    "league_entries": 901,
+    "league_trophies": 901,
+    "league_trophies_yearly": 426,
     "challenge_appearances": 1011,
     "challenge_wins": 4175,
     "challenge_losses": 2507,
@@ -17,6 +17,19 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-2710991",
+      "tournament": "Pauper League",
+      "date": "2026-08-27",
+      "player": "PABLO17",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-2612853162",
       "tournament": "Pauper Challenge 32",
@@ -139,32 +152,6 @@
       "tournament": "Pauper League",
       "date": "2026-08-26",
       "player": "vivorilla93",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2510991",
-      "tournament": "Pauper League",
-      "date": "2026-08-25",
-      "player": "Corzalan",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2510991",
-      "tournament": "Pauper League",
-      "date": "2026-08-25",
-      "player": "kozilex72",
       "colors": [
         "U"
       ],
@@ -339,6 +326,19 @@
       ],
       "record": "5-2",
       "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-2312852755",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-23",
+      "player": "Purgatory_01",
+      "colors": [
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 14,
       "source": "mtgo",
       "type": "challenge"
     }

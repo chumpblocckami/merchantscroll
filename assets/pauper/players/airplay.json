@@ -3,25 +3,39 @@
   "display_name": "airplay",
   "irl_name": null,
   "stats": {
-    "total_entries": 50,
-    "league_trophies": 33,
-    "league_trophies_yearly": 18,
+    "total_entries": 51,
+    "league_trophies": 34,
+    "league_trophies_yearly": 19,
     "challenge_wins": 55,
     "challenge_losses": 43,
     "irl_top8": 0,
     "challenge_win_pct": 56,
-    "league_trophy_rank_yearly": 48,
-    "league_trophy_rank_alltime": 46,
-    "league_trophy_players_yearly": 1496,
-    "league_trophy_players_alltime": 2179
+    "league_trophy_rank_yearly": 44,
+    "league_trophy_rank_alltime": 41,
+    "league_trophy_players_yearly": 1484,
+    "league_trophy_players_alltime": 2170
   },
   "favorite_decks": [
     {
       "archetype": "Mono Black Sacrifice",
-      "count": 50
+      "count": 51
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-2710991",
+      "tournament": "Pauper League",
+      "date": "2026-08-27",
+      "player": "airplay",
+      "archetype": "Mono Black Sacrifice",
+      "colors": [
+        "B"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-1312851713",
       "tournament": "Pauper Challenge 32",
@@ -357,20 +371,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-2012835979",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-20",
-      "player": "airplay",
-      "archetype": "Mono Black Sacrifice",
-      "colors": [
-        "B"
-      ],
-      "record": "3-2",
-      "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }
