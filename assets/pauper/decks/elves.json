@@ -2,10 +2,10 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1331,
-    "league_entries": 682,
-    "league_trophies": 682,
-    "league_trophies_yearly": 300,
+    "total_entries": 1333,
+    "league_entries": 684,
+    "league_trophies": 684,
+    "league_trophies_yearly": 302,
     "challenge_appearances": 577,
     "challenge_wins": 2324,
     "challenge_losses": 1455,
@@ -159,6 +159,34 @@
       "final_rank": 13,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2110991",
+      "tournament": "Pauper League",
+      "date": "2026-08-21",
+      "player": "Boquinha",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2110991",
+      "tournament": "Pauper League",
+      "date": "2026-08-21",
+      "player": "jwaves",
+      "colors": [
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-08-2010991",
@@ -319,34 +347,6 @@
       "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1612851681",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-16",
-      "player": "pokerswizard",
-      "colors": [
-        "G"
-      ],
-      "record": "5-2",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1610991",
-      "tournament": "Pauper League",
-      "date": "2026-08-16",
-      "player": "Boquinha",
-      "colors": [
-        "G",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -356,7 +356,7 @@
     },
     {
       "player": "Boquinha",
-      "count": 84
+      "count": 85
     },
     {
       "player": "newbarola",

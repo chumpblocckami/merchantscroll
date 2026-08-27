@@ -2,10 +2,10 @@
   "archetype": "Grixis Affinity",
   "slug": "grixis-affinity",
   "stats": {
-    "total_entries": 91,
-    "league_entries": 33,
-    "league_trophies": 33,
-    "league_trophies_yearly": 33,
+    "total_entries": 92,
+    "league_entries": 34,
+    "league_trophies": 34,
+    "league_trophies_yearly": 34,
     "challenge_appearances": 55,
     "challenge_wins": 247,
     "challenge_losses": 134,
@@ -217,6 +217,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-08-2110991",
+      "tournament": "Pauper League",
+      "date": "2026-08-21",
+      "player": "seasonofmists",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-08-2012852725",
       "tournament": "Pauper Challenge 32",
       "date": "2026-08-20",
@@ -380,21 +395,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1710991",
-      "tournament": "Pauper League",
-      "date": "2026-08-17",
-      "player": "BSMFortyFive",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -404,7 +404,7 @@
     },
     {
       "player": "seasonofmists",
-      "count": 10
+      "count": 11
     },
     {
       "player": "VitorCarvalho01",

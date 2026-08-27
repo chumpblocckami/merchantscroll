@@ -2,21 +2,36 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 746,
-    "league_entries": 364,
-    "league_trophies": 364,
-    "league_trophies_yearly": 170,
+    "total_entries": 747,
+    "league_entries": 365,
+    "league_trophies": 365,
+    "league_trophies_yearly": 171,
     "challenge_appearances": 331,
     "challenge_wins": 1365,
     "challenge_losses": 803,
     "irl_top8": 22,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 12,
-    "league_trophy_rank_alltime": 10,
+    "league_trophy_rank_alltime": 11,
     "league_trophy_decks_yearly": 76,
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-2710991",
+      "tournament": "Pauper League",
+      "date": "2026-08-27",
+      "player": "G-Monteiro",
+      "colors": [
+        "B",
+        "G",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-2610991",
       "tournament": "Pauper League",
@@ -364,19 +379,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0312850801",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-06",
-      "player": "__Noob__",
-      "colors": [
-        "B"
-      ],
-      "record": "4-2",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -401,12 +403,12 @@
       "count": 23
     },
     {
-      "player": "Jace_MTG",
+      "player": "G-Monteiro",
       "count": 16
     },
     {
-      "player": "G-Monteiro",
-      "count": 15
+      "player": "Jace_MTG",
+      "count": 16
     },
     {
       "player": "orbuletto",

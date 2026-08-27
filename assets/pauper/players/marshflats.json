@@ -3,17 +3,17 @@
   "display_name": "MarshFlats",
   "irl_name": null,
   "stats": {
-    "total_entries": 30,
-    "league_trophies": 25,
-    "league_trophies_yearly": 9,
+    "total_entries": 31,
+    "league_trophies": 26,
+    "league_trophies_yearly": 10,
     "challenge_wins": 21,
     "challenge_losses": 8,
     "irl_top8": 0,
     "challenge_win_pct": 72,
-    "league_trophy_rank_yearly": 132,
-    "league_trophy_rank_alltime": 75,
-    "league_trophy_players_yearly": 1484,
-    "league_trophy_players_alltime": 2170
+    "league_trophy_rank_yearly": 116,
+    "league_trophy_rank_alltime": 70,
+    "league_trophy_players_yearly": 1490,
+    "league_trophy_players_alltime": 2174
   },
   "favorite_decks": [
     {
@@ -41,6 +41,10 @@
       "count": 2
     },
     {
+      "archetype": "Boros Synth",
+      "count": 1
+    },
+    {
       "archetype": "Dimir Faeries",
       "count": 1
     },
@@ -51,13 +55,24 @@
     {
       "archetype": "Mono Red Madness",
       "count": 1
-    },
-    {
-      "archetype": "Orzhov Refurbished",
-      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-2710991",
+      "tournament": "Pauper League",
+      "date": "2026-08-27",
+      "player": "MarshFlats",
+      "archetype": "Boros Synth",
+      "colors": [
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-06-0110636",
       "tournament": "Pauper League",
@@ -404,20 +419,6 @@
       "archetype": "Mono Blue Terror",
       "colors": [
         "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2025-07-039366",
-      "tournament": "pauper-league-2025-07-039366",
-      "date": "2025-07-03",
-      "player": "MarshFlats",
-      "archetype": "Mono Black Sacrifice",
-      "colors": [
-        "B"
       ],
       "record": "5-0",
       "final_rank": null,

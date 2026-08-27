@@ -2,16 +2,16 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 705,
-    "league_entries": 382,
-    "league_trophies": 382,
-    "league_trophies_yearly": 192,
+    "total_entries": 707,
+    "league_entries": 384,
+    "league_trophies": 384,
+    "league_trophies_yearly": 194,
     "challenge_appearances": 285,
     "challenge_wins": 1094,
     "challenge_losses": 727,
     "irl_top8": 22,
     "challenge_win_pct": 60,
-    "league_trophy_rank_yearly": 9,
+    "league_trophy_rank_yearly": 10,
     "league_trophy_rank_alltime": 9,
     "league_trophy_decks_yearly": 76,
     "league_trophy_decks_alltime": 80
@@ -126,6 +126,33 @@
       "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2110991",
+      "tournament": "Pauper League",
+      "date": "2026-08-21",
+      "player": "DB_MurkPie",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2110991",
+      "tournament": "Pauper League",
+      "date": "2026-08-21",
+      "player": "JackDimir",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-2012852725",
@@ -325,32 +352,6 @@
       ],
       "record": "2-3",
       "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1312851637",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-13",
-      "player": "fried-liver-attack",
-      "colors": [
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1212851620",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-12",
-      "player": "bafusVIII",
-      "colors": [
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 6,
       "source": "mtgo",
       "type": "challenge"
     }

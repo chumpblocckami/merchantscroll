@@ -2,10 +2,10 @@
   "archetype": "Mono Red Madness",
   "slug": "mono-red-madness",
   "stats": {
-    "total_entries": 2274,
-    "league_entries": 1213,
-    "league_trophies": 1213,
-    "league_trophies_yearly": 641,
+    "total_entries": 2277,
+    "league_entries": 1216,
+    "league_trophies": 1216,
+    "league_trophies_yearly": 644,
     "challenge_appearances": 920,
     "challenge_wins": 3671,
     "challenge_losses": 2327,
@@ -35,6 +35,19 @@
       "tournament": "Pauper League",
       "date": "2026-08-27",
       "player": "pat0presidente",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2710991",
+      "tournament": "Pauper League",
+      "date": "2026-08-27",
+      "player": "syrynnx",
       "colors": [
         "R"
       ],
@@ -328,19 +341,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2410991",
-      "tournament": "Pauper League",
-      "date": "2026-08-24",
-      "player": "GilbertoAntunes",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -378,7 +378,7 @@
     },
     {
       "player": "GilbertoAntunes",
-      "count": 30
+      "count": 31
     },
     {
       "player": "carvs",
