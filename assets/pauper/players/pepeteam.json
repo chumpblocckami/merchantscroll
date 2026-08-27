@@ -3,13 +3,13 @@
   "display_name": "pepeteam",
   "irl_name": null,
   "stats": {
-    "total_entries": 41,
+    "total_entries": 42,
     "league_trophies": 0,
     "league_trophies_yearly": 0,
-    "challenge_wins": 158,
-    "challenge_losses": 87,
+    "challenge_wins": 162,
+    "challenge_losses": 89,
     "irl_top8": 0,
-    "challenge_win_pct": 64,
+    "challenge_win_pct": 65,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": null,
     "league_trophy_players_yearly": 1496,
@@ -22,7 +22,7 @@
     },
     {
       "archetype": "Jeskai Ephemerate",
-      "count": 14
+      "count": 15
     },
     {
       "archetype": "Mono Blue Terror",
@@ -42,6 +42,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-2612853162",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-26",
+      "player": "pepeteam",
+      "archetype": "Jeskai Ephemerate",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-2412852764",
       "tournament": "Pauper Challenge 32",
@@ -407,20 +423,6 @@
       ],
       "record": "4-2",
       "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-2912836784",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-29",
-      "player": "pepeteam",
-      "archetype": "Elves",
-      "colors": [
-        "G"
-      ],
-      "record": "5-2",
-      "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
     }
