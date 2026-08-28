@@ -2,21 +2,51 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 317,
-    "league_entries": 145,
-    "league_trophies": 145,
-    "league_trophies_yearly": 139,
-    "challenge_appearances": 147,
-    "challenge_wins": 590,
-    "challenge_losses": 380,
+    "total_entries": 320,
+    "league_entries": 146,
+    "league_trophies": 146,
+    "league_trophies_yearly": 140,
+    "challenge_appearances": 149,
+    "challenge_wins": 602,
+    "challenge_losses": 384,
     "irl_top8": 12,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 14,
-    "league_trophy_rank_alltime": 26,
+    "league_trophy_rank_alltime": 25,
     "league_trophy_decks_yearly": 76,
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-2712853175",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-27",
+      "player": "PNascimento",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "7-2",
+      "final_rank": 2,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-2712853175",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-27",
+      "player": "ziofrancone",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-2710991",
       "tournament": "Pauper League",
@@ -75,6 +105,21 @@
       "final_rank": 7,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2510991",
+      "tournament": "Pauper League",
+      "date": "2026-08-25",
+      "player": "MedeirosFT",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-2412852764",
@@ -335,50 +380,6 @@
       ],
       "record": "3-3",
       "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1612851713",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-19",
-      "player": "Samueland03",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1612851713",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-19",
-      "player": "discoverN",
-      "colors": [
-        "G",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1612851713",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-19",
-      "player": "k9inthetardis",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
     }

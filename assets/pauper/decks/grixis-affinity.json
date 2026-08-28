@@ -2,13 +2,13 @@
   "archetype": "Grixis Affinity",
   "slug": "grixis-affinity",
   "stats": {
-    "total_entries": 92,
-    "league_entries": 34,
-    "league_trophies": 34,
-    "league_trophies_yearly": 34,
-    "challenge_appearances": 55,
-    "challenge_wins": 247,
-    "challenge_losses": 134,
+    "total_entries": 96,
+    "league_entries": 35,
+    "league_trophies": 35,
+    "league_trophies_yearly": 35,
+    "challenge_appearances": 58,
+    "challenge_wins": 259,
+    "challenge_losses": 141,
     "irl_top8": 0,
     "challenge_win_pct": 65,
     "league_trophy_rank_yearly": 37,
@@ -17,6 +17,51 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-2712853175",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-27",
+      "player": "LuffyDoChapeuDePalha",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-2712853175",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-27",
+      "player": "VitorCarvalho01",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-2712853175",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-27",
+      "player": "kille",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-2612853162",
       "tournament": "Pauper Challenge 32",
@@ -83,6 +128,21 @@
       "tournament": "Pauper League",
       "date": "2026-08-26",
       "player": "in55lackey",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2510991",
+      "tournament": "Pauper League",
+      "date": "2026-08-25",
+      "player": "lucas-lage",
       "colors": [
         "B",
         "R",
@@ -335,72 +395,12 @@
       "final_rank": 22,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1912851713",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-19",
-      "player": "seasonofmists",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1910991",
-      "tournament": "Pauper League",
-      "date": "2026-08-19",
-      "player": "Elfu",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1910991",
-      "tournament": "Pauper League",
-      "date": "2026-08-19",
-      "player": "Pedrothedead",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1810991",
-      "tournament": "Pauper League",
-      "date": "2026-08-18",
-      "player": "Elfu",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "LuffyDoChapeuDePalha",
-      "count": 12
+      "count": 13
     },
     {
       "player": "seasonofmists",
@@ -408,7 +408,7 @@
     },
     {
       "player": "VitorCarvalho01",
-      "count": 6
+      "count": 7
     },
     {
       "player": "FishCombatant",
@@ -423,6 +423,10 @@
       "count": 3
     },
     {
+      "player": "kille",
+      "count": 3
+    },
+    {
       "player": "s8shock",
       "count": 3
     },
@@ -432,10 +436,6 @@
     },
     {
       "player": "DataPusher",
-      "count": 2
-    },
-    {
-      "player": "Digital_Fiakka",
       "count": 2
     }
   ]

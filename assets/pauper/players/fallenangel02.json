@@ -3,25 +3,39 @@
   "display_name": "fallenangel02",
   "irl_name": null,
   "stats": {
-    "total_entries": 2,
-    "league_trophies": 0,
-    "league_trophies_yearly": 0,
-    "challenge_wins": 8,
-    "challenge_losses": 4,
+    "total_entries": 4,
+    "league_trophies": 1,
+    "league_trophies_yearly": 1,
+    "challenge_wins": 12,
+    "challenge_losses": 6,
     "irl_top8": 0,
     "challenge_win_pct": 67,
-    "league_trophy_rank_yearly": null,
-    "league_trophy_rank_alltime": null,
-    "league_trophy_players_yearly": 1490,
-    "league_trophy_players_alltime": 2174
+    "league_trophy_rank_yearly": 1045,
+    "league_trophy_rank_alltime": 1574,
+    "league_trophy_players_yearly": 1499,
+    "league_trophy_players_alltime": 2181
   },
   "favorite_decks": [
     {
       "archetype": "Mono Blue Terror",
-      "count": 2
+      "count": 4
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-2712853175",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-27",
+      "player": "fallenangel02",
+      "archetype": "Mono Blue Terror",
+      "colors": [
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 16,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-2612853162",
       "tournament": "Pauper Challenge 32",
@@ -49,6 +63,20 @@
       "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2310991",
+      "tournament": "Pauper League",
+      "date": "2026-08-23",
+      "player": "fallenangel02",
+      "archetype": "Mono Blue Terror",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ]
 }

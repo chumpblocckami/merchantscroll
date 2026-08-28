@@ -3,22 +3,22 @@
   "display_name": "Aster17",
   "irl_name": null,
   "stats": {
-    "total_entries": 26,
-    "league_trophies": 25,
-    "league_trophies_yearly": 11,
+    "total_entries": 27,
+    "league_trophies": 26,
+    "league_trophies_yearly": 12,
     "challenge_wins": 4,
     "challenge_losses": 3,
     "irl_top8": 0,
     "challenge_win_pct": 57,
-    "league_trophy_rank_yearly": 99,
-    "league_trophy_rank_alltime": 72,
-    "league_trophy_players_yearly": 1490,
-    "league_trophy_players_alltime": 2174
+    "league_trophy_rank_yearly": 93,
+    "league_trophy_rank_alltime": 70,
+    "league_trophy_players_yearly": 1499,
+    "league_trophy_players_alltime": 2181
   },
   "favorite_decks": [
     {
       "archetype": "Gardens",
-      "count": 24
+      "count": 25
     },
     {
       "archetype": "Food Pestilence",
@@ -30,6 +30,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-2510991",
+      "tournament": "Pauper League",
+      "date": "2026-08-25",
+      "player": "Aster17",
+      "archetype": "Gardens",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-07-3110855",
       "tournament": "Pauper League",
@@ -390,21 +405,6 @@
       "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-07-189366",
-      "tournament": "pauper-league-2025-07-189366",
-      "date": "2025-07-18",
-      "player": "Aster17",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

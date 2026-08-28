@@ -3,17 +3,17 @@
   "display_name": "flower270",
   "irl_name": null,
   "stats": {
-    "total_entries": 72,
-    "league_trophies": 58,
-    "league_trophies_yearly": 36,
+    "total_entries": 73,
+    "league_trophies": 59,
+    "league_trophies_yearly": 37,
     "challenge_wins": 56,
     "challenge_losses": 17,
     "irl_top8": 0,
     "challenge_win_pct": 77,
     "league_trophy_rank_yearly": 11,
     "league_trophy_rank_alltime": 18,
-    "league_trophy_players_yearly": 1490,
-    "league_trophy_players_alltime": 2174
+    "league_trophy_players_yearly": 1499,
+    "league_trophy_players_alltime": 2181
   },
   "favorite_decks": [
     {
@@ -45,19 +45,35 @@
       "count": 2
     },
     {
+      "archetype": "Azorius Familiars",
+      "count": 1
+    },
+    {
       "archetype": "Dredge",
       "count": 1
     },
     {
       "archetype": "Flicker Tron",
       "count": 1
-    },
-    {
-      "archetype": "Naya Gates",
-      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-2510991",
+      "tournament": "Pauper League",
+      "date": "2026-08-25",
+      "player": "flower270",
+      "archetype": "Azorius Familiars",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-2410991",
       "tournament": "Pauper League",
@@ -400,20 +416,6 @@
       "final_rank": 13,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-05-0810636",
-      "tournament": "Pauper League",
-      "date": "2026-05-08",
-      "player": "flower270",
-      "archetype": "Mono Blue Terror",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }
