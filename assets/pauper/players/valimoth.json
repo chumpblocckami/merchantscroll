@@ -3,17 +3,17 @@
   "display_name": "Valimoth",
   "irl_name": null,
   "stats": {
-    "total_entries": 46,
-    "league_trophies": 22,
-    "league_trophies_yearly": 12,
+    "total_entries": 47,
+    "league_trophies": 23,
+    "league_trophies_yearly": 13,
     "challenge_wins": 98,
     "challenge_losses": 48,
     "irl_top8": 0,
     "challenge_win_pct": 67,
-    "league_trophy_rank_yearly": 101,
-    "league_trophy_rank_alltime": 97,
-    "league_trophy_players_yearly": 1499,
-    "league_trophy_players_alltime": 2181
+    "league_trophy_rank_yearly": 93,
+    "league_trophy_rank_alltime": 90,
+    "league_trophy_players_yearly": 1503,
+    "league_trophy_players_alltime": 2185
   },
   "favorite_decks": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "archetype": "Spy Combo",
-      "count": 4
+      "count": 5
     },
     {
       "archetype": "Dimir Terror",
@@ -58,6 +58,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-2810991",
+      "tournament": "Pauper League",
+      "date": "2026-08-28",
+      "player": "Valimoth",
+      "archetype": "Spy Combo",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-2710991",
       "tournament": "Pauper League",
@@ -422,20 +437,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-05-2812843381",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-05-28",
-      "player": "Valimoth",
-      "archetype": "Mono Red Madness",
-      "colors": [
-        "R"
-      ],
-      "record": "6-3",
-      "final_rank": 2,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }
