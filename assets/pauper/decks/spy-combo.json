@@ -2,10 +2,10 @@
   "archetype": "Spy Combo",
   "slug": "spy-combo",
   "stats": {
-    "total_entries": 858,
-    "league_entries": 524,
-    "league_trophies": 524,
-    "league_trophies_yearly": 246,
+    "total_entries": 859,
+    "league_entries": 525,
+    "league_trophies": 525,
+    "league_trophies_yearly": 247,
     "challenge_appearances": 274,
     "challenge_wins": 1113,
     "challenge_losses": 695,
@@ -44,6 +44,21 @@
       "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2910991",
+      "tournament": "Pauper League",
+      "date": "2026-08-29",
+      "player": "AlessandroPiraccini",
+      "colors": [
+        "B",
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-08-2910991",
@@ -353,20 +368,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2310991",
-      "tournament": "Pauper League",
-      "date": "2026-08-23",
-      "player": "wolf777",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -380,7 +381,7 @@
     },
     {
       "player": "AlessandroPiraccini",
-      "count": 16
+      "count": 17
     },
     {
       "player": "3vildr4k3",
