@@ -3,17 +3,17 @@
   "display_name": "Valimoth",
   "irl_name": null,
   "stats": {
-    "total_entries": 47,
-    "league_trophies": 22,
-    "league_trophies_yearly": 12,
+    "total_entries": 48,
+    "league_trophies": 23,
+    "league_trophies_yearly": 13,
     "challenge_wins": 101,
     "challenge_losses": 51,
     "irl_top8": 0,
     "challenge_win_pct": 66,
-    "league_trophy_rank_yearly": 101,
-    "league_trophy_rank_alltime": 97,
-    "league_trophy_players_yearly": 1498,
-    "league_trophy_players_alltime": 2181
+    "league_trophy_rank_yearly": 95,
+    "league_trophy_rank_alltime": 91,
+    "league_trophy_players_yearly": 1509,
+    "league_trophy_players_alltime": 2189
   },
   "favorite_decks": [
     {
@@ -49,11 +49,11 @@
       "count": 2
     },
     {
-      "archetype": "Selesnya Gates",
+      "archetype": "Gruul Ponza",
       "count": 1
     },
     {
-      "archetype": "Simic Fog",
+      "archetype": "Selesnya Gates",
       "count": 1
     }
   ],
@@ -96,6 +96,21 @@
       "archetype": "Mono Blue Faeries",
       "colors": [
         "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2310991",
+      "tournament": "Pauper League",
+      "date": "2026-08-23",
+      "player": "Valimoth",
+      "archetype": "Gruul Ponza",
+      "colors": [
+        "G",
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -423,20 +438,6 @@
       "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-0110636",
-      "tournament": "Pauper League",
-      "date": "2026-06-01",
-      "player": "Valimoth",
-      "archetype": "Mono Red Madness",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

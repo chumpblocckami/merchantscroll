@@ -2,10 +2,10 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 753,
-    "league_entries": 367,
-    "league_trophies": 367,
-    "league_trophies_yearly": 173,
+    "total_entries": 754,
+    "league_entries": 368,
+    "league_trophies": 368,
+    "league_trophies_yearly": 174,
     "challenge_appearances": 335,
     "challenge_wins": 1386,
     "challenge_losses": 812,
@@ -46,6 +46,20 @@
       "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2910991",
+      "tournament": "Pauper League",
+      "date": "2026-08-29",
+      "player": "DB_LucianoGuma",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-2812853180",
@@ -366,21 +380,6 @@
       "final_rank": 13,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1010855",
-      "tournament": "Pauper League",
-      "date": "2026-08-10",
-      "player": "HellMonkey",
-      "colors": [
-        "B",
-        "G",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [

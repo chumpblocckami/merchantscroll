@@ -3,22 +3,22 @@
   "display_name": "EntroPete",
   "irl_name": null,
   "stats": {
-    "total_entries": 55,
-    "league_trophies": 32,
-    "league_trophies_yearly": 22,
+    "total_entries": 56,
+    "league_trophies": 33,
+    "league_trophies_yearly": 23,
     "challenge_wins": 94,
     "challenge_losses": 49,
     "irl_top8": 0,
     "challenge_win_pct": 66,
-    "league_trophy_rank_yearly": 35,
-    "league_trophy_rank_alltime": 54,
-    "league_trophy_players_yearly": 1498,
-    "league_trophy_players_alltime": 2181
+    "league_trophy_rank_yearly": 33,
+    "league_trophy_rank_alltime": 50,
+    "league_trophy_players_yearly": 1509,
+    "league_trophy_players_alltime": 2189
   },
   "favorite_decks": [
     {
       "archetype": "Mono Black Sacrifice",
-      "count": 54
+      "count": 55
     },
     {
       "archetype": "Petitioners",
@@ -26,6 +26,20 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-2910991",
+      "tournament": "Pauper League",
+      "date": "2026-08-29",
+      "player": "EntroPete",
+      "archetype": "Mono Black Sacrifice",
+      "colors": [
+        "B"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-0612851681",
       "tournament": "Pauper Challenge 32",
@@ -361,20 +375,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-03-2912836784",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-03-29",
-      "player": "EntroPete",
-      "archetype": "Mono Black Sacrifice",
-      "colors": [
-        "B"
-      ],
-      "record": "4-3",
-      "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }
