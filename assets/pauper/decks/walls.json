@@ -2,13 +2,13 @@
   "archetype": "Walls",
   "slug": "walls",
   "stats": {
-    "total_entries": 180,
+    "total_entries": 181,
     "league_entries": 110,
     "league_trophies": 110,
     "league_trophies_yearly": 41,
-    "challenge_appearances": 60,
-    "challenge_wins": 229,
-    "challenge_losses": 161,
+    "challenge_appearances": 61,
+    "challenge_wins": 233,
+    "challenge_losses": 163,
     "irl_top8": 5,
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 32,
@@ -17,6 +17,22 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-2912853188",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-29",
+      "player": "PNascimento",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-2612853162",
       "tournament": "Pauper Challenge 32",
@@ -397,22 +413,6 @@
       "final_rank": 15,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-06-1010636",
-      "tournament": "Pauper League",
-      "date": "2026-06-10",
-      "player": "Timshin",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -430,7 +430,7 @@
     },
     {
       "player": "PNascimento",
-      "count": 7
+      "count": 8
     },
     {
       "player": "Otifex",
