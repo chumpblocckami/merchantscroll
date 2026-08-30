@@ -2,10 +2,10 @@
   "archetype": "Jeskai Ephemerate",
   "slug": "jeskai-ephemerate",
   "stats": {
-    "total_entries": 481,
-    "league_entries": 263,
-    "league_trophies": 263,
-    "league_trophies_yearly": 199,
+    "total_entries": 484,
+    "league_entries": 266,
+    "league_trophies": 266,
+    "league_trophies_yearly": 202,
     "challenge_appearances": 187,
     "challenge_wins": 777,
     "challenge_losses": 453,
@@ -13,10 +13,40 @@
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 9,
     "league_trophy_rank_alltime": 14,
-    "league_trophy_decks_yearly": 76,
+    "league_trophy_decks_yearly": 77,
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-3010991",
+      "tournament": "Pauper League",
+      "date": "2026-08-30",
+      "player": "ChaoticMTG",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-3010991",
+      "tournament": "Pauper League",
+      "date": "2026-08-30",
+      "player": "Lord_Depa",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-2912853188",
       "tournament": "Pauper Challenge 32",
@@ -69,6 +99,21 @@
       "player": "ninjajar",
       "colors": [
         "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2810991",
+      "tournament": "Pauper League",
+      "date": "2026-08-28",
+      "player": "SurgeonofDeath",
+      "colors": [
         "R",
         "U",
         "W"
@@ -349,57 +394,12 @@
       "final_rank": 21,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2412852755",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-23",
-      "player": "ChaoticMTG",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-3",
-      "final_rank": 21,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2310991",
-      "tournament": "Pauper League",
-      "date": "2026-08-23",
-      "player": "_ratchet_",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2212852738",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-22",
-      "player": "Bolllll",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "2-4",
-      "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "ChaoticMTG",
-      "count": 49
+      "count": 50
     },
     {
       "player": "daifuku",

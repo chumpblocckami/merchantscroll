@@ -2,21 +2,37 @@
   "archetype": "Flicker Tron",
   "slug": "flicker-tron",
   "stats": {
-    "total_entries": 311,
-    "league_entries": 170,
-    "league_trophies": 170,
-    "league_trophies_yearly": 94,
+    "total_entries": 315,
+    "league_entries": 174,
+    "league_trophies": 174,
+    "league_trophies_yearly": 98,
     "challenge_appearances": 126,
     "challenge_wins": 512,
     "challenge_losses": 325,
     "irl_top8": 7,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 23,
+    "league_trophy_rank_yearly": 22,
     "league_trophy_rank_alltime": 23,
-    "league_trophy_decks_yearly": 76,
+    "league_trophy_decks_yearly": 77,
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-3010991",
+      "tournament": "Pauper League",
+      "date": "2026-08-30",
+      "player": "Antillectual",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-2912853188",
       "tournament": "Pauper Challenge 32",
@@ -123,6 +139,53 @@
       "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2810991",
+      "tournament": "Pauper League",
+      "date": "2026-08-28",
+      "player": "Antillectual",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2810991",
+      "tournament": "Pauper League",
+      "date": "2026-08-28",
+      "player": "LucaM",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2810991",
+      "tournament": "Pauper League",
+      "date": "2026-08-28",
+      "player": "peristiri",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-2712853175",
@@ -344,66 +407,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2212852738",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-22",
-      "player": "ILCAMPO2",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "2-4",
-      "final_rank": 32,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2210991",
-      "tournament": "Pauper League",
-      "date": "2026-08-22",
-      "player": "Garibaby",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2210991",
-      "tournament": "Pauper League",
-      "date": "2026-08-22",
-      "player": "ILCAMPO2",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2112852730",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-21",
-      "player": "haveaboavida",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -432,15 +435,15 @@
       "count": 9
     },
     {
+      "player": "Antillectual",
+      "count": 8
+    },
+    {
       "player": "Kampo",
       "count": 8
     },
     {
       "player": "A_AdeptoTerra",
-      "count": 6
-    },
-    {
-      "player": "Antillectual",
       "count": 6
     },
     {
