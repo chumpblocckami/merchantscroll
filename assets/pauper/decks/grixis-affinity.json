@@ -2,13 +2,13 @@
   "archetype": "Grixis Affinity",
   "slug": "grixis-affinity",
   "stats": {
-    "total_entries": 104,
+    "total_entries": 105,
     "league_entries": 36,
     "league_trophies": 36,
     "league_trophies_yearly": 36,
-    "challenge_appearances": 65,
-    "challenge_wins": 293,
-    "challenge_losses": 155,
+    "challenge_appearances": 66,
+    "challenge_wins": 297,
+    "challenge_losses": 157,
     "irl_top8": 0,
     "challenge_win_pct": 65,
     "league_trophy_rank_yearly": 35,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-3012853205",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-30",
+      "player": "LuffyDoChapeuDePalha",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-3010991",
       "tournament": "Pauper League",
@@ -381,27 +396,12 @@
       "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2112852725",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-20",
-      "player": "VitorCarvalho01",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "LuffyDoChapeuDePalha",
-      "count": 15
+      "count": 16
     },
     {
       "player": "seasonofmists",

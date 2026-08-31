@@ -2,13 +2,13 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 760,
+    "total_entries": 762,
     "league_entries": 370,
     "league_trophies": 370,
     "league_trophies_yearly": 176,
-    "challenge_appearances": 339,
-    "challenge_wins": 1401,
-    "challenge_losses": 821,
+    "challenge_appearances": 341,
+    "challenge_wins": 1410,
+    "challenge_losses": 825,
     "irl_top8": 22,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 11,
@@ -17,6 +17,36 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-3012853205",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-30",
+      "player": "John1111",
+      "colors": [
+        "B",
+        "G",
+        "W"
+      ],
+      "record": "5-2",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-3012853205",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-30",
+      "player": "__Noob__",
+      "colors": [
+        "B",
+        "G",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-3010991",
       "tournament": "Pauper League",
@@ -355,40 +385,12 @@
       "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2112852725",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-20",
-      "player": "mechrataal",
-      "colors": [
-        "B",
-        "G",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1710991",
-      "tournament": "Pauper League",
-      "date": "2026-08-17",
-      "player": "Mikibairon96",
-      "colors": [
-        "B"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "__Noob__",
-      "count": 165
+      "count": 166
     },
     {
       "player": "NickNorman",

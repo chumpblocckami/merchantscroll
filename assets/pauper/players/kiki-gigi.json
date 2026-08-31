@@ -3,13 +3,13 @@
   "display_name": "Kiki-Gigi",
   "irl_name": null,
   "stats": {
-    "total_entries": 10,
+    "total_entries": 11,
     "league_trophies": 6,
     "league_trophies_yearly": 5,
-    "challenge_wins": 17,
-    "challenge_losses": 12,
+    "challenge_wins": 21,
+    "challenge_losses": 14,
     "irl_top8": 0,
-    "challenge_win_pct": 59,
+    "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 302,
     "league_trophy_rank_alltime": 478,
     "league_trophy_players_yearly": 1509,
@@ -19,6 +19,10 @@
     {
       "archetype": "Orzhov Blade",
       "count": 4
+    },
+    {
+      "archetype": "Mono Blue Faeries",
+      "count": 2
     },
     {
       "archetype": "Affinity",
@@ -39,13 +43,23 @@
     {
       "archetype": "Jund Wildfire",
       "count": 1
-    },
-    {
-      "archetype": "Mono Blue Faeries",
-      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-3012853205",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-30",
+      "player": "Kiki-Gigi",
+      "archetype": "Mono Blue Faeries",
+      "colors": [
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 16,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-0312850801",
       "tournament": "Pauper Challenge 32",

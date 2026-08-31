@@ -3,11 +3,11 @@
   "display_name": "Brvnx",
   "irl_name": null,
   "stats": {
-    "total_entries": 76,
+    "total_entries": 77,
     "league_trophies": 18,
     "league_trophies_yearly": 9,
-    "challenge_wins": 238,
-    "challenge_losses": 135,
+    "challenge_wins": 241,
+    "challenge_losses": 138,
     "irl_top8": 0,
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 126,
@@ -34,7 +34,7 @@
     },
     {
       "archetype": "Mono Blue Terror",
-      "count": 5
+      "count": 6
     },
     {
       "archetype": "Jeskai Ephemerate",
@@ -46,6 +46,20 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-3012853205",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-30",
+      "player": "Brvnx",
+      "archetype": "Mono Blue Terror",
+      "colors": [
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 25,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-2812853180",
       "tournament": "Pauper Challenge 32",
@@ -401,22 +415,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-0612843798",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-06",
-      "player": "Brvnx",
-      "archetype": "Dimir Faeries",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 16,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

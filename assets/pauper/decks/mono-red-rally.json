@@ -2,12 +2,12 @@
   "archetype": "Mono Red Rally",
   "slug": "mono-red-rally",
   "stats": {
-    "total_entries": 1300,
+    "total_entries": 1301,
     "league_entries": 676,
     "league_trophies": 676,
     "league_trophies_yearly": 336,
-    "challenge_appearances": 545,
-    "challenge_wins": 2101,
+    "challenge_appearances": 546,
+    "challenge_wins": 2110,
     "challenge_losses": 1395,
     "irl_top8": 26,
     "challenge_win_pct": 60,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-3012853205",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-30",
+      "player": "boom_bust",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "9-0",
+      "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-2912853188",
       "tournament": "Pauper Challenge 32",
@@ -352,20 +366,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1512851662",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-15",
-      "player": "boom_bust",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "1-4",
-      "final_rank": 27,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -379,7 +379,7 @@
     },
     {
       "player": "boom_bust",
-      "count": 84
+      "count": 85
     },
     {
       "player": "GilbertoAntunes",
