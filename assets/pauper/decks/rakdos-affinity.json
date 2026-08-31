@@ -2,36 +2,21 @@
   "archetype": "Rakdos Affinity",
   "slug": "rakdos-affinity",
   "stats": {
-    "total_entries": 38,
-    "league_entries": 13,
-    "league_trophies": 13,
-    "league_trophies_yearly": 13,
+    "total_entries": 37,
+    "league_entries": 12,
+    "league_trophies": 12,
+    "league_trophies_yearly": 12,
     "challenge_appearances": 20,
     "challenge_wins": 67,
     "challenge_losses": 58,
     "irl_top8": 2,
     "challenge_win_pct": 54,
-    "league_trophy_rank_yearly": 46,
-    "league_trophy_rank_alltime": 48,
+    "league_trophy_rank_yearly": 47,
+    "league_trophy_rank_alltime": 49,
     "league_trophy_decks_yearly": 77,
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
-    {
-      "site_name": "pauper-league-2026-08-2810991",
-      "tournament": "Pauper League",
-      "date": "2026-08-28",
-      "player": "Plutarco",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
     {
       "site_name": "pauper-league-2026-08-2710991",
       "tournament": "Pauper League",
@@ -387,6 +372,21 @@
       ],
       "record": "3-3",
       "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-06-2512845625",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-06-24",
+      "player": "Brasatore",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "2-2",
+      "final_rank": 27,
       "source": "mtgo",
       "type": "challenge"
     }

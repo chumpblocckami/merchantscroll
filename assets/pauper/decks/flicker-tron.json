@@ -2,16 +2,16 @@
   "archetype": "Flicker Tron",
   "slug": "flicker-tron",
   "stats": {
-    "total_entries": 315,
-    "league_entries": 174,
-    "league_trophies": 174,
-    "league_trophies_yearly": 98,
+    "total_entries": 312,
+    "league_entries": 171,
+    "league_trophies": 171,
+    "league_trophies_yearly": 95,
     "challenge_appearances": 126,
     "challenge_wins": 512,
     "challenge_losses": 325,
     "irl_top8": 7,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 22,
+    "league_trophy_rank_yearly": 23,
     "league_trophy_rank_alltime": 23,
     "league_trophy_decks_yearly": 77,
     "league_trophy_decks_alltime": 80
@@ -139,53 +139,6 @@
       "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2810991",
-      "tournament": "Pauper League",
-      "date": "2026-08-28",
-      "player": "Antillectual",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2810991",
-      "tournament": "Pauper League",
-      "date": "2026-08-28",
-      "player": "LucaM",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2810991",
-      "tournament": "Pauper League",
-      "date": "2026-08-28",
-      "player": "peristiri",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-2712853175",
@@ -407,6 +360,51 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-2212852738",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-22",
+      "player": "ILCAMPO2",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "2-4",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2210991",
+      "tournament": "Pauper League",
+      "date": "2026-08-22",
+      "player": "Garibaby",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2210991",
+      "tournament": "Pauper League",
+      "date": "2026-08-22",
+      "player": "ILCAMPO2",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     }
   ],
   "top_pilots": [
@@ -435,12 +433,12 @@
       "count": 9
     },
     {
-      "player": "Antillectual",
+      "player": "Kampo",
       "count": 8
     },
     {
-      "player": "Kampo",
-      "count": 8
+      "player": "Antillectual",
+      "count": 7
     },
     {
       "player": "A_AdeptoTerra",
