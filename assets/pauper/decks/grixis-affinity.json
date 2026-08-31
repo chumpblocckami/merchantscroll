@@ -2,13 +2,13 @@
   "archetype": "Grixis Affinity",
   "slug": "grixis-affinity",
   "stats": {
-    "total_entries": 98,
+    "total_entries": 104,
     "league_entries": 36,
     "league_trophies": 36,
     "league_trophies_yearly": 36,
-    "challenge_appearances": 59,
-    "challenge_wins": 265,
-    "challenge_losses": 143,
+    "challenge_appearances": 65,
+    "challenge_wins": 293,
+    "challenge_losses": 155,
     "irl_top8": 0,
     "challenge_win_pct": 65,
     "league_trophy_rank_yearly": 35,
@@ -80,6 +80,51 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-08-2712853175",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-27",
+      "player": "kille",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-3012853175",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-27",
+      "player": "LuffyDoChapeuDePalha",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-3012853175",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-27",
+      "player": "VitorCarvalho01",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 23,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-3012853175",
       "tournament": "Pauper Challenge 32",
       "date": "2026-08-27",
       "player": "kille",
@@ -351,65 +396,20 @@
       "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1312851713",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-19",
-      "player": "FishCombatant",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 22,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1312851713",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-19",
-      "player": "seasonofmists",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1612851713",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-19",
-      "player": "FishCombatant",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 22,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "LuffyDoChapeuDePalha",
-      "count": 13
+      "count": 15
     },
     {
       "player": "seasonofmists",
-      "count": 11
+      "count": 12
     },
     {
       "player": "VitorCarvalho01",
-      "count": 7
+      "count": 8
     },
     {
       "player": "TheJunkDog",
@@ -420,11 +420,11 @@
       "count": 4
     },
     {
-      "player": "ChuChuMTFKR",
-      "count": 3
+      "player": "kille",
+      "count": 4
     },
     {
-      "player": "kille",
+      "player": "ChuChuMTFKR",
       "count": 3
     },
     {

@@ -2,13 +2,13 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 756,
+    "total_entries": 760,
     "league_entries": 370,
     "league_trophies": 370,
     "league_trophies_yearly": 176,
-    "challenge_appearances": 335,
-    "challenge_wins": 1386,
-    "challenge_losses": 812,
+    "challenge_appearances": 339,
+    "challenge_wins": 1401,
+    "challenge_losses": 821,
     "irl_top8": 22,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 11,
@@ -107,6 +107,21 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-08-2712853175",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-27",
+      "player": "__Noob__",
+      "colors": [
+        "B",
+        "G",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-3012853175",
       "tournament": "Pauper Challenge 32",
       "date": "2026-08-27",
       "player": "__Noob__",
@@ -368,30 +383,16 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1710991",
-      "tournament": "Pauper League",
-      "date": "2026-08-17",
-      "player": "True-Name-Nemesis",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "__Noob__",
-      "count": 163
+      "count": 165
     },
     {
       "player": "NickNorman",
-      "count": 80
+      "count": 81
     },
     {
       "player": "yuxiaoyu",

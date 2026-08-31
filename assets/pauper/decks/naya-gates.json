@@ -2,13 +2,13 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 351,
+    "total_entries": 353,
     "league_entries": 120,
     "league_trophies": 120,
     "league_trophies_yearly": 113,
-    "challenge_appearances": 174,
-    "challenge_wins": 715,
-    "challenge_losses": 419,
+    "challenge_appearances": 176,
+    "challenge_wins": 722,
+    "challenge_losses": 424,
     "irl_top8": 19,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 20,
@@ -257,6 +257,36 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-challenge-32-2026-08-0412850811",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-07",
+      "player": "Patrimattone",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "3-3",
+      "final_rank": 29,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0412850811",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-07",
+      "player": "wand_thief",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
       "site_name": "pauper-challenge-32-2026-08-0712850811",
       "tournament": "Pauper Challenge 32",
       "date": "2026-08-07",
@@ -360,36 +390,6 @@
       "final_rank": 10,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0612850801",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-06",
-      "player": "lucotto",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0510855",
-      "tournament": "Pauper League",
-      "date": "2026-08-05",
-      "player": "Malpyrocky",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -414,6 +414,10 @@
       "count": 8
     },
     {
+      "player": "wand_thief",
+      "count": 7
+    },
+    {
       "player": "John1111",
       "count": 6
     },
@@ -427,10 +431,6 @@
     },
     {
       "player": "lostonkato",
-      "count": 6
-    },
-    {
-      "player": "reto_mtg",
       "count": 6
     }
   ]

@@ -3,11 +3,11 @@
   "display_name": "ChaoticMTG",
   "irl_name": null,
   "stats": {
-    "total_entries": 91,
+    "total_entries": 92,
     "league_trophies": 41,
     "league_trophies_yearly": 22,
-    "challenge_wins": 244,
-    "challenge_losses": 112,
+    "challenge_wins": 248,
+    "challenge_losses": 114,
     "irl_top8": 0,
     "challenge_win_pct": 69,
     "league_trophy_rank_yearly": 37,
@@ -18,7 +18,7 @@
   "favorite_decks": [
     {
       "archetype": "Jeskai Ephemerate",
-      "count": 50
+      "count": 51
     },
     {
       "archetype": "Azorius Familiars",
@@ -64,6 +64,22 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-08-2712853175",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-27",
+      "player": "ChaoticMTG",
+      "archetype": "Jeskai Ephemerate",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 11,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-3012853175",
       "tournament": "Pauper Challenge 32",
       "date": "2026-08-27",
       "player": "ChaoticMTG",
@@ -402,21 +418,6 @@
       ],
       "record": "4-2",
       "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0112845719",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-01",
-      "player": "ChaoticMTG",
-      "archetype": "Azorius Familiars",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "6-2",
-      "final_rank": 4,
       "source": "mtgo",
       "type": "challenge"
     }

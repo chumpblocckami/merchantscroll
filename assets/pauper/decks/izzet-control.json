@@ -2,13 +2,13 @@
   "archetype": "Izzet Control",
   "slug": "izzet-control",
   "stats": {
-    "total_entries": 226,
+    "total_entries": 227,
     "league_entries": 141,
     "league_trophies": 141,
     "league_trophies_yearly": 66,
-    "challenge_appearances": 74,
-    "challenge_wins": 301,
-    "challenge_losses": 186,
+    "challenge_appearances": 75,
+    "challenge_wins": 304,
+    "challenge_losses": 189,
     "irl_top8": 4,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 29,
@@ -142,6 +142,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-0412850811",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-07",
+      "player": "Brvnx",
+      "colors": [
+        "R",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 30,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-0712850811",
@@ -353,20 +367,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0412846485",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-04",
-      "player": "Brvnx",
-      "colors": [
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -380,7 +380,7 @@
     },
     {
       "player": "Brvnx",
-      "count": 17
+      "count": 18
     },
     {
       "player": "vikizin",

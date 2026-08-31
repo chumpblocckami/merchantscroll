@@ -3,11 +3,11 @@
   "display_name": "wand_thief",
   "irl_name": null,
   "stats": {
-    "total_entries": 27,
+    "total_entries": 28,
     "league_trophies": 10,
     "league_trophies_yearly": 3,
-    "challenge_wins": 68,
-    "challenge_losses": 38,
+    "challenge_wins": 72,
+    "challenge_losses": 40,
     "irl_top8": 0,
     "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 578,
@@ -22,7 +22,7 @@
     },
     {
       "archetype": "Naya Gates",
-      "count": 6
+      "count": 7
     },
     {
       "archetype": "Cawgate",
@@ -58,6 +58,22 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-08-0412850811",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-07",
+      "player": "wand_thief",
+      "archetype": "Naya Gates",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-0712850811",
       "tournament": "Pauper Challenge 32",
@@ -428,21 +444,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-07-1312802837",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-07-13",
-      "player": "wand_thief",
-      "archetype": "Spy Combo",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-2",
-      "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }
