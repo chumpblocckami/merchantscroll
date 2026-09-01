@@ -3,13 +3,13 @@
   "display_name": "0men",
   "irl_name": null,
   "stats": {
-    "total_entries": 3,
+    "total_entries": 4,
     "league_trophies": 0,
     "league_trophies_yearly": 0,
-    "challenge_wins": 0,
-    "challenge_losses": 0,
+    "challenge_wins": 2,
+    "challenge_losses": 3,
     "irl_top8": 0,
-    "challenge_win_pct": null,
+    "challenge_win_pct": 40,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": null,
     "league_trophy_players_yearly": 1520,
@@ -18,10 +18,26 @@
   "favorite_decks": [
     {
       "archetype": "Cycling Storm",
-      "count": 3
+      "count": 4
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-16-2026-09-0112853221",
+      "tournament": "Pauper Challenge 16",
+      "date": "2026-09-01",
+      "player": "0men",
+      "archetype": "Cycling Storm",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "2-3",
+      "final_rank": 18,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-last-chance-2026-07-0412847738",
       "tournament": "Pauper Last Chance",

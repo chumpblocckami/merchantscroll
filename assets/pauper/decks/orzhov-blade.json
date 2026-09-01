@@ -2,21 +2,35 @@
   "archetype": "Orzhov Blade",
   "slug": "orzhov-blade",
   "stats": {
-    "total_entries": 17,
+    "total_entries": 18,
     "league_entries": 11,
     "league_trophies": 11,
     "league_trophies_yearly": 11,
-    "challenge_appearances": 6,
-    "challenge_wins": 19,
-    "challenge_losses": 18,
+    "challenge_appearances": 7,
+    "challenge_wins": 23,
+    "challenge_losses": 20,
     "irl_top8": 0,
-    "challenge_win_pct": 51,
+    "challenge_win_pct": 53,
     "league_trophy_rank_yearly": 49,
     "league_trophy_rank_alltime": 51,
     "league_trophy_decks_yearly": 77,
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-16-2026-09-0112853221",
+      "tournament": "Pauper Challenge 16",
+      "date": "2026-09-01",
+      "player": "Scooby_Snacks",
+      "colors": [
+        "B",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-2910991",
       "tournament": "Pauper League",
@@ -283,6 +297,10 @@
       "count": 1
     },
     {
+      "player": "Scooby_Snacks",
+      "count": 1
+    },
+    {
       "player": "ThieresTMS",
       "count": 1
     },
@@ -292,10 +310,6 @@
     },
     {
       "player": "k1x",
-      "count": 1
-    },
-    {
-      "player": "lostonkato",
       "count": 1
     }
   ]

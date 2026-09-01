@@ -2,13 +2,13 @@
   "archetype": "Flicker Tron",
   "slug": "flicker-tron",
   "stats": {
-    "total_entries": 319,
-    "league_entries": 175,
-    "league_trophies": 175,
-    "league_trophies_yearly": 99,
-    "challenge_appearances": 129,
-    "challenge_wins": 521,
-    "challenge_losses": 333,
+    "total_entries": 321,
+    "league_entries": 176,
+    "league_trophies": 176,
+    "league_trophies_yearly": 100,
+    "challenge_appearances": 130,
+    "challenge_wins": 523,
+    "challenge_losses": 336,
     "irl_top8": 7,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 22,
@@ -17,6 +17,36 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-16-2026-09-0112853221",
+      "tournament": "Pauper Challenge 16",
+      "date": "2026-09-01",
+      "player": "Hampuse1",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "2-3",
+      "final_rank": 20,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-09-0110991",
+      "tournament": "Pauper League",
+      "date": "2026-09-01",
+      "player": "ArtemisNix",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-09-0110991",
       "tournament": "Pauper League",
@@ -375,39 +405,6 @@
       "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2410991",
-      "tournament": "Pauper League",
-      "date": "2026-08-24",
-      "player": "Alleyezonme",
-      "colors": [
-        "B",
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2312852755",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-23",
-      "player": "Xatrith",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-3",
-      "final_rank": 26,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -429,7 +426,7 @@
     },
     {
       "player": "Hampuse1",
-      "count": 10
+      "count": 11
     },
     {
       "player": "NMT_Sco94",

@@ -2,13 +2,13 @@
   "archetype": "Cycling Storm",
   "slug": "cycling-storm",
   "stats": {
-    "total_entries": 99,
+    "total_entries": 100,
     "league_entries": 64,
     "league_trophies": 64,
     "league_trophies_yearly": 44,
-    "challenge_appearances": 20,
-    "challenge_wins": 69,
-    "challenge_losses": 56,
+    "challenge_appearances": 21,
+    "challenge_wins": 71,
+    "challenge_losses": 59,
     "irl_top8": 5,
     "challenge_win_pct": 55,
     "league_trophy_rank_yearly": 31,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-16-2026-09-0112853221",
+      "tournament": "Pauper Challenge 16",
+      "date": "2026-09-01",
+      "player": "0men",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "2-3",
+      "final_rank": 18,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-3110991",
       "tournament": "Pauper League",
@@ -377,21 +392,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-last-chance-2026-07-2112847738",
-      "tournament": "Pauper Last Chance",
-      "date": "2026-07-21",
-      "player": "saidin.raken",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "1-1",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "other"
     }
   ],
   "top_pilots": [
@@ -408,6 +408,10 @@
       "count": 7
     },
     {
+      "player": "0men",
+      "count": 4
+    },
+    {
       "player": "Francesco Redaelli",
       "count": 4
     },
@@ -418,10 +422,6 @@
     {
       "player": "Taddy_99",
       "count": 4
-    },
-    {
-      "player": "0men",
-      "count": 3
     },
     {
       "player": "williami1986",

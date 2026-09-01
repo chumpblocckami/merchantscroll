@@ -3,13 +3,13 @@
   "display_name": "TuggaNaxos",
   "irl_name": null,
   "stats": {
-    "total_entries": 34,
+    "total_entries": 35,
     "league_trophies": 23,
     "league_trophies_yearly": 19,
-    "challenge_wins": 45,
-    "challenge_losses": 17,
+    "challenge_wins": 48,
+    "challenge_losses": 19,
     "irl_top8": 0,
-    "challenge_win_pct": 73,
+    "challenge_win_pct": 72,
     "league_trophy_rank_yearly": 49,
     "league_trophy_rank_alltime": 93,
     "league_trophy_players_yearly": 1520,
@@ -41,6 +41,10 @@
       "count": 2
     },
     {
+      "archetype": "Monster Tron",
+      "count": 2
+    },
+    {
       "archetype": "Affinity",
       "count": 1
     },
@@ -51,13 +55,24 @@
     {
       "archetype": "Cawgate",
       "count": 1
-    },
-    {
-      "archetype": "Elves",
-      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-16-2026-09-0112853221",
+      "tournament": "Pauper Challenge 16",
+      "date": "2026-09-01",
+      "player": "TuggaNaxos",
+      "archetype": "Monster Tron",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "3-2",
+      "final_rank": 13,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-3110991",
       "tournament": "Pauper League",
@@ -414,22 +429,6 @@
         "B",
         "R",
         "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-02-2610196",
-      "tournament": "pauper-league-2026-02-2610196",
-      "date": "2026-02-26",
-      "player": "TuggaNaxos",
-      "archetype": "Jund Gardens",
-      "colors": [
-        "B",
-        "G",
-        "R"
       ],
       "record": "5-0",
       "final_rank": null,

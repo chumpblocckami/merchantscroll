@@ -2,13 +2,13 @@
   "archetype": "Mono Red Rally",
   "slug": "mono-red-rally",
   "stats": {
-    "total_entries": 1303,
+    "total_entries": 1304,
     "league_entries": 678,
     "league_trophies": 678,
     "league_trophies_yearly": 338,
-    "challenge_appearances": 546,
-    "challenge_wins": 2110,
-    "challenge_losses": 1395,
+    "challenge_appearances": 547,
+    "challenge_wins": 2112,
+    "challenge_losses": 1397,
     "irl_top8": 26,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 3,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-16-2026-09-0112853221",
+      "tournament": "Pauper Challenge 16",
+      "date": "2026-09-01",
+      "player": "kthanakit26",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "2-2",
+      "final_rank": 12,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-09-0110991",
       "tournament": "Pauper League",
@@ -352,20 +366,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0612851681",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-16",
-      "player": "boom_bust",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [

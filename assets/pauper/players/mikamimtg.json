@@ -3,13 +3,13 @@
   "display_name": "mikamimtg",
   "irl_name": null,
   "stats": {
-    "total_entries": 1,
+    "total_entries": 2,
     "league_trophies": 1,
     "league_trophies_yearly": 1,
-    "challenge_wins": 0,
-    "challenge_losses": 0,
+    "challenge_wins": 1,
+    "challenge_losses": 4,
     "irl_top8": 0,
-    "challenge_win_pct": null,
+    "challenge_win_pct": 20,
     "league_trophy_rank_yearly": 1250,
     "league_trophy_rank_alltime": 1840,
     "league_trophy_players_yearly": 1520,
@@ -19,9 +19,31 @@
     {
       "archetype": "Gruul Ponza",
       "count": 1
+    },
+    {
+      "archetype": "Jeskai Ephemerate",
+      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-16-2026-09-0112853221",
+      "tournament": "Pauper Challenge 16",
+      "date": "2026-09-01",
+      "player": "mikamimtg",
+      "archetype": "Jeskai Ephemerate",
+      "colors": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "1-4",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-06-2710855",
       "tournament": "Pauper League",

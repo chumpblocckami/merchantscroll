@@ -2,13 +2,13 @@
   "archetype": "Grixis Affinity",
   "slug": "grixis-affinity",
   "stats": {
-    "total_entries": 106,
+    "total_entries": 108,
     "league_entries": 37,
     "league_trophies": 37,
     "league_trophies_yearly": 37,
-    "challenge_appearances": 66,
-    "challenge_wins": 297,
-    "challenge_losses": 157,
+    "challenge_appearances": 68,
+    "challenge_wins": 302,
+    "challenge_losses": 164,
     "irl_top8": 0,
     "challenge_win_pct": 65,
     "league_trophy_rank_yearly": 35,
@@ -17,6 +17,36 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-16-2026-09-0112853221",
+      "tournament": "Pauper Challenge 16",
+      "date": "2026-09-01",
+      "player": "PinoIo_Cosmico",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 4,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-16-2026-09-0112853221",
+      "tournament": "Pauper Challenge 16",
+      "date": "2026-09-01",
+      "player": "seasonofmists",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "1-4",
+      "final_rank": 24,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-09-0110991",
       "tournament": "Pauper League",
@@ -367,36 +397,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2112852730",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-21",
-      "player": "Digital_Fiakka",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 28,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2110991",
-      "tournament": "Pauper League",
-      "date": "2026-08-21",
-      "player": "seasonofmists",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -406,7 +406,7 @@
     },
     {
       "player": "seasonofmists",
-      "count": 12
+      "count": 13
     },
     {
       "player": "VitorCarvalho01",
