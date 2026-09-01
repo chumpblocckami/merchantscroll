@@ -2,10 +2,10 @@
   "archetype": "Dimir Terror",
   "slug": "dimir-terror",
   "stats": {
-    "total_entries": 651,
-    "league_entries": 319,
-    "league_trophies": 319,
-    "league_trophies_yearly": 177,
+    "total_entries": 652,
+    "league_entries": 320,
+    "league_trophies": 320,
+    "league_trophies_yearly": 178,
     "challenge_appearances": 282,
     "challenge_wins": 1192,
     "challenge_losses": 676,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-09-0110991",
+      "tournament": "Pauper League",
+      "date": "2026-09-01",
+      "player": "CondenadoAlExito",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-2910991",
       "tournament": "Pauper League",
@@ -372,21 +387,6 @@
       ],
       "record": "5-3",
       "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0812851113",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-09",
-      "player": "ScouterTF2",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-3",
-      "final_rank": 22,
       "source": "mtgo",
       "type": "challenge"
     }

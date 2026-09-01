@@ -2,10 +2,10 @@
   "archetype": "Bogles",
   "slug": "bogles",
   "stats": {
-    "total_entries": 284,
-    "league_entries": 109,
-    "league_trophies": 109,
-    "league_trophies_yearly": 38,
+    "total_entries": 285,
+    "league_entries": 110,
+    "league_trophies": 110,
+    "league_trophies_yearly": 39,
     "challenge_appearances": 166,
     "challenge_wins": 639,
     "challenge_losses": 436,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-09-0110991",
+      "tournament": "Pauper League",
+      "date": "2026-09-01",
+      "player": "RogueUrmel1",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-3012853205",
       "tournament": "Pauper Challenge 32",
@@ -376,21 +391,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-2612848222",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-26",
-      "player": "QueMario",
-      "colors": [
-        "G",
-        "U",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 14,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [

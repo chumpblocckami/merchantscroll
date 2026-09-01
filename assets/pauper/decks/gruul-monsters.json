@@ -2,10 +2,10 @@
   "archetype": "Gruul Monsters",
   "slug": "gruul-monsters",
   "stats": {
-    "total_entries": 413,
-    "league_entries": 227,
-    "league_trophies": 227,
-    "league_trophies_yearly": 82,
+    "total_entries": 414,
+    "league_entries": 228,
+    "league_trophies": 228,
+    "league_trophies_yearly": 83,
     "challenge_appearances": 158,
     "challenge_wins": 586,
     "challenge_losses": 409,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-09-0110991",
+      "tournament": "Pauper League",
+      "date": "2026-09-01",
+      "player": "Broa",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-3110991",
       "tournament": "Pauper League",
@@ -353,20 +367,6 @@
       "final_rank": 7,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0910855",
-      "tournament": "Pauper League",
-      "date": "2026-08-09",
-      "player": "OttoSaske",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -376,7 +376,7 @@
     },
     {
       "player": "Broa",
-      "count": 23
+      "count": 24
     },
     {
       "player": "Mokemi",
