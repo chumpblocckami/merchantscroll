@@ -3,22 +3,22 @@
   "display_name": "yahakara",
   "irl_name": null,
   "stats": {
-    "total_entries": 40,
-    "league_trophies": 27,
-    "league_trophies_yearly": 22,
+    "total_entries": 41,
+    "league_trophies": 28,
+    "league_trophies_yearly": 23,
     "challenge_wins": 45,
     "challenge_losses": 39,
     "irl_top8": 0,
     "challenge_win_pct": 54,
-    "league_trophy_rank_yearly": 38,
-    "league_trophy_rank_alltime": 71,
-    "league_trophy_players_yearly": 1510,
-    "league_trophy_players_alltime": 2189
+    "league_trophy_rank_yearly": 36,
+    "league_trophy_rank_alltime": 65,
+    "league_trophy_players_yearly": 1518,
+    "league_trophy_players_alltime": 2196
   },
   "favorite_decks": [
     {
       "archetype": "Mono Red Madness",
-      "count": 23
+      "count": 24
     },
     {
       "archetype": "Affinity",
@@ -38,6 +38,20 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-3110991",
+      "tournament": "Pauper League",
+      "date": "2026-08-31",
+      "player": "yahakara",
+      "archetype": "Mono Red Madness",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-3010991",
       "tournament": "Pauper League",
@@ -380,22 +394,6 @@
       "final_rank": 22,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-03-0510405",
-      "tournament": "pauper-league-2026-03-0510405",
-      "date": "2026-03-05",
-      "player": "yahakara",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

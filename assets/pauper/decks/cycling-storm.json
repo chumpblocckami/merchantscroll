@@ -2,10 +2,10 @@
   "archetype": "Cycling Storm",
   "slug": "cycling-storm",
   "stats": {
-    "total_entries": 98,
-    "league_entries": 63,
-    "league_trophies": 63,
-    "league_trophies_yearly": 43,
+    "total_entries": 99,
+    "league_entries": 64,
+    "league_trophies": 64,
+    "league_trophies_yearly": 44,
     "challenge_appearances": 20,
     "challenge_wins": 69,
     "challenge_losses": 56,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-3110991",
+      "tournament": "Pauper League",
+      "date": "2026-08-31",
+      "player": "saidin.raken",
+      "colors": [
+        "B",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-3012853205",
       "tournament": "Pauper Challenge 32",
@@ -377,21 +392,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-1912847712",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-19",
-      "player": "StudentAnselmus",
-      "colors": [
-        "B",
-        "R",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 12,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -400,11 +400,11 @@
       "count": 44
     },
     {
-      "player": "Bryant_Cook",
-      "count": 7
+      "player": "saidin.raken",
+      "count": 8
     },
     {
-      "player": "saidin.raken",
+      "player": "Bryant_Cook",
       "count": 7
     },
     {

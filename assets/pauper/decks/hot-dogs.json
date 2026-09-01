@@ -2,21 +2,35 @@
   "archetype": "Hot Dogs",
   "slug": "hot-dogs",
   "stats": {
-    "total_entries": 20,
-    "league_entries": 14,
-    "league_trophies": 14,
-    "league_trophies_yearly": 11,
+    "total_entries": 21,
+    "league_entries": 15,
+    "league_trophies": 15,
+    "league_trophies_yearly": 12,
     "challenge_appearances": 5,
     "challenge_wins": 13,
     "challenge_losses": 15,
     "irl_top8": 1,
     "challenge_win_pct": 46,
-    "league_trophy_rank_yearly": 48,
+    "league_trophy_rank_yearly": 47,
     "league_trophy_rank_alltime": 47,
     "league_trophy_decks_yearly": 77,
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-3110991",
+      "tournament": "Pauper League",
+      "date": "2026-08-31",
+      "player": "Crestomanci",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-3010991",
       "tournament": "Pauper League",
@@ -297,12 +311,12 @@
   ],
   "top_pilots": [
     {
-      "player": "Nonoo",
+      "player": "Crestomanci",
       "count": 3
     },
     {
-      "player": "Crestomanci",
-      "count": 2
+      "player": "Nonoo",
+      "count": 3
     },
     {
       "player": "Gersaker11",

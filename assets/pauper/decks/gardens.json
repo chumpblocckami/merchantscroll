@@ -2,10 +2,10 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 763,
-    "league_entries": 371,
-    "league_trophies": 371,
-    "league_trophies_yearly": 177,
+    "total_entries": 765,
+    "league_entries": 373,
+    "league_trophies": 373,
+    "league_trophies_yearly": 179,
     "challenge_appearances": 341,
     "challenge_wins": 1410,
     "challenge_losses": 825,
@@ -17,6 +17,35 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-08-3110991",
+      "tournament": "Pauper League",
+      "date": "2026-08-31",
+      "player": "HellMonkey",
+      "colors": [
+        "B",
+        "G",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-08-3110991",
+      "tournament": "Pauper League",
+      "date": "2026-08-31",
+      "player": "el-barto",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-3012853205",
       "tournament": "Pauper Challenge 32",
@@ -354,35 +383,6 @@
       ],
       "record": "3-3",
       "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2212852738",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-22",
-      "player": "True-Name-Nemesis",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "3-3",
-      "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2112852730",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-21",
-      "player": "NickNorman",
-      "colors": [
-        "B",
-        "G",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 31,
       "source": "mtgo",
       "type": "challenge"
     }

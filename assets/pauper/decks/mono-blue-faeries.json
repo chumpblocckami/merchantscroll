@@ -2,10 +2,10 @@
   "archetype": "Mono Blue Faeries",
   "slug": "mono-blue-faeries",
   "stats": {
-    "total_entries": 683,
-    "league_entries": 376,
-    "league_trophies": 376,
-    "league_trophies_yearly": 150,
+    "total_entries": 684,
+    "league_entries": 377,
+    "league_trophies": 377,
+    "league_trophies_yearly": 151,
     "challenge_appearances": 277,
     "challenge_wins": 1155,
     "challenge_losses": 694,
@@ -159,6 +159,19 @@
       "final_rank": 19,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-08-2810991",
+      "tournament": "Pauper League",
+      "date": "2026-08-28",
+      "player": "barff",
+      "colors": [
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-2712853175",
@@ -328,25 +341,12 @@
       "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2410991",
-      "tournament": "Pauper League",
-      "date": "2026-08-24",
-      "player": "SquidthekidRC",
-      "colors": [
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
       "player": "barff",
-      "count": 108
+      "count": 109
     },
     {
       "player": "Guii_Machado",
