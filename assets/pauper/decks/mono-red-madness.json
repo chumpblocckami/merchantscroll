@@ -2,10 +2,10 @@
   "archetype": "Mono Red Madness",
   "slug": "mono-red-madness",
   "stats": {
-    "total_entries": 2335,
-    "league_entries": 1241,
-    "league_trophies": 1241,
-    "league_trophies_yearly": 669,
+    "total_entries": 2336,
+    "league_entries": 1242,
+    "league_trophies": 1242,
+    "league_trophies_yearly": 670,
     "challenge_appearances": 953,
     "challenge_wins": 3800,
     "challenge_losses": 2405,
@@ -22,6 +22,19 @@
       "tournament": "Pauper League",
       "date": "2026-09-02",
       "player": "kmasuyama",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-09-0210991",
+      "tournament": "Pauper League",
+      "date": "2026-09-02",
+      "player": "syrynnx",
       "colors": [
         "R"
       ],
@@ -328,19 +341,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2912853188",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-29",
-      "player": "Captain_Tsubasa",
-      "colors": [
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
