@@ -2,10 +2,10 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1357,
-    "league_entries": 696,
-    "league_trophies": 696,
-    "league_trophies_yearly": 314,
+    "total_entries": 1358,
+    "league_entries": 697,
+    "league_trophies": 697,
+    "league_trophies_yearly": 315,
     "challenge_appearances": 589,
     "challenge_wins": 2362,
     "challenge_losses": 1487,
@@ -17,6 +17,19 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-09-0210991",
+      "tournament": "Pauper League",
+      "date": "2026-09-02",
+      "player": "PLads_Echanez",
+      "colors": [
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-16-2026-09-0112853221",
       "tournament": "Pauper Challenge 16",
@@ -328,19 +341,6 @@
       ],
       "record": "4-3",
       "final_rank": 20,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2312852755",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-23",
-      "player": "CrouchingPig",
-      "colors": [
-        "G"
-      ],
-      "record": "4-3",
-      "final_rank": 22,
       "source": "mtgo",
       "type": "challenge"
     }
