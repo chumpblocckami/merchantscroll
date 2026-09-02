@@ -2,21 +2,37 @@
   "archetype": "Grixis Affinity",
   "slug": "grixis-affinity",
   "stats": {
-    "total_entries": 108,
-    "league_entries": 37,
-    "league_trophies": 37,
-    "league_trophies_yearly": 37,
+    "total_entries": 109,
+    "league_entries": 38,
+    "league_trophies": 38,
+    "league_trophies_yearly": 38,
     "challenge_appearances": 68,
     "challenge_wins": 302,
     "challenge_losses": 164,
     "irl_top8": 0,
     "challenge_win_pct": 65,
-    "league_trophy_rank_yearly": 35,
+    "league_trophy_rank_yearly": 34,
     "league_trophy_rank_alltime": 42,
     "league_trophy_decks_yearly": 77,
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-09-0210991",
+      "tournament": "Pauper League",
+      "date": "2026-09-02",
+      "player": "TheJunkDog",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-16-2026-09-0112853221",
       "tournament": "Pauper Challenge 16",
@@ -382,21 +398,6 @@
       "final_rank": 6,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2210991",
-      "tournament": "Pauper League",
-      "date": "2026-08-22",
-      "player": "xMatias",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -414,7 +415,7 @@
     },
     {
       "player": "TheJunkDog",
-      "count": 6
+      "count": 7
     },
     {
       "player": "FishCombatant",

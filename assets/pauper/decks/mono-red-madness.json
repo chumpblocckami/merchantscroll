@@ -2,10 +2,10 @@
   "archetype": "Mono Red Madness",
   "slug": "mono-red-madness",
   "stats": {
-    "total_entries": 2334,
-    "league_entries": 1240,
-    "league_trophies": 1240,
-    "league_trophies_yearly": 668,
+    "total_entries": 2335,
+    "league_entries": 1241,
+    "league_trophies": 1241,
+    "league_trophies_yearly": 669,
     "challenge_appearances": 953,
     "challenge_wins": 3800,
     "challenge_losses": 2405,
@@ -17,6 +17,19 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-09-0210991",
+      "tournament": "Pauper League",
+      "date": "2026-09-02",
+      "player": "kmasuyama",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-16-2026-09-0112853221",
       "tournament": "Pauper Challenge 16",
@@ -326,19 +339,6 @@
       ],
       "record": "4-2",
       "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2912853188",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-29",
-      "player": "Goblin_Player",
-      "colors": [
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 16,
       "source": "mtgo",
       "type": "challenge"
     }
