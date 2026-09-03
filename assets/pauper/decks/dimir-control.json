@@ -2,10 +2,10 @@
   "archetype": "Dimir Control",
   "slug": "dimir-control",
   "stats": {
-    "total_entries": 174,
-    "league_entries": 117,
-    "league_trophies": 117,
-    "league_trophies_yearly": 70,
+    "total_entries": 175,
+    "league_entries": 118,
+    "league_trophies": 118,
+    "league_trophies_yearly": 71,
     "challenge_appearances": 53,
     "challenge_wins": 177,
     "challenge_losses": 150,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-09-0310991",
+      "tournament": "Pauper League",
+      "date": "2026-09-03",
+      "player": "grajtow",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-2610991",
       "tournament": "Pauper League",
@@ -356,21 +370,6 @@
       ],
       "record": "4-2",
       "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-showcase-challenge-2026-06-1412844285",
-      "tournament": "Pauper Showcase Challenge",
-      "date": "2026-06-14",
-      "player": "SpockVidaLoka",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "6-3",
-      "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
     }
