@@ -2,10 +2,10 @@
   "archetype": "Spy Combo",
   "slug": "spy-combo",
   "stats": {
-    "total_entries": 865,
-    "league_entries": 530,
-    "league_trophies": 530,
-    "league_trophies_yearly": 252,
+    "total_entries": 866,
+    "league_entries": 531,
+    "league_trophies": 531,
+    "league_trophies_yearly": 253,
     "challenge_appearances": 275,
     "challenge_wins": 1117,
     "challenge_losses": 697,
@@ -22,6 +22,20 @@
       "tournament": "Pauper League",
       "date": "2026-09-03",
       "player": "Hanze",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-09-0310991",
+      "tournament": "Pauper League",
+      "date": "2026-09-03",
+      "player": "Thraben27",
       "colors": [
         "B",
         "G"
@@ -354,20 +368,6 @@
       "final_rank": 30,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2410991",
-      "tournament": "Pauper League",
-      "date": "2026-08-24",
-      "player": "Gradki",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
