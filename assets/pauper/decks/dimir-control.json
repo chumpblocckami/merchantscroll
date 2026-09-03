@@ -2,10 +2,10 @@
   "archetype": "Dimir Control",
   "slug": "dimir-control",
   "stats": {
-    "total_entries": 175,
-    "league_entries": 118,
-    "league_trophies": 118,
-    "league_trophies_yearly": 71,
+    "total_entries": 176,
+    "league_entries": 119,
+    "league_trophies": 119,
+    "league_trophies_yearly": 72,
     "challenge_appearances": 53,
     "challenge_wins": 177,
     "challenge_losses": 150,
@@ -24,6 +24,21 @@
       "player": "grajtow",
       "colors": [
         "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-09-0310991",
+      "tournament": "Pauper League",
+      "date": "2026-09-03",
+      "player": "taravangian_",
+      "colors": [
+        "B",
+        "R",
         "U"
       ],
       "record": "5-0",
@@ -357,21 +372,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-1412844338",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-14",
-      "player": "SpockVidaLoka",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
