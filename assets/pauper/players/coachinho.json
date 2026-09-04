@@ -3,11 +3,11 @@
   "display_name": "Coachinho",
   "irl_name": null,
   "stats": {
-    "total_entries": 27,
+    "total_entries": 28,
     "league_trophies": 13,
     "league_trophies_yearly": 7,
-    "challenge_wins": 48,
-    "challenge_losses": 34,
+    "challenge_wins": 52,
+    "challenge_losses": 36,
     "irl_top8": 0,
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": 176,
@@ -18,7 +18,7 @@
   "favorite_decks": [
     {
       "archetype": "Mono Blue Terror",
-      "count": 15
+      "count": 16
     },
     {
       "archetype": "Jund Wildfire",
@@ -42,6 +42,20 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-09-0412853676",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-09-04",
+      "player": "Coachinho",
+      "archetype": "Mono Blue Terror",
+      "colors": [
+        "U"
+      ],
+      "record": "4-2",
+      "final_rank": 12,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-08-3010991",
       "tournament": "Pauper League",
@@ -391,20 +405,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-08-3012812783",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-08-30",
-      "player": "Coachinho",
-      "archetype": "Mono Blue Terror",
-      "colors": [
-        "U"
-      ],
-      "record": "6-2",
-      "final_rank": 4,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

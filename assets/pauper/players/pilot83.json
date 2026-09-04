@@ -3,13 +3,13 @@
   "display_name": "Pilot83",
   "irl_name": null,
   "stats": {
-    "total_entries": 27,
+    "total_entries": 28,
     "league_trophies": 7,
     "league_trophies_yearly": 6,
-    "challenge_wins": 60,
-    "challenge_losses": 33,
+    "challenge_wins": 63,
+    "challenge_losses": 36,
     "irl_top8": 0,
-    "challenge_win_pct": 65,
+    "challenge_win_pct": 64,
     "league_trophy_rank_yearly": 239,
     "league_trophy_rank_alltime": 420,
     "league_trophy_players_yearly": 1530,
@@ -29,11 +29,30 @@
       "count": 2
     },
     {
+      "archetype": "Gruul Ponza",
+      "count": 1
+    },
+    {
       "archetype": "Mono Red Madness",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-09-0412853676",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-09-04",
+      "player": "Pilot83",
+      "archetype": "Gruul Ponza",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 27,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-08-2412852764",
       "tournament": "Pauper Challenge 32",
@@ -410,22 +429,6 @@
       "final_rank": 16,
       "source": "mtgo",
       "type": "other"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-12-1912827488",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-12-19",
-      "player": "Pilot83",
-      "archetype": "Jund Wildfire",
-      "colors": [
-        "B",
-        "G",
-        "R"
-      ],
-      "record": "3-2",
-      "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ]
 }

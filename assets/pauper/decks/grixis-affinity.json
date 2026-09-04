@@ -2,13 +2,13 @@
   "archetype": "Grixis Affinity",
   "slug": "grixis-affinity",
   "stats": {
-    "total_entries": 112,
+    "total_entries": 114,
     "league_entries": 38,
     "league_trophies": 38,
     "league_trophies_yearly": 38,
-    "challenge_appearances": 71,
-    "challenge_wins": 316,
-    "challenge_losses": 172,
+    "challenge_appearances": 73,
+    "challenge_wins": 328,
+    "challenge_losses": 176,
     "irl_top8": 0,
     "challenge_win_pct": 65,
     "league_trophy_rank_yearly": 34,
@@ -17,6 +17,36 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-09-0412853676",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-09-04",
+      "player": "LuffyDoChapeuDePalha",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "7-2",
+      "final_rank": 2,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-09-0412853676",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-09-04",
+      "player": "outZEROo",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-2",
+      "final_rank": 5,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-09-0312853671",
       "tournament": "Pauper Challenge 32",
@@ -366,43 +396,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2312852755",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-23",
-      "player": "SerPir",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "7-3",
-      "final_rank": 2,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2312852755",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-23",
-      "player": "TheJunkDog",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-2",
-      "final_rank": 13,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "LuffyDoChapeuDePalha",
-      "count": 17
+      "count": 18
     },
     {
       "player": "seasonofmists",

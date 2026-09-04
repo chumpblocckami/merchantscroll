@@ -2,13 +2,13 @@
   "archetype": "Mono Red Rally",
   "slug": "mono-red-rally",
   "stats": {
-    "total_entries": 1306,
+    "total_entries": 1307,
     "league_entries": 678,
     "league_trophies": 678,
     "league_trophies_yearly": 338,
-    "challenge_appearances": 549,
-    "challenge_wins": 2119,
-    "challenge_losses": 1402,
+    "challenge_appearances": 550,
+    "challenge_wins": 2121,
+    "challenge_losses": 1405,
     "irl_top8": 26,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 3,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-09-0412853676",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-09-04",
+      "player": "PedraStone",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "2-3",
+      "final_rank": 21,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-09-0312853671",
       "tournament": "Pauper Challenge 32",
@@ -352,20 +366,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-1810991",
-      "tournament": "Pauper League",
-      "date": "2026-08-18",
-      "player": "Sakeyfrakey",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -391,7 +391,7 @@
     },
     {
       "player": "PedraStone",
-      "count": 23
+      "count": 24
     },
     {
       "player": "Goblin_Player",

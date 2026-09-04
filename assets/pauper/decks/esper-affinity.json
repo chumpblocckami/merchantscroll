@@ -2,21 +2,36 @@
   "archetype": "Esper Affinity",
   "slug": "esper-affinity",
   "stats": {
-    "total_entries": 95,
-    "league_entries": 59,
-    "league_trophies": 59,
-    "league_trophies_yearly": 16,
+    "total_entries": 96,
+    "league_entries": 60,
+    "league_trophies": 60,
+    "league_trophies_yearly": 17,
     "challenge_appearances": 27,
     "challenge_wins": 94,
     "challenge_losses": 64,
     "irl_top8": 5,
     "challenge_win_pct": 59,
-    "league_trophy_rank_yearly": 44,
+    "league_trophy_rank_yearly": 43,
     "league_trophy_rank_alltime": 40,
     "league_trophy_decks_yearly": 77,
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-09-0410991",
+      "tournament": "Pauper League",
+      "date": "2026-09-04",
+      "player": "seasonofmists",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-09-0312853671",
       "tournament": "Pauper Challenge 32",
@@ -365,21 +380,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-06-12-lucca-summer-2026",
-      "tournament": "LP Lucca Summer 2026 — Lucca",
-      "date": "2026-06-12",
-      "player": "Michele Barsotti",
-      "colors": [
-        "B",
-        "U",
-        "W"
-      ],
-      "record": "",
-      "final_rank": 2,
-      "source": "pauperwave",
-      "type": "irl"
     }
   ],
   "top_pilots": [
