@@ -3,11 +3,11 @@
   "display_name": "kuldothared",
   "irl_name": null,
   "stats": {
-    "total_entries": 53,
+    "total_entries": 54,
     "league_trophies": 11,
     "league_trophies_yearly": 2,
-    "challenge_wins": 172,
-    "challenge_losses": 101,
+    "challenge_wins": 175,
+    "challenge_losses": 104,
     "irl_top8": 0,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 732,
@@ -37,6 +37,10 @@
       "count": 1
     },
     {
+      "archetype": "Flicker Tron",
+      "count": 1
+    },
+    {
       "archetype": "Golgari Glee",
       "count": 1
     },
@@ -50,6 +54,21 @@
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-09-0312853671",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-09-03",
+      "player": "kuldothared",
+      "archetype": "Flicker Tron",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-16-2026-09-0112853221",
       "tournament": "Pauper Challenge 16",
@@ -427,22 +446,6 @@
       ],
       "record": "5-2",
       "final_rank": 8,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-01-1512830022",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-15",
-      "player": "kuldothared",
-      "archetype": "Affinity",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
     }

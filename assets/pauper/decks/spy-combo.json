@@ -2,13 +2,13 @@
   "archetype": "Spy Combo",
   "slug": "spy-combo",
   "stats": {
-    "total_entries": 867,
-    "league_entries": 532,
-    "league_trophies": 532,
-    "league_trophies_yearly": 254,
-    "challenge_appearances": 275,
-    "challenge_wins": 1117,
-    "challenge_losses": 697,
+    "total_entries": 871,
+    "league_entries": 535,
+    "league_trophies": 535,
+    "league_trophies_yearly": 257,
+    "challenge_appearances": 276,
+    "challenge_wins": 1120,
+    "challenge_losses": 700,
     "irl_top8": 26,
     "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 6,
@@ -17,6 +17,62 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-09-0410991",
+      "tournament": "Pauper League",
+      "date": "2026-09-04",
+      "player": "Borbs",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-09-0410991",
+      "tournament": "Pauper League",
+      "date": "2026-09-04",
+      "player": "SpikeYou",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-09-0410991",
+      "tournament": "Pauper League",
+      "date": "2026-09-04",
+      "player": "orlandowb1506",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-09-0312853671",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-09-03",
+      "player": "mcwright_",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "3-3",
+      "final_rank": 22,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-09-0310991",
       "tournament": "Pauper League",
@@ -311,62 +367,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2610991",
-      "tournament": "Pauper League",
-      "date": "2026-08-26",
-      "player": "meuns",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2510991",
-      "tournament": "Pauper League",
-      "date": "2026-08-25",
-      "player": "CliffBoyardee",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2510991",
-      "tournament": "Pauper League",
-      "date": "2026-08-25",
-      "player": "Kuriboh",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2412852764",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-24",
-      "player": "Cachorrowo",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "3-3",
-      "final_rank": 19,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -396,7 +396,7 @@
     },
     {
       "player": "Borbs",
-      "count": 13
+      "count": 14
     },
     {
       "player": "Luddrox",

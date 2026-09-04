@@ -2,13 +2,13 @@
   "archetype": "Flicker Tron",
   "slug": "flicker-tron",
   "stats": {
-    "total_entries": 324,
+    "total_entries": 325,
     "league_entries": 179,
     "league_trophies": 179,
     "league_trophies_yearly": 103,
-    "challenge_appearances": 130,
-    "challenge_wins": 523,
-    "challenge_losses": 336,
+    "challenge_appearances": 131,
+    "challenge_wins": 526,
+    "challenge_losses": 339,
     "irl_top8": 7,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 22,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-09-0312853671",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-09-03",
+      "player": "kuldothared",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-09-0310991",
       "tournament": "Pauper League",
@@ -385,22 +399,6 @@
         "G",
         "R",
         "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2510991",
-      "tournament": "Pauper League",
-      "date": "2026-08-25",
-      "player": "Antillectual",
-      "colors": [
-        "G",
-        "R",
-        "U",
-        "W"
       ],
       "record": "5-0",
       "final_rank": null,
