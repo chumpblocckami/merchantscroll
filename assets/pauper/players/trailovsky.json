@@ -3,21 +3,25 @@
   "display_name": "Trailovsky",
   "irl_name": null,
   "stats": {
-    "total_entries": 5,
-    "league_trophies": 5,
-    "league_trophies_yearly": 1,
+    "total_entries": 6,
+    "league_trophies": 6,
+    "league_trophies_yearly": 2,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 1484,
-    "league_trophy_rank_alltime": 609,
-    "league_trophy_players_yearly": 1530,
-    "league_trophy_players_alltime": 2204
+    "league_trophy_rank_yearly": 842,
+    "league_trophy_rank_alltime": 515,
+    "league_trophy_players_yearly": 1531,
+    "league_trophy_players_alltime": 2205
   },
   "favorite_decks": [
     {
       "archetype": "Elves",
+      "count": 2
+    },
+    {
+      "archetype": "Mono Red Madness",
       "count": 2
     },
     {
@@ -27,13 +31,23 @@
     {
       "archetype": "Mono Blue Terror",
       "count": 1
-    },
-    {
-      "archetype": "Mono Red Madness",
-      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-09-0410991",
+      "tournament": "Pauper League",
+      "date": "2026-09-04",
+      "player": "Trailovsky",
+      "archetype": "Mono Red Madness",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-2910991",
       "tournament": "Pauper League",
