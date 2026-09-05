@@ -2,13 +2,13 @@
   "archetype": "GW",
   "slug": "gw",
   "stats": {
-    "total_entries": 7,
+    "total_entries": 8,
     "league_entries": 6,
     "league_trophies": 6,
     "league_trophies_yearly": 6,
-    "challenge_appearances": 1,
-    "challenge_wins": 4,
-    "challenge_losses": 2,
+    "challenge_appearances": 2,
+    "challenge_wins": 8,
+    "challenge_losses": 4,
     "irl_top8": 0,
     "challenge_win_pct": 67,
     "league_trophy_rank_yearly": 54,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-09-0312853676",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-09-04",
+      "player": "cabrabr12",
+      "colors": [
+        "G",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 14,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-09-0412853676",
       "tournament": "Pauper Challenge 32",
@@ -119,7 +133,7 @@
   "top_pilots": [
     {
       "player": "cabrabr12",
-      "count": 4
+      "count": 5
     },
     {
       "player": "dbagan13",

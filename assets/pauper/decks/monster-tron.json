@@ -2,13 +2,13 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 337,
+    "total_entries": 342,
     "league_entries": 152,
     "league_trophies": 152,
     "league_trophies_yearly": 146,
-    "challenge_appearances": 160,
-    "challenge_wins": 646,
-    "challenge_losses": 409,
+    "challenge_appearances": 165,
+    "challenge_wins": 667,
+    "challenge_losses": 424,
     "irl_top8": 12,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 14,
@@ -17,6 +17,76 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-09-0512853684",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-09-05",
+      "player": "ABCD_1234",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "2-4",
+      "final_rank": 32,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-09-0512853684",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-09-05",
+      "player": "PNascimento",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "6-3",
+      "final_rank": 2,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-09-0512853684",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-09-05",
+      "player": "TuggaNaxos",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "7-2",
+      "final_rank": 1,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-09-0512853684",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-09-05",
+      "player": "manohito",
+      "colors": [
+        "G"
+      ],
+      "record": "3-3",
+      "final_rank": 16,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-09-0312853676",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-09-04",
+      "player": "ABCD_1234",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 22,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-09-0412853676",
       "tournament": "Pauper Challenge 32",
@@ -310,80 +380,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2612853162",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-26",
-      "player": "ABCD_1234",
-      "colors": [
-        "G",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2612853162",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-26",
-      "player": "discoverN",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-2",
-      "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2510991",
-      "tournament": "Pauper League",
-      "date": "2026-08-25",
-      "player": "MedeirosFT",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2412852764",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-24",
-      "player": "Walker735",
-      "colors": [
-        "B",
-        "G",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2410991",
-      "tournament": "Pauper League",
-      "date": "2026-08-24",
-      "player": "Syns",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -396,12 +392,12 @@
       "count": 15
     },
     {
-      "player": "A_AdeptoTerra",
-      "count": 10
+      "player": "ABCD_1234",
+      "count": 11
     },
     {
-      "player": "ABCD_1234",
-      "count": 9
+      "player": "A_AdeptoTerra",
+      "count": 10
     },
     {
       "player": "Syns",
@@ -424,7 +420,7 @@
       "count": 6
     },
     {
-      "player": "giggimille",
+      "player": "PNascimento",
       "count": 6
     }
   ]

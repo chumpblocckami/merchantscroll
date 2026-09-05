@@ -2,13 +2,13 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 768,
+    "total_entries": 771,
     "league_entries": 374,
     "league_trophies": 374,
     "league_trophies_yearly": 180,
-    "challenge_appearances": 343,
-    "challenge_wins": 1417,
-    "challenge_losses": 831,
+    "challenge_appearances": 346,
+    "challenge_wins": 1430,
+    "challenge_losses": 839,
     "irl_top8": 22,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 11,
@@ -17,6 +17,36 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-09-0512853684",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-09-05",
+      "player": "__Noob__",
+      "colors": [
+        "B",
+        "G",
+        "W"
+      ],
+      "record": "6-2",
+      "final_rank": 3,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-09-0312853676",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-09-04",
+      "player": "G-Monteiro",
+      "colors": [
+        "B",
+        "G",
+        "W"
+      ],
+      "record": "4-3",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-09-0412853676",
       "tournament": "Pauper Challenge 32",
@@ -46,6 +76,20 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-09-0212853671",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-09-03",
+      "player": "__Noob__",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "3-3",
+      "final_rank": 20,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-09-0312853671",
@@ -340,57 +384,12 @@
       "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2412852764",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-24",
-      "player": "__Noob__",
-      "colors": [
-        "B",
-        "G",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 16,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2312852755",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-23",
-      "player": "NickNorman",
-      "colors": [
-        "B",
-        "G",
-        "W"
-      ],
-      "record": "4-3",
-      "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2312852755",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-23",
-      "player": "__Noob__",
-      "colors": [
-        "B",
-        "G",
-        "W"
-      ],
-      "record": "8-2",
-      "final_rank": 1,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "__Noob__",
-      "count": 168
+      "count": 170
     },
     {
       "player": "NickNorman",
@@ -410,7 +409,7 @@
     },
     {
       "player": "G-Monteiro",
-      "count": 17
+      "count": 18
     },
     {
       "player": "Jace_MTG",

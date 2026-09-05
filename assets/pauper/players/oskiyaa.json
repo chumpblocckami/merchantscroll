@@ -3,17 +3,17 @@
   "display_name": "oskiyaa",
   "irl_name": null,
   "stats": {
-    "total_entries": 49,
+    "total_entries": 51,
     "league_trophies": 3,
     "league_trophies_yearly": 0,
-    "challenge_wins": 163,
-    "challenge_losses": 113,
+    "challenge_wins": 170,
+    "challenge_losses": 118,
     "irl_top8": 0,
     "challenge_win_pct": 59,
     "league_trophy_rank_yearly": null,
     "league_trophy_rank_alltime": 893,
-    "league_trophy_players_yearly": 1534,
-    "league_trophy_players_alltime": 2208
+    "league_trophy_players_yearly": 1535,
+    "league_trophy_players_alltime": 2209
   },
   "favorite_decks": [
     {
@@ -33,6 +33,10 @@
       "count": 4
     },
     {
+      "archetype": "Gruul Monsters",
+      "count": 3
+    },
+    {
       "archetype": "Mono Blue Faeries",
       "count": 3
     },
@@ -49,15 +53,41 @@
       "count": 2
     },
     {
-      "archetype": "Gruul Monsters",
-      "count": 1
-    },
-    {
       "archetype": "Mono White Heroic",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-09-0512853684",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-09-05",
+      "player": "oskiyaa",
+      "archetype": "Gruul Monsters",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "3-3",
+      "final_rank": 27,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-09-0312853676",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-09-04",
+      "player": "oskiyaa",
+      "archetype": "Gruul Monsters",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 16,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-09-0412853676",
       "tournament": "Pauper Challenge 32",
@@ -389,35 +419,6 @@
       ],
       "record": "5-2",
       "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-01-1712830048",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-17",
-      "player": "oskiyaa",
-      "archetype": "White Weenie",
-      "colors": [
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 15,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-01-1012829365",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-01-10",
-      "player": "oskiyaa",
-      "archetype": "Mono Red Rally",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "2-3",
-      "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
     }
