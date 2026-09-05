@@ -2,10 +2,10 @@
   "archetype": "Mono Red Madness",
   "slug": "mono-red-madness",
   "stats": {
-    "total_entries": 2360,
-    "league_entries": 1251,
-    "league_trophies": 1251,
-    "league_trophies_yearly": 679,
+    "total_entries": 2358,
+    "league_entries": 1249,
+    "league_trophies": 1249,
+    "league_trophies_yearly": 677,
     "challenge_appearances": 968,
     "challenge_wins": 3869,
     "challenge_losses": 2436,
@@ -17,6 +17,19 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-09-0510991",
+      "tournament": "Pauper League",
+      "date": "2026-09-05",
+      "player": "Mate_wosk",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-32-2026-09-0412853676",
       "tournament": "Pauper Challenge 32",
@@ -317,36 +330,23 @@
       "type": "league"
     },
     {
-      "site_name": "pauper-league-2026-09-0210991",
-      "tournament": "Pauper League",
-      "date": "2026-09-02",
+      "site_name": "pauper-challenge-16-2026-09-0112853221",
+      "tournament": "Pauper Challenge 16",
+      "date": "2026-09-01",
       "player": "MisterTwin",
       "colors": [
         "R"
       ],
-      "record": "5-0",
-      "final_rank": null,
+      "record": "4-2",
+      "final_rank": 7,
       "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-09-0210991",
-      "tournament": "Pauper League",
-      "date": "2026-09-02",
-      "player": "kmasuyama",
-      "colors": [
-        "R"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
+      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "MisterTwin",
-      "count": 123
+      "count": 122
     },
     {
       "player": "boom_bust",
