@@ -2,10 +2,10 @@
   "archetype": "Grixis Affinity",
   "slug": "grixis-affinity",
   "stats": {
-    "total_entries": 114,
-    "league_entries": 38,
-    "league_trophies": 38,
-    "league_trophies_yearly": 38,
+    "total_entries": 115,
+    "league_entries": 39,
+    "league_trophies": 39,
+    "league_trophies_yearly": 39,
     "challenge_appearances": 73,
     "challenge_wins": 328,
     "challenge_losses": 176,
@@ -106,6 +106,22 @@
       "final_rank": 17,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-09-0210991",
+      "tournament": "Pauper League",
+      "date": "2026-09-02",
+      "player": "TheJunkDog",
+      "colors": [
+        "B",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-16-2026-09-0112853221",
@@ -379,22 +395,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2410991",
-      "tournament": "Pauper League",
-      "date": "2026-08-24",
-      "player": "TheJunkDog",
-      "colors": [
-        "B",
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -412,7 +412,7 @@
     },
     {
       "player": "TheJunkDog",
-      "count": 6
+      "count": 7
     },
     {
       "player": "FishCombatant",

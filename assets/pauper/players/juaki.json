@@ -3,17 +3,17 @@
   "display_name": "JuaKi",
   "irl_name": null,
   "stats": {
-    "total_entries": 33,
-    "league_trophies": 7,
-    "league_trophies_yearly": 5,
+    "total_entries": 34,
+    "league_trophies": 8,
+    "league_trophies_yearly": 6,
     "challenge_wins": 103,
     "challenge_losses": 62,
     "irl_top8": 0,
     "challenge_win_pct": 62,
-    "league_trophy_rank_yearly": 305,
-    "league_trophy_rank_alltime": 410,
-    "league_trophy_players_yearly": 1529,
-    "league_trophy_players_alltime": 2203
+    "league_trophy_rank_yearly": 227,
+    "league_trophy_rank_alltime": 347,
+    "league_trophy_players_yearly": 1534,
+    "league_trophy_players_alltime": 2208
   },
   "favorite_decks": [
     {
@@ -37,6 +37,10 @@
       "count": 3
     },
     {
+      "archetype": "Hot Dogs",
+      "count": 2
+    },
+    {
       "archetype": "Monster Tron",
       "count": 2
     },
@@ -46,10 +50,6 @@
     },
     {
       "archetype": "Esper Affinity",
-      "count": 1
-    },
-    {
-      "archetype": "Hot Dogs",
       "count": 1
     }
   ],
@@ -68,6 +68,21 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-09-0210991",
+      "tournament": "Pauper League",
+      "date": "2026-09-02",
+      "player": "JuaKi",
+      "archetype": "Hot Dogs",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-08-2312852755",
@@ -414,21 +429,6 @@
       ],
       "record": "3-3",
       "final_rank": 26,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2025-07-1812803677",
-      "tournament": "Pauper Challenge 32",
-      "date": "2025-07-18",
-      "player": "JuaKi",
-      "archetype": "Rakdos Madness",
-      "colors": [
-        "B",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 20,
       "source": "mtgo",
       "type": "challenge"
     }

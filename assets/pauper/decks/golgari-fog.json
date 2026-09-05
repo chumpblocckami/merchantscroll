@@ -2,10 +2,10 @@
   "archetype": "Golgari Fog",
   "slug": "golgari-fog",
   "stats": {
-    "total_entries": 109,
-    "league_entries": 57,
-    "league_trophies": 57,
-    "league_trophies_yearly": 34,
+    "total_entries": 111,
+    "league_entries": 59,
+    "league_trophies": 59,
+    "league_trophies_yearly": 36,
     "challenge_appearances": 42,
     "challenge_wins": 180,
     "challenge_losses": 103,
@@ -17,6 +17,36 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-09-0210991",
+      "tournament": "Pauper League",
+      "date": "2026-09-02",
+      "player": "Triso",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-09-0210991",
+      "tournament": "Pauper League",
+      "date": "2026-09-02",
+      "player": "murilobds",
+      "colors": [
+        "B",
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-08-3110991",
       "tournament": "Pauper League",
@@ -366,42 +396,12 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauperwave-2026-04-19-pauperissima",
-      "tournament": "Pauperissima — Milano",
-      "date": "2026-04-19",
-      "player": "Giulio Carlini",
-      "colors": [
-        "B",
-        "G",
-        "U"
-      ],
-      "record": "",
-      "final_rank": 5,
-      "source": "pauperwave",
-      "type": "irl"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-1812839685",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-18",
-      "player": "Kirblinxy",
-      "colors": [
-        "B",
-        "G",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "murilobds",
-      "count": 29
+      "count": 30
     },
     {
       "player": "ASDFGHJKJHGFDSA",
@@ -428,15 +428,15 @@
       "count": 3
     },
     {
+      "player": "Triso",
+      "count": 3
+    },
+    {
       "player": "auzzie51",
       "count": 3
     },
     {
       "player": "Jastrab5000",
-      "count": 2
-    },
-    {
-      "player": "RitualSinkhole",
       "count": 2
     }
   ]

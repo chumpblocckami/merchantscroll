@@ -2,10 +2,10 @@
   "archetype": "Naya Gates",
   "slug": "naya-gates",
   "stats": {
-    "total_entries": 354,
-    "league_entries": 121,
-    "league_trophies": 121,
-    "league_trophies_yearly": 114,
+    "total_entries": 355,
+    "league_entries": 122,
+    "league_trophies": 122,
+    "league_trophies_yearly": 115,
     "challenge_appearances": 176,
     "challenge_wins": 722,
     "challenge_losses": 424,
@@ -22,6 +22,21 @@
       "tournament": "Pauper League",
       "date": "2026-09-04",
       "player": "IAmCrayCray661",
+      "colors": [
+        "G",
+        "R",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-09-0210991",
+      "tournament": "Pauper League",
+      "date": "2026-09-02",
+      "player": "Willioufouf",
       "colors": [
         "G",
         "R",
@@ -373,21 +388,6 @@
       ],
       "record": "4-2",
       "final_rank": 10,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0512850801",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-06",
-      "player": "lucotto",
-      "colors": [
-        "G",
-        "R",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
       "source": "mtgo",
       "type": "challenge"
     }
