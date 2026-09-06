@@ -2,16 +2,16 @@
   "archetype": "Gardens",
   "slug": "gardens",
   "stats": {
-    "total_entries": 771,
-    "league_entries": 374,
-    "league_trophies": 374,
-    "league_trophies_yearly": 180,
+    "total_entries": 770,
+    "league_entries": 373,
+    "league_trophies": 373,
+    "league_trophies_yearly": 179,
     "challenge_appearances": 346,
     "challenge_wins": 1430,
     "challenge_losses": 839,
     "irl_top8": 22,
     "challenge_win_pct": 63,
-    "league_trophy_rank_yearly": 11,
+    "league_trophy_rank_yearly": 12,
     "league_trophy_rank_alltime": 11,
     "league_trophy_decks_yearly": 77,
     "league_trophy_decks_alltime": 80
@@ -61,21 +61,6 @@
       "final_rank": 8,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-09-0410991",
-      "tournament": "Pauper League",
-      "date": "2026-09-04",
-      "player": "BaronOfBacon",
-      "colors": [
-        "B",
-        "G",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-09-0212853671",
@@ -382,6 +367,21 @@
       ],
       "record": "3-3",
       "final_rank": 26,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-08-2412852764",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-08-24",
+      "player": "__Noob__",
+      "colors": [
+        "B",
+        "G",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 16,
       "source": "mtgo",
       "type": "challenge"
     }
