@@ -2,14 +2,14 @@
   "archetype": "Mono White Heroic",
   "slug": "mono-white-heroic",
   "stats": {
-    "total_entries": 163,
+    "total_entries": 164,
     "league_entries": 113,
     "league_trophies": 113,
     "league_trophies_yearly": 47,
     "challenge_appearances": 45,
     "challenge_wins": 180,
     "challenge_losses": 119,
-    "irl_top8": 3,
+    "irl_top8": 4,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 30,
     "league_trophy_rank_alltime": 31,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauperwave-2026-09-06-crudo-stracchino-pauper-3",
+      "tournament": "Crudo Stracchino e Pauper 2026 — Riccione",
+      "date": "2026-09-06",
+      "player": "Andrea Lucchini",
+      "colors": [
+        "U",
+        "W"
+      ],
+      "record": "",
+      "final_rank": 5,
+      "source": "pauperwave",
+      "type": "irl"
+    },
     {
       "site_name": "pauper-league-2026-08-2110991",
       "tournament": "Pauper League",
@@ -336,19 +350,6 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-04-0312838111",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-04-03",
-      "player": "Sodeq",
-      "colors": [
-        "W"
-      ],
-      "record": "7-2",
-      "final_rank": 4,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
