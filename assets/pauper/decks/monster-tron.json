@@ -2,10 +2,10 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 346,
-    "league_entries": 154,
-    "league_trophies": 154,
-    "league_trophies_yearly": 148,
+    "total_entries": 347,
+    "league_entries": 155,
+    "league_trophies": 155,
+    "league_trophies_yearly": 149,
     "challenge_appearances": 165,
     "challenge_wins": 667,
     "challenge_losses": 424,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-09-0610991",
+      "tournament": "Pauper League",
+      "date": "2026-09-06",
+      "player": "DodecaHedron",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-league-2026-09-0610991",
       "tournament": "Pauper League",
@@ -361,21 +376,6 @@
       ],
       "record": "7-2",
       "final_rank": 2,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2712853175",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-27",
-      "player": "ziofrancone",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-2",
-      "final_rank": 7,
       "source": "mtgo",
       "type": "challenge"
     }
