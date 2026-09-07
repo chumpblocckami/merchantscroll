@@ -2,10 +2,10 @@
   "archetype": "Jeskai Ephemerate",
   "slug": "jeskai-ephemerate",
   "stats": {
-    "total_entries": 499,
-    "league_entries": 267,
-    "league_trophies": 267,
-    "league_trophies_yearly": 203,
+    "total_entries": 501,
+    "league_entries": 269,
+    "league_trophies": 269,
+    "league_trophies_yearly": 205,
     "challenge_appearances": 201,
     "challenge_wins": 822,
     "challenge_losses": 492,
@@ -46,6 +46,21 @@
       "final_rank": 22,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-09-0510991",
+      "tournament": "Pauper League",
+      "date": "2026-09-05",
+      "player": "AvenRedeemer",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-09-0312853676",
@@ -138,6 +153,22 @@
       "final_rank": 26,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-09-0110991",
+      "tournament": "Pauper League",
+      "date": "2026-09-01",
+      "player": "DarkPattaman",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-league-2026-08-3110991",
@@ -365,36 +396,6 @@
       "final_rank": 11,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-3012853175",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-27",
-      "player": "S0ulBlack",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 30,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-2710991",
-      "tournament": "Pauper League",
-      "date": "2026-08-27",
-      "player": "Otacon_",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
@@ -424,7 +425,7 @@
     },
     {
       "player": "DarkPattaman",
-      "count": 11
+      "count": 12
     },
     {
       "player": "Mikhathara1994",

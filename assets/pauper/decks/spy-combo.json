@@ -2,10 +2,10 @@
   "archetype": "Spy Combo",
   "slug": "spy-combo",
   "stats": {
-    "total_entries": 883,
-    "league_entries": 539,
-    "league_trophies": 539,
-    "league_trophies_yearly": 261,
+    "total_entries": 884,
+    "league_entries": 540,
+    "league_trophies": 540,
+    "league_trophies_yearly": 262,
     "challenge_appearances": 284,
     "challenge_wins": 1142,
     "challenge_losses": 725,
@@ -36,6 +36,20 @@
       "tournament": "Pauper League",
       "date": "2026-09-06",
       "player": "TomatoCheese",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-09-0610991",
+      "tournament": "Pauper League",
+      "date": "2026-09-06",
+      "player": "Valimoth",
       "colors": [
         "B",
         "G"
@@ -350,20 +364,6 @@
       ],
       "record": "3-3",
       "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2912853188",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-29",
-      "player": "mpgsheep",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-2",
-      "final_rank": 12,
       "source": "mtgo",
       "type": "challenge"
     }
