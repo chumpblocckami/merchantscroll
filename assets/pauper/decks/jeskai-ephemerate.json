@@ -2,13 +2,13 @@
   "archetype": "Jeskai Ephemerate",
   "slug": "jeskai-ephemerate",
   "stats": {
-    "total_entries": 501,
+    "total_entries": 502,
     "league_entries": 269,
     "league_trophies": 269,
     "league_trophies_yearly": 205,
-    "challenge_appearances": 201,
-    "challenge_wins": 822,
-    "challenge_losses": 492,
+    "challenge_appearances": 202,
+    "challenge_wins": 826,
+    "challenge_losses": 494,
     "irl_top8": 13,
     "challenge_win_pct": 63,
     "league_trophy_rank_yearly": 9,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-09-0712853710",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-09-07",
+      "player": "ChaoticMTG",
+      "colors": [
+        "R",
+        "U",
+        "W"
+      ],
+      "record": "4-2",
+      "final_rank": 19,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-09-0612853701",
       "tournament": "Pauper Challenge 32",
@@ -381,27 +396,12 @@
       "final_rank": 20,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-3012853175",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-27",
-      "player": "ChaoticMTG",
-      "colors": [
-        "R",
-        "U",
-        "W"
-      ],
-      "record": "4-2",
-      "final_rank": 11,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "ChaoticMTG",
-      "count": 54
+      "count": 55
     },
     {
       "player": "daifuku",

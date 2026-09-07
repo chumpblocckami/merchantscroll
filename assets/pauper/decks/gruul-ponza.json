@@ -2,13 +2,13 @@
   "archetype": "Gruul Ponza",
   "slug": "gruul-ponza",
   "stats": {
-    "total_entries": 440,
-    "league_entries": 165,
-    "league_trophies": 165,
-    "league_trophies_yearly": 112,
-    "challenge_appearances": 252,
-    "challenge_wins": 906,
-    "challenge_losses": 659,
+    "total_entries": 441,
+    "league_entries": 164,
+    "league_trophies": 164,
+    "league_trophies_yearly": 111,
+    "challenge_appearances": 254,
+    "challenge_wins": 913,
+    "challenge_losses": 664,
     "irl_top8": 11,
     "challenge_win_pct": 58,
     "league_trophy_rank_yearly": 21,
@@ -18,18 +18,32 @@
   },
   "recent_entries": [
     {
-      "site_name": "pauper-league-2026-09-0710991",
-      "tournament": "Pauper League",
+      "site_name": "pauper-challenge-32-2026-09-0712853710",
+      "tournament": "Pauper Challenge 32",
       "date": "2026-09-07",
-      "player": "Geme",
+      "player": "Capitano_CL",
       "colors": [
         "G",
         "R"
       ],
-      "record": "5-0",
-      "final_rank": null,
+      "record": "3-3",
+      "final_rank": 31,
       "source": "mtgo",
-      "type": "league"
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-09-0712853710",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-09-07",
+      "player": "JhonnySeJugar",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "4-2",
+      "final_rank": 10,
+      "source": "mtgo",
+      "type": "challenge"
     },
     {
       "site_name": "pauper-challenge-32-2026-09-0612853701",
@@ -350,20 +364,6 @@
       ],
       "record": "4-2",
       "final_rank": 18,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-3012853175",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-27",
-      "player": "Funnyman31399",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "6-2",
-      "final_rank": 4,
       "source": "mtgo",
       "type": "challenge"
     }
