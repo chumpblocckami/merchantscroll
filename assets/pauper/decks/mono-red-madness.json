@@ -2,10 +2,10 @@
   "archetype": "Mono Red Madness",
   "slug": "mono-red-madness",
   "stats": {
-    "total_entries": 2404,
-    "league_entries": 1265,
-    "league_trophies": 1265,
-    "league_trophies_yearly": 693,
+    "total_entries": 2405,
+    "league_entries": 1266,
+    "league_trophies": 1266,
+    "league_trophies_yearly": 694,
     "challenge_appearances": 998,
     "challenge_wins": 3993,
     "challenge_losses": 2505,
@@ -35,6 +35,19 @@
       "tournament": "Pauper League",
       "date": "2026-09-07",
       "player": "GilbertoAntunes",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-09-0710991",
+      "tournament": "Pauper League",
+      "date": "2026-09-07",
+      "player": "Hatsunelol",
       "colors": [
         "R"
       ],
@@ -326,19 +339,6 @@
       ],
       "record": "2-4",
       "final_rank": 30,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-09-0512853684",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-09-05",
-      "player": "Qwarkus3",
-      "colors": [
-        "R"
-      ],
-      "record": "2-4",
-      "final_rank": 29,
       "source": "mtgo",
       "type": "challenge"
     }
