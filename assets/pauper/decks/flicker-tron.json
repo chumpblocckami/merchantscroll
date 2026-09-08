@@ -2,17 +2,17 @@
   "archetype": "Flicker Tron",
   "slug": "flicker-tron",
   "stats": {
-    "total_entries": 344,
-    "league_entries": 188,
-    "league_trophies": 188,
-    "league_trophies_yearly": 112,
+    "total_entries": 345,
+    "league_entries": 189,
+    "league_trophies": 189,
+    "league_trophies_yearly": 113,
     "challenge_appearances": 141,
     "challenge_wins": 565,
     "challenge_losses": 364,
     "irl_top8": 7,
     "challenge_win_pct": 61,
-    "league_trophy_rank_yearly": 22,
-    "league_trophy_rank_alltime": 22,
+    "league_trophy_rank_yearly": 21,
+    "league_trophy_rank_alltime": 20,
     "league_trophy_decks_yearly": 77,
     "league_trophy_decks_alltime": 80
   },
@@ -55,6 +55,22 @@
         "G",
         "R",
         "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-09-0810991",
+      "tournament": "Pauper League",
+      "date": "2026-09-08",
+      "player": "Xatrith",
+      "colors": [
+        "G",
+        "R",
+        "U",
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -378,21 +394,6 @@
       "final_rank": 20,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-09-0110991",
-      "tournament": "Pauper League",
-      "date": "2026-09-01",
-      "player": "ArtemisNix",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
