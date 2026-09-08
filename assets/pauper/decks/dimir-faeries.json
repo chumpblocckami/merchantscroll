@@ -2,10 +2,10 @@
   "archetype": "Dimir Faeries",
   "slug": "dimir-faeries",
   "stats": {
-    "total_entries": 731,
-    "league_entries": 359,
-    "league_trophies": 359,
-    "league_trophies_yearly": 231,
+    "total_entries": 732,
+    "league_entries": 360,
+    "league_trophies": 360,
+    "league_trophies_yearly": 232,
     "challenge_appearances": 338,
     "challenge_wins": 1371,
     "challenge_losses": 864,
@@ -134,6 +134,20 @@
       "tournament": "Pauper League",
       "date": "2026-09-03",
       "player": "Niederschatten",
+      "colors": [
+        "B",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-09-0210991",
+      "tournament": "Pauper League",
+      "date": "2026-09-02",
+      "player": "CrystalEye97",
       "colors": [
         "B",
         "U"
@@ -341,20 +355,6 @@
     },
     {
       "site_name": "pauper-challenge-32-2026-08-1312851713",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-19",
-      "player": "Beicodegeia",
-      "colors": [
-        "B",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-1612851713",
       "tournament": "Pauper Challenge 32",
       "date": "2026-08-19",
       "player": "Beicodegeia",

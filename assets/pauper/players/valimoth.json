@@ -3,17 +3,17 @@
   "display_name": "Valimoth",
   "irl_name": null,
   "stats": {
-    "total_entries": 51,
-    "league_trophies": 26,
-    "league_trophies_yearly": 16,
+    "total_entries": 52,
+    "league_trophies": 27,
+    "league_trophies_yearly": 17,
     "challenge_wins": 101,
     "challenge_losses": 51,
     "irl_top8": 0,
     "challenge_win_pct": 66,
-    "league_trophy_rank_yearly": 68,
-    "league_trophy_rank_alltime": 76,
-    "league_trophy_players_yearly": 1545,
-    "league_trophy_players_alltime": 2215
+    "league_trophy_rank_yearly": 59,
+    "league_trophy_rank_alltime": 72,
+    "league_trophy_players_yearly": 1551,
+    "league_trophy_players_alltime": 2221
   },
   "favorite_decks": [
     {
@@ -53,7 +53,7 @@
       "count": 1
     },
     {
-      "archetype": "Selesnya Gates",
+      "archetype": "Jund Wildfire",
       "count": 1
     }
   ],
@@ -82,6 +82,22 @@
       "colors": [
         "G",
         "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
+      "site_name": "pauper-league-2026-09-0210991",
+      "tournament": "Pauper League",
+      "date": "2026-09-02",
+      "player": "Valimoth",
+      "archetype": "Jund Wildfire",
+      "colors": [
+        "B",
+        "G",
+        "R"
       ],
       "record": "5-0",
       "final_rank": null,
@@ -419,22 +435,6 @@
       ],
       "record": "8-1",
       "final_rank": 3,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-06-2012844856",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-06-20",
-      "player": "Valimoth",
-      "archetype": "Monster Tron",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "9-0",
-      "final_rank": 1,
       "source": "mtgo",
       "type": "challenge"
     }

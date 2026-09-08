@@ -2,10 +2,10 @@
   "archetype": "Gruul Ponza",
   "slug": "gruul-ponza",
   "stats": {
-    "total_entries": 442,
-    "league_entries": 165,
-    "league_trophies": 165,
-    "league_trophies_yearly": 112,
+    "total_entries": 443,
+    "league_entries": 166,
+    "league_trophies": 166,
+    "league_trophies_yearly": 113,
     "challenge_appearances": 254,
     "challenge_wins": 913,
     "challenge_losses": 664,
@@ -228,6 +228,20 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-09-0210991",
+      "tournament": "Pauper League",
+      "date": "2026-09-02",
+      "player": "babamm",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-16-2026-09-0112853221",
       "tournament": "Pauper Challenge 16",
       "date": "2026-09-01",
@@ -350,20 +364,6 @@
       ],
       "record": "4-2",
       "final_rank": 17,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2712853175",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-27",
-      "player": "_Abijhavs_",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 19,
       "source": "mtgo",
       "type": "challenge"
     }
