@@ -2,10 +2,10 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 349,
-    "league_entries": 155,
-    "league_trophies": 155,
-    "league_trophies_yearly": 149,
+    "total_entries": 350,
+    "league_entries": 156,
+    "league_trophies": 156,
+    "league_trophies_yearly": 150,
     "challenge_appearances": 167,
     "challenge_wins": 673,
     "challenge_losses": 429,
@@ -218,6 +218,21 @@
       "type": "challenge"
     },
     {
+      "site_name": "pauper-league-2026-09-0410991",
+      "tournament": "Pauper League",
+      "date": "2026-09-04",
+      "player": "Sharkcaster_Mage",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
+    {
       "site_name": "pauper-challenge-16-2026-09-0112853221",
       "tournament": "Pauper Challenge 16",
       "date": "2026-09-01",
@@ -359,21 +374,6 @@
       ],
       "record": "5-2",
       "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2812853180",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-28",
-      "player": "TiagoFuguete",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
     }

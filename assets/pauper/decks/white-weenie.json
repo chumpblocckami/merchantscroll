@@ -2,17 +2,17 @@
   "archetype": "White Weenie",
   "slug": "white-weenie",
   "stats": {
-    "total_entries": 725,
-    "league_entries": 392,
-    "league_trophies": 392,
-    "league_trophies_yearly": 202,
+    "total_entries": 726,
+    "league_entries": 393,
+    "league_trophies": 393,
+    "league_trophies_yearly": 203,
     "challenge_appearances": 295,
     "challenge_wins": 1131,
     "challenge_losses": 754,
     "irl_top8": 22,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 10,
-    "league_trophy_rank_alltime": 8,
+    "league_trophy_rank_alltime": 7,
     "league_trophy_decks_yearly": 77,
     "league_trophy_decks_alltime": 80
   },
@@ -108,6 +108,19 @@
       "final_rank": 20,
       "source": "mtgo",
       "type": "challenge"
+    },
+    {
+      "site_name": "pauper-league-2026-09-0410991",
+      "tournament": "Pauper League",
+      "date": "2026-09-04",
+      "player": "greeny4242",
+      "colors": [
+        "W"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
     },
     {
       "site_name": "pauper-challenge-32-2026-09-0212853671",
@@ -332,20 +345,6 @@
       ],
       "record": "4-2",
       "final_rank": 19,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2112852730",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-21",
-      "player": "oskiyaa",
-      "colors": [
-        "U",
-        "W"
-      ],
-      "record": "3-3",
-      "final_rank": 25,
       "source": "mtgo",
       "type": "challenge"
     }
