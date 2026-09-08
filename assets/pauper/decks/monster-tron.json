@@ -2,13 +2,13 @@
   "archetype": "Monster Tron",
   "slug": "monster-tron",
   "stats": {
-    "total_entries": 350,
+    "total_entries": 353,
     "league_entries": 156,
     "league_trophies": 156,
     "league_trophies_yearly": 150,
-    "challenge_appearances": 167,
-    "challenge_wins": 673,
-    "challenge_losses": 429,
+    "challenge_appearances": 170,
+    "challenge_wins": 681,
+    "challenge_losses": 438,
     "irl_top8": 14,
     "challenge_win_pct": 61,
     "league_trophy_rank_yearly": 14,
@@ -17,6 +17,50 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-16-2026-09-0812853785",
+      "tournament": "Pauper Challenge 16",
+      "date": "2026-09-08",
+      "player": "PNascimento",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "1-4",
+      "final_rank": 28,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-16-2026-09-0812853785",
+      "tournament": "Pauper Challenge 16",
+      "date": "2026-09-08",
+      "player": "Tsubasa_Cat",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 8,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-16-2026-09-0812853785",
+      "tournament": "Pauper Challenge 16",
+      "date": "2026-09-08",
+      "player": "discoverN",
+      "colors": [
+        "G",
+        "R",
+        "U"
+      ],
+      "record": "3-2",
+      "final_rank": 9,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-32-2026-09-0712853710",
       "tournament": "Pauper Challenge 32",
@@ -332,50 +376,6 @@
       "final_rank": 18,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-3010991",
-      "tournament": "Pauper League",
-      "date": "2026-08-30",
-      "player": "NMT_Sco94",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2912853188",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-29",
-      "player": "ABCD_1234",
-      "colors": [
-        "G",
-        "U"
-      ],
-      "record": "4-2",
-      "final_rank": 14,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2912853188",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-29",
-      "player": "Sciacallo_Rosso",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "5-2",
-      "final_rank": 7,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -408,15 +408,15 @@
       "count": 8
     },
     {
+      "player": "PNascimento",
+      "count": 7
+    },
+    {
       "player": "Samueland03",
       "count": 7
     },
     {
       "player": "Casanova_13",
-      "count": 6
-    },
-    {
-      "player": "PNascimento",
       "count": 6
     }
   ]
