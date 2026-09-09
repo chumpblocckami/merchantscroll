@@ -2,10 +2,10 @@
   "archetype": "Grixis Affinity",
   "slug": "grixis-affinity",
   "stats": {
-    "total_entries": 126,
-    "league_entries": 39,
-    "league_trophies": 39,
-    "league_trophies_yearly": 39,
+    "total_entries": 127,
+    "league_entries": 40,
+    "league_trophies": 40,
+    "league_trophies_yearly": 40,
     "challenge_appearances": 84,
     "challenge_wins": 380,
     "challenge_losses": 203,
@@ -17,6 +17,21 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-09-0910991",
+      "tournament": "Pauper League",
+      "date": "2026-09-09",
+      "player": "thomps-a-whomps",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-16-2026-09-0812853785",
       "tournament": "Pauper Challenge 16",
@@ -378,21 +393,6 @@
       ],
       "record": "6-2",
       "final_rank": 4,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2712853175",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-27",
-      "player": "LuffyDoChapeuDePalha",
-      "colors": [
-        "B",
-        "R",
-        "U"
-      ],
-      "record": "5-2",
-      "final_rank": 5,
       "source": "mtgo",
       "type": "challenge"
     }

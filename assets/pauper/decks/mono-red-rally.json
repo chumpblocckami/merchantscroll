@@ -2,10 +2,10 @@
   "archetype": "Mono Red Rally",
   "slug": "mono-red-rally",
   "stats": {
-    "total_entries": 1320,
-    "league_entries": 681,
-    "league_trophies": 681,
-    "league_trophies_yearly": 341,
+    "total_entries": 1321,
+    "league_entries": 682,
+    "league_trophies": 682,
+    "league_trophies_yearly": 342,
     "challenge_appearances": 560,
     "challenge_wins": 2149,
     "challenge_losses": 1431,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-09-0910991",
+      "tournament": "Pauper League",
+      "date": "2026-09-09",
+      "player": "FleshyGordon",
+      "colors": [
+        "G",
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-16-2026-09-0812853785",
       "tournament": "Pauper Challenge 16",
@@ -350,20 +364,6 @@
       ],
       "record": "3-3",
       "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-2712853175",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-27",
-      "player": "boom_bust",
-      "colors": [
-        "G",
-        "R"
-      ],
-      "record": "4-2",
-      "final_rank": 9,
       "source": "mtgo",
       "type": "challenge"
     }

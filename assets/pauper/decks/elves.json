@@ -2,10 +2,10 @@
   "archetype": "Elves",
   "slug": "elves",
   "stats": {
-    "total_entries": 1387,
-    "league_entries": 705,
-    "league_trophies": 705,
-    "league_trophies_yearly": 323,
+    "total_entries": 1388,
+    "league_entries": 706,
+    "league_trophies": 706,
+    "league_trophies_yearly": 324,
     "challenge_appearances": 609,
     "challenge_wins": 2438,
     "challenge_losses": 1536,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-09-0910991",
+      "tournament": "Pauper League",
+      "date": "2026-09-09",
+      "player": "Raketa",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-16-2026-09-0812853785",
       "tournament": "Pauper Challenge 16",
@@ -340,21 +354,6 @@
       "final_rank": 28,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-09-0412853676",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-09-04",
-      "player": "PNascimento",
-      "colors": [
-        "G",
-        "R",
-        "U"
-      ],
-      "record": "3-3",
-      "final_rank": 24,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
@@ -384,7 +383,7 @@
     },
     {
       "player": "Raketa",
-      "count": 24
+      "count": 25
     },
     {
       "player": "CarrodaPolicia",

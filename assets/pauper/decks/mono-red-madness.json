@@ -2,10 +2,10 @@
   "archetype": "Mono Red Madness",
   "slug": "mono-red-madness",
   "stats": {
-    "total_entries": 2423,
-    "league_entries": 1272,
-    "league_trophies": 1272,
-    "league_trophies_yearly": 700,
+    "total_entries": 2424,
+    "league_entries": 1273,
+    "league_trophies": 1273,
+    "league_trophies_yearly": 701,
     "challenge_appearances": 1010,
     "challenge_wins": 4042,
     "challenge_losses": 2535,
@@ -17,6 +17,19 @@
     "league_trophy_decks_alltime": 80
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-09-0910991",
+      "tournament": "Pauper League",
+      "date": "2026-09-09",
+      "player": "slothes",
+      "colors": [
+        "R"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-16-2026-09-0812853785",
       "tournament": "Pauper Challenge 16",
@@ -326,19 +339,6 @@
       ],
       "record": "4-2",
       "final_rank": 9,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-09-0612853701",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-09-06",
-      "player": "Brasatore",
-      "colors": [
-        "R"
-      ],
-      "record": "3-3",
-      "final_rank": 23,
       "source": "mtgo",
       "type": "challenge"
     }
