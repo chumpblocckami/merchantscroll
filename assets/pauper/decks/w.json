@@ -1,40 +1,40 @@
 {
-  "username": "bocchefrfr",
-  "display_name": "BoccheFrFr",
-  "irl_name": null,
+  "archetype": "W",
+  "slug": "w",
   "stats": {
     "total_entries": 1,
+    "league_entries": 1,
     "league_trophies": 1,
     "league_trophies_yearly": 1,
+    "challenge_appearances": 0,
     "challenge_wins": 0,
     "challenge_losses": 0,
     "irl_top8": 0,
     "challenge_win_pct": null,
-    "league_trophy_rank_yearly": 954,
-    "league_trophy_rank_alltime": 1446,
-    "league_trophy_players_yearly": 1556,
-    "league_trophy_players_alltime": 2226
+    "league_trophy_rank_yearly": 77,
+    "league_trophy_rank_alltime": 81,
+    "league_trophy_decks_yearly": 78,
+    "league_trophy_decks_alltime": 81
   },
-  "favorite_decks": [
-    {
-      "archetype": "Mono Black Sacrifice",
-      "count": 1
-    }
-  ],
   "recent_entries": [
     {
       "site_name": "pauper-league-2026-09-0910991",
       "tournament": "Pauper League",
       "date": "2026-09-09",
-      "player": "BoccheFrFr",
-      "archetype": "Mono Black Sacrifice",
+      "player": "LextarDD",
       "colors": [
-        "B"
+        "W"
       ],
       "record": "5-0",
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
+    }
+  ],
+  "top_pilots": [
+    {
+      "player": "LextarDD",
+      "count": 1
     }
   ]
 }
