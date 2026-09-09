@@ -121,7 +121,7 @@ gh run view <run-id> --log | grep "rejected the token"
 ```
 
 **A crawl commit touching hundreds of profile files.** Derived artifacts —
-`assets/pauper/index.json`, `players.json`, the per-player and per-archetype
+`assets/pauper/index.json`, `pools.json`, the per-player and per-archetype
 profiles, and `meta/timeline.json` — are deterministic: rebuilding them from
 unchanged raw data must produce byte-identical files. If a commit rewrites
 hundreds of profiles while adding one tournament, something has started leaking

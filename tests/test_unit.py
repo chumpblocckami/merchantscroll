@@ -1008,24 +1008,6 @@ class TestDerivedArtifactDeterminism(unittest.TestCase):
         forward, reverse = self._twice(build)
         self.assertEqual(forward, reverse)
 
-    def test_players_index_ignores_file_order(self):
-        from pathlib import Path
-        from unittest.mock import patch
-
-        from src import pipeline
-
-        def build(tmp):
-            raw = self._raw_dir(tmp)
-            out = Path(tmp) / "players.json"
-            with patch.object(pipeline, "RAW_DIR", raw), patch.object(
-                pipeline, "PLAYERS_PATH", out
-            ):
-                pipeline.rebuild_players_index()
-            return out.read_text()
-
-        forward, reverse = self._twice(build)
-        self.assertEqual(forward, reverse)
-
     def test_tournament_index_ignores_file_order(self):
         from pathlib import Path
         from unittest.mock import patch

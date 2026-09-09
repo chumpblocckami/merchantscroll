@@ -43,7 +43,6 @@ from .utils import canonical_starttime, extract_date
 
 RAW_DIR = Path("assets/pauper/raw")
 INDEX_PATH = Path("assets/pauper/index.json")
-PLAYERS_PATH = Path("assets/pauper/players.json")
 INFO_PATH = Path("info.json")
 
 
@@ -257,33 +256,6 @@ def rebuild_index() -> bool:
     return new_text != previous
 
 
-def rebuild_players_index():
-    """Regenerate players.json mapping player names to their tournament site_names.
-
-    Output format: {"playername": ["site_name_1", "site_name_2", ...], ...}
-    Player names are stored lowercase for case-insensitive frontend matching.
-    """
-    if not RAW_DIR.exists():
-        print("No raw directory found, skipping players index.")
-        return
-
-    players: dict[str, list[str]] = {}
-    for path in sorted(RAW_DIR.glob("*.json")):
-        try:
-            data = json.loads(path.read_text())
-        except (json.JSONDecodeError, OSError):
-            continue
-        site_name = path.stem
-        for deck in data.get("decklists", []):
-            name = deck.get("player", "").lower()
-            if name:
-                players.setdefault(name, []).append(site_name)
-
-    write_json(PLAYERS_PATH, players)
-    total = sum(len(v) for v in players.values())
-    print(f"Players index updated: {len(players)} players, {total} entries.")
-
-
 def write_info():
     """Write info.json with the current UTC timestamp."""
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
@@ -303,7 +275,7 @@ def rebuild_derived_artifacts(
 
     1. Rebuild archetype dictionary from labeled Pauperwave decks
     2. Classify unlabeled MTGO decks and normalize aliases
-    3. Rebuild tournament and player indexes
+    3. Rebuild the tournament index
     4. Rebuild player and deck (meta) profiles
     5. Rebuild the metagame timeline
 
@@ -323,7 +295,6 @@ def rebuild_derived_artifacts(
         print(f"Archetype labels normalized: {normalized} decklists.")
 
     index_changed = rebuild_index()
-    rebuild_players_index()
     rebuild_player_profiles(raw_dir=raw_dir)
     rebuild_deck_profiles(raw_dir=raw_dir)
     rebuild_metagame_timeline(raw_dir=raw_dir)

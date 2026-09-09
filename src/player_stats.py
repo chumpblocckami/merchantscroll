@@ -11,7 +11,6 @@ from .saver import write_json
 from .utils import canonical_starttime
 
 RAW_DIR = Path("assets/pauper/raw")
-PLAYERS_INDEX_PATH = Path("assets/pauper/players.json")
 PROFILES_DIR = Path("assets/pauper/players")
 IDENTITIES_PATH = Path("players/identities.json")
 POOLS_NAME = "pools.json"
