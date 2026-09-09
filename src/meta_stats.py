@@ -15,6 +15,7 @@ from pathlib import Path
 from .classifier import canonical_archetype
 from .deck_stats import archetype_slug
 from .player_stats import _tournament_type
+from .saver import write_json
 from .utils import canonical_starttime
 
 RAW_DIR = Path("assets/pauper/raw")
@@ -99,8 +100,7 @@ def rebuild_metagame_timeline(
         "events": events,
     }
 
-    out_path.parent.mkdir(parents=True, exist_ok=True)
-    out_path.write_text(json.dumps(payload, separators=(",", ":"), ensure_ascii=False))
+    write_json(out_path, payload)
 
     decks = sum(count for event in events for _, count in event["c"])
     print(

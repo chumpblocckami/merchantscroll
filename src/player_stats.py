@@ -7,6 +7,7 @@ from collections import Counter
 from pathlib import Path
 
 from .classifier import canonical_archetype
+from .saver import write_json
 from .utils import canonical_starttime
 
 RAW_DIR = Path("assets/pauper/raw")
@@ -217,7 +218,7 @@ def rebuild_player_profiles(
         profile["recent_entries"] = profile["recent_entries"][:25]
 
         out_path = profiles_dir / f"{username}.json"
-        out_path.write_text(json.dumps(profile, indent=2, ensure_ascii=False) + "\n")
+        write_json(out_path, profile)
         written += 1
 
     for path in profiles_dir.glob("*.json"):

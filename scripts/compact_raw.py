@@ -23,7 +23,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
-from src.saver import encode_tournament, write_tournament  # noqa: E402
+from src.saver import encode_json, write_json  # noqa: E402
 from src.scryfall import build_type_lookup  # noqa: E402
 
 RAW_DIR = Path("assets/pauper/raw")
@@ -247,13 +247,13 @@ def main() -> int:
             if card.get("card_attributes", {}).get("card_type", "").strip()
         )
 
-        encoded = encode_tournament(slim).encode()
+        encoded = encode_json(slim).encode()
         before_bytes += len(blob)
         after_bytes += len(encoded)
         if encoded != blob:
             rewritten += 1
             if args.apply:
-                write_tournament(path, slim)
+                write_json(path, slim)
 
     mib = 1048576
     verb = "rewrote" if args.apply else "would rewrite"

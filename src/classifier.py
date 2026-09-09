@@ -11,7 +11,7 @@ import json
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from .saver import write_tournament
+from .saver import write_json
 
 RAW_DIR = Path("assets/pauper/raw")
 ARCHETYPE_PATH = Path("archetypes/pauperwave.json")
@@ -318,7 +318,7 @@ def classify_unlabeled_mtgo_decks(
                 changed = True
 
         if changed:
-            write_tournament(path, data)
+            write_json(path, data)
 
     return updated
 
@@ -358,6 +358,6 @@ def normalize_archetype_labels(raw_dir: Path = RAW_DIR) -> int:
                 changed = True
 
         if changed:
-            write_tournament(path, data)
+            write_json(path, data)
 
     return updated

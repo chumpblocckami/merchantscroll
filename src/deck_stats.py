@@ -9,6 +9,7 @@ from pathlib import Path
 
 from .classifier import canonical_archetype
 from .player_stats import CURRENT_YEAR, _color_label, _is_league_trophy, _tournament_type
+from .saver import write_json
 from .utils import canonical_starttime
 
 RAW_DIR = Path("assets/pauper/raw")
@@ -170,7 +171,7 @@ def rebuild_deck_profiles(
         profile["recent_entries"] = profile["recent_entries"][:25]
 
         out_path = profiles_dir / f"{slug}.json"
-        out_path.write_text(json.dumps(profile, indent=2, ensure_ascii=False) + "\n")
+        write_json(out_path, profile)
         index.append({
             "slug": slug,
             "archetype": profile["archetype"],
@@ -186,7 +187,7 @@ def rebuild_deck_profiles(
 
     index.sort(key=lambda item: (-item["entries"], item["archetype"].lower()))
     index_path = profiles_dir / "index.json"
-    index_path.write_text(json.dumps(index, indent=2, ensure_ascii=False) + "\n")
+    write_json(index_path, index)
 
     print(f"Deck profiles updated: {written} archetypes.")
     return written

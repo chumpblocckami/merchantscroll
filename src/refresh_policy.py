@@ -6,7 +6,7 @@ import json
 from datetime import date, datetime
 from pathlib import Path
 
-from .saver import write_tournament
+from .saver import write_json
 from .utils import extract_date
 
 LEAGUE_WEEK_DAYS = 7
@@ -120,7 +120,7 @@ def save_tournament_if_nonempty(
         print("  Skipped (no decklists yet).")
         return False, 0
 
-    write_tournament(out_path, data)
+    write_json(out_path, data)
     print(f"  Saved ({deck_count} decks).")
     return True, deck_count
 

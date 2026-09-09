@@ -36,7 +36,7 @@ from .refresh_policy import (
     should_import_pauperwave,
     stored_deck_counts,
 )
-from .saver import write_tournament
+from .saver import encode_json, write_json
 from .scryfall import build_color_lookup, download_oracle_cards
 from .utils import canonical_starttime, extract_date
 
@@ -212,7 +212,7 @@ def fix_league_starttimes() -> int:
         canonical = canonical_starttime(site_name, data.get("starttime", ""))
         if canonical != data.get("starttime"):
             data["starttime"] = canonical
-            write_tournament(path, data)
+            write_json(path, data)
             fixed += 1
     if fixed:
         print(f"Fixed starttime on {fixed} league file(s).")
@@ -250,7 +250,7 @@ def rebuild_index() -> bool:
     # Every league in a week shares a starttime, so site_name breaks the tie.
     index.sort(key=lambda x: (x["starttime"], x["site_name"]), reverse=True)
     INDEX_PATH.parent.mkdir(parents=True, exist_ok=True)
-    new_text = json.dumps(index, indent=2) + "\n"
+    new_text = encode_json(index)
     previous = INDEX_PATH.read_text() if INDEX_PATH.exists() else ""
     INDEX_PATH.write_text(new_text)
     print(f"Index updated: {len(index)} tournaments.")
@@ -279,8 +279,7 @@ def rebuild_players_index():
             if name:
                 players.setdefault(name, []).append(site_name)
 
-    PLAYERS_PATH.parent.mkdir(parents=True, exist_ok=True)
-    PLAYERS_PATH.write_text(json.dumps(players, separators=(",", ":")))
+    write_json(PLAYERS_PATH, players)
     total = sum(len(v) for v in players.values())
     print(f"Players index updated: {len(players)} players, {total} entries.")
 
