@@ -2,10 +2,10 @@
   "archetype": "Spy Combo",
   "slug": "spy-combo",
   "stats": {
-    "total_entries": 890,
-    "league_entries": 545,
-    "league_trophies": 545,
-    "league_trophies_yearly": 267,
+    "total_entries": 891,
+    "league_entries": 546,
+    "league_trophies": 546,
+    "league_trophies_yearly": 268,
     "challenge_appearances": 285,
     "challenge_wins": 1147,
     "challenge_losses": 727,
@@ -17,6 +17,20 @@
     "league_trophy_decks_alltime": 81
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-league-2026-09-0910991",
+      "tournament": "Pauper League",
+      "date": "2026-09-09",
+      "player": "Pilopanga",
+      "colors": [
+        "B",
+        "G"
+      ],
+      "record": "5-0",
+      "final_rank": null,
+      "source": "mtgo",
+      "type": "league"
+    },
     {
       "site_name": "pauper-challenge-16-2026-09-0812853785",
       "tournament": "Pauper Challenge 16",
@@ -353,30 +367,16 @@
       "final_rank": null,
       "source": "mtgo",
       "type": "league"
-    },
-    {
-      "site_name": "pauper-league-2026-09-0310991",
-      "tournament": "Pauper League",
-      "date": "2026-09-03",
-      "player": "Thraben27",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ],
   "top_pilots": [
     {
-      "player": "asWerty",
+      "player": "Pilopanga",
       "count": 30
     },
     {
-      "player": "Pilopanga",
-      "count": 29
+      "player": "asWerty",
+      "count": 30
     },
     {
       "player": "AlessandroPiraccini",

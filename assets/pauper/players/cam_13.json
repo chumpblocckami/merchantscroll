@@ -3,11 +3,11 @@
   "display_name": "CAM_13",
   "irl_name": null,
   "stats": {
-    "total_entries": 31,
+    "total_entries": 32,
     "league_trophies": 10,
     "league_trophies_yearly": 5,
-    "challenge_wins": 79,
-    "challenge_losses": 52,
+    "challenge_wins": 82,
+    "challenge_losses": 55,
     "irl_top8": 0,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 282,
@@ -33,19 +33,34 @@
       "count": 3
     },
     {
+      "archetype": "Flicker Tron",
+      "count": 2
+    },
+    {
       "archetype": "Mono Black Sacrifice",
       "count": 2
     },
     {
       "archetype": "Naya Gates",
       "count": 2
-    },
-    {
-      "archetype": "Flicker Tron",
-      "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-09-0912853727",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-09-09",
+      "player": "CAM_13",
+      "archetype": "Flicker Tron",
+      "colors": [
+        "G",
+        "U"
+      ],
+      "record": "3-3",
+      "final_rank": 18,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-16-2026-09-0812853785",
       "tournament": "Pauper Challenge 16",
@@ -398,20 +413,6 @@
       "final_rank": 4,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2025-12-129987",
-      "tournament": "pauper-league-2025-12-129987",
-      "date": "2025-12-12",
-      "player": "CAM_13",
-      "archetype": "White Weenie",
-      "colors": [
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
     }
   ]
 }

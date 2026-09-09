@@ -3,13 +3,13 @@
   "display_name": "yuxiaoyu",
   "irl_name": null,
   "stats": {
-    "total_entries": 108,
+    "total_entries": 109,
     "league_trophies": 63,
     "league_trophies_yearly": 27,
-    "challenge_wins": 172,
-    "challenge_losses": 103,
+    "challenge_wins": 176,
+    "challenge_losses": 106,
     "irl_top8": 0,
-    "challenge_win_pct": 63,
+    "challenge_win_pct": 62,
     "league_trophy_rank_yearly": 25,
     "league_trophy_rank_alltime": 16,
     "league_trophy_players_yearly": 1556,
@@ -41,6 +41,10 @@
       "count": 5
     },
     {
+      "archetype": "Dimir Terror",
+      "count": 2
+    },
+    {
       "archetype": "Jund Glee",
       "count": 2
     },
@@ -49,15 +53,27 @@
       "count": 1
     },
     {
-      "archetype": "Dimir Terror",
-      "count": 1
-    },
-    {
       "archetype": "Dredge",
       "count": 1
     }
   ],
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-09-0912853727",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-09-09",
+      "player": "yuxiaoyu",
+      "archetype": "Dimir Terror",
+      "colors": [
+        "B",
+        "R",
+        "U"
+      ],
+      "record": "4-3",
+      "final_rank": 7,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-league-2026-09-0710991",
       "tournament": "Pauper League",
@@ -410,21 +426,6 @@
       ],
       "record": "6-1",
       "final_rank": 5,
-      "source": "mtgo",
-      "type": "challenge"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-07-0312846485",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-07-04",
-      "player": "yuxiaoyu",
-      "archetype": "Gardens",
-      "colors": [
-        "B",
-        "G"
-      ],
-      "record": "4-2",
-      "final_rank": 13,
       "source": "mtgo",
       "type": "challenge"
     }

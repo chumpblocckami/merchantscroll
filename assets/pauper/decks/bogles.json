@@ -2,13 +2,13 @@
   "archetype": "Bogles",
   "slug": "bogles",
   "stats": {
-    "total_entries": 293,
+    "total_entries": 295,
     "league_entries": 115,
     "league_trophies": 115,
     "league_trophies_yearly": 44,
-    "challenge_appearances": 169,
-    "challenge_wins": 652,
-    "challenge_losses": 442,
+    "challenge_appearances": 171,
+    "challenge_wins": 664,
+    "challenge_losses": 446,
     "irl_top8": 3,
     "challenge_win_pct": 60,
     "league_trophy_rank_yearly": 32,
@@ -17,6 +17,36 @@
     "league_trophy_decks_alltime": 81
   },
   "recent_entries": [
+    {
+      "site_name": "pauper-challenge-32-2026-09-0912853727",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-09-09",
+      "player": "Death_Lighter",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "4-3",
+      "final_rank": 6,
+      "source": "mtgo",
+      "type": "challenge"
+    },
+    {
+      "site_name": "pauper-challenge-32-2026-09-0912853727",
+      "tournament": "Pauper Challenge 32",
+      "date": "2026-09-09",
+      "player": "PedraStone",
+      "colors": [
+        "G",
+        "U",
+        "W"
+      ],
+      "record": "8-1",
+      "final_rank": 2,
+      "source": "mtgo",
+      "type": "challenge"
+    },
     {
       "site_name": "pauper-challenge-16-2026-09-0812853785",
       "tournament": "Pauper Challenge 16",
@@ -361,42 +391,12 @@
       "final_rank": 32,
       "source": "mtgo",
       "type": "challenge"
-    },
-    {
-      "site_name": "pauper-league-2026-08-0310855",
-      "tournament": "Pauper League",
-      "date": "2026-08-03",
-      "player": "Ixidor29",
-      "colors": [
-        "G",
-        "U",
-        "W"
-      ],
-      "record": "5-0",
-      "final_rank": null,
-      "source": "mtgo",
-      "type": "league"
-    },
-    {
-      "site_name": "pauper-challenge-32-2026-08-0112849483",
-      "tournament": "Pauper Challenge 32",
-      "date": "2026-08-02",
-      "player": "2legit2quit",
-      "colors": [
-        "G",
-        "U",
-        "W"
-      ],
-      "record": "4-3",
-      "final_rank": 29,
-      "source": "mtgo",
-      "type": "challenge"
     }
   ],
   "top_pilots": [
     {
       "player": "PedraStone",
-      "count": 32
+      "count": 33
     },
     {
       "player": "QueMario",
