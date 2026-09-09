@@ -706,7 +706,9 @@
       const wrap = el("div", "player-modal-content");
 
       const head = el("header", "player-modal-header");
-      head.appendChild(el("h2", "player-modal-title", data.display_name || data.username));
+      const title = el("h2", "player-modal-title", data.display_name || data.username);
+      title.id = "player-modal-title";
+      head.appendChild(title);
       if (data.irl_name) {
         head.appendChild(el("p", "player-modal-identity", `IRL: ${data.irl_name}`));
       }
@@ -805,7 +807,9 @@
       const wrap = el("div", "player-modal-content");
 
       const head = el("header", "player-modal-header");
-      head.appendChild(el("h2", "player-modal-title", data.archetype || data.slug));
+      const title = el("h2", "player-modal-title", data.archetype || data.slug);
+      title.id = "player-modal-title";
+      head.appendChild(title);
       wrap.appendChild(head);
 
       const stats = data.stats || {};

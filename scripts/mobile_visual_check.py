@@ -65,7 +65,14 @@ def collect_layout_metrics(page) -> dict:
           const btnStyle = (el) => el ? getComputedStyle(el) : null;
           const textStyle = btnStyle(textBtn);
           const exportStyle = btnStyle(exportBtn);
+          // The install banner only shows when the browser offers an install,
+          // so force it visible to measure how wide it actually lays out.
+          const banner = document.getElementById("install-banner");
+          banner.hidden = false;
+          banner.classList.add("visible");
           return {
+            bannerWidth: banner.getBoundingClientRect().width,
+            bannerMaxWidth: parseFloat(getComputedStyle(banner).maxWidth),
             tileCount: tiles.length,
             loadedImages: [...imgs].filter((img) => img.complete && img.naturalWidth > 0).length,
             columnsOverflow: columns
@@ -110,7 +117,16 @@ def run(device_key: str, headless: bool, wait_images_ms: int) -> int:
             print(f"Loaded card images: {metrics['loadedImages']}")
             print(f"Visual columns overflow (px): {metrics['columnsOverflow']}")
             print(f"Action buttons styled consistently: {metrics['buttonsMatch']}")
+            print(
+                f"Install banner width: {metrics['bannerWidth']:.1f}px "
+                f"(max-width {metrics['bannerMaxWidth']:.1f}px)"
+            )
 
+            # Centering a fixed banner with left: 50% clamps it to 50vw, which
+            # wraps it into a tall column over the deck instead of one wide row.
+            if abs(metrics["bannerWidth"] - metrics["bannerMaxWidth"]) > 1:
+                print("FAIL: install banner is narrower than its max-width")
+                failures += 1
             if metrics["tileCount"] == 0:
                 print("FAIL: no card tiles rendered in visual mode")
                 failures += 1

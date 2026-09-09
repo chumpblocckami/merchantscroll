@@ -20,9 +20,11 @@
   --text-2: #e0e0e0;
   --text-muted: #bbb;
   --text-dim: #999;
-  --text-faint: #666;
-  --text-ghost: #555;
-  --text-sep: #444;
+  /* The muted end of the ramp carries card quantities and column headings, so
+     these are pinned to the dimmest grey that still clears WCAG AA (4.5:1). */
+  --text-faint: #8f8f8f;
+  --text-ghost: #858585;
+  --text-sep: #7c7c7c;
   --accent: #4a9eff;
   --accent-hover: #6ab5ff;
   --accent-bg: #1a2a3a;
@@ -52,9 +54,9 @@
   --text-2: #1a1a1a;
   --text-muted: #333;
   --text-dim: #555;
-  --text-faint: #888;
-  --text-ghost: #aaa;
-  --text-sep: #ccc;
+  --text-faint: #6e6e6e;
+  --text-ghost: #676767;
+  --text-sep: #606060;
   --accent: #1a6dd4;
   --accent-hover: #0d47a1;
   --accent-bg: #e8f0fe;
@@ -892,12 +894,25 @@ body {
 
 .deck-container {
   padding: 14px 24px 10px;
-  max-width: 880px;
+  /* em rather than px so the column widens with the scaled type below, instead
+     of pinning to 880px and leaving most of a large desktop viewport empty. */
+  max-width: 55em;
   width: 100%;
   margin: 0 auto;
   height: 100%;
   display: flex;
   flex-direction: column;
+}
+
+/* Scaling :root instead would grow the header, cutting the height the visual
+   grid fits tiles into and costing it a whole row. The card view sizes itself
+   from JS, so only the text view needs this.
+
+   The ceiling is deliberately short of the space available: taller rows push
+   more decklists past the viewport, and a deck that scrolls internally eats
+   the wheel gesture before it can advance the carousel. */
+.deck-container:not(.visual-deck) {
+  font-size: clamp(16px, 0.4vw + 12px, 20px);
 }
 
 .deck-container.slide-up {
@@ -1393,11 +1408,29 @@ a.player-name:hover {
 
 /* ── New-data banner ── */
 
-.new-data-banner {
+/* Centering these with left: 50% caps their shrink-to-fit width at 50vw, since
+   a fixed box measures against the space left of the viewport edge and the
+   -50% transform lands after layout. That wrapped the install banner into a
+   tall column over the decklist on phones. */
+.new-data-banner,
+.action-toast,
+.install-banner {
   position: fixed;
   bottom: 24px;
-  left: 50%;
-  transform: translateX(-50%) translateY(20px);
+  left: 0;
+  right: 0;
+  width: fit-content;
+  margin-inline: auto;
+  transform: translateY(20px);
+}
+
+.new-data-banner.visible,
+.action-toast.visible,
+.install-banner.visible {
+  transform: translateY(0);
+}
+
+.new-data-banner {
   background: var(--banner-bg);
   color: var(--banner-color);
   font-size: 0.82em;
@@ -1415,7 +1448,6 @@ a.player-name:hover {
 
 .new-data-banner.visible {
   opacity: 1;
-  transform: translateX(-50%) translateY(0);
 }
 
 .new-data-banner #new-data-tap {
@@ -1426,10 +1458,6 @@ a.player-name:hover {
 .action-toast {
   /* Status text only, so it must not swallow swipes over the deck view. */
   pointer-events: none;
-  position: fixed;
-  bottom: 24px;
-  left: 50%;
-  transform: translateX(-50%) translateY(20px);
   background: var(--surface-2);
   color: var(--text-1);
   border: 1px solid var(--border-3);
@@ -1448,17 +1476,12 @@ a.player-name:hover {
 
 .action-toast.visible {
   opacity: 1;
-  transform: translateX(-50%) translateY(0);
 }
 
 .install-banner {
   /* Transparent to touch so swipes reach the deck view underneath; the buttons
      opt back in below. Without this the banner is a dead zone over the list. */
   pointer-events: none;
-  position: fixed;
-  bottom: 24px;
-  left: 50%;
-  transform: translateX(-50%) translateY(20px);
   background: var(--banner-bg);
   color: var(--banner-color);
   font-size: 0.82em;
@@ -1477,7 +1500,6 @@ a.player-name:hover {
 
 .install-banner.visible {
   opacity: 1;
-  transform: translateX(-50%) translateY(0);
 }
 
 .install-banner-text {
