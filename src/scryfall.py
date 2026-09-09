@@ -154,3 +154,59 @@ def build_color_lookup(cache_path: Path = DEFAULT_CACHE_PATH) -> dict[str, list[
                 aliases.setdefault(variant, colors)
 
     return {**aliases, **exact}
+
+
+# MTGO abbreviates the type line to a six-character code. Creature is tested
+# before land so artifact lands (Seat of the Synod) stay LAND while a land
+# creature stays a creature, matching how the deck view buckets them.
+_TYPE_CODES = (
+    ("creature", "ISCREA"),
+    ("land", "LAND"),
+    ("instant", "INSTNT"),
+    ("sorcery", "SORCRY"),
+    ("artifact", "ARTFCT"),
+    ("enchantment", "ENCHMT"),
+    ("planeswalker", "PLNSWK"),
+)
+
+
+def mtgo_type_code(type_line: str) -> str:
+    """Reduce a Scryfall type line to the MTGO card_type code, or "" if unknown."""
+    lowered = type_line.lower()
+    for needle, code in _TYPE_CODES:
+        if needle in lowered:
+            return code
+    return ""
+
+
+def build_type_lookup(cache_path: Path = DEFAULT_CACHE_PATH) -> dict[str, str]:
+    """Build a card_name → MTGO card_type code mapping from cached oracle data.
+
+    Returns a dict like {"Lightning Bolt": "INSTNT", "Mountain": "LAND"}.
+    Alternate spellings are registered as aliases, but a card's own name always
+    wins over an alias claimed by a different card.
+    """
+    cache_path = Path(cache_path)
+    if not cache_path.exists():
+        raise FileNotFoundError(
+            f"Oracle data not found at {cache_path}. Run download_oracle_cards() first."
+        )
+
+    exact: dict[str, str] = {}
+    aliases: dict[str, str] = {}
+    with gzip.open(cache_path, "rt", encoding="utf-8") as fh:
+        for line in fh:
+            if not line.strip():
+                continue
+            card = json.loads(line)
+            if not _is_playable(card):
+                continue
+            code = mtgo_type_code(card.get("type_line", ""))
+            if not code:
+                continue
+            name = card.get("name", "")
+            exact[name] = code
+            for variant in _name_variants(name) - {name}:
+                aliases.setdefault(variant, code)
+
+    return {**aliases, **exact}

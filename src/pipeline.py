@@ -36,6 +36,7 @@ from .refresh_policy import (
     should_import_pauperwave,
     stored_deck_counts,
 )
+from .saver import write_tournament
 from .scryfall import build_color_lookup, download_oracle_cards
 from .utils import canonical_starttime, extract_date
 
@@ -110,9 +111,7 @@ def crawl_new_tournaments(
         if archetype_map:
             enrich_archetypes(data, archetype_map)
 
-        wrote, deck_count = save_tournament_if_nonempty(
-            RAW_DIR, site_name, data, ensure_ascii=False
-        )
+        wrote, deck_count = save_tournament_if_nonempty(RAW_DIR, site_name, data)
         if wrote:
             changed = True
         if deck_count > 0:
@@ -213,7 +212,7 @@ def fix_league_starttimes() -> int:
         canonical = canonical_starttime(site_name, data.get("starttime", ""))
         if canonical != data.get("starttime"):
             data["starttime"] = canonical
-            path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n")
+            write_tournament(path, data)
             fixed += 1
     if fixed:
         print(f"Fixed starttime on {fixed} league file(s).")

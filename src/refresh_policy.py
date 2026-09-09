@@ -6,6 +6,7 @@ import json
 from datetime import date, datetime
 from pathlib import Path
 
+from .saver import write_tournament
 from .utils import extract_date
 
 LEAGUE_WEEK_DAYS = 7
@@ -101,8 +102,6 @@ def save_tournament_if_nonempty(
     raw_dir: Path,
     site_name: str,
     data: dict,
-    *,
-    ensure_ascii: bool = False,
 ) -> tuple[bool, int]:
     """Persist tournament data only when decklists are present.
 
@@ -121,9 +120,7 @@ def save_tournament_if_nonempty(
         print("  Skipped (no decklists yet).")
         return False, 0
 
-    out_path.write_text(
-        json.dumps(data, indent=2, ensure_ascii=ensure_ascii) + "\n"
-    )
+    write_tournament(out_path, data)
     print(f"  Saved ({deck_count} decks).")
     return True, deck_count
 
