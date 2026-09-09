@@ -14,8 +14,40 @@ RAW_DIR = Path("assets/pauper/raw")
 PLAYERS_INDEX_PATH = Path("assets/pauper/players.json")
 PROFILES_DIR = Path("assets/pauper/players")
 IDENTITIES_PATH = Path("players/identities.json")
+POOLS_NAME = "pools.json"
 
 CURRENT_YEAR = "2026"
+
+
+def ranked_names(counts: Counter[str]) -> list[str]:
+    """Order names by trophy count descending, ties broken by name."""
+    return [name for name, _ in sorted(counts.items(), key=lambda item: (-item[1], item[0]))]
+
+
+def update_pools(
+    profiles_dir: Path, group: str, *, yearly: list[str], alltime: list[str]
+) -> None:
+    """Merge one group's trophy leaderboards into the shared pools file.
+
+    The lists are ordered by rank, so a name's position in one gives its rank
+    and the list's length gives the pool size. Storing both per profile instead
+    meant three players earning a trophy rewrote all 3289 files, 3262 of them
+    only to restate a rank or a pool size that had shifted underneath them.
+
+    The file sits beside the profile directories it describes, so a rebuild
+    into a temporary directory cannot overwrite the live one. Each rebuild
+    merges only its own group, so the order the two run in does not matter.
+    ``group`` is the frontend's rank unit, "players" or "decks".
+    """
+    path = Path(profiles_dir).parent / POOLS_NAME
+    pools: dict = {}
+    if path.exists():
+        try:
+            pools = json.loads(path.read_text())
+        except json.JSONDecodeError:
+            pools = {}
+    pools[group] = {"yearly": yearly, "alltime": alltime}
+    write_json(path, dict(sorted(pools.items())))
 
 
 def load_identities() -> dict[str, dict]:
@@ -176,14 +208,12 @@ def rebuild_player_profiles(
                 "type": tournament_type,
             })
 
-    def _rank_map(counts: Counter[str]) -> dict[str, int]:
-        ranked = sorted(counts.items(), key=lambda item: (-item[1], item[0]))
-        return {user: idx + 1 for idx, (user, _) in enumerate(ranked)}
-
-    yearly_ranks = _rank_map(trophy_counts_yearly)
-    alltime_ranks = _rank_map(trophy_counts_alltime)
-    yearly_pool = len(trophy_counts_yearly)
-    alltime_pool = len(trophy_counts_alltime)
+    update_pools(
+        profiles_dir,
+        "players",
+        yearly=ranked_names(trophy_counts_yearly),
+        alltime=ranked_names(trophy_counts_alltime),
+    )
 
     profiles_dir.mkdir(parents=True, exist_ok=True)
 
@@ -194,10 +224,6 @@ def rebuild_player_profiles(
         cl = stats["challenge_losses"]
         total_matches = cw + cl
         stats["challenge_win_pct"] = round(100 * cw / total_matches) if total_matches else None
-        stats["league_trophy_rank_yearly"] = yearly_ranks.get(username)
-        stats["league_trophy_rank_alltime"] = alltime_ranks.get(username)
-        stats["league_trophy_players_yearly"] = yearly_pool
-        stats["league_trophy_players_alltime"] = alltime_pool
 
         profile["display_name"] = display_names.get(username, username)
         profile["irl_name"] = identities.get(username, {}).get("irl_name")

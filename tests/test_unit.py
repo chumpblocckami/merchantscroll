@@ -969,6 +969,32 @@ class TestDerivedArtifactDeterminism(unittest.TestCase):
         for name in forward:
             self.assertEqual(forward[name], reverse[name], f"{name} depends on file order")
 
+    def test_pools_file_lands_beside_the_profiles_it_describes(self):
+        """The trophy boards are global, so their path must follow the caller.
+
+        A fixed path here would mean any rebuild into a scratch directory, this
+        suite included, silently overwrites the live pools.json.
+        """
+        import tempfile
+        from pathlib import Path
+
+        from src.deck_stats import rebuild_deck_profiles
+        from src.player_stats import rebuild_player_profiles
+
+        with tempfile.TemporaryDirectory() as tmp:
+            raw = self._raw_dir(tmp)
+            rebuild_player_profiles(raw_dir=raw, profiles_dir=Path(tmp) / "players")
+            rebuild_deck_profiles(raw_dir=raw, profiles_dir=Path(tmp) / "decks")
+
+            pools = json.loads((Path(tmp) / "pools.json").read_text())
+
+        # Both rebuilds merged into one file rather than clobbering each other.
+        self.assertEqual(set(pools), {"players", "decks"})
+        # Position is the rank, so the board is an order, not a set. All three
+        # took one league trophy, so the name tie-break decides.
+        self.assertEqual(pools["players"]["yearly"], ["alice", "bob", "carol"])
+        self.assertEqual(pools["players"]["alltime"], ["alice", "bob", "carol"])
+
     def test_metagame_timeline_ignores_file_order(self):
         from pathlib import Path
 

@@ -8,7 +8,14 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 from .classifier import canonical_archetype
-from .player_stats import CURRENT_YEAR, _color_label, _is_league_trophy, _tournament_type
+from .player_stats import (
+    CURRENT_YEAR,
+    _color_label,
+    _is_league_trophy,
+    _tournament_type,
+    ranked_names,
+    update_pools,
+)
 from .saver import write_json
 from .utils import canonical_starttime
 
@@ -129,14 +136,12 @@ def rebuild_deck_profiles(
                 "type": tournament_type,
             })
 
-    def _rank_map(counts: Counter[str]) -> dict[str, int]:
-        ranked = sorted(counts.items(), key=lambda item: (-item[1], item[0]))
-        return {slug: idx + 1 for idx, (slug, _) in enumerate(ranked)}
-
-    yearly_ranks = _rank_map(trophy_counts_yearly)
-    alltime_ranks = _rank_map(trophy_counts_alltime)
-    yearly_pool = len(trophy_counts_yearly)
-    alltime_pool = len(trophy_counts_alltime)
+    update_pools(
+        profiles_dir,
+        "decks",
+        yearly=ranked_names(trophy_counts_yearly),
+        alltime=ranked_names(trophy_counts_alltime),
+    )
 
     profiles_dir.mkdir(parents=True, exist_ok=True)
     index = []
@@ -148,10 +153,6 @@ def rebuild_deck_profiles(
         cl = stats["challenge_losses"]
         total_matches = cw + cl
         stats["challenge_win_pct"] = round(100 * cw / total_matches) if total_matches else None
-        stats["league_trophy_rank_yearly"] = yearly_ranks.get(slug)
-        stats["league_trophy_rank_alltime"] = alltime_ranks.get(slug)
-        stats["league_trophy_decks_yearly"] = yearly_pool
-        stats["league_trophy_decks_alltime"] = alltime_pool
 
         profile["top_pilots"] = [
             {"player": player, "count": count}

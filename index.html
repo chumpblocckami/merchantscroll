@@ -633,7 +633,23 @@
       parent.appendChild(block);
     }
 
-    function buildLeagueStatEl(stats, rankUnit = "players") {
+    /* The trophy leaderboards live in one shared file rather than being copied
+       into all 3289 profiles. Each is a rank-ordered list, so a name's position
+       is its rank and the list's length is the pool size. Keyed by rank unit,
+       so buildLeagueStatEl's own "players"/"decks" argument selects the board. */
+    let trophyPools = {};
+    let trophyPoolsPromise = null;
+    function loadTrophyPools() {
+      if (!trophyPoolsPromise) {
+        trophyPoolsPromise = fetch("assets/pauper/pools.json", { cache: "no-store" })
+          .then((res) => (res.ok ? res.json() : {}))
+          .then((data) => (trophyPools = data))
+          .catch(() => trophyPools);
+      }
+      return trophyPoolsPromise;
+    }
+
+    function buildLeagueStatEl(stats, rankUnit = "players", rankKey = "") {
       const wrap = statStack();
       const entries = stats.league_entries;
       if (entries != null) {
@@ -648,8 +664,13 @@
         appendStatLine(wrap, String(yearly), `in ${currentYear}`, true);
       }
 
-      const yrRank = stats.league_trophy_rank_yearly;
-      const yrPool = stats.league_trophy_decks_yearly ?? stats.league_trophy_players_yearly;
+      const board = trophyPools[rankUnit] || {};
+      const yearlyBoard = board.yearly || [];
+      const alltimeBoard = board.alltime || [];
+
+      // indexOf gives 0 for an unranked name, which the guards already reject.
+      const yrRank = yearlyBoard.indexOf(rankKey) + 1;
+      const yrPool = yearlyBoard.length;
       if (yrRank && yrPool) {
         appendRankBlock(
           wrap,
@@ -658,8 +679,8 @@
         );
       }
 
-      const atRank = stats.league_trophy_rank_alltime;
-      const atPool = stats.league_trophy_decks_alltime ?? stats.league_trophy_players_alltime;
+      const atRank = alltimeBoard.indexOf(rankKey) + 1;
+      const atPool = alltimeBoard.length;
       if (atRank && atPool) {
         appendRankBlock(
           wrap,
@@ -719,7 +740,7 @@
       const grid = el("div", "player-modal-stats");
       const statItems = [
         ["Entries", String(stats.total_entries || 0)],
-        ["Leagues", buildLeagueStatEl(stats)],
+        ["Leagues", buildLeagueStatEl(stats, "players", data.username)],
         ["Challenges", buildChallengeStatEl(stats)],
       ];
       if (stats.irl_top8) {
@@ -791,10 +812,12 @@
       });
 
       try {
-        const res = await fetch(
-          `assets/pauper/players/${encodeURIComponent(player.toLowerCase())}.json`,
-          { cache: "no-store" }
-        );
+        const [res] = await Promise.all([
+          fetch(`assets/pauper/players/${encodeURIComponent(player.toLowerCase())}.json`, {
+            cache: "no-store",
+          }),
+          loadTrophyPools(),
+        ]);
         if (!res.ok) throw new Error("not found");
         renderPlayerModal(await res.json());
       } catch (_) {
@@ -817,7 +840,7 @@
       const grid = el("div", "player-modal-stats");
       const statItems = [
         ["Entries", String(stats.total_entries || 0)],
-        ["Leagues", buildLeagueStatEl(stats, "decks")],
+        ["Leagues", buildLeagueStatEl(stats, "decks", data.slug)],
         ["Challenges", buildChallengeStatEl(stats, true)],
       ];
       if (stats.irl_top8) {
@@ -906,9 +929,12 @@
       });
 
       try {
-        const res = await fetch(`assets/pauper/decks/${encodeURIComponent(slug)}.json`, {
-          cache: "no-store",
-        });
+        const [res] = await Promise.all([
+          fetch(`assets/pauper/decks/${encodeURIComponent(slug)}.json`, {
+            cache: "no-store",
+          }),
+          loadTrophyPools(),
+        ]);
         if (!res.ok) throw new Error("not found");
         renderDeckProfileModal(await res.json());
       } catch (_) {

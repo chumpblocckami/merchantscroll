@@ -55,6 +55,7 @@
     const returnPlayer = params.get("player");
     const container = $("profile-content");
     const loader = $("loader");
+    let trophyBoard = {};
 
     function el(tag, cls, text) {
       const e = document.createElement(tag);
@@ -131,10 +132,16 @@
       score.appendChild(statLine("Total entries", String(stats.total_entries || 0)));
 
       let trophyText = String(stats.league_trophies || 0) + " trophies";
-      if (stats.league_trophy_rank_yearly && stats.league_trophy_players_yearly) {
-        trophyText += ` (ranked ${stats.league_trophy_rank_yearly}/${stats.league_trophy_players_yearly} yearly`;
-        if (stats.league_trophy_rank_alltime && stats.league_trophy_players_alltime) {
-          trophyText += ` — ${stats.league_trophy_rank_alltime}/${stats.league_trophy_players_alltime} all-time`;
+      // Position in the rank-ordered board is the rank, its length the pool.
+      // indexOf gives 0 for an unranked player, which the guards reject.
+      const yearlyBoard = trophyBoard.yearly || [];
+      const alltimeBoard = trophyBoard.alltime || [];
+      const yearlyRank = yearlyBoard.indexOf(username) + 1;
+      const alltimeRank = alltimeBoard.indexOf(username) + 1;
+      if (yearlyRank) {
+        trophyText += ` (ranked ${yearlyRank}/${yearlyBoard.length} yearly`;
+        if (alltimeRank) {
+          trophyText += ` — ${alltimeRank}/${alltimeBoard.length} all-time`;
         }
         trophyText += ")";
       }
@@ -199,8 +206,14 @@
       }
 
       try {
-        const res = await fetch(`assets/pauper/players/${encodeURIComponent(username)}.json`, { cache: "no-store" });
+        const [res, pools] = await Promise.all([
+          fetch(`assets/pauper/players/${encodeURIComponent(username)}.json`, { cache: "no-store" }),
+          fetch("assets/pauper/pools.json", { cache: "no-store" })
+            .then((r) => (r.ok ? r.json() : {}))
+            .catch(() => ({})),
+        ]);
         if (!res.ok) throw new Error("not found");
+        trophyBoard = pools.players || {};
         renderProfile(await res.json());
       } catch (_) {
         loader.textContent = `No profile found for "${username}".`;
