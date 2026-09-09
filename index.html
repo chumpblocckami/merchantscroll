@@ -141,6 +141,7 @@
     const breadcrumbEl = $("breadcrumb");
     const headerEl = document.querySelector(".header-container");
     const isTouch = "ontouchstart" in window || navigator.maxTouchPoints > 0;
+    const isLocalDev = location.hostname === "localhost" || location.hostname === "127.0.0.1";
 
     function syncHeaderHeight() {
       if (!headerEl) return;
@@ -2626,7 +2627,6 @@
     });
 
     window.addEventListener("beforeinstallprompt", (e) => {
-      const isLocalDev = location.hostname === "localhost" || location.hostname === "127.0.0.1";
       if (isLocalDev) return;
       e.preventDefault();
       deferredInstallPrompt = e;
@@ -2641,10 +2641,20 @@
 
     if (isIosInstallable()) updateInstallUi();
 
+    /* A worker on localhost answers from the cached shell, hiding local edits
+       to index.html and style.css. Skipping registration only helps a fresh
+       profile, so also drop any worker a previous visit installed. */
     if ("serviceWorker" in navigator) {
-      window.addEventListener("load", () => {
-        navigator.serviceWorker.register("/sw.js").catch(console.warn);
-      });
+      if (isLocalDev) {
+        navigator.serviceWorker
+          .getRegistrations()
+          .then((regs) => regs.forEach((reg) => reg.unregister()))
+          .catch(() => {});
+      } else {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("/sw.js").catch(console.warn);
+        });
+      }
     }
   </script>
   <script>
