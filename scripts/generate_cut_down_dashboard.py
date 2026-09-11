@@ -272,9 +272,7 @@ def _apply_gets_boosts(power: int, toughness: int, oracle_lower: str) -> int:
         best_total = max(best_total, (power + int(power_bonus)) + toughness)
     for toughness_bonus in re.findall(r"(?:this creature|~ ) gets \+0/\+(\d+)", oracle_lower):
         best_total = max(best_total, power + (toughness + int(toughness_bonus)))
-    for power_bonus, toughness_bonus in re.findall(
-        r"gets \+(\d+)/\+(\d+) for each", oracle_lower
-    ):
+    for power_bonus, toughness_bonus in re.findall(r"gets \+(\d+)/\+(\d+) for each", oracle_lower):
         best_total = max(
             best_total,
             (power + int(power_bonus)) + (toughness + int(toughness_bonus)),
@@ -395,11 +393,15 @@ def growth_reason(info: dict, max_total: int | None) -> str:
         reasons.append("another form")
     if _has_unbounded_growth(oracle_text):
         reasons.append("+1/+1 counters")
-    if responsive_lower and _apply_gets_boosts(
-        info["power"] or 0,
-        info["toughness"] or 0,
-        responsive_lower,
-    ) > base_total:
+    if (
+        responsive_lower
+        and _apply_gets_boosts(
+            info["power"] or 0,
+            info["toughness"] or 0,
+            responsive_lower,
+        )
+        > base_total
+    ):
         if "until end of turn" in responsive_lower:
             reasons.append("temporary boost")
         else:

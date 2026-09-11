@@ -51,6 +51,7 @@ def discover_pauper_urls() -> list[str]:
     pauper = [u for u in urls if "/pauper-" in u.lower()]
     return sorted(pauper, key=extract_date, reverse=True)
 
+
 def site_name_from_url(url: str) -> str:
     return url.rstrip("/").split("/")[-1]
 
@@ -91,8 +92,7 @@ def crawl_new_tournaments(
     new_count = sum(1 for _, sn in to_crawl if sn not in existing)
     refresh_count = len(to_crawl) - new_count
     print(
-        f"{len(to_crawl)} tournament(s) to crawl"
-        f" ({new_count} new, {refresh_count} refresh).\n"
+        f"{len(to_crawl)} tournament(s) to crawl" f" ({new_count} new, {refresh_count} refresh).\n"
     )
     RAW_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -170,9 +170,7 @@ def crawl_pauperwave_tournaments(
         print(f"  Importing {file_info['name']}...")
         try:
             md = fetch_markdown(file_info["download_url"])
-            data = parse_tournament_file(
-                md, file_info["name"], color_lookup=color_lookup
-            )
+            data = parse_tournament_file(md, file_info["name"], color_lookup=color_lookup)
         except Exception as e:
             print(f"  Skipped (error: {e}).")
             continue
@@ -239,11 +237,13 @@ def rebuild_index() -> bool:
         if deck_count == 0:
             continue
         site_name = data.get("site_name", path.stem)
-        index.append({
-            "site_name": path.stem,
-            "starttime": canonical_starttime(site_name, data.get("starttime", "")),
-            "deck_count": deck_count,
-        })
+        index.append(
+            {
+                "site_name": path.stem,
+                "starttime": canonical_starttime(site_name, data.get("starttime", "")),
+                "deck_count": deck_count,
+            }
+        )
 
     # Every league in a week shares a starttime, so site_name breaks the tie.
     index.sort(key=lambda x: (x["starttime"], x["site_name"]), reverse=True)
@@ -285,9 +285,7 @@ def rebuild_derived_artifacts(
         rebuild_archetype_dictionary(raw_dir)
 
     archetype_map = load_archetype_dictionary()
-    classified, normalized = classify_and_normalize_labels(
-        archetype_map, raw_dir=raw_dir
-    )
+    classified, normalized = classify_and_normalize_labels(archetype_map, raw_dir=raw_dir)
     if classified:
         print(f"Classified {classified} MTGO decklist(s).")
     if normalized:
@@ -336,9 +334,7 @@ def run(refresh_scryfall: bool = False) -> tuple[list[str], list[str]]:
         crawled, mtgo_changed = [], False
         failed_sources.append("mtgo")
 
-    pw_crawled, pw_changed = crawl_pauperwave_tournaments(
-        color_lookup, token=token
-    )
+    pw_crawled, pw_changed = crawl_pauperwave_tournaments(color_lookup, token=token)
 
     all_crawled = crawled + pw_crawled
     data_changed = mtgo_changed or pw_changed
