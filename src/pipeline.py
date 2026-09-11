@@ -23,12 +23,12 @@ from .classifier import (
 from .crawler import crawl_decks, crawl_tournaments
 from .deck_stats import rebuild_deck_profiles
 from .meta_stats import rebuild_metagame_timeline
-from .player_stats import rebuild_player_profiles
 from .pauperwave_crawler import (
     discover_pauperwave_files,
     fetch_markdown,
     parse_tournament_file,
 )
+from .player_stats import rebuild_player_profiles
 from .refresh_policy import (
     prune_empty_raw_files,
     save_tournament_if_nonempty,
@@ -39,7 +39,6 @@ from .refresh_policy import (
 from .saver import encode_json, write_json
 from .scryfall import build_color_lookup, download_oracle_cards
 from .utils import canonical_starttime, extract_date
-
 
 RAW_DIR = Path("assets/pauper/raw")
 INDEX_PATH = Path("assets/pauper/index.json")
