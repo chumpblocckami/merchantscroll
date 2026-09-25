@@ -9,6 +9,7 @@ from .constants.crawler import HEADERS, TIMEOUT
 
 BULK_DATA_API = "https://api.scryfall.com/bulk-data"
 DEFAULT_CACHE_PATH = Path(".cache/oracle-cards.jsonl.gz")
+DEFAULT_CARDS_CACHE_PATH = Path(".cache/default-cards.jsonl.gz")
 
 MANA_SYMBOL_RE = re.compile(r"\{([^}]+)\}")
 COLOR_LETTERS = frozenset("WUBRG")
@@ -27,30 +28,31 @@ FREE_TO_PLAY_CARDS = frozenset(
 )
 
 
-def _get_oracle_download_url() -> str:
-    """Resolve the current download URL for oracle-cards bulk data."""
+def _bulk_download_url(bulk_type: str) -> str:
+    """Resolve the current gzipped JSONL URL for a Scryfall bulk-data type."""
     resp = requests.get(BULK_DATA_API, headers=HEADERS, timeout=TIMEOUT)
     resp.raise_for_status()
 
     for entry in resp.json().get("data", []):
-        if entry.get("type") == "oracle_cards":
+        if entry.get("type") == bulk_type:
             # Scryfall retired the plain-JSON `download_uri`; only gzipped JSONL is served.
             return entry["jsonl_download_uri"]
 
-    raise RuntimeError("oracle_cards bulk data entry not found in Scryfall API")
+    raise RuntimeError(f"{bulk_type} bulk data entry not found in Scryfall API")
 
 
-def download_oracle_cards(cache_path: Path = DEFAULT_CACHE_PATH) -> Path:
-    """Download the Scryfall oracle-cards bulk file if not already cached.
-
-    Returns the path to the cached gzipped JSONL file.
-    """
+def _download_bulk(
+    bulk_type: str, cache_path: Path, label: str, *, refresh: bool = False
+) -> Path:
+    """Download a Scryfall bulk file if missing, or if ``refresh`` is set."""
     cache_path = Path(cache_path)
+    if refresh and cache_path.exists():
+        cache_path.unlink()
     if cache_path.exists():
         return cache_path
 
-    url = _get_oracle_download_url()
-    print("Downloading oracle-cards.jsonl.gz from Scryfall (~25 MB)...")
+    url = _bulk_download_url(bulk_type)
+    print(f"Downloading {label} from Scryfall...")
 
     resp = requests.get(url, timeout=300)
     resp.raise_for_status()
@@ -59,6 +61,32 @@ def download_oracle_cards(cache_path: Path = DEFAULT_CACHE_PATH) -> Path:
     cache_path.write_bytes(resp.content)
     print(f"Cached at {cache_path}")
     return cache_path
+
+
+def download_oracle_cards(cache_path: Path = DEFAULT_CACHE_PATH) -> Path:
+    """Download the Scryfall oracle-cards bulk file if not already cached.
+
+    Returns the path to the cached gzipped JSONL file.
+    """
+    return _download_bulk(
+        "oracle_cards", cache_path, "oracle-cards.jsonl.gz (~25 MB)"
+    )
+
+
+def download_default_cards(
+    cache_path: Path = DEFAULT_CARDS_CACHE_PATH, *, refresh: bool = False
+) -> Path:
+    """Download every English printing Scryfall knows about, if not cached.
+
+    oracle-cards keeps one preferred (usually latest) printing per card. First
+    artwork needs every printing so this file is the larger default-cards dump.
+    """
+    return _download_bulk(
+        "default_cards",
+        cache_path,
+        "default-cards.jsonl.gz (~80 MB)",
+        refresh=refresh,
+    )
 
 
 def _mana_cost(card: dict) -> str:
@@ -209,4 +237,106 @@ def build_type_lookup(cache_path: Path = DEFAULT_CACHE_PATH) -> dict[str, str]:
             for variant in _name_variants(name) - {name}:
                 aliases.setdefault(variant, code)
 
+    return {**aliases, **exact}
+
+
+# Printings that are not a real first appearance of the card: gold-bordered
+# championship decks, art cards, tokens. They can predate or outnumber the
+# actual expansion printing and would steal the artwork if left unranked.
+_SKIP_SET_TYPES = frozenset(
+    {"memorabilia", "token", "minigame", "art_series", "funny"}
+)
+
+# Literal first printings that nobody treats as the card. Ice Age Brainstorm
+# exists, but the DiTerlizzi Mercadian Masques painting is the one later
+# decklists should keep.
+CANONICAL_ART_SETS = {
+    "Brainstorm": "mmq",
+}
+
+
+def card_image_uris(card: dict) -> dict[str, str] | None:
+    """Return small/normal image URLs, using the front face of a split card."""
+    uris = card.get("image_uris") or (card.get("card_faces") or [{}])[0].get(
+        "image_uris"
+    )
+    if not uris:
+        return None
+    small = uris.get("small") or uris.get("normal")
+    normal = uris.get("normal") or uris.get("small")
+    if not small:
+        return None
+    return {"s": small, "n": normal}
+
+
+def first_print_rank(card: dict) -> tuple:
+    """Sort key that prefers the earliest real paper printing.
+
+    Paper beats digital, a regular printing beats a promo, and an expansion
+    beats a gold-bordered or art-series card. Ties break on release date, then
+    set code, so the choice is stable across rebuilds.
+    """
+    pinned_set = CANONICAL_ART_SETS.get(card.get("name", ""))
+    pinned = 0 if pinned_set and card.get("set") == pinned_set else 1
+    extra = 1 if (card.get("set_type") or "") in _SKIP_SET_TYPES else 0
+    if card.get("oversized") or card.get("layout") == "art_series":
+        extra = 1
+    paper = 0 if "paper" in (card.get("games") or []) else 1
+    promo = 1 if card.get("promo") else 0
+    digital = 1 if card.get("digital") else 0
+    released = card.get("released_at") or "9999-99-99"
+    return (
+        pinned,
+        extra,
+        paper,
+        promo,
+        digital,
+        released,
+        card.get("set") or "",
+        card.get("collector_number") or "",
+    )
+
+
+def build_first_art_lookup(
+    cache_path: Path = DEFAULT_CARDS_CACHE_PATH,
+) -> dict[str, dict[str, str]]:
+    """Build a card_name → first-printing image URLs mapping.
+
+    Each name points at the earliest paper (or only-digital) printing of that
+    card, except for the few names in ``CANONICAL_ART_SETS`` whose familiar
+    painting is not the literal first printing (Brainstorm → Mercadian Masques).
+    """
+    cache_path = Path(cache_path)
+    if not cache_path.exists():
+        raise FileNotFoundError(
+            f"Default cards not found at {cache_path}. Run download_default_cards() first."
+        )
+
+    best: dict[str, tuple[tuple, dict[str, str], str]] = {}
+    with gzip.open(cache_path, "rt", encoding="utf-8") as fh:
+        for line in fh:
+            if not line.strip():
+                continue
+            card = json.loads(line)
+            if not _is_playable(card):
+                continue
+            uris = card_image_uris(card)
+            if not uris:
+                continue
+            oracle_id = card.get("oracle_id") or card.get("id") or ""
+            if not oracle_id:
+                continue
+            rank = first_print_rank(card)
+            prev = best.get(oracle_id)
+            if prev is None or rank < prev[0]:
+                best[oracle_id] = (rank, uris, card.get("name", ""))
+
+    exact: dict[str, dict[str, str]] = {}
+    aliases: dict[str, dict[str, str]] = {}
+    for _, uris, name in best.values():
+        if not name:
+            continue
+        exact[name] = uris
+        for variant in _name_variants(name) - {name}:
+            aliases.setdefault(variant, uris)
     return {**aliases, **exact}

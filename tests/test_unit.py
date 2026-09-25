@@ -457,6 +457,55 @@ console.log(JSON.stringify(decks.map(classifyDeck)));
         self.assertEqual(json.loads(out.stdout), expected)
 
 
+class TestVisualTypeOrder(unittest.TestCase):
+    """Visual tiles must follow the same Creatures / Spells / Lands order as text."""
+
+    def test_javascript_groups_like_text_mode(self):
+        import shutil
+        import subprocess
+        import tempfile
+        from pathlib import Path
+
+        if shutil.which("node") is None:
+            self.skipTest("node is not installed")
+
+        html = Path("index.html").read_text()
+        start = html.index("function categorizeCards(cards) {")
+        end = html.index("/* ── DOM builders ── */")
+        cards = [
+            {"qty": "4", "card_attributes": {"card_name": "Lightning Bolt", "card_type": "INSTNT"}},
+            {"qty": "10", "card_attributes": {"card_name": "Mountain", "card_type": "LAND"}},
+            {"qty": "4", "card_attributes": {"card_name": "Goblin Token", "card_type": "ISCREA"}},
+            {"qty": "2", "card_attributes": {"card_name": "Clockwork Percussionist", "card_type": "ISCREA"}},
+            {"qty": "4", "card_attributes": {"card_name": "Lava Dart", "card_type": "INSTNT"}},
+        ]
+        script = f"""
+{html[start:end]}
+const cards = {json.dumps(cards)};
+console.log(JSON.stringify(cardsInTypeOrder(cards).map(([name]) => name)));
+"""
+        with tempfile.NamedTemporaryFile("w", suffix=".js", delete=False) as fh:
+            fh.write(script)
+            script_path = fh.name
+        try:
+            out = subprocess.run(
+                ["node", script_path], capture_output=True, text=True, check=True
+            )
+        finally:
+            os.unlink(script_path)
+
+        self.assertEqual(
+            json.loads(out.stdout),
+            [
+                "Goblin Token",
+                "Clockwork Percussionist",
+                "Lava Dart",
+                "Lightning Bolt",
+                "Mountain",
+            ],
+        )
+
+
 class TestRequiredColors(unittest.TestCase):
     def test_phyrexian_mana_is_not_a_color_requirement(self):
         from src.scryfall import required_colors
@@ -530,6 +579,211 @@ class TestIsPlayable(unittest.TestCase):
         real = {"name": "Counterspell", "legalities": {"pauper": "legal", "modern": "not_legal"}}
         self.assertFalse(_is_playable(art))
         self.assertTrue(_is_playable(real))
+
+
+class TestFirstPrintArt(unittest.TestCase):
+    def test_earliest_paper_expansion_wins(self):
+        from src.scryfall import first_print_rank
+
+        ice = {
+            "set_type": "expansion",
+            "games": ["paper"],
+            "released_at": "1995-06-03",
+            "set": "ice",
+            "collector_number": "61",
+        }
+        mmq = {
+            "set_type": "expansion",
+            "games": ["paper"],
+            "released_at": "1999-10-04",
+            "set": "mmq",
+            "collector_number": "61",
+        }
+        promo = {
+            "set_type": "promo",
+            "games": ["paper"],
+            "promo": True,
+            "released_at": "1994-01-01",
+            "set": "fnm",
+            "collector_number": "1",
+        }
+        digital = {
+            "set_type": "masters",
+            "games": ["mtgo"],
+            "digital": True,
+            "released_at": "1994-01-01",
+            "set": "me2",
+            "collector_number": "1",
+        }
+        gold = {
+            "set_type": "memorabilia",
+            "games": ["paper"],
+            "released_at": "1994-01-01",
+            "set": "wc00",
+            "collector_number": "1",
+        }
+        self.assertLess(first_print_rank(ice), first_print_rank(mmq))
+        mmq["name"] = "Brainstorm"
+        ice["name"] = "Brainstorm"
+        self.assertLess(first_print_rank(mmq), first_print_rank(ice))
+        self.assertLess(first_print_rank({**ice, "name": "Counterspell"}), first_print_rank(promo))
+        self.assertLess(first_print_rank(ice), first_print_rank(digital))
+        self.assertLess(first_print_rank(ice), first_print_rank(gold))
+
+    def test_lookup_keeps_the_earliest_paper_uris(self):
+        import gzip
+        import tempfile
+        from pathlib import Path
+
+        from src.scryfall import build_first_art_lookup
+
+        legal = {"pauper": "legal"}
+        cards = [
+            {
+                "name": "Brainstorm",
+                "oracle_id": "brain",
+                "legalities": legal,
+                "set_type": "expansion",
+                "games": ["paper"],
+                "released_at": "1999-10-04",
+                "set": "mmq",
+                "collector_number": "61",
+                "image_uris": {"small": "mmq-s", "normal": "mmq-n"},
+            },
+            {
+                "name": "Brainstorm",
+                "oracle_id": "brain",
+                "legalities": legal,
+                "set_type": "expansion",
+                "games": ["paper"],
+                "released_at": "1995-06-03",
+                "set": "ice",
+                "collector_number": "61",
+                "image_uris": {"small": "ice-s", "normal": "ice-n"},
+            },
+            {
+                "name": "Fire // Ice",
+                "oracle_id": "fireice",
+                "legalities": legal,
+                "set_type": "expansion",
+                "games": ["paper"],
+                "released_at": "2001-10-01",
+                "set": "apc",
+                "collector_number": "128",
+                "card_faces": [
+                    {"image_uris": {"small": "fi-s", "normal": "fi-n"}},
+                    {"image_uris": {"small": "iceface-s", "normal": "iceface-n"}},
+                ],
+            },
+        ]
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "default-cards.jsonl.gz"
+            with gzip.open(path, "wt", encoding="utf-8") as fh:
+                for card in cards:
+                    fh.write(json.dumps(card) + "\n")
+            lookup = build_first_art_lookup(path)
+
+        # Brainstorm is pinned to Mercadian Masques even though Ice Age is earlier.
+        self.assertEqual(lookup["Brainstorm"], {"s": "mmq-s", "n": "mmq-n"})
+        self.assertEqual(lookup["Fire // Ice"], {"s": "fi-s", "n": "fi-n"})
+        self.assertEqual(lookup["Fire/Ice"], {"s": "fi-s", "n": "fi-n"})
+
+    def test_rebuild_skips_download_when_every_name_is_already_known(self):
+        import tempfile
+        from pathlib import Path
+        from unittest.mock import patch
+
+        from src import pipeline
+
+        with tempfile.TemporaryDirectory() as tmp:
+            raw = Path(tmp) / "raw"
+            raw.mkdir()
+            (raw / "event.json").write_text(
+                json.dumps(
+                    {
+                        "decklists": [
+                            {
+                                "main_deck": [
+                                    {
+                                        "qty": "4",
+                                        "card_attributes": {"card_name": "Brainstorm"},
+                                    }
+                                ],
+                                "sideboard_deck": [],
+                            }
+                        ]
+                    }
+                )
+            )
+            art = Path(tmp) / "card-art.json"
+            art.write_text(json.dumps({"Brainstorm": {"s": "ice-s", "n": "ice-n"}}))
+
+            with (
+                patch.object(pipeline, "CARD_ART_PATH", art),
+                patch.object(
+                    pipeline,
+                    "download_default_cards",
+                    side_effect=AssertionError("should not download"),
+                ),
+            ):
+                count = pipeline.rebuild_card_art(raw_dir=raw)
+
+        self.assertEqual(count, 1)
+
+    def test_rebuild_skips_download_for_names_scryfall_never_had(self):
+        import tempfile
+        from pathlib import Path
+        from unittest.mock import patch
+
+        from src import pipeline
+
+        with tempfile.TemporaryDirectory() as tmp:
+            raw = Path(tmp) / "raw"
+            raw.mkdir()
+            (raw / "event.json").write_text(
+                json.dumps(
+                    {
+                        "decklists": [
+                            {
+                                "main_deck": [
+                                    {
+                                        "qty": "4",
+                                        "card_attributes": {"card_name": "Brainstorm"},
+                                    },
+                                    {
+                                        "qty": "1",
+                                        "card_attributes": {
+                                            "card_name": "Chizak, Apex Arachnosaur"
+                                        },
+                                    },
+                                ],
+                                "sideboard_deck": [],
+                            }
+                        ]
+                    }
+                )
+            )
+            art = Path(tmp) / "card-art.json"
+            art.write_text(
+                json.dumps(
+                    {
+                        "Brainstorm": {"s": "mmq-s", "n": "mmq-n"},
+                        "_unresolved": ["Chizak, Apex Arachnosaur"],
+                    }
+                )
+            )
+
+            with (
+                patch.object(pipeline, "CARD_ART_PATH", art),
+                patch.object(
+                    pipeline,
+                    "download_default_cards",
+                    side_effect=AssertionError("should not download"),
+                ),
+            ):
+                count = pipeline.rebuild_card_art(raw_dir=raw)
+
+        self.assertEqual(count, 1)
 
 
 class TestEnrichDeckColors(unittest.TestCase):

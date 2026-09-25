@@ -233,6 +233,25 @@
       });
     }
 
+    /* First-printing URLs, so a later Secret Lair does not restyle every
+       historical decklist. Hydrate the cache before any Scryfall fetch. */
+    let cardArtPromise = null;
+    function loadCardArt() {
+      if (!cardArtPromise) {
+        cardArtPromise = fetch("assets/pauper/card-art.json", { cache: "no-store" })
+          .then((res) => (res.ok ? res.json() : {}))
+          .then((data) => {
+            for (const [name, uris] of Object.entries(data)) {
+              if (!uris || typeof uris !== "object" || !uris.s) continue;
+              storeScryfallImages(name, { small: uris.s, normal: uris.n });
+            }
+          })
+          .catch(() => {});
+      }
+      return cardArtPromise;
+    }
+    loadCardArt();
+
     function cardImageUris(card) {
       return card.image_uris || card.card_faces?.[0]?.image_uris || null;
     }
@@ -254,6 +273,7 @@
     }
 
     async function fetchScryfallImages(names) {
+      await loadCardArt();
       const result = new Map();
       const missing = [];
       for (const name of names) {
@@ -296,7 +316,13 @@
     }
 
     function openCardPreview(name, x, y) {
+      cardPreviewImg.alt = name;
       cardPreviewImg.src = scryfallImg(name);
+      if (!scryfallImageCache.has(name)) {
+        loadCardArt().then(() => {
+          if (cardPreviewImg.alt === name) cardPreviewImg.src = scryfallImg(name);
+        });
+      }
       cardPreview.style.display = "block";
       if (x != null && y != null) {
         positionPreview(x, y);
@@ -353,6 +379,17 @@
         g[name] = (g[name] || 0) + (parseInt(c.qty) || 1);
       }
       return Object.entries(g).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+    }
+
+    function cardsInTypeOrder(cards) {
+      const cats = categorizeCards(cards);
+      const out = [];
+      for (const key of ["creatures", "spells", "lands"]) {
+        const sorted = Object.entries(cats[key].entries)
+          .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+        out.push(...sorted);
+      }
+      return out;
     }
 
     /* ── DOM builders ── */
@@ -416,7 +453,7 @@
 
     function hydrateVisualGrid(grid, cards) {
       const loadId = visualImageLoadId;
-      const names = flatGroup(cards).map(([name]) => name);
+      const names = cardsInTypeOrder(cards).map(([name]) => name);
       fetchScryfallImages(names).then((uriMap) => {
         if (loadId !== visualImageLoadId) return;
         for (const tile of grid.querySelectorAll(".card-tile")) {
@@ -437,7 +474,7 @@
 
     function renderVisualGrid(cards) {
       const grid = el("div", "deck-visual-grid");
-      for (const [name, qty] of flatGroup(cards)) {
+      for (const [name, qty] of cardsInTypeOrder(cards)) {
         grid.appendChild(cardTile(name, qty));
       }
       hydrateVisualGrid(grid, cards);

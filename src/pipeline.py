@@ -37,13 +37,20 @@ from .refresh_policy import (
     stored_deck_counts,
 )
 from .saver import encode_json, write_json
-from .scryfall import build_color_lookup, download_oracle_cards
+from .scryfall import (
+    build_color_lookup,
+    build_first_art_lookup,
+    download_default_cards,
+    download_oracle_cards,
+)
 from .utils import canonical_starttime, extract_date
 
 
 RAW_DIR = Path("assets/pauper/raw")
 INDEX_PATH = Path("assets/pauper/index.json")
 INFO_PATH = Path("info.json")
+CARD_ART_PATH = Path("assets/pauper/card-art.json")
+CARD_ART_UNRESOLVED = "_unresolved"
 
 
 def discover_pauper_urls() -> list[str]:
@@ -263,6 +270,74 @@ def write_info():
     print(f"info.json updated: {now}")
 
 
+def collect_card_names(raw_dir: Path = RAW_DIR) -> set[str]:
+    """Every card name currently stored in a tournament file."""
+    names: set[str] = set()
+    if not raw_dir.exists():
+        return names
+    for path in raw_dir.glob("*.json"):
+        try:
+            data = json.loads(path.read_text())
+        except (json.JSONDecodeError, OSError):
+            continue
+        for deck in data.get("decklists", []):
+            for section in ("main_deck", "sideboard_deck"):
+                for card in deck.get(section, []):
+                    name = card.get("card_attributes", {}).get("card_name", "")
+                    if name:
+                        names.add(name)
+    return names
+
+
+def rebuild_card_art(raw_dir: Path = RAW_DIR) -> int:
+    """Write first-printing image URLs for every card name in ``raw_dir``.
+
+    Skips the 80 MB default-cards download when every current name is already
+    in the file or was already found to have no Scryfall printing (playtest
+    names, typos). A genuinely new name forces a rebuild. Names that left the
+    corpus are dropped so the file cannot grow forever.
+    """
+    names = collect_card_names(raw_dir)
+    existing: dict = {}
+    unresolved: set[str] = set()
+    if CARD_ART_PATH.exists():
+        try:
+            data = json.loads(CARD_ART_PATH.read_text())
+            unresolved = set(data.pop(CARD_ART_UNRESOLVED, []) or [])
+            existing = data
+        except json.JSONDecodeError:
+            existing, unresolved = {}, set()
+
+    if existing and names <= (set(existing) | unresolved):
+        payload = _card_art_payload(names, existing)
+        encoded = encode_json(payload)
+        previous = CARD_ART_PATH.read_text() if CARD_ART_PATH.exists() else ""
+        if encoded != previous:
+            CARD_ART_PATH.write_text(encoded)
+        print(f"Card art unchanged: {_art_count(payload)} cards.")
+        return _art_count(payload)
+
+    download_default_cards()
+    lookup = build_first_art_lookup()
+    payload = _card_art_payload(names, lookup)
+    write_json(CARD_ART_PATH, payload)
+    print(f"Card art updated: {_art_count(payload)} cards.")
+    return _art_count(payload)
+
+
+def _card_art_payload(names: set[str], lookup: dict) -> dict:
+    """Keep resolved URLs plus the names Scryfall has never heard of."""
+    payload = {name: lookup[name] for name in sorted(names) if name in lookup}
+    missing = sorted(name for name in names if name not in lookup)
+    if missing:
+        payload[CARD_ART_UNRESOLVED] = missing
+    return payload
+
+
+def _art_count(payload: dict) -> int:
+    return sum(1 for key in payload if key != CARD_ART_UNRESOLVED)
+
+
 def rebuild_derived_artifacts(
     *,
     refresh_dictionary: bool = True,
@@ -278,6 +353,7 @@ def rebuild_derived_artifacts(
     3. Rebuild the tournament index
     4. Rebuild player and deck (meta) profiles
     5. Rebuild the metagame timeline
+    6. Rebuild first-printing card art for the visual deck view
 
     Returns a summary dict with ``classified``, ``normalized``, and
     ``index_changed`` keys.
@@ -298,6 +374,7 @@ def rebuild_derived_artifacts(
     rebuild_player_profiles(raw_dir=raw_dir)
     rebuild_deck_profiles(raw_dir=raw_dir)
     rebuild_metagame_timeline(raw_dir=raw_dir)
+    rebuild_card_art(raw_dir=raw_dir)
 
     if write_timestamp:
         write_info()
@@ -316,10 +393,13 @@ def run(refresh_scryfall: bool = False) -> tuple[list[str], list[str]]:
         ``(crawled_site_names, failed_sources)``. A failed source is reported
         rather than raised so the remaining sources still crawl and commit.
     """
-    cache = download_oracle_cards()
-    if refresh_scryfall and cache.exists():
-        cache.unlink()
-        download_oracle_cards()
+    if refresh_scryfall:
+        from .scryfall import DEFAULT_CACHE_PATH, DEFAULT_CARDS_CACHE_PATH
+
+        for path in (DEFAULT_CACHE_PATH, DEFAULT_CARDS_CACHE_PATH, CARD_ART_PATH):
+            if path.exists():
+                path.unlink()
+    download_oracle_cards()
 
     print("Building color lookup...")
     color_lookup = build_color_lookup()
