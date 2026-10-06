@@ -40,6 +40,9 @@ repos:
         language: python
         language_version: python3
         args: ["--ignore-missing-imports"]
+        additional_dependencies:
+          - types-requests
+          - types-PyYAML
 
   # isort: Import sorting
   - repo: https://github.com/pre-commit/mirrors-isort
@@ -68,3 +71,4 @@ repos:
     hooks:
       - id: bandit
         args: ["--skip", "B101"]
+        exclude: ^tests/

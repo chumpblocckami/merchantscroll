@@ -6,9 +6,12 @@ logs, and how to tell a real failure from an upstream hiccup.
 ## The Workflow
 
 `.github/workflows/run-crawler.yml` defines a single workflow named **Hedron
-Crawler**. It runs hourly (`cron: '0 * * * *'`) and can also be triggered by
-hand via `workflow_dispatch`. It needs `contents: write` because the last step
-pushes the crawl results back to `main`.
+Crawler**. It is scheduled four times an hour (`cron: '7,22,37,52 * * * *'`,
+offset from `:00` because GitHub delays jobs that pile up on the hour) and
+can also be triggered by hand via `workflow_dispatch`. GitHub may still skip
+or delay scheduled runs on public repositories; the extra ticks are there so
+a missed slot does not mean a missed afternoon. It needs `contents: write`
+because the last step pushes the crawl results back to `main`.
 
 Steps, in order:
 
@@ -25,8 +28,11 @@ Steps, in order:
 The commit step is marked `if: always()`, so **a failed crawl still commits and
 pushes whatever it managed to collect**. A red X does not mean data was lost.
 
-Pushing to `main` triggers the separate `pages-build-deployment` workflow, which
-is why you see two runs per hour in the run list.
+Pushing to `main` triggers the separate `pages-build-deployment` workflow.
+A crawl that finds nothing does not commit, so Pages only runs when data
+actually changed. MTGO timeouts are retried, logged, and left green so a
+busier schedule does not flood Action failure emails. Unexpected errors
+still fail the job.
 
 ### Secrets
 
@@ -42,25 +48,22 @@ acts as the fallback when `TOKEN` is unset — `src/pipeline.py` reads
 
 ## Reading the Exit Code
 
-`crawl.py` exits non-zero whenever any source failed, *after* writing out
-everything the other sources produced:
-
-```python
-if failed_sources:
-    raise SystemExit(f"\nSource(s) failed: {', '.join(failed_sources)}")
-```
-
-This is deliberate. A source going dark would otherwise look identical to a
-quiet "no new data" run, so the pipeline surfaces it as a failed run instead.
+`crawl.py` still prints `Source(s) failed: …` after writing whatever the other
+sources produced. It only exits non-zero for unexpected sources. An MTGO timeout
+after retries is logged and the job stays green, because that is the usual
+GitHub-runner hiccup and a red X was inbox spam.
 
 `src/pipeline.py` catches `requests.exceptions.RequestException` around the MTGO
 crawl and appends `"mtgo"` to `failed_sources` rather than raising, so the
-Pauperwave import still runs. In other words:
+Pauperwave import still runs. The listing fetch retries timeouts and empty stub
+pages a few times before giving up. In other words:
 
-- **Failed run, `Source(s) failed: mtgo`** — MTGO was unreachable. Pauperwave
-  data still imported and was pushed. Usually transient.
-- **Failed run, some other error** — worth reading the full log.
-- **Successful run** — every source responded, whether or not there was new data.
+- **Green run, `Source(s) failed: mtgo`** — MTGO was unreachable after retries.
+  Pauperwave data still imported and was pushed. Investigate only if this
+  message repeats across many consecutive hours.
+- **Failed run** — unexpected error or a non-MTGO source failed. Read the log.
+- **Successful run with no source warning** — every source responded, whether
+  or not there was new data.
 
 ## Inspecting Runs
 
@@ -104,9 +107,11 @@ credentials would land in root's snap home rather than
 ## Known Failure Modes
 
 **MTGO connection timeout.** `MTGO source unavailable: ... Connection to
-www.mtgo.com timed out. (connect timeout=60)`. Wizards' server is intermittently
-unreachable from GitHub runners. Nothing to fix; the next hourly run normally
-recovers. Only worth investigating if it persists across many consecutive runs.
+www.mtgo.com timed out. (connect timeout=60)`. The listing request is retried
+a few times; if it still fails, the run stays green and logs
+`Source(s) failed: mtgo`. Wizards' server is intermittently unreachable from
+GitHub runners. Only worth investigating if that warning persists across many
+consecutive hours.
 
 **`GitHub rejected the token (401); retrying the listing without
 authentication.`** The `TOKEN` secret is expired, revoked, or missing the

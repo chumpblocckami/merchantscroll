@@ -5,7 +5,7 @@ import unittest
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from src.utils import (
+from src.utils import (  # noqa: E402
     canonical_starttime,
     extract_date,
     minify_tournament_data,
@@ -83,9 +83,7 @@ class TestExtractDate(unittest.TestCase):
 class TestCanonicalStarttime(unittest.TestCase):
     def test_league_uses_site_name_date(self):
         self.assertEqual(
-            canonical_starttime(
-                "pauper-league-2025-11-2310636", "2026-06-17"
-            ),
+            canonical_starttime("pauper-league-2025-11-2310636", "2026-06-17"),
             "2025-11-23",
         )
 
@@ -248,17 +246,11 @@ class TestClassifyAndNormalize(unittest.TestCase):
 
         with tempfile.TemporaryDirectory() as tmp:
             raw = Path(tmp)
-            (raw / "pauper-league-test.json").write_text(
-                __import__("json").dumps(tournament)
-            )
-            classified, normalized = classify_and_normalize_labels(
-                archetype_map, raw_dir=raw
-            )
+            (raw / "pauper-league-test.json").write_text(__import__("json").dumps(tournament))
+            classified, normalized = classify_and_normalize_labels(archetype_map, raw_dir=raw)
             self.assertEqual(classified, 1)
             self.assertEqual(normalized, 0)
-            saved = __import__("json").loads(
-                (raw / "pauper-league-test.json").read_text()
-            )
+            saved = __import__("json").loads((raw / "pauper-league-test.json").read_text())
             self.assertEqual(saved["decklists"][0]["archetype"], "Mono Blue Terror")
 
 
@@ -448,9 +440,7 @@ console.log(JSON.stringify(decks.map(classifyDeck)));
             fh.write(script)
             script_path = fh.name
         try:
-            out = subprocess.run(
-                ["node", script_path], capture_output=True, text=True, check=True
-            )
+            out = subprocess.run(["node", script_path], capture_output=True, text=True, check=True)
         finally:
             os.unlink(script_path)
 
@@ -476,7 +466,10 @@ class TestVisualTypeOrder(unittest.TestCase):
             {"qty": "4", "card_attributes": {"card_name": "Lightning Bolt", "card_type": "INSTNT"}},
             {"qty": "10", "card_attributes": {"card_name": "Mountain", "card_type": "LAND"}},
             {"qty": "4", "card_attributes": {"card_name": "Goblin Token", "card_type": "ISCREA"}},
-            {"qty": "2", "card_attributes": {"card_name": "Clockwork Percussionist", "card_type": "ISCREA"}},
+            {
+                "qty": "2",
+                "card_attributes": {"card_name": "Clockwork Percussionist", "card_type": "ISCREA"},
+            },
             {"qty": "4", "card_attributes": {"card_name": "Lava Dart", "card_type": "INSTNT"}},
         ]
         script = f"""
@@ -488,9 +481,7 @@ console.log(JSON.stringify(cardsInTypeOrder(cards).map(([name]) => name)));
             fh.write(script)
             script_path = fh.name
         try:
-            out = subprocess.run(
-                ["node", script_path], capture_output=True, text=True, check=True
-            )
+            out = subprocess.run(["node", script_path], capture_output=True, text=True, check=True)
         finally:
             os.unlink(script_path)
 
@@ -575,7 +566,10 @@ class TestIsPlayable(unittest.TestCase):
     def test_art_series_and_playtest_cards_are_skipped(self):
         from src.scryfall import _is_playable
 
-        art = {"name": "Delver of Secrets // Delver of Secrets", "legalities": {"pauper": "not_legal"}}
+        art = {
+            "name": "Delver of Secrets // Delver of Secrets",
+            "legalities": {"pauper": "not_legal"},
+        }
         real = {"name": "Counterspell", "legalities": {"pauper": "legal", "modern": "not_legal"}}
         self.assertFalse(_is_playable(art))
         self.assertTrue(_is_playable(real))
@@ -854,7 +848,6 @@ class TestNormalizeDate(unittest.TestCase):
         self.assertEqual(normalize_date("2026-06-05 19:00:00.000"), "2026-06-05")
 
 
-
 class TestDeckStats(unittest.TestCase):
     def test_archetype_slug(self):
         from src.deck_stats import archetype_slug
@@ -937,8 +930,18 @@ class TestDeckStats(unittest.TestCase):
                 "description": "Pauper League",
                 "starttime": "2026-06-05",
                 "decklists": [
-                    {"player": "a", "archetype": "White Weenie", "colors": ["W"], "wins": {"wins": "5", "losses": "0"}},
-                    {"player": "b", "archetype": "White Weennie", "colors": ["W"], "wins": {"wins": "5", "losses": "0"}},
+                    {
+                        "player": "a",
+                        "archetype": "White Weenie",
+                        "colors": ["W"],
+                        "wins": {"wins": "5", "losses": "0"},
+                    },
+                    {
+                        "player": "b",
+                        "archetype": "White Weennie",
+                        "colors": ["W"],
+                        "wins": {"wins": "5", "losses": "0"},
+                    },
                 ],
             }
             (raw / "league.json").write_text(__import__("json").dumps(data))
@@ -946,6 +949,7 @@ class TestDeckStats(unittest.TestCase):
             profile = __import__("json").loads((out / "white-weenie.json").read_text())
             self.assertEqual(profile["stats"]["total_entries"], 2)
             self.assertFalse((out / "white-weennie.json").exists())
+
 
 class TestMetaStats(unittest.TestCase):
     """The metagame timeline must stay a faithful, compact census of raw data."""
@@ -1024,9 +1028,7 @@ class TestMetaStats(unittest.TestCase):
         names = payload["archetypes"]
         events = {event["s"]: event for event in payload["events"]}
 
-        league = dict(
-            (names[idx], count) for idx, count in events["league"]["c"]
-        )
+        league = dict((names[idx], count) for idx, count in events["league"]["c"])
         self.assertEqual(league, {"Mono Blue Terror": 2, "Elves": 1, "Unclassified": 1})
 
     def test_counts_are_sorted_by_descending_count(self):
@@ -1035,9 +1037,12 @@ class TestMetaStats(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             _, payload = self._build(tmp)
 
-        counts = [count for _, count in next(
-            event for event in payload["events"] if event["s"] == "league"
-        )["c"]]
+        counts = [
+            count
+            for _, count in next(event for event in payload["events"] if event["s"] == "league")[
+                "c"
+            ]
+        ]
         self.assertEqual(counts, sorted(counts, reverse=True))
 
     def test_event_type_tagging(self):
@@ -1271,9 +1276,7 @@ class TestDerivedArtifactDeterminism(unittest.TestCase):
         def build(tmp):
             raw = self._raw_dir(tmp)
             out = Path(tmp) / "index.json"
-            with patch.object(pipeline, "RAW_DIR", raw), patch.object(
-                pipeline, "INDEX_PATH", out
-            ):
+            with patch.object(pipeline, "RAW_DIR", raw), patch.object(pipeline, "INDEX_PATH", out):
                 pipeline.rebuild_index()
             return out.read_text()
 
@@ -1300,8 +1303,11 @@ class TestDerivedArtifactDeterminism(unittest.TestCase):
             "site_name": f"pauper-league-{date.replace('-', '-')}10855",
             # Same pilot twice, as MTGO really publishes it.
             "decklists": [
-                {"player": "duplicate_pilot", "archetype": "Gruul Ponza",
-                 "wins": {"wins": "5", "losses": "0"}}
+                {
+                    "player": "duplicate_pilot",
+                    "archetype": "Gruul Ponza",
+                    "wins": {"wins": "5", "losses": "0"},
+                }
                 for _ in range(30)
             ],
         }
@@ -1310,8 +1316,12 @@ class TestDerivedArtifactDeterminism(unittest.TestCase):
             "starttime": f"{date} 17:00:00.0",
             "site_name": f"pauper-challenge-32-{date}12848178",
             "decklists": [
-                {"player": "winner", "archetype": "Gruul Ponza",
-                 "wins": {"wins": "9", "losses": "0"}, "final_rank": 1}
+                {
+                    "player": "winner",
+                    "archetype": "Gruul Ponza",
+                    "wins": {"wins": "9", "losses": "0"},
+                    "final_rank": 1,
+                }
             ],
         }
 
@@ -1327,7 +1337,8 @@ class TestDerivedArtifactDeterminism(unittest.TestCase):
         entries = profile["recent_entries"]
         self.assertEqual(len(entries), 25)
         self.assertEqual(
-            entries[0]["player"], "winner",
+            entries[0]["player"],
+            "winner",
             "the ranked challenge finish must survive the cut",
         )
         self.assertEqual(entries[0]["final_rank"], 1)
@@ -1471,6 +1482,50 @@ class TestMtgoDiscovery(unittest.TestCase):
         message = str(ctx.exception)
         self.assertIn("Access Denied", message)
         self.assertIn("bytes", message)
+
+    def test_retries_connect_timeout_then_succeeds(self):
+        from unittest.mock import patch
+
+        from src import crawler
+        from src.crawler import crawl_tournaments
+
+        class Ok:
+            status_code = 200
+            text = self.LISTING_HTML
+            content = self.LISTING_HTML.encode()
+
+        calls = {"n": 0}
+
+        def fake_get(*_args, **_kwargs):
+            calls["n"] += 1
+            if calls["n"] == 1:
+                raise crawler.requests.exceptions.ConnectTimeout("timed out")
+            return Ok()
+
+        with (
+            patch.object(crawler.requests, "get", fake_get),
+            patch.object(crawler.time, "sleep"),
+        ):
+            urls = crawl_tournaments(attempts=3)
+
+        self.assertEqual(calls["n"], 2)
+        self.assertEqual(len(urls), 2)
+
+    def test_exhausted_timeouts_reraise(self):
+        from unittest.mock import patch
+
+        from src import crawler
+        from src.crawler import crawl_tournaments
+
+        def fake_get(*_args, **_kwargs):
+            raise crawler.requests.exceptions.ConnectTimeout("timed out")
+
+        with (
+            patch.object(crawler.requests, "get", fake_get),
+            patch.object(crawler.time, "sleep"),
+            self.assertRaises(crawler.requests.exceptions.ConnectTimeout),
+        ):
+            crawl_tournaments(attempts=3)
 
 
 if __name__ == "__main__":

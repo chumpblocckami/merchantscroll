@@ -24,6 +24,7 @@ from src.pipeline import run
 
 
 def main():
+    """Run the crawl pipeline and fail the process only on unexpected sources."""
     parser = argparse.ArgumentParser(description="Crawl new Pauper tournaments from MTGO")
     parser.add_argument(
         "--refresh-scryfall",
@@ -41,9 +42,12 @@ def main():
         print("\nDone. No new data.")
 
     if failed_sources:
-        # Whatever was crawled is already written; exit non-zero so a broken
-        # source shows up as a failed run instead of a quiet "no new data".
-        raise SystemExit(f"\nSource(s) failed: {', '.join(failed_sources)}")
+        print(f"\nSource(s) failed: {', '.join(failed_sources)}")
+        # MTGO timeouts from GitHub runners are routine; a red X on those
+        # floods the Actions inbox. Fail the job only for unexpected sources.
+        unexpected = [name for name in failed_sources if name != "mtgo"]
+        if unexpected:
+            raise SystemExit(1)
 
 
 if __name__ == "__main__":

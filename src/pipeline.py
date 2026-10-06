@@ -107,7 +107,11 @@ def crawl_new_tournaments(
     changed = False
     for url, site_name in to_crawl:
         print(f"  Crawling {site_name}...")
-        data = crawl_decks(url, color_lookup=color_lookup)
+        try:
+            data = crawl_decks(url, color_lookup=color_lookup)
+        except requests.exceptions.RequestException as e:
+            print(f"  Skipped ({e}).")
+            continue
         if data is None:
             print("  Skipped (crawl failed).")
             continue

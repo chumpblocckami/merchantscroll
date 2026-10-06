@@ -1,3 +1,5 @@
+"""Fetch and parse tournament listings and decklists from mtgo.com."""
+
 import re
 import time
 from ast import literal_eval
@@ -56,17 +58,13 @@ def crawl_decks(
         print(f"No tournament data found in {tournament_url}")
         return None
 
-    tournament_data = literal_eval(
-        match.group(1).replace("false", "False").replace("true", "True")
-    )
+    tournament_data = literal_eval(match.group(1).replace("false", "False").replace("true", "True"))
     enrich_challenge_results(tournament_data)
     minified = minify_tournament_data(tournament_data)
     site_name = tournament_url.rstrip("/").split("/")[-1]
     if site_name:
         minified["site_name"] = site_name
-        minified["starttime"] = canonical_starttime(
-            site_name, minified.get("starttime", "")
-        )
+        minified["starttime"] = canonical_starttime(site_name, minified.get("starttime", ""))
     if color_lookup:
         enrich_deck_colors(minified, color_lookup)
     return minified
@@ -76,11 +74,7 @@ def _decklist_links(html: str) -> list[str]:
     """Extract absolute tournament URLs from the decklists listing HTML."""
     soup = BeautifulSoup(html, "html.parser")
     return sorted(
-        {
-            BASE_URL + a["href"]
-            for a in soup.find_all("a", href=True)
-            if "/decklist/" in a["href"]
-        }
+        {BASE_URL + a["href"] for a in soup.find_all("a", href=True) if "/decklist/" in a["href"]}
     )
 
 
@@ -96,20 +90,37 @@ def crawl_tournaments(attempts: int = 3) -> list[str]:
     Raises:
         EmptyListingError: If the page loads but yields no decklist links,
             which means a stub or challenge page rather than the listing.
-        requests.exceptions.HTTPError: If the page returns a non-200 status.
+        requests.exceptions.RequestException: If every attempt fails to
+            fetch the page (timeout, connection error, or non-200).
+
     """
     detail = ""
+    last_error: BaseException | None = None
+    saw_empty_page = False
     for attempt in range(1, attempts + 1):
-        response = requests.get(DECKLISTS_URL, headers=HEADERS, timeout=TIMEOUT)
+        try:
+            response = requests.get(DECKLISTS_URL, headers=HEADERS, timeout=TIMEOUT)
+        except requests.exceptions.RequestException as e:
+            last_error = e
+            print(f"  Attempt {attempt}/{attempts}: listing request failed ({e}).")
+            if attempt < attempts:
+                time.sleep(5)
+            continue
+
         if response.status_code != 200:
-            raise requests.exceptions.HTTPError(
+            last_error = requests.exceptions.HTTPError(
                 f"Error fetching page: {response.status_code}", response=response
             )
+            print(f"  Attempt {attempt}/{attempts}: listing HTTP {response.status_code}.")
+            if attempt < attempts:
+                time.sleep(5)
+            continue
 
         urls = _decklist_links(response.text)
         if urls:
             return urls
 
+        saw_empty_page = True
         title = BeautifulSoup(response.text, "html.parser").title
         detail = (
             f"{len(response.content)} bytes,"
@@ -121,8 +132,12 @@ def crawl_tournaments(attempts: int = 3) -> list[str]:
         if attempt < attempts:
             time.sleep(5)
 
-    raise EmptyListingError(
-        f"{DECKLISTS_URL} returned 200 but no /decklist/ links in {attempts} attempts"
-        f" ({detail}). The page normally lists hundreds, so this response was a stub"
-        " or bot challenge, not an empty schedule."
-    )
+    if saw_empty_page:
+        raise EmptyListingError(
+            f"{DECKLISTS_URL} returned 200 but no /decklist/ links in {attempts} attempts"
+            f" ({detail}). The page normally lists hundreds, so this response was a stub"
+            " or bot challenge, not an empty schedule."
+        )
+    if last_error is not None:
+        raise last_error
+    raise EmptyListingError(f"{DECKLISTS_URL} returned no listing in {attempts} attempts.")

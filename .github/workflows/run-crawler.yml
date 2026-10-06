@@ -3,7 +3,12 @@ name: Hedron Crawler
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 * * * *'
+    # Offset from :00 — GitHub delays workflows that pile up on the hour.
+    - cron: '7,22,37,52 * * * *'
+
+concurrency:
+  group: hedron-crawler
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -11,6 +16,7 @@ permissions:
 jobs:
   run-script:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
       - name: Checkout code
