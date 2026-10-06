@@ -132,12 +132,16 @@
       score.appendChild(statLine("Total entries", String(stats.total_entries || 0)));
 
       let trophyText = String(stats.league_trophies || 0) + " trophies";
-      // Position in the rank-ordered board is the rank, its length the pool.
-      // indexOf gives 0 for an unranked player, which the guards reject.
+      // Tied counts share a rank; position is only the fallback for an older
+      // pools.json. A missing name gives 0, which the guards below reject.
       const yearlyBoard = trophyBoard.yearly || [];
       const alltimeBoard = trophyBoard.alltime || [];
-      const yearlyRank = yearlyBoard.indexOf(username) + 1;
-      const alltimeRank = alltimeBoard.indexOf(username) + 1;
+      const rankAt = (names, ranks) => {
+        const i = names.indexOf(username);
+        return i < 0 ? 0 : (ranks?.[i] ?? i + 1);
+      };
+      const yearlyRank = rankAt(yearlyBoard, trophyBoard.yearly_ranks);
+      const alltimeRank = rankAt(alltimeBoard, trophyBoard.alltime_ranks);
       if (yearlyRank) {
         trophyText += ` (ranked ${yearlyRank}/${yearlyBoard.length} yearly`;
         if (alltimeRank) {
