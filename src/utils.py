@@ -1,5 +1,7 @@
+import json
 import re
 from datetime import datetime
+from pathlib import Path
 
 
 def normalize_date(date_str) -> str:
@@ -33,6 +35,59 @@ def canonical_starttime(site_name: str, starttime: str) -> str:
     return starttime or ""
 
 
+def load_unique_tournaments(raw_dir: Path) -> list[tuple[Path, dict]]:
+    """Load raw tournament files with re-published copies removed.
+
+    MTGO lists the same event under several URLs whose date part differs
+    (``pauper-challenge-32-2026-06-0112843773`` and ``...-06-0412843773``
+    are one Challenge; a 2025 league 5-0 also sits in a ``2019-02-08``
+    league file). Counting every file double-counts records and trophies,
+    so a Challenge is keyed by ``tournamentid`` and a league 5-0 by
+    ``loginplayeventcourseid``. The copy with the newest URL date wins:
+    stale URLs carry an older date, which for leagues becomes the
+    displayed date.
+
+    Args:
+        raw_dir: Directory of raw tournament JSON files.
+
+    Returns:
+        ``(path, data)`` pairs in path order. Duplicate decks are dropped
+        from ``data["decklists"]``, and files left with nothing are omitted.
+    """
+    loaded = []
+    for path in sorted(Path(raw_dir).glob("*.json")):
+        try:
+            loaded.append((path, json.loads(path.read_text())))
+        except (json.JSONDecodeError, OSError):
+            continue
+
+    newest_first = sorted(
+        loaded,
+        key=lambda item: (extract_date(item[1].get("site_name", item[0].stem)), item[0].name),
+        reverse=True,
+    )
+    seen_events: set[str] = set()
+    seen_courses: set[str] = set()
+    kept: dict[Path, dict] = {}
+    for path, data in newest_first:
+        event = (data.get("player_count") or {}).get("tournamentid")
+        if event:
+            if event in seen_events:
+                continue
+            seen_events.add(event)
+        decks = []
+        for deck in data.get("decklists", []):
+            course = (deck.get("wins") or {}).get("loginplayeventcourseid")
+            if course:
+                if course in seen_courses:
+                    continue
+                seen_courses.add(course)
+            decks.append(deck)
+        if decks:
+            kept[path] = {**data, "decklists": decks}
+    return [(path, kept[path]) for path, _ in loaded if path in kept]
+
+
 def enrich_challenge_results(tournament_data: dict) -> dict:
     """Attach win/loss record and final rank to each challenge decklist.
 
@@ -48,14 +103,14 @@ def enrich_challenge_results(tournament_data: dict) -> dict:
         return tournament_data
 
     wl_map: dict[str, dict] = {}
-    for entry in (winloss or []):
+    for entry in winloss or []:
         wl_map[str(entry["loginid"])] = {
             "wins": str(entry["wins"]),
             "losses": str(entry["losses"]),
         }
 
     rank_map: dict[str, int] = {}
-    for entry in (final_rank or []):
+    for entry in final_rank or []:
         rank_map[str(entry["loginid"])] = int(entry["rank"])
 
     for deck in tournament_data.get("decklists", []):
@@ -66,9 +121,7 @@ def enrich_challenge_results(tournament_data: dict) -> dict:
             deck["final_rank"] = rank_map[lid]
 
     if "decklists" in tournament_data:
-        tournament_data["decklists"].sort(
-            key=lambda d: d.get("final_rank", 9999)
-        )
+        tournament_data["decklists"].sort(key=lambda d: d.get("final_rank", 9999))
 
     return tournament_data
 
@@ -121,9 +174,7 @@ def minify_tournament_data(data: dict) -> dict:
 
     minified["decklists"] = decklists
     if minified["site_name"]:
-        minified["starttime"] = canonical_starttime(
-            minified["site_name"], minified["starttime"]
-        )
+        minified["starttime"] = canonical_starttime(minified["site_name"], minified["starttime"])
     return minified
 
 
@@ -145,9 +196,7 @@ def _mtgo_colors(attributes: dict) -> list[str]:
     ]
 
 
-def enrich_deck_colors(
-    tournament_data: dict, color_lookup: dict[str, list[str]]
-) -> dict:
+def enrich_deck_colors(tournament_data: dict, color_lookup: dict[str, list[str]]) -> dict:
     """Add a ``colors`` array to each decklist in a tournament.
 
     A deck's colors are the colors its main deck has to be able to produce.

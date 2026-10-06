@@ -169,6 +169,33 @@ class TestRefreshPolicy(unittest.TestCase):
             )
         )
 
+    def test_should_crawl_recent_event_without_results(self):
+        import tempfile
+        from datetime import date
+        from pathlib import Path
+
+        from src.refresh_policy import lacks_match_results, should_crawl_mtgo
+
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "event.json"
+            path.write_text(json.dumps({"decklists": [{"player": "a"}]}))
+            self.assertTrue(lacks_match_results(path))
+            path.write_text(json.dumps({"decklists": [{"player": "a", "wins": {"wins": "3"}}]}))
+            self.assertFalse(lacks_match_results(path))
+
+        for site, expected in (
+            ("pauper-challenge-32-2026-06-1812844831", True),
+            ("pauper-challenge-32-2026-05-1012842105", False),
+        ):
+            crawl = should_crawl_mtgo(
+                site,
+                exists=True,
+                stored_deck_count=32,
+                missing_results=True,
+                today=date(2026, 6, 19),
+            )
+            self.assertEqual(crawl, expected, site)
+
     def test_save_tournament_if_nonempty(self):
         import tempfile
         from pathlib import Path
@@ -252,6 +279,18 @@ class TestClassifyAndNormalize(unittest.TestCase):
             self.assertEqual(normalized, 0)
             saved = __import__("json").loads((raw / "pauper-league-test.json").read_text())
             self.assertEqual(saved["decklists"][0]["archetype"], "Mono Blue Terror")
+
+            # A stale label follows the current dictionary; an unplaceable deck keeps its own.
+            stale = dict(tournament["decklists"][0], archetype="Dimir Terror")
+            odd = {"player": "bob", "archetype": "Rogue", "main_deck": [], "sideboard_deck": []}
+            tournament["decklists"] = [stale, odd]
+            (raw / "pauper-league-test.json").write_text(__import__("json").dumps(tournament))
+            classified, _ = classify_and_normalize_labels(archetype_map, raw_dir=raw)
+            saved = __import__("json").loads((raw / "pauper-league-test.json").read_text())
+            self.assertEqual(classified, 1)
+            self.assertEqual(
+                [d["archetype"] for d in saved["decklists"]], ["Mono Blue Terror", "Rogue"]
+            )
 
 
 def _deck(*card_names):
@@ -343,7 +382,7 @@ class TestBuildSignatureMap(unittest.TestCase):
 
 
 class TestMergeArchetypeDictionaries(unittest.TestCase):
-    def test_baseline_wins_and_mined_entries_are_appended(self):
+    def test_baseline_wins_and_mined_entries_come_first(self):
         from src.classifier import merge_archetype_dictionaries
 
         baseline = {"Elves": ["Timberwatch Elf", "Priest of Titania", "Birchlore Rangers"]}
@@ -354,7 +393,7 @@ class TestMergeArchetypeDictionaries(unittest.TestCase):
         merged = merge_archetype_dictionaries(baseline, derived)
 
         self.assertEqual(merged["Elves"], baseline["Elves"])
-        self.assertEqual(list(merged), ["Elves", "Local Brew"])
+        self.assertEqual(list(merged), ["Local Brew", "Elves"])
 
     def test_rebuild_merges_baseline_with_pauperwave_data(self):
         import tempfile
@@ -382,7 +421,7 @@ class TestMergeArchetypeDictionaries(unittest.TestCase):
                 raw, baseline_path=baseline_path, output_path=out_path
             )
 
-            self.assertEqual(list(merged), ["Elves", "Local Brew"])
+            self.assertEqual(list(merged), ["Local Brew", "Elves"])
             self.assertEqual(merged["Elves"][0], "Timberwatch Elf")
             self.assertEqual(json.loads(out_path.read_text()), merged)
 
@@ -950,6 +989,107 @@ class TestDeckStats(unittest.TestCase):
             self.assertEqual(profile["stats"]["total_entries"], 2)
             self.assertFalse((out / "white-weennie.json").exists())
 
+    def test_republished_events_count_once(self):
+        import json
+        import tempfile
+        from pathlib import Path
+
+        from src.deck_stats import rebuild_deck_profiles
+        from src.player_stats import rebuild_player_profiles
+
+        def deck(player, course=None, wins="5", losses="0"):
+            record = {"wins": wins, "losses": losses}
+            if course:
+                record["loginplayeventcourseid"] = course
+            return {"player": player, "archetype": "Elves", "colors": ["G"], "wins": record}
+
+        challenge = {
+            "starttime": "2026-06-04 19:00:00.0",
+            "player_count": {"tournamentid": "12843773"},
+            "decklists": [deck("alice", wins="6", losses="2")],
+        }
+        files = {
+            "pauper-challenge-32-2026-06-0112843773": challenge,
+            "pauper-challenge-32-2026-06-0412843773": challenge,
+            "pauper-league-2019-02-089081": {"decklists": [deck("alice", "1"), deck("bob", "2")]},
+            "pauper-league-2025-05-259081": {"decklists": [deck("alice", "1")]},
+        }
+        with tempfile.TemporaryDirectory() as tmp:
+            raw = Path(tmp) / "raw"
+            raw.mkdir()
+            for name, data in files.items():
+                (raw / f"{name}.json").write_text(json.dumps({**data, "site_name": name}))
+            rebuild_deck_profiles(raw_dir=raw, profiles_dir=Path(tmp) / "decks")
+            rebuild_player_profiles(raw_dir=raw, profiles_dir=Path(tmp) / "players")
+
+            stats = json.loads((Path(tmp) / "decks" / "elves.json").read_text())["stats"]
+            self.assertEqual(stats["league_trophies"], 2)
+            self.assertEqual((stats["challenge_wins"], stats["challenge_losses"]), (6, 2))
+            alice = json.loads((Path(tmp) / "players" / "alice.json").read_text())
+            self.assertEqual(alice["stats"]["league_trophies"], 1)
+            self.assertEqual(alice["stats"]["challenge_wins"], 6)
+            league = [e for e in alice["recent_entries"] if e["type"] == "league"]
+            self.assertEqual([e["date"] for e in league], ["2025-05-25"])
+
+            from src.meta_stats import rebuild_metagame_timeline
+
+            timeline = Path(tmp) / "timeline.json"
+            rebuild_metagame_timeline(raw_dir=raw, out_path=timeline)
+            events = {e["s"]: e["c"] for e in json.loads(timeline.read_text())["events"]}
+            self.assertEqual(
+                events,
+                {
+                    "pauper-challenge-32-2026-06-0412843773": [[0, 1]],
+                    "pauper-league-2019-02-089081": [[0, 1]],
+                    "pauper-league-2025-05-259081": [[0, 1]],
+                },
+            )
+
+    def test_irl_name_resolves_to_linked_profile(self):
+        import json
+        import tempfile
+        from pathlib import Path
+        from unittest import mock
+
+        from src import player_stats
+
+        with tempfile.TemporaryDirectory() as tmp:
+            raw, out = Path(tmp) / "raw", Path(tmp) / "players"
+            raw.mkdir()
+            identities = Path(tmp) / "identities.json"
+            identities.write_text(json.dumps({"Mtgo_User": {"irl_name": "Mario Rossi"}}))
+            (raw / "pauperwave-2026-05-01-x.json").write_text(
+                json.dumps(
+                    {
+                        "site_name": "pauperwave-2026-05-01-x",
+                        "decklists": [{"player": "Mario Rossi", "final_rank": 1}],
+                    }
+                )
+            )
+            (out).mkdir()
+            (out / "gone.json").write_text("{}")
+            with mock.patch.object(player_stats, "IDENTITIES_PATH", identities):
+                player_stats.rebuild_player_profiles(raw_dir=raw, profiles_dir=out)
+            self.assertEqual(
+                sorted(p.name for p in out.iterdir()), ["mario rossi.json", "mtgo_user.json"]
+            )
+            profile = json.loads((out / "mario rossi.json").read_text())
+            self.assertEqual((profile["username"], profile["stats"]["irl_top8"]), ("mtgo_user", 1))
+
+
+class TestPauperwaveParser(unittest.TestCase):
+    def test_placements_sorted_and_empty_file(self):
+        from src.pauperwave_crawler import parse_tournament_file
+
+        def block(player, placement=""):
+            meta = f"player: {player}\n" + (f"placement: {placement}\n" if placement else "")
+            return f"::magic-decklist\n---\n{meta}---\n4 Island\n::\n"
+
+        md = "---\ntitle: x\n---\n" + block("A") + block("B", "top 8") + block("C", "winner")
+        decks = parse_tournament_file(md, "2026-05-01-x.md")["decklists"]
+        self.assertEqual([d["player"] for d in decks], ["C", "B", "A"])
+        self.assertIsNone(parse_tournament_file("---\ntitle: x\n---\nsoon", "2026-05-01-x.md"))
+
 
 class TestMetaStats(unittest.TestCase):
     """The metagame timeline must stay a faithful, compact census of raw data."""
@@ -1249,10 +1389,20 @@ class TestDerivedArtifactDeterminism(unittest.TestCase):
 
         # Both rebuilds merged into one file rather than clobbering each other.
         self.assertEqual(set(pools), {"players", "decks"})
-        # Position is the rank, so the board is an order, not a set. All three
-        # took one league trophy, so the name tie-break decides.
+        # All three took one league trophy: the name orders the list, but
+        # they share the rank.
         self.assertEqual(pools["players"]["yearly"], ["alice", "bob", "carol"])
         self.assertEqual(pools["players"]["alltime"], ["alice", "bob", "carol"])
+        self.assertEqual(pools["players"]["yearly_ranks"], [1, 1, 1])
+
+    def test_ranked_board_shares_ranks_on_ties(self):
+        from collections import Counter
+
+        from src.player_stats import ranked_board
+
+        names, ranks = ranked_board(Counter({"d": 1, "a": 5, "c": 3, "b": 3, "e": 1}))
+        self.assertEqual(names, ["a", "b", "c", "d", "e"])
+        self.assertEqual(ranks, [1, 2, 2, 4, 4])
 
     def test_metagame_timeline_ignores_file_order(self):
         from pathlib import Path

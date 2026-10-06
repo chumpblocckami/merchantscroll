@@ -41,16 +41,18 @@ For each decklist:
 4. Assign the archetype with the highest score, provided it exceeds a configurable threshold (currently ≥ 0.5)
 5. If no archetype meets the threshold, leave the deck unclassified
 
-Roughly one deck in twelve still matches two archetypes equally well, usually a popular deck against a fringe one built from a subset of the same cards. The dictionary is ordered by how often each archetype is played, and the first entry wins, so ties go to the more common deck. Both `src/classifier.py` and `classifyDeck` in `index.html` implement this identically, and a test in `tests/test_unit.py` runs the two against each other to keep them from drifting.
+Every rebuild relabels all stored MTGO decks with the current dictionary, not just unlabeled ones, because the mined part of the dictionary changes as Pauperwave publishes events. A deck the current dictionary cannot place keeps its previous label. Pauperwave decks are never relabeled: their names come from the organizers.
+
+Roughly one deck in twelve still matches two archetypes equally well, usually a popular deck against a fringe one built from a subset of the same cards. The first entry wins. Archetypes mined from Pauperwave come first, so a deck both sources describe goes to its Pauperwave name. This matters because some baseline signatures are stale or shared: Grixis Affinity lists hit all eight Rakdos Affinity signatures but only seven Grixis Affinity ones. Within each source, entries are ordered by how often the archetype is played, so other ties go to the more common deck. Both `src/classifier.py` and `classifyDeck` in `index.html` implement this identically, and a test in `tests/test_unit.py` runs the two against each other to keep them from drifting.
 
 On a 25% holdout of the Paupergeddon dataset this labels 93.7% of decks correctly, leaving 1.6% unmatched.
 
 ## Naming
 
-Archetype names follow the Paupergeddon dataset's convention: a guild or mono-colour prefix and the deck's identity, as in `Dimir Faeries`, `Mono Blue Terror`, `Grixis Affinity`. `archetypes/aliases.json` maps the older shorthand (`UB Faeries`, `U Terror`, `Affinity`) onto those names, along with typos. `normalize_archetype_labels` runs every crawl and rewrites stored labels through that map, so adding an alias is all it takes to rename an archetype everywhere, including its deck-profile slug.
+Archetype names follow the guild or mono-colour convention, as in `Dimir Faeries` or `Mono Blue Terror`. Where Pauperwave and the Paupergeddon dataset name the same deck differently, the Pauperwave name wins, so in-person and MTGO results share one deck profile: `Rakdos Burn` becomes `Rakdos Madness`, `Grixis Affinity` becomes `Affinity`, and `Blue Turbofog` becomes `Simic Fog`. `archetypes/aliases.json` maps those Paupergeddon names, the older shorthand (`UB Faeries`, `U Terror`), and typos onto the canonical names. Without those aliases, both dictionary entries survive the merge, and a deck that matches both equally goes to whichever comes first, which is always the Paupergeddon one. `normalize_archetype_labels` runs every crawl and rewrites stored labels through that map, so adding an alias is all it takes to rename an archetype everywhere, including its deck-profile slug.
 
 ## Open Questions
 
 - **How to handle overlapping signatures?** Some cards appear in multiple archetypes (e.g., "Counterspell" in both Faeries and Terror). Distinctiveness weighting handles most of this by pushing shared cards out of the signature lists, and prevalence ordering settles what is left
 - **Should it support color-gated matching?** e.g., only consider "Bogles" if the deck's color identity includes W and G. This would reduce false positives but adds complexity to the dictionary format
-- **Should generic labels be split?** `Affinity` covers 1,016 stored decks that are about evenly Rakdos and Grixis. Splitting them means reclassifying decks that already carry a label, which the pipeline deliberately does not do
+- **Where is the classifier still wrong?** Organizers use both names in each of these pairs, so an alias would be wrong; they need better signature cards: `Pingers` vs `Mono Red Burn`, `Food Pestilence` vs `Gardens`, `Dimir Terror` vs `Mono Blue Terror`

@@ -4,33 +4,47 @@ from __future__ import annotations
 
 import json
 from collections import Counter
+from datetime import datetime
 from pathlib import Path
 
 from .classifier import canonical_archetype
 from .saver import write_json
-from .utils import canonical_starttime
+from .utils import canonical_starttime, load_unique_tournaments
 
 RAW_DIR = Path("assets/pauper/raw")
 PROFILES_DIR = Path("assets/pauper/players")
 IDENTITIES_PATH = Path("players/identities.json")
 POOLS_NAME = "pools.json"
 
-CURRENT_YEAR = "2026"
+CURRENT_YEAR = str(datetime.now().year)
 
 
-def ranked_names(counts: Counter[str]) -> list[str]:
-    """Order names by trophy count descending, ties broken by name."""
-    return [name for name, _ in sorted(counts.items(), key=lambda item: (-item[1], item[0]))]
+def ranked_board(counts: Counter[str]) -> tuple[list[str], list[int]]:
+    """Order names by trophy count descending and rank ties alike.
+
+    Args:
+        counts: Trophies per name.
+
+    Returns:
+        Names ordered by count then name, and each name's rank: one plus the
+        number of names with strictly more trophies, so equal counts share it.
+    """
+    ordered = sorted(counts.items(), key=lambda item: (-item[1], item[0]))
+    ranks: list[int] = []
+    for i, (_, count) in enumerate(ordered):
+        ranks.append(ranks[-1] if i and count == ordered[i - 1][1] else i + 1)
+    return [name for name, _ in ordered], ranks
 
 
 def update_pools(
-    profiles_dir: Path, group: str, *, yearly: list[str], alltime: list[str]
+    profiles_dir: Path, group: str, *, yearly: Counter[str], alltime: Counter[str]
 ) -> None:
     """Merge one group's trophy leaderboards into the shared pools file.
 
-    The lists are ordered by rank, so a name's position in one gives its rank
-    and the list's length gives the pool size. Storing both per profile instead
-    meant three players earning a trophy rewrote all 3289 files, 3262 of them
+    Each board is a name list ordered by rank plus a parallel ``*_ranks`` list,
+    because most of a board is ties and a name's position alone would rank
+    equal counts apart. The list's length gives the pool size. Storing ranks
+    per profile instead meant three players earning a trophy rewrote all 3289 files, 3262 of them
     only to restate a rank or a pool size that had shifted underneath them.
 
     The file sits beside the profile directories it describes, so a rebuild
@@ -45,7 +59,10 @@ def update_pools(
             pools = json.loads(path.read_text())
         except json.JSONDecodeError:
             pools = {}
-    pools[group] = {"yearly": yearly, "alltime": alltime}
+    board: dict[str, list] = {}
+    for scope, counts in (("yearly", yearly), ("alltime", alltime)):
+        board[scope], board[f"{scope}_ranks"] = ranked_board(counts)
+    pools[group] = board
     write_json(path, dict(sorted(pools.items())))
 
 
@@ -119,18 +136,11 @@ def rebuild_player_profiles(
 
     # Sorted, not raw directory order: display names and any tie broken by
     # insertion order would otherwise differ from machine to machine.
-    for path in sorted(raw_dir.glob("*.json")):
-        try:
-            data = json.loads(path.read_text())
-        except (json.JSONDecodeError, OSError):
-            continue
-
+    for path, data in load_unique_tournaments(raw_dir):
         site_name = data.get("site_name", path.stem)
         tournament_type = _tournament_type(site_name)
         tournament_name = data.get("description", site_name)
-        date = canonical_starttime(
-            site_name, data.get("starttime", "")
-        )[:10]
+        date = canonical_starttime(site_name, data.get("starttime", ""))[:10]
         year = date[:4] if len(date) >= 4 else ""
         source = data.get("source", "pauperwave" if site_name.startswith("pauperwave-") else "mtgo")
 
@@ -187,36 +197,43 @@ def rebuild_player_profiles(
                     stats["irl_top8"] += 1
 
             raw_archetype = deck.get("archetype")
-            archetype = canonical_archetype(raw_archetype) if raw_archetype else _color_label(deck.get("colors"))
+            archetype = (
+                canonical_archetype(raw_archetype)
+                if raw_archetype
+                else _color_label(deck.get("colors"))
+            )
             profile["favorite_decks"][archetype] += 1
 
             record = ""
             if wins and "wins" in wins and "losses" in wins:
                 record = f"{wins['wins']}-{wins['losses']}"
 
-            profile["recent_entries"].append({
-                "site_name": site_name,
-                "tournament": tournament_name,
-                "date": date,
-                "player": player,
-                "archetype": deck.get("archetype") or "",
-                "colors": deck.get("colors") or [],
-                "record": record,
-                "final_rank": deck.get("final_rank"),
-                "source": source,
-                "type": tournament_type,
-            })
+            profile["recent_entries"].append(
+                {
+                    "site_name": site_name,
+                    "tournament": tournament_name,
+                    "date": date,
+                    "player": player,
+                    "archetype": deck.get("archetype") or "",
+                    "colors": deck.get("colors") or [],
+                    "record": record,
+                    "final_rank": deck.get("final_rank"),
+                    "source": source,
+                    "type": tournament_type,
+                }
+            )
 
     update_pools(
         profiles_dir,
         "players",
-        yearly=ranked_names(trophy_counts_yearly),
-        alltime=ranked_names(trophy_counts_alltime),
+        yearly=trophy_counts_yearly,
+        alltime=trophy_counts_alltime,
     )
 
     profiles_dir.mkdir(parents=True, exist_ok=True)
 
     written = 0
+    filenames: set[str] = set()
     for username, profile in profiles.items():
         stats = profile["stats"]
         cw = stats["challenge_wins"]
@@ -242,12 +259,15 @@ def rebuild_player_profiles(
         profile["recent_entries"].sort(key=lambda e: e["date"], reverse=True)
         profile["recent_entries"] = profile["recent_entries"][:25]
 
-        out_path = profiles_dir / f"{username}.json"
-        write_json(out_path, profile)
+        # The frontend fetches by the name printed on the deck, so a Pauperwave
+        # entry under an IRL name needs a file under that name as well.
+        for key in _identity_keys(username, identities):
+            write_json(profiles_dir / f"{key}.json", profile)
+            filenames.add(key)
         written += 1
 
     for path in profiles_dir.glob("*.json"):
-        if path.stem not in profiles:
+        if path.stem not in filenames:
             path.unlink()
 
     print(f"Player profiles updated: {written} players.")

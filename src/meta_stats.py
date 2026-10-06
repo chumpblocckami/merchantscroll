@@ -7,7 +7,6 @@ tournament tree to compute archetype shares.
 
 from __future__ import annotations
 
-import json
 from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
@@ -16,7 +15,7 @@ from .classifier import canonical_archetype
 from .deck_stats import archetype_slug
 from .player_stats import _tournament_type
 from .saver import write_json
-from .utils import canonical_starttime
+from .utils import canonical_starttime, load_unique_tournaments
 
 RAW_DIR = Path("assets/pauper/raw")
 TIMELINE_PATH = Path("assets/pauper/meta/timeline.json")
@@ -60,16 +59,8 @@ def rebuild_metagame_timeline(
     archetype_ids: dict[str, int] = {}
     events: list[dict] = []
 
-    for path in sorted(raw_dir.glob("*.json")):
-        try:
-            data = json.loads(path.read_text())
-        except (json.JSONDecodeError, OSError):
-            continue
-
-        decklists = data.get("decklists", [])
-        if not decklists:
-            continue
-
+    for path, data in load_unique_tournaments(raw_dir):
+        decklists = data["decklists"]
         site_name = data.get("site_name", path.stem)
         counts: Counter[int] = Counter()
         for deck in decklists:
@@ -78,13 +69,15 @@ def rebuild_metagame_timeline(
                 archetype_ids[archetype] = len(archetype_ids)
             counts[archetype_ids[archetype]] += 1
 
-        events.append({
-            "s": path.stem,
-            "d": canonical_starttime(site_name, data.get("starttime", ""))[:10],
-            "t": _tournament_type(site_name),
-            "n": data.get("description", site_name),
-            "c": sorted(counts.items(), key=lambda item: (-item[1], item[0])),
-        })
+        events.append(
+            {
+                "s": path.stem,
+                "d": canonical_starttime(site_name, data.get("starttime", ""))[:10],
+                "t": _tournament_type(site_name),
+                "n": data.get("description", site_name),
+                "c": sorted(counts.items(), key=lambda item: (-item[1], item[0])),
+            }
+        )
 
     # Date alone is not a total order: a whole league week shares one. Two
     # stable passes so the tie breaks ascending while the date stays

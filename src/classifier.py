@@ -195,17 +195,20 @@ def merge_archetype_dictionaries(
     baseline: dict[str, list[str]],
     derived: dict[str, list[str]],
 ) -> dict[str, list[str]]:
-    """Merge mined signatures under a baseline, keeping baseline entries intact.
+    """Merge mined signatures with a baseline, keeping baseline entries intact.
 
     The Paupergeddon baseline rests on far more decks per archetype than the
     Pauperwave sample, so it wins wherever both name the same archetype; the
-    mined map only contributes archetypes the baseline has never seen.  Those
-    additions land after the baseline entries, which keeps the widely played
-    archetypes ahead of the local ones in tie-break order.
+    mined map only contributes archetypes the baseline has never seen.
+
+    Those additions come first, so they win ties. A mined entry is usually the
+    Pauperwave name for a deck the baseline also has, mined from the current
+    metagame: Grixis Affinity lists hit all eight Rakdos Affinity signatures
+    but only seven of the baseline's Grixis Affinity ones, and only the mined
+    Affinity entry, listed first, keeps them out of Rakdos Affinity.
     """
-    merged = dict(baseline)
-    for archetype, signatures in derived.items():
-        merged.setdefault(archetype, signatures)
+    merged = {name: sigs for name, sigs in derived.items() if name not in baseline}
+    merged.update(baseline)
     return merged
 
 
@@ -292,11 +295,24 @@ def rebuild_archetype_dictionary(
     return dictionary
 
 
-def classify_unlabeled_mtgo_decks(
+def classify_mtgo_decks(
     archetype_map: dict[str, list[str]],
     raw_dir: Path = RAW_DIR,
 ) -> int:
-    """Classify MTGO decklists missing an archetype label. Returns decks updated."""
+    """Label every MTGO decklist with the current dictionary.
+
+    The dictionary is re-mined from Pauperwave data on every crawl, so keeping
+    the label from the crawl that first saw a deck would classify each event by
+    a different rule set. A deck the current dictionary cannot place keeps its
+    previous label rather than losing it.
+
+    Args:
+        archetype_map: Archetype name to signature cards.
+        raw_dir: Directory of raw tournament JSON files.
+
+    Returns:
+        Number of decks whose label was set or changed.
+    """
     if not archetype_map:
         return 0
 
@@ -309,10 +325,8 @@ def classify_unlabeled_mtgo_decks(
 
         changed = False
         for deck in data.get("decklists", []):
-            if deck.get("archetype"):
-                continue
-            label = classify_deck(deck, archetype_map)
-            if label:
+            label = classify_deck({"main_deck": deck.get("main_deck", [])}, archetype_map)
+            if label and label != deck.get("archetype"):
                 deck["archetype"] = label
                 updated += 1
                 changed = True
@@ -327,12 +341,12 @@ def classify_and_normalize_labels(
     archetype_map: dict[str, list[str]] | None = None,
     raw_dir: Path = RAW_DIR,
 ) -> tuple[int, int]:
-    """Classify unlabeled MTGO decks and normalize archetype aliases.
+    """Relabel MTGO decks with the current dictionary and normalize aliases.
 
     Returns ``(classified_count, normalized_count)``.
     """
     archetype_map = archetype_map or load_archetype_dictionary()
-    classified = classify_unlabeled_mtgo_decks(archetype_map, raw_dir=raw_dir)
+    classified = classify_mtgo_decks(archetype_map, raw_dir=raw_dir)
     normalized = normalize_archetype_labels(raw_dir=raw_dir)
     return classified, normalized
 

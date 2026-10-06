@@ -15,14 +15,8 @@ import yaml
 
 from .constants.crawler import HEADERS, TIMEOUT
 
-GITHUB_API_BASE = (
-    "https://api.github.com/repos/Pauperwave/blog/contents/"
-    "content/blog/decklists"
-)
-RAW_BASE = (
-    "https://raw.githubusercontent.com/Pauperwave/blog/main/"
-    "content/blog/decklists"
-)
+GITHUB_API_BASE = "https://api.github.com/repos/Pauperwave/blog/contents/content/blog/decklists"
+RAW_BASE = "https://raw.githubusercontent.com/Pauperwave/blog/main/content/blog/decklists"
 
 PLACEMENT_RANK = {
     "winner": 1,
@@ -151,7 +145,7 @@ def _parse_frontmatter(text: str) -> tuple[dict, str]:
         return {}, text
 
     fm_text = text[3:end].strip()
-    body = text[end + 3 :].strip()
+    body = text[end + 3 :].strip()  # noqa: E203
     try:
         fm = yaml.safe_load(fm_text)
     except yaml.YAMLError:
@@ -174,7 +168,7 @@ def _parse_decklist_block(block: str) -> ParsedDecklist:
             result.player = meta.get("player", "")
             result.placement = meta.get("placement", "")
             result.header_gradient = meta.get("headerGradient", "")
-        block = block[yaml_match.end() :].strip()
+        block = block[yaml_match.end() :].strip()  # noqa: E203
 
     current_type = "INSTNT"
     in_sideboard = False
@@ -294,8 +288,7 @@ def parse_tournament_file(
 
         decklists.append(deck)
 
-    if rank is not None:
-        decklists.sort(key=lambda d: d.get("final_rank", 9999))
+    decklists.sort(key=lambda d: d.get("final_rank", 9999))
 
     if not decklists:
         return None

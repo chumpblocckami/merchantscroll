@@ -30,6 +30,7 @@ from .pauperwave_crawler import (
 )
 from .player_stats import rebuild_player_profiles
 from .refresh_policy import (
+    lacks_match_results,
     prune_empty_raw_files,
     save_tournament_if_nonempty,
     should_crawl_mtgo,
@@ -43,7 +44,7 @@ from .scryfall import (
     download_default_cards,
     download_oracle_cards,
 )
-from .utils import canonical_starttime, extract_date
+from .utils import canonical_starttime, extract_date, load_unique_tournaments
 
 RAW_DIR = Path("assets/pauper/raw")
 INDEX_PATH = Path("assets/pauper/index.json")
@@ -88,6 +89,8 @@ def crawl_new_tournaments(
             site_name,
             exists=site_name in existing,
             stored_deck_count=counts.get(site_name),
+            missing_results=site_name in existing
+            and lacks_match_results(RAW_DIR / f"{site_name}.json"),
             today=today,
         ):
             to_crawl.append((url, site_name))
@@ -239,14 +242,8 @@ def rebuild_index() -> bool:
     prune_empty_raw_files(RAW_DIR)
 
     index = []
-    for path in sorted(RAW_DIR.glob("*.json")):
-        try:
-            data = json.loads(path.read_text())
-        except (json.JSONDecodeError, OSError):
-            continue
-        deck_count = len(data.get("decklists", []))
-        if deck_count == 0:
-            continue
+    for path, data in load_unique_tournaments(RAW_DIR):
+        deck_count = len(data["decklists"])
         site_name = data.get("site_name", path.stem)
         index.append(
             {
@@ -352,7 +349,7 @@ def rebuild_derived_artifacts(
     Runs in a fixed order so naming is stable before profile aggregation:
 
     1. Rebuild archetype dictionary from labeled Pauperwave decks
-    2. Classify unlabeled MTGO decks and normalize aliases
+    2. Relabel MTGO decks with the current dictionary and normalize aliases
     3. Rebuild the tournament index
     4. Rebuild player and deck (meta) profiles
     5. Rebuild the metagame timeline

@@ -65,14 +65,40 @@ def empty_stored_site_names(raw_dir: Path) -> set[str]:
     return {name for name, count in stored_deck_counts(raw_dir).items() if count == 0}
 
 
+def lacks_match_results(path: Path) -> bool:
+    """Return whether a stored event has decklists but no win/loss records yet.
+
+    MTGO can publish a Challenge's decklists before its standings, and a page
+    saved in that window keeps every deck at no record.
+    """
+    try:
+        decks = json.loads(path.read_text()).get("decklists", [])
+    except (json.JSONDecodeError, OSError):
+        return False
+    return bool(decks) and not any(deck.get("wins") for deck in decks)
+
+
 def should_crawl_mtgo(
     site_name: str,
     *,
     exists: bool,
     stored_deck_count: int | None,
+    missing_results: bool = False,
     today: date | None = None,
 ) -> bool:
-    """Return whether an MTGO tournament URL should be fetched this run."""
+    """Return whether an MTGO tournament URL should be fetched this run.
+
+    Args:
+        site_name: Tournament slug from the URL.
+        exists: Whether a raw file is already stored for it.
+        stored_deck_count: Decklists in the stored file, if any.
+        missing_results: Whether the stored decks carry no match records.
+        today: Reference date, defaulting to the local date.
+
+    Returns:
+        True for new events, today's events, active leagues, and recent events
+        stored empty or without results.
+    """
     if not exists:
         return True
 
@@ -81,7 +107,7 @@ def should_crawl_mtgo(
         return True
     if is_active_league(site_name, today=today):
         return True
-    if stored_deck_count == 0 and is_recent_event(site_name, today=today):
+    if (stored_deck_count == 0 or missing_results) and is_recent_event(site_name, today=today):
         return True
     return False
 

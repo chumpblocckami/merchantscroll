@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-import json
 import re
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -13,11 +12,10 @@ from .player_stats import (
     _color_label,
     _is_league_trophy,
     _tournament_type,
-    ranked_names,
     update_pools,
 )
 from .saver import write_json
-from .utils import canonical_starttime
+from .utils import canonical_starttime, load_unique_tournaments
 
 RAW_DIR = Path("assets/pauper/raw")
 PROFILES_DIR = Path("assets/pauper/decks")
@@ -48,12 +46,7 @@ def rebuild_deck_profiles(
 
     # Sorted, not raw directory order: anything below that breaks a tie by
     # insertion order would otherwise differ from machine to machine.
-    for path in sorted(raw_dir.glob("*.json")):
-        try:
-            data = json.loads(path.read_text())
-        except (json.JSONDecodeError, OSError):
-            continue
-
+    for path, data in load_unique_tournaments(raw_dir):
         site_name = data.get("site_name", path.stem)
         tournament_type = _tournament_type(site_name)
         tournament_name = data.get("description", site_name)
@@ -124,23 +117,25 @@ def rebuild_deck_profiles(
             if wins and "wins" in wins and "losses" in wins:
                 record = f"{wins['wins']}-{wins['losses']}"
 
-            profile["recent_entries"].append({
-                "site_name": site_name,
-                "tournament": tournament_name,
-                "date": date,
-                "player": player,
-                "colors": deck.get("colors") or [],
-                "record": record,
-                "final_rank": deck.get("final_rank"),
-                "source": source,
-                "type": tournament_type,
-            })
+            profile["recent_entries"].append(
+                {
+                    "site_name": site_name,
+                    "tournament": tournament_name,
+                    "date": date,
+                    "player": player,
+                    "colors": deck.get("colors") or [],
+                    "record": record,
+                    "final_rank": deck.get("final_rank"),
+                    "source": source,
+                    "type": tournament_type,
+                }
+            )
 
     update_pools(
         profiles_dir,
         "decks",
-        yearly=ranked_names(trophy_counts_yearly),
-        alltime=ranked_names(trophy_counts_alltime),
+        yearly=trophy_counts_yearly,
+        alltime=trophy_counts_alltime,
     )
 
     profiles_dir.mkdir(parents=True, exist_ok=True)
@@ -173,11 +168,13 @@ def rebuild_deck_profiles(
 
         out_path = profiles_dir / f"{slug}.json"
         write_json(out_path, profile)
-        index.append({
-            "slug": slug,
-            "archetype": profile["archetype"],
-            "entries": stats["total_entries"],
-        })
+        index.append(
+            {
+                "slug": slug,
+                "archetype": profile["archetype"],
+                "entries": stats["total_entries"],
+            }
+        )
         written += 1
 
     for path in profiles_dir.glob("*.json"):

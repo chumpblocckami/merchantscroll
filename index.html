@@ -705,8 +705,13 @@
       const yearlyBoard = board.yearly || [];
       const alltimeBoard = board.alltime || [];
 
-      // indexOf gives 0 for an unranked name, which the guards already reject.
-      const yrRank = yearlyBoard.indexOf(rankKey) + 1;
+      // Tied counts share a rank; position is only the fallback for an older
+      // pools.json. A missing name gives 0, which the guards below reject.
+      const rankOf = (names, ranks) => {
+        const i = names.indexOf(rankKey);
+        return i < 0 ? 0 : (ranks?.[i] ?? i + 1);
+      };
+      const yrRank = rankOf(yearlyBoard, board.yearly_ranks);
       const yrPool = yearlyBoard.length;
       if (yrRank && yrPool) {
         appendRankBlock(
@@ -716,7 +721,7 @@
         );
       }
 
-      const atRank = alltimeBoard.indexOf(rankKey) + 1;
+      const atRank = rankOf(alltimeBoard, board.alltime_ranks);
       const atPool = alltimeBoard.length;
       if (atRank && atPool) {
         appendRankBlock(
