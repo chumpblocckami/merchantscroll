@@ -23,8 +23,8 @@ Steps, in order:
 
 | Step | What it does |
 |------|--------------|
-| Checkout code | `actions/checkout@v4` |
-| Install uv | `astral-sh/setup-uv@v5`, with caching enabled |
+| Checkout code | `actions/checkout@v7` |
+| Install uv | `astral-sh/setup-uv@v10.3.0`, with caching enabled |
 | Set up Python | `uv python install 3.10` |
 | Install dependencies | `uv sync` |
 | Run crawl pipeline | `uv run python crawl.py` (`--build-only` on pushes): pull the dataset, crawl, rebuild, push changed files back to the dataset |
@@ -130,11 +130,6 @@ Fix by regenerating the secret. To check whether it is happening:
 ```bash
 gh run view <run-id> --log | grep "rejected the token"
 ```
-
-**Node 20 deprecation warnings.** `actions/checkout@v4` and
-`astral-sh/setup-uv@v5` target Node 20, which GitHub has deprecated and now
-force-runs on Node 24. Harmless today; clears by bumping to `checkout@v5` and
-`setup-uv@v6`.
 
 ## Running the Pipeline Locally
 
