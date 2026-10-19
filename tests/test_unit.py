@@ -227,6 +227,12 @@ class TestRefreshPolicy(unittest.TestCase):
             self.assertEqual(count, 1)
             self.assertTrue((raw / f"{site}.json").exists())
 
+            # mtgo.com's stub page must not wipe a tournament that has decks.
+            changed, count = save_tournament_if_nonempty(raw, site, empty)
+            self.assertFalse(changed)
+            self.assertEqual(count, 0)
+            self.assertEqual(json.loads((raw / f"{site}.json").read_text()), full)
+
 
 class TestClassifyAndNormalize(unittest.TestCase):
     def test_classify_unlabeled_mtgo_deck(self):

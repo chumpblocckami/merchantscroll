@@ -132,6 +132,8 @@ def save_tournament_if_nonempty(
     """Persist tournament data only when decklists are present.
 
     Removes a stale empty placeholder file when a re-crawl is still empty.
+    An empty re-crawl of a file that has decks is mtgo.com's stub page, not
+    a retraction, so the stored decks are kept.
     Returns ``(changed, deck_count)``.
     """
     deck_count = len(data.get("decklists", []))
@@ -140,6 +142,13 @@ def save_tournament_if_nonempty(
 
     if deck_count == 0:
         if out_path.exists():
+            try:
+                stored = len(json.loads(out_path.read_text()).get("decklists", []))
+            except (json.JSONDecodeError, OSError):
+                stored = 0
+            if stored:
+                print(f"  Kept {stored} stored decks (re-crawl came back empty).")
+                return False, 0
             out_path.unlink()
             print(f"  Removed empty placeholder ({site_name}).")
             return True, 0
