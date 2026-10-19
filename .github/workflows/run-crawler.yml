@@ -2,21 +2,27 @@ name: Hedron Crawler
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
   schedule:
     # Offset from :00 — GitHub delays workflows that pile up on the hour.
     - cron: '7,22,37,52 * * * *'
 
 concurrency:
   group: hedron-crawler
-  cancel-in-progress: true
+  # A run cancelled between the Hugging Face push and the deploy would leave
+  # the site stale, since the next run sees no change and skips deploying.
+  cancel-in-progress: false
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  run-script:
+  crawl:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    outputs:
+      deploy: ${{ steps.crawl.outputs.deploy }}
 
     steps:
       - name: Checkout code
@@ -33,28 +39,38 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
-      - name: Set git identity
-        env:
-          USER: ${{ secrets.USER }}
-          MAIL: ${{ secrets.MAIL }}
-        run: |
-          git config --global user.name "${USER}"
-          git config --global user.email "${MAIL}"
-
       - name: Run crawl pipeline
+        id: crawl
         env:
           TOKEN: ${{ secrets.TOKEN }}
           GITHUB_TOKEN: ${{ github.token }}
-        run: uv run python crawl.py
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: uv run python crawl.py ${{ github.event_name == 'push' && '--build-only' || '' }}
 
-      - name: Commit and push crawl artifacts
-        if: always()
-        run: |
-          git add assets/ archetypes/ info.json
-          if git diff --cached --quiet; then
-            echo "No crawl changes to commit."
-          else
-            git commit -m "Crawler: update tournament data"
-            git pull --rebase origin main
-            git push origin main
-          fi
+      # crawl.py sets the output only after the data was pulled and rebuilt, so
+      # a crawl that later exits non-zero still ships, but a failed pull never
+      # deploys an empty site.
+      - name: Stage site
+        if: ${{ !cancelled() && steps.crawl.outputs.deploy == 'true' }}
+        run: rsync -a --exclude='.*' --exclude=_site ./ _site/
+
+      - name: Upload site
+        if: ${{ !cancelled() && steps.crawl.outputs.deploy == 'true' }}
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+  deploy:
+    needs: crawl
+    if: ${{ !cancelled() && needs.crawl.outputs.deploy == 'true' }}
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

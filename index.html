@@ -2583,7 +2583,7 @@
 
     init();
 
-    fetch("info.json")
+    fetch("assets/pauper/info.json")
       .then(r => r.ok ? r.json() : Promise.reject())
       .then(d => $("info").textContent = d.last_update ? `Last update: ${d.last_update}` : "")
       .catch(() => $("info").textContent = "");

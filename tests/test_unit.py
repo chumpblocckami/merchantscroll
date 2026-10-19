@@ -1678,5 +1678,36 @@ class TestMtgoDiscovery(unittest.TestCase):
             crawl_tournaments(attempts=3)
 
 
+class TestHubSync(unittest.TestCase):
+    """Only files the run touched are committed to the Hugging Face dataset."""
+
+    def test_diff_reports_new_changed_and_deleted_synced_files(self):
+        import tempfile
+        from pathlib import Path
+
+        from src.hub import diff, fingerprint
+
+        with tempfile.TemporaryDirectory() as tmp:
+            data = Path(tmp)
+            (data / "raw").mkdir()
+            (data / "raw/kept.json").write_text("{}")
+            (data / "raw/edited.json").write_text("{}")
+            (data / "raw/pruned.json").write_text("{}")
+            (data / "players").mkdir()
+            (data / "players/derived.json").write_text("{}")
+            before = fingerprint(data)
+            self.assertNotIn("players/derived.json", before)
+
+            (data / "raw/edited.json").write_text('{"decklists": []}')
+            (data / "raw/pruned.json").unlink()
+            (data / "raw/new.json").write_text("{}")
+            (data / "info.json").write_text("{}")
+
+            upserts, deletes = diff(before, fingerprint(data))
+            self.assertEqual(upserts, ["info.json", "raw/edited.json", "raw/new.json"])
+            self.assertEqual(deletes, ["raw/pruned.json"])
+            self.assertEqual(diff(before, before), ([], []))
+
+
 if __name__ == "__main__":
     unittest.main()

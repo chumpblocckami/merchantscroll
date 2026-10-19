@@ -6,3 +6,14 @@ tests/screenshots/mobile/*.png
 
 # Local secrets - never commit
 .env
+
+# Crawled data lives on Hugging Face (src/hub.py); the rest is rebuilt from it.
+assets/pauper/raw/
+assets/pauper/players/
+assets/pauper/decks/
+assets/pauper/meta/
+assets/pauper/index.json
+assets/pauper/pools.json
+assets/pauper/card-art.json
+assets/pauper/info.json
+_site/

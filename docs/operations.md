@@ -10,8 +10,14 @@ Crawler**. It is scheduled four times an hour (`cron: '7,22,37,52 * * * *'`,
 offset from `:00` because GitHub delays jobs that pile up on the hour) and
 can also be triggered by hand via `workflow_dispatch`. GitHub may still skip
 or delay scheduled runs on public repositories; the extra ticks are there so
-a missed slot does not mean a missed afternoon. It needs `contents: write`
-because the last step pushes the crawl results back to `main`.
+a missed slot does not mean a missed afternoon. It also runs on every push
+to `main`, to redeploy the site with the new code.
+
+The crawler writes nothing to git. Tournament data lives in the
+[`vedalken/merchantscroll`](https://huggingface.co/datasets/vedalken/merchantscroll)
+Hugging Face dataset (`src/hub.py`, card in `docs/huggingface-dataset.md`);
+player, deck and metagame profiles are rebuilt from it on each deploy, and the
+site is published as a Pages artifact.
 
 Steps, in order:
 
@@ -21,25 +27,25 @@ Steps, in order:
 | Install uv | `astral-sh/setup-uv@v5`, with caching enabled |
 | Set up Python | `uv python install 3.10` |
 | Install dependencies | `uv sync` |
-| Set git identity | `git config` from the `USER` and `MAIL` secrets |
-| Run crawl pipeline | `uv run python crawl.py` |
-| Commit and push crawl artifacts | `git add assets/ archetypes/ info.json`, commit, rebase, push |
+| Run crawl pipeline | `uv run python crawl.py` (`--build-only` on pushes): pull the dataset, crawl, rebuild, push changed files back to the dataset |
+| Stage site / Upload site | copy the checkout minus dotfiles into `_site`, upload it as the Pages artifact |
+| Deploy (second job) | `actions/deploy-pages` |
 
-The commit step is marked `if: always()`, so **a failed crawl still commits and
-pushes whatever it managed to collect**. A red X does not mean data was lost.
+Scheduled runs deploy only when the crawl changed the dataset; pushes and
+manual runs always deploy. `crawl.py` sets the `deploy` output after the data
+is pushed, so **a crawl that fails afterwards still ships what it collected**,
+while a failed dataset pull deploys nothing. MTGO timeouts are retried, logged,
+and left green so a busier schedule does not flood Action failure emails.
+Unexpected errors still fail the job.
 
-Pushing to `main` triggers the separate `pages-build-deployment` workflow.
-A crawl that finds nothing does not commit, so Pages only runs when data
-actually changed. MTGO timeouts are retried, logged, and left green so a
-busier schedule does not flood Action failure emails. Unexpected errors
-still fail the job.
+If a deploy fails after the dataset was updated, the next scheduled run sees
+no change and will not redeploy: trigger the workflow by hand.
 
 ### Secrets
 
 | Secret | Used for |
 |--------|----------|
-| `USER` | git `user.name` on the commit |
-| `MAIL` | git `user.email` on the commit |
+| `HF_TOKEN` | Write access to the Hugging Face dataset |
 | `TOKEN` | Authenticating the GitHub API listing in the Pauperwave crawler |
 
 `GITHUB_TOKEN` is also passed to the crawl step as `${{ github.token }}` and
@@ -125,17 +131,6 @@ Fix by regenerating the secret. To check whether it is happening:
 gh run view <run-id> --log | grep "rejected the token"
 ```
 
-**A crawl commit touching hundreds of profile files.** Derived artifacts —
-`assets/pauper/index.json`, `pools.json`, the per-player and per-archetype
-profiles, and `meta/timeline.json` — are deterministic: rebuilding them from
-unchanged raw data must produce byte-identical files. If a commit rewrites
-hundreds of profiles while adding one tournament, something has started leaking
-iteration order into output. The usual causes are reading `Path.glob` without
-sorting it (directory order differs between machines) and sorting by a key that
-is not a total order, such as `date` alone when a whole league week shares one.
-`TestDerivedArtifactDeterminism` in `tests/test_unit.py` guards this by
-rebuilding under a reversed file order and comparing the results.
-
 **Node 20 deprecation warnings.** `actions/checkout@v4` and
 `astral-sh/setup-uv@v5` target Node 20, which GitHub has deprecated and now
 force-runs on Node 24. Harmless today; clears by bumping to `checkout@v5` and
@@ -144,9 +139,13 @@ force-runs on Node 24. Harmless today; clears by bumping to `checkout@v5` and
 ## Running the Pipeline Locally
 
 ```bash
-uv run crawl.py
-uv run crawl.py --refresh-scryfall   # force re-download of Scryfall oracle data
+uv run python -m src.hub pull       # only download the dataset into assets/pauper
+uv run crawl.py                     # pull, crawl, rebuild
+uv run crawl.py --build-only        # pull and rebuild the derived files
+uv run crawl.py --refresh-scryfall  # force re-download of Scryfall oracle data
 ```
 
-Set `TOKEN` in the environment to authenticate the Pauperwave listing. The
+`crawl.py` pushes changed files to the dataset only when `HF_TOKEN` is set;
+without it, local crawls stay local. Set `TOKEN` in the environment to
+authenticate the Pauperwave listing. The
 Scryfall bulk download is cached under `.cache/oracle-cards.jsonl.gz`.

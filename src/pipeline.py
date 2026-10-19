@@ -48,7 +48,7 @@ from .utils import canonical_starttime, extract_date, load_unique_tournaments
 
 RAW_DIR = Path("assets/pauper/raw")
 INDEX_PATH = Path("assets/pauper/index.json")
-INFO_PATH = Path("info.json")
+INFO_PATH = Path("assets/pauper/info.json")
 CARD_ART_PATH = Path("assets/pauper/card-art.json")
 CARD_ART_UNRESOLVED = "_unresolved"
 
