@@ -1792,9 +1792,11 @@
     }
 
     async function copyDecklistText(text) {
-      if (navigator.clipboard?.writeText) {
+      try {
         await navigator.clipboard.writeText(text);
         return true;
+      } catch (_) {
+        // Missing on insecure origins, or permission denied; try the legacy path.
       }
       const area = document.createElement("textarea");
       area.value = text;
@@ -1833,7 +1835,7 @@
     }
 
     function triggerBlobDownload(text, filename) {
-      const blob = new Blob([text], { type: "text/plain;charset=utf-8" });
+      const blob = text instanceof Blob ? text : new Blob([text], { type: "text/plain;charset=utf-8" });
       const url = URL.createObjectURL(blob);
       const a = document.createElement("a");
       a.href = url;
@@ -1873,6 +1875,163 @@
       }
 
       triggerBlobDownload(text, filename);
+    }
+
+    /* ── Share ── */
+    function deckShareUrl(entry) {
+      const url = new URL(location.pathname, location.origin);
+      url.searchParams.set("site", entry.siteName);
+      url.searchParams.set("player", entry.player);
+      return url.href;
+    }
+
+    // Synchronous on purpose: iOS Safari rejects navigator.share once the tap
+    // handler has awaited anything, so the PNG must exist before it is called.
+    function renderShareImage(entry) {
+      const deck = entry.decklist;
+      const css = getComputedStyle(document.documentElement);
+      const v = (name, fallback) => css.getPropertyValue(name).trim() || fallback;
+      const bg = v("--bg", "#0f0f0f");
+      const text = v("--text-1", "#f0f0f0");
+      const muted = v("--text-muted", "#bbb");
+      const faint = v("--text-faint", "#8f8f8f");
+      const accent = v("--accent", "#4a9eff");
+      const rule = v("--record-bg", "#2a2a2a");
+      const pipBorder = v("--pip-border", "rgba(255, 255, 255, 0.1)");
+      const font = getComputedStyle(document.body).fontFamily;
+
+      const W = 1080, PAD = 64, GAP = 56, ROW = 38;
+      const colW = (W - PAD * 2 - GAP) / 2;
+      const cats = categorizeCards(deck.main_deck || []);
+      const sorted = (entries) => Object.entries(entries).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
+      const left = [];
+      for (const key of ["creatures", "spells", "lands"]) {
+        if (!cats[key].total) continue;
+        left.push({ heading: `${cats[key].label} (${cats[key].total})` }, ...sorted(cats[key].entries).map(([n, q]) => ({ n, q })));
+      }
+      const sb = flatGroup(deck.sideboard_deck || []);
+      const right = sb.length
+        ? [{ heading: `Sideboard (${sb.reduce((s, [, q]) => s + q, 0)})` }, ...sb.map(([n, q]) => ({ n, q }))]
+        : [];
+      const listTop = 250, SECTION_GAP = 18;
+      const layout = (rows) => {
+        let y = listTop;
+        return rows.map((row, i) => {
+          if (row.heading && i) y += SECTION_GAP;
+          const at = y + 28;
+          y += ROW;
+          return { ...row, y: at };
+        });
+      };
+      const leftRows = layout(left), rightRows = layout(right);
+      const bottom = Math.max(...[...leftRows, ...rightRows].map((r) => r.y), listTop);
+      const H = bottom + 130;
+
+      const canvas = document.createElement("canvas");
+      canvas.width = W;
+      canvas.height = H;
+      const ctx = canvas.getContext("2d");
+      ctx.fillStyle = bg;
+      ctx.fillRect(0, 0, W, H);
+      ctx.textBaseline = "alphabetic";
+
+      const fit = (str, max) => {
+        if (ctx.measureText(str).width <= max) return str;
+        while (str.length > 1 && ctx.measureText(str + "…").width > max) str = str.slice(0, -1);
+        return str + "…";
+      };
+
+      let x = PAD;
+      for (const c of deck.colors?.length ? deck.colors : ["C"]) {
+        ctx.fillStyle = (COLOR_MAP[c] || COLOR_MAP.C).hex;
+        ctx.beginPath();
+        ctx.arc(x + 14, 86, 14, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.strokeStyle = pipBorder;
+        ctx.lineWidth = 2;
+        ctx.stroke();
+        x += 36;
+      }
+      ctx.fillStyle = text;
+      ctx.font = `800 52px ${font}`;
+      ctx.fillText(fit(entry.player || "Unknown", W - x - PAD - 8), x + 12, 104);
+
+      const record = formatRecord(deck);
+      const archetype = classifyDeck(deck);
+      ctx.font = `600 32px ${font}`;
+      ctx.fillStyle = accent;
+      ctx.fillText(fit([archetype, record].filter(Boolean).join("  ·  ") || " ", W - PAD * 2), PAD, 160);
+      ctx.font = `400 28px ${font}`;
+      ctx.fillStyle = muted;
+      ctx.fillText(fit(`${entry.tournamentName || ""}  ·  ${formatDateBreadcrumb(entry.tournamentDate)}`, W - PAD * 2), PAD, 204);
+
+      const drawColumn = (rows, left) => {
+        rows.forEach(({ y, ...row }) => {
+          if (row.heading) {
+            ctx.font = `700 22px ${font}`;
+            ctx.fillStyle = faint;
+            ctx.fillText(row.heading.toUpperCase(), left, y);
+            return;
+          }
+          ctx.font = `600 26px ${font}`;
+          ctx.fillStyle = faint;
+          ctx.fillText(String(row.q), left, y);
+          ctx.font = `400 26px ${font}`;
+          ctx.fillStyle = text;
+          ctx.fillText(fit(row.n, colW - 44), left + 40, y);
+        });
+      };
+      drawColumn(leftRows, PAD);
+      drawColumn(rightRows, PAD + colW + GAP);
+
+      ctx.fillStyle = rule;
+      ctx.fillRect(PAD, H - 84, W - PAD * 2, 2);
+      ctx.font = `800 26px ${font}`;
+      ctx.fillStyle = text;
+      ctx.fillText("Merchant Scroll", PAD, H - 40);
+      ctx.font = `400 24px ${font}`;
+      ctx.fillStyle = faint;
+      const site = location.host + location.pathname.replace(/\/$/, "");
+      ctx.fillText(site, W - PAD - ctx.measureText(site).width, H - 40);
+
+      const bytes = atob(canvas.toDataURL("image/png").split(",")[1]);
+      const buf = new Uint8Array(bytes.length);
+      for (let i = 0; i < bytes.length; i++) buf[i] = bytes.charCodeAt(i);
+      return new Blob([buf], { type: "image/png" });
+    }
+
+    async function shareDeck(entry) {
+      const url = deckShareUrl(entry);
+      const title = [entry.player, classifyDeck(entry.decklist)].filter(Boolean).join(" · ");
+      let file = null;
+      try {
+        file = new File([renderShareImage(entry)], exportFilename(entry).replace(/\.txt$/, ".png"), { type: "image/png" });
+      } catch (err) {
+        console.warn("Share image failed:", err);
+      }
+
+      if (navigator.share) {
+        const data = { title, text: `${title}\n${url}` };
+        if (file && canShareDeckFile(file)) data.files = [file];
+        try {
+          await navigator.share(data);
+          return;
+        } catch (err) {
+          if (err?.name === "AbortError") return;
+        }
+      }
+
+      let copied = false;
+      try {
+        copied = await copyDecklistText(url);
+      } catch (_) {}
+      if (file) triggerBlobDownload(file, file.name);
+      showActionToast(
+        copied && file ? "Link copied · image downloaded"
+          : copied ? "Link copied"
+          : file ? "Image downloaded"
+          : "Could not share this deck on this device"
+      );
     }
 
     /* ── Color pips ── */
@@ -2319,6 +2478,12 @@
         downloadDecklist(entry).catch(console.warn);
       });
       actions.appendChild(downloadBtn);
+
+      const shareBtn = el("button", "deck-action-btn share-btn", "\u2197  Share");
+      shareBtn.type = "button";
+      shareBtn.setAttribute("aria-label", "Share deck as image and link");
+      bindDeckActionButton(shareBtn, () => shareDeck(entry));
+      actions.appendChild(shareBtn);
       container.appendChild(actions);
 
       return container;
@@ -2633,6 +2798,9 @@
           const jumpPlayer = params.get("player");
 
           if (jumpSite && jumpPlayer) {
+            // Shared links outlive the year filter above.
+            const jumpEntry = fullIndex.find((t) => t.site_name === jumpSite);
+            if (jumpEntry && !tournamentIndex.includes(jumpEntry)) tournamentIndex.push(jumpEntry);
             await ensureTournamentLoaded(jumpSite);
             filteredDecks = allDecks;
             const idx = filteredDecks.findIndex(
