@@ -1103,6 +1103,42 @@ class TestDeckStats(unittest.TestCase):
             self.assertEqual((profile["username"], profile["stats"]["irl_top8"]), ("mtgo_user", 1))
 
 
+class TestCrawlDecksParsing(unittest.TestCase):
+    def test_parses_json_without_mangling_names(self):
+        from unittest import mock
+
+        from src import crawler
+
+        payload = {
+            "description": "Pauper League",
+            "starttime": "2026-06-05",
+            "player_count": None,
+            "decklists": [
+                {
+                    "player": "untrue",
+                    "main_deck": [
+                        {
+                            "qty": "4",
+                            "sideboard": "false",
+                            "card_attributes": {"card_name": "Island", "card_type": "LAND"},
+                        }
+                    ],
+                    "sideboard_deck": [],
+                }
+            ],
+        }
+        page = f"<script>window.MTGO.decklists.data = {json.dumps(payload)};</script>"
+        url = "https://www.mtgo.com/decklist/pauper-league-2026-06-0510636"
+        response = mock.Mock(status_code=200, text=page)
+        with mock.patch.object(crawler.requests, "get", return_value=response):
+            data = crawler.crawl_decks(url)
+        self.assertEqual(data["decklists"][0]["player"], "untrue")
+
+        response.text = "<script>window.MTGO.decklists.data = {'a': 1};</script>"
+        with mock.patch.object(crawler.requests, "get", return_value=response):
+            self.assertIsNone(crawler.crawl_decks(url))
+
+
 class TestPauperwaveParser(unittest.TestCase):
     def test_placements_sorted_and_empty_file(self):
         from src.pauperwave_crawler import parse_tournament_file
