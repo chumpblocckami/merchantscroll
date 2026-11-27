@@ -20,17 +20,17 @@ Competitive and casual Pauper players who want to quickly browse recent tourname
 
 - Pauper format only
 - MTGO tournament decklists (Leagues, Challenges, Showcases, Preliminaries, and any other published event type)
+- Paper tournament decklists published by Pauperwave
 - Automated data pipeline (crawl, enrich, deploy)
 - Static frontend with card preview, color indicators, tournament badges, and interactive navigation
 - Deck archetype classification and naming (e.g., labeling a deck as "Mono Red Kuldotha")
 - Metagame breakdown on the frontend: archetype presence per tournament, per day, and over a timespan
+- Player and deck profiles, reachable from a deck or from search (`/`)
 
 ### Out of scope
 
 - Other formats (Modern, Legacy, Standard, etc.)
 - User accounts, comments, or social features
-- Paper tournament data (only MTGO)
-- Player search (planned for a future iteration)
 
 ## 5. Architecture
 
@@ -56,8 +56,8 @@ Competitive and casual Pauper players who want to quickly browse recent tourname
    f. Crawls only new tournaments, with minification and color enrichment
    g. Rebuilds `assets/pauper/index.json` (sorted by date descending)
    h. Writes `info.json` with the current UTC timestamp
-3. **GitHub Actions** commits and pushes any new/updated files
-4. **GitHub Pages** automatically redeploys on push
+3. **Hugging Face** receives the changed tournament files (`src/hub.py`); git carries only code
+4. **GitHub Actions** deploys the rebuilt site to GitHub Pages
 
 ### Key files
 
@@ -75,6 +75,7 @@ Competitive and casual Pauper players who want to quickly browse recent tourname
 | `assets/pauper/raw/{site_name}.json` | Per-tournament data files                           |
 | `assets/pauper/index.json`        | Tournament index (metadata + deck counts)              |
 | `assets/pauper/pools.json`        | Trophy leaderboards shared by every profile             |
+| `assets/pauper/player-names.json` | Player names and entry counts for search                |
 | `src/meta_stats.py`               | Per-event archetype counts for the metagame overview    |
 | `assets/pauper/meta/timeline.json`| Metagame timeline (archetype counts per event)          |
 | `info.json`                       | Last update timestamp                                  |

@@ -547,6 +547,39 @@ body {
   flex-shrink: 0;
 }
 
+/* 16px minimum: iOS Safari zooms the page when a smaller input takes focus. */
+.search-input {
+  flex-shrink: 0;
+  width: calc(100% - 32px);
+  padding: 8px 10px;
+  font: inherit;
+  font-size: 16px;
+  color: var(--text-1);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.search-results {
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.search-result {
+  grid-template-columns: 1fr auto;
+}
+
+.search-empty {
+  color: var(--text-faint);
+  font-size: 0.76em;
+  padding: 5px 0;
+}
+
 .player-modal-hint {
   margin-top: auto;
   flex-shrink: 0;
