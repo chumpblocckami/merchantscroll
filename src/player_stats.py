@@ -15,6 +15,7 @@ RAW_DIR = Path("assets/pauper/raw")
 PROFILES_DIR = Path("assets/pauper/players")
 IDENTITIES_PATH = Path("players/identities.json")
 POOLS_NAME = "pools.json"
+PLAYER_NAMES_NAME = "player-names.json"
 
 CURRENT_YEAR = str(datetime.now().year)
 
@@ -269,6 +270,15 @@ def rebuild_player_profiles(
     for path in profiles_dir.glob("*.json"):
         if path.stem not in filenames:
             path.unlink()
+
+    # Search list, kept out of profiles_dir so a player named "index" cannot clash.
+    names = [
+        [name, profile["stats"]["total_entries"]]
+        for profile in profiles.values()
+        for name in {profile["display_name"], profile["irl_name"]} - {None}
+    ]
+    names.sort(key=lambda row: (-row[1], row[0].lower()))
+    write_json(profiles_dir.parent / PLAYER_NAMES_NAME, names)
 
     print(f"Player profiles updated: {written} players.")
     return written

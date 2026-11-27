@@ -71,6 +71,8 @@
         <span class="header-deck-count info" id="deck-count"></span>
       </div>
       <div class="header-actions">
+        <button class="header-icon-btn search-btn" id="search-btn" type="button"
+          title="Search players and decks (/)" aria-label="Search players and decks">&#8981;</button>
         <button class="header-icon-btn metagame-btn" id="metagame-btn" type="button"
           title="Metagame breakdown (M)" aria-label="Metagame breakdown">&#9776;</button>
         <button class="header-icon-btn install-app-btn" id="install-app-btn" type="button"
@@ -997,6 +999,87 @@
     }
 
     $("player-modal-close").addEventListener("click", closePlayerModal);
+
+    /* ── Search ── */
+    const SEARCH_LIMIT = 30;
+    let searchIndexPromise = null;
+
+    function loadSearchIndex() {
+      const get = (url) => fetch(url, { cache: "no-store" }).then((r) => (r.ok ? r.json() : []));
+      searchIndexPromise ??= Promise.all([
+        get("assets/pauper/decks/index.json"),
+        get("assets/pauper/player-names.json"),
+      ])
+        .then(([decks, players]) => [
+          ...decks.map((d) => ({ name: d.archetype, count: d.entries, deck: true })),
+          ...players.map(([name, count]) => ({ name, count, deck: false })),
+        ])
+        .catch(() => {
+          searchIndexPromise = null;
+          return [];
+        });
+      return searchIndexPromise;
+    }
+
+    function openSearch() {
+      closeDropdown();
+      hidePreview();
+      const input = el("input", "search-input");
+      input.type = "search";
+      input.placeholder = "Player or deck";
+      input.autocomplete = "off";
+      input.spellcheck = false;
+      input.setAttribute("aria-label", "Search players and decks");
+      const list = el("ol", "player-modal-deck-list search-results");
+      const wrap = el("div", "player-modal-content");
+      wrap.append(input, list);
+      playerModalBody.replaceChildren(wrap);
+
+      async function render() {
+        const query = input.value.trim().toLowerCase();
+        const index = await loadSearchIndex();
+        if (input.value.trim().toLowerCase() !== query) return;
+        list.replaceChildren();
+        if (!query) return;
+        const hits = index
+          .filter((item) => item.name.toLowerCase().includes(query))
+          .sort((a, b) =>
+            b.name.toLowerCase().startsWith(query) - a.name.toLowerCase().startsWith(query) ||
+            b.count - a.count)
+          .slice(0, SEARCH_LIMIT);
+        if (!hits.length) {
+          list.appendChild(el("li", "search-empty", index.length ? "No player or deck matches." : "Search is unavailable right now."));
+          return;
+        }
+        for (const item of hits) {
+          const row = el("li", "player-modal-deck-item search-result");
+          const link = item.deck ? deckLink(item.name) : playerLink(item.name);
+          link.classList.remove("player-name");
+          link.classList.add("player-modal-deck-name");
+          row.appendChild(link);
+          row.appendChild(el("span", "player-modal-deck-count", `${item.deck ? "deck" : "player"} · ${item.count}`));
+          list.appendChild(row);
+        }
+      }
+
+      input.addEventListener("input", render);
+      input.addEventListener("keydown", (e) => {
+        if (e.key === "Escape") { e.preventDefault(); closePlayerModal(); }
+        if (e.key === "Enter") { e.preventDefault(); list.querySelector("button")?.click(); }
+      });
+
+      syncHeaderHeight();
+      playerModal.hidden = false;
+      playerModal.setAttribute("aria-hidden", "false");
+      requestAnimationFrame(() => {
+        playerModal.classList.add("open");
+        playerModalOpen = true;
+        input.focus();
+      });
+      loadSearchIndex();
+    }
+
+    $("search-btn").addEventListener("click", openSearch);
 
     /* ── Metagame overview ── */
     const META_TOP_ROWS = 12;
@@ -2402,6 +2485,7 @@
         return;
       }
       if (e.key === "m" || e.key === "M") { e.preventDefault(); openMetagame(); }
+      if (e.key === "/") { e.preventDefault(); openSearch(); }
       if (e.key === "ArrowDown") { e.preventDefault(); throttledGo(1); }
       if (e.key === "ArrowUp") { e.preventDefault(); throttledGo(-1); }
       if (e.key === "ArrowRight") { e.preventDefault(); openPlayerProfileFromDeck(); }

@@ -1108,6 +1108,9 @@ class TestDeckStats(unittest.TestCase):
             )
             profile = json.loads((out / "mario rossi.json").read_text())
             self.assertEqual((profile["username"], profile["stats"]["irl_top8"]), ("mtgo_user", 1))
+            # One search row when the display and IRL names coincide, kept outside players/.
+            names = json.loads((Path(tmp) / "player-names.json").read_text())
+            self.assertEqual(names, [["Mario Rossi", 1]])
 
 
 class TestCrawlDecksParsing(unittest.TestCase):
