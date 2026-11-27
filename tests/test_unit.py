@@ -107,6 +107,26 @@ class TestCanonicalStarttime(unittest.TestCase):
 
 
 class TestRefreshPolicy(unittest.TestCase):
+    def test_newest_mtgo_event_age_ignores_pauperwave_and_bad_dates(self):
+        import tempfile
+        from datetime import date
+        from pathlib import Path
+
+        from src.refresh_policy import days_since_newest_mtgo_event, is_active_league
+
+        with tempfile.TemporaryDirectory() as tmp:
+            raw = Path(tmp)
+            self.assertIsNone(days_since_newest_mtgo_event(raw))
+            for stem in (
+                "pauper-challenge-32-2026-06-1412844338",
+                "pauper-league-2026-02-3110196",
+                "pauperwave-2026-06-20-local",
+            ):
+                (raw / f"{stem}.json").write_text("{}")
+            age = days_since_newest_mtgo_event(raw, today=date(2026, 6, 19))
+            self.assertEqual(age, 5)
+        self.assertFalse(is_active_league("pauper-league-2026-02-3110196"))
+
     def test_active_league_within_week(self):
         from datetime import date
 

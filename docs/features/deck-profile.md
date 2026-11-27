@@ -25,7 +25,7 @@ Deck profile pages aggregate tournament history and statistics for a specific ar
 - `assets/pauper/decks/{slug}.json` — per-archetype profile
 - `assets/pauper/decks/index.json` — sorted index by entry count
 
-Rebuilt automatically after each crawl via `src/pipeline.py` and `entrypoint.py`.
+Rebuilt automatically after each crawl via `src/pipeline.py`.
 
 ## Frontend
 

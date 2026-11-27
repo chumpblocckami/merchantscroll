@@ -26,11 +26,12 @@ import argparse
 import os
 
 from src import hub
-from src.pipeline import rebuild_derived_artifacts, run
+from src.pipeline import RAW_DIR, rebuild_derived_artifacts, run
+from src.refresh_policy import STALE_AFTER_DAYS, days_since_newest_mtgo_event
 
 
 def main():
-    """Run the crawl pipeline and fail the process only on unexpected sources."""
+    """Run the crawl pipeline; fail on unexpected sources or stale MTGO data."""
     parser = argparse.ArgumentParser(description="Crawl new Pauper tournaments from MTGO")
     parser.add_argument(
         "--refresh-scryfall",
@@ -71,13 +72,21 @@ def main():
     else:
         print("\nDone. No new data.")
 
+    fail = False
     if failed_sources:
         print(f"\nSource(s) failed: {', '.join(failed_sources)}")
         # MTGO timeouts from GitHub runners are routine; a red X on those
         # floods the Actions inbox. Fail the job only for unexpected sources.
-        unexpected = [name for name in failed_sources if name != "mtgo"]
-        if unexpected:
-            raise SystemExit(1)
+        fail = any(name != "mtgo" for name in failed_sources)
+
+    # Tolerated MTGO failures must not hide a crawl that has stopped working.
+    age = None if args.build_only else days_since_newest_mtgo_event(RAW_DIR)
+    if age is not None and age > STALE_AFTER_DAYS:
+        print(f"\nNewest MTGO tournament is {age} days old; MTGO crawling is broken.")
+        fail = True
+
+    if fail:
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":
