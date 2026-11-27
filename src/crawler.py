@@ -1,8 +1,8 @@
 """Fetch and parse tournament listings and decklists from mtgo.com."""
 
+import json
 import re
 import time
-from ast import literal_eval
 
 import requests
 from bs4 import BeautifulSoup
@@ -58,7 +58,11 @@ def crawl_decks(
         print(f"No tournament data found in {tournament_url}")
         return None
 
-    tournament_data = literal_eval(match.group(1).replace("false", "False").replace("true", "True"))
+    try:
+        tournament_data = json.loads(match.group(1))
+    except json.JSONDecodeError as e:
+        print(f"Unparseable tournament data in {tournament_url}: {e}")
+        return None
     enrich_challenge_results(tournament_data)
     minified = minify_tournament_data(tournament_data)
     site_name = tournament_url.rstrip("/").split("/")[-1]
