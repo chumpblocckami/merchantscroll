@@ -980,6 +980,13 @@ class TestDeckStats(unittest.TestCase):
             self.assertEqual(profile["top_pilots"][0]["player"], "alice")
             self.assertEqual(profile["top_pilots"][0]["count"], 2)
 
+    def test_alias_file_maps_straight_to_canonical_names(self):
+        from src.classifier import ALIAS_PATH
+
+        aliases = json.loads(ALIAS_PATH.read_text())
+        # canonical_archetype resolves one hop, so a chained alias stays a variant.
+        self.assertEqual({k: v for k, v in aliases.items() if v in aliases}, {})
+
     def test_archetype_alias_merge(self):
         import tempfile
         from pathlib import Path
