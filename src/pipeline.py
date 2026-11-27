@@ -130,7 +130,7 @@ def crawl_new_tournaments(
             saved.append(site_name)
 
         # Bursting the tournament pages makes mtgo.com answer with a stub that
-        # carries no decklist JSON, so pace them as entrypoint.py already does.
+        # carries no decklist JSON, so pace them.
         time.sleep(1)
 
     print(f"\nCrawled {len(saved)} tournament(s) with decklists.")

@@ -11,14 +11,25 @@ from .utils import extract_date
 
 LEAGUE_WEEK_DAYS = 7
 RECENT_EVENT_RETRY_DAYS = 3
+# The longest gap between MTGO Pauper events since May 2025 is 3 days.
+STALE_AFTER_DAYS = 4
 
 
 def event_date(site_name: str) -> date | None:
     """Return the calendar date encoded in a tournament slug, if any."""
-    raw = extract_date(site_name)
-    if raw == "0000-00-00":
+    try:
+        return datetime.strptime(extract_date(site_name), "%Y-%m-%d").date()
+    except ValueError:
+        # No date ("0000-00-00") or one MTGO got wrong, e.g. 2026-02-31.
         return None
-    return datetime.strptime(raw, "%Y-%m-%d").date()
+
+
+def days_since_newest_mtgo_event(raw_dir: Path, *, today: date | None = None) -> int | None:
+    """Return how many days old the newest stored MTGO tournament is."""
+    dates = [d for path in raw_dir.glob("pauper-*.json") if (d := event_date(path.stem))]
+    if not dates:
+        return None
+    return ((today or datetime.now().date()) - max(dates)).days
 
 
 def is_active_league(site_name: str, *, today: date | None = None) -> bool:
